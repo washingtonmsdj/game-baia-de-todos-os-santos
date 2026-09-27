@@ -64,6 +64,10 @@
       "file_title": "File:Mercado Modelo - Salvador - 20220806152921.JPG",
       "page_url": "https://commons.wikimedia.org/wiki/File:Mercado_Modelo_-_Salvador_-_20220806152921.JPG",
       "suggested_view": "roof",
+      "coverage": [
+        {"location_id": "cais-praca-cairu", "view": "waterfront_context", "notes": "Ajuda a ler terminal/cais e implantação do Mercado."},
+        {"location_id": "baia-agua-mvp", "view": "waterfront_context", "notes": "Contextualiza a borda d'água do recorte."}
+      ],
       "status": "candidate",
       "expected_license": "verificar via API",
       "notes": ["Vista elevada útil para telhado, waterfront, Forte de São Marcelo e contexto portuário."]
@@ -119,6 +123,9 @@
       "file_title": "File:Praça Cairu Salvador Bahia 7637.jpg",
       "page_url": "https://commons.wikimedia.org/wiki/File:Pra%C3%A7a_Cairu_Salvador_Bahia_7637.jpg",
       "suggested_view": "street_context",
+      "coverage": [
+        {"location_id": "corredor-cidade-baixa", "view": "street_context", "notes": "Ajuda a ler a chegada à Praça Cairu pelo corredor inferior."}
+      ],
       "status": "candidate",
       "expected_license": "CC BY-SA 4.0",
       "notes": ["Georreferenciada, heading 122°, útil para reconstruir a borda urbana abaixo do Elevador."]
@@ -133,6 +140,104 @@
       "status": "candidate",
       "expected_license": "CC BY-SA 4.0",
       "notes": ["Georreferenciada com heading; referência recente de mobiliário/monumento e relação com o Elevador."]
+    },
+    {
+      "candidate_id": "praca-tome-portal-copa-2012",
+      "location_id": "praca-tome-de-sousa",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Praça Tomé de Souza.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Pra%C3%A7a_Tom%C3%A9_de_Souza.jpg",
+      "suggested_view": "street_context",
+      "coverage": [
+        {"location_id": "palacio-rio-branco", "view": "street_context", "notes": "Mostra o Palácio Rio Branco no contexto da praça."}
+      ],
+      "status": "candidate",
+      "expected_license": "CC BY 3.0 BR",
+      "notes": ["Mostra a Praça Tomé de Sousa com Palácio Rio Branco e Câmara Municipal; útil para implantação e escala urbana."]
+    },
+    {
+      "candidate_id": "praca-tome-panoramio-2010",
+      "location_id": "praca-tome-de-sousa",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Praça Thomé de Souza - panoramio.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Pra%C3%A7a_Thom%C3%A9_de_Souza_-_panoramio.jpg",
+      "suggested_view": "street_context",
+      "status": "candidate",
+      "expected_license": "CC BY-SA 3.0",
+      "notes": ["Georreferenciada em -12.974340, -38.512761; boa leitura ampla do piso e bordas da praça."]
+    },
+    {
+      "candidate_id": "praca-tome-acesso-elevador-webysther-2015",
+      "location_id": "praca-tome-de-sousa",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Webysther 20150907164641 - Elevador lacerda.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Webysther_20150907164641_-_Elevador_lacerda.jpg",
+      "suggested_view": "access",
+      "coverage": [
+        {"location_id": "elevador-lacerda", "view": "access", "notes": "Vista georreferenciada do acesso do Elevador na Cidade Alta."}
+      ],
+      "status": "candidate",
+      "expected_license": "CC BY-SA 4.0",
+      "notes": ["Georreferenciada em -12.973055, -38.515278; mostra o Elevador a partir do acesso da Cidade Alta."]
+    },
+    {
+      "candidate_id": "corredor-lafayete-conceicao-2017",
+      "location_id": "corredor-cidade-baixa",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Av. Lafayete Coutinho and Nossa Senhora da Conceição da Praia Salvador Bahia 7642.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Av._Lafayete_Coutinho_and_Nossa_Senhora_da_Concei%C3%A7%C3%A3o_da_Praia_Salvador_Bahia_7642.jpg",
+      "suggested_view": "street_context",
+      "status": "candidate",
+      "expected_license": "CC BY-SA 4.0",
+      "notes": ["Georreferenciada; referência de eixo viário, calçadas, escala urbana e entorno da Conceição da Praia na Cidade Baixa."]
+    },
+    {
+      "candidate_id": "waterfront-terezatorres-2014",
+      "location_id": "cais-praca-cairu",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Elevador Lacerda -Mercado Modelo e Baía de Todos -os- Santos - Foto Tereza Torres (14725212312).jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Elevador_Lacerda_-Mercado_Modelo_e_Ba%C3%ADa_de_Todos_-os-_Santos_-_Foto_Tereza_Torres_(14725212312).jpg",
+      "suggested_view": "waterfront_context",
+      "coverage": [
+        {"location_id": "baia-agua-mvp", "view": "waterfront_context", "notes": "Mostra relação visual entre cidade e Baía."},
+        {"location_id": "mercado-modelo", "view": "waterfront_context", "notes": "Contextualiza implantação costeira do Mercado."},
+        {"location_id": "praca-cairu", "view": "waterfront_context", "notes": "Ajuda a ler a borda marítima em relação à praça."},
+        {"location_id": "elevador-lacerda", "view": "street_context", "notes": "Contextualiza a torre na relação Cidade Alta/Cidade Baixa."}
+      ],
+      "status": "candidate",
+      "expected_license": "CC BY-SA 2.0",
+      "notes": ["Turismo Bahia / Tereza Torres, 16/07/2014; imagem ampla de Elevador, Mercado e Baía."]
+    },
+    {
+      "candidate_id": "waterfront-centro-historico-terezatorres-2014",
+      "location_id": "baia-agua-mvp",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Centro Histórico - Elevador Lacerda - Mercado Modelo e Baía de Todos- os - Santos- Foto - Tereza Torres -Setur (16277947841).jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Centro_Hist%C3%B3rico_-_Elevador_Lacerda_-_Mercado_Modelo_e_Ba%C3%ADa_de_Todos-_os_-_Santos-_Foto_-_Tereza_Torres_-Setur_(16277947841).jpg",
+      "suggested_view": "waterfront_context",
+      "coverage": [
+        {"location_id": "cais-praca-cairu", "view": "waterfront_context", "notes": "Vista ampla da relação cais/Baía."},
+        {"location_id": "mercado-modelo", "view": "waterfront_context", "notes": "Mostra implantação do Mercado no waterfront."},
+        {"location_id": "elevador-lacerda", "view": "street_context", "notes": "Mostra o Elevador inserido na escarpa e Cidade Baixa."}
+      ],
+      "status": "candidate",
+      "expected_license": "CC BY-SA 2.0",
+      "notes": ["Turismo Bahia / Tereza Torres; vista do Mirante da Praça Tomé de Souza para Cidade Baixa e Baía."]
+    },
+    {
+      "candidate_id": "waterfront-webysther-2015",
+      "location_id": "cais-praca-cairu",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Webysther 20150907165153 - Mercado modelo e baia de todos os santos.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Webysther_20150907165153_-_Mercado_modelo_e_baia_de_todos_os_santos.jpg",
+      "suggested_view": "waterfront_context",
+      "coverage": [
+        {"location_id": "baia-agua-mvp", "view": "waterfront_context", "notes": "Panorama de alta qualidade da Baía no recorte."},
+        {"location_id": "mercado-modelo", "view": "waterfront_context", "notes": "Mostra o Mercado e sua relação com o waterfront."}
+      ],
+      "status": "candidate",
+      "expected_license": "CC BY-SA 4.0",
+      "notes": ["Quality image de 6227×3892, georreferenciada em -12.973055, -38.515278."]
     }
   ]
 }
