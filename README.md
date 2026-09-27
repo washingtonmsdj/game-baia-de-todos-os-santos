@@ -15,14 +15,36 @@ A cena-fonte do Blender já contém terreno, geometria de referência derivada d
 
 O trabalho no Blender é continuado por meio de **passes Python versionados e não destrutivos** armazenados neste repositório. Assim, ChatGPT/Codex pode preparar melhorias no GitHub e aplicá-las depois dentro do Blender sem interromper repetidamente o fluxo de construção do mapa.
 
+## Fidelidade de Salvador
+
+A meta é reproduzir a cidade com alta fidelidade, priorizando primeiro a estrutura que define Salvador:
+
+- ruas, cruzamentos, calçadas, ladeiras e escadarias;
+- relevo e relação Cidade Alta/Cidade Baixa;
+- coastline, cais e limite terra/água;
+- posição, escala e silhueta dos marcos reais;
+- relação espacial entre edifícios, praças, vias e Baía de Todos-os-Santos.
+
+O projeto possui um pipeline formal de referências. Cada prédio/local recebe um `location_id`, classe de fidelidade, estado de modelagem e conjunto mínimo de vistas. Imagens reais ficam fora do Git pesado, mas sua origem, licença, hash SHA-256 e caminho lógico são registrados em manifests versionados.
+
+Consulte:
+
+- [`docs/REFERENCE_PRODUCTION_PIPELINE.md`](docs/REFERENCE_PRODUCTION_PIPELINE.md);
+- [`docs/CODEX_REFERENCE_HANDOFF.md`](docs/CODEX_REFERENCE_HANDOFF.md);
+- [`world/areas/mvp-centro-lacerda/README.md`](world/areas/mvp-centro-lacerda/README.md).
+
 ## Estrutura do repositório
 
 ```text
+AGENTS.md
+
 docs/
   PROJECT_VISION.md
   BLENDER_WORKFLOW.md
   CODEX_HANDOFF.md
+  CODEX_REFERENCE_HANDOFF.md
   DATA_PROVENANCE.md
+  REFERENCE_PRODUCTION_PIPELINE.md
   WORLD_DATA_ACQUISITION.md
   references/
     ALEPH.md
@@ -35,6 +57,19 @@ docs/
     R29.md
     R30_PLAN.md
 
+schemas/
+  area-reference.schema.json
+  location-reference.schema.json
+  media-manifest.schema.json
+
+world/
+  areas/
+    mvp-centro-lacerda/
+      README.md
+      area.json
+      locations.json
+      media-manifest.json
+
 tools/
   aleph/
     inspect_capture.py
@@ -45,6 +80,10 @@ tools/
     r29_optimization.py
     export_revision_reports.py
     extract_georef_hints.py
+  references/
+    validate_registry.py
+    register_media.py
+    reference_gaps.py
 ```
 
 ## Dados geográficos e Aleph
@@ -95,6 +134,28 @@ blender cena.blend --background \
 
 Consulte [`docs/references/ALEPH.md`](docs/references/ALEPH.md), [`docs/references/GEOREFERENCE_RECOVERY.md`](docs/references/GEOREFERENCE_RECOVERY.md), [`docs/DATA_PROVENANCE.md`](docs/DATA_PROVENANCE.md) e [`docs/WORLD_DATA_ACQUISITION.md`](docs/WORLD_DATA_ACQUISITION.md).
 
+## Referências visuais
+
+Validar o catálogo:
+
+```bash
+python tools/references/validate_registry.py --root .
+```
+
+Ver o que ainda falta para cada local:
+
+```bash
+python tools/references/reference_gaps.py --area mvp-centro-lacerda
+```
+
+Registrar uma foto real sem colocá-la no Git:
+
+```bash
+python tools/references/register_media.py --help
+```
+
+O acervo binário local deve ficar em `world-reference/` (ignorado pelo Git), enquanto o catálogo leve permanece em `world/areas/`.
+
 ## Política de revisões do Blender
 
 Cada automação do Blender deve:
@@ -117,7 +178,7 @@ Estado atual do pipeline:
 - **R27** — marcadores de QA, câmera de revisão e iluminação opcional de preview;
 - **R28** — guias de rota jogável, zonas de gameplay, classificação de exportação e auditoria de performance;
 - **R29** — auditoria e deduplicação conservadora de meshes comprovadamente idênticas, além de candidatos de LOD, colisão e chunks;
-- **R30** — próximo passe: evolução visual perceptível do recorte jogável, guiada pelas métricas reais da R29.
+- **R30** — próximo passe: evolução visual perceptível do recorte jogável, guiada pelas métricas reais da R29 e pelo catálogo de referências.
 
 A R29 possui dois modos: auditoria por padrão e aplicação exata somente com `--apply-exact`. Objetos `HERO` e `GAMEPLAY` ficam fora da deduplicação automática.
 

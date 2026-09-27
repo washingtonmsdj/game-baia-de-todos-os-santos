@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/bay-of-all-saints/area-reference.schema.json",
+  "title": "Bay of All Saints - Area Reference",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "area_id",
+    "name",
+    "status",
+    "bounds_wgs84",
+    "coordinate_system",
+    "fidelity_targets"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "area_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "name": {"type": "string", "minLength": 1},
+    "status": {
+      "enum": ["planned", "reference_ready", "blockout", "production", "review", "approved"]
+    },
+    "bounds_wgs84": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["south", "west", "north", "east"],
+      "properties": {
+        "south": {"type": ["number", "null"], "minimum": -90, "maximum": 90},
+        "west": {"type": ["number", "null"], "minimum": -180, "maximum": 180},
+        "north": {"type": ["number", "null"], "minimum": -90, "maximum": 90},
+        "east": {"type": ["number", "null"], "minimum": -180, "maximum": 180}
+      }
+    },
+    "coordinate_system": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_crs", "world_anchor_status", "meters_per_blender_unit"],
+      "properties": {
+        "source_crs": {"type": "string"},
+        "world_anchor_status": {"enum": ["unknown", "candidate", "verified"]},
+        "meters_per_blender_unit": {"type": ["number", "null"], "exclusiveMinimum": 0},
+        "rotation_true_north_deg": {"type": ["number", "null"]},
+        "notes": {"type": "string"}
+      }
+    },
+    "aleph_capture": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "capture_id": {"type": ["string", "null"]},
+        "pinned_commit": {"type": ["string", "null"]},
+        "manifest_sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"},
+        "source_summary": {"type": ["string", "null"]}
+      }
+    },
+    "fidelity_targets": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["roads", "terrain", "coastline", "hero_assets"],
+      "properties": {
+        "roads": {"enum": ["reference", "high", "survey_like"]},
+        "terrain": {"enum": ["reference", "high", "survey_like"]},
+        "coastline": {"enum": ["reference", "high", "survey_like"]},
+        "hero_assets": {"enum": ["reference", "high", "survey_like"]}
+      }
+    },
+    "notes": {"type": "array", "items": {"type": "string"}}
+  }
+}
