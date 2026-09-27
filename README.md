@@ -26,6 +26,7 @@ docs/
   WORLD_DATA_ACQUISITION.md
   references/
     ALEPH.md
+    GEOREFERENCE_RECOVERY.md
     SOURCE_REGISTRY.json
   reports/
   revisions/
@@ -43,6 +44,7 @@ tools/
     r28_gameplay_export.py
     r29_optimization.py
     export_revision_reports.py
+    extract_georef_hints.py
 ```
 
 ## Dados geográficos e Aleph
@@ -52,6 +54,14 @@ O projeto utiliza **Aleph** como ferramenta externa de aquisição/proveniência
 `Belluxx/Aleph@d24c61507481a91a0dd6afac4f97626a4e5ea780`
 
 O software Aleph é MIT, mas os dados obtidos por ele mantêm as licenças/termos de suas fontes originais.
+
+A análise do `.blend` recuperou uma pista da captura Aleph original do MVP:
+
+```text
+data/aleph/aleph-20260924T205631Z-aqqo7pkx/map.osm
+```
+
+Essa pista está registrada para recuperação futura; ela não substitui a validação do `manifest.json` original.
 
 Política atual:
 
@@ -75,7 +85,15 @@ python tools/aleph/capture_area.py \
   --bbox SOUTH WEST NORTH EAST
 ```
 
-Consulte [`docs/references/ALEPH.md`](docs/references/ALEPH.md), [`docs/DATA_PROVENANCE.md`](docs/DATA_PROVENANCE.md) e [`docs/WORLD_DATA_ACQUISITION.md`](docs/WORLD_DATA_ACQUISITION.md).
+Para extrair pistas geográficas diretamente de uma cena Blender:
+
+```bash
+blender cena.blend --background \
+  --python tools/blender/extract_georef_hints.py \
+  -- --output docs/reports/blender/georef_hints.json
+```
+
+Consulte [`docs/references/ALEPH.md`](docs/references/ALEPH.md), [`docs/references/GEOREFERENCE_RECOVERY.md`](docs/references/GEOREFERENCE_RECOVERY.md), [`docs/DATA_PROVENANCE.md`](docs/DATA_PROVENANCE.md) e [`docs/WORLD_DATA_ACQUISITION.md`](docs/WORLD_DATA_ACQUISITION.md).
 
 ## Política de revisões do Blender
 
