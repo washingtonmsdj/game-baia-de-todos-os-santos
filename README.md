@@ -22,17 +22,50 @@ docs/
   PROJECT_VISION.md
   BLENDER_WORKFLOW.md
   CODEX_HANDOFF.md
+  DATA_PROVENANCE.md
+  references/
+    ALEPH.md
+    SOURCE_REGISTRY.json
+  reports/
   revisions/
     R27.md
     R28.md
     R29.md
+    R30_PLAN.md
 
 tools/
+  aleph/
+    inspect_capture.py
   blender/
     r27_qa_review.py
     r28_gameplay_export.py
     r29_optimization.py
+    export_revision_reports.py
 ```
+
+## Dados geográficos e Aleph
+
+O projeto utiliza **Aleph** como ferramenta externa de aquisição/proveniência geográfica, com a revisão atualmente analisada pinada em:
+
+`Belluxx/Aleph@d24c61507481a91a0dd6afac4f97626a4e5ea780`
+
+O software Aleph é MIT, mas os dados obtidos por ele mantêm as licenças/termos de suas fontes originais.
+
+Política atual:
+
+- OpenStreetMap/Geofabrik: uso no pipeline com atribuição e obrigações ODbL;
+- terreno do Aleph: referência/MVP até confirmar a origem/licença efetiva do DEM usado;
+- Google Satellite obtido pelo Aleph: não usar como asset de produção;
+- Google Street View obtido pelo Aleph: não usar como asset/fonte derivativa automática de produção.
+
+Capturas Aleph podem ser inspecionadas sem copiar os arquivos pesados:
+
+```bash
+python tools/aleph/inspect_capture.py CAMINHO_DA_CAPTURA \
+  --output docs/reports/aleph/AREA_ID/source_summary.json
+```
+
+Consulte [`docs/references/ALEPH.md`](docs/references/ALEPH.md) e [`docs/DATA_PROVENANCE.md`](docs/DATA_PROVENANCE.md).
 
 ## Política de revisões do Blender
 
@@ -60,7 +93,7 @@ Estado atual do pipeline:
 
 A R29 possui dois modos: auditoria por padrão e aplicação exata somente com `--apply-exact`. Objetos `HERO` e `GAMEPLAY` ficam fora da deduplicação automática.
 
-Consulte [`docs/BLENDER_WORKFLOW.md`](docs/BLENDER_WORKFLOW.md), [`docs/CODEX_HANDOFF.md`](docs/CODEX_HANDOFF.md) e [`docs/revisions/R29.md`](docs/revisions/R29.md).
+Consulte [`docs/BLENDER_WORKFLOW.md`](docs/BLENDER_WORKFLOW.md), [`docs/CODEX_HANDOFF.md`](docs/CODEX_HANDOFF.md), [`docs/revisions/R29.md`](docs/revisions/R29.md) e [`docs/revisions/R30_PLAN.md`](docs/revisions/R30_PLAN.md).
 
 ## Idioma
 
