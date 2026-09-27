@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/bay-of-all-saints/location-reference.schema.json",
+  "title": "Bay of All Saints - Location Reference Registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "area_id", "locations"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "area_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "locations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "location_id",
+          "name",
+          "category",
+          "fidelity_class",
+          "priority",
+          "model_status",
+          "reference_status",
+          "production_rules"
+        ],
+        "properties": {
+          "location_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+          "name": {"type": "string", "minLength": 1},
+          "category": {
+            "enum": [
+              "hero_building",
+              "building",
+              "square",
+              "road",
+              "stairway",
+              "coastline",
+              "waterfront",
+              "terrain_feature",
+              "monument",
+              "infrastructure",
+              "poi"
+            ]
+          },
+          "fidelity_class": {"enum": ["A", "B", "C"]},
+          "priority": {"type": "integer", "minimum": 1, "maximum": 5},
+          "model_status": {
+            "enum": [
+              "not_started",
+              "proxy",
+              "blockout",
+              "modeling",
+              "review",
+              "approved",
+              "needs_rework",
+              "deprecated"
+            ]
+          },
+          "reference_status": {
+            "enum": ["missing", "partial", "sufficient", "verified"]
+          },
+          "osm": {
+            "type": ["object", "null"],
+            "additionalProperties": false,
+            "properties": {
+              "type": {"enum": ["node", "way", "relation"]},
+              "id": {"type": "integer", "minimum": 1},
+              "verified": {"type": "boolean"}
+            },
+            "required": ["type", "id", "verified"]
+          },
+          "position_wgs84": {
+            "type": ["object", "null"],
+            "additionalProperties": false,
+            "required": ["lat", "lon", "confidence"],
+            "properties": {
+              "lat": {"type": "number", "minimum": -90, "maximum": 90},
+              "lon": {"type": "number", "minimum": -180, "maximum": 180},
+              "confidence": {"enum": ["approximate", "derived", "verified"]}
+            }
+          },
+          "blender_binding": {
+            "type": ["object", "null"],
+            "additionalProperties": false,
+            "properties": {
+              "collection": {"type": ["string", "null"]},
+              "object_names": {"type": "array", "items": {"type": "string"}},
+              "custom_property": {"type": "string", "const": "boas_location_id"}
+            },
+            "required": ["object_names", "custom_property"]
+          },
+          "required_views": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "enum": [
+                "front",
+                "rear",
+                "left",
+                "right",
+                "oblique_left",
+                "oblique_right",
+                "roof",
+                "access",
+                "street_context",
+                "waterfront_context",
+                "detail"
+              ]
+            }
+          },
+          "production_rules": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["geometry_must_be_realigned", "manual_review_required"],
+            "properties": {
+              "geometry_must_be_realigned": {"type": "boolean"},
+              "manual_review_required": {"type": "boolean"},
+              "notes": {"type": "array", "items": {"type": "string"}}
+            }
+          },
+          "notes": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    }
+  }
+}
