@@ -2,7 +2,7 @@
 """Orquestra o pipeline estrutural sem esconder os artefatos intermediários.
 
 Entrada mínima: map.osm + georef_hints.json.
-Opcional: terrain.tif para auditoria de DEM e perfis viários.
+Opcional: terrain.tif para auditoria DEM, cobertura DEM↔OSM e perfis viários.
 """
 
 from __future__ import annotations
@@ -14,17 +14,22 @@ import sys
 from pathlib import Path
 
 
-def run(command: list[str], label: str) -> None:
+def run(command: list[str], label: str, allowed_returncodes: set[int] | None = None) -> int:
     print(f"\n== {label} ==")
     print("$ " + " ".join(command))
-    subprocess.run(command, check=True)
+    completed = subprocess.run(command)
+    allowed = allowed_returncodes or {0}
+    if completed.returncode not in allowed:
+        raise subprocess.CalledProcessError(completed.returncode, command)
+    return completed.returncode
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Executa OSM → QA topológico → fit geográfico → referência Blender.")
+    parser = argparse.ArgumentParser(description="Executa OSM → QA topológico/DEM → fit geográfico → referência Blender.")
     parser.add_argument("--osm", type=Path, required=True)
     parser.add_argument("--hints", type=Path, required=True)
     parser.add_argument("--dem", type=Path)
+    parser.add_argument("--dem-statistics", action="store_true", help="calcula estatísticas verticais no audit do DEM")
     parser.add_argument("--audit-road-profiles", action="store_true", help="requer --dem e rasterio")
     parser.add_argument("--output-dir", type=Path, default=Path("artifacts/structural-pipeline"))
     parser.add_argument("--min-anchors", type=int, default=4)
@@ -32,6 +37,8 @@ def main() -> int:
     parser.add_argument("--target-rms", type=float, default=3.0)
     parser.add_argument("--boundary-margin-m", type=float, default=15.0)
     parser.add_argument("--near-miss-m", type=float, default=1.5)
+    parser.add_argument("--dem-osm-minimum-margin-m", type=float, default=20.0)
+    parser.add_argument("--allow-insufficient-dem-coverage", action="store_true", help="diagnóstico somente; não transforma falta de cobertura em dado válido")
     parser.add_argument("--allow-weak-fit", action="store_true")
     args = parser.parse_args()
 
@@ -47,12 +54,17 @@ def main() -> int:
         raise SystemExit(f"georef_hints.json não encontrado: {hints}")
     if args.audit_road_profiles and not args.dem:
         raise SystemExit("--audit-road-profiles exige --dem")
+    if args.dem_statistics and not args.dem:
+        raise SystemExit("--dem-statistics exige --dem")
+    if args.dem_osm_minimum_margin_m < 0:
+        raise SystemExit("--dem-osm-minimum-margin-m não pode ser negativo")
 
     structure = output_dir / "osm_structure.json"
     topology = output_dir / "osm_topology_audit.json"
     fit = output_dir / "georef_fit.json"
     reference = output_dir / "structural_reference.json"
     dem_audit = output_dir / "dem_audit.json"
+    dem_osm_coverage = output_dir / "dem_osm_coverage.json"
     road_profiles = output_dir / "dem_road_profiles.json"
 
     dem = None
@@ -60,12 +72,15 @@ def main() -> int:
         dem = args.dem.resolve()
         if not dem.is_file():
             raise SystemExit(f"terrain.tif/DEM não encontrado: {dem}")
-        run([
+        command = [
             sys.executable,
             str(root / "tools/terrain/audit_dem.py"),
             "--dem", str(dem),
             "--output", str(dem_audit),
-        ], "Auditoria do DEM")
+        ]
+        if args.dem_statistics:
+            command.append("--statistics")
+        run(command, "Auditoria do DEM")
 
     run([
         sys.executable,
@@ -73,6 +88,21 @@ def main() -> int:
         "--osm", str(osm),
         "--output", str(structure),
     ], "Extração estrutural OSM")
+
+    dem_coverage_status = None
+    if dem is not None:
+        returncode = run([
+            sys.executable,
+            str(root / "tools/terrain/compare_dem_osm_coverage.py"),
+            "--dem-audit", str(dem_audit),
+            "--structure", str(structure),
+            "--output", str(dem_osm_coverage),
+            "--minimum-margin-m", str(args.dem_osm_minimum_margin_m),
+        ], "QA de cobertura DEM ↔ OSM", allowed_returncodes={0, 2} if args.allow_insufficient_dem_coverage else {0})
+        coverage_data = json.loads(dem_osm_coverage.read_text(encoding="utf-8"))
+        dem_coverage_status = coverage_data.get("status")
+        if returncode == 2:
+            print("WARNING: cobertura DEM insuficiente mantida apenas para diagnóstico por opção explícita.")
 
     run([
         sys.executable,
@@ -84,6 +114,8 @@ def main() -> int:
     ], "QA topológico OSM")
 
     if args.audit_road_profiles and dem is not None:
+        if dem_coverage_status == "insufficient" and not args.allow_insufficient_dem_coverage:
+            raise SystemExit("Cobertura DEM insuficiente; QA de perfis não deve extrapolar o raster.")
         run([
             sys.executable,
             str(root / "tools/terrain/audit_road_profiles.py"),
@@ -127,10 +159,12 @@ def main() -> int:
         "georef_fit": str(fit),
         "structural_reference": str(reference),
         "dem_audit": str(dem_audit) if dem else None,
+        "dem_osm_coverage": str(dem_osm_coverage) if dem else None,
+        "dem_coverage_status": dem_coverage_status,
         "dem_road_profiles": str(road_profiles) if args.audit_road_profiles else None,
         "fit_quality": quality,
         "topology_review_items": (topology_data.get("summary") or {}).get("review_items"),
-        "next_step": "revisar QA topológico/fit e importar structural_reference.json no Blender",
+        "next_step": "revisar QA topológico/DEM/fit e importar structural_reference.json no Blender",
     }
     print("\n== Pipeline concluído ==")
     print(json.dumps(summary, ensure_ascii=False, indent=2))
