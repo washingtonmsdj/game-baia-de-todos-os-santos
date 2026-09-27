@@ -1,17 +1,23 @@
-name: Validar scripts Python
+name: Validar scripts e referências
 
 on:
   push:
     paths:
       - "tools/**/*.py"
+      - "world/**/*.json"
+      - "schemas/**/*.json"
+      - "docs/references/**/*.json"
       - ".github/workflows/validate-python.yml"
   pull_request:
     paths:
       - "tools/**/*.py"
+      - "world/**/*.json"
+      - "schemas/**/*.json"
+      - "docs/references/**/*.json"
       - ".github/workflows/validate-python.yml"
 
 jobs:
-  syntax:
+  validation:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -26,6 +32,28 @@ jobs:
         run: |
           python -m compileall -q tools
 
-      - name: Validar CLI do inspector Aleph
+      - name: Validar sintaxe de todos os JSON versionados
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          paths = sorted(
+              list(Path("world").rglob("*.json"))
+              + list(Path("schemas").rglob("*.json"))
+              + list(Path("docs/references").rglob("*.json"))
+          )
+          for path in paths:
+              json.loads(path.read_text(encoding="utf-8"))
+              print(f"OK {path}")
+          PY
+
+      - name: Validar catálogo de referências
+        run: |
+          python tools/references/validate_registry.py --root .
+
+      - name: Validar CLIs auxiliares
         run: |
           python tools/aleph/inspect_capture.py --help >/dev/null
+          python tools/references/register_media.py --help >/dev/null
+          python tools/references/reference_gaps.py --help >/dev/null
