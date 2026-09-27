@@ -11,6 +11,11 @@ import json
 import math
 from pathlib import Path
 
+SUPPORTED_STRUCTURE_SCHEMAS = {
+    "bay-of-all-saints/osm-structure-v1",
+    "bay-of-all-saints/osm-structure-v2",
+}
+
 
 def load_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
@@ -41,6 +46,8 @@ def main() -> int:
     args = parser.parse_args()
 
     structure = load_json(args.structure)
+    if structure.get("schema") not in SUPPORTED_STRUCTURE_SCHEMAS:
+        raise SystemExit(f"schema estrutural não suportado: {structure.get('schema')}")
     fit_report = load_json(args.fit)
     robust = fit_report.get("robust_fit")
     quality = fit_report.get("quality")
@@ -51,7 +58,7 @@ def main() -> int:
 
     transformed = []
     for feature in structure.get("features", []):
-        transformed.append({
+        item = {
             "osm_type": feature["osm_type"],
             "osm_id": feature["osm_id"],
             "layer": feature["layer"],
@@ -61,11 +68,16 @@ def main() -> int:
             "blender_xy": [transform_point(p, robust) for p in feature.get("epsg3857", [])],
             "metrics": feature.get("metrics", {}),
             "tags": feature.get("tags", {}),
-        })
+        }
+        for key in ("relation_part_index", "member_way_ids", "relation_hole_count"):
+            if key in feature:
+                item[key] = feature[key]
+        transformed.append(item)
 
     payload = {
-        "schema": "bay-of-all-saints/blender-structure-reference-v1",
+        "schema": "bay-of-all-saints/blender-structure-reference-v2",
         "source_structure": str(args.structure),
+        "source_structure_schema": structure.get("schema"),
         "source_fit": str(args.fit),
         "fit_quality": quality,
         "fit_status": fit_report.get("status"),
@@ -79,7 +91,8 @@ def main() -> int:
         "features": transformed,
         "notes": [
             "Arquivo de sobreposição estrutural; não é geometria final.",
-            "OSM IDs e node_refs são preservados para auditoria/correção rastreável.",
+            "OSM IDs, node_refs e metadados de relações multipolygon são preservados para auditoria/correção rastreável.",
+            "Relações com holes não devem ser preenchidas cegamente: relation_hole_count sinaliza necessidade de revisão.",
             "Não promover correções automáticas enquanto o fit não estiver manualmente validado.",
         ],
     }
