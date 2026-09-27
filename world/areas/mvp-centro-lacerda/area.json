@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "area_id": "mvp-centro-lacerda",
+  "name": "MVP Centro — Elevador Lacerda, Praça Cairu e Mercado Modelo",
+  "status": "blockout",
+  "bounds_wgs84": {
+    "south": null,
+    "west": null,
+    "north": null,
+    "east": null
+  },
+  "coordinate_system": {
+    "source_crs": "EPSG:3857 + WGS84/OSM",
+    "world_anchor_status": "candidate",
+    "meters_per_blender_unit": null,
+    "rotation_true_north_deg": null,
+    "notes": "A cena indica alinhamento próximo ao Web Mercator e escala próxima de 1 m/unidade, mas a transformação final deve ser fechada com a captura Aleph original e múltiplos anchors OSM."
+  },
+  "aleph_capture": {
+    "capture_id": "aleph-20260924T205631Z-aqqo7pkx",
+    "pinned_commit": "d24c61507481a91a0dd6afac4f97626a4e5ea780",
+    "manifest_sha256": null,
+    "source_summary": null
+  },
+  "fidelity_targets": {
+    "roads": "high",
+    "terrain": "high",
+    "coastline": "high",
+    "hero_assets": "high"
+  },
+  "notes": [
+    "Não preencher bounds manualmente por estimativa; recuperar do manifest.json original ou de fonte geográfica validada.",
+    "Ruas, coastline/cais e relevo têm prioridade estrutural antes de decoração pesada.",
+    "Hero assets devem ser comparados com referências visuais antes de aprovação."
+  ]
+}
