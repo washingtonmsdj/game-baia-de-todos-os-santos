@@ -98,6 +98,36 @@ Conferir em ordem:
 
 Qualquer correção local deve existir como geometria/revisão derivada e documentada. Não modificar silenciosamente o raster-fonte.
 
+### D1 — QA do DEM sob ruas
+
+Quando `rasterio` estiver disponível, executar:
+
+```bash
+python tools/terrain/audit_road_profiles.py \
+  --dem CAMINHO/terrain.tif \
+  --structure artifacts/world/mvp-centro-lacerda/osm_structure.json \
+  --output docs/reports/aleph/mvp-centro-lacerda/dem_road_profiles.json
+```
+
+A `review_queue` serve para localizar:
+
+- `nodata`;
+- saltos verticais entre amostras próximas;
+- grades muito altas para revisão.
+
+Os thresholds são heurísticas. Um trecho marcado pode ser uma ladeira, escarpa, muro ou estrutura real. Cada caso deve ser classificado antes de correção.
+
+Classes de decisão recomendadas:
+
+```text
+real_feature
+dem_artifact
+alignment_issue
+source_uncertain
+```
+
+Não aplicar smoothing global por causa de flags locais.
+
 ## Etapa E — ruas e áreas pedonais
 
 Comparar a geometria atual contra `REF_ROADS`, `REF_PEDESTRIAN` e `REF_STEPS`.
@@ -141,6 +171,7 @@ Nesta revisão:
 
 - `source_summary.json`;
 - `dem_audit.json`;
+- `dem_road_profiles.json` quando aplicável;
 - `georef_hints.json`;
 - `georef_fit.json`;
 - `osm_structure.json` local/artifact;
@@ -158,6 +189,7 @@ R30A termina quando:
 - corredor principal não apresenta desalinhamentos grandes de planta;
 - coastline/cais do MVP são coerentes com a referência disponível;
 - terreno não possui artefatos críticos escondidos por geometria decorativa;
+- flags críticas do perfil DEM-vias foram classificadas;
 - Praça Cairu se conecta corretamente a vias, Elevador, Mercado e waterfront;
 - footprints dos marcos principais foram auditados;
 - toda aproximação remanescente está registrada.
