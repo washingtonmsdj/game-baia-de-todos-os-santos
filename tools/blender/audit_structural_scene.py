@@ -7,8 +7,8 @@ from __future__ import annotations
 
 import argparse
 import json
-import math
 import os
+import re
 import sys
 from collections import Counter
 
@@ -25,6 +25,9 @@ CATEGORY_KEYWORDS = {
     "water": ("mar", "agua", "água", "baia", "baía", "oceano", "water"),
     "buildings": ("edificio", "edifício", "predio", "prédio", "building", "mercado", "palacio", "palácio", "lacerda"),
 }
+OSM_ID_RE = re.compile(r"(?:\bOSM\b\D*|\bway\b\D*|\bnode\b\D*|\brelation\b\D*)(\d{5,})", re.IGNORECASE)
+OSM_PROPERTY_KEYS = {"osm_id", "osmid", "osm_way_id", "way_id", "osm_node_id", "node_id", "osm_relation_id", "relation_id"}
+REFERENCE_PREFIX = "SOURCE_GEOREF |"
 
 
 def parse_args():
@@ -44,6 +47,40 @@ def classify(obj) -> set[str]:
     return found
 
 
+def is_reference_object(obj) -> bool:
+    if obj.get("boas_reference_only"):
+        return True
+    return any(collection.name.startswith(REFERENCE_PREFIX) for collection in obj.users_collection)
+
+
+def json_value(value):
+    if isinstance(value, (str, int, float, bool)) or value is None:
+        return value
+    try:
+        return list(value)
+    except Exception:
+        return str(value)
+
+
+def osm_ids(obj) -> list[int]:
+    values = set()
+    candidates = [obj.name]
+    for key in obj.keys():
+        if key == "_RNA_UI":
+            continue
+        value = json_value(obj[key])
+        candidates.append(f"{key}={value}")
+        if str(key).casefold() in OSM_PROPERTY_KEYS:
+            try:
+                values.add(int(value))
+            except (TypeError, ValueError):
+                pass
+    for text in candidates:
+        for match in OSM_ID_RE.finditer(str(text)):
+            values.add(int(match.group(1)))
+    return sorted(values)
+
+
 def world_bounds(obj):
     if obj.type not in {"MESH", "CURVE", "SURFACE", "META", "FONT"}:
         return None
@@ -52,8 +89,8 @@ def world_bounds(obj):
     except Exception:
         return None
     return {
-        "min": [min(point[i] for point in points) for i in range(3)],
-        "max": [max(point[i] for point in points) for i in range(3)],
+        "min": [float(min(point[i] for point in points)) for i in range(3)],
+        "max": [float(max(point[i] for point in points)) for i in range(3)],
     }
 
 
@@ -85,15 +122,22 @@ def main():
     rows = []
     category_rows: dict[str, list[dict]] = {key: [] for key in CATEGORY_KEYWORDS}
     type_counts = Counter()
+    osm_object_count = 0
 
     for obj in bpy.data.objects:
-        categories = classify(obj)
-        if not categories:
+        if is_reference_object(obj):
             continue
+        ids = osm_ids(obj)
+        categories = classify(obj)
+        if not categories and not ids:
+            continue
+        if ids:
+            osm_object_count += 1
         row = {
             "name": obj.name,
             "type": obj.type,
             "categories": sorted(categories),
+            "osm_ids": ids,
             "collections": [collection.name for collection in obj.users_collection],
             "location": [float(v) for v in obj.matrix_world.translation],
             "scale": [float(v) for v in obj.scale],
@@ -125,9 +169,11 @@ def main():
         warnings.append("Nenhuma via foi identificada pelos nomes/coleções.")
     if not category_rows["water"] and not category_rows["waterfront"]:
         warnings.append("Nenhuma camada de água/waterfront foi identificada pelos nomes/coleções.")
+    if not osm_object_count:
+        warnings.append("Nenhum OSM ID foi detectado em objetos não-reference; comparação por ID ficará indisponível.")
 
     payload = {
-        "schema": "bay-of-all-saints/blender-structural-scene-audit-v1",
+        "schema": "bay-of-all-saints/blender-structural-scene-audit-v2",
         "blend_file": bpy.data.filepath,
         "blender_version": bpy.app.version_string,
         "scene_units": {
@@ -137,6 +183,8 @@ def main():
         },
         "summary": {
             "matched_objects": len(rows),
+            "objects_with_osm_ids": osm_object_count,
+            "unique_osm_ids": len({osm_id for row in rows for osm_id in row["osm_ids"]}),
             "object_types": dict(sorted(type_counts.items())),
             "categories": {key: value["object_count"] for key, value in categories.items()},
         },
@@ -145,8 +193,9 @@ def main():
         "warnings": warnings,
         "notes": [
             "Classificação é baseada em nomes/coleções e serve para auditoria inicial, não para semântica final.",
+            "OSM IDs são extraídos somente quando há prefixo/propriedade explícita; sufixos numéricos Blender não são interpretados como OSM.",
+            "Objetos SOURCE_GEOREF/boas_reference_only são excluídos para evitar comparar a referência com ela mesma.",
             "Não modifica objetos nem aplica transformações.",
-            "Depois de carregar SOURCE_GEOREF, comparar bounds/traçado antes de qualquer correção estrutural.",
         ],
     }
 
