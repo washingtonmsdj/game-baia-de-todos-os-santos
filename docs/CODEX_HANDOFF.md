@@ -1,114 +1,114 @@
-# Codex Handoff — Blender MVP
+# Handoff do Codex — MVP no Blender
 
-## Goal
+## Objetivo
 
-Continue the Salvador MVP scene without requiring repeated manual coordination.
+Continuar a cena do MVP de Salvador sem exigir coordenação manual repetida.
 
-The working Blender scene is expected to be provided locally to Codex. GitHub is the source of truth for automation scripts, revision notes, and validation instructions.
+A cena de trabalho do Blender deve ser fornecida localmente ao Codex. O GitHub será a fonte de verdade para scripts de automação, notas de revisão e instruções de validação.
 
-## Current scene context
+## Contexto atual da cena
 
-The analyzed source scene contained approximately:
+A cena-fonte analisada continha aproximadamente:
 
-- 4,617 objects;
-- 4,097 mesh datablocks;
-- 135 materials;
-- 30 collections;
-- 412 curves;
-- 54 cameras;
-- 1 explicit light;
-- thousands of automatically suffixed object names such as `.001`, `.002`, etc.
+- 4.617 objetos;
+- 4.097 datablocks de mesh;
+- 135 materiais;
+- 30 coleções;
+- 412 curvas;
+- 54 câmeras;
+- 1 luz explícita;
+- milhares de nomes com sufixos automáticos como `.001`, `.002` etc.
 
-The scene already includes multiple historical passes around Elevador Lacerda, Mercado Modelo, Praça Cairu, terrain, roads, accesses, and playable interiors.
+A cena já inclui várias revisões históricas ao redor do Elevador Lacerda, Mercado Modelo, Praça Cairu, terreno, vias, acessos e interiores jogáveis.
 
-Do not treat it as a fresh blockout.
+Não tratar a cena como um blockout novo.
 
-## Apply order
+## Ordem de aplicação
 
-When starting from the original analyzed scene:
+Ao começar pela cena original analisada:
 
-1. Run `tools/blender/r27_qa_review.py`.
-2. Open/validate the resulting `_r27.blend`.
-3. Run `tools/blender/r28_gameplay_export.py` on the newest valid scene.
-4. Open/validate `_r28.blend`.
-5. Read the Blender Text datablock `R28_PERFORMANCE_AUDIT` before performing optimization.
-6. Use the R28 audit to drive R29. Do not guess which repeated objects are safe to instance.
+1. executar `tools/blender/r27_qa_review.py`;
+2. abrir e validar o `_r27.blend` resultante;
+3. executar `tools/blender/r28_gameplay_export.py` sobre a cena válida mais recente;
+4. abrir e validar o `_r28.blend`;
+5. ler o datablock de texto `R28_PERFORMANCE_AUDIT` dentro do Blender antes de otimizar;
+6. usar a auditoria da R28 para orientar a R29; não adivinhar quais objetos repetidos podem virar instâncias.
 
-If the local source is already R27 or R28, skip earlier passes as appropriate.
+Se a cena local já estiver na R27 ou R28, pular as revisões anteriores conforme necessário.
 
-## Required validation after every pass
+## Validação obrigatória após cada revisão
 
-Codex should check all of the following before declaring a revision successful:
+O Codex deve verificar todos os pontos abaixo antes de considerar uma revisão bem-sucedida:
 
-- the source `.blend` still exists and was not overwritten;
-- the new revision file exists;
-- Blender can reopen the new file;
-- generated revision collections exist;
-- generated Text datablocks exist;
-- there are no Python exceptions in the Blender console/log;
-- total object counts remain plausible;
-- no mass deletion occurred;
-- landmark geometry is still present;
-- the affected gameplay route can be visually inspected.
+- o `.blend` de origem continua existindo e não foi sobrescrito;
+- o novo arquivo de revisão foi criado;
+- o Blender consegue reabrir o novo arquivo;
+- as coleções geradas pela revisão existem;
+- os datablocks de texto gerados existem;
+- não há exceções Python no console/log do Blender;
+- a contagem total de objetos continua plausível;
+- nenhuma exclusão em massa ocorreu;
+- a geometria dos principais marcos continua presente;
+- a rota de gameplay afetada pode ser inspecionada visualmente.
 
-## Current gameplay corridor
+## Corredor jogável atual
 
-The current MVP route is:
+A rota atual do MVP é:
 
-**Cidade Alta entrance → upper walkway → Elevador Lacerda cabins → lower exit → Cidade Baixa → Praça Cairu → Mercado Modelo**
+**entrada da Cidade Alta → passarela superior → cabines do Elevador Lacerda → saída inferior → Cidade Baixa → Praça Cairu → Mercado Modelo**
 
-The guide coordinates used by R27/R28 come from checkpoints already registered in the source scene. They are design guides, not certified survey data.
+As coordenadas usadas pelos guias R27/R28 vêm de checkpoints já registrados na própria cena. Elas são guias de design e não dados topográficos certificados.
 
-## R29 target
+## Objetivo da R29
 
-R29 should be a controlled performance pass.
+A R29 deve ser um passe controlado de performance.
 
-Priority order:
+Ordem de prioridade:
 
-1. identify truly identical repeated props/meshes;
-2. instance/link only equivalence that is proven safe;
-3. preserve object transforms and collection membership;
-4. avoid touching HERO or GAMEPLAY objects unless explicitly validated;
-5. generate simplified collision candidates instead of replacing render meshes;
-6. identify high-cost landmark meshes for manual LOD work;
-7. propose road/sidewalk chunk boundaries;
-8. produce before/after metrics;
-9. save as a new `_r29.blend` revision.
+1. identificar props/meshes realmente idênticos e repetidos;
+2. criar instâncias/vínculos somente quando a equivalência estiver comprovada;
+3. preservar transforms e vínculo com coleções;
+4. evitar alterar objetos `HERO` ou `GAMEPLAY` sem validação explícita;
+5. gerar candidatos simplificados de colisão em vez de substituir meshes de render;
+6. identificar meshes de alto custo dos marcos principais para trabalho manual de LOD;
+7. propor limites de chunks para ruas e calçadas;
+8. produzir métricas antes/depois;
+9. salvar uma nova revisão `_r29.blend`.
 
-## R29 safety constraints
+## Restrições de segurança da R29
 
-Do not automatically instance or merge objects when any of the following differ or are uncertain:
+Não criar instâncias nem unir objetos automaticamente quando qualquer um dos itens abaixo for diferente ou incerto:
 
-- vertex/edge/polygon topology;
-- UV data;
-- material slots/order;
-- color/custom attributes;
+- topologia de vértices/arestas/polígonos;
+- dados UV;
+- slots e ordem de materiais;
+- cores/atributos customizados;
 - shape keys;
-- mesh custom properties that affect the workflow;
-- object-specific modifiers that rely on unique mesh data;
-- gameplay metadata;
-- animation/deformation requirements.
+- propriedades customizadas do mesh que afetem o fluxo;
+- modifiers específicos do objeto dependentes de dados únicos;
+- metadados de gameplay;
+- requisitos de animação/deformação.
 
-Do not optimize by name alone.
+Não otimizar apenas com base no nome do objeto.
 
-## Visual/world-building work after optimization
+## Trabalho visual/construção de mundo após a otimização
 
-Once the MVP scene is technically stable, prioritize visible improvements:
+Quando o MVP estiver tecnicamente estável, priorizar melhorias perceptíveis:
 
-- street and sidewalk readability;
-- Praça Cairu composition;
-- Mercado Modelo surroundings;
-- Cidade Alta/Cidade Baixa transitions;
-- landmark silhouette quality;
-- vegetation distribution;
-- street furniture;
-- lighting and atmosphere;
-- traffic/pedestrian space;
-- gameplay cover, shortcuts, alleys, entrances, and traversal choices;
-- expansion-ready boundaries for adjacent districts.
+- leitura de ruas e calçadas;
+- composição da Praça Cairu;
+- entorno do Mercado Modelo;
+- transições entre Cidade Alta e Cidade Baixa;
+- qualidade das silhuetas dos marcos arquitetônicos;
+- distribuição de vegetação;
+- mobiliário urbano;
+- iluminação e atmosfera;
+- espaço para tráfego e pedestres;
+- cobertura, atalhos, becos, entradas e escolhas de travessia para gameplay;
+- limites preparados para expansão aos distritos adjacentes.
 
-## Documentation language
+## Idioma da documentação
 
-Repository documentation and development notes should be written in English.
+O nome do jogo permanece **All Saints**.
 
-Real Salvador place names should remain in Portuguese where that is the correct proper name.
+Toda a documentação, relatórios, handoffs e notas de desenvolvimento devem ser escritos em **português**. Nomes próprios reais de Salvador permanecem com sua grafia oficial.
