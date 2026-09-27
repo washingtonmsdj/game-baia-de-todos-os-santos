@@ -15,8 +15,10 @@ Leia, nesta ordem:
 1. `docs/CODEX_HANDOFF.md`;
 2. `docs/BLENDER_WORKFLOW.md`;
 3. `docs/REFERENCE_PRODUCTION_PIPELINE.md`;
-4. `docs/DATA_PROVENANCE.md`;
-5. `world/areas/mvp-centro-lacerda/README.md` quando trabalhar no MVP atual.
+4. `docs/CODEX_REFERENCE_HANDOFF.md`;
+5. `docs/REFERENCE_GALLERY.md`;
+6. `docs/DATA_PROVENANCE.md`;
+7. `world/areas/mvp-centro-lacerda/README.md` quando trabalhar no MVP atual.
 
 ## Fonte de verdade
 
@@ -45,9 +47,12 @@ Antes de modelar/revisar um local:
 ```bash
 python tools/references/validate_registry.py --root .
 python tools/references/reference_gaps.py --area mvp-centro-lacerda
+python tools/references/build_gallery.py --area mvp-centro-lacerda --media-root world-reference
 ```
 
-Use apenas referências catalogadas em `media-manifest.json` e respeite `usage_class`/proveniência.
+A galeria gerada em `artifacts/reference-gallery/` é o índice visual local. Ela não substitui os manifests.
+
+Use apenas referências catalogadas em `media-manifest.json` e respeite `usage_class`/proveniência. Candidatos de `reference-candidates.json` precisam passar por ingestão/verificação antes de serem tratados como mídia real.
 
 Regras obrigatórias:
 
@@ -56,7 +61,8 @@ Regras obrigatórias:
 - não promover Hero asset para `approved` sem as vistas mínimas definidas;
 - não usar Google Satellite/Street View obtidos pelo Aleph como asset de produção;
 - não versionar o acervo visual/geográfico pesado no Git comum;
-- registrar hash/proveniência das mídias reais com `tools/references/register_media.py`.
+- registrar hash/proveniência das mídias reais com `tools/references/register_media.py` ou `import_commons.py`;
+- usar `coverage` para uma mesma mídia que documenta vários locais, sem duplicar o binário.
 
 ## Aleph e geografia
 
@@ -85,7 +91,8 @@ Não implementar merge automático de novas áreas até a transformação mundo 
 Executar no mínimo:
 
 ```bash
-python -m compileall -q tools
+python -m compileall -q tools tests
+python -m unittest discover -s tests -p "test_*.py" -v
 python tools/references/validate_registry.py --root .
 ```
 

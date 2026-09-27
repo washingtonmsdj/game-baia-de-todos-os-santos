@@ -64,4 +64,5 @@ jobs:
           python tools/references/register_media.py --help >/dev/null
           python tools/references/reference_gaps.py --help >/dev/null
           python tools/references/import_commons.py --help >/dev/null
+          python tools/references/build_gallery.py --help >/dev/null
           python tools/georef/solve_osm_blender_fit.py --help >/dev/null
