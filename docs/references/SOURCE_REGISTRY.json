@@ -1,0 +1,69 @@
+{
+  "schema": "bay-of-all-saints/source-registry-v1",
+  "project": "Bay of All Saints",
+  "updated_at": "2026-09-27",
+  "sources": [
+    {
+      "id": "aleph-tool",
+      "type": "software",
+      "name": "Aleph",
+      "repository": "Belluxx/Aleph",
+      "repository_url": "https://github.com/Belluxx/Aleph",
+      "pinned_commit": "d24c61507481a91a0dd6afac4f97626a4e5ea780",
+      "license": "MIT",
+      "usage_class": "PRODUCAO_APROVADA",
+      "purpose": [
+        "aquisição de referência geográfica",
+        "manifesto/proveniência",
+        "OSM",
+        "terreno de referência"
+      ],
+      "notes": "A licença MIT cobre o software Aleph, não concede automaticamente direitos sobre dados obtidos de serviços externos."
+    },
+    {
+      "id": "osm-geofabrik",
+      "type": "geodata",
+      "name": "OpenStreetMap via Geofabrik",
+      "license": "ODbL",
+      "usage_class": "PRODUCAO_COM_ATRIBUICAO",
+      "purpose": [
+        "vias",
+        "footprints",
+        "POIs",
+        "implantação urbana",
+        "proxy/blockout"
+      ],
+      "attribution_required": true,
+      "notes": "Manter separado de hero assets e registrar obrigações concretas de atribuição/distribuição antes do release."
+    },
+    {
+      "id": "aleph-elevation-legacy-mvp",
+      "type": "terrain_reference",
+      "name": "Aleph DEM / terrain GeoTIFF — legado do MVP",
+      "crs_observed": "EPSG:3857",
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "purpose": [
+        "relevo de referência",
+        "blockout",
+        "Cidade Alta/Cidade Baixa"
+      ],
+      "notes": "A cena Blender analisada registra historicamente Aleph DEM + OSM. Confirmar a origem/licença efetiva do dataset de elevação da captura antes de distribuição comercial."
+    },
+    {
+      "id": "aleph-google-satellite",
+      "type": "imagery",
+      "name": "Google Satellite obtido pelo Aleph",
+      "usage_class": "PROIBIDO_PRODUCAO",
+      "purpose": [],
+      "notes": "Não versionar como asset, não redistribuir e não usar como base automática de modelagem de produção."
+    },
+    {
+      "id": "aleph-google-streetview",
+      "type": "imagery",
+      "name": "Google Street View obtido pelo Aleph",
+      "usage_class": "PROIBIDO_PRODUCAO",
+      "purpose": [],
+      "notes": "Não incorporar ao jogo/assets e não usar como fonte derivativa automática de produção."
+    }
+  ]
+}
