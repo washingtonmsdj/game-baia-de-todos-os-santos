@@ -21,6 +21,7 @@ ROAD_VALUES = {
     "motorway", "trunk", "primary", "secondary", "tertiary", "unclassified", "residential",
     "service", "living_street", "pedestrian", "track", "path", "footway", "cycleway", "steps"
 }
+VALID_MULTIPOLYGON_ROLES = {"outer", "inner"}
 
 
 def mercator(lat: float, lon: float) -> tuple[float, float]:
@@ -177,7 +178,7 @@ def _join_chain(chain: list[str], refs: list[str]) -> tuple[list[str], bool]:
 
 def assemble_member_rings(member_way_ids: list[int], raw_ways: dict[int, dict]) -> tuple[list[dict], list[int]]:
     """Monta cadeias/rings usando somente igualdade exata de node refs."""
-    missing_members = [way_id for way_id in member_way_ids if way_id not in raw_ways]
+    missing_members = sorted({way_id for way_id in member_way_ids if way_id not in raw_ways})
     remaining = {way_id: list(raw_ways[way_id]["refs"]) for way_id in member_way_ids if way_id in raw_ways}
     rings = []
 
@@ -204,22 +205,29 @@ def assemble_member_rings(member_way_ids: list[int], raw_ways: dict[int, dict]) 
     return rings, missing_members
 
 
+def normalized_multipolygon_members(relation: dict) -> tuple[dict[str, list[int]], list[dict]]:
+    """Separa membros suportados sem reinterpretar role desconhecido."""
+    members_by_role: dict[str, list[int]] = defaultdict(list)
+    unsupported = []
+    for member in relation.get("members", []):
+        if member.get("type") != "way":
+            unsupported.append({**member, "reason": "member_type_not_way"})
+            continue
+        raw_role = member.get("role") or ""
+        role = raw_role or "outer"
+        if role not in VALID_MULTIPOLYGON_ROLES:
+            unsupported.append({**member, "reason": "unsupported_role"})
+            continue
+        members_by_role[role].append(int(member["ref"]))
+    return members_by_role, unsupported
+
+
 def build_relation_features(relation: dict, raw_ways: dict[int, dict], nodes: dict[str, tuple[float, float]]) -> list[dict]:
     tags = relation.get("tags") or {}
     if tags.get("type") != "multipolygon" or not relation.get("layer"):
         return []
 
-    members_by_role: dict[str, list[int]] = defaultdict(list)
-    unsupported_members = []
-    for member in relation.get("members", []):
-        if member.get("type") != "way":
-            unsupported_members.append(member)
-            continue
-        role = member.get("role") or "outer"
-        if role not in {"outer", "inner"}:
-            role = "outer" if not role else role
-        members_by_role[role].append(int(member["ref"]))
-
+    members_by_role, unsupported_members = normalized_multipolygon_members(relation)
     features = []
     for role in ("outer", "inner"):
         way_ids = members_by_role.get(role, [])
@@ -261,19 +269,48 @@ def build_relation_features(relation: dict, raw_ways: dict[int, dict], nodes: di
     return features
 
 
-def relation_features_and_covered_ways(relations: list[dict], raw_ways: dict[int, dict], nodes: dict[str, tuple[float, float]]) -> tuple[list[dict], dict[int, set[str]]]:
+def relation_diagnostic(relation: dict, raw_ways: dict[int, dict], built_features: list[dict]) -> dict:
+    members_by_role, unsupported = normalized_multipolygon_members(relation)
+    supported_way_ids = sorted({way_id for ids in members_by_role.values() for way_id in ids})
+    missing = sorted(way_id for way_id in supported_way_ids if way_id not in raw_ways)
+    return {
+        "osm_key": f"relation/{relation['id']}",
+        "osm_id": relation["id"],
+        "layer": relation.get("layer"),
+        "supported_member_way_count": len(supported_way_ids),
+        "missing_member_way_ids": missing,
+        "unsupported_members": unsupported,
+        "emitted_ring_features": len(built_features),
+        "open_ring_features": sum(1 for feature in built_features if not feature.get("closed")),
+        "outer_ring_features": sum(1 for feature in built_features if feature.get("relation_role") == "outer"),
+        "inner_ring_features": sum(1 for feature in built_features if feature.get("relation_role") == "inner"),
+    }
+
+
+def relation_features_and_covered_ways(
+    relations: list[dict],
+    raw_ways: dict[int, dict],
+    nodes: dict[str, tuple[float, float]],
+) -> tuple[list[dict], dict[int, set[str]], list[dict]]:
     relation_features = []
     covered: dict[int, set[str]] = defaultdict(set)
+    diagnostics = []
     for relation in relations:
+        tags = relation.get("tags") or {}
+        if tags.get("type") != "multipolygon" or not relation.get("layer"):
+            continue
         built = build_relation_features(relation, raw_ways, nodes)
         relation_features.extend(built)
+        diagnostics.append(relation_diagnostic(relation, raw_ways, built))
         for feature in built:
             if not feature.get("closed"):
+                continue
+            if feature.get("missing_member_way_count") or feature.get("unsupported_relation_members"):
                 continue
             layer = feature.get("layer")
             for way_id in feature.get("member_way_ids", []):
                 covered[int(way_id)].add(layer)
-    return relation_features, covered
+    return relation_features, covered, diagnostics
 
 
 def compute_bounds(features: list[dict], key: str) -> dict | None:
@@ -300,7 +337,7 @@ def main() -> int:
         raise SystemExit(f"map.osm não encontrado: {osm}")
 
     nodes, raw_ways, relations = parse_osm_document(osm)
-    relation_features, covered_ways = relation_features_and_covered_ways(relations, raw_ways, nodes)
+    relation_features, covered_ways, relation_diagnostics = relation_features_and_covered_ways(relations, raw_ways, nodes)
 
     features = []
     skipped = 0
@@ -317,8 +354,14 @@ def main() -> int:
             skipped += 1
     features.extend(relation_features)
 
-    features.sort(key=lambda item: (item["layer"], item["osm_type"], item["osm_id"], item.get("relation_role", ""), item.get("relation_ring_index", -1)))
+    features.sort(key=lambda item: (
+        item["layer"], item["osm_type"], item["osm_id"], item.get("relation_role", ""), item.get("relation_ring_index", -1)
+    ))
     layer_counts = Counter(item["layer"] for item in features)
+    relations_with_issues = [
+        diag for diag in relation_diagnostics
+        if diag["missing_member_way_ids"] or diag["unsupported_members"] or diag["open_ring_features"] or diag["outer_ring_features"] == 0
+    ]
     payload = {
         "schema": "bay-of-all-saints/osm-structure-v1",
         "source": {"osm_path": str(osm), "crs_source": "EPSG:4326", "crs_projected": "EPSG:3857"},
@@ -329,8 +372,10 @@ def main() -> int:
             "ways_loaded": len(raw_ways),
             "ways_classified": len(classified_ways),
             "relations_loaded": len(relations),
-            "multipolygon_relations_classified": len({feature["osm_id"] for feature in relation_features}),
+            "multipolygon_relations_classified": len(relation_diagnostics),
+            "multipolygon_relations_with_issues": len(relations_with_issues),
             "relation_ring_features": len(relation_features),
+            "unsupported_relation_members": sum(len(diag["unsupported_members"]) for diag in relation_diagnostics),
             "duplicate_way_features_suppressed": duplicate_way_features_suppressed,
             "features_emitted": len(features),
             "features_skipped_missing_nodes": skipped,
@@ -339,12 +384,14 @@ def main() -> int:
             "unclosed_relation_rings": sum(1 for item in relation_features if not item.get("closed")),
             "layers": dict(sorted(layer_counts.items())),
         },
+        "relation_diagnostics": relation_diagnostics,
         "features": features,
         "notes": [
             "Geometrias são referência estrutural derivada de OSM, não arte final.",
             "Relations type=multipolygon são montadas somente por node refs exatos; nenhuma ponta é aproximada/encaixada por distância.",
+            "Role vazio de member way é tratado como outer; roles não vazios desconhecidos são registrados como unsupported e nunca reinterpretados.",
             "Rings outer e inner permanecem separados e rastreáveis por relation ID + role + ring index.",
-            "Way membro só é suprimido como duplicata quando participa de ring relation fechado da mesma layer.",
+            "Way membro só é suprimido como duplicata quando participa de ring relation fechado, completo e sem member/role ambíguo da mesma layer.",
             "node_refs são preservados para auditoria topológica e continuidade.",
             "width_m_tagged e lanes_tagged só são preenchidos quando existem explicitamente no OSM.",
             "length/area usam EPSG:3857 e servem para auditoria relativa; não são levantamento cadastral.",
