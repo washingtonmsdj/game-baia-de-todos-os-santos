@@ -70,3 +70,4 @@ jobs:
           python tools/world/build_blender_structure_reference.py --help >/dev/null
           python tools/world/run_structural_pipeline.py --help >/dev/null
           python tools/terrain/audit_dem.py --help >/dev/null
+          python tools/terrain/audit_road_profiles.py --help >/dev/null
