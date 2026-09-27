@@ -23,6 +23,7 @@ docs/
   BLENDER_WORKFLOW.md
   CODEX_HANDOFF.md
   DATA_PROVENANCE.md
+  WORLD_DATA_ACQUISITION.md
   references/
     ALEPH.md
     SOURCE_REGISTRY.json
@@ -36,6 +37,7 @@ docs/
 tools/
   aleph/
     inspect_capture.py
+    capture_area.py
   blender/
     r27_qa_review.py
     r28_gameplay_export.py
@@ -58,14 +60,22 @@ Política atual:
 - Google Satellite obtido pelo Aleph: não usar como asset de produção;
 - Google Street View obtido pelo Aleph: não usar como asset/fonte derivativa automática de produção.
 
-Capturas Aleph podem ser inspecionadas sem copiar os arquivos pesados:
+Para uma captura já existente:
 
 ```bash
 python tools/aleph/inspect_capture.py CAMINHO_DA_CAPTURA \
   --output docs/reports/aleph/AREA_ID/source_summary.json
 ```
 
-Consulte [`docs/references/ALEPH.md`](docs/references/ALEPH.md) e [`docs/DATA_PROVENANCE.md`](docs/DATA_PROVENANCE.md).
+Para criar uma nova captura territorial padronizada, limitada intencionalmente a `osm` + terreno:
+
+```bash
+python tools/aleph/capture_area.py \
+  --area-id centro-historico \
+  --bbox SOUTH WEST NORTH EAST
+```
+
+Consulte [`docs/references/ALEPH.md`](docs/references/ALEPH.md), [`docs/DATA_PROVENANCE.md`](docs/DATA_PROVENANCE.md) e [`docs/WORLD_DATA_ACQUISITION.md`](docs/WORLD_DATA_ACQUISITION.md).
 
 ## Política de revisões do Blender
 
