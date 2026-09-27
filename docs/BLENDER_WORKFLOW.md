@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Este repositório armazena passes reproduzíveis de automação do Blender para o projeto de mundo aberto ambientado em Salvador.
+Este repositório armazena passes reproduzíveis de automação do Blender para o projeto **Bay of All Saints**, ambientado em Salvador.
 
 O arquivo `.blend` de trabalho continua sendo a cena-fonte, enquanto os scripts Python em `tools/blender/` descrevem alterações controladas que podem ser aplicadas depois pelo Codex ou por um desenvolvedor executando o Blender localmente.
 
@@ -27,7 +27,7 @@ Todo script de revisão deve seguir estas regras:
 9. Armazenar um bloco de texto interno no Blender ou metadados da cena descrevendo a revisão.
 10. Emitir um resumo útil no console.
 
-## Estrutura sugerida do repositório
+## Estrutura atual
 
 ```text
 tools/blender/
@@ -43,7 +43,9 @@ docs/revisions/
 
 ## Como o Codex deve aplicar uma revisão do Blender
 
-O Codex deve usar o `.blend` validado mais recente disponível localmente e executar o Blender pela linha de comando, por exemplo:
+O Codex deve usar o `.blend` validado mais recente disponível localmente e executar o Blender pela linha de comando.
+
+Exemplo:
 
 ```bash
 blender current_scene.blend --python tools/blender/r28_gameplay_export.py
@@ -62,6 +64,30 @@ Após a execução, o Codex deve verificar:
 - se o arquivo resultante pode ser reaberto.
 
 Em revisões com alterações visuais ou espaciais, o Codex também deve abrir a cena e inspecionar a área afetada antes de considerar a revisão concluída.
+
+## Gate especial da R29
+
+A R29 possui dois modos e **não deve ser aplicada diretamente sem auditoria**.
+
+### Etapa 1 — auditoria
+
+```bash
+blender cena_r28.blend --python tools/blender/r29_optimization.py
+```
+
+Nenhum `obj.data` é relinkado. O Codex deve ler os relatórios internos e validar os candidatos.
+
+### Etapa 2 — aplicação exata
+
+Somente depois da validação da auditoria:
+
+```bash
+blender cena_r28.blend --python tools/blender/r29_optimization.py -- --apply-exact
+```
+
+A aplicação automática fica limitada a meshes cujo conteúdo considerado pelo fingerprint seja equivalente e cujos usuários não pertençam a `HERO` ou `GAMEPLAY`.
+
+Qualquer mesh com shape key, animation data, custom properties ou atributo não suportado é ignorada por segurança.
 
 ## Política para arquivos binários
 
@@ -84,6 +110,8 @@ Toda a documentação, handoffs, relatórios e notas de desenvolvimento do repos
 
 Nomes reais de locais de Salvador devem permanecer com sua grafia oficial em português. Termos técnicos consolidados, nomes de APIs, propriedades, comandos e identificadores de código podem permanecer no idioma exigido pela ferramenta.
 
+Identificadores históricos como `allsaints_*` permanecem por compatibilidade e não devem ser renomeados em massa.
+
 ## Níveis de segurança
 
 ### Seguro / padrão
@@ -99,7 +127,7 @@ Nomes reais de locais de Salvador devem permanecer com sua grafia oficial em por
 
 ### Exige validação
 
-- substituir meshes repetidas por instâncias vinculadas;
+- relinkar meshes equivalentes para um datablock compartilhado;
 - criar meshes de colisão;
 - criar LODs;
 - consolidar vias por chunks espaciais;
@@ -121,5 +149,6 @@ Nomes reais de locais de Salvador devem permanecer com sua grafia oficial em por
 
 - **R27:** marcadores de QA, câmera de revisão e iluminação opcional de preview.
 - **R28:** guias de rota jogável, zonas de gameplay, classificação de exportação e auditoria de performance.
-- **R29:** otimização controlada baseada na auditoria real da R28.
-- **R30+:** passes visuais/construção de mundo, endurecimento de colisão/exportação e expansão da área jogável.
+- **R29:** auditoria + deduplicação conservadora de meshes exatas + candidatos de LOD/colisão/chunks.
+- **R30:** passe visual perceptível do MVP, começando por Praça Cairu, Mercado Modelo, saída inferior do Elevador Lacerda, ruas, calçadas e leitura de gameplay.
+- **R31+:** colisão/exportação, sistemas de tráfego/pedestres, expansão territorial e novos distritos.
