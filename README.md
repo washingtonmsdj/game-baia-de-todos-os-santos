@@ -1,6 +1,6 @@
-# All Saints — Salvador em Mundo Aberto
+# Bay of All Saints — Salvador em Mundo Aberto
 
-> **Nome do jogo:** All Saints  
+> **Nome do jogo:** Bay of All Saints  
 > **Tagline:** *Todos têm um preço. Ninguém é santo.*
 
 Jogo de ação em mundo aberto ambientado em Salvador, Bahia, Brasil.
