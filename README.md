@@ -13,7 +13,7 @@ O projeto está construindo o primeiro recorte urbano jogável ao redor do Eleva
 
 A cena-fonte do Blender já contém terreno, geometria de referência derivada de OSM, vias, marcos arquitetônicos, sistema do Elevador Lacerda, Mercado Modelo, Praça Cairu, áreas de circulação jogáveis e várias revisões internas.
 
-O trabalho no Blender será continuado por meio de **passes Python versionados e não destrutivos** armazenados neste repositório. Assim, ChatGPT/Codex pode preparar melhorias no GitHub e aplicá-las depois dentro do Blender sem interromper repetidamente o fluxo de construção do mapa.
+O trabalho no Blender é continuado por meio de **passes Python versionados e não destrutivos** armazenados neste repositório. Assim, ChatGPT/Codex pode preparar melhorias no GitHub e aplicá-las depois dentro do Blender sem interromper repetidamente o fluxo de construção do mapa.
 
 ## Estrutura do repositório
 
@@ -25,11 +25,13 @@ docs/
   revisions/
     R27.md
     R28.md
+    R29.md
 
 tools/
   blender/
     r27_qa_review.py
     r28_gameplay_export.py
+    r29_optimization.py
 ```
 
 ## Política de revisões do Blender
@@ -51,8 +53,17 @@ Cada automação do Blender deve:
 
 Estado atual do pipeline:
 
-- R27 — marcadores de QA, câmera de revisão e iluminação opcional de preview;
-- R28 — guias de rota jogável, zonas de gameplay, classificação de exportação e auditoria de performance;
-- R29 — otimização controlada planejada com base na auditoria da R28.
+- **R27** — marcadores de QA, câmera de revisão e iluminação opcional de preview;
+- **R28** — guias de rota jogável, zonas de gameplay, classificação de exportação e auditoria de performance;
+- **R29** — auditoria e deduplicação conservadora de meshes comprovadamente idênticas, além de candidatos de LOD, colisão e chunks;
+- **R30** — próximo passe: evolução visual perceptível do recorte jogável, guiada pelas métricas reais da R29.
 
-Consulte [`docs/BLENDER_WORKFLOW.md`](docs/BLENDER_WORKFLOW.md) e [`docs/CODEX_HANDOFF.md`](docs/CODEX_HANDOFF.md).
+A R29 possui dois modos: auditoria por padrão e aplicação exata somente com `--apply-exact`. Objetos `HERO` e `GAMEPLAY` ficam fora da deduplicação automática.
+
+Consulte [`docs/BLENDER_WORKFLOW.md`](docs/BLENDER_WORKFLOW.md), [`docs/CODEX_HANDOFF.md`](docs/CODEX_HANDOFF.md) e [`docs/revisions/R29.md`](docs/revisions/R29.md).
+
+## Idioma
+
+O nome do jogo permanece em inglês: **Bay of All Saints**.
+
+Documentação, relatórios, handoffs e notas de desenvolvimento são mantidos em **português**.
