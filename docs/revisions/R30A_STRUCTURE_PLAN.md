@@ -7,6 +7,7 @@ Tornar o recorte **Cidade Alta → Elevador Lacerda → Praça Cairu → Mercado
 Esta revisão não existe para decorar a cena. Ela existe para corrigir:
 
 - origem/escala/rotação do mundo;
+- relação vertical DEM ↔ Blender;
 - terreno e escarpa;
 - eixos viários;
 - cruzamentos e conexões pedonais;
@@ -27,7 +28,7 @@ A R30A só começa depois de:
 
 Se o `map.osm` histórico não for recuperado, registrar o bloqueio e não fingir que outro recorte OSM é idêntico ao usado na cena.
 
-## Etapa A — fit geográfico
+## Etapa A — fit geográfico XY
 
 Executar o solver e revisar:
 
@@ -116,30 +117,49 @@ Não criar correspondência por semelhança de nome. Não mover objeto apenas po
 
 Consultar `docs/SCENE_REFERENCE_ALIGNMENT_QA.md`.
 
-Também revisar:
-
-- bounds do terreno;
-- Z mínimo/máximo;
-- escalas não uniformes;
-- vias/calçadas identificadas;
-- água/waterfront;
-- contenções/escadas;
-- footprints/proxies de edifícios.
-
-## Etapa E — terreno
+## Etapa E — terreno e relação vertical
 
 Conferir em ordem:
 
 1. bounds do DEM contra a área do Blender;
 2. CRS e pixel size;
-3. Cidade Alta e Cidade Baixa;
-4. escarpa entre os dois níveis;
-5. regiões em que o DEM bruto gerou cliff/spike;
-6. interfaces com acessos do Elevador;
-7. Praça Cairu e entorno do Mercado;
-8. aproximação do cais.
+3. relação vertical DEM ↔ Z Blender;
+4. Cidade Alta e Cidade Baixa;
+5. escarpa entre os dois níveis;
+6. regiões em que o DEM bruto gerou cliff/spike;
+7. interfaces com acessos do Elevador;
+8. Praça Cairu e entorno do Mercado;
+9. aproximação do cais.
 
 Qualquer correção local deve existir como geometria/revisão derivada e documentada. Não modificar silenciosamente o raster-fonte.
+
+### E0 — fit vertical DEM ↔ Blender
+
+Exportar amostras da mesh de terreno:
+
+```bash
+blender cena.blend --background \
+  --python tools/blender/export_terrain_samples.py \
+  -- --output docs/reports/blender/terrain_samples.json
+```
+
+Quando a seleção automática capturar objetos indevidos, repetir com `--include-regex` restritivo.
+
+Calcular:
+
+```bash
+python tools/terrain/fit_dem_blender_vertical.py \
+  --samples docs/reports/blender/terrain_samples.json \
+  --fit artifacts/structural-pipeline/mvp-centro-lacerda/georef_fit.json \
+  --dem CAMINHO/terrain.tif \
+  --output docs/reports/blender/terrain_vertical_fit.json
+```
+
+Revisar escala vertical, offset, relação com escala XY, RMS, resíduos por objeto e maiores outliers.
+
+Não aplicar reescala Z ou offset global automaticamente. Outliers podem ser correções locais legítimas ou objetos históricos que não representam a superfície principal.
+
+Consultar `docs/DEM_BLENDER_VERTICAL_FIT.md`.
 
 ### E1 — QA do DEM sob ruas
 
@@ -211,6 +231,8 @@ Nesta revisão:
 
 - `source_summary.json`;
 - `dem_audit.json`;
+- `terrain_samples.json`;
+- `terrain_vertical_fit.json`;
 - `dem_road_profiles.json` quando aplicável;
 - `georef_hints.json`;
 - `georef_fit.json`;
@@ -227,7 +249,8 @@ Nesta revisão:
 
 R30A termina quando:
 
-- fit geográfico foi revisado e tem qualidade suficiente;
+- fit XY foi revisado e tem qualidade suficiente;
+- fit vertical foi revisado ou sua insuficiência foi explicitamente registrada;
 - problemas topológicos críticos do recorte foram classificados;
 - OSM IDs explícitos prioritários foram comparados contra a referência;
 - offsets significativos foram classificados antes de qualquer movimento;

@@ -12,14 +12,15 @@ Estas instruções se aplicam a todo o repositório.
 
 A prioridade de produção é **fidelidade estrutural de Salvador**, nesta ordem:
 
-1. georreferenciamento;
-2. terreno/relevo;
-3. coastline, cais e waterfront;
-4. ruas, cruzamentos e áreas pedonais;
-5. escadarias, contenções e calçadas;
-6. footprints e implantação dos edifícios;
-7. Hero assets e detalhe visual;
-8. referências fotográficas apenas quando realmente necessárias para detalhe arquitetônico.
+1. georreferenciamento XY;
+2. coerência vertical DEM ↔ Blender;
+3. terreno/relevo;
+4. coastline, cais e waterfront;
+5. ruas, cruzamentos e áreas pedonais;
+6. escadarias, contenções e calçadas;
+7. footprints e implantação dos edifícios;
+8. Hero assets e detalhe visual;
+9. referências fotográficas apenas quando realmente necessárias para detalhe arquitetônico.
 
 Não atrasar correções estruturais para procurar imagens de fachada.
 
@@ -32,13 +33,14 @@ Leia, nesta ordem:
 3. `docs/STRUCTURAL_FIDELITY_PIPELINE.md`;
 4. `docs/CODEX_STRUCTURE_HANDOFF.md`;
 5. `docs/GEOREFERENCE_FIT_PIPELINE.md`;
-6. `docs/OSM_TOPOLOGY_QA.md`;
-7. `docs/TERRAIN_ROAD_QA.md`;
-8. `docs/SCENE_REFERENCE_ALIGNMENT_QA.md`;
-9. `docs/WORLD_DATA_ACQUISITION.md`;
-10. `docs/DATA_PROVENANCE.md`;
-11. `docs/REFERENCE_PRODUCTION_PIPELINE.md` quando o trabalho realmente depender de imagem;
-12. `world/areas/mvp-centro-lacerda/README.md` quando trabalhar no MVP atual.
+6. `docs/DEM_BLENDER_VERTICAL_FIT.md`;
+7. `docs/OSM_TOPOLOGY_QA.md`;
+8. `docs/TERRAIN_ROAD_QA.md`;
+9. `docs/SCENE_REFERENCE_ALIGNMENT_QA.md`;
+10. `docs/WORLD_DATA_ACQUISITION.md`;
+11. `docs/DATA_PROVENANCE.md`;
+12. `docs/REFERENCE_PRODUCTION_PIPELINE.md` quando o trabalho realmente depender de imagem;
+13. `world/areas/mvp-centro-lacerda/README.md` quando trabalhar no MVP atual.
 
 ## Fonte de verdade
 
@@ -75,9 +77,35 @@ python tools/world/run_structural_pipeline.py \
   --output-dir artifacts/structural-pipeline/mvp-centro-lacerda
 ```
 
-O pipeline gera estrutura OSM, QA topológico, auditoria do DEM, QA opcional das vias, fit e referência estrutural Blender.
+O pipeline gera estrutura OSM, QA topológico, auditoria do DEM, QA opcional das vias, fit XY e referência estrutural Blender.
 
 Antes de corrigir a cena, revisar `osm_topology_audit.json` e `georef_fit.json`.
+
+### Fit vertical do terreno
+
+Depois de fechar o fit XY, exportar amostras reais da mesh de terreno:
+
+```bash
+blender CENA.blend --background \
+  --python tools/blender/export_terrain_samples.py \
+  -- --output docs/reports/blender/terrain_samples.json
+```
+
+Se a seleção automática incluir objetos indevidos, repetir com `--include-regex` explícito.
+
+Então estimar a relação vertical:
+
+```bash
+python tools/terrain/fit_dem_blender_vertical.py \
+  --samples docs/reports/blender/terrain_samples.json \
+  --fit artifacts/structural-pipeline/mvp-centro-lacerda/georef_fit.json \
+  --dem CAMINHO/terrain.tif \
+  --output docs/reports/blender/terrain_vertical_fit.json
+```
+
+Revisar escala, offset e maiores resíduos. Nunca aplicar escala/offset Z global automaticamente apenas porque o fit foi calculado.
+
+### Comparação da cena com a referência
 
 Depois de importar `SOURCE_GEOREF | STRUCTURAL_REFERENCE`, gerar novamente `structural_scene_audit_before.json` com a versão atual de `audit_structural_scene.py` e executar:
 
@@ -153,6 +181,7 @@ Se uma revisão Blender foi aplicada, exportar os relatórios da cena antes de d
 Não resolver problema estrutural por:
 
 - offset manual sem metadado;
+- reescala Z global sem fit/revisão;
 - renomeação em massa;
 - duplicação de geometria sem necessidade;
 - path absoluto versionado;
