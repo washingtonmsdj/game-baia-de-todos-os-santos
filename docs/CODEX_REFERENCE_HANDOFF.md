@@ -18,7 +18,9 @@ Ler:
 - `world/areas/mvp-centro-lacerda/area.json`;
 - `world/areas/mvp-centro-lacerda/locations.json`;
 - `world/areas/mvp-centro-lacerda/media-manifest.json`;
+- `world/areas/mvp-centro-lacerda/reference-candidates.json` quando existir;
 - `docs/REFERENCE_PRODUCTION_PIPELINE.md`;
+- `docs/WIKIMEDIA_REFERENCE_INGESTION.md`;
 - `docs/DATA_PROVENANCE.md`.
 
 ## Seleção do trabalho
@@ -30,6 +32,7 @@ Se uma vista obrigatória estiver ausente:
 - não inventar o detalhe;
 - não promover o asset para `approved`;
 - trabalhar apenas no que as referências suportam;
+- consultar os candidatos sugeridos por `reference_gaps.py`;
 - registrar a lacuna no relatório da revisão.
 
 ## Ligação com Blender
@@ -100,6 +103,42 @@ python tools/references/register_media.py \
 ```
 
 O script calcula SHA-256, impede duplicação por hash e grava somente o caminho lógico relativo ao acervo.
+
+## Wikimedia Commons
+
+Quando houver candidato em `reference-candidates.json`, não baixar manualmente pelo navegador. Usar o importador para manter autoria/licença/hash consistentes.
+
+Primeiro inspecionar:
+
+```bash
+python tools/references/import_commons.py \
+  --area mvp-centro-lacerda \
+  --candidate-id mercado-modelo-frente-2025 \
+  --dry-run
+```
+
+Depois importar:
+
+```bash
+python tools/references/import_commons.py \
+  --area mvp-centro-lacerda \
+  --candidate-id mercado-modelo-frente-2025 \
+  --media-root world-reference \
+  --usage-class REFERENCIA_INTERNA
+```
+
+O importador:
+
+- consulta `imageinfo/extmetadata` do Wikimedia Commons;
+- obtém o arquivo original;
+- preserva título, autor, licença, URL, data e coordenadas quando disponíveis;
+- limita tamanho de download;
+- salva fora do Git em `world-reference/`;
+- delega o registro final a `register_media.py`;
+- remove o download se o registro falhar;
+- só permite `PRODUCAO_APROVADA` automaticamente para a allowlist conservadora documentada.
+
+Não transformar `expected_license` do candidato em licença verificada. A fonte de verdade é a resposta do Commons na hora da importação.
 
 ## Material temporário/restrito
 

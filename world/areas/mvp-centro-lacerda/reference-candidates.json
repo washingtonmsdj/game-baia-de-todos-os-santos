@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "area_id": "mvp-centro-lacerda",
+  "candidates": [
+    {
+      "candidate_id": "elevador-lacerda-luan-lower",
+      "location_id": "elevador-lacerda",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Elevador Lacerda.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Elevador_Lacerda.jpg",
+      "suggested_view": "oblique_left",
+      "status": "candidate",
+      "expected_license": "CC BY-SA / GFDL (verificar via API antes da importação)",
+      "notes": ["Boa leitura da torre, passarela e encosta a partir da Cidade Baixa."]
+    },
+    {
+      "candidate_id": "elevador-lacerda-2018-upper-context",
+      "location_id": "elevador-lacerda",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Elevador lacerda.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Elevador_lacerda.jpg",
+      "suggested_view": "street_context",
+      "status": "candidate",
+      "expected_license": "verificar via API",
+      "notes": ["Imagem georreferenciada; útil para relação entre acesso superior, praça e edifícios do entorno."]
+    },
+    {
+      "candidate_id": "elevador-lacerda-visao-2014",
+      "location_id": "elevador-lacerda",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Visão do Elevador Lacerda.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Vis%C3%A3o_do_Elevador_Lacerda.jpg",
+      "suggested_view": "access",
+      "status": "candidate",
+      "expected_license": "CC BY-SA 4.0",
+      "notes": ["Referência contextual entre Cidade Alta, Cidade Baixa, cais e Mercado Modelo."]
+    },
+    {
+      "candidate_id": "mercado-modelo-frente-2025",
+      "location_id": "mercado-modelo",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Mercado Modelo (Salvador) em 20.7.2025.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Mercado_Modelo_(Salvador)_em_20.7.2025.jpg",
+      "suggested_view": "front",
+      "status": "candidate",
+      "expected_license": "CC BY 4.0",
+      "notes": ["Vista frontal recente em alta resolução."]
+    },
+    {
+      "candidate_id": "mercado-modelo-traseira-2025",
+      "location_id": "mercado-modelo",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Mercado Modelo (Salvador) (Vista de Trás) em 20.7.2025.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Mercado_Modelo_(Salvador)_(Vista_de_Tr%C3%A1s)_em_20.7.2025.jpg",
+      "suggested_view": "rear",
+      "status": "candidate",
+      "expected_license": "CC BY 4.0",
+      "notes": ["Vista traseira recente; importante para waterfront e volumetria posterior."]
+    },
+    {
+      "candidate_id": "mercado-modelo-aereo-2022",
+      "location_id": "mercado-modelo",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Mercado Modelo - Salvador - 20220806152921.JPG",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Mercado_Modelo_-_Salvador_-_20220806152921.JPG",
+      "suggested_view": "roof",
+      "status": "candidate",
+      "expected_license": "verificar via API",
+      "notes": ["Vista elevada útil para telhado, waterfront, Forte de São Marcelo e contexto portuário."]
+    },
+    {
+      "candidate_id": "mercado-modelo-camara-2010",
+      "location_id": "mercado-modelo",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Mercado Modelo visto do Centro Cultural da Câmara dos Vereadores de Salvador.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Mercado_Modelo_visto_do_Centro_Cultural_da_C%C3%A2mara_dos_Vereadores_de_Salvador.jpg",
+      "suggested_view": "oblique_right",
+      "status": "candidate",
+      "expected_license": "verificar via API",
+      "notes": ["Imagem georreferenciada e elevada; boa para proporções e implantação."]
+    },
+    {
+      "candidate_id": "palacio-rio-branco-webysther-2015",
+      "location_id": "palacio-rio-branco",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Webysther 20150907164050 - Palácio Rio Branco.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Webysther_20150907164050_-_Pal%C3%A1cio_Rio_Branco.jpg",
+      "suggested_view": "front",
+      "status": "candidate",
+      "expected_license": "CC BY-SA 4.0",
+      "notes": ["Vista frontal de alta qualidade, georreferenciada."]
+    },
+    {
+      "candidate_id": "palacio-rio-branco-praca-2022",
+      "location_id": "palacio-rio-branco",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Palácio Rio Branco e Letreiro Salvador.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_Rio_Branco_e_Letreiro_Salvador.jpg",
+      "suggested_view": "street_context",
+      "status": "candidate",
+      "expected_license": "verificar via API",
+      "notes": ["Mostra o Palácio no contexto da Praça Tomé de Sousa e edifícios cívicos."]
+    },
+    {
+      "candidate_id": "praca-cairu-sailko-2013",
+      "location_id": "praca-cairu",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Cidade bassa, praça Cairu, mercado modelo 01.JPG",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Cidade_bassa,_pra%C3%A7a_Cairu,_mercado_modelo_01.JPG",
+      "suggested_view": "street_context",
+      "status": "candidate",
+      "expected_license": "CC BY 3.0",
+      "notes": ["Boa leitura da praça e da fachada do Mercado Modelo."]
+    },
+    {
+      "candidate_id": "praca-cairu-7637-2017",
+      "location_id": "praca-cairu",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Praça Cairu Salvador Bahia 7637.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Pra%C3%A7a_Cairu_Salvador_Bahia_7637.jpg",
+      "suggested_view": "street_context",
+      "status": "candidate",
+      "expected_license": "CC BY-SA 4.0",
+      "notes": ["Georreferenciada, heading 122°, útil para reconstruir a borda urbana abaixo do Elevador."]
+    },
+    {
+      "candidate_id": "praca-cairu-monumento-2024",
+      "location_id": "praca-cairu",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Monumento ao Visconde de Cairú e o Elevador Lacerda ao fundo - IMG 6118.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Monumento_ao_Visconde_de_Cair%C3%BA_e_o_Elevador_Lacerda_ao_fundo_-_IMG_6118.jpg",
+      "suggested_view": "detail",
+      "status": "candidate",
+      "expected_license": "CC BY-SA 4.0",
+      "notes": ["Georreferenciada com heading; referência recente de mobiliário/monumento e relação com o Elevador."]
+    }
+  ]
+}

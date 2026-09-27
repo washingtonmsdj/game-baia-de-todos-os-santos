@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/bay-of-all-saints/reference-candidates.schema.json",
+  "title": "Bay of All Saints - Reference Candidates",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "area_id", "candidates"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "area_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["candidate_id", "location_id", "provider", "file_title", "page_url", "suggested_view", "status"],
+        "properties": {
+          "candidate_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+          "location_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+          "provider": {"const": "wikimedia_commons"},
+          "file_title": {"type": "string", "minLength": 6},
+          "page_url": {"type": "string", "pattern": "^https://commons\\.wikimedia\\.org/"},
+          "suggested_view": {
+            "enum": ["front", "rear", "left", "right", "oblique_left", "oblique_right", "roof", "access", "street_context", "waterfront_context", "detail", "panorama", "map"]
+          },
+          "status": {"enum": ["candidate", "accepted", "rejected", "imported"]},
+          "expected_license": {"type": ["string", "null"]},
+          "notes": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    }
+  }
+}
