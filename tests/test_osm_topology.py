@@ -39,13 +39,24 @@ class OSMTopologyTests(unittest.TestCase):
 
     def test_connected_components_by_shared_nodes(self):
         features = [
-            {"osm_id": 1, "layer": "roads", "node_refs": [1, 2]},
-            {"osm_id": 2, "layer": "roads", "node_refs": [2, 3]},
-            {"osm_id": 3, "layer": "roads", "node_refs": [10, 11]},
+            {"osm_type": "way", "osm_id": 1, "layer": "roads", "node_refs": [1, 2]},
+            {"osm_type": "way", "osm_id": 2, "layer": "roads", "node_refs": [2, 3]},
+            {"osm_type": "way", "osm_id": 3, "layer": "roads", "node_refs": [10, 11]},
         ]
         components = MODULE.connected_components(features, "transport")
-        self.assertEqual(components[0], [1, 2])
-        self.assertEqual(components[1], [3])
+        self.assertEqual([item["osm_id"] for item in components[0]], [1, 2])
+        self.assertEqual([item["osm_id"] for item in components[1]], [3])
+        self.assertTrue(all(item["osm_type"] == "way" for component in components for item in component))
+
+    def test_relation_parts_do_not_collide_with_same_relation_id(self):
+        features = [
+            {"osm_type": "relation", "osm_id": 50, "relation_part_index": 0, "layer": "waterfront", "node_refs": [1, 2, 1]},
+            {"osm_type": "relation", "osm_id": 50, "relation_part_index": 1, "layer": "waterfront", "node_refs": [10, 11, 10]},
+        ]
+        components = MODULE.connected_components(features, "waterfront")
+        self.assertEqual(2, len(components))
+        parts = sorted(component[0]["relation_part_index"] for component in components)
+        self.assertEqual([0, 1], parts)
 
 
 if __name__ == "__main__":
