@@ -23,6 +23,21 @@
           "suggested_view": {
             "enum": ["front", "rear", "left", "right", "oblique_left", "oblique_right", "roof", "access", "street_context", "waterfront_context", "detail", "panorama", "map"]
           },
+          "coverage": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["location_id", "view"],
+              "properties": {
+                "location_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+                "view": {
+                  "enum": ["front", "rear", "left", "right", "oblique_left", "oblique_right", "roof", "access", "street_context", "waterfront_context", "detail", "panorama", "map"]
+                },
+                "notes": {"type": "string"}
+              }
+            }
+          },
           "status": {"enum": ["candidate", "accepted", "rejected", "imported"]},
           "expected_license": {"type": ["string", "null"]},
           "notes": {"type": "array", "items": {"type": "string"}}
