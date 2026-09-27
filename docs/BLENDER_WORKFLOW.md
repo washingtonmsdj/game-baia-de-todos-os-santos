@@ -1,33 +1,33 @@
-# Blender Workflow
+# Fluxo de Trabalho do Blender
 
-## Purpose
+## Objetivo
 
-This repository stores reproducible Blender automation passes for the Salvador open-world project.
+Este repositório armazena passes reproduzíveis de automação do Blender para o projeto de mundo aberto ambientado em Salvador.
 
-The `.blend` working file remains the source scene, while Python scripts in `tools/blender/` describe controlled changes that can be applied later by Codex or by a developer running Blender locally.
+O arquivo `.blend` de trabalho continua sendo a cena-fonte, enquanto os scripts Python em `tools/blender/` descrevem alterações controladas que podem ser aplicadas depois pelo Codex ou por um desenvolvedor executando o Blender localmente.
 
-## Why this workflow exists
+## Por que este fluxo existe
 
-The current scene is already large and historically layered. It contains thousands of objects, imported reference geometry, gameplay structures, landmark models, terrain, roads, cameras, and prior revision work.
+A cena atual já é grande e possui várias camadas históricas. Ela contém milhares de objetos, geometria de referência importada, estruturas de gameplay, modelos de marcos arquitetônicos, terreno, vias, câmeras e revisões anteriores.
 
-For that reason, automated work must be conservative. A script should make a specific improvement, record it, save a new revision, and avoid destructive global cleanup unless that cleanup is explicitly scoped and validated.
+Por isso, qualquer automação deve ser conservadora. Cada script deve realizar uma melhoria específica, registrar o que fez, salvar uma nova revisão e evitar limpezas globais destrutivas sem escopo e validação próprios.
 
-## Revision rules
+## Regras de revisão
 
-Every revision script should follow these rules:
+Todo script de revisão deve seguir estas regras:
 
-1. **Never overwrite the source file by default.**
-2. Save to a new suffix such as `_r28.blend`, `_r29.blend`, etc.
-3. Prefer adding metadata, collections, guides, instances, or validated derived geometry over destructive edits.
-4. Avoid mass renaming because Blender object names may be referenced by constraints, drivers, scripts, exporters, or manual workflows.
-5. Avoid broad `Join`, `Decimate`, triangulation, transform application, or material consolidation without a dedicated validation pass.
-6. Mark generated objects with a revision prefix and/or custom properties.
-7. Make generated content removable/rebuildable when practical.
-8. Keep OSM/DEM/reference geometry distinguishable from authored/game-ready geometry.
-9. Store an internal Blender Text datablock or scene metadata describing the pass.
-10. Emit a useful console summary.
+1. **Nunca sobrescrever o arquivo-fonte por padrão.**
+2. Salvar com um novo sufixo, como `_r28.blend`, `_r29.blend` etc.
+3. Preferir metadados, coleções, guias, instâncias ou geometria derivada validada em vez de alterações destrutivas.
+4. Evitar renomeações em massa, porque nomes de objetos podem ser usados por constraints, drivers, scripts, exportadores ou fluxos manuais.
+5. Evitar `Join`, `Decimate`, triangulação, aplicação de transformações ou consolidação de materiais em massa sem uma revisão dedicada e validada.
+6. Marcar objetos gerados com prefixo de revisão e/ou propriedades customizadas.
+7. Quando possível, permitir remover e reconstruir o conteúdo gerado.
+8. Manter geometria OSM/DEM/de referência distinguível da geometria autoral/pronta para jogo.
+9. Armazenar um bloco de texto interno no Blender ou metadados da cena descrevendo a revisão.
+10. Emitir um resumo útil no console.
 
-## Suggested repository layout
+## Estrutura sugerida do repositório
 
 ```text
 tools/blender/
@@ -41,83 +41,85 @@ docs/revisions/
   R29.md
 ```
 
-## How Codex should apply a Blender revision
+## Como o Codex deve aplicar uma revisão do Blender
 
-Codex should use the newest validated `.blend` source available locally and run Blender from the command line, for example:
+O Codex deve usar o `.blend` validado mais recente disponível localmente e executar o Blender pela linha de comando, por exemplo:
 
 ```bash
 blender current_scene.blend --python tools/blender/r28_gameplay_export.py
 ```
 
-If Blender is installed under a non-standard path, Codex should locate the executable rather than modifying the script.
+Se o Blender estiver instalado em um caminho não padrão, o Codex deve localizar o executável em vez de modificar o script.
 
-After execution, Codex should verify:
+Após a execução, o Codex deve verificar:
 
-- Blender exited successfully;
-- the expected new `_rXX.blend` file exists;
-- the generated collections/text datablocks exist;
-- object counts did not unexpectedly collapse;
-- no source `.blend` was overwritten;
-- the script console output does not contain Python exceptions;
-- the resulting file can be reopened.
+- se o Blender terminou sem erro;
+- se o novo arquivo `_rXX.blend` esperado foi criado;
+- se as coleções/blocos de texto gerados existem;
+- se a contagem de objetos não caiu de forma inesperada;
+- se nenhum `.blend` de origem foi sobrescrito;
+- se o console não contém exceções Python;
+- se o arquivo resultante pode ser reaberto.
 
-For revisions involving visual or spatial changes, Codex should additionally open the scene and inspect the affected area before considering the pass complete.
+Em revisões com alterações visuais ou espaciais, o Codex também deve abrir a cena e inspecionar a área afetada antes de considerar a revisão concluída.
 
-## Binary file policy
+## Política para arquivos binários
 
-`.blend` files are intentionally ignored by default.
+Arquivos `.blend` ficam ignorados por padrão.
 
-Reasons:
+Motivos:
 
-- the scene can become very large;
-- ordinary Git is inefficient for repeated large binary revisions;
-- Blender binaries cannot be usefully code-reviewed as text;
-- reproducible scripts are more valuable for agent-to-agent handoff.
+- a cena pode se tornar muito grande;
+- Git comum é ineficiente para sucessivas versões de binários grandes;
+- arquivos Blender binários não permitem revisão de código útil em texto;
+- scripts reproduzíveis são mais valiosos para o handoff entre agentes.
 
-If the project later decides to version `.blend` files, configure Git LFS intentionally and update `.gitignore`/documentation at that time.
+Se no futuro o projeto decidir versionar `.blend`, o Git LFS deve ser configurado de forma intencional e a documentação/`.gitignore` atualizada.
 
-## Naming policy
+## Política de idioma
 
-Repository documentation and script comments should be in English.
+O **nome do jogo, All Saints, permanece em inglês**.
 
-Blender object/collection names may retain Portuguese names where they correspond to real Salvador locations, existing scene conventions, or in-world labels. Avoid renaming existing scene objects solely for language consistency.
+Toda a documentação, handoffs, relatórios e notas de desenvolvimento do repositório devem ser escritos em **português**.
 
-## Safety levels
+Nomes reais de locais de Salvador devem permanecer com sua grafia oficial em português. Termos técnicos consolidados, nomes de APIs, propriedades, comandos e identificadores de código podem permanecer no idioma exigido pela ferramenta.
 
-### Safe / default
+## Níveis de segurança
 
-- create guide collections;
-- add non-rendering helpers;
-- add custom properties;
-- create audit reports;
-- add export-link collections without unlinking originals;
-- create review cameras;
-- create optional preview lighting;
-- save a new revision.
+### Seguro / padrão
 
-### Requires validation
+- criar coleções de guias;
+- adicionar helpers que não renderizam;
+- adicionar propriedades customizadas;
+- gerar relatórios de auditoria;
+- adicionar links de coleção para exportação sem remover os originais;
+- criar câmeras de revisão;
+- criar iluminação opcional de preview;
+- salvar uma nova revisão.
 
-- replace repeated meshes with linked instances;
-- create collision meshes;
-- create LODs;
-- consolidate roads by spatial chunk;
-- consolidate materials;
-- apply transforms;
-- move objects between canonical collections.
+### Exige validação
 
-### Explicit approval / dedicated migration
+- substituir meshes repetidas por instâncias vinculadas;
+- criar meshes de colisão;
+- criar LODs;
+- consolidar vias por chunks espaciais;
+- consolidar materiais;
+- aplicar transformações;
+- mover objetos entre coleções canônicas.
 
-- mass deletion;
-- mass renaming;
-- destructive mesh joining;
-- deleting source reference geometry;
-- coordinate-system changes;
-- rescaling the entire world;
-- rewriting landmark architecture.
+### Exige aprovação explícita / migração dedicada
 
-## Current sequence
+- exclusão em massa;
+- renomeação em massa;
+- junção destrutiva de meshes;
+- exclusão de geometria-fonte de referência;
+- mudanças no sistema de coordenadas;
+- reescala global do mundo;
+- reconstrução destrutiva de marcos arquitetônicos.
 
-- **R27:** QA anchors, review camera, optional preview lighting.
-- **R28:** gameplay route guides, gameplay zones, export classification, performance audit.
-- **R29:** controlled optimization based on the real R28 audit.
-- **R30+:** visual/world-building passes, collision/export hardening, and larger playable-area expansion.
+## Sequência atual
+
+- **R27:** marcadores de QA, câmera de revisão e iluminação opcional de preview.
+- **R28:** guias de rota jogável, zonas de gameplay, classificação de exportação e auditoria de performance.
+- **R29:** otimização controlada baseada na auditoria real da R28.
+- **R30+:** passes visuais/construção de mundo, endurecimento de colisão/exportação e expansão da área jogável.
