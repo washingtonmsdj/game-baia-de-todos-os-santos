@@ -88,7 +88,28 @@ dem_audit.json   # se --dem foi fornecido
 
 Se o fit não atingir `candidate` ou `strong_candidate`, o pipeline deve parar. Não usar `--allow-weak-fit` para produção; ele existe apenas para diagnóstico explícito.
 
-## 5. Revisar o fit antes do Blender
+## 5. Auditar o perfil do terreno sob as vias
+
+Quando `terrain.tif` estiver disponível e `rasterio` estiver instalado, executar:
+
+```bash
+python tools/terrain/audit_road_profiles.py \
+  --dem CAMINHO_DA_CAPTURA/terrain.tif \
+  --structure artifacts/structural-pipeline/mvp-centro-lacerda/osm_structure.json \
+  --output docs/reports/aleph/mvp-centro-lacerda/dem_road_profiles.json
+```
+
+O relatório cria uma `review_queue` com trechos que merecem inspeção por:
+
+- `nodata`;
+- inclinação local acima do threshold de triagem;
+- salto vertical entre amostras próximas.
+
+Essas flags **não autorizam suavização automática**. Salvador possui escarpa, ladeiras, muros e escadas reais. Classificar cada caso antes de corrigir.
+
+Consultar `docs/TERRAIN_ROAD_QA.md`.
+
+## 6. Revisar o fit antes do Blender
 
 Conferir:
 
@@ -104,7 +125,7 @@ Conferir:
 
 Não promover `world_anchor_status=verified` apenas porque o script terminou sem erro.
 
-## 6. Importar referência estrutural
+## 7. Importar referência estrutural
 
 ```bash
 blender CENA_VALIDADA.blend --background \
@@ -124,7 +145,7 @@ com objetos `REF_*` ocultos no render.
 
 Nunca converter automaticamente `REF_*` em geometria final.
 
-## 7. Correção estrutural manual/assistida
+## 8. Correção estrutural manual/assistida
 
 Trabalhar nesta ordem:
 
@@ -132,7 +153,7 @@ Trabalhar nesta ordem:
 2. waterfront/cais;
 3. eixos viários;
 4. cruzamentos;
-5. terreno nas interfaces críticas;
+5. terreno nas interfaces críticas e itens da `review_queue` do DEM;
 6. áreas pedonais/escadas;
 7. footprints;
 8. integração com Hero assets.
@@ -149,7 +170,7 @@ mudança aplicada
 incerteza remanescente
 ```
 
-## 8. Terreno
+## 9. Terreno
 
 Não editar o `terrain.tif` original.
 
@@ -158,11 +179,12 @@ Quando o DEM tiver artefato real (spike/cliff/nodata/interpolação ruim):
 - preservar o DEM;
 - criar camada/mesh derivada corrigida;
 - marcar a correção como local;
-- documentar a justificativa.
+- documentar a justificativa;
+- relacionar a correção aos OSM IDs/segmentos afetados quando aplicável.
 
 A escarpa de Salvador deve continuar fisicamente legível; não suavizar globalmente apenas para facilitar o blockout.
 
-## 9. Ruas
+## 10. Ruas
 
 Priorizar eixo/continuidade. Largura só pode ser tratada como medida quando houver fonte explícita.
 
@@ -170,7 +192,7 @@ Priorizar eixo/continuidade. Largura só pode ser tratada como medida quando hou
 
 Se a largura tiver de permanecer artística/aproximada para gameplay, documentar essa diferença separadamente da posição geográfica do eixo.
 
-## 10. Coastline / waterfront / água
+## 11. Coastline / waterfront / água
 
 Não misturar:
 
@@ -182,7 +204,7 @@ water surface visual
 
 O contorno da água e o cais devem ser resolvidos antes do shader da Baía.
 
-## 11. Auditoria depois das correções
+## 12. Auditoria depois das correções
 
 Executar novamente:
 
@@ -194,7 +216,9 @@ blender CENA_r30a.blend --background \
 
 Registrar diferenças antes/depois.
 
-## 12. Saída esperada
+Se o terreno foi corrigido de forma derivada, repetir `audit_road_profiles.py` sobre o DEM/representação derivada apropriada apenas quando houver um raster georreferenciado comparável; caso contrário, registrar a validação diretamente no Blender.
+
+## 13. Saída esperada
 
 Salvar nova revisão, por exemplo:
 
@@ -207,7 +231,8 @@ Preservar:
 - R29 validada;
 - versão com referência carregada;
 - R30A corrigida;
-- relatórios antes/depois.
+- relatórios antes/depois;
+- `dem_road_profiles.json` quando aplicável.
 
 ## Gate final
 
@@ -217,7 +242,7 @@ Só declarar R30A concluída quando:
 - ruas principais não estiverem deslocadas de forma evidente;
 - coastline/cais estiverem coerentes;
 - Praça Cairu conectar corretamente Elevador, Mercado, vias e waterfront;
-- problemas de DEM restantes estiverem registrados;
+- problemas de DEM restantes estiverem registrados/classificados;
 - nenhum Hero asset tiver sido deslocado apenas para mascarar um erro da base.
 
 Depois disso, avançar para o passe visual R30B/R30.
