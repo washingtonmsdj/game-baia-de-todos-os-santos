@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 from pathlib import Path
 
 
@@ -23,7 +24,6 @@ def write_json(path: Path, data):
 def transform_point(point: list[float], fit: dict) -> list[float]:
     x, y = float(point[0]), float(point[1])
     scale = float(fit["scale_blender_units_per_meter"])
-    import math
     theta = math.radians(float(fit["rotation_epsg3857_to_blender_deg"]))
     tx, ty = fit["translation_blender"]
     c, s = math.cos(theta), math.sin(theta)
@@ -56,6 +56,8 @@ def main() -> int:
             "osm_id": feature["osm_id"],
             "layer": feature["layer"],
             "closed": feature.get("closed", False),
+            "node_refs": feature.get("node_refs", []),
+            "missing_node_ref_count": feature.get("missing_node_ref_count", 0),
             "blender_xy": [transform_point(p, robust) for p in feature.get("epsg3857", [])],
             "metrics": feature.get("metrics", {}),
             "tags": feature.get("tags", {}),
@@ -77,7 +79,7 @@ def main() -> int:
         "features": transformed,
         "notes": [
             "Arquivo de sobreposição estrutural; não é geometria final.",
-            "Preservar OSM IDs durante qualquer auditoria/correção.",
+            "OSM IDs e node_refs são preservados para auditoria/correção rastreável.",
             "Não promover correções automáticas enquanto o fit não estiver manualmente validado.",
         ],
     }
