@@ -78,7 +78,7 @@ Se no futuro o projeto decidir versionar `.blend`, o Git LFS deve ser configurad
 
 ## Política de idioma
 
-O **nome do jogo, All Saints, permanece em inglês**.
+O **nome do jogo, Bay of All Saints, permanece em inglês**.
 
 Toda a documentação, handoffs, relatórios e notas de desenvolvimento do repositório devem ser escritos em **português**.
 
