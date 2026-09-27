@@ -21,6 +21,16 @@
       "notes": "A licença MIT cobre o software Aleph, não concede automaticamente direitos sobre dados obtidos de serviços externos."
     },
     {
+      "id": "legacy-mvp-aleph-capture-hint",
+      "type": "capture_reference",
+      "name": "Captura Aleph original do MVP — pista recuperada do .blend",
+      "capture_folder_hint": "aleph-20260924T205631Z-aqqo7pkx",
+      "map_osm_path_hint": "data/aleph/aleph-20260924T205631Z-aqqo7pkx/map.osm",
+      "usage_class": "REFERENCIA_INTERNA",
+      "status": "PASTA_ORIGINAL_AINDA_NAO_RECUPERADA",
+      "notes": "O caminho foi recuperado de metadados embutidos no .blend analisado. Procurar essa pasta na estação de trabalho e preservar o manifest.json/terrain.tif se existirem."
+    },
+    {
       "id": "osm-geofabrik",
       "type": "geodata",
       "name": "OpenStreetMap via Geofabrik",
