@@ -14,6 +14,10 @@ import bpy
 
 ROOT_COLLECTION = "SOURCE_GEOREF | STRUCTURAL_REFERENCE"
 TEXT_INDEX = "STRUCTURAL_REFERENCE_INDEX"
+SUPPORTED_REFERENCE_SCHEMAS = {
+    "bay-of-all-saints/blender-structure-reference-v1",
+    "bay-of-all-saints/blender-structure-reference-v2",
+}
 
 LAYER_SETTINGS = {
     "roads": {"bevel": 0.12, "z": 0.30},
@@ -79,7 +83,7 @@ def create_layer_object(layer: str, features: list[dict], parent):
         for target, point in zip(spline.points, points):
             target.co = (float(point[0]), float(point[1]), z, 1.0)
         spline.use_cyclic_u = bool(feature.get("closed"))
-        index_rows.append({
+        row = {
             "layer": layer,
             "spline_index": spline_index,
             "osm_type": feature.get("osm_type"),
@@ -88,7 +92,11 @@ def create_layer_object(layer: str, features: list[dict], parent):
             "missing_node_ref_count": feature.get("missing_node_ref_count", 0),
             "tags": feature.get("tags", {}),
             "metrics": feature.get("metrics", {}),
-        })
+        }
+        for key in ("relation_part_index", "member_way_ids", "relation_hole_count"):
+            if key in feature:
+                row[key] = feature[key]
+        index_rows.append(row)
         spline_index += 1
 
     obj = bpy.data.objects.new(f"REF_{layer.upper()}", curve)
@@ -104,8 +112,9 @@ def write_index(payload, rows):
     text = bpy.data.texts.get(TEXT_INDEX) or bpy.data.texts.new(TEXT_INDEX)
     text.clear()
     index_payload = {
-        "schema": "bay-of-all-saints/blender-structural-reference-index-v1",
+        "schema": "bay-of-all-saints/blender-structural-reference-index-v2",
         "source_reference": payload.get("source_structure"),
+        "source_structure_schema": payload.get("source_structure_schema"),
         "source_fit": payload.get("source_fit"),
         "fit_quality": payload.get("fit_quality"),
         "fit_status": payload.get("fit_status"),
@@ -114,6 +123,8 @@ def write_index(payload, rows):
         "notes": [
             "Objetos REF_* são somente referência e ficam ocultos no render.",
             "spline_index permite rastrear cada linha/footprint ao OSM ID e node_refs originais.",
+            "relation_part_index distingue múltiplos anéis externos pertencentes à mesma relação OSM.",
+            "relation_hole_count sinaliza relações com anéis internos que exigem revisão antes de qualquer preenchimento.",
         ],
     }
     text.write(json.dumps(index_payload, ensure_ascii=False, indent=2))
@@ -125,7 +136,7 @@ def main():
     with open(reference_path, "r", encoding="utf-8") as stream:
         payload = json.load(stream)
 
-    if payload.get("schema") != "bay-of-all-saints/blender-structure-reference-v1":
+    if payload.get("schema") not in SUPPORTED_REFERENCE_SCHEMAS:
         raise RuntimeError("schema de referência estrutural não suportado")
 
     existing = bpy.data.collections.get(ROOT_COLLECTION)
