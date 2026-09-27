@@ -4,7 +4,7 @@
 
 Continuar a cena do MVP de Salvador sem exigir coordenação manual repetida.
 
-A cena de trabalho do Blender deve ser fornecida localmente ao Codex. O GitHub será a fonte de verdade para scripts de automação, notas de revisão e instruções de validação.
+A cena de trabalho do Blender deve ser fornecida localmente ao Codex. O GitHub é a fonte de verdade para scripts de automação, notas de revisão e instruções de validação.
 
 ## Contexto atual da cena
 
@@ -31,10 +31,24 @@ Ao começar pela cena original analisada:
 2. abrir e validar o `_r27.blend` resultante;
 3. executar `tools/blender/r28_gameplay_export.py` sobre a cena válida mais recente;
 4. abrir e validar o `_r28.blend`;
-5. ler o datablock de texto `R28_PERFORMANCE_AUDIT` dentro do Blender antes de otimizar;
-6. usar a auditoria da R28 para orientar a R29; não adivinhar quais objetos repetidos podem virar instâncias.
+5. ler o datablock `R28_PERFORMANCE_AUDIT`;
+6. executar `tools/blender/r29_optimization.py` **sem** `--apply-exact`;
+7. abrir o `_r29.blend` de auditoria e ler:
+   - `R29_OPTIMIZATION_REPORT`;
+   - `R29_EXACT_DUPLICATE_CANDIDATES`;
+   - `R29_LOD_COLLISION_CANDIDATES`;
+8. confirmar que nenhum `HERO` ou `GAMEPLAY` está em grupo de deduplicação automática;
+9. voltar ao `_r28.blend` validado e executar:
 
-Se a cena local já estiver na R27 ou R28, pular as revisões anteriores conforme necessário.
+```bash
+blender cena_r28.blend --python tools/blender/r29_optimization.py -- --apply-exact
+```
+
+10. reabrir e validar o `_r29.blend` aplicado;
+11. registrar métricas reais antes/depois;
+12. só então iniciar a R30 visual.
+
+Se a cena local já estiver em uma revisão validada posterior, pular as etapas anteriores conforme necessário, mas nunca aplicar uma revisão destrutiva sobre um arquivo cuja origem não esteja preservada.
 
 ## Validação obrigatória após cada revisão
 
@@ -43,8 +57,7 @@ O Codex deve verificar todos os pontos abaixo antes de considerar uma revisão b
 - o `.blend` de origem continua existindo e não foi sobrescrito;
 - o novo arquivo de revisão foi criado;
 - o Blender consegue reabrir o novo arquivo;
-- as coleções geradas pela revisão existem;
-- os datablocks de texto gerados existem;
+- as coleções e datablocks de texto esperados existem;
 - não há exceções Python no console/log do Blender;
 - a contagem total de objetos continua plausível;
 - nenhuma exclusão em massa ocorreu;
@@ -59,56 +72,49 @@ A rota atual do MVP é:
 
 As coordenadas usadas pelos guias R27/R28 vêm de checkpoints já registrados na própria cena. Elas são guias de design e não dados topográficos certificados.
 
-## Objetivo da R29
+## R29 — regras de segurança
 
-A R29 deve ser um passe controlado de performance.
+A R29 só pode relinkar meshes quando a equivalência for comprovada pelo conteúdo avaliado pelo fingerprint.
 
-Ordem de prioridade:
+Não otimizar automaticamente quando houver dúvida sobre:
 
-1. identificar props/meshes realmente idênticos e repetidos;
-2. criar instâncias/vínculos somente quando a equivalência estiver comprovada;
-3. preservar transforms e vínculo com coleções;
-4. evitar alterar objetos `HERO` ou `GAMEPLAY` sem validação explícita;
-5. gerar candidatos simplificados de colisão em vez de substituir meshes de render;
-6. identificar meshes de alto custo dos marcos principais para trabalho manual de LOD;
-7. propor limites de chunks para ruas e calçadas;
-8. produzir métricas antes/depois;
-9. salvar uma nova revisão `_r29.blend`.
-
-## Restrições de segurança da R29
-
-Não criar instâncias nem unir objetos automaticamente quando qualquer um dos itens abaixo for diferente ou incerto:
-
-- topologia de vértices/arestas/polígonos;
-- dados UV;
+- topologia;
+- UVs;
 - slots e ordem de materiais;
-- cores/atributos customizados;
+- atributos;
 - shape keys;
-- propriedades customizadas do mesh que afetem o fluxo;
-- modifiers específicos do objeto dependentes de dados únicos;
+- custom properties;
+- animation data;
 - metadados de gameplay;
-- requisitos de animação/deformação.
+- classificação R28.
 
-Não otimizar apenas com base no nome do objeto.
+Objetos `HERO` e `GAMEPLAY` ficam protegidos da deduplicação automática.
 
-## Trabalho visual/construção de mundo após a otimização
+Não usar nomes parecidos de objetos como prova de equivalência.
 
-Quando o MVP estiver tecnicamente estável, priorizar melhorias perceptíveis:
+## Objetivo da R30
 
-- leitura de ruas e calçadas;
-- composição da Praça Cairu;
-- entorno do Mercado Modelo;
-- transições entre Cidade Alta e Cidade Baixa;
-- qualidade das silhuetas dos marcos arquitetônicos;
-- distribuição de vegetação;
-- mobiliário urbano;
-- iluminação e atmosfera;
-- espaço para tráfego e pedestres;
-- cobertura, atalhos, becos, entradas e escolhas de travessia para gameplay;
-- limites preparados para expansão aos distritos adjacentes.
+A R30 deve transformar o MVP de maneira visualmente perceptível sem perder o controle técnico conquistado nas revisões anteriores.
+
+Prioridades:
+
+1. leitura de ruas e calçadas;
+2. composição da Praça Cairu;
+3. entorno imediato do Mercado Modelo;
+4. conexão visual e jogável entre a saída inferior do Elevador Lacerda e a Cidade Baixa;
+5. mobiliário urbano modular;
+6. vegetação controlada;
+7. iluminação e atmosfera de preview;
+8. corredores claros de tráfego e pedestres;
+9. cobertura, atalhos, becos, entradas e pequenas rotas alternativas;
+10. preparação visual para expansão futura em direção ao Comércio e Centro Histórico.
+
+A R30 deve consultar `R29_LOD_COLLISION_CANDIDATES` antes de adicionar detalhes pesados em objetos ou áreas de alto custo.
 
 ## Idioma da documentação
 
 O nome do jogo permanece **Bay of All Saints**.
 
 Toda a documentação, relatórios, handoffs e notas de desenvolvimento devem ser escritos em **português**. Nomes próprios reais de Salvador permanecem com sua grafia oficial.
+
+Identificadores técnicos históricos como `allsaints_*` podem permanecer por compatibilidade com metadados já gravados no `.blend`.
