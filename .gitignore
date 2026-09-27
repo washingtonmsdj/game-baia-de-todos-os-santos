@@ -1,0 +1,23 @@
+# Blender local files
+*.blend1
+*.blend2
+*.blend@
+*.autosave
+
+# Large working scene files are not committed by default.
+# Keep .blend binaries outside Git unless Git LFS is intentionally configured.
+*.blend
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local generated reports
+artifacts/
+output/
