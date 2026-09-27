@@ -2,14 +2,14 @@
 
 ## Identidade atual
 
-**Nome do jogo:** All Saints  
+**Nome do jogo:** Bay of All Saints  
 **Tagline:** *Todos têm um preço. Ninguém é santo.*
 
 O nome ainda deve ser tratado como marca em desenvolvimento até serem concluídas verificações de disponibilidade, marca registrada, busca em lojas e domínio.
 
 ## Conceito do jogo
 
-All Saints é um jogo de ação em mundo aberto ambientado em Salvador, Bahia, Brasil.
+Bay of All Saints é um jogo de ação em mundo aberto ambientado em Salvador, Bahia, Brasil.
 
 A ambição não é criar apenas uma pequena demonstração de um ponto turístico. A região do Elevador Lacerda é o primeiro recorte do MVP de um jogo pensado para crescer até uma escala urbana muito maior.
 
