@@ -25,6 +25,10 @@ def write_json(path: Path, value):
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def feature_key(feature: dict) -> str:
+    return feature.get("osm_key") or f"{feature.get('osm_type', 'way')}/{feature.get('osm_id')}"
+
+
 def euclidean(a: tuple[float, float], b: tuple[float, float]) -> float:
     return math.hypot(b[0] - a[0], b[1] - a[1])
 
@@ -58,7 +62,9 @@ def endpoint_rows(features: list[dict]) -> list[dict]:
             rows.append({
                 "group": layer_group(layer),
                 "layer": layer,
+                "osm_type": feature.get("osm_type"),
                 "osm_id": feature.get("osm_id"),
+                "osm_key": feature_key(feature),
                 "node_ref": int(refs[ref_index]),
                 "endpoint": endpoint_name,
                 "xy": (float(coords[coord_index][0]), float(coords[coord_index][1])),
@@ -77,7 +83,6 @@ def build_degrees(features: list[dict]) -> dict[tuple[str, int], int]:
         group = layer_group(layer)
         degrees[(group, int(refs[0]))] += 1
         degrees[(group, int(refs[-1]))] += 1
-        # Nós internos também conectam ways que usam o mesmo node; registrar presença.
         for ref in refs[1:-1]:
             degrees[(group, int(ref))] += 2
     return degrees
@@ -117,11 +122,11 @@ def spatial_near_misses(endpoints: list[dict], tolerance_m: float) -> tuple[list
                     other = endpoints[other_index]
                     if endpoint["node_ref"] == other["node_ref"]:
                         continue
-                    if endpoint["osm_id"] == other["osm_id"]:
+                    if endpoint["osm_key"] == other["osm_key"]:
                         continue
                     key = tuple(sorted((
-                        (endpoint["osm_id"], endpoint["endpoint"]),
-                        (other["osm_id"], other["endpoint"]),
+                        (endpoint["osm_key"], endpoint["endpoint"]),
+                        (other["osm_key"], other["endpoint"]),
                     )))
                     if key in seen_pairs:
                         continue
@@ -132,8 +137,8 @@ def spatial_near_misses(endpoints: list[dict], tolerance_m: float) -> tuple[list
                     row = {
                         "group": group,
                         "distance_m_projected": dist,
-                        "a": {k: endpoint[k] for k in ("osm_id", "layer", "node_ref", "endpoint")},
-                        "b": {k: other[k] for k in ("osm_id", "layer", "node_ref", "endpoint")},
+                        "a": {k: endpoint[k] for k in ("osm_key", "osm_type", "osm_id", "layer", "node_ref", "endpoint")},
+                        "b": {k: other[k] for k in ("osm_key", "osm_type", "osm_id", "layer", "node_ref", "endpoint")},
                         "xy_a": list(endpoint["xy"]),
                         "xy_b": list(other["xy"]),
                     }
@@ -149,7 +154,7 @@ def spatial_near_misses(endpoints: list[dict], tolerance_m: float) -> tuple[list
     return pairs, grade_separated
 
 
-def connected_components(features: list[dict], group_name: str) -> list[list[int]]:
+def connected_components(features: list[dict], group_name: str) -> list[list[str]]:
     selected = []
     for feature in features:
         layer = feature.get("layer")
@@ -157,11 +162,11 @@ def connected_components(features: list[dict], group_name: str) -> list[list[int
             continue
         refs = {int(ref) for ref in (feature.get("node_refs") or [])}
         if refs:
-            selected.append((int(feature["osm_id"]), refs))
+            selected.append((feature_key(feature), refs))
     if not selected:
         return []
 
-    parent = {osm_id: osm_id for osm_id, _ in selected}
+    parent = {osm_key: osm_key for osm_key, _ in selected}
 
     def find(value):
         while parent[value] != value:
@@ -174,24 +179,24 @@ def connected_components(features: list[dict], group_name: str) -> list[list[int
         if ra != rb:
             parent[rb] = ra
 
-    node_owner: dict[int, int] = {}
-    for osm_id, refs in selected:
+    node_owner: dict[int, str] = {}
+    for osm_key, refs in selected:
         for ref in refs:
             if ref in node_owner:
-                union(osm_id, node_owner[ref])
+                union(osm_key, node_owner[ref])
             else:
-                node_owner[ref] = osm_id
+                node_owner[ref] = osm_key
 
-    components: dict[int, list[int]] = defaultdict(list)
-    for osm_id, _ in selected:
-        components[find(osm_id)].append(osm_id)
+    components: dict[str, list[str]] = defaultdict(list)
+    for osm_key, _ in selected:
+        components[find(osm_key)].append(osm_key)
     result = [sorted(values) for values in components.values()]
     result.sort(key=lambda values: (-len(values), values[0]))
     return result
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Audita gaps e continuidade do osm_structure.json.")
+    parser = argparse.ArgumentParser(description="Audita gaps, multipolígonos e continuidade do osm_structure.json.")
     parser.add_argument("--structure", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--boundary-margin-m", type=float, default=15.0)
@@ -207,15 +212,35 @@ def main() -> int:
         raise SystemExit("osm_structure.json não contém bounds_epsg3857")
 
     unclosed_buildings = [
-        {"osm_id": item.get("osm_id"), "tags": item.get("tags", {})}
+        {"osm_key": feature_key(item), "osm_type": item.get("osm_type"), "osm_id": item.get("osm_id"), "relation_role": item.get("relation_role"), "tags": item.get("tags", {})}
         for item in features
         if item.get("layer") == "buildings" and not item.get("closed")
     ]
     missing_nodes = [
-        {"osm_id": item.get("osm_id"), "layer": item.get("layer"), "missing_node_ref_count": item.get("missing_node_ref_count")}
+        {"osm_key": feature_key(item), "osm_type": item.get("osm_type"), "osm_id": item.get("osm_id"), "layer": item.get("layer"), "missing_node_ref_count": item.get("missing_node_ref_count")}
         for item in features
         if (item.get("missing_node_ref_count") or 0) > 0
     ]
+    incomplete_relations = []
+    seen_relation_issues = set()
+    for item in features:
+        if item.get("osm_type") != "relation":
+            continue
+        missing_members = tuple(sorted(item.get("missing_member_way_ids") or []))
+        key = (feature_key(item), missing_members, bool(item.get("closed")))
+        if key in seen_relation_issues:
+            continue
+        if missing_members or not item.get("closed"):
+            seen_relation_issues.add(key)
+            incomplete_relations.append({
+                "osm_key": feature_key(item),
+                "osm_id": item.get("osm_id"),
+                "layer": item.get("layer"),
+                "relation_role": item.get("relation_role"),
+                "relation_ring_index": item.get("relation_ring_index"),
+                "closed": bool(item.get("closed")),
+                "missing_member_way_ids": list(missing_members),
+            })
 
     endpoints = endpoint_rows(features)
     degrees = build_degrees(features)
@@ -227,6 +252,8 @@ def main() -> int:
         row = {
             "group": endpoint["group"],
             "layer": endpoint["layer"],
+            "osm_key": endpoint["osm_key"],
+            "osm_type": endpoint["osm_type"],
             "osm_id": endpoint["osm_id"],
             "node_ref": endpoint["node_ref"],
             "endpoint": endpoint["endpoint"],
@@ -251,8 +278,10 @@ def main() -> int:
     review_queue = []
     for item in missing_nodes:
         review_queue.append({"kind": "missing_node_refs", "severity": "high", **item})
+    for item in incomplete_relations:
+        review_queue.append({"kind": "incomplete_multipolygon_relation", "severity": "high", **item})
     for item in unclosed_buildings:
-        review_queue.append({"kind": "unclosed_building_way", "severity": "high", **item})
+        review_queue.append({"kind": "unclosed_building_feature", "severity": "high", **item})
     for item in coastline_internal:
         review_queue.append({"kind": "internal_coastline_endpoint", "severity": "high", **item})
     for item in near_misses:
@@ -270,6 +299,7 @@ def main() -> int:
         "summary": {
             "features": len(features),
             "missing_node_ref_features": len(missing_nodes),
+            "incomplete_multipolygon_relations": len(incomplete_relations),
             "unclosed_buildings": len(unclosed_buildings),
             "internal_dangling_endpoints": len(dangling_internal),
             "boundary_dangling_endpoints": len(dangling_boundary),
@@ -285,6 +315,7 @@ def main() -> int:
         },
         "issues": {
             "missing_node_refs": missing_nodes,
+            "incomplete_multipolygon_relations": incomplete_relations,
             "unclosed_buildings": unclosed_buildings,
             "internal_dangling_endpoints": dangling_internal,
             "boundary_dangling_endpoints": dangling_boundary,
@@ -293,8 +324,10 @@ def main() -> int:
         },
         "review_queue": review_queue,
         "notes": [
+            "osm_key tipado evita colisão entre way/123 e relation/123.",
             "Dangling endpoint não é automaticamente erro: pode ser rua sem saída, acesso privado ou limite do recorte.",
             "Near-miss não é conectado automaticamente; pontes/túneis/layers podem justificar separação.",
+            "Multipolygon incompleto não é fechado artificialmente; member ausente/ring aberto precisa ser revisado na fonte.",
             "Coastline pode terminar na borda do extrato; endpoints internos merecem revisão prioritária.",
             "Auditoria não modifica OSM nem geometria Blender.",
         ],
