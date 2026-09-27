@@ -32,10 +32,13 @@ Leia, nesta ordem:
 3. `docs/STRUCTURAL_FIDELITY_PIPELINE.md`;
 4. `docs/CODEX_STRUCTURE_HANDOFF.md`;
 5. `docs/GEOREFERENCE_FIT_PIPELINE.md`;
-6. `docs/WORLD_DATA_ACQUISITION.md`;
-7. `docs/DATA_PROVENANCE.md`;
-8. `docs/REFERENCE_PRODUCTION_PIPELINE.md` quando o trabalho realmente depender de imagem;
-9. `world/areas/mvp-centro-lacerda/README.md` quando trabalhar no MVP atual.
+6. `docs/OSM_TOPOLOGY_QA.md`;
+7. `docs/TERRAIN_ROAD_QA.md`;
+8. `docs/SCENE_REFERENCE_ALIGNMENT_QA.md`;
+9. `docs/WORLD_DATA_ACQUISITION.md`;
+10. `docs/DATA_PROVENANCE.md`;
+11. `docs/REFERENCE_PRODUCTION_PIPELINE.md` quando o trabalho realmente depender de imagem;
+12. `world/areas/mvp-centro-lacerda/README.md` quando trabalhar no MVP atual.
 
 ## Fonte de verdade
 
@@ -61,14 +64,31 @@ Não deslocar geografia para acomodar um modelo sem registrar e justificar a cor
 
 ## Pipeline estrutural obrigatório
 
-Quando `map.osm`, `terrain.tif` e o `.blend` estiverem disponíveis localmente:
+Quando `map.osm`, `terrain.tif` e o `.blend` estiverem disponíveis localmente, preferir:
 
 ```bash
-python tools/terrain/audit_dem.py --dem CAMINHO/terrain.tif --output docs/reports/aleph/mvp-centro-lacerda/dem_audit.json
-python tools/world/extract_osm_structure.py --osm CAMINHO/map.osm --output artifacts/world/mvp-centro-lacerda/osm_structure.json
+python tools/world/run_structural_pipeline.py \
+  --osm CAMINHO/map.osm \
+  --dem CAMINHO/terrain.tif \
+  --hints docs/reports/blender/georef_hints.json \
+  --audit-road-profiles \
+  --output-dir artifacts/structural-pipeline/mvp-centro-lacerda
 ```
 
-Depois executar o fit geográfico documentado em `docs/GEOREFERENCE_FIT_PIPELINE.md`, gerar a referência Blender e importá-la como camada separada.
+O pipeline gera estrutura OSM, QA topológico, auditoria do DEM, QA opcional das vias, fit e referência estrutural Blender.
+
+Antes de corrigir a cena, revisar `osm_topology_audit.json` e `georef_fit.json`.
+
+Depois de importar `SOURCE_GEOREF | STRUCTURAL_REFERENCE`, gerar novamente `structural_scene_audit_before.json` com a versão atual de `audit_structural_scene.py` e executar:
+
+```bash
+python tools/world/compare_scene_reference_alignment.py \
+  --scene-audit docs/reports/blender/structural_scene_audit_before.json \
+  --reference artifacts/structural-pipeline/mvp-centro-lacerda/structural_reference.json \
+  --output docs/reports/blender/scene_reference_alignment.json
+```
+
+Só investigar automaticamente entidades com OSM ID explícito nos dois lados. Nunca criar correspondência de entidade por semelhança de nome.
 
 A coleção `SOURCE_GEOREF | STRUCTURAL_REFERENCE` é somente referência. Nunca convertê-la silenciosamente em arte final.
 
@@ -140,6 +160,7 @@ Não resolver problema estrutural por:
 - largura de rua inventada quando a fonte não fornece;
 - edição silenciosa do DEM-fonte;
 - substituição silenciosa de fonte de dados;
-- uso de decoração para esconder desalinhamento estrutural.
+- uso de decoração para esconder desalinhamento estrutural;
+- correspondência automática entre asset e feature real sem ID/proveniência confiável.
 
 Quando uma informação ainda não foi verificada, mantê-la explicitamente como `null`, `candidate`, `partial` ou `pending` conforme o contrato correspondente.
