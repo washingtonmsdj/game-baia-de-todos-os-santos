@@ -30,11 +30,12 @@ Leia, nesta ordem:
 1. `docs/CODEX_HANDOFF.md`;
 2. `docs/BLENDER_WORKFLOW.md`;
 3. `docs/STRUCTURAL_FIDELITY_PIPELINE.md`;
-4. `docs/GEOREFERENCE_FIT_PIPELINE.md`;
-5. `docs/WORLD_DATA_ACQUISITION.md`;
-6. `docs/DATA_PROVENANCE.md`;
-7. `docs/REFERENCE_PRODUCTION_PIPELINE.md` quando o trabalho realmente depender de imagem;
-8. `world/areas/mvp-centro-lacerda/README.md` quando trabalhar no MVP atual.
+4. `docs/CODEX_STRUCTURE_HANDOFF.md`;
+5. `docs/GEOREFERENCE_FIT_PIPELINE.md`;
+6. `docs/WORLD_DATA_ACQUISITION.md`;
+7. `docs/DATA_PROVENANCE.md`;
+8. `docs/REFERENCE_PRODUCTION_PIPELINE.md` quando o trabalho realmente depender de imagem;
+9. `world/areas/mvp-centro-lacerda/README.md` quando trabalhar no MVP atual.
 
 ## Fonte de verdade
 
