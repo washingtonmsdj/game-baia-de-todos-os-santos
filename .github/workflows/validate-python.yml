@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "tools/**/*.py"
+      - "tests/**/*.py"
       - "world/**/*.json"
       - "schemas/**/*.json"
       - "docs/references/**/*.json"
@@ -11,6 +12,7 @@ on:
   pull_request:
     paths:
       - "tools/**/*.py"
+      - "tests/**/*.py"
       - "world/**/*.json"
       - "schemas/**/*.json"
       - "docs/references/**/*.json"
@@ -30,7 +32,11 @@ jobs:
 
       - name: Compilar scripts sem executar Blender
         run: |
-          python -m compileall -q tools
+          python -m compileall -q tools tests
+
+      - name: Executar testes unitários
+        run: |
+          python -m unittest discover -s tests -p "test_*.py" -v
 
       - name: Validar sintaxe de todos os JSON versionados
         run: |
@@ -58,3 +64,4 @@ jobs:
           python tools/references/register_media.py --help >/dev/null
           python tools/references/reference_gaps.py --help >/dev/null
           python tools/references/import_commons.py --help >/dev/null
+          python tools/georef/solve_osm_blender_fit.py --help >/dev/null
