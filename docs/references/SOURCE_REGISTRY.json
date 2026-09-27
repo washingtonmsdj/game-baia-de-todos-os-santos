@@ -50,14 +50,36 @@
       "id": "aleph-elevation-legacy-mvp",
       "type": "terrain_reference",
       "name": "Aleph DEM / terrain GeoTIFF — legado do MVP",
+      "provider_identified": "Mapzen/Tilezen Terrain Tiles — AWS Open Data",
+      "provider_bucket": "s3://elevation-tiles-prod",
+      "provider_endpoint_pattern": "https://elevation-tiles-prod.s3.amazonaws.com/geotiff/{z}/{x}/{y}.tif",
+      "provider_registry": "https://registry.opendata.aws/terrain-tiles/",
+      "provider_attribution": "https://github.com/tilezen/joerd/blob/master/docs/attribution.md",
+      "aleph_behavior": {
+        "terrain_zoom_default": 14,
+        "tile_format": "GeoTIFF Float32",
+        "horizontal_crs": "EPSG:3857",
+        "height_unit": "meter",
+        "resampling": "none during Aleph merge according to Aleph capture notes"
+      },
+      "underlying_sources": "mosaico; pode incluir SRTM e outras fontes de elevação conforme a área/tile",
       "crs_observed": "EPSG:3857",
       "usage_class": "PENDENTE_VERIFICACAO",
       "purpose": [
         "relevo de referência",
         "blockout",
-        "Cidade Alta/Cidade Baixa"
+        "Cidade Alta/Cidade Baixa",
+        "QA de perfil vertical de vias",
+        "fit vertical DEM ↔ Blender"
       ],
-      "notes": "A cena Blender analisada registra historicamente Aleph DEM + OSM. Confirmar a origem/licença efetiva do dataset de elevação da captura antes de distribuição comercial."
+      "verification_required": [
+        "recuperar terrain.tif histórico e seu manifest.json",
+        "calcular SHA-256",
+        "auditar CRS, bounds, pixel size e nodata",
+        "confirmar atribuição/licença efetiva das fontes subjacentes aplicáveis ao recorte",
+        "classificar artefatos locais antes de qualquer correção"
+      ],
+      "notes": "O endpoint usado pelo Aleph foi identificado como o dataset público Mapzen/Tilezen Terrain Tiles no bucket elevation-tiles-prod. Isso melhora a proveniência, mas não transforma o DEM em levantamento cadastral nem garante que cada pixel tenha a mesma fonte/precisão."
     },
     {
       "id": "aleph-google-satellite",
