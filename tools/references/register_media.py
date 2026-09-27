@@ -36,6 +36,26 @@ def write_json(path: Path, value):
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def parse_coverage(values: list[str], valid_locations: set[str], primary: tuple[str, str]) -> list[dict]:
+    coverage = []
+    seen = {primary}
+    for raw in values:
+        if ":" not in raw:
+            raise SystemExit(f"--covers deve usar LOCATION_ID:VIEW: {raw}")
+        location_id, view = raw.split(":", 1)
+        if location_id not in valid_locations:
+            raise SystemExit(f"--covers aponta para location_id inexistente: {location_id}")
+        if view not in VIEWS:
+            raise SystemExit(f"--covers usa view inválida: {view}")
+        pair = (location_id, view)
+        if pair in seen:
+            continue
+        seen.add(pair)
+        coverage.append({"location_id": location_id, "view": view, "notes": ""})
+    coverage.sort(key=lambda item: (item["location_id"], item["view"]))
+    return coverage
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Registra uma imagem de referência no catálogo do projeto.")
     parser.add_argument("--repo-root", type=Path, default=Path("."))
@@ -44,6 +64,7 @@ def main() -> int:
     parser.add_argument("--file", type=Path, required=True)
     parser.add_argument("--media-root", type=Path, required=True, help="raiz local do acervo; não é gravada no Git")
     parser.add_argument("--view", required=True, choices=sorted(VIEWS))
+    parser.add_argument("--covers", action="append", default=[], metavar="LOCATION_ID:VIEW", help="cobertura adicional da mesma imagem; pode ser repetido")
     parser.add_argument("--source-type", required=True, choices=sorted(SOURCE_TYPES))
     parser.add_argument("--usage-class", required=True, choices=sorted(USAGE_CLASSES))
     parser.add_argument("--source-name", required=True)
@@ -77,6 +98,7 @@ def main() -> int:
     valid_locations = {item["location_id"] for item in locations.get("locations", [])}
     if args.location not in valid_locations:
         raise SystemExit(f"location_id inexistente em {locations_path}: {args.location}")
+    coverage = parse_coverage(args.covers, valid_locations, (args.location, args.view))
 
     if args.capture_date:
         try:
@@ -99,7 +121,7 @@ def main() -> int:
     existing = manifest.get("media", [])
     duplicate = next((item for item in existing if (item.get("storage") or {}).get("sha256") == digest), None)
     if duplicate:
-        raise SystemExit(f"Arquivo já registrado como {duplicate.get('media_id')}")
+        raise SystemExit(f"Arquivo já registrado como {duplicate.get('media_id')}; acrescente cobertura ao registro existente em vez de duplicar o binário")
 
     media_id = f"{args.location}-{args.view}-{digest[:12]}"
     item = {
@@ -119,6 +141,8 @@ def main() -> int:
         },
         "notes": args.notes
     }
+    if coverage:
+        item["coverage"] = coverage
     if args.capture_date or args.lat is not None or args.heading is not None:
         item["capture"] = {
             "date": args.capture_date,
@@ -133,7 +157,7 @@ def main() -> int:
     manifest["media"] = existing
     write_json(manifest_path, manifest)
 
-    print(json.dumps({"registered": media_id, "logical_path": logical_path, "sha256": digest}, ensure_ascii=False))
+    print(json.dumps({"registered": media_id, "logical_path": logical_path, "sha256": digest, "coverage": coverage}, ensure_ascii=False))
     return 0
 
 

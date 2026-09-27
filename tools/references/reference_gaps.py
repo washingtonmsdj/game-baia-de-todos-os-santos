@@ -16,6 +16,18 @@ def load(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def media_pairs(item: dict):
+    yield item.get("location_id"), item.get("view")
+    for coverage in item.get("coverage", []):
+        yield coverage.get("location_id"), coverage.get("view")
+
+
+def candidate_pairs(item: dict):
+    yield item.get("location_id"), item.get("suggested_view")
+    for coverage in item.get("coverage", []):
+        yield coverage.get("location_id"), coverage.get("view")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Mostra lacunas de referência visual por local.")
     parser.add_argument("--repo-root", type=Path, default=Path("."))
@@ -29,36 +41,44 @@ def main() -> int:
     candidates_path = area_dir / "reference-candidates.json"
     candidates = load(candidates_path).get("candidates", []) if candidates_path.is_file() else []
 
-    media_by_location: dict[str, list[dict]] = {}
+    views_by_location: dict[str, set[str]] = {}
     for item in media:
-        if item.get("usage_class") in USABLE_USAGE:
-            media_by_location.setdefault(item.get("location_id", ""), []).append(item)
+        if item.get("usage_class") not in USABLE_USAGE:
+            continue
+        for location_id, view in media_pairs(item):
+            if location_id and view:
+                views_by_location.setdefault(location_id, set()).add(view)
 
-    candidates_by_location: dict[str, list[dict]] = {}
+    candidate_suggestions_by_location: dict[str, list[dict]] = {}
     for item in candidates:
-        if item.get("status") in ACTIVE_CANDIDATE_STATUS:
-            candidates_by_location.setdefault(item.get("location_id", ""), []).append(item)
+        if item.get("status") not in ACTIVE_CANDIDATE_STATUS:
+            continue
+        for location_id, view in candidate_pairs(item):
+            if not location_id or not view:
+                continue
+            candidate_suggestions_by_location.setdefault(location_id, []).append({
+                "candidate_id": item.get("candidate_id"),
+                "view": view,
+                "file_title": item.get("file_title"),
+                "page_url": item.get("page_url"),
+                "expected_license": item.get("expected_license")
+            })
 
     report = []
     for loc in sorted(locations, key=lambda item: (-item.get("priority", 0), item.get("name", ""))):
         location_id = loc["location_id"]
-        items = media_by_location.get(location_id, [])
-        available_views = sorted({item.get("view") for item in items if item.get("view")})
+        available_views = sorted(views_by_location.get(location_id, set()))
         required_views = loc.get("required_views", [])
         missing_views = sorted(set(required_views) - set(available_views))
 
-        suggestions = []
-        for candidate in candidates_by_location.get(location_id, []):
-            view = candidate.get("suggested_view")
-            if view in missing_views:
-                suggestions.append({
-                    "candidate_id": candidate.get("candidate_id"),
-                    "view": view,
-                    "file_title": candidate.get("file_title"),
-                    "page_url": candidate.get("page_url"),
-                    "expected_license": candidate.get("expected_license")
-                })
-        suggestions.sort(key=lambda item: (item.get("view") or "", item.get("candidate_id") or ""))
+        suggestions = [
+            candidate for candidate in candidate_suggestions_by_location.get(location_id, [])
+            if candidate["view"] in missing_views
+        ]
+        unique = {}
+        for candidate in suggestions:
+            unique[(candidate["candidate_id"], candidate["view"])] = candidate
+        suggestions = sorted(unique.values(), key=lambda item: (item.get("view") or "", item.get("candidate_id") or ""))
 
         report.append({
             "location_id": location_id,

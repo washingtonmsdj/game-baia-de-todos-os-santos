@@ -13,15 +13,7 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "media_id",
-          "location_id",
-          "source_type",
-          "usage_class",
-          "view",
-          "storage",
-          "provenance"
-        ],
+        "required": ["media_id", "location_id", "source_type", "usage_class", "view", "storage", "provenance"],
         "properties": {
           "media_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
           "location_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
@@ -32,21 +24,22 @@
             "enum": ["PRODUCAO_APROVADA", "REFERENCIA_INTERNA", "TEMPORARIA", "PROIBIDO_PRODUCAO"]
           },
           "view": {
-            "enum": [
-              "front",
-              "rear",
-              "left",
-              "right",
-              "oblique_left",
-              "oblique_right",
-              "roof",
-              "access",
-              "street_context",
-              "waterfront_context",
-              "detail",
-              "panorama",
-              "map"
-            ]
+            "enum": ["front", "rear", "left", "right", "oblique_left", "oblique_right", "roof", "access", "street_context", "waterfront_context", "detail", "panorama", "map"]
+          },
+          "coverage": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["location_id", "view"],
+              "properties": {
+                "location_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+                "view": {
+                  "enum": ["front", "rear", "left", "right", "oblique_left", "oblique_right", "roof", "access", "street_context", "waterfront_context", "detail", "panorama", "map"]
+                },
+                "notes": {"type": "string"}
+              }
+            }
           },
           "capture": {
             "type": ["object", "null"],
