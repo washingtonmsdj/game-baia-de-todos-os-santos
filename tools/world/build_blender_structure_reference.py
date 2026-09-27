@@ -54,8 +54,14 @@ def main() -> int:
         transformed.append({
             "osm_type": feature["osm_type"],
             "osm_id": feature["osm_id"],
+            "osm_key": feature.get("osm_key") or f"{feature['osm_type']}/{feature['osm_id']}",
             "layer": feature["layer"],
             "closed": feature.get("closed", False),
+            "relation_role": feature.get("relation_role"),
+            "relation_ring_index": feature.get("relation_ring_index"),
+            "member_way_ids": feature.get("member_way_ids", []),
+            "missing_member_way_ids": feature.get("missing_member_way_ids", []),
+            "missing_member_way_count": feature.get("missing_member_way_count", 0),
             "node_refs": feature.get("node_refs", []),
             "missing_node_ref_count": feature.get("missing_node_ref_count", 0),
             "blender_xy": [transform_point(p, robust) for p in feature.get("epsg3857", [])],
@@ -79,7 +85,8 @@ def main() -> int:
         "features": transformed,
         "notes": [
             "Arquivo de sobreposição estrutural; não é geometria final.",
-            "OSM IDs e node_refs são preservados para auditoria/correção rastreável.",
+            "OSM key/type/id, node_refs e metadados de relation multipolygon são preservados para auditoria.",
+            "Rings outer/inner permanecem splines separadas no Blender.",
             "Não promover correções automáticas enquanto o fit não estiver manualmente validado.",
         ],
     }
