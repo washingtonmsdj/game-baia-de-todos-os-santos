@@ -4,7 +4,7 @@
 
 Continuar a cena do MVP de Salvador sem exigir coordenação manual repetida.
 
-A cena de trabalho do Blender deve ser fornecida localmente ao Codex. O GitHub é a fonte de verdade para scripts de automação, notas de revisão e instruções de validação.
+A cena de trabalho do Blender deve ser fornecida localmente ao Codex. O GitHub é a fonte de verdade para scripts de automação, notas de revisão, proveniência de dados e instruções de validação.
 
 ## Contexto atual da cena
 
@@ -45,10 +45,58 @@ blender cena_r28.blend --python tools/blender/r29_optimization.py -- --apply-exa
 ```
 
 10. reabrir e validar o `_r29.blend` aplicado;
-11. registrar métricas reais antes/depois;
-12. só então iniciar a R30 visual.
+11. exportar os relatórios reais da cena com `tools/blender/export_revision_reports.py`;
+12. registrar métricas reais antes/depois;
+13. só então iniciar a R30 visual.
 
 Se a cena local já estiver em uma revisão validada posterior, pular as etapas anteriores conforme necessário, mas nunca aplicar uma revisão destrutiva sobre um arquivo cuja origem não esteja preservada.
+
+## Aleph e dados geográficos
+
+O projeto **Aleph** é uma ferramenta externa registrada para aquisição e organização de referência geográfica.
+
+Referência pinada atualmente:
+
+- repositório: `Belluxx/Aleph`;
+- commit analisado: `d24c61507481a91a0dd6afac4f97626a4e5ea780`;
+- licença do software: MIT.
+
+Consultar antes de usar qualquer captura:
+
+- `docs/references/ALEPH.md`;
+- `docs/DATA_PROVENANCE.md`;
+- `docs/references/SOURCE_REGISTRY.json`.
+
+### Ao encontrar uma pasta de captura Aleph local
+
+Antes de importar qualquer dado no Blender, executar:
+
+```bash
+python tools/aleph/inspect_capture.py CAMINHO_DA_CAPTURA \
+  --output docs/reports/aleph/AREA_ID/source_summary.json
+```
+
+No Windows o comando pode ser executado em uma única linha.
+
+Depois:
+
+1. preservar o `manifest.json` original junto aos dados locais;
+2. revisar `source_summary.json`;
+3. confirmar o commit do Aleph usado na captura;
+4. confirmar bounds e sistema de coordenadas;
+5. importar OSM apenas como referência/proxy inicialmente;
+6. manter terreno de origem incerta como referência até a licença da fonte efetiva ser confirmada;
+7. não importar Google Satellite/Street View obtidos pelo Aleph como assets de produção;
+8. registrar a transformação geográfica → coordenadas locais do Blender antes de expandir o mapa.
+
+### Política de uso resumida
+
+- **OSM/Geofabrik:** permitido no pipeline com atribuição/obrigações ODbL registradas;
+- **terrain.tif do Aleph:** útil tecnicamente, mas a origem/licença efetiva do DEM deve ser confirmada antes de distribuição;
+- **Google Satellite via Aleph:** `PROIBIDO_PRODUCAO`;
+- **Google Street View via Aleph:** `PROIBIDO_PRODUCAO`.
+
+A licença MIT do software Aleph não concede direitos sobre os dados obtidos de serviços externos.
 
 ## Validação obrigatória após cada revisão
 
