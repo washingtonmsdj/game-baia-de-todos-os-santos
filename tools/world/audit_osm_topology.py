@@ -14,6 +14,10 @@ from pathlib import Path
 
 TRANSPORT_LAYERS = {"roads", "pedestrian", "steps"}
 LINEAR_REVIEW_LAYERS = TRANSPORT_LAYERS | {"coastline", "waterfront", "retaining_walls", "earthworks", "cliffs", "railways"}
+SUPPORTED_STRUCTURE_SCHEMAS = {
+    "bay-of-all-saints/osm-structure-v1",
+    "bay-of-all-saints/osm-structure-v2",
+}
 
 
 def load_json(path: Path):
@@ -44,6 +48,13 @@ def layer_group(layer: str) -> str:
     return layer
 
 
+def feature_identity(feature: dict) -> dict:
+    value = {"osm_type": feature.get("osm_type", "way"), "osm_id": feature.get("osm_id")}
+    if feature.get("relation_part_index") is not None:
+        value["relation_part_index"] = feature.get("relation_part_index")
+    return value
+
+
 def endpoint_rows(features: list[dict]) -> list[dict]:
     rows = []
     for feature in features:
@@ -58,7 +69,7 @@ def endpoint_rows(features: list[dict]) -> list[dict]:
             rows.append({
                 "group": layer_group(layer),
                 "layer": layer,
-                "osm_id": feature.get("osm_id"),
+                **feature_identity(feature),
                 "node_ref": int(refs[ref_index]),
                 "endpoint": endpoint_name,
                 "xy": (float(coords[coord_index][0]), float(coords[coord_index][1])),
@@ -77,7 +88,6 @@ def build_degrees(features: list[dict]) -> dict[tuple[str, int], int]:
         group = layer_group(layer)
         degrees[(group, int(refs[0]))] += 1
         degrees[(group, int(refs[-1]))] += 1
-        # Nós internos também conectam ways que usam o mesmo node; registrar presença.
         for ref in refs[1:-1]:
             degrees[(group, int(ref))] += 2
     return degrees
@@ -92,8 +102,14 @@ def likely_grade_separated(a: dict, b: dict) -> bool:
     sig_b = separation_signature(b.get("tags") or {})
     if sig_a == sig_b:
         return False
-    meaningful = any(value not in (None, "no", "0") for value in sig_a + sig_b)
-    return meaningful
+    return any(value not in (None, "no", "0") for value in sig_a + sig_b)
+
+
+def endpoint_identity(endpoint: dict) -> tuple:
+    return (
+        endpoint.get("osm_type", "way"), endpoint.get("osm_id"),
+        endpoint.get("relation_part_index", -1), endpoint.get("endpoint"),
+    )
 
 
 def spatial_near_misses(endpoints: list[dict], tolerance_m: float) -> tuple[list[dict], list[dict]]:
@@ -117,23 +133,29 @@ def spatial_near_misses(endpoints: list[dict], tolerance_m: float) -> tuple[list
                     other = endpoints[other_index]
                     if endpoint["node_ref"] == other["node_ref"]:
                         continue
-                    if endpoint["osm_id"] == other["osm_id"]:
+                    if endpoint_identity(endpoint)[:-1] == endpoint_identity(other)[:-1]:
                         continue
-                    key = tuple(sorted((
-                        (endpoint["osm_id"], endpoint["endpoint"]),
-                        (other["osm_id"], other["endpoint"]),
-                    )))
+                    key = tuple(sorted((endpoint_identity(endpoint), endpoint_identity(other))))
                     if key in seen_pairs:
                         continue
                     dist = euclidean(endpoint["xy"], other["xy"])
                     if dist > tolerance_m:
                         continue
                     seen_pairs.add(key)
+                    def compact(value):
+                        return {
+                            "osm_type": value.get("osm_type", "way"),
+                            "osm_id": value.get("osm_id"),
+                            "relation_part_index": value.get("relation_part_index"),
+                            "layer": value.get("layer"),
+                            "node_ref": value.get("node_ref"),
+                            "endpoint": value.get("endpoint"),
+                        }
                     row = {
                         "group": group,
                         "distance_m_projected": dist,
-                        "a": {k: endpoint[k] for k in ("osm_id", "layer", "node_ref", "endpoint")},
-                        "b": {k: other[k] for k in ("osm_id", "layer", "node_ref", "endpoint")},
+                        "a": compact(endpoint),
+                        "b": compact(other),
                         "xy_a": list(endpoint["xy"]),
                         "xy_b": list(other["xy"]),
                     }
@@ -149,19 +171,19 @@ def spatial_near_misses(endpoints: list[dict], tolerance_m: float) -> tuple[list
     return pairs, grade_separated
 
 
-def connected_components(features: list[dict], group_name: str) -> list[list[int]]:
+def connected_components(features: list[dict], group_name: str) -> list[list[dict]]:
     selected = []
-    for feature in features:
+    for index, feature in enumerate(features):
         layer = feature.get("layer")
         if layer_group(layer) != group_name:
             continue
         refs = {int(ref) for ref in (feature.get("node_refs") or [])}
         if refs:
-            selected.append((int(feature["osm_id"]), refs))
+            selected.append((index, feature_identity(feature), refs))
     if not selected:
         return []
 
-    parent = {osm_id: osm_id for osm_id, _ in selected}
+    parent = {index: index for index, _, _ in selected}
 
     def find(value):
         while parent[value] != value:
@@ -175,18 +197,18 @@ def connected_components(features: list[dict], group_name: str) -> list[list[int
             parent[rb] = ra
 
     node_owner: dict[int, int] = {}
-    for osm_id, refs in selected:
+    for index, _, refs in selected:
         for ref in refs:
             if ref in node_owner:
-                union(osm_id, node_owner[ref])
+                union(index, node_owner[ref])
             else:
-                node_owner[ref] = osm_id
+                node_owner[ref] = index
 
-    components: dict[int, list[int]] = defaultdict(list)
-    for osm_id, _ in selected:
-        components[find(osm_id)].append(osm_id)
-    result = [sorted(values) for values in components.values()]
-    result.sort(key=lambda values: (-len(values), values[0]))
+    components: dict[int, list[dict]] = defaultdict(list)
+    for index, identity, _ in selected:
+        components[find(index)].append(identity)
+    result = [sorted(values, key=lambda v: (str(v.get("osm_type")), int(v.get("osm_id") or 0), int(v.get("relation_part_index") or -1))) for values in components.values()]
+    result.sort(key=lambda values: (-len(values), str(values[0])))
     return result
 
 
@@ -199,7 +221,7 @@ def main() -> int:
     args = parser.parse_args()
 
     structure = load_json(args.structure)
-    if structure.get("schema") != "bay-of-all-saints/osm-structure-v1":
+    if structure.get("schema") not in SUPPORTED_STRUCTURE_SCHEMAS:
         raise SystemExit("schema estrutural não suportado")
     features = structure.get("features") or []
     bounds = structure.get("bounds_epsg3857")
@@ -207,14 +229,20 @@ def main() -> int:
         raise SystemExit("osm_structure.json não contém bounds_epsg3857")
 
     unclosed_buildings = [
-        {"osm_id": item.get("osm_id"), "tags": item.get("tags", {})}
+        {**feature_identity(item), "tags": item.get("tags", {})}
         for item in features
         if item.get("layer") == "buildings" and not item.get("closed")
     ]
     missing_nodes = [
-        {"osm_id": item.get("osm_id"), "layer": item.get("layer"), "missing_node_ref_count": item.get("missing_node_ref_count")}
+        {**feature_identity(item), "layer": item.get("layer"), "missing_node_ref_count": item.get("missing_node_ref_count")}
         for item in features
         if (item.get("missing_node_ref_count") or 0) > 0
+    ]
+
+    relation_diagnostics = structure.get("relation_diagnostics") or []
+    incomplete_relations = [
+        item for item in relation_diagnostics
+        if item.get("missing_way_members") or item.get("incomplete_outer_chains") or item.get("incomplete_inner_chains")
     ]
 
     endpoints = endpoint_rows(features)
@@ -225,13 +253,11 @@ def main() -> int:
         if degrees.get((endpoint["group"], endpoint["node_ref"]), 0) != 1:
             continue
         row = {
-            "group": endpoint["group"],
-            "layer": endpoint["layer"],
-            "osm_id": endpoint["osm_id"],
-            "node_ref": endpoint["node_ref"],
-            "endpoint": endpoint["endpoint"],
-            "xy": list(endpoint["xy"]),
-            "name": endpoint["tags"].get("name"),
+            "group": endpoint["group"], "layer": endpoint["layer"],
+            "osm_type": endpoint.get("osm_type", "way"), "osm_id": endpoint["osm_id"],
+            "relation_part_index": endpoint.get("relation_part_index"),
+            "node_ref": endpoint["node_ref"], "endpoint": endpoint["endpoint"],
+            "xy": list(endpoint["xy"]), "name": endpoint["tags"].get("name"),
             "highway": endpoint["tags"].get("highway"),
         }
         if near_boundary(endpoint["xy"], bounds, args.boundary_margin_m):
@@ -244,15 +270,16 @@ def main() -> int:
     near_misses, grade_separated = spatial_near_misses(endpoints, args.near_miss_m)
     transport_components = connected_components(features, "transport")
     coastline_components = connected_components(features, "coastline")
-
     coastline_internal = [item for item in dangling_internal if item["group"] == "coastline"]
     transport_internal = [item for item in dangling_internal if item["group"] == "transport"]
 
     review_queue = []
     for item in missing_nodes:
         review_queue.append({"kind": "missing_node_refs", "severity": "high", **item})
+    for item in incomplete_relations:
+        review_queue.append({"kind": "incomplete_multipolygon_relation", "severity": "high", **item})
     for item in unclosed_buildings:
-        review_queue.append({"kind": "unclosed_building_way", "severity": "high", **item})
+        review_queue.append({"kind": "unclosed_building_feature", "severity": "high", **item})
     for item in coastline_internal:
         review_queue.append({"kind": "internal_coastline_endpoint", "severity": "high", **item})
     for item in near_misses:
@@ -261,15 +288,14 @@ def main() -> int:
         review_queue.append({"kind": "internal_transport_dangling", "severity": "review", **item})
 
     payload = {
-        "schema": "bay-of-all-saints/osm-topology-audit-v1",
+        "schema": "bay-of-all-saints/osm-topology-audit-v2",
         "source": str(args.structure.resolve()),
-        "thresholds": {
-            "boundary_margin_m_projected": args.boundary_margin_m,
-            "near_miss_m_projected": args.near_miss_m,
-        },
+        "source_structure_schema": structure.get("schema"),
+        "thresholds": {"boundary_margin_m_projected": args.boundary_margin_m, "near_miss_m_projected": args.near_miss_m},
         "summary": {
             "features": len(features),
             "missing_node_ref_features": len(missing_nodes),
+            "incomplete_multipolygon_relations": len(incomplete_relations),
             "unclosed_buildings": len(unclosed_buildings),
             "internal_dangling_endpoints": len(dangling_internal),
             "boundary_dangling_endpoints": len(dangling_boundary),
@@ -279,12 +305,10 @@ def main() -> int:
             "coastline_components": len(coastline_components),
             "review_items": len(review_queue),
         },
-        "network": {
-            "transport_components": transport_components,
-            "coastline_components": coastline_components,
-        },
+        "network": {"transport_components": transport_components, "coastline_components": coastline_components},
         "issues": {
             "missing_node_refs": missing_nodes,
+            "incomplete_multipolygon_relations": incomplete_relations,
             "unclosed_buildings": unclosed_buildings,
             "internal_dangling_endpoints": dangling_internal,
             "boundary_dangling_endpoints": dangling_boundary,
@@ -296,6 +320,7 @@ def main() -> int:
             "Dangling endpoint não é automaticamente erro: pode ser rua sem saída, acesso privado ou limite do recorte.",
             "Near-miss não é conectado automaticamente; pontes/túneis/layers podem justificar separação.",
             "Coastline pode terminar na borda do extrato; endpoints internos merecem revisão prioritária.",
+            "Relações multipolygon incompletas são reportadas e nunca fechadas por proximidade espacial.",
             "Auditoria não modifica OSM nem geometria Blender.",
         ],
     }
