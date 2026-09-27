@@ -69,6 +69,7 @@ jobs:
           python tools/world/extract_osm_structure.py --help >/dev/null
           python tools/world/audit_osm_topology.py --help >/dev/null
           python tools/world/build_blender_structure_reference.py --help >/dev/null
+          python tools/world/compare_scene_reference_alignment.py --help >/dev/null
           python tools/world/run_structural_pipeline.py --help >/dev/null
           python tools/terrain/audit_dem.py --help >/dev/null
           python tools/terrain/audit_road_profiles.py --help >/dev/null

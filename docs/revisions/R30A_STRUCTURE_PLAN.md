@@ -83,7 +83,7 @@ REF_RETAINING_WALLS
 
 Essas camadas ajudam a entender a escarpa e as transições de nível sem suavizar o relevo arbitrariamente.
 
-## Etapa D — auditoria da cena existente
+## Etapa D — auditoria e alinhamento da cena existente
 
 Executar:
 
@@ -93,7 +93,30 @@ blender cena.blend --background \
   -- --output docs/reports/blender/structural_scene_audit_before.json
 ```
 
-Revisar especialmente:
+A auditoria atual registra OSM IDs explícitos e exclui `SOURCE_GEOREF`.
+
+Depois comparar entidades com o mesmo OSM ID:
+
+```bash
+python tools/world/compare_scene_reference_alignment.py \
+  --scene-audit docs/reports/blender/structural_scene_audit_before.json \
+  --reference artifacts/structural-pipeline/mvp-centro-lacerda/structural_reference.json \
+  --output docs/reports/blender/scene_reference_alignment.json
+```
+
+Revisar primeiro `center_offset_review`. `bounds_size_review` é triagem, pois AABB pode variar com rotação, extrusão ou asset dividido em partes.
+
+Priorizar quando presentes:
+
+- Mercado Modelo — way `59392558`;
+- Palácio Rio Branco — way `402383814`;
+- outros OSM IDs explícitos distribuídos pelo recorte.
+
+Não criar correspondência por semelhança de nome. Não mover objeto apenas porque o AABB divergiu.
+
+Consultar `docs/SCENE_REFERENCE_ALIGNMENT_QA.md`.
+
+Também revisar:
 
 - bounds do terreno;
 - Z mínimo/máximo;
@@ -178,6 +201,7 @@ Usar `REF_BUILDINGS` para revisar implantação horizontal.
 Nesta revisão:
 
 - corrigir posição/rotação/footprint quando a divergência estiver comprovada;
+- usar `scene_reference_alignment.json` como triagem para OSM IDs explícitos;
 - não usar building way aberto como footprint confiável sem revisão;
 - não reconstruir fachada por falta de foto;
 - preservar interiores e sistemas funcionais;
@@ -194,6 +218,7 @@ Nesta revisão:
 - `osm_topology_audit.json`;
 - `structural_reference.json`;
 - `structural_scene_audit_before.json`;
+- `scene_reference_alignment.json`;
 - `structural_scene_audit_after.json`;
 - `.blend` revisado salvo como nova revisão;
 - relatório R30A com divergências corrigidas e pendentes.
@@ -204,6 +229,8 @@ R30A termina quando:
 
 - fit geográfico foi revisado e tem qualidade suficiente;
 - problemas topológicos críticos do recorte foram classificados;
+- OSM IDs explícitos prioritários foram comparados contra a referência;
+- offsets significativos foram classificados antes de qualquer movimento;
 - sobreposição estrutural foi inspecionada no Blender;
 - corredor principal não apresenta desalinhamentos grandes de planta;
 - coastline/cais do MVP são coerentes com a referência disponível;
