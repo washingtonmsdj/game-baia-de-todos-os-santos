@@ -75,22 +75,63 @@ python tools/world/run_structural_pipeline.py \
   --output-dir artifacts/structural-pipeline/mvp-centro-lacerda
 ```
 
-Sem DEM, omitir `--dem`.
+Para incluir o QA do DEM sob as vias no mesmo comando, quando `rasterio` estiver disponível:
+
+```bash
+python tools/world/run_structural_pipeline.py \
+  --osm CAMINHO_DA_CAPTURA/map.osm \
+  --dem CAMINHO_DA_CAPTURA/terrain.tif \
+  --hints docs/reports/blender/georef_hints.json \
+  --audit-road-profiles \
+  --output-dir artifacts/structural-pipeline/mvp-centro-lacerda
+```
+
+Sem DEM, omitir `--dem` e `--audit-road-profiles`.
 
 O comando gera artefatos separados:
 
 ```text
 osm_structure.json
+osm_topology_audit.json
 georef_fit.json
 structural_reference.json
-dem_audit.json   # se --dem foi fornecido
+dem_audit.json           # se --dem foi fornecido
+dem_road_profiles.json   # se --audit-road-profiles foi solicitado
 ```
 
 Se o fit não atingir `candidate` ou `strong_candidate`, o pipeline deve parar. Não usar `--allow-weak-fit` para produção; ele existe apenas para diagnóstico explícito.
 
-## 5. Auditar o perfil do terreno sob as vias
+## 5. Revisar o QA topológico antes de usar a sobreposição
 
-Quando `terrain.tif` estiver disponível e `rasterio` estiver instalado, executar:
+Ler:
+
+```text
+osm_topology_audit.json
+```
+
+Consultar `docs/OSM_TOPOLOGY_QA.md`.
+
+Prioridade de revisão:
+
+1. `missing_node_refs`;
+2. `unclosed_buildings` relevantes;
+3. endpoints internos da `coastline`;
+4. `near_misses`;
+5. endpoints internos de transporte;
+6. componentes desconectados inesperados.
+
+Não corrigir automaticamente:
+
+- rua sem saída legítima;
+- endpoint na borda do recorte;
+- possível ponte/túnel/layer diferente;
+- píer, muro, cliff ou earthwork que realmente termina.
+
+Se a topologia-fonte estiver comprovadamente problemática em uma área crítica, registrar a limitação antes de corrigir o Blender. Não deformar a cena apenas para reproduzir um erro da referência.
+
+## 6. Auditar o perfil do terreno sob as vias
+
+Quando `terrain.tif` estiver disponível e `rasterio` estiver instalado, usar `--audit-road-profiles` no pipeline principal ou executar:
 
 ```bash
 python tools/terrain/audit_road_profiles.py \
@@ -109,7 +150,7 @@ Essas flags **não autorizam suavização automática**. Salvador possui escarpa
 
 Consultar `docs/TERRAIN_ROAD_QA.md`.
 
-## 6. Revisar o fit antes do Blender
+## 7. Revisar o fit antes do Blender
 
 Conferir:
 
@@ -125,7 +166,7 @@ Conferir:
 
 Não promover `world_anchor_status=verified` apenas porque o script terminou sem erro.
 
-## 7. Importar referência estrutural
+## 8. Importar referência estrutural
 
 ```bash
 blender CENA_VALIDADA.blend --background \
@@ -141,22 +182,38 @@ A cena resultante deve conter:
 SOURCE_GEOREF | STRUCTURAL_REFERENCE
 ```
 
-com objetos `REF_*` ocultos no render.
+com objetos `REF_*` ocultos no render, incluindo quando presentes:
+
+```text
+REF_ROADS
+REF_PEDESTRIAN
+REF_STEPS
+REF_BUILDINGS
+REF_COASTLINE
+REF_WATERFRONT
+REF_RETAINING_WALLS
+REF_EARTHWORKS
+REF_CLIFFS
+REF_WATER
+REF_RAILWAYS
+```
 
 Nunca converter automaticamente `REF_*` em geometria final.
 
-## 8. Correção estrutural manual/assistida
+## 9. Correção estrutural manual/assistida
 
 Trabalhar nesta ordem:
 
-1. coastline;
-2. waterfront/cais;
-3. eixos viários;
-4. cruzamentos;
-5. terreno nas interfaces críticas e itens da `review_queue` do DEM;
-6. áreas pedonais/escadas;
-7. footprints;
-8. integração com Hero assets.
+1. topologia-fonte crítica já classificada;
+2. coastline;
+3. waterfront/cais;
+4. eixos viários;
+5. cruzamentos;
+6. terreno nas interfaces críticas e itens da `review_queue` do DEM;
+7. áreas pedonais/escadas;
+8. cliffs, earthworks e contenções;
+9. footprints;
+10. integração com Hero assets.
 
 Para cada correção relevante registrar:
 
@@ -170,7 +227,7 @@ mudança aplicada
 incerteza remanescente
 ```
 
-## 9. Terreno
+## 10. Terreno
 
 Não editar o `terrain.tif` original.
 
@@ -184,7 +241,7 @@ Quando o DEM tiver artefato real (spike/cliff/nodata/interpolação ruim):
 
 A escarpa de Salvador deve continuar fisicamente legível; não suavizar globalmente apenas para facilitar o blockout.
 
-## 10. Ruas
+## 11. Ruas
 
 Priorizar eixo/continuidade. Largura só pode ser tratada como medida quando houver fonte explícita.
 
@@ -192,7 +249,7 @@ Priorizar eixo/continuidade. Largura só pode ser tratada como medida quando hou
 
 Se a largura tiver de permanecer artística/aproximada para gameplay, documentar essa diferença separadamente da posição geográfica do eixo.
 
-## 11. Coastline / waterfront / água
+## 12. Coastline / waterfront / água
 
 Não misturar:
 
@@ -204,7 +261,7 @@ water surface visual
 
 O contorno da água e o cais devem ser resolvidos antes do shader da Baía.
 
-## 12. Auditoria depois das correções
+## 13. Auditoria depois das correções
 
 Executar novamente:
 
@@ -218,7 +275,7 @@ Registrar diferenças antes/depois.
 
 Se o terreno foi corrigido de forma derivada, repetir `audit_road_profiles.py` sobre o DEM/representação derivada apropriada apenas quando houver um raster georreferenciado comparável; caso contrário, registrar a validação diretamente no Blender.
 
-## 13. Saída esperada
+## 14. Saída esperada
 
 Salvar nova revisão, por exemplo:
 
@@ -231,6 +288,7 @@ Preservar:
 - R29 validada;
 - versão com referência carregada;
 - R30A corrigida;
+- `osm_topology_audit.json`;
 - relatórios antes/depois;
 - `dem_road_profiles.json` quando aplicável.
 
@@ -238,6 +296,7 @@ Preservar:
 
 Só declarar R30A concluída quando:
 
+- itens topológicos críticos do recorte estiverem classificados;
 - a referência estrutural puder ser desligada e a cena continuar coerente;
 - ruas principais não estiverem deslocadas de forma evidente;
 - coastline/cais estiverem coerentes;
