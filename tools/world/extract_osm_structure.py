@@ -55,10 +55,14 @@ def classify_way(tags: dict[str, str]) -> str | None:
         return "buildings"
     if tags.get("natural") == "coastline":
         return "coastline"
-    if tags.get("man_made") in {"pier", "breakwater", "groyne"}:
+    if tags.get("natural") == "cliff":
+        return "cliffs"
+    if tags.get("man_made") in {"pier", "breakwater", "groyne", "quay"}:
         return "waterfront"
-    if tags.get("barrier") in {"retaining_wall", "wall", "city_wall"}:
+    if tags.get("barrier") in {"retaining_wall", "wall", "city_wall"} or tags.get("man_made") == "retaining_wall":
         return "retaining_walls"
+    if tags.get("man_made") == "embankment" or tags.get("embankment") == "yes" or tags.get("cutting") == "yes":
+        return "earthworks"
     if tags.get("natural") == "water" or tags.get("waterway") in {"riverbank", "dock"}:
         return "water"
     if tags.get("railway"):
@@ -97,7 +101,8 @@ def parse_osm(path: Path) -> tuple[dict[str, tuple[float, float]], list[dict]]:
 
 
 def build_feature(way: dict, nodes: dict[str, tuple[float, float]]) -> dict | None:
-    coords_wgs84 = [nodes[ref] for ref in way["refs"] if ref in nodes]
+    valid_refs = [ref for ref in way["refs"] if ref in nodes]
+    coords_wgs84 = [nodes[ref] for ref in valid_refs]
     if len(coords_wgs84) < 2:
         return None
     coords_3857 = [mercator(lat, lon) for lat, lon in coords_wgs84]
@@ -108,12 +113,14 @@ def build_feature(way: dict, nodes: dict[str, tuple[float, float]]) -> dict | No
         lanes = int(tags["lanes"]) if "lanes" in tags else None
     except ValueError:
         lanes = None
-    closed = len(coords_wgs84) >= 4 and coords_wgs84[0] == coords_wgs84[-1]
+    closed = len(valid_refs) >= 4 and valid_refs[0] == valid_refs[-1]
     feature = {
         "osm_type": "way",
         "osm_id": way["id"],
         "layer": way["layer"],
         "closed": closed,
+        "node_refs": [int(ref) for ref in valid_refs],
+        "missing_node_ref_count": len(way["refs"]) - len(valid_refs),
         "wgs84": [[lat, lon] for lat, lon in coords_wgs84],
         "epsg3857": [[x, y] for x, y in coords_3857],
         "metrics": {
@@ -172,11 +179,13 @@ def main() -> int:
             "ways_classified": len(ways),
             "features_emitted": len(features),
             "features_skipped_missing_nodes": skipped,
+            "features_with_missing_node_refs": sum(1 for item in features if item["missing_node_ref_count"]),
             "layers": dict(sorted(layer_counts.items())),
         },
         "features": features,
         "notes": [
             "Geometrias são referência estrutural derivada de OSM, não arte final.",
+            "node_refs são preservados para auditoria topológica e continuidade.",
             "width_m_tagged e lanes_tagged só são preenchidos quando existem explicitamente no OSM.",
             "length/area usam EPSG:3857 e servem para auditoria relativa; não são levantamento cadastral.",
         ],

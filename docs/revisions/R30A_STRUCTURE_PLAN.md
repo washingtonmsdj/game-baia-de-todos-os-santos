@@ -43,34 +43,54 @@ Mercado Modelo e Palácio Rio Branco devem ser conferidos quando disponíveis.
 
 Resultado esperado:
 
-`docs/reports/blender/georef_fit.json`
+`georef_fit.json`
 
 Nenhum offset global manual pode substituir esse passo.
 
-## Etapa B — referência estrutural OSM
+## Etapa B — estrutura e topologia OSM
 
-Gerar:
+Gerar `osm_structure.json` e `osm_topology_audit.json` pelo pipeline estrutural.
 
-`artifacts/world/mvp-centro-lacerda/osm_structure.json`
+Antes de usar a referência no Blender, revisar em ordem:
 
-Depois transformar para:
+1. node refs ausentes;
+2. footprints `building=*` não fechados;
+3. endpoints internos de coastline;
+4. near-misses entre endpoints distintos;
+5. endpoints internos da rede de transporte;
+6. componentes desconectados inesperados;
+7. possíveis separações de nível por `bridge`, `tunnel` ou `layer`.
 
-`docs/reports/blender/structural_reference.json`
+Não transformar uma flag em correção automática. Rua sem saída, limite do recorte, píer, cliff, muro ou ponte podem terminar legitimamente.
 
-Importar no Blender em:
+Consultar `docs/OSM_TOPOLOGY_QA.md`.
+
+## Etapa C — referência estrutural Blender
+
+Transformar a estrutura validada para `structural_reference.json` e importar em:
 
 `SOURCE_GEOREF | STRUCTURAL_REFERENCE`
 
 A camada importada é somente referência e nunca é exportada como asset final.
 
-## Etapa C — auditoria da cena existente
+Quando existirem no OSM, revisar também:
+
+```text
+REF_CLIFFS
+REF_EARTHWORKS
+REF_RETAINING_WALLS
+```
+
+Essas camadas ajudam a entender a escarpa e as transições de nível sem suavizar o relevo arbitrariamente.
+
+## Etapa D — auditoria da cena existente
 
 Executar:
 
 ```bash
 blender cena.blend --background \
   --python tools/blender/audit_structural_scene.py \
-  -- --output docs/reports/blender/structural_scene_audit.json
+  -- --output docs/reports/blender/structural_scene_audit_before.json
 ```
 
 Revisar especialmente:
@@ -83,7 +103,7 @@ Revisar especialmente:
 - contenções/escadas;
 - footprints/proxies de edifícios.
 
-## Etapa D — terreno
+## Etapa E — terreno
 
 Conferir em ordem:
 
@@ -98,16 +118,9 @@ Conferir em ordem:
 
 Qualquer correção local deve existir como geometria/revisão derivada e documentada. Não modificar silenciosamente o raster-fonte.
 
-### D1 — QA do DEM sob ruas
+### E1 — QA do DEM sob ruas
 
-Quando `rasterio` estiver disponível, executar:
-
-```bash
-python tools/terrain/audit_road_profiles.py \
-  --dem CAMINHO/terrain.tif \
-  --structure artifacts/world/mvp-centro-lacerda/osm_structure.json \
-  --output docs/reports/aleph/mvp-centro-lacerda/dem_road_profiles.json
-```
+Quando `rasterio` estiver disponível, executar o QA dos perfis viários.
 
 A `review_queue` serve para localizar:
 
@@ -128,7 +141,7 @@ source_uncertain
 
 Não aplicar smoothing global por causa de flags locais.
 
-## Etapa E — ruas e áreas pedonais
+## Etapa F — ruas e áreas pedonais
 
 Comparar a geometria atual contra `REF_ROADS`, `REF_PEDESTRIAN` e `REF_STEPS`.
 
@@ -145,7 +158,7 @@ Prioridade:
 
 Não inventar largura pela classe OSM. Se `width=*`/medida confiável não existir, preservar a incerteza e usar a referência apenas para eixo/implantação.
 
-## Etapa F — coastline, cais e água
+## Etapa G — coastline, cais e água
 
 Comparar separadamente:
 
@@ -156,13 +169,16 @@ Comparar separadamente:
 
 Corrigir primeiro o limite terra/água e estruturas rígidas. O shader/mesh visual da Baía deve se adaptar ao contorno, não o contrário.
 
-## Etapa G — footprints
+Uma coastline interrompida internamente no `osm_topology_audit.json` precisa ser entendida antes de ser usada como referência de correção.
+
+## Etapa H — footprints
 
 Usar `REF_BUILDINGS` para revisar implantação horizontal.
 
 Nesta revisão:
 
 - corrigir posição/rotação/footprint quando a divergência estiver comprovada;
+- não usar building way aberto como footprint confiável sem revisão;
 - não reconstruir fachada por falta de foto;
 - preservar interiores e sistemas funcionais;
 - Hero assets exigem revisão conservadora.
@@ -174,9 +190,11 @@ Nesta revisão:
 - `dem_road_profiles.json` quando aplicável;
 - `georef_hints.json`;
 - `georef_fit.json`;
-- `osm_structure.json` local/artifact;
+- `osm_structure.json`;
+- `osm_topology_audit.json`;
 - `structural_reference.json`;
-- `structural_scene_audit.json` antes e depois;
+- `structural_scene_audit_before.json`;
+- `structural_scene_audit_after.json`;
 - `.blend` revisado salvo como nova revisão;
 - relatório R30A com divergências corrigidas e pendentes.
 
@@ -185,6 +203,7 @@ Nesta revisão:
 R30A termina quando:
 
 - fit geográfico foi revisado e tem qualidade suficiente;
+- problemas topológicos críticos do recorte foram classificados;
 - sobreposição estrutural foi inspecionada no Blender;
 - corredor principal não apresenta desalinhamentos grandes de planta;
 - coastline/cais do MVP são coerentes com a referência disponível;

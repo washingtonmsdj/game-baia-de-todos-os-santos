@@ -35,6 +35,18 @@ OSM_FIXTURE = """<?xml version='1.0' encoding='UTF-8'?>
     <nd ref='2'/><nd ref='3'/>
     <tag k='man_made' v='pier'/>
   </way>
+  <way id='104'>
+    <nd ref='3'/><nd ref='4'/>
+    <tag k='man_made' v='quay'/>
+  </way>
+  <way id='105'>
+    <nd ref='4'/><nd ref='5'/>
+    <tag k='natural' v='cliff'/>
+  </way>
+  <way id='106'>
+    <nd ref='5'/><nd ref='1'/>
+    <tag k='embankment' v='yes'/>
+  </way>
 </osm>
 """
 
@@ -51,12 +63,16 @@ class OSMStructureTests(unittest.TestCase):
 
             self.assertEqual(by_id[100]["layer"], "buildings")
             self.assertTrue(by_id[100]["closed"])
+            self.assertEqual(by_id[100]["node_refs"], [1, 2, 3, 4, 1])
             self.assertGreater(by_id[100]["metrics"]["area_m2_projected"], 0)
             self.assertEqual(by_id[101]["layer"], "roads")
             self.assertEqual(by_id[101]["metrics"]["lanes_tagged"], 2)
             self.assertAlmostEqual(by_id[101]["metrics"]["width_m_tagged"], 7.5)
             self.assertEqual(by_id[102]["layer"], "coastline")
             self.assertEqual(by_id[103]["layer"], "waterfront")
+            self.assertEqual(by_id[104]["layer"], "waterfront")
+            self.assertEqual(by_id[105]["layer"], "cliffs")
+            self.assertEqual(by_id[106]["layer"], "earthworks")
 
     def test_does_not_invent_road_width(self):
         feature = MODULE.build_feature(
@@ -65,6 +81,14 @@ class OSMStructureTests(unittest.TestCase):
         )
         self.assertIsNone(feature["metrics"]["width_m_tagged"])
         self.assertIsNone(feature["metrics"]["lanes_tagged"])
+
+    def test_missing_refs_are_counted_without_fabrication(self):
+        feature = MODULE.build_feature(
+            {"id": 201, "refs": ["1", "999", "2"], "tags": {"highway": "service"}, "layer": "roads"},
+            {"1": (-12.97, -38.51), "2": (-12.97, -38.5099)},
+        )
+        self.assertEqual(feature["node_refs"], [1, 2])
+        self.assertEqual(feature["missing_node_ref_count"], 1)
 
 
 if __name__ == "__main__":

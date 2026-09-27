@@ -2,7 +2,7 @@
 """Orquestra o pipeline estrutural sem esconder os artefatos intermediários.
 
 Entrada mínima: map.osm + georef_hints.json.
-Opcional: terrain.tif para auditoria de DEM.
+Opcional: terrain.tif para auditoria de DEM e perfis viários.
 """
 
 from __future__ import annotations
@@ -21,14 +21,17 @@ def run(command: list[str], label: str) -> None:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Executa extração OSM → fit geográfico → referência Blender.")
+    parser = argparse.ArgumentParser(description="Executa OSM → QA topológico → fit geográfico → referência Blender.")
     parser.add_argument("--osm", type=Path, required=True)
     parser.add_argument("--hints", type=Path, required=True)
     parser.add_argument("--dem", type=Path)
+    parser.add_argument("--audit-road-profiles", action="store_true", help="requer --dem e rasterio")
     parser.add_argument("--output-dir", type=Path, default=Path("artifacts/structural-pipeline"))
     parser.add_argument("--min-anchors", type=int, default=4)
     parser.add_argument("--max-residual", type=float, default=8.0)
     parser.add_argument("--target-rms", type=float, default=3.0)
+    parser.add_argument("--boundary-margin-m", type=float, default=15.0)
+    parser.add_argument("--near-miss-m", type=float, default=1.5)
     parser.add_argument("--allow-weak-fit", action="store_true")
     args = parser.parse_args()
 
@@ -42,12 +45,17 @@ def main() -> int:
         raise SystemExit(f"map.osm não encontrado: {osm}")
     if not hints.is_file():
         raise SystemExit(f"georef_hints.json não encontrado: {hints}")
+    if args.audit_road_profiles and not args.dem:
+        raise SystemExit("--audit-road-profiles exige --dem")
 
     structure = output_dir / "osm_structure.json"
+    topology = output_dir / "osm_topology_audit.json"
     fit = output_dir / "georef_fit.json"
     reference = output_dir / "structural_reference.json"
     dem_audit = output_dir / "dem_audit.json"
+    road_profiles = output_dir / "dem_road_profiles.json"
 
+    dem = None
     if args.dem:
         dem = args.dem.resolve()
         if not dem.is_file():
@@ -65,6 +73,24 @@ def main() -> int:
         "--osm", str(osm),
         "--output", str(structure),
     ], "Extração estrutural OSM")
+
+    run([
+        sys.executable,
+        str(root / "tools/world/audit_osm_topology.py"),
+        "--structure", str(structure),
+        "--output", str(topology),
+        "--boundary-margin-m", str(args.boundary_margin_m),
+        "--near-miss-m", str(args.near_miss_m),
+    ], "QA topológico OSM")
+
+    if args.audit_road_profiles and dem is not None:
+        run([
+            sys.executable,
+            str(root / "tools/terrain/audit_road_profiles.py"),
+            "--dem", str(dem),
+            "--structure", str(structure),
+            "--output", str(road_profiles),
+        ], "QA do DEM sob as vias")
 
     run([
         sys.executable,
@@ -93,14 +119,18 @@ def main() -> int:
         command.append("--allow-weak-fit")
     run(command, "Geração da referência estrutural Blender")
 
+    topology_data = json.loads(topology.read_text(encoding="utf-8"))
     summary = {
         "output_dir": str(output_dir),
         "osm_structure": str(structure),
+        "osm_topology_audit": str(topology),
         "georef_fit": str(fit),
         "structural_reference": str(reference),
-        "dem_audit": str(dem_audit) if args.dem else None,
+        "dem_audit": str(dem_audit) if dem else None,
+        "dem_road_profiles": str(road_profiles) if args.audit_road_profiles else None,
         "fit_quality": quality,
-        "next_step": "importar structural_reference.json com tools/blender/import_structural_reference.py",
+        "topology_review_items": (topology_data.get("summary") or {}).get("review_items"),
+        "next_step": "revisar QA topológico/fit e importar structural_reference.json no Blender",
     }
     print("\n== Pipeline concluído ==")
     print(json.dumps(summary, ensure_ascii=False, indent=2))
