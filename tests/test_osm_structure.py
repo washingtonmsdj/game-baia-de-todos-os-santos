@@ -56,8 +56,9 @@ class OSMStructureTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp) / "map.osm"
             path.write_text(OSM_FIXTURE, encoding="utf-8")
-            nodes, ways = MODULE.parse_osm(path)
-            features = [MODULE.build_feature(way, nodes) for way in ways]
+            nodes, ways, relations = MODULE.parse_osm(path)
+            self.assertEqual(relations, [])
+            features = [MODULE.build_way_feature(way, nodes) for way in ways.values()]
             features = [feature for feature in features if feature]
             by_id = {item["osm_id"]: item for item in features}
 
@@ -75,16 +76,16 @@ class OSMStructureTests(unittest.TestCase):
             self.assertEqual(by_id[106]["layer"], "earthworks")
 
     def test_does_not_invent_road_width(self):
-        feature = MODULE.build_feature(
-            {"id": 200, "refs": ["1", "2"], "tags": {"highway": "residential"}, "layer": "roads"},
+        feature = MODULE.build_way_feature(
+            {"id": 200, "refs": ["1", "2"], "tags": {"highway": "residential"}},
             {"1": (-12.97, -38.51), "2": (-12.97, -38.5099)},
         )
         self.assertIsNone(feature["metrics"]["width_m_tagged"])
         self.assertIsNone(feature["metrics"]["lanes_tagged"])
 
     def test_missing_refs_are_counted_without_fabrication(self):
-        feature = MODULE.build_feature(
-            {"id": 201, "refs": ["1", "999", "2"], "tags": {"highway": "service"}, "layer": "roads"},
+        feature = MODULE.build_way_feature(
+            {"id": 201, "refs": ["1", "999", "2"], "tags": {"highway": "service"}},
             {"1": (-12.97, -38.51), "2": (-12.97, -38.5099)},
         )
         self.assertEqual(feature["node_refs"], [1, 2])
