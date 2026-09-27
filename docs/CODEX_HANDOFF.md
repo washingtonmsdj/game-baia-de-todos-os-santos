@@ -109,6 +109,6 @@ Quando o MVP estiver tecnicamente estável, priorizar melhorias perceptíveis:
 
 ## Idioma da documentação
 
-O nome do jogo permanece **All Saints**.
+O nome do jogo permanece **Bay of All Saints**.
 
 Toda a documentação, relatórios, handoffs e notas de desenvolvimento devem ser escritos em **português**. Nomes próprios reais de Salvador permanecem com sua grafia oficial.
