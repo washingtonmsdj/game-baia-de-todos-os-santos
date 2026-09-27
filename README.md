@@ -1,21 +1,21 @@
-# All Saints — Open-World Salvador
+# All Saints — Salvador em Mundo Aberto
 
-> **Working title:** All Saints  
-> **Tagline:** *Everyone has a price. No one is a saint.*
+> **Nome do jogo:** All Saints  
+> **Tagline:** *Todos têm um preço. Ninguém é santo.*
 
-An open-world action game set in Salvador, Bahia, Brazil.
+Jogo de ação em mundo aberto ambientado em Salvador, Bahia, Brasil.
 
-The current MVP focuses on the **Elevador Lacerda / Cidade Alta / Cidade Baixa / Praça Cairu / Mercado Modelo** area. The long-term goal is to expand the playable world across Salvador while preserving the city's vertical geography, cultural identity, urban contrasts, landmarks, neighborhoods, traffic, and everyday life.
+O MVP atual está concentrado na região do **Elevador Lacerda / Cidade Alta / Cidade Baixa / Praça Cairu / Mercado Modelo**. O objetivo de longo prazo é expandir o mundo jogável para Salvador inteira, preservando a geografia vertical da cidade, sua identidade cultural, contrastes urbanos, marcos arquitetônicos, bairros, trânsito e vida cotidiana.
 
-## Current development focus
+## Foco atual do desenvolvimento
 
-The project is currently building the first playable urban slice around Elevador Lacerda.
+O projeto está construindo o primeiro recorte urbano jogável ao redor do Elevador Lacerda.
 
-The Blender source scene already contains terrain, OSM-derived reference geometry, roads, architectural landmarks, the Elevador Lacerda system, Mercado Modelo, Praça Cairu, playable circulation areas, and several internal revision passes.
+A cena-fonte do Blender já contém terreno, geometria de referência derivada de OSM, vias, marcos arquitetônicos, sistema do Elevador Lacerda, Mercado Modelo, Praça Cairu, áreas de circulação jogáveis e várias revisões internas.
 
-Current Blender work is being continued through **versioned, non-destructive Python passes** stored in this repository. This allows ChatGPT/Codex to prepare changes in GitHub and apply them later inside Blender without repeatedly interrupting the level-design workflow.
+O trabalho no Blender será continuado por meio de **passes Python versionados e não destrutivos** armazenados neste repositório. Assim, ChatGPT/Codex pode preparar melhorias no GitHub e aplicá-las depois dentro do Blender sem interromper repetidamente o fluxo de construção do mapa.
 
-## Repository structure
+## Estrutura do repositório
 
 ```text
 docs/
@@ -32,27 +32,27 @@ tools/
     r28_gameplay_export.py
 ```
 
-## Blender revision policy
+## Política de revisões do Blender
 
-Each Blender automation pass must:
+Cada automação do Blender deve:
 
-- be non-destructive by default;
-- preserve the previous `.blend` file;
-- save to a new revision file;
-- be safe to run more than once when practical;
-- avoid mass renaming or destructive joins unless explicitly approved;
-- record what it changed;
-- keep reference/proxy geometry separate from game-ready geometry;
-- provide enough metadata for a later Codex pass to validate the result.
+- ser não destrutiva por padrão;
+- preservar o `.blend` anterior;
+- salvar em um novo arquivo de revisão;
+- poder ser executada novamente com segurança quando possível;
+- evitar renomeações em massa ou junções destrutivas sem aprovação explícita;
+- registrar o que foi alterado;
+- manter geometria de referência/proxy separada da geometria destinada ao jogo;
+- fornecer metadados suficientes para o Codex validar o resultado posteriormente.
 
-## Current milestone
+## Marco atual
 
-**MVP vertical slice:** Elevador Lacerda and its immediate playable surroundings.
+**Vertical slice do MVP:** Elevador Lacerda e entorno jogável imediato.
 
-Current pipeline state:
+Estado atual do pipeline:
 
-- R27 — QA anchors, review camera, optional preview lighting.
-- R28 — gameplay route guides, gameplay zones, export classification, performance audit.
-- R29 — planned controlled optimization pass using the R28 audit.
+- R27 — marcadores de QA, câmera de revisão e iluminação opcional de preview;
+- R28 — guias de rota jogável, zonas de gameplay, classificação de exportação e auditoria de performance;
+- R29 — otimização controlada planejada com base na auditoria da R28.
 
-See [`docs/BLENDER_WORKFLOW.md`](docs/BLENDER_WORKFLOW.md) and [`docs/CODEX_HANDOFF.md`](docs/CODEX_HANDOFF.md).
+Consulte [`docs/BLENDER_WORKFLOW.md`](docs/BLENDER_WORKFLOW.md) e [`docs/CODEX_HANDOFF.md`](docs/CODEX_HANDOFF.md).
