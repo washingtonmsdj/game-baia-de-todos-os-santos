@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "area_id": "mvp-centro-lacerda",
+  "locations": [
+    {
+      "location_id": "elevador-lacerda",
+      "name": "Elevador Lacerda",
+      "category": "hero_building",
+      "fidelity_class": "A",
+      "priority": 5,
+      "model_status": "blockout",
+      "reference_status": "partial",
+      "osm": null,
+      "position_wgs84": null,
+      "blender_binding": null,
+      "required_views": ["front", "rear", "left", "right", "oblique_left", "oblique_right", "access", "street_context", "detail"],
+      "production_rules": {
+        "geometry_must_be_realigned": false,
+        "manual_review_required": true,
+        "notes": [
+          "Preservar o sistema funcional existente enquanto referências arquitetônicas são consolidadas.",
+          "Não aprovar sem conferir entradas superior e inferior, torre, passarela, portas e relação com terreno."
+        ]
+      },
+      "notes": ["Hero asset central do vertical slice."]
+    },
+    {
+      "location_id": "mercado-modelo",
+      "name": "Mercado Modelo",
+      "category": "hero_building",
+      "fidelity_class": "A",
+      "priority": 5,
+      "model_status": "blockout",
+      "reference_status": "partial",
+      "osm": {"type": "way", "id": 59392558, "verified": false},
+      "position_wgs84": null,
+      "blender_binding": null,
+      "required_views": ["front", "rear", "left", "right", "oblique_left", "oblique_right", "roof", "access", "street_context", "waterfront_context", "detail"],
+      "production_rules": {
+        "geometry_must_be_realigned": false,
+        "manual_review_required": true,
+        "notes": [
+          "O OSM way foi encontrado nos metadados da cena; validar contra map.osm original antes de marcar verified=true.",
+          "Revisar a relação do edifício com Praça Cairu, cais e borda marítima."
+        ]
+      },
+      "notes": ["POI principal e marco visual da Cidade Baixa."]
+    },
+    {
+      "location_id": "palacio-rio-branco",
+      "name": "Palácio Rio Branco",
+      "category": "hero_building",
+      "fidelity_class": "A",
+      "priority": 4,
+      "model_status": "blockout",
+      "reference_status": "partial",
+      "osm": {"type": "way", "id": 402383814, "verified": false},
+      "position_wgs84": null,
+      "blender_binding": null,
+      "required_views": ["front", "oblique_left", "oblique_right", "roof", "street_context", "detail"],
+      "production_rules": {
+        "geometry_must_be_realigned": false,
+        "manual_review_required": true,
+        "notes": ["Validar OSM way contra a captura original antes de fechar a âncora geográfica."]
+      },
+      "notes": ["Anchor importante da Cidade Alta e candidato para validação da transformação geográfica."]
+    },
+    {
+      "location_id": "praca-cairu",
+      "name": "Praça Cairu",
+      "category": "square",
+      "fidelity_class": "A",
+      "priority": 5,
+      "model_status": "blockout",
+      "reference_status": "partial",
+      "osm": null,
+      "position_wgs84": null,
+      "blender_binding": null,
+      "required_views": ["street_context", "waterfront_context", "access", "detail"],
+      "production_rules": {
+        "geometry_must_be_realigned": true,
+        "manual_review_required": true,
+        "notes": [
+          "Validar pavimentação, bordas, travessias, mobiliário, árvores e relação com Mercado Modelo/Elevador.",
+          "Priorizar fidelidade espacial antes de densidade decorativa."
+        ]
+      },
+      "notes": ["Primeiro hub externo do MVP."]
+    },
+    {
+      "location_id": "praca-tome-de-sousa",
+      "name": "Praça Tomé de Sousa",
+      "category": "square",
+      "fidelity_class": "A",
+      "priority": 4,
+      "model_status": "blockout",
+      "reference_status": "partial",
+      "osm": null,
+      "position_wgs84": null,
+      "blender_binding": null,
+      "required_views": ["street_context", "access", "detail"],
+      "production_rules": {
+        "geometry_must_be_realigned": true,
+        "manual_review_required": true,
+        "notes": ["Revisar relação entre praça, acesso superior do Elevador e edifícios cívicos do entorno."]
+      },
+      "notes": ["Área de aproximação superior do vertical slice."]
+    },
+    {
+      "location_id": "corredor-cidade-baixa",
+      "name": "Corredor viário e pedonal da Cidade Baixa — Elevador até Mercado Modelo",
+      "category": "road",
+      "fidelity_class": "A",
+      "priority": 5,
+      "model_status": "blockout",
+      "reference_status": "partial",
+      "osm": null,
+      "position_wgs84": null,
+      "blender_binding": null,
+      "required_views": ["street_context", "access", "detail"],
+      "production_rules": {
+        "geometry_must_be_realigned": true,
+        "manual_review_required": true,
+        "notes": [
+          "Conferir eixos, larguras, meio-fio, calçadas, travessias, inclinação e continuidade.",
+          "Não mascarar artefatos do terreno movendo vias sem registrar a correção."
+        ]
+      },
+      "notes": ["A fidelidade deste corredor é mais importante que props decorativos nesta fase."]
+    },
+    {
+      "location_id": "cais-praca-cairu",
+      "name": "Cais e borda marítima da Praça Cairu",
+      "category": "waterfront",
+      "fidelity_class": "A",
+      "priority": 5,
+      "model_status": "proxy",
+      "reference_status": "missing",
+      "osm": null,
+      "position_wgs84": null,
+      "blender_binding": null,
+      "required_views": ["waterfront_context", "street_context", "detail"],
+      "production_rules": {
+        "geometry_must_be_realigned": true,
+        "manual_review_required": true,
+        "notes": [
+          "Recuperar coastline/cais por fonte geográfica validada.",
+          "Separar contorno costeiro real da superfície visual do oceano."
+        ]
+      },
+      "notes": ["Elemento estrutural para a leitura da Baía de Todos-os-Santos."]
+    },
+    {
+      "location_id": "baia-agua-mvp",
+      "name": "Superfície de água da Baía no recorte do MVP",
+      "category": "coastline",
+      "fidelity_class": "B",
+      "priority": 4,
+      "model_status": "proxy",
+      "reference_status": "partial",
+      "osm": null,
+      "position_wgs84": null,
+      "blender_binding": null,
+      "required_views": ["waterfront_context"],
+      "production_rules": {
+        "geometry_must_be_realigned": true,
+        "manual_review_required": true,
+        "notes": [
+          "O shader de água pode ser artístico; o limite terra/água e o cais não podem ser inventados.",
+          "Planejar continuidade para futuras expansões costeiras."
+        ]
+      },
+      "notes": ["A água deve ser tratada separadamente da geometria da costa."]
+    }
+  ]
+}
