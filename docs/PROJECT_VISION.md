@@ -1,74 +1,74 @@
-# Project Vision
+# Visão do Projeto
 
-## Working identity
+## Identidade atual
 
-**Working title:** All Saints  
-**Tagline:** *Everyone has a price. No one is a saint.*
+**Nome do jogo:** All Saints  
+**Tagline:** *Todos têm um preço. Ninguém é santo.*
 
-The title is still considered a working brand until naming, trademark, store-search, and domain checks are completed.
+O nome ainda deve ser tratado como marca em desenvolvimento até serem concluídas verificações de disponibilidade, marca registrada, busca em lojas e domínio.
 
-## Game concept
+## Conceito do jogo
 
-All Saints is an open-world action game set in Salvador, Bahia, Brazil.
+All Saints é um jogo de ação em mundo aberto ambientado em Salvador, Bahia, Brasil.
 
-The ambition is not to build a small landmark demo. The Elevador Lacerda area is the first MVP slice of a larger city-scale game.
+A ambição não é criar apenas uma pequena demonstração de um ponto turístico. A região do Elevador Lacerda é o primeiro recorte do MVP de um jogo pensado para crescer até uma escala urbana muito maior.
 
-The long-term world should represent Salvador as a dense, vertical, socially diverse, coastal city with recognizable neighborhoods, landmarks, traffic patterns, steep streets, informal and formal urban spaces, commercial districts, historic areas, waterfront zones, nightlife, residential districts, and peripheral expansion.
+No longo prazo, o mundo deve representar Salvador como uma cidade densa, vertical, costeira e socialmente diversa, com bairros reconhecíveis, marcos arquitetônicos, padrões de trânsito, ladeiras, áreas formais e informais, zonas comerciais, regiões históricas, orla, vida noturna, áreas residenciais e expansão periférica.
 
-## Core pillars
+## Pilares centrais
 
-### 1. Salvador is the main character
+### 1. Salvador é a protagonista
 
-The city should not feel like a generic open-world map with Brazilian props added on top. Geography, architecture, elevation, sound, mobility, street life, weather, vegetation, cultural references, and neighborhood differences should influence gameplay.
+A cidade não deve parecer um mapa genérico de mundo aberto com elementos brasileiros adicionados por cima. Geografia, arquitetura, altitude, som, mobilidade, vida de rua, clima, vegetação, referências culturais e diferenças entre bairros devem influenciar o gameplay.
 
-### 2. Vertical city design
+### 2. Cidade vertical
 
-Cidade Alta and Cidade Baixa are not only visual features. Elevation changes, slopes, stairways, elevators, viaducts, cliffs, viewpoints, tunnels, and layered circulation should become part of navigation, chases, missions, escapes, and exploration.
+Cidade Alta e Cidade Baixa não são apenas características visuais. Mudanças de altitude, ladeiras, escadarias, elevadores, viadutos, encostas, mirantes, túneis e circulação em camadas devem fazer parte da navegação, perseguições, missões, fugas e exploração.
 
-### 3. Systemic open world
+### 3. Mundo aberto sistêmico
 
-The target experience is a systemic urban sandbox in the broad tradition of games such as GTA and 171, while developing an original identity around Salvador.
+A experiência pretendida é um sandbox urbano sistêmico na tradição ampla de jogos como GTA e 171, mas com identidade própria construída em torno de Salvador.
 
-The final design may include vehicles, pedestrians, police response, factions, businesses, jobs, property, economy, story missions, emergent encounters, and activities. These systems should be introduced incrementally after the world slice is stable.
+O projeto poderá incluir veículos, pedestres, resposta policial, facções, negócios, trabalhos, propriedades, economia, missões de história, eventos emergentes e atividades. Esses sistemas devem ser introduzidos de forma incremental depois que o recorte urbano estiver estável.
 
-### 4. Believable before enormous
+### 4. Convincente antes de enorme
 
-The project should prefer one convincing, playable district over a huge but empty map.
+O projeto deve preferir um distrito convincente e jogável a um mapa gigantesco e vazio.
 
-Each expansion area should pass through a consistent pipeline:
+Cada nova área deve passar por um pipeline consistente:
 
-1. reference and scale;
+1. referência e escala;
 2. blockout;
-3. traversal;
-4. gameplay routes;
-5. landmark pass;
-6. traffic and pedestrian logic;
-7. optimization;
-8. art/detail pass;
-9. gameplay integration;
-10. validation.
+3. travessia;
+4. rotas de gameplay;
+5. passe de marcos arquitetônicos;
+6. lógica de tráfego e pedestres;
+7. otimização;
+8. passe de arte e detalhamento;
+9. integração de gameplay;
+10. validação.
 
-## Current MVP area
+## Área atual do MVP
 
-The first vertical slice is centered on:
+O primeiro vertical slice está centrado em:
 
 - Elevador Lacerda;
-- Praça Tomé de Sousa / Cidade Alta access;
-- the upper pedestrian approach;
-- the elevator system and cabins;
-- the lower exit;
+- Praça Tomé de Sousa / acesso pela Cidade Alta;
+- aproximação superior de pedestres;
+- sistema do elevador e cabines;
+- saída inferior;
 - Praça Cairu;
 - Mercado Modelo;
-- the immediate Cidade Baixa street network.
+- malha viária imediata da Cidade Baixa.
 
-The current scene already contains multiple revision passes and should be evolved rather than rebuilt from scratch.
+A cena atual já contém diversas revisões e deve ser evoluída, não reconstruída do zero.
 
-## World expansion direction
+## Direção de expansão do mundo
 
-After the current MVP becomes stable and game-ready, candidate expansion corridors include the Historic Center/Pelourinho, Comércio, waterfront connections, Barra, Rio Vermelho, Liberdade, Itapuã, Pituba, Cajazeiras, Subúrbio Ferroviário, and other districts.
+Depois que o MVP atual estiver estável e pronto para jogo, possíveis corredores de expansão incluem Centro Histórico/Pelourinho, Comércio, conexões com a orla, Barra, Rio Vermelho, Liberdade, Itapuã, Pituba, Cajazeiras, Subúrbio Ferroviário e outros bairros.
 
-Expansion order should be driven by gameplay, production cost, technical feasibility, and narrative needs rather than by attempting full geographic coverage immediately.
+A ordem de expansão deve ser definida por gameplay, custo de produção, viabilidade técnica e necessidades narrativas, e não por uma tentativa prematura de cobrir toda a cidade de uma vez.
 
-## Production principle
+## Princípio de produção
 
-All major world-building work should remain reproducible. Blender transformations that can be scripted should be versioned in this repository so another agent or developer can reproduce, inspect, or roll back the change.
+Todo trabalho importante de construção do mundo deve permanecer reproduzível. Transformações do Blender que possam ser automatizadas devem ser versionadas neste repositório para que outro agente ou desenvolvedor consiga reproduzir, inspecionar ou reverter a alteração.
