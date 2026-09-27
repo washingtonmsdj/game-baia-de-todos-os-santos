@@ -84,6 +84,12 @@ def create_layer_object(layer: str, features: list[dict], parent):
             "spline_index": spline_index,
             "osm_type": feature.get("osm_type"),
             "osm_id": feature.get("osm_id"),
+            "osm_key": feature.get("osm_key"),
+            "relation_role": feature.get("relation_role"),
+            "relation_ring_index": feature.get("relation_ring_index"),
+            "member_way_ids": feature.get("member_way_ids", []),
+            "missing_member_way_ids": feature.get("missing_member_way_ids", []),
+            "missing_member_way_count": feature.get("missing_member_way_count", 0),
             "node_refs": feature.get("node_refs", []),
             "missing_node_ref_count": feature.get("missing_node_ref_count", 0),
             "tags": feature.get("tags", {}),
@@ -113,7 +119,8 @@ def write_index(payload, rows):
         "splines": rows,
         "notes": [
             "Objetos REF_* são somente referência e ficam ocultos no render.",
-            "spline_index permite rastrear cada linha/footprint ao OSM ID e node_refs originais.",
+            "spline_index permite rastrear cada spline ao osm_key/node_refs originais.",
+            "Rings multipolygon outer/inner permanecem separados e registram member ways.",
         ],
     }
     text.write(json.dumps(index_payload, ensure_ascii=False, indent=2))
