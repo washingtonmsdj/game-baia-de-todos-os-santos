@@ -21,13 +21,7 @@ from urllib.request import Request, urlopen
 
 API = "https://commons.wikimedia.org/w/api.php"
 USER_AGENT = "BayOfAllSaintsReferencePipeline/1.0 (GitHub: washingtonmsdj/game-baia-de-todos-os-santos)"
-FREE_LICENSE_MARKERS = (
-    "CC BY ",
-    "CC BY-SA ",
-    "CC0",
-    "PUBLIC DOMAIN",
-    "PUBLIC DOMAIN MARK",
-)
+FREE_LICENSE_MARKERS = ("CC BY ", "CC BY-SA ", "CC0", "PUBLIC DOMAIN", "PUBLIC DOMAIN MARK")
 
 
 def load_json(path: Path):
@@ -38,25 +32,21 @@ def clean_html(value: str | None) -> str:
     if not value:
         return ""
     text = re.sub(r"<[^>]+>", " ", value)
-    text = html.unescape(text)
-    return " ".join(text.split())
+    return " ".join(html.unescape(text).split())
 
 
 def metadata_value(ext: dict, key: str) -> str:
     value = ext.get(key)
-    if isinstance(value, dict):
-        return clean_html(str(value.get("value") or ""))
-    return ""
+    return clean_html(str(value.get("value") or "")) if isinstance(value, dict) else ""
 
 
 def normalize_title(value: str) -> str:
     value = value.strip()
-    if value.startswith("http://") or value.startswith("https://"):
+    if value.startswith(("http://", "https://")):
         path = unquote(urlparse(value).path)
-        marker = "/wiki/"
-        if marker not in path:
+        if "/wiki/" not in path:
             raise SystemExit("URL do Commons precisa apontar para uma página File:")
-        value = path.split(marker, 1)[1].replace("_", " ")
+        value = path.split("/wiki/", 1)[1].replace("_", " ")
     if not value.lower().startswith("file:"):
         value = "File:" + value
     return value
@@ -88,25 +78,21 @@ def is_auto_approved_license(name: str) -> bool:
 
 def infer_capture_date(ext: dict) -> str | None:
     for key in ("DateTimeOriginal", "DateTime", "DateTimeDigitized"):
-        value = metadata_value(ext, key)
-        match = re.search(r"(\d{4})[-:](\d{2})[-:](\d{2})", value)
+        match = re.search(r"(\d{4})[-:](\d{2})[-:](\d{2})", metadata_value(ext, key))
         if match:
             return "-".join(match.groups())
     return None
 
 
 def float_metadata(ext: dict, key: str) -> float | None:
-    raw = metadata_value(ext, key)
     try:
-        return float(raw)
+        return float(metadata_value(ext, key))
     except (TypeError, ValueError):
         return None
 
 
 def safe_stem(title: str) -> str:
-    value = title.split(":", 1)[-1]
-    value = re.sub(r"\.[A-Za-z0-9]{2,5}$", "", value)
-    value = value.casefold()
+    value = re.sub(r"\.[A-Za-z0-9]{2,5}$", "", title.split(":", 1)[-1]).casefold()
     value = re.sub(r"[^a-z0-9]+", "-", value)
     return value.strip("-")[:100] or "commons-reference"
 
@@ -115,12 +101,7 @@ def extension_from_url(url: str, mime: str) -> str:
     suffix = Path(unquote(urlparse(url).path)).suffix.lower()
     if suffix in {".jpg", ".jpeg", ".png", ".webp", ".tif", ".tiff"}:
         return ".jpg" if suffix == ".jpeg" else suffix
-    return {
-        "image/jpeg": ".jpg",
-        "image/png": ".png",
-        "image/webp": ".webp",
-        "image/tiff": ".tif",
-    }.get(mime, ".bin")
+    return {"image/jpeg": ".jpg", "image/png": ".png", "image/webp": ".webp", "image/tiff": ".tif"}.get(mime, ".bin")
 
 
 def download(url: str, target: Path, max_bytes: int) -> None:
@@ -159,6 +140,7 @@ def main() -> int:
     parser.add_argument("--location")
     parser.add_argument("--title", help="File:... ou URL da página no Commons")
     parser.add_argument("--view")
+    parser.add_argument("--covers", action="append", default=[], metavar="LOCATION_ID:VIEW", help="cobertura adicional fora do candidato")
     parser.add_argument("--media-root", type=Path, default=Path("world-reference"))
     parser.add_argument("--usage-class", default="REFERENCIA_INTERNA", choices=["PRODUCAO_APROVADA", "REFERENCIA_INTERNA", "TEMPORARIA"])
     parser.add_argument("--max-mb", type=int, default=50)
@@ -170,17 +152,21 @@ def main() -> int:
     if not media_root.is_absolute():
         media_root = (repo_root / media_root).resolve()
 
+    candidate = None
+    candidate_coverage = []
     if args.candidate_id:
         candidate = candidate_from_file(repo_root, args.area, args.candidate_id)
         location = args.location or candidate["location_id"]
         title = normalize_title(args.title or candidate["file_title"])
         view = args.view or candidate["suggested_view"]
+        candidate_coverage = [f"{item['location_id']}:{item['view']}" for item in candidate.get("coverage", [])]
     else:
         if not (args.location and args.title and args.view):
             parser.error("sem --candidate-id, informe --location, --title e --view")
         location = args.location
         title = normalize_title(args.title)
         view = args.view
+    covers = candidate_coverage + args.covers
 
     result = commons_query(title)
     info = result["imageinfo"]
@@ -198,32 +184,17 @@ def main() -> int:
     capture_date = infer_capture_date(ext)
     lat = float_metadata(ext, "GPSLatitude")
     lon = float_metadata(ext, "GPSLongitude")
-
     license_verified = bool(license_name and is_auto_approved_license(license_name))
     if args.usage_class == "PRODUCAO_APROVADA" and not license_verified:
-        raise SystemExit(
-            f"Licença não está na allowlist automática para PRODUCAO_APROVADA: {license_name or 'ausente'}"
-        )
+        raise SystemExit(f"Licença não está na allowlist automática para PRODUCAO_APROVADA: {license_name or 'ausente'}")
 
     summary = {
-        "title": title,
-        "location_id": location,
-        "view": view,
-        "original_url": original_url,
-        "description_url": description_url,
-        "mime": info.get("mime"),
-        "width": info.get("width"),
-        "height": info.get("height"),
-        "size": info.get("size"),
-        "license": license_name or None,
-        "license_url": license_url or None,
-        "license_auto_verified": license_verified,
-        "artist": artist,
-        "credit": credit or None,
-        "capture_date": capture_date,
-        "lat": lat,
-        "lon": lon,
-        "description": description or None,
+        "title": title, "location_id": location, "view": view, "coverage": covers,
+        "original_url": original_url, "description_url": description_url,
+        "mime": info.get("mime"), "width": info.get("width"), "height": info.get("height"), "size": info.get("size"),
+        "license": license_name or None, "license_url": license_url or None,
+        "license_auto_verified": license_verified, "artist": artist, "credit": credit or None,
+        "capture_date": capture_date, "lat": lat, "lon": lon, "description": description or None,
     }
     if args.dry_run:
         print(json.dumps(summary, ensure_ascii=False, indent=2))
@@ -232,7 +203,6 @@ def main() -> int:
     extension = extension_from_url(original_url, info.get("mime") or "")
     if extension == ".bin":
         raise SystemExit(f"Tipo de imagem não suportado: {info.get('mime')}")
-
     destination_dir = media_root / args.area / location
     destination_dir.mkdir(parents=True, exist_ok=True)
     final_path = destination_dir / f"{safe_stem(title)}{extension}"
@@ -245,22 +215,17 @@ def main() -> int:
         shutil.move(str(downloaded), final_path)
 
     command = [
-        sys.executable,
-        str(Path(__file__).with_name("register_media.py")),
-        "--repo-root", str(repo_root),
-        "--area", args.area,
-        "--location", location,
-        "--file", str(final_path),
-        "--media-root", str(media_root),
-        "--view", view,
-        "--source-type", "licensed_photo",
-        "--usage-class", args.usage_class,
+        sys.executable, str(Path(__file__).with_name("register_media.py")),
+        "--repo-root", str(repo_root), "--area", args.area, "--location", location,
+        "--file", str(final_path), "--media-root", str(media_root), "--view", view,
+        "--source-type", "licensed_photo", "--usage-class", args.usage_class,
         "--source-name", f"Wikimedia Commons — {artist}",
         "--license-status", "verified" if license_verified else "pending",
         "--source-url", description_url,
-        "--notes", f"Commons title: {title}",
-        "--notes", f"Original URL: {original_url}",
+        "--notes", f"Commons title: {title}", "--notes", f"Original URL: {original_url}",
     ]
+    for coverage in covers:
+        command += ["--covers", coverage]
     if license_name:
         command += ["--license", license_name]
     if capture_date:
@@ -279,7 +244,6 @@ def main() -> int:
         final_path.unlink(missing_ok=True)
         message = (exc.stderr or exc.stdout or str(exc)).strip()
         raise SystemExit(f"Falha ao registrar; download removido: {message}") from exc
-
     print(completed.stdout.strip())
     return 0
 
