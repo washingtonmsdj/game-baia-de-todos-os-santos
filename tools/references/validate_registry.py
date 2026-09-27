@@ -15,6 +15,11 @@ VALID_MODEL_STATUS = {
 VALID_REFERENCE_STATUS = {"missing", "partial", "sufficient", "verified"}
 VALID_USAGE_CLASS = {"PRODUCAO_APROVADA", "REFERENCIA_INTERNA", "TEMPORARIA", "PROIBIDO_PRODUCAO"}
 PRODUCTION_MEDIA = {"PRODUCAO_APROVADA", "REFERENCIA_INTERNA"}
+VALID_VIEWS = {
+    "front", "rear", "left", "right", "oblique_left", "oblique_right", "roof", "access",
+    "street_context", "waterfront_context", "detail", "panorama", "map"
+}
+VALID_CANDIDATE_STATUS = {"candidate", "accepted", "rejected", "imported"}
 
 
 def load_json(path: Path):
@@ -71,7 +76,7 @@ def validate_locations(data: dict, source: Path, errors: list[str], warnings: li
     locations = data.get("locations")
     if not isinstance(locations, list):
         errors.append(f"{source}: locations deve ser uma lista")
-        return {}, set()
+        return {}, {}
 
     by_id = {}
     required_views_by_location = {}
@@ -99,6 +104,9 @@ def validate_locations(data: dict, source: Path, errors: list[str], warnings: li
         if not isinstance(views, list) or len(views) != len(set(views)):
             errors.append(f"{prefix}: required_views deve ser lista sem duplicações")
             views = []
+        unknown_views = set(views) - VALID_VIEWS
+        if unknown_views:
+            errors.append(f"{prefix}: required_views inválidas: {', '.join(sorted(unknown_views))}")
         required_views_by_location[location_id] = set(views)
 
         osm = loc.get("osm")
@@ -146,6 +154,8 @@ def validate_media(data: dict, source: Path, locations: dict, errors: list[str],
         else:
             by_location.setdefault(location_id, []).append(item)
 
+        if item.get("view") not in VALID_VIEWS:
+            errors.append(f"{prefix}: view inválida")
         usage = item.get("usage_class")
         if usage not in VALID_USAGE_CLASS:
             errors.append(f"{prefix}: usage_class inválida")
@@ -165,20 +175,62 @@ def validate_media(data: dict, source: Path, locations: dict, errors: list[str],
     return by_location
 
 
-def validate_cross(area: dict, loc_data: dict, media_data: dict, source_dir: Path, errors: list[str], warnings: list[str]):
+def validate_candidates(data: dict, source: Path, area_id: str, locations: dict, errors: list[str], warnings: list[str]):
+    if data.get("schema_version") != 1:
+        errors.append(f"{source}: schema_version deve ser 1")
+    if data.get("area_id") != area_id:
+        errors.append(f"{source}: area_id diverge dos demais arquivos")
+    candidates = data.get("candidates")
+    if not isinstance(candidates, list):
+        errors.append(f"{source}: candidates deve ser uma lista")
+        return
+
+    seen = set()
+    for index, item in enumerate(candidates):
+        prefix = f"{source}: candidates[{index}]"
+        candidate_id = item.get("candidate_id")
+        if not isinstance(candidate_id, str) or not candidate_id:
+            errors.append(f"{prefix}: candidate_id ausente")
+            continue
+        if candidate_id in seen:
+            errors.append(f"{prefix}: candidate_id duplicado: {candidate_id}")
+        seen.add(candidate_id)
+
+        if item.get("location_id") not in locations:
+            errors.append(f"{prefix}: location_id inexistente: {item.get('location_id')}")
+        if item.get("provider") != "wikimedia_commons":
+            errors.append(f"{prefix}: provider não suportado")
+        title = item.get("file_title")
+        if not isinstance(title, str) or not title.startswith("File:"):
+            errors.append(f"{prefix}: file_title precisa começar com File:")
+        page_url = item.get("page_url")
+        if not isinstance(page_url, str) or not page_url.startswith("https://commons.wikimedia.org/"):
+            errors.append(f"{prefix}: page_url precisa apontar para commons.wikimedia.org")
+        if item.get("suggested_view") not in VALID_VIEWS:
+            errors.append(f"{prefix}: suggested_view inválida")
+        if item.get("status") not in VALID_CANDIDATE_STATUS:
+            errors.append(f"{prefix}: status inválido")
+        if item.get("status") == "candidate" and not item.get("expected_license"):
+            warnings.append(f"{prefix}: candidato sem expectativa de licença registrada")
+
+
+def validate_cross(area: dict, loc_data: dict, media_data: dict, candidates_data: dict | None, source_dir: Path, errors: list[str], warnings: list[str]):
     area_id = area.get("area_id")
     if loc_data.get("area_id") != area_id or media_data.get("area_id") != area_id:
         errors.append(f"{source_dir}: area_id diverge entre arquivos")
 
     locations, required_views = validate_locations(loc_data, source_dir / "locations.json", errors, warnings)
     media_by_location = validate_media(media_data, source_dir / "media-manifest.json", locations, errors, warnings)
+    if candidates_data is not None:
+        validate_candidates(candidates_data, source_dir / "reference-candidates.json", area_id, locations, errors, warnings)
 
     for location_id, loc in locations.items():
         media = media_by_location.get(location_id, [])
         usable_views = {
             item.get("view")
             for item in media
-            if item.get("usage_class") in PRODUCTION_MEDIA and (item.get("provenance") or {}).get("license_status") in {"verified", "pending"}
+            if item.get("usage_class") in PRODUCTION_MEDIA
+            and (item.get("provenance") or {}).get("license_status") in {"verified", "pending"}
         }
         required = required_views.get(location_id, set())
 
@@ -201,11 +253,13 @@ def validate_area_dir(area_dir: Path) -> tuple[list[str], list[str]]:
         area = load_json(area_dir / "area.json")
         loc_data = load_json(area_dir / "locations.json")
         media_data = load_json(area_dir / "media-manifest.json")
+        candidates_path = area_dir / "reference-candidates.json"
+        candidates_data = load_json(candidates_path) if candidates_path.is_file() else None
     except ValueError as exc:
         return [str(exc)], warnings
 
     validate_area(area, area_dir / "area.json", errors, warnings)
-    validate_cross(area, loc_data, media_data, area_dir, errors, warnings)
+    validate_cross(area, loc_data, media_data, candidates_data, area_dir, errors, warnings)
     return errors, warnings
 
 
