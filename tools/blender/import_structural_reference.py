@@ -23,6 +23,8 @@ LAYER_SETTINGS = {
     "coastline": {"bevel": 0.16, "z": 0.50},
     "waterfront": {"bevel": 0.16, "z": 0.55},
     "retaining_walls": {"bevel": 0.11, "z": 0.45},
+    "earthworks": {"bevel": 0.12, "z": 0.47},
+    "cliffs": {"bevel": 0.14, "z": 0.52},
     "water": {"bevel": 0.08, "z": 0.10},
     "railways": {"bevel": 0.10, "z": 0.25},
 }
@@ -82,6 +84,8 @@ def create_layer_object(layer: str, features: list[dict], parent):
             "spline_index": spline_index,
             "osm_type": feature.get("osm_type"),
             "osm_id": feature.get("osm_id"),
+            "node_refs": feature.get("node_refs", []),
+            "missing_node_ref_count": feature.get("missing_node_ref_count", 0),
             "tags": feature.get("tags", {}),
             "metrics": feature.get("metrics", {}),
         })
@@ -109,7 +113,7 @@ def write_index(payload, rows):
         "splines": rows,
         "notes": [
             "Objetos REF_* são somente referência e ficam ocultos no render.",
-            "spline_index permite rastrear cada linha/footprint ao OSM ID original.",
+            "spline_index permite rastrear cada linha/footprint ao OSM ID e node_refs originais.",
         ],
     }
     text.write(json.dumps(index_payload, ensure_ascii=False, indent=2))
