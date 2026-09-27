@@ -72,15 +72,18 @@ class OSMMultipolygonTests(unittest.TestCase):
         self.assertEqual(inner["member_way_ids"], [202])
         self.assertGreater(inner["metrics"]["area_m2_projected"], 0)
 
-    def test_closed_relation_suppresses_same_layer_member_way(self):
+    def test_closed_complete_relation_suppresses_same_layer_member_way(self):
         nodes, raw_ways, relations = self.parse_fixture()
-        features, covered = MODULE.relation_features_and_covered_ways(relations, raw_ways, nodes)
+        features, covered, diagnostics = MODULE.relation_features_and_covered_ways(relations, raw_ways, nodes)
         self.assertEqual(len(features), 2)
+        self.assertEqual(len(diagnostics), 1)
+        self.assertEqual(diagnostics[0]["unsupported_members"], [])
+        self.assertEqual(diagnostics[0]["missing_member_way_ids"], [])
         self.assertIn("buildings", covered[200])
         self.assertIn("buildings", covered[201])
         self.assertIn("buildings", covered[202])
 
-    def test_missing_member_is_reported_without_inventing_geometry(self):
+    def test_missing_member_is_reported_and_prevents_duplicate_suppression(self):
         nodes, raw_ways, relations = self.parse_fixture()
         relation = dict(relations[0])
         relation["members"] = list(relation["members"]) + [{"type": "way", "ref": 999, "role": "outer"}]
@@ -88,6 +91,44 @@ class OSMMultipolygonTests(unittest.TestCase):
         outer = next(item for item in features if item["relation_role"] == "outer")
         self.assertEqual(outer["missing_member_way_count"], 1)
         self.assertEqual(outer["missing_member_way_ids"], [999])
+
+        all_features, covered, diagnostics = MODULE.relation_features_and_covered_ways([relation], raw_ways, nodes)
+        self.assertTrue(all_features)
+        self.assertEqual(diagnostics[0]["missing_member_way_ids"], [999])
+        self.assertNotIn("buildings", covered.get(200, set()))
+        self.assertNotIn("buildings", covered.get(201, set()))
+
+    def test_unknown_nonempty_role_is_diagnostic_not_reinterpreted(self):
+        nodes, raw_ways, relations = self.parse_fixture()
+        relation = dict(relations[0])
+        relation["members"] = list(relation["members"]) + [{"type": "way", "ref": 202, "role": "outline"}]
+        members_by_role, unsupported = MODULE.normalized_multipolygon_members(relation)
+        self.assertEqual(set(members_by_role), {"outer", "inner"})
+        self.assertEqual(len(unsupported), 1)
+        self.assertEqual(unsupported[0]["role"], "outline")
+        self.assertEqual(unsupported[0]["reason"], "unsupported_role")
+
+        features, covered, diagnostics = MODULE.relation_features_and_covered_ways([relation], raw_ways, nodes)
+        self.assertTrue(features)
+        self.assertEqual(len(diagnostics[0]["unsupported_members"]), 1)
+        self.assertEqual(covered, {})
+
+    def test_empty_role_is_treated_as_outer(self):
+        relation = {
+            "members": [{"type": "way", "ref": 200, "role": ""}],
+        }
+        members_by_role, unsupported = MODULE.normalized_multipolygon_members(relation)
+        self.assertEqual(members_by_role["outer"], [200])
+        self.assertEqual(unsupported, [])
+
+    def test_non_way_member_is_explicitly_unsupported(self):
+        relation = {
+            "members": [{"type": "node", "ref": 500, "role": "outer"}],
+        }
+        members_by_role, unsupported = MODULE.normalized_multipolygon_members(relation)
+        self.assertEqual(dict(members_by_role), {})
+        self.assertEqual(len(unsupported), 1)
+        self.assertEqual(unsupported[0]["reason"], "member_type_not_way")
 
     def test_assemble_member_rings_reverses_way_when_needed(self):
         raw = {
