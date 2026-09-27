@@ -37,10 +37,23 @@ def inverse_xy(blender_xy: tuple[float, float], fit: dict) -> tuple[float, float
     bx = float(blender_xy[0]) - tx
     by = float(blender_xy[1]) - ty
     c, s = math.cos(theta), math.sin(theta)
-    # p = R^-1 * ((b - t) / scale)
     px = (c * bx + s * by) / scale
     py = (-s * bx + c * by) / scale
     return px, py
+
+
+def line_metrics(pairs: list[tuple[float, float]], slope: float, intercept: float) -> dict:
+    residuals = [float(y) - (slope * float(x) + intercept) for x, y in pairs]
+    rms = math.sqrt(statistics.fmean(value * value for value in residuals))
+    return {
+        "scale_z_blender_units_per_dem_meter": slope,
+        "dem_meters_per_blender_z_unit": (1.0 / slope) if abs(slope) > 1e-12 else None,
+        "z_offset_blender_units": intercept,
+        "rms_residual_blender_units": rms,
+        "median_abs_residual_blender_units": statistics.median(abs(value) for value in residuals),
+        "max_abs_residual_blender_units": max(abs(value) for value in residuals),
+        "residuals": residuals,
+    }
 
 
 def fit_line(pairs: list[tuple[float, float]]) -> dict:
@@ -55,17 +68,32 @@ def fit_line(pairs: list[tuple[float, float]]) -> dict:
         raise ValueError("elevações DEM sem variação suficiente para estimar escala vertical")
     slope = sum((x - mean_x) * (y - mean_y) for x, y in pairs) / den
     intercept = mean_y - slope * mean_x
-    residuals = [y - (slope * x + intercept) for x, y in pairs]
-    rms = math.sqrt(statistics.fmean(value * value for value in residuals))
-    return {
-        "scale_z_blender_units_per_dem_meter": slope,
-        "dem_meters_per_blender_z_unit": (1.0 / slope) if abs(slope) > 1e-12 else None,
-        "z_offset_blender_units": intercept,
-        "rms_residual_blender_units": rms,
-        "median_abs_residual_blender_units": statistics.median(abs(value) for value in residuals),
-        "max_abs_residual_blender_units": max(abs(value) for value in residuals),
-        "residuals": residuals,
-    }
+    return line_metrics(pairs, slope, intercept)
+
+
+def robust_seed_line(pairs: list[tuple[float, float]]) -> dict:
+    """Estimador inicial resistente a poucos outliers extremos.
+
+    Usa medianas dos quintis inferior/superior de DEM para obter a inclinação
+    e a mediana de (y - slope*x) para o intercepto. O fit LS só entra depois
+    que outliers grosseiros forem removidos.
+    """
+    if len(pairs) < 6:
+        return fit_line(pairs)
+    ordered = sorted((float(x), float(y)) for x, y in pairs)
+    window = max(3, len(ordered) // 5)
+    low = ordered[:window]
+    high = ordered[-window:]
+    x_low = statistics.median(x for x, _ in low)
+    y_low = statistics.median(y for _, y in low)
+    x_high = statistics.median(x for x, _ in high)
+    y_high = statistics.median(y for _, y in high)
+    dx = x_high - x_low
+    if abs(dx) <= 1e-12:
+        return fit_line(pairs)
+    slope = (y_high - y_low) / dx
+    intercept = statistics.median(y - slope * x for x, y in ordered)
+    return line_metrics(pairs, slope, intercept)
 
 
 def robust_vertical_fit(
@@ -79,26 +107,35 @@ def robust_vertical_fit(
         raise ValueError(f"amostras insuficientes: {len(records)} < {min_points}")
     current = list(records)
     removed: list[dict] = []
+    forced_minimum_subset = False
+    last_cutoff = residual_floor
+    last_mad = 0.0
 
-    for _ in range(max_iterations):
-        fit = fit_line([(row["dem_z_m"], row["blender_z"]) for row in current])
-        residuals = fit["residuals"]
-        abs_residuals = [abs(value) for value in residuals]
-        median_abs = statistics.median(abs_residuals)
-        deviations = [abs(value - median_abs) for value in abs_residuals]
-        mad = statistics.median(deviations) if deviations else 0.0
+    for iteration in range(max_iterations):
+        pairs = [(row["dem_z_m"], row["blender_z"]) for row in current]
+        provisional = robust_seed_line(pairs) if iteration == 0 else fit_line(pairs)
+        residuals = provisional["residuals"]
+        residual_median = statistics.median(residuals)
+        centered_abs = [abs(value - residual_median) for value in residuals]
+        mad = statistics.median(centered_abs) if centered_abs else 0.0
         robust_sigma = 1.4826 * mad
         cutoff = max(residual_floor, mad_multiplier * robust_sigma)
-        outlier_indices = [index for index, value in enumerate(abs_residuals) if value > cutoff]
+        last_cutoff = cutoff
+        last_mad = mad
+        outlier_indices = [index for index, value in enumerate(centered_abs) if value > cutoff]
+
         if not outlier_indices:
-            fit.pop("residuals", None)
-            fit["robust_cutoff_blender_units"] = cutoff
-            fit["robust_mad_blender_units"] = mad
-            return fit, current, removed
+            final_fit = fit_line(pairs)
+            final_fit.pop("residuals", None)
+            final_fit["robust_cutoff_blender_units"] = cutoff
+            final_fit["robust_mad_blender_units"] = mad
+            final_fit["forced_minimum_subset"] = forced_minimum_subset
+            return final_fit, current, removed
 
         keep_count = len(current) - len(outlier_indices)
         if keep_count < min_points:
-            ranked = sorted(range(len(current)), key=lambda index: abs_residuals[index])
+            forced_minimum_subset = True
+            ranked = sorted(range(len(current)), key=lambda index: centered_abs[index])
             keep_indices = set(ranked[:min_points])
             outlier_indices = [index for index in range(len(current)) if index not in keep_indices]
 
@@ -117,17 +154,18 @@ def robust_vertical_fit(
         if len(current) < min_points:
             break
 
-    fit = fit_line([(row["dem_z_m"], row["blender_z"]) for row in current])
-    fit.pop("residuals", None)
-    fit["robust_cutoff_blender_units"] = residual_floor
-    fit["robust_mad_blender_units"] = None
-    return fit, current, removed
+    final_fit = fit_line([(row["dem_z_m"], row["blender_z"]) for row in current])
+    final_fit.pop("residuals", None)
+    final_fit["robust_cutoff_blender_units"] = last_cutoff
+    final_fit["robust_mad_blender_units"] = last_mad
+    final_fit["forced_minimum_subset"] = forced_minimum_subset
+    return final_fit, current, removed
 
 
 def quality(fit: dict, kept_count: int, horizontal_scale: float | None) -> str:
     slope = fit["scale_z_blender_units_per_dem_meter"]
     rms = fit["rms_residual_blender_units"]
-    if slope <= 0:
+    if slope <= 0 or fit.get("forced_minimum_subset"):
         return "insufficient"
     scale_ratio = slope / horizontal_scale if horizontal_scale and horizontal_scale > 0 else None
     if kept_count >= 200 and rms <= 0.75 and (scale_ratio is None or 0.75 <= scale_ratio <= 1.25):
@@ -280,6 +318,8 @@ def main() -> int:
         "largest_residual_samples": all_outliers[: args.top_outliers],
         "notes": [
             "Resultado é candidato e nunca altera DEM ou Blender.",
+            "Inicialização robusta usa quantis/medianas antes do least-squares para não ser dominada por poucos outliers extremos.",
+            "Se o algoritmo precisar forçar apenas o número mínimo de pontos, quality é insuficiente.",
             "Escala vertical próxima à escala horizontal sugere unidades uniformes, mas não prova precisão topográfica.",
             "Outliers podem representar correções locais legítimas, artefatos do DEM ou objetos classificados indevidamente como terreno.",
             "Revisar objetos/resíduos espacialmente antes de qualquer correção de Z.",
