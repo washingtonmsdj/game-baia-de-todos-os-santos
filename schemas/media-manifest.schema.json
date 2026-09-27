@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/bay-of-all-saints/media-manifest.schema.json",
+  "title": "Bay of All Saints - Media Reference Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "area_id", "media"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "area_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "media": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "media_id",
+          "location_id",
+          "source_type",
+          "usage_class",
+          "view",
+          "storage",
+          "provenance"
+        ],
+        "properties": {
+          "media_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+          "location_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+          "source_type": {
+            "enum": ["own_photo", "licensed_photo", "public_archive", "government", "osm", "aleph_reference", "other"]
+          },
+          "usage_class": {
+            "enum": ["PRODUCAO_APROVADA", "REFERENCIA_INTERNA", "TEMPORARIA", "PROIBIDO_PRODUCAO"]
+          },
+          "view": {
+            "enum": [
+              "front",
+              "rear",
+              "left",
+              "right",
+              "oblique_left",
+              "oblique_right",
+              "roof",
+              "access",
+              "street_context",
+              "waterfront_context",
+              "detail",
+              "panorama",
+              "map"
+            ]
+          },
+          "capture": {
+            "type": ["object", "null"],
+            "additionalProperties": false,
+            "properties": {
+              "date": {"type": ["string", "null"], "format": "date"},
+              "lat": {"type": ["number", "null"], "minimum": -90, "maximum": 90},
+              "lon": {"type": ["number", "null"], "minimum": -180, "maximum": 180},
+              "heading_deg": {"type": ["number", "null"], "minimum": 0, "exclusiveMaximum": 360},
+              "notes": {"type": "string"}
+            }
+          },
+          "storage": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["logical_path", "sha256"],
+            "properties": {
+              "logical_path": {"type": "string", "minLength": 1},
+              "sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"}
+            }
+          },
+          "provenance": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["source_name", "license_status", "source_url"],
+            "properties": {
+              "source_name": {"type": "string", "minLength": 1},
+              "license_status": {"enum": ["verified", "pending", "restricted", "unknown"]},
+              "license": {"type": ["string", "null"]},
+              "source_url": {"type": ["string", "null"]},
+              "notes": {"type": "string"}
+            }
+          },
+          "notes": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    }
+  }
+}
