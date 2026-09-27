@@ -64,8 +64,31 @@ Referência pinada atualmente:
 Consultar antes de usar qualquer captura:
 
 - `docs/references/ALEPH.md`;
+- `docs/references/GEOREFERENCE_RECOVERY.md`;
 - `docs/DATA_PROVENANCE.md`;
+- `docs/WORLD_DATA_ACQUISITION.md`;
 - `docs/references/SOURCE_REGISTRY.json`.
+
+### Captura original do MVP — pista recuperada do `.blend`
+
+A cena analisada contém a referência:
+
+```text
+data/aleph/aleph-20260924T205631Z-aqqo7pkx/map.osm
+```
+
+Ao trabalhar na estação de origem, procurar prioritariamente por:
+
+```text
+aleph-20260924T205631Z-aqqo7pkx
+```
+
+Se a pasta existir:
+
+1. não modificar nem remover a captura original;
+2. preservar `manifest.json`, `map.osm`, `terrain.tif` e `terrain/tiles/`;
+3. executar o inspector de proveniência;
+4. commitar apenas o relatório leve no GitHub, não os dados pesados sem decisão explícita.
 
 ### Ao encontrar uma pasta de captura Aleph local
 
@@ -88,6 +111,43 @@ Depois:
 6. manter terreno de origem incerta como referência até a licença da fonte efetiva ser confirmada;
 7. não importar Google Satellite/Street View obtidos pelo Aleph como assets de produção;
 8. registrar a transformação geográfica → coordenadas locais do Blender antes de expandir o mapa.
+
+### Recuperação de georreferenciamento da cena
+
+Antes de implementar um bridge territorial automático, executar no `.blend` validado:
+
+```bash
+blender cena.blend --background \
+  --python tools/blender/extract_georef_hints.py \
+  -- --output docs/reports/blender/georef_hints.json
+```
+
+O relatório coleta:
+
+- propriedades Aleph/OSM/EPSG/DEM/terrain;
+- caminhos-fonte embutidos;
+- IDs OSM encontrados;
+- bounds em world coordinates;
+- configurações de unidades.
+
+Anchors já conhecidos:
+
+- Palácio Rio Branco — OSM way `402383814`;
+- Mercado Modelo — OSM way `59392558`.
+
+Há evidência preliminar de que o XY da cena está muito próximo dos eixos EPSG:3857, com escala próxima de 1 m por unidade, mas **isso ainda não é uma transformação oficial**. Fechar a transformação somente depois de cruzar múltiplos anchors com a geometria exata do `map.osm` original e calcular o erro residual.
+
+Registrar somente após validação:
+
+```text
+world_origin_wgs84
+world_origin_epsg3857
+world_origin_blender
+rotation_true_north
+meters_per_blender_unit
+fit_rms_error_m
+anchors_used
+```
 
 ### Política de uso resumida
 
