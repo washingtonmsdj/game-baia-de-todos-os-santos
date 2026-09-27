@@ -21,3 +21,9 @@ Thumbs.db
 # Local generated reports
 artifacts/
 output/
+
+# Acervo geográfico e visual pesado fica fora do Git.
+# O Git versiona manifests, hashes, proveniência e catálogos em world/.
+world-reference/
+reference-media/
+captures/
