@@ -14,8 +14,10 @@ import sys
 
 import bpy
 
-TERRAIN_KEYWORDS = ("terreno", "relevo", "terrain", "dem", "encosta")
+STRICT_TERRAIN_KEYWORDS = ("terreno", "terrain", "dem")
+LEGACY_TERRAIN_KEYWORDS = ("terreno", "relevo", "terrain", "dem", "encosta")
 REFERENCE_PREFIX = "SOURCE_GEOREF |"
+EXPLICIT_PROPERTY = "boas_terrain_surface"
 
 
 def parse_args():
@@ -24,7 +26,14 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", required=True)
     parser.add_argument("--max-points-per-object", type=int, default=5000)
-    parser.add_argument("--include-regex", help="regex opcional aplicada ao nome do objeto + coleções")
+    parser.add_argument("--include-regex", help="regex opcional aplicada ao nome do objeto + coleções; substitui a seleção automática")
+    parser.add_argument("--exclude-regex", help="regex opcional para excluir objetos mesmo quando incluídos")
+    parser.add_argument(
+        "--selection-mode",
+        choices=("strict", "legacy"),
+        default="strict",
+        help="strict usa apenas nome do objeto/boas_terrain_surface; legacy mantém heurística histórica por nome+coleções",
+    )
     return parser.parse_args(argv)
 
 
@@ -38,14 +47,41 @@ def is_reference(obj) -> bool:
     return any(collection.name.startswith(REFERENCE_PREFIX) for collection in obj.users_collection)
 
 
-def is_terrain(obj, include_re) -> bool:
-    if obj.type != "MESH" or not obj.data or is_reference(obj):
-        return False
+def explicit_terrain_state(obj):
+    if EXPLICIT_PROPERTY not in obj.keys():
+        return None
+    return bool(obj.get(EXPLICIT_PROPERTY))
+
+
+def is_terrain(obj, include_re, exclude_re, selection_mode: str) -> tuple[bool, str]:
+    if obj.type != "MESH" or not obj.data:
+        return False, "not_mesh"
+    if is_reference(obj):
+        return False, "reference"
+
     text = corpus(obj)
+    if exclude_re is not None and exclude_re.search(text):
+        return False, "excluded_by_regex"
+
+    explicit = explicit_terrain_state(obj)
+    if explicit is False:
+        return False, "explicit_false"
+    if explicit is True:
+        return True, "explicit_true"
+
     if include_re is not None:
-        return bool(include_re.search(text))
-    folded = text.casefold()
-    return any(keyword in folded for keyword in TERRAIN_KEYWORDS)
+        return (bool(include_re.search(text)), "include_regex")
+
+    if selection_mode == "legacy":
+        folded = text.casefold()
+        matched = any(keyword in folded for keyword in LEGACY_TERRAIN_KEYWORDS)
+        return matched, "legacy_name_or_collection"
+
+    # Modo padrão: o nome do PRÓPRIO objeto precisa indicar superfície de terreno.
+    # Coleções como "TERRENO" podem conter passarela, fachada, colisores, calçadas etc.
+    folded_name = obj.name.casefold()
+    matched = any(keyword in folded_name for keyword in STRICT_TERRAIN_KEYWORDS)
+    return matched, "strict_object_name"
 
 
 def sample_object(obj, max_points: int) -> list[list[float]]:
@@ -69,11 +105,19 @@ def main():
     if args.max_points_per_object < 10:
         raise RuntimeError("--max-points-per-object deve ser >= 10")
     include_re = re.compile(args.include_regex, re.IGNORECASE) if args.include_regex else None
+    exclude_re = re.compile(args.exclude_regex, re.IGNORECASE) if args.exclude_regex else None
 
     rows = []
     total_points = 0
+    selection_counts: dict[str, int] = {}
+    rejected_examples: dict[str, list[str]] = {}
+
     for obj in sorted(bpy.data.objects, key=lambda value: value.name):
-        if not is_terrain(obj, include_re):
+        selected, reason = is_terrain(obj, include_re, exclude_re, args.selection_mode)
+        selection_counts[reason] = selection_counts.get(reason, 0) + 1
+        if not selected:
+            if obj.type == "MESH" and len(rejected_examples.setdefault(reason, [])) < 12:
+                rejected_examples[reason].append(obj.name)
             continue
         points = sample_object(obj, args.max_points_per_object)
         if not points:
@@ -82,13 +126,15 @@ def main():
         rows.append({
             "object_name": obj.name,
             "collections": [collection.name for collection in obj.users_collection],
+            "selection_reason": reason,
+            "explicit_terrain_surface": explicit_terrain_state(obj),
             "vertex_count": len(obj.data.vertices),
             "sample_count": len(points),
             "points_world": points,
         })
 
     payload = {
-        "schema": "bay-of-all-saints/blender-terrain-samples-v1",
+        "schema": "bay-of-all-saints/blender-terrain-samples-v2",
         "blend_file": bpy.data.filepath,
         "blender_version": bpy.app.version_string,
         "scene_units": {
@@ -97,9 +143,15 @@ def main():
             "length_unit": bpy.context.scene.unit_settings.length_unit,
         },
         "selection": {
+            "mode": args.selection_mode,
             "include_regex": args.include_regex,
+            "exclude_regex": args.exclude_regex,
             "max_points_per_object": args.max_points_per_object,
-            "default_keywords": list(TERRAIN_KEYWORDS) if not args.include_regex else None,
+            "strict_object_name_keywords": list(STRICT_TERRAIN_KEYWORDS),
+            "legacy_keywords": list(LEGACY_TERRAIN_KEYWORDS),
+            "explicit_property": EXPLICIT_PROPERTY,
+            "selection_counts": selection_counts,
+            "rejected_examples": rejected_examples,
         },
         "summary": {
             "objects": len(rows),
@@ -109,11 +161,14 @@ def main():
         "notes": [
             "Amostras são vértices da mesh original transformados para world space.",
             "O exportador não aplica modificadores nem altera a cena.",
-            "Use --include-regex quando a nomenclatura histórica incluir objetos que não representam a superfície principal do terreno.",
+            "Modo strict é o padrão porque nomes de coleção históricos podem incluir objetos que não representam superfície de terreno.",
+            "boas_terrain_surface=true inclui explicitamente; false exclui explicitamente.",
+            "Use --include-regex para uma seleção consciente e reproduzível quando a nomenclatura não for suficiente.",
+            "Modo legacy existe apenas para reproduzir auditorias antigas; não deve ser usado para promover calibração vertical sem revisão.",
         ],
     }
     if not rows:
-        payload["notes"].append("Nenhum terreno foi encontrado; revisar --include-regex/nomenclatura antes do fit vertical.")
+        payload["notes"].append("Nenhum terreno foi encontrado; revisar boas_terrain_surface/--include-regex antes do fit vertical.")
 
     target = os.path.abspath(args.output)
     os.makedirs(os.path.dirname(target) or ".", exist_ok=True)
@@ -121,6 +176,7 @@ def main():
         json.dump(payload, stream, ensure_ascii=False, indent=2)
         stream.write("\n")
     print(json.dumps(payload["summary"], ensure_ascii=False, indent=2))
+    print(json.dumps({"selection_mode": args.selection_mode, "selection_counts": selection_counts}, ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":
