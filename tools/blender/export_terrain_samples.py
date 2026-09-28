@@ -18,6 +18,7 @@ STRICT_TERRAIN_KEYWORDS = ("terreno", "terrain", "dem")
 LEGACY_TERRAIN_KEYWORDS = ("terreno", "relevo", "terrain", "dem", "encosta")
 REFERENCE_PREFIX = "SOURCE_GEOREF |"
 EXPLICIT_PROPERTY = "boas_terrain_surface"
+STRICT_TOKEN_RE = re.compile(r"\b(?:terreno|terrain|dem)\b", re.IGNORECASE)
 
 
 def parse_args():
@@ -53,6 +54,13 @@ def explicit_terrain_state(obj):
     return bool(obj.get(EXPLICIT_PROPERTY))
 
 
+def strict_name_matches(name: str) -> bool:
+    # Normaliza separadores comuns para que nomes como "terrain_mesh" continuem
+    # identificáveis, mas evita substring acidental: "dem" não casa com "Ordem".
+    normalized = re.sub(r"[_|.\-]+", " ", name.casefold())
+    return bool(STRICT_TOKEN_RE.search(normalized))
+
+
 def is_terrain(obj, include_re, exclude_re, selection_mode: str) -> tuple[bool, str]:
     if obj.type != "MESH" or not obj.data:
         return False, "not_mesh"
@@ -79,9 +87,7 @@ def is_terrain(obj, include_re, exclude_re, selection_mode: str) -> tuple[bool, 
 
     # Modo padrão: o nome do PRÓPRIO objeto precisa indicar superfície de terreno.
     # Coleções como "TERRENO" podem conter passarela, fachada, colisores, calçadas etc.
-    folded_name = obj.name.casefold()
-    matched = any(keyword in folded_name for keyword in STRICT_TERRAIN_KEYWORDS)
-    return matched, "strict_object_name"
+    return strict_name_matches(obj.name), "strict_object_name"
 
 
 def sample_object(obj, max_points: int) -> list[list[float]]:
@@ -164,6 +170,7 @@ def main():
             "Amostras são vértices da mesh original transformados para world space.",
             "O exportador não aplica modificadores nem altera a cena.",
             "Modo strict é o padrão porque nomes de coleção históricos podem incluir objetos que não representam superfície de terreno.",
+            "No modo strict, terreno/terrain/dem precisam aparecer como tokens do nome; por exemplo, 'Ordem' não casa com 'dem'.",
             "boas_terrain_surface=true inclui explicitamente; false exclui explicitamente.",
             "Use --include-regex para uma seleção consciente e reproduzível quando a nomenclatura não for suficiente.",
             "Modo legacy existe apenas para reproduzir auditorias antigas; não deve ser usado para promover calibração vertical sem revisão.",
