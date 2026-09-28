@@ -1,0 +1,124 @@
+{
+  "schema": "bay-of-all-saints/r30a5-runtime-proxies-v1",
+  "revision": "R30A.5",
+  "source_blend": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\blender\\salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a4_semantic_layers.blend",
+  "source_sha256": "BE65675CD2F0B00A4048103B373D0A497F00CD8C9603F92525D5529C2E4C6713",
+  "source_terrain": {
+    "name": "MVP | terreno corrigido | colisão estática",
+    "vertices": 547464,
+    "polygons": 1082745
+  },
+  "collision_proxy": {
+    "name": "R30A5 | COLLISION | terrain proxy",
+    "accepted_candidate": true,
+    "quality_limits_m": {
+      "p95": 0.25,
+      "max": 1.0
+    },
+    "attempts": [
+      {
+        "samples": 5023,
+        "median_m": 6.662082365636055e-05,
+        "p95_m": 0.001821504897520466,
+        "max_m": 0.1800775161560296,
+        "ratio": 0.12,
+        "polygons": 131097,
+        "vertices": 66051,
+        "reduction_percent": 87.89216297466163,
+        "passed_quality_gate": true
+      }
+    ],
+    "final": {
+      "vertices": 66051,
+      "polygons": 131097,
+      "status": "accepted_candidate"
+    }
+  },
+  "runtime_sources": {
+    "road": {
+      "count": 2,
+      "mesh_count": 2,
+      "vertices": 64154,
+      "polygons": 28528,
+      "objects": [
+        "MVP | Ladeira da Montanha | pista OSM",
+        "OSM | pistas do centro"
+      ]
+    },
+    "walkable": {
+      "count": 8,
+      "mesh_count": 8,
+      "vertices": 155484,
+      "polygons": 69151,
+      "objects": [
+        "INFERIOR R21 | passeio da entrada",
+        "INFERIOR R21 | rebaixo acessível",
+        "MVP | Ladeira | calçada direita",
+        "MVP | Ladeira | calçada esquerda",
+        "MVP | praça ao acesso alto | caminho OSM 1429934820",
+        "MVP | saída baixa | caminho OSM 312006925",
+        "OSM | calçadas indicativas",
+        "OSM | caminhos e escadarias"
+      ]
+    },
+    "crossing": {
+      "count": 5,
+      "mesh_count": 5,
+      "vertices": 1376,
+      "polygons": 688,
+      "objects": [
+        "VIAS | travessia OSM 3178050253",
+        "VIAS | travessia OSM 5917201014",
+        "VIAS | travessia OSM 592378620",
+        "VIAS | travessia OSM 9264983513",
+        "VIAS | travessia OSM 9264983514"
+      ]
+    },
+    "curb": {
+      "count": 1,
+      "mesh_count": 1,
+      "vertices": 18332,
+      "polygons": 18042,
+      "objects": [
+        "VIAS | guias contínuas com aberturas nas travessias"
+      ]
+    },
+    "water": {
+      "count": 2,
+      "mesh_count": 2,
+      "vertices": 225,
+      "polygons": 148,
+      "objects": [
+        "BAÍA DE TODOS-OS-SANTOS | superfície e recorte costeiro",
+        "BAÍA | volume de água no limite do recorte"
+      ]
+    }
+  },
+  "nav_hints": {
+    "count": 0,
+    "status": "pending_next_revision"
+  },
+  "engine_binding": "unbound_engine_agnostic",
+  "before": {
+    "objects": 4677,
+    "meshes": 4137,
+    "vertices": 839684,
+    "edges": 2044767,
+    "polygons": 1238783
+  },
+  "after": {
+    "objects": 4678,
+    "meshes": 4138,
+    "vertices": 905735,
+    "edges": 2241914,
+    "polygons": 1369880
+  },
+  "source_geometry_preserved": true,
+  "warnings": [
+    "Collision proxy is a runtime candidate, not final engine collision.",
+    "Terrain collision still needs spatial chunking before large-world production.",
+    "Road graph, navmesh and NPC navigation are not generated in this revision."
+  ],
+  "output_blend": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\blender\\salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a5_runtime_proxies.blend",
+  "output_sha256": "C0E1566101E6A1F07F98188A3CB9B9021CB7D4F27A2ACF1CFA0D41E46544083F"
+}

@@ -150,8 +150,11 @@ Identificadores históricos como `allsaints_*` permanecem por compatibilidade e 
 
 ## Sequência atual
 
-- **R27:** marcadores de QA, câmera de revisão e iluminação opcional de preview.
-- **R28:** guias de rota jogável, zonas de gameplay, classificação de exportação e auditoria de performance.
-- **R29:** auditoria + deduplicação conservadora de meshes exatas + candidatos de LOD/colisão/chunks.
-- **R30:** passe visual perceptível do MVP, começando por Praça Cairu, Mercado Modelo, saída inferior do Elevador Lacerda, ruas, calçadas e leitura de gameplay.
-- **R31+:** colisão/exportação, sistemas de tráfego/pedestres, expansão territorial e novos distritos.
+- **R27–R29:** QA, classificação de gameplay/exportação e otimização conservadora.
+- **R30A.1–R30A.2:** correção do diagnóstico geográfico/vertical e separação DEM terrestre/batimetria.
+- **R30A.3:** auditoria semântica direta da cena.
+- **R30A.4:** camadas semânticas engine-agnostic para terreno, colisão, vias, pedestres, travessias, água e referência.
+- **R30A.5:** primeiro collider runtime derivado e fontes funcionais preparadas para exportação; a fonte permanece intacta.
+- **Próximo:** chunking da colisão, grafo de vias/cruzamentos, navigation hints e vertical slice funcional.
+
+Antes de criar nova geometria de runtime, revisar `docs/PROJECT_STATUS.md` e o relatório da revisão ativa.

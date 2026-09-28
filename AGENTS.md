@@ -31,22 +31,23 @@ Não atrasar correções estruturais para procurar imagens de fachada.
 
 Leia, nesta ordem:
 
-1. `docs/CODEX_HANDOFF.md`;
+1. `docs/PROJECT_STATUS.md`;
 2. `docs/PROJECT_VISION.md`;
 3. `docs/GAMEPLAY_FIDELITY_POLICY.md`;
 4. `docs/BLENDER_WORKFLOW.md`;
 5. `docs/BLENDMCP_FALLBACK.md`;
-6. `docs/STRUCTURAL_FIDELITY_PIPELINE.md`;
-7. `docs/CODEX_STRUCTURE_HANDOFF.md`;
-8. `docs/GEOREFERENCE_FIT_PIPELINE.md`;
-9. `docs/DEM_BLENDER_VERTICAL_FIT.md`;
-10. `docs/OSM_TOPOLOGY_QA.md`;
-11. `docs/TERRAIN_ROAD_QA.md`;
-12. `docs/SCENE_REFERENCE_ALIGNMENT_QA.md`;
-13. `docs/WORLD_DATA_ACQUISITION.md`;
-14. `docs/DATA_PROVENANCE.md`;
-15. `docs/REFERENCE_PRODUCTION_PIPELINE.md` quando o trabalho realmente depender de imagem;
-16. `world/areas/mvp-centro-lacerda/README.md` quando trabalhar no MVP atual.
+6. `docs/CODEX_HANDOFF.md`;
+7. `docs/STRUCTURAL_FIDELITY_PIPELINE.md`;
+8. `docs/CODEX_STRUCTURE_HANDOFF.md`;
+9. `docs/GEOREFERENCE_FIT_PIPELINE.md`;
+10. `docs/DEM_BLENDER_VERTICAL_FIT.md`;
+11. `docs/OSM_TOPOLOGY_QA.md`;
+12. `docs/TERRAIN_ROAD_QA.md`;
+13. `docs/SCENE_REFERENCE_ALIGNMENT_QA.md`;
+14. `docs/WORLD_DATA_ACQUISITION.md`;
+15. `docs/DATA_PROVENANCE.md`;
+16. `docs/REFERENCE_PRODUCTION_PIPELINE.md` quando o trabalho realmente depender de imagem;
+17. `world/areas/mvp-centro-lacerda/README.md` quando trabalhar no MVP atual.
 
 ## Fonte de verdade
 

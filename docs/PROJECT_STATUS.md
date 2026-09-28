@@ -22,11 +22,11 @@ Branch de produção: `main`.
 
 Arquivo versionado via Git LFS:
 
-`blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a4_semantic_layers.blend`
+`blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a5_runtime_proxies.blend`
 
 SHA-256 conhecido:
 
-`BE65675CD2F0B00A4048103B373D0A497F00CD8C9603F92525D5529C2E4C6713`
+`C0E1566101E6A1F07F98188A3CB9B9021CB7D4F27A2ACF1CFA0D41E46544083F`
 
 Commit que introduziu a cena no Git LFS e concluiu a R30A.1 diagnóstica:
 
@@ -37,6 +37,18 @@ A R30A.2 confirmou o mesmo SHA antes/depois; nenhuma geometria foi salva.
 A cena não deve ser substituída/destruída silenciosamente. Novas revisões devem preservar a origem e ser justificadas por mudança real de cena.
 
 ## Fase atual
+
+### R30A.5 — proxies de runtime e primeira colisão otimizada
+
+A R30A.5 criou a primeira geometria derivada especificamente para runtime sem alterar a malha-fonte R30A.4. O collider do terreno reduziu de 1.082.745 para 131.097 polígonos (`-87,8922%`) e passou o gate geométrico com 5.023 amostras: erro P95 `0,0018215 m` e máximo `0,180078 m`.
+
+A cena agora também expõe fontes engine-agnostic para vias dirigíveis, superfícies caminháveis, travessias, guias/meio-fio e água. Nenhuma engine foi escolhida e nenhum navmesh/grafo de tráfego foi inventado nesta etapa.
+
+Cena oficial: `blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a5_runtime_proxies.blend`. Relatórios: `docs/reports/blender/r30a5/R30A5_REPORT.md` e `docs/reports/blender/r30a5/runtime_manifest.json`.
+
+O BlendMCP fallback foi revalidado na R30A.5 com addon `1.4.4`, porta `9877`, `get_addon_version`, `get_scene_info` e `get_object_info`. O launcher usa `--factory-startup --disable-autoexec` e timeout de 120 s.
+
+Próximo foco: chunking da colisão, grafo de vias/cruzamentos e hints de navegação do vertical slice.
 
 ### R30A.4 — camadas semânticas de gameplay aplicadas
 
