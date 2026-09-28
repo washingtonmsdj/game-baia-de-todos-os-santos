@@ -10,7 +10,7 @@ Estas instruções se aplicam a todo o repositório.
 
 ## Prioridade atual
 
-A prioridade de produção é **fidelidade estrutural de Salvador**, nesta ordem:
+A prioridade de produção é **fidelidade estrutural de Salvador orientada à jogabilidade**, nesta ordem:
 
 1. georreferenciamento XY;
 2. coerência vertical DEM ↔ Blender;
@@ -19,37 +19,44 @@ A prioridade de produção é **fidelidade estrutural de Salvador**, nesta ordem
 5. ruas, cruzamentos e áreas pedonais;
 6. escadarias, contenções e calçadas;
 7. footprints e implantação dos edifícios;
-8. Hero assets e detalhe visual;
-9. referências fotográficas apenas quando realmente necessárias para detalhe arquitetônico.
+8. superfícies funcionais para jogador, carros e NPCs;
+9. Hero assets e detalhe visual;
+10. referências fotográficas apenas quando realmente necessárias para detalhe arquitetônico.
 
 Não atrasar correções estruturais para procurar imagens de fachada.
+
+**Fidelidade não significa réplica milimétrica.** O mundo real é referência; a geometria final deve ser uma Salvador reconhecível, coerente e jogável. Nunca corrigir uma divergência apenas para reduzir RMS/offset se a mudança não melhorar identidade, continuidade espacial ou gameplay.
 
 ## Antes de alterar o Blender
 
 Leia, nesta ordem:
 
 1. `docs/CODEX_HANDOFF.md`;
-2. `docs/BLENDER_WORKFLOW.md`;
-3. `docs/STRUCTURAL_FIDELITY_PIPELINE.md`;
-4. `docs/CODEX_STRUCTURE_HANDOFF.md`;
-5. `docs/GEOREFERENCE_FIT_PIPELINE.md`;
-6. `docs/DEM_BLENDER_VERTICAL_FIT.md`;
-7. `docs/OSM_TOPOLOGY_QA.md`;
-8. `docs/TERRAIN_ROAD_QA.md`;
-9. `docs/SCENE_REFERENCE_ALIGNMENT_QA.md`;
-10. `docs/WORLD_DATA_ACQUISITION.md`;
-11. `docs/DATA_PROVENANCE.md`;
-12. `docs/REFERENCE_PRODUCTION_PIPELINE.md` quando o trabalho realmente depender de imagem;
-13. `world/areas/mvp-centro-lacerda/README.md` quando trabalhar no MVP atual.
+2. `docs/PROJECT_VISION.md`;
+3. `docs/GAMEPLAY_FIDELITY_POLICY.md`;
+4. `docs/BLENDER_WORKFLOW.md`;
+5. `docs/STRUCTURAL_FIDELITY_PIPELINE.md`;
+6. `docs/CODEX_STRUCTURE_HANDOFF.md`;
+7. `docs/GEOREFERENCE_FIT_PIPELINE.md`;
+8. `docs/DEM_BLENDER_VERTICAL_FIT.md`;
+9. `docs/OSM_TOPOLOGY_QA.md`;
+10. `docs/TERRAIN_ROAD_QA.md`;
+11. `docs/SCENE_REFERENCE_ALIGNMENT_QA.md`;
+12. `docs/WORLD_DATA_ACQUISITION.md`;
+13. `docs/DATA_PROVENANCE.md`;
+14. `docs/REFERENCE_PRODUCTION_PIPELINE.md` quando o trabalho realmente depender de imagem;
+15. `world/areas/mvp-centro-lacerda/README.md` quando trabalhar no MVP atual.
 
 ## Fonte de verdade
 
-- Scripts e documentação versionados no GitHub são a fonte de verdade do pipeline.
-- `.blend` é binário de trabalho e deve ser preservado por revisão; não sobrescrever a origem por padrão.
-- OSM IDs e a transformação geográfica registrada são a referência estrutural do mundo real.
+- Scripts e documentação versionados no GitHub são a fonte de verdade do pipeline e das decisões do projeto.
+- Mudanças relevantes de direção, critérios de aceitação, arquitetura ou fluxo devem atualizar docs/handoffs no mesmo ciclo de trabalho.
+- O projeto não deve depender de contexto de conversa para preservar decisões importantes.
+- `.blend` de revisão oficial sob `blender/` pode ser versionado via Git LFS conforme a política atual; preservar revisões e não sobrescrever uma base validada sem motivo.
+- OSM IDs e a transformação geográfica registrada são a referência estrutural do mundo real, não necessariamente a geometria final jogável.
 - IDs de locais de produção são os `location_id` em `world/areas/*/locations.json`.
 - Objetos vinculados a locais devem usar a custom property `boas_location_id` quando o binding for implementado/validado.
-- Dados-fonte, referências/proxies e geometria final devem permanecer semanticamente separados.
+- Dados-fonte, referências/proxies, geometria visual final e camadas de gameplay devem permanecer semanticamente separados.
 
 ## Fidelidade da cidade
 
@@ -63,6 +70,71 @@ O projeto busca alta fidelidade de Salvador, especialmente em:
 - relação espacial entre marcos reais.
 
 Não deslocar geografia para acomodar um modelo sem registrar e justificar a correção.
+
+Ao detectar uma divergência, classificar antes de agir:
+
+- `KEEP_REAL_REFERENCE` — referência confirmada; manter como controle;
+- `KEEP_GAMEPLAY` — diferença intencional/aceitável para gameplay;
+- `ADAPT_LOCAL` — adaptação local justificada;
+- `SOURCE_LIMITATION` — limitação da fonte;
+- `NEEDS_REVIEW` — evidência insuficiente;
+- `ERROR` — erro inequívoco.
+
+Não converter automaticamente toda divergência em `ERROR`.
+
+## Jogabilidade é requisito estrutural
+
+O chão, ruas e circulação precisam funcionar para um jogo, não apenas coincidir com o mundo real.
+
+Antes de uma correção estrutural, avaliar impacto em:
+
+- personagem a pé;
+- veículos;
+- NPCs/pedestres;
+- câmera;
+- colisão;
+- navegação;
+- tráfego;
+- missões/perseguições;
+- performance.
+
+Adaptações locais de largura, inclinação, raio de curva, degraus, transições, calçadas e acessos são permitidas quando resolvem problema comprovável e preservam a identidade do lugar.
+
+A geometria visual não deve acumular todas as responsabilidades. Manter, quando implementadas, separações equivalentes a:
+
+```text
+SOURCE_GEOREF
+REFERENCE_OSM
+REFERENCE_TERRAIN
+ENVIRONMENT_FINAL
+GAMEPLAY_TERRAIN
+ROAD_DRIVEABLE
+SIDEWALK_WALKABLE
+NAVIGATION_HINTS
+COLLISION
+HERO
+WATER
+STREAMING
+```
+
+Detalhes e critérios estão em `docs/GAMEPLAY_FIDELITY_POLICY.md`.
+
+## Engine e interoperabilidade
+
+A engine definitiva ainda não está escolhida. Não introduzir dependência estrutural desnecessária de Godot, Unity ou Unreal nesta fase.
+
+Manter:
+
+- unidade métrica consistente;
+- origem documentada;
+- transforms controlados;
+- IDs/nomenclatura estáveis;
+- colisores separados;
+- metadados estruturados;
+- mundo divisível em setores;
+- exportação interoperável quando apropriada.
+
+A escolha da engine será feita por vertical slice funcional com personagem, carro, NPCs, navegação, tráfego, streaming e performance, não por preferência abstrata.
 
 ## Pipeline estrutural obrigatório
 
@@ -146,7 +218,7 @@ Aleph é ferramenta externa de aquisição/proveniência, atualmente pinada em:
 
 `Belluxx/Aleph@d24c61507481a91a0dd6afac4f97626a4e5ea780`
 
-A pista da captura histórica do MVP é:
+A captura histórica do MVP recuperada é:
 
 `aleph-20260924T205631Z-aqqo7pkx`
 
@@ -155,12 +227,13 @@ Não implementar merge automático de novas áreas até a transformação mundo 
 ## Revisões Blender
 
 - preservar arquivo anterior;
-- salvar nova revisão;
+- salvar nova revisão quando houver mudança real que justifique nova revisão;
 - evitar operações destrutivas ocultas;
 - validar reabertura;
 - gerar relatórios;
-- manter `HERO`, `GAMEPLAY`, `SOURCE_GEOREF`, referência geográfica e geometria final semanticamente separadas;
-- corrigir estrutura antes de decoração.
+- manter `HERO`, `GAMEPLAY`, `SOURCE_GEOREF`, referência geográfica, colisão/navegação e geometria final semanticamente separadas;
+- corrigir estrutura antes de decoração;
+- não criar nova cópia `.blend` apenas para alterar número de revisão quando nenhuma mudança de cena ocorreu.
 
 ## Validação antes de commit/PR
 
@@ -190,6 +263,8 @@ Não resolver problema estrutural por:
 - edição silenciosa do DEM-fonte;
 - substituição silenciosa de fonte de dados;
 - uso de decoração para esconder desalinhamento estrutural;
-- correspondência automática entre asset e feature real sem ID/proveniência confiável.
+- correspondência automática entre asset e feature real sem ID/proveniência confiável;
+- deformação do mundo apenas para reduzir uma métrica sem ganho de identidade ou gameplay;
+- usar a malha visual detalhada como collider/navmesh por conveniência quando isso prejudicar estabilidade ou performance.
 
 Quando uma informação ainda não foi verificada, mantê-la explicitamente como `null`, `candidate`, `partial` ou `pending` conforme o contrato correspondente.
