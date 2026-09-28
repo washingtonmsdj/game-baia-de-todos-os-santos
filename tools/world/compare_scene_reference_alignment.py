@@ -6,6 +6,8 @@ Entrada:
 - structural_reference.json
 
 Saída: offsets/escala de bounds para triagem. Não move nenhum objeto.
+Além do agregado histórico por OSM ID, calcula candidatos por objeto para impedir
+que um binding semântico errado contamine silenciosamente toda a entidade.
 """
 
 from __future__ import annotations
@@ -21,6 +23,19 @@ from pathlib import Path
 SUPPORTED_REFERENCE_SCHEMAS = {
     "bay-of-all-saints/blender-structure-reference-v1",
     "bay-of-all-saints/blender-structure-reference-v2",
+}
+
+REFERENCE_LAYER_EXPECTED_SCENE_CATEGORIES = {
+    "buildings": {"buildings"},
+    "roads": {"roads"},
+    "pedestrian": {"sidewalks", "roads"},
+    "steps": {"steps"},
+    "retaining_walls": {"retaining"},
+    "earthworks": {"terrain", "retaining"},
+    "cliffs": {"terrain", "retaining"},
+    "waterfront": {"waterfront"},
+    "coastline": {"waterfront", "water"},
+    "water": {"water"},
 }
 
 
@@ -156,6 +171,67 @@ def compare(scene_group: dict, ref_group: dict, meters_per_unit: float | None, o
     }
 
 
+def expected_categories(reference_layers: list[str]) -> set[str]:
+    expected: set[str] = set()
+    for layer in reference_layers:
+        expected.update(REFERENCE_LAYER_EXPECTED_SCENE_CATEGORIES.get(layer, set()))
+    return expected
+
+
+def compare_individual_objects(scene_group: dict, ref_group: dict, meters_per_unit: float | None, offset_review_m: float, size_review_ratio: float) -> list[dict]:
+    expected = expected_categories(ref_group.get("layers") or [])
+    rows = []
+    for obj in scene_group.get("objects", []):
+        bounds = bounds2d_from_scene(obj.get("bounds"))
+        if not bounds:
+            continue
+        result = compare({"bounds": bounds}, ref_group, meters_per_unit, offset_review_m, size_review_ratio)
+        if result is None:
+            continue
+        categories = set(obj.get("categories") or [])
+        semantic_match = bool(expected & categories) if expected else None
+        rows.append({
+            "object_name": obj.get("name"),
+            "scene_categories": sorted(categories),
+            "expected_scene_categories": sorted(expected),
+            "semantic_match": semantic_match,
+            **result,
+        })
+
+    def score(item):
+        semantic_penalty = 0 if item.get("semantic_match") is True else (1 if item.get("semantic_match") is None else 2)
+        offset = item.get("center_offset_m")
+        if offset is None:
+            offset = item.get("center_offset_blender_units") or 0.0
+        size = item.get("max_abs_bounds_size_delta_ratio")
+        return (semantic_penalty, float(offset), float(size or 0.0), item.get("object_name") or "")
+
+    rows.sort(key=score)
+    return rows
+
+
+def binding_conflict(aggregate_result: dict, object_candidates: list[dict], offset_review_m: float) -> tuple[bool, list[str]]:
+    reasons = []
+    if len(object_candidates) <= 1:
+        return False, reasons
+
+    semantic_values = [item.get("semantic_match") for item in object_candidates]
+    if True in semantic_values and False in semantic_values:
+        reasons.append("mesmo OSM ID aparece em objetos semanticamente compatíveis e incompatíveis com a camada de referência")
+
+    best = object_candidates[0]
+    aggregate_offset = aggregate_result.get("center_offset_m")
+    best_offset = best.get("center_offset_m")
+    if aggregate_offset is not None and best_offset is not None and aggregate_offset > offset_review_m and best_offset <= offset_review_m:
+        reasons.append("agregado falha no offset enquanto um objeto candidato isolado fica dentro do limite")
+
+    offsets = [item.get("center_offset_m") for item in object_candidates if item.get("center_offset_m") is not None]
+    if len(offsets) >= 2 and max(offsets) - min(offsets) > max(10.0, offset_review_m * 3.0):
+        reasons.append("objetos com o mesmo OSM ID têm offsets individuais fortemente divergentes")
+
+    return bool(reasons), reasons
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Compara OSM IDs presentes na cena Blender com a referência estrutural.")
     parser.add_argument("--scene-audit", type=Path, required=True)
@@ -184,26 +260,54 @@ def main() -> int:
     comparisons = []
     skipped = []
     for osm_id in shared:
-        row = compare(scene_by_id[osm_id], ref_by_id[osm_id], meters_per_unit, args.offset_review_m, args.size_review_ratio)
+        scene_group = scene_by_id[osm_id]
+        ref_group = ref_by_id[osm_id]
+        row = compare(scene_group, ref_group, meters_per_unit, args.offset_review_m, args.size_review_ratio)
         if row is None:
             skipped.append(osm_id)
             continue
+
+        object_candidates = compare_individual_objects(
+            scene_group,
+            ref_group,
+            meters_per_unit,
+            args.offset_review_m,
+            args.size_review_ratio,
+        )
+        conflict, conflict_reasons = binding_conflict(row, object_candidates, args.offset_review_m)
+        flags = list(row["flags"])
+        if conflict:
+            flags.append("binding_conflict_review")
+
+        best = object_candidates[0] if object_candidates else None
         comparisons.append({
             "osm_id": osm_id,
-            "scene_objects": [obj.get("name") for obj in scene_by_id[osm_id]["objects"]],
-            "scene_categories": scene_by_id[osm_id]["categories"],
-            "reference_layers": ref_by_id[osm_id]["layers"],
-            **row,
+            "scene_objects": [obj.get("name") for obj in scene_group["objects"]],
+            "scene_categories": scene_group["categories"],
+            "reference_layers": ref_group["layers"],
+            "expected_scene_categories": sorted(expected_categories(ref_group["layers"])),
+            "best_object_candidate": best,
+            "object_candidates": object_candidates,
+            "binding_conflict_reasons": conflict_reasons,
+            **{**row, "flags": flags},
         })
 
     review_queue = [item for item in comparisons if item["flags"]]
     review_queue.sort(key=lambda item: (
+        "binding_conflict_review" not in item["flags"],
         -(item["center_offset_m"] if item["center_offset_m"] is not None else item["center_offset_blender_units"]),
         -(item["max_abs_bounds_size_delta_ratio"] or 0.0),
     ))
     offsets_m = [item["center_offset_m"] for item in comparisons if item["center_offset_m"] is not None]
+    best_offsets_m = [
+        item["best_object_candidate"]["center_offset_m"]
+        for item in comparisons
+        if item.get("best_object_candidate") and item["best_object_candidate"].get("center_offset_m") is not None
+    ]
+    binding_conflicts = [item for item in comparisons if "binding_conflict_review" in item["flags"]]
+
     payload = {
-        "schema": "bay-of-all-saints/scene-reference-alignment-v1",
+        "schema": "bay-of-all-saints/scene-reference-alignment-v2",
         "inputs": {"scene_audit": str(args.scene_audit), "reference": str(args.reference)},
         "thresholds": {"offset_review_m": args.offset_review_m, "size_review_ratio": args.size_review_ratio},
         "fit_summary": reference.get("fit_summary", {}),
@@ -214,21 +318,26 @@ def main() -> int:
             "compared_osm_ids": len(comparisons),
             "skipped_without_bounds": len(skipped),
             "review_items": len(review_queue),
+            "binding_conflict_items": len(binding_conflicts),
             "median_center_offset_m": statistics.median(offsets_m) if offsets_m else None,
             "max_center_offset_m": max(offsets_m) if offsets_m else None,
+            "median_best_object_center_offset_m": statistics.median(best_offsets_m) if best_offsets_m else None,
+            "max_best_object_center_offset_m": max(best_offsets_m) if best_offsets_m else None,
         },
         "comparisons": comparisons,
         "review_queue": review_queue,
+        "binding_conflicts": binding_conflicts,
         "unmatched": {
             "scene_only_osm_ids": sorted(set(scene_by_id) - set(ref_by_id)),
             "reference_only_count": len(set(ref_by_id) - set(scene_by_id)),
             "skipped_shared_osm_ids": skipped,
         },
         "notes": [
-            "Comparação usa centros e bounds XY, não equivalência topológica completa de geometria.",
+            "Comparação agregada histórica é preservada para detectar bindings que contaminam bounds.",
+            "best_object_candidate é triagem: prioriza compatibilidade semântica e menor offset, mas não autoriza mover/excluir objetos automaticamente.",
+            "binding_conflict_review sinaliza OSM ID atribuído a objetos incompatíveis ou espacialmente divergentes.",
             "Bounds podem variar por extrusão, rotação e organização do asset; bounds_size_review é triagem, não prova de erro.",
-            "center_offset_review é mais útil quando o objeto Blender e a feature OSM representam a mesma entidade completa.",
-            "Nenhum objeto é movido automaticamente.",
+            "Nenhum objeto é movido, desvinculado ou alterado automaticamente.",
         ],
     }
     write_json(args.output, payload)

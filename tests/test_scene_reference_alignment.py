@@ -64,6 +64,46 @@ class SceneReferenceAlignmentTests(unittest.TestCase):
         self.assertEqual(result["bounds"]["center"], [5.0, 6.0])
         self.assertEqual(result["bounds"]["size"], [6.0, 6.0])
 
+    def test_individual_candidates_prioritize_semantic_building(self):
+        scene_group = {
+            "objects": [
+                {
+                    "name": "Mercado footprint",
+                    "categories": ["buildings"],
+                    "bounds": {"min": [0, 0, 0], "max": [10, 10, 5]},
+                },
+                {
+                    "name": "terreno colisao",
+                    "categories": ["terrain"],
+                    "bounds": {"min": [-500, -500, 0], "max": [500, 500, 5]},
+                },
+            ],
+            "bounds": {"min": [-500, -500], "max": [500, 500], "center": [0, 0], "size": [1000, 1000]},
+            "categories": ["buildings", "terrain"],
+        }
+        ref_group = {
+            "layers": ["buildings"],
+            "bounds": {"min": [0, 0], "max": [10, 10], "center": [5, 5], "size": [10, 10]},
+        }
+        candidates = MODULE.compare_individual_objects(scene_group, ref_group, 1.0, 3.0, 0.25)
+        self.assertEqual(candidates[0]["object_name"], "Mercado footprint")
+        self.assertTrue(candidates[0]["semantic_match"])
+        self.assertFalse(candidates[1]["semantic_match"])
+
+    def test_binding_conflict_when_wrong_object_contaminates_aggregate(self):
+        aggregate = {
+            "center_offset_m": 250.0,
+            "center_offset_blender_units": 250.0,
+            "flags": ["center_offset_review"],
+        }
+        candidates = [
+            {"object_name": "Mercado footprint", "semantic_match": True, "center_offset_m": 1.0, "center_offset_blender_units": 1.0},
+            {"object_name": "terreno colisao", "semantic_match": False, "center_offset_m": 240.0, "center_offset_blender_units": 240.0},
+        ]
+        conflict, reasons = MODULE.binding_conflict(aggregate, candidates, 3.0)
+        self.assertTrue(conflict)
+        self.assertGreaterEqual(len(reasons), 2)
+
 
 if __name__ == "__main__":
     unittest.main()

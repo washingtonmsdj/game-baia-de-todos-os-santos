@@ -2,7 +2,7 @@
 """Orquestra o pipeline estrutural sem esconder os artefatos intermediários.
 
 Entrada mínima: map.osm + georef_hints.json.
-Opcional: terrain.tif para auditoria DEM, cobertura DEM↔OSM e perfis viários.
+Opcional: terrain.tif para auditoria DEM, cobertura DEM↔janela da captura e perfis viários.
 """
 
 from __future__ import annotations
@@ -25,11 +25,22 @@ def run(command: list[str], label: str, allowed_returncodes: set[int] | None = N
     return completed.returncode
 
 
+def resolve_capture_bounds_source(osm: Path, explicit: Path | None) -> Path | None:
+    if explicit is not None:
+        source = explicit.resolve()
+        if not source.is_file():
+            raise SystemExit(f"fonte de bounds da captura não encontrada: {source}")
+        return source
+    sibling_manifest = osm.parent / "manifest.json"
+    return sibling_manifest if sibling_manifest.is_file() else None
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Executa OSM -> QA topológico/DEM -> fit geográfico -> referência Blender.")
     parser.add_argument("--osm", type=Path, required=True)
     parser.add_argument("--hints", type=Path, required=True)
     parser.add_argument("--dem", type=Path)
+    parser.add_argument("--capture-bounds-source", type=Path, help="manifest/source_summary/area.json; por padrão usa manifest.json ao lado do map.osm")
     parser.add_argument("--dem-statistics", action="store_true", help="calcula estatísticas verticais no audit do DEM")
     parser.add_argument("--audit-road-profiles", action="store_true", help="requer --dem e rasterio")
     parser.add_argument("--output-dir", type=Path, default=Path("artifacts/structural-pipeline"))
@@ -59,6 +70,8 @@ def main() -> int:
         raise SystemExit("--dem-statistics exige --dem")
     if args.dem_osm_minimum_margin_m < 0:
         raise SystemExit("--dem-osm-minimum-margin-m não pode ser negativo")
+
+    capture_bounds_source = resolve_capture_bounds_source(osm, args.capture_bounds_source)
 
     structure = output_dir / "osm_structure.json"
     topology = output_dir / "osm_topology_audit.json"
@@ -91,17 +104,29 @@ def main() -> int:
     ], "Extração estrutural OSM")
 
     dem_coverage_status = None
+    dem_coverage_target_kind = None
     if dem is not None:
-        returncode = run([
+        coverage_command = [
             sys.executable,
             str(root / "tools/terrain/compare_dem_osm_coverage.py"),
             "--dem-audit", str(dem_audit),
             "--structure", str(structure),
             "--output", str(dem_osm_coverage),
             "--minimum-margin-m", str(args.dem_osm_minimum_margin_m),
-        ], "QA de cobertura DEM <-> OSM", allowed_returncodes={0, 2} if args.allow_insufficient_dem_coverage else {0})
+        ]
+        if capture_bounds_source is not None:
+            coverage_command.extend(["--capture-bounds-source", str(capture_bounds_source)])
+        else:
+            print("WARNING: manifest/source bounds não encontrados; gate DEM usará bbox OSM completo, que pode ser inflado por ways completos.")
+
+        returncode = run(
+            coverage_command,
+            "QA de cobertura DEM <-> janela estrutural",
+            allowed_returncodes={0, 2} if args.allow_insufficient_dem_coverage else {0},
+        )
         coverage_data = json.loads(dem_osm_coverage.read_text(encoding="utf-8"))
         dem_coverage_status = coverage_data.get("status")
+        dem_coverage_target_kind = (coverage_data.get("target") or {}).get("kind")
         if returncode == 2:
             print("WARNING: cobertura DEM insuficiente mantida apenas para diagnóstico por opção explícita.")
 
@@ -162,6 +187,8 @@ def main() -> int:
         "dem_audit": str(dem_audit) if dem else None,
         "dem_osm_coverage": str(dem_osm_coverage) if dem else None,
         "dem_coverage_status": dem_coverage_status,
+        "dem_coverage_target_kind": dem_coverage_target_kind,
+        "capture_bounds_source": str(capture_bounds_source) if capture_bounds_source else None,
         "dem_road_profiles": str(road_profiles) if args.audit_road_profiles else None,
         "fit_quality": quality,
         "topology_review_items": (topology_data.get("summary") or {}).get("review_items"),
