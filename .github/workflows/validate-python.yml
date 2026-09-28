@@ -75,3 +75,4 @@ jobs:
           python tools/terrain/compare_dem_osm_coverage.py --help >/dev/null
           python tools/terrain/audit_road_profiles.py --help >/dev/null
           python tools/terrain/fit_dem_blender_vertical.py --help >/dev/null
+          python tools/terrain/analyze_vertical_domains.py --help >/dev/null
