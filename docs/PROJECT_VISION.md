@@ -48,6 +48,34 @@ Cada nova área deve passar por um pipeline consistente:
 9. integração de gameplay;
 10. validação.
 
+### 5. Fidelidade orientada à jogabilidade
+
+O objetivo não é reproduzir Salvador de forma cadastral ou milimétrica. O mundo real serve como referência estrutural; a versão final deve ser uma **Salvador jogável**.
+
+Preservar com alta fidelidade os elementos que definem a identidade e a leitura da cidade, especialmente:
+
+- relação Cidade Alta/Cidade Baixa;
+- posição relativa dos principais marcos;
+- eixos e conectividade das vias;
+- escarpa e diferenças de altitude em escala urbana;
+- coastline, cais e relação com a Baía;
+- sequência espacial dos locais reconhecíveis.
+
+Adaptar conscientemente quando necessário para:
+
+- dirigibilidade;
+- circulação do jogador;
+- navegação de NPCs;
+- colisão estável;
+- leitura visual;
+- câmera;
+- performance;
+- missões e perseguições.
+
+Diferença entre DEM/OSM e Blender é evidência para análise, não ordem automática de correção. Uma divergência pequena pode permanecer quando não prejudica identidade, continuidade ou gameplay.
+
+A política detalhada está em `docs/GAMEPLAY_FIDELITY_POLICY.md`.
+
 ## Área atual do MVP
 
 O primeiro vertical slice está centrado em:
@@ -63,6 +91,40 @@ O primeiro vertical slice está centrado em:
 
 A cena atual já contém diversas revisões e deve ser evoluída, não reconstruída do zero.
 
+O mesmo corredor será usado como primeiro teste funcional de gameplay, com personagem, colisão, veículo, tráfego básico, NPCs/pedestres e navegação antes de expandir o mapa em grande escala.
+
+## Arquitetura funcional do mundo
+
+A geometria visual não deve carregar sozinha todas as responsabilidades de gameplay. O projeto deve manter separadas, quando implementadas, camadas equivalentes a:
+
+- referência geográfica;
+- ambiente visual final;
+- terreno jogável;
+- áreas dirigíveis;
+- áreas caminháveis;
+- navegação de NPCs;
+- colisão simplificada;
+- Hero assets;
+- água;
+- setores/streaming.
+
+A lógica de trânsito também deve ser separada da geometria das ruas: lanes, direções, interseções, conexões de conversão, zonas de velocidade, travessias, semáforos, spawns e estacionamento devem evoluir como dados de gameplay próprios.
+
+## Engine
+
+A engine definitiva ainda não deve ser escolhida apenas por preferência ou popularidade.
+
+Blender, metadados e pipeline do mundo devem permanecer suficientemente neutros para futura integração com Godot, Unity ou Unreal. A decisão deve ser tomada depois de um vertical slice funcional real, medindo:
+
+- qualidade de navegação;
+- veículos;
+- IA de pedestres e trânsito;
+- streaming;
+- iluminação;
+- ferramentas de mundo aberto;
+- performance;
+- manutenção do pipeline.
+
 ## Direção de expansão do mundo
 
 Depois que o MVP atual estiver estável e pronto para jogo, possíveis corredores de expansão incluem Centro Histórico/Pelourinho, Comércio, conexões com a orla, Barra, Rio Vermelho, Liberdade, Itapuã, Pituba, Cajazeiras, Subúrbio Ferroviário e outros bairros.
@@ -72,3 +134,5 @@ A ordem de expansão deve ser definida por gameplay, custo de produção, viabil
 ## Princípio de produção
 
 Todo trabalho importante de construção do mundo deve permanecer reproduzível. Transformações do Blender que possam ser automatizadas devem ser versionadas neste repositório para que outro agente ou desenvolvedor consiga reproduzir, inspecionar ou reverter a alteração.
+
+Documentação e handoffs devem ser atualizados junto com mudanças relevantes de direção, pipeline ou critérios de aceitação. O projeto não deve depender de uma conversa específica para preservar decisões importantes.
