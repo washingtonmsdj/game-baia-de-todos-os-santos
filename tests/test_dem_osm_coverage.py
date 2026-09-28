@@ -67,7 +67,7 @@ class DEMOSMCoverageTests(unittest.TestCase):
         self.assertEqual(result["target"]["kind"], "capture_bounds")
         self.assertAlmostEqual(result["areas_projected"]["target_bbox_coverage_ratio"], 1.0)
         self.assertGreater(result["areas_projected"]["full_osm_bbox_m2"], result["areas_projected"]["target_bbox_m2"])
-        self.assertTrue(any("ways OSM completos" in warning for warning in result["warnings"]))
+        self.assertTrue(any("ways completos" in warning for warning in result["warnings"]))
 
     def test_extract_manifest_bounds_and_projection(self):
         parsed = MODULE.extract_wgs84_bounds({"bounds": [-12.977, -38.5155, -12.969, -38.508]})
