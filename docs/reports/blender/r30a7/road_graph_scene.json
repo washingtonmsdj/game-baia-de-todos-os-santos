@@ -1,0 +1,29 @@
+{
+  "schema": "bay-of-all-saints/r30a7-road-graph-scene-v1",
+  "revision": "R30A.7",
+  "source_graph": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\docs\\reports\\blender\\r30a7\\road_graph.json",
+  "source_collider": "R30A5 | COLLISION | terrain proxy",
+  "fit_quality": "candidate",
+  "graph_stats": {
+    "road_ways": 187,
+    "nodes": 677,
+    "edges": 743,
+    "junction_candidates": 174,
+    "one_way_edges": 483,
+    "restricted_edges": 19
+  },
+  "way_helpers_created": 177,
+  "way_splines_created": 177,
+  "partial_way_helpers": 31,
+  "junction_helpers_created": 164,
+  "nodes_surface_resolved": 572,
+  "nodes_surface_unresolved": 105,
+  "engine_binding": "unbound_engine_agnostic",
+  "notes": [
+    "Helpers representam topologia OSM, não lane graph final.",
+    "Z foi projetado sobre o collider jogável R30A5.",
+    "Sentido e restrições permanecem metadados, sem IA de trânsito nesta revisão."
+  ],
+  "output_blend": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\blender\\salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a7_road_graph.blend",
+  "output_sha256": "7BA803E66A548EFEFEBDE615B97808B9DB64CD710C8FBA08A89E6251E6F719BF"
+}

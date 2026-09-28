@@ -22,11 +22,11 @@ Branch de produção: `main`.
 
 Arquivo versionado via Git LFS:
 
-`blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a6_collision_chunks.blend`
+`blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a7_road_graph.blend`
 
 SHA-256 conhecido:
 
-`482A9F4F8E1FCDBA0A912922AC130EC0810D604F67B8FEC0FB7B5603B445CC3E`
+`7BA803E66A548EFEFEBDE615B97808B9DB64CD710C8FBA08A89E6251E6F719BF`
 
 Commit que introduziu a cena no Git LFS e concluiu a R30A.1 diagnóstica:
 
@@ -38,17 +38,27 @@ A cena não deve ser substituída/destruída silenciosamente. Novas revisões de
 
 ## Fase atual
 
-### R30A.6 ? collision chunks para runtime
+### R30A.7 — grafo lógico de vias e cruzamentos
 
-O collider otimizado da R30A.5 foi dividido ao vivo, na ?nica janela vis?vel do Blender, em `63` chunks de `128 m`. A parti??o preserva exatamente os `131.097` pol?gonos do proxy, com raz?o de duplica??o de v?rtices `1,0468577`.
+O OSM estrutural foi convertido em uma camada lógica engine-agnostic: `187` vias, `677` nós, `743` segmentos e `174` candidatos a cruzamento. A cena materializa `177` helpers de via e `164` marcadores de cruzamento sobre o collider jogável.
 
-Foram comparadas grades de 64/128/256 m. A grade de 128 m foi a primeira a cumprir simultaneamente os limites de quantidade de chunks, m?ximo de pol?gonos e P95 por chunk.
+Foram resolvidos `572` nós sobre a superfície de gameplay; `105` ficaram fora/sem contato com o collider. Vias parciais são divididas em sequências contíguas, sem criar pontes artificiais através de gaps.
 
-Cena oficial: `blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a6_collision_chunks.blend`. Relat?rio: `docs/reports/blender/r30a6/R30A6_REPORT.md`.
+A revisão preserva `oneway`, rotatórias, restrições e tags existentes, mas não inventa faixas, larguras ou IA de trânsito. O fit XY ainda é `candidate`.
 
-A sess?o de produ??o usa uma ?nica inst?ncia vis?vel do Blender com OrdaX e BlendMCP 1.4.4 (porta 9877) acoplados ao mesmo processo. Modifica??es de cena em Blender background/segunda janela ficam proibidas como fluxo normal.
+Cena oficial: `blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a7_road_graph.blend`. Relatório: `docs/reports/blender/r30a7/R30A7_REPORT.md`.
 
-Pr?ximo foco: grafo l?gico de vias/cruzamentos e navigation hints do vertical slice.
+Próximo foco: navigation hints de pedestres, travessias e escadas do vertical slice.
+
+### R30A.6 — collision chunks para runtime
+
+O collider otimizado da R30A.5 foi dividido ao vivo, na única janela visível do Blender, em `63` chunks de `128 m`. A partição preserva exatamente os `131.097` polígonos do proxy, com razão de duplicação de vértices `1,0468577`.
+
+Foram comparadas grades de 64/128/256 m. A grade de 128 m foi a primeira a cumprir simultaneamente os limites de quantidade de chunks, máximo de polígonos e P95 por chunk.
+
+Cena: `blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a6_collision_chunks.blend`. Relatório: `docs/reports/blender/r30a6/R30A6_REPORT.md`.
+
+A sessão de produção usa uma única instância visível do Blender com OrdaX e BlendMCP 1.4.4 na mesma janela.
 
 ### R30A.5 — proxies de runtime e primeira colisão otimizada
 

@@ -185,6 +185,8 @@ def main() -> None:
     root["boas_runtime_role"] = "terrain_collision_streaming_chunks"
     root["boas_chunk_size_m"] = selected_size
     root["boas_engine_binding"] = "unbound"
+    root.hide_viewport = True
+    root["boas_hidden_in_viewport_by_default"] = True
 
     chunk_records: list[dict[str, object]] = []
     for key in sorted(selected_cells):
