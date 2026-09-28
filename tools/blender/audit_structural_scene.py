@@ -68,9 +68,9 @@ def osm_ids(obj) -> list[int]:
     for key in obj.keys():
         if key == "_RNA_UI":
             continue
-        value = json_value(obj[key])
-        candidates.append(f"{key}={value}")
         if str(key).casefold() in OSM_PROPERTY_KEYS:
+            value = json_value(obj[key])
+            candidates.append(f"{key}={value}")
             try:
                 values.add(int(value))
             except (TypeError, ValueError):

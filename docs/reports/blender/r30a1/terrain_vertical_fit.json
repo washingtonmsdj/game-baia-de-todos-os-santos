@@ -1,0 +1,3051 @@
+{
+  "schema": "bay-of-all-saints/dem-blender-vertical-fit-v1",
+  "status": "candidate_only",
+  "quality": "insufficient",
+  "inputs": {
+    "samples": "docs/reports/blender/r30a1/terrain_samples.json",
+    "georef_fit": "artifacts/structural-pipeline/mvp-centro-lacerda/georef_fit.json",
+    "dem": "data/aleph/aleph-20260924T205631Z-aqqo7pkx/terrain.tif"
+  },
+  "horizontal_fit_quality": "candidate",
+  "horizontal_scale_blender_units_per_meter": 0.9701734817753527,
+  "vertical_fit": {
+    "scale_z_blender_units_per_dem_meter": 1.0253290349651865,
+    "dem_meters_per_blender_z_unit": 0.9752966763824781,
+    "z_offset_blender_units": -4.631645523884394,
+    "rms_residual_blender_units": 9.210668307940105,
+    "median_abs_residual_blender_units": 5.217913353839986,
+    "max_abs_residual_blender_units": 29.32657401316481,
+    "robust_cutoff_blender_units": 30.465050281009812,
+    "robust_mad_blender_units": 5.137098725382742,
+    "forced_minimum_subset": false
+  },
+  "scale_ratio_vertical_to_horizontal": 1.056851227358743,
+  "summary": {
+    "input_blender_samples": 4978,
+    "valid_dem_samples": 4978,
+    "nodata_or_invalid_samples": 0,
+    "kept_samples": 4900,
+    "removed_outliers": 78,
+    "objects_with_samples": 1
+  },
+  "per_object_residuals": [
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "sample_count": 4900,
+      "median_residual_blender_units": -1.0649553321943372,
+      "median_abs_residual_blender_units": 5.217913353839986,
+      "max_abs_residual_blender_units": 29.32657401316481
+    }
+  ],
+  "largest_residual_samples": [
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -176.20343017578125,
+        398.2370910644531,
+        7.255668640136719
+      ],
+      "epsg3857_xy": [
+        -4287422.250030605,
+        -1456413.480779246
+      ],
+      "blender_z": 7.255668640136719,
+      "dem_z_m": -877.8465576171875,
+      "residual_blender_units": 848.8092774729038
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -174.70343017578125,
+        390.5649108886719,
+        7.255668640136719
+      ],
+      "epsg3857_xy": [
+        -4287420.696878205,
+        -1456421.3874499137
+      ],
+      "blender_z": 7.255668640136719,
+      "dem_z_m": -273.1960144042969,
+      "residual_blender_units": 270.82867144974625
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -210.70343017578125,
+        -188.2628936767578,
+        62.43583679199219
+      ],
+      "epsg3857_xy": [
+        -4287457.272663774,
+        -1457018.04322794
+      ],
+      "blender_z": 62.43583679199219,
+      "dem_z_m": 26.603639602661133,
+      "residual_blender_units": 39.43275420236115
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -221.95343017578125,
+        -200.6378936767578,
+        60.006202697753906
+      ],
+      "epsg3857_xy": [
+        -4287468.85717171,
+        -1457030.8089933246
+      ],
+      "blender_z": 60.006202697753906,
+      "dem_z_m": 24.20827865600586,
+      "residual_blender_units": 39.29282643044823
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -137.20343017578125,
+        -127.13789367675781,
+        15.041030883789062
+      ],
+      "epsg3857_xy": [
+        -4287381.56911796,
+        -1456954.9716347067
+      ],
+      "blender_z": 15.041030883789062,
+      "dem_z_m": 59.16966247558594,
+      "residual_blender_units": -39.09165184783654
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -128.20343017578125,
+        -105.76289367675781,
+        13.71273422241211
+      ],
+      "epsg3857_xy": [
+        -4287372.312037759,
+        -1456932.9312455412
+      ],
+      "blender_z": 13.71273422241211,
+      "dem_z_m": 57.705284118652344,
+      "residual_blender_units": -39.0201609795599
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -221.20343017578125,
+        -201.7628936767578,
+        58.7408447265625
+      ],
+      "epsg3857_xy": [
+        -4287468.083082423,
+        -1457031.9678913078
+      ],
+      "blender_z": 58.7408447265625,
+      "dem_z_m": 24.20827865600586,
+      "residual_blender_units": 38.02746845925682
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -141.13983154296875,
+        -125.05860900878906,
+        14.589536666870117
+      ],
+      "epsg3857_xy": [
+        -4287385.628443785,
+        -1456952.8320373269
+      ],
+      "blender_z": 14.589536666870117,
+      "dem_z_m": 56.586158752441406,
+      "residual_blender_units": -37.07359557095825
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -140.95343017578125,
+        -122.26289367675781,
+        14.17228889465332
+      ],
+      "epsg3857_xy": [
+        -4287385.438876407,
+        -1456949.9502021032
+      ],
+      "blender_z": 14.17228889465332,
+      "dem_z_m": 55.74189758300781,
+      "residual_blender_units": -36.683820860803365
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -141.32843017578125,
+        -127.88789367675781,
+        15.011131286621094
+      ],
+      "epsg3857_xy": [
+        -4287385.820245187,
+        -1456955.7484759274
+      ],
+      "blender_z": 15.011131286621094,
+      "dem_z_m": 56.586158752441406,
+      "residual_blender_units": -36.65200095120727
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -138.70343017578125,
+        -128.21034240722656,
+        15.041030883789062
+      ],
+      "epsg3857_xy": [
+        -4287383.114248812,
+        -1456956.0784297828
+      ],
+      "blender_z": 15.041030883789062,
+      "dem_z_m": 56.586158752441406,
+      "residual_blender_units": -36.6221013540393
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -137.95343017578125,
+        -131.2628936767578,
+        15.407270431518555
+      ],
+      "epsg3857_xy": [
+        -4287382.338391361,
+        -1456959.2241379006
+      ],
+      "blender_z": 15.407270431518555,
+      "dem_z_m": 56.912681579589844,
+      "residual_blender_units": -36.56798235864213
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -141.20098876953125,
+        -123.26045227050781,
+        14.299535751342773
+      ],
+      "epsg3857_xy": [
+        -4287385.693130643,
+        -1456950.97865581
+      ],
+      "blender_z": 14.299535751342773,
+      "dem_z_m": 55.74189758300781,
+      "residual_blender_units": -36.55657400411391
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -138.70343017578125,
+        -119.26289367675781,
+        13.536842346191406
+      ],
+      "epsg3857_xy": [
+        -4287383.122456408,
+        -1456946.8559089086
+      ],
+      "blender_z": 13.536842346191406,
+      "dem_z_m": 54.89763641357422,
+      "residual_blender_units": -36.51224492689361
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -138.70343017578125,
+        -131.6378936767578,
+        15.465349197387695
+      ],
+      "epsg3857_xy": [
+        -4287383.11110468,
+        -1456959.6113545396
+      ],
+      "blender_z": 15.465349197387695,
+      "dem_z_m": 56.912681579589844,
+      "residual_blender_units": -36.50990359277299
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -139.03062438964844,
+        -132.3878936767578,
+        15.625469207763672
+      ],
+      "epsg3857_xy": [
+        -4287383.447669868,
+        -1456960.3847119894
+      ],
+      "blender_z": 15.625469207763672,
+      "dem_z_m": 56.912681579589844,
+      "residual_blender_units": -36.349783582397016
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -140.02891540527344,
+        -132.3878936767578,
+        15.688201904296875
+      ],
+      "epsg3857_xy": [
+        -4287384.476651426,
+        -1456960.3856277333
+      ],
+      "blender_z": 15.688201904296875,
+      "dem_z_m": 56.912681579589844,
+      "residual_blender_units": -36.28705088586381
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -229.45343017578125,
+        -210.0128936767578,
+        57.674354553222656
+      ],
+      "epsg3857_xy": [
+        -4287476.5791450245,
+        -1457040.4790895476
+      ],
+      "blender_z": 57.674354553222656,
+      "dem_z_m": 25.105619430541992,
+      "residual_blender_units": 36.10321743463288
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -236.95343017578125,
+        -216.0128936767578,
+        56.376617431640625
+      ],
+      "epsg3857_xy": [
+        -4287484.304214265,
+        -1457046.670427871
+      ],
+      "blender_z": 56.376617431640625,
+      "dem_z_m": 23.77301788330078,
+      "residual_blender_units": 36.07930344693777
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -139.78062438964844,
+        -133.5128936767578,
+        15.881771087646484
+      ],
+      "epsg3857_xy": [
+        -4287384.219695204,
+        -1456961.5449859395
+      ],
+      "blender_z": 15.881771087646484,
+      "dem_z_m": 56.4893798828125,
+      "residual_blender_units": -35.68885100469995
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -219.70343017578125,
+        -200.6378936767578,
+        58.148929595947266
+      ],
+      "epsg3857_xy": [
+        -4287466.537999776,
+        -1457030.806929374
+      ],
+      "blender_z": 58.148929595947266,
+      "dem_z_m": 26.341472625732422,
+      "residual_blender_units": 35.39645031744426
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -145.19969177246094,
+        -128.7591552734375,
+        14.733745574951172
+      ],
+      "epsg3857_xy": [
+        -4287389.809722074,
+        -1456956.6500739425
+      ],
+      "blender_z": 14.733745574951172,
+      "dem_z_m": 54.01807403564453,
+      "residual_blender_units": -34.47457507361437
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -141.83035278320312,
+        -138.8898162841797,
+        17.00730323791504
+      ],
+      "epsg3857_xy": [
+        -4287386.327506252,
+        -1456967.089091955
+      ],
+      "blender_z": 17.00730323791504,
+      "dem_z_m": 56.066078186035156,
+      "residual_blender_units": -34.15868815661714
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -142.45343017578125,
+        -125.26289367675781,
+        14.46489143371582
+      ],
+      "epsg3857_xy": [
+        -4287386.982239095,
+        -1456953.0438073142
+      ],
+      "blender_z": 14.46489143371582,
+      "dem_z_m": 53.405250549316406,
+      "residual_blender_units": -34.15763615803534
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -143.95343017578125,
+        -127.13789367675781,
+        14.580728530883789
+      ],
+      "epsg3857_xy": [
+        -4287388.526633758,
+        -1456954.9778265588
+      ],
+      "blender_z": 14.580728530883789,
+      "dem_z_m": 53.405250549316406,
+      "residual_blender_units": -34.04179906086737
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -143.55264282226562,
+        -119.86762237548828,
+        13.483469009399414
+      ],
+      "epsg3857_xy": [
+        -4287388.120194069,
+        -1456947.483677069
+      ],
+      "blender_z": 13.483469009399414,
+      "dem_z_m": 52.24922180175781,
+      "residual_blender_units": -34.034019971878095
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -135.70343017578125,
+        -123.38789367675781,
+        19.482160568237305
+      ],
+      "epsg3857_xy": [
+        -4287380.026443255,
+        -1456951.1049721846
+      ],
+      "blender_z": 19.482160568237305,
+      "dem_z_m": 58.50719451904297,
+      "residual_blender_units": -34.01727435555689
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -145.45343017578125,
+        -121.51289367675781,
+        13.515478134155273
+      ],
+      "epsg3857_xy": [
+        -4287390.077908257,
+        -1456949.1812726937
+      ],
+      "blender_z": 13.515478134155273,
+      "dem_z_m": 52.24922180175781,
+      "residual_blender_units": -34.002010847122236
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -142.45343017578125,
+        -129.0128936767578,
+        15.212408065795898
+      ],
+      "epsg3857_xy": [
+        -4287386.978799177,
+        -1456956.9090938692
+      ],
+      "blender_z": 15.212408065795898,
+      "dem_z_m": 54.01807403564453,
+      "residual_blender_units": -33.99591258276964
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -146.20343017578125,
+        -115.88789367675781,
+        12.555068969726562
+      ],
+      "epsg3857_xy": [
+        -4287390.856125444,
+        -1456943.384030845
+      ],
+      "blender_z": 12.555068969726562,
+      "dem_z_m": 51.09319305419922,
+      "residual_blender_units": -33.857381401077305
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -143.95343017578125,
+        -129.3878936767578,
+        15.37614631652832
+      ],
+      "epsg3857_xy": [
+        -4287388.524569808,
+        -1456957.2969984917
+      ],
+      "blender_z": 15.37614631652832,
+      "dem_z_m": 54.01807403564453,
+      "residual_blender_units": -33.83217433203722
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        402.79656982421875,
+        506.2370910644531,
+        9.435175895690918
+      ],
+      "epsg3857_xy": [
+        -4286825.548856171,
+        -1456301.6294031516
+      ],
+      "blender_z": 9.435175895690918,
+      "dem_z_m": 47.79144287109375,
+      "residual_blender_units": -33.821157949312585
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -143.20343017578125,
+        -109.88789367675781,
+        9.005573272705078
+      ],
+      "epsg3857_xy": [
+        -4287387.7694000695,
+        -1456937.1968204228
+      ],
+      "blender_z": 9.005573272705078,
+      "dem_z_m": 47.30918884277344,
+      "residual_blender_units": -33.789777813456276
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -225.70343017578125,
+        -208.1378936767578,
+        55.358978271484375
+      ],
+      "epsg3857_xy": [
+        -4287472.7155784285,
+        -1457038.5430063524
+      ],
+      "blender_z": 55.358978271484375,
+      "dem_z_m": 25.105619430541992,
+      "residual_blender_units": 33.7878411528946
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -142.82843017578125,
+        -130.1378936767578,
+        15.445592880249023
+      ],
+      "epsg3857_xy": [
+        -4287387.364295857,
+        -1456958.0690238273
+      ],
+      "blender_z": 15.445592880249023,
+      "dem_z_m": 54.01807403564453,
+      "residual_blender_units": -33.762727768316516
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -145.27102661132812,
+        -130.5128936767578,
+        15.668916702270508
+      ],
+      "epsg3857_xy": [
+        -4287389.881641242,
+        -1456958.4577931042
+      ],
+      "blender_z": 15.668916702270508,
+      "dem_z_m": 54.01807403564453,
+      "residual_blender_units": -33.53940394629503
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -146.20343017578125,
+        -118.88789367675781,
+        13.021207809448242
+      ],
+      "epsg3857_xy": [
+        -4287390.853373511,
+        -1456946.4762600888
+      ],
+      "blender_z": 13.021207809448242,
+      "dem_z_m": 51.09319305419922,
+      "residual_blender_units": -33.391242561355625
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -143.95343017578125,
+        -114.38789367675781,
+        11.923608779907227
+      ],
+      "epsg3857_xy": [
+        -4287388.538329478,
+        -1456941.835852272
+      ],
+      "blender_z": 11.923608779907227,
+      "dem_z_m": 49.937164306640625,
+      "residual_blender_units": -33.38380298042299
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -142.07843017578125,
+        -123.76289367675781,
+        14.273757934570312
+      ],
+      "epsg3857_xy": [
+        -4287386.597086407,
+        -1456951.4973487004
+      ],
+      "blender_z": 14.273757934570312,
+      "dem_z_m": 52.24922180175781,
+      "residual_blender_units": -33.2437310467072
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        392.29656982421875,
+        492.7370910644531,
+        7.255668640136719
+      ],
+      "epsg3857_xy": [
+        -4286836.35927482,
+        -1456315.5540665193
+      ],
+      "blender_z": 7.255668640136719,
+      "dem_z_m": 44.75874328613281,
+      "residual_blender_units": -33.10173198852012
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -204.32843017578125,
+        -184.8878936767578,
+        58.40648651123047
+      ],
+      "epsg3857_xy": [
+        -4287450.704772556,
+        -1457014.5586221805
+      ],
+      "blender_z": 58.40648651123047,
+      "dem_z_m": 29.42418670654297,
+      "residual_blender_units": 32.70726556082647
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -146.20343017578125,
+        -134.6378936767578,
+        16.493501663208008
+      ],
+      "epsg3857_xy": [
+        -4287390.838925855,
+        -1456962.710463619
+      ],
+      "blender_z": 16.493501663208008,
+      "dem_z_m": 53.84418487548828,
+      "residual_blender_units": -32.54859973144944
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -227.20343017578125,
+        -210.3878936767578,
+        53.93565368652344
+      ],
+      "epsg3857_xy": [
+        -4287474.2596291,
+        -1457040.8635542523
+      ],
+      "blender_z": 53.93565368652344,
+      "dem_z_m": 25.105619430541992,
+      "residual_blender_units": 32.36451656793366
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        416.29656982421875,
+        495.2367248535156,
+        16.602901458740234
+      ],
+      "epsg3857_xy": [
+        -4286811.623733812,
+        -1456312.9555708114
+      ],
+      "blender_z": 16.602901458740234,
+      "dem_z_m": 53.54865264892578,
+      "residual_blender_units": -32.15670305019487
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -145.07843017578125,
+        -137.2628936767578,
+        16.909332275390625
+      ],
+      "epsg3857_xy": [
+        -4287389.676931946,
+        -1456965.4151322322
+      ],
+      "blender_z": 16.909332275390625,
+      "dem_z_m": 53.84418487548828,
+      "residual_blender_units": -32.132769119266825
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -143.20343017578125,
+        -103.51289367675781,
+        7.255668640136719
+      ],
+      "epsg3857_xy": [
+        -4287387.77524793,
+        -1456930.6258332795
+      ],
+      "blender_z": 7.255668640136719,
+      "dem_z_m": 43.64496612548828,
+      "residual_blender_units": -32.03708133119421
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -231.70343017578125,
+        -215.2628936767578,
+        53.37625503540039
+      ],
+      "epsg3857_xy": [
+        -4287478.893501072,
+        -1457045.892554675
+      ],
+      "blender_z": 53.37625503540039,
+      "dem_z_m": 24.868450164794922,
+      "residual_blender_units": 32.031826116257804
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -232.07843017578125,
+        -215.6378936767578,
+        53.374755859375
+      ],
+      "epsg3857_xy": [
+        -4287479.279685736,
+        -1457046.2794273223
+      ],
+      "blender_z": 53.374755859375,
+      "dem_z_m": 24.868450164794922,
+      "residual_blender_units": 32.03032694023241
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -211.82843017578125,
+        -193.8878936767578,
+        55.31898880004883
+      ],
+      "epsg3857_xy": [
+        -4287458.427089863,
+        -1457023.842189748
+      ],
+      "blender_z": 55.31898880004883,
+      "dem_z_m": 27.02999496459961,
+      "residual_blender_units": 31.908356538561033
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -140.8651580810547,
+        -136.8878936767578,
+        19.665002822875977
+      ],
+      "epsg3857_xy": [
+        -4287385.3344748765,
+        -1456965.0247386938
+      ],
+      "blender_z": 19.665002822875977,
+      "dem_z_m": 56.4893798828125,
+      "residual_blender_units": -31.905619269470456
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -148.45343017578125,
+        -127.51289367675781,
+        14.202219009399414
+      ],
+      "epsg3857_xy": [
+        -4287393.164633632,
+        -1456955.3684831157
+      ],
+      "blender_z": 14.202219009399414,
+      "dem_z_m": 50.22433853149414,
+      "residual_blender_units": -31.37970028983601
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -213.70343017578125,
+        -196.1378936767578,
+        54.51438903808594
+      ],
+      "epsg3857_xy": [
+        -4287460.3576691905,
+        -1457026.16308164
+      ],
+      "blender_z": 54.51438903808594,
+      "dem_z_m": 27.02999496459961,
+      "residual_blender_units": 31.103756776598143
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -250.82843017578125,
+        -233.2628936767578,
+        51.92144012451172
+      ],
+      "epsg3857_xy": [
+        -4287498.589950897,
+        -1457064.463473719
+      ],
+      "blender_z": 51.92144012451172,
+      "dem_z_m": 24.78498077392578,
+      "residual_blender_units": 30.65679892682321
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        411.79656982421875,
+        494.2370910644531,
+        16.726160049438477
+      ],
+      "epsg3857_xy": [
+        -4286816.2611607015,
+        -1456313.9900643246
+      ],
+      "blender_z": 16.726160049438477,
+      "dem_z_m": 52.050411224365234,
+      "residual_blender_units": -30.601287495020685
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -152.95343017578125,
+        -126.38789367675781,
+        12.26773452758789
+      ],
+      "epsg3857_xy": [
+        -4287397.804009473,
+        -1456954.2130250505
+      ],
+      "blender_z": 12.26773452758789,
+      "dem_z_m": 47.04343032836914,
+      "residual_blender_units": -30.273580125570334
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -198.70343017578125,
+        -178.5128936767578,
+        55.78147888183594
+      ],
+      "epsg3857_xy": [
+        -4287444.912690585,
+        -1457007.9824751606
+      ],
+      "blender_z": 55.78147888183594,
+      "dem_z_m": 29.435842514038086,
+      "residual_blender_units": 30.071116238506434
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        6.796576499938965,
+        44.23710250854492,
+        7.255668640136719
+      ],
+      "epsg3857_xy": [
+        -4287233.299311614,
+        -1456778.1959502308
+      ],
+      "blender_z": 7.255668640136719,
+      "dem_z_m": 41.43873596191406,
+      "residual_blender_units": -29.928163607919743
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -24.70342445373535,
+        3.7371039390563965,
+        9.856217384338379
+      ],
+      "epsg3857_xy": [
+        -4287265.730568547,
+        -1456819.9699388593
+      ],
+      "blender_z": 9.856217384338379,
+      "dem_z_m": 44.12638854980469,
+      "residual_blender_units": -29.89672042223536
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -147.36065673828125,
+        -135.25790405273438,
+        16.68077850341797
+      ],
+      "epsg3857_xy": [
+        -4287392.031160385,
+        -1456963.3505965618
+      ],
+      "blender_z": 16.68077850341797,
+      "dem_z_m": 51.19898986816406,
+      "residual_blender_units": -29.832802193550492
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -198.32843017578125,
+        -177.3878936767578,
+        55.41255569458008
+      ],
+      "epsg3857_xy": [
+        -4287444.527193904,
+        -1457006.8225452024
+      ],
+      "blender_z": 55.41255569458008,
+      "dem_z_m": 29.435842514038086,
+      "residual_blender_units": 29.702193051250575
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -149.20343017578125,
+        -132.7628936767578,
+        16.815645217895508
+      ],
+      "epsg3857_xy": [
+        -4287393.932875059,
+        -1456960.7805722759
+      ],
+      "blender_z": 16.815645217895508,
+      "dem_z_m": 51.12346267700195,
+      "residual_blender_units": -29.625739642636347
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -218.20343017578125,
+        -220.8878936767578,
+        59.296485900878906
+      ],
+      "epsg3857_xy": [
+        -4287464.973309598,
+        -1457051.6781008032
+      ],
+      "blender_z": 59.296485900878906,
+      "dem_z_m": 33.60853576660156,
+      "residual_blender_units": 29.59747923508594
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -217.82843017578125,
+        -220.5128936767578,
+        59.29401779174805
+      ],
+      "epsg3857_xy": [
+        -4287464.587124934,
+        -1457051.2912281558
+      ],
+      "blender_z": 59.29401779174805,
+      "dem_z_m": 33.60853576660156,
+      "residual_blender_units": 29.595011125955082
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        17.29657554626465,
+        57.73710250854492,
+        7.255668640136719
+      ],
+      "epsg3857_xy": [
+        -4287222.488893948,
+        -1456764.2712868643
+      ],
+      "blender_z": 7.255668640136719,
+      "dem_z_m": 40.901512145996094,
+      "residual_blender_units": -29.414635669874023
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        408.0489196777344,
+        487.48944091796875,
+        17.362321853637695
+      ],
+      "epsg3857_xy": [
+        -4286820.117835465,
+        -1456320.9485957904
+      ],
+      "blender_z": 17.362321853637695,
+      "dem_z_m": 50.05275344848633,
+      "residual_blender_units": -29.32657401316481
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -148.41619873046875,
+        -114.76289367675781,
+        12.104545593261719
+      ],
+      "epsg3857_xy": [
+        -4287393.137953298,
+        -1456942.2264746763
+      ],
+      "blender_z": 12.104545593261719,
+      "dem_z_m": 45.82094955444336,
+      "residual_blender_units": -29.268209490246853
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        413.29656982421875,
+        519.7371215820312,
+        14.333560943603516
+      ],
+      "epsg3857_xy": [
+        -4286814.73843755,
+        -1456287.7047083287
+      ],
+      "blender_z": 14.333560943603516,
+      "dem_z_m": 47.00602722167969,
+      "residual_blender_units": -29.231438061264207
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -147.70343017578125,
+        -107.26289367675781,
+        9.588601112365723
+      ],
+      "epsg3857_xy": [
+        -4287392.410151877,
+        -1456934.495247736
+      ],
+      "blender_z": 9.588601112365723,
+      "dem_z_m": 43.100765228271484,
+      "residual_blender_units": -29.18395158484985
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        393.79656982421875,
+        518.2371215820312,
+        7.255668640136719
+      ],
+      "epsg3857_xy": [
+        -4286834.836551667,
+        -1456289.2687105234
+      ],
+      "blender_z": 7.255668640136719,
+      "dem_z_m": 40.5675163269043,
+      "residual_blender_units": -29.095371744463293
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        423.79656982421875,
+        533.2371215820312,
+        12.521598815917969
+      ],
+      "epsg3857_xy": [
+        -4286803.928018901,
+        -1456273.7800449613
+      ],
+      "blender_z": 12.521598815917969,
+      "dem_z_m": 46.02058410644531,
+      "residual_blender_units": -29.04198533513123
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -150.32843017578125,
+        -106.13789367675781,
+        9.79283618927002
+      ],
+      "epsg3857_xy": [
+        -4287395.116884441,
+        -1456933.3380697118
+      ],
+      "blender_z": 9.79283618927002,
+      "dem_z_m": 43.100765228271484,
+      "residual_blender_units": -28.979716507945554
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        383.29656982421875,
+        504.7370910644531,
+        7.255668640136719
+      ],
+      "epsg3857_xy": [
+        -4286845.646970289,
+        -1456303.1934053465
+      ],
+      "blender_z": 7.255668640136719,
+      "dem_z_m": 39.852352142333984,
+      "residual_blender_units": -28.97445959917097
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -126.70342254638672,
+        -80.26289367675781,
+        7.255668640136719
+      ],
+      "epsg3857_xy": [
+        -4287370.789306715,
+        -1456906.6459209942
+      ],
+      "blender_z": 7.255668640136719,
+      "dem_z_m": 40.42203903198242,
+      "residual_blender_units": -28.956311164719544
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        422.29656982421875,
+        507.7370910644531,
+        20.378829956054688
+      ],
+      "epsg3857_xy": [
+        -4286805.450742053,
+        -1456300.0654009571
+      ],
+      "blender_z": 20.378829956054688,
+      "dem_z_m": 54.133148193359375,
+      "residual_blender_units": -28.939489157178087
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -137.20343017578125,
+        -93.76289367675781,
+        7.255668640136719
+      ],
+      "epsg3857_xy": [
+        -4287381.599733228,
+        -1456920.5705843684
+      ],
+      "blender_z": 7.255668640136719,
+      "dem_z_m": 40.337886810302734,
+      "residual_blender_units": -28.875870730768767
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -221.57843017578125,
+        -224.92774963378906,
+        58.053550720214844
+      ],
+      "epsg3857_xy": [
+        -4287468.448361692,
+        -1457055.8452503064
+      ],
+      "blender_z": 58.053550720214844,
+      "dem_z_m": 33.101036071777344,
+      "residual_blender_units": 28.839658943449265
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -151.82843017578125,
+        -123.38789367675781,
+        12.965272903442383
+      ],
+      "epsg3857_xy": [
+        -4287396.647175441,
+        -1456951.1197638314
+      ],
+      "blender_z": 12.965272903442383,
+      "dem_z_m": 45.26386642456055,
+      "residual_blender_units": -28.81343805256099
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -148.96060180664062,
+        -140.6378936767578,
+        17.77534294128418
+      ],
+      "epsg3857_xy": [
+        -4287393.675357569,
+        -1456968.8974512918
+      ],
+      "blender_z": 17.77534294128418,
+      "dem_z_m": 51.27451705932617,
+      "residual_blender_units": -28.810433592120887
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -154.07843017578125,
+        -123.01289367675781,
+        12.08849811553955
+      ],
+      "epsg3857_xy": [
+        -4287398.966691366,
+        -1456950.7352991267
+      ],
+      "blender_z": 12.08849811553955,
+      "dem_z_m": 45.26386642456055,
+      "residual_blender_units": -28.751745670941084
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -148.07843017578125,
+        -109.51289367675781,
+        10.863248825073242
+      ],
+      "epsg3857_xy": [
+        -4287392.794616582,
+        -1456936.8147636605
+      ],
+      "blender_z": 10.863248825073242,
+      "dem_z_m": 43.100765228271484,
+      "residual_blender_units": -28.69757166880703
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        27.79657554626465,
+        71.23710632324219,
+        7.255668640136719
+      ],
+      "epsg3857_xy": [
+        -4287211.678475302,
+        -1456750.346619565
+      ],
+      "blender_z": 7.255668640136719,
+      "dem_z_m": 40.14653778076172,
+      "residual_blender_units": -28.692961727713225
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -151.82843017578125,
+        -127.88789367675781,
+        13.883344650268555
+      ],
+      "epsg3857_xy": [
+        -4287396.6430475395,
+        -1456955.7581076971
+      ],
+      "blender_z": 13.883344650268555,
+      "dem_z_m": 47.04343032836914,
+      "residual_blender_units": -28.65797000288967
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -153.70343017578125,
+        -122.63789367675781,
+        12.409257888793945
+      ],
+      "epsg3857_xy": [
+        -4287398.580506702,
+        -1456950.3484264791
+      ],
+      "blender_z": 12.409257888793945,
+      "dem_z_m": 45.26386642456055,
+      "residual_blender_units": -28.43098589768669
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        434.29656982421875,
+        546.7371215820312,
+        11.786986351013184
+      ],
+      "epsg3857_xy": [
+        -4286793.11760025,
+        -1456259.8553815938
+      ],
+      "blender_z": 11.786986351013184,
+      "dem_z_m": 43.698829650878906,
+      "residual_blender_units": -28.387046960146165
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -157.82843017578125,
+        -122.26289367675781,
+        9.81898307800293
+      ],
+      "epsg3857_xy": [
+        -4287402.832665904,
+        -1456949.9656817333
+      ],
+      "blender_z": 9.81898307800293,
+      "dem_z_m": 41.695194244384766,
+      "residual_blender_units": -28.300664675393705
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -229.82843017578125,
+        -214.5128936767578,
+        51.085845947265625
+      ],
+      "epsg3857_xy": [
+        -4287476.961545778,
+        -1457045.1177774053
+      ],
+      "blender_z": 51.085845947265625,
+      "dem_z_m": 26.89835548400879,
+      "residual_blender_units": 28.137826600580755
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -250.82843017578125,
+        -235.8878936767578,
+        50.13713455200195
+      ],
+      "epsg3857_xy": [
+        -4287498.587542954,
+        -1457067.1691743077
+      ],
+      "blender_z": 50.13713455200195,
+      "dem_z_m": 25.981700897216797,
+      "residual_blender_units": 28.12898776818893
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -151.82843017578125,
+        -116.63789367675781,
+        11.949064254760742
+      ],
+      "epsg3857_xy": [
+        -4287396.653367293,
+        -1456944.1622480324
+      ],
+      "blender_z": 11.949064254760742,
+      "dem_z_m": 43.48430252075195,
+      "residual_blender_units": -28.005008161091688
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -168.70343017578125,
+        -134.2628936767578,
+        7.255668640136719
+      ],
+      "epsg3857_xy": [
+        -4287414.030989176,
+        -1456962.3445744708
+      ],
+      "blender_z": 7.255668640136719,
+      "dem_z_m": 38.89487838745117,
+      "residual_blender_units": -27.992733958072485
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -158.20343017578125,
+        -120.76289367675781,
+        10.199544906616211
+      ],
+      "epsg3857_xy": [
+        -4287403.220570527,
+        -1456948.419911103
+      ],
+      "blender_z": 10.199544906616211,
+      "dem_z_m": 41.695194244384766,
+      "residual_blender_units": -27.920102846780424
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -148.07843017578125,
+        -104.26289367675781,
+        8.167089462280273
+      ],
+      "epsg3857_xy": [
+        -4287392.799432467,
+        -1456931.4033624837
+      ],
+      "blender_z": 8.167089462280273,
+      "dem_z_m": 39.498897552490234,
+      "residual_blender_units": -27.700631523518908
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -208.07843017578125,
+        -211.8878936767578,
+        59.22588348388672
+      ],
+      "epsg3857_xy": [
+        -4287454.545291703,
+        -1457042.3921252934
+      ],
+      "blender_z": 59.22588348388672,
+      "dem_z_m": 35.332645416259766,
+      "residual_blender_units": 27.62994178035037
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        38.29657745361328,
+        84.73710632324219,
+        7.255668640136719
+      ],
+      "epsg3857_xy": [
+        -4287200.868054687,
+        -1456736.4219561957
+      ],
+      "blender_z": 7.255668640136719,
+      "dem_z_m": 38.3077392578125,
+      "residual_blender_units": -27.390723160889763
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -154.07843017578125,
+        -110.26289367675781,
+        10.83820915222168
+      ],
+      "epsg3857_xy": [
+        -4287398.978387087,
+        -1456937.59332484
+      ],
+      "blender_z": 10.83820915222168,
+      "dem_z_m": 41.70473861694336,
+      "residual_blender_units": -27.291224723479807
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -221.59170532226562,
+        -227.2628936767578,
+        58.69824981689453
+      ],
+      "epsg3857_xy": [
+        -4287468.459902902,
+        -1457058.2521960498
+      ],
+      "blender_z": 58.69824981689453,
+      "dem_z_m": 35.205833435058594,
+      "residual_blender_units": 27.2323321196652
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -225.70343017578125,
+        -232.8878936767578,
+        58.11619186401367
+      ],
+      "epsg3857_xy": [
+        -4287472.692874971,
+        -1457064.0538976144
+      ],
+      "blender_z": 58.11619186401367,
+      "dem_z_m": 34.664852142333984,
+      "residual_blender_units": 27.204957993587882
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -221.95343017578125,
+        -228.0128936767578,
+        58.61902618408203
+      ],
+      "epsg3857_xy": [
+        -4287468.832060309,
+        -1457059.025585175
+      ],
+      "blender_z": 58.61902618408203,
+      "dem_z_m": 35.205833435058594,
+      "residual_blender_units": 27.1531084868527
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -154.07843017578125,
+        -111.76289367675781,
+        11.00008773803711
+      ],
+      "epsg3857_xy": [
+        -4287398.977011119,
+        -1456939.1394394622
+      ],
+      "blender_z": 11.00008773803711,
+      "dem_z_m": 41.70473861694336,
+      "residual_blender_units": -27.129346137664378
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -217.82843017578125,
+        -225.7628936767578,
+        59.00130081176758
+      ],
+      "epsg3857_xy": [
+        -4287464.58230905,
+        -1457056.7026293327
+      ],
+      "blender_z": 59.00130081176758,
+      "dem_z_m": 35.622108459472656,
+      "residual_blender_units": 27.10856424547567
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -222.94859313964844,
+        -229.5128936767578,
+        58.44771957397461
+      ],
+      "epsg3857_xy": [
+        -4287469.856441681,
+        -1457060.5726126716
+      ],
+      "blender_z": 58.44771957397461,
+      "dem_z_m": 35.205833435058594,
+      "residual_blender_units": 26.98180187674528
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -151.45343017578125,
+        -140.6378936767578,
+        18.509292602539062
+      ],
+      "epsg3857_xy": [
+        -4287396.244823163,
+        -1456968.8997379916
+      ],
+      "blender_z": 18.509292602539062,
+      "dem_z_m": 48.87873458862305,
+      "residual_blender_units": -26.97584763964889
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -214.07843017578125,
+        -218.6378936767578,
+        59.2891960144043
+      ],
+      "epsg3857_xy": [
+        -4287460.723558338,
+        -1457049.3551449606
+      ],
+      "blender_z": 59.2891960144043,
+      "dem_z_m": 36.06725311279297,
+      "residual_blender_units": 26.94003971030356
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -153.32843017578125,
+        -112.51289367675781,
+        11.208022117614746
+      ],
+      "epsg3857_xy": [
+        -4287398.203265824,
+        -1456939.9118087892
+      ],
+      "blender_z": 11.208022117614746,
+      "dem_z_m": 41.70473861694336,
+      "residual_blender_units": -26.92141175808674
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -253.07843017578125,
+        -239.6378936767578,
+        48.64194869995117
+      ],
+      "epsg3857_xy": [
+        -4287500.903274968,
+        -1457071.0365248134
+      ],
+      "blender_z": 48.64194869995117,
+      "dem_z_m": 25.981700897216797,
+      "residual_blender_units": 26.63380191613815
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        404.29656982421875,
+        531.7371215820312,
+        7.255668640136719
+      ],
+      "epsg3857_xy": [
+        -4286824.026133019,
+        -1456275.344047156
+      ],
+      "blender_z": 7.255668640136719,
+      "dem_z_m": 37.5335578918457,
+      "residual_blender_units": -26.596932528034998
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -222.70343017578125,
+        -227.2628936767578,
+        58.03255844116211
+      ],
+      "epsg3857_xy": [
+        -4287469.605805604,
+        -1457058.2532158478
+      ],
+      "blender_z": 58.03255844116211,
+      "dem_z_m": 35.205833435058594,
+      "residual_blender_units": 26.56664074393278
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -152.57843017578125,
+        -114.76289367675781,
+        11.58212947845459
+      ],
+      "epsg3857_xy": [
+        -4287397.428144563,
+        -1456942.2302927386
+      ],
+      "blender_z": 11.58212947845459,
+      "dem_z_m": 41.70473861694336,
+      "residual_blender_units": -26.547304397246897
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -117.70342254638672,
+        -92.26289367675781,
+        28.382272720336914
+      ],
+      "epsg3857_xy": [
+        -4287361.501611246,
+        -1456919.0065821668
+      ],
+      "blender_z": 28.382272720336914,
+      "dem_z_m": 58.071861267089844,
+      "residual_blender_units": -26.528847227396113
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        401.29656982421875,
+        480.7370910644531,
+        17.50418472290039
+      ],
+      "epsg3857_xy": [
+        -4286827.071579352,
+        -1456327.9147276918
+      ],
+      "blender_z": 17.50418472290039,
+      "dem_z_m": 47.39537811279297,
+      "residual_blender_units": -26.460027055415352
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -209.20343017578125,
+        -211.1378936767578,
+        58.04128646850586
+      ],
+      "epsg3857_xy": [
+        -4287455.705565652,
+        -1457041.6200999576
+      ],
+      "blender_z": 58.04128646850586,
+      "dem_z_m": 35.332645416259766,
+      "residual_blender_units": 26.445344764969512
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -151.45343017578125,
+        -114.76289367675781,
+        11.745309829711914
+      ],
+      "epsg3857_xy": [
+        -4287396.268558596,
+        -1456942.2292607632
+      ],
+      "blender_z": 11.745309829711914,
+      "dem_z_m": 41.70473861694336,
+      "residual_blender_units": -26.384124045989573
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        48.79657745361328,
+        98.23710632324219,
+        8.919611930847168
+      ],
+      "epsg3857_xy": [
+        -4287190.0576360375,
+        -1456722.4972928283
+      ],
+      "blender_z": 8.919611930847168,
+      "dem_z_m": 38.91230392456055,
+      "residual_blender_units": -26.34665757651014
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -161.57843017578125,
+        -121.88789367675781,
+        7.9589080810546875
+      ],
+      "epsg3857_xy": [
+        -4287406.698296451,
+        -1456949.5825929958
+      ],
+      "blender_z": 7.9589080810546875,
+      "dem_z_m": 37.949588775634766,
+      "residual_blender_units": -26.320261631708185
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        152.29656982421875,
+        207.7371063232422,
+        7.825400352478027
+      ],
+      "epsg3857_xy": [
+        -4287083.476180588,
+        -1456609.5359837015
+      ],
+      "blender_z": 7.825400352478027,
+      "dem_z_m": 37.72880554199219,
+      "residual_blender_units": -26.227393900397608
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -242.20343017578125,
+        -228.7628936767578,
+        49.001121520996094
+      ],
+      "epsg3857_xy": [
+        -4287489.703919722,
+        -1457059.8172180424
+      ],
+      "blender_z": 49.001121520996094,
+      "dem_z_m": 26.757055282592773,
+      "residual_blender_units": 26.197981373469496
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -116.20342254638672,
+        -66.76289367675781,
+        7.255668640136719
+      ],
+      "epsg3857_xy": [
+        -4287359.978888066,
+        -1456892.7212576268
+      ],
+      "blender_z": 7.255668640136719,
+      "dem_z_m": 36.97114181518555,
+      "residual_blender_units": -26.020270994904138
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -154.82843017578125,
+        -132.3878936767578,
+        18.861297607421875
+      ],
+      "epsg3857_xy": [
+        -4287399.731148882,
+        -1456960.3992034972
+      ],
+      "blender_z": 18.861297607421875,
+      "dem_z_m": 48.22885513305664,
+      "residual_blender_units": -25.957502359746478
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -232.82843017578125,
+        -219.0128936767578,
+        48.529075622558594
+      ],
+      "epsg3857_xy": [
+        -4287480.049647121,
+        -1457049.7588732054
+      ],
+      "blender_z": 48.529075622558594,
+      "dem_z_m": 26.546140670776367,
+      "residual_blender_units": 25.942192350425767
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        228.79656982421875,
+        -141.7628936767578,
+        65.99884033203125
+      ],
+      "epsg3857_xy": [
+        -4287004.303734526,
+        -1456969.7105162893
+      ],
+      "blender_z": 65.99884033203125,
+      "dem_z_m": 43.747947692871094,
+      "residual_blender_units": 25.774444866276667
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -158.57843017578125,
+        -119.26289367675781,
+        10.335247993469238
+      ],
+      "epsg3857_xy": [
+        -4287403.60847515,
+        -1456946.8741404733
+      ],
+      "blender_z": 10.335247993469238,
+      "dem_z_m": 39.69753646850586,
+      "residual_blender_units": -25.736143240394775
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        381.79656982421875,
+        479.2370910644531,
+        7.255668640136719
+      ],
+      "epsg3857_xy": [
+        -4286847.169693469,
+        -1456329.4787298867
+      ],
+      "blender_z": 7.255668640136719,
+      "dem_z_m": 36.612056732177734,
+      "residual_blender_units": -25.65209063327334
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -212.20343017578125,
+        -196.5128936767578,
+        48.70646286010742
+      ],
+      "epsg3857_xy": [
+        -4287458.8112105755,
+        -1457026.5482343282
+      ],
+      "blender_z": 48.70646286010742,
+      "dem_z_m": 27.02999496459961,
+      "residual_blender_units": 25.62346973182505
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -210.32843017578125,
+        -214.8878936767578,
+        59.25978469848633
+      ],
+      "epsg3857_xy": [
+        -4287456.861711701,
+        -1457045.486418488
+      ],
+      "blender_z": 59.25978469848633,
+      "dem_z_m": 37.37479782104492,
+      "residual_blender_units": 25.56996484049978
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        237.79656982421875,
+        -153.7628936767578,
+        65.46194458007812
+      ],
+      "epsg3857_xy": [
+        -4286995.016039058,
+        -1456982.071177462
+      ],
+      "blender_z": 65.46194458007812,
+      "dem_z_m": 43.500587463378906,
+      "residual_blender_units": 25.491174739717536
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -276.70343017578125,
+        -252.7628936767578,
+        44.74203872680664
+      ],
+      "epsg3857_xy": [
+        -4287525.242540552,
+        -1457084.5866992376
+      ],
+      "blender_z": 44.74203872680664,
+      "dem_z_m": 23.31104850769043,
+      "residual_blender_units": 25.472189380274155
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -276.70343017578125,
+        -254.2628936767578,
+        45.24885559082031
+      ],
+      "epsg3857_xy": [
+        -4287525.241164585,
+        -1457086.1328138595
+      ],
+      "blender_z": 45.24885559082031,
+      "dem_z_m": 23.918481826782227,
+      "residual_blender_units": 25.356187225417738
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        218.29656982421875,
+        -155.2628936767578,
+        66.02306365966797
+      ],
+      "epsg3857_xy": [
+        -4287015.114153177,
+        -1456983.6351796566
+      ],
+      "blender_z": 66.02306365966797,
+      "dem_z_m": 44.19929504394531,
+      "residual_blender_units": 25.335888650002367
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        219.79656982421875,
+        -129.7628936767578,
+        66.21131896972656
+      ],
+      "epsg3857_xy": [
+        -4287013.591429995,
+        -1456957.3498551166
+      ],
+      "blender_z": 66.21131896972656,
+      "dem_z_m": 44.4970703125,
+      "residual_blender_units": 25.21882633131728
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -87.70342254638672,
+        -77.26289367675781,
+        36.72024154663086
+      ],
+      "epsg3857_xy": [
+        -4287330.593078478,
+        -1456903.5179166046
+      ],
+      "blender_z": 36.72024154663086,
+      "dem_z_m": 64.92449188232422,
+      "residual_blender_units": -25.217079536793314
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -66.70342254638672,
+        -50.26289749145508,
+        31.082958221435547
+      ],
+      "epsg3857_xy": [
+        -4287308.972241176,
+        -1456875.6685938018
+      ],
+      "blender_z": 31.082958221435547,
+      "dem_z_m": 59.401092529296875,
+      "residual_blender_units": -25.191061133621773
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -224.57843017578125,
+        -210.0128936767578,
+        48.63800048828125
+      ],
+      "epsg3857_xy": [
+        -4287471.554272503,
+        -1457040.4746176545
+      ],
+      "blender_z": 48.63800048828125,
+      "dem_z_m": 27.439632415771484,
+      "residual_blender_units": 25.13499418750322
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -160.07843017578125,
+        -136.1378936767578,
+        17.079116821289062
+      ],
+      "epsg3857_xy": [
+        -4287405.1391101405,
+        -1456964.269305937
+      ],
+      "blender_z": 17.079116821289062,
+      "dem_z_m": 45.683509826660156,
+      "residual_blender_units": -25.129866699218617
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -155.20343017578125,
+        -106.13789367675781,
+        10.13259506225586
+      ],
+      "epsg3857_xy": [
+        -4287400.141756963,
+        -1456933.342541605
+      ],
+      "blender_z": 10.13259506225586,
+      "dem_z_m": 38.892337799072266,
+      "residual_blender_units": -25.113202596922555
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -77.20342254638672,
+        -63.76289749145508,
+        31.57732391357422
+      ],
+      "epsg3857_xy": [
+        -4287319.782659826,
+        -1456889.593257169
+      ],
+      "blender_z": 31.57732391357422,
+      "dem_z_m": 59.57282257080078,
+      "residual_blender_units": -24.872775239212828
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -218.20343017578125,
+        -226.1378936767578,
+        58.95244598388672
+      ],
+      "epsg3857_xy": [
+        -4287464.968493713,
+        -1457057.08950198
+      ],
+      "blender_z": 58.95244598388672,
+      "dem_z_m": 37.78926086425781,
+      "residual_blender_units": 24.83766513377396
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -215.20343017578125,
+        -223.8878936767578,
+        59.28129577636719
+      ],
+      "epsg3857_xy": [
+        -4287461.878328419,
+        -1457054.767578113
+      ],
+      "blender_z": 59.28129577636719,
+      "dem_z_m": 38.143184661865234,
+      "residual_blender_units": 24.8036265804024
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -225.93618774414062,
+        -236.6378936767578,
+        57.776466369628906
+      ],
+      "epsg3857_xy": [
+        -4287472.929348306,
+        -1457067.9193976803
+      ],
+      "blender_z": 57.776466369628906,
+      "dem_z_m": 36.70729446411133,
+      "residual_blender_units": 24.7710570844431
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        239.29656982421875,
+        -128.2628936767578,
+        65.9436264038086
+      ],
+      "epsg3857_xy": [
+        -4286993.493315877,
+        -1456955.7858529217
+      ],
+      "blender_z": 65.9436264038086,
+      "dem_z_m": 44.695194244384766,
+      "residual_blender_units": 24.7479915455164
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -217.07843017578125,
+        -228.3878936767578,
+        58.819847106933594
+      ],
+      "epsg3857_xy": [
+        -4287463.806843796,
+        -1457059.4076419373
+      ],
+      "blender_z": 58.819847106933594,
+      "dem_z_m": 37.78926086425781,
+      "residual_blender_units": 24.705066256820835
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -263.20343017578125,
+        -255.7628936767578,
+        47.375919342041016
+      ],
+      "epsg3857_xy": [
+        -4287511.32475702,
+        -1457087.6665447773
+      ],
+      "blender_z": 47.375919342041016,
+      "dem_z_m": 26.719223022460938,
+      "residual_blender_units": 24.611569709285945
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        248.29656982421875,
+        -140.2628936767578,
+        65.37114715576172
+      ],
+      "epsg3857_xy": [
+        -4286984.205620409,
+        -1456968.1465140944
+      ],
+      "blender_z": 65.37114715576172,
+      "dem_z_m": 44.29777145385742,
+      "residual_blender_units": 24.583001423754098
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -156.32843017578125,
+        -153.3878936767578,
+        20.980161666870117
+      ],
+      "epsg3857_xy": [
+        -4287401.257999964,
+        -1456982.0461841715
+      ],
+      "blender_z": 20.980161666870117,
+      "dem_z_m": 48.92731475830078,
+      "residual_blender_units": -24.554789233811952
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -152.20343017578125,
+        -107.63789367675781,
+        10.716424942016602
+      ],
+      "epsg3857_xy": [
+        -4287397.048151751,
+        -1456934.8859042928
+      ],
+      "blender_z": 10.716424942016602,
+      "dem_z_m": 38.892337799072266,
+      "residual_blender_units": -24.529372717161813
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        314.29656982421875,
+        321.7370910644531,
+        7.287613868713379
+      ],
+      "epsg3857_xy": [
+        -4286916.600374907,
+        -1456491.8826837111
+      ],
+      "blender_z": 7.287613868713379,
+      "dem_z_m": 35.51049041748047,
+      "residual_blender_units": -24.490677478297975
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -198.70147705078125,
+        -201.3878936767578,
+        58.96546936035156
+      ],
+      "epsg3857_xy": [
+        -4287444.889693915,
+        -1457031.5607213536
+      ],
+      "blender_z": 58.96546936035156,
+      "dem_z_m": 38.262290954589844,
+      "residual_blender_units": 24.36567702420917
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -220.45343017578125,
+        -230.6378936767578,
+        58.473331451416016
+      ],
+      "epsg3857_xy": [
+        -4287467.283537745,
+        -1457061.7299097963
+      ],
+      "blender_z": 58.473331451416016,
+      "dem_z_m": 37.78926086425781,
+      "residual_blender_units": 24.358550601303257
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        227.29656982421875,
+        -167.2628936767578,
+        65.5058822631836
+      ],
+      "epsg3857_xy": [
+        -4287005.826457707,
+        -1456995.9958408293
+      ],
+      "blender_z": 65.5058822631836,
+      "dem_z_m": 44.64830017089844,
+      "residual_blender_units": 24.358329260004723
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -245.20343017578125,
+        -234.0128936767578,
+        46.733055114746094
+      ],
+      "epsg3857_xy": [
+        -4287492.79133308,
+        -1457065.2313711536
+      ],
+      "blender_z": 46.733055114746094,
+      "dem_z_m": 26.38351821899414,
+      "residual_blender_units": 24.31291336416281
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        230.29656982421875,
+        -116.26289367675781,
+        66.1987075805664
+      ],
+      "epsg3857_xy": [
+        -4287002.781011346,
+        -1456943.4251917491
+      ],
+      "blender_z": 66.1987075805664,
+      "dem_z_m": 45.39390563964844,
+      "residual_blender_units": 24.286663641649334
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -203.57843017578125,
+        -186.7628936767578,
+        49.724700927734375
+      ],
+      "epsg3857_xy": [
+        -4287449.929995286,
+        -1457016.4905774745
+      ],
+      "blender_z": 49.724700927734375,
+      "dem_z_m": 29.42418670654297,
+      "residual_blender_units": 24.1868734911636
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        257.29656982421875,
+        -152.2628936767578,
+        64.49645233154297
+      ],
+      "epsg3857_xy": [
+        -4286974.91792494,
+        -1456980.5071752672
+      ],
+      "blender_z": 64.49645233154297,
+      "dem_z_m": 44.10082244873047,
+      "residual_blender_units": 23.91024413289952
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -203.20343017578125,
+        -208.5128936767578,
+        59.153141021728516
+      ],
+      "epsg3857_xy": [
+        -4287449.523515107,
+        -1457038.9088955007
+      ],
+      "blender_z": 59.153141021728516,
+      "dem_z_m": 38.915191650390625,
+      "residual_blender_units": 23.88391064523261
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -164.95343017578125,
+        -118.13789367675781,
+        8.36273193359375
+      ],
+      "epsg3857_xy": [
+        -4287410.180494268,
+        -1456945.720402367
+      ],
+      "blender_z": 8.36273193359375,
+      "dem_z_m": 35.951934814453125,
+      "residual_blender_units": -23.868185170956366
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -202.45343017578125,
+        -185.6378936767578,
+        49.359375
+      ],
+      "epsg3857_xy": [
+        -4287448.771441296,
+        -1457015.3299595327
+      ],
+      "blender_z": 49.359375,
+      "dem_z_m": 29.42418670654297,
+      "residual_blender_units": 23.821547563429224
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        209.29656982421875,
+        -143.2628936767578,
+        66.21444702148438
+      ],
+      "epsg3857_xy": [
+        -4287024.401848645,
+        -1456971.274518484
+      ],
+      "blender_z": 66.21444702148438,
+      "dem_z_m": 45.889801025390625,
+      "residual_blender_units": 23.793947145260574
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -166.45343017578125,
+        -139.8878936767578,
+        12.607416152954102
+      ],
+      "epsg3857_xy": [
+        -4287411.706657367,
+        -1456968.1404403523
+      ],
+      "blender_z": 12.607416152954102,
+      "dem_z_m": 39.96806335449219,
+      "residual_blender_units": -23.74135415185041
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -225.32843017578125,
+        -229.8878936767578,
+        55.10401153564453
+      ],
+      "epsg3857_xy": [
+        -4287472.309098249,
+        -1457060.9613243786
+      ],
+      "blender_z": 55.10401153564453,
+      "dem_z_m": 35.205833435058594,
+      "residual_blender_units": 23.6380938384152
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        246.79656982421875,
+        -165.7628936767578,
+        64.62322235107422
+      ],
+      "epsg3857_xy": [
+        -4286985.728343589,
+        -1456994.4318386347
+      ],
+      "blender_z": 64.62322235107422,
+      "dem_z_m": 44.499412536621094,
+      "residual_blender_units": 23.628328162267188
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -158.1492919921875,
+        -113.58374786376953,
+        10.50665283203125
+      ],
+      "epsg3857_xy": [
+        -4287403.171353481,
+        -1456941.0200065654
+      ],
+      "blender_z": 10.50665283203125,
+      "dem_z_m": 37.69988250732422,
+      "residual_blender_units": -23.516485793620014
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -210.70343017578125,
+        -220.8878936767578,
+        59.286216735839844
+      ],
+      "epsg3857_xy": [
+        -4287457.242736489,
+        -1457051.6712209673
+      ],
+      "blender_z": 59.286216735839844,
+      "dem_z_m": 39.41694641113281,
+      "residual_blender_units": 23.502522634722965
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -206.95343017578125,
+        -218.2628936767578,
+        59.260169982910156
+      ],
+      "epsg3857_xy": [
+        -4287453.379857875,
+        -1457048.9620804612
+      ],
+      "blender_z": 59.260169982910156,
+      "dem_z_m": 39.41694641113281,
+      "residual_blender_units": 23.476475881793277
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        258.79656982421875,
+        -126.76289367675781,
+        65.21543884277344
+      ],
+      "epsg3857_xy": [
+        -4286973.395201759,
+        -1456954.2218507272
+      ],
+      "blender_z": 65.21543884277344,
+      "dem_z_m": 45.29542922973633,
+      "residual_blender_units": 23.404365626198384
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -229.07843017578125,
+        -216.0128936767578,
+        46.34598922729492
+      ],
+      "epsg3857_xy": [
+        -4287476.1871125,
+        -1457046.6632040436
+      ],
+      "blender_z": 46.34598922729492,
+      "dem_z_m": 26.89835548400879,
+      "residual_blender_units": 23.397969880610052
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -252.70343017578125,
+        -242.2628936767578,
+        46.70224380493164
+      ],
+      "epsg3857_xy": [
+        -4287500.514338371,
+        -1457073.74188141
+      ],
+      "blender_z": 46.70224380493164,
+      "dem_z_m": 27.273378372192383,
+      "residual_blender_units": 23.369702602215632
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -166.45343017578125,
+        -122.26289367675781,
+        7.255668640136719
+      ],
+      "epsg3857_xy": [
+        -4287411.7228249805,
+        -1456949.9735935444
+      ],
+      "blender_z": 7.255668640136719,
+      "dem_z_m": 34.20398712158203,
+      "residual_blender_units": -23.183026943312257
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -165.70343017578125,
+        -121.13789367675781,
+        7.255668640136719
+      ],
+      "epsg3857_xy": [
+        -4287410.950799645,
+        -1456948.8133195944
+      ],
+      "blender_z": 7.255668640136719,
+      "dem_z_m": 34.20398712158203,
+      "residual_blender_units": -23.183026943312257
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -261.70343017578125,
+        -230.2628936767578,
+        41.69321823120117
+      ],
+      "epsg3857_xy": [
+        -4287509.80203384,
+        -1457061.3812202374
+      ],
+      "blender_z": 41.69321823120117,
+      "dem_z_m": 22.570697784423828,
+      "residual_blender_units": 23.18247197729141
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -155.95343017578125,
+        -113.26289367675781,
+        10.844461441040039
+      ],
+      "epsg3857_xy": [
+        -4287400.90827843,
+        -1456940.687274043
+      ],
+      "blender_z": 10.844461441040039,
+      "dem_z_m": 37.69988250732422,
+      "residual_blender_units": -23.178677184611225
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        335.29656982421875,
+        348.7370910644531,
+        7.375879287719727
+      ],
+      "epsg3857_xy": [
+        -4286894.979537609,
+        -1456464.0333569765
+      ],
+      "blender_z": 7.375879287719727,
+      "dem_z_m": 34.2872200012207,
+      "residual_blender_units": -23.14815738388654
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -264.48162841796875,
+        -258.7629089355469,
+        46.78212356567383
+      ],
+      "epsg3857_xy": [
+        -4287512.639499066,
+        -1457090.759962255
+      ],
+      "blender_z": 46.78212356567383,
+      "dem_z_m": 27.664169311523438,
+      "residual_blender_units": 23.04889306626037
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        410.29656982421875,
+        468.7370910644531,
+        22.105941772460938
+      ],
+      "epsg3857_xy": [
+        -4286817.783883883,
+        -1456340.2753888646
+      ],
+      "blender_z": 22.105941772460938,
+      "dem_z_m": 48.504276275634766,
+      "residual_blender_units": -22.995255489036047
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        267.79656982421875,
+        -138.7628936767578,
+        63.88263702392578
+      ],
+      "epsg3857_xy": [
+        -4286964.10750629,
+        -1456966.5825118998
+      ],
+      "blender_z": 63.88263702392578,
+      "dem_z_m": 44.39859390258789,
+      "residual_blender_units": 22.99111510785852
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        324.79656982421875,
+        335.2370910644531,
+        7.255668640136719
+      ],
+      "epsg3857_xy": [
+        -4286905.789956259,
+        -1456477.958020344
+      ],
+      "blender_z": 7.255668640136719,
+      "dem_z_m": 33.98633575439453,
+      "residual_blender_units": -22.95986267703504
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        210.79656982421875,
+        -117.76289367675781,
+        66.21566772460938
+      ],
+      "epsg3857_xy": [
+        -4287022.879125464,
+        -1456944.989193944
+      ],
+      "blender_z": 66.21566772460938,
+      "dem_z_m": 46.72290802001953,
+      "residual_blender_units": 22.940959057559972
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        54.79657745361328,
+        530.2371215820312,
+        7.255668640136719
+      ],
+      "epsg3857_xy": [
+        -4287184.269456099,
+        -1456277.2107621133
+      ],
+      "blender_z": 7.255668640136719,
+      "dem_z_m": 33.837913513183594,
+      "residual_blender_units": -22.807681043686863
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        192.79656982421875,
+        236.2371063232422,
+        62.0218505859375
+      ],
+      "epsg3857_xy": [
+        -4287041.757229172,
+        -1456580.1226547721
+      ],
+      "blender_z": 62.0218505859375,
+      "dem_z_m": 42.912235260009766,
+      "residual_blender_units": 22.654335342477033
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        249.79656982421875,
+        -114.76289367675781,
+        65.8506851196289
+      ],
+      "epsg3857_xy": [
+        -4286982.682897228,
+        -1456941.8611895542
+      ],
+      "blender_z": 65.8506851196289,
+      "dem_z_m": 46.692848205566406,
+      "residual_blender_units": 22.606797653123962
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        278.29656982421875,
+        -125.26289367675781,
+        64.31219482421875
+      ],
+      "epsg3857_xy": [
+        -4286953.297087641,
+        -1456952.6578485325
+      ],
+      "blender_z": 64.31219482421875,
+      "dem_z_m": 45.236724853515625,
+      "residual_blender_units": 22.561312909062302
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        207.79656982421875,
+        -168.7628936767578,
+        66.02025604248047
+      ],
+      "epsg3857_xy": [
+        -4287025.924571825,
+        -1456997.559843024
+      ],
+      "blender_z": 66.02025604248047,
+      "dem_z_m": 46.93577194213867,
+      "residual_blender_units": 22.52729181558574
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -198.32257080078125,
+        -199.94578552246094,
+        57.058067321777344
+      ],
+      "epsg3857_xy": [
+        -4287444.500461782,
+        -1457030.073930776
+      ],
+      "blender_z": 57.058067321777344,
+      "dem_z_m": 38.262290954589844,
+      "residual_blender_units": 22.45827498563495
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -232.07843017578125,
+        -242.6378936767578,
+        54.779296875
+      ],
+      "epsg3857_xy": [
+        -4287479.254918328,
+        -1457074.1094905173
+      ],
+      "blender_z": 54.779296875,
+      "dem_z_m": 36.11325454711914,
+      "residual_blender_units": 22.382973964634594
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -162.32843017578125,
+        -115.13789367675781,
+        9.85082721710205
+      ],
+      "epsg3857_xy": [
+        -4287407.477545614,
+        -1456942.625765181
+      ],
+      "blender_z": 9.85082721710205,
+      "dem_z_m": 35.951934814453125,
+      "residual_blender_units": -22.380089887448065
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -197.57843017578125,
+        -207.3878936767578,
+        59.0749397277832
+      ],
+      "epsg3857_xy": [
+        -4287443.726617251,
+        -1457037.7441496577
+      ],
+      "blender_z": 59.0749397277832,
+      "dem_z_m": 40.33087921142578,
+      "residual_blender_units": 22.354163790518903
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        203.29656982421875,
+        249.7371063232422,
+        59.245113372802734
+      ],
+      "epsg3857_xy": [
+        -4287030.946810522,
+        -1456566.1979914044
+      ],
+      "blender_z": 59.245113372802734,
+      "dem_z_m": 40.50495529174805,
+      "residual_blender_units": 22.34585217609108
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -95.20342254638672,
+        -39.76289749145508,
+        7.255668640136719
+      ],
+      "epsg3857_xy": [
+        -4287338.358050763,
+        -1456864.8719348237
+      ],
+      "blender_z": 7.255668640136719,
+      "dem_z_m": 33.372989654541016,
+      "residual_blender_units": -22.330981112372577
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        276.79656982421875,
+        -150.7628936767578,
+        62.74024200439453
+      ],
+      "epsg3857_xy": [
+        -4286954.819810822,
+        -1456978.9431730725
+      ],
+      "blender_z": 62.74024200439453,
+      "dem_z_m": 44.060752868652344,
+      "residual_blender_units": 22.19511830962405
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        44.29657745361328,
+        516.7371215820312,
+        7.255668640136719
+      ],
+      "epsg3857_xy": [
+        -4287195.079874748,
+        -1456291.135425481
+      ],
+      "blender_z": 7.255668640136719,
+      "dem_z_m": 33.2318000793457,
+      "residual_blender_units": -22.186215341490424
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -3.7034237384796143,
+        30.737104415893555,
+        13.184408187866211
+      ],
+      "epsg3857_xy": [
+        -4287244.109730511,
+        -1456792.1206116325
+      ],
+      "blender_z": 13.184408187866211,
+      "dem_z_m": 39.013885498046875,
+      "residual_blender_units": -22.18601585620408
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        45.79657745361328,
+        542.2371215820312,
+        7.255668640136719
+      ],
+      "epsg3857_xy": [
+        -4287193.557151567,
+        -1456264.8501009408
+      ],
+      "blender_z": 7.255668640136719,
+      "dem_z_m": 33.226261138916016,
+      "residual_blender_units": -22.180536105044922
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -217.82843017578125,
+        -232.8878936767578,
+        58.41212463378906
+      ],
+      "epsg3857_xy": [
+        -4287464.575773206,
+        -1457064.0466737868
+      ],
+      "blender_z": 58.41212463378906,
+      "dem_z_m": 39.95641326904297,
+      "residual_blender_units": 22.07529949985546
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -224.20343017578125,
+        -236.6378936767578,
+        57.824398040771484
+      ],
+      "epsg3857_xy": [
+        -4287471.14332043,
+        -1457067.917808202
+      ],
+      "blender_z": 57.824398040771484,
+      "dem_z_m": 39.41543197631836,
+      "residual_blender_units": 22.042256733641423
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        266.29656982421875,
+        -164.2628936767578,
+        63.30882263183594
+      ],
+      "epsg3857_xy": [
+        -4286965.630229471,
+        -1456992.8678364397
+      ],
+      "blender_z": 63.30882263183594,
+      "dem_z_m": 44.84994125366211,
+      "residual_blender_units": 21.954521171857657
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -158.95343017578125,
+        -150.0128936767578,
+        22.314666748046875
+      ],
+      "epsg3857_xy": [
+        -4287403.966796478,
+        -1456978.5698342146
+      ],
+      "blender_z": 22.314666748046875,
+      "dem_z_m": 47.67877960205078,
+      "residual_blender_units": -21.94012480575727
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        278.17266845703125,
+        -152.38681030273438,
+        62.60845184326172
+      ],
+      "epsg3857_xy": [
+        -4286953.39991704,
+        -1456980.6157515883
+      ],
+      "blender_z": 62.60845184326172,
+      "dem_z_m": 44.211219787597656,
+      "residual_blender_units": 21.909050047694855
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -249.70343017578125,
+        -243.0128936767578,
+        45.21669006347656
+      ],
+      "epsg3857_xy": [
+        -4287497.421421143,
+        -1457074.5121867864
+      ],
+      "blender_z": 45.21669006347656,
+      "dem_z_m": 27.273378372192383,
+      "residual_blender_units": 21.884148860760554
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        276.42156982421875,
+        -153.3878936767578,
+        62.58203125
+      ],
+      "epsg3857_xy": [
+        -4286955.203931536,
+        -1456981.6492176529
+      ],
+      "blender_z": 62.58203125,
+      "dem_z_m": 44.211219787597656,
+      "residual_blender_units": 21.882629454433136
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        276.79656982421875,
+        -153.3878936767578,
+        62.5736083984375
+      ],
+      "epsg3857_xy": [
+        -4286954.81740288,
+        -1456981.648873661
+      ],
+      "blender_z": 62.5736083984375,
+      "dem_z_m": 44.211219787597656,
+      "residual_blender_units": 21.874206602870636
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        287.29656982421875,
+        -137.2628936767578,
+        62.9931640625
+      ],
+      "epsg3857_xy": [
+        -4286944.009392172,
+        -1456965.018509705
+      ],
+      "blender_z": 62.9931640625,
+      "dem_z_m": 44.64830017089844,
+      "residual_blender_units": 21.84561105932113
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        372.79656982421875,
+        491.2370910644531,
+        7.255668640136719
+      ],
+      "epsg3857_xy": [
+        -4286856.457388938,
+        -1456317.1180687142
+      ],
+      "blender_z": 7.255668640136719,
+      "dem_z_m": 32.88276672363281,
+      "residual_blender_units": -21.828341307706665
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -155.20343017578125,
+        -105.01289367675781,
+        9.804668426513672
+      ],
+      "epsg3857_xy": [
+        -4287400.142788938,
+        -1456932.1829556387
+      ],
+      "blender_z": 9.804668426513672,
+      "dem_z_m": 35.35282516479492,
+      "residual_blender_units": -21.81196415911407
+    }
+  ],
+  "notes": [
+    "Resultado é candidato e nunca altera DEM ou Blender.",
+    "Inicialização robusta usa quantis/medianas antes do least-squares para não ser dominada por poucos outliers extremos.",
+    "Se o algoritmo precisar forçar apenas o número mínimo de pontos, quality é insuficiente.",
+    "Escala vertical próxima à escala horizontal sugere unidades uniformes, mas não prova precisão topográfica.",
+    "Outliers podem representar correções locais legítimas, artefatos do DEM ou objetos classificados indevidamente como terreno.",
+    "Revisar objetos/resíduos espacialmente antes de qualquer correção de Z."
+  ]
+}

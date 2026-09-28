@@ -1,0 +1,97 @@
+{
+  "schema": "bay-of-all-saints/r30a1-status-v1",
+  "revision": "R30A.1",
+  "status": "diagnostic_complete_structural_changes_blocked",
+  "language": "pt-BR",
+  "base_commit": "7b88167bb265e07047ac775df0b992be9e72ce50",
+  "capture_id": "aleph-20260924T205631Z-aqqo7pkx",
+  "capture_bounds_source": "data/aleph/aleph-20260924T205631Z-aqqo7pkx/manifest.json",
+  "scene": {
+    "blend_file": "blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a_structure_ref.blend",
+    "blend_file_sha256": "ACF5F5BBA00DED0FC912116DB02DE7FCA26C43BB8DBF67A10AC5CB8A3C319A30",
+    "blendmcp_connected": true,
+    "geometry_changed": false,
+    "binding_metadata_changed": false,
+    "new_r30a1_blend_saved": false
+  },
+  "coverage": {
+    "r30a_ratio_full_osm_bbox": 0.0015837449103994275,
+    "r30a1_target_kind": "capture_bounds",
+    "r30a1_status": "covered_with_margin",
+    "r30a1_target_coverage_ratio": 1.0,
+    "margins_m_projected": {
+      "west": 285.6910369191319,
+      "south": 702.3058553345036,
+      "east": 1325.3976872572675,
+      "north": 829.797166997334
+    },
+    "full_osm_bbox_preserved_for_audit": true
+  },
+  "terrain_selection": {
+    "r30a_objects": 121,
+    "r30a_samples": 8319,
+    "r30a1_objects": 1,
+    "r30a1_samples": 4978,
+    "selection_mode": "strict",
+    "include_regex": "^MVP [|] terreno corrigido [|] colisão estática(?: |$)",
+    "manual_exclusions": [
+      "Igreja da Ordem Terceira de São Domingos.001",
+      "OSM | Igreja da Ordem Terceira de São Domingos",
+      "CALIBRADO | terreno Cidade Alta",
+      "CALIBRADO | terreno Cidade Baixa",
+      "CALIBRADO | terreno Encosta 75 graus",
+      "TERRENO | Alto",
+      "TERRENO | Baixo",
+      "TERRENO | Encosta",
+      "TERRENO | encaixe na ladeira perfil estimado"
+    ]
+  },
+  "vertical_fit": {
+    "quality": "insufficient",
+    "status": "candidate_only",
+    "scale_z_blender_units_per_dem_meter": 1.0253290349651865,
+    "z_offset_blender_units": -4.631645523884394,
+    "rms_residual_blender_units": 9.210668307940105,
+    "median_abs_residual_blender_units": 5.217913353839986,
+    "max_abs_residual_blender_units": 29.32657401316481,
+    "scale_ratio_vertical_to_horizontal": 1.056851227358743,
+    "applied_to_scene": false
+  },
+  "horizontal_fit": {
+    "quality": "candidate",
+    "status": "candidate_only",
+    "scale_blender_units_per_meter": 0.9701734817753527,
+    "rotation_epsg3857_to_blender_deg": -0.05099045551313879,
+    "rms_residual_blender_units": 4.168632432324549,
+    "robust_anchors": 1012
+  },
+  "binding_review": {
+    "mercado_osm_id": 59392558,
+    "old_aggregate_offset_m": 249.44598002833362,
+    "footprint_offset_m": 1.8783657769220825,
+    "binding_conflict_review_items": 843,
+    "mercado_binding_conflict_after_audit_fix": false,
+    "blender_property_preserved": "mercado_support"
+  },
+  "artifacts": {
+    "terrain_samples": "terrain_samples.json",
+    "terrain_vertical_fit": "terrain_vertical_fit.json",
+    "structural_scene_audit_before": "structural_scene_audit_before.json",
+    "structural_scene_audit_after": "structural_scene_audit_after.json",
+    "scene_reference_alignment": "scene_reference_alignment.json",
+    "structural_pipeline": "artifacts/structural-pipeline/mvp-centro-lacerda/"
+  },
+  "blockers": [
+    "Fit vertical permanece insuficiente; nenhum offset ou escala Z foi aplicado.",
+    "Faixa vertical anômala do DEM requer revisão de nodata/unidade/artefato.",
+    "843 conflitos de binding permanecem para triagem individual.",
+    "QA topológico permanece com 149 itens de revisão.",
+    "Fit XY permanece candidato e não verificado.",
+    "Origem/licença dos dados de elevação permanece pendente."
+  ],
+  "notes": [
+    "A correção do auditor removeu a leitura indevida de IDs dentro de propriedades textuais descritivas.",
+    "O arquivo Blender foi copiado para este projeto e será publicado via Git LFS.",
+    "Nenhuma geometria foi movida, deletada ou suavizada; R30A.1 não inicia R30B."
+  ]
+}

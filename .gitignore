@@ -5,8 +5,11 @@
 *.autosave
 
 # Large working scene files are not committed by default.
-# Keep .blend binaries outside Git unless Git LFS is intentionally configured.
+# Project revisions under blender/ are versioned with Git LFS; keep all other
+# working .blend files outside Git by default.
 *.blend
+!blender/
+!blender/*.blend
 
 # Python
 __pycache__/
