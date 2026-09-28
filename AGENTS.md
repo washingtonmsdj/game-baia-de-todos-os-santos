@@ -270,3 +270,11 @@ Não resolver problema estrutural por:
 - usar a malha visual detalhada como collider/navmesh por conveniência quando isso prejudicar estabilidade ou performance.
 
 Quando uma informação ainda não foi verificada, mantê-la explicitamente como `null`, `candidate`, `partial` ou `pending` conforme o contrato correspondente.
+
+## Sessão Blender visível
+
+- usar somente uma instância/janela do Blender durante alterações de cena;
+- executar mutações ao vivo nessa janela para que o usuário acompanhe;
+- manter OrdaX e, quando ativo, BlendMCP na mesma instância;
+- não usar Blender background/segunda janela para modificar geometria;
+- headless fica restrito a validações read-only/CI.

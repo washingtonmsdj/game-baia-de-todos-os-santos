@@ -158,3 +158,12 @@ Identificadores históricos como `allsaints_*` permanecem por compatibilidade e 
 - **Próximo:** chunking da colisão, grafo de vias/cruzamentos, navigation hints e vertical slice funcional.
 
 Antes de criar nova geometria de runtime, revisar `docs/PROJECT_STATUS.md` e o relatório da revisão ativa.
+
+## Regra de janela única
+
+Toda alteração de cena deve ocorrer em **uma única janela visível do Blender**, para permitir acompanhamento ao vivo.
+
+- não abrir segunda instância para aplicar geometria;
+- não usar Blender background para mutações da cena;
+- manter OrdaX/Blender Live e BlendMCP no mesmo processo quando possível;
+- processos headless ficam restritos a validações read-only, testes e CI.

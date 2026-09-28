@@ -1,69 +1,57 @@
 # BlendMCP fallback
 
-Este projeto usa OrdaX/Blender Live como rota principal de automação direta do Blender.
+OrdaX/Blender Live é a rota principal de automação direta do Blender. O fallback suportado é **BlendMCP 1.4.4**, mas ele deve compartilhar a mesma janela/processo Blender sempre que a sessão visível já estiver aberta.
 
-Quando essa rota não estiver disponível, o fallback suportado é **BlendMCP 1.4.4**.
+## Regra de janela única
+
+- uma única janela do Blender durante alterações de cena;
+- OrdaX e BlendMCP podem coexistir no mesmo processo;
+- não abrir uma segunda instância para aplicar geometria;
+- Blender background/headless fica restrito a validações read-only/CI;
+- nunca encerrar uma sessão `is_dirty=True` sem checkpoint/salvamento.
 
 ## Estado validado
 
-- pacote Python `blendmcp`: `1.4.4`;
-- addon Blender: `1.4.4`;
+- `blendmcp`: `1.4.4`;
 - Blender: `5.2.2 LTS`;
-- porta primária histórica: `9876`;
-- porta fallback isolada do projeto: `9877`;
-- cena validada: `blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a5_runtime_proxies.blend`.
+- porta fallback: `9877`;
+- cena validada atual: `blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a6_collision_chunks.blend`;
+- OrdaX e BlendMCP foram testados juntos no mesmo PID Blender.
+## Acoplar à janela já aberta
 
-A porta 9877 evita encerrar ou sobrescrever sessões MCP existentes na 9876.
+Com a sessão OrdaX visível ativa, executar o script versionado:
 
-## Iniciar
+`automation/blender/start_blendmcp_server.py`
 
-```powershell
-./scripts/windows/start_blendmcp_fallback.ps1 -Port 9877
-```
+Ele inicia o `BlendMCPServer` na porta 9877 dentro do processo Blender atual. O healthcheck deve retornar `addon_version=1.4.4` e a cena esperada.
 
-O launcher abre a cena oficial com `--factory-startup --disable-autoexec`, evitando addons globais duplicados, inicia o `BlendMCPServer` e valida a conexão antes de retornar sucesso.
-
-A cena atual pode levar dezenas de segundos para descomprimir e abrir. O launcher aguarda até 120 segundos e grava logs em:
-
-`artifacts/blendmcp-fallback/`
-
-## Conectar um cliente MCP
-
-O servidor stdio `blendmcp` deve receber:
+Cliente MCP:
 
 ```text
 BLENDER_HOST=127.0.0.1
 BLENDER_PORT=9877
 ```
 
-Executável instalado:
-
-`C:\Users\TONECOS\AppData\Roaming\Python\Python313\Scripts\blendmcp.exe`
-
-## Healthcheck
+Healthcheck:
 
 ```powershell
-python tools/blendmcp/healthcheck.py \
-  --port 9877 \
-  --expect-version 1.4.4 \
-  --expect-scene-contains r30a5_runtime_proxies
+python tools/blendmcp/healthcheck.py --port 9877 --expect-version 1.4.4
+```
+## Launcher quando não existe Blender aberto
+
+Somente quando não houver nenhuma janela Blender ativa:
+
+```powershell
+./scripts/windows/start_blendmcp_fallback.ps1 -Port 9877
 ```
 
-O healthcheck valida socket, versão do addon e cena carregada. A rota foi testada com `get_scene_info` e `get_object_info` sobre a R30A.5.
-
-## Segurança operacional
-
-- não encerrar automaticamente uma sessão Blender MCP que esteja `is_dirty=True`;
-- preservar a cena anterior antes de qualquer mutação;
-- preferir nova revisão `.blend` em vez de sobrescrever uma base validada;
-- manter a porta 9877 dedicada ao fallback deste projeto;
-- se a porta estiver ocupada por outra sessão, não matar o processo sem identificar sua cena/estado;
-- usar scripts versionados para alterações estruturais relevantes.
+O launcher se recusa a abrir uma segunda instância se detectar `blender.exe`. Ele usa a cena oficial mais recente, aguarda até 120 s e grava logs em `artifacts/blendmcp-fallback/`.
 
 ## Ordem de preferência
 
-1. OrdaX/Blender Live quando disponível;
-2. BlendMCP 1.4.4 na porta 9877;
-3. Blender CLI/background com scripts versionados para passes determinísticos.
+1. uma janela visível com OrdaX + BlendMCP no mesmo processo;
+2. se OrdaX falhar, continuar pela porta 9877 já acoplada à mesma janela;
+3. se não existir Blender aberto, iniciar uma única janela pelo launcher;
+4. usar headless somente para validações que não alterem a cena.
 
-A terceira rota continua válida mesmo sem MCP e foi usada para gerar a R30A.5 de forma reproduzível.
+A porta 9876 é histórica e não deve ser usada para matar ou substituir sessões sem inspeção prévia.

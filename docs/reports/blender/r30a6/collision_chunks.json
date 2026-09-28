@@ -1,0 +1,1017 @@
+{
+  "schema": "bay-of-all-saints/r30a6-collision-chunks-v1",
+  "revision": "R30A.6",
+  "source_blend": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\blender\\salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a5_runtime_proxies.blend",
+  "source_sha256": "C0E1566101E6A1F07F98188A3CB9B9021CB7D4F27A2ACF1CFA0D41E46544083F",
+  "source_proxy": "R30A5 | COLLISION | terrain proxy",
+  "source_proxy_vertices": 66051,
+  "source_proxy_polygons": 131097,
+  "candidate_audits": [
+    {
+      "chunk_size_m": 64,
+      "chunk_count": 175,
+      "min_polygons": 1,
+      "median_polygons": 464,
+      "p95_polygons": 2234.3999999999996,
+      "max_polygons": 5304,
+      "total_polygons": 131097
+    },
+    {
+      "chunk_size_m": 128,
+      "chunk_count": 63,
+      "min_polygons": 1,
+      "median_polygons": 933,
+      "p95_polygons": 6875.499999999999,
+      "max_polygons": 12000,
+      "total_polygons": 131097
+    },
+    {
+      "chunk_size_m": 256,
+      "chunk_count": 25,
+      "min_polygons": 23,
+      "median_polygons": 1456,
+      "p95_polygons": 20595.399999999998,
+      "max_polygons": 21922,
+      "total_polygons": 131097
+    }
+  ],
+  "selection_policy": {
+    "max_chunks": 80,
+    "max_chunk_polygons": 15000,
+    "p95_chunk_polygons": 10000
+  },
+  "selected_chunk_size_m": 128,
+  "selection_policy_passed": true,
+  "chunk_count": 63,
+  "chunk_polygon_sum": 131097,
+  "exact_polygon_partition": true,
+  "chunk_vertex_sum_with_boundary_duplication": 69146,
+  "vertex_duplication_ratio": 1.0468577311471439,
+  "chunks": [
+    {
+      "name": "R30A6 | COLLISION | x-003_y-003",
+      "grid": [
+        -3,
+        -3
+      ],
+      "nominal_bounds_xy_m": [
+        -384,
+        -384,
+        -256,
+        -256
+      ],
+      "vertices": 109,
+      "polygons": 180
+    },
+    {
+      "name": "R30A6 | COLLISION | x-003_y-002",
+      "grid": [
+        -3,
+        -2
+      ],
+      "nominal_bounds_xy_m": [
+        -384,
+        -256,
+        -256,
+        -128
+      ],
+      "vertices": 325,
+      "polygons": 557
+    },
+    {
+      "name": "R30A6 | COLLISION | x-003_y-001",
+      "grid": [
+        -3,
+        -1
+      ],
+      "nominal_bounds_xy_m": [
+        -384,
+        -128,
+        -256,
+        0
+      ],
+      "vertices": 123,
+      "polygons": 199
+    },
+    {
+      "name": "R30A6 | COLLISION | x-003_y+000",
+      "grid": [
+        -3,
+        0
+      ],
+      "nominal_bounds_xy_m": [
+        -384,
+        0,
+        -256,
+        128
+      ],
+      "vertices": 134,
+      "polygons": 220
+    },
+    {
+      "name": "R30A6 | COLLISION | x-003_y+001",
+      "grid": [
+        -3,
+        1
+      ],
+      "nominal_bounds_xy_m": [
+        -384,
+        128,
+        -256,
+        256
+      ],
+      "vertices": 65,
+      "polygons": 97
+    },
+    {
+      "name": "R30A6 | COLLISION | x-003_y+002",
+      "grid": [
+        -3,
+        2
+      ],
+      "nominal_bounds_xy_m": [
+        -384,
+        256,
+        -256,
+        384
+      ],
+      "vertices": 55,
+      "polygons": 80
+    },
+    {
+      "name": "R30A6 | COLLISION | x-003_y+003",
+      "grid": [
+        -3,
+        3
+      ],
+      "nominal_bounds_xy_m": [
+        -384,
+        384,
+        -256,
+        512
+      ],
+      "vertices": 47,
+      "polygons": 60
+    },
+    {
+      "name": "R30A6 | COLLISION | x-003_y+004",
+      "grid": [
+        -3,
+        4
+      ],
+      "nominal_bounds_xy_m": [
+        -384,
+        512,
+        -256,
+        640
+      ],
+      "vertices": 54,
+      "polygons": 65
+    },
+    {
+      "name": "R30A6 | COLLISION | x-002_y-003",
+      "grid": [
+        -2,
+        -3
+      ],
+      "nominal_bounds_xy_m": [
+        -256,
+        -384,
+        -128,
+        -256
+      ],
+      "vertices": 1174,
+      "polygons": 2163
+    },
+    {
+      "name": "R30A6 | COLLISION | x-002_y-002",
+      "grid": [
+        -2,
+        -2
+      ],
+      "nominal_bounds_xy_m": [
+        -256,
+        -256,
+        -128,
+        -128
+      ],
+      "vertices": 6121,
+      "polygons": 12000
+    },
+    {
+      "name": "R30A6 | COLLISION | x-002_y-001",
+      "grid": [
+        -2,
+        -1
+      ],
+      "nominal_bounds_xy_m": [
+        -256,
+        -128,
+        -128,
+        0
+      ],
+      "vertices": 1178,
+      "polygons": 2266
+    },
+    {
+      "name": "R30A6 | COLLISION | x-002_y+000",
+      "grid": [
+        -2,
+        0
+      ],
+      "nominal_bounds_xy_m": [
+        -256,
+        0,
+        -128,
+        128
+      ],
+      "vertices": 15,
+      "polygons": 13
+    },
+    {
+      "name": "R30A6 | COLLISION | x-002_y+001",
+      "grid": [
+        -2,
+        1
+      ],
+      "nominal_bounds_xy_m": [
+        -256,
+        128,
+        -128,
+        256
+      ],
+      "vertices": 15,
+      "polygons": 13
+    },
+    {
+      "name": "R30A6 | COLLISION | x-002_y+002",
+      "grid": [
+        -2,
+        2
+      ],
+      "nominal_bounds_xy_m": [
+        -256,
+        256,
+        -128,
+        384
+      ],
+      "vertices": 12,
+      "polygons": 10
+    },
+    {
+      "name": "R30A6 | COLLISION | x-002_y+003",
+      "grid": [
+        -2,
+        3
+      ],
+      "nominal_bounds_xy_m": [
+        -256,
+        384,
+        -128,
+        512
+      ],
+      "vertices": 14,
+      "polygons": 12
+    },
+    {
+      "name": "R30A6 | COLLISION | x-002_y+004",
+      "grid": [
+        -2,
+        4
+      ],
+      "nominal_bounds_xy_m": [
+        -256,
+        512,
+        -128,
+        640
+      ],
+      "vertices": 37,
+      "polygons": 40
+    },
+    {
+      "name": "R30A6 | COLLISION | x-001_y-003",
+      "grid": [
+        -1,
+        -3
+      ],
+      "nominal_bounds_xy_m": [
+        -128,
+        -384,
+        0,
+        -256
+      ],
+      "vertices": 523,
+      "polygons": 935
+    },
+    {
+      "name": "R30A6 | COLLISION | x-001_y-002",
+      "grid": [
+        -1,
+        -2
+      ],
+      "nominal_bounds_xy_m": [
+        -128,
+        -256,
+        0,
+        -128
+      ],
+      "vertices": 942,
+      "polygons": 1728
+    },
+    {
+      "name": "R30A6 | COLLISION | x-001_y-001",
+      "grid": [
+        -1,
+        -1
+      ],
+      "nominal_bounds_xy_m": [
+        -128,
+        -128,
+        0,
+        0
+      ],
+      "vertices": 3052,
+      "polygons": 5928
+    },
+    {
+      "name": "R30A6 | COLLISION | x-001_y+000",
+      "grid": [
+        -1,
+        0
+      ],
+      "nominal_bounds_xy_m": [
+        -128,
+        0,
+        0,
+        128
+      ],
+      "vertices": 977,
+      "polygons": 1778
+    },
+    {
+      "name": "R30A6 | COLLISION | x-001_y+001",
+      "grid": [
+        -1,
+        1
+      ],
+      "nominal_bounds_xy_m": [
+        -128,
+        128,
+        0,
+        256
+      ],
+      "vertices": 3,
+      "polygons": 1
+    },
+    {
+      "name": "R30A6 | COLLISION | x-001_y+003",
+      "grid": [
+        -1,
+        3
+      ],
+      "nominal_bounds_xy_m": [
+        -128,
+        384,
+        0,
+        512
+      ],
+      "vertices": 3,
+      "polygons": 1
+    },
+    {
+      "name": "R30A6 | COLLISION | x-001_y+004",
+      "grid": [
+        -1,
+        4
+      ],
+      "nominal_bounds_xy_m": [
+        -128,
+        512,
+        0,
+        640
+      ],
+      "vertices": 53,
+      "polygons": 51
+    },
+    {
+      "name": "R30A6 | COLLISION | x+000_y-003",
+      "grid": [
+        0,
+        -3
+      ],
+      "nominal_bounds_xy_m": [
+        0,
+        -384,
+        128,
+        -256
+      ],
+      "vertices": 488,
+      "polygons": 857
+    },
+    {
+      "name": "R30A6 | COLLISION | x+000_y-002",
+      "grid": [
+        0,
+        -2
+      ],
+      "nominal_bounds_xy_m": [
+        0,
+        -256,
+        128,
+        -128
+      ],
+      "vertices": 486,
+      "polygons": 865
+    },
+    {
+      "name": "R30A6 | COLLISION | x+000_y-001",
+      "grid": [
+        0,
+        -1
+      ],
+      "nominal_bounds_xy_m": [
+        0,
+        -128,
+        128,
+        0
+      ],
+      "vertices": 1425,
+      "polygons": 2752
+    },
+    {
+      "name": "R30A6 | COLLISION | x+000_y+000",
+      "grid": [
+        0,
+        0
+      ],
+      "nominal_bounds_xy_m": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "vertices": 6079,
+      "polygons": 11949
+    },
+    {
+      "name": "R30A6 | COLLISION | x+000_y+001",
+      "grid": [
+        0,
+        1
+      ],
+      "nominal_bounds_xy_m": [
+        0,
+        128,
+        128,
+        256
+      ],
+      "vertices": 1378,
+      "polygons": 2647
+    },
+    {
+      "name": "R30A6 | COLLISION | x+000_y+002",
+      "grid": [
+        0,
+        2
+      ],
+      "nominal_bounds_xy_m": [
+        0,
+        256,
+        128,
+        384
+      ],
+      "vertices": 8,
+      "polygons": 6
+    },
+    {
+      "name": "R30A6 | COLLISION | x+000_y+003",
+      "grid": [
+        0,
+        3
+      ],
+      "nominal_bounds_xy_m": [
+        0,
+        384,
+        128,
+        512
+      ],
+      "vertices": 3,
+      "polygons": 1
+    },
+    {
+      "name": "R30A6 | COLLISION | x+000_y+004",
+      "grid": [
+        0,
+        4
+      ],
+      "nominal_bounds_xy_m": [
+        0,
+        512,
+        128,
+        640
+      ],
+      "vertices": 145,
+      "polygons": 224
+    },
+    {
+      "name": "R30A6 | COLLISION | x+001_y-003",
+      "grid": [
+        1,
+        -3
+      ],
+      "nominal_bounds_xy_m": [
+        128,
+        -384,
+        256,
+        -256
+      ],
+      "vertices": 339,
+      "polygons": 572
+    },
+    {
+      "name": "R30A6 | COLLISION | x+001_y-002",
+      "grid": [
+        1,
+        -2
+      ],
+      "nominal_bounds_xy_m": [
+        128,
+        -256,
+        256,
+        -128
+      ],
+      "vertices": 2097,
+      "polygons": 4032
+    },
+    {
+      "name": "R30A6 | COLLISION | x+001_y-001",
+      "grid": [
+        1,
+        -1
+      ],
+      "nominal_bounds_xy_m": [
+        128,
+        -128,
+        256,
+        0
+      ],
+      "vertices": 412,
+      "polygons": 715
+    },
+    {
+      "name": "R30A6 | COLLISION | x+001_y+000",
+      "grid": [
+        1,
+        0
+      ],
+      "nominal_bounds_xy_m": [
+        128,
+        0,
+        256,
+        128
+      ],
+      "vertices": 427,
+      "polygons": 727
+    },
+    {
+      "name": "R30A6 | COLLISION | x+001_y+001",
+      "grid": [
+        1,
+        1
+      ],
+      "nominal_bounds_xy_m": [
+        128,
+        128,
+        256,
+        256
+      ],
+      "vertices": 2360,
+      "polygons": 4534
+    },
+    {
+      "name": "R30A6 | COLLISION | x+001_y+002",
+      "grid": [
+        1,
+        2
+      ],
+      "nominal_bounds_xy_m": [
+        128,
+        256,
+        256,
+        384
+      ],
+      "vertices": 676,
+      "polygons": 1263
+    },
+    {
+      "name": "R30A6 | COLLISION | x+001_y+003",
+      "grid": [
+        1,
+        3
+      ],
+      "nominal_bounds_xy_m": [
+        128,
+        384,
+        256,
+        512
+      ],
+      "vertices": 3,
+      "polygons": 1
+    },
+    {
+      "name": "R30A6 | COLLISION | x+001_y+004",
+      "grid": [
+        1,
+        4
+      ],
+      "nominal_bounds_xy_m": [
+        128,
+        512,
+        256,
+        640
+      ],
+      "vertices": 75,
+      "polygons": 109
+    },
+    {
+      "name": "R30A6 | COLLISION | x+002_y-003",
+      "grid": [
+        2,
+        -3
+      ],
+      "nominal_bounds_xy_m": [
+        256,
+        -384,
+        384,
+        -256
+      ],
+      "vertices": 369,
+      "polygons": 643
+    },
+    {
+      "name": "R30A6 | COLLISION | x+002_y-002",
+      "grid": [
+        2,
+        -2
+      ],
+      "nominal_bounds_xy_m": [
+        256,
+        -256,
+        384,
+        -128
+      ],
+      "vertices": 2378,
+      "polygons": 4586
+    },
+    {
+      "name": "R30A6 | COLLISION | x+002_y-001",
+      "grid": [
+        2,
+        -1
+      ],
+      "nominal_bounds_xy_m": [
+        256,
+        -128,
+        384,
+        0
+      ],
+      "vertices": 1786,
+      "polygons": 3364
+    },
+    {
+      "name": "R30A6 | COLLISION | x+002_y+000",
+      "grid": [
+        2,
+        0
+      ],
+      "nominal_bounds_xy_m": [
+        256,
+        0,
+        384,
+        128
+      ],
+      "vertices": 1251,
+      "polygons": 2320
+    },
+    {
+      "name": "R30A6 | COLLISION | x+002_y+001",
+      "grid": [
+        2,
+        1
+      ],
+      "nominal_bounds_xy_m": [
+        256,
+        128,
+        384,
+        256
+      ],
+      "vertices": 1664,
+      "polygons": 3151
+    },
+    {
+      "name": "R30A6 | COLLISION | x+002_y+002",
+      "grid": [
+        2,
+        2
+      ],
+      "nominal_bounds_xy_m": [
+        256,
+        256,
+        384,
+        384
+      ],
+      "vertices": 3259,
+      "polygons": 6315
+    },
+    {
+      "name": "R30A6 | COLLISION | x+002_y+003",
+      "grid": [
+        2,
+        3
+      ],
+      "nominal_bounds_xy_m": [
+        256,
+        384,
+        384,
+        512
+      ],
+      "vertices": 1605,
+      "polygons": 3060
+    },
+    {
+      "name": "R30A6 | COLLISION | x+002_y+004",
+      "grid": [
+        2,
+        4
+      ],
+      "nominal_bounds_xy_m": [
+        256,
+        512,
+        384,
+        640
+      ],
+      "vertices": 202,
+      "polygons": 293
+    },
+    {
+      "name": "R30A6 | COLLISION | x+003_y-003",
+      "grid": [
+        3,
+        -3
+      ],
+      "nominal_bounds_xy_m": [
+        384,
+        -384,
+        512,
+        -256
+      ],
+      "vertices": 474,
+      "polygons": 813
+    },
+    {
+      "name": "R30A6 | COLLISION | x+003_y-002",
+      "grid": [
+        3,
+        -2
+      ],
+      "nominal_bounds_xy_m": [
+        384,
+        -256,
+        512,
+        -128
+      ],
+      "vertices": 2489,
+      "polygons": 4770
+    },
+    {
+      "name": "R30A6 | COLLISION | x+003_y-001",
+      "grid": [
+        3,
+        -1
+      ],
+      "nominal_bounds_xy_m": [
+        384,
+        -128,
+        512,
+        0
+      ],
+      "vertices": 1830,
+      "polygons": 3414
+    },
+    {
+      "name": "R30A6 | COLLISION | x+003_y+000",
+      "grid": [
+        3,
+        0
+      ],
+      "nominal_bounds_xy_m": [
+        384,
+        0,
+        512,
+        128
+      ],
+      "vertices": 4040,
+      "polygons": 7814
+    },
+    {
+      "name": "R30A6 | COLLISION | x+003_y+001",
+      "grid": [
+        3,
+        1
+      ],
+      "nominal_bounds_xy_m": [
+        384,
+        128,
+        512,
+        256
+      ],
+      "vertices": 3345,
+      "polygons": 6475
+    },
+    {
+      "name": "R30A6 | COLLISION | x+003_y+002",
+      "grid": [
+        3,
+        2
+      ],
+      "nominal_bounds_xy_m": [
+        384,
+        256,
+        512,
+        384
+      ],
+      "vertices": 2351,
+      "polygons": 4485
+    },
+    {
+      "name": "R30A6 | COLLISION | x+003_y+003",
+      "grid": [
+        3,
+        3
+      ],
+      "nominal_bounds_xy_m": [
+        384,
+        384,
+        512,
+        512
+      ],
+      "vertices": 3598,
+      "polygons": 6920
+    },
+    {
+      "name": "R30A6 | COLLISION | x+003_y+004",
+      "grid": [
+        3,
+        4
+      ],
+      "nominal_bounds_xy_m": [
+        384,
+        512,
+        512,
+        640
+      ],
+      "vertices": 2426,
+      "polygons": 4640
+    },
+    {
+      "name": "R30A6 | COLLISION | x+004_y-003",
+      "grid": [
+        4,
+        -3
+      ],
+      "nominal_bounds_xy_m": [
+        512,
+        -384,
+        640,
+        -256
+      ],
+      "vertices": 114,
+      "polygons": 193
+    },
+    {
+      "name": "R30A6 | COLLISION | x+004_y-002",
+      "grid": [
+        4,
+        -2
+      ],
+      "nominal_bounds_xy_m": [
+        512,
+        -256,
+        640,
+        -128
+      ],
+      "vertices": 520,
+      "polygons": 917
+    },
+    {
+      "name": "R30A6 | COLLISION | x+004_y-001",
+      "grid": [
+        4,
+        -1
+      ],
+      "nominal_bounds_xy_m": [
+        512,
+        -128,
+        640,
+        0
+      ],
+      "vertices": 729,
+      "polygons": 1324
+    },
+    {
+      "name": "R30A6 | COLLISION | x+004_y+000",
+      "grid": [
+        4,
+        0
+      ],
+      "nominal_bounds_xy_m": [
+        512,
+        0,
+        640,
+        128
+      ],
+      "vertices": 707,
+      "polygons": 1289
+    },
+    {
+      "name": "R30A6 | COLLISION | x+004_y+001",
+      "grid": [
+        4,
+        1
+      ],
+      "nominal_bounds_xy_m": [
+        512,
+        128,
+        640,
+        256
+      ],
+      "vertices": 524,
+      "polygons": 933
+    },
+    {
+      "name": "R30A6 | COLLISION | x+004_y+002",
+      "grid": [
+        4,
+        2
+      ],
+      "nominal_bounds_xy_m": [
+        512,
+        256,
+        640,
+        384
+      ],
+      "vertices": 553,
+      "polygons": 991
+    },
+    {
+      "name": "R30A6 | COLLISION | x+004_y+003",
+      "grid": [
+        4,
+        3
+      ],
+      "nominal_bounds_xy_m": [
+        512,
+        384,
+        640,
+        512
+      ],
+      "vertices": 978,
+      "polygons": 1803
+    },
+    {
+      "name": "R30A6 | COLLISION | x+004_y+004",
+      "grid": [
+        4,
+        4
+      ],
+      "nominal_bounds_xy_m": [
+        512,
+        512,
+        640,
+        640
+      ],
+      "vertices": 522,
+      "polygons": 933
+    }
+  ],
+  "before": {
+    "objects": 4678,
+    "meshes": 4138,
+    "vertices": 905735,
+    "polygons": 1369880
+  },
+  "after": {
+    "objects": 4741,
+    "meshes": 4201,
+    "vertices": 974881,
+    "polygons": 1500977
+  },
+  "engine_binding": "unbound_engine_agnostic",
+  "warnings": [
+    "Chunk size is a production candidate and remains tunable after engine profiling.",
+    "Chunks partition polygons by world-space centroid; boundary polygons belong to exactly one chunk.",
+    "Road graph, navmesh and NPC navigation remain separate follow-up tasks."
+  ],
+  "output_blend": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\blender\\salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a6_collision_chunks.blend",
+  "output_sha256": "482A9F4F8E1FCDBA0A912922AC130EC0810D604F67B8FEC0FB7B5603B445CC3E"
+}

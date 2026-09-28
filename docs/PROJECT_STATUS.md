@@ -22,11 +22,11 @@ Branch de produção: `main`.
 
 Arquivo versionado via Git LFS:
 
-`blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a5_runtime_proxies.blend`
+`blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a6_collision_chunks.blend`
 
 SHA-256 conhecido:
 
-`C0E1566101E6A1F07F98188A3CB9B9021CB7D4F27A2ACF1CFA0D41E46544083F`
+`482A9F4F8E1FCDBA0A912922AC130EC0810D604F67B8FEC0FB7B5603B445CC3E`
 
 Commit que introduziu a cena no Git LFS e concluiu a R30A.1 diagnóstica:
 
@@ -37,6 +37,18 @@ A R30A.2 confirmou o mesmo SHA antes/depois; nenhuma geometria foi salva.
 A cena não deve ser substituída/destruída silenciosamente. Novas revisões devem preservar a origem e ser justificadas por mudança real de cena.
 
 ## Fase atual
+
+### R30A.6 ? collision chunks para runtime
+
+O collider otimizado da R30A.5 foi dividido ao vivo, na ?nica janela vis?vel do Blender, em `63` chunks de `128 m`. A parti??o preserva exatamente os `131.097` pol?gonos do proxy, com raz?o de duplica??o de v?rtices `1,0468577`.
+
+Foram comparadas grades de 64/128/256 m. A grade de 128 m foi a primeira a cumprir simultaneamente os limites de quantidade de chunks, m?ximo de pol?gonos e P95 por chunk.
+
+Cena oficial: `blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a6_collision_chunks.blend`. Relat?rio: `docs/reports/blender/r30a6/R30A6_REPORT.md`.
+
+A sess?o de produ??o usa uma ?nica inst?ncia vis?vel do Blender com OrdaX e BlendMCP 1.4.4 (porta 9877) acoplados ao mesmo processo. Modifica??es de cena em Blender background/segunda janela ficam proibidas como fluxo normal.
+
+Pr?ximo foco: grafo l?gico de vias/cruzamentos e navigation hints do vertical slice.
 
 ### R30A.5 — proxies de runtime e primeira colisão otimizada
 
