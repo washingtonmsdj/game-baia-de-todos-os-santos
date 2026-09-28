@@ -1,0 +1,20 @@
+{
+  "schema": "bay-of-all-saints/r30a8-ocean-scene-v1",
+  "revision": "R30A.8",
+  "status": "visual_candidate",
+  "surface_z_m": 0.35,
+  "surface": "BAÍA DE TODOS-OS-SANTOS | superfície e recorte costeiro",
+  "volume": "BAÍA | volume de água no limite do recorte",
+  "foam": [
+    "R30A8 | FOAM | linha costeira",
+    "R30A8 | FOAM | halo costeiro"
+  ],
+  "water_material": "R30A8 | Água oceânica",
+  "volume_material": "R30A8 | Volume oceânico",
+  "gameplay_surface_flat": true,
+  "animation": "4D shader noise driven by frame",
+  "output_blend": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\blender\\salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a8_ocean.blend",
+  "output_sha256": "2009795BADF24CA3CD913B740419ACFF874FF8EA0FA2D035349A0C06D9776BB9",
+  "shoreline_source": "water_surface_boundary",
+  "runtime_contract": "water_runtime_contract.json"
+}

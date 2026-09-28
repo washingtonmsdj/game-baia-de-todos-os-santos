@@ -1,0 +1,380 @@
+{
+  "engine": "BLENDER_WORKBENCH",
+  "file": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\blender\\salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a7_road_graph.blend",
+  "dirty": false,
+  "collections": {
+    "24 ORLA | Baía de Todos-os-Santos e cais OSM": [
+      {
+        "name": "BAÍA DE TODOS-OS-SANTOS | superfície e recorte costeiro",
+        "type": "MESH",
+        "bounds": [
+          -1350.0,
+          29.83144760131836,
+          -850.0,
+          600.1769409179688,
+          0.3499999940395355,
+          0.3499999940395355
+        ],
+        "modifiers": [],
+        "materials": [
+          "BAÍA | água azul petróleo"
+        ]
+      },
+      {
+        "name": "BAÍA | volume de água no limite do recorte",
+        "type": "MESH",
+        "bounds": [
+          -1350.0,
+          29.83144760131836,
+          -850.0,
+          600.1769409179688,
+          -16.0,
+          0.3499999940395355
+        ],
+        "modifiers": [],
+        "materials": [
+          "BAÍA | água azul petróleo"
+        ]
+      },
+      {
+        "name": "CAIS | contenção costeira alinhada à linha de costa",
+        "type": "MESH",
+        "bounds": [
+          -388.4596862792969,
+          -134.17642211914062,
+          -94.84332275390625,
+          333.35546875,
+          0.38999998569488525,
+          10.820022583007812
+        ],
+        "modifiers": [],
+        "materials": [
+          "CAIS | pedra costeira"
+        ]
+      },
+      {
+        "name": "ORLA | vista aérea Mercado, praça e Baía",
+        "type": "CAMERA",
+        "bounds": null,
+        "modifiers": [],
+        "materials": []
+      }
+    ],
+    "27 MAR | Forte São Marcelo": [
+      {
+        "name": "FORTE | embasamento marítimo",
+        "type": "MESH",
+        "bounds": [
+          -565.4521484375,
+          -489.7921447753906,
+          462.97320556640625,
+          540.9732055664062,
+          -1.0,
+          1.7999999523162842
+        ],
+        "modifiers": [],
+        "materials": [
+          "FORTE | cantaria"
+        ]
+      },
+      {
+        "name": "FORTE | pátio anular aberto",
+        "type": "MESH",
+        "bounds": [
+          -555.4521484375,
+          -497.4521484375,
+          472.97320556640625,
+          530.9732055664062,
+          1.7999999523162842,
+          2.049999952316284
+        ],
+        "modifiers": [],
+        "materials": [
+          "FORTE | piso pétreo"
+        ]
+      },
+      {
+        "name": "FORTE | quartéis e muralha perimetral",
+        "type": "MESH",
+        "bounds": [
+          -564.4489135742188,
+          -490.7321472167969,
+          463.974853515625,
+          539.969970703125,
+          1.7999999523162842,
+          8.300000190734863
+        ],
+        "modifiers": [],
+        "materials": [
+          "FORTE | alvenaria clara"
+        ]
+      },
+      {
+        "name": "FORTE | verga do acesso",
+        "type": "MESH",
+        "bounds": [
+          -507.7090148925781,
+          -498.2218017578125,
+          473.74285888671875,
+          483.2300720214844,
+          5.300000190734863,
+          8.300000190734863
+        ],
+        "modifiers": [],
+        "materials": [
+          "FORTE | alvenaria clara"
+        ]
+      },
+      {
+        "name": "FORTE | plataforma da bateria",
+        "type": "MESH",
+        "bounds": [
+          -564.6021728515625,
+          -490.5911560058594,
+          463.8232116699219,
+          540.1232299804688,
+          8.300000190734863,
+          8.649999618530273
+        ],
+        "modifiers": [],
+        "materials": [
+          "FORTE | piso pétreo",
+          "R10 | cantaria forte"
+        ]
+      },
+      {
+        "name": "FORTE | parapeito externo",
+        "type": "MESH",
+        "bounds": [
+          -564.6021728515625,
+          -490.5911560058594,
+          463.8232116699219,
+          540.1232299804688,
+          8.649999618530273,
+          9.800000190734863
+        ],
+        "modifiers": [],
+        "materials": [
+          "FORTE | alvenaria clara"
+        ]
+      },
+      {
+        "name": "FORTE | guarda do pátio",
+        "type": "MESH",
+        "bounds": [
+          -554.8021240234375,
+          -498.1021423339844,
+          473.6231994628906,
+          530.3231811523438,
+          8.649999618530273,
+          9.600000381469727
+        ],
+        "modifiers": [],
+        "materials": [
+          "FORTE | alvenaria clara"
+        ]
+      },
+      {
+        "name": "FORTE | torreão central",
+        "type": "MESH",
+        "bounds": [
+          -544.4480590820312,
+          -508.4544372558594,
+          483.9754943847656,
+          519.9691162109375,
+          2.049999952316284,
+          8.699999809265137
+        ],
+        "modifiers": [],
+        "materials": [
+          "FORTE | alvenaria clara"
+        ]
+      },
+      {
+        "name": "FORTE | verga torreão",
+        "type": "MESH",
+        "bounds": [
+          -516.2686767578125,
+          -512.6896362304688,
+          488.2106628417969,
+          491.7897644042969,
+          5.050000190734863,
+          8.699999809265137
+        ],
+        "modifiers": [],
+        "materials": [
+          "FORTE | alvenaria clara"
+        ]
+      },
+      {
+        "name": "FORTE | cobertura torreão",
+        "type": "MESH",
+        "bounds": [
+          -544.6021728515625,
+          -508.3021545410156,
+          483.8232116699219,
+          520.1232299804688,
+          8.699999809265137,
+          9.0
+        ],
+        "modifiers": [],
+        "materials": [
+          "FORTE | piso pétreo"
+        ]
+      },
+      {
+        "name": "FORTE | parapeito torreão",
+        "type": "MESH",
+        "bounds": [
+          -544.6021728515625,
+          -508.3021545410156,
+          483.8232116699219,
+          520.1232299804688,
+          9.0,
+          10.0
+        ],
+        "modifiers": [],
+        "materials": [
+          "FORTE | alvenaria clara"
+        ]
+      },
+      {
+        "name": "FORTE | desembarque aproximado",
+        "type": "MESH",
+        "bounds": [
+          -501.7033996582031,
+          -484.0257568359375,
+          459.54681396484375,
+          477.2244567871094,
+          1.350000023841858,
+          1.7999999523162842
+        ],
+        "modifiers": [],
+        "materials": [
+          "FORTE | cantaria"
+        ]
+      },
+      {
+        "name": "CAIS | rampa curta até plataforma flutuante",
+        "type": "MESH",
+        "bounds": [
+          -486.85418701171875,
+          -478.368896484375,
+          453.88995361328125,
+          462.375244140625,
+          0.3499999940395355,
+          1.7999999523162842
+        ],
+        "modifiers": [],
+        "materials": [
+          "FORTE | cantaria"
+        ]
+      },
+      {
+        "name": "CAIS | plataforma flutuante de embarque aproximada",
+        "type": "MESH",
+        "bounds": [
+          -481.9044189453125,
+          -472.00494384765625,
+          447.5260009765625,
+          457.42547607421875,
+          -0.05000000074505806,
+          0.6499999761581421
+        ],
+        "modifiers": [],
+        "materials": [
+          "CAIS | plataforma flutuante"
+        ]
+      },
+      {
+        "name": "FORTE | aérea detalhe",
+        "type": "CAMERA",
+        "bounds": null,
+        "modifiers": [],
+        "materials": []
+      },
+      {
+        "name": "FORTE | nível do desembarque",
+        "type": "CAMERA",
+        "bounds": null,
+        "modifiers": [],
+        "materials": []
+      },
+      {
+        "name": "FORTE | integração com Salvador",
+        "type": "CAMERA",
+        "bounds": null,
+        "modifiers": [],
+        "materials": []
+      }
+    ],
+    "32.7 GAMEPLAY | WATER": [
+      {
+        "name": "BAÍA DE TODOS-OS-SANTOS | superfície e recorte costeiro",
+        "type": "MESH",
+        "bounds": [
+          -1350.0,
+          29.83144760131836,
+          -850.0,
+          600.1769409179688,
+          0.3499999940395355,
+          0.3499999940395355
+        ],
+        "modifiers": [],
+        "materials": [
+          "BAÍA | água azul petróleo"
+        ]
+      },
+      {
+        "name": "BAÍA | volume de água no limite do recorte",
+        "type": "MESH",
+        "bounds": [
+          -1350.0,
+          29.83144760131836,
+          -850.0,
+          600.1769409179688,
+          -16.0,
+          0.3499999940395355
+        ],
+        "modifiers": [],
+        "materials": [
+          "BAÍA | água azul petróleo"
+        ]
+      }
+    ],
+    "33.6 RUNTIME | WATER": [
+      {
+        "name": "BAÍA DE TODOS-OS-SANTOS | superfície e recorte costeiro",
+        "type": "MESH",
+        "bounds": [
+          -1350.0,
+          29.83144760131836,
+          -850.0,
+          600.1769409179688,
+          0.3499999940395355,
+          0.3499999940395355
+        ],
+        "modifiers": [],
+        "materials": [
+          "BAÍA | água azul petróleo"
+        ]
+      },
+      {
+        "name": "BAÍA | volume de água no limite do recorte",
+        "type": "MESH",
+        "bounds": [
+          -1350.0,
+          29.83144760131836,
+          -850.0,
+          600.1769409179688,
+          -16.0,
+          0.3499999940395355
+        ],
+        "modifiers": [],
+        "materials": [
+          "BAÍA | água azul petróleo"
+        ]
+      }
+    ]
+  }
+}

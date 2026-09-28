@@ -22,11 +22,11 @@ Branch de produção: `main`.
 
 Arquivo versionado via Git LFS:
 
-`blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a7_road_graph.blend`
+`blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a8_ocean.blend`
 
 SHA-256 conhecido:
 
-`7BA803E66A548EFEFEBDE615B97808B9DB64CD710C8FBA08A89E6251E6F719BF`
+`2009795BADF24CA3CD913B740419ACFF874FF8EA0FA2D035349A0C06D9776BB9`
 
 Commit que introduziu a cena no Git LFS e concluiu a R30A.1 diagnóstica:
 
@@ -37,6 +37,18 @@ A R30A.2 confirmou o mesmo SHA antes/depois; nenhuma geometria foi salva.
 A cena não deve ser substituída/destruída silenciosamente. Novas revisões devem preservar a origem e ser justificadas por mudança real de cena.
 
 ## Fase atual
+
+### R30A.8 ? oceano visual e ?gua de gameplay
+
+A ?gua da Ba?a de Todos-os-Santos foi separada em autoria visual, superf?cie de refer?ncia e volume de gameplay. O n?vel f?sico permanece determin?stico em `0,35 m`; o volume atual permite nado/mergulho at? `-16 m` no recorte existente.
+
+A camada visual usa material PBR animado e espuma derivada da borda real da malha de ?gua. Uma tentativa baseada em `REF_WATERFRONT` foi rejeitada visualmente por desalinhamento e n?o foi mantida como fonte final.
+
+O runtime permanece engine-agnostic: ondas, consulta de superf?cie, nata??o, mergulho, buoyancy, correntes, c?mera submersa, c?usticas e p?s-processamento devem ser implementados no motor, n?o como f?sica Blender.
+
+Cena oficial: `blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a8_ocean.blend`. Relat?rio: `docs/reports/blender/r30a8/R30A8_REPORT.md`. Contrato: `docs/reports/blender/r30a8/water_runtime_contract.json`.
+
+Pr?ximo foco: refer?ncia de ondas de larga escala, zonas de corrente/profundidade e vertical slice runtime de nata??o/mergulho quando a engine for selecionada.
 
 ### R30A.7 — grafo lógico de vias e cruzamentos
 
