@@ -65,6 +65,12 @@ Após a execução, o Codex deve verificar:
 
 Em revisões com alterações visuais ou espaciais, o Codex também deve abrir a cena e inspecionar a área afetada antes de considerar a revisão concluída.
 
+## Rotas de automação
+
+1. Preferir OrdaX/Blender Live para edição direta, checkpoints, inspeção e save controlado.
+2. Se OrdaX/Desktop Commander não estiver disponível, usar `docs/BLENDMCP_FALLBACK.md`.
+3. A porta fallback isolada do projeto é 9877; não encerrar automaticamente uma sessão 9876 que esteja com alterações não salvas.
+
 ## Gate especial da R29
 
 A R29 possui dois modos e **não deve ser aplicada diretamente sem auditoria**.
@@ -91,16 +97,13 @@ Qualquer mesh com shape key, animation data, custom properties ou atributo não 
 
 ## Política para arquivos binários
 
-Arquivos `.blend` ficam ignorados por padrão.
+As cenas oficiais sob `blender/*.blend` são versionadas via Git LFS.
 
-Motivos:
-
-- a cena pode se tornar muito grande;
-- Git comum é ineficiente para sucessivas versões de binários grandes;
-- arquivos Blender binários não permitem revisão de código útil em texto;
-- scripts reproduzíveis são mais valiosos para o handoff entre agentes.
-
-Se no futuro o projeto decidir versionar `.blend`, o Git LFS deve ser configurado de forma intencional e a documentação/`.gitignore` atualizada.
+- preservar a revisão anterior;
+- salvar uma nova revisão somente quando houver mudança real de cena;
+- manter scripts e relatórios textuais como trilha auditável;
+- nunca substituir silenciosamente uma base validada;
+- validar reabertura e SHA-256 quando a cena oficial mudar.
 
 ## Política de idioma
 

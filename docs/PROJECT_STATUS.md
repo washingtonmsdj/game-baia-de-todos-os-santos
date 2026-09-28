@@ -22,11 +22,11 @@ Branch de produção: `main`.
 
 Arquivo versionado via Git LFS:
 
-`blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a_structure_ref.blend`
+`blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a4_semantic_layers.blend`
 
 SHA-256 conhecido:
 
-`ACF5F5BBA00DED0FC912116DB02DE7FCA26C43BB8DBF67A10AC5CB8A3C319A30`
+`BE65675CD2F0B00A4048103B373D0A497F00CD8C9603F92525D5529C2E4C6713`
 
 Commit que introduziu a cena no Git LFS e concluiu a R30A.1 diagnóstica:
 
@@ -37,6 +37,16 @@ A R30A.2 confirmou o mesmo SHA antes/depois; nenhuma geometria foi salva.
 A cena não deve ser substituída/destruída silenciosamente. Novas revisões devem preservar a origem e ser justificadas por mudança real de cena.
 
 ## Fase atual
+
+### R30A.4 — camadas semânticas de gameplay aplicadas
+
+A primeira separação funcional foi aplicada diretamente no Blender por coleções e metadados não destrutivos. A geometria permaneceu invariável: 4.677 objetos, 4.137 meshes, 839.684 vértices, 2.044.767 arestas e 1.238.783 polígonos.
+
+Camadas criadas: terreno, fonte de colisão, pistas dirigíveis, superfícies caminháveis, travessias, guias/meio-fio, água, referência geográfica e proxies legados. O terreno principal continua marcado como composto `GAMEPLAY_TERRAIN + COLLISION_SOURCE`; nenhum split destrutivo foi feito.
+
+Cena oficial: `blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a4_semantic_layers.blend`. Relatório: `docs/reports/blender/r30a4/R30A4_REPORT.md`.
+
+Fallback Blender MCP validado em `docs/BLENDMCP_FALLBACK.md`: BlendMCP 1.4.4 na porta 9877, isolado da sessão histórica da porta 9876.
 
 ### R30A.3 — auditoria semântica direta via OrdaX concluída
 

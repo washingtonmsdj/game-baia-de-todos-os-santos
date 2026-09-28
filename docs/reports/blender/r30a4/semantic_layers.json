@@ -1,0 +1,132 @@
+{
+  "schema": "bay-of-all-saints/r30a4-semantic-layers-v1",
+  "revision": "R30A.4",
+  "blend_file": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\blender\\salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a_structure_ref.blend",
+  "scene": "SALVADOR | ESBOCO OFICIAL",
+  "before": {
+    "objects": 4677,
+    "meshes": 4137,
+    "geometry": {
+      "mesh_objects": 4137,
+      "vertices": 839684,
+      "edges": 2044767,
+      "polygons": 1238783
+    },
+    "selected": [
+      "MVP | terreno corrigido | colisão estática"
+    ],
+    "active": "MVP | terreno corrigido | colisão estática"
+  },
+  "after": {
+    "objects": 4677,
+    "meshes": 4137,
+    "geometry": {
+      "mesh_objects": 4137,
+      "vertices": 839684,
+      "edges": 2044767,
+      "polygons": 1238783
+    },
+    "selected": [
+      "MVP | terreno corrigido | colisão estática"
+    ],
+    "active": "MVP | terreno corrigido | colisão estática"
+  },
+  "geometry_unchanged": true,
+  "object_count_unchanged": true,
+  "mesh_datablock_count_unchanged": true,
+  "semantic_root": "32 GAMEPLAY | SEMANTIC LAYERS R30A4",
+  "layers": {
+    "terrain": {
+      "collection": "32.1 GAMEPLAY | TERRAIN",
+      "count": 1,
+      "objects": [
+        "MVP | terreno corrigido | colisão estática"
+      ]
+    },
+    "collision": {
+      "collection": "32.2 GAMEPLAY | COLLISION SOURCE",
+      "count": 1,
+      "objects": [
+        "MVP | terreno corrigido | colisão estática"
+      ]
+    },
+    "road": {
+      "collection": "32.3 GAMEPLAY | ROAD DRIVEABLE",
+      "count": 2,
+      "objects": [
+        "MVP | Ladeira da Montanha | pista OSM",
+        "OSM | pistas do centro"
+      ]
+    },
+    "walkable": {
+      "collection": "32.4 GAMEPLAY | WALKABLE",
+      "count": 8,
+      "objects": [
+        "INFERIOR R21 | passeio da entrada",
+        "INFERIOR R21 | rebaixo acessível",
+        "MVP | Ladeira | calçada direita",
+        "MVP | Ladeira | calçada esquerda",
+        "MVP | praça ao acesso alto | caminho OSM 1429934820",
+        "MVP | saída baixa | caminho OSM 312006925",
+        "OSM | calçadas indicativas",
+        "OSM | caminhos e escadarias"
+      ]
+    },
+    "crossing": {
+      "collection": "32.5 GAMEPLAY | PEDESTRIAN CROSSINGS",
+      "count": 5,
+      "objects": [
+        "VIAS | travessia OSM 3178050253",
+        "VIAS | travessia OSM 5917201014",
+        "VIAS | travessia OSM 592378620",
+        "VIAS | travessia OSM 9264983513",
+        "VIAS | travessia OSM 9264983514"
+      ]
+    },
+    "curb": {
+      "collection": "32.6 GAMEPLAY | CURB BOUNDARIES",
+      "count": 1,
+      "objects": [
+        "VIAS | guias contínuas com aberturas nas travessias"
+      ]
+    },
+    "water": {
+      "collection": "32.7 GAMEPLAY | WATER",
+      "count": 2,
+      "objects": [
+        "BAÍA DE TODOS-OS-SANTOS | superfície e recorte costeiro",
+        "BAÍA | volume de água no limite do recorte"
+      ]
+    },
+    "georef": {
+      "collection": "32.8 REFERENCE | GEOREF",
+      "count": 9,
+      "objects": [
+        "REF_BUILDINGS",
+        "REF_CLIFFS",
+        "REF_COASTLINE",
+        "REF_PEDESTRIAN",
+        "REF_RAILWAYS",
+        "REF_RETAINING_WALLS",
+        "REF_ROADS",
+        "REF_STEPS",
+        "REF_WATERFRONT"
+      ]
+    },
+    "legacy": {
+      "collection": "32.9 REFERENCE | LEGACY TERRAIN PROXIES",
+      "count": 3,
+      "objects": [
+        "TERRENO | Alto",
+        "TERRENO | Baixo",
+        "TERRENO | Encosta"
+      ]
+    }
+  },
+  "multi_role_objects": {
+    "MVP | terreno corrigido | colisão estática": [
+      "COLLISION_SOURCE",
+      "GAMEPLAY_TERRAIN"
+    ]
+  }
+}
