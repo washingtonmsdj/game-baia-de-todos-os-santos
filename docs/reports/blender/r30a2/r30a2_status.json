@@ -1,0 +1,98 @@
+{
+  "schema": "bay-of-all-saints/r30a2-status-v1",
+  "revision": "R30A.2",
+  "status": "diagnostic_complete_vertical_domain_split_insufficient",
+  "language": "pt-BR",
+  "base_commit": "cc2de0c3bc311ba861fa9819440cd7e533704844",
+  "capture_id": "aleph-20260924T205631Z-aqqo7pkx",
+  "capture_bounds_source": "data/aleph/aleph-20260924T205631Z-aqqo7pkx/manifest.json",
+  "validation": {
+    "compileall": "passed",
+    "unit_tests": {
+      "command": "python -m unittest discover -s tests -p test_*.py -v",
+      "passed": 46,
+      "failed": 0
+    },
+    "reference_registry_errors": 0,
+    "reference_registry_warnings": 2,
+    "lfs_materialized": true,
+    "blend_file_bytes": 35522938,
+    "blend_file_sha256": "ACF5F5BBA00DED0FC912116DB02DE7FCA26C43BB8DBF67A10AC5CB8A3C319A30"
+  },
+  "scene": {
+    "blend_file": "blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a_structure_ref.blend",
+    "blend_file_sha256": "ACF5F5BBA00DED0FC912116DB02DE7FCA26C43BB8DBF67A10AC5CB8A3C319A30",
+    "blendmcp_connected": true,
+    "blendmcp_inspection_only": true,
+    "geometry_changed": false,
+    "terrain_dem_modified": false,
+    "new_r30a2_blend_saved": false
+  },
+  "vertical_domains": {
+    "input_blender_samples": 4978,
+    "valid_dem_samples": 4978,
+    "invalid_dem_samples": 0,
+    "below_sea_level_samples": 2,
+    "below_sea_level_percent": 0.04017677380474086,
+    "nonnegative_land_candidate_samples": 4976,
+    "nonnegative_land_candidate_percent": 99.95982322619526,
+    "below_sea_level_dem_range_m": [-877.8465576171875, -273.1960144042969],
+    "land_dem_range_m": [0.6231945753097534, 80.82392120361328],
+    "all_valid_quality": "insufficient",
+    "land_quality": "insufficient",
+    "all_valid_fit": {
+      "input": 4978,
+      "kept": 4900,
+      "removed": 78,
+      "scale_z": 1.0253290349651865,
+      "z_offset": -4.631645523884394,
+      "rms": 9.210668307940105,
+      "median_abs_residual": 5.217913353839986,
+      "max_abs_residual": 29.32657401316481,
+      "vertical_horizontal_ratio": 1.056851227358743
+    },
+    "land_fit": {
+      "input": 4976,
+      "kept": 4900,
+      "removed": 76,
+      "scale_z": 1.0253290349651865,
+      "z_offset": -4.631645523884394,
+      "rms": 9.210668307940105,
+      "median_abs_residual": 5.217913353839986,
+      "max_abs_residual": 29.32657401316481,
+      "vertical_horizontal_ratio": 1.056851227358743
+    },
+    "review_cell_count": 157,
+    "review_grid_size_m": 50.0,
+    "review_threshold_median_abs_residual_m": 5.0,
+    "review_min_cell_samples": 8
+  },
+  "controls": {
+    "mercado_modelo_touched": false,
+    "mercado_modelo_footprint_offset_m": 1.8783657769220825,
+    "praça_cairu_touched": false,
+    "geometry_correction_authorized": false
+  },
+  "decision": {
+    "first_local_geometry_correction_proven": false,
+    "conclusion": "dados ainda não são suficientes; aprofundar o problema vertical do terreno/plataformas do MVP e da escarpa",
+    "next_focus": [
+      "referência de elevação terrestre independente",
+      "separação semântica das plataformas fixas e da superfície física",
+      "validação regional da escarpa e do waterfront"
+    ]
+  },
+  "artifacts": {
+    "vertical_domains": "docs/reports/blender/r30a2/vertical_domains.json",
+    "report": "docs/reports/blender/r30a2/R30A2_REPORT.md",
+    "terrain_samples_reused": "docs/reports/blender/r30a1/terrain_samples.json",
+    "georef_fit_reused": "artifacts/structural-pipeline/mvp-centro-lacerda/georef_fit.json"
+  },
+  "blockers": [
+    "Fit vertical completo e terrestre continuam insufficient.",
+    "A amostragem terrestre inclui uma malha explicitamente adaptada para colisão e patamares do MVP, não um levantamento independente.",
+    "A escarpa mistura transições abruptas dentro da grade de 50 m.",
+    "O fit XY continua candidate, não verified.",
+    "Não há referência vertical terrestre independente suficiente para autorizar correção local."
+  ]
+}
