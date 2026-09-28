@@ -1,14 +1,63 @@
 {
-  "schema": "bay-of-all-saints/dem-audit-blocked-v1",
-  "area_id": "mvp-centro-lacerda",
-  "status": "blocked_source_not_found",
-  "dem": "terrain.tif da captura aleph-20260924T205631Z-aqqo7pkx",
-  "audit_executed": false,
-  "metrics": null,
-  "observations": [
-    "terrain.tif correspondente à cena não foi recuperado.",
-    "Nenhum raster alternativo foi auditado para não substituir silenciosamente a fonte histórica.",
-    "CRS, bounds, pixel size, nodata e estatísticas permanecem não verificados."
+  "schema": "bay-of-all-saints/dem-audit-v2",
+  "source": {
+    "path": "data/aleph/aleph-20260924T205631Z-aqqo7pkx/terrain.tif",
+    "filename": "terrain.tif",
+    "size_bytes": 498804,
+    "sha256": "674fe65e08c761f879f1fa02a5560a62c9e836c09e1dfacb2aa805e9def15ca7"
+  },
+  "metadata": {
+    "backend": "rasterio",
+    "driver": "GTiff",
+    "width": 512,
+    "height": 512,
+    "band_count": 1,
+    "dtype": [
+      "float32"
+    ],
+    "crs": "EPSG:3857",
+    "nodata": [
+      -3.4028234663852886e+38
+    ],
+    "bounds": {
+      "left": -4287811.538685247,
+      "bottom": -1457807.0034548808,
+      "right": -4285365.553780122,
+      "top": -1455361.0185497552
+    },
+    "pixel_size": {
+      "x": 4.777314267823516,
+      "y": 4.777314267823516
+    },
+    "transform": [
+      4.777314267823516,
+      0.0,
+      -4287811.538685247,
+      0.0,
+      -4.777314267823516,
+      -1455361.0185497552
+    ],
+    "vertical_statistics": {
+      "valid_pixel_count": 262144,
+      "minimum_m": -1092.8372802734375,
+      "maximum_m": 81.92353820800781,
+      "mean_m": 42.794579604466925,
+      "stddev_m": 24.451882832995754
+    }
+  },
+  "projected_extent": {
+    "width_m_projected": 2445.9849051255733,
+    "height_m_projected": 2445.9849051255733,
+    "area_m2_projected": 5982842.15610216
+  },
+  "statistics_requested": true,
+  "warnings": [
+    "Faixa de elevação incomum para o recorte; revisar nodata, unidade ou artefatos do DEM."
   ],
-  "next_action": "recuperar terrain.tif e executar tools/terrain/audit_dem.py"
+  "notes": [
+    "Nenhuma elevação foi corrigida, suavizada ou reamostrada.",
+    "EPSG:3857 mede o raster em coordenadas projetadas; métricas horizontais servem para QA estrutural e não substituem levantamento local.",
+    "O terrain.tif histórico do Aleph é composto a partir dos Mapzen/Tilezen Terrain Tiles no bucket público elevation-tiles-prod.",
+    "A origem/licença dos dados de elevação subjacentes deve permanecer registrada separadamente da licença do software Aleph."
+  ]
 }

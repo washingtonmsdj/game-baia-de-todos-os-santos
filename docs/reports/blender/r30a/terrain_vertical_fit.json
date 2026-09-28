@@ -1,0 +1,3891 @@
+{
+  "schema": "bay-of-all-saints/dem-blender-vertical-fit-v1",
+  "status": "candidate_only",
+  "quality": "insufficient",
+  "inputs": {
+    "samples": "docs/reports/blender/r30a/terrain_samples.json",
+    "georef_fit": "artifacts/structural-pipeline/mvp-centro-lacerda/georef_fit.json",
+    "dem": "data/aleph/aleph-20260924T205631Z-aqqo7pkx/terrain.tif"
+  },
+  "horizontal_fit_quality": "candidate",
+  "horizontal_scale_blender_units_per_meter": 0.9701734817753527,
+  "vertical_fit": {
+    "scale_z_blender_units_per_dem_meter": 1.0017919166562257,
+    "dem_meters_per_blender_z_unit": 0.9982112885655868,
+    "z_offset_blender_units": -0.0754321734229606,
+    "rms_residual_blender_units": 12.543586599019047,
+    "median_abs_residual_blender_units": 7.835173259586128,
+    "max_abs_residual_blender_units": 44.15922652210717,
+    "robust_cutoff_blender_units": 42.84252288862247,
+    "robust_mad_blender_units": 7.224221450260096,
+    "forced_minimum_subset": false
+  },
+  "scale_ratio_vertical_to_horizontal": 1.0325904959008088,
+  "summary": {
+    "input_blender_samples": 8319,
+    "valid_dem_samples": 8319,
+    "nodata_or_invalid_samples": 0,
+    "kept_samples": 8077,
+    "removed_outliers": 242,
+    "objects_with_samples": 121
+  },
+  "per_object_residuals": [
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "sample_count": 4976,
+      "median_residual_blender_units": -4.57022513942966,
+      "median_abs_residual_blender_units": 6.768502391681853,
+      "max_abs_residual_blender_units": 44.15922652210717
+    },
+    {
+      "object_name": "TERRENO | encaixe na ladeira perfil estimado",
+      "sample_count": 909,
+      "median_residual_blender_units": 1.5064746574087202,
+      "median_abs_residual_blender_units": 10.405384612479807,
+      "max_abs_residual_blender_units": 43.97806035814078
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.009",
+      "sample_count": 4,
+      "median_residual_blender_units": 41.14209013758672,
+      "median_abs_residual_blender_units": 41.14209013758672,
+      "max_abs_residual_blender_units": 41.14209013758672
+    },
+    {
+      "object_name": "Encosta | coroamento.001",
+      "sample_count": 8,
+      "median_residual_blender_units": 37.53433934999221,
+      "median_abs_residual_blender_units": 37.53433934999221,
+      "max_abs_residual_blender_units": 41.05572967705417
+    },
+    {
+      "object_name": "CALIBRADO | terreno Cidade Baixa",
+      "sample_count": 7,
+      "median_residual_blender_units": -19.493477132457834,
+      "median_abs_residual_blender_units": 19.493477132457834,
+      "max_abs_residual_blender_units": 40.79811788492706
+    },
+    {
+      "object_name": "CALIBRADO | terreno Encosta 75 graus",
+      "sample_count": 5,
+      "median_residual_blender_units": -26.948117503457333,
+      "median_abs_residual_blender_units": 26.948117503457333,
+      "max_abs_residual_blender_units": 40.79811788492706
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.008",
+      "sample_count": 4,
+      "median_residual_blender_units": 40.77189251469868,
+      "median_abs_residual_blender_units": 40.77189251469868,
+      "max_abs_residual_blender_units": 40.77189251469868
+    },
+    {
+      "object_name": "CALIBRADO | vão vertical torre.004",
+      "sample_count": 8,
+      "median_residual_blender_units": 38.072421189480984,
+      "median_abs_residual_blender_units": 38.072421189480984,
+      "max_abs_residual_blender_units": 40.572421189480984
+    },
+    {
+      "object_name": "CALIBRADO | vão vertical torre.009",
+      "sample_count": 8,
+      "median_residual_blender_units": 37.96098146901585,
+      "median_abs_residual_blender_units": 37.96098146901585,
+      "max_abs_residual_blender_units": 40.46098146901585
+    },
+    {
+      "object_name": "Encosta | coroamento",
+      "sample_count": 8,
+      "median_residual_blender_units": 36.43175163733933,
+      "median_abs_residual_blender_units": 36.43175163733933,
+      "max_abs_residual_blender_units": 39.880228072335015
+    },
+    {
+      "object_name": "Cidade Alta | base contínua",
+      "sample_count": 6,
+      "median_residual_blender_units": 5.224192363595876,
+      "median_abs_residual_blender_units": 33.69810906087913,
+      "max_abs_residual_blender_units": 39.66672632353526
+    },
+    {
+      "object_name": "Encosta | fechamento lateral",
+      "sample_count": 8,
+      "median_residual_blender_units": -5.1476461757938665,
+      "median_abs_residual_blender_units": 19.535215426105268,
+      "max_abs_residual_blender_units": 39.66672632353526
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.011",
+      "sample_count": 8,
+      "median_residual_blender_units": 37.89442680079273,
+      "median_abs_residual_blender_units": 37.89442680079273,
+      "max_abs_residual_blender_units": 39.59442374903492
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.010",
+      "sample_count": 8,
+      "median_residual_blender_units": 37.75571280012597,
+      "median_abs_residual_blender_units": 37.75571280012597,
+      "max_abs_residual_blender_units": 39.45570974836816
+    },
+    {
+      "object_name": "Encosta | fechamento lateral.001",
+      "sample_count": 8,
+      "median_residual_blender_units": -8.769598550675134,
+      "median_abs_residual_blender_units": 22.035719868162012,
+      "max_abs_residual_blender_units": 38.637052502948656
+    },
+    {
+      "object_name": "MVP | Ladeira | calçada esquerda",
+      "sample_count": 424,
+      "median_residual_blender_units": 7.904892803464698,
+      "median_abs_residual_blender_units": 7.904892803464698,
+      "max_abs_residual_blender_units": 38.13746838718775
+    },
+    {
+      "object_name": "MVP | Ladeira da Montanha | pista OSM",
+      "sample_count": 424,
+      "median_residual_blender_units": 5.594318731977559,
+      "median_abs_residual_blender_units": 7.208100117692561,
+      "max_abs_residual_blender_units": 36.25133823913362
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.013",
+      "sample_count": 8,
+      "median_residual_blender_units": 32.82183487344024,
+      "median_abs_residual_blender_units": 32.82183487344024,
+      "max_abs_residual_blender_units": 34.521831821682426
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.012",
+      "sample_count": 8,
+      "median_residual_blender_units": 32.775987943416574,
+      "median_abs_residual_blender_units": 32.775987943416574,
+      "max_abs_residual_blender_units": 34.47598489165876
+    },
+    {
+      "object_name": "Encosta | faixa 04",
+      "sample_count": 4,
+      "median_residual_blender_units": 31.708328726848297,
+      "median_abs_residual_blender_units": 31.708328726848297,
+      "max_abs_residual_blender_units": 34.21294597117244
+    },
+    {
+      "object_name": "ACESSO ALTO | patamar nivelado",
+      "sample_count": 8,
+      "median_residual_blender_units": 29.50916189803886,
+      "median_abs_residual_blender_units": 29.50916189803886,
+      "max_abs_residual_blender_units": 33.831062601631245
+    },
+    {
+      "object_name": "TERRENO | Baixo",
+      "sample_count": 8,
+      "median_residual_blender_units": -23.97218366593641,
+      "median_abs_residual_blender_units": 23.97218366593641,
+      "max_abs_residual_blender_units": 32.784441766099945
+    },
+    {
+      "object_name": "TERRENO | Encosta",
+      "sample_count": 6,
+      "median_residual_blender_units": -29.79859962977318,
+      "median_abs_residual_blender_units": 29.79859962977318,
+      "max_abs_residual_blender_units": 32.784441766099945
+    },
+    {
+      "object_name": "CALIBRADO | vão vertical torre.003",
+      "sample_count": 8,
+      "median_residual_blender_units": 30.072421189480984,
+      "median_abs_residual_blender_units": 30.072421189480984,
+      "max_abs_residual_blender_units": 32.572421189480984
+    },
+    {
+      "object_name": "CALIBRADO | vão vertical torre.008",
+      "sample_count": 8,
+      "median_residual_blender_units": 29.96098146901585,
+      "median_abs_residual_blender_units": 29.96098146901585,
+      "max_abs_residual_blender_units": 32.46098146901585
+    },
+    {
+      "object_name": "MVP | Ladeira | calçada direita",
+      "sample_count": 424,
+      "median_residual_blender_units": 3.289456825510186,
+      "median_abs_residual_blender_units": 7.092184990977936,
+      "max_abs_residual_blender_units": 31.828566377566418
+    },
+    {
+      "object_name": "TERRENO | Alto",
+      "sample_count": 4,
+      "median_residual_blender_units": -21.895193265816868,
+      "median_abs_residual_blender_units": 21.895193265816868,
+      "max_abs_residual_blender_units": 31.542781055840095
+    },
+    {
+      "object_name": "Encosta | faixa 03",
+      "sample_count": 4,
+      "median_residual_blender_units": 21.721741856659328,
+      "median_abs_residual_blender_units": 21.721741856659328,
+      "max_abs_residual_blender_units": 30.233385303110758
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.014",
+      "sample_count": 8,
+      "median_residual_blender_units": 27.967334006312875,
+      "median_abs_residual_blender_units": 27.967334006312875,
+      "max_abs_residual_blender_units": 29.667330954555062
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.015",
+      "sample_count": 8,
+      "median_residual_blender_units": 27.82862000564611,
+      "median_abs_residual_blender_units": 27.82862000564611,
+      "max_abs_residual_blender_units": 29.528616953888296
+    },
+    {
+      "object_name": "Cidade Baixa | base contínua",
+      "sample_count": 8,
+      "median_residual_blender_units": -11.783246067279265,
+      "median_abs_residual_blender_units": 11.783246067279265,
+      "max_abs_residual_blender_units": 28.306272082141362
+    },
+    {
+      "object_name": "FACHADA SUPERIOR | relevo quadrado",
+      "sample_count": 8,
+      "median_residual_blender_units": 24.470658031529084,
+      "median_abs_residual_blender_units": 24.470658031529084,
+      "max_abs_residual_blender_units": 26.071030626811982
+    },
+    {
+      "object_name": "FACHADA SUPERIOR | relevo quadrado.002",
+      "sample_count": 8,
+      "median_residual_blender_units": 24.148491344708596,
+      "median_abs_residual_blender_units": 24.148491344708596,
+      "max_abs_residual_blender_units": 25.76662260330899
+    },
+    {
+      "object_name": "CALIBRADO | passarela cobertura 28.71 x 6.00m",
+      "sample_count": 4,
+      "median_residual_blender_units": 25.221148756516993,
+      "median_abs_residual_blender_units": 25.221148756516993,
+      "max_abs_residual_blender_units": 25.458616674049736
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.016",
+      "sample_count": 8,
+      "median_residual_blender_units": 22.178153072292606,
+      "median_abs_residual_blender_units": 22.178153072292606,
+      "max_abs_residual_blender_units": 24.98361057053411
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.017",
+      "sample_count": 8,
+      "median_residual_blender_units": 23.15868389074206,
+      "median_abs_residual_blender_units": 23.15868389074206,
+      "max_abs_residual_blender_units": 24.85868083898425
+    },
+    {
+      "object_name": "CALIBRADO | vão vertical torre.002",
+      "sample_count": 8,
+      "median_residual_blender_units": 22.072421189480984,
+      "median_abs_residual_blender_units": 22.072421189480984,
+      "max_abs_residual_blender_units": 24.572421189480984
+    },
+    {
+      "object_name": "CALIBRADO | vão vertical torre.007",
+      "sample_count": 8,
+      "median_residual_blender_units": 21.96098146901585,
+      "median_abs_residual_blender_units": 21.96098146901585,
+      "max_abs_residual_blender_units": 24.46098146901585
+    },
+    {
+      "object_name": "FACHADA SUPERIOR | relevo quadrado.001",
+      "sample_count": 8,
+      "median_residual_blender_units": 23.35535703435039,
+      "median_abs_residual_blender_units": 23.35535703435039,
+      "max_abs_residual_blender_units": 24.180353982592578
+    },
+    {
+      "object_name": "CALIBRADO | passarela viga lateral",
+      "sample_count": 4,
+      "median_residual_blender_units": 20.378150020534793,
+      "median_abs_residual_blender_units": 20.378150020534793,
+      "max_abs_residual_blender_units": 22.133612096413017
+    },
+    {
+      "object_name": "CALIBRADO | passarela viga lateral.001",
+      "sample_count": 4,
+      "median_residual_blender_units": 21.35868083898425,
+      "median_abs_residual_blender_units": 21.35868083898425,
+      "max_abs_residual_blender_units": 22.008682364863155
+    },
+    {
+      "object_name": "CALIBRADO | passarela piso 28.71 x 6.00m",
+      "sample_count": 4,
+      "median_residual_blender_units": 20.771151808274805,
+      "median_abs_residual_blender_units": 20.771151808274805,
+      "max_abs_residual_blender_units": 21.283613622291924
+    },
+    {
+      "object_name": "TERMINAL | corpo vertical encosta",
+      "sample_count": 8,
+      "median_residual_blender_units": 4.985157772955759,
+      "median_abs_residual_blender_units": 14.0,
+      "max_abs_residual_blender_units": 21.133612096413017
+    },
+    {
+      "object_name": "TERMINAL | pilastra apoio",
+      "sample_count": 8,
+      "median_residual_blender_units": 7.133612096413017,
+      "median_abs_residual_blender_units": 14.0,
+      "max_abs_residual_blender_units": 21.133612096413017
+    },
+    {
+      "object_name": "TERMINAL | pilastra apoio.001",
+      "sample_count": 8,
+      "median_residual_blender_units": 5.813482668887275,
+      "median_abs_residual_blender_units": 14.0,
+      "max_abs_residual_blender_units": 21.008682364863155
+    },
+    {
+      "object_name": "CALIBRADO | torre 3.55 x 7.48 x 73.50m",
+      "sample_count": 4,
+      "median_residual_blender_units": -18.929343494349823,
+      "median_abs_residual_blender_units": 18.929343494349823,
+      "max_abs_residual_blender_units": 20.89420182417016
+    },
+    {
+      "object_name": "CALIBRADO | terreno Cidade Alta",
+      "sample_count": 4,
+      "median_residual_blender_units": 8.376928332384072,
+      "median_abs_residual_blender_units": 8.376928332384072,
+      "max_abs_residual_blender_units": 18.158950006242648
+    },
+    {
+      "object_name": "TERMINAL | grelha vertical",
+      "sample_count": 8,
+      "median_residual_blender_units": 12.378151927883426,
+      "median_abs_residual_blender_units": 12.378151927883426,
+      "max_abs_residual_blender_units": 17.48361057053411
+    },
+    {
+      "object_name": "TERMINAL | grelha vertical.001",
+      "sample_count": 8,
+      "median_residual_blender_units": 13.358682746332882,
+      "median_abs_residual_blender_units": 13.358682746332882,
+      "max_abs_residual_blender_units": 17.35868083898425
+    },
+    {
+      "object_name": "TERMINAL | grelha vertical.002",
+      "sample_count": 8,
+      "median_residual_blender_units": 13.358682746332882,
+      "median_abs_residual_blender_units": 13.358682746332882,
+      "max_abs_residual_blender_units": 17.35868083898425
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.011",
+      "sample_count": 8,
+      "median_residual_blender_units": 15.928153072292606,
+      "median_abs_residual_blender_units": 15.928153072292606,
+      "max_abs_residual_blender_units": 17.071112096413017
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.023",
+      "sample_count": 8,
+      "median_residual_blender_units": 16.90868389074206,
+      "median_abs_residual_blender_units": 16.90868389074206,
+      "max_abs_residual_blender_units": 16.946182364863155
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.035",
+      "sample_count": 8,
+      "median_residual_blender_units": 16.90868389074206,
+      "median_abs_residual_blender_units": 16.90868389074206,
+      "max_abs_residual_blender_units": 16.946182364863155
+    },
+    {
+      "object_name": "CALIBRADO | vão vertical torre.001",
+      "sample_count": 8,
+      "median_residual_blender_units": 14.072421189480984,
+      "median_abs_residual_blender_units": 14.072421189480984,
+      "max_abs_residual_blender_units": 16.572421189480984
+    },
+    {
+      "object_name": "CALIBRADO | vão vertical torre.006",
+      "sample_count": 8,
+      "median_residual_blender_units": 13.960981469015849,
+      "median_abs_residual_blender_units": 13.960981469015849,
+      "max_abs_residual_blender_units": 16.46098146901585
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.010",
+      "sample_count": 8,
+      "median_residual_blender_units": 15.2781515464137,
+      "median_abs_residual_blender_units": 15.2781515464137,
+      "max_abs_residual_blender_units": 16.42111057053411
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.022",
+      "sample_count": 8,
+      "median_residual_blender_units": 16.258682364863155,
+      "median_abs_residual_blender_units": 16.258682364863155,
+      "max_abs_residual_blender_units": 16.29618083898425
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.034",
+      "sample_count": 8,
+      "median_residual_blender_units": 16.258682364863155,
+      "median_abs_residual_blender_units": 16.258682364863155,
+      "max_abs_residual_blender_units": 16.29618083898425
+    },
+    {
+      "object_name": "Encosta | faixa 02",
+      "sample_count": 4,
+      "median_residual_blender_units": 4.215048058975773,
+      "median_abs_residual_blender_units": 12.499046336695782,
+      "max_abs_residual_blender_units": 16.110210036853914
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.009",
+      "sample_count": 8,
+      "median_residual_blender_units": 14.628153835232059,
+      "median_abs_residual_blender_units": 14.628153835232059,
+      "max_abs_residual_blender_units": 15.771116674049736
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.021",
+      "sample_count": 8,
+      "median_residual_blender_units": 15.608684653681514,
+      "median_abs_residual_blender_units": 15.608684653681514,
+      "max_abs_residual_blender_units": 15.646186942499874
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.033",
+      "sample_count": 8,
+      "median_residual_blender_units": 15.608684653681514,
+      "median_abs_residual_blender_units": 15.608684653681514,
+      "max_abs_residual_blender_units": 15.646186942499874
+    },
+    {
+      "object_name": "PRAÇA | capeamento contenção.011",
+      "sample_count": 8,
+      "median_residual_blender_units": 14.40592208197561,
+      "median_abs_residual_blender_units": 14.40592208197561,
+      "max_abs_residual_blender_units": 15.454573797296796
+    },
+    {
+      "object_name": "PRAÇA | capeamento contenção.012",
+      "sample_count": 8,
+      "median_residual_blender_units": 14.379968141385817,
+      "median_abs_residual_blender_units": 14.379968141385817,
+      "max_abs_residual_blender_units": 15.454573797296796
+    },
+    {
+      "object_name": "PRAÇA | capeamento contenção.005",
+      "sample_count": 8,
+      "median_residual_blender_units": 13.816783107795487,
+      "median_abs_residual_blender_units": 13.816783107795487,
+      "max_abs_residual_blender_units": 15.323659545248717
+    },
+    {
+      "object_name": "PRAÇA | capeamento contenção.010",
+      "sample_count": 8,
+      "median_residual_blender_units": 13.617272502884894,
+      "median_abs_residual_blender_units": 13.617272502884894,
+      "max_abs_residual_blender_units": 15.256622215376645
+    },
+    {
+      "object_name": "PRAÇA | capeamento contenção.013",
+      "sample_count": 8,
+      "median_residual_blender_units": 14.229084469246157,
+      "median_abs_residual_blender_units": 14.229084469246157,
+      "max_abs_residual_blender_units": 15.152806453017476
+    },
+    {
+      "object_name": "PRAÇA | capeamento contenção.014",
+      "sample_count": 8,
+      "median_residual_blender_units": 13.953271065556628,
+      "median_abs_residual_blender_units": 13.953271065556628,
+      "max_abs_residual_blender_units": 15.152806453017476
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.008",
+      "sample_count": 8,
+      "median_residual_blender_units": 13.978154216701785,
+      "median_abs_residual_blender_units": 13.978154216701785,
+      "max_abs_residual_blender_units": 15.12111514817083
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.020",
+      "sample_count": 8,
+      "median_residual_blender_units": 14.958685035151241,
+      "median_abs_residual_blender_units": 14.958685035151241,
+      "max_abs_residual_blender_units": 14.996185416620968
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.032",
+      "sample_count": 8,
+      "median_residual_blender_units": 14.958685035151241,
+      "median_abs_residual_blender_units": 14.958685035151241,
+      "max_abs_residual_blender_units": 14.996185416620968
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.007",
+      "sample_count": 8,
+      "median_residual_blender_units": 13.32815269082288,
+      "median_abs_residual_blender_units": 13.32815269082288,
+      "max_abs_residual_blender_units": 14.471113622291924
+    },
+    {
+      "object_name": "Encosta | faixa 00",
+      "sample_count": 4,
+      "median_residual_blender_units": -8.708246258014128,
+      "median_abs_residual_blender_units": 8.708246258014128,
+      "max_abs_residual_blender_units": 14.456271700671635
+    },
+    {
+      "object_name": "PRAÇA | capeamento contenção.015",
+      "sample_count": 8,
+      "median_residual_blender_units": 13.552524108784343,
+      "median_abs_residual_blender_units": 13.552524108784343,
+      "max_abs_residual_blender_units": 14.351312539472907
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.019",
+      "sample_count": 8,
+      "median_residual_blender_units": 14.308683509272335,
+      "median_abs_residual_blender_units": 14.308683509272335,
+      "max_abs_residual_blender_units": 14.346183890742061
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.031",
+      "sample_count": 8,
+      "median_residual_blender_units": 14.308683509272335,
+      "median_abs_residual_blender_units": 14.308683509272335,
+      "max_abs_residual_blender_units": 14.346183890742061
+    },
+    {
+      "object_name": "PRAÇA | capeamento contenção.006",
+      "sample_count": 8,
+      "median_residual_blender_units": 13.967492900188873,
+      "median_abs_residual_blender_units": 13.967492900188873,
+      "max_abs_residual_blender_units": 14.097493968304107
+    },
+    {
+      "object_name": "PRAÇA | capeamento contenção.007",
+      "sample_count": 8,
+      "median_residual_blender_units": 13.717461468109303,
+      "median_abs_residual_blender_units": 13.717461468109303,
+      "max_abs_residual_blender_units": 14.097493968304107
+    },
+    {
+      "object_name": "PRAÇA | capeamento contenção",
+      "sample_count": 8,
+      "median_residual_blender_units": 13.944846496311214,
+      "median_abs_residual_blender_units": 13.944846496311214,
+      "max_abs_residual_blender_units": 14.074847564426449
+    },
+    {
+      "object_name": "PRAÇA | capeamento contenção.001",
+      "sample_count": 8,
+      "median_residual_blender_units": 13.923730616354078,
+      "median_abs_residual_blender_units": 13.923730616354078,
+      "max_abs_residual_blender_units": 14.074847564426449
+    },
+    {
+      "object_name": "PRAÇA | capeamento contenção.002",
+      "sample_count": 8,
+      "median_residual_blender_units": 13.902614736396941,
+      "median_abs_residual_blender_units": 13.902614736396941,
+      "max_abs_residual_blender_units": 14.032615804512176
+    },
+    {
+      "object_name": "PRAÇA | capeamento contenção.003",
+      "sample_count": 8,
+      "median_residual_blender_units": 13.859698922096214,
+      "median_abs_residual_blender_units": 13.859698922096214,
+      "max_abs_residual_blender_units": 14.032615804512176
+    },
+    {
+      "object_name": "PRAÇA | capeamento contenção.004",
+      "sample_count": 8,
+      "median_residual_blender_units": 13.816783107795487,
+      "median_abs_residual_blender_units": 13.816783107795487,
+      "max_abs_residual_blender_units": 13.946784175910722
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.006",
+      "sample_count": 8,
+      "median_residual_blender_units": 12.678153072292606,
+      "median_abs_residual_blender_units": 12.678153072292606,
+      "max_abs_residual_blender_units": 13.821112096413017
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.018",
+      "sample_count": 8,
+      "median_residual_blender_units": 13.658683890742061,
+      "median_abs_residual_blender_units": 13.658683890742061,
+      "max_abs_residual_blender_units": 13.696182364863155
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.030",
+      "sample_count": 8,
+      "median_residual_blender_units": 13.658683890742061,
+      "median_abs_residual_blender_units": 13.658683890742061,
+      "max_abs_residual_blender_units": 13.696182364863155
+    },
+    {
+      "object_name": "PRAÇA | capeamento contenção.009",
+      "sample_count": 8,
+      "median_residual_blender_units": 13.477350735399696,
+      "median_abs_residual_blender_units": 13.477350735399696,
+      "max_abs_residual_blender_units": 13.617272502884894
+    },
+    {
+      "object_name": "PRAÇA | capeamento contenção.008",
+      "sample_count": 8,
+      "median_residual_blender_units": 13.467430036029732,
+      "median_abs_residual_blender_units": 13.467430036029732,
+      "max_abs_residual_blender_units": 13.597431104144967
+    },
+    {
+      "object_name": "MVP | praça ao acesso alto | caminho OSM 1429934820",
+      "sample_count": 16,
+      "median_residual_blender_units": 10.238519663798094,
+      "median_abs_residual_blender_units": 10.238519663798094,
+      "max_abs_residual_blender_units": 13.23535428776836
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.005",
+      "sample_count": 8,
+      "median_residual_blender_units": 12.028153453762332,
+      "median_abs_residual_blender_units": 12.028153453762332,
+      "max_abs_residual_blender_units": 13.171114385231377
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.017",
+      "sample_count": 8,
+      "median_residual_blender_units": 13.008684272211788,
+      "median_abs_residual_blender_units": 13.008684272211788,
+      "max_abs_residual_blender_units": 13.046184653681514
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.029",
+      "sample_count": 8,
+      "median_residual_blender_units": 13.008684272211788,
+      "median_abs_residual_blender_units": 13.008684272211788,
+      "max_abs_residual_blender_units": 13.046184653681514
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.004",
+      "sample_count": 8,
+      "median_residual_blender_units": 11.378151927883426,
+      "median_abs_residual_blender_units": 11.378151927883426,
+      "max_abs_residual_blender_units": 12.52111285935247
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.016",
+      "sample_count": 8,
+      "median_residual_blender_units": 12.358682746332882,
+      "median_abs_residual_blender_units": 12.358682746332882,
+      "max_abs_residual_blender_units": 12.396183127802608
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.028",
+      "sample_count": 8,
+      "median_residual_blender_units": 12.358682746332882,
+      "median_abs_residual_blender_units": 12.358682746332882,
+      "max_abs_residual_blender_units": 12.396183127802608
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.003",
+      "sample_count": 8,
+      "median_residual_blender_units": 10.728154216701785,
+      "median_abs_residual_blender_units": 10.728154216701785,
+      "max_abs_residual_blender_units": 11.87111514817083
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.015",
+      "sample_count": 8,
+      "median_residual_blender_units": 11.708685035151241,
+      "median_abs_residual_blender_units": 11.708685035151241,
+      "max_abs_residual_blender_units": 11.746185416620968
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.027",
+      "sample_count": 8,
+      "median_residual_blender_units": 11.708685035151241,
+      "median_abs_residual_blender_units": 11.708685035151241,
+      "max_abs_residual_blender_units": 11.746185416620968
+    },
+    {
+      "object_name": "CALIBRADO | piso desembarque baixo",
+      "sample_count": 26,
+      "median_residual_blender_units": -9.477954351879685,
+      "median_abs_residual_blender_units": 9.477954351879685,
+      "max_abs_residual_blender_units": 11.364699746850917
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.002",
+      "sample_count": 8,
+      "median_residual_blender_units": 10.07815269082288,
+      "median_abs_residual_blender_units": 10.07815269082288,
+      "max_abs_residual_blender_units": 11.221113622291924
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.014",
+      "sample_count": 8,
+      "median_residual_blender_units": 11.058683509272335,
+      "median_abs_residual_blender_units": 11.058683509272335,
+      "max_abs_residual_blender_units": 11.096183890742061
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.026",
+      "sample_count": 8,
+      "median_residual_blender_units": 11.058683509272335,
+      "median_abs_residual_blender_units": 11.058683509272335,
+      "max_abs_residual_blender_units": 11.096183890742061
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.001",
+      "sample_count": 8,
+      "median_residual_blender_units": 9.428153072292606,
+      "median_abs_residual_blender_units": 9.428153072292606,
+      "max_abs_residual_blender_units": 10.571112096413017
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.013",
+      "sample_count": 8,
+      "median_residual_blender_units": 10.408683890742061,
+      "median_abs_residual_blender_units": 10.408683890742061,
+      "max_abs_residual_blender_units": 10.446182364863155
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.025",
+      "sample_count": 8,
+      "median_residual_blender_units": 10.408683890742061,
+      "median_abs_residual_blender_units": 10.408683890742061,
+      "max_abs_residual_blender_units": 10.446182364863155
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha",
+      "sample_count": 8,
+      "median_residual_blender_units": 8.778153453762332,
+      "median_abs_residual_blender_units": 8.778153453762332,
+      "max_abs_residual_blender_units": 9.921114385231377
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.012",
+      "sample_count": 8,
+      "median_residual_blender_units": 9.758684272211788,
+      "median_abs_residual_blender_units": 9.758684272211788,
+      "max_abs_residual_blender_units": 9.796184653681514
+    },
+    {
+      "object_name": "TERMINAL | lamela grelha.024",
+      "sample_count": 8,
+      "median_residual_blender_units": 9.758684272211788,
+      "median_abs_residual_blender_units": 9.758684272211788,
+      "max_abs_residual_blender_units": 9.796184653681514
+    },
+    {
+      "object_name": "Encosta | faixa 01",
+      "sample_count": 4,
+      "median_residual_blender_units": -7.820671809186237,
+      "median_abs_residual_blender_units": 7.820671809186237,
+      "max_abs_residual_blender_units": 9.232925019208906
+    },
+    {
+      "object_name": "CALIBRADO | friso vertical torre.002",
+      "sample_count": 4,
+      "median_residual_blender_units": -8.768954241253464,
+      "median_abs_residual_blender_units": 8.768954241253464,
+      "max_abs_residual_blender_units": 8.768954241253464
+    },
+    {
+      "object_name": "MVP | saída baixa | caminho OSM 312006925",
+      "sample_count": 24,
+      "median_residual_blender_units": -6.970470784980583,
+      "median_abs_residual_blender_units": 6.970470784980583,
+      "max_abs_residual_blender_units": 8.627018828530538
+    },
+    {
+      "object_name": "CALIBRADO | vão vertical torre",
+      "sample_count": 8,
+      "median_residual_blender_units": 6.072421189480984,
+      "median_abs_residual_blender_units": 6.072421189480984,
+      "max_abs_residual_blender_units": 8.572421189480984
+    },
+    {
+      "object_name": "CALIBRADO | vão vertical torre.005",
+      "sample_count": 8,
+      "median_residual_blender_units": 5.960981469015849,
+      "median_abs_residual_blender_units": 5.960981469015849,
+      "max_abs_residual_blender_units": 8.460981469015849
+    },
+    {
+      "object_name": "CALIBRADO | friso vertical torre.003",
+      "sample_count": 4,
+      "median_residual_blender_units": -8.039018530984151,
+      "median_abs_residual_blender_units": 8.039018530984151,
+      "max_abs_residual_blender_units": 8.039018530984151
+    },
+    {
+      "object_name": "CALIBRADO | friso vertical torre.004",
+      "sample_count": 4,
+      "median_residual_blender_units": -8.039018530984151,
+      "median_abs_residual_blender_units": 8.039018530984151,
+      "max_abs_residual_blender_units": 8.039018530984151
+    },
+    {
+      "object_name": "CALIBRADO | friso vertical torre",
+      "sample_count": 4,
+      "median_residual_blender_units": -7.927578810519016,
+      "median_abs_residual_blender_units": 7.927578810519016,
+      "max_abs_residual_blender_units": 7.927578810519016
+    },
+    {
+      "object_name": "CALIBRADO | friso vertical torre.001",
+      "sample_count": 4,
+      "median_residual_blender_units": -7.927578810519016,
+      "median_abs_residual_blender_units": 7.927578810519016,
+      "max_abs_residual_blender_units": 7.927578810519016
+    },
+    {
+      "object_name": "CALIBRADO | marquise baixa",
+      "sample_count": 26,
+      "median_residual_blender_units": -5.977953875042527,
+      "median_abs_residual_blender_units": 5.977953875042527,
+      "max_abs_residual_blender_units": 7.864698793176601
+    },
+    {
+      "object_name": "OSM | Igreja da Ordem Terceira de São Domingos",
+      "sample_count": 24,
+      "median_residual_blender_units": 0.4219392039043157,
+      "median_abs_residual_blender_units": 4.82891845703125,
+      "max_abs_residual_blender_units": 7.819490289784284
+    },
+    {
+      "object_name": "TORRE | encontro com solo",
+      "sample_count": 8,
+      "median_residual_blender_units": -5.868953190502813,
+      "median_abs_residual_blender_units": 5.868953190502813,
+      "max_abs_residual_blender_units": 6.8713631829624795
+    },
+    {
+      "object_name": "ACESSO BAIXO | patamar nivelado",
+      "sample_count": 8,
+      "median_residual_blender_units": -2.5131465386813723,
+      "median_abs_residual_blender_units": 2.5131465386813723,
+      "max_abs_residual_blender_units": 3.591562946659831
+    }
+  ],
+  "largest_residual_samples": [
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -176.20343017578125,
+        398.2370910644531,
+        7.255668640136719
+      ],
+      "epsg3857_xy": [
+        -4287422.250030605,
+        -1456413.480779246
+      ],
+      "blender_z": 7.255668640136719,
+      "dem_z_m": -877.8465576171875,
+      "residual_blender_units": 917.7108353328908
+    },
+    {
+      "object_name": "MVP | terreno corrigido | colisão estática",
+      "blender_xyz": [
+        -174.70343017578125,
+        390.5649108886719,
+        7.255668640136719
+      ],
+      "epsg3857_xy": [
+        -4287420.696878205,
+        -1456421.3874499137
+      ],
+      "blender_z": 7.255668640136719,
+      "dem_z_m": -273.1960144042969,
+      "residual_blender_units": 292.7787463701833
+    },
+    {
+      "object_name": "CALIBRADO | torre 3.55 x 7.48 x 73.50m",
+      "blender_xyz": [
+        -1.774999976158142,
+        -3.740000009536743,
+        -36.75
+      ],
+      "epsg3857_xy": [
+        -4287242.090394818,
+        -1456827.6558795169
+      ],
+      "blender_z": -36.75,
+      "dem_z_m": 57.616390228271484,
+      "residual_blender_units": -93.13563202367689
+    },
+    {
+      "object_name": "CALIBRADO | torre 3.55 x 7.48 x 73.50m",
+      "blender_xyz": [
+        1.774999976158142,
+        -3.740000009536743,
+        -36.75
+      ],
+      "epsg3857_xy": [
+        -4287238.4312569285,
+        -1456827.6526230613
+      ],
+      "blender_z": -36.75,
+      "dem_z_m": 56.42903518676758,
+      "residual_blender_units": -91.90845001787793
+    },
+    {
+      "object_name": "CALIBRADO | torre 3.55 x 7.48 x 73.50m",
+      "blender_xyz": [
+        -1.774999976158142,
+        3.740000009536743,
+        -36.75
+      ],
+      "epsg3857_xy": [
+        -4287242.0972563075,
+        -1456819.9459212492
+      ],
+      "blender_z": -36.75,
+      "dem_z_m": 54.88105773925781,
+      "residual_blender_units": -90.30854939627402
+    },
+    {
+      "object_name": "CALIBRADO | torre 3.55 x 7.48 x 73.50m",
+      "blender_xyz": [
+        1.774999976158142,
+        3.740000009536743,
+        -36.75
+      ],
+      "epsg3857_xy": [
+        -4287238.438118418,
+        -1456819.9426647935
+      ],
+      "blender_z": -36.75,
+      "dem_z_m": 54.88105773925781,
+      "residual_blender_units": -90.30854939627402
+    },
+    {
+      "object_name": "TERRENO | Alto",
+      "blender_xyz": [
+        5.8184661865234375,
+        -171.06307983398438,
+        -3.0
+      ],
+      "epsg3857_xy": [
+        -4287234.109994736,
+        -1457000.1160208131
+      ],
+      "blender_z": -3.0,
+      "dem_z_m": 71.39028930664062,
+      "residual_blender_units": -73.62154336259394
+    },
+    {
+      "object_name": "CALIBRADO | passarela faixa envidraçada",
+      "blender_xyz": [
+        67.1204833984375,
+        -49.5727424621582,
+        -1.25
+      ],
+      "epsg3857_xy": [
+        -4287171.0348090995,
+        -1456874.8344630827
+      ],
+      "blender_z": -1.25,
+      "dem_z_m": 72.64432525634766,
+      "residual_blender_units": -73.16764292701427
+    },
+    {
+      "object_name": "CALIBRADO | passarela faixa envidraçada",
+      "blender_xyz": [
+        67.06452941894531,
+        -49.40023422241211,
+        -1.25
+      ],
+      "epsg3857_xy": [
+        -4287171.09264152,
+        -1456874.6567027352
+      ],
+      "blender_z": -1.25,
+      "dem_z_m": 72.64432525634766,
+      "residual_blender_units": -73.16764292701427
+    },
+    {
+      "object_name": "CALIBRADO | passarela faixa envidraçada.001",
+      "blender_xyz": [
+        67.1204833984375,
+        -49.5727424621582,
+        -1.25
+      ],
+      "epsg3857_xy": [
+        -4287171.0348090995,
+        -1456874.8344630827
+      ],
+      "blender_z": -1.25,
+      "dem_z_m": 72.64432525634766,
+      "residual_blender_units": -73.16764292701427
+    },
+    {
+      "object_name": "CALIBRADO | passarela faixa envidraçada.001",
+      "blender_xyz": [
+        67.06452941894531,
+        -49.40023422241211,
+        -1.25
+      ],
+      "epsg3857_xy": [
+        -4287171.09264152,
+        -1456874.6567027352
+      ],
+      "blender_z": -1.25,
+      "dem_z_m": 72.64432525634766,
+      "residual_blender_units": -73.16764292701427
+    },
+    {
+      "object_name": "CALIBRADO | passarela faixa envidraçada",
+      "blender_xyz": [
+        67.1204833984375,
+        -49.5727424621582,
+        1.25
+      ],
+      "epsg3857_xy": [
+        -4287171.0348090995,
+        -1456874.8344630827
+      ],
+      "blender_z": 1.25,
+      "dem_z_m": 72.64432525634766,
+      "residual_blender_units": -70.66764292701427
+    },
+    {
+      "object_name": "CALIBRADO | passarela faixa envidraçada",
+      "blender_xyz": [
+        67.06452941894531,
+        -49.40023422241211,
+        1.25
+      ],
+      "epsg3857_xy": [
+        -4287171.09264152,
+        -1456874.6567027352
+      ],
+      "blender_z": 1.25,
+      "dem_z_m": 72.64432525634766,
+      "residual_blender_units": -70.66764292701427
+    },
+    {
+      "object_name": "CALIBRADO | passarela faixa envidraçada.001",
+      "blender_xyz": [
+        67.1204833984375,
+        -49.5727424621582,
+        1.25
+      ],
+      "epsg3857_xy": [
+        -4287171.0348090995,
+        -1456874.8344630827
+      ],
+      "blender_z": 1.25,
+      "dem_z_m": 72.64432525634766,
+      "residual_blender_units": -70.66764292701427
+    },
+    {
+      "object_name": "CALIBRADO | passarela faixa envidraçada.001",
+      "blender_xyz": [
+        67.06452941894531,
+        -49.40023422241211,
+        1.25
+      ],
+      "epsg3857_xy": [
+        -4287171.09264152,
+        -1456874.6567027352
+      ],
+      "blender_z": 1.25,
+      "dem_z_m": 72.64432525634766,
+      "residual_blender_units": -70.66764292701427
+    },
+    {
+      "object_name": "Igreja da Ordem Terceira de São Domingos.001",
+      "blender_xyz": [
+        406.9352111816406,
+        112.25653839111328,
+        0.0
+      ],
+      "epsg3857_xy": [
+        -4286820.921577364,
+        -1456707.7183355605
+      ],
+      "blender_z": 0.0,
+      "dem_z_m": 71.0,
+      "residual_blender_units": -70.21816274144587
+    },
+    {
+      "object_name": "Igreja da Ordem Terceira de São Domingos.001",
+      "blender_xyz": [
+        412.9458923339844,
+        117.93186950683594,
+        0.0
+      ],
+      "epsg3857_xy": [
+        -4286814.731315398,
+        -1456701.8630136126
+      ],
+      "blender_z": 0.0,
+      "dem_z_m": 71.0,
+      "residual_blender_units": -70.21816274144587
+    },
+    {
+      "object_name": "Igreja da Ordem Terceira de São Domingos.001",
+      "blender_xyz": [
+        402.8123779296875,
+        108.36235046386719,
+        0.0
+      ],
+      "epsg3857_xy": [
+        -4286825.167587031,
+        -1456711.736024746
+      ],
+      "blender_z": 0.0,
+      "dem_z_m": 70.983642578125,
+      "residual_blender_units": -70.20125664926232
+    },
+    {
+      "object_name": "Igreja da Ordem Terceira de São Domingos.001",
+      "blender_xyz": [
+        402.4651794433594,
+        93.54895782470703,
+        0.0
+      ],
+      "epsg3857_xy": [
+        -4286825.511870974,
+        -1456727.0051452084
+      ],
+      "blender_z": 0.0,
+      "dem_z_m": 70.87913513183594,
+      "residual_blender_units": -70.09324375246652
+    },
+    {
+      "object_name": "Igreja da Ordem Terceira de São Domingos.001",
+      "blender_xyz": [
+        410.0924377441406,
+        100.59610748291016,
+        0.0
+      ],
+      "epsg3857_xy": [
+        -4286817.656591682,
+        -1456719.734347884
+      ],
+      "blender_z": 0.0,
+      "dem_z_m": 70.60601043701172,
+      "residual_blender_units": -69.81095774776561
+    },
+    {
+      "object_name": "Igreja da Ordem Terceira de São Domingos.001",
+      "blender_xyz": [
+        395.326171875,
+        101.17137908935547,
+        0.0
+      ],
+      "epsg3857_xy": [
+        -4286832.877345766,
+        -1456719.1549359201
+      ],
+      "blender_z": 0.0,
+      "dem_z_m": 70.50212097167969,
+      "residual_blender_units": -69.7035835606092
+    },
+    {
+      "object_name": "Igreja da Ordem Terceira de São Domingos.001",
+      "blender_xyz": [
+        391.48541259765625,
+        138.32102966308594,
+        0.0
+      ],
+      "epsg3857_xy": [
+        -4286836.870259617,
+        -1456680.8667137914
+      ],
+      "blender_z": 0.0,
+      "dem_z_m": 70.41731262207031,
+      "residual_blender_units": -69.6159305192322
+    },
+    {
+      "object_name": "Igreja da Ordem Terceira de São Domingos.001",
+      "blender_xyz": [
+        385.0082092285156,
+        91.62399291992188,
+        0.0
+      ],
+      "epsg3857_xy": [
+        -4286843.5037564505,
+        -1456729.005302944
+      ],
+      "blender_z": 0.0,
+      "dem_z_m": 70.24040985107422,
+      "residual_blender_units": -69.43309397097666
+    },
+    {
+      "object_name": "Igreja da Ordem Terceira de São Domingos.001",
+      "blender_xyz": [
+        385.9412841796875,
+        133.12139892578125,
+        0.0
+      ],
+      "epsg3857_xy": [
+        -4286842.580061945,
+        -1456686.2312828915
+      ],
+      "blender_z": 0.0,
+      "dem_z_m": 69.3941879272461,
+      "residual_blender_units": -68.55848757142901
+    },
+    {
+      "object_name": "Igreja da Ordem Terceira de São Domingos.001",
+      "blender_xyz": [
+        380.97216796875,
+        128.44174194335938,
+        0.0
+      ],
+      "epsg3857_xy": [
+        -4286847.6976513965,
+        -1456691.0593651761
+      ],
+      "blender_z": 0.0,
+      "dem_z_m": 68.89097595214844,
+      "residual_blender_units": -68.03839656296348
+    },
+    {
+      "object_name": "CALIBRADO | passarela faixa envidraçada",
+      "blender_xyz": [
+        24.14385223388672,
+        -36.18557357788086,
+        -1.25
+      ],
+      "epsg3857_xy": [
+        -4287215.344954533,
+        -1456861.075154332
+      ],
+      "blender_z": -1.25,
+      "dem_z_m": 67.5650634765625,
+      "residual_blender_units": -67.91800954776834
+    },
+    {
+      "object_name": "CALIBRADO | passarela faixa envidraçada",
+      "blender_xyz": [
+        24.087894439697266,
+        -36.01306915283203,
+        -1.25
+      ],
+      "epsg3857_xy": [
+        -4287215.402790882,
+        -1456860.8973979198
+      ],
+      "blender_z": -1.25,
+      "dem_z_m": 67.5650634765625,
+      "residual_blender_units": -67.91800954776834
+    },
+    {
+      "object_name": "CALIBRADO | passarela faixa envidraçada.001",
+      "blender_xyz": [
+        24.14385223388672,
+        -36.18557357788086,
+        -1.25
+      ],
+      "epsg3857_xy": [
+        -4287215.344954533,
+        -1456861.075154332
+      ],
+      "blender_z": -1.25,
+      "dem_z_m": 67.5650634765625,
+      "residual_blender_units": -67.91800954776834
+    },
+    {
+      "object_name": "CALIBRADO | passarela faixa envidraçada.001",
+      "blender_xyz": [
+        24.087894439697266,
+        -36.01306915283203,
+        -1.25
+      ],
+      "epsg3857_xy": [
+        -4287215.402790882,
+        -1456860.8973979198
+      ],
+      "blender_z": -1.25,
+      "dem_z_m": 67.5650634765625,
+      "residual_blender_units": -67.91800954776834
+    },
+    {
+      "object_name": "Igreja da Ordem Terceira de São Domingos.001",
+      "blender_xyz": [
+        374.34307861328125,
+        122.46771240234375,
+        0.0
+      ],
+      "epsg3857_xy": [
+        -4286854.52505934,
+        -1456697.223135732
+      ],
+      "blender_z": 0.0,
+      "dem_z_m": 68.64126586914062,
+      "residual_blender_units": -67.78031055682195
+    },
+    {
+      "object_name": "Igreja da Ordem Terceira de São Domingos.001",
+      "blender_xyz": [
+        364.5784606933594,
+        113.42921447753906,
+        0.0
+      ],
+      "epsg3857_xy": [
+        -4286864.581580585,
+        -1456706.5484621292
+      ],
+      "blender_z": 0.0,
+      "dem_z_m": 68.14185333251953,
+      "residual_blender_units": -67.26414642984307
+    },
+    {
+      "object_name": "Cidade Alta | base contínua",
+      "blender_xyz": [
+        212.00750732421875,
+        19.436569213867188,
+        -3.0
+      ],
+      "epsg3857_xy": [
+        -4287021.756814649,
+        -1456803.5706860058
+      ],
+      "blender_z": -3.0,
+      "dem_z_m": 65.07971954345703,
+      "residual_blender_units": -67.09930074010992
+    },
+    {
+      "object_name": "CALIBRADO | terreno Cidade Alta",
+      "blender_xyz": [
+        227.60751342773438,
+        4.79656982421875,
+        -3.0
+      ],
+      "epsg3857_xy": [
+        -4287005.663786851,
+        -1456818.6464540227
+      ],
+      "blender_z": -3.0,
+      "dem_z_m": 64.23027801513672,
+      "residual_blender_units": -66.22136674219408
+    },
+    {
+      "object_name": "Cidade Alta | base contínua",
+      "blender_xyz": [
+        6.725685119628906,
+        -199.33128356933594,
+        -3.0
+      ],
+      "epsg3857_xy": [
+        -4287233.1489543505,
+        -1457029.2524440314
+      ],
+      "blender_z": -3.0,
+      "dem_z_m": 64.09129333496094,
+      "residual_blender_units": -66.07772015576327
+    },
+    {
+      "object_name": "CALIBRADO | passarela faixa envidraçada",
+      "blender_xyz": [
+        24.14385223388672,
+        -36.18557357788086,
+        1.25
+      ],
+      "epsg3857_xy": [
+        -4287215.344954533,
+        -1456861.075154332
+      ],
+      "blender_z": 1.25,
+      "dem_z_m": 67.5650634765625,
+      "residual_blender_units": -65.41800954776834
+    },
+    {
+      "object_name": "CALIBRADO | passarela faixa envidraçada",
+      "blender_xyz": [
+        24.087894439697266,
+        -36.01306915283203,
+        1.25
+      ],
+      "epsg3857_xy": [
+        -4287215.402790882,
+        -1456860.8973979198
+      ],
+      "blender_z": 1.25,
+      "dem_z_m": 67.5650634765625,
+      "residual_blender_units": -65.41800954776834
+    },
+    {
+      "object_name": "CALIBRADO | passarela faixa envidraçada.001",
+      "blender_xyz": [
+        24.14385223388672,
+        -36.18557357788086,
+        1.25
+      ],
+      "epsg3857_xy": [
+        -4287215.344954533,
+        -1456861.075154332
+      ],
+      "blender_z": 1.25,
+      "dem_z_m": 67.5650634765625,
+      "residual_blender_units": -65.41800954776834
+    },
+    {
+      "object_name": "CALIBRADO | passarela faixa envidraçada.001",
+      "blender_xyz": [
+        24.087894439697266,
+        -36.01306915283203,
+        1.25
+      ],
+      "epsg3857_xy": [
+        -4287215.402790882,
+        -1456860.8973979198
+      ],
+      "blender_z": 1.25,
+      "dem_z_m": 67.5650634765625,
+      "residual_blender_units": -65.41800954776834
+    },
+    {
+      "object_name": "CALIBRADO | bloco alto 18.60 x 11.00m",
+      "blender_xyz": [
+        9.300000190734863,
+        -5.5,
+        -5.0
+      ],
+      "epsg3857_xy": [
+        -4287230.673300553,
+        -1456829.459828106
+      ],
+      "blender_z": -5.0,
+      "dem_z_m": 60.57305908203125,
+      "residual_blender_units": -64.44147521093838
+    },
+    {
+      "object_name": "CALIBRADO | bloco alto subsolo",
+      "blender_xyz": [
+        9.300000190734863,
+        -5.5,
+        -5.0
+      ],
+      "epsg3857_xy": [
+        -4287230.673300553,
+        -1456829.459828106
+      ],
+      "blender_z": -5.0,
+      "dem_z_m": 60.57305908203125,
+      "residual_blender_units": -64.44147521093838
+    },
+    {
+      "object_name": "TERRENO | Alto",
+      "blender_xyz": [
+        -94.05622863769531,
+        -77.33656311035156,
+        -3.0
+      ],
+      "epsg3857_xy": [
+        -4287337.141121827,
+        -1456903.599678365
+      ],
+      "blender_z": -3.0,
+      "dem_z_m": 62.03339767456055,
+      "residual_blender_units": -63.95079734331075
+    },
+    {
+      "object_name": "TERRENO | Encosta",
+      "blender_xyz": [
+        -94.05622863769531,
+        -77.33656311035156,
+        -3.0
+      ],
+      "epsg3857_xy": [
+        -4287337.141121827,
+        -1456903.599678365
+      ],
+      "blender_z": -3.0,
+      "dem_z_m": 62.03339767456055,
+      "residual_blender_units": -63.95079734331075
+    },
+    {
+      "object_name": "CALIBRADO | terreno Cidade Alta",
+      "blender_xyz": [
+        22.32568359375,
+        -213.97128295898438,
+        -3.0
+      ],
+      "epsg3857_xy": [
+        -4287217.055934416,
+        -1457044.3282120558
+      ],
+      "blender_z": -3.0,
+      "dem_z_m": 61.60579299926758,
+      "residual_blender_units": -63.508849699368966
+    },
+    {
+      "object_name": "TERRENO | Alto",
+      "blender_xyz": [
+        187.15963745117188,
+        22.17351531982422,
+        -3.0
+      ],
+      "epsg3857_xy": [
+        -4287047.371095237,
+        -1456800.7723909777
+      ],
+      "blender_z": -3.0,
+      "dem_z_m": 61.48651885986328,
+      "residual_blender_units": -63.38557479631325
+    },
+    {
+      "object_name": "CALIBRADO | terreno Cidade Alta",
+      "blender_xyz": [
+        -108.58135223388672,
+        -91.1340560913086,
+        -3.0
+      ],
+      "epsg3857_xy": [
+        -4287352.10013588,
+        -1456917.8346728564
+      ],
+      "blender_z": -3.0,
+      "dem_z_m": 61.271026611328125,
+      "residual_blender_units": -63.16285437946426
+    },
+    {
+      "object_name": "CALIBRADO | terreno Encosta 75 graus",
+      "blender_xyz": [
+        -108.58135223388672,
+        -91.1340560913086,
+        -3.0
+      ],
+      "epsg3857_xy": [
+        -4287352.10013588,
+        -1456917.8346728564
+      ],
+      "blender_z": -3.0,
+      "dem_z_m": 61.271026611328125,
+      "residual_blender_units": -63.16285437946426
+    },
+    {
+      "object_name": "CALIBRADO | bloco alto 18.60 x 11.00m",
+      "blender_xyz": [
+        9.300000190734863,
+        5.5,
+        -5.0
+      ],
+      "epsg3857_xy": [
+        -4287230.683390979,
+        -1456818.1216542115
+      ],
+      "blender_z": -5.0,
+      "dem_z_m": 58.655643463134766,
+      "residual_blender_units": -62.459744504537916
+    },
+    {
+      "object_name": "CALIBRADO | bloco alto subsolo",
+      "blender_xyz": [
+        9.300000190734863,
+        5.5,
+        -5.0
+      ],
+      "epsg3857_xy": [
+        -4287230.683390979,
+        -1456818.1216542115
+      ],
+      "blender_z": -5.0,
+      "dem_z_m": 58.655643463134766,
+      "residual_blender_units": -62.459744504537916
+    },
+    {
+      "object_name": "Igreja da Ordem Terceira de São Domingos.001",
+      "blender_xyz": [
+        406.9352111816406,
+        112.25653839111328,
+        9.899999618530273
+      ],
+      "epsg3857_xy": [
+        -4286820.921577364,
+        -1456707.7183355605
+      ],
+      "blender_z": 9.899999618530273,
+      "dem_z_m": 71.0,
+      "residual_blender_units": -60.31816312291559
+    },
+    {
+      "object_name": "Igreja da Ordem Terceira de São Domingos.001",
+      "blender_xyz": [
+        412.9458923339844,
+        117.93186950683594,
+        9.899999618530273
+      ],
+      "epsg3857_xy": [
+        -4286814.731315398,
+        -1456701.8630136126
+      ],
+      "blender_z": 9.899999618530273,
+      "dem_z_m": 71.0,
+      "residual_blender_units": -60.31816312291559
+    },
+    {
+      "object_name": "Igreja da Ordem Terceira de São Domingos.001",
+      "blender_xyz": [
+        402.8123779296875,
+        108.36235046386719,
+        9.899999618530273
+      ],
+      "epsg3857_xy": [
+        -4286825.167587031,
+        -1456711.736024746
+      ],
+      "blender_z": 9.899999618530273,
+      "dem_z_m": 70.983642578125,
+      "residual_blender_units": -60.301257030732046
+    },
+    {
+      "object_name": "Igreja da Ordem Terceira de São Domingos.001",
+      "blender_xyz": [
+        402.4651794433594,
+        93.54895782470703,
+        9.899999618530273
+      ],
+      "epsg3857_xy": [
+        -4286825.511870974,
+        -1456727.0051452084
+      ],
+      "blender_z": 9.899999618530273,
+      "dem_z_m": 70.87913513183594,
+      "residual_blender_units": -60.19324413393625
+    },
+    {
+      "object_name": "Igreja da Ordem Terceira de São Domingos.001",
+      "blender_xyz": [
+        410.0924377441406,
+        100.59610748291016,
+        9.899999618530273
+      ],
+      "epsg3857_xy": [
+        -4286817.656591682,
+        -1456719.734347884
+      ],
+      "blender_z": 9.899999618530273,
+      "dem_z_m": 70.60601043701172,
+      "residual_blender_units": -59.91095812923534
+    },
+    {
+      "object_name": "Igreja da Ordem Terceira de São Domingos.001",
+      "blender_xyz": [
+        395.326171875,
+        101.17137908935547,
+        9.899999618530273
+      ],
+      "epsg3857_xy": [
+        -4286832.877345766,
+        -1456719.1549359201
+      ],
+      "blender_z": 9.899999618530273,
+      "dem_z_m": 70.50212097167969,
+      "residual_blender_units": -59.80358394207893
+    },
+    {
+      "object_name": "Igreja da Ordem Terceira de São Domingos.001",
+      "blender_xyz": [
+        391.48541259765625,
+        138.32102966308594,
+        9.899999618530273
+      ],
+      "epsg3857_xy": [
+        -4286836.870259617,
+        -1456680.8667137914
+      ],
+      "blender_z": 9.899999618530273,
+      "dem_z_m": 70.41731262207031,
+      "residual_blender_units": -59.71593090070192
+    },
+    {
+      "object_name": "CALIBRADO | cornija bloco alto",
+      "blender_xyz": [
+        9.800000190734863,
+        -6.0,
+        -0.22499999403953552
+      ],
+      "epsg3857_xy": [
+        -4287230.157470357,
+        -1456829.974740991
+      ],
+      "blender_z": -0.22499999403953552,
+      "dem_z_m": 60.57305908203125,
+      "residual_blender_units": -59.666475204977914
+    },
+    {
+      "object_name": "Igreja da Ordem Terceira de São Domingos.001",
+      "blender_xyz": [
+        385.0082092285156,
+        91.62399291992188,
+        9.899999618530273
+      ],
+      "epsg3857_xy": [
+        -4286843.5037564505,
+        -1456729.005302944
+      ],
+      "blender_z": 9.899999618530273,
+      "dem_z_m": 70.24040985107422,
+      "residual_blender_units": -59.53309435244638
+    },
+    {
+      "object_name": "CALIBRADO | cornija bloco alto",
+      "blender_xyz": [
+        9.800000190734863,
+        -6.0,
+        0.22499999403953552
+      ],
+      "epsg3857_xy": [
+        -4287230.157470357,
+        -1456829.974740991
+      ],
+      "blender_z": 0.22499999403953552,
+      "dem_z_m": 60.57305908203125,
+      "residual_blender_units": -59.21647521689884
+    },
+    {
+      "object_name": "CALIBRADO | passarela cobertura 28.71 x 6.00m",
+      "blender_xyz": [
+        -47.95070266723633,
+        46.70153045654297,
+        74.17500305175781
+      ],
+      "epsg3857_xy": [
+        -4287289.7319514835,
+        -1456775.7059784788
+      ],
+      "blender_z": 74.17500305175781,
+      "dem_z_m": 17.542884826660156,
+      "residual_blender_units": 59.20704562342132
+    },
+    {
+      "object_name": "CALIBRADO | passarela cobertura 28.71 x 6.00m",
+      "blender_xyz": [
+        -43.845069885253906,
+        51.07688903808594,
+        74.17500305175781
+      ],
+      "epsg3857_xy": [
+        -4287285.504112465,
+        -1456771.1923417489
+      ],
+      "blender_z": 74.17500305175781,
+      "dem_z_m": 17.715051651000977,
+      "residual_blender_units": 59.029103877741775
+    },
+    {
+      "object_name": "CALIBRADO | cabeçote alargado",
+      "blender_xyz": [
+        4.400000095367432,
+        -5.099999904632568,
+        -1.0
+      ],
+      "epsg3857_xy": [
+        -4287235.724308674,
+        -1456829.0520256013
+      ],
+      "blender_z": -1.0,
+      "dem_z_m": 59.094722747802734,
+      "residual_blender_units": -58.91355164598159
+    },
+    {
+      "object_name": "CALIBRADO | passarela cobertura 28.71 x 6.00m",
+      "blender_xyz": [
+        -47.95070266723633,
+        46.70153045654297,
+        73.82499694824219
+      ],
+      "epsg3857_xy": [
+        -4287289.7319514835,
+        -1456775.7059784788
+      ],
+      "blender_z": 73.82499694824219,
+      "dem_z_m": 17.542884826660156,
+      "residual_blender_units": 58.8570395199057
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela",
+      "blender_xyz": [
+        -48.01523971557617,
+        46.83064651489258,
+        73.69999694824219
+      ],
+      "epsg3857_xy": [
+        -4287289.798591039,
+        -1456775.5729521953
+      ],
+      "blender_z": 73.69999694824219,
+      "dem_z_m": 17.542884826660156,
+      "residual_blender_units": 58.7320395199057
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela",
+      "blender_xyz": [
+        -47.9194450378418,
+        46.932743072509766,
+        73.69999694824219
+      ],
+      "epsg3857_xy": [
+        -4287289.699944992,
+        -1456775.4676290015
+      ],
+      "blender_z": 73.69999694824219,
+      "dem_z_m": 17.542884826660156,
+      "residual_blender_units": 58.7320395199057
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela",
+      "blender_xyz": [
+        -47.8177490234375,
+        46.64533233642578,
+        73.69999694824219
+      ],
+      "epsg3857_xy": [
+        -4287289.594858884,
+        -1456775.7637823422
+      ],
+      "blender_z": 73.69999694824219,
+      "dem_z_m": 17.542884826660156,
+      "residual_blender_units": 58.7320395199057
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela",
+      "blender_xyz": [
+        -47.72194290161133,
+        46.7474250793457,
+        73.69999694824219
+      ],
+      "epsg3857_xy": [
+        -4287289.4962010365,
+        -1456775.65846307
+      ],
+      "blender_z": 73.69999694824219,
+      "dem_z_m": 17.542884826660156,
+      "residual_blender_units": 58.7320395199057
+    },
+    {
+      "object_name": "CALIBRADO | passarela cobertura 28.71 x 6.00m",
+      "blender_xyz": [
+        -43.845069885253906,
+        51.07688903808594,
+        73.82499694824219
+      ],
+      "epsg3857_xy": [
+        -4287285.504112465,
+        -1456771.1923417489
+      ],
+      "blender_z": 73.82499694824219,
+      "dem_z_m": 17.715051651000977,
+      "residual_blender_units": 58.67909777422615
+    },
+    {
+      "object_name": "Igreja da Ordem Terceira de São Domingos.001",
+      "blender_xyz": [
+        385.9412841796875,
+        133.12139892578125,
+        9.899999618530273
+      ],
+      "epsg3857_xy": [
+        -4286842.580061945,
+        -1456686.2312828915
+      ],
+      "blender_z": 9.899999618530273,
+      "dem_z_m": 69.3941879272461,
+      "residual_blender_units": -58.65848795289874
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.001",
+      "blender_xyz": [
+        -44.073822021484375,
+        51.030982971191406,
+        73.69999694824219
+      ],
+      "epsg3857_xy": [
+        -4287285.739855037,
+        -1456771.2398689466
+      ],
+      "blender_z": 73.69999694824219,
+      "dem_z_m": 17.715051651000977,
+      "residual_blender_units": 58.55409777422615
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.001",
+      "blender_xyz": [
+        -43.97802734375,
+        51.13307571411133,
+        73.69999694824219
+      ],
+      "epsg3857_xy": [
+        -4287285.641208987,
+        -1456771.1345496846
+      ],
+      "blender_z": 73.69999694824219,
+      "dem_z_m": 17.715051651000977,
+      "residual_blender_units": 58.55409777422615
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.001",
+      "blender_xyz": [
+        -43.87632751464844,
+        50.84566116333008,
+        73.69999694824219
+      ],
+      "epsg3857_xy": [
+        -4287285.536118943,
+        -1456771.4307069539
+      ],
+      "blender_z": 73.69999694824219,
+      "dem_z_m": 17.715051651000977,
+      "residual_blender_units": 58.55409777422615
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.001",
+      "blender_xyz": [
+        -43.78052520751953,
+        50.94776153564453,
+        73.69999694824219
+      ],
+      "epsg3857_xy": [
+        -4287285.437465034,
+        -1456771.325379821
+      ],
+      "blender_z": 73.69999694824219,
+      "dem_z_m": 17.715051651000977,
+      "residual_blender_units": 58.55409777422615
+    },
+    {
+      "object_name": "CALIBRADO | bloco alto 18.60 x 11.00m",
+      "blender_xyz": [
+        -9.300000190734863,
+        -5.5,
+        -5.0
+      ],
+      "epsg3857_xy": [
+        -4287249.845122258,
+        -1456829.476890099
+      ],
+      "blender_z": -5.0,
+      "dem_z_m": 54.490901947021484,
+      "residual_blender_units": -58.15530676794928
+    },
+    {
+      "object_name": "CALIBRADO | bloco alto subsolo",
+      "blender_xyz": [
+        -9.300000190734863,
+        -5.5,
+        -5.0
+      ],
+      "epsg3857_xy": [
+        -4287249.845122258,
+        -1456829.476890099
+      ],
+      "blender_z": -5.0,
+      "dem_z_m": 54.490901947021484,
+      "residual_blender_units": -58.15530676794928
+    },
+    {
+      "object_name": "Igreja da Ordem Terceira de São Domingos.001",
+      "blender_xyz": [
+        380.97216796875,
+        128.44174194335938,
+        9.899999618530273
+      ],
+      "epsg3857_xy": [
+        -4286847.6976513965,
+        -1456691.0593651761
+      ],
+      "blender_z": 9.899999618530273,
+      "dem_z_m": 68.89097595214844,
+      "residual_blender_units": -58.13839694443321
+    },
+    {
+      "object_name": "CALIBRADO | volume técnico",
+      "blender_xyz": [
+        2.5999999046325684,
+        -3.0,
+        -1.149999976158142
+      ],
+      "epsg3857_xy": [
+        -4287237.581572771,
+        -1456826.8891163897
+      ],
+      "blender_z": -1.149999976158142,
+      "dem_z_m": 58.09443283081055,
+      "residual_blender_units": -58.02970938977748
+    },
+    {
+      "object_name": "Igreja da Ordem Terceira de São Domingos.001",
+      "blender_xyz": [
+        374.34307861328125,
+        122.46771240234375,
+        9.899999618530273
+      ],
+      "epsg3857_xy": [
+        -4286854.52505934,
+        -1456697.223135732
+      ],
+      "blender_z": 9.899999618530273,
+      "dem_z_m": 68.64126586914062,
+      "residual_blender_units": -57.88031093829167
+    },
+    {
+      "object_name": "Igreja da Ordem Terceira de São Domingos.001",
+      "blender_xyz": [
+        364.5784606933594,
+        113.42921447753906,
+        9.899999618530273
+      ],
+      "epsg3857_xy": [
+        -4286864.581580585,
+        -1456706.5484621292
+      ],
+      "blender_z": 9.899999618530273,
+      "dem_z_m": 68.14185333251953,
+      "residual_blender_units": -57.36414681131279
+    },
+    {
+      "object_name": "CALIBRADO | entrada superior",
+      "blender_xyz": [
+        -0.05999999865889549,
+        -1.600000023841858,
+        -2.200000047683716
+      ],
+      "epsg3857_xy": [
+        -4287240.324633503,
+        -1456825.4485161486
+      ],
+      "blender_z": -2.200000047683716,
+      "dem_z_m": 56.42903518676758,
+      "residual_blender_units": -57.358450065561634
+    },
+    {
+      "object_name": "CALIBRADO | entrada superior",
+      "blender_xyz": [
+        0.05999999865889549,
+        -1.600000023841858,
+        -2.200000047683716
+      ],
+      "epsg3857_xy": [
+        -4287240.200944337,
+        -1456825.4484060712
+      ],
+      "blender_z": -2.200000047683716,
+      "dem_z_m": 56.42903518676758,
+      "residual_blender_units": -57.358450065561634
+    },
+    {
+      "object_name": "CALIBRADO | cabeçote alargado",
+      "blender_xyz": [
+        4.400000095367432,
+        -5.099999904632568,
+        1.0
+      ],
+      "epsg3857_xy": [
+        -4287235.724308674,
+        -1456829.0520256013
+      ],
+      "blender_z": 1.0,
+      "dem_z_m": 59.094722747802734,
+      "residual_blender_units": -56.91355164598159
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.002",
+      "blender_xyz": [
+        -42.95271682739258,
+        42.08020782470703,
+        73.69999694824219
+      ],
+      "epsg3857_xy": [
+        -4287284.576072967,
+        -1456780.4647900984
+      ],
+      "blender_z": 73.69999694824219,
+      "dem_z_m": 19.380741119384766,
+      "residual_blender_units": 56.83253676559946
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.002",
+      "blender_xyz": [
+        -42.85691833496094,
+        42.18230056762695,
+        73.69999694824219
+      ],
+      "epsg3857_xy": [
+        -4287284.477422983,
+        -1456780.359470833
+      ],
+      "blender_z": 73.69999694824219,
+      "dem_z_m": 19.380741119384766,
+      "residual_blender_units": 56.83253676559946
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.002",
+      "blender_xyz": [
+        -42.75522232055664,
+        41.89488983154297,
+        73.69999694824219
+      ],
+      "epsg3857_xy": [
+        -4287284.372336876,
+        -1456780.655624174
+      ],
+      "blender_z": 73.69999694824219,
+      "dem_z_m": 19.380741119384766,
+      "residual_blender_units": 56.83253676559946
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.002",
+      "blender_xyz": [
+        -42.659423828125,
+        41.99698257446289,
+        73.69999694824219
+      ],
+      "epsg3857_xy": [
+        -4287284.273686892,
+        -1456780.5503049083
+      ],
+      "blender_z": 73.69999694824219,
+      "dem_z_m": 19.380741119384766,
+      "residual_blender_units": 56.83253676559946
+    },
+    {
+      "object_name": "CALIBRADO | volume técnico",
+      "blender_xyz": [
+        2.5999999046325684,
+        3.0,
+        -1.149999976158142
+      ],
+      "epsg3857_xy": [
+        -4287237.58707664,
+        -1456820.7046579018
+      ],
+      "blender_z": -1.149999976158142,
+      "dem_z_m": 56.76835250854492,
+      "residual_blender_units": -56.659148897890155
+    },
+    {
+      "object_name": "CALIBRADO | friso vertical torre",
+      "blender_xyz": [
+        -50.307430267333984,
+        49.509490966796875,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287292.163707925,
+        -1456772.8138544634
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 15.974386215209961,
+      "residual_blender_units": 56.65315269021269
+    },
+    {
+      "object_name": "CALIBRADO | friso vertical torre",
+      "blender_xyz": [
+        -50.218475341796875,
+        49.60429000854492,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287292.072105212,
+        -1456772.7160594077
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 15.974386215209961,
+      "residual_blender_units": 56.65315269021269
+    },
+    {
+      "object_name": "CALIBRADO | friso vertical torre",
+      "blender_xyz": [
+        -50.23450469970703,
+        49.44106674194336,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287292.088477635,
+        -1456772.8843153643
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 15.974386215209961,
+      "residual_blender_units": 56.65315269021269
+    },
+    {
+      "object_name": "CALIBRADO | friso vertical torre",
+      "blender_xyz": [
+        -50.14554977416992,
+        49.535865783691406,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287291.996874921,
+        -1456772.7865203086
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 15.974386215209961,
+      "residual_blender_units": 56.65315269021269
+    },
+    {
+      "object_name": "CALIBRADO | friso vertical torre.001",
+      "blender_xyz": [
+        -49.45208740234375,
+        50.421024322509766,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287291.282905346,
+        -1456771.8735131477
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 15.974386215209961,
+      "residual_blender_units": 56.65315269021269
+    },
+    {
+      "object_name": "CALIBRADO | friso vertical torre.001",
+      "blender_xyz": [
+        -49.36313247680664,
+        50.51582336425781,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287291.191302631,
+        -1456771.775718092
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 15.974386215209961,
+      "residual_blender_units": 56.65315269021269
+    },
+    {
+      "object_name": "CALIBRADO | friso vertical torre.001",
+      "blender_xyz": [
+        -49.3791618347168,
+        50.35260009765625,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287291.207675055,
+        -1456771.9439740488
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 15.974386215209961,
+      "residual_blender_units": 56.65315269021269
+    },
+    {
+      "object_name": "CALIBRADO | friso vertical torre.001",
+      "blender_xyz": [
+        -49.29020690917969,
+        50.4473991394043,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287291.116072341,
+        -1456771.8461789931
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 15.974386215209961,
+      "residual_blender_units": 56.65315269021269
+    },
+    {
+      "object_name": "CALIBRADO | piso superior torre",
+      "blender_xyz": [
+        -52.82392883300781,
+        48.88825225830078,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287294.757001542,
+        -1456773.4565003768
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 15.974386215209961,
+      "residual_blender_units": 56.65315269021269
+    },
+    {
+      "object_name": "CALIBRADO | piso superior torre",
+      "blender_xyz": [
+        -50.62441635131836,
+        48.79902267456055,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287292.489787418,
+        -1456773.546455515
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 15.974386215209961,
+      "residual_blender_units": 56.65315269021269
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.003",
+      "blender_xyz": [
+        -39.01130676269531,
+        46.280548095703125,
+        73.69999694824219
+      ],
+      "epsg3857_xy": [
+        -4287280.5173448315,
+        -1456776.1317029246
+      ],
+      "blender_z": 73.69999694824219,
+      "dem_z_m": 19.603221893310547,
+      "residual_blender_units": 56.60259341011234
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.003",
+      "blender_xyz": [
+        -38.915504455566406,
+        46.38264083862305,
+        73.69999694824219
+      ],
+      "epsg3857_xy": [
+        -4287280.418690917,
+        -1456776.0263836554
+      ],
+      "blender_z": 73.69999694824219,
+      "dem_z_m": 19.603221893310547,
+      "residual_blender_units": 56.60259341011234
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.003",
+      "blender_xyz": [
+        -38.813812255859375,
+        46.09523391723633,
+        73.69999694824219
+      ],
+      "epsg3857_xy": [
+        -4287280.313608744,
+        -1456776.322533068
+      ],
+      "blender_z": 73.69999694824219,
+      "dem_z_m": 19.603221893310547,
+      "residual_blender_units": 56.60259341011234
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.003",
+      "blender_xyz": [
+        -38.718013763427734,
+        46.197322845458984,
+        73.69999694824219
+      ],
+      "epsg3857_xy": [
+        -4287280.214958758,
+        -1456776.2172177343
+      ],
+      "blender_z": 73.69999694824219,
+      "dem_z_m": 19.603221893310547,
+      "residual_blender_units": 56.60259341011234
+    },
+    {
+      "object_name": "CALIBRADO | friso vertical torre.003",
+      "blender_xyz": [
+        -47.74140930175781,
+        52.24409103393555,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287289.521308049,
+        -1456769.9928305238
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 16.08562660217285,
+      "residual_blender_units": 56.53818101246913
+    },
+    {
+      "object_name": "CALIBRADO | friso vertical torre.003",
+      "blender_xyz": [
+        -47.6524543762207,
+        52.338890075683594,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287289.429705335,
+        -1456769.8950354678
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 16.08562660217285,
+      "residual_blender_units": 56.53818101246913
+    },
+    {
+      "object_name": "CALIBRADO | friso vertical torre.003",
+      "blender_xyz": [
+        -47.66848373413086,
+        52.17566680908203,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287289.446077758,
+        -1456770.0632914247
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 16.08562660217285,
+      "residual_blender_units": 56.53818101246913
+    },
+    {
+      "object_name": "CALIBRADO | friso vertical torre.003",
+      "blender_xyz": [
+        -47.57952880859375,
+        52.27046585083008,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287289.354475044,
+        -1456769.965496369
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 16.08562660217285,
+      "residual_blender_units": 56.53818101246913
+    },
+    {
+      "object_name": "CALIBRADO | friso vertical torre.004",
+      "blender_xyz": [
+        -46.88606643676758,
+        53.15562438964844,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287288.6405054685,
+        -1456769.052489208
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 16.08562660217285,
+      "residual_blender_units": 56.53818101246913
+    },
+    {
+      "object_name": "CALIBRADO | friso vertical torre.004",
+      "blender_xyz": [
+        -46.79711151123047,
+        53.250423431396484,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287288.548902755,
+        -1456768.9546941523
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 16.08562660217285,
+      "residual_blender_units": 56.53818101246913
+    },
+    {
+      "object_name": "CALIBRADO | friso vertical torre.004",
+      "blender_xyz": [
+        -46.813140869140625,
+        53.08720016479492,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287288.565275178,
+        -1456769.1229501092
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 16.08562660217285,
+      "residual_blender_units": 56.53818101246913
+    },
+    {
+      "object_name": "CALIBRADO | friso vertical torre.004",
+      "blender_xyz": [
+        -46.724185943603516,
+        53.18199920654297,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287288.4736724645,
+        -1456769.0251550535
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 16.08562660217285,
+      "residual_blender_units": 56.53818101246913
+    },
+    {
+      "object_name": "CALIBRADO | piso superior torre",
+      "blender_xyz": [
+        -46.3370246887207,
+        55.80131530761719,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287288.077011407,
+        -1456766.324957957
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 16.08562660217285,
+      "residual_blender_units": 56.53818101246913
+    },
+    {
+      "object_name": "CALIBRADO | piso superior torre",
+      "blender_xyz": [
+        -46.10821533203125,
+        53.611915588378906,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287287.839159385,
+        -1456768.5814566803
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 16.08562660217285,
+      "residual_blender_units": 56.53818101246913
+    },
+    {
+      "object_name": "CALIBRADO | cabeçote alargado",
+      "blender_xyz": [
+        4.400000095367432,
+        5.099999904632568,
+        -1.0
+      ],
+      "epsg3857_xy": [
+        -4287235.733665251,
+        -1456818.5384463686
+      ],
+      "blender_z": -1.0,
+      "dem_z_m": 56.76835250854492,
+      "residual_blender_units": -56.50914892173201
+    },
+    {
+      "object_name": "CALIBRADO | volume técnico",
+      "blender_xyz": [
+        -2.5999999046325684,
+        -3.0,
+        -1.149999976158142
+      ],
+      "epsg3857_xy": [
+        -4287242.941436597,
+        -1456826.8938864088
+      ],
+      "blender_z": -1.149999976158142,
+      "dem_z_m": 56.42903518676758,
+      "residual_blender_units": -56.30844999403606
+    },
+    {
+      "object_name": "CALIBRADO | cornija bloco alto",
+      "blender_xyz": [
+        9.800000190734863,
+        6.0,
+        -0.22499999403953552
+      ],
+      "epsg3857_xy": [
+        -4287230.168478093,
+        -1456817.6058240153
+      ],
+      "blender_z": -0.22499999403953552,
+      "dem_z_m": 57.32162857055664,
+      "residual_blender_units": -56.30598329033244
+    },
+    {
+      "object_name": "OFICIAL | Terminal alto | apoio junto encosta",
+      "blender_xyz": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "epsg3857_xy": [
+        -4287241.294082388,
+        -1456824.8309325478
+      ],
+      "blender_z": -1.0,
+      "dem_z_m": 56.42903518676758,
+      "residual_blender_units": -56.15845001787792
+    },
+    {
+      "object_name": "OFICIAL | Terminal alto | apoio junto encosta",
+      "blender_xyz": [
+        1.0,
+        -1.0,
+        -1.0
+      ],
+      "epsg3857_xy": [
+        -4287239.232596225,
+        -1456824.8290979252
+      ],
+      "blender_z": -1.0,
+      "dem_z_m": 56.42903518676758,
+      "residual_blender_units": -56.15845001787792
+    },
+    {
+      "object_name": "CALIBRADO | piso superior torre",
+      "blender_xyz": [
+        -52.82392883300781,
+        48.88825225830078,
+        69.30000305175781
+      ],
+      "epsg3857_xy": [
+        -4287294.757001542,
+        -1456773.4565003768
+      ],
+      "blender_z": 69.30000305175781,
+      "dem_z_m": 15.974386215209961,
+      "residual_blender_units": 55.953155741970505
+    },
+    {
+      "object_name": "CALIBRADO | piso superior torre",
+      "blender_xyz": [
+        -50.62441635131836,
+        48.79902267456055,
+        69.30000305175781
+      ],
+      "epsg3857_xy": [
+        -4287292.489787418,
+        -1456773.546455515
+      ],
+      "blender_z": 69.30000305175781,
+      "dem_z_m": 15.974386215209961,
+      "residual_blender_units": 55.953155741970505
+    },
+    {
+      "object_name": "CALIBRADO | passarela viga lateral",
+      "blender_xyz": [
+        -47.95070266723633,
+        46.70153045654297,
+        70.8499984741211
+      ],
+      "epsg3857_xy": [
+        -4287289.7319514835,
+        -1456775.7059784788
+      ],
+      "blender_z": 70.8499984741211,
+      "dem_z_m": 17.542884826660156,
+      "residual_blender_units": 55.882041045784604
+    },
+    {
+      "object_name": "CALIBRADO | passarela viga lateral",
+      "blender_xyz": [
+        -47.75910949707031,
+        46.90571594238281,
+        70.8499984741211
+      ],
+      "epsg3857_xy": [
+        -4287289.534655451,
+        -1456775.4953399515
+      ],
+      "blender_z": 70.8499984741211,
+      "dem_z_m": 17.542884826660156,
+      "residual_blender_units": 55.882041045784604
+    },
+    {
+      "object_name": "CALIBRADO | cabeçote alargado",
+      "blender_xyz": [
+        -4.400000095367432,
+        -5.099999904632568,
+        -1.0
+      ],
+      "epsg3857_xy": [
+        -4287244.794847986,
+        -1456829.060097942
+      ],
+      "blender_z": -1.0,
+      "dem_z_m": 56.13805389404297,
+      "residual_blender_units": -55.85770845872011
+    },
+    {
+      "object_name": "CALIBRADO | cornija bloco alto",
+      "blender_xyz": [
+        9.800000190734863,
+        6.0,
+        0.22499999403953552
+      ],
+      "epsg3857_xy": [
+        -4287230.168478093,
+        -1456817.6058240153
+      ],
+      "blender_z": 0.22499999403953552,
+      "dem_z_m": 57.32162857055664,
+      "residual_blender_units": -55.85598330225337
+    },
+    {
+      "object_name": "CALIBRADO | piso superior torre",
+      "blender_xyz": [
+        -46.3370246887207,
+        55.80131530761719,
+        69.30000305175781
+      ],
+      "epsg3857_xy": [
+        -4287288.077011407,
+        -1456766.324957957
+      ],
+      "blender_z": 69.30000305175781,
+      "dem_z_m": 16.08562660217285,
+      "residual_blender_units": 55.838184064226944
+    },
+    {
+      "object_name": "CALIBRADO | piso superior torre",
+      "blender_xyz": [
+        -46.10821533203125,
+        53.611915588378906,
+        69.30000305175781
+      ],
+      "epsg3857_xy": [
+        -4287287.839159385,
+        -1456768.5814566803
+      ],
+      "blender_z": 69.30000305175781,
+      "dem_z_m": 16.08562660217285,
+      "residual_blender_units": 55.838184064226944
+    },
+    {
+      "object_name": "CALIBRADO | friso vertical torre.002",
+      "blender_xyz": [
+        -48.59674835205078,
+        51.332557678222656,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287290.402106697,
+        -1456770.9331718357
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 16.81425666809082,
+      "residual_blender_units": 55.785110806403296
+    },
+    {
+      "object_name": "CALIBRADO | friso vertical torre.002",
+      "blender_xyz": [
+        -48.50779342651367,
+        51.4273567199707,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287290.310503983,
+        -1456770.8353767802
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 16.81425666809082,
+      "residual_blender_units": 55.785110806403296
+    },
+    {
+      "object_name": "CALIBRADO | friso vertical torre.002",
+      "blender_xyz": [
+        -48.52382278442383,
+        51.26413345336914,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287290.326876407,
+        -1456771.0036327366
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 16.81425666809082,
+      "residual_blender_units": 55.785110806403296
+    },
+    {
+      "object_name": "CALIBRADO | friso vertical torre.002",
+      "blender_xyz": [
+        -48.43486785888672,
+        51.35893249511719,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287290.235273693,
+        -1456770.9058376807
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 16.81425666809082,
+      "residual_blender_units": 55.785110806403296
+    },
+    {
+      "object_name": "CALIBRADO | entrada superior",
+      "blender_xyz": [
+        -0.05999999865889549,
+        1.600000023841858,
+        -2.200000047683716
+      ],
+      "epsg3857_xy": [
+        -4287240.3275689,
+        -1456822.1501382394
+      ],
+      "blender_z": -2.200000047683716,
+      "dem_z_m": 54.88105773925781,
+      "residual_blender_units": -55.75854944395773
+    },
+    {
+      "object_name": "CALIBRADO | entrada superior",
+      "blender_xyz": [
+        0.05999999865889549,
+        1.600000023841858,
+        -2.200000047683716
+      ],
+      "epsg3857_xy": [
+        -4287240.203879734,
+        -1456822.150028162
+      ],
+      "blender_z": -2.200000047683716,
+      "dem_z_m": 54.88105773925781,
+      "residual_blender_units": -55.75854944395773
+    },
+    {
+      "object_name": "CALIBRADO | volume técnico",
+      "blender_xyz": [
+        2.5999999046325684,
+        -3.0,
+        1.149999976158142
+      ],
+      "epsg3857_xy": [
+        -4287237.581572771,
+        -1456826.8891163897
+      ],
+      "blender_z": 1.149999976158142,
+      "dem_z_m": 58.09443283081055,
+      "residual_blender_units": -55.729709437461196
+    },
+    {
+      "object_name": "CALIBRADO | passarela viga lateral.001",
+      "blender_xyz": [
+        -44.036659240722656,
+        50.87269973754883,
+        70.8499984741211
+      ],
+      "epsg3857_xy": [
+        -4287285.701404562,
+        -1456771.4029842047
+      ],
+      "blender_z": 70.8499984741211,
+      "dem_z_m": 17.715051651000977,
+      "residual_blender_units": 55.70409930010506
+    },
+    {
+      "object_name": "CALIBRADO | passarela viga lateral.001",
+      "blender_xyz": [
+        -43.84506607055664,
+        51.07688522338867,
+        70.8499984741211
+      ],
+      "epsg3857_xy": [
+        -4287285.50410853,
+        -1456771.1923456774
+      ],
+      "blender_z": 70.8499984741211,
+      "dem_z_m": 17.715051651000977,
+      "residual_blender_units": 55.70409930010506
+    },
+    {
+      "object_name": "TERRENO | Alto",
+      "blender_xyz": [
+        87.28492736816406,
+        115.9000244140625,
+        -3.0
+      ],
+      "epsg3857_xy": [
+        -4287150.402238049,
+        -1456704.2560564077
+      ],
+      "blender_z": -3.0,
+      "dem_z_m": 53.92973709106445,
+      "residual_blender_units": -55.57531898885584
+    },
+    {
+      "object_name": "TERRENO | Encosta",
+      "blender_xyz": [
+        87.28492736816406,
+        115.9000244140625,
+        -3.0
+      ],
+      "epsg3857_xy": [
+        -4287150.402238049,
+        -1456704.2560564077
+      ],
+      "blender_z": -3.0,
+      "dem_z_m": 53.92973709106445,
+      "residual_blender_units": -55.57531898885584
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela",
+      "blender_xyz": [
+        -48.01523971557617,
+        46.83064651489258,
+        70.30000305175781
+      ],
+      "epsg3857_xy": [
+        -4287289.798591039,
+        -1456775.5729521953
+      ],
+      "blender_z": 70.30000305175781,
+      "dem_z_m": 17.542884826660156,
+      "residual_blender_units": 55.33204562342132
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela",
+      "blender_xyz": [
+        -47.9194450378418,
+        46.932743072509766,
+        70.30000305175781
+      ],
+      "epsg3857_xy": [
+        -4287289.699944992,
+        -1456775.4676290015
+      ],
+      "blender_z": 70.30000305175781,
+      "dem_z_m": 17.542884826660156,
+      "residual_blender_units": 55.33204562342132
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela",
+      "blender_xyz": [
+        -47.8177490234375,
+        46.64533233642578,
+        70.30000305175781
+      ],
+      "epsg3857_xy": [
+        -4287289.594858884,
+        -1456775.7637823422
+      ],
+      "blender_z": 70.30000305175781,
+      "dem_z_m": 17.542884826660156,
+      "residual_blender_units": 55.33204562342132
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela",
+      "blender_xyz": [
+        -47.72194290161133,
+        46.7474250793457,
+        70.30000305175781
+      ],
+      "epsg3857_xy": [
+        -4287289.4962010365,
+        -1456775.65846307
+      ],
+      "blender_z": 70.30000305175781,
+      "dem_z_m": 17.542884826660156,
+      "residual_blender_units": 55.33204562342132
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.001",
+      "blender_xyz": [
+        -44.073822021484375,
+        51.030982971191406,
+        70.30000305175781
+      ],
+      "epsg3857_xy": [
+        -4287285.739855037,
+        -1456771.2398689466
+      ],
+      "blender_z": 70.30000305175781,
+      "dem_z_m": 17.715051651000977,
+      "residual_blender_units": 55.154103877741775
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.001",
+      "blender_xyz": [
+        -43.97802734375,
+        51.13307571411133,
+        70.30000305175781
+      ],
+      "epsg3857_xy": [
+        -4287285.641208987,
+        -1456771.1345496846
+      ],
+      "blender_z": 70.30000305175781,
+      "dem_z_m": 17.715051651000977,
+      "residual_blender_units": 55.154103877741775
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.001",
+      "blender_xyz": [
+        -43.87632751464844,
+        50.84566116333008,
+        70.30000305175781
+      ],
+      "epsg3857_xy": [
+        -4287285.536118943,
+        -1456771.4307069539
+      ],
+      "blender_z": 70.30000305175781,
+      "dem_z_m": 17.715051651000977,
+      "residual_blender_units": 55.154103877741775
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.001",
+      "blender_xyz": [
+        -43.78052520751953,
+        50.94776153564453,
+        70.30000305175781
+      ],
+      "epsg3857_xy": [
+        -4287285.437465034,
+        -1456771.325379821
+      ],
+      "blender_z": 70.30000305175781,
+      "dem_z_m": 17.715051651000977,
+      "residual_blender_units": 55.154103877741775
+    },
+    {
+      "object_name": "CALIBRADO | passarela piso 28.71 x 6.00m",
+      "blender_xyz": [
+        -47.95070266723633,
+        46.70153045654297,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287289.7319514835,
+        -1456775.7059784788
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 17.542884826660156,
+      "residual_blender_units": 55.03204257166351
+    },
+    {
+      "object_name": "CALIBRADO | piso superior torre",
+      "blender_xyz": [
+        -48.0474967956543,
+        44.40626525878906,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287289.829615888,
+        -1456778.0718959915
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 17.542884826660156,
+      "residual_blender_units": 55.03204257166351
+    },
+    {
+      "object_name": "CALIBRADO | piso superior torre",
+      "blender_xyz": [
+        -48.27630615234375,
+        46.595664978027344,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287290.067467911,
+        -1456775.8153972682
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 17.542884826660156,
+      "residual_blender_units": 55.03204257166351
+    },
+    {
+      "object_name": "CALIBRADO | passarela piso 28.71 x 6.00m",
+      "blender_xyz": [
+        -43.845069885253906,
+        51.07688903808594,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287285.504112465,
+        -1456771.1923417489
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 17.715051651000977,
+      "residual_blender_units": 54.85410082598396
+    },
+    {
+      "object_name": "CALIBRADO | piso superior torre",
+      "blender_xyz": [
+        -41.56059265136719,
+        51.31932830810547,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287283.149625754,
+        -1456770.9403535714
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 17.715051651000977,
+      "residual_blender_units": 54.85410082598396
+    },
+    {
+      "object_name": "CALIBRADO | piso superior torre",
+      "blender_xyz": [
+        -43.76011657714844,
+        51.4085578918457,
+        70.0
+      ],
+      "epsg3857_xy": [
+        -4287285.416851674,
+        -1456770.8503984439
+      ],
+      "blender_z": 70.0,
+      "dem_z_m": 17.715051651000977,
+      "residual_blender_units": 54.85410082598396
+    },
+    {
+      "object_name": "CALIBRADO | volume técnico",
+      "blender_xyz": [
+        -2.5999999046325684,
+        3.0,
+        -1.149999976158142
+      ],
+      "epsg3857_xy": [
+        -4287242.946940466,
+        -1456820.709427921
+      ],
+      "blender_z": -1.149999976158142,
+      "dem_z_m": 54.88105773925781,
+      "residual_blender_units": -54.70854937243216
+    },
+    {
+      "object_name": "CALIBRADO | passarela viga lateral",
+      "blender_xyz": [
+        -47.95070266723633,
+        46.70153045654297,
+        69.54999542236328
+      ],
+      "epsg3857_xy": [
+        -4287289.7319514835,
+        -1456775.7059784788
+      ],
+      "blender_z": 69.54999542236328,
+      "dem_z_m": 17.542884826660156,
+      "residual_blender_units": 54.58203799402679
+    },
+    {
+      "object_name": "CALIBRADO | passarela viga lateral",
+      "blender_xyz": [
+        -47.75910949707031,
+        46.90571594238281,
+        69.54999542236328
+      ],
+      "epsg3857_xy": [
+        -4287289.534655451,
+        -1456775.4953399515
+      ],
+      "blender_z": 69.54999542236328,
+      "dem_z_m": 17.542884826660156,
+      "residual_blender_units": 54.58203799402679
+    },
+    {
+      "object_name": "OFICIAL | Terminal alto | apoio junto encosta",
+      "blender_xyz": [
+        -1.0,
+        1.0,
+        -1.0
+      ],
+      "epsg3857_xy": [
+        -4287241.295917011,
+        -1456822.7694463853
+      ],
+      "blender_z": -1.0,
+      "dem_z_m": 54.88105773925781,
+      "residual_blender_units": -54.55854939627402
+    },
+    {
+      "object_name": "OFICIAL | Terminal alto | apoio junto encosta",
+      "blender_xyz": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "epsg3857_xy": [
+        -4287239.234430849,
+        -1456822.7676117625
+      ],
+      "blender_z": -1.0,
+      "dem_z_m": 54.88105773925781,
+      "residual_blender_units": -54.55854939627402
+    },
+    {
+      "object_name": "CALIBRADO | bloco alto 18.60 x 11.00m",
+      "blender_xyz": [
+        -9.300000190734863,
+        5.5,
+        -5.0
+      ],
+      "epsg3857_xy": [
+        -4287249.855212684,
+        -1456818.1387162048
+      ],
+      "blender_z": -5.0,
+      "dem_z_m": 50.972984313964844,
+      "residual_blender_units": -54.51938906324827
+    },
+    {
+      "object_name": "CALIBRADO | bloco alto subsolo",
+      "blender_xyz": [
+        -9.300000190734863,
+        5.5,
+        -5.0
+      ],
+      "epsg3857_xy": [
+        -4287249.855212684,
+        -1456818.1387162048
+      ],
+      "blender_z": -5.0,
+      "dem_z_m": 50.972984313964844,
+      "residual_blender_units": -54.51938906324827
+    },
+    {
+      "object_name": "CALIBRADO | cabeçote alargado",
+      "blender_xyz": [
+        4.400000095367432,
+        5.099999904632568,
+        1.0
+      ],
+      "epsg3857_xy": [
+        -4287235.733665251,
+        -1456818.5384463686
+      ],
+      "blender_z": 1.0,
+      "dem_z_m": 56.76835250854492,
+      "residual_blender_units": -54.50914892173201
+    },
+    {
+      "object_name": "CALIBRADO | bloco alto 18.60 x 11.00m",
+      "blender_xyz": [
+        9.300000190734863,
+        -5.5,
+        5.0
+      ],
+      "epsg3857_xy": [
+        -4287230.673300553,
+        -1456829.459828106
+      ],
+      "blender_z": 5.0,
+      "dem_z_m": 60.57305908203125,
+      "residual_blender_units": -54.44147521093838
+    },
+    {
+      "object_name": "CALIBRADO | bloco alto subsolo",
+      "blender_xyz": [
+        9.300000190734863,
+        -5.5,
+        5.0
+      ],
+      "epsg3857_xy": [
+        -4287230.673300553,
+        -1456829.459828106
+      ],
+      "blender_z": 5.0,
+      "dem_z_m": 60.57305908203125,
+      "residual_blender_units": -54.44147521093838
+    },
+    {
+      "object_name": "CALIBRADO | passarela viga lateral.001",
+      "blender_xyz": [
+        -44.036659240722656,
+        50.87269973754883,
+        69.54999542236328
+      ],
+      "epsg3857_xy": [
+        -4287285.701404562,
+        -1456771.4029842047
+      ],
+      "blender_z": 69.54999542236328,
+      "dem_z_m": 17.715051651000977,
+      "residual_blender_units": 54.404096248347244
+    },
+    {
+      "object_name": "CALIBRADO | passarela viga lateral.001",
+      "blender_xyz": [
+        -43.84506607055664,
+        51.07688522338867,
+        69.54999542236328
+      ],
+      "epsg3857_xy": [
+        -4287285.50410853,
+        -1456771.1923456774
+      ],
+      "blender_z": 69.54999542236328,
+      "dem_z_m": 17.715051651000977,
+      "residual_blender_units": 54.404096248347244
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.005",
+      "blender_xyz": [
+        -33.94879150390625,
+        41.530113220214844,
+        73.69999694824219
+      ],
+      "epsg3857_xy": [
+        -4287275.294834626,
+        -1456781.0235369024
+      ],
+      "blender_z": 73.69999694824219,
+      "dem_z_m": 21.740806579589844,
+      "residual_blender_units": 54.393308595394366
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.005",
+      "blender_xyz": [
+        -33.85299301147461,
+        41.63220977783203,
+        73.69999694824219
+      ],
+      "epsg3857_xy": [
+        -4287275.196184648,
+        -1456780.918213705
+      ],
+      "blender_z": 73.69999694824219,
+      "dem_z_m": 21.740806579589844,
+      "residual_blender_units": 54.393308595394366
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.005",
+      "blender_xyz": [
+        -33.75129699707031,
+        41.34479522705078,
+        73.69999694824219
+      ],
+      "epsg3857_xy": [
+        -4287275.091098536,
+        -1456781.2143709778
+      ],
+      "blender_z": 73.69999694824219,
+      "dem_z_m": 21.740806579589844,
+      "residual_blender_units": 54.393308595394366
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.005",
+      "blender_xyz": [
+        -33.65549850463867,
+        41.4468879699707,
+        73.69999694824219
+      ],
+      "epsg3857_xy": [
+        -4287274.992448553,
+        -1456781.1090517126
+      ],
+      "blender_z": 73.69999694824219,
+      "dem_z_m": 21.740806579589844,
+      "residual_blender_units": 54.393308595394366
+    },
+    {
+      "object_name": "CALIBRADO | volume técnico",
+      "blender_xyz": [
+        2.5999999046325684,
+        3.0,
+        1.149999976158142
+      ],
+      "epsg3857_xy": [
+        -4287237.58707664,
+        -1456820.7046579018
+      ],
+      "blender_z": 1.149999976158142,
+      "dem_z_m": 56.76835250854492,
+      "residual_blender_units": -54.35914894557387
+    },
+    {
+      "object_name": "CALIBRADO | piso superior torre",
+      "blender_xyz": [
+        -48.0474967956543,
+        44.40626525878906,
+        69.30000305175781
+      ],
+      "epsg3857_xy": [
+        -4287289.829615888,
+        -1456778.0718959915
+      ],
+      "blender_z": 69.30000305175781,
+      "dem_z_m": 17.542884826660156,
+      "residual_blender_units": 54.33204562342132
+    },
+    {
+      "object_name": "CALIBRADO | piso superior torre",
+      "blender_xyz": [
+        -48.27630615234375,
+        46.595664978027344,
+        69.30000305175781
+      ],
+      "epsg3857_xy": [
+        -4287290.067467911,
+        -1456775.8153972682
+      ],
+      "blender_z": 69.30000305175781,
+      "dem_z_m": 17.542884826660156,
+      "residual_blender_units": 54.33204562342132
+    },
+    {
+      "object_name": "OFICIAL | Terminal alto | apoio junto encosta",
+      "blender_xyz": [
+        -1.0,
+        -1.0,
+        1.0
+      ],
+      "epsg3857_xy": [
+        -4287241.294082388,
+        -1456824.8309325478
+      ],
+      "blender_z": 1.0,
+      "dem_z_m": 56.42903518676758,
+      "residual_blender_units": -54.15845001787792
+    },
+    {
+      "object_name": "OFICIAL | Terminal alto | apoio junto encosta",
+      "blender_xyz": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "epsg3857_xy": [
+        -4287239.232596225,
+        -1456824.8290979252
+      ],
+      "blender_z": 1.0,
+      "dem_z_m": 56.42903518676758,
+      "residual_blender_units": -54.15845001787792
+    },
+    {
+      "object_name": "CALIBRADO | piso superior torre",
+      "blender_xyz": [
+        -41.56059265136719,
+        51.31932830810547,
+        69.30000305175781
+      ],
+      "epsg3857_xy": [
+        -4287283.149625754,
+        -1456770.9403535714
+      ],
+      "blender_z": 69.30000305175781,
+      "dem_z_m": 17.715051651000977,
+      "residual_blender_units": 54.154103877741775
+    },
+    {
+      "object_name": "CALIBRADO | piso superior torre",
+      "blender_xyz": [
+        -43.76011657714844,
+        51.4085578918457,
+        69.30000305175781
+      ],
+      "epsg3857_xy": [
+        -4287285.416851674,
+        -1456770.8503984439
+      ],
+      "blender_z": 69.30000305175781,
+      "dem_z_m": 17.715051651000977,
+      "residual_blender_units": 54.154103877741775
+    },
+    {
+      "object_name": "CALIBRADO | passarela piso 28.71 x 6.00m",
+      "blender_xyz": [
+        -47.95070266723633,
+        46.70153045654297,
+        69.10000610351562
+      ],
+      "epsg3857_xy": [
+        -4287289.7319514835,
+        -1456775.7059784788
+      ],
+      "blender_z": 69.10000610351562,
+      "dem_z_m": 17.542884826660156,
+      "residual_blender_units": 54.132048675179135
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.004",
+      "blender_xyz": [
+        -37.89019775390625,
+        37.32977294921875,
+        73.69999694824219
+      ],
+      "epsg3857_xy": [
+        -4287279.353558829,
+        -1456785.3566240729
+      ],
+      "blender_z": 73.69999694824219,
+      "dem_z_m": 22.015470504760742,
+      "residual_blender_units": 54.10943173057311
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.004",
+      "blender_xyz": [
+        -37.794395446777344,
+        37.43186569213867,
+        73.69999694824219
+      ],
+      "epsg3857_xy": [
+        -4287279.254904915,
+        -1456785.251304804
+      ],
+      "blender_z": 73.69999694824219,
+      "dem_z_m": 22.015470504760742,
+      "residual_blender_units": 54.10943173057311
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.004",
+      "blender_xyz": [
+        -37.69269943237305,
+        37.144447326660156,
+        73.69999694824219
+      ],
+      "epsg3857_xy": [
+        -4287279.149818799,
+        -1456785.5474660087
+      ],
+      "blender_z": 73.69999694824219,
+      "dem_z_m": 22.015470504760742,
+      "residual_blender_units": 54.10943173057311
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.004",
+      "blender_xyz": [
+        -37.59690475463867,
+        37.246543884277344,
+        73.69999694824219
+      ],
+      "epsg3857_xy": [
+        -4287279.051172752,
+        -1456785.4421428146
+      ],
+      "blender_z": 73.69999694824219,
+      "dem_z_m": 22.015470504760742,
+      "residual_blender_units": 54.10943173057311
+    },
+    {
+      "object_name": "CALIBRADO | volume técnico",
+      "blender_xyz": [
+        -2.5999999046325684,
+        -3.0,
+        1.149999976158142
+      ],
+      "epsg3857_xy": [
+        -4287242.941436597,
+        -1456826.8938864088
+      ],
+      "blender_z": 1.149999976158142,
+      "dem_z_m": 56.42903518676758,
+      "residual_blender_units": -54.008450041719776
+    },
+    {
+      "object_name": "CALIBRADO | passarela piso 28.71 x 6.00m",
+      "blender_xyz": [
+        -43.845069885253906,
+        51.07688903808594,
+        69.10000610351562
+      ],
+      "epsg3857_xy": [
+        -4287285.504112465,
+        -1456771.1923417489
+      ],
+      "blender_z": 69.10000610351562,
+      "dem_z_m": 17.715051651000977,
+      "residual_blender_units": 53.95410692949959
+    },
+    {
+      "object_name": "CALIBRADO | cabeçote alargado",
+      "blender_xyz": [
+        -4.400000095367432,
+        -5.099999904632568,
+        1.0
+      ],
+      "epsg3857_xy": [
+        -4287244.794847986,
+        -1456829.060097942
+      ],
+      "blender_z": 1.0,
+      "dem_z_m": 56.13805389404297,
+      "residual_blender_units": -53.85770845872011
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.002",
+      "blender_xyz": [
+        -42.95271682739258,
+        42.08020782470703,
+        70.30000305175781
+      ],
+      "epsg3857_xy": [
+        -4287284.576072967,
+        -1456780.4647900984
+      ],
+      "blender_z": 70.30000305175781,
+      "dem_z_m": 19.380741119384766,
+      "residual_blender_units": 53.43254286911508
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.002",
+      "blender_xyz": [
+        -42.85691833496094,
+        42.18230056762695,
+        70.30000305175781
+      ],
+      "epsg3857_xy": [
+        -4287284.477422983,
+        -1456780.359470833
+      ],
+      "blender_z": 70.30000305175781,
+      "dem_z_m": 19.380741119384766,
+      "residual_blender_units": 53.43254286911508
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.002",
+      "blender_xyz": [
+        -42.75522232055664,
+        41.89488983154297,
+        70.30000305175781
+      ],
+      "epsg3857_xy": [
+        -4287284.372336876,
+        -1456780.655624174
+      ],
+      "blender_z": 70.30000305175781,
+      "dem_z_m": 19.380741119384766,
+      "residual_blender_units": 53.43254286911508
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.002",
+      "blender_xyz": [
+        -42.659423828125,
+        41.99698257446289,
+        70.30000305175781
+      ],
+      "epsg3857_xy": [
+        -4287284.273686892,
+        -1456780.5503049083
+      ],
+      "blender_z": 70.30000305175781,
+      "dem_z_m": 19.380741119384766,
+      "residual_blender_units": 53.43254286911508
+    },
+    {
+      "object_name": "CALIBRADO | cornija bloco alto",
+      "blender_xyz": [
+        -9.800000190734863,
+        -6.0,
+        -0.22499999403953552
+      ],
+      "epsg3857_xy": [
+        -4287250.360035143,
+        -1456829.992720295
+      ],
+      "blender_z": -0.22499999403953552,
+      "dem_z_m": 54.490901947021484,
+      "residual_blender_units": -53.38030676198881
+    },
+    {
+      "object_name": "CALIBRADO | terreno Cidade Alta",
+      "blender_xyz": [
+        96.70047760009766,
+        127.63379669189453,
+        -3.0
+      ],
+      "epsg3857_xy": [
+        -4287140.707988314,
+        -1456692.152914823
+      ],
+      "blender_z": -3.0,
+      "dem_z_m": 51.673885345458984,
+      "residual_blender_units": -53.24380013123524
+    },
+    {
+      "object_name": "CALIBRADO | terreno Encosta 75 graus",
+      "blender_xyz": [
+        96.70047760009766,
+        127.63379669189453,
+        -3.0
+      ],
+      "epsg3857_xy": [
+        -4287140.707988314,
+        -1456692.152914823
+      ],
+      "blender_z": -3.0,
+      "dem_z_m": 51.673885345458984,
+      "residual_blender_units": -53.24380013123524
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.003",
+      "blender_xyz": [
+        -39.01130676269531,
+        46.280548095703125,
+        70.30000305175781
+      ],
+      "epsg3857_xy": [
+        -4287280.5173448315,
+        -1456776.1317029246
+      ],
+      "blender_z": 70.30000305175781,
+      "dem_z_m": 19.603221893310547,
+      "residual_blender_units": 53.202599513627966
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.003",
+      "blender_xyz": [
+        -38.915504455566406,
+        46.38264083862305,
+        70.30000305175781
+      ],
+      "epsg3857_xy": [
+        -4287280.418690917,
+        -1456776.0263836554
+      ],
+      "blender_z": 70.30000305175781,
+      "dem_z_m": 19.603221893310547,
+      "residual_blender_units": 53.202599513627966
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.003",
+      "blender_xyz": [
+        -38.813812255859375,
+        46.09523391723633,
+        70.30000305175781
+      ],
+      "epsg3857_xy": [
+        -4287280.313608744,
+        -1456776.322533068
+      ],
+      "blender_z": 70.30000305175781,
+      "dem_z_m": 19.603221893310547,
+      "residual_blender_units": 53.202599513627966
+    },
+    {
+      "object_name": "CALIBRADO | montante passarela.003",
+      "blender_xyz": [
+        -38.718013763427734,
+        46.197322845458984,
+        70.30000305175781
+      ],
+      "epsg3857_xy": [
+        -4287280.214958758,
+        -1456776.2172177343
+      ],
+      "blender_z": 70.30000305175781,
+      "dem_z_m": 19.603221893310547,
+      "residual_blender_units": 53.202599513627966
+    },
+    {
+      "object_name": "CALIBRADO | entrada superior",
+      "blender_xyz": [
+        -0.05999999865889549,
+        -1.600000023841858,
+        2.200000047683716
+      ],
+      "epsg3857_xy": [
+        -4287240.324633503,
+        -1456825.4485161486
+      ],
+      "blender_z": 2.200000047683716,
+      "dem_z_m": 56.42903518676758,
+      "residual_blender_units": -52.9584499701942
+    },
+    {
+      "object_name": "CALIBRADO | entrada superior",
+      "blender_xyz": [
+        0.05999999865889549,
+        -1.600000023841858,
+        2.200000047683716
+      ],
+      "epsg3857_xy": [
+        -4287240.200944337,
+        -1456825.4484060712
+      ],
+      "blender_z": 2.200000047683716,
+      "dem_z_m": 56.42903518676758,
+      "residual_blender_units": -52.9584499701942
+    },
+    {
+      "object_name": "CALIBRADO | cornija bloco alto",
+      "blender_xyz": [
+        -9.800000190734863,
+        -6.0,
+        0.22499999403953552
+      ],
+      "epsg3857_xy": [
+        -4287250.360035143,
+        -1456829.992720295
+      ],
+      "blender_z": 0.22499999403953552,
+      "dem_z_m": 54.490901947021484,
+      "residual_blender_units": -52.93030677390974
+    },
+    {
+      "object_name": "CALIBRADO | cabeçote alargado",
+      "blender_xyz": [
+        -4.400000095367432,
+        5.099999904632568,
+        -1.0
+      ],
+      "epsg3857_xy": [
+        -4287244.804204563,
+        -1456818.546518709
+      ],
+      "blender_z": -1.0,
+      "dem_z_m": 52.99376678466797,
+      "residual_blender_units": -52.607953813468114
+    },
+    {
+      "object_name": "OFICIAL | Terminal alto | apoio junto encosta",
+      "blender_xyz": [
+        -1.0,
+        1.0,
+        1.0
+      ],
+      "epsg3857_xy": [
+        -4287241.295917011,
+        -1456822.7694463853
+      ],
+      "blender_z": 1.0,
+      "dem_z_m": 54.88105773925781,
+      "residual_blender_units": -52.55854939627402
+    },
+    {
+      "object_name": "OFICIAL | Terminal alto | apoio junto encosta",
+      "blender_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "epsg3857_xy": [
+        -4287239.234430849,
+        -1456822.7676117625
+      ],
+      "blender_z": 1.0,
+      "dem_z_m": 54.88105773925781,
+      "residual_blender_units": -52.55854939627402
+    },
+    {
+      "object_name": "CALIBRADO | bloco alto 18.60 x 11.00m",
+      "blender_xyz": [
+        9.300000190734863,
+        5.5,
+        5.0
+      ],
+      "epsg3857_xy": [
+        -4287230.683390979,
+        -1456818.1216542115
+      ],
+      "blender_z": 5.0,
+      "dem_z_m": 58.655643463134766,
+      "residual_blender_units": -52.459744504537916
+    },
+    {
+      "object_name": "CALIBRADO | bloco alto subsolo",
+      "blender_xyz": [
+        9.300000190734863,
+        5.5,
+        5.0
+      ],
+      "epsg3857_xy": [
+        -4287230.683390979,
+        -1456818.1216542115
+      ],
+      "blender_z": 5.0,
+      "dem_z_m": 58.655643463134766,
+      "residual_blender_units": -52.459744504537916
+    },
+    {
+      "object_name": "CALIBRADO | volume técnico",
+      "blender_xyz": [
+        -2.5999999046325684,
+        3.0,
+        1.149999976158142
+      ],
+      "epsg3857_xy": [
+        -4287242.946940466,
+        -1456820.709427921
+      ],
+      "blender_z": 1.149999976158142,
+      "dem_z_m": 54.88105773925781,
+      "residual_blender_units": -52.408549420115875
+    },
+    {
+      "object_name": "CALIBRADO | entrada superior",
+      "blender_xyz": [
+        -0.05999999865889549,
+        1.600000023841858,
+        2.200000047683716
+      ],
+      "epsg3857_xy": [
+        -4287240.3275689,
+        -1456822.1501382394
+      ],
+      "blender_z": 2.200000047683716,
+      "dem_z_m": 54.88105773925781,
+      "residual_blender_units": -51.3585493485903
+    }
+  ],
+  "notes": [
+    "Resultado é candidato e nunca altera DEM ou Blender.",
+    "Inicialização robusta usa quantis/medianas antes do least-squares para não ser dominada por poucos outliers extremos.",
+    "Se o algoritmo precisar forçar apenas o número mínimo de pontos, quality é insuficiente.",
+    "Escala vertical próxima à escala horizontal sugere unidades uniformes, mas não prova precisão topográfica.",
+    "Outliers podem representar correções locais legítimas, artefatos do DEM ou objetos classificados indevidamente como terreno.",
+    "Revisar objetos/resíduos espacialmente antes de qualquer correção de Z."
+  ]
+}

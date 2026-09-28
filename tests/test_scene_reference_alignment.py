@@ -15,6 +15,9 @@ SPEC.loader.exec_module(MODULE)
 
 
 class SceneReferenceAlignmentTests(unittest.TestCase):
+    def test_reference_schema_v2_is_supported(self):
+        self.assertIn("bay-of-all-saints/blender-structure-reference-v2", MODULE.SUPPORTED_REFERENCE_SCHEMAS)
+
     def test_bounds_and_offset_in_meters(self):
         scene_group = {
             "bounds": {"min": [0.0, 0.0], "max": [10.0, 10.0], "center": [5.0, 5.0], "size": [10.0, 10.0]}

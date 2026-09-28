@@ -18,6 +18,12 @@ from collections import defaultdict
 from pathlib import Path
 
 
+SUPPORTED_REFERENCE_SCHEMAS = {
+    "bay-of-all-saints/blender-structure-reference-v1",
+    "bay-of-all-saints/blender-structure-reference-v2",
+}
+
+
 def load_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
@@ -163,8 +169,8 @@ def main() -> int:
     reference = load_json(args.reference)
     if scene.get("schema") != "bay-of-all-saints/blender-structural-scene-audit-v2":
         raise SystemExit("scene audit precisa ser v2; execute novamente audit_structural_scene.py")
-    if reference.get("schema") != "bay-of-all-saints/blender-structure-reference-v1":
-        raise SystemExit("structural reference inválida")
+    if reference.get("schema") not in SUPPORTED_REFERENCE_SCHEMAS:
+        raise SystemExit("schema de structural reference não suportado")
 
     meters_per_unit = (reference.get("fit_summary") or {}).get("meters_per_blender_unit")
     if meters_per_unit is not None:

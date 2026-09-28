@@ -1,22 +1,109 @@
 {
-  "schema": "bay-of-all-saints/capture-source-summary-v1",
+  "schema": "bay-of-all-saints/aleph-source-summary-v1",
   "area_id": "mvp-centro-lacerda",
   "capture_id": "aleph-20260924T205631Z-aqqo7pkx",
-  "status": "blocked_not_found",
-  "inspector_executed": false,
-  "expected_files": {
-    "manifest.json": null,
-    "map.osm": null,
-    "terrain.tif": null
-  },
-  "scene_reference": "data/aleph/aleph-20260924T205631Z-aqqo7pkx/map.osm",
+  "status": "complete",
   "source_commit": "Belluxx/Aleph@d24c61507481a91a0dd6afac4f97626a4e5ea780",
-  "observations": [
-    "A captura histórica foi procurada na estação local e não foi recuperada.",
-    "Nenhuma captura alternativa foi promovida ou usada como substituta.",
-    "O manifest.json precisa ser validado antes de usar map.osm ou terrain.tif.",
-    "Este arquivo registra bloqueio de pre-flight; não é um resumo produzido pelo inspector."
+  "gerado_em": "2026-09-28T09:44:13.131256+00:00",
+  "capture_folder": "data/aleph/aleph-20260924T205631Z-aqqo7pkx",
+  "manifest": {
+    "sha256": "ee52c8dfca67b5aac6bfd364d9878d61e875c152d78b8ceff8dfc8461f035a18",
+    "format": "aleph-python",
+    "version": 3,
+    "state": "complete",
+    "started_at": "2026-09-24T20:56:31+00:00",
+    "finished_at": "2026-09-24T20:59:19+00:00",
+    "exports_saved": true
+  },
+  "geografia": {
+    "crs_bounds": "WGS84 / latitude-longitude",
+    "bounds": [
+      -12.977,
+      -38.5155,
+      -12.969,
+      -38.508
+    ],
+    "centro": [
+      -12.972999999999999,
+      -38.511750000000006
+    ],
+    "largura_aproximada_m": 812.68,
+    "altura_aproximada_m": 889.56,
+    "terrain_crs_esperado_pelo_aleph": "EPSG:3857"
+  },
+  "opcoes": {
+    "include": [
+      "osm"
+    ],
+    "step": 30,
+    "fov": 75,
+    "depth": "roads",
+    "streetview_format": "jpg",
+    "delay": 0,
+    "satellite_zoom": 18,
+    "satellite_format": "jpg",
+    "terrain_zoom": 14
+  },
+  "estagios": [
+    {
+      "modo": "osm",
+      "resultados_registrados": 2,
+      "grid": {
+        "zoom": 14,
+        "left": 1648413,
+        "top": 2249558,
+        "width": 89,
+        "height": 97,
+        "x0": 6439,
+        "y0": 8787,
+        "columns": 1,
+        "rows": 1
+      },
+      "hosts_origem_observados": {
+        "download.geofabrik.de": 1,
+        "elevation-tiles-prod.s3.amazonaws.com": 1
+      },
+      "politica": {
+        "classe_uso": "PENDENTE_VERIFICACAO",
+        "licenca": "Origem/licença do dataset de elevação deve ser confirmada por captura",
+        "observacao": "Usar como referência/MVP até a fonte efetiva do DEM ser registrada e aprovada."
+      }
+    }
   ],
-  "license_status": "pending_verification",
-  "next_action": "recuperar a pasta da captura histórica e executar tools/aleph/inspect_capture.py"
+  "hosts_origem_observados": {
+    "download.geofabrik.de": 1,
+    "elevation-tiles-prod.s3.amazonaws.com": 1
+  },
+  "arquivos_esperados": {
+    "map.osm": {
+      "presente": true,
+      "bytes": 11590732
+    },
+    "terrain.tif": {
+      "presente": true,
+      "bytes": 498804
+    }
+  },
+  "politicas_de_uso": [
+    {
+      "fonte": "osm",
+      "classe_uso": "PRODUCAO_COM_ATRIBUICAO",
+      "licenca": "ODbL (OpenStreetMap); confirmar requisitos do uso concreto",
+      "observacao": "Adequado para vias, footprints, POIs e proxies; manter atribuição e proveniência."
+    },
+    {
+      "fonte": "terrain",
+      "classe_uso": "PENDENTE_VERIFICACAO",
+      "licenca": "Origem/licença do dataset de elevação deve ser confirmada por captura",
+      "observacao": "Usar como referência/MVP até a fonte efetiva do DEM ser registrada e aprovada."
+    }
+  ],
+  "warnings": [],
+  "recomendacoes": [
+    "Preservar o manifest.json original junto à captura.",
+    "Registrar o commit do Aleph usado para criar a captura.",
+    "Manter OSM/proxies separados de hero assets no Blender.",
+    "Não promover terreno a asset final até confirmar origem/licença do dataset de elevação.",
+    "Não importar imagens Google Satellite/Street View como assets de produção."
+  ]
 }

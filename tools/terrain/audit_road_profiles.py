@@ -14,6 +14,10 @@ import statistics
 from pathlib import Path
 
 DEFAULT_LAYERS = {"roads", "pedestrian"}
+SUPPORTED_STRUCTURE_SCHEMAS = {
+    "bay-of-all-saints/osm-structure-v1",
+    "bay-of-all-saints/osm-structure-v2",
+}
 
 
 def load_json(path: Path):
@@ -175,8 +179,8 @@ def main() -> int:
         raise SystemExit("audit_road_profiles.py requer `rasterio` para amostrar o DEM.") from exc
 
     structure = load_json(args.structure)
-    if structure.get("schema") != "bay-of-all-saints/osm-structure-v1":
-        raise SystemExit("--structure não possui schema osm-structure-v1")
+    if structure.get("schema") not in SUPPORTED_STRUCTURE_SCHEMAS:
+        raise SystemExit("--structure possui schema estrutural não suportado")
 
     layers = set(DEFAULT_LAYERS)
     if args.include_steps:

@@ -20,12 +20,13 @@ def run(command: list[str], label: str, allowed_returncodes: set[int] | None = N
     completed = subprocess.run(command)
     allowed = allowed_returncodes or {0}
     if completed.returncode not in allowed:
-        raise subprocess.CalledProcessError(completed.returncode, command)
+        print(f"ERROR: {label} retornou código {completed.returncode}.", file=sys.stderr)
+        raise SystemExit(completed.returncode)
     return completed.returncode
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Executa OSM → QA topológico/DEM → fit geográfico → referência Blender.")
+    parser = argparse.ArgumentParser(description="Executa OSM -> QA topológico/DEM -> fit geográfico -> referência Blender.")
     parser.add_argument("--osm", type=Path, required=True)
     parser.add_argument("--hints", type=Path, required=True)
     parser.add_argument("--dem", type=Path)
@@ -98,7 +99,7 @@ def main() -> int:
             "--structure", str(structure),
             "--output", str(dem_osm_coverage),
             "--minimum-margin-m", str(args.dem_osm_minimum_margin_m),
-        ], "QA de cobertura DEM ↔ OSM", allowed_returncodes={0, 2} if args.allow_insufficient_dem_coverage else {0})
+        ], "QA de cobertura DEM <-> OSM", allowed_returncodes={0, 2} if args.allow_insufficient_dem_coverage else {0})
         coverage_data = json.loads(dem_osm_coverage.read_text(encoding="utf-8"))
         dem_coverage_status = coverage_data.get("status")
         if returncode == 2:
@@ -133,7 +134,7 @@ def main() -> int:
         "--min-anchors", str(args.min_anchors),
         "--max-residual", str(args.max_residual),
         "--target-rms", str(args.target_rms),
-    ], "Fit OSM → Blender")
+    ], "Fit OSM -> Blender")
 
     fit_data = json.loads(fit.read_text(encoding="utf-8"))
     quality = fit_data.get("quality")
