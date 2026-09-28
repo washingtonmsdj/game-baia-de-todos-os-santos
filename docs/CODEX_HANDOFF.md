@@ -1,228 +1,269 @@
-# Handoff do Codex — MVP no Blender
+# Handoff Geral do Codex — Bay of All Saints
 
 ## Objetivo
 
-Continuar a cena do MVP de Salvador sem exigir coordenação manual repetida.
+Continuar o desenvolvimento do **Bay of All Saints** sem depender de contexto de conversa e sem exigir coordenação manual repetida.
 
-A cena de trabalho do Blender deve ser fornecida localmente ao Codex. O GitHub é a fonte de verdade para scripts de automação, notas de revisão, proveniência de dados e instruções de validação.
+Antes de qualquer trabalho relevante, leia:
 
-## Contexto atual da cena
+1. `AGENTS.md`;
+2. `docs/PROJECT_STATUS.md`;
+3. `docs/PROJECT_VISION.md`;
+4. `docs/GAMEPLAY_FIDELITY_POLICY.md`;
+5. este documento;
+6. `docs/CODEX_STRUCTURE_HANDOFF.md` quando a tarefa envolver terreno, OSM, DEM, ruas, coastline ou footprints;
+7. o handoff da revisão atual, quando existir.
 
-A cena-fonte analisada continha aproximadamente:
+## Fonte de verdade
 
-- 4.617 objetos;
-- 4.097 datablocks de mesh;
-- 135 materiais;
-- 30 coleções;
-- 412 curvas;
-- 54 câmeras;
-- 1 luz explícita;
-- milhares de nomes com sufixos automáticos como `.001`, `.002` etc.
+- GitHub: scripts, documentação, relatórios e decisões de direção;
+- `.blend` oficial sob `blender/`: cena de trabalho rastreável via Git LFS;
+- dados Aleph/OSM/DEM: referência estrutural, não geometria final obrigatória;
+- `docs/PROJECT_STATUS.md`: estado vivo e ponto de entrada para nova IA.
 
-A cena já inclui várias revisões históricas ao redor do Elevador Lacerda, Mercado Modelo, Praça Cairu, terreno, vias, acessos e interiores jogáveis.
+Decisões importantes não devem existir apenas em chat.
 
-Não tratar a cena como um blockout novo.
+## Cena Blender oficial atual
 
-## Ordem de aplicação
+Consultar sempre `docs/PROJECT_STATUS.md` para caminho, SHA-256 e revisão ativa.
 
-Ao começar pela cena original analisada:
+Não sobrescrever silenciosamente uma revisão validada. Criar nova revisão apenas quando houver mudança real de cena que justifique nova versão.
 
-1. executar `tools/blender/r27_qa_review.py`;
-2. abrir e validar o `_r27.blend` resultante;
-3. executar `tools/blender/r28_gameplay_export.py` sobre a cena válida mais recente;
-4. abrir e validar o `_r28.blend`;
-5. ler o datablock `R28_PERFORMANCE_AUDIT`;
-6. executar `tools/blender/r29_optimization.py` **sem** `--apply-exact`;
-7. abrir o `_r29.blend` de auditoria e ler:
-   - `R29_OPTIMIZATION_REPORT`;
-   - `R29_EXACT_DUPLICATE_CANDIDATES`;
-   - `R29_LOD_COLLISION_CANDIDATES`;
-8. confirmar que nenhum `HERO` ou `GAMEPLAY` está em grupo de deduplicação automática;
-9. voltar ao `_r28.blend` validado e executar:
+## Princípio de fidelidade
 
-```bash
-blender cena_r28.blend --python tools/blender/r29_optimization.py -- --apply-exact
+O objetivo não é fazer uma cópia milimétrica de Salvador.
+
+A cidade real serve como referência para identidade, estrutura e coerência espacial. A geometria final deve ser adaptada quando necessário para:
+
+- personagem a pé;
+- carros;
+- NPCs/pedestres;
+- câmera;
+- colisão;
+- navegação;
+- tráfego;
+- missões/perseguições;
+- performance.
+
+Ao detectar diferença entre referência e cena, não corrigir automaticamente. Classificar primeiro conforme `docs/GAMEPLAY_FIDELITY_POLICY.md`.
+
+## Separação obrigatória de responsabilidades
+
+Evitar usar a mesma malha como solução improvisada para tudo.
+
+Manter separações equivalentes a:
+
+```text
+SOURCE_GEOREF
+REFERENCE_OSM
+REFERENCE_TERRAIN
+ENVIRONMENT_FINAL
+GAMEPLAY_TERRAIN
+ROAD_DRIVEABLE
+SIDEWALK_WALKABLE
+NAVIGATION_HINTS
+COLLISION
+HERO
+WATER
+STREAMING
 ```
 
-10. reabrir e validar o `_r29.blend` aplicado;
-11. exportar os relatórios reais da cena com `tools/blender/export_revision_reports.py`;
-12. registrar métricas reais antes/depois;
-13. só então iniciar a R30 visual.
+A nomenclatura pode evoluir; a separação semântica não.
 
-Se a cena local já estiver em uma revisão validada posterior, pular as etapas anteriores conforme necessário, mas nunca aplicar uma revisão destrutiva sobre um arquivo cuja origem não esteja preservada.
+## Captura geográfica do MVP
 
-## Aleph e dados geográficos
+Captura histórica recuperada:
 
-O projeto **Aleph** é uma ferramenta externa registrada para aquisição e organização de referência geográfica.
+```text
+data/aleph/aleph-20260924T205631Z-aqqo7pkx/
+  manifest.json
+  map.osm
+  terrain.tif
+```
 
-Referência pinada atualmente:
+Aleph pinado atualmente:
 
-- repositório: `Belluxx/Aleph`;
-- commit analisado: `d24c61507481a91a0dd6afac4f97626a4e5ea780`;
-- licença do software: MIT.
+`Belluxx/Aleph@d24c61507481a91a0dd6afac4f97626a4e5ea780`
 
-Consultar antes de usar qualquer captura:
+Antes de trocar ou ampliar a fonte, consultar:
 
-- `docs/references/ALEPH.md`;
-- `docs/references/GEOREFERENCE_RECOVERY.md`;
 - `docs/DATA_PROVENANCE.md`;
 - `docs/WORLD_DATA_ACQUISITION.md`;
-- `docs/references/SOURCE_REGISTRY.json`.
+- `docs/references/SOURCE_REGISTRY.json`;
+- `docs/references/ALEPH.md`.
 
-### Captura original do MVP — pista recuperada do `.blend`
+Não substituir silenciosamente a captura histórica.
 
-A cena analisada contém a referência:
+## Georreferenciamento
+
+O pipeline estrutural deve continuar reproduzível.
+
+Ferramentas principais:
 
 ```text
-data/aleph/aleph-20260924T205631Z-aqqo7pkx/map.osm
+tools/blender/extract_georef_hints.py
+tools/world/run_structural_pipeline.py
+tools/georef/solve_osm_blender_fit.py
+tools/world/extract_osm_structure.py
+tools/world/audit_osm_topology.py
+tools/world/build_blender_structure_reference.py
+tools/world/compare_scene_reference_alignment.py
+tools/terrain/audit_dem.py
+tools/terrain/compare_dem_osm_coverage.py
+tools/terrain/audit_road_profiles.py
+tools/terrain/fit_dem_blender_vertical.py
+tools/terrain/analyze_vertical_domains.py
 ```
 
-Ao trabalhar na estação de origem, procurar prioritariamente por:
+A coleção:
 
-```text
-aleph-20260924T205631Z-aqqo7pkx
-```
+`SOURCE_GEOREF | STRUCTURAL_REFERENCE`
 
-Se a pasta existir:
+é referência somente. Não promover automaticamente para arte final.
 
-1. não modificar nem remover a captura original;
-2. preservar `manifest.json`, `map.osm`, `terrain.tif` e `terrain/tiles/`;
-3. executar o inspector de proveniência;
-4. commitar apenas o relatório leve no GitHub, não os dados pesados sem decisão explícita.
-
-### Ao encontrar uma pasta de captura Aleph local
-
-Antes de importar qualquer dado no Blender, executar:
-
-```bash
-python tools/aleph/inspect_capture.py CAMINHO_DA_CAPTURA \
-  --output docs/reports/aleph/AREA_ID/source_summary.json
-```
-
-No Windows o comando pode ser executado em uma única linha.
-
-Depois:
-
-1. preservar o `manifest.json` original junto aos dados locais;
-2. revisar `source_summary.json`;
-3. confirmar o commit do Aleph usado na captura;
-4. confirmar bounds e sistema de coordenadas;
-5. importar OSM apenas como referência/proxy inicialmente;
-6. manter terreno de origem incerta como referência até a licença da fonte efetiva ser confirmada;
-7. não importar Google Satellite/Street View obtidos pelo Aleph como assets de produção;
-8. registrar a transformação geográfica → coordenadas locais do Blender antes de expandir o mapa.
-
-### Recuperação de georreferenciamento da cena
-
-Antes de implementar um bridge territorial automático, executar no `.blend` validado:
-
-```bash
-blender cena.blend --background \
-  --python tools/blender/extract_georef_hints.py \
-  -- --output docs/reports/blender/georef_hints.json
-```
-
-O relatório coleta:
-
-- propriedades Aleph/OSM/EPSG/DEM/terrain;
-- caminhos-fonte embutidos;
-- IDs OSM encontrados;
-- bounds em world coordinates;
-- configurações de unidades.
-
-Anchors já conhecidos:
+## Anchors conhecidos
 
 - Palácio Rio Branco — OSM way `402383814`;
 - Mercado Modelo — OSM way `59392558`.
 
-Há evidência preliminar de que o XY da cena está muito próximo dos eixos EPSG:3857, com escala próxima de 1 m por unidade, mas **isso ainda não é uma transformação oficial**. Fechar a transformação somente depois de cruzar múltiplos anchors com a geometria exata do `map.osm` original e calcular o erro residual.
+Usar múltiplos anchors. Não determinar transformação global por um único prédio.
 
-Registrar somente após validação:
+## Estado estrutural atual
+
+Não duplicar números aqui: consultar `docs/PROJECT_STATUS.md` e os relatórios da revisão ativa.
+
+Em termos de direção, o trabalho atual deve:
+
+1. terminar diagnósticos que realmente influenciam decisões;
+2. identificar erros locais comprováveis;
+3. corrigir somente o que melhora identidade, continuidade ou gameplay;
+4. iniciar superfícies funcionais de jogo antes de expandir a cidade em grande escala.
+
+## Terreno
+
+DEM é referência. Não é superfície final obrigatória.
+
+Não:
+
+- aplicar escala Z global apenas para reduzir RMS;
+- suavizar a escarpa por conveniência;
+- transformar batimetria em nodata automaticamente;
+- editar silenciosamente `terrain.tif`;
+- deslocar ruas/prédios para encaixar um artefato de DEM.
+
+Correção local deve ser rastreável e validada também do ponto de vista de gameplay.
+
+## Ruas e carros
+
+OSM fornece estrutura, não rede de tráfego completa.
+
+Além da geometria das ruas, o jogo precisará de dados próprios para:
 
 ```text
-world_origin_wgs84
-world_origin_epsg3857
-world_origin_blender
-rotation_true_north
-meters_per_blender_unit
-fit_rms_error_m
-anchors_used
+lanes
+direction
+intersections
+turn_connections
+speed_zones
+traffic_lights
+crosswalks
+spawns
+parking
+traffic_priority
 ```
 
-### Política de uso resumida
+Dirigibilidade pode justificar adaptações locais de largura, raio de curva e inclinação, desde que a identidade da rua seja preservada.
 
-- **OSM/Geofabrik:** permitido no pipeline com atribuição/obrigações ODbL registradas;
-- **terrain.tif do Aleph:** útil tecnicamente, mas a origem/licença efetiva do DEM deve ser confirmada antes de distribuição;
-- **Google Satellite via Aleph:** `PROIBIDO_PRODUCAO`;
-- **Google Street View via Aleph:** `PROIBIDO_PRODUCAO`.
+## Pedestres e NPCs
 
-A licença MIT do software Aleph não concede direitos sobre os dados obtidos de serviços externos.
+Calçada visual não equivale a navmesh.
 
-## Validação obrigatória após cada revisão
+O jogo deverá ter conectividade própria para:
 
-O Codex deve verificar todos os pontos abaixo antes de considerar uma revisão bem-sucedida:
+```text
+sidewalk
+crosswalk
+steps
+ramp
+plaza
+building_entrance
+elevator
+poi
+restricted_area
+```
 
-- o `.blend` de origem continua existindo e não foi sobrescrito;
-- o novo arquivo de revisão foi criado;
-- o Blender consegue reabrir o novo arquivo;
-- as coleções e datablocks de texto esperados existem;
-- não há exceções Python no console/log do Blender;
-- a contagem total de objetos continua plausível;
-- nenhuma exclusão em massa ocorreu;
-- a geometria dos principais marcos continua presente;
-- a rota de gameplay afetada pode ser inspecionada visualmente.
+Uma área visualmente fiel que prenda NPCs é funcionalmente incorreta.
 
-## Corredor jogável atual
+## Colisão
 
-A rota atual do MVP é:
+Preferir colisores simples e previsíveis.
 
-**entrada da Cidade Alta → passarela superior → cabines do Elevador Lacerda → saída inferior → Cidade Baixa → Praça Cairu → Mercado Modelo**
+Exemplos:
 
-As coordenadas usadas pelos guias R27/R28 vêm de checkpoints já registrados na própria cena. Elas são guias de design e não dados topográficos certificados.
+- escada visual + rampa de colisão;
+- fachada detalhada + collider simplificado;
+- calçada irregular + superfície caminhável limpa.
 
-## R29 — regras de segurança
+Não usar detalhe visual pesado como colisão apenas por conveniência.
 
-A R29 só pode relinkar meshes quando a equivalência for comprovada pelo conteúdo avaliado pelo fingerprint.
+## Engine
 
-Não otimizar automaticamente quando houver dúvida sobre:
+Nenhuma engine está escolhida definitivamente.
 
-- topologia;
-- UVs;
-- slots e ordem de materiais;
-- atributos;
-- shape keys;
-- custom properties;
-- animation data;
-- metadados de gameplay;
-- classificação R28.
+Não amarrar prematuramente o pipeline a Godot, Unity ou Unreal.
 
-Objetos `HERO` e `GAMEPLAY` ficam protegidos da deduplicação automática.
+Manter unidade métrica, origem, IDs, transforms, colisão e metadados de forma interoperável.
 
-Não usar nomes parecidos de objetos como prova de equivalência.
+A escolha deverá ser feita após vertical slice funcional do corredor:
 
-## Objetivo da R30
+**Cidade Alta → Elevador Lacerda → Praça Cairu → Mercado Modelo → Cidade Baixa/waterfront**.
 
-A R30 deve transformar o MVP de maneira visualmente perceptível sem perder o controle técnico conquistado nas revisões anteriores.
+O slice deverá testar personagem, veículo, NPCs, navegação, tráfego, streaming e performance.
 
-Prioridades:
+## Revisões do Blender
 
-1. leitura de ruas e calçadas;
-2. composição da Praça Cairu;
-3. entorno imediato do Mercado Modelo;
-4. conexão visual e jogável entre a saída inferior do Elevador Lacerda e a Cidade Baixa;
-5. mobiliário urbano modular;
-6. vegetação controlada;
-7. iluminação e atmosfera de preview;
-8. corredores claros de tráfego e pedestres;
-9. cobertura, atalhos, becos, entradas e pequenas rotas alternativas;
-10. preparação visual para expansão futura em direção ao Comércio e Centro Histórico.
+Para qualquer revisão que altere a cena:
 
-A R30 deve consultar `R29_LOD_COLLISION_CANDIDATES` antes de adicionar detalhes pesados em objetos ou áreas de alto custo.
+- preservar a anterior;
+- aplicar mudança rastreável;
+- salvar nova revisão quando justificado;
+- reabrir e validar;
+- gerar relatórios antes/depois;
+- registrar motivo das adaptações de gameplay;
+- manter referência, arte final, gameplay e colisão separados.
 
-## Idioma da documentação
+Não criar nova revisão apenas para alterar número quando a cena não mudou.
 
-O nome do jogo permanece **Bay of All Saints**.
+## Validação mínima
 
-Toda a documentação, relatórios, handoffs e notas de desenvolvimento devem ser escritos em **português**. Nomes próprios reais de Salvador permanecem com sua grafia oficial.
+Antes de concluir um ciclo:
 
-Identificadores técnicos históricos como `allsaints_*` podem permanecer por compatibilidade com metadados já gravados no `.blend`.
+```bash
+python -m compileall -q tools tests
+python -m unittest discover -s tests -p "test_*.py" -v
+python tools/references/validate_registry.py --root .
+```
+
+Quando Blender for alterado, validar reabertura e exportar relatórios correspondentes.
+
+## Manutenção documental obrigatória
+
+Sempre atualizar `docs/PROJECT_STATUS.md` quando mudar:
+
+- cena oficial;
+- revisão ativa;
+- etapa atual;
+- blockers;
+- política de fidelidade/gameplay;
+- engine;
+- vertical slice;
+- pipeline estrutural;
+- próximos passos.
+
+Se uma decisão material contradizer algum documento existente, corrigir o documento no mesmo ciclo de trabalho.
+
+## Regra de autonomia
+
+Trabalhar de forma autônoma em decisões técnicas normais, preservando estado anterior e registrando incertezas.
+
+Não usar offsets mágicos, valores inventados, edições destrutivas ocultas ou decoração para mascarar problema estrutural.
