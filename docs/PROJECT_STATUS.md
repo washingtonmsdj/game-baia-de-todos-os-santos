@@ -32,43 +32,118 @@ Commit que introduziu a cena no Git LFS e concluiu a R30A.1 diagnóstica:
 
 `d631b431b04db5b67d817988c99e655a4808d658`
 
+A R30A.2 confirmou o mesmo SHA antes/depois; nenhuma geometria foi salva.
+
 A cena não deve ser substituída/destruída silenciosamente. Novas revisões devem preservar a origem e ser justificadas por mudança real de cena.
 
 ## Fase atual
 
-### R30A.2 — diagnóstico vertical por domínio
+### R30A.2 — diagnóstico vertical por domínio concluído
 
-Implementação do pipeline integrada na `main` pelo merge:
+Pipeline integrado em:
 
 `cc2de0c3bc311ba861fa9819440cd7e533704844`
 
-Objetivo:
+Execução/relatório concluído em:
 
-- separar terreno terrestre de batimetria;
-- analisar resíduos verticais espacialmente;
-- identificar regiões concretas que merecem correção;
-- não aplicar correção geométrica global apenas para reduzir RMS.
+`450c377ee0fdbb385e64464959091b72bfdb195b`
 
-Handoff:
+Relatórios:
 
-`docs/CODEX_R30A2_HANDOFF.md`
+- `docs/reports/blender/r30a2/R30A2_REPORT.md`;
+- `docs/reports/blender/r30a2/r30a2_status.json`;
+- `docs/reports/blender/r30a2/vertical_domains.json`.
 
-Plano:
+Estado final da rodada:
 
-`docs/revisions/R30A2_VERTICAL_DOMAIN_PLAN.md`
+`diagnostic_complete_vertical_domain_split_insufficient`
 
-## Estado conhecido da R30A.1
+Nenhuma correção geométrica local foi autorizada pela R30A.2.
 
-### Cobertura DEM
+## Principais conclusões da R30A.2
 
-O falso diagnóstico anterior de `0,1584%` foi corrigido.
+### Batimetria não explica o erro vertical
+
+Foram 4.978 amostras DEM válidas:
+
+- 2 abaixo de 0 m (`0,0402%`);
+- 4.976 no domínio terrestre não negativo (`99,9598%`).
+
+O robust fit já rejeitava os dois valores negativos. Separar batimetria não alterou os parâmetros do fit.
+
+Portanto, a hipótese “a batimetria é a principal causa do RMS vertical ruim” foi descartada.
+
+### Fit vertical continua insuficiente
+
+R30A.2 terrestre:
+
+- entrada: 4.976 amostras;
+- mantidas: 4.900;
+- outliers: 76;
+- escala Z candidata: `1,0253290`;
+- offset Z candidato: `-4,6316455`;
+- RMS: `9,2106683`;
+- mediana absoluta: `5,2179134`;
+- máximo residual: `29,3265740`;
+- razão vertical/horizontal: `1,0568512`;
+- quality: `insufficient`.
+
+Nenhuma escala/offset Z foi aplicado.
+
+### A malha amostrada não é topografia pura
+
+O objeto usado no fit foi:
+
+`MVP | terreno corrigido | colisão estática`
+
+Evidências da própria cena indicam que ele é uma superfície funcional/histórica de MVP:
+
+- `game_role: static_terrain_collision`;
+- derivado de `Aleph DEM + OSM`;
+- contém patamares adaptados aos pisos do esboço;
+- altimetria foi filtrada/corrigida para MVP;
+- inclui plataformas fixas e aproximações.
+
+Isso é decisivo para a direção do projeto: **não devemos tentar deformar essa superfície de gameplay para coincidir globalmente com o DEM**.
+
+A partir de agora, referência topográfica e terreno jogável devem ser tratados como responsabilidades diferentes.
+
+### Regiões críticas detectadas
+
+A grade espacial encontrou 157 células terrestres para revisão, com destaque para:
+
+- base da escarpa/Cidade Baixa;
+- waterfront/cais;
+- plataformas baixas do MVP;
+- platôs da Cidade Alta;
+- transições junto à escarpa/ladeiras.
+
+Os maiores resíduos aparecem frequentemente onde a malha atual contém patamares funcionais deliberados ou onde o DEM tem dificuldade para representar transições urbanas abruptas.
+
+Nenhuma das dez células mais críticas apontou diretamente Praça Cairu ou o footprint do Mercado Modelo como alvo de correção.
+
+### Mercado Modelo permanece controle, não alvo
+
+OSM way:
+
+`59392558`
+
+Footprint real observado com offset aproximado de:
+
+`1,878 m`
+
+Não mover automaticamente.
+
+## Cobertura DEM
+
+O falso diagnóstico histórico de `0,1584%` foi corrigido na R30A.1.
 
 A janela real da captura Aleph está:
 
 - `covered_with_margin`;
 - cobertura: `100%`.
 
-A captura histórica é:
+Captura histórica:
 
 `data/aleph/aleph-20260924T205631Z-aqqo7pkx/`
 
@@ -78,9 +153,9 @@ Arquivos principais:
 - `map.osm`;
 - `terrain.tif`.
 
-### Fit XY
+## Fit XY
 
-Estado atual:
+Estado conhecido:
 
 - quality: `candidate`;
 - status: `candidate_only`;
@@ -91,44 +166,27 @@ Estado atual:
 
 Não tratar como transformação final/verificada sem revisão adicional.
 
-### Mercado Modelo
+## Decisão estrutural após R30A.2
 
-OSM way:
+Ainda **não existe evidência suficiente para autorizar uma primeira correção geométrica local baseada apenas no DEM**.
 
-`59392558`
+Próximo foco recomendado:
 
-O falso binding de terreno detectado na R30A era causado por leitura indevida de ID dentro de texto descritivo. O auditor foi corrigido.
+1. separar semanticamente referência física/topográfica de `GAMEPLAY_TERRAIN`/colisão;
+2. obter ou validar referência vertical terrestre independente para regiões prioritárias;
+3. revisar regionalmente escarpa e waterfront;
+4. testar quais patamares são adaptações deliberadas de gameplay e quais são erros reais;
+5. só então propor correções locais.
 
-Footprint real observado com offset aproximado de:
-
-`1,878 m`
-
-Não mover o Mercado automaticamente apenas por esse valor.
-
-### Fit vertical R30A.1
-
-Seleção consciente de terreno:
-
-- 1 objeto;
-- 4.978 amostras;
-- 4.900 mantidas;
-- RMS: aproximadamente `9,2106683`;
-- mediana absoluta: aproximadamente `5,2179134`;
-- escala Z candidata: `1,0253290`;
-- offset Z candidato: `-4,6316455`;
-- quality: `insufficient`.
-
-Nenhuma escala/offset Z foi aplicado.
-
-A R30A.2 existe para decompor esse erro por domínio/região antes de qualquer alteração física.
+Importante: um patamar funcional pode permanecer diferente do DEM se ele melhora circulação/veículos/NPCs sem destruir a identidade de Salvador.
 
 ## DEM e batimetria
 
 O `terrain.tif` histórico é derivado do conjunto Mapzen/Tilezen Terrain Tiles usado pelo Aleph.
 
-O recorte inclui a Baía de Todos-os-Santos. Valores DEM profundamente negativos podem representar batimetria do dataset e **não devem ser classificados automaticamente como nodata/erro**.
+O recorte inclui a Baía de Todos-os-Santos. Valores DEM profundamente negativos podem representar batimetria e **não devem ser classificados automaticamente como nodata/erro**.
 
-O fit de terreno terrestre deve separar explicitamente o domínio apropriado antes de interpretar resíduos.
+A R30A.2 confirmou que esses pontos negativos não dominam o fit vertical.
 
 Não editar o `terrain.tif` original.
 
@@ -183,6 +241,8 @@ WATER
 STREAMING
 ```
 
+A R30A.2 reforçou especialmente a necessidade de separar `REFERENCE_TERRAIN` de `GAMEPLAY_TERRAIN`/`COLLISION`.
+
 Ruas visuais não são, por si só, rede de tráfego. Calçadas visuais não são, por si só, navmesh.
 
 ## Engine
@@ -222,28 +282,40 @@ Antes de expansão urbana grande, esse slice deve provar:
 
 ## Ordem macro de desenvolvimento
 
-1. fechar diagnóstico estrutural útil;
-2. corrigir somente erros estruturais realmente relevantes;
-3. construir superfícies de gameplay;
-4. consolidar terreno/escarpa;
-5. coastline/cais;
-6. ruas/cruzamentos;
-7. escadas/calçadas;
-8. footprints/Hero assets;
-9. colisão funcional;
-10. rede de pedestres/NPCs;
-11. rede de tráfego/veículos;
-12. vertical slice em engine candidata;
-13. otimização e arte final do recorte;
-14. expansão da cidade.
+1. separar referência topográfica de terreno/colisão jogável;
+2. classificar regionalmente erros reais versus adaptações de gameplay;
+3. corrigir somente erros estruturais realmente relevantes;
+4. construir/estabilizar superfícies de gameplay;
+5. consolidar escarpa e interfaces críticas;
+6. coastline/cais;
+7. ruas/cruzamentos;
+8. escadas/calçadas;
+9. footprints/Hero assets;
+10. colisão funcional;
+11. rede de pedestres/NPCs;
+12. rede de tráfego/veículos;
+13. vertical slice em engine candidata;
+14. otimização e arte final do recorte;
+15. expansão da cidade.
 
 A ordem pode ser ajustada quando gameplay revelar dependências reais.
+
+## Bloqueios atuais
+
+- fit vertical completo e terrestre seguem `insufficient`;
+- a superfície amostrada mistura terreno funcional, colisão e patamares de MVP;
+- escarpa contém transições abruptas que o DEM pode representar mal localmente;
+- fit XY segue `candidate`, não `verified`;
+- não há referência vertical terrestre independente suficiente para autorizar correção local apenas por métrica.
+
+Esses bloqueios não impedem planejamento de gameplay layers, classificação semântica ou preparação do vertical slice.
 
 ## O que não fazer
 
 - não tentar zerar RMS global por princípio;
 - não reconstruir a cena do zero sem motivo;
 - não deformar Hero assets para acomodar erro de base;
+- não transformar `static_terrain_collision` em topografia “real” por força;
 - não usar geometria visual pesada diretamente como colisão/navmesh por conveniência;
 - não inventar largura de rua como se fosse medida;
 - não aplicar escala/offset global sem análise;
