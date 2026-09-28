@@ -134,7 +134,9 @@ def main():
         })
 
     payload = {
-        "schema": "bay-of-all-saints/blender-terrain-samples-v2",
+        # Mantido em v1 porque os consumidores existentes aceitam campos adicionais e a
+        # mudança desta revisão é de política de seleção, não de formato geométrico.
+        "schema": "bay-of-all-saints/blender-terrain-samples-v1",
         "blend_file": bpy.data.filepath,
         "blender_version": bpy.app.version_string,
         "scene_units": {
