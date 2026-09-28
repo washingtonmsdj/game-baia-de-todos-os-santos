@@ -1,7 +1,7 @@
 {
   "schema": "bay-of-all-saints/source-registry-v1",
   "project": "Bay of All Saints",
-  "updated_at": "2026-09-27",
+  "updated_at": "2026-09-28",
   "sources": [
     {
       "id": "aleph-tool",
@@ -23,12 +23,14 @@
     {
       "id": "legacy-mvp-aleph-capture-hint",
       "type": "capture_reference",
-      "name": "Captura Aleph original do MVP — pista recuperada do .blend",
+      "name": "Captura Aleph original do MVP",
       "capture_folder_hint": "aleph-20260924T205631Z-aqqo7pkx",
       "map_osm_path_hint": "data/aleph/aleph-20260924T205631Z-aqqo7pkx/map.osm",
       "usage_class": "REFERENCIA_INTERNA",
-      "status": "PASTA_ORIGINAL_AINDA_NAO_RECUPERADA",
-      "notes": "O caminho foi recuperado de metadados embutidos no .blend analisado. Procurar essa pasta na estação de trabalho e preservar o manifest.json/terrain.tif se existirem."
+      "status": "RECUPERADA_E_AUDITADA",
+      "recovered_on": "2026-09-28",
+      "expected_bounds_wgs84": [-12.977, -38.5155, -12.969, -38.508],
+      "notes": "A captura histórica foi recuperada na estação local; manifest.json, map.osm e terrain.tif foram auditados e usados nos diagnósticos R30A/R30A.1."
     },
     {
       "id": "osm-geofabrik",
@@ -55,6 +57,7 @@
       "provider_endpoint_pattern": "https://elevation-tiles-prod.s3.amazonaws.com/geotiff/{z}/{x}/{y}.tif",
       "provider_registry": "https://registry.opendata.aws/terrain-tiles/",
       "provider_attribution": "https://github.com/tilezen/joerd/blob/master/docs/attribution.md",
+      "provider_data_sources": "https://github.com/tilezen/joerd/blob/master/docs/data-sources.md",
       "aleph_behavior": {
         "terrain_zoom_default": 14,
         "tile_format": "GeoTIFF Float32",
@@ -62,7 +65,12 @@
         "height_unit": "meter",
         "resampling": "none during Aleph merge according to Aleph capture notes"
       },
-      "underlying_sources": "mosaico; pode incluir SRTM e outras fontes de elevação conforme a área/tile",
+      "underlying_sources": {
+        "model": "mosaico de fontes conforme área e tile",
+        "land_expected_for_salvador": "SRTM é a fonte global principal em terra nos zooms médios/altos, salvo fonte regional de maior resolução",
+        "ocean": "ETOPO1 é usado para batimetria oceânica em todos os zooms, inclusive quando oversampled em zoom alto",
+        "important_interpretation": "valores negativos na área da Baía podem representar batimetria válida e não devem ser convertidos automaticamente em nodata ou usados no fit do terreno terrestre"
+      },
       "crs_observed": "EPSG:3857",
       "usage_class": "PENDENTE_VERIFICACAO",
       "purpose": [
@@ -70,16 +78,18 @@
         "blockout",
         "Cidade Alta/Cidade Baixa",
         "QA de perfil vertical de vias",
-        "fit vertical DEM ↔ Blender"
+        "fit vertical DEM ↔ Blender",
+        "diagnóstico separado de terra e batimetria"
       ],
       "verification_required": [
-        "recuperar terrain.tif histórico e seu manifest.json",
-        "calcular SHA-256",
+        "preservar terrain.tif histórico e seu manifest.json",
+        "manter SHA-256 registrado",
         "auditar CRS, bounds, pixel size e nodata",
+        "separar batimetria de superfície terrestre antes de ajustar Z",
         "confirmar atribuição/licença efetiva das fontes subjacentes aplicáveis ao recorte",
         "classificar artefatos locais antes de qualquer correção"
       ],
-      "notes": "O endpoint usado pelo Aleph foi identificado como o dataset público Mapzen/Tilezen Terrain Tiles no bucket elevation-tiles-prod. Isso melhora a proveniência, mas não transforma o DEM em levantamento cadastral nem garante que cada pixel tenha a mesma fonte/precisão."
+      "notes": "O endpoint usado pelo Aleph foi identificado como o dataset público Mapzen/Tilezen Terrain Tiles no bucket elevation-tiles-prod. A documentação Tilezen informa ETOPO1 para ocean bathymetry em todos os zooms e SRTM como fonte global principal em terra. Portanto o mínimo negativo observado no recorte que inclui a Baía não é, isoladamente, evidência de corrupção. Isso não transforma o DEM em levantamento cadastral nem garante precisão uniforme por pixel."
     },
     {
       "id": "aleph-google-satellite",
