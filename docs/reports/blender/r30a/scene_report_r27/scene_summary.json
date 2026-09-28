@@ -1,0 +1,40 @@
+{
+  "project": "Bay of All Saints",
+  "blend_file": "salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r27.blend",
+  "scene": "SALVADOR | ESBOCO OFICIAL",
+  "counts": {
+    "objects": 4668,
+    "meshes": 4137,
+    "materials": 135,
+    "collections": 34,
+    "curves": 412,
+    "lights": 4,
+    "cameras": 55,
+    "texts": 5
+  },
+  "object_types": {
+    "CAMERA": 55,
+    "CURVE": 375,
+    "EMPTY": 60,
+    "FONT": 37,
+    "LIGHT": 4,
+    "MESH": 4137
+  },
+  "r28_classes": {
+    "UNCLASSIFIED": 4668
+  },
+  "mesh_totals": {
+    "object_vertices": 839684,
+    "object_polygons": 1238783,
+    "unique_mesh_vertices": 839684,
+    "unique_mesh_polygons": 1238783
+  },
+  "revision_properties": {},
+  "exported_textblocks": [
+    {
+      "textblock": "R27_README",
+      "file": "R27_README.txt",
+      "characters": 1375
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "bay-of-all-saints/dem-audit-blocked-v1",
+  "area_id": "mvp-centro-lacerda",
+  "status": "blocked_source_not_found",
+  "dem": "terrain.tif da captura aleph-20260924T205631Z-aqqo7pkx",
+  "audit_executed": false,
+  "metrics": null,
+  "observations": [
+    "terrain.tif correspondente à cena não foi recuperado.",
+    "Nenhum raster alternativo foi auditado para não substituir silenciosamente a fonte histórica.",
+    "CRS, bounds, pixel size, nodata e estatísticas permanecem não verificados."
+  ],
+  "next_action": "recuperar terrain.tif e executar tools/terrain/audit_dem.py"
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "bay-of-all-saints/capture-source-summary-v1",
+  "area_id": "mvp-centro-lacerda",
+  "capture_id": "aleph-20260924T205631Z-aqqo7pkx",
+  "status": "blocked_not_found",
+  "inspector_executed": false,
+  "expected_files": {
+    "manifest.json": null,
+    "map.osm": null,
+    "terrain.tif": null
+  },
+  "scene_reference": "data/aleph/aleph-20260924T205631Z-aqqo7pkx/map.osm",
+  "source_commit": "Belluxx/Aleph@d24c61507481a91a0dd6afac4f97626a4e5ea780",
+  "observations": [
+    "A captura histórica foi procurada na estação local e não foi recuperada.",
+    "Nenhuma captura alternativa foi promovida ou usada como substituta.",
+    "O manifest.json precisa ser validado antes de usar map.osm ou terrain.tif.",
+    "Este arquivo registra bloqueio de pre-flight; não é um resumo produzido pelo inspector."
+  ],
+  "license_status": "pending_verification",
+  "next_action": "recuperar a pasta da captura histórica e executar tools/aleph/inspect_capture.py"
+}

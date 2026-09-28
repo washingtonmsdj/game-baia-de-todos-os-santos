@@ -1,0 +1,14 @@
+R30A — PRÉ-FLIGHT NÃO DESTRUTIVO
+
+Status: BLOQUEADA — captura Aleph histórica não recuperada nesta estação.
+
+Captura esperada: aleph-20260924T205631Z-aqqo7pkx
+Referência registrada na cena: data/aleph/aleph-20260924T205631Z-aqqo7pkx/map.osm
+
+Nenhuma geometria, material, coleção de gameplay ou Hero asset foi alterado
+nesta revisão. O arquivo é uma cópia de trabalho com metadados de pre-flight
+para preservar o estado R27 enquanto aguardamos manifest.json, map.osm e
+terrain.tif correspondentes.
+
+Não promover transformação OSM → Blender, fit vertical, referência estrutural
+ou correção de terreno sem esses dados-fonte.

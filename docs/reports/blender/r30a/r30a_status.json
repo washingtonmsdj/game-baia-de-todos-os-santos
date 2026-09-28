@@ -1,0 +1,39 @@
+{
+  "schema": "bay-of-all-saints/r30a-status-v1",
+  "revision": "R30A",
+  "status": "blocked_pending_historical_capture",
+  "language": "pt-BR",
+  "capture_id": "aleph-20260924T205631Z-aqqo7pkx",
+  "source_reference_in_scene": "data/aleph/aleph-20260924T205631Z-aqqo7pkx/map.osm",
+  "scene": {
+    "revision_used": "R27",
+    "validation": "opened_successfully_with_blender_5.2.2_factory_startup",
+    "geometry_changed": false,
+    "structural_reference_imported": false
+  },
+  "available_artifacts": {
+    "georef_hints": "georef_hints.json",
+    "structural_scene_audit_before": "structural_scene_audit_before.json",
+    "terrain_samples": "terrain_samples.json",
+    "scene_report_r27": "scene_report_r27/scene_summary.json"
+  },
+  "blocked_artifacts": {
+    "source_summary": "../../aleph/mvp-centro-lacerda/source_summary.json",
+    "dem_audit": "../../aleph/mvp-centro-lacerda/dem_audit.json",
+    "osm_structure": "map.osm ausente",
+    "osm_topology_audit": "map.osm ausente",
+    "dem_osm_coverage": "terrain.tif e osm_structure ausentes",
+    "dem_road_profiles": "terrain.tif e osm_structure ausentes",
+    "georef_fit": "map.osm ausente",
+    "structural_reference": "georef_fit não promovido",
+    "terrain_vertical_fit": "terrain.tif e georef_fit ausentes",
+    "scene_reference_alignment": "structural_reference ausente",
+    "structural_scene_audit_after": "exportado como auditoria do pre-flight, sem alterações geométricas"
+  },
+  "anchors_found_in_scene": ["59392558", "402383814"],
+  "notes": [
+    "Os anchors foram exportados, mas não foram usados em um fit sem o OSM correspondente.",
+    "Não houve correção estrutural, offset manual, reescala Z ou mudança de coastline.",
+    "A R30A não deve ser declarada concluída."
+  ]
+}

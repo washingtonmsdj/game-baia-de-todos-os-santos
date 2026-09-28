@@ -101,7 +101,7 @@ def export_textblocks(output_dir):
     for text in bpy.data.texts:
         name_upper = text.name.upper()
         if not (
-            re.match(r"R\d+_", name_upper)
+            re.match(r"R\d+A?_", name_upper)
             or "AUDIT" in name_upper
             or "REPORT" in name_upper
             or "README" in name_upper
