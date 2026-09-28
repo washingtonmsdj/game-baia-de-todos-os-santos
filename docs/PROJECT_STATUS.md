@@ -38,6 +38,17 @@ A cena não deve ser substituída/destruída silenciosamente. Novas revisões de
 
 ## Fase atual
 
+### R30A.3 — auditoria semântica direta via OrdaX concluída
+
+A cena oficial foi inspecionada diretamente pelo ChatGPT através de OrdaX Device Agent / Blender Live, sem Codex como intermediário. Foi criado o checkpoint `pre-r30a3-direct-chatgpt`; a cena permaneceu `is_dirty=false` e nenhuma geometria foi salva.
+
+A auditoria confirmou 4.677 objetos, 4.137 meshes e 135 materiais. O objeto `MVP | terreno corrigido | colisão estática` concentra 547.464 vértices / 1.082.745 polígonos e hoje acumula terreno jogável, colisão, asfalto, percurso pedonal, Praça Cairu, passeios e contenções.
+
+Isso confirma que o próximo trabalho não é forçar novo fit global nem cortar a malha imediatamente. A prioridade passa a ser separar responsabilidades semanticamente e criar camadas funcionais não destrutivas para `GAMEPLAY_TERRAIN`, `ROAD_DRIVEABLE`, `SIDEWALK_WALKABLE` e `COLLISION`.
+
+Relatórios: `docs/reports/blender/r30a3/R30A3_REPORT.md` e `docs/reports/blender/r30a3/semantic_scene_audit.json`.
+
+
 ### R30A.2 — diagnóstico vertical por domínio concluído
 
 Pipeline integrado em:
