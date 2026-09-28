@@ -2,11 +2,47 @@
 
 ## Objetivo
 
-Executar a **R30A** do **Bay of All Saints** de forma reproduzível, priorizando georreferenciamento, terreno, coastline/cais, vias e footprints antes de acabamento visual.
+Executar a evolução estrutural do **Bay of All Saints** de forma reproduzível, priorizando georreferenciamento, terreno, coastline/cais, vias e footprints antes de acabamento visual — **sem confundir fidelidade com réplica milimétrica**.
+
+Antes deste documento, ler obrigatoriamente:
+
+- `AGENTS.md`;
+- `docs/PROJECT_STATUS.md`;
+- `docs/GAMEPLAY_FIDELITY_POLICY.md`.
+
+A referência real orienta o mundo. A geometria final precisa funcionar como jogo.
+
+## Regra de decisão estrutural
+
+Uma divergência OSM/DEM ↔ Blender não autoriza correção automática.
+
+Antes de mover ou deformar qualquer coisa, classificar a situação como:
+
+- `KEEP_REAL_REFERENCE`;
+- `KEEP_GAMEPLAY`;
+- `ADAPT_LOCAL`;
+- `SOURCE_LIMITATION`;
+- `NEEDS_REVIEW`;
+- `ERROR`.
+
+Corrigir quando houver ganho real em pelo menos um destes eixos:
+
+- identidade/reconhecimento de Salvador;
+- continuidade espacial;
+- acesso a local importante;
+- dirigibilidade;
+- circulação do jogador;
+- navegação de NPCs;
+- colisão;
+- câmera;
+- missão/perseguição;
+- performance.
+
+Não perseguir RMS mínimo como objetivo artístico.
 
 ## 1. Entradas locais
 
-Procurar e preservar a captura histórica:
+Usar a captura histórica:
 
 ```text
 aleph-20260924T205631Z-aqqo7pkx/
@@ -15,7 +51,9 @@ aleph-20260924T205631Z-aqqo7pkx/
   terrain.tif
 ```
 
-Usar também um `.blend` validado após R29. Nunca sobrescrever a captura-fonte nem o `.blend` validado.
+Consultar `docs/PROJECT_STATUS.md` para a cena `.blend` oficial atual e seu SHA-256.
+
+Nunca sobrescrever a captura-fonte nem uma cena validada sem motivo documentado.
 
 ## 2. Auditar captura e DEM
 
@@ -28,7 +66,9 @@ python tools/terrain/audit_dem.py \
   --output docs/reports/aleph/mvp-centro-lacerda/dem_audit.json
 ```
 
-Se CRS/bounds/resolução divergirem do esperado, parar e investigar antes de continuar.
+Se CRS/bounds/resolução divergirem do esperado, investigar antes de continuar.
+
+Valores negativos no recorte costeiro não devem ser automaticamente classificados como erro/nodata; o dataset pode conter batimetria. Consultar `SOURCE_REGISTRY.json` e a revisão R30A.2.
 
 ## 3. Exportar pistas e auditoria da cena
 
@@ -42,7 +82,7 @@ blender CENA_VALIDADA.blend --background \
   -- --output docs/reports/blender/structural_scene_audit_before.json
 ```
 
-A auditoria estrutural atual registra OSM IDs explícitos e exclui objetos `SOURCE_GEOREF`.
+A auditoria estrutural registra OSM IDs explícitos e exclui objetos `SOURCE_GEOREF`.
 
 ## 4. Executar pipeline estrutural
 
@@ -66,11 +106,12 @@ osm_structure.json
 osm_topology_audit.json
 georef_fit.json
 structural_reference.json
-dem_audit.json           # quando houver DEM
-dem_road_profiles.json   # quando solicitado
+dem_audit.json
+dem_osm_coverage.json
+dem_road_profiles.json
 ```
 
-Fit XY `insufficient` deve parar o fluxo. `--allow-weak-fit` é apenas diagnóstico.
+Fit XY `insufficient` deve parar o fluxo. Opções de override são diagnóstico, não promoção automática.
 
 ## 5. Revisar topologia da fonte
 
@@ -86,7 +127,7 @@ Antes de usar a sobreposição, revisar `osm_topology_audit.json` nesta ordem:
 
 Consultar `docs/OSM_TOPOLOGY_QA.md`.
 
-Não deformar o Blender para reproduzir um erro comprovado da fonte OSM.
+Não deformar o Blender para reproduzir erro comprovado da fonte OSM.
 
 ## 6. Revisar fit XY
 
@@ -101,7 +142,9 @@ Conferir:
 - Mercado Modelo way `59392558`;
 - Palácio Rio Branco way `402383814` quando presentes.
 
-Nunca promover automaticamente o anchor para `verified`.
+Nunca promover automaticamente o fit para `verified` apenas por quantidade de anchors.
+
+Um offset pequeno em asset coerente não obriga movimento se a experiência e a relação espacial já estiverem boas.
 
 ## 7. Fechar relação vertical DEM ↔ Blender
 
@@ -113,7 +156,7 @@ blender CENA_VALIDADA.blend --background \
   -- --output docs/reports/blender/terrain_samples.json
 ```
 
-Se a seleção automática incluir objetos que não representam a superfície principal, repetir com `--include-regex` restritivo.
+Se a seleção automática incluir objetos que não representam superfície principal, repetir com `--include-regex` restritivo ou propriedades explícitas.
 
 Calcular o fit vertical:
 
@@ -125,16 +168,19 @@ python tools/terrain/fit_dem_blender_vertical.py \
   --output docs/reports/blender/terrain_vertical_fit.json
 ```
 
-Revisar:
+Quando aplicável, executar também a análise por domínio da R30A.2:
 
-- escala Z;
-- offset Z;
-- relação escala vertical/horizontal;
-- RMS;
-- resíduos por objeto;
-- maiores outliers.
+```bash
+python tools/terrain/analyze_vertical_domains.py \
+  --samples docs/reports/blender/terrain_samples.json \
+  --fit artifacts/structural-pipeline/mvp-centro-lacerda/georef_fit.json \
+  --dem CAMINHO_DA_CAPTURA/terrain.tif \
+  --output docs/reports/blender/vertical_domains.json
+```
 
-Não aplicar reescala/offset global automaticamente. Consultar `docs/DEM_BLENDER_VERTICAL_FIT.md`.
+Revisar escala, offset, relação vertical/horizontal, RMS, distribuição espacial e maiores resíduos.
+
+**Não aplicar reescala/offset global automaticamente.** Um terreno jogável pode divergir localmente do DEM por razões legítimas.
 
 ## 8. Importar referência estrutural
 
@@ -143,7 +189,7 @@ blender CENA_VALIDADA.blend --background \
   --python tools/blender/import_structural_reference.py \
   -- \
   --reference artifacts/structural-pipeline/mvp-centro-lacerda/structural_reference.json \
-  --save-as CENA_r30a_structure_ref.blend
+  --save-as CENA_structure_ref.blend
 ```
 
 A coleção `SOURCE_GEOREF | STRUCTURAL_REFERENCE` é somente referência, oculta no render e nunca deve ser convertida automaticamente em arte final.
@@ -173,33 +219,74 @@ python tools/world/compare_scene_reference_alignment.py \
   --output docs/reports/blender/scene_reference_alignment.json
 ```
 
-Somente IDs explícitos são comparados. Não criar binding por semelhança de nomes. `bounds_size_review` é triagem; `center_offset_review` também precisa de validação antes de mover qualquer asset.
+Somente IDs explícitos são comparados. Não criar binding por semelhança de nomes.
+
+Flags são triagem, não prova automática de erro.
 
 Consultar `docs/SCENE_REFERENCE_ALIGNMENT_QA.md`.
 
-## 10. Corrigir a cena na ordem correta
+## 10. Decidir se a correção vale a pena
 
-1. problemas críticos da fonte já classificados;
-2. coastline;
-3. waterfront/cais;
-4. eixos viários;
-5. cruzamentos;
-6. terreno e interfaces críticas;
-7. itens do `dem_road_profiles.json`;
-8. áreas pedonais e escadas;
-9. cliffs, earthworks e contenções;
-10. footprints;
-11. integração conservadora com Hero assets.
+Para cada divergência relevante, registrar:
 
-Para cada mudança registrar OSM ID/layer, objeto Blender, problema, fonte, alteração e incerteza remanescente.
+```text
+fonte real
+objeto Blender
+métrica/erro observado
+impacto visual
+impacto a pé
+impacto veicular
+impacto NPC/navmesh
+impacto colisão/câmera
+classificação
+mudança proposta
+risco
+```
+
+Exemplos:
+
+- encosta com erro grande mas inacessível: pode ser `KEEP_GAMEPLAY` ou `SOURCE_LIMITATION`;
+- rua com pequeno erro que quebra entrada importante: pode ser `ADAPT_LOCAL`;
+- prédio com binding falso: `ERROR`;
+- curva real estreita que impede carro/câmera: adaptação jogável local pode ser correta.
+
+## 11. Corrigir a cena na ordem correta
+
+A ordem não é “zerar referência”. É estabilizar o jogo:
+
+1. erros inequívocos de binding/fonte/implantação;
+2. interfaces críticas do terreno;
+3. coastline e waterfront/cais onde afetam leitura/acesso;
+4. eixos viários e cruzamentos;
+5. dirigibilidade das vias prioritárias;
+6. áreas pedonais, escadas e calçadas;
+7. colisão funcional;
+8. conectividade de NPCs;
+9. footprints relevantes;
+10. integração conservadora com Hero assets;
+11. detalhe visual somente depois.
 
 ### Terreno
 
-Nunca editar silenciosamente `terrain.tif`. Artefato comprovado deve virar correção derivada/local documentada. Não suavizar globalmente a escarpa para reduzir resíduos.
+Nunca editar silenciosamente `terrain.tif`. Artefato comprovado deve virar correção derivada/local documentada.
+
+Não suavizar globalmente a escarpa para reduzir resíduos.
+
+A superfície visual pode ser detalhada; a superfície de gameplay/colisão pode ser mais limpa.
 
 ### Vias
 
-Priorizar eixo e continuidade. Largura só é medida quando houver dado confiável; `extract_osm_structure.py` não inventa `width`.
+Priorizar:
+
+1. conectividade;
+2. eixo reconhecível;
+3. cruzamentos;
+4. dirigibilidade;
+5. largura funcional;
+6. calçadas/travessias;
+7. detalhe.
+
+Largura real desconhecida pode receber aproximação de gameplay documentada; não chamar de medida real.
 
 ### Coastline
 
@@ -211,31 +298,61 @@ waterfront construído
 water surface visual
 ```
 
-O shader da Baía se adapta à estrutura, não o contrário.
+A água visual se adapta à estrutura; a estrutura não deve ser movida apenas para servir ao shader.
 
-## 11. Auditoria depois
+### Colisão e navegação
+
+Não usar a malha visual detalhada como única colisão/navmesh.
+
+Preferir colliders simplificados e superfícies funcionais dedicadas.
+
+## 12. Auditoria depois
 
 ```bash
-blender CENA_r30a.blend --background \
+blender CENA_NOVA.blend --background \
   --python tools/blender/audit_structural_scene.py \
   -- --output docs/reports/blender/structural_scene_audit_after.json
 ```
 
-Registrar diferenças antes/depois e salvar uma nova revisão do `.blend`, preservando R29 e a versão intermediária com `SOURCE_GEOREF`.
+Registrar diferenças antes/depois e motivo de cada adaptação relevante.
 
-## 12. Gate final da R30A
+## 13. Gate de conclusão estrutural do MVP
 
-Só concluir quando:
+O recorte só deve avançar para arte pesada quando:
 
 - topologia crítica estiver classificada;
-- fit XY estiver revisado;
-- fit vertical estiver revisado ou sua insuficiência explicitamente registrada;
-- OSM IDs prioritários estiverem comparados;
-- ruas principais estiverem coerentes em planta;
-- coastline/cais estiverem coerentes;
+- fit XY estiver entendido o suficiente para controle estrutural;
+- problemas verticais relevantes estiverem classificados por região;
+- coastline/cais prioritários estiverem coerentes;
 - Praça Cairu conectar corretamente Elevador, Mercado, vias e waterfront;
-- problemas de DEM estiverem classificados;
-- footprints principais estiverem auditados;
-- nenhum Hero asset tiver sido movido para mascarar erro de base.
+- vias prioritárias forem caminháveis/dirigíveis conforme intenção;
+- áreas críticas tiverem colisão planejada;
+- navegação de pedestres/NPCs tiver caminho claro para implementação;
+- Hero assets não tiverem sido movidos para mascarar erro de base;
+- adaptações de gameplay relevantes estiverem registradas.
 
-Somente depois avançar para R30B/R30 visual.
+## 14. Próxima fronteira: vertical slice em engine
+
+Quando o recorte estrutural e funcional estiver estável, preparar o corredor:
+
+**Cidade Alta → Elevador Lacerda → Praça Cairu → Mercado Modelo → Cidade Baixa/waterfront**
+
+para teste com:
+
+- personagem;
+- veículo;
+- pedestres/NPCs;
+- navmesh;
+- rede de tráfego mínima;
+- colisão;
+- água;
+- streaming;
+- performance.
+
+A escolha de Godot/Unity/Unreal deve ser decidida depois desse teste, conforme `docs/GAMEPLAY_FIDELITY_POLICY.md`.
+
+## 15. Manutenção documental
+
+Após qualquer mudança material, atualizar `docs/PROJECT_STATUS.md` e os documentos afetados.
+
+Não deixar decisões de direção apenas em mensagens de chat.
