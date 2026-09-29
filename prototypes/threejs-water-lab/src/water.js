@@ -1,6 +1,7 @@
 import * as THREE from 'three';
+import { WORLD } from './worldConfig.js';
 
-export const WATER_LEVEL = 0.35;
+export const WATER_LEVEL = WORLD.waterLevel;
 
 export const WAVES = [
   { dir: new THREE.Vector2(1.0, 0.18).normalize(), amp: 0.42, length: 18.0, speed: 1.35, chop: 0.38 },
@@ -31,7 +32,6 @@ export function sampleWaterNormal(x, z, time, target = new THREE.Vector3()) {
   }
   return target.set(-dx, 1, -dz).normalize();
 }
-
 const vertexShader = /* glsl */`
 uniform float uTime;
 uniform float uWaterLevel;
@@ -62,13 +62,13 @@ void main() {
   vec4 world = modelMatrix * vec4(p, 1.0);
   vWorldPos = world.xyz;
   vWorldNormal = normalize(mat3(modelMatrix) * localNormal);
-  vCrest = smoothstep(.38, .72, p.y - uWaterLevel);
+  vCrest = smoothstep(.22, .63, p.y - uWaterLevel);
   gl_Position = projectionMatrix * viewMatrix * world;
 }
 `;
-
 const fragmentShader = /* glsl */`
 uniform float uTime;
+uniform float uShoreX;
 uniform vec3 uSunDirection;
 uniform vec3 uDeepColor;
 uniform vec3 uShallowColor;
@@ -94,27 +94,32 @@ void main() {
   vec3 V = normalize(cameraPosition - vWorldPos);
   float ndv = clamp(dot(N, V), 0.0, 1.0);
   float fresnel = 0.025 + 0.975 * pow(1.0 - ndv, 5.0);
-  float sun = pow(max(dot(reflect(-uSunDirection, N), V), 0.0), 180.0);
+  float sun = pow(max(dot(reflect(-uSunDirection, N), V), 0.0), 190.0);
   float horizon = pow(1.0 - max(N.y, 0.0), 2.0);
-  float micro = noise(vWorldPos.xz * 2.2 + vec2(uTime * .07, -uTime * .05));
-  vec3 body = mix(uDeepColor, uShallowColor, clamp(.18 + N.y * .34 + micro * .10, 0.0, 1.0));
-  vec3 reflected = mix(uSkyColor * .52, uSkyColor * 1.25, fresnel + horizon * .35);
-  float foamNoise = noise(vWorldPos.xz * .72 + uTime * .06);
-  float crestFoam = smoothstep(.96, 1.10, vCrest + foamNoise * .18);
-  float shoreDist = max(vWorldPos.x + 6.0, 0.0);
-  float shoreFoam = (1.0 - smoothstep(0.0, 4.5, shoreDist)) * smoothstep(.48, .78, foamNoise);
-  float foam = max(crestFoam, shoreFoam * .58);
-  vec3 color = mix(body, reflected, fresnel * .78);
-  color += uSunColor * sun * 2.6;
-  color = mix(color, vec3(.82, .92, .94), foam * .72);
-  float alpha = mix(.93, .985, fresnel);
+  float micro = noise(vWorldPos.xz * 2.15 + vec2(uTime * .07, -uTime * .05));
+  vec3 body = mix(uDeepColor, uShallowColor, clamp(.16 + N.y * .36 + micro * .10, 0.0, 1.0));
+  vec3 reflected = mix(uSkyColor * .5, uSkyColor * 1.28, clamp(fresnel + horizon * .35, 0.0, 1.0));
+  float foamNoise = noise(vWorldPos.xz * .72 + vec2(uTime * .06, -uTime * .04));
+  float crestFoam = smoothstep(.82, 1.04, vCrest + foamNoise * .22);
+  float shoreDist = max(uShoreX - vWorldPos.x, 0.0);
+  float shoreBand = 1.0 - smoothstep(0.0, 18.0, shoreDist);
+  float shoreFoam = shoreBand * smoothstep(.46, .79, foamNoise);
+  float foam = max(crestFoam, shoreFoam * .68);
+  vec3 color = mix(body, reflected, fresnel * .80);
+  color += uSunColor * sun * 2.75;
+  color = mix(color, vec3(.84, .93, .95), foam * .74);
+  float alpha = mix(.94, .992, fresnel);
   gl_FragColor = vec4(color, alpha);
 }
 `;
 
 export function createWaterMesh() {
-  const geometry = new THREE.PlaneGeometry(420, 420, 260, 260);
+  const bounds = WORLD.oceanBounds;
+  const width = bounds.maxX - bounds.minX;
+  const depth = bounds.maxZ - bounds.minZ;
+  const geometry = new THREE.PlaneGeometry(width, depth, 300, 340);
   geometry.rotateX(-Math.PI / 2);
+  geometry.translate((bounds.minX + bounds.maxX) * 0.5, 0, (bounds.minZ + bounds.maxZ) * 0.5);
   const material = new THREE.ShaderMaterial({
     vertexShader,
     fragmentShader,
@@ -124,6 +129,7 @@ export function createWaterMesh() {
     uniforms: {
       uTime: { value: 0 },
       uWaterLevel: { value: WATER_LEVEL },
+      uShoreX: { value: bounds.maxX },
       uSunDirection: { value: new THREE.Vector3(0.35, 0.84, 0.42).normalize() },
       uDeepColor: { value: new THREE.Color('#063f55') },
       uShallowColor: { value: new THREE.Color('#13859a') },
@@ -137,4 +143,3 @@ export function createWaterMesh() {
   mesh.name = 'All Saints Runtime Water Prototype';
   return mesh;
 }
-

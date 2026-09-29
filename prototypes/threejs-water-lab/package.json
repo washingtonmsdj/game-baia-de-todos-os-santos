@@ -1,12 +1,16 @@
 {
-  "name": "all-saints-threejs-water-lab",
+  "name": "all-saints-threejs-foundation-lab",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
-    "preview": "vite preview --host 0.0.0.0"
+    "validate": "node scripts/validate.mjs",
+    "smoke": "node scripts/runtime-smoke.mjs",
+    "check": "npm run validate && npm run build",
+    "preview": "vite preview --host 0.0.0.0",
+    "stage:bus": "node scripts/stage-integra-bus.mjs"
   },
   "dependencies": {
     "three": "^0.180.0"

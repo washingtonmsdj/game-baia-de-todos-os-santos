@@ -2,10 +2,12 @@ import { writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 const endpoint = process.env.CDP_ENDPOINT ?? 'http://127.0.0.1:9223/json';
-const output = resolve(process.argv[2] ?? 'water-lab-capture.png');
+const targetUrl = process.env.TARGET_URL ?? 'http://127.0.0.1:5173/';
+const output = resolve(process.argv[2] ?? 'foundation-capture.png');
 const pages = await (await fetch(endpoint)).json();
-const page = pages.find((item) => item.type === 'page' && item.url.includes('127.0.0.1:5173'));
-if (!page) throw new Error('Three.js Water Lab page not found in Chrome DevTools');
+let page = pages.find((item) => item.type === 'page' && item.url.startsWith(targetUrl));
+if (!page) page = pages.find((item) => item.type === 'page');
+if (!page) throw new Error('No Chrome DevTools page target is available');
 
 const ws = new WebSocket(page.webSocketDebuggerUrl);
 await new Promise((ok, fail) => {
@@ -29,15 +31,21 @@ function send(method, params = {}) {
     ws.send(JSON.stringify({ id, method, params }));
   });
 }
-
 await send('Page.enable');
 await send('Runtime.enable');
-await new Promise((resolve) => setTimeout(resolve, 2500));
+if (!page.url.startsWith(targetUrl)) {
+  await send('Page.navigate', { url: targetUrl });
+}
+await new Promise((resolve) => setTimeout(resolve, 4500));
 const info = await send('Runtime.evaluate', {
-  expression: `({title:document.title, canvas:[...document.querySelectorAll('canvas')].map(c=>[c.width,c.height]), status:document.querySelector('#status')?.textContent, bodyText:document.body.innerText.slice(0,300)})`,
+  expression: `({title:document.title, canvas:[...document.querySelectorAll('canvas')].map(c=>[c.width,c.height]), status:document.querySelector('#status')?.textContent, stats:document.querySelector('#world-stats')?.textContent, loading:document.querySelector('#loading')?.className, bodyText:document.body.innerText.slice(0,500)})`,
   returnByValue: true,
 });
 const shot = await send('Page.captureScreenshot', { format: 'png', fromSurface: true });
 writeFileSync(output, Buffer.from(shot.data, 'base64'));
-console.log(JSON.stringify({ output, page: page.url, ...info.result.value }, null, 2));
+console.log(JSON.stringify({
+  output,
+  page: targetUrl,
+  ...info.result.value,
+}, null, 2));
 ws.close();

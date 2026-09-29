@@ -1,0 +1,41 @@
+{
+  "schema": "bay-of-all-saints/water-runtime-contract-v1",
+  "revision": "R30A.8",
+  "coordinate_space": "blender_world_meters",
+  "water_level_m": 0.35,
+  "surface_object": "BAÍA DE TODOS-OS-SANTOS | superfície e recorte costeiro",
+  "volume_object": "BAÍA | volume de água no limite do recorte",
+  "volume_vertical_range_m": [-16.0, 0.35],
+  "gameplay": {
+    "swimmable": true,
+    "diveable": true,
+    "boats_supported": true,
+    "runtime_surface_query_required": true,
+    "runtime_buoyancy_required": true,
+    "runtime_underwater_camera_required": true,
+    "runtime_currents_required": true,
+    "visual_wave_displacement_must_not_be_used_as_collision_mesh": true
+  },
+  "authoring": {
+    "shoreline_source": "water_surface_boundary",
+    "foam_objects": [
+      "R30A8 | FOAM | linha costeira",
+      "R30A8 | FOAM | halo costeiro"
+    ],
+    "visual_material": "R30A8 | Água oceânica",
+    "volume_material": "R30A8 | Volume oceânico",
+    "blender_ocean_modifier_role": "lookdev_or_bake_reference_only"
+  },
+  "engine_contract": {
+    "surface_rendering": "engine_runtime",
+    "wave_simulation": "engine_runtime",
+    "water_height_query": "engine_runtime_cpu_or_gpu_query",
+    "player_swim_state": "engine_runtime",
+    "player_dive_state": "engine_runtime",
+    "buoyancy": "engine_runtime",
+    "underwater_post_processing": "engine_runtime",
+    "caustics": "engine_runtime",
+    "foam_interaction": "engine_runtime_or_decals",
+    "flow_currents": "engine_runtime_flow_map_or_vector_field"
+  }
+}

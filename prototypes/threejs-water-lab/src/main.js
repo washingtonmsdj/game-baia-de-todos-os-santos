@@ -2,225 +2,227 @@ import * as THREE from 'three';
 import { Sky } from 'three/addons/objects/Sky.js';
 import { PointerLockControls } from 'three/addons/controls/PointerLockControls.js';
 import './styles.css';
-import { WATER_LEVEL, createWaterMesh, sampleWaterHeight, sampleWaterNormal } from './water.js';
+import { createWaterMesh } from './water.js';
+import { createTerrainMesh, createCoastlineGuide, configureTerrain } from './terrain.js';
+import { loadFoundationData } from './foundationData.js';
+import {
+  loadRoadGraph,
+  buildRoadSegments,
+  createRoadSurface,
+  createRoadDebugLines,
+  buildTrafficArcs,
+  roadGraphStats,
+} from './roadGraph.js';
+import { TrafficSystem } from './traffic.js';
+import { createUrbanMassing } from './urban.js';
+import { PlayerController, PlayerMode } from './player.js';
+import { createFortProxy, createBoatProxy } from './landmarks.js';
+import { createIntegraBus, integraBusStatus } from './integraBus.js';
 
 const app = document.querySelector('#app');
+const loading = document.querySelector('#loading');
 const status = document.querySelector('#status');
+const coords = document.querySelector('#coords');
+const worldStats = document.querySelector('#world-stats');
+const busStatusLabel = document.querySelector('#bus-status');
+const fpsLabel = document.querySelector('#fps');
+
 const scene = new THREE.Scene();
-scene.fog = new THREE.FogExp2(0xb8cfdb, 0.0018);
+scene.background = new THREE.Color(0xc8dbe6);
+scene.fog = new THREE.FogExp2(0xb8cfdb, 0.00125);
 
-const camera = new THREE.PerspectiveCamera(64, innerWidth / innerHeight, 0.08, 1600);
-camera.position.set(26, 5.4, 26);
-
+const camera = new THREE.PerspectiveCamera(64, innerWidth / innerHeight, 0.08, 3200);
 const renderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: 'high-performance' });
-renderer.setPixelRatio(Math.min(devicePixelRatio, 1.75));
+renderer.setPixelRatio(Math.min(devicePixelRatio, 1.65));
 renderer.setSize(innerWidth, innerHeight);
 renderer.outputColorSpace = THREE.SRGBColorSpace;
 renderer.toneMapping = THREE.ACESFilmicToneMapping;
-renderer.toneMappingExposure = 1.08;
+renderer.toneMappingExposure = 1.02;
 renderer.shadowMap.enabled = true;
 renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 app.appendChild(renderer.domElement);
-
-const clock = new THREE.Clock();
-const controls = new PointerLockControls(camera, renderer.domElement);
-renderer.domElement.addEventListener('click', () => controls.lock());
-
 const sky = new Sky();
-sky.scale.setScalar(900);
+sky.scale.setScalar(2600);
 scene.add(sky);
-const skyU = sky.material.uniforms;
-skyU.turbidity.value = 7.5;
-skyU.rayleigh.value = 1.45;
-skyU.mieCoefficient.value = 0.0045;
-skyU.mieDirectionalG.value = 0.81;
-const sun = new THREE.Vector3().setFromSphericalCoords(1, THREE.MathUtils.degToRad(48), THREE.MathUtils.degToRad(230));
-skyU.sunPosition.value.copy(sun);
+const skyUniforms = sky.material.uniforms;
+skyUniforms.turbidity.value = 7.4;
+skyUniforms.rayleigh.value = 1.5;
+skyUniforms.mieCoefficient.value = 0.0045;
+skyUniforms.mieDirectionalG.value = 0.81;
+const sunDirection = new THREE.Vector3().setFromSphericalCoords(
+  1,
+  THREE.MathUtils.degToRad(49),
+  THREE.MathUtils.degToRad(230),
+).normalize();
+skyUniforms.sunPosition.value.copy(sunDirection);
 
-const hemi = new THREE.HemisphereLight(0xd9edff, 0x16363a, 2.5);
+const hemi = new THREE.HemisphereLight(0xd9edff, 0x203632, 2.35);
 scene.add(hemi);
-const key = new THREE.DirectionalLight(0xfff0cf, 4.2);
-key.position.copy(sun).multiplyScalar(120);
+const key = new THREE.DirectionalLight(0xfff0cf, 4.0);
 key.castShadow = true;
 key.shadow.mapSize.set(2048, 2048);
-key.shadow.camera.left = -110;
-key.shadow.camera.right = 110;
-key.shadow.camera.top = 110;
-key.shadow.camera.bottom = -110;
+key.shadow.camera.left = -180;
+key.shadow.camera.right = 180;
+key.shadow.camera.top = 180;
+key.shadow.camera.bottom = -180;
+key.shadow.camera.near = 1;
+key.shadow.camera.far = 700;
 scene.add(key);
+scene.add(key.target);
 
+const foundation = await loadFoundationData();
+configureTerrain(foundation);
+
+const terrain = createTerrainMesh();
+scene.add(terrain);
+const coastlineGuide = createCoastlineGuide();
+scene.add(coastlineGuide);
 const water = createWaterMesh();
 scene.add(water);
 
-const seabed = new THREE.Mesh(
-  new THREE.PlaneGeometry(420, 420),
-  new THREE.MeshStandardMaterial({ color: 0x285d5a, roughness: 0.96, metalness: 0.0 })
-);
-seabed.rotation.x = -Math.PI / 2;
-seabed.position.y = -8.0;
-seabed.receiveShadow = true;
-scene.add(seabed);
-
-const landMat = new THREE.MeshStandardMaterial({ color: 0x8e8070, roughness: 0.95 });
-const land = new THREE.Mesh(new THREE.BoxGeometry(125, 9, 300), landMat);
-land.position.set(-78, -3.9, 0);
-land.receiveShadow = true;
-land.castShadow = true;
-scene.add(land);
-
-const quayMat = new THREE.MeshStandardMaterial({ color: 0xa7a29a, roughness: 0.82 });
-const quay = new THREE.Mesh(new THREE.BoxGeometry(10, 1.2, 280), quayMat);
-quay.position.set(-11, -0.2, 0);
-quay.receiveShadow = true;
-quay.castShadow = true;
-scene.add(quay);
-
-let seed = 7421;
-function random() {
-  seed = (seed * 1664525 + 1013904223) >>> 0;
-  return seed / 4294967296;
-}
-const city = new THREE.Group();
-const cityMat = new THREE.MeshStandardMaterial({ color: 0xbba890, roughness: 0.88 });
-for (let i = 0; i < 95; i++) {
-  const w = 3 + random() * 7;
-  const d = 4 + random() * 10;
-  const h = 4 + Math.pow(random(), 1.6) * 25;
-  const mesh = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), cityMat);
-  mesh.position.set(-16 - random() * 100, h * 0.5 + 0.6, -135 + random() * 270);
-  mesh.castShadow = true;
-  mesh.receiveShadow = true;
-  city.add(mesh);
-}
-scene.add(city);
-
-const fort = new THREE.Group();
-const fortMat = new THREE.MeshStandardMaterial({ color: 0xc5b49a, roughness: 0.86 });
-const drum = new THREE.Mesh(new THREE.CylinderGeometry(11, 13, 5.5, 48), fortMat);
-drum.position.y = 2.7;
-drum.castShadow = true;
-drum.receiveShadow = true;
-fort.add(drum);
-const tower = new THREE.Mesh(new THREE.CylinderGeometry(4.5, 5.5, 7, 32), fortMat);
-tower.position.y = 8.7;
-tower.castShadow = true;
-fort.add(tower);
-fort.position.set(54, WATER_LEVEL - 0.7, 18);
+const fort = createFortProxy();
 scene.add(fort);
+const boat = createBoatProxy();
+scene.add(boat.object);
+let graph;
+let segments;
+let trafficGraph;
+let traffic;
+let debugRoads;
+let urban;
+let graphStats;
+let integraBus;
 
-const boat = new THREE.Group();
-const hull = new THREE.Mesh(
-  new THREE.BoxGeometry(5.6, 1.1, 2.0),
-  new THREE.MeshStandardMaterial({ color: 0x4a2418, roughness: 0.68 })
-);
-hull.castShadow = true;
-boat.add(hull);
-const cabin = new THREE.Mesh(
-  new THREE.BoxGeometry(1.8, 1.3, 1.45),
-  new THREE.MeshStandardMaterial({ color: 0xe7e1d4, roughness: 0.5 })
-);
-cabin.position.set(-0.5, 1.0, 0);
-cabin.castShadow = true;
-boat.add(cabin);
-boat.position.set(34, WATER_LEVEL + 0.6, -22);
-scene.add(boat);
+try {
+  graph = await loadRoadGraph();
+  segments = buildRoadSegments(graph);
+  const roads = createRoadSurface(segments);
+  scene.add(roads.sidewalk, roads.road);
+  debugRoads = createRoadDebugLines(segments);
+  scene.add(debugRoads);
 
-const particleGeo = new THREE.BufferGeometry();
-const particlePos = new Float32Array(900 * 3);
-for (let i = 0; i < 900; i++) {
-  particlePos[i * 3] = -20 + random() * 180;
-  particlePos[i * 3 + 1] = -7.4 + random() * 7.2;
-  particlePos[i * 3 + 2] = -145 + random() * 290;
+  trafficGraph = buildTrafficArcs(graph, segments);
+  traffic = new TrafficSystem(trafficGraph);
+  scene.add(traffic.mesh);
+
+  urban = createUrbanMassing(segments, 320, foundation);
+  scene.add(urban.mesh);
+  graphStats = roadGraphStats(graph, segments, trafficGraph);
+  integraBus = await createIntegraBus(segments);
+  scene.add(integraBus.object);
+  if (integraBus.loadError) console.info('Integra bus: usando proxy de staging', integraBus.loadError);
+  loading.classList.add('hidden');
+} catch (error) {
+  console.error(error);
+  loading.textContent = `ERRO AO CARREGAR FUNDAÇÃO: ${error.message}`;
+  throw error;
 }
-particleGeo.setAttribute('position', new THREE.BufferAttribute(particlePos, 3));
 
-const particles = new THREE.Points(
-  particleGeo,
-  new THREE.PointsMaterial({ color: 0xb7e5e7, size: 0.035, transparent: true, opacity: 0.4, depthWrite: false })
-);
-scene.add(particles);
+const controls = new PointerLockControls(camera, renderer.domElement);
+renderer.domElement.addEventListener('click', () => controls.lock());
+const player = new PlayerController(camera, controls, urban.colliders);
 
-const keys = new Set();
 addEventListener('keydown', (event) => {
-  keys.add(event.code);
-  if (event.code === 'KeyR') {
-    camera.position.set(26, 5.4, 26);
-    camera.rotation.set(0, 0, 0);
-  }
+  if (event.code === 'KeyG' && debugRoads) debugRoads.visible = !debugRoads.visible;
+  if (event.code === 'KeyT' && traffic) traffic.setVisible(!traffic.enabled);
+  if (event.code === 'KeyB' && integraBus) integraBus.object.visible = !integraBus.object.visible;
 });
-addEventListener('keyup', (event) => keys.delete(event.code));
+const clock = new THREE.Clock();
+window.__ALL_SAINTS__ = {
+  version: 'R30A.10-foundation-lab+integra-staging',
+  camera,
+  player,
+  traffic,
+  boat: boat.object,
+  boatController: boat,
+  integraBus,
+  graphStats,
+  foundationStats: foundation.stats,
+  teleport(x, z, y = null) {
+    camera.position.x = Number(x);
+    camera.position.z = Number(z);
+    if (y !== null) camera.position.y = Number(y);
+    player.verticalVelocity = 0;
+  },
+  reset() { player.reset(); },
+  snapshot() {
+    const t = traffic.getStats();
+    return {
+      mode: player.mode,
+      position: camera.position.toArray(),
+      traffic: t,
+      graph: graphStats,
+      buildings: urban.stats.buildings,
+      foundation: foundation.stats,
+      integraBus: integraBusStatus(integraBus),
+    };
+  },
+};
+let smoothedFps = 60;
+let telemetryTimer = 0;
 
-const move = new THREE.Vector3();
-const forward = new THREE.Vector3();
-const right = new THREE.Vector3();
-const up = new THREE.Vector3(0, 1, 0);
-const waterNormal = new THREE.Vector3();
-const boatUp = new THREE.Vector3(0, 1, 0);
-const boatQuat = new THREE.Quaternion();
-
-function updateMovement(dt, underwater) {
-  camera.getWorldDirection(forward);
-  forward.y = 0;
-  forward.normalize();
-  right.crossVectors(forward, up).normalize();
-  move.set(0, 0, 0);
-  if (keys.has('KeyW')) move.add(forward);
-  if (keys.has('KeyS')) move.sub(forward);
-  if (keys.has('KeyD')) move.add(right);
-  if (keys.has('KeyA')) move.sub(right);
-  if (keys.has('KeyE')) move.y += 1;
-  if (keys.has('KeyQ')) move.y -= 1;
-  if (move.lengthSq() > 0) move.normalize();
-  const boost = keys.has('ShiftLeft') || keys.has('ShiftRight');
-  const speed = underwater ? (boost ? 11 : 5.2) : (boost ? 24 : 9.5);
-  camera.position.addScaledVector(move, speed * dt);
-}
-
-function updateBoat(time) {
-  const y = sampleWaterHeight(boat.position.x, boat.position.z, time);
-  boat.position.y = y + 0.55;
-  sampleWaterNormal(boat.position.x, boat.position.z, time, waterNormal);
-  boatQuat.setFromUnitVectors(boatUp, waterNormal);
-  boat.quaternion.slerp(boatQuat, 0.08);
-}
-
-function updateEnvironment(underwater, depth) {
-  if (underwater) {
+function updateEnvironment(state, dt) {
+  const diving = state.mode === PlayerMode.DIVING;
+  if (diving) {
     scene.fog.color.set(0x0c5265);
-    scene.fog.density = 0.055;
-    renderer.toneMappingExposure = 0.72;
+    scene.fog.density = 0.026 + Math.min(0.026, state.depth * 0.0022);
+    renderer.toneMappingExposure = THREE.MathUtils.damp(renderer.toneMappingExposure, 0.68, 3.5, dt);
     sky.visible = false;
-    status.textContent = `MERGULHO · ${depth.toFixed(1)} m`;
+    hemi.intensity = 0.75;
+    status.textContent = `MERGULHO · ${state.depth.toFixed(1)} m`;
   } else {
     scene.fog.color.set(0xb8cfdb);
-    scene.fog.density = 0.0018;
-    renderer.toneMappingExposure = 1.08;
+    scene.fog.density = 0.00125;
+    renderer.toneMappingExposure = THREE.MathUtils.damp(renderer.toneMappingExposure, 1.02, 3.5, dt);
     sky.visible = true;
-    status.textContent = 'SUPERFÍCIE';
+    hemi.intensity = 2.35;
+    status.textContent = state.mode === PlayerMode.SWIMMING ? 'NADANDO' : 'A PÉ';
   }
 }
 
+function updateSunRig() {
+  key.position.copy(camera.position).addScaledVector(sunDirection, 320);
+  key.position.y += 160;
+  key.target.position.copy(camera.position);
+  key.target.position.y -= 20;
+  key.target.updateMatrixWorld();
+}
+
+function updateTelemetry(state, dt) {
+  const p = state.position;
+  coords.textContent = `x ${p.x.toFixed(1)} · y ${p.y.toFixed(1)} · z ${p.z.toFixed(1)}`;
+  smoothedFps = THREE.MathUtils.lerp(smoothedFps, 1 / Math.max(dt, 0.0001), 0.08);
+  telemetryTimer -= dt;
+  if (telemetryTimer > 0) return;
+  telemetryTimer = 0.35;
+  const trafficStats = traffic.getStats();
+  worldStats.textContent = `${graphStats.nodes} nós · ${graphStats.edges} segmentos · ${trafficStats.vehicles} veículos · ${trafficStats.averageSpeedKmh.toFixed(0)} km/h méd.`;
+  const busState = integraBusStatus(integraBus);
+  const busSource = busState.loadedApprovedGlb ? 'GLB AUTORIA' : 'PROXY';
+  const busVisibility = integraBus.object.visible ? 'visível' : 'oculto';
+  busStatusLabel.textContent = `ônibus ${busSource} · ${busVisibility} · B alterna`;
+  fpsLabel.textContent = `${smoothedFps.toFixed(0)} FPS · ${urban.stats.buildings} volumes urbanos`;
+}
 function animate() {
   requestAnimationFrame(animate);
   const dt = Math.min(clock.getDelta(), 0.05);
   const time = clock.elapsedTime;
   water.material.uniforms.uTime.value = time;
-  const surface = sampleWaterHeight(camera.position.x, camera.position.z, time);
-  const underwater = camera.position.y < surface - 0.08;
-  updateMovement(dt, underwater);
-  const newSurface = sampleWaterHeight(camera.position.x, camera.position.z, time);
-  updateEnvironment(camera.position.y < newSurface - 0.08, Math.max(0, newSurface - camera.position.y));
-  updateBoat(time);
-  particles.rotation.y = time * 0.006;
+  const state = player.update(dt, time);
+  traffic.update(dt);
+  boat.update(time);
+  updateEnvironment(state, dt);
+  updateSunRig();
+  updateTelemetry(state, dt);
   renderer.render(scene, camera);
 }
 
-camera.lookAt(new THREE.Vector3(-18, 2, 0));
 animate();
 
 addEventListener('resize', () => {
   camera.aspect = innerWidth / innerHeight;
   camera.updateProjectionMatrix();
   renderer.setSize(innerWidth, innerHeight);
-  renderer.setPixelRatio(Math.min(devicePixelRatio, 1.75));
+  renderer.setPixelRatio(Math.min(devicePixelRatio, 1.65));
 });
+

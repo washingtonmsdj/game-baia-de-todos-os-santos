@@ -1,0 +1,29 @@
+{
+  "schema": "bay-of-all-saints/threejs-integra-bus-v1",
+  "asset_id": "vehicle-integra-salvador-01",
+  "source_file": "yellow city bus 3d model.glb",
+  "source_sha256": "F3D5DEE69DCAB15379817A9AE13E562DF8023FD7AF38E8B6A0CDB4742AB650A2",
+  "source_size_bytes": 47319716,
+  "source_geometry_count": 67,
+  "source_vertices": 992121,
+  "source_triangles": 1954141,
+  "target_dimensions_m": {
+    "length": 12.0,
+    "width": 2.55,
+    "height": 3.25
+  },
+  "default_asset_url": "/assets/vehicles/integra-salvador/yellow city bus 3d model.glb",
+  "fallback": "procedural_staging_proxy",
+  "traffic_binding": "candidate_only",
+  "placement": "road_graph_centerline_staging",
+  "runtime_ready": false,
+  "runtime_status": "authoring_only_needs_lod_and_vehicle_rig",
+  "required_next_passes": [
+    "visual_review_multiview",
+    "wheel_identification_and_rig",
+    "lod_generation",
+    "collision_proxy",
+    "material_cleanup",
+    "lane_level_traffic_placement"
+  ]
+}
