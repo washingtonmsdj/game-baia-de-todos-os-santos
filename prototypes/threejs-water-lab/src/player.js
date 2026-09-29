@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 import { WORLD } from './worldConfig.js';
-import { isWaterAt, sampleGameplayGround, WORLD_BOUNDS } from './terrain.js';
+import { isWaterAt, sampleGameplayGround, sampleTerrainHeight, WORLD_BOUNDS } from './terrain.js';
 import { sampleWaterHeight } from './water.js';
 
 export const PlayerMode = Object.freeze({
@@ -93,7 +93,8 @@ export class PlayerController {
     const sprint = this.keys.has('ShiftLeft') || this.keys.has('ShiftRight');
     const speed = sprint ? 8.5 : 5.2;
     this._moveOnGround(move, speed * dt);
-    const ground = sampleGameplayGround(this.camera.position.x, this.camera.position.z);
+    const sampledGround = sampleGameplayGround(this.camera.position.x, this.camera.position.z);
+    const ground = sampledGround ?? this.lastGround ?? sampleTerrainHeight(this.camera.position.x, this.camera.position.z);
     if (ground == null) return;
     this.lastGround = ground;
     const floorY = ground + this.eyeHeight;

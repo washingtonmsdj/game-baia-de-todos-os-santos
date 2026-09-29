@@ -114,11 +114,10 @@ try {
   segments = buildRoadSegments(graph);
   const roads = createRoadSurface(segments);
   const hasOfficialCity = Boolean(officialCity?.object);
-  // O GLB completo é a camada visual da cidade. As malhas abaixo continuam
-  // existindo para colisão, tráfego e navegação, mas não são desenhadas em
-  // duplicidade quando a cena oficial está disponível.
-  roads.sidewalk.visible = !hasOfficialCity;
-  roads.road.visible = !hasOfficialCity;
+  // A rede de vias do runtime é a superfície jogável do mapa. Ela permanece
+  // visível para manter a pista contínua sob a geometria visual oficial.
+  roads.sidewalk.visible = true;
+  roads.road.visible = true;
   scene.add(roads.sidewalk, roads.road);
   debugRoads = createRoadDebugLines(segments);
   scene.add(debugRoads);
