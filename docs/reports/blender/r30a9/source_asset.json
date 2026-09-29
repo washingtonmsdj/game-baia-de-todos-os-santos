@@ -1,0 +1,43 @@
+{
+  "schema": "bay-of-all-saints/r30a9-source-asset-v1",
+  "revision": "R30A.9",
+  "asset_id": "vehicle-integra-salvador-01",
+  "source_file": "yellow city bus 3d model.glb",
+  "source_sha256": "F3D5DEE69DCAB15379817A9AE13E562DF8023FD7AF38E8B6A0CDB4742AB650A2",
+  "source_size_bytes": 47319652,
+  "inspection": {
+    "geometry_count": 67,
+    "node_count": 69,
+    "vertices": 992121,
+    "triangles": 1954141,
+    "material_slots_detected": 1,
+    "raw_bounds": {
+      "min": [-0.12759894132614136, 0.0, -0.4899407923221588],
+      "max": [0.12759894132614136, 0.2747748792171478, 0.4899407923221588],
+      "extents": [0.2551978826522827, 0.2747748792171478, 0.9798815846443176]
+    }
+  },
+  "authoring_assessment": {
+    "classification": "authoring_source_not_runtime_ready",
+    "reason": "O GLB possui aproximadamente 1,95 milhão de triângulos e escala arbitrária; deve entrar primeiro como fonte de autoria/staging.",
+    "target_dimensions_m": {
+      "length": 12.0,
+      "width": 2.55,
+      "height": 3.25
+    },
+    "required_next_passes": [
+      "visual_review_multiview",
+      "wheel_identification_and_rig",
+      "lod_generation",
+      "collision_proxy",
+      "material_cleanup",
+      "lane_level_traffic_placement"
+    ]
+  },
+  "binary_policy": "O binário de origem não é versionado no Git comum. A automação exige o mesmo SHA-256 por BOAS_INTEGRA_BUS_GLB ou artifacts/incoming/.",
+  "notes": [
+    "Não substituir nem deformar o terreno para acomodar o veículo.",
+    "A primeira posição na cena é somente staging sobre o helper do grafo viário R30A.7, que ainda não é lane graph final.",
+    "A R30A.8 deve permanecer preservada e a integração deve salvar uma nova revisão R30A.9."
+  ]
+}
