@@ -22,11 +22,11 @@ Branch de produção: `main`.
 
 Arquivo versionado via Git LFS:
 
-`blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a11_pedestrian_nav.blend`
+`blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a12_nav_links.blend`
 
 SHA-256 conhecido:
 
-`DE552B045D190C8FEADCB763539E2F0F0B1CE68B6A231884BBE7D70FCD8FD396`
+`D5A1BA39250E9AB291D45C9BE8B9058FE84FD82F7D6B01CC5FD309E690CB8835`
 
 Commit que introduziu a cena no Git LFS e concluiu a R30A.1 diagnóstica:
 
@@ -38,6 +38,15 @@ A cena não deve ser substituída/destruída silenciosamente. Novas revisões de
 
 ## Fase atual
 
+### R30A.12 — links revisados de navegação
+
+A camada pedonal agora possui conexões promovidas somente quando existe evidência suficiente: `5/5` travessias têm match exato de OSM node ID e deslocamento visual ≤ `2,5 m`, portanto receberam links curtos de navegação revisados.
+
+Os 6 ways de escada produziram `12` endpoints candidatos; `11` foram materializados sobre o collider. O endpoint inicial da `Escadaria do Passo` (`way 530127473`, node `5148629906`) permanece unresolved porque não há superfície jogável no ponto atual.
+
+Cena oficial: `blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a12_nav_links.blend`. Relatório: `docs/reports/blender/r30a12/R30A12_REPORT.md`. Contrato: `docs/reports/blender/r30a12/nav_links.json`.
+
+Próximo foco: vertical slice funcional de locomoção de jogador/NPC usando caminhos, travessias e escadas já revisados.
 ### R30A.11 — navigation hints de pedestres
 
 A base pedonal do vertical slice foi materializada de forma engine-agnostic: `126` caminhos OSM, `6` escadarias, `487` nós e `488` segmentos. A cena cria `125` helpers de caminho, `5` de escada, `106` junctions e `5` crossing anchors sem gerar navmesh final.

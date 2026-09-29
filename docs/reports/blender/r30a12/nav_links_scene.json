@@ -1,0 +1,24 @@
+{
+  "schema": "bay-of-all-saints/r30a12-nav-links-scene-v1",
+  "revision": "R30A.12",
+  "source_contract": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\docs\\reports\\blender\\r30a12\\nav_links.json",
+  "source_collider": "R30A5 | COLLISION | terrain proxy",
+  "crossing_links_created": 5,
+  "step_endpoint_anchors_created": 11,
+  "unresolved_crossings": [],
+  "unresolved_step_endpoints": [
+    {
+      "osm_way_id": 530127473,
+      "osm_node_id": "5148629906",
+      "endpoint_role": "start"
+    }
+  ],
+  "engine_binding": "unbound_engine_agnostic",
+  "notes": [
+    "Crossing links are created only from reviewed exact OSM node matches.",
+    "Step endpoint anchors preserve OSM start/end semantics without inferring top/bottom.",
+    "Objects are navigation helpers, not a final navmesh."
+  ],
+  "output_blend": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\blender\\salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a12_nav_links.blend",
+  "output_sha256": "D5A1BA39250E9AB291D45C9BE8B9058FE84FD82F7D6B01CC5FD309E690CB8835"
+}

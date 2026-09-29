@@ -1,0 +1,232 @@
+{
+  "schema": "bay-of-all-saints/r30a12-nav-links-v1",
+  "revision": "R30A.12",
+  "fit_quality": "candidate",
+  "crossing_max_distance_m": 2.5,
+  "stats": {
+    "crossing_links": 5,
+    "approved_crossing_links": 5,
+    "blocked_crossing_links": 0,
+    "step_endpoint_anchors": 12,
+    "candidate_step_endpoint_anchors": 12
+  },
+  "crossing_links": [
+    {
+      "source_object": "VIAS | travessia OSM 3178050253",
+      "osm_node_id": "3178050253",
+      "nav_node_id": "3178050253",
+      "distance_m": 1.3048157668470475,
+      "exact_osm_node_match": true,
+      "within_distance_threshold": true,
+      "status": "reviewed_candidate",
+      "evidence": "exact_osm_node_id"
+    },
+    {
+      "source_object": "VIAS | travessia OSM 5917201014",
+      "osm_node_id": "5917201014",
+      "nav_node_id": "5917201014",
+      "distance_m": 1.3317836316492204,
+      "exact_osm_node_match": true,
+      "within_distance_threshold": true,
+      "status": "reviewed_candidate",
+      "evidence": "exact_osm_node_id"
+    },
+    {
+      "source_object": "VIAS | travessia OSM 592378620",
+      "osm_node_id": "592378620",
+      "nav_node_id": "592378620",
+      "distance_m": 1.6324772583817813,
+      "exact_osm_node_match": true,
+      "within_distance_threshold": true,
+      "status": "reviewed_candidate",
+      "evidence": "exact_osm_node_id"
+    },
+    {
+      "source_object": "VIAS | travessia OSM 9264983513",
+      "osm_node_id": "9264983513",
+      "nav_node_id": "9264983513",
+      "distance_m": 2.108071501857127,
+      "exact_osm_node_match": true,
+      "within_distance_threshold": true,
+      "status": "reviewed_candidate",
+      "evidence": "exact_osm_node_id"
+    },
+    {
+      "source_object": "VIAS | travessia OSM 9264983514",
+      "osm_node_id": "9264983514",
+      "nav_node_id": "9264983514",
+      "distance_m": 1.6450284754686226,
+      "exact_osm_node_match": true,
+      "within_distance_threshold": true,
+      "status": "reviewed_candidate",
+      "evidence": "exact_osm_node_id"
+    }
+  ],
+  "step_endpoint_anchors": [
+    {
+      "osm_way_id": 48849046,
+      "name": "Rua de São Francisco",
+      "endpoint_role": "start",
+      "osm_node_id": "344371768",
+      "blender_xy": [
+        106.31032010586932,
+        -145.52656280365773
+      ],
+      "incline": null,
+      "access": "candidate",
+      "status": "candidate"
+    },
+    {
+      "osm_way_id": 48849046,
+      "name": "Rua de São Francisco",
+      "endpoint_role": "end",
+      "osm_node_id": "619749363",
+      "blender_xy": [
+        150.22178925853223,
+        -122.4134084531106
+      ],
+      "incline": null,
+      "access": "candidate",
+      "status": "candidate"
+    },
+    {
+      "osm_way_id": 530127473,
+      "name": "Escadaria do Passo",
+      "endpoint_role": "start",
+      "osm_node_id": "5148629906",
+      "blender_xy": [
+        548.1715300092474,
+        514.0940979311708
+      ],
+      "incline": null,
+      "access": "candidate",
+      "status": "candidate"
+    },
+    {
+      "osm_way_id": 530127473,
+      "name": "Escadaria do Passo",
+      "endpoint_role": "end",
+      "osm_node_id": "3986616623",
+      "blender_xy": [
+        513.710393936839,
+        539.9695311356336
+      ],
+      "incline": null,
+      "access": "candidate",
+      "status": "candidate"
+    },
+    {
+      "osm_way_id": 531109203,
+      "name": null,
+      "endpoint_role": "start",
+      "osm_node_id": "5155859955",
+      "blender_xy": [
+        487.459745014552,
+        192.5051261910703
+      ],
+      "incline": "down",
+      "access": "candidate",
+      "status": "candidate"
+    },
+    {
+      "osm_way_id": 531109203,
+      "name": null,
+      "endpoint_role": "end",
+      "osm_node_id": "5155859956",
+      "blender_xy": [
+        517.5872244290076,
+        187.65729791438207
+      ],
+      "incline": "down",
+      "access": "candidate",
+      "status": "candidate"
+    },
+    {
+      "osm_way_id": 1075624440,
+      "name": "Ladeira da Misericórdia",
+      "endpoint_role": "start",
+      "osm_node_id": "7263557485",
+      "blender_xy": [
+        158.4490856975317,
+        226.98833135608584
+      ],
+      "incline": "down",
+      "access": "candidate",
+      "status": "candidate"
+    },
+    {
+      "osm_way_id": 1075624440,
+      "name": "Ladeira da Misericórdia",
+      "endpoint_role": "end",
+      "osm_node_id": "1196075508",
+      "blender_xy": [
+        114.94635644135997,
+        189.87753862235695
+      ],
+      "incline": "down",
+      "access": "candidate",
+      "status": "candidate"
+    },
+    {
+      "osm_way_id": 1317127244,
+      "name": null,
+      "endpoint_role": "start",
+      "osm_node_id": "12189974178",
+      "blender_xy": [
+        -51.01401090901345,
+        -123.28719593118876
+      ],
+      "incline": null,
+      "access": "candidate",
+      "status": "candidate"
+    },
+    {
+      "osm_way_id": 1317127244,
+      "name": null,
+      "endpoint_role": "end",
+      "osm_node_id": "12189974179",
+      "blender_xy": [
+        -57.747645881958306,
+        -117.08585047838278
+      ],
+      "incline": null,
+      "access": "candidate",
+      "status": "candidate"
+    },
+    {
+      "osm_way_id": 1321519022,
+      "name": null,
+      "endpoint_role": "start",
+      "osm_node_id": "12228680148",
+      "blender_xy": [
+        -220.904036892578,
+        62.80155739909969
+      ],
+      "incline": null,
+      "access": "candidate",
+      "status": "candidate"
+    },
+    {
+      "osm_way_id": 1321519022,
+      "name": null,
+      "endpoint_role": "end",
+      "osm_node_id": "12228680149",
+      "blender_xy": [
+        -225.42536555277184,
+        67.11680849664845
+      ],
+      "incline": null,
+      "access": "candidate",
+      "status": "candidate"
+    }
+  ],
+  "notes": [
+    "Crossing links require exact OSM node ID evidence and a bounded visual offset.",
+    "Step endpoints preserve OSM way endpoints; start/end are not interpreted as top/bottom without vertical evidence.",
+    "This contract is engine-agnostic and does not create a navmesh."
+  ],
+  "sources": {
+    "graph": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\docs\\reports\\blender\\r30a11\\pedestrian_graph.json",
+    "scene": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\docs\\reports\\blender\\r30a11\\pedestrian_nav_scene.json"
+  }
+}
