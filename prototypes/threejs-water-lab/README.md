@@ -40,6 +40,7 @@ O stager procura `BOAS_INTEGRA_BUS_GLB` ou `artifacts/incoming/`, valida tamanho
 
 No runtime:
 - `B`: mostra/oculta o ônibus;
+- todos os veículos do tráfego usam o mesmo Torino 31065, instanciado com a escala real de 12,0 × 2,55 × 3,25 m;
 - HUD informa `PROXY` ou `GLB AUTORIA`;
 - staging atual usa o eixo do grafo R30A.7, ainda sem lane binding final;
 - `runtimeReady` permanece `false` até LOD, rig de rodas, collider e materiais runtime.

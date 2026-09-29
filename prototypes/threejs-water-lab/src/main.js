@@ -124,8 +124,6 @@ try {
   scene.add(debugRoads);
 
   trafficGraph = buildTrafficArcs(graph, segments);
-  traffic = new TrafficSystem(trafficGraph);
-  scene.add(traffic.mesh);
 
   urban = createUrbanMassing(segments, 320, foundation);
   urban.mesh.visible = !hasOfficialCity;
@@ -133,6 +131,8 @@ try {
   graphStats = roadGraphStats(graph, segments, trafficGraph);
   integraBus = await createIntegraBus(segments);
   scene.add(integraBus.object);
+  traffic = new TrafficSystem(trafficGraph, undefined, integraBus.object);
+  scene.add(traffic.mesh);
   if (integraBus.loadError) console.info('Integra bus: usando proxy de staging', integraBus.loadError);
   loading.classList.add('hidden');
 } catch (error) {
