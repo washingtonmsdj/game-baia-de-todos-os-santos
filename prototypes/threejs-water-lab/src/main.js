@@ -90,6 +90,9 @@ try {
   officialCity = await loadOfficialCity();
   scene.add(officialCity.object);
   officialLandmarks = officialCity.object;
+  water.visible = false;
+  coastlineGuide.visible = false;
+  fort.visible = false;
 } catch (error) {
   console.warn('Cidade oficial GLB indisponível; usando marcos de fallback', error);
   officialLandmarks = createOfficialLandmarks();
@@ -110,6 +113,12 @@ try {
   graph = await loadRoadGraph();
   segments = buildRoadSegments(graph);
   const roads = createRoadSurface(segments);
+  const hasOfficialCity = Boolean(officialCity?.object);
+  // O GLB completo é a camada visual da cidade. As malhas abaixo continuam
+  // existindo para colisão, tráfego e navegação, mas não são desenhadas em
+  // duplicidade quando a cena oficial está disponível.
+  roads.sidewalk.visible = !hasOfficialCity;
+  roads.road.visible = !hasOfficialCity;
   scene.add(roads.sidewalk, roads.road);
   debugRoads = createRoadDebugLines(segments);
   scene.add(debugRoads);
@@ -119,6 +128,7 @@ try {
   scene.add(traffic.mesh);
 
   urban = createUrbanMassing(segments, 320, foundation);
+  urban.mesh.visible = !hasOfficialCity;
   scene.add(urban.mesh);
   graphStats = roadGraphStats(graph, segments, trafficGraph);
   integraBus = await createIntegraBus(segments);
@@ -142,7 +152,7 @@ addEventListener('keydown', (event) => {
 });
 const clock = new THREE.Clock();
 window.__ALL_SAINTS__ = {
-  version: 'R30A.13-official-mvp-city+torino-31065',
+  version: 'R30A.11-official-full-city+torino-31065',
   camera,
   player,
   traffic,

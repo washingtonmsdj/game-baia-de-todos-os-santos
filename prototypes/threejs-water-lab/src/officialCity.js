@@ -2,9 +2,9 @@ import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
 export const OFFICIAL_CITY = Object.freeze({
-  assetId: 'salvador-mvp-official-heroes-r30a6',
-  sourceName: 'mvp_official_heroes.glb',
-  defaultUrl: '/assets/city/mvp_official_heroes.glb',
+  assetId: 'salvador-mvp-official-full-r30a11',
+  sourceName: 'salvador_lacerda_mvp_r30a11_full.glb',
+  defaultUrl: '/assets/city/salvador_lacerda_mvp_r30a11_full.glb',
   sourceScene: 'SALVADOR | ESBOCO OFICIAL',
   locations: Object.freeze(['elevador-lacerda', 'mercado-modelo', 'prefeitura-palacio-rio-branco']),
 });
@@ -33,7 +33,7 @@ function configureImportedCity(source) {
   group.add(source);
   group.userData = {
     assetId: OFFICIAL_CITY.assetId,
-    sourceKind: 'official_blender_glb',
+    sourceKind: 'official_blender_full_glb',
     sourceScene: OFFICIAL_CITY.sourceScene,
     sourceUrl: OFFICIAL_CITY.defaultUrl,
     locations: [...OFFICIAL_CITY.locations],

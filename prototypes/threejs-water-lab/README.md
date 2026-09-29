@@ -4,7 +4,7 @@ Protótipo runtime de **Bay of All Saints** para validar terreno, água, tráfeg
 
 ## Cidade oficial
 
-O runtime usa a fundação estrutural (terreno, costa, ruas e volumes urbanos) e carrega a geometria hero oficial exportada do arquivo Blender da cidade em `public/assets/city/mvp_official_heroes.glb`. Essa camada contém o Elevador Lacerda, Mercado Modelo e Prefeitura/Palácio Rio Branco nas coordenadas do projeto.
+O runtime carrega a camada visual completa da revisão oficial `salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a11_pedestrian_nav.blend` em `public/assets/city/salvador_lacerda_mvp_r30a11_full.glb`. O asset inclui terreno visual, vias, waterfront, edifícios, Elevador Lacerda, Mercado Modelo e Prefeitura/Palácio Rio Branco nas coordenadas do projeto. A fundação JSON permanece como suporte de altura, colisão e navegação do jogador.
 
 ## Rodar
 
