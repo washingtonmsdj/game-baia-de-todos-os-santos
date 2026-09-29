@@ -2,15 +2,15 @@ import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
 export const INTEGRA_BUS = Object.freeze({
-  assetId: 'vehicle-integra-salvador-01',
-  sourceName: 'yellow city bus 3d model.glb',
-  sourceSha256: 'F3D5DEE69DCAB15379817A9AE13E562DF8023FD7AF38E8B6A0CDB4742AB650A2',
-  sourceBytes: 47319716,
-  sourceGeometryCount: 67,
-  sourceVertices: 992121,
-  sourceTriangles: 1954141,
+  assetId: 'vehicle-torino-salvador-31065',
+  sourceName: 'onibus_torino_31065_v03.glb',
+  sourceSha256: 'F3F9BE5E2B6DF944677348EAD51F4A96D4607933F594DCFFF60BA45A752A7EB7',
+  sourceBytes: 4666548,
+  sourceGeometryCount: 480,
+  sourceVertices: null,
+  sourceTriangles: null,
   target: Object.freeze({ length: 12.0, width: 2.55, height: 3.25 }),
-  defaultUrl: '/assets/vehicles/integra-salvador/yellow city bus 3d model.glb',
+  defaultUrl: '/assets/vehicles/torino-31065/onibus_torino_31065_v03.glb',
   runtimeStatus: 'authoring_only_needs_lod_and_vehicle_rig',
 });
 
@@ -47,7 +47,7 @@ function wheelMesh() {
 
 export function createIntegraBusProxy() {
   const root = new THREE.Group();
-  root.name = 'Integra Salvador Bus Proxy';
+  root.name = 'Torino 31065 Bus Proxy';
   root.userData.proxy = true;
 
   const body = new THREE.Mesh(
@@ -167,11 +167,14 @@ function placeOnSegment(root, segment) {
 }
 
 function configureRoot(root, sourceKind, stats) {
-  root.name = 'R30A9 | BUS | INTEGRA SALVADOR 01';
+  root.name = 'R30A13 | BUS | TORINO SALVADOR 31065';
   root.userData.assetId = INTEGRA_BUS.assetId;
   root.userData.assetType = 'vehicle';
   root.userData.vehicleClass = 'urban_bus';
   root.userData.sourceKind = sourceKind;
+  root.userData.revision = 'v03';
+  root.userData.doorSide = '-X';
+  root.userData.exteriorDetail = 'front-rear-concept-v03';
   root.userData.sourceSha256 = INTEGRA_BUS.sourceSha256;
   root.userData.trafficBinding = 'candidate_only';
   root.userData.placement = 'road_graph_centerline_staging';

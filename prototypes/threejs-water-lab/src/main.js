@@ -17,6 +17,8 @@ import { TrafficSystem } from './traffic.js';
 import { createUrbanMassing } from './urban.js';
 import { PlayerController, PlayerMode } from './player.js';
 import { createFortProxy, createBoatProxy } from './landmarks.js';
+import { createOfficialLandmarks } from './officialLandmarks.js';
+import { loadOfficialCity } from './officialCity.js';
 import { createIntegraBus, integraBusStatus } from './integraBus.js';
 
 const app = document.querySelector('#app');
@@ -82,6 +84,17 @@ scene.add(water);
 
 const fort = createFortProxy();
 scene.add(fort);
+let officialCity;
+let officialLandmarks;
+try {
+  officialCity = await loadOfficialCity();
+  scene.add(officialCity.object);
+  officialLandmarks = officialCity.object;
+} catch (error) {
+  console.warn('Cidade oficial GLB indisponível; usando marcos de fallback', error);
+  officialLandmarks = createOfficialLandmarks();
+  scene.add(officialLandmarks);
+}
 const boat = createBoatProxy();
 scene.add(boat.object);
 let graph;
@@ -129,12 +142,14 @@ addEventListener('keydown', (event) => {
 });
 const clock = new THREE.Clock();
 window.__ALL_SAINTS__ = {
-  version: 'R30A.10-foundation-lab+integra-staging',
+  version: 'R30A.13-official-mvp-city+torino-31065',
   camera,
   player,
   traffic,
   boat: boat.object,
   boatController: boat,
+  officialLandmarks,
+  officialCity,
   integraBus,
   graphStats,
   foundationStats: foundation.stats,
@@ -155,6 +170,7 @@ window.__ALL_SAINTS__ = {
       buildings: urban.stats.buildings,
       foundation: foundation.stats,
       integraBus: integraBusStatus(integraBus),
+      officialLandmarks: officialLandmarks.userData,
     };
   },
 };

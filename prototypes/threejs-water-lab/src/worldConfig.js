@@ -14,9 +14,9 @@ export const WORLD = Object.freeze({
     maxZ: 1580,
   },
   spawn: {
-    x: -265.15,
-    z: 1.87,
-    headingDeg: -90,
+    x: -34.0,
+    z: 28.0,
+    headingDeg: 180,
   },
   traffic: {
     vehicles: 72,
