@@ -6,6 +6,9 @@ Concentrar o primeiro vertical slice de **Bay of All Saints** no corredor Cidade
 
 Os arquivos canônicos desta área são:
 
+- `production.json` — SSOT executável de revisão ativa, exportação, assets e runtime;
+  fluxo em `docs/MVP_PRODUCTION_PIPELINE.md`;
+
 - `area.json` — geografia, estado e captura Aleph;
 - `locations.json` — locais/assets que precisam existir e seu nível de fidelidade;
 - `media-manifest.json` — referências visuais catalogadas e sua proveniência.

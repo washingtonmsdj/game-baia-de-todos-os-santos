@@ -1,5 +1,12 @@
 # Handoff do Codex — Fidelidade Estrutural
 
+> Produção do MVP: consultar primeiro `world/areas/mvp-centro-lacerda/production.json`
+> e `docs/MVP_PRODUCTION_PIPELINE.md`. A revisão ativa é explícita; textos históricos
+> e scripts antigos não autorizam escolher outro `.blend`. Exportação canônica:
+> `automation/blender/export_active_world.py` via MCP na janela única; empacotamento:
+> `python tools/runtime/package_world.py`. Não editar arquivos derivados manualmente.
+
+
 ## Objetivo
 
 Executar a evolução estrutural do **Bay of All Saints** de forma reproduzível, priorizando georreferenciamento, terreno, coastline/cais, vias e footprints antes de acabamento visual — **sem confundir fidelidade com réplica milimétrica**.

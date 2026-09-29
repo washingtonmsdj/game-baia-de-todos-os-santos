@@ -1,14 +1,24 @@
 import bpy
+import sys
 from pathlib import Path
 
+root = next(p for p in Path(bpy.data.filepath).parents if (p / 'world/areas/mvp-centro-lacerda/production.json').exists())
+sys.path.insert(0, str(root))
+from tools.runtime.production import load_contract, require_source, resolve
+contract = load_contract()
+require_source(contract['vehicle']['source'], bpy.data.filepath)
 scene = bpy.context.scene
-assert scene.name == 'ONIBUS | Torino 31065 v03', scene.name
-output = Path(r'C:/Users/TONECOS/Documents/github/game-baia-de-todos-os-santos/prototypes/threejs-water-lab/public/assets/vehicles/torino-31065/onibus_torino_31065_v03.glb')
+assert scene.name == contract['vehicle']['source']['scene'], scene.name
+output = resolve(contract['staging']['vehicle'])
 output.parent.mkdir(parents=True, exist_ok=True)
 
 bpy.ops.object.select_all(action='DESELECT')
 selected = []
 for obj in scene.objects:
+    if any('APRESENTACAO' in c.name for c in obj.users_collection):
+        continue
+    if 'estudio' in obj.name.lower() or 'estúdio' in obj.name.lower():
+        continue
     if obj.name.startswith('BUS02 | ') or obj.name.startswith('BUS03 | '):
         if obj.type in {'MESH', 'CURVE', 'FONT', 'EMPTY'}:
             obj.select_set(True)

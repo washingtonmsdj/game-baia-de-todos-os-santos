@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Contrato de produção do MVP — Bay of All Saints",
+  "type": "object",
+  "required": ["schema", "area_id", "world_source", "coordinates", "export", "vehicle", "staging", "runtime", "limitations"],
+  "properties": {
+    "schema": {"const": "boas/production-v1"},
+    "area_id": {"type": "string", "minLength": 1},
+    "world_source": {"$ref": "#/$defs/source"},
+    "coordinates": {
+      "type": "object", "required": ["blender", "runtime", "meters_per_unit"],
+      "properties": {"blender": {"const": "X,Y,Z"}, "runtime": {"const": "X,Z,-Y"}, "meters_per_unit": {"const": 1}}
+    },
+    "vehicle": {"type": "object", "required": ["id", "source", "dimensions"], "properties": {"source": {"$ref": "#/$defs/source"}}},
+    "staging": {"type": "object", "required": ["city", "surfaces", "vehicle", "foundation", "roads"], "additionalProperties": {"type": "string", "pattern": "^(?![A-Za-z]:|/|.*\\.\\.).+"}},
+    "runtime": {"type": "object", "required": ["public_root", "streaming", "render", "world"]},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "$defs": {
+    "source": {
+      "type": "object", "required": ["file", "sha256", "scene"],
+      "properties": {
+        "file": {"type": "string", "pattern": "^blender/.+\\.blend$"},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "scene": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}

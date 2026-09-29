@@ -278,3 +278,17 @@ Quando uma informação ainda não foi verificada, mantê-la explicitamente como
 - manter OrdaX e, quando ativo, BlendMCP na mesma instância;
 - não usar Blender background/segunda janela para modificar geometria;
 - headless fica restrito a validações read-only/CI.
+
+
+## Contrato de produção Blender → runtime
+
+- Antes de exportar/integrar, ler `world/areas/mvp-centro-lacerda/production.json`
+  e `docs/MVP_PRODUCTION_PIPELINE.md`. Esse contrato decide fonte ativa e perfil.
+- Não escolher `.blend` pelo maior sufixo/mtime nem repetir caminhos em carregadores.
+- Usar o wrapper `automation/blender/export_active_world.py` via MCP na única janela.
+- Promover arquivo/hash somente após salvar revisão real e conferir a alteração.
+- Geometria glTF já está em `(X,Z,-Y)`: não adicionar escala negativa ao mundo.
+- GLBs, setores e colisão de runtime são derivados; regenerar pelo pipeline.
+- Novos assets reutilizáveis têm arquivo próprio e ID. Hero assets existentes não
+  devem ser separados/reparentados sem migração que preserve dependências.
+- Não substituir fonte ausente por terreno, prédios ou veículos fictícios.

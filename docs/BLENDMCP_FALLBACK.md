@@ -39,6 +39,11 @@ python tools/blendmcp/healthcheck.py --port 9877 --expect-version 1.4.4
 ```
 ## Launcher quando não existe Blender aberto
 
+O launcher resolve a composição ativa em
+`world/areas/mvp-centro-lacerda/production.json`; não mantém uma revisão fixa própria.
+Com OrdaX, selecionar explicitamente o projeto deste repositório antes de operar:
+o projeto padrão do serviço pode pertencer a outro workspace.
+
 Somente quando não houver nenhuma janela Blender ativa:
 
 ```powershell

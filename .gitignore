@@ -10,6 +10,14 @@
 *.blend
 !blender/
 !blender/*.blend
+!blender/**/
+!blender/**/*.blend
+
+# Pacotes de engine reproduzíveis; fontes e contrato ficam no Git/LFS.
+prototypes/threejs-water-lab/public/world/releases/
+prototypes/threejs-water-lab/public/world/runtime.json
+prototypes/threejs-water-lab/public/data/official_surfaces.json
+prototypes/threejs-water-lab/public/assets/city/salvador_lacerda_mvp_r30a11_full.json
 
 # Python
 __pycache__/

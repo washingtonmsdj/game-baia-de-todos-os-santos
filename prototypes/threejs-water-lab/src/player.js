@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 import { WORLD } from './worldConfig.js';
-import { isWaterAt, sampleGameplayGround, sampleTerrainHeight, WORLD_BOUNDS } from './terrain.js';
+import { isWaterAt, sampleGameplayGround, WORLD_BOUNDS } from './terrain.js';
 import { sampleWaterHeight } from './water.js';
 
 export const PlayerMode = Object.freeze({
@@ -82,10 +82,17 @@ export class PlayerController {
   }
 
   _moveOnGround(move, distance) {
+    const feet = this.camera.position.y - this.eyeHeight;
+    const canMove = (x,z) => {
+      if(this.canOccupy && !this.canOccupy(x,z)) return false;
+      if(this._blocked(x,z)) return false;
+      const ground = sampleGameplayGround(x,z,this.camera.position.y);
+      return ground == null ? isWaterAt(x,z) : ground <= feet + 0.4;
+    };
     const x = this.camera.position.x + move.x * distance;
-    if (!this._blocked(x, this.camera.position.z)) this.camera.position.x = x;
+    if (canMove(x, this.camera.position.z)) this.camera.position.x = x;
     const z = this.camera.position.z + move.z * distance;
-    if (!this._blocked(this.camera.position.x, z)) this.camera.position.z = z;
+    if (canMove(this.camera.position.x, z)) this.camera.position.z = z;
   }
 
   _updateOnFoot(dt) {
@@ -93,9 +100,12 @@ export class PlayerController {
     const sprint = this.keys.has('ShiftLeft') || this.keys.has('ShiftRight');
     const speed = sprint ? 8.5 : 5.2;
     this._moveOnGround(move, speed * dt);
-    const sampledGround = sampleGameplayGround(this.camera.position.x, this.camera.position.z);
-    const ground = sampledGround ?? this.lastGround ?? sampleTerrainHeight(this.camera.position.x, this.camera.position.z);
-    if (ground == null) return;
+    const ground = sampleGameplayGround(this.camera.position.x, this.camera.position.z, this.camera.position.y);
+    if (ground == null) {
+      this.verticalVelocity -= WORLD.gravity * dt;
+      this.camera.position.y += this.verticalVelocity * dt;
+      return;
+    }
     this.lastGround = ground;
     const floorY = ground + this.eyeHeight;
     const grounded = this.camera.position.y <= floorY + 0.04;
@@ -138,7 +148,8 @@ export class PlayerController {
 
   update(dt, time) {
     const surface = sampleWaterHeight(this.camera.position.x, this.camera.position.z, time);
-    const overWater = isWaterAt(this.camera.position.x, this.camera.position.z);
+    const support = sampleGameplayGround(this.camera.position.x, this.camera.position.z, this.camera.position.y);
+    const overWater = (support == null || support < surface) && isWaterAt(this.camera.position.x, this.camera.position.z);
     const depth = surface - this.camera.position.y;
 
     if (!overWater) {

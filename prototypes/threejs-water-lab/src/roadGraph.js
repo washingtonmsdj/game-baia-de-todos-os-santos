@@ -1,6 +1,8 @@
 import * as THREE from 'three';
 import { ROAD_WIDTHS } from './worldConfig.js';
-import { sampleTerrainHeight } from './terrain.js';
+import { sampleRoadHeight } from './terrain.js';
+import { loadRuntimeManifest, loadJsonAsset } from './runtime/assets.js';
+import { blenderToRuntime } from './runtime/coordinates.js';
 
 const X_AXIS = new THREE.Vector3(1, 0, 0);
 
@@ -21,9 +23,8 @@ export function roadSpeed(highway) {
 }
 
 export async function loadRoadGraph() {
-  const response = await fetch('/data/road_graph.json', { cache: 'no-cache' });
-  if (!response.ok) throw new Error(`road graph HTTP ${response.status}`);
-  const raw = await response.json();
+  const manifest=await loadRuntimeManifest();
+  const raw=await loadJsonAsset(manifest.assets.roads);
   if (!Array.isArray(raw.nodes) || !Array.isArray(raw.edges) || !Array.isArray(raw.ways)) {
     throw new Error('invalid road graph payload');
   }
@@ -36,10 +37,11 @@ function segmentFromEdge(edge, graph) {
   const to = graph.nodes.get(String(edge.to));
   if (!from || !to) return null;
   const way = graph.ways.get(Number(edge.osm_way_id)) ?? {};
-  const [ax, az] = from.blender_xy;
-  const [bx, bz] = to.blender_xy;
-  const ay = sampleTerrainHeight(ax, az) + 0.20;
-  const by = sampleTerrainHeight(bx, bz) + 0.20;
+  const [ax, , az] = blenderToRuntime(...from.blender_xy);
+  const [bx, , bz] = blenderToRuntime(...to.blender_xy);
+  const ay = sampleRoadHeight(ax, az);
+  const by = sampleRoadHeight(bx, bz);
+  if (ay == null || by == null) return null;
   return {
     id: edge.id,
     edge,

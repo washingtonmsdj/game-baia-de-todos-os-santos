@@ -1,5 +1,12 @@
 # Handoff Geral do Codex — Bay of All Saints
 
+> Produção do MVP: consultar primeiro `world/areas/mvp-centro-lacerda/production.json`
+> e `docs/MVP_PRODUCTION_PIPELINE.md`. A revisão ativa é explícita; textos históricos
+> e scripts antigos não autorizam escolher outro `.blend`. Exportação canônica:
+> `automation/blender/export_active_world.py` via MCP na janela única; empacotamento:
+> `python tools/runtime/package_world.py`. Não editar arquivos derivados manualmente.
+
+
 ## Objetivo
 
 Continuar o desenvolvimento do **Bay of All Saints** sem depender de contexto de conversa e sem exigir coordenação manual repetida.
@@ -267,3 +274,45 @@ Se uma decisão material contradizer algum documento existente, corrigir o docum
 Trabalhar de forma autônoma em decisões técnicas normais, preservando estado anterior e registrando incertezas.
 
 Não usar offsets mágicos, valores inventados, edições destrutivas ocultas ou decoração para mascarar problema estrutural.
+
+## Three.js — fonte única R30A.11 (2026-09-29)
+
+A visualização usa exclusivamente a arte renderizável do arquivo
+`blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a11_pedestrian_nav.blend`.
+SHA-256 confirmado: `de552b045d190c8feadcb763539e2f0f0b1ce68b6a231884bbe7d70fcd8fd396`.
+O exportador anterior omitia objetos compartilhados com coleções GAMEPLAY,
+incluindo terreno e vias. Corrigido para selecionar objetos das coleções de arte
+06–31 e 36, respeitando visibilidade e renderização. Não altera/salva o Blender.
+O manifesto ao lado do GLB registra origem, hashes e nomes dos objetos.
+Removidos geradores alternativos de cidade e fallback de marcos. Falha na carga
+oficial agora interrompe a visualização, sem substituir o cenário.
+`official_surfaces.json` contém apenas suporte de gameplay proveniente da mesma
+cena, incluindo proxy de terreno R30A.5; não é renderizado. Exclui superfícies
+legadas ocultas. Não há terreno procedural apresentado como cenário oficial.
+Ônibus: chão de estúdio excluído do cálculo de escala; carroceria configurada
+em 12 × 2,55 × 3,25 m, com retrovisores fora da largura nominal. Essas medidas
+são alvo de projeto, não especificação de fábrica confirmada.
+
+
+### Apoio dos ônibus — correção da fonte de altura
+Na R30A.11 as pistas antigas estão ocultas. O asfalto visível pertence ao objeto
+`MVP | terreno corrigido | colisão estática`, nos materiais `MVP | asfalto da ladeira`
+e `VIAS | pavimento de pedra Rua Chile`. O exportador de superfícies extrai
+somente esses triângulos como ROAD, mantendo o proxy separado para terreno.
+O posicionamento dos ônibus usa pontos inferiores dos pneus medidos do GLB e
+recalcula altura, pitch e roll na posição atual. Não usa a média de alturas dos
+extremos do segmento nem offsets verticais de apresentação. Apoios fora do
+asfalto consultam o suporte oficial próximo; locais sem suporte não recebem
+instância visível. O rig de suspensão individual permanece pendente.
+
+
+### Correção de orientação — contrato único de coordenadas
+A reflexão `group.scale.z = -1` espelhava a cidade mesmo preservando distâncias.
+Foi removida. Convenção de runtime: Blender (X,Y,Z) → Three.js (X,Z,-Y),
+a mesma rotação própria do glTF, com determinante positivo. Grafo viário,
+superfícies de apoio, coastline, limites e spawn convertidos para essa convenção.
+O JSON de suporte histórico permanece (X,Z,Y), convertido explicitamente no
+carregamento. A auditoria anterior de origens do GLB não abrangia a reflexão
+adicionada em JavaScript e não confirmava orientação correta no navegador.
+Removidos também os geradores procedurais de terreno que não devem substituir
+superfícies oficiais ausentes.

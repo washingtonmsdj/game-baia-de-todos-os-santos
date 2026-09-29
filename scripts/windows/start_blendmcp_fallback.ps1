@@ -1,5 +1,5 @@
 param(
-    [string]$BlendFile = "blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a6_collision_chunks.blend",
+    [string]$BlendFile = "",
     [int]$Port = 9877,
     [string]$BlenderExe = "C:\Program Files\Blender Foundation\Blender 5.2\blender.exe",
     [string]$AddonPath = "$env:APPDATA\Blender Foundation\Blender\5.2\scripts\addons\blendmcp_addon.py"
@@ -7,6 +7,11 @@ param(
 
 $ErrorActionPreference = "Stop"
 $repo = (Resolve-Path (Join-Path $PSScriptRoot "..\..")).Path
+if ([string]::IsNullOrWhiteSpace($BlendFile)) {
+    $contractPath = Join-Path $repo "world\areas\mvp-centro-lacerda\production.json"
+    $productionContract = Get-Content -LiteralPath $contractPath -Raw | ConvertFrom-Json
+    $BlendFile = $productionContract.world_source.file
+}
 $blend = if ([IO.Path]::IsPathRooted($BlendFile)) { $BlendFile } else { Join-Path $repo $BlendFile }
 $addon = (Resolve-Path $AddonPath).Path
 

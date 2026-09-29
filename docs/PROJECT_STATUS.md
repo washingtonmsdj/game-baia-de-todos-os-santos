@@ -18,25 +18,27 @@ Diretriz obrigatória: `docs/GAMEPLAY_FIDELITY_POLICY.md`.
 
 Branch de produção: `main`.
 
-## Cena Blender oficial atual
+## Fonte ativa do MVP e contrato de produção
 
-Arquivo versionado via Git LFS:
+**SSOT executável:** `world/areas/mvp-centro-lacerda/production.json`.
+Fluxo obrigatório: `docs/MVP_PRODUCTION_PIPELINE.md`.
 
-`blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a12_nav_links.blend`
+A composição ativa para o MVP Three.js é a **R30A.11**, escolhida explicitamente
+pelo usuário: `blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a11_pedestrian_nav.blend`.
+O contrato registra o SHA-256; exportadores e runtime derivado usam essa mesma fonte.
+A R30A.12 permanece preservada, mas não pode substituir a fonte ativa apenas por
+ter um número de revisão maior. Não há promoção automática.
 
-SHA-256 conhecido:
+O ônibus tem fonte editável própria em `blender/assets/onibus_torino_31065_v03.blend`.
+Os Hero assets existentes continuam em coleções da composição: não foram cortados,
+reposicionados ou migrados destrutivamente para novas bibliotecas.
 
-`D5A1BA39250E9AB291D45C9BE8B9058FE84FD82F7D6B01CC5FD309E690CB8835`
+O pipeline agora separa fonte Blender, staging de exportação e releases de runtime.
+O carregador usa manifesto com hashes, setores espaciais, fila limitada e descarte
+de recursos. Terreno visual amplo/core e colisão integral ainda não têm streaming
+geométrico completo. LOD, rig e medição de performance permanecem pendentes.
 
-Commit que introduziu a cena no Git LFS e concluiu a R30A.1 diagnóstica:
-
-`d631b431b04db5b67d817988c99e655a4808d658`
-
-A R30A.2 confirmou o mesmo SHA antes/depois; nenhuma geometria foi salva.
-
-A cena não deve ser substituída/destruída silenciosamente. Novas revisões devem preservar a origem e ser justificadas por mudança real de cena.
-
-## Fase atual
+## Histórico das revisões (não determina a fonte ativa)
 
 ### R30A.12 — links revisados de navegação
 

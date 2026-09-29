@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import { WORLD } from './worldConfig.js';
+import { groundVehicle } from './vehicleGrounding.js';
 
 const Z_AXIS = new THREE.Vector3(0, 0, 1);
 const tempPosition = new THREE.Vector3();
@@ -44,6 +45,7 @@ function createTrafficVehicleVisual(template, count) {
     instanced.name = `Traffic Torino | ${source.name}`;
     instanced.castShadow = true;
     instanced.receiveShadow = true;
+    instanced.frustumCulled = false;
     instanced.instanceMatrix.setUsage(THREE.DynamicDrawUsage);
     group.add(instanced);
     records.push({ instanced, localMatrix });
@@ -60,9 +62,10 @@ export class TrafficSystem {
     const visual = createTrafficVehicleVisual(vehicleTemplate, count);
     this.mesh = visual.group;
     this.vehicleVisuals = visual.records;
+    this.wheelContacts = vehicleTemplate.userData.wheelContacts;
     this.mesh.userData = {
       assetId: vehicleTemplate?.userData?.assetId ?? 'vehicle-torino-salvador-31065',
-      dimensionsMeters: { length: 12.0, width: 2.55, height: 3.25 },
+      dimensionsMeters: vehicleTemplate.userData.targetDimensions,
       scale: 'real-world-meters',
     };
 
@@ -108,7 +111,7 @@ export class TrafficSystem {
         const lead = list[i + 1];
         if (lead) {
           const gap = (lead.t - vehicle.t) * length;
-          if (gap < 14) target = Math.min(target, Math.max(0, (gap - 3.5) * 0.9));
+          if (gap < 30) target = Math.min(target, Math.max(0, (gap - 15) * 0.9));
         }
         const rate = target < vehicle.speed ? 7.5 : 2.2;
         vehicle.speed += THREE.MathUtils.clamp(target - vehicle.speed, -rate * dt, rate * dt);
@@ -150,11 +153,8 @@ export class TrafficSystem {
       tempRight.set(tempDirection.z, 0, -tempDirection.x).normalize();
       const laneOffset = Math.min(1.6, vehicle.arc.segment.width * laneOffsetFactor);
       tempPosition.addScaledVector(tempRight, laneOffset);
-      // O Torino normalizado tem a base da roda em y=0; o centro do segmento
-      // já traz a altura real do terreno, então não usamos a escala do box antigo.
-      tempPosition.y += 0.02;
-      tempQuaternion.setFromUnitVectors(Z_AXIS, tempDirection);
-      tempVehicleMatrix.compose(tempPosition, tempQuaternion, UNIT_SCALE);
+      const supported = groundVehicle(tempPosition, tempQuaternion, tempDirection, this.wheelContacts);
+      tempVehicleMatrix.compose(tempPosition, tempQuaternion, supported ? UNIT_SCALE : new THREE.Vector3(0,0,0));
       for (const visual of this.vehicleVisuals) {
         tempMatrix.multiplyMatrices(tempVehicleMatrix, visual.localMatrix);
         visual.instanced.setMatrixAt(i, tempMatrix);
