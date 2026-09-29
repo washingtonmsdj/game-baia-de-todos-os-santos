@@ -2,7 +2,7 @@
 
 > Documento vivo. Atualizar quando houver mudança relevante de revisão, direção, pipeline, bloqueios, engine, vertical slice ou critério de produção.
 
-**Atualizado em:** 2026-09-28
+**Atualizado em:** 2026-09-29
 
 ## Resumo executivo
 
@@ -22,11 +22,11 @@ Branch de produção: `main`.
 
 Arquivo versionado via Git LFS:
 
-`blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a8_ocean.blend`
+`blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a11_pedestrian_nav.blend`
 
 SHA-256 conhecido:
 
-`2009795BADF24CA3CD913B740419ACFF874FF8EA0FA2D035349A0C06D9776BB9`
+`DE552B045D190C8FEADCB763539E2F0F0B1CE68B6A231884BBE7D70FCD8FD396`
 
 Commit que introduziu a cena no Git LFS e concluiu a R30A.1 diagnóstica:
 
@@ -38,6 +38,15 @@ A cena não deve ser substituída/destruída silenciosamente. Novas revisões de
 
 ## Fase atual
 
+### R30A.11 — navigation hints de pedestres
+
+A base pedonal do vertical slice foi materializada de forma engine-agnostic: `126` caminhos OSM, `6` escadarias, `487` nós e `488` segmentos. A cena cria `125` helpers de caminho, `5` de escada, `106` junctions e `5` crossing anchors sem gerar navmesh final.
+
+`471` nós foram resolvidos sobre o collider jogável; `16` ficaram fora/sem contato. As cinco travessias existentes têm match exato de `osm_node_id` com o grafo pedonal, mas continuam `review_only_not_connected` até validação da camada de navegação da engine.
+
+Cena oficial: `blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a11_pedestrian_nav.blend`. Relatório: `docs/reports/blender/r30a11/R30A11_REPORT.md`. Revisão: `docs/revisions/R30A11_PEDESTRIAN_NAV.md`.
+
+Próximo foco: vertical slice funcional de locomoção, links revisados de travessias/escadas e entrada/saída de áreas jogáveis.
 ### R30A.8 ? oceano visual e ?gua de gameplay
 
 A ?gua da Ba?a de Todos-os-Santos foi separada em autoria visual, superf?cie de refer?ncia e volume de gameplay. O n?vel f?sico permanece determin?stico em `0,35 m`; o volume atual permite nado/mergulho at? `-16 m` no recorte existente.
@@ -46,7 +55,7 @@ A camada visual usa material PBR animado e espuma derivada da borda real da malh
 
 O runtime permanece engine-agnostic: ondas, consulta de superf?cie, nata??o, mergulho, buoyancy, correntes, c?mera submersa, c?usticas e p?s-processamento devem ser implementados no motor, n?o como f?sica Blender.
 
-Cena oficial: `blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a8_ocean.blend`. Relat?rio: `docs/reports/blender/r30a8/R30A8_REPORT.md`. Contrato: `docs/reports/blender/r30a8/water_runtime_contract.json`.
+Cena oficial: `blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a11_pedestrian_nav.blend`. Relat?rio: `docs/reports/blender/r30a8/R30A8_REPORT.md`. Contrato: `docs/reports/blender/r30a8/water_runtime_contract.json`.
 
 Pr?ximo foco: refer?ncia de ondas de larga escala, zonas de corrente/profundidade e vertical slice runtime de nata??o/mergulho quando a engine for selecionada.
 
