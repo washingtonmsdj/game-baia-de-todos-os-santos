@@ -38,3 +38,8 @@ output/
 world-reference/
 reference-media/
 captures/
+
+# Diagnósticos locais não reproduzíveis: dependem de caminhos/estado de uma máquina.
+prototypes/threejs-water-lab/scripts/inspect-visual.cjs
+automation/blender/r30a13_extract_route_anchors.py
+docs/reports/blender/r30a13/
