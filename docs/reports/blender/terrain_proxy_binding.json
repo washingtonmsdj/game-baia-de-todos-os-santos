@@ -1,0 +1,100 @@
+{
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b25_encontro_continuo.blend",
+    "sha256": "1be81bfadf9f40c43abf4c44190e08c10c23e6497ac7c00167a8c58204f9b030",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "revision": "R30B.25",
+    "selection_reason": "Derivada da R30B23; plataforma contínua do encontro Montanha/Pau da Bandeira e proxy local, sem alterar larguras ou XY. Revisão parcial do terreno."
+  },
+  "classification": "ERROR",
+  "visual_geometry_changed": false,
+  "city_xy_changed": false,
+  "road_widths_changed": false,
+  "source_local_xy_bounds": [
+    [
+      -287.0,
+      -282.0
+    ],
+    [
+      541.0,
+      621.0
+    ]
+  ],
+  "proxy_local_xy_bounds_before": [
+    [
+      -287.000732421875,
+      -282.0008239746094
+    ],
+    [
+      541.00146484375,
+      621.0017700195312
+    ]
+  ],
+  "proxy_world_matrix_before": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      1.2965762615203857
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.7371039390563965
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      -3.5643310546875
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "proxy_world_matrix_after": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      1.2965762615203857
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.7371039390563965
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      -3.5643310546875
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "height_samples_changed": 37861,
+  "max_resample_delta_m": 51.517154693603516,
+  "missing_support_count": 0,
+  "missing_support_ids": [],
+  "edge_probe_tolerance_m": 0.002,
+  "method": "apply confirmed source transform to preserved proxy, then resample current terrain; no guessed geographic offset",
+  "runtime_exported": false,
+  "vehicle_retest": "pending",
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b26_terreno_colisao_alinhados.blend",
+    "sha256": "c9511d8daa91ed7124574765e963ac1a25d9939338ec1b153a04cd6d507399ad",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "revision": "R30B.26",
+    "selection_reason": "Derivada da R30B23: encontro Montanha/Pau da Bandeira contínuo e binding confirmado do colisor ao transform do terreno. Larguras/implantação visual preservadas. Revisão parcial da cidade."
+  }
+}

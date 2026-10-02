@@ -1,24 +1,14 @@
 <!doctype html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>All Saints — Foundation Lab</title>
-</head>
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Bay of All Saints · teste urbano</title></head>
 <body>
-  <div id="app"></div>
-  <div id="loading">CARREGANDO FUNDAÇÃO DA CIDADE…</div>
+  <div id="app"></div><div id="loading">Carregando a cidade oficial…</div>
   <div class="hud">
-    <div class="brand">ALL SAINTS <span>FOUNDATION LAB</span></div>
-    <div id="status">INICIALIZANDO</div>
-    <div class="telemetry">
-      <div id="coords">x 0 · y 0 · z 0</div>
-      <div id="world-stats">grafo — · tráfego —</div>
-      <div id="bus-status">ônibus —</div>
-      <div id="fps">— FPS</div>
-    </div>
-    <div class="help">Clique para olhar · WASD mover · Shift correr · Espaço pular/subir · Q mergulhar · E subir · G grafo · T trânsito · B ônibus · R reset</div>
-  </div>
-  <script type="module" src="/src/main.js"></script>
-</body>
-</html>
+    <div class="brand">BAY OF ALL SAINTS <span>Rua Chile · teste urbano</span></div>
+    <div id="status">Inicializando</div>
+    <div class="actions"><button id="play">Jogar</button><button id="reset">Reiniciar · R</button><button id="overview">Ver circuito</button></div>
+    <details id="details"><summary>Controles e objetivo · H</summary><p>Caminhe pelo passeio, espere o sinal de pedestres e atravesse a faixa. Observe os carros formando fila e saindo no verde.</p><p>WASD: caminhar · mouse: olhar · setas: olhar sem mouse · Shift: correr · Espaço: pular · R: voltar ao início · Esc: soltar mouse.</p><p>O teste abrange Rua Chile, Ladeira da Praça, Rua da Ajuda e Rua das Vassouras. Sinais e travessia são adaptações provisórias de gameplay. Os limites da circulação acompanham as superfícies implementadas.</p><div id="world-stats"></div><div id="fps"></div></details>
+    <div class="help">Clique em Jogar · WASD mover · mouse olhar · R reiniciar · H ajuda</div>
+    <details style="position:absolute;bottom:55px;left:20px;max-width:500px;background:#18333edb;font-size:11px"><summary>Diagnóstico da revisão</summary><pre id="diagnostics" data-testid="diagnostics" style="white-space:pre-wrap;max-height:180px;overflow:auto"></pre></details>
+  </div><script type="module" src="/src/main.js"></script>
+</body></html>

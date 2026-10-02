@@ -1,0 +1,449 @@
+{
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b30_conexao_real_recorte.blend",
+    "sha256": "28c608846d8da3a7e918b7e3f8744b1c456d89176849f81406a0ddce71ad0132",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "revision": "R30B.30",
+    "selection_reason": "Derivada da R30B23; amplia localmente o recorte de terreno na conexão OSM real da Praça Castro Alves, sem mover vértices anteriores ou alterar larguras. Conceição permanece em revisão, sem circuito/ônibus aprovado."
+  },
+  "reference_media_ids": [
+    "elevador-lacerda-panorama-783a31279c0d",
+    "monumento-mario-cravo-front-17efe0412acf",
+    "monumento-mario-cravo-oblique_right-84c7c6bb89db"
+  ],
+  "classification": "ADAPT_LOCAL",
+  "buildings": [
+    {
+      "osm_way_id": 1263035779,
+      "body": "OSM | 1263035779",
+      "footprint_controls_xy": [
+        [
+          -49.12968063354492,
+          62.14558792114258
+        ],
+        [
+          -37.132015228271484,
+          71.85099792480469
+        ],
+        [
+          -27.46662712097168,
+          60.730674743652344
+        ],
+        [
+          -39.56192398071289,
+          51.05842590332031
+        ]
+      ],
+      "street_front_length_m": 15.431751493676849,
+      "ground_source_z": 7.2556610107421875,
+      "candidate_height_m": 9.2,
+      "candidate_floors": 3,
+      "photo_identity": "candidate",
+      "real_height_verified_m": null,
+      "openings": 9,
+      "style": "lattice"
+    },
+    {
+      "osm_way_id": 1220650665,
+      "body": "OSM | 1220650665",
+      "footprint_controls_xy": [
+        [
+          -37.132015228271484,
+          71.85099792480469
+        ],
+        [
+          -31.198270797729492,
+          75.89676666259766
+        ],
+        [
+          -18.62567138671875,
+          60.76383972167969
+        ],
+        [
+          -23.876005172729492,
+          56.59648132324219
+        ],
+        [
+          -27.46662712097168,
+          60.730674743652344
+        ]
+      ],
+      "street_front_length_m": 7.1817524361536735,
+      "ground_source_z": 7.2556610107421875,
+      "candidate_height_m": 10.8,
+      "candidate_floors": 3,
+      "photo_identity": "candidate",
+      "real_height_verified_m": null,
+      "openings": 9,
+      "style": "arches",
+      "roof_status": "candidate: duas águas pela vista fornecida; fundos não confirmados"
+    },
+    {
+      "osm_way_id": 1220650754,
+      "body": "OSM | 1220650754",
+      "footprint_controls_xy": [
+        [
+          -31.198270797729492,
+          75.89676666259766
+        ],
+        [
+          -25.730979919433594,
+          79.83198547363281
+        ],
+        [
+          -7.57176399230957,
+          58.90676498413086
+        ],
+        [
+          -12.691925048828125,
+          53.58979034423828
+        ],
+        [
+          -18.62567138671875,
+          60.76383972167969
+        ]
+      ],
+      "street_front_length_m": 6.736261302763673,
+      "ground_source_z": 7.2556610107421875,
+      "candidate_height_m": 22.0,
+      "candidate_floors": 6,
+      "photo_identity": "candidate",
+      "real_height_verified_m": null,
+      "openings": 12,
+      "style": "deco"
+    },
+    {
+      "osm_way_id": 1220650857,
+      "body": "OSM | Depósito Vissor",
+      "footprint_controls_xy": [
+        [
+          -25.730979919433594,
+          79.83198547363281
+        ],
+        [
+          -20.144363403320312,
+          84.33096313476562
+        ],
+        [
+          -14.232312202453613,
+          77.4222183227539
+        ],
+        [
+          -3.731642961502075,
+          65.15227508544922
+        ],
+        [
+          -7.57176399230957,
+          58.90676498413086
+        ]
+      ],
+      "street_front_length_m": 7.172941107869414,
+      "ground_source_z": 7.2556610107421875,
+      "candidate_height_m": 19.8,
+      "candidate_floors": 5,
+      "photo_identity": "candidate",
+      "real_height_verified_m": null,
+      "openings": 15,
+      "style": "colonial",
+      "roof_status": "candidate: duas águas pela vista fornecida; fundos não confirmados"
+    },
+    {
+      "osm_way_id": 1220650885,
+      "body": "OSM | 1220650885",
+      "footprint_controls_xy": [
+        [
+          -14.438420295715332,
+          89.07313537597656
+        ],
+        [
+          -9.198933601379395,
+          92.7762222290039
+        ],
+        [
+          4.881509780883789,
+          77.5217056274414
+        ],
+        [
+          0.2278037816286087,
+          71.5083236694336
+        ],
+        [
+          -8.504674911499023,
+          81.91014099121094
+        ]
+      ],
+      "street_front_length_m": 6.416001355577739,
+      "ground_source_z": 7.25567626953125,
+      "candidate_height_m": 19.6,
+      "candidate_floors": 5,
+      "photo_identity": "candidate",
+      "real_height_verified_m": null,
+      "openings": 15,
+      "style": "colonial",
+      "roof_status": "candidate: duas águas pela vista fornecida; fundos não confirmados"
+    },
+    {
+      "osm_way_id": 574235997,
+      "body": "OSM | 574235997",
+      "footprint_controls_xy": [
+        [
+          -3.91605544090271,
+          97.13150024414062
+        ],
+        [
+          -9.198933601379395,
+          92.7762222290039
+        ],
+        [
+          4.881509780883789,
+          77.5217056274414
+        ],
+        [
+          9.35080337524414,
+          83.11502838134766
+        ]
+      ],
+      "street_front_length_m": 6.846695914770921,
+      "ground_source_z": 7.2556610107421875,
+      "candidate_height_m": 24.0,
+      "candidate_floors": 6,
+      "photo_identity": "candidate",
+      "real_height_verified_m": null,
+      "openings": 18,
+      "style": "rect"
+    },
+    {
+      "osm_way_id": 574235995,
+      "body": "OSM | 574235995",
+      "footprint_controls_xy": [
+        [
+          1.0956276655197144,
+          100.71299743652344
+        ],
+        [
+          -3.91605544090271,
+          97.13150024414062
+        ],
+        [
+          9.35080337524414,
+          83.11502838134766
+        ],
+        [
+          13.928574562072754,
+          89.11734771728516
+        ],
+        [
+          1.8549736738204956,
+          100.02764892578125
+        ]
+      ],
+      "street_front_length_m": 6.159877270058043,
+      "ground_source_z": 7.25567626953125,
+      "candidate_height_m": 18.8,
+      "candidate_floors": 5,
+      "photo_identity": "candidate",
+      "real_height_verified_m": null,
+      "openings": 15,
+      "style": "rect",
+      "roof_status": "candidate: duas águas pela vista fornecida; fundos não confirmados"
+    }
+  ],
+  "created_facade_objects": [
+    "BAIXA R31 | 1263035779 | Molduras e cornijas",
+    "BAIXA R31 | 1263035779 | Caixilhos",
+    "BAIXA R31 | 1263035779 | Peitoris",
+    "BAIXA R31 | 1263035779 | Cobogo diagonal",
+    "BAIXA R31 | 1263035779 | Vidros",
+    "BAIXA R31 | 1263035779 | Arcos e revelos",
+    "BAIXA R31 | 1263035779 | Faixas rosadas",
+    "BAIXA R31 | 1263035779 | Cobertura",
+    "BAIXA R31 | 1263035779 | Lajes estruturais",
+    "BAIXA R31 | 1220650665 | Molduras e cornijas",
+    "BAIXA R31 | 1220650665 | Caixilhos",
+    "BAIXA R31 | 1220650665 | Peitoris",
+    "BAIXA R31 | 1220650665 | Vidros",
+    "BAIXA R31 | 1220650665 | Arcos e revelos",
+    "BAIXA R31 | 1220650665 | Cobertura",
+    "BAIXA R31 | 1220650665 | Lajes estruturais",
+    "BAIXA R31 | 1220650754 | Molduras e cornijas",
+    "BAIXA R31 | 1220650754 | Caixilhos",
+    "BAIXA R31 | 1220650754 | Peitoris",
+    "BAIXA R31 | 1220650754 | Vidros",
+    "BAIXA R31 | 1220650754 | Arcos e revelos",
+    "BAIXA R31 | 1220650754 | Cobertura",
+    "BAIXA R31 | 1220650754 | Lajes estruturais",
+    "BAIXA R31 | 1220650857 | Molduras e cornijas",
+    "BAIXA R31 | 1220650857 | Caixilhos",
+    "BAIXA R31 | 1220650857 | Peitoris",
+    "BAIXA R31 | 1220650857 | Vidros",
+    "BAIXA R31 | 1220650857 | Arcos e revelos",
+    "BAIXA R31 | 1220650857 | Cobertura",
+    "BAIXA R31 | 1220650857 | Lajes estruturais",
+    "BAIXA R31 | 1220650885 | Molduras e cornijas",
+    "BAIXA R31 | 1220650885 | Caixilhos",
+    "BAIXA R31 | 1220650885 | Peitoris",
+    "BAIXA R31 | 1220650885 | Vidros",
+    "BAIXA R31 | 1220650885 | Arcos e revelos",
+    "BAIXA R31 | 1220650885 | Cobertura",
+    "BAIXA R31 | 1220650885 | Lajes estruturais",
+    "BAIXA R31 | 574235997 | Molduras e cornijas",
+    "BAIXA R31 | 574235997 | Caixilhos",
+    "BAIXA R31 | 574235997 | Peitoris",
+    "BAIXA R31 | 574235997 | Vidros",
+    "BAIXA R31 | 574235997 | Arcos e revelos",
+    "BAIXA R31 | 574235997 | Cobertura",
+    "BAIXA R31 | 574235997 | Lajes estruturais",
+    "BAIXA R31 | 574235995 | Molduras e cornijas",
+    "BAIXA R31 | 574235995 | Caixilhos",
+    "BAIXA R31 | 574235995 | Peitoris",
+    "BAIXA R31 | 574235995 | Vidros",
+    "BAIXA R31 | 574235995 | Arcos e revelos",
+    "BAIXA R31 | 574235995 | Cobertura",
+    "BAIXA R31 | 574235995 | Lajes estruturais"
+  ],
+  "archived_reference_objects": [
+    "ENTORNO LAC | Vissor | vao 0 0",
+    "ENTORNO LAC | Vissor | moldura 0 0 -1",
+    "ENTORNO LAC | Vissor | moldura 0 0 1",
+    "ENTORNO LAC | Vissor | peitoril 0 0",
+    "ENTORNO LAC | Vissor | vao 0 1",
+    "ENTORNO LAC | Vissor | moldura 0 1 -1",
+    "ENTORNO LAC | Vissor | moldura 0 1 1",
+    "ENTORNO LAC | Vissor | peitoril 0 1",
+    "ENTORNO LAC | Vissor | vao 0 2",
+    "ENTORNO LAC | Vissor | moldura 0 2 -1",
+    "ENTORNO LAC | Vissor | moldura 0 2 1",
+    "ENTORNO LAC | Vissor | peitoril 0 2",
+    "ENTORNO LAC | Vissor | vao 1 0",
+    "ENTORNO LAC | Vissor | moldura 1 0 -1",
+    "ENTORNO LAC | Vissor | moldura 1 0 1",
+    "ENTORNO LAC | Vissor | peitoril 1 0",
+    "ENTORNO LAC | Vissor | vao 1 1",
+    "ENTORNO LAC | Vissor | moldura 1 1 -1",
+    "ENTORNO LAC | Vissor | moldura 1 1 1",
+    "ENTORNO LAC | Vissor | peitoril 1 1",
+    "ENTORNO LAC | Vissor | vao 1 2",
+    "ENTORNO LAC | Vissor | moldura 1 2 -1",
+    "ENTORNO LAC | Vissor | moldura 1 2 1",
+    "ENTORNO LAC | Vissor | peitoril 1 2",
+    "ENTORNO LAC | Vissor | abertura comercial 0",
+    "ENTORNO LAC | Vissor | abertura comercial 1",
+    "ENTORNO LAC | Vissor | toldo amarelo",
+    "ENTORNO LAC | Vissor | faixa do letreiro",
+    "ENTORNO LAC | Vissor | letreiro",
+    "ENTORNO LAC | Comercio adjacente | faixas rosadas",
+    "ENTORNO LAC | Comercio adjacente | coroamento e embasamento",
+    "ENTORNO LAC | Comercio adjacente | aberturas visuais",
+    "ENTORNO LAC | Comercio adjacente | pilares e ombreiras",
+    "ENTORNO LAC | Comercio adjacente | paineis vazados",
+    "ENTORNO LAC | Sobrado azul | cornijas",
+    "ENTORNO LAC | Sobrado azul | portais terreo",
+    "ENTORNO LAC | Sobrado azul | janelas arqueadas",
+    "ENTORNO LAC | Sobrado azul | molduras de arco"
+  ],
+  "terrain_or_roads_changed": false,
+  "footprints_xy_changed": false,
+  "heights_status": "candidate photographic estimates; not survey",
+  "monument": {
+    "asset_id": "monumento-mario-cravo",
+    "asset_file": "blender/assets/monumento_mario_cravo/monumento_mario_cravo_v01.blend",
+    "asset_sha256": "79b3af091a07ad60e2b32e49bb5598ba0b9c367c4b7e355ffebec1913a1727d5",
+    "basin_center_world": [
+      -151.2074737548828,
+      52.877098083496094,
+      7.240661144256592
+    ],
+    "basin_outer_radius_preserved_m": 10.399993896484375,
+    "height_reference_m": 16,
+    "geographic_binding": "candidate_existing_basin",
+    "sculpture_status": "modeling_candidate",
+    "views_sufficient_for_approval": false,
+    "composition": "collection_instance_relative_linked_library",
+    "refinement": "recorte inferior ascendente e separação de normais no encontro entre superfície curva e face recortada"
+  },
+  "visual_review": {
+    "status": "partial_modeling_reviewed",
+    "images": [
+      "artifacts/cidade-baixa/r30b31_predios.png",
+      "artifacts/cidade-baixa/r30b31_cravo.png"
+    ],
+    "scope": "Vistas isoladas de modelagem com piso temporário de estúdio; não runtime nem cenário fictício de produção.",
+    "limitations": [
+      "Identidade por foto e alturas candidatas; dimensões reais não medidas.",
+      "Sete parcelas receberam fachadas; parcela 1220650874 mantém blockout anterior.",
+      "Fundos, laterais não fotografadas e interiores comerciais não concluídos.",
+      "Forma/rotação da escultura e implantação da bacia ainda candidatas; não asset aprovado."
+    ]
+  },
+  "reopened": true,
+  "runtime_exported": false,
+  "candidate_file": "blender/salvador_lacerda_r30b31_cidade_baixa_fachadas_cravo.blend",
+  "candidate_sha256": "e880bc386ce4109d9ee97156636b419178b1613cccaa5a44d24300a9561dbe1e",
+  "reopen_review": {
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "buildings": [
+      {
+        "osm_way_id": 1263035779,
+        "footprint_delta_m": 0.0,
+        "mesh_vertices": 116,
+        "mesh_faces": 81,
+        "children": 9,
+        "height_status": "candidate"
+      },
+      {
+        "osm_way_id": 1220650665,
+        "footprint_delta_m": 0.0,
+        "mesh_vertices": 70,
+        "mesh_faces": 46,
+        "children": 7,
+        "height_status": "candidate"
+      },
+      {
+        "osm_way_id": 1220650754,
+        "footprint_delta_m": 0.0,
+        "mesh_vertices": 146,
+        "mesh_faces": 107,
+        "children": 7,
+        "height_status": "candidate"
+      },
+      {
+        "osm_way_id": 1220650857,
+        "footprint_delta_m": 0.0,
+        "mesh_vertices": 102,
+        "mesh_faces": 68,
+        "children": 7,
+        "height_status": "candidate"
+      },
+      {
+        "osm_way_id": 1220650885,
+        "footprint_delta_m": 0.0,
+        "mesh_vertices": 102,
+        "mesh_faces": 68,
+        "children": 7,
+        "height_status": "candidate"
+      },
+      {
+        "osm_way_id": 574235997,
+        "footprint_delta_m": 0.0,
+        "mesh_vertices": 116,
+        "mesh_faces": 78,
+        "children": 7,
+        "height_status": "candidate"
+      },
+      {
+        "osm_way_id": 574235995,
+        "footprint_delta_m": 0.0,
+        "mesh_vertices": 102,
+        "mesh_faces": 68,
+        "children": 7,
+        "height_status": "candidate"
+      }
+    ],
+    "facade_components": 51,
+    "monument_relative_library": "//assets/monumento_mario_cravo/monumento_mario_cravo_v01.blend",
+    "monument_components": 4,
+    "glass_transmission": 0.6499999761581421,
+    "terrain_vertices": 547564,
+    "terrain_proxy_vertices": 66263
+  }
+}

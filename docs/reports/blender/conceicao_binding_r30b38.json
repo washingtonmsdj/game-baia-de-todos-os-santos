@@ -1,0 +1,281 @@
+{
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b37_fachadas_baixa.blend",
+    "sha256": "c7edb3a5137d39f9bed3ebf6fd73dd9c7716f504fd1ee7fea9e263ce958ce04b",
+    "revision": "R30B.37",
+    "status": "authoring_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b36_terracos_palacio.blend",
+    "evidence": "docs/reports/blender/cidade_baixa_r30b37.json"
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b38_binding_conceicao.blend",
+    "revision": "R30B.38",
+    "sha256": "0d12cc8f7fd5a44ef27fa6c34b7f89360fece235b4f38a51f3c09672988b74fe"
+  },
+  "classification": "ADAPT_LOCAL",
+  "binding": {
+    "osm_way_id": 421206045,
+    "osm_node_id": 7520527645,
+    "before": [
+      -148.4208526611328,
+      -150.15419006347656,
+      56.002235412597656
+    ],
+    "after": [
+      -150.03884887695312,
+      -150.0146484375,
+      19.810096740722656
+    ],
+    "visual_clearance_m": 0.18,
+    "source_reference_unchanged": true,
+    "reason": "Fit XY candidato atingia Montanha; binding local ao asfalto inferior da mesma via autoral por OSM ID e ordem dos nós. Referência OSM preservada."
+  },
+  "city_visual_geometry_changed": false,
+  "road_widths_changed": false,
+  "terrain_visual_changed": false,
+  "collision_changed": true,
+  "collision_refinement": {
+    "classification": "ERROR",
+    "vertices_before": 72101,
+    "vertices_after": 72121,
+    "iterations": [
+      {
+        "iteration": 0,
+        "bad_faces": 5,
+        "max_error_m": 0.07167816162109375
+      },
+      {
+        "iteration": 1,
+        "bad_faces": 3,
+        "max_error_m": 0.06116485595703125
+      },
+      {
+        "iteration": 2,
+        "bad_faces": 0,
+        "max_error_m": 0.04024505615234375
+      }
+    ],
+    "unreliable_projection_policy": "Novos vértices de bordas sem apoio a ±0,5 m conservaram interpolação da face anterior; não foram projetados na pista superior. Nenhum preenchimento de solo ausente.",
+    "subdivision_without_reprojection_count": null
+  },
+  "protected_components": 5255,
+  "protected_changes": [],
+  "saved_readback_components": [
+    "R30A7 | ROAD | 421206045",
+    "GAMEPLAY | Conceicao | percurso parcial B38",
+    "MVP | terreno corrigido | colisão estática",
+    "R30A5 | COLLISION | terrain proxy"
+  ],
+  "validation": {
+    "method": "sweep de apoio e envelope sobre pavimento; replay cinemático com asset existente",
+    "poses": 182,
+    "distance_xy_m": 136.09827116087217,
+    "seconds": 45.4,
+    "proxy_samples": 910,
+    "max_proxy_error_m": 0.04024505615234375,
+    "four_wheel_max_nonplanarity_m": 0.06142234802246094,
+    "vehicle_dimensions_asset_m": [
+      2.0500001907348633,
+      5.125,
+      1.5140000581741333
+    ],
+    "track_probe_m": 1.68,
+    "track_status": "nominal_not_measured",
+    "steering_limit_probe_deg": 35,
+    "maximum_heading_slip_probe_deg": 15,
+    "dynamic_physics_tested": false,
+    "full_route_approved": false,
+    "interpolated_frames": 1135,
+    "interpolated_wheel_samples": 4540,
+    "interpolated_missing_support": 0,
+    "interpolated_max_support_error_m": 0.06223297119140625,
+    "maximum_frame_displacement_m": 0.13088636555881478,
+    "local_images": [
+      "artifacts/roads/r38/replay_middle.png",
+      "artifacts/roads/r38/replay_end.png"
+    ],
+    "initial_body_clearance": {
+      "method": "raios laterais do envelope em três estações longitudinais e três alturas, a cada seis frames; não cobre todos os obstáculos externos",
+      "rays": 3420,
+      "hits": [
+        {
+          "frame": 1129,
+          "local_y": -2.56,
+          "local_z": 1,
+          "side": -1,
+          "distance": 1.0248547792434692,
+          "normal": [
+            -0.7060938477516174,
+            0.7080805897712708,
+            0.007294194772839546
+          ]
+        },
+        {
+          "frame": 1129,
+          "local_y": -2.56,
+          "local_z": 1.51,
+          "side": -1,
+          "distance": 1.0194816589355469,
+          "normal": [
+            -0.7060938477516174,
+            0.7080805897712708,
+            0.007294194772839546
+          ]
+        }
+      ],
+      "approved": false
+    },
+    "local_clearance_adaptation": {
+      "classification": "ADAPT_LOCAL",
+      "maximum_xy_shift_m": 0.035,
+      "reason": "Contato de até 5,5 mm do envelope superior com a contenção; trajetória ajustada dentro do pavimento sem mover rua/parede.",
+      "wheel_support_rechecked": true,
+      "poses": [
+        {
+          "pose": 170,
+          "frame": 1066,
+          "offset_m": 0.0,
+          "position": [
+            -157.41721481347645,
+            -156.2650343624894,
+            21.493995666503906
+          ]
+        },
+        {
+          "pose": 171,
+          "frame": 1072,
+          "offset_m": 0.0008151765589782122,
+          "position": [
+            -156.84113782189354,
+            -155.78524776346077,
+            21.34990692138672
+          ]
+        },
+        {
+          "pose": 172,
+          "frame": 1079,
+          "offset_m": 0.0030503380916604064,
+          "position": [
+            -156.26596838530048,
+            -155.30436905579927,
+            21.205703735351562
+          ]
+        },
+        {
+          "pose": 173,
+          "frame": 1085,
+          "offset_m": 0.006389932381667919,
+          "position": [
+            -155.69150482481066,
+            -154.82264093031222,
+            21.06148910522461
+          ]
+        },
+        {
+          "pose": 174,
+          "frame": 1091,
+          "offset_m": 0.01051840721262209,
+          "position": [
+            -155.11754546153742,
+            -154.34030607780693,
+            20.91717529296875
+          ]
+        },
+        {
+          "pose": 175,
+          "frame": 1097,
+          "offset_m": 0.015120210368144251,
+          "position": [
+            -154.54388861659413,
+            -153.85760718909071,
+            20.772777557373047
+          ]
+        },
+        {
+          "pose": 176,
+          "frame": 1104,
+          "offset_m": 0.019879789631855747,
+          "position": [
+            -154.06620211041997,
+            -153.25942214621608,
+            20.628402709960938
+          ]
+        },
+        {
+          "pose": 177,
+          "frame": 1110,
+          "offset_m": 0.024481592787377913,
+          "position": [
+            -153.49254526547668,
+            -152.7767232574999,
+            20.483890533447266
+          ]
+        },
+        {
+          "pose": 178,
+          "frame": 1116,
+          "offset_m": 0.028610067618332086,
+          "position": [
+            -153.01445540152926,
+            -152.17902359623983,
+            20.339351654052734
+          ]
+        },
+        {
+          "pose": 179,
+          "frame": 1123,
+          "offset_m": 0.0319496619083396,
+          "position": [
+            -152.43999184103944,
+            -151.6972954707528,
+            20.19466781616211
+          ]
+        },
+        {
+          "pose": 180,
+          "frame": 1129,
+          "offset_m": 0.03418482344102179,
+          "position": [
+            -151.8648224044464,
+            -151.2164167630913,
+            20.049942016601562
+          ]
+        },
+        {
+          "pose": 181,
+          "frame": 1135,
+          "offset_m": 0.035,
+          "position": [
+            -151.38461491218928,
+            -150.6212653553079,
+            19.90518569946289
+          ]
+        }
+      ],
+      "saved_curve_readback": true
+    },
+    "terrain_body_clearance": {
+      "method": "raios laterais do envelope em três estações longitudinais e três alturas, a cada seis frames; não cobre todos os obstáculos externos",
+      "rays": 3420,
+      "hits": [],
+      "approved": true
+    },
+    "visible_replay": {
+      "completed": true,
+      "wall_seconds": 45.524155399994925,
+      "ticks": 97,
+      "last_frame": 1135,
+      "dynamic_physics": false
+    },
+    "planned_distance_before_clearance_m": 136.09627169076617,
+    "local_geometry_review": "Duas vistas locais conferidas. Bordas do pavimento ainda facetadas; não são aprovação visual de toda a via. Contato final do envelope corrigido por adaptação local registrada; curvas seguintes permanecem em revisão."
+  },
+  "excluded_wrong_level_runs": [
+    [
+      239,
+      250
+    ]
+  ],
+  "remaining": "Curvas/extremos sem envelope contínuo suficiente; não unir runs nem criar rua de retorno. Fit XY candidato, largura real null. Teste não cobre colisão com todos os edifícios, suspensão, tráfego ou gameplay no runtime.",
+  "runtime_exported": false
+}

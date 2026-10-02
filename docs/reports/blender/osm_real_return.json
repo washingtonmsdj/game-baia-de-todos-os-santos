@@ -1,0 +1,1258 @@
+{
+  "capture_id": "aleph-20260924T205631Z-aqqo7pkx",
+  "geometry_audit_source": {
+    "file": "blender/salvador_lacerda_r30b29_colisao_rede_viaria.blend",
+    "sha256": "493449d9e7e9bd539bc1445a64769f740ee1e55777c1578062f3892d8ee75dd0",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "revision": "R30B.29",
+    "selection_reason": "Derivada da R30B23; conserva geografia/larguras e corrige precisÃ£o local da colisÃ£o nas vias cobertas. Conflito de nÃ­veis da ConceiÃ§Ã£o continua em revisÃ£o."
+  },
+  "synthetic_edges": 0,
+  "status": "real_topology_return_found",
+  "length_m": 871.6206000248501,
+  "route": [
+    {
+      "edge_id": "way-1075624458-seg-0",
+      "osm_way_id": 1075624458,
+      "name": "PraÃ§a Castro Alves",
+      "from": "1447581238",
+      "to": "12249294289",
+      "traversal": "forward",
+      "xy": [
+        [
+          -215.17659697588533,
+          -224.53894143528305
+        ],
+        [
+          -221.33132730424404,
+          -235.29502323037013
+        ]
+      ],
+      "test": {
+        "edge_id": "way-1075624458-seg-0",
+        "osm_way_id": 1075624458,
+        "name": "PraÃ§a Castro Alves",
+        "length_m": 12.392507941586134,
+        "tested_poses": 10,
+        "issues": [],
+        "replay_allowed": true,
+        "geometric_block_threshold_m": 0.2
+      },
+      "width_verified_m": null,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "PraÃ§a Castro Alves",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "edge_id": "way-1075624458-seg-1",
+      "osm_way_id": 1075624458,
+      "name": "PraÃ§a Castro Alves",
+      "from": "12249294289",
+      "to": "12249294290",
+      "traversal": "forward",
+      "xy": [
+        [
+          -221.33132730424404,
+          -235.29502323037013
+        ],
+        [
+          -224.0176073508337,
+          -244.1700908592902
+        ]
+      ],
+      "test": {
+        "edge_id": "way-1075624458-seg-1",
+        "osm_way_id": 1075624458,
+        "name": "PraÃ§a Castro Alves",
+        "length_m": 9.272691344762752,
+        "tested_poses": 8,
+        "issues": [],
+        "replay_allowed": true,
+        "geometric_block_threshold_m": 0.2
+      },
+      "width_verified_m": null,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "PraÃ§a Castro Alves",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "edge_id": "way-1075624458-seg-2",
+      "osm_way_id": 1075624458,
+      "name": "PraÃ§a Castro Alves",
+      "from": "12249294290",
+      "to": "7550296907",
+      "traversal": "forward",
+      "xy": [
+        [
+          -224.0176073508337,
+          -244.1700908592902
+        ],
+        [
+          -226.28110302658752,
+          -263.3970377354417
+        ]
+      ],
+      "test": {
+        "edge_id": "way-1075624458-seg-2",
+        "osm_way_id": 1075624458,
+        "name": "PraÃ§a Castro Alves",
+        "length_m": 19.35972019777583,
+        "tested_poses": 14,
+        "issues": [],
+        "replay_allowed": true,
+        "geometric_block_threshold_m": 0.2
+      },
+      "width_verified_m": null,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "PraÃ§a Castro Alves",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "edge_id": "way-1075624458-seg-3",
+      "osm_way_id": 1075624458,
+      "name": "PraÃ§a Castro Alves",
+      "from": "7550296907",
+      "to": "619722483",
+      "traversal": "forward",
+      "xy": [
+        [
+          -226.28110302658752,
+          -263.3970377354417
+        ],
+        [
+          -222.1293885265477,
+          -282.56320933881216
+        ]
+      ],
+      "test": null,
+      "width_verified_m": null,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "PraÃ§a Castro Alves",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "edge_id": "way-421206045-seg-0",
+      "osm_way_id": 421206045,
+      "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+      "from": "619722483",
+      "to": "7550296909",
+      "traversal": "forward",
+      "xy": [
+        [
+          -222.1293885265477,
+          -282.56320933881216
+        ],
+        [
+          -236.1496537211351,
+          -272.6314609623514
+        ]
+      ],
+      "test": null,
+      "width_verified_m": null,
+      "tags": {
+        "highway": "residential",
+        "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+        "oneway": "yes"
+      }
+    },
+    {
+      "edge_id": "way-421206045-seg-1",
+      "osm_way_id": 421206045,
+      "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+      "from": "7550296909",
+      "to": "4210112613",
+      "traversal": "forward",
+      "xy": [
+        [
+          -236.1496537211351,
+          -272.6314609623514
+        ],
+        [
+          -241.0606571994722,
+          -269.30219589173794
+        ]
+      ],
+      "test": null,
+      "width_verified_m": null,
+      "tags": {
+        "highway": "residential",
+        "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+        "oneway": "yes"
+      }
+    },
+    {
+      "edge_id": "way-421206045-seg-2",
+      "osm_way_id": 421206045,
+      "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+      "from": "4210112613",
+      "to": "5424026032",
+      "traversal": "forward",
+      "xy": [
+        [
+          -241.0606571994722,
+          -269.30219589173794
+        ],
+        [
+          -245.99758023861796,
+          -258.69139144779183
+        ]
+      ],
+      "test": {
+        "edge_id": "way-421206045-seg-2",
+        "osm_way_id": 421206045,
+        "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+        "length_m": 11.703068446594415,
+        "tested_poses": 9,
+        "issues": [
+          {
+            "sample": 0,
+            "type": "pitch_review"
+          }
+        ],
+        "replay_allowed": true,
+        "geometric_block_threshold_m": 0.2
+      },
+      "width_verified_m": null,
+      "tags": {
+        "highway": "residential",
+        "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+        "oneway": "yes"
+      }
+    },
+    {
+      "edge_id": "way-421206045-seg-3",
+      "osm_way_id": 421206045,
+      "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+      "from": "5424026032",
+      "to": "7267008796",
+      "traversal": "forward",
+      "xy": [
+        [
+          -245.99758023861796,
+          -258.69139144779183
+        ],
+        [
+          -246.32339221425354,
+          -248.59451149241067
+        ]
+      ],
+      "test": {
+        "edge_id": "way-421206045-seg-3",
+        "osm_way_id": 421206045,
+        "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+        "length_m": 10.102149141289974,
+        "tested_poses": 8,
+        "issues": [
+          {
+            "sample": 7,
+            "type": "pitch_review"
+          }
+        ],
+        "replay_allowed": true,
+        "geometric_block_threshold_m": 0.2
+      },
+      "width_verified_m": null,
+      "tags": {
+        "highway": "residential",
+        "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+        "oneway": "yes"
+      }
+    },
+    {
+      "edge_id": "way-421206045-seg-4",
+      "osm_way_id": 421206045,
+      "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+      "from": "7267008796",
+      "to": "5424026033",
+      "traversal": "forward",
+      "xy": [
+        [
+          -246.32339221425354,
+          -248.59451149241067
+        ],
+        [
+          -238.98389625223354,
+          -241.4636097815819
+        ]
+      ],
+      "test": null,
+      "width_verified_m": null,
+      "tags": {
+        "highway": "residential",
+        "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+        "oneway": "yes"
+      }
+    },
+    {
+      "edge_id": "way-421206045-seg-5",
+      "osm_way_id": 421206045,
+      "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+      "from": "5424026033",
+      "to": "5424026035",
+      "traversal": "forward",
+      "xy": [
+        [
+          -238.98389625223354,
+          -241.4636097815819
+        ],
+        [
+          -177.79677897319198,
+          -174.5659238214139
+        ]
+      ],
+      "test": {
+        "edge_id": "way-421206045-seg-5",
+        "osm_way_id": 421206045,
+        "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+        "length_m": 90.65960680832796,
+        "tested_poses": 62,
+        "issues": [],
+        "replay_allowed": true,
+        "geometric_block_threshold_m": 0.2
+      },
+      "width_verified_m": null,
+      "tags": {
+        "highway": "residential",
+        "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+        "oneway": "yes"
+      }
+    },
+    {
+      "edge_id": "way-421206045-seg-6",
+      "osm_way_id": 421206045,
+      "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+      "from": "5424026035",
+      "to": "7520527645",
+      "traversal": "forward",
+      "xy": [
+        [
+          -177.79677897319198,
+          -174.5659238214139
+        ],
+        [
+          -148.4208546411246,
+          -150.1541886627674
+        ]
+      ],
+      "test": null,
+      "width_verified_m": null,
+      "tags": {
+        "highway": "residential",
+        "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+        "oneway": "yes"
+      }
+    },
+    {
+      "edge_id": "way-421206045-seg-7",
+      "osm_way_id": 421206045,
+      "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+      "from": "7520527645",
+      "to": "4527180952",
+      "traversal": "forward",
+      "xy": [
+        [
+          -148.4208546411246,
+          -150.1541886627674
+        ],
+        [
+          -141.40394542645663,
+          -129.30236118100584
+        ]
+      ],
+      "test": {
+        "edge_id": "way-421206045-seg-7",
+        "osm_way_id": 421206045,
+        "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+        "length_m": 22.000805493260806,
+        "tested_poses": 16,
+        "issues": [
+          {
+            "sample": 0,
+            "type": "four_wheel_nonplanar",
+            "residual_m": 9.1417
+          },
+          {
+            "sample": 0,
+            "type": "pitch_review"
+          },
+          {
+            "sample": 1,
+            "type": "four_wheel_nonplanar",
+            "residual_m": 0.1057
+          },
+          {
+            "sample": 2,
+            "type": "four_wheel_nonplanar",
+            "residual_m": 8.4369
+          },
+          {
+            "sample": 2,
+            "type": "pitch_review"
+          },
+          {
+            "sample": 3,
+            "type": "four_wheel_nonplanar",
+            "residual_m": 9.1699
+          },
+          {
+            "sample": 3,
+            "type": "pitch_review"
+          },
+          {
+            "sample": 4,
+            "type": "four_wheel_nonplanar",
+            "residual_m": 1.4991
+          },
+          {
+            "sample": 4,
+            "type": "pitch_review"
+          }
+        ],
+        "replay_allowed": false,
+        "geometric_block_threshold_m": 0.2
+      },
+      "width_verified_m": null,
+      "tags": {
+        "highway": "residential",
+        "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+        "oneway": "yes"
+      }
+    },
+    {
+      "edge_id": "way-421206045-seg-8",
+      "osm_way_id": 421206045,
+      "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+      "from": "4527180952",
+      "to": "7267008795",
+      "traversal": "forward",
+      "xy": [
+        [
+          -141.40394542645663,
+          -129.30236118100584
+        ],
+        [
+          -146.85146306967363,
+          -122.06036427151412
+        ]
+      ],
+      "test": null,
+      "width_verified_m": null,
+      "tags": {
+        "highway": "residential",
+        "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+        "oneway": "yes"
+      }
+    },
+    {
+      "edge_id": "way-421206045-seg-9",
+      "osm_way_id": 421206045,
+      "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+      "from": "7267008795",
+      "to": "7267008793",
+      "traversal": "forward",
+      "xy": [
+        [
+          -146.85146306967363,
+          -122.06036427151412
+        ],
+        [
+          -150.82137452578172,
+          -117.04735104599968
+        ]
+      ],
+      "test": {
+        "edge_id": "way-421206045-seg-9",
+        "osm_way_id": 421206045,
+        "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+        "length_m": 6.39457822862821,
+        "tested_poses": 6,
+        "issues": [
+          {
+            "sample": 5,
+            "type": "pitch_review"
+          }
+        ],
+        "replay_allowed": true,
+        "geometric_block_threshold_m": 0.2
+      },
+      "width_verified_m": null,
+      "tags": {
+        "highway": "residential",
+        "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+        "oneway": "yes"
+      }
+    },
+    {
+      "edge_id": "way-421206045-seg-10",
+      "osm_way_id": 421206045,
+      "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+      "from": "7267008793",
+      "to": "7267008794",
+      "traversal": "forward",
+      "xy": [
+        [
+          -150.82137452578172,
+          -117.04735104599968
+        ],
+        [
+          -153.3571950905025,
+          -114.61793496273458
+        ]
+      ],
+      "test": {
+        "edge_id": "way-421206045-seg-10",
+        "osm_way_id": 421206045,
+        "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+        "length_m": 3.511750455549831,
+        "tested_poses": 4,
+        "issues": [
+          {
+            "sample": 0,
+            "type": "pitch_review"
+          },
+          {
+            "sample": 1,
+            "type": "pitch_review"
+          },
+          {
+            "sample": 2,
+            "type": "pitch_review"
+          },
+          {
+            "sample": 3,
+            "type": "pitch_review"
+          }
+        ],
+        "replay_allowed": true,
+        "geometric_block_threshold_m": 0.2
+      },
+      "width_verified_m": null,
+      "tags": {
+        "highway": "residential",
+        "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+        "oneway": "yes"
+      }
+    },
+    {
+      "edge_id": "way-421206045-seg-11",
+      "osm_way_id": 421206045,
+      "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+      "from": "7267008794",
+      "to": "4527180951",
+      "traversal": "forward",
+      "xy": [
+        [
+          -153.3571950905025,
+          -114.61793496273458
+        ],
+        [
+          -170.0119497864507,
+          -103.90809846599586
+        ]
+      ],
+      "test": null,
+      "width_verified_m": null,
+      "tags": {
+        "highway": "residential",
+        "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+        "oneway": "yes"
+      }
+    },
+    {
+      "edge_id": "way-421206045-seg-12",
+      "osm_way_id": 421206045,
+      "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+      "from": "4527180951",
+      "to": "1672367607",
+      "traversal": "forward",
+      "xy": [
+        [
+          -170.0119497864507,
+          -103.90809846599586
+        ],
+        [
+          -192.392731720116,
+          -83.38479644898325
+        ]
+      ],
+      "test": {
+        "edge_id": "way-421206045-seg-12",
+        "osm_way_id": 421206045,
+        "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+        "length_m": 30.36618655090776,
+        "tested_poses": 22,
+        "issues": [
+          {
+            "sample": 0,
+            "type": "four_wheel_nonplanar",
+            "residual_m": 0.1306
+          }
+        ],
+        "replay_allowed": true,
+        "geometric_block_threshold_m": 0.2
+      },
+      "width_verified_m": null,
+      "tags": {
+        "highway": "residential",
+        "name": "Ladeira da ConceiÃ§Ã£o da Praia",
+        "oneway": "yes"
+      }
+    },
+    {
+      "edge_id": "way-395865974-seg-3",
+      "osm_way_id": 395865974,
+      "name": "Rua da ConceiÃ§Ã£o da Praia",
+      "from": "1672367607",
+      "to": "2812362915",
+      "traversal": "forward",
+      "xy": [
+        [
+          -192.392731720116,
+          -83.38479644898325
+        ],
+        [
+          -168.08603210793808,
+          -51.3990135458298
+        ]
+      ],
+      "test": {
+        "edge_id": "way-395865974-seg-3",
+        "osm_way_id": 395865974,
+        "name": "Rua da ConceiÃ§Ã£o da Praia",
+        "length_m": 40.17344901622681,
+        "tested_poses": 28,
+        "issues": [],
+        "replay_allowed": true,
+        "geometric_block_threshold_m": 0.2
+      },
+      "width_verified_m": null,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Rua da ConceiÃ§Ã£o da Praia",
+        "oneway": "yes",
+        "surface": "sett"
+      }
+    },
+    {
+      "edge_id": "way-395865974-seg-4",
+      "osm_way_id": 395865974,
+      "name": "Rua da ConceiÃ§Ã£o da Praia",
+      "from": "2812362915",
+      "to": "7520527648",
+      "traversal": "forward",
+      "xy": [
+        [
+          -168.08603210793808,
+          -51.3990135458298
+        ],
+        [
+          -138.2773415329866,
+          -13.987553403479978
+        ]
+      ],
+      "test": {
+        "edge_id": "way-395865974-seg-4",
+        "osm_way_id": 395865974,
+        "name": "Rua da ConceiÃ§Ã£o da Praia",
+        "length_m": 47.83487400316256,
+        "tested_poses": 33,
+        "issues": [],
+        "replay_allowed": true,
+        "geometric_block_threshold_m": 0.2
+      },
+      "width_verified_m": null,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Rua da ConceiÃ§Ã£o da Praia",
+        "oneway": "yes",
+        "surface": "sett"
+      }
+    },
+    {
+      "edge_id": "way-395865974-seg-5",
+      "osm_way_id": 395865974,
+      "name": "Rua da ConceiÃ§Ã£o da Praia",
+      "from": "7520527648",
+      "to": "12192687905",
+      "traversal": "forward",
+      "xy": [
+        [
+          -138.2773415329866,
+          -13.987553403479978
+        ],
+        [
+          -124.14732081908733,
+          2.3249465110711753
+        ]
+      ],
+      "test": {
+        "edge_id": "way-395865974-seg-5",
+        "osm_way_id": 395865974,
+        "name": "Rua da ConceiÃ§Ã£o da Praia",
+        "length_m": 21.581360637205545,
+        "tested_poses": 16,
+        "issues": [],
+        "replay_allowed": true,
+        "geometric_block_threshold_m": 0.2
+      },
+      "width_verified_m": null,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Rua da ConceiÃ§Ã£o da Praia",
+        "oneway": "yes",
+        "surface": "sett"
+      }
+    },
+    {
+      "edge_id": "way-395865974-seg-6",
+      "osm_way_id": 395865974,
+      "name": "Rua da ConceiÃ§Ã£o da Praia",
+      "from": "12192687905",
+      "to": "1584993400",
+      "traversal": "forward",
+      "xy": [
+        [
+          -124.14732081908733,
+          2.3249465110711753
+        ],
+        [
+          -114.70822220109403,
+          14.41903948248364
+        ]
+      ],
+      "test": {
+        "edge_id": "way-395865974-seg-6",
+        "osm_way_id": 395865974,
+        "name": "Rua da ConceiÃ§Ã£o da Praia",
+        "length_m": 15.341568988003537,
+        "tested_poses": 12,
+        "issues": [],
+        "replay_allowed": true,
+        "geometric_block_threshold_m": 0.2
+      },
+      "width_verified_m": null,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Rua da ConceiÃ§Ã£o da Praia",
+        "oneway": "yes",
+        "surface": "sett"
+      }
+    },
+    {
+      "edge_id": "way-1004133497-seg-0",
+      "osm_way_id": 1004133497,
+      "name": "Rua da ConceiÃ§Ã£o da Praia",
+      "from": "1584993400",
+      "to": "3178050253",
+      "traversal": "forward",
+      "xy": [
+        [
+          -114.70822220109403,
+          14.41903948248364
+        ],
+        [
+          -57.93100311374292,
+          65.21665694145486
+        ]
+      ],
+      "test": {
+        "edge_id": "way-1004133497-seg-0",
+        "osm_way_id": 1004133497,
+        "name": "Rua da ConceiÃ§Ã£o da Praia",
+        "length_m": 76.18432109856988,
+        "tested_poses": 52,
+        "issues": [],
+        "replay_allowed": true,
+        "geometric_block_threshold_m": 0.2
+      },
+      "width_verified_m": null,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rua da ConceiÃ§Ã£o da Praia",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "edge_id": "way-1004133497-seg-1",
+      "osm_way_id": 1004133497,
+      "name": "Rua da ConceiÃ§Ã£o da Praia",
+      "from": "3178050253",
+      "to": "7519736193",
+      "traversal": "forward",
+      "xy": [
+        [
+          -57.93100311374292,
+          65.21665694145486
+        ],
+        [
+          -22.54378554178402,
+          96.97074933373369
+        ]
+      ],
+      "test": {
+        "edge_id": "way-1004133497-seg-1",
+        "osm_way_id": 1004133497,
+        "name": "Rua da ConceiÃ§Ã£o da Praia",
+        "length_m": 47.54553032213734,
+        "tested_poses": 33,
+        "issues": [],
+        "replay_allowed": true,
+        "geometric_block_threshold_m": 0.2
+      },
+      "width_verified_m": null,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rua da ConceiÃ§Ã£o da Praia",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "edge_id": "way-1004133497-seg-2",
+      "osm_way_id": 1004133497,
+      "name": "Rua da ConceiÃ§Ã£o da Praia",
+      "from": "7519736193",
+      "to": "7519736192",
+      "traversal": "forward",
+      "xy": [
+        [
+          -22.54378554178402,
+          96.97074933373369
+        ],
+        [
+          -19.709679953288287,
+          102.05524730286561
+        ]
+      ],
+      "test": {
+        "edge_id": "way-1004133497-seg-2",
+        "osm_way_id": 1004133497,
+        "name": "Rua da ConceiÃ§Ã£o da Praia",
+        "length_m": 5.821017351930383,
+        "tested_poses": 5,
+        "issues": [],
+        "replay_allowed": true,
+        "geometric_block_threshold_m": 0.2
+      },
+      "width_verified_m": null,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rua da ConceiÃ§Ã£o da Praia",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "edge_id": "way-1004133497-seg-3",
+      "osm_way_id": 1004133497,
+      "name": "Rua da ConceiÃ§Ã£o da Praia",
+      "from": "7519736192",
+      "to": "1672367563",
+      "traversal": "forward",
+      "xy": [
+        [
+          -19.709679953288287,
+          102.05524730286561
+        ],
+        [
+          -16.177179530262947,
+          115.2295872035902
+        ]
+      ],
+      "test": {
+        "edge_id": "way-1004133497-seg-3",
+        "osm_way_id": 1004133497,
+        "name": "Rua da ConceiÃ§Ã£o da Praia",
+        "length_m": 13.639713427310355,
+        "tested_poses": 11,
+        "issues": [],
+        "replay_allowed": true,
+        "geometric_block_threshold_m": 0.2
+      },
+      "width_verified_m": null,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rua da ConceiÃ§Ã£o da Praia",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "edge_id": "way-1004133497-seg-4",
+      "osm_way_id": 1004133497,
+      "name": "Rua da ConceiÃ§Ã£o da Praia",
+      "from": "1672367563",
+      "to": "1672367530",
+      "traversal": "forward",
+      "xy": [
+        [
+          -16.177179530262947,
+          115.2295872035902
+        ],
+        [
+          -17.26175740128383,
+          122.21273212786764
+        ]
+      ],
+      "test": {
+        "edge_id": "way-1004133497-seg-4",
+        "osm_way_id": 1004133497,
+        "name": "Rua da ConceiÃ§Ã£o da Praia",
+        "length_m": 7.066869472758918,
+        "tested_poses": 6,
+        "issues": [],
+        "replay_allowed": true,
+        "geometric_block_threshold_m": 0.2
+      },
+      "width_verified_m": null,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rua da ConceiÃ§Ã£o da Praia",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "edge_id": "way-1004133497-seg-5",
+      "osm_way_id": 1004133497,
+      "name": "Rua da ConceiÃ§Ã£o da Praia",
+      "from": "1672367530",
+      "to": "1672367515",
+      "traversal": "forward",
+      "xy": [
+        [
+          -17.26175740128383,
+          122.21273212786764
+        ],
+        [
+          -19.567071166820824,
+          128.8090629526414
+        ]
+      ],
+      "test": {
+        "edge_id": "way-1004133497-seg-5",
+        "osm_way_id": 1004133497,
+        "name": "Rua da ConceiÃ§Ã£o da Praia",
+        "length_m": 6.987569773808456,
+        "tested_poses": 6,
+        "issues": [],
+        "replay_allowed": true,
+        "geometric_block_threshold_m": 0.2
+      },
+      "width_verified_m": null,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rua da ConceiÃ§Ã£o da Praia",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "edge_id": "way-1004133497-seg-6",
+      "osm_way_id": 1004133497,
+      "name": "Rua da ConceiÃ§Ã£o da Praia",
+      "from": "1672367515",
+      "to": "1586482157",
+      "traversal": "forward",
+      "xy": [
+        [
+          -19.567071166820824,
+          128.8090629526414
+        ],
+        [
+          -22.05806465819478,
+          133.0670827019494
+        ]
+      ],
+      "test": {
+        "edge_id": "way-1004133497-seg-6",
+        "osm_way_id": 1004133497,
+        "name": "Rua da ConceiÃ§Ã£o da Praia",
+        "length_m": 4.933123326771906,
+        "tested_poses": 5,
+        "issues": [],
+        "replay_allowed": true,
+        "geometric_block_threshold_m": 0.2
+      },
+      "width_verified_m": null,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rua da ConceiÃ§Ã£o da Praia",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "edge_id": "way-562637607-seg-0",
+      "osm_way_id": 562637607,
+      "name": "Rua Santos Dumont",
+      "from": "1586482157",
+      "to": "1672367498",
+      "traversal": "forward",
+      "xy": [
+        [
+          -22.05806465819478,
+          133.0670827019494
+        ],
+        [
+          8.133465379010886,
+          163.78393690194935
+        ]
+      ],
+      "test": {
+        "edge_id": "way-562637607-seg-0",
+        "osm_way_id": 562637607,
+        "name": "Rua Santos Dumont",
+        "length_m": 43.07033729933079,
+        "tested_poses": 30,
+        "issues": [],
+        "replay_allowed": true,
+        "geometric_block_threshold_m": 0.2
+      },
+      "width_verified_m": null,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Rua Santos Dumont",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "edge_id": "way-562637607-seg-1",
+      "osm_way_id": 562637607,
+      "name": "Rua Santos Dumont",
+      "from": "1672367498",
+      "to": "619750168",
+      "traversal": "forward",
+      "xy": [
+        [
+          8.133465379010886,
+          163.78393690194935
+        ],
+        [
+          59.256054618395865,
+          219.67330942628905
+        ]
+      ],
+      "test": {
+        "edge_id": "way-562637607-seg-1",
+        "osm_way_id": 562637607,
+        "name": "Rua Santos Dumont",
+        "length_m": 75.74391799531662,
+        "tested_poses": 52,
+        "issues": [],
+        "replay_allowed": true,
+        "geometric_block_threshold_m": 0.2
+      },
+      "width_verified_m": null,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Rua Santos Dumont",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "edge_id": "way-562637607-seg-2",
+      "osm_way_id": 562637607,
+      "name": "Rua Santos Dumont",
+      "from": "619750168",
+      "to": "5423843925",
+      "traversal": "forward",
+      "xy": [
+        [
+          59.256054618395865,
+          219.67330942628905
+        ],
+        [
+          91.89985626516864,
+          251.16367857367732
+        ]
+      ],
+      "test": {
+        "edge_id": "way-562637607-seg-2",
+        "osm_way_id": 562637607,
+        "name": "Rua Santos Dumont",
+        "length_m": 45.35704235842441,
+        "tested_poses": 32,
+        "issues": [],
+        "replay_allowed": true,
+        "geometric_block_threshold_m": 0.2
+      },
+      "width_verified_m": null,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Rua Santos Dumont",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "edge_id": "way-562637607-seg-3",
+      "osm_way_id": 562637607,
+      "name": "Rua Santos Dumont",
+      "from": "5423843925",
+      "to": "5423847937",
+      "traversal": "forward",
+      "xy": [
+        [
+          91.89985626516864,
+          251.16367857367732
+        ],
+        [
+          105.36946432013065,
+          265.6590355269145
+        ]
+      ],
+      "test": {
+        "edge_id": "way-562637607-seg-3",
+        "osm_way_id": 562637607,
+        "name": "Rua Santos Dumont",
+        "length_m": 19.78750371685945,
+        "tested_poses": 15,
+        "issues": [],
+        "replay_allowed": true,
+        "geometric_block_threshold_m": 0.2
+      },
+      "width_verified_m": null,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Rua Santos Dumont",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "edge_id": "way-562637607-seg-4",
+      "osm_way_id": 562637607,
+      "name": "Rua Santos Dumont",
+      "from": "5423847937",
+      "to": "2111557390",
+      "traversal": "forward",
+      "xy": [
+        [
+          105.36946432013065,
+          265.6590355269145
+        ],
+        [
+          127.17479406716302,
+          290.2433589408174
+        ]
+      ],
+      "test": {
+        "edge_id": "way-562637607-seg-4",
+        "osm_way_id": 562637607,
+        "name": "Rua Santos Dumont",
+        "length_m": 32.86124587889039,
+        "tested_poses": 23,
+        "issues": [],
+        "replay_allowed": true,
+        "geometric_block_threshold_m": 0.2
+      },
+      "width_verified_m": null,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Rua Santos Dumont",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "edge_id": "way-562627120-seg-2",
+      "osm_way_id": 562627120,
+      "name": "Rua Pinto Martins",
+      "from": "2111557390",
+      "to": "1712584815",
+      "traversal": "forward",
+      "xy": [
+        [
+          127.17479406716302,
+          290.2433589408174
+        ],
+        [
+          152.84014187334105,
+          271.2800816674717
+        ]
+      ],
+      "test": {
+        "edge_id": "way-562627120-seg-2",
+        "osm_way_id": 562627120,
+        "name": "Rua Pinto Martins",
+        "length_m": 31.911054019764745,
+        "tested_poses": 23,
+        "issues": [],
+        "replay_allowed": true,
+        "geometric_block_threshold_m": 0.2
+      },
+      "width_verified_m": null,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Rua Pinto Martins",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    }
+  ]
+}

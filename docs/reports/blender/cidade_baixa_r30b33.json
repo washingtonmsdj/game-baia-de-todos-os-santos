@@ -1,0 +1,778 @@
+{
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b32_comercio_preservado.blend",
+    "sha256": "df064df36da69c202aed9ee46f9cec7a94705bf55f20e8c5e203eb5eae339b01",
+    "revision": "R30B.32",
+    "status": "authoring_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b31_cidade_baixa_fachadas_cravo.blend",
+    "evidence": "docs/reports/blender/cidade_baixa_r30b32.json"
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b33_fachadas_foto_cairu.blend",
+    "sha256": "e4cc5655088adc7cdd2c234d7343a5df34faccb08cce971ad2c9634fda6479be",
+    "revision": "R30B.33",
+    "scene": "SALVADOR | ESBOCO OFICIAL"
+  },
+  "reference_media_id": "elevador-lacerda-panorama-783a31279c0d",
+  "research_performed": false,
+  "buildings": [
+    {
+      "osm_way_id": 1263035780,
+      "body": "OSM | 1263035780",
+      "footprint_controls_xy": [
+        [
+          -70.18525695800781,
+          40.424476623535156
+        ],
+        [
+          -60.15104675292969,
+          51.7437744140625
+        ],
+        [
+          -53.924407958984375,
+          45.55353546142578
+        ],
+        [
+          -64.0562515258789,
+          34.80904769897461
+        ]
+      ],
+      "source_signature": {
+        "geometry_sha256": "6a54b288ae9975a0bd8c9a557391b37fdd60f429729f4f82c35245b5b4b7486a",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            -3.564345598220825
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.6499999761581421,
+              0.6100000143051147,
+              0.5199999809265137,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.5,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "modeled_signature": {
+        "geometry_sha256": "8f9986c7b6ec7192e0faa251e854e57d5dc4b757e2350196d3619a140a2fd433",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            -3.564345598220825
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.800000011920929,
+              0.7799999713897705,
+              0.699999988079071,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.7799999713897705,
+              0.699999988079071,
+              1.0
+            ],
+            "roughness": 0.75,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 328,
+        "polygons": 257
+      },
+      "candidate_height_m": 11.3,
+      "height_verified_m": null,
+      "candidate_floors": 3,
+      "facade_bays_candidate": 7,
+      "style": "white_green_rose_awning",
+      "photo_binding_status": "candidate",
+      "reference_media_id": "elevador-lacerda-panorama-783a31279c0d",
+      "footprint_xy_changed": false,
+      "foundation_z_changed": false,
+      "unseen_sides": "Volumes existentes preservados, sem novas janelas inventadas."
+    },
+    {
+      "osm_way_id": 1220650507,
+      "body": "OSM | Empório da Pesca",
+      "footprint_controls_xy": [
+        [
+          -76.94344329833984,
+          33.714698791503906
+        ],
+        [
+          -70.18525695800781,
+          40.424476623535156
+        ],
+        [
+          -64.0562515258789,
+          34.80904769897461
+        ],
+        [
+          -62.852149963378906,
+          33.714698791503906
+        ],
+        [
+          -68.90522003173828,
+          27.590784072875977
+        ]
+      ],
+      "source_signature": {
+        "geometry_sha256": "2d32651bd5d0838350de86b983443583edd288fe51b688a4ba70770a8f1c1d26",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            -3.5643465518951416
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.75,
+              0.6899999976158142,
+              0.5600000023841858,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.5,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 10,
+        "polygons": 7
+      },
+      "modeled_signature": {
+        "geometry_sha256": "3df7041a02f760279dd8e01f2be8a2617238263c95cdc4d9e9989ce4f612da4d",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            -3.5643465518951416
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.800000011920929,
+              0.7799999713897705,
+              0.699999988079071,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.7799999713897705,
+              0.699999988079071,
+              1.0
+            ],
+            "roughness": 0.75,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 154,
+        "polygons": 118
+      },
+      "candidate_height_m": 10.4,
+      "height_verified_m": null,
+      "candidate_floors": 3,
+      "facade_bays_candidate": 3,
+      "style": "narrow_blue",
+      "photo_binding_status": "candidate",
+      "reference_media_id": "elevador-lacerda-panorama-783a31279c0d",
+      "footprint_xy_changed": false,
+      "foundation_z_changed": false,
+      "unseen_sides": "Volumes existentes preservados, sem novas janelas inventadas."
+    },
+    {
+      "osm_way_id": 1220650503,
+      "body": "OSM | 1220650503",
+      "footprint_controls_xy": [
+        [
+          -76.94344329833984,
+          33.714698791503906
+        ],
+        [
+          -81.47782135009766,
+          28.519319534301758
+        ],
+        [
+          -74.14470672607422,
+          21.931135177612305
+        ],
+        [
+          -68.90522003173828,
+          27.590784072875977
+        ]
+      ],
+      "source_signature": {
+        "geometry_sha256": "803558c5fbc31e0b9843a8257589a7a187566cfcea7f9159b363d4f07aa75c9c",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            -3.564347505569458
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.6499999761581421,
+              0.6100000143051147,
+              0.5199999809265137,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.5,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "modeled_signature": {
+        "geometry_sha256": "265a2f2751d9da2b08d31334faec20ed18ea12d52066753d0f3df467fb083574",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            -3.564347505569458
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.41999998688697815,
+              0.4300000071525574,
+              0.4000000059604645,
+              1.0
+            ],
+            "base": [
+              0.41999998688697815,
+              0.4300000071525574,
+              0.4000000059604645,
+              1.0
+            ],
+            "roughness": 0.75,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 352,
+        "polygons": 290
+      },
+      "candidate_height_m": 21.0,
+      "height_verified_m": null,
+      "candidate_floors": 6,
+      "facade_bays_candidate": 4,
+      "style": "gray_vertical_ribs",
+      "photo_binding_status": "candidate",
+      "reference_media_id": "elevador-lacerda-panorama-783a31279c0d",
+      "footprint_xy_changed": false,
+      "foundation_z_changed": false,
+      "unseen_sides": "Volumes existentes preservados, sem novas janelas inventadas."
+    }
+  ],
+  "created_objects": [
+    "BAIXA R33 | 1220650507 | Caixilhos",
+    "BAIXA R33 | 1220650507 | Cornijas e frisos",
+    "BAIXA R33 | 1220650507 | Peitoris",
+    "BAIXA R33 | 1220650507 | Vidros",
+    "BAIXA R33 | Fonte | Piso e faixas concêntricas",
+    "BAIXA R33 | 1263035780 | Caixilhos",
+    "BAIXA R33 | 1263035780 | Cornijas e frisos",
+    "BAIXA R33 | 1263035780 | Peitoris",
+    "BAIXA R33 | 1263035780 | Folhas verdes",
+    "BAIXA R33 | 1263035780 | Vidros",
+    "BAIXA R33 | 1263035780 | Toldo rosado",
+    "BAIXA R33 | 1263035780 | Telhado cerâmico visível",
+    "BAIXA R33 | 1220650503 | Caixilhos",
+    "BAIXA R33 | 1220650503 | Cornijas e frisos",
+    "BAIXA R33 | 1220650503 | Peitoris",
+    "BAIXA R33 | 1220650503 | Vidros"
+  ],
+  "preserved_b23_components": [
+    "OSM | 1263035779",
+    "OSM | 1220650665",
+    "OSM | Depósito Vissor",
+    "ENTORNO LAC | Vissor | vao 0 0",
+    "ENTORNO LAC | Vissor | moldura 0 0 -1",
+    "ENTORNO LAC | Vissor | moldura 0 0 1",
+    "ENTORNO LAC | Vissor | peitoril 0 0",
+    "ENTORNO LAC | Vissor | vao 0 1",
+    "ENTORNO LAC | Vissor | moldura 0 1 -1",
+    "ENTORNO LAC | Vissor | moldura 0 1 1",
+    "ENTORNO LAC | Vissor | peitoril 0 1",
+    "ENTORNO LAC | Vissor | vao 0 2",
+    "ENTORNO LAC | Vissor | moldura 0 2 -1",
+    "ENTORNO LAC | Vissor | moldura 0 2 1",
+    "ENTORNO LAC | Vissor | peitoril 0 2",
+    "ENTORNO LAC | Vissor | vao 1 0",
+    "ENTORNO LAC | Vissor | moldura 1 0 -1",
+    "ENTORNO LAC | Vissor | moldura 1 0 1",
+    "ENTORNO LAC | Vissor | peitoril 1 0",
+    "ENTORNO LAC | Vissor | vao 1 1",
+    "ENTORNO LAC | Vissor | moldura 1 1 -1",
+    "ENTORNO LAC | Vissor | moldura 1 1 1",
+    "ENTORNO LAC | Vissor | peitoril 1 1",
+    "ENTORNO LAC | Vissor | vao 1 2",
+    "ENTORNO LAC | Vissor | moldura 1 2 -1",
+    "ENTORNO LAC | Vissor | moldura 1 2 1",
+    "ENTORNO LAC | Vissor | peitoril 1 2",
+    "ENTORNO LAC | Vissor | abertura comercial 0",
+    "ENTORNO LAC | Vissor | abertura comercial 1",
+    "ENTORNO LAC | Vissor | toldo amarelo",
+    "ENTORNO LAC | Vissor | faixa do letreiro",
+    "ENTORNO LAC | Vissor | letreiro",
+    "ENTORNO LAC | Comercio adjacente | faixas rosadas",
+    "ENTORNO LAC | Comercio adjacente | coroamento e embasamento",
+    "ENTORNO LAC | Comercio adjacente | aberturas visuais",
+    "ENTORNO LAC | Comercio adjacente | pilares e ombreiras",
+    "ENTORNO LAC | Comercio adjacente | paineis vazados",
+    "ENTORNO LAC | Sobrado azul | cornijas",
+    "ENTORNO LAC | Sobrado azul | portais terreo",
+    "ENTORNO LAC | Sobrado azul | janelas arqueadas",
+    "ENTORNO LAC | Sobrado azul | molduras de arco"
+  ],
+  "terrain_and_collision_unchanged_from_b30": true,
+  "road_signatures": {
+    "MVP | terreno corrigido | colisão estática": {
+      "geometry_sha256": "27d5305a837e0b44e2d74cb80f86702282f13b088705a4bd3245166fd70ced3a",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.2965762615203857
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.7371039390563965
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -3.5643310546875
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.30000001192092896,
+            1.0
+          ],
+          "base": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.30000001192092896,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.6800000071525574,
+            0.6399999856948853,
+            0.550000011920929,
+            1.0
+          ],
+          "base": [
+            0.6800000071525574,
+            0.6399999856948853,
+            0.550000011920929,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.12999999523162842,
+            0.14000000059604645,
+            0.15000000596046448,
+            1.0
+          ],
+          "base": [
+            0.12999999523162842,
+            0.14000000059604645,
+            0.15000000596046448,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.6000000238418579,
+            0.5699999928474426,
+            0.49000000953674316,
+            1.0
+          ],
+          "base": [
+            0.6000000238418579,
+            0.5699999928474426,
+            0.49000000953674316,
+            1.0
+          ],
+          "roughness": 0.8500000238418579,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.5199999809265137,
+            0.49000000953674316,
+            0.4300000071525574,
+            1.0
+          ],
+          "base": [
+            0.5199999809265137,
+            0.49000000953674316,
+            0.4300000071525574,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.3100000023841858,
+            0.28999999165534973,
+            0.2549999952316284,
+            1.0
+          ],
+          "base": [
+            0.3100000023841858,
+            0.28999999165534973,
+            0.2549999952316284,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.3799999952316284,
+            0.3700000047683716,
+            0.33000001311302185,
+            1.0
+          ],
+          "base": [
+            0.3799999952316284,
+            0.3700000047683716,
+            0.33000001311302185,
+            1.0
+          ],
+          "roughness": 0.949999988079071,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.6200000047683716,
+            0.6000000238418579,
+            0.5299999713897705,
+            1.0
+          ],
+          "base": [
+            0.6200000047683716,
+            0.6000000238418579,
+            0.5299999713897705,
+            1.0
+          ],
+          "roughness": 0.7200000286102295,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.3199999928474426,
+            0.3100000023841858,
+            0.27000001072883606,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.9200000166893005,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 547564,
+      "polygons": 1082841
+    },
+    "R30A5 | COLLISION | terrain proxy": {
+      "geometry_sha256": "98fd8d5ae83dabf863ef47af3ce33f8d5de9fa9faa95b67f083f4cea8a49e504",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [],
+      "type": "MESH",
+      "vertices": 66263,
+      "polygons": 131331
+    }
+  },
+  "reopened": true,
+  "runtime_exported": false,
+  "status": "authoring_candidate",
+  "monument": {
+    "linked_sculpture_changed": false,
+    "placement_changed": false,
+    "surface_ring_radius_m": 10.399993896484375,
+    "ring_width_candidate_m": 1.4,
+    "water_material_updated": true
+  },
+  "deferred": [
+    "Casarão em ruína no morro: geometria visível, mas sem correspondência de footprint/implantação confirmada; não instanciado por aproximação.",
+    "Outros edifícios, fundos, interiores e ornamentos ilegíveis: aguardar outra referência.",
+    "Não aprova altura real, correspondência fotográfica das três parcelas ou asset inteiro."
+  ],
+  "known_road_limitations": [
+    "Conceição: conflito de nível ~36,6 m ainda não resolvido",
+    "larguras reais ausentes; circuito inteiro/ônibus não aprovado",
+    "replays cinemáticos, não suspensão/tráfego dinâmico"
+  ],
+  "front_refinement": {
+    "gray_front_edge": 2,
+    "gable_closed": true,
+    "reason": "Revisão visual da própria modelagem: face anterior estava no lado oposto; empena ausente sob cobertura.",
+    "previous_draft_backup": "artifacts/cidade-baixa/r30b33_before_front_refinement.blend"
+  },
+  "reopen_proof": {
+    "file": "blender/salvador_lacerda_r30b33_fachadas_foto_cairu.blend",
+    "sha256": "e4cc5655088adc7cdd2c234d7343a5df34faccb08cce971ad2c9634fda6479be",
+    "source_mode": "authoring",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "load_post_completed": true,
+    "timestamp_utc": "2026-10-02T06:13:29.125820+00:00"
+  },
+  "local_review": {
+    "buildings": [
+      {
+        "osm_way_id": 1263035780,
+        "footprint_bounds_delta_m": 0.0,
+        "mesh_vertices": 328,
+        "mesh_faces": 257,
+        "height_status": "candidate"
+      },
+      {
+        "osm_way_id": 1220650507,
+        "footprint_bounds_delta_m": 0.0,
+        "mesh_vertices": 154,
+        "mesh_faces": 118,
+        "height_status": "candidate"
+      },
+      {
+        "osm_way_id": 1220650503,
+        "footprint_bounds_delta_m": 0.0,
+        "mesh_vertices": 352,
+        "mesh_faces": 290,
+        "height_status": "candidate"
+      }
+    ],
+    "preserved_b23_components": 41,
+    "paving_support_max_error_m": 2.3075103759765542e-05,
+    "paving_support_tolerance_m": 0.0001,
+    "monument_relative_library": "//assets\\monumento_mario_cravo\\monumento_mario_cravo_v01.blend",
+    "terrain_and_collision_equal_b30": true,
+    "road_tests_rerun": false
+  },
+  "visual_review": {
+    "status": "reviewed_modeling_candidate",
+    "images": [
+      "artifacts/cidade-baixa/r30b33_fachadas.png",
+      "artifacts/cidade-baixa/r30b33_fonte.png"
+    ],
+    "scope": "Revisão localizada de modelagem com terreno da fonte; demais edifícios omitidos na cena temporária de revisão.",
+    "findings": [
+      "Frente do imóvel cinza agora voltada para a rua; quatro eixos e frisos legíveis.",
+      "Empena da cobertura fechada; toldo, folhas verdes e fachada estreita azul conferidos na vista localizada.",
+      "Fonte e acabamento do piso conferidos; implantação e escultura vinculada preservadas.",
+      "Imagem de revisão omite demais edifícios para avaliar estes componentes; terreno mostrado pertence à fonte, não a um cenário substituto."
+    ],
+    "limitations": [
+      "Correspondência foto-parcela e alturas candidatas, não aprovadas por levantamento.",
+      "Esta etapa não resolve pendências estruturais da cidade nem aprova o runtime."
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b26_terreno_colisao_alinhados.blend",
+    "sha256": "c9511d8daa91ed7124574765e963ac1a25d9939338ec1b153a04cd6d507399ad",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "revision": "R30B.26",
+    "selection_reason": "Derivada da R30B23: encontro Montanha/Pau da Bandeira contínuo e binding confirmado do colisor ao transform do terreno. Larguras/implantação visual preservadas. Revisão parcial da cidade."
+  },
+  "classification": "ERROR",
+  "city_visual_geometry_changed": false,
+  "road_widths_changed": false,
+  "applied_matrix": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      1.2965762615203857
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.7371039390563965
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      -3.5643310546875
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "stale_hidden_world_matrix_before": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "matrix_basis_after": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "method": "bake recorded source transform in proxy vertices; identity transforms, no guessed offset",
+  "reopen_validation": "confirmed identity transforms retained in R30B28; route support verified by terrain_proxy_verify.json",
+  "runtime_exported": false,
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b27_colisao_transform_aplicado.blend",
+    "sha256": "618e5d0a8fcf4da7cbdf216bff2db2aa3549c647380e1ca436b0a49db181581a",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "revision": "R30B.27",
+    "selection_reason": "Derivada da R30B23: encontro contínuo Montanha/Pau da Bandeira; proxy atualizado com transform da fonte aplicado aos vértices para leitura estável mesmo oculto. Larguras e implantação visual preservadas."
+  }
+}

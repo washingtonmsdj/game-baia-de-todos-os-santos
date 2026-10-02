@@ -13,6 +13,14 @@
 !blender/**/
 !blender/**/*.blend
 
+# Fonte existente do carro usado pelos replays e exportador de runtime.
+!automation/blender/ordax_car_realistic_v14_reference_cleanup.blend
+# Experimentos rejeitados e pacotes locais de transferência não são fontes oficiais.
+/blender/salvador_lacerda_mvp_r30c*.blend
+/automation/blender/assets/ordax_*/
+# Fotografias locais de referência: catálogo/proveniência ficam em world/.
+/Imagem do ChatGPT *.jpg
+
 # Pacotes de engine reproduzíveis; fontes e contrato ficam no Git/LFS.
 prototypes/threejs-water-lab/public/world/releases/
 prototypes/threejs-water-lab/public/world/runtime.json

@@ -1,0 +1,82 @@
+{
+  "source": {
+    "file": "blender/salvador_lacerda_r30b29_colisao_rede_viaria.blend",
+    "sha256": "493449d9e7e9bd539bc1445a64769f740ee1e55777c1578062f3892d8ee75dd0",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "revision": "R30B.29",
+    "selection_reason": "Derivada da R30B23; conserva geografia/larguras e corrige precisão local da colisão nas vias cobertas. Conflito de níveis da Conceição continua em revisão."
+  },
+  "reopened": true,
+  "road_segments": 587,
+  "unique_probes": 59723,
+  "source_missing_boundary_samples": [
+    {
+      "edge_id": "way-397449211-seg-1",
+      "sample": 0,
+      "xy": [
+        543.15869140625,
+        -249.83535766601562
+      ]
+    },
+    {
+      "edge_id": "way-397449211-seg-1",
+      "sample": 0,
+      "xy": [
+        543.1414794921875,
+        -251.5152587890625
+      ]
+    },
+    {
+      "edge_id": "way-531109209-seg-1",
+      "sample": 8,
+      "xy": [
+        497.95635986328125,
+        -281.3043212890625
+      ]
+    }
+  ],
+  "missing_proxy_samples": [],
+  "max_visual_collision_delta_m": 0.0455169677734375,
+  "above_5cm": 0,
+  "status": "pass_geometric_agreement_only",
+  "dynamic_physics_tested": false,
+  "source_discontinuities_repaired": false,
+  "conceicao_column_hits": [
+    {
+      "xy": [
+        -148.42085,
+        -150.15419
+      ],
+      "source_column_hits_z": [
+        55.823143005371094
+      ]
+    },
+    {
+      "xy": [
+        -148.7,
+        -148.36
+      ],
+      "source_column_hits_z": [
+        19.180068969726562
+      ]
+    },
+    {
+      "xy": [
+        -147.95,
+        -148.76
+      ],
+      "source_column_hits_z": [
+        19.20697021484375
+      ]
+    },
+    {
+      "xy": [
+        -146.267,
+        -146.388
+      ],
+      "source_column_hits_z": [
+        24.712448120117188
+      ]
+    }
+  ]
+}

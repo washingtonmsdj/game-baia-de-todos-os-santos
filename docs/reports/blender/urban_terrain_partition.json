@@ -1,0 +1,47 @@
+{
+  "source": {
+    "file": "blender/salvador_lacerda_mvp_r30c5_terrain_world_coordinates.blend",
+    "sha256": "0bbfcb2b2ff91320a459173112d33dbc259b4402e06240d3af3abb62032dc0fa",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "revision": "R30C.5",
+    "selection_reason": "Correção de terreno: partição e perfil derivados em coordenadas mundiais; tráfego em revisão"
+  },
+  "classification": "ERROR",
+  "affected_fragments": 21560,
+  "projected_area_before_m2": 747684.0252718659,
+  "partition_area_m2": {
+    "terrain": 743954.1053802789,
+    "road": 2413.9368344422323,
+    "walkable": 1315.9832063495144
+  },
+  "area_error_m2": 0.00014920474495738745,
+  "road_vertical_offset_m": 0,
+  "sidewalk_raise_m": 0.12,
+  "geography_xy_changed": false,
+  "dem_changed": false,
+  "scope": "somente terreno e malha da slice; tráfego suspenso para revisão",
+  "support_samples": 2241,
+  "missing_road_samples": 0,
+  "maximum_centerline_grade": 0.07028984048176722,
+  "max_local_height_adjustment_m": 2.953600590771913,
+  "modified_vertices": 38513,
+  "terrain_transition_band_m": 2,
+  "numerical_coverage_tolerance_m": 0.0001,
+  "spawn": [
+    -16.28045,
+    67.042399,
+    84.75884
+  ],
+  "visual_review": "pending",
+  "reopened": true,
+  "scene_meshes": {
+    "SLICE | road | superfície particionada": {
+      "vertices": 11071,
+      "faces": 17157
+    },
+    "SLICE | walkable | superfície particionada": {
+      "vertices": 15264,
+      "faces": 21054
+    }
+  }
+}

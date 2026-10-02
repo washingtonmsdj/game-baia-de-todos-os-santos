@@ -1,0 +1,74 @@
+{
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b23_fachada_praca.blend",
+    "sha256": "dead4d201072d86c3d3e51825c8550327daaed2a1939d236530236e24b9b2bdb",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "revision": "R30B.23",
+    "selection_reason": "Composição explicitamente escolhida pelo usuário em 01/10/2026: fachada da praça. Revisões experimentais R30C rejeitadas como base; terreno deve preservar limites XY da composição autoral."
+  },
+  "classification": "ERROR",
+  "method": "perfil local dos três eixos sobre anchors da malha-fonte; apenas Z do pavimento existente",
+  "osm_edge_ids": [
+    "way-48846625-seg-9",
+    "way-231091555-seg-5",
+    "way-978481515-seg-0"
+  ],
+  "junction_osm_node": "2394997055",
+  "radius_m": 18.0,
+  "radius_is_road_width": false,
+  "widths_changed": false,
+  "xy_changed": false,
+  "materials_changed": false,
+  "topology_changed": false,
+  "changed_vertices": 2047,
+  "changed_proxy_vertices": 0,
+  "max_height_change_m": 1.4780497368877263,
+  "anchors": [
+    {
+      "a": [
+        -129.91720581054688,
+        -134.22232055664062,
+        54.07762145996094
+      ],
+      "b": [
+        -169.42958068847656,
+        -177.65443420410156,
+        57.752227783203125
+      ]
+    },
+    {
+      "a": [
+        -137.00404357910156,
+        -160.84829711914062,
+        59.829620361328125
+      ],
+      "b": [
+        -169.42958068847656,
+        -177.65443420410156,
+        57.752227783203125
+      ]
+    },
+    {
+      "a": [
+        -169.42958068847656,
+        -177.65443420410156,
+        57.752227783203125
+      ],
+      "b": [
+        -215.1765899658203,
+        -224.5389404296875,
+        59.22871398925781
+      ]
+    }
+  ],
+  "vehicle_retest": "pending",
+  "visual_review": "pending",
+  "runtime_exported": false,
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b24_encontro_montanha.blend",
+    "sha256": "db71b5af227a1feed62a98dd577c0304514384112f7668c547f85de5bbe921e3",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "revision": "R30B.24",
+    "selection_reason": "Derivada da R30B23 escolhida pelo usuário; correção Z local do encontro Montanha/Pau da Bandeira sem alterar limites XY ou larguras. Revisão parcial, reteste pendente."
+  }
+}

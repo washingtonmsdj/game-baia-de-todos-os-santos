@@ -52,12 +52,20 @@
   },
   "statistics_requested": true,
   "warnings": [
-    "Faixa de elevação incomum para o recorte; revisar nodata, unidade ou artefatos do DEM."
+    "Faixa de elevaÃ§Ã£o incomum para o recorte; revisar nodata, unidade ou artefatos do DEM."
   ],
   "notes": [
-    "Nenhuma elevação foi corrigida, suavizada ou reamostrada.",
-    "EPSG:3857 mede o raster em coordenadas projetadas; métricas horizontais servem para QA estrutural e não substituem levantamento local.",
-    "O terrain.tif histórico do Aleph é composto a partir dos Mapzen/Tilezen Terrain Tiles no bucket público elevation-tiles-prod.",
-    "A origem/licença dos dados de elevação subjacentes deve permanecer registrada separadamente da licença do software Aleph."
-  ]
+    "Nenhuma elevaÃ§Ã£o foi corrigida, suavizada ou reamostrada.",
+    "EPSG:3857 mede o raster em coordenadas projetadas; mÃ©tricas horizontais servem para QA estrutural e nÃ£o substituem levantamento local.",
+    "O terrain.tif histÃ³rico do Aleph Ã© composto a partir dos Mapzen/Tilezen Terrain Tiles no bucket pÃºblico elevation-tiles-prod.",
+    "A origem/licenÃ§a dos dados de elevaÃ§Ã£o subjacentes deve permanecer registrada separadamente da licenÃ§a do software Aleph."
+  ],
+  "latest_terrain_inspection": {
+    "capture_id": "aleph-20260924T205631Z-aqqo7pkx",
+    "report": "docs/reports/blender/terrain_conceicao_source_check.json",
+    "dem_sha256": "674fe65e08c761f879f1fa02a5560a62c9e836c09e1dfacb2aa805e9def15ca7",
+    "purpose": "revisão dos níveis das vias Montanha/Conceição; sem aplicação automática do DEM",
+    "source_modified": false,
+    "road_widths_verified": false
+  }
 }

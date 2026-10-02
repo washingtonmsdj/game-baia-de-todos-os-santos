@@ -1,0 +1,44 @@
+{
+  "source": {
+    "file": "blender/salvador_lacerda_r30b28_colisao_viaria_refinada.blend",
+    "sha256": "5a62fe4c3c0415de60055feaf91be868a78341647e5faf04a3b718c2f6885c2e",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "revision": "R30B.28",
+    "selection_reason": "Derivada da R30B23; encontro contínuo e colisor com transform aplicado/refino local nas vias da Montanha. Geometria visual, implantação e larguras preservadas; demais ruas ainda em revisão."
+  },
+  "classification": "SOURCE_LIMITATION",
+  "reason": "Footprint of the existing car reaches outside the authored terrain boundary at truncated OSM edges. No interior terrain gap confirmed at these positions.",
+  "source_terrain_world_bounds_xy": [
+    -285.7034237384796,
+    -281.2628960609436,
+    542.2965762615204,
+    621.7371039390564
+  ],
+  "vehicle_track_probe_m": 1.68,
+  "wheelbase_measured_m": 3.22,
+  "edges": [
+    {
+      "osm_edge_id": "way-397449211-seg-1",
+      "osm_way_id": 397449211,
+      "name": "Travessa Professor Antônio Borja",
+      "outside_wheel_xy": [
+        543.1587,
+        -249.8354
+      ],
+      "runtime_route_status": "end_before_boundary; pending navigation binding"
+    },
+    {
+      "osm_edge_id": "way-531109209-seg-1",
+      "osm_way_id": 531109209,
+      "name": "Rua do Carro",
+      "outside_wheel_xy": [
+        497.9564,
+        -281.3043
+      ],
+      "runtime_route_status": "end_before_boundary; pending navigation binding"
+    }
+  ],
+  "terrain_added": false,
+  "road_widths_changed": false,
+  "width_verified_m": null
+}

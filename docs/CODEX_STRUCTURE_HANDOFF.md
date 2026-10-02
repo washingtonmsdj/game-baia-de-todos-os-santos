@@ -1,5 +1,25 @@
 # Handoff do Codex — Fidelidade Estrutural
 
+## Autoria atual de 02/10/2026 — B38
+
+Usar `blender-revisions.json#/authoring_source`: B38, pai B37; produção B30.
+Corrigido binding da Conceição na camada da Montanha e refinado colisor em
+trecho contínuo, preservando terreno visual, larguras e 5.255 componentes.
+Replay cinemático de cerca de 136 m e posições interpoladas conferidos; curva crítica
+e circuito completo continuam pendentes. O resíduo histórico de 36 m não
+justifica deformação global do terreno. Detalhes e limites em
+`docs/reports/blender/conceicao_binding_r30b38.json` e `docs/CODEX_HANDOFF.md`.
+
+## Modelagem de 02/10/2026 — B36
+
+Autoria candidata B36, pai B35 preservado; produção B30. Seguir
+`blender-revisions.json#/authoring_source`. Galerias anteriores mantidas nas
+posições/geometrias B35 e ligação ao terraço acrescentada separadamente.
+Escadas no interior dos terraços; solo/proxy corrigidos localmente com vias
+preservadas. Medidas/contagem dos novos vãos candidatas; nenhuma aprovação
+global ou de gameplay. Estado final e evidências em
+`docs/reports/blender/terracos_palacio_r30b36.json` e `docs/CODEX_HANDOFF.md`.
+
 > Produção do MVP: consultar primeiro `world/areas/mvp-centro-lacerda/production.json`
 > e `docs/MVP_PRODUCTION_PIPELINE.md`. A revisão ativa é explícita; textos históricos
 > e scripts antigos não autorizam escolher outro `.blend`. Exportação canônica:

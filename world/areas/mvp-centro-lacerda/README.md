@@ -8,6 +8,8 @@ Os arquivos canônicos desta área são:
 
 - `production.json` — SSOT executável de revisão ativa, exportação, assets e runtime;
   fluxo em `docs/MVP_PRODUCTION_PIPELINE.md`;
+- `blender-revisions.json` — ponteiro exclusivo da candidata de modelagem e sua
+  cadeia de origem; não escolher arquivo por número, data ou janela aberta;
 
 - `area.json` — geografia, estado e captura Aleph;
 - `locations.json` — locais/assets que precisam existir e seu nível de fidelidade;

@@ -1,0 +1,56 @@
+{
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b29_colisao_rede_viaria.blend",
+    "sha256": "493449d9e7e9bd539bc1445a64769f740ee1e55777c1578062f3892d8ee75dd0",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "revision": "R30B.29",
+    "selection_reason": "Derivada da R30B23; conserva geografia/larguras e corrige precisão local da colisão nas vias cobertas. Conflito de níveis da Conceição continua em revisão."
+  },
+  "classification": "ADAPT_LOCAL",
+  "source_capture_id": "aleph-20260924T205631Z-aqqo7pkx",
+  "osm_way_ids": [
+    1075624458,
+    421206045
+  ],
+  "shared_osm_node": "619722483",
+  "source_road_width_m": null,
+  "width_status": "author_mesh_preserved; not a measured real-world width",
+  "extent_south_m": 4.0,
+  "x_range_m": [
+    -234.0,
+    -210.0
+  ],
+  "existing_vertices_moved": 0,
+  "new_road_graph_edges": 0,
+  "road_widths_changed": false,
+  "method": "Integrate strips into existing boundary edges of visual terrain and separate simplified collider; continue authored section height tangents/materials. Local height is adaptation, not surveyed altitude.",
+  "changes": [
+    {
+      "object": "MVP | terreno corrigido | colisão estática",
+      "vertices_before": 547464,
+      "vertices_after": 547564,
+      "faces_before": 1082745,
+      "faces_after": 1082841,
+      "boundary_edges": 24,
+      "new_faces": 96
+    },
+    {
+      "object": "R30A5 | COLLISION | terrain proxy",
+      "vertices_before": 66199,
+      "vertices_after": 66263,
+      "faces_before": 131271,
+      "faces_after": 131331,
+      "boundary_edges": 15,
+      "new_faces": 60
+    }
+  ],
+  "conceicao_height_conflict_repaired": false,
+  "closed_circuit_approved": false,
+  "bus_clearance_tested": false,
+  "runtime_exported": false,
+  "reopened": true,
+  "candidate_file": "blender/salvador_lacerda_r30b30_conexao_real_recorte.blend",
+  "candidate_sha256": "28c608846d8da3a7e918b7e3f8744b1c456d89176849f81406a0ddce71ad0132",
+  "verification_report": "docs/reports/blender/terrain_real_boundary_verify.json",
+  "verification_status": "pass_boundary_ground_support"
+}

@@ -1,5 +1,1237 @@
 {
   "schema_version": 1,
   "area_id": "mvp-centro-lacerda",
-  "media": []
+  "media": [
+    {
+      "media_id": "elevador-lacerda-access-2c9a186d4d80",
+      "location_id": "elevador-lacerda",
+      "source_type": "licensed_photo",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "access",
+      "capture": {
+        "date": "2025-07-21",
+        "lat": null,
+        "lon": null,
+        "heading_deg": null,
+        "notes": ""
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/elevador-lacerda/elevador-lacerda-salvador-20250721125020.jpg",
+        "sha256": "2c9a186d4d80bb46fdea4f6062b2093b20fa5577798c5c6739315e9da448366c"
+      },
+      "provenance": {
+        "source_name": "Wikimedia Commons — Sintegrity",
+        "license_status": "verified",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Elevador_Lacerda_-_Salvador_-_20250721125020.jpg",
+        "notes": ""
+      },
+      "notes": [
+        "Commons title: File:Elevador Lacerda - Salvador - 20250721125020.jpg",
+        "Original URL: https://upload.wikimedia.org/wikipedia/commons/7/78/Elevador_Lacerda_-_Salvador_-_20250721125020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "Credit: Own work",
+        "License URL: https://creativecommons.org/licenses/by-sa/4.0",
+        "Commons dimensions: 4000x3000; mime=image/jpeg"
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-access-9b3a4c8a1601",
+      "location_id": "elevador-lacerda",
+      "source_type": "licensed_photo",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "access",
+      "capture": {
+        "date": "2025-07-21",
+        "lat": null,
+        "lon": null,
+        "heading_deg": null,
+        "notes": ""
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/elevador-lacerda/elevador-lacerda-salvador-20250721125127.jpg",
+        "sha256": "9b3a4c8a1601c64e0b39a8014d13aa8a3b997b036064b105a55e7b1e960e94bf"
+      },
+      "provenance": {
+        "source_name": "Wikimedia Commons — Sintegrity",
+        "license_status": "verified",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Elevador_Lacerda_-_Salvador_-_20250721125127.jpg",
+        "notes": ""
+      },
+      "notes": [
+        "Commons title: File:Elevador Lacerda - Salvador - 20250721125127.jpg",
+        "Original URL: https://upload.wikimedia.org/wikipedia/commons/3/34/Elevador_Lacerda_-_Salvador_-_20250721125127.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "Credit: Own work",
+        "License URL: https://creativecommons.org/licenses/by-sa/4.0",
+        "Commons dimensions: 3000x4000; mime=image/jpeg"
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-detail-2ab9cfcbccc1",
+      "location_id": "elevador-lacerda",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "detail",
+      "capture": null,
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/elevador-lacerda/detalhe-2ab9cfcbccc1.png",
+        "sha256": "2ab9cfcbccc10b4b2719bdd55bb3ea36c7dcccf83de4d5adcca6367c4bcdb3fe"
+      },
+      "provenance": {
+        "source_name": "Google Maps — captura enviada pelo usuário; crédito visível: Paula Monte Verde",
+        "license_status": "unknown",
+        "license": null,
+        "source_url": "https://www.google.com/maps/place/Elevador+Lacerda/",
+        "notes": "Vídeo jan/2023; frame da fachada envidraçada do apoio. Pose e dimensões não verificadas."
+      },
+      "coverage": [
+        {
+          "location_id": "praca-tome-de-sousa",
+          "view": "street_context",
+          "notes": "Galerias, barranco e contenção visíveis."
+        }
+      ],
+      "notes": [
+        "Corrigir proporções e estrutura; nenhuma licença de textura de produção. Não reproduzir pessoas, obras, veículos ou instalações temporárias."
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-detail-6e9796b71968",
+      "location_id": "elevador-lacerda",
+      "source_type": "aleph_reference",
+      "usage_class": "TEMPORARIA",
+      "view": "detail",
+      "capture": {
+        "date": "2026-09-29",
+        "lat": -12.97393401457646,
+        "lon": -38.51345253700028,
+        "heading_deg": 160.0,
+        "notes": ""
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/aleph-streetview/r30b09/baixo-sul-lateral-up/aleph-streetview-o7tcx5u7/001.jpg",
+        "sha256": "6e9796b71968e4da8681164aa517d142be5eeeae5f1b79f55801f4ce9fad4276"
+      },
+      "provenance": {
+        "source_name": "Aleph pinado Belluxx/Aleph@d24c615; Google Street View",
+        "license_status": "restricted",
+        "license": "Uso restrito; não distribuir",
+        "source_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=wA8-hCpzRKmCN5ATf0hBdQ&cb_client=maps_sv.tactile&w=1024&h=576&yaw=160.0&pitch=-24.0&thumbfov=80",
+        "notes": ""
+      },
+      "notes": [
+        "Vista inclinada de baixo para cima; intradorso da marquise, acesso inferior, venezianas da torre, contenção e vegetação. Pano wA8-hCpzRKmCN5ATf0hBdQ; imagery_date 2024-07. Pessoas, carros e sinalização temporária devem ser descartados."
+      ],
+      "coverage": [
+        {
+          "location_id": "corredor-cidade-baixa",
+          "view": "detail",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-detail-814f0e72ca47",
+      "location_id": "elevador-lacerda",
+      "source_type": "licensed_photo",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "detail",
+      "capture": {
+        "date": "2025-07-21",
+        "lat": null,
+        "lon": null,
+        "heading_deg": null,
+        "notes": ""
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/elevador-lacerda/elevador-lacerda-salvador-20250721125657.jpg",
+        "sha256": "814f0e72ca47c64f4284c0b288fa36f05ba789276f17b9fd7266b3019354ab27"
+      },
+      "provenance": {
+        "source_name": "Wikimedia Commons — Sintegrity",
+        "license_status": "verified",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Elevador_Lacerda_-_Salvador_-_20250721125657.jpg",
+        "notes": ""
+      },
+      "notes": [
+        "Commons title: File:Elevador Lacerda - Salvador - 20250721125657.jpg",
+        "Original URL: https://upload.wikimedia.org/wikipedia/commons/7/76/Elevador_Lacerda_-_Salvador_-_20250721125657.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "Credit: Own work",
+        "License URL: https://creativecommons.org/licenses/by-sa/4.0",
+        "Commons dimensions: 4000x3000; mime=image/jpeg"
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-detail-d940f8160804",
+      "location_id": "elevador-lacerda",
+      "source_type": "licensed_photo",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "detail",
+      "capture": {
+        "date": "2025-07-21",
+        "lat": null,
+        "lon": null,
+        "heading_deg": null,
+        "notes": ""
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/elevador-lacerda/elevador-lacerda-salvador-20250721125222.jpg",
+        "sha256": "d940f816080402d9da6a41667973db5a7e1dc42240916fae34ab6e7703c02282"
+      },
+      "provenance": {
+        "source_name": "Wikimedia Commons — Sintegrity",
+        "license_status": "verified",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Elevador_Lacerda_-_Salvador_-_20250721125222.jpg",
+        "notes": ""
+      },
+      "notes": [
+        "Commons title: File:Elevador Lacerda - Salvador - 20250721125222.jpg",
+        "Original URL: https://upload.wikimedia.org/wikipedia/commons/4/41/Elevador_Lacerda_-_Salvador_-_20250721125222.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "Credit: Own work",
+        "License URL: https://creativecommons.org/licenses/by-sa/4.0",
+        "Commons dimensions: 4000x3000; mime=image/jpeg"
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-detail-ded7c75d401c",
+      "location_id": "elevador-lacerda",
+      "source_type": "licensed_photo",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "detail",
+      "capture": {
+        "date": "2025-07-21",
+        "lat": null,
+        "lon": null,
+        "heading_deg": null,
+        "notes": ""
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/elevador-lacerda/elevador-lacerda-salvador-20250721125324.jpg",
+        "sha256": "ded7c75d401c82847b4847acea7eeeedbf2fe9b97362ead9c1c5fca98466e08d"
+      },
+      "provenance": {
+        "source_name": "Wikimedia Commons — Sintegrity",
+        "license_status": "verified",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Elevador_Lacerda_-_Salvador_-_20250721125324.jpg",
+        "notes": ""
+      },
+      "notes": [
+        "Commons title: File:Elevador Lacerda - Salvador - 20250721125324.jpg",
+        "Original URL: https://upload.wikimedia.org/wikipedia/commons/7/7c/Elevador_Lacerda_-_Salvador_-_20250721125324.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "Credit: Own work",
+        "License URL: https://creativecommons.org/licenses/by-sa/4.0",
+        "Commons dimensions: 4000x3000; mime=image/jpeg"
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-front-1e24e0731977",
+      "location_id": "elevador-lacerda",
+      "source_type": "licensed_photo",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "front",
+      "capture": {
+        "date": "2025-07-21",
+        "lat": null,
+        "lon": null,
+        "heading_deg": null,
+        "notes": ""
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/elevador-lacerda/elevador-lacerda-salvador-20250721125003.jpg",
+        "sha256": "1e24e07319771e5ef5da0020cb21c2676c86e749c8fcfd6951dc75a163b5957e"
+      },
+      "provenance": {
+        "source_name": "Wikimedia Commons — Thaismay",
+        "license_status": "verified",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Elevador_Lacerda_-_Salvador_-_20250721125003.jpg",
+        "notes": ""
+      },
+      "notes": [
+        "Commons title: File:Elevador Lacerda - Salvador - 20250721125003.jpg",
+        "Original URL: https://upload.wikimedia.org/wikipedia/commons/c/c2/Elevador_Lacerda_-_Salvador_-_20250721125003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "Credit: Own work",
+        "License URL: https://creativecommons.org/licenses/by-sa/4.0",
+        "Commons dimensions: 4032x2268; mime=image/jpeg"
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-front-2d9b4031ff6a",
+      "location_id": "elevador-lacerda",
+      "source_type": "licensed_photo",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "front",
+      "capture": {
+        "date": "2025-07-21",
+        "lat": null,
+        "lon": null,
+        "heading_deg": null,
+        "notes": ""
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/elevador-lacerda/elevador-lacerda-salvador-20250721125819.jpg",
+        "sha256": "2d9b4031ff6aeef36fdd3fbec559ee38ecd84bad9cc6526ecc68aae1d3eb32d5"
+      },
+      "provenance": {
+        "source_name": "Wikimedia Commons — Sintegrity",
+        "license_status": "verified",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Elevador_Lacerda_-_Salvador_-_20250721125819.jpg",
+        "notes": ""
+      },
+      "notes": [
+        "Commons title: File:Elevador Lacerda - Salvador - 20250721125819.jpg",
+        "Original URL: https://upload.wikimedia.org/wikipedia/commons/b/b4/Elevador_Lacerda_-_Salvador_-_20250721125819.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "Credit: Own work",
+        "License URL: https://creativecommons.org/licenses/by-sa/4.0",
+        "Commons dimensions: 3000x4000; mime=image/jpeg"
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-front-97e36e6f289f",
+      "location_id": "elevador-lacerda",
+      "source_type": "licensed_photo",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "front",
+      "capture": {
+        "date": "2015-09-07",
+        "lat": -12.973055,
+        "lon": -38.515278,
+        "heading_deg": null,
+        "notes": ""
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/elevador-lacerda/webysther-20150907164641-elevador-lacerda.jpg",
+        "sha256": "97e36e6f289f2e40d027ef4b5f6a883de5420a4e019e7c6f1f10dd2b89e8a113"
+      },
+      "provenance": {
+        "source_name": "Wikimedia Commons — Webysther",
+        "license_status": "verified",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Webysther_20150907164641_-_Elevador_lacerda.jpg",
+        "notes": ""
+      },
+      "notes": [
+        "Commons title: File:Webysther 20150907164641 - Elevador lacerda.jpg",
+        "Original URL: https://upload.wikimedia.org/wikipedia/commons/0/01/Webysther_20150907164641_-_Elevador_lacerda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "Credit: Own work",
+        "License URL: https://creativecommons.org/licenses/by-sa/4.0",
+        "Commons dimensions: 4653x3102; mime=image/jpeg"
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-oblique_left-ca2c56d9b78b",
+      "location_id": "elevador-lacerda",
+      "source_type": "licensed_photo",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "oblique_left",
+      "capture": {
+        "date": "2025-07-21",
+        "lat": null,
+        "lon": null,
+        "heading_deg": null,
+        "notes": ""
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/elevador-lacerda/elevador-lacerda-salvador-20250721140936.jpg",
+        "sha256": "ca2c56d9b78bb9f2c1cbcd339363840ef1c27da33d327e3204d6193777295854"
+      },
+      "provenance": {
+        "source_name": "Wikimedia Commons — Thaismay",
+        "license_status": "verified",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Elevador_Lacerda_-_Salvador_-_20250721140936.jpg",
+        "notes": ""
+      },
+      "notes": [
+        "Commons title: File:Elevador Lacerda - Salvador - 20250721140936.jpg",
+        "Original URL: https://upload.wikimedia.org/wikipedia/commons/8/81/Elevador_Lacerda_-_Salvador_-_20250721140936.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "Credit: Own work",
+        "License URL: https://creativecommons.org/licenses/by-sa/4.0",
+        "Commons dimensions: 4000x6000; mime=image/jpeg"
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-oblique_right-4ba71f16af8d",
+      "location_id": "elevador-lacerda",
+      "source_type": "aleph_reference",
+      "usage_class": "TEMPORARIA",
+      "view": "oblique_right",
+      "capture": {
+        "date": "2024-05-01",
+        "lat": -12.97445211799565,
+        "lon": -38.51327607728878,
+        "heading_deg": 0.0,
+        "notes": ""
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/aleph-streetview/r30b10/ladeira-montanha-directions/h0/aleph-streetview-vs43yeml/001.jpg",
+        "sha256": "4ba71f16af8deff6673769d90e391c87d0fb14a8d0e88cee56585e86d867e29a"
+      },
+      "provenance": {
+        "source_name": "Aleph pinado Belluxx/Aleph@d24c615; Google Street View",
+        "license_status": "restricted",
+        "license": null,
+        "source_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=mG65in9kOUJd821rYJscVQ&cb_client=maps_sv.tactile&w=1024&h=576&yaw=0.0&pitch=-12.0&thumbfov=100",
+        "notes": ""
+      },
+      "notes": [
+        "Vista direcional da Ladeira da Montanha para a torre, intradorso da passarela, vão sobre a via e relação com a encosta. Excluir ônibus, caminhões, carros, cabos, placas e demais elementos temporários; usar apenas como referência estrutural."
+      ],
+      "coverage": [
+        {
+          "location_id": "corredor-cidade-baixa",
+          "view": "street_context",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-oblique_right-f6af25bd76fd",
+      "location_id": "elevador-lacerda",
+      "source_type": "aleph_reference",
+      "usage_class": "TEMPORARIA",
+      "view": "oblique_right",
+      "capture": {
+        "date": "2026-09-29",
+        "lat": -12.97393401457646,
+        "lon": -38.51345253700028,
+        "heading_deg": 180.0,
+        "notes": ""
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/aleph-streetview/r30b09/baixo-sul-up/aleph-streetview-4mbf78pc/001.jpg",
+        "sha256": "f6af25bd76fd3e66e5efdce4d621e36333b58e32d7b3ad9689afa873c0066717"
+      },
+      "provenance": {
+        "source_name": "Aleph pinado Belluxx/Aleph@d24c615; Google Street View",
+        "license_status": "restricted",
+        "license": "Uso restrito; não distribuir",
+        "source_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=wA8-hCpzRKmCN5ATf0hBdQ&cb_client=maps_sv.tactile&w=1024&h=576&yaw=180.0&pitch=-32.0&thumbfov=80",
+        "notes": ""
+      },
+      "notes": [
+        "Vista inclinada complementar da torre e do intradorso. Pano wA8-hCpzRKmCN5ATf0hBdQ; imagery_date 2024-07. Elementos transitórios não são referência de produção."
+      ],
+      "coverage": [
+        {
+          "location_id": "corredor-cidade-baixa",
+          "view": "detail",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-panorama-783a31279c0d",
+      "location_id": "elevador-lacerda",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "panorama",
+      "capture": null,
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/cidade-baixa/user-googlemaps-panorama-2018.png",
+        "sha256": "783a31279c0dc7b4a0b36f96f5da64022176d3b498e7d3cef7f4ff20410c38c1"
+      },
+      "provenance": {
+        "source_name": "Google Maps — captura enviada pelo usuário; foto creditada a Esteban Brandan (Alma de Aventuras)",
+        "license_status": "unknown",
+        "license": null,
+        "source_url": "https://www.google.com/maps/place/Elevador+Lacerda/",
+        "notes": ""
+      },
+      "notes": [
+        "Vista histórica: rodapé indica fevereiro de 2018; cartão indica março de 2019. Data exata não confirmada. Não usar como textura de produção."
+      ],
+      "coverage": [
+        {
+          "location_id": "corredor-cidade-baixa",
+          "view": "street_context",
+          "notes": ""
+        },
+        {
+          "location_id": "edificio-baixa-osm-1220650665",
+          "view": "oblique_left",
+          "notes": ""
+        },
+        {
+          "location_id": "edificio-baixa-osm-1220650754",
+          "view": "oblique_left",
+          "notes": ""
+        },
+        {
+          "location_id": "edificio-baixa-osm-1220650857",
+          "view": "oblique_left",
+          "notes": ""
+        },
+        {
+          "location_id": "edificio-baixa-osm-1220650874",
+          "view": "oblique_left",
+          "notes": ""
+        },
+        {
+          "location_id": "edificio-baixa-osm-1220650885",
+          "view": "oblique_left",
+          "notes": ""
+        },
+        {
+          "location_id": "edificio-baixa-osm-1263035779",
+          "view": "oblique_left",
+          "notes": ""
+        },
+        {
+          "location_id": "edificio-baixa-osm-574235995",
+          "view": "oblique_left",
+          "notes": ""
+        },
+        {
+          "location_id": "edificio-baixa-osm-574235997",
+          "view": "oblique_left",
+          "notes": ""
+        },
+        {
+          "location_id": "monumento-mario-cravo",
+          "view": "oblique_left",
+          "notes": ""
+        },
+        {
+          "location_id": "praca-cairu",
+          "view": "street_context",
+          "notes": ""
+        },
+        {
+          "location_id": "edificio-baixa-osm-1263035780",
+          "view": "oblique_left",
+          "notes": "Associação fotográfica candidata; implantação pela parcela existente, sem inventar footprint."
+        },
+        {
+          "location_id": "edificio-baixa-osm-1220650507",
+          "view": "oblique_left",
+          "notes": "Associação fotográfica candidata; implantação pela parcela existente, sem inventar footprint."
+        },
+        {
+          "location_id": "edificio-baixa-osm-1220650503",
+          "view": "oblique_left",
+          "notes": "Associação fotográfica candidata; implantação pela parcela existente, sem inventar footprint."
+        }
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-panorama-c4b9ab37aa1b",
+      "location_id": "elevador-lacerda",
+      "source_type": "aleph_reference",
+      "usage_class": "TEMPORARIA",
+      "view": "panorama",
+      "capture": {
+        "date": "2026-09-29",
+        "lat": -12.97393401457646,
+        "lon": -38.51345253700028,
+        "heading_deg": 47.765411,
+        "notes": ""
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/aleph-streetview/r30b08/elevador-360/aleph-streetview-398hy1kj/001_sphere.jpg",
+        "sha256": "c4b9ab37aa1be7d8a727e056adb01a9dbdb8c08d0e479b43bed35a42a722d9c3"
+      },
+      "provenance": {
+        "source_name": "Aleph pinado Belluxx/Aleph@d24c615; Google Street View",
+        "license_status": "restricted",
+        "license": "Uso restrito; não distribuir",
+        "source_url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=en&gl=US&pb=%211m1%211smaps_sv.tactile%212m2%211sen%212sUS%213m3%211m2%211e2%212swA8-hCpzRKmCN5ATf0hBdQ%214m6%211e1%211e2%211e3%211e4%212m1%211e1",
+        "notes": ""
+      },
+      "notes": [
+        "Panorama equiretangular 2048x1024, sphere_zoom 2, pano wA8-hCpzRKmCN5ATf0hBdQ; imagery_date 2024-07; referência visual temporária."
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-panorama-e23f63f0e719",
+      "location_id": "elevador-lacerda",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "panorama",
+      "capture": null,
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/elevador-lacerda/detalhe-e23f63f0e719.png",
+        "sha256": "e23f63f0e719ab827e2784c2eb8583c025e994fede2d68843358f0a75878c19d"
+      },
+      "provenance": {
+        "source_name": "Google Maps — captura enviada pelo usuário; crédito visível: Arnaldo Rodrigues do Prado",
+        "license_status": "unknown",
+        "license": null,
+        "source_url": "https://www.google.com/maps/place/Elevador+Lacerda/",
+        "notes": "Cartão out/2019; rodapé nov/2019; datas divergentes. Pose e dimensões não verificadas."
+      },
+      "coverage": [
+        {
+          "location_id": "praca-tome-de-sousa",
+          "view": "street_context",
+          "notes": "Galerias, barranco e contenção visíveis."
+        }
+      ],
+      "notes": [
+        "Corrigir proporções e estrutura; nenhuma licença de textura de produção. Não reproduzir pessoas, obras, veículos ou instalações temporárias."
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-street_context-404e6409dbee",
+      "location_id": "elevador-lacerda",
+      "source_type": "aleph_reference",
+      "usage_class": "TEMPORARIA",
+      "view": "street_context",
+      "capture": {
+        "date": "2026-09-29",
+        "lat": -12.97393401457646,
+        "lon": -38.51345253700028,
+        "heading_deg": 90.0,
+        "notes": ""
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/aleph-streetview/r30b08/elevador-leste/aleph-streetview-xkcslqgs/001.jpg",
+        "sha256": "404e6409dbee73898546ac4f0f58a7f266c53d3f3b511eb14311a0b94ee159ba"
+      },
+      "provenance": {
+        "source_name": "Aleph pinado Belluxx/Aleph@d24c615; Google Street View",
+        "license_status": "restricted",
+        "license": "Uso restrito; não distribuir",
+        "source_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=wA8-hCpzRKmCN5ATf0hBdQ&cb_client=maps_sv.tactile&w=1024&h=576&yaw=90.0&pitch=0&thumbfov=90",
+        "notes": ""
+      },
+      "notes": [
+        "Imagem capturada pelo Aleph; pano wA8-hCpzRKmCN5ATf0hBdQ; imagery_date 2024-07; referência visual temporária."
+      ],
+      "coverage": [
+        {
+          "location_id": "corredor-cidade-baixa",
+          "view": "street_context",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-street_context-4428c8f2806d",
+      "location_id": "elevador-lacerda",
+      "source_type": "aleph_reference",
+      "usage_class": "TEMPORARIA",
+      "view": "street_context",
+      "capture": {
+        "date": "2026-09-29",
+        "lat": -12.97393401457646,
+        "lon": -38.51345253700028,
+        "heading_deg": 0.0,
+        "notes": ""
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/aleph-streetview/r30b08/elevador-norte/aleph-streetview-5nrmp9rh/001.jpg",
+        "sha256": "4428c8f2806d3881aebd76dc9093098f05ed20b99c2c655340a5a0e775bdd5d5"
+      },
+      "provenance": {
+        "source_name": "Aleph pinado Belluxx/Aleph@d24c615; Google Street View",
+        "license_status": "restricted",
+        "license": "Uso restrito; não distribuir",
+        "source_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=wA8-hCpzRKmCN5ATf0hBdQ&cb_client=maps_sv.tactile&w=1024&h=576&yaw=0.0&pitch=0&thumbfov=90",
+        "notes": ""
+      },
+      "notes": [
+        "Imagem capturada pelo Aleph; pano wA8-hCpzRKmCN5ATf0hBdQ; imagery_date 2024-07; referência visual temporária."
+      ],
+      "coverage": [
+        {
+          "location_id": "corredor-cidade-baixa",
+          "view": "street_context",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-street_context-55190084a1fd",
+      "location_id": "elevador-lacerda",
+      "source_type": "aleph_reference",
+      "usage_class": "TEMPORARIA",
+      "view": "street_context",
+      "capture": {
+        "date": "2026-09-29",
+        "lat": -12.97393401457646,
+        "lon": -38.51345253700028,
+        "heading_deg": 270.0,
+        "notes": ""
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/aleph-streetview/r30b08/elevador-oeste/aleph-streetview-c64uevlb/001.jpg",
+        "sha256": "55190084a1fda722736a6b50f237c8b3729d656761790382d457dd21cedf2549"
+      },
+      "provenance": {
+        "source_name": "Aleph pinado Belluxx/Aleph@d24c615; Google Street View",
+        "license_status": "restricted",
+        "license": "Uso restrito; não distribuir",
+        "source_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=wA8-hCpzRKmCN5ATf0hBdQ&cb_client=maps_sv.tactile&w=1024&h=576&yaw=270.0&pitch=0&thumbfov=90",
+        "notes": ""
+      },
+      "notes": [
+        "Imagem capturada pelo Aleph; pano wA8-hCpzRKmCN5ATf0hBdQ; imagery_date 2024-07; referência visual temporária."
+      ],
+      "coverage": [
+        {
+          "location_id": "corredor-cidade-baixa",
+          "view": "street_context",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-street_context-7721b555e213",
+      "location_id": "elevador-lacerda",
+      "source_type": "aleph_reference",
+      "usage_class": "TEMPORARIA",
+      "view": "street_context",
+      "capture": {
+        "date": "2026-09-29",
+        "lat": -12.97393401457646,
+        "lon": -38.51345253700028,
+        "heading_deg": 180.0,
+        "notes": ""
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/aleph-streetview/r30b08/elevador-sul/aleph-streetview-hbpzwna5/001.jpg",
+        "sha256": "7721b555e213e65a110747f34653a377a3f47d91f5059f7a1684bdd251e1b58e"
+      },
+      "provenance": {
+        "source_name": "Aleph pinado Belluxx/Aleph@d24c615; Google Street View",
+        "license_status": "restricted",
+        "license": "Uso restrito; não distribuir",
+        "source_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=wA8-hCpzRKmCN5ATf0hBdQ&cb_client=maps_sv.tactile&w=1024&h=576&yaw=180.0&pitch=0&thumbfov=90",
+        "notes": ""
+      },
+      "notes": [
+        "Imagem capturada pelo Aleph; pano wA8-hCpzRKmCN5ATf0hBdQ; imagery_date 2024-07; referência visual temporária."
+      ],
+      "coverage": [
+        {
+          "location_id": "corredor-cidade-baixa",
+          "view": "street_context",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-street_context-8d01f2dfa998",
+      "location_id": "elevador-lacerda",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "street_context",
+      "capture": null,
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/elevador-lacerda/detalhe-8d01f2dfa998.png",
+        "sha256": "8d01f2dfa998d3cbc9b318a27a67914f38ee73a3ca48255ad3a06e1dca2f99f9"
+      },
+      "provenance": {
+        "source_name": "Google Maps — captura enviada pelo usuário; crédito visível: Esteban Brandan (Alma de Aventuras)",
+        "license_status": "unknown",
+        "license": null,
+        "source_url": "https://www.google.com/maps/place/Elevador+Lacerda/",
+        "notes": "Cartão mar/2019; rodapé fev/2018; datas divergentes. Pose e dimensões não verificadas."
+      },
+      "coverage": [
+        {
+          "location_id": "praca-tome-de-sousa",
+          "view": "street_context",
+          "notes": "Galerias, barranco e contenção visíveis."
+        }
+      ],
+      "notes": [
+        "Corrigir proporções e estrutura; nenhuma licença de textura de produção. Não reproduzir pessoas, obras, veículos ou instalações temporárias."
+      ]
+    },
+    {
+      "media_id": "monumento-mario-cravo-front-17efe0412acf",
+      "location_id": "monumento-mario-cravo",
+      "source_type": "licensed_photo",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "front",
+      "capture": {
+        "date": "2017-03-05",
+        "lat": null,
+        "lon": null,
+        "heading_deg": null,
+        "notes": ""
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/monumento-mario-cravo/monumento-cidade-do-salvador-2017-10977.jpg",
+        "sha256": "17efe0412acf4589f5a544b36ac99da6543bf32cfce31c59cbeb5ab59744420b"
+      },
+      "provenance": {
+        "source_name": "Wikimedia Commons — Paul R. Burley",
+        "license_status": "verified",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Monumento_%C3%A0_Cidade_do_Salvador_2017-10977.jpg",
+        "notes": ""
+      },
+      "notes": [
+        "Commons title: File:Monumento à Cidade do Salvador 2017-10977.jpg",
+        "Original URL: https://upload.wikimedia.org/wikipedia/commons/6/67/Monumento_%C3%A0_Cidade_do_Salvador_2017-10977.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "Credit: Own work",
+        "License URL: https://creativecommons.org/licenses/by-sa/4.0",
+        "Commons dimensions: 5262x3508; mime=image/jpeg"
+      ]
+    },
+    {
+      "media_id": "monumento-mario-cravo-oblique_right-84c7c6bb89db",
+      "location_id": "monumento-mario-cravo",
+      "source_type": "licensed_photo",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "oblique_right",
+      "capture": {
+        "date": "2019-03-23",
+        "lat": -12.97404,
+        "lon": -38.514327,
+        "heading_deg": null,
+        "notes": ""
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/monumento-mario-cravo/monumento-cidade-do-salvador-bahia-0397.jpg",
+        "sha256": "84c7c6bb89db7711626e77a2a6d293c0f3a1d815c8932668b214dd8ad8581e13"
+      },
+      "provenance": {
+        "source_name": "Wikimedia Commons — Paul R. Burley",
+        "license_status": "verified",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Monumento_%C3%A0_Cidade_do_Salvador_Bahia-0397.jpg",
+        "notes": ""
+      },
+      "notes": [
+        "Commons title: File:Monumento à Cidade do Salvador Bahia-0397.jpg",
+        "Original URL: https://upload.wikimedia.org/wikipedia/commons/8/89/Monumento_%C3%A0_Cidade_do_Salvador_Bahia-0397.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "Credit: Own work",
+        "License URL: https://creativecommons.org/licenses/by-sa/4.0",
+        "Commons dimensions: 4119x5149; mime=image/jpeg"
+      ]
+    },
+    {
+      "media_id": "palacio-rio-branco-front-c207e62d3f85",
+      "location_id": "palacio-rio-branco",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "front",
+      "capture": null,
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/palacio-rio-branco/captura-c207e62d3f85.png",
+        "sha256": "c207e62d3f85a2fcde278131db806932cc8ac5a796d7b73941d20f746fd0bfcd"
+      },
+      "provenance": {
+        "source_name": "Google Maps — captura enviada pelo usuário; crédito visível: Ricardo Silva",
+        "license_status": "unknown",
+        "license": null,
+        "source_url": "https://www.google.com/maps/place/Elevador+Lacerda/",
+        "notes": "Data indicada na interface: nov/2018; dia e pose não verificados."
+      },
+      "notes": [
+        "Modelagem arquitetônica R30B34. Não usar como textura de produção; nenhuma pesquisa nova.",
+        "Excluir pessoas, instalações temporárias e objetos que ocultam elementos permanentes."
+      ],
+      "coverage": [
+        {
+          "location_id": "praca-tome-de-sousa",
+          "view": "detail",
+          "notes": "Encosta, contenção e galerias visíveis; dimensões não levantadas."
+        },
+        {
+          "location_id": "elevador-lacerda",
+          "view": "street_context",
+          "notes": "Encosta, contenção e galerias visíveis; dimensões não levantadas."
+        }
+      ]
+    },
+    {
+      "media_id": "palacio-rio-branco-front-fd4f224d91eb",
+      "location_id": "palacio-rio-branco",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "front",
+      "capture": null,
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/palacio-rio-branco/captura-fd4f224d91eb.png",
+        "sha256": "fd4f224d91eb514350382cc22bf32d3cba96bed4463132b04070611c1667487e"
+      },
+      "provenance": {
+        "source_name": "Google Maps — captura enviada pelo usuário; crédito visível: MuySandy OK",
+        "license_status": "unknown",
+        "license": null,
+        "source_url": "https://www.google.com/maps/place/Elevador+Lacerda/",
+        "notes": "Data indicada na interface: dez/2019; vegetação e instalação natalina ocultam parte da fachada; dia e pose não verificados."
+      },
+      "notes": [
+        "Modelagem arquitetônica R30B34. Não usar como textura de produção; nenhuma pesquisa nova.",
+        "Excluir pessoas, instalações temporárias e objetos que ocultam elementos permanentes."
+      ],
+      "coverage": [
+        {
+          "location_id": "praca-tome-de-sousa",
+          "view": "detail",
+          "notes": "Encosta, contenção e galerias visíveis; dimensões não levantadas."
+        },
+        {
+          "location_id": "elevador-lacerda",
+          "view": "street_context",
+          "notes": "Encosta, contenção e galerias visíveis; dimensões não levantadas."
+        }
+      ]
+    },
+    {
+      "media_id": "palacio-rio-branco-oblique_left-b38e652ae7b9",
+      "location_id": "palacio-rio-branco",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "oblique_left",
+      "capture": null,
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/palacio-rio-branco/captura-b38e652ae7b9.png",
+        "sha256": "b38e652ae7b960daa6c10bb42bfd9eb775a61967cd9e918c703d50e0c28ce297"
+      },
+      "provenance": {
+        "source_name": "Google Maps — captura enviada pelo usuário; crédito visível: Paulo Gomes",
+        "license_status": "unknown",
+        "license": null,
+        "source_url": "https://www.google.com/maps/place/Elevador+Lacerda/",
+        "notes": "Data indicada na interface: cartão fev/2019; rodapé jan/2019; dia e pose não verificados."
+      },
+      "notes": [
+        "Modelagem arquitetônica R30B34. Não usar como textura de produção; nenhuma pesquisa nova.",
+        "Excluir pessoas, instalações temporárias e objetos que ocultam elementos permanentes."
+      ],
+      "coverage": [
+        {
+          "location_id": "praca-tome-de-sousa",
+          "view": "detail",
+          "notes": "Encosta, contenção e galerias visíveis; dimensões não levantadas."
+        },
+        {
+          "location_id": "elevador-lacerda",
+          "view": "street_context",
+          "notes": "Encosta, contenção e galerias visíveis; dimensões não levantadas."
+        }
+      ]
+    },
+    {
+      "media_id": "palacio-rio-branco-oblique_right-47b57baa4f1a",
+      "location_id": "palacio-rio-branco",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "oblique_right",
+      "capture": null,
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/palacio-rio-branco/captura-47b57baa4f1a.png",
+        "sha256": "47b57baa4f1ad79097021f142127c8bd79159688c6f97fdfae5c785a5eaed3a1"
+      },
+      "provenance": {
+        "source_name": "Google Maps — captura enviada pelo usuário; crédito visível: Alexandre Sousa Santos",
+        "license_status": "unknown",
+        "license": null,
+        "source_url": "https://www.google.com/maps/place/Elevador+Lacerda/",
+        "notes": "Data indicada na interface: out/2022; dia e pose não verificados."
+      },
+      "notes": [
+        "Modelagem arquitetônica R30B34. Não usar como textura de produção; nenhuma pesquisa nova.",
+        "Excluir pessoas, instalações temporárias e objetos que ocultam elementos permanentes."
+      ],
+      "coverage": [
+        {
+          "location_id": "praca-tome-de-sousa",
+          "view": "detail",
+          "notes": "Encosta, contenção e galerias visíveis; dimensões não levantadas."
+        },
+        {
+          "location_id": "elevador-lacerda",
+          "view": "street_context",
+          "notes": "Encosta, contenção e galerias visíveis; dimensões não levantadas."
+        }
+      ]
+    },
+    {
+      "media_id": "palacio-rio-branco-oblique_right-dd043b33f765",
+      "location_id": "palacio-rio-branco",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "oblique_right",
+      "capture": null,
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/palacio-rio-branco/captura-dd043b33f765.png",
+        "sha256": "dd043b33f765067b75f30bc67463ab2155bd3efbf73d417d0dad380a45ed9fa7"
+      },
+      "provenance": {
+        "source_name": "Google Maps — captura enviada pelo usuário; crédito visível: Ivan Newton",
+        "license_status": "unknown",
+        "license": null,
+        "source_url": "https://www.google.com/maps/place/Elevador+Lacerda/",
+        "notes": "Data indicada na interface: mar/2020; dia e pose não verificados."
+      },
+      "notes": [
+        "Modelagem arquitetônica R30B34. Não usar como textura de produção; nenhuma pesquisa nova.",
+        "Excluir pessoas, instalações temporárias e objetos que ocultam elementos permanentes."
+      ],
+      "coverage": [
+        {
+          "location_id": "praca-tome-de-sousa",
+          "view": "detail",
+          "notes": "Encosta, contenção e galerias visíveis; dimensões não levantadas."
+        },
+        {
+          "location_id": "elevador-lacerda",
+          "view": "street_context",
+          "notes": "Encosta, contenção e galerias visíveis; dimensões não levantadas."
+        }
+      ]
+    },
+    {
+      "media_id": "palacio-rio-branco-panorama-dad93618de6f",
+      "location_id": "palacio-rio-branco",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "panorama",
+      "capture": null,
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/palacio-rio-branco/captura-dad93618de6f.png",
+        "sha256": "dad93618de6f3deff0d73c223b66f7464534a8deb30142daac99905aa4dd4ce0"
+      },
+      "provenance": {
+        "source_name": "Google Maps — captura enviada pelo usuário; crédito visível: carlos reis",
+        "license_status": "unknown",
+        "license": null,
+        "source_url": "https://www.google.com/maps/place/Elevador+Lacerda/",
+        "notes": "Data indicada na interface: out/2019; dia e pose não verificados."
+      },
+      "notes": [
+        "Modelagem arquitetônica R30B34. Não usar como textura de produção; nenhuma pesquisa nova.",
+        "Excluir pessoas, instalações temporárias e objetos que ocultam elementos permanentes."
+      ],
+      "coverage": [
+        {
+          "location_id": "praca-tome-de-sousa",
+          "view": "detail",
+          "notes": "Encosta, contenção e galerias visíveis; dimensões não levantadas."
+        },
+        {
+          "location_id": "elevador-lacerda",
+          "view": "street_context",
+          "notes": "Encosta, contenção e galerias visíveis; dimensões não levantadas."
+        }
+      ]
+    },
+    {
+      "media_id": "palacio-rio-branco-right-5c2fa307341b",
+      "location_id": "palacio-rio-branco",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "right",
+      "capture": null,
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/palacio-rio-branco/captura-5c2fa307341b.png",
+        "sha256": "5c2fa307341b48284398f0116daa4dab8cf935bd34cc16f5990c565a12e37c85"
+      },
+      "provenance": {
+        "source_name": "Google Maps — captura enviada pelo usuário; crédito visível: Raul Guerrero Ávila",
+        "license_status": "unknown",
+        "license": null,
+        "source_url": "https://www.google.com/maps/place/Elevador+Lacerda/",
+        "notes": "Data indicada na interface: out/2021; dia e pose não verificados."
+      },
+      "notes": [
+        "Modelagem arquitetônica R30B34. Não usar como textura de produção; nenhuma pesquisa nova.",
+        "Excluir pessoas, instalações temporárias e objetos que ocultam elementos permanentes."
+      ],
+      "coverage": [
+        {
+          "location_id": "praca-tome-de-sousa",
+          "view": "detail",
+          "notes": "Encosta, contenção e galerias visíveis; dimensões não levantadas."
+        },
+        {
+          "location_id": "elevador-lacerda",
+          "view": "street_context",
+          "notes": "Encosta, contenção e galerias visíveis; dimensões não levantadas."
+        }
+      ]
+    },
+    {
+      "media_id": "palacio-rio-branco-street_context-2b9a2f5f87f6",
+      "location_id": "palacio-rio-branco",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "street_context",
+      "capture": null,
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/palacio-rio-branco/captura-2b9a2f5f87f6.png",
+        "sha256": "2b9a2f5f87f64645e1ccf520d4a19f7fce14c09978d780cb8a8cbfab5e24f61f"
+      },
+      "provenance": {
+        "source_name": "Google Maps — captura enviada pelo usuário; crédito visível: Lancha Salvador",
+        "license_status": "unknown",
+        "license": null,
+        "source_url": "https://www.google.com/maps/place/Elevador+Lacerda/",
+        "notes": "Data indicada na interface: fev/2023; dia e pose não verificados."
+      },
+      "notes": [
+        "Modelagem arquitetônica R30B34. Não usar como textura de produção; nenhuma pesquisa nova.",
+        "Excluir pessoas, instalações temporárias e objetos que ocultam elementos permanentes."
+      ],
+      "coverage": [
+        {
+          "location_id": "praca-tome-de-sousa",
+          "view": "detail",
+          "notes": "Encosta, contenção e galerias visíveis; dimensões não levantadas."
+        },
+        {
+          "location_id": "elevador-lacerda",
+          "view": "street_context",
+          "notes": "Encosta, contenção e galerias visíveis; dimensões não levantadas."
+        }
+      ]
+    },
+    {
+      "media_id": "praca-cairu-street_context-680ddd4f07e0",
+      "location_id": "praca-cairu",
+      "source_type": "aleph_reference",
+      "usage_class": "TEMPORARIA",
+      "view": "street_context",
+      "capture": {
+        "date": "2026-09-29",
+        "lat": -12.97352056111191,
+        "lon": -38.51341629906077,
+        "heading_deg": 0.0,
+        "notes": ""
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/aleph-streetview/r30b08/praca-cairu/aleph-streetview-n3zoisaf/001.jpg",
+        "sha256": "680ddd4f07e00f29624009409070bdd6a8338df8ba676e56df9db4b543ed5ba3"
+      },
+      "provenance": {
+        "source_name": "Aleph pinado Belluxx/Aleph@d24c615; Google Street View",
+        "license_status": "restricted",
+        "license": "Uso restrito; não distribuir",
+        "source_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=3urJ_5MhHgpQzZN7lKRK9w&cb_client=maps_sv.tactile&w=1024&h=576&yaw=0.0&pitch=0&thumbfov=90",
+        "notes": ""
+      },
+      "notes": [
+        "Praça Visconde de Cayru; pano 3urJ_5MhHgpQzZN7lKRK9w; imagery_date 2024-12; referência visual temporária."
+      ],
+      "coverage": [
+        {
+          "location_id": "cais-praca-cairu",
+          "view": "street_context",
+          "notes": ""
+        },
+        {
+          "location_id": "corredor-cidade-baixa",
+          "view": "street_context",
+          "notes": ""
+        },
+        {
+          "location_id": "elevador-lacerda",
+          "view": "street_context",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "media_id": "praca-tome-de-sousa-detail-4d38e2ce8834",
+      "location_id": "praca-tome-de-sousa",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "detail",
+      "capture": null,
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/palacio-rio-branco/captura-4d38e2ce8834.png",
+        "sha256": "4d38e2ce8834fcef49f46268cacfce6d9b530d7294462b6a31769f7325494394"
+      },
+      "provenance": {
+        "source_name": "Google Maps — captura enviada pelo usuário; crédito visível: Francilene Fonseca",
+        "license_status": "unknown",
+        "license": null,
+        "source_url": "https://www.google.com/maps/place/Elevador+Lacerda/",
+        "notes": "Data indicada na interface: out/2025; galerias sob a Prefeitura no lado oposto ao palácio; dia e pose não verificados."
+      },
+      "notes": [
+        "Modelagem arquitetônica R30B34. Não usar como textura de produção; nenhuma pesquisa nova.",
+        "Excluir pessoas, instalações temporárias e objetos que ocultam elementos permanentes."
+      ],
+      "coverage": [
+        {
+          "location_id": "elevador-lacerda",
+          "view": "street_context",
+          "notes": "Encosta, contenção e galerias visíveis; dimensões não levantadas."
+        }
+      ]
+    },
+    {
+      "media_id": "praca-tome-de-sousa-panorama-6ab5f847ddb9",
+      "location_id": "praca-tome-de-sousa",
+      "source_type": "aleph_reference",
+      "usage_class": "TEMPORARIA",
+      "view": "panorama",
+      "capture": {
+        "date": "2026-09-29",
+        "lat": -12.97474722537931,
+        "lon": -38.5125715966727,
+        "heading_deg": 40.856575,
+        "notes": ""
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/aleph-streetview/r30b09/praca-tome-360/aleph-streetview-mp52e914/001_sphere.jpg",
+        "sha256": "6ab5f847ddb9fe839be402ce794b655fe65f7a9494f5a7bec5d4330687752764"
+      },
+      "provenance": {
+        "source_name": "Aleph pinado Belluxx/Aleph@d24c615; Google Street View",
+        "license_status": "restricted",
+        "license": "Uso restrito; não distribuir",
+        "source_url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=en&gl=US&pb=%211m1%211smaps_sv.tactile%212m2%211sen%212sUS%213m3%211m2%211e2%212sir28L-q1iuxEluDdGVLe5Q%214m6%211e1%211e2%211e3%211e4%212m1%211e1",
+        "notes": ""
+      },
+      "notes": [
+        "Panorama da Cidade Alta para contexto. Holiday lights, obra, veículos e barreiras são transitórios e devem ser excluídos do asset. Pano ir28L-q1iuxEluDdGVLe5Q; imagery_date 2024-12; sphere_zoom 2."
+      ],
+      "coverage": [
+        {
+          "location_id": "elevador-lacerda",
+          "view": "street_context",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "media_id": "praca-tome-de-sousa-street_context-f73092908227",
+      "location_id": "praca-tome-de-sousa",
+      "source_type": "aleph_reference",
+      "usage_class": "TEMPORARIA",
+      "view": "street_context",
+      "capture": {
+        "date": "2026-09-29",
+        "lat": -12.97474722537931,
+        "lon": -38.5125715966727,
+        "heading_deg": 0.0,
+        "notes": ""
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/aleph-streetview/r30b08/praca-tome/aleph-streetview-fbsqitjk/001.jpg",
+        "sha256": "f7309290822779926bb930caf53fae79f6f96a0d311183ff0b357d1e10579f63"
+      },
+      "provenance": {
+        "source_name": "Aleph pinado Belluxx/Aleph@d24c615; Google Street View",
+        "license_status": "restricted",
+        "license": "Uso restrito; não distribuir",
+        "source_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ir28L-q1iuxEluDdGVLe5Q&cb_client=maps_sv.tactile&w=1024&h=576&yaw=0.0&pitch=0&thumbfov=90",
+        "notes": ""
+      },
+      "notes": [
+        "Praça Tomé de Sousa; pano ir28L-q1iuxEluDdGVLe5Q; imagery_date 2024-12; referência visual temporária."
+      ],
+      "coverage": [
+        {
+          "location_id": "elevador-lacerda",
+          "view": "street_context",
+          "notes": ""
+        }
+      ]
+    }
+  ]
 }

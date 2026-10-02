@@ -1,11 +1,23 @@
 # Produção do MVP: Blender → pacote interoperável → Three.js
 
+> Modelagem atual: B38 (binding da Conceição e refino local do colisor), candidata no catálogo. Produção mantém B30; nenhum pacote novo foi exportado. O replay parcial não aprova o circuito completo.
+
+Em 02/10/2026: trabalho autoral candidato B38 no catálogo
+`world/areas/mvp-centro-lacerda/blender-revisions.json`; produção registrada B30
+em `production.json`. B23 é antecessora. Política/entrada guardada:
+`docs/BLENDER_REVISION_POLICY.md`. Não escolher fonte pela janela aberta ou pelo
+maior sufixo, nem exportar a candidata antes de revisão/promoção.
+
 ## Fonte de verdade por responsabilidade
 
 O contrato executável é `world/areas/mvp-centro-lacerda/production.json`.
 Não escolher a revisão pelo maior número no nome, arquivo mais recente, contexto
-de chat ou preferência de um exportador. A R30A.11 está ativa por escolha explícita
-do usuário. A R30A.12 permanece preservada como revisão histórica/candidata.
+de chat ou preferência de um exportador. Em 01/10/2026 o usuário selecionou
+explicitamente a R30B.23 (`salvador_lacerda_r30b23_fachada_praca.blend`).
+O caminho/hash ativo deve constar no contrato após conferir a abertura; esta
+seleção substitui a indicação histórica R30A.11. Revisões R30C experimentais não
+devem ser escolhidas nem importadas automaticamente. O runtime só representa
+a fonte nova depois da exportação e empacotamento canônicos.
 
 | Responsabilidade | Fonte canônica |
 | --- | --- |

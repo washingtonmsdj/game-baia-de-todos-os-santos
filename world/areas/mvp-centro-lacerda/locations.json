@@ -13,7 +13,17 @@
       "osm": null,
       "position_wgs84": null,
       "blender_binding": null,
-      "required_views": ["front", "rear", "left", "right", "oblique_left", "oblique_right", "access", "street_context", "detail"],
+      "required_views": [
+        "front",
+        "rear",
+        "left",
+        "right",
+        "oblique_left",
+        "oblique_right",
+        "access",
+        "street_context",
+        "detail"
+      ],
       "production_rules": {
         "geometry_must_be_realigned": false,
         "manual_review_required": true,
@@ -22,7 +32,9 @@
           "Não aprovar sem conferir entradas superior e inferior, torre, passarela, portas e relação com terreno."
         ]
       },
-      "notes": ["Hero asset central do vertical slice."]
+      "notes": [
+        "Hero asset central do vertical slice."
+      ]
     },
     {
       "location_id": "mercado-modelo",
@@ -32,10 +44,26 @@
       "priority": 5,
       "model_status": "blockout",
       "reference_status": "partial",
-      "osm": {"type": "way", "id": 59392558, "verified": false},
+      "osm": {
+        "type": "way",
+        "id": 59392558,
+        "verified": false
+      },
       "position_wgs84": null,
       "blender_binding": null,
-      "required_views": ["front", "rear", "left", "right", "oblique_left", "oblique_right", "roof", "access", "street_context", "waterfront_context", "detail"],
+      "required_views": [
+        "front",
+        "rear",
+        "left",
+        "right",
+        "oblique_left",
+        "oblique_right",
+        "roof",
+        "access",
+        "street_context",
+        "waterfront_context",
+        "detail"
+      ],
       "production_rules": {
         "geometry_must_be_realigned": false,
         "manual_review_required": true,
@@ -44,7 +72,9 @@
           "Revisar a relação do edifício com Praça Cairu, cais e borda marítima."
         ]
       },
-      "notes": ["POI principal e marco visual da Cidade Baixa."]
+      "notes": [
+        "POI principal e marco visual da Cidade Baixa."
+      ]
     },
     {
       "location_id": "palacio-rio-branco",
@@ -52,18 +82,34 @@
       "category": "hero_building",
       "fidelity_class": "A",
       "priority": 4,
-      "model_status": "blockout",
+      "model_status": "modeling",
       "reference_status": "partial",
-      "osm": {"type": "way", "id": 402383814, "verified": false},
+      "osm": {
+        "type": "way",
+        "id": 402383814,
+        "verified": false
+      },
       "position_wgs84": null,
       "blender_binding": null,
-      "required_views": ["front", "oblique_left", "oblique_right", "roof", "street_context", "detail"],
+      "required_views": [
+        "front",
+        "oblique_left",
+        "oblique_right",
+        "roof",
+        "street_context",
+        "detail"
+      ],
       "production_rules": {
         "geometry_must_be_realigned": false,
         "manual_review_required": true,
-        "notes": ["Validar OSM way contra a captura original antes de fechar a âncora geográfica."]
+        "notes": [
+          "Validar OSM way contra a captura original antes de fechar a âncora geográfica."
+        ]
       },
-      "notes": ["Anchor importante da Cidade Alta e candidato para validação da transformação geográfica."]
+      "notes": [
+        "Anchor importante da Cidade Alta e candidato para validação da transformação geográfica.",
+        "R30B34: exterior pela frente/oblíquas fornecidas, com implantação herdada. Proporções de altura/profundidade candidatas; sem aprovação Hero. Binding permanece pendente."
+      ]
     },
     {
       "location_id": "praca-cairu",
@@ -76,7 +122,12 @@
       "osm": null,
       "position_wgs84": null,
       "blender_binding": null,
-      "required_views": ["street_context", "waterfront_context", "access", "detail"],
+      "required_views": [
+        "street_context",
+        "waterfront_context",
+        "access",
+        "detail"
+      ],
       "production_rules": {
         "geometry_must_be_realigned": true,
         "manual_review_required": true,
@@ -85,7 +136,9 @@
           "Priorizar fidelidade espacial antes de densidade decorativa."
         ]
       },
-      "notes": ["Primeiro hub externo do MVP."]
+      "notes": [
+        "Primeiro hub externo do MVP."
+      ]
     },
     {
       "location_id": "praca-tome-de-sousa",
@@ -98,13 +151,21 @@
       "osm": null,
       "position_wgs84": null,
       "blender_binding": null,
-      "required_views": ["street_context", "access", "detail"],
+      "required_views": [
+        "street_context",
+        "access",
+        "detail"
+      ],
       "production_rules": {
         "geometry_must_be_realigned": true,
         "manual_review_required": true,
-        "notes": ["Revisar relação entre praça, acesso superior do Elevador e edifícios cívicos do entorno."]
+        "notes": [
+          "Revisar relação entre praça, acesso superior do Elevador e edifícios cívicos do entorno."
+        ]
       },
-      "notes": ["Área de aproximação superior do vertical slice."]
+      "notes": [
+        "Área de aproximação superior do vertical slice."
+      ]
     },
     {
       "location_id": "corredor-cidade-baixa",
@@ -117,7 +178,11 @@
       "osm": null,
       "position_wgs84": null,
       "blender_binding": null,
-      "required_views": ["street_context", "access", "detail"],
+      "required_views": [
+        "street_context",
+        "access",
+        "detail"
+      ],
       "production_rules": {
         "geometry_must_be_realigned": true,
         "manual_review_required": true,
@@ -126,7 +191,9 @@
           "Não mascarar artefatos do terreno movendo vias sem registrar a correção."
         ]
       },
-      "notes": ["A fidelidade deste corredor é mais importante que props decorativos nesta fase."]
+      "notes": [
+        "A fidelidade deste corredor é mais importante que props decorativos nesta fase."
+      ]
     },
     {
       "location_id": "cais-praca-cairu",
@@ -139,7 +206,11 @@
       "osm": null,
       "position_wgs84": null,
       "blender_binding": null,
-      "required_views": ["waterfront_context", "street_context", "detail"],
+      "required_views": [
+        "waterfront_context",
+        "street_context",
+        "detail"
+      ],
       "production_rules": {
         "geometry_must_be_realigned": true,
         "manual_review_required": true,
@@ -148,7 +219,9 @@
           "Separar contorno costeiro real da superfície visual do oceano."
         ]
       },
-      "notes": ["Elemento estrutural para a leitura da Baía de Todos-os-Santos."]
+      "notes": [
+        "Elemento estrutural para a leitura da Baía de Todos-os-Santos."
+      ]
     },
     {
       "location_id": "baia-agua-mvp",
@@ -161,7 +234,9 @@
       "osm": null,
       "position_wgs84": null,
       "blender_binding": null,
-      "required_views": ["waterfront_context"],
+      "required_views": [
+        "waterfront_context"
+      ],
       "production_rules": {
         "geometry_must_be_realigned": true,
         "manual_review_required": true,
@@ -170,7 +245,415 @@
           "Planejar continuidade para futuras expansões costeiras."
         ]
       },
-      "notes": ["A água deve ser tratada separadamente da geometria da costa."]
+      "notes": [
+        "A água deve ser tratada separadamente da geometria da costa."
+      ]
+    },
+    {
+      "location_id": "monumento-mario-cravo",
+      "name": "Fonte da Rampa do Mercado — Monumento Mário Cravo",
+      "category": "monument",
+      "fidelity_class": "A",
+      "priority": 4,
+      "model_status": "modeling",
+      "reference_status": "partial",
+      "osm": null,
+      "position_wgs84": null,
+      "blender_binding": null,
+      "required_views": [
+        "front",
+        "left",
+        "right",
+        "oblique_left",
+        "oblique_right",
+        "street_context",
+        "detail"
+      ],
+      "production_rules": {
+        "geometry_must_be_realigned": false,
+        "manual_review_required": true,
+        "notes": [
+          "Preservar implantação existente; leitura arquitetônica fotográfica candidata, sem altura levantada.",
+          "Não promover approved sem vistas suficientes e comparação direta."
+        ]
+      },
+      "notes": [
+        "Passe R30B31; referência panorâmica fornecida pelo usuário."
+      ]
+    },
+    {
+      "location_id": "edificio-baixa-osm-1263035779",
+      "name": "Edifício junto ao acesso inferior do Lacerda — OSM 1263035779",
+      "category": "building",
+      "fidelity_class": "B",
+      "priority": 4,
+      "model_status": "modeling",
+      "reference_status": "partial",
+      "osm": {
+        "type": "way",
+        "id": 1263035779,
+        "verified": false
+      },
+      "position_wgs84": null,
+      "blender_binding": null,
+      "required_views": [
+        "front",
+        "oblique_left",
+        "oblique_right",
+        "roof",
+        "street_context"
+      ],
+      "production_rules": {
+        "geometry_must_be_realigned": false,
+        "manual_review_required": true,
+        "notes": [
+          "Preservar implantação existente; leitura arquitetônica fotográfica candidata, sem altura levantada.",
+          "Não promover approved sem vistas suficientes e comparação direta."
+        ]
+      },
+      "notes": [
+        "Passe R30B31; referência panorâmica fornecida pelo usuário."
+      ]
+    },
+    {
+      "location_id": "edificio-baixa-osm-1220650665",
+      "name": "Edifício junto ao acesso inferior do Lacerda — OSM 1220650665",
+      "category": "building",
+      "fidelity_class": "B",
+      "priority": 4,
+      "model_status": "modeling",
+      "reference_status": "partial",
+      "osm": {
+        "type": "way",
+        "id": 1220650665,
+        "verified": false
+      },
+      "position_wgs84": null,
+      "blender_binding": null,
+      "required_views": [
+        "front",
+        "oblique_left",
+        "oblique_right",
+        "roof",
+        "street_context"
+      ],
+      "production_rules": {
+        "geometry_must_be_realigned": false,
+        "manual_review_required": true,
+        "notes": [
+          "Preservar implantação existente; leitura arquitetônica fotográfica candidata, sem altura levantada.",
+          "Não promover approved sem vistas suficientes e comparação direta."
+        ]
+      },
+      "notes": [
+        "Passe R30B31; referência panorâmica fornecida pelo usuário."
+      ]
+    },
+    {
+      "location_id": "edificio-baixa-osm-1220650754",
+      "name": "Edifício junto ao acesso inferior do Lacerda — OSM 1220650754",
+      "category": "building",
+      "fidelity_class": "B",
+      "priority": 4,
+      "model_status": "modeling",
+      "reference_status": "partial",
+      "osm": {
+        "type": "way",
+        "id": 1220650754,
+        "verified": false
+      },
+      "position_wgs84": null,
+      "blender_binding": null,
+      "required_views": [
+        "front",
+        "oblique_left",
+        "oblique_right",
+        "roof",
+        "street_context"
+      ],
+      "production_rules": {
+        "geometry_must_be_realigned": false,
+        "manual_review_required": true,
+        "notes": [
+          "Preservar implantação existente; leitura arquitetônica fotográfica candidata, sem altura levantada.",
+          "Não promover approved sem vistas suficientes e comparação direta."
+        ]
+      },
+      "notes": [
+        "Passe R30B31; referência panorâmica fornecida pelo usuário."
+      ]
+    },
+    {
+      "location_id": "edificio-baixa-osm-1220650857",
+      "name": "Edifício junto ao acesso inferior do Lacerda — OSM 1220650857",
+      "category": "building",
+      "fidelity_class": "B",
+      "priority": 4,
+      "model_status": "modeling",
+      "reference_status": "partial",
+      "osm": {
+        "type": "way",
+        "id": 1220650857,
+        "verified": false
+      },
+      "position_wgs84": null,
+      "blender_binding": null,
+      "required_views": [
+        "front",
+        "oblique_left",
+        "oblique_right",
+        "roof",
+        "street_context"
+      ],
+      "production_rules": {
+        "geometry_must_be_realigned": false,
+        "manual_review_required": true,
+        "notes": [
+          "Preservar implantação existente; leitura arquitetônica fotográfica candidata, sem altura levantada.",
+          "Não promover approved sem vistas suficientes e comparação direta."
+        ]
+      },
+      "notes": [
+        "Passe R30B31; referência panorâmica fornecida pelo usuário."
+      ]
+    },
+    {
+      "location_id": "edificio-baixa-osm-1220650885",
+      "name": "Edifício junto ao acesso inferior do Lacerda — OSM 1220650885",
+      "category": "building",
+      "fidelity_class": "B",
+      "priority": 4,
+      "model_status": "modeling",
+      "reference_status": "partial",
+      "osm": {
+        "type": "way",
+        "id": 1220650885,
+        "verified": false
+      },
+      "position_wgs84": null,
+      "blender_binding": null,
+      "required_views": [
+        "front",
+        "oblique_left",
+        "oblique_right",
+        "roof",
+        "street_context"
+      ],
+      "production_rules": {
+        "geometry_must_be_realigned": false,
+        "manual_review_required": true,
+        "notes": [
+          "Preservar implantação existente; leitura arquitetônica fotográfica candidata, sem altura levantada.",
+          "Não promover approved sem vistas suficientes e comparação direta."
+        ]
+      },
+      "notes": [
+        "Passe R30B31; referência panorâmica fornecida pelo usuário."
+      ]
+    },
+    {
+      "location_id": "edificio-baixa-osm-1220650874",
+      "name": "Edifício junto ao acesso inferior do Lacerda — OSM 1220650874",
+      "category": "building",
+      "fidelity_class": "B",
+      "priority": 4,
+      "model_status": "modeling",
+      "reference_status": "partial",
+      "osm": {
+        "type": "way",
+        "id": 1220650874,
+        "verified": false
+      },
+      "position_wgs84": null,
+      "blender_binding": null,
+      "required_views": [
+        "front",
+        "oblique_left",
+        "oblique_right",
+        "roof",
+        "street_context"
+      ],
+      "production_rules": {
+        "geometry_must_be_realigned": false,
+        "manual_review_required": true,
+        "notes": [
+          "Preservar implantação existente; leitura arquitetônica fotográfica candidata, sem altura levantada.",
+          "Não promover approved sem vistas suficientes e comparação direta."
+        ]
+      },
+      "notes": [
+        "Passe R30B31; referência panorâmica fornecida pelo usuário."
+      ]
+    },
+    {
+      "location_id": "edificio-baixa-osm-574235995",
+      "name": "Edifício junto ao acesso inferior do Lacerda — OSM 574235995",
+      "category": "building",
+      "fidelity_class": "B",
+      "priority": 4,
+      "model_status": "modeling",
+      "reference_status": "partial",
+      "osm": {
+        "type": "way",
+        "id": 574235995,
+        "verified": false
+      },
+      "position_wgs84": null,
+      "blender_binding": null,
+      "required_views": [
+        "front",
+        "oblique_left",
+        "oblique_right",
+        "roof",
+        "street_context"
+      ],
+      "production_rules": {
+        "geometry_must_be_realigned": false,
+        "manual_review_required": true,
+        "notes": [
+          "Preservar implantação existente; leitura arquitetônica fotográfica candidata, sem altura levantada.",
+          "Não promover approved sem vistas suficientes e comparação direta."
+        ]
+      },
+      "notes": [
+        "Passe R30B31; referência panorâmica fornecida pelo usuário."
+      ]
+    },
+    {
+      "location_id": "edificio-baixa-osm-574235997",
+      "name": "Edifício junto ao acesso inferior do Lacerda — OSM 574235997",
+      "category": "building",
+      "fidelity_class": "B",
+      "priority": 4,
+      "model_status": "modeling",
+      "reference_status": "partial",
+      "osm": {
+        "type": "way",
+        "id": 574235997,
+        "verified": false
+      },
+      "position_wgs84": null,
+      "blender_binding": null,
+      "required_views": [
+        "front",
+        "oblique_left",
+        "oblique_right",
+        "roof",
+        "street_context"
+      ],
+      "production_rules": {
+        "geometry_must_be_realigned": false,
+        "manual_review_required": true,
+        "notes": [
+          "Preservar implantação existente; leitura arquitetônica fotográfica candidata, sem altura levantada.",
+          "Não promover approved sem vistas suficientes e comparação direta."
+        ]
+      },
+      "notes": [
+        "Passe R30B31; referência panorâmica fornecida pelo usuário."
+      ]
+    },
+    {
+      "location_id": "edificio-baixa-osm-1263035780",
+      "name": "Edifício Cidade Baixa — OSM 1263035780",
+      "category": "building",
+      "fidelity_class": "B",
+      "priority": 4,
+      "model_status": "modeling",
+      "reference_status": "partial",
+      "osm": {
+        "type": "way",
+        "id": 1263035780,
+        "verified": false
+      },
+      "position_wgs84": null,
+      "blender_binding": null,
+      "required_views": [
+        "front",
+        "oblique_left",
+        "oblique_right",
+        "roof",
+        "street_context"
+      ],
+      "production_rules": {
+        "geometry_must_be_realigned": false,
+        "manual_review_required": true,
+        "notes": [
+          "Planta OSM existente preservada; correspondência fotográfica candidata.",
+          "Altura proporcional à foto, não medida; não aprovar com apenas a vista panorâmica."
+        ]
+      },
+      "notes": [
+        "Passe R30B33, fonte B32; fachada observável na foto enviada pelo usuário."
+      ]
+    },
+    {
+      "location_id": "edificio-baixa-osm-1220650507",
+      "name": "Edifício Cidade Baixa — OSM 1220650507",
+      "category": "building",
+      "fidelity_class": "B",
+      "priority": 4,
+      "model_status": "modeling",
+      "reference_status": "partial",
+      "osm": {
+        "type": "way",
+        "id": 1220650507,
+        "verified": false
+      },
+      "position_wgs84": null,
+      "blender_binding": null,
+      "required_views": [
+        "front",
+        "oblique_left",
+        "oblique_right",
+        "roof",
+        "street_context"
+      ],
+      "production_rules": {
+        "geometry_must_be_realigned": false,
+        "manual_review_required": true,
+        "notes": [
+          "Planta OSM existente preservada; correspondência fotográfica candidata.",
+          "Altura proporcional à foto, não medida; não aprovar com apenas a vista panorâmica."
+        ]
+      },
+      "notes": [
+        "Passe R30B33, fonte B32; fachada observável na foto enviada pelo usuário."
+      ]
+    },
+    {
+      "location_id": "edificio-baixa-osm-1220650503",
+      "name": "Edifício Cidade Baixa — OSM 1220650503",
+      "category": "building",
+      "fidelity_class": "B",
+      "priority": 4,
+      "model_status": "modeling",
+      "reference_status": "partial",
+      "osm": {
+        "type": "way",
+        "id": 1220650503,
+        "verified": false
+      },
+      "position_wgs84": null,
+      "blender_binding": null,
+      "required_views": [
+        "front",
+        "oblique_left",
+        "oblique_right",
+        "roof",
+        "street_context"
+      ],
+      "production_rules": {
+        "geometry_must_be_realigned": false,
+        "manual_review_required": true,
+        "notes": [
+          "Planta OSM existente preservada; correspondência fotográfica candidata.",
+          "Altura proporcional à foto, não medida; não aprovar com apenas a vista panorâmica."
+        ]
+      },
+      "notes": [
+        "Passe R30B33, fonte B32; fachada observável na foto enviada pelo usuário."
+      ]
     }
   ]
 }

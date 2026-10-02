@@ -1,0 +1,14 @@
+{
+  "asset_id": "vehicle-existing-saloon-v14",
+  "source": "automation/blender/ordax_car_realistic_v14_reference_cleanup.blend",
+  "source_sha256": "34bf32e802784c1ae6101a1548f5c74b079ee15e8c0c39fbac688536d92e7e8c",
+  "glb_sha256": "ad75ee78e0f5d8e8ca25baad4a31438ba695133fac71a71f5629c75439ec218a",
+  "dimensions_m": [
+    2.05,
+    1.514,
+    5.125
+  ],
+  "dimensions_classification": "medidas da malha existente, não do fabricante",
+  "front_runtime": "+Z",
+  "objects": 195
+}

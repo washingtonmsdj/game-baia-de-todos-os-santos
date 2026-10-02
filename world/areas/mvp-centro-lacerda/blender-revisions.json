@@ -1,0 +1,477 @@
+{
+  "schema": "boas/blender-revisions-v1",
+  "area_id": "mvp-centro-lacerda",
+  "production_source_reference": "production.json#/world_source",
+  "authoring_source": {
+    "file": "blender/salvador_lacerda_r30b38_binding_conceicao.blend",
+    "sha256": "0d12cc8f7fd5a44ef27fa6c34b7f89360fece235b4f38a51f3c09672988b74fe",
+    "revision": "R30B.38",
+    "status": "authoring_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b37_fachadas_baixa.blend",
+    "evidence": "docs/reports/blender/conceicao_binding_r30b38.json"
+  },
+  "authoring_scene": "SALVADOR | ESBOCO OFICIAL",
+  "selection_policy": "explicit_pointer_never_filename_mtime_or_open_window",
+  "session_recovery_reference": "artifacts/blender-sessions/current-session.json",
+  "revisions": [
+    {
+      "file": "blender/salvador_lacerda_mvp_r30c1_urban_slice.blend",
+      "revision": null,
+      "status": "rejected_experiment",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_mvp_r30c2_urban_slice.blend",
+      "revision": null,
+      "status": "rejected_experiment",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_mvp_r30c3_terrain_partition.blend",
+      "revision": null,
+      "status": "rejected_experiment",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_mvp_r30c4_terrain_continuity.blend",
+      "revision": null,
+      "status": "rejected_experiment",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_mvp_r30c5_terrain_world_coordinates.blend",
+      "revision": null,
+      "status": "rejected_experiment",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a11_pedestrian_nav.blend",
+      "revision": null,
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a12_nav_links.blend",
+      "revision": null,
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a4_semantic_layers.blend",
+      "revision": null,
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a5_runtime_proxies.blend",
+      "revision": null,
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a6_collision_chunks.blend",
+      "revision": null,
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a7_road_graph.blend",
+      "revision": null,
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a8_ocean.blend",
+      "revision": null,
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a_structure_ref.blend",
+      "revision": null,
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b01_refinamento.blend",
+      "revision": "R30B.01",
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b02_saguoes.blend",
+      "revision": "R30B.02",
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b03_exterior_acessos.blend",
+      "revision": "R30B.03",
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b04_entorno.blend",
+      "revision": "R30B.04",
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b05_comercio.blend",
+      "revision": "R30B.05",
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b06_espaco_publico.blend",
+      "revision": "R30B.06",
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b07_torre_entrada.blend",
+      "revision": "R30B.07",
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b08_apoio_passarela.blend",
+      "revision": "R30B.08",
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b09_contecao_ladeira.blend",
+      "revision": "R30B.09",
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b10_contencao_continua.blend",
+      "revision": "R30B.10",
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b11_encontro_contecao_passeio.blend",
+      "revision": "R30B.11",
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b12_contencao_estrutural_ladeira.blend",
+      "revision": "R30B.12",
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b13_encosta_ladeira_continua.blend",
+      "revision": "R30B.13",
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b14_apoio_encosta_ladeira.blend",
+      "revision": "R30B.14",
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b15_apoio_original_encosta_recortada.blend",
+      "revision": "R30B.15",
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b16_apoio_encosta_suavizada.blend",
+      "revision": "R30B.16",
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b17_apoio_visivel_encosta.blend",
+      "revision": "R30B.17",
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b18_apoio_escapa_cidade_baixa.blend",
+      "revision": "R30B.18",
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b19_torre_venezianas.blend",
+      "revision": "R30B.19",
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b20_torre_duas_faces.blend",
+      "revision": "R30B.20",
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b21_acesso_baixo.blend",
+      "revision": "R30B.21",
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b22_exterior_vidros.blend",
+      "revision": "R30B.22",
+      "status": "historical",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": null,
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b23_fachada_praca.blend",
+      "revision": "R30B.23",
+      "status": "historical_baseline",
+      "parent_file": null,
+      "evidence": null,
+      "sha256": "dead4d201072d86c3d3e51825c8550327daaed2a1939d236530236e24b9b2bdb",
+      "notes": "Base escolhida pelo usuário; antecessora da cadeia estrutural B24–B30."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b24_encontro_montanha.blend",
+      "revision": "R30B.24",
+      "status": "historical",
+      "parent_file": "blender/salvador_lacerda_r30b23_fachada_praca.blend",
+      "evidence": "docs/reports/blender/terrain_junction_correction.json",
+      "sha256": "db71b5af227a1feed62a98dd577c0304514384112f7668c547f85de5bbe921e3",
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b25_encontro_continuo.blend",
+      "revision": "R30B.25",
+      "status": "historical",
+      "parent_file": "blender/salvador_lacerda_r30b24_encontro_montanha.blend",
+      "evidence": "docs/reports/blender/terrain_junction_finish.json",
+      "sha256": "1be81bfadf9f40c43abf4c44190e08c10c23e6497ac7c00167a8c58204f9b030",
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b26_terreno_colisao_alinhados.blend",
+      "revision": "R30B.26",
+      "status": "historical",
+      "parent_file": "blender/salvador_lacerda_r30b25_encontro_continuo.blend",
+      "evidence": "docs/reports/blender/terrain_proxy_binding.json",
+      "sha256": "c9511d8daa91ed7124574765e963ac1a25d9939338ec1b153a04cd6d507399ad",
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b27_colisao_transform_aplicado.blend",
+      "revision": "R30B.27",
+      "status": "historical",
+      "parent_file": "blender/salvador_lacerda_r30b26_terreno_colisao_alinhados.blend",
+      "evidence": "docs/reports/blender/terrain_proxy_applied_transform.json",
+      "sha256": "618e5d0a8fcf4da7cbdf216bff2db2aa3549c647380e1ca436b0a49db181581a",
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b28_colisao_viaria_refinada.blend",
+      "revision": "R30B.28",
+      "status": "historical",
+      "parent_file": "blender/salvador_lacerda_r30b27_colisao_transform_aplicado.blend",
+      "evidence": "docs/reports/blender/terrain_proxy_refinement.json",
+      "sha256": "5a62fe4c3c0415de60055feaf91be868a78341647e5faf04a3b718c2f6885c2e",
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b29_colisao_rede_viaria.blend",
+      "revision": "R30B.29",
+      "status": "historical",
+      "parent_file": "blender/salvador_lacerda_r30b28_colisao_viaria_refinada.blend",
+      "evidence": "docs/reports/blender/terrain_proxy_network_refinement.json",
+      "sha256": "493449d9e7e9bd539bc1445a64769f740ee1e55777c1578062f3892d8ee75dd0",
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b30_conexao_real_recorte.blend",
+      "revision": "R30B.30",
+      "status": "registered_production",
+      "parent_file": "blender/salvador_lacerda_r30b29_colisao_rede_viaria.blend",
+      "evidence": "docs/reports/blender/terrain_real_boundary_extension.json",
+      "sha256": "28c608846d8da3a7e918b7e3f8744b1c456d89176849f81406a0ddce71ad0132",
+      "notes": "Fonte registrada no contrato; aprovação estrutural parcial, não gameplay completo."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b31_cidade_baixa_fachadas_cravo.blend",
+      "revision": "R30B.31",
+      "status": "historical",
+      "parent_file": "blender/salvador_lacerda_r30b30_conexao_real_recorte.blend",
+      "evidence": "docs/reports/blender/cidade_baixa_r30b31.json",
+      "sha256": "e880bc386ce4109d9ee97156636b419178b1613cccaa5a44d24300a9561dbe1e",
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b32_comercio_preservado.blend",
+      "revision": "R30B.32",
+      "status": "historical",
+      "parent_file": "blender/salvador_lacerda_r30b31_cidade_baixa_fachadas_cravo.blend",
+      "evidence": "docs/reports/blender/cidade_baixa_r30b32.json",
+      "sha256": "df064df36da69c202aed9ee46f9cec7a94705bf55f20e8c5e203eb5eae339b01",
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b33_fachadas_foto_cairu.blend",
+      "revision": "R30B.33",
+      "status": "historical",
+      "parent_file": "blender/salvador_lacerda_r30b32_comercio_preservado.blend",
+      "evidence": "docs/reports/blender/cidade_baixa_r30b33.json",
+      "sha256": "e4cc5655088adc7cdd2c234d7343a5df34faccb08cce971ad2c9634fda6479be",
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b34_palacio_galerias.blend",
+      "revision": "R30B.34",
+      "status": "historical",
+      "parent_file": "blender/salvador_lacerda_r30b33_fachadas_foto_cairu.blend",
+      "evidence": "docs/reports/blender/palacio_rio_branco_r30b34.json",
+      "sha256": "5ed6a2f08f4cb01f2488013cfc9423acfee933a46e5e112a461e6f47d56c5e73",
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b35_torre_galerias.blend",
+      "revision": "R30B.35",
+      "status": "historical",
+      "parent_file": "blender/salvador_lacerda_r30b34_palacio_galerias.blend",
+      "evidence": "docs/reports/blender/torre_galerias_r30b35.json",
+      "sha256": "270e89e8346dea6f21e99a2cb6df63d927980a0b8a3b476e4448d275e69f91d7",
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b36_terracos_palacio.blend",
+      "revision": "R30B.36",
+      "status": "historical",
+      "parent_file": "blender/salvador_lacerda_r30b35_torre_galerias.blend",
+      "evidence": "docs/reports/blender/terracos_palacio_r30b36.json",
+      "sha256": "9c99725371384dadf9d575de295fbf81fb721dbc5145eff9ac28d3440ac40b82",
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b37_fachadas_baixa.blend",
+      "revision": "R30B.37",
+      "status": "historical",
+      "parent_file": "blender/salvador_lacerda_r30b36_terracos_palacio.blend",
+      "evidence": "docs/reports/blender/cidade_baixa_r30b37.json",
+      "sha256": "c7edb3a5137d39f9bed3ebf6fd73dd9c7716f504fd1ee7fea9e263ce958ce04b",
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b38_binding_conceicao.blend",
+      "revision": "R30B.38",
+      "status": "authoring_candidate",
+      "parent_file": "blender/salvador_lacerda_r30b37_fachadas_baixa.blend",
+      "evidence": "docs/reports/blender/conceicao_binding_r30b38.json",
+      "sha256": "0d12cc8f7fd5a44ef27fa6c34b7f89360fece235b4f38a51f3c09672988b74fe",
+      "notes": "Revisão de trabalho explicitamente selecionada; não equivale a aprovação para exportação."
+    }
+  ]
+}

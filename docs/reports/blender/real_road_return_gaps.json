@@ -1,0 +1,107 @@
+[
+  {
+    "end_after_edge": "way-978481515-seg-0",
+    "node": {
+      "id": "1447581238",
+      "epsg3857": [
+        -4287461.850073071,
+        -1457055.438616471
+      ],
+      "blender_xy": [
+        -215.17659697588533,
+        -224.53894143528305
+      ],
+      "degree": 2,
+      "way_ids": [
+        978481515,
+        1075624458
+      ],
+      "junction_candidate": true
+    },
+    "reachable_nodes": 4,
+    "border": [
+      {
+        "edge": {
+          "id": "way-1075624458-seg-3",
+          "osm_way_id": 1075624458,
+          "from": "7550296907",
+          "to": "619722483",
+          "direction": "forward",
+          "access": "candidate"
+        },
+        "name": "PraÃ§a Castro Alves",
+        "highway": "tertiary",
+        "a": [
+          -226.28110302658752,
+          -263.3970377354417
+        ],
+        "b": [
+          -222.1293885265477,
+          -282.56320933881216
+        ],
+        "tags": {
+          "highway": "tertiary",
+          "lanes": "2",
+          "lit": "yes",
+          "name": "PraÃ§a Castro Alves",
+          "oneway": "yes",
+          "surface": "asphalt"
+        },
+        "test": null
+      }
+    ]
+  },
+  {
+    "end_after_edge": "way-48846625-seg-9",
+    "node": {
+      "id": "2394997055",
+      "epsg3857": [
+        -4287414.739664568,
+        -1457007.0707649107
+      ],
+      "blender_xy": [
+        -169.42958488408476,
+        -177.65442852349952
+      ],
+      "degree": 3,
+      "way_ids": [
+        48846625,
+        231091555,
+        978481515
+      ],
+      "junction_candidate": true
+    },
+    "reachable_nodes": 5,
+    "border": [
+      {
+        "edge": {
+          "id": "way-1075624458-seg-3",
+          "osm_way_id": 1075624458,
+          "from": "7550296907",
+          "to": "619722483",
+          "direction": "forward",
+          "access": "candidate"
+        },
+        "name": "PraÃ§a Castro Alves",
+        "highway": "tertiary",
+        "a": [
+          -226.28110302658752,
+          -263.3970377354417
+        ],
+        "b": [
+          -222.1293885265477,
+          -282.56320933881216
+        ],
+        "tags": {
+          "highway": "tertiary",
+          "lanes": "2",
+          "lit": "yes",
+          "name": "PraÃ§a Castro Alves",
+          "oneway": "yes",
+          "surface": "asphalt"
+        },
+        "test": null
+      }
+    ]
+  }
+]

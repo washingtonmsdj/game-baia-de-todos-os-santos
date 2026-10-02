@@ -1,0 +1,20 @@
+{
+  "source": {
+    "file": "blender/salvador_lacerda_r30b28_colisao_viaria_refinada.blend",
+    "sha256": "5a62fe4c3c0415de60055feaf91be868a78341647e5faf04a3b718c2f6885c2e",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "revision": "R30B.28",
+    "selection_reason": "Derivada da R30B23; encontro contínuo e colisor com transform aplicado/refino local nas vias da Montanha. Geometria visual, implantação e larguras preservadas; demais ruas ainda em revisão."
+  },
+  "reopened": true,
+  "samples": 1428,
+  "missing_support_samples": 0,
+  "maximum_visual_collision_delta_m": 0.0386810302734375,
+  "review_threshold_m": 0.1,
+  "samples_above_threshold": 0,
+  "errors": [],
+  "missing": [],
+  "status": "pass_geometric_support_only",
+  "dynamic_physics_tested": false,
+  "runtime_exported": false
+}

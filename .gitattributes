@@ -1,3 +1,5 @@
 blender/*.blend filter=lfs diff=lfs merge=lfs -text
 blender/**/*.blend filter=lfs diff=lfs merge=lfs -text
 prototypes/threejs-water-lab/public/assets/**/*.glb filter=lfs diff=lfs merge=lfs -text
+automation/blender/assets/*.glb filter=lfs diff=lfs merge=lfs -text
+automation/blender/ordax_car_realistic_v14_reference_cleanup.blend filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,38 @@
+{
+  "schema": "boas/urban-slice-blender-review-v1",
+  "source": {
+    "file": "blender/salvador_lacerda_mvp_r30c2_urban_slice.blend",
+    "sha256": "dc94c4e1d9ae10986f10ba91f31ca1773edb982618f5340a6a96ab8667a410d1",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "revision": "R30C.2",
+    "selection_reason": "Revisão real R30C.1: suporte reprojetado e circuito OSM jogável; R30A.11 preservada"
+  },
+  "proxy_reprojected_vertices": 65574,
+  "proxy_max_previous_error_m": 40.67283630371094,
+  "removed_legacy_faces": {
+    "OSM | pistas do centro": 789,
+    "OSM | calçadas indicativas": 1128,
+    "OSM | caminhos e escadarias": 177,
+    "VIAS | guias contínuas com aberturas nas travessias": 2072
+  },
+  "surface_objects": 75,
+  "obstacles": 35,
+  "adaptations": [
+    {
+      "classification": "ERROR",
+      "description": "Proxy de suporte reprojetado sobre a fonte visual atual; sem offset global."
+    },
+    {
+      "classification": "ADAPT_LOCAL",
+      "description": "Corredor rodoviário 6,4 m secondary / 4,2 m residencial; passeios 1,7 m, rampas e raios locais para circulação. Não são medidas levantadas.",
+      "width_m_verified": null
+    },
+    {
+      "classification": "SOURCE_LIMITATION",
+      "description": "Fit XY candidate_only e DEM vertical insuficiente; não afirmar precisão cartográfica."
+    }
+  ],
+  "reopened": true,
+  "gameplay_surfaces": 75,
+  "footprint_colliders": 35
+}

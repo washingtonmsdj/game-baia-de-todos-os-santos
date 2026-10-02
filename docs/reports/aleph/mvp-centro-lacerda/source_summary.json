@@ -65,8 +65,8 @@
       },
       "politica": {
         "classe_uso": "PENDENTE_VERIFICACAO",
-        "licenca": "Origem/licença do dataset de elevação deve ser confirmada por captura",
-        "observacao": "Usar como referência/MVP até a fonte efetiva do DEM ser registrada e aprovada."
+        "licenca": "Origem/licenÃ§a do dataset de elevaÃ§Ã£o deve ser confirmada por captura",
+        "observacao": "Usar como referÃªncia/MVP atÃ© a fonte efetiva do DEM ser registrada e aprovada."
       }
     }
   ],
@@ -89,21 +89,38 @@
       "fonte": "osm",
       "classe_uso": "PRODUCAO_COM_ATRIBUICAO",
       "licenca": "ODbL (OpenStreetMap); confirmar requisitos do uso concreto",
-      "observacao": "Adequado para vias, footprints, POIs e proxies; manter atribuição e proveniência."
+      "observacao": "Adequado para vias, footprints, POIs e proxies; manter atribuiÃ§Ã£o e proveniÃªncia."
     },
     {
       "fonte": "terrain",
       "classe_uso": "PENDENTE_VERIFICACAO",
-      "licenca": "Origem/licença do dataset de elevação deve ser confirmada por captura",
-      "observacao": "Usar como referência/MVP até a fonte efetiva do DEM ser registrada e aprovada."
+      "licenca": "Origem/licenÃ§a do dataset de elevaÃ§Ã£o deve ser confirmada por captura",
+      "observacao": "Usar como referÃªncia/MVP atÃ© a fonte efetiva do DEM ser registrada e aprovada."
     }
   ],
   "warnings": [],
   "recomendacoes": [
-    "Preservar o manifest.json original junto à captura.",
+    "Preservar o manifest.json original junto Ã  captura.",
     "Registrar o commit do Aleph usado para criar a captura.",
     "Manter OSM/proxies separados de hero assets no Blender.",
-    "Não promover terreno a asset final até confirmar origem/licença do dataset de elevação.",
-    "Não importar imagens Google Satellite/Street View como assets de produção."
-  ]
+    "NÃ£o promover terreno a asset final atÃ© confirmar origem/licenÃ§a do dataset de elevaÃ§Ã£o.",
+    "NÃ£o importar imagens Google Satellite/Street View como assets de produÃ§Ã£o."
+  ],
+  "latest_terrain_inspection": {
+    "capture_id": "aleph-20260924T205631Z-aqqo7pkx",
+    "report": "docs/reports/blender/terrain_conceicao_source_check.json",
+    "dem_sha256": "674fe65e08c761f879f1fa02a5560a62c9e836c09e1dfacb2aa805e9def15ca7",
+    "purpose": "revisão dos níveis das vias Montanha/Conceição; sem aplicação automática do DEM",
+    "source_modified": false,
+    "road_widths_verified": false
+  },
+  "latest_osm_route_review": {
+    "date": "2026-10-02",
+    "report": "docs/reports/blender/osm_real_return.json",
+    "terrain_revision": "R30B.30",
+    "terrain_report": "docs/reports/blender/terrain_real_boundary_extension.json",
+    "synthetic_edges": 0,
+    "real_widths_verified": false,
+    "complete_circuit_approved": false
+  }
 }

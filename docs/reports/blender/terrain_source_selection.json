@@ -1,0 +1,44 @@
+{
+  "source": {
+    "file": "blender/salvador_lacerda_r30b23_fachada_praca.blend",
+    "sha256": "dead4d201072d86c3d3e51825c8550327daaed2a1939d236530236e24b9b2bdb",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "revision": "R30B.23",
+    "selection_reason": "Composição explicitamente escolhida pelo usuário em 01/10/2026: fachada da praça. Revisões experimentais R30C rejeitadas como base; terreno deve preservar limites XY da composição autoral."
+  },
+  "previous_candidate": {
+    "file": "blender/salvador_lacerda_mvp_r30c5_terrain_world_coordinates.blend",
+    "sha256": "0bbfcb2b2ff91320a459173112d33dbc259b4402e06240d3af3abb62032dc0fa",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "revision": "R30C.5",
+    "selection_reason": "Correção de terreno: partição e perfil derivados em coordenadas mundiais; tráfego em revisão"
+  },
+  "geometry_changed": false,
+  "runtime_reexported": false,
+  "width_policy": "Preservar limites XY autorais; largura real não confirmada permanece null. Não usar envelopes por classe de rua para remodelar terreno.",
+  "scene": "SALVADOR | ESBOCO OFICIAL",
+  "terrain_objects": [
+    {
+      "name": "MVP | terreno corrigido | colisão estática",
+      "present": true,
+      "vertices": 547464,
+      "materials": [
+        "MVP | terreno contínuo",
+        "MVP | percurso pedonal",
+        "MVP | asfalto da ladeira",
+        "CAIRU | pedra portuguesa clara",
+        "VIAS | passeio mineral claro",
+        "VIAS | pavimento de pedra Rua Chile",
+        "RELEVO | contenção entre vias",
+        "ENTORNO LAC | pedra portuguesa calcada",
+        "LAC R30B09 | pedra irregular da contenção"
+      ]
+    },
+    {
+      "name": "R30A5 | COLLISION | terrain proxy",
+      "present": true,
+      "vertices": 66051,
+      "materials": []
+    }
+  ]
+}

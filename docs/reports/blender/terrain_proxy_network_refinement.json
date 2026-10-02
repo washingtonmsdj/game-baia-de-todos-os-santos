@@ -1,0 +1,71 @@
+{
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b28_colisao_viaria_refinada.blend",
+    "sha256": "5a62fe4c3c0415de60055feaf91be868a78341647e5faf04a3b718c2f6885c2e",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "revision": "R30B.28",
+    "selection_reason": "Derivada da R30B23; encontro contínuo e colisor com transform aplicado/refino local nas vias da Montanha. Geometria visual, implantação e larguras preservadas; demais ruas ainda em revisão."
+  },
+  "classification": "ERROR",
+  "method": "adaptive local collider refinement; source visual geometry unchanged",
+  "road_segments": 587,
+  "samples": 59720,
+  "source_missing_boundary_samples": [
+    {
+      "edge_id": "way-397449211-seg-1",
+      "sample": 0,
+      "xy": [
+        543.15869140625,
+        -249.83535766601562
+      ]
+    },
+    {
+      "edge_id": "way-397449211-seg-1",
+      "sample": 0,
+      "xy": [
+        543.1414794921875,
+        -251.5152587890625
+      ]
+    },
+    {
+      "edge_id": "way-531109209-seg-1",
+      "sample": 8,
+      "xy": [
+        497.95635986328125,
+        -281.3043212890625
+      ]
+    }
+  ],
+  "tolerance_m": 0.05,
+  "iterations": [
+    {
+      "iteration": 0,
+      "bad_faces": 6,
+      "maximum_error_m": 0.6938934326171875,
+      "missing_proxy_samples": 0
+    },
+    {
+      "iteration": 1,
+      "bad_faces": 0,
+      "maximum_error_m": 0.0455169677734375,
+      "missing_proxy_samples": 0
+    }
+  ],
+  "vertices_before": 66173,
+  "vertices_after": 66199,
+  "faces_before": 131253,
+  "faces_after": 131271,
+  "city_visual_geometry_changed": false,
+  "road_widths_changed": false,
+  "dynamic_physics_tested": false,
+  "runtime_exported": false,
+  "reopened": true,
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b29_colisao_rede_viaria.blend",
+    "sha256": "493449d9e7e9bd539bc1445a64769f740ee1e55777c1578062f3892d8ee75dd0",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "revision": "R30B.29",
+    "selection_reason": "Derivada da R30B23; conserva geografia/larguras e corrige precisão local da colisão nas vias cobertas. Conflito de níveis da Conceição continua em revisão."
+  },
+  "verification_report": "docs/reports/blender/terrain_proxy_network_verify.json"
+}

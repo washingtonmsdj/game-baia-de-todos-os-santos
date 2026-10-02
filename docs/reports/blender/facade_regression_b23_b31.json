@@ -1,0 +1,300 @@
+{
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b31_cidade_baixa_fachadas_cravo.blend",
+    "sha256": "e880bc386ce4109d9ee97156636b419178b1613cccaa5a44d24300a9561dbe1e",
+    "revision": "R30B.31",
+    "status": "authoring_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b30_conexao_real_recorte.blend",
+    "evidence": "docs/reports/blender/cidade_baixa_r30b31.json"
+  },
+  "production_reference": {
+    "file": "blender/salvador_lacerda_r30b30_conexao_real_recorte.blend",
+    "sha256": "28c608846d8da3a7e918b7e3f8744b1c456d89176849f81406a0ddce71ad0132",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "revision": "R30B.30",
+    "selection_reason": "Derivada da R30B23; amplia localmente o recorte de terreno na conexão OSM real da Praça Castro Alves, sem mover vértices anteriores ou alterar larguras. Conceição permanece em revisão, sem circuito/ônibus aprovado."
+  },
+  "restore_osm_ids": [
+    1220650665,
+    1220650857,
+    1263035779
+  ],
+  "restore_source": "blender/salvador_lacerda_r30b23_fachada_praca.blend",
+  "restore_source_sha256": "dead4d201072d86c3d3e51825c8550327daaed2a1939d236530236e24b9b2bdb",
+  "body_names": [
+    "OSM | 1263035779",
+    "OSM | 1220650665",
+    "OSM | Depósito Vissor"
+  ],
+  "legacy_component_names": [
+    "ENTORNO LAC | Vissor | vao 0 0",
+    "ENTORNO LAC | Vissor | moldura 0 0 -1",
+    "ENTORNO LAC | Vissor | moldura 0 0 1",
+    "ENTORNO LAC | Vissor | peitoril 0 0",
+    "ENTORNO LAC | Vissor | vao 0 1",
+    "ENTORNO LAC | Vissor | moldura 0 1 -1",
+    "ENTORNO LAC | Vissor | moldura 0 1 1",
+    "ENTORNO LAC | Vissor | peitoril 0 1",
+    "ENTORNO LAC | Vissor | vao 0 2",
+    "ENTORNO LAC | Vissor | moldura 0 2 -1",
+    "ENTORNO LAC | Vissor | moldura 0 2 1",
+    "ENTORNO LAC | Vissor | peitoril 0 2",
+    "ENTORNO LAC | Vissor | vao 1 0",
+    "ENTORNO LAC | Vissor | moldura 1 0 -1",
+    "ENTORNO LAC | Vissor | moldura 1 0 1",
+    "ENTORNO LAC | Vissor | peitoril 1 0",
+    "ENTORNO LAC | Vissor | vao 1 1",
+    "ENTORNO LAC | Vissor | moldura 1 1 -1",
+    "ENTORNO LAC | Vissor | moldura 1 1 1",
+    "ENTORNO LAC | Vissor | peitoril 1 1",
+    "ENTORNO LAC | Vissor | vao 1 2",
+    "ENTORNO LAC | Vissor | moldura 1 2 -1",
+    "ENTORNO LAC | Vissor | moldura 1 2 1",
+    "ENTORNO LAC | Vissor | peitoril 1 2",
+    "ENTORNO LAC | Vissor | abertura comercial 0",
+    "ENTORNO LAC | Vissor | abertura comercial 1",
+    "ENTORNO LAC | Vissor | toldo amarelo",
+    "ENTORNO LAC | Vissor | faixa do letreiro",
+    "ENTORNO LAC | Vissor | letreiro",
+    "ENTORNO LAC | Comercio adjacente | faixas rosadas",
+    "ENTORNO LAC | Comercio adjacente | coroamento e embasamento",
+    "ENTORNO LAC | Comercio adjacente | aberturas visuais",
+    "ENTORNO LAC | Comercio adjacente | pilares e ombreiras",
+    "ENTORNO LAC | Comercio adjacente | paineis vazados",
+    "ENTORNO LAC | Sobrado azul | cornijas",
+    "ENTORNO LAC | Sobrado azul | portais terreo",
+    "ENTORNO LAC | Sobrado azul | janelas arqueadas",
+    "ENTORNO LAC | Sobrado azul | molduras de arco"
+  ],
+  "legacy_components_differing_from_source": [],
+  "selected_b23_session_differences": [],
+  "unsaved_session_comparison_scope": "terreno/proxy e prédios/componentes selecionados; não a cena inteira",
+  "b31_roads_identical_to_b30": {
+    "MVP | terreno corrigido | colisão estática": true,
+    "R30A5 | COLLISION | terrain proxy": true
+  },
+  "road_signatures": {
+    "MVP | terreno corrigido | colisão estática": {
+      "geometry_sha256": "27d5305a837e0b44e2d74cb80f86702282f13b088705a4bd3245166fd70ced3a",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.2965762615203857
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.7371039390563965
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -3.5643310546875
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.30000001192092896,
+            1.0
+          ],
+          "base": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.30000001192092896,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.6800000071525574,
+            0.6399999856948853,
+            0.550000011920929,
+            1.0
+          ],
+          "base": [
+            0.6800000071525574,
+            0.6399999856948853,
+            0.550000011920929,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.12999999523162842,
+            0.14000000059604645,
+            0.15000000596046448,
+            1.0
+          ],
+          "base": [
+            0.12999999523162842,
+            0.14000000059604645,
+            0.15000000596046448,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.6000000238418579,
+            0.5699999928474426,
+            0.49000000953674316,
+            1.0
+          ],
+          "base": [
+            0.6000000238418579,
+            0.5699999928474426,
+            0.49000000953674316,
+            1.0
+          ],
+          "roughness": 0.8500000238418579,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.5199999809265137,
+            0.49000000953674316,
+            0.4300000071525574,
+            1.0
+          ],
+          "base": [
+            0.5199999809265137,
+            0.49000000953674316,
+            0.4300000071525574,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.3100000023841858,
+            0.28999999165534973,
+            0.2549999952316284,
+            1.0
+          ],
+          "base": [
+            0.3100000023841858,
+            0.28999999165534973,
+            0.2549999952316284,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.3799999952316284,
+            0.3700000047683716,
+            0.33000001311302185,
+            1.0
+          ],
+          "base": [
+            0.3799999952316284,
+            0.3700000047683716,
+            0.33000001311302185,
+            1.0
+          ],
+          "roughness": 0.949999988079071,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.6200000047683716,
+            0.6000000238418579,
+            0.5299999713897705,
+            1.0
+          ],
+          "base": [
+            0.6200000047683716,
+            0.6000000238418579,
+            0.5299999713897705,
+            1.0
+          ],
+          "roughness": 0.7200000286102295,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.3199999928474426,
+            0.3100000023841858,
+            0.27000001072883606,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.9200000166893005,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 547564,
+      "polygons": 1082841
+    },
+    "R30A5 | COLLISION | terrain proxy": {
+      "geometry_sha256": "98fd8d5ae83dabf863ef47af3ce33f8d5de9fa9faa95b67f083f4cea8a49e504",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [],
+      "type": "MESH",
+      "vertices": 66263,
+      "polygons": 131331
+    }
+  },
+  "classification": "ERROR: regressão visual do passe novo sobre fachadas/toldo existentes, indicada pelo usuário",
+  "road_tests_inherited_not_rerun": [
+    "terrain_proxy_network_verify.json",
+    "terrain_real_boundary_verify.json",
+    "terrain_real_boundary_vehicle.json"
+  ],
+  "known_road_limitations": [
+    "Conceição: conflito de nível ~36,6 m ainda não resolvido",
+    "larguras reais ausentes; circuito inteiro/ônibus não aprovado",
+    "replays cinemáticos, não suspensão/tráfego dinâmico"
+  ]
+}

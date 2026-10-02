@@ -26,7 +26,11 @@ def artistic(collection):
 try:
     bpy.ops.object.select_all(action='DESELECT')
     for obj in scene.objects:
-        if obj.type not in {'MESH', 'CURVE', 'FONT'}:
+        # Assets novos usam bibliotecas/instâncias, sem realizar cópias na cena.
+        # Somente instâncias identificadas e nas coleções artísticas do contrato.
+        asset_instance = (obj.type == 'EMPTY' and obj.instance_type == 'COLLECTION'
+                          and obj.instance_collection is not None and obj.get('boas_asset_id'))
+        if obj.type not in {'MESH', 'CURVE', 'FONT'} and not asset_instance:
             continue
         if not obj.visible_get() or obj.hide_render:
             continue
@@ -53,7 +57,7 @@ try:
         'source_scene': scene.name, 'objects': [o.name for o in selected],
         'export_sha256': hashlib.sha256(output.read_bytes()).hexdigest(),
         'export_bytes': output.stat().st_size,
-        'selection': 'Arte visível e renderizável das coleções 06–31 e 36; sem proxies de runtime'}
+        'selection': 'Arte visível e renderizável das coleções declaradas no contrato, incluindo instâncias de assets; sem proxies de runtime'}
     output.with_suffix('.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding='utf-8')
     print(json.dumps({k:v for k,v in manifest.items() if k != 'objects'}, ensure_ascii=False))
 finally:

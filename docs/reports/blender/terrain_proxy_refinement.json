@@ -1,0 +1,48 @@
+{
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b27_colisao_transform_aplicado.blend",
+    "sha256": "618e5d0a8fcf4da7cbdf216bff2db2aa3549c647380e1ca436b0a49db181581a",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "revision": "R30B.27",
+    "selection_reason": "Derivada da R30B23: encontro contínuo Montanha/Pau da Bandeira; proxy atualizado com transform da fonte aplicado aos vértices para leitura estável mesmo oculto. Larguras e implantação visual preservadas."
+  },
+  "city_visual_geometry_changed": false,
+  "road_widths_changed": false,
+  "classification": "ERROR",
+  "method": "adaptive subdivision of affected collision faces; project only new vertices to authored ground",
+  "samples": 1428,
+  "tolerance_m": 0.05,
+  "iterations": [
+    {
+      "iteration": 0,
+      "bad_faces": 32,
+      "maximum_error_m": 6.3491058349609375,
+      "missing_samples": 0
+    },
+    {
+      "iteration": 1,
+      "bad_faces": 17,
+      "maximum_error_m": 2.287750244140625,
+      "missing_samples": 0
+    },
+    {
+      "iteration": 2,
+      "bad_faces": 0,
+      "maximum_error_m": 0.0386810302734375,
+      "missing_samples": 0
+    }
+  ],
+  "vertices_before": 66051,
+  "vertices_after": 66173,
+  "faces_before": 131097,
+  "faces_after": 131253,
+  "runtime_exported": false,
+  "dynamic_physics_tested": false,
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b28_colisao_viaria_refinada.blend",
+    "sha256": "5a62fe4c3c0415de60055feaf91be868a78341647e5faf04a3b718c2f6885c2e",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "revision": "R30B.28",
+    "selection_reason": "Derivada da R30B23; encontro contínuo e colisor com transform aplicado/refino local nas vias da Montanha. Geometria visual, implantação e larguras preservadas; demais ruas ainda em revisão."
+  }
+}

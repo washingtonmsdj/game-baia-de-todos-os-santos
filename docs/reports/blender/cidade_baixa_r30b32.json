@@ -1,0 +1,368 @@
+{
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b31_cidade_baixa_fachadas_cravo.blend",
+    "sha256": "e880bc386ce4109d9ee97156636b419178b1613cccaa5a44d24300a9561dbe1e",
+    "revision": "R30B.31",
+    "status": "authoring_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b30_conexao_real_recorte.blend",
+    "evidence": "docs/reports/blender/cidade_baixa_r30b31.json"
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b32_comercio_preservado.blend",
+    "sha256": "df064df36da69c202aed9ee46f9cec7a94705bf55f20e8c5e203eb5eae339b01",
+    "revision": "R30B.32",
+    "scene": "SALVADOR | ESBOCO OFICIAL"
+  },
+  "restoration_source": "blender/salvador_lacerda_r30b23_fachada_praca.blend",
+  "restoration_source_sha256": "dead4d201072d86c3d3e51825c8550327daaed2a1939d236530236e24b9b2bdb",
+  "restore_osm_ids": [
+    1220650665,
+    1220650857,
+    1263035779
+  ],
+  "restored_bodies": [
+    "OSM | 1263035779",
+    "OSM | 1220650665",
+    "OSM | Depósito Vissor"
+  ],
+  "restored_existing_components": [
+    "ENTORNO LAC | Vissor | vao 0 0",
+    "ENTORNO LAC | Vissor | moldura 0 0 -1",
+    "ENTORNO LAC | Vissor | moldura 0 0 1",
+    "ENTORNO LAC | Vissor | peitoril 0 0",
+    "ENTORNO LAC | Vissor | vao 0 1",
+    "ENTORNO LAC | Vissor | moldura 0 1 -1",
+    "ENTORNO LAC | Vissor | moldura 0 1 1",
+    "ENTORNO LAC | Vissor | peitoril 0 1",
+    "ENTORNO LAC | Vissor | vao 0 2",
+    "ENTORNO LAC | Vissor | moldura 0 2 -1",
+    "ENTORNO LAC | Vissor | moldura 0 2 1",
+    "ENTORNO LAC | Vissor | peitoril 0 2",
+    "ENTORNO LAC | Vissor | vao 1 0",
+    "ENTORNO LAC | Vissor | moldura 1 0 -1",
+    "ENTORNO LAC | Vissor | moldura 1 0 1",
+    "ENTORNO LAC | Vissor | peitoril 1 0",
+    "ENTORNO LAC | Vissor | vao 1 1",
+    "ENTORNO LAC | Vissor | moldura 1 1 -1",
+    "ENTORNO LAC | Vissor | moldura 1 1 1",
+    "ENTORNO LAC | Vissor | peitoril 1 1",
+    "ENTORNO LAC | Vissor | vao 1 2",
+    "ENTORNO LAC | Vissor | moldura 1 2 -1",
+    "ENTORNO LAC | Vissor | moldura 1 2 1",
+    "ENTORNO LAC | Vissor | peitoril 1 2",
+    "ENTORNO LAC | Vissor | abertura comercial 0",
+    "ENTORNO LAC | Vissor | abertura comercial 1",
+    "ENTORNO LAC | Vissor | toldo amarelo",
+    "ENTORNO LAC | Vissor | faixa do letreiro",
+    "ENTORNO LAC | Vissor | letreiro",
+    "ENTORNO LAC | Comercio adjacente | faixas rosadas",
+    "ENTORNO LAC | Comercio adjacente | coroamento e embasamento",
+    "ENTORNO LAC | Comercio adjacente | aberturas visuais",
+    "ENTORNO LAC | Comercio adjacente | pilares e ombreiras",
+    "ENTORNO LAC | Comercio adjacente | paineis vazados",
+    "ENTORNO LAC | Sobrado azul | cornijas",
+    "ENTORNO LAC | Sobrado azul | portais terreo",
+    "ENTORNO LAC | Sobrado azul | janelas arqueadas",
+    "ENTORNO LAC | Sobrado azul | molduras de arco"
+  ],
+  "hidden_regressive_components": [
+    "BAIXA R31 | 1263035779 | Molduras e cornijas",
+    "BAIXA R31 | 1263035779 | Caixilhos",
+    "BAIXA R31 | 1263035779 | Peitoris",
+    "BAIXA R31 | 1263035779 | Cobogo diagonal",
+    "BAIXA R31 | 1263035779 | Vidros",
+    "BAIXA R31 | 1263035779 | Arcos e revelos",
+    "BAIXA R31 | 1263035779 | Faixas rosadas",
+    "BAIXA R31 | 1263035779 | Cobertura",
+    "BAIXA R31 | 1263035779 | Lajes estruturais",
+    "BAIXA R31 | 1220650665 | Molduras e cornijas",
+    "BAIXA R31 | 1220650665 | Caixilhos",
+    "BAIXA R31 | 1220650665 | Peitoris",
+    "BAIXA R31 | 1220650665 | Vidros",
+    "BAIXA R31 | 1220650665 | Arcos e revelos",
+    "BAIXA R31 | 1220650665 | Cobertura",
+    "BAIXA R31 | 1220650665 | Lajes estruturais",
+    "BAIXA R31 | 1220650857 | Molduras e cornijas",
+    "BAIXA R31 | 1220650857 | Caixilhos",
+    "BAIXA R31 | 1220650857 | Peitoris",
+    "BAIXA R31 | 1220650857 | Vidros",
+    "BAIXA R31 | 1220650857 | Arcos e revelos",
+    "BAIXA R31 | 1220650857 | Cobertura",
+    "BAIXA R31 | 1220650857 | Lajes estruturais"
+  ],
+  "terrain_and_collision_unchanged_from_b30": true,
+  "road_signatures": {
+    "MVP | terreno corrigido | colisão estática": {
+      "geometry_sha256": "27d5305a837e0b44e2d74cb80f86702282f13b088705a4bd3245166fd70ced3a",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.2965762615203857
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.7371039390563965
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -3.5643310546875
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.30000001192092896,
+            1.0
+          ],
+          "base": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.30000001192092896,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.6800000071525574,
+            0.6399999856948853,
+            0.550000011920929,
+            1.0
+          ],
+          "base": [
+            0.6800000071525574,
+            0.6399999856948853,
+            0.550000011920929,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.12999999523162842,
+            0.14000000059604645,
+            0.15000000596046448,
+            1.0
+          ],
+          "base": [
+            0.12999999523162842,
+            0.14000000059604645,
+            0.15000000596046448,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.6000000238418579,
+            0.5699999928474426,
+            0.49000000953674316,
+            1.0
+          ],
+          "base": [
+            0.6000000238418579,
+            0.5699999928474426,
+            0.49000000953674316,
+            1.0
+          ],
+          "roughness": 0.8500000238418579,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.5199999809265137,
+            0.49000000953674316,
+            0.4300000071525574,
+            1.0
+          ],
+          "base": [
+            0.5199999809265137,
+            0.49000000953674316,
+            0.4300000071525574,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.3100000023841858,
+            0.28999999165534973,
+            0.2549999952316284,
+            1.0
+          ],
+          "base": [
+            0.3100000023841858,
+            0.28999999165534973,
+            0.2549999952316284,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.3799999952316284,
+            0.3700000047683716,
+            0.33000001311302185,
+            1.0
+          ],
+          "base": [
+            0.3799999952316284,
+            0.3700000047683716,
+            0.33000001311302185,
+            1.0
+          ],
+          "roughness": 0.949999988079071,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.6200000047683716,
+            0.6000000238418579,
+            0.5299999713897705,
+            1.0
+          ],
+          "base": [
+            0.6200000047683716,
+            0.6000000238418579,
+            0.5299999713897705,
+            1.0
+          ],
+          "roughness": 0.7200000286102295,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.3199999928474426,
+            0.3100000023841858,
+            0.27000001072883606,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.9200000166893005,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 547564,
+      "polygons": 1082841
+    },
+    "R30A5 | COLLISION | terrain proxy": {
+      "geometry_sha256": "98fd8d5ae83dabf863ef47af3ce33f8d5de9fa9faa95b67f083f4cea8a49e504",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [],
+      "type": "MESH",
+      "vertices": 66263,
+      "polygons": 131331
+    }
+  },
+  "reopened": true,
+  "runtime_exported": false,
+  "car_tests_rerun": false,
+  "status": "authoring_candidate",
+  "known_limitations": [
+    "Conceição: conflito de nível ~36,6 m ainda não resolvido",
+    "larguras reais ausentes; circuito inteiro/ônibus não aprovado",
+    "replays cinemáticos, não suspensão/tráfego dinâmico"
+  ],
+  "visual_review": "Componentes autorais preferidos pelo usuário reativados; dados/transform/materiais iguais à B23. Novas áreas continuam candidatas.",
+  "reopen_proof": {
+    "file": "blender/salvador_lacerda_r30b32_comercio_preservado.blend",
+    "sha256": "df064df36da69c202aed9ee46f9cec7a94705bf55f20e8c5e203eb5eae339b01",
+    "source_mode": "authoring",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "load_post_completed": true,
+    "timestamp_utc": "2026-10-02T05:46:21.205263+00:00"
+  },
+  "restored_components_equal_b23": {
+    "OSM | 1263035779": true,
+    "OSM | 1220650665": true,
+    "OSM | Depósito Vissor": true,
+    "ENTORNO LAC | Vissor | vao 0 0": true,
+    "ENTORNO LAC | Vissor | moldura 0 0 -1": true,
+    "ENTORNO LAC | Vissor | moldura 0 0 1": true,
+    "ENTORNO LAC | Vissor | peitoril 0 0": true,
+    "ENTORNO LAC | Vissor | vao 0 1": true,
+    "ENTORNO LAC | Vissor | moldura 0 1 -1": true,
+    "ENTORNO LAC | Vissor | moldura 0 1 1": true,
+    "ENTORNO LAC | Vissor | peitoril 0 1": true,
+    "ENTORNO LAC | Vissor | vao 0 2": true,
+    "ENTORNO LAC | Vissor | moldura 0 2 -1": true,
+    "ENTORNO LAC | Vissor | moldura 0 2 1": true,
+    "ENTORNO LAC | Vissor | peitoril 0 2": true,
+    "ENTORNO LAC | Vissor | vao 1 0": true,
+    "ENTORNO LAC | Vissor | moldura 1 0 -1": true,
+    "ENTORNO LAC | Vissor | moldura 1 0 1": true,
+    "ENTORNO LAC | Vissor | peitoril 1 0": true,
+    "ENTORNO LAC | Vissor | vao 1 1": true,
+    "ENTORNO LAC | Vissor | moldura 1 1 -1": true,
+    "ENTORNO LAC | Vissor | moldura 1 1 1": true,
+    "ENTORNO LAC | Vissor | peitoril 1 1": true,
+    "ENTORNO LAC | Vissor | vao 1 2": true,
+    "ENTORNO LAC | Vissor | moldura 1 2 -1": true,
+    "ENTORNO LAC | Vissor | moldura 1 2 1": true,
+    "ENTORNO LAC | Vissor | peitoril 1 2": true,
+    "ENTORNO LAC | Vissor | abertura comercial 0": true,
+    "ENTORNO LAC | Vissor | abertura comercial 1": true,
+    "ENTORNO LAC | Vissor | toldo amarelo": true,
+    "ENTORNO LAC | Vissor | faixa do letreiro": true,
+    "ENTORNO LAC | Vissor | letreiro": true,
+    "ENTORNO LAC | Comercio adjacente | faixas rosadas": true,
+    "ENTORNO LAC | Comercio adjacente | coroamento e embasamento": true,
+    "ENTORNO LAC | Comercio adjacente | aberturas visuais": true,
+    "ENTORNO LAC | Comercio adjacente | pilares e ombreiras": true,
+    "ENTORNO LAC | Comercio adjacente | paineis vazados": true,
+    "ENTORNO LAC | Sobrado azul | cornijas": true,
+    "ENTORNO LAC | Sobrado azul | portais terreo": true,
+    "ENTORNO LAC | Sobrado azul | janelas arqueadas": true,
+    "ENTORNO LAC | Sobrado azul | molduras de arco": true
+  }
+}

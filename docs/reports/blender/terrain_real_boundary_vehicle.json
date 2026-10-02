@@ -1,0 +1,27 @@
+{
+  "source": {
+    "file": "blender/salvador_lacerda_r30b30_conexao_real_recorte.blend",
+    "sha256": "28c608846d8da3a7e918b7e3f8744b1c456d89176849f81406a0ddce71ad0132",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "revision": "R30B.30",
+    "selection_reason": "Derivada da R30B23; amplia localmente o recorte de terreno na conexão OSM real da Praça Castro Alves, sem mover vértices anteriores ou alterar larguras. Conceição permanece em revisão, sem circuito/ônibus aprovado."
+  },
+  "test_file": "artifacts/terrain-vehicle/r30b30_boundary_vehicle_test.blend",
+  "test_file_sha256": "35c806df3d2f92623610a66be6774da2dda24631a3102e765147997b5f42945b",
+  "osm_edge_id": "way-1075624458-seg-3",
+  "asset_file": "automation/blender/ordax_car_realistic_v14_reference_cleanup.blend",
+  "visible_car_parts": 195,
+  "dimensions_measured_m": [
+    2.0500001907348633,
+    5.125,
+    1.5140000581741333
+  ],
+  "poses_evaluated": 41,
+  "frames": 201,
+  "seconds": 8.04,
+  "kind": "kinematic Blender replay on actual OSM segment; not rigidbody, suspension, body clearance or traffic simulation",
+  "dynamic_physics_tested": false,
+  "road_width_approved": false,
+  "complete_circuit_approved": false,
+  "source_file_modified": false
+}

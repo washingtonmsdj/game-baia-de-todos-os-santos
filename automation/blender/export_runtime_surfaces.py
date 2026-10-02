@@ -18,6 +18,9 @@ groups = {
 manifest = json.loads(resolve(contract['export']['surface_manifest']).read_text(encoding='utf-8'))
 for role in ('walkable', 'crossing', 'curb'):
     groups[role] = manifest['runtime_sources'][role]['objects']
+if contract['export'].get('urban_slice_collection'):
+    for obj in bpy.data.collections[contract['export']['urban_slice_collection']].objects:
+        groups.setdefault(obj['boas_role'], []).append(obj.name)
 depsgraph = bpy.context.evaluated_depsgraph_get()
 meshes = []
 for role, names in groups.items():
@@ -33,9 +36,10 @@ for role, names in groups.items():
             mesh.calc_loop_triangles()
             road_materials = set(contract['export']['road_materials'])
             road_slots = {i for i,m in enumerate(mesh.materials) if m and m.name in road_materials}
-            if role == 'road' and len(road_slots) != len(road_materials):
+            is_source_road = role == 'road' and name == contract['export']['road_object']
+            if is_source_road and len(road_slots) != len(road_materials):
                 raise RuntimeError('Materiais de pista ausentes; revisar binding no contrato')
-            triangles = [t for t in mesh.loop_triangles if role != 'road' or t.material_index in road_slots]
+            triangles = [t for t in mesh.loop_triangles if not is_source_road or t.material_index in road_slots]
             used = sorted({v for t in triangles for v in t.vertices})
             remap = {v:i for i,v in enumerate(used)}
             positions = []

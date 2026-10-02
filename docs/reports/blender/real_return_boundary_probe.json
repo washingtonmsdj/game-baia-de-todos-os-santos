@@ -1,0 +1,5521 @@
+{
+  "source": {
+    "file": "blender/salvador_lacerda_r30b29_colisao_rede_viaria.blend",
+    "sha256": "493449d9e7e9bd539bc1445a64769f740ee1e55777c1578062f3892d8ee75dd0",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "revision": "R30B.29",
+    "selection_reason": "Derivada da R30B23; conserva geografia/larguras e corrige precisão local da colisão nas vias cobertas. Conflito de níveis da Conceição continua em revisão."
+  },
+  "south_boundary_y": -281.2629089355469,
+  "sections": [
+    {
+      "y": -280,
+      "samples": [
+        [
+          -250,
+          -280,
+          51.34027862548828,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -249,
+          -280,
+          51.54462432861328,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -248,
+          -280,
+          51.708274841308594,
+          "MVP | percurso pedonal"
+        ],
+        [
+          -247,
+          -280,
+          51.8101806640625,
+          "MVP | percurso pedonal"
+        ],
+        [
+          -246,
+          -280,
+          51.89350128173828,
+          "MVP | percurso pedonal"
+        ],
+        [
+          -245,
+          -280,
+          51.97004699707031,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -244,
+          -280,
+          52.03227996826172,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -243,
+          -280,
+          52.03398895263672,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -242,
+          -280,
+          52.103607177734375,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -241,
+          -280,
+          52.25511169433594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -240,
+          -280,
+          52.4066162109375,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -239,
+          -280,
+          52.55809783935547,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -238,
+          -280,
+          52.70957946777344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -237,
+          -280,
+          52.861045837402344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -236,
+          -280,
+          53.012420654296875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -235,
+          -280,
+          53.15387725830078,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -234,
+          -280,
+          53.30303192138672,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -233,
+          -280,
+          53.452354431152344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -232,
+          -280,
+          54.052696228027344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -231,
+          -280,
+          56.93653869628906,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -230,
+          -280,
+          57.508880615234375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -229,
+          -280,
+          57.488792419433594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -228,
+          -280,
+          57.46870422363281,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -227,
+          -280,
+          57.44786834716797,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -226,
+          -280,
+          57.4244384765625,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -225,
+          -280,
+          57.35285949707031,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -224,
+          -280,
+          57.27210998535156,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -223,
+          -280,
+          57.18602752685547,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -222,
+          -280,
+          57.101295471191406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -221,
+          -280,
+          57.01982879638672,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -220,
+          -280,
+          56.93836975097656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -219,
+          -280,
+          56.89649200439453,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -218,
+          -280,
+          56.903892517089844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -217,
+          -280,
+          57.01069641113281,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -216,
+          -280,
+          57.211814880371094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -215,
+          -280,
+          57.47968292236328,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -214,
+          -280,
+          57.822052001953125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -213,
+          -280,
+          58.17498016357422,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -212,
+          -280,
+          58.504150390625,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -211,
+          -280,
+          58.69756317138672,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -210,
+          -280,
+          58.79456329345703,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -209,
+          -280,
+          58.86321258544922,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -208,
+          -280,
+          58.91845703125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -207,
+          -280,
+          58.952659606933594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -206,
+          -280,
+          58.991661071777344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -205,
+          -280,
+          59.00959014892578,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -204,
+          -280,
+          59.023521423339844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -203,
+          -280,
+          59.04943084716797,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -202,
+          -280,
+          59.056968688964844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -201,
+          -280,
+          59.05889129638672,
+          "MVP | terreno contínuo"
+        ]
+      ]
+    },
+    {
+      "y": -281,
+      "samples": [
+        [
+          -250,
+          -281,
+          51.59027862548828,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -249,
+          -281,
+          51.79462432861328,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -248,
+          -281,
+          51.958274841308594,
+          "MVP | percurso pedonal"
+        ],
+        [
+          -247,
+          -281,
+          52.0601806640625,
+          "MVP | percurso pedonal"
+        ],
+        [
+          -246,
+          -281,
+          52.143516540527344,
+          "MVP | percurso pedonal"
+        ],
+        [
+          -245,
+          -281,
+          52.22004699707031,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -244,
+          -281,
+          52.28227996826172,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -243,
+          -281,
+          52.28398895263672,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -242,
+          -281,
+          52.353607177734375,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -241,
+          -281,
+          52.50511169433594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -240,
+          -281,
+          52.65662384033203,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -239,
+          -281,
+          52.80809783935547,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -238,
+          -281,
+          52.95957946777344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -237,
+          -281,
+          53.111045837402344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -236,
+          -281,
+          53.262420654296875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -235,
+          -281,
+          53.40387725830078,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -234,
+          -281,
+          53.55302429199219,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -233,
+          -281,
+          53.702354431152344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -232,
+          -281,
+          54.302696228027344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -231,
+          -281,
+          57.186546325683594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -230,
+          -281,
+          57.758888244628906,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -229,
+          -281,
+          57.738792419433594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -228,
+          -281,
+          57.71869659423828,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -227,
+          -281,
+          57.6978759765625,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -226,
+          -281,
+          57.67412567138672,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -225,
+          -281,
+          57.60240173339844,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -224,
+          -281,
+          57.51264190673828,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -223,
+          -281,
+          57.4205322265625,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -222,
+          -281,
+          57.330772399902344,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -221,
+          -281,
+          57.242393493652344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -220,
+          -281,
+          57.15528106689453,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -219,
+          -281,
+          57.110618591308594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -218,
+          -281,
+          57.10961151123047,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -217,
+          -281,
+          57.210777282714844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -216,
+          -281,
+          57.40910339355469,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -215,
+          -281,
+          57.668006896972656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -214,
+          -281,
+          58.00434112548828,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -213,
+          -281,
+          58.35429382324219,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -212,
+          -281,
+          58.674461364746094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -211,
+          -281,
+          58.857025146484375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -210,
+          -281,
+          58.94867706298828,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -209,
+          -281,
+          58.999794006347656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -208,
+          -281,
+          59.043296813964844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -207,
+          -281,
+          59.07170867919922,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -206,
+          -281,
+          59.09015655517578,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -205,
+          -281,
+          59.09361267089844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -204,
+          -281,
+          59.10041046142578,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -203,
+          -281,
+          59.10472106933594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -202,
+          -281,
+          59.097503662109375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -201,
+          -281,
+          59.0921630859375,
+          "MVP | terreno contínuo"
+        ]
+      ]
+    },
+    {
+      "y": -281.24,
+      "samples": [
+        [
+          -250,
+          -281.24,
+          51.65028381347656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -249,
+          -281.24,
+          51.85462951660156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -248,
+          -281.24,
+          52.018272399902344,
+          "MVP | percurso pedonal"
+        ],
+        [
+          -247,
+          -281.24,
+          52.12017059326172,
+          "MVP | percurso pedonal"
+        ],
+        [
+          -246,
+          -281.24,
+          52.20350646972656,
+          "MVP | percurso pedonal"
+        ],
+        [
+          -245,
+          -281.24,
+          52.28004455566406,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -244,
+          -281.24,
+          52.34226989746094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -243,
+          -281.24,
+          52.34398651123047,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -242,
+          -281.24,
+          52.413612365722656,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -241,
+          -281.24,
+          52.56511688232422,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -240,
+          -281.24,
+          52.71662139892578,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -239,
+          -281.24,
+          52.86809539794922,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -238,
+          -281.24,
+          53.01957702636719,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -237,
+          -281.24,
+          53.171043395996094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -236,
+          -281.24,
+          53.322425842285156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -235,
+          -281.24,
+          53.4638671875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -234,
+          -281.24,
+          53.61302947998047,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -233,
+          -281.24,
+          53.762351989746094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -232,
+          -281.24,
+          54.362693786621094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -231,
+          -281.24,
+          57.246543884277344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -230,
+          -281.24,
+          57.818878173828125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -229,
+          -281.24,
+          57.798789978027344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -228,
+          -281.24,
+          57.77870178222656,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -227,
+          -281.24,
+          57.75787353515625,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -226,
+          -281.24,
+          57.73412322998047,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -225,
+          -281.24,
+          57.66228485107422,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -224,
+          -281.24,
+          57.57037353515625,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -223,
+          -281.24,
+          57.47825622558594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -222,
+          -281.24,
+          57.38633728027344,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -221,
+          -281.24,
+          57.295799255371094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -220,
+          -281.24,
+          57.20869445800781,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -219,
+          -281.24,
+          57.162010192871094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -218,
+          -281.24,
+          57.158973693847656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -217,
+          -281.24,
+          57.26014709472656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -216,
+          -281.24,
+          57.456459045410156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -215,
+          -281.24,
+          57.71319580078125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -214,
+          -281.24,
+          58.049530029296875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -213,
+          -281.24,
+          58.39733123779297,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -212,
+          -281.24,
+          58.71533966064453,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -211,
+          -281.24,
+          58.89790344238281,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -210,
+          -281.24,
+          58.98566436767578,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -209,
+          -281.24,
+          59.032562255859375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -208,
+          -281.24,
+          59.076072692871094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -207,
+          -281.24,
+          59.10028076171875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -206,
+          -281.24,
+          59.113792419433594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -205,
+          -281.24,
+          59.11725616455078,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -204,
+          -281.24,
+          59.118865966796875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -203,
+          -281.24,
+          59.11799621582031,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -202,
+          -281.24,
+          59.11077880859375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -201,
+          -281.24,
+          59.10014343261719,
+          "MVP | terreno contínuo"
+        ]
+      ]
+    },
+    {
+      "y": -279,
+      "samples": [
+        [
+          -250,
+          -279,
+          51.09027862548828,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -249,
+          -279,
+          51.29462432861328,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -248,
+          -279,
+          51.458274841308594,
+          "MVP | percurso pedonal"
+        ],
+        [
+          -247,
+          -279,
+          51.5601806640625,
+          "MVP | percurso pedonal"
+        ],
+        [
+          -246,
+          -279,
+          51.64350891113281,
+          "MVP | percurso pedonal"
+        ],
+        [
+          -245,
+          -279,
+          51.72004699707031,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -244,
+          -279,
+          51.782264709472656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -243,
+          -279,
+          51.78398895263672,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -242,
+          -279,
+          51.853607177734375,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -241,
+          -279,
+          52.00511169433594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -240,
+          -279,
+          52.1566162109375,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -239,
+          -279,
+          52.30809783935547,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -238,
+          -279,
+          52.45957946777344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -237,
+          -279,
+          52.611045837402344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -236,
+          -279,
+          52.762420654296875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -235,
+          -279,
+          52.90387725830078,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -234,
+          -279,
+          53.05303192138672,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -233,
+          -279,
+          53.202354431152344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -232,
+          -279,
+          53.802696228027344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -231,
+          -279,
+          56.68653869628906,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -230,
+          -279,
+          57.258888244628906,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -229,
+          -279,
+          57.238792419433594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -228,
+          -279,
+          57.21870422363281,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -227,
+          -279,
+          57.1978759765625,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -226,
+          -279,
+          57.174888610839844,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -225,
+          -279,
+          57.109344482421875,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -224,
+          -279,
+          57.031578063964844,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -223,
+          -279,
+          56.954490661621094,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -222,
+          -279,
+          56.875885009765625,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -221,
+          -279,
+          56.797271728515625,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -220,
+          -279,
+          56.724220275878906,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -219,
+          -279,
+          56.68799591064453,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -218,
+          -279,
+          56.69816589355469,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -217,
+          -279,
+          56.81340026855469,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -216,
+          -279,
+          57.020530700683594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -215,
+          -279,
+          57.291358947753906,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -214,
+          -279,
+          57.642730712890625,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -213,
+          -279,
+          58.00169372558594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -212,
+          -279,
+          58.333839416503906,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -211,
+          -279,
+          58.54344940185547,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -210,
+          -279,
+          58.652191162109375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -209,
+          -279,
+          58.72663116455078,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -208,
+          -279,
+          58.799415588378906,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -207,
+          -279,
+          58.847373962402344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -206,
+          -279,
+          58.893157958984375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -205,
+          -279,
+          58.932701110839844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -204,
+          -279,
+          58.961097717285156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -203,
+          -279,
+          58.99414825439453,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -202,
+          -279,
+          59.02369689941406,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -201,
+          -279,
+          59.04051208496094,
+          "MVP | terreno contínuo"
+        ]
+      ]
+    },
+    {
+      "y": -277,
+      "samples": [
+        [
+          -250,
+          -277,
+          50.62444305419922,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -249,
+          -277,
+          50.835655212402344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -248,
+          -277,
+          51.00123596191406,
+          "MVP | percurso pedonal"
+        ],
+        [
+          -247,
+          -277,
+          51.10576629638672,
+          "MVP | percurso pedonal"
+        ],
+        [
+          -246,
+          -277,
+          51.19148254394531,
+          "MVP | percurso pedonal"
+        ],
+        [
+          -245,
+          -277,
+          51.270042419433594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -244,
+          -277,
+          51.33379364013672,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -243,
+          -277,
+          51.33550262451172,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -242,
+          -277,
+          51.405128479003906,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -241,
+          -277,
+          51.55662536621094,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -240,
+          -277,
+          51.7081298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -239,
+          -277,
+          51.859046936035156,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -238,
+          -277,
+          52.009613037109375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -237,
+          -277,
+          52.160247802734375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -236,
+          -277,
+          52.310951232910156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -235,
+          -277,
+          52.451751708984375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -234,
+          -277,
+          52.60186004638672,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -233,
+          -277,
+          52.75175476074219,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -232,
+          -277,
+          53.353004455566406,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -231,
+          -277,
+          56.2376708984375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -230,
+          -277,
+          56.806312561035156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -229,
+          -277,
+          56.77568817138672,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -228,
+          -277,
+          56.75029754638672,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -227,
+          -277,
+          56.71381378173828,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -226,
+          -277,
+          56.68292236328125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -225,
+          -277,
+          56.61688232421875,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -224,
+          -277,
+          56.55400085449219,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -223,
+          -277,
+          56.48585510253906,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -222,
+          -277,
+          56.419044494628906,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -221,
+          -277,
+          56.35517120361328,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -220,
+          -277,
+          56.290611267089844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -219,
+          -277,
+          56.26564025878906,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -218,
+          -277,
+          56.290008544921875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -217,
+          -277,
+          56.413734436035156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -216,
+          -277,
+          56.632537841796875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -215,
+          -277,
+          56.919395446777344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -214,
+          -277,
+          57.28034210205078,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -213,
+          -277,
+          57.65180206298828,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -212,
+          -277,
+          58.00297546386719,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -211,
+          -277,
+          58.22844696044922,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -210,
+          -277,
+          58.35943603515625,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -209,
+          -277,
+          58.46221160888672,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -208,
+          -277,
+          58.552032470703125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -207,
+          -277,
+          58.62510681152344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -206,
+          -277,
+          58.70448303222656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -205,
+          -277,
+          58.764984130859375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -204,
+          -277,
+          58.821556091308594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -203,
+          -277,
+          58.88963317871094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -202,
+          -277,
+          58.941734313964844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -201,
+          -277,
+          58.988494873046875,
+          "MVP | terreno contínuo"
+        ]
+      ]
+    },
+    {
+      "y": -274,
+      "samples": [
+        [
+          -250,
+          -274,
+          49.90557861328125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -249,
+          -274,
+          50.12171936035156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -248,
+          -274,
+          50.28997039794922,
+          "MVP | percurso pedonal"
+        ],
+        [
+          -247,
+          -274,
+          50.3961181640625,
+          "MVP | percurso pedonal"
+        ],
+        [
+          -246,
+          -274,
+          50.48383331298828,
+          "MVP | percurso pedonal"
+        ],
+        [
+          -245,
+          -274,
+          50.56494140625,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -244,
+          -274,
+          50.62889099121094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -243,
+          -274,
+          50.63059997558594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -242,
+          -274,
+          50.700218200683594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -241,
+          -274,
+          50.851722717285156,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -240,
+          -274,
+          51.00324249267578,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -239,
+          -274,
+          51.15338897705078,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -238,
+          -274,
+          51.30360412597656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -237,
+          -274,
+          51.45375061035156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -236,
+          -274,
+          51.60371398925781,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -235,
+          -274,
+          51.74463653564453,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -234,
+          -274,
+          51.895042419433594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -233,
+          -274,
+          52.045867919921875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -232,
+          -274,
+          52.64746856689453,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -231,
+          -274,
+          55.53264617919922,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -230,
+          -274,
+          56.092742919921875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -229,
+          -274,
+          56.05284118652344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -228,
+          -274,
+          56.01030731201172,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -227,
+          -274,
+          55.97270202636719,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -226,
+          -274,
+          55.93030548095703,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -225,
+          -274,
+          55.88075256347656,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -224,
+          -274,
+          55.83587646484375,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -223,
+          -274,
+          55.785621643066406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -222,
+          -274,
+          55.736732482910156,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -221,
+          -274,
+          55.69060516357422,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -220,
+          -274,
+          55.64299011230469,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -219,
+          -274,
+          55.634979248046875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -218,
+          -274,
+          55.67620849609375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -217,
+          -274,
+          55.81687927246094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -216,
+          -274,
+          56.054405212402344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -215,
+          -274,
+          56.35906982421875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -214,
+          -274,
+          56.738731384277344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -213,
+          -274,
+          57.12901306152344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -212,
+          -274,
+          57.500396728515625,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -211,
+          -274,
+          57.75788116455078,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -210,
+          -274,
+          57.922325134277344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -209,
+          -274,
+          58.06037139892578,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -208,
+          -274,
+          58.184669494628906,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -207,
+          -274,
+          58.29612731933594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -206,
+          -274,
+          58.41718292236328,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -205,
+          -274,
+          58.52008056640625,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -204,
+          -274,
+          58.618919372558594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -203,
+          -274,
+          58.73127746582031,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -202,
+          -274,
+          58.82807159423828,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -201,
+          -274,
+          58.92138671875,
+          "MVP | terreno contínuo"
+        ]
+      ]
+    },
+    {
+      "y": -271,
+      "samples": [
+        [
+          -250,
+          -271,
+          49.114280700683594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -249,
+          -271,
+          49.322914123535156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -248,
+          -271,
+          49.488380432128906,
+          "MVP | percurso pedonal"
+        ],
+        [
+          -247,
+          -271,
+          49.591758728027344,
+          "MVP | percurso pedonal"
+        ],
+        [
+          -246,
+          -271,
+          49.676673889160156,
+          "MVP | percurso pedonal"
+        ],
+        [
+          -245,
+          -271,
+          49.75499725341797,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -244,
+          -271,
+          49.817710876464844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -243,
+          -271,
+          49.819419860839844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -242,
+          -271,
+          49.8890380859375,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -241,
+          -271,
+          50.04054260253906,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -240,
+          -271,
+          50.192047119140625,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -239,
+          -271,
+          50.34320831298828,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -238,
+          -271,
+          50.494407653808594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -237,
+          -271,
+          50.64557647705078,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -236,
+          -271,
+          50.79661560058594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -235,
+          -271,
+          50.937965393066406,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -234,
+          -271,
+          51.08740234375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -233,
+          -271,
+          51.237083435058594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -232,
+          -271,
+          51.83770751953125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -231,
+          -271,
+          54.72186279296875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -230,
+          -271,
+          55.28894805908203,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -229,
+          -271,
+          55.26160430908203,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -228,
+          -271,
+          55.231605529785156,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -227,
+          -271,
+          55.20671844482422,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -226,
+          -271,
+          55.17771911621094,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -225,
+          -271,
+          55.1448974609375,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -224,
+          -271,
+          55.118133544921875,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -223,
+          -271,
+          55.086021423339844,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -222,
+          -271,
+          55.05525207519531,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -221,
+          -271,
+          55.02684020996094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -220,
+          -271,
+          54.9959716796875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -219,
+          -271,
+          55.00468444824219,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -218,
+          -271,
+          55.062644958496094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -217,
+          -271,
+          55.22003936767578,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -216,
+          -271,
+          55.47428894042969,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -215,
+          -271,
+          55.79619598388672,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -214,
+          -271,
+          56.19287872314453,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -213,
+          -271,
+          56.600135803222656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -212,
+          -271,
+          56.992149353027344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -211,
+          -271,
+          57.28260803222656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -210,
+          -271,
+          57.482215881347656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -209,
+          -271,
+          57.655967712402344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -208,
+          -271,
+          57.81621551513672,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -207,
+          -271,
+          57.96800231933594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -206,
+          -271,
+          58.131378173828125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -205,
+          -271,
+          58.278602600097656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -204,
+          -271,
+          58.42179870605469,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -203,
+          -271,
+          58.577850341796875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -202,
+          -271,
+          58.717742919921875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -201,
+          -271,
+          58.85340881347656,
+          "MVP | terreno contínuo"
+        ]
+      ]
+    }
+  ],
+  "conceicao_nodes": [
+    {
+      "node": "619722483",
+      "hit": [
+        -222.1293885265477,
+        -282.56320933881216,
+        null,
+        null
+      ]
+    },
+    {
+      "node": "7550296909",
+      "hit": [
+        -236.1496537211351,
+        -272.6314609623514,
+        51.213706970214844,
+        "MVP | terreno contínuo"
+      ]
+    },
+    {
+      "node": "4210112613",
+      "hit": [
+        -241.0606571994722,
+        -269.30219589173794,
+        49.57227325439453,
+        "MVP | asfalto da ladeira"
+      ]
+    },
+    {
+      "node": "5424026032",
+      "hit": [
+        -245.99758023861796,
+        -258.69139144779183,
+        47.462005615234375,
+        "MVP | asfalto da ladeira"
+      ]
+    },
+    {
+      "node": "7267008796",
+      "hit": [
+        -246.32339221425354,
+        -248.59451149241067,
+        45.590179443359375,
+        "MVP | asfalto da ladeira"
+      ]
+    },
+    {
+      "node": "5424026033",
+      "hit": [
+        -238.98389625223354,
+        -241.4636097815819,
+        43.5618896484375,
+        "MVP | asfalto da ladeira"
+      ]
+    },
+    {
+      "node": "5424026035",
+      "hit": [
+        -177.79677897319198,
+        -174.5659238214139,
+        26.736129760742188,
+        "MVP | asfalto da ladeira"
+      ]
+    },
+    {
+      "node": "7520527645",
+      "hit": [
+        -148.4208546411246,
+        -150.1541886627674,
+        55.823143005371094,
+        "MVP | asfalto da ladeira"
+      ]
+    },
+    {
+      "node": "4527180952",
+      "hit": [
+        -141.40394542645663,
+        -129.30236118100584,
+        15.200271606445312,
+        "MVP | asfalto da ladeira"
+      ]
+    },
+    {
+      "node": "7267008795",
+      "hit": [
+        -146.85146306967363,
+        -122.06036427151412,
+        13.43438720703125,
+        "MVP | asfalto da ladeira"
+      ]
+    },
+    {
+      "node": "7267008793",
+      "hit": [
+        -150.82137452578172,
+        -117.04735104599968,
+        12.16107177734375,
+        "MVP | asfalto da ladeira"
+      ]
+    },
+    {
+      "node": "7267008794",
+      "hit": [
+        -153.3571950905025,
+        -114.61793496273458,
+        11.449005126953125,
+        "MVP | asfalto da ladeira"
+      ]
+    },
+    {
+      "node": "4527180951",
+      "hit": [
+        -170.0119497864507,
+        -103.90809846599586,
+        7.2556610107421875,
+        "MVP | asfalto da ladeira"
+      ]
+    },
+    {
+      "node": "1672367607",
+      "hit": [
+        -192.392731720116,
+        -83.38479644898325,
+        7.2560577392578125,
+        "MVP | asfalto da ladeira"
+      ]
+    }
+  ],
+  "width_sections": [
+    {
+      "edge": "way-1075624458-seg-2",
+      "fraction": 0.3,
+      "samples": [
+        [
+          -8.0,
+          56.326133728027344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.9,
+          56.35590362548828,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.8,
+          56.38477325439453,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.7,
+          56.407958984375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.6,
+          56.43115234375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.5,
+          56.45433807373047,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.4,
+          56.475624084472656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.3,
+          56.4937744140625,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.2,
+          56.511924743652344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.1,
+          56.52983093261719,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.0,
+          56.540611267089844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.9,
+          56.54582977294922,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.8,
+          56.55103302001953,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.7,
+          56.55595397949219,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.6,
+          56.560020446777344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.5,
+          56.56382751464844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.4,
+          56.566993713378906,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.3,
+          56.56989288330078,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.2,
+          56.57134246826172,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.1,
+          56.572792053222656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.0,
+          56.57432556152344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.9,
+          56.57585906982422,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.8,
+          56.57740783691406,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.7,
+          56.578941345214844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.6,
+          56.580482482910156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.5,
+          56.581329345703125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.4,
+          56.581336975097656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.3,
+          56.581336975097656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.2,
+          56.581329345703125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.1,
+          56.581329345703125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.0,
+          56.581321716308594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.9,
+          56.581321716308594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.8,
+          56.581321716308594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.7,
+          56.581321716308594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.6,
+          56.581321716308594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.5,
+          56.581321716308594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.4,
+          56.581321716308594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.3,
+          56.58131408691406,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.2,
+          56.581321716308594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.1,
+          56.581321716308594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -4.0,
+          56.581321716308594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -3.9,
+          56.581321716308594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -3.8,
+          56.581321716308594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -3.7,
+          56.58131408691406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -3.6,
+          56.581321716308594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -3.5,
+          56.58131408691406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -3.4,
+          56.58131408691406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -3.3,
+          56.58131408691406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -3.2,
+          56.58131408691406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -3.1,
+          56.58131408691406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -3.0,
+          56.58131408691406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -2.9,
+          56.58131408691406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -2.8,
+          56.58130645751953,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -2.7,
+          56.58131408691406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -2.6,
+          56.58130645751953,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -2.5,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -2.4,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -2.3,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -2.2,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -2.1,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -2.0,
+          56.58130645751953,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -1.9,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -1.8,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -1.7,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -1.6,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -1.5,
+          56.58130645751953,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -1.4,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -1.3,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -1.2,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -1.1,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -1.0,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.9,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.8,
+          56.58130645751953,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.7,
+          56.58130645751953,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.6,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.5,
+          56.58130645751953,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.4,
+          56.58130645751953,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.3,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.2,
+          56.58130645751953,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.1,
+          56.58130645751953,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.0,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.1,
+          56.58130645751953,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.2,
+          56.58130645751953,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.3,
+          56.58130645751953,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.4,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.5,
+          56.58130645751953,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.6,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.7,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.8,
+          56.58130645751953,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.9,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.0,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.1,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.2,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.3,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.4,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.5,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.6,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.7,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.8,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.9,
+          56.58129119873047,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          2.0,
+          56.58129119873047,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          2.1,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          2.2,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          2.3,
+          56.58129119873047,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          2.4,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          2.5,
+          56.58129119873047,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          2.6,
+          56.58129119873047,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          2.7,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          2.8,
+          56.581298828125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          2.9,
+          56.58129119873047,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.0,
+          56.58129119873047,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.1,
+          56.58129119873047,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.2,
+          56.58129119873047,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.3,
+          56.58128356933594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.4,
+          56.58128356933594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.5,
+          56.581275939941406,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.6,
+          56.581298828125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.7,
+          56.58130645751953,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.8,
+          56.581321716308594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.9,
+          56.581329345703125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.0,
+          56.58134460449219,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.1,
+          56.58135986328125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.2,
+          56.58137512207031,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.3,
+          56.581382751464844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.4,
+          56.5814208984375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.5,
+          56.58147430419922,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.6,
+          56.58153533935547,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.7,
+          56.58159637451172,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.8,
+          56.58164978027344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.9,
+          56.581703186035156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.0,
+          56.581756591796875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.1,
+          56.58345031738281,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.2,
+          56.58576202392578,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.3,
+          56.58808135986328,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.4,
+          56.59040069580078,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.5,
+          56.59270477294922,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.6,
+          56.59503173828125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.7,
+          56.59739685058594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.8,
+          56.600486755371094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.9,
+          56.60356903076172,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.0,
+          56.606651306152344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.1,
+          56.60972595214844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.2,
+          56.612815856933594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.3,
+          56.61589813232422,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.4,
+          56.618980407714844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.5,
+          56.62205505371094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.6,
+          56.629417419433594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.7,
+          56.63941955566406,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.8,
+          56.64939880371094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.9,
+          56.659393310546875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.0,
+          56.66938781738281,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.1,
+          56.680137634277344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.2,
+          56.69146728515625,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.3,
+          56.702789306640625,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.4,
+          56.71412658691406,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.5,
+          56.72544860839844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.6,
+          56.73677062988281,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.7,
+          56.74809265136719,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.8,
+          56.759422302246094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.9,
+          56.770751953125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          8.0,
+          56.782073974609375,
+          "MVP | terreno contínuo"
+        ]
+      ]
+    },
+    {
+      "edge": "way-1075624458-seg-2",
+      "fraction": 0.6,
+      "samples": [
+        [
+          -8.0,
+          55.788108825683594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.9,
+          55.82538604736328,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.8,
+          55.847862243652344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.7,
+          55.86701202392578,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.6,
+          55.885765075683594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.5,
+          55.904258728027344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.4,
+          55.919921875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.3,
+          55.93535614013672,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.2,
+          55.950439453125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.1,
+          55.96466827392578,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.0,
+          55.976593017578125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.9,
+          55.986732482910156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.8,
+          55.99687194824219,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.7,
+          56.005577087402344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.6,
+          56.01264953613281,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.5,
+          56.019615173339844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.4,
+          56.02656555175781,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.3,
+          56.02898406982422,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.2,
+          56.02954864501953,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.1,
+          56.030113220214844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.0,
+          56.030677795410156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.9,
+          56.031044006347656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.8,
+          56.031394958496094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.7,
+          56.03174591064453,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.6,
+          56.03199005126953,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.5,
+          56.03205108642578,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.4,
+          56.032127380371094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.3,
+          56.032188415527344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.2,
+          56.032257080078125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.1,
+          56.03233337402344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.0,
+          56.03240203857422,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.9,
+          56.032470703125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.8,
+          56.032493591308594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.7,
+          56.032501220703125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.6,
+          56.032493591308594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.5,
+          56.032501220703125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.4,
+          56.032501220703125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.3,
+          56.032501220703125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.2,
+          56.032493591308594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.1,
+          56.032493591308594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -4.0,
+          56.032493591308594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -3.9,
+          56.03248596191406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -3.8,
+          56.03248596191406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -3.7,
+          56.032493591308594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -3.6,
+          56.03248596191406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -3.5,
+          56.03248596191406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -3.4,
+          56.03248596191406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -3.3,
+          56.032493591308594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -3.2,
+          56.032493591308594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -3.1,
+          56.032493591308594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -3.0,
+          56.032493591308594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -2.9,
+          56.032493591308594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -2.8,
+          56.032493591308594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -2.7,
+          56.032493591308594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -2.6,
+          56.03248596191406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -2.5,
+          56.03248596191406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -2.4,
+          56.032493591308594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -2.3,
+          56.03248596191406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -2.2,
+          56.03248596191406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -2.1,
+          56.03247833251953,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -2.0,
+          56.03247833251953,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -1.9,
+          56.032470703125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -1.8,
+          56.03247833251953,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -1.7,
+          56.032470703125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -1.6,
+          56.03247833251953,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -1.5,
+          56.032470703125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -1.4,
+          56.032470703125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -1.3,
+          56.03247833251953,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -1.2,
+          56.032470703125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -1.1,
+          56.032470703125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -1.0,
+          56.03246307373047,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.9,
+          56.03246307373047,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.8,
+          56.03245544433594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.7,
+          56.03246307373047,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.6,
+          56.03245544433594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.5,
+          56.03245544433594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.4,
+          56.03245544433594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.3,
+          56.03245544433594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.2,
+          56.03245544433594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.1,
+          56.03245544433594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.0,
+          56.032447814941406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.1,
+          56.03245544433594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.2,
+          56.032447814941406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.3,
+          56.032447814941406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.4,
+          56.032447814941406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.5,
+          56.032447814941406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.6,
+          56.032447814941406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.7,
+          56.032447814941406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.8,
+          56.032447814941406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.9,
+          56.032447814941406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.0,
+          56.032447814941406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.1,
+          56.032447814941406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.2,
+          56.032447814941406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.3,
+          56.032447814941406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.4,
+          56.032447814941406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.5,
+          56.032447814941406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.6,
+          56.032440185546875,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.7,
+          56.032447814941406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.8,
+          56.032447814941406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.9,
+          56.032432556152344,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          2.0,
+          56.032447814941406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          2.1,
+          56.032447814941406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          2.2,
+          56.032440185546875,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          2.3,
+          56.032432556152344,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          2.4,
+          56.032440185546875,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          2.5,
+          56.032432556152344,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          2.6,
+          56.032440185546875,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          2.7,
+          56.03242492675781,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          2.8,
+          56.032432556152344,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          2.9,
+          56.032432556152344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.0,
+          56.032432556152344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.1,
+          56.032432556152344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.2,
+          56.032432556152344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.3,
+          56.032432556152344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.4,
+          56.03242492675781,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.5,
+          56.03242492675781,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.6,
+          56.03241729736328,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.7,
+          56.03242492675781,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.8,
+          56.03242492675781,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.9,
+          56.03241729736328,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.0,
+          56.03241729736328,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.1,
+          56.03241729736328,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.2,
+          56.03242492675781,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.3,
+          56.032875061035156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.4,
+          56.0333251953125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.5,
+          56.033782958984375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.6,
+          56.03423309326172,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.7,
+          56.03468322753906,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.8,
+          56.03514099121094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.9,
+          56.035606384277344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.0,
+          56.03606414794922,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.1,
+          56.03651428222656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.2,
+          56.037086486816406,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.3,
+          56.037841796875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.4,
+          56.038612365722656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.5,
+          56.03936004638672,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.6,
+          56.040130615234375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.7,
+          56.04088592529297,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.8,
+          56.0458984375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.9,
+          56.051475524902344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.0,
+          56.057044982910156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.1,
+          56.06261444091797,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.2,
+          56.06818389892578,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.3,
+          56.073760986328125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.4,
+          56.079322814941406,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.5,
+          56.08489227294922,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.6,
+          56.09144592285156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.7,
+          56.09812927246094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.8,
+          56.10481262207031,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.9,
+          56.111488342285156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.0,
+          56.11817932128906,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.1,
+          56.124847412109375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.2,
+          56.13153839111328,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.3,
+          56.14470672607422,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.4,
+          56.159690856933594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.5,
+          56.17466735839844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.6,
+          56.189659118652344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.7,
+          56.20463562011719,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.8,
+          56.21961212158203,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.9,
+          56.23511505126953,
+          "MVP | terreno contínuo"
+        ],
+        [
+          8.0,
+          56.25153350830078,
+          "MVP | terreno contínuo"
+        ]
+      ]
+    },
+    {
+      "edge": "way-421206045-seg-2",
+      "fraction": 0.5,
+      "samples": [
+        [
+          -8.0,
+          49.661773681640625,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.9,
+          49.61389923095703,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.8,
+          49.566009521484375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.7,
+          49.51813507080078,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.6,
+          49.46971130371094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.5,
+          49.42100524902344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.4,
+          49.37181854248047,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.3,
+          49.317466735839844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.2,
+          49.26176452636719,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.1,
+          49.204856872558594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.0,
+          49.14772033691406,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.9,
+          49.090492248535156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.8,
+          49.033836364746094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.7,
+          48.97807312011719,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.6,
+          48.922149658203125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.5,
+          48.865936279296875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.4,
+          48.81800842285156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.3,
+          48.79438781738281,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.2,
+          48.77076721191406,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.1,
+          48.747764587402344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.0,
+          48.72516632080078,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.9,
+          48.704734802246094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.8,
+          48.68385314941406,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.7,
+          48.662681579589844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.6,
+          48.641517639160156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.5,
+          48.62348937988281,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.4,
+          48.605491638183594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.3,
+          48.58751678466797,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.2,
+          48.575401306152344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.1,
+          48.5657958984375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.0,
+          48.55634307861328,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.9,
+          48.54685974121094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.8,
+          48.537376403808594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.7,
+          48.53453826904297,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.6,
+          48.53443145751953,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.5,
+          48.53431701660156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.4,
+          48.53419494628906,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.3,
+          48.53410339355469,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.2,
+          48.53398132324219,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.1,
+          48.53385925292969,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.0,
+          48.53374481201172,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -3.9,
+          48.53363800048828,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -3.8,
+          48.533538818359375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -3.7,
+          48.53343200683594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -3.6,
+          48.53333282470703,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -3.5,
+          48.533241271972656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -3.4,
+          48.53314971923828,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -3.3,
+          48.533050537109375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -3.2,
+          48.53296661376953,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -3.1,
+          48.53289031982422,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -3.0,
+          48.5328369140625,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -2.9,
+          48.532752990722656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -2.8,
+          48.532691955566406,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -2.7,
+          48.532630920410156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -2.6,
+          48.532569885253906,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -2.5,
+          48.532501220703125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -2.4,
+          48.53242492675781,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -2.3,
+          48.53235626220703,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -2.2,
+          48.532318115234375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -2.1,
+          48.53224182128906,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -2.0,
+          48.53218078613281,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -1.9,
+          48.53208923339844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -1.8,
+          48.53202819824219,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -1.7,
+          48.53197479248047,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -1.6,
+          48.53190612792969,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -1.5,
+          48.531829833984375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -1.4,
+          48.531776428222656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -1.3,
+          48.531707763671875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -1.2,
+          48.531639099121094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -1.1,
+          48.531578063964844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -1.0,
+          48.531517028808594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.9,
+          48.53144073486328,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.8,
+          48.5313720703125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.7,
+          48.53131866455078,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.6,
+          48.53125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.5,
+          48.53118133544922,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.4,
+          48.5311279296875,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.3,
+          48.53105926513672,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.2,
+          48.53099060058594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.1,
+          48.53092956542969,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.0,
+          48.530853271484375,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.1,
+          48.530784606933594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.2,
+          48.530723571777344,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.3,
+          48.53065490722656,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.4,
+          48.53059387207031,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.5,
+          48.53053283691406,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.6,
+          48.53046417236328,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.7,
+          48.5303955078125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.8,
+          48.53034210205078,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.9,
+          48.5302734375,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.0,
+          48.53020477294922,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.1,
+          48.53013610839844,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.2,
+          48.530067443847656,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.3,
+          48.529998779296875,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.4,
+          48.529937744140625,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.5,
+          48.529869079589844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          1.6,
+          48.529808044433594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          1.7,
+          48.52973937988281,
+          "MVP | terreno contínuo"
+        ],
+        [
+          1.8,
+          48.52967834472656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          1.9,
+          48.52960968017578,
+          "MVP | terreno contínuo"
+        ],
+        [
+          2.0,
+          48.52954864501953,
+          "MVP | terreno contínuo"
+        ],
+        [
+          2.1,
+          48.52947235107422,
+          "MVP | terreno contínuo"
+        ],
+        [
+          2.2,
+          48.52941131591797,
+          "MVP | terreno contínuo"
+        ],
+        [
+          2.3,
+          48.52934265136719,
+          "MVP | terreno contínuo"
+        ],
+        [
+          2.4,
+          48.52928924560547,
+          "MVP | terreno contínuo"
+        ],
+        [
+          2.5,
+          48.52922058105469,
+          "MVP | terreno contínuo"
+        ],
+        [
+          2.6,
+          48.529144287109375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          2.7,
+          48.529083251953125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          2.8,
+          48.529029846191406,
+          "MVP | terreno contínuo"
+        ],
+        [
+          2.9,
+          48.528961181640625,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.0,
+          48.528892517089844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.1,
+          48.528831481933594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.2,
+          48.52874755859375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.3,
+          48.52869415283203,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.4,
+          48.52862548828125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.5,
+          48.52855682373047,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.6,
+          48.528526306152344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.7,
+          48.52848815917969,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.8,
+          48.52845764160156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.9,
+          48.528411865234375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.0,
+          48.52838897705078,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.1,
+          48.52836608886719,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.2,
+          48.528343200683594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.3,
+          48.5283203125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.4,
+          48.52831268310547,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.5,
+          48.52830505371094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.6,
+          48.528297424316406,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.7,
+          48.528297424316406,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.8,
+          48.52830505371094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.9,
+          48.5283203125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.0,
+          48.52832794189453,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.1,
+          48.52830505371094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.2,
+          48.52832794189453,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.3,
+          48.52838134765625,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.4,
+          48.52808380126953,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.5,
+          48.52677917480469,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.6,
+          48.5255126953125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.7,
+          48.52410888671875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.8,
+          48.522544860839844,
+          "MVP | percurso pedonal"
+        ],
+        [
+          5.9,
+          48.52094268798828,
+          "MVP | percurso pedonal"
+        ],
+        [
+          6.0,
+          48.51953125,
+          "MVP | percurso pedonal"
+        ],
+        [
+          6.1,
+          48.517913818359375,
+          "MVP | percurso pedonal"
+        ],
+        [
+          6.2,
+          48.51628112792969,
+          "MVP | percurso pedonal"
+        ],
+        [
+          6.3,
+          48.51458740234375,
+          "MVP | percurso pedonal"
+        ],
+        [
+          6.4,
+          48.512786865234375,
+          "MVP | percurso pedonal"
+        ],
+        [
+          6.5,
+          48.51099395751953,
+          "MVP | percurso pedonal"
+        ],
+        [
+          6.6,
+          48.50914001464844,
+          "MVP | percurso pedonal"
+        ],
+        [
+          6.7,
+          48.50727081298828,
+          "MVP | percurso pedonal"
+        ],
+        [
+          6.8,
+          48.505470275878906,
+          "MVP | percurso pedonal"
+        ],
+        [
+          6.9,
+          48.49449157714844,
+          "MVP | percurso pedonal"
+        ],
+        [
+          7.0,
+          48.48255920410156,
+          "MVP | percurso pedonal"
+        ],
+        [
+          7.1,
+          48.47038269042969,
+          "MVP | percurso pedonal"
+        ],
+        [
+          7.2,
+          48.458152770996094,
+          "MVP | percurso pedonal"
+        ],
+        [
+          7.3,
+          48.44590759277344,
+          "MVP | percurso pedonal"
+        ],
+        [
+          7.4,
+          48.43363952636719,
+          "MVP | percurso pedonal"
+        ],
+        [
+          7.5,
+          48.42150115966797,
+          "MVP | percurso pedonal"
+        ],
+        [
+          7.6,
+          48.409446716308594,
+          "MVP | percurso pedonal"
+        ],
+        [
+          7.7,
+          48.39733123779297,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.8,
+          48.385292053222656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.9,
+          48.37328338623047,
+          "MVP | terreno contínuo"
+        ],
+        [
+          8.0,
+          48.361244201660156,
+          "MVP | terreno contínuo"
+        ]
+      ]
+    },
+    {
+      "edge": "way-421206045-seg-3",
+      "fraction": 0.5,
+      "samples": [
+        [
+          -8.0,
+          48.832733154296875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.9,
+          48.737022399902344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.8,
+          48.639060974121094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.7,
+          48.536705017089844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.6,
+          48.43434143066406,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.5,
+          48.331993103027344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.4,
+          48.229637145996094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.3,
+          48.127281188964844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.2,
+          48.024925231933594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.1,
+          47.922569274902344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -7.0,
+          47.82020568847656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.9,
+          47.74066925048828,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.8,
+          47.67591857910156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.7,
+          47.611175537109375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.6,
+          47.546485900878906,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.5,
+          47.47889709472656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.4,
+          47.41082000732422,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.3,
+          47.342735290527344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.2,
+          47.27021026611328,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.1,
+          47.197959899902344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -6.0,
+          47.125694274902344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.9,
+          47.053436279296875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.8,
+          46.982940673828125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.7,
+          46.91594696044922,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.6,
+          46.84895324707031,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.5,
+          46.78191375732422,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.4,
+          46.743553161621094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.3,
+          46.724510192871094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.2,
+          46.705482482910156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.1,
+          46.6864013671875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -5.0,
+          46.66918182373047,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.9,
+          46.65233612060547,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.8,
+          46.63549041748047,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.7,
+          46.618255615234375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.6,
+          46.60249328613281,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.5,
+          46.58673095703125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.4,
+          46.57096862792969,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.3,
+          46.556427001953125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.2,
+          46.54425048828125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.1,
+          46.532081604003906,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -4.0,
+          46.51991271972656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -3.9,
+          46.514915466308594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -3.8,
+          46.51490020751953,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -3.7,
+          46.51487731933594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -3.6,
+          46.514854431152344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -3.5,
+          46.51483154296875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -3.4,
+          46.51481628417969,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -3.3,
+          46.514793395996094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -3.2,
+          46.51478576660156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -3.1,
+          46.51475524902344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -3.0,
+          46.514739990234375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -2.9,
+          46.51471710205078,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -2.8,
+          46.51470184326172,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -2.7,
+          46.514671325683594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -2.6,
+          46.51466369628906,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -2.5,
+          46.51464080810547,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -2.4,
+          46.514617919921875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -2.3,
+          46.51459503173828,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -2.2,
+          46.51457214355469,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -2.1,
+          46.514549255371094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -2.0,
+          46.51453399658203,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -1.9,
+          46.5145263671875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -1.8,
+          46.514488220214844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -1.7,
+          46.51447296142578,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -1.6,
+          46.514442443847656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -1.5,
+          46.514427185058594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -1.4,
+          46.51441192626953,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -1.3,
+          46.51439666748047,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -1.2,
+          46.514373779296875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -1.1,
+          46.51435089111328,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -1.0,
+          46.51433563232422,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -0.9,
+          46.514312744140625,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -0.8,
+          46.51429748535156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -0.7,
+          46.51426696777344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -0.6,
+          46.514244079589844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          -0.5,
+          46.51422882080078,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.4,
+          46.51421356201172,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.3,
+          46.514183044433594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.2,
+          46.51416778564453,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          -0.1,
+          46.51414489746094,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.0,
+          46.514122009277344,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.1,
+          46.51410675048828,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.2,
+          46.51408386230469,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.3,
+          46.514060974121094,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.4,
+          46.51404571533203,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.5,
+          46.51402282714844,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.6,
+          46.513999938964844,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.7,
+          46.51398468017578,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.8,
+          46.51396179199219,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          0.9,
+          46.513938903808594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.0,
+          46.513916015625,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.1,
+          46.51390075683594,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.2,
+          46.513877868652344,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.3,
+          46.51384735107422,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.4,
+          46.51383972167969,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.5,
+          46.513816833496094,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.6,
+          46.5137939453125,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.7,
+          46.513771057128906,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.8,
+          46.513755798339844,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          1.9,
+          46.51373291015625,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          2.0,
+          46.513710021972656,
+          "MVP | asfalto da ladeira"
+        ],
+        [
+          2.1,
+          46.513694763183594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          2.2,
+          46.51367950439453,
+          "MVP | terreno contínuo"
+        ],
+        [
+          2.3,
+          46.51365661621094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          2.4,
+          46.513633728027344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          2.5,
+          46.51361846923828,
+          "MVP | terreno contínuo"
+        ],
+        [
+          2.6,
+          46.513587951660156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          2.7,
+          46.513572692871094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          2.8,
+          46.5135498046875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          2.9,
+          46.513526916503906,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.0,
+          46.513511657714844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.1,
+          46.51348114013672,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.2,
+          46.513458251953125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.3,
+          46.513450622558594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.4,
+          46.513427734375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.5,
+          46.513404846191406,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.6,
+          46.51338195800781,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.7,
+          46.51335906982422,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.8,
+          46.513336181640625,
+          "MVP | terreno contínuo"
+        ],
+        [
+          3.9,
+          46.51331329345703,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.0,
+          46.5133056640625,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.1,
+          46.513282775878906,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.2,
+          46.51325988769531,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.3,
+          46.51324462890625,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.4,
+          46.513221740722656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.5,
+          46.51319885253906,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.6,
+          46.51317596435547,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.7,
+          46.513153076171875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.8,
+          46.51313781738281,
+          "MVP | terreno contínuo"
+        ],
+        [
+          4.9,
+          46.51311492919922,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.0,
+          46.51310729980469,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.1,
+          46.51551818847656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.2,
+          46.51996612548828,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.3,
+          46.524436950683594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.4,
+          46.52888488769531,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.5,
+          46.534446716308594,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.6,
+          46.540321350097656,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.7,
+          46.54619598388672,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.8,
+          46.552085876464844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          5.9,
+          46.559226989746094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.0,
+          46.566368103027344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.1,
+          46.573516845703125,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.2,
+          46.58137512207031,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.3,
+          46.59016418457031,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.4,
+          46.59895324707031,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.5,
+          46.607749938964844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.6,
+          46.62493896484375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.7,
+          46.649383544921875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.8,
+          46.67381286621094,
+          "MVP | terreno contínuo"
+        ],
+        [
+          6.9,
+          46.6982421875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.0,
+          46.724334716796875,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.1,
+          46.750885009765625,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.2,
+          46.777427673339844,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.3,
+          46.80400085449219,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.4,
+          46.831275939941406,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.5,
+          46.858558654785156,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.6,
+          46.885833740234375,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.7,
+          46.914024353027344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.8,
+          46.94493103027344,
+          "MVP | terreno contínuo"
+        ],
+        [
+          7.9,
+          46.97584533691406,
+          "MVP | terreno contínuo"
+        ],
+        [
+          8.0,
+          47.00676727294922,
+          "MVP | terreno contínuo"
+        ]
+      ]
+    }
+  ]
+}

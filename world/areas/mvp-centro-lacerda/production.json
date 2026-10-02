@@ -2,11 +2,11 @@
   "schema": "boas/production-v1",
   "area_id": "mvp-centro-lacerda",
   "world_source": {
-    "file": "blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a11_pedestrian_nav.blend",
-    "sha256": "de552b045d190c8feadcb763539e2f0f0b1ce68b6a231884bbe7d70fcd8fd396",
+    "file": "blender/salvador_lacerda_r30b30_conexao_real_recorte.blend",
+    "sha256": "28c608846d8da3a7e918b7e3f8744b1c456d89176849f81406a0ddce71ad0132",
     "scene": "SALVADOR | ESBOCO OFICIAL",
-    "revision": "R30A.11",
-    "selection_reason": "Revisão escolhida explicitamente para o MVP; não promover R30A.12 automaticamente"
+    "revision": "R30B.30",
+    "selection_reason": "Derivada da R30B23; amplia localmente o recorte de terreno na conexão OSM real da Praça Castro Alves, sem mover vértices anteriores ou alterar larguras. Conceição permanece em revisão, sem circuito/ônibus aprovado."
   },
   "coordinates": {
     "blender": "X,Y,Z",
@@ -78,8 +78,8 @@
     "public_root": "prototypes/threejs-water-lab/public",
     "streaming": {
       "cell_m": 256,
-      "load_radius_m": 384,
-      "unload_radius_m": 512,
+      "load_radius_m": 160,
+      "unload_radius_m": 230,
       "concurrency": 2,
       "update_interval_s": 0.5
     },
@@ -104,8 +104,8 @@
         "maxZ": 900
       },
       "spawn": {
-        "x": -34,
-        "z": -28,
+        "x": -16.28045,
+        "z": 84.75884,
         "headingDeg": 0
       },
       "traffic": {
@@ -134,7 +134,12 @@
       "cycleway": 2.4,
       "default": 4.8
     },
-    "road_widths_status": "gameplay_approximation_not_surveyed"
+    "road_widths_status": "not_verified_do_not_use_to_resize_source_geometry",
+    "spawn": {
+      "x": -16.28045,
+      "z": 84.75884,
+      "headingDeg": 0
+    }
   },
   "limitations": [
     "Terreno visual amplo permanece no pacote core; subdivisão geométrica e LOD ainda pendentes.",

@@ -215,6 +215,11 @@ def main():
     # Veículos são assets completos: nunca passar rig/animação pelo particionador estático.
     vehicle = emit(contract['vehicle']['id'],'vehicle.glb',resolve(inputs['vehicle']).read_bytes(),source=contract['vehicle']['source'],dimensions=contract['vehicle']['dimensions'])
     assets = {'vehicle':vehicle}
+    if 'urban_slice' in inputs:
+        urban_slice = json.loads(resolve(inputs['urban_slice']).read_text(encoding='utf-8'))
+        if urban_slice.get('source', {}).get('sha256') != contract['world_source']['sha256']:
+            raise ValueError('Superfícies da slice pertencem a outra revisão')
+        assets['urban_slice'] = emit('urban-slice', 'urban_slice.json', encode(urban_slice))
     # Legado exportado em X,Z,Y; a release tem somente o contrato glTF canônico.
     if surfaces['coordinates'] == 'x=Blender.X,y=Blender.Z,z=Blender.Y; meters':
         for mesh in surfaces['meshes']:
