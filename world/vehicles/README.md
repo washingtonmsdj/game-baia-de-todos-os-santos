@@ -2,12 +2,16 @@
 
 ## Fonte atual da viatura Rondesp
 
-O catálogo aponta explicitamente para `blender/assets/vehicles/rondesp-pickup/marrom_v24_farois.blend`.
-A V24 inclui montagem completa, materiais, faróis reforçados e demonstração de quatro portas,
-giroflex azul/vermelho e freio. `intensidade_farois` ajusta os faróis no root;
-`demonstracao_ativa=0` devolve portas e freio aos controles manuais. Revisões anteriores preservadas.
-Fonte candidata, sem integração runtime: os controles de gameplay e o pós-processamento precisam
-ser implementados na engine. As seções datadas abaixo registram o histórico da autoria.
+O catálogo aponta explicitamente para `blender/assets/vehicles/rondesp-pickup/marrom_v25_lanternas_re.blend`.
+A V25 inclui montagem completa, materiais, faróis V24 e demonstração de quatro portas,
+giroflex azul/vermelho, freio e ré branca. A posição vermelha é discreta; freio intensifica
+o setor vermelho superior e acende a terceira luz; ré branca ilumina atrás por dois feixes.
+`intensidade_farois` ajusta os faróis; `demonstracao_ativa=0` devolve portas e luzes aos controles
+manuais. No root, `freio` e `re_engatada` são independentes de `lanternas_ligadas`.
+Frame 160 demonstra freio; frame 200 demonstra ré. Usar Renderizado para ver iluminação.
+V24 e revisões anteriores preservadas. Fonte candidata, sem integração runtime: os controles
+de gameplay e o pós-processamento precisam ser implementados na engine. As seções datadas
+abaixo registram o histórico da autoria.
 
 ## 02/10/2026 — Hilux Rondesp: fonte V04
 

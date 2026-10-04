@@ -38,6 +38,7 @@ def resolve_capture_bounds_source(osm: Path, explicit: Path | None) -> Path | No
 def main() -> int:
     parser = argparse.ArgumentParser(description="Executa OSM -> QA topológico/DEM -> fit geográfico -> referência Blender.")
     parser.add_argument("--osm", type=Path, required=True)
+    parser.add_argument("--capture-id", help="ID registrado da captura para proveniência de trânsito")
     parser.add_argument("--hints", type=Path, required=True)
     parser.add_argument("--dem", type=Path)
     parser.add_argument("--capture-bounds-source", type=Path, help="manifest/source_summary/area.json; por padrão usa manifest.json ao lado do map.osm")
@@ -177,6 +178,20 @@ def main() -> int:
         command.append("--allow-weak-fit")
     run(command, "Geração da referência estrutural Blender")
 
+    # Expandir a área também exige preservar semântica de trânsito e ônibus.
+    # Estes arquivos são referência; não geram faixas ou autorizam geometria.
+    road_graph = output_dir / "road_graph.json"
+    transport_source = output_dir / "osm_transport_reference.json"
+    run([sys.executable, str(root / "tools/world/build_road_graph.py"),
+         "--structure", str(structure), "--fit", str(fit),
+         "--output", str(road_graph)], "Grafo viário de referência")
+    transport_command = [sys.executable, str(root / "tools/world/extract_osm_transport.py"),
+                         "--osm", str(osm), "--graph", str(road_graph),
+                         "--output", str(transport_source)]
+    if args.capture_id:
+        transport_command.extend(["--capture-id", args.capture_id])
+    run(transport_command, "Sentidos, faixas, restrições e transporte coletivo OSM")
+
     topology_data = json.loads(topology.read_text(encoding="utf-8"))
     summary = {
         "output_dir": str(output_dir),
@@ -184,6 +199,9 @@ def main() -> int:
         "osm_topology_audit": str(topology),
         "georef_fit": str(fit),
         "structural_reference": str(reference),
+        "road_graph": str(road_graph),
+        "osm_transport_reference": str(transport_source),
+        "transport_approval": "reference_only_widths_directions_lanes_and_bus_pending_scene_qa",
         "dem_audit": str(dem_audit) if dem else None,
         "dem_osm_coverage": str(dem_osm_coverage) if dem else None,
         "dem_coverage_status": dem_coverage_status,

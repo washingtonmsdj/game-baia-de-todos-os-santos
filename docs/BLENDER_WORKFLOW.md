@@ -186,3 +186,7 @@ A fonte atual do catálogo inclui demonstração 1–240: Espaço inicia/pausa p
 ## Faróis Rondesp V24 e runtime
 
 `intensidade_farois` no root é multiplicador de potência/emissão; 1 corresponde ao reforço V24 e 0 apaga. `farois_ligados` mantém o comando 0/1. Os valores Blender não são consumo elétrico do carro. Preview, compositor e drivers são autoria. O código de gameplay precisará dirigir faróis, giroflex, freio e portas com estados/entradas reais. Reutilizar geometria/pivôs/material compatível e posições das luzes; amostrar animações quando necessário. Não considerar a demo integrada na engine nem promover a produção sem exportação/importação e revisão explícitas.
+
+## Viatura V25 — conferir posição, freio e ré
+
+Fonte explícita em `world/vehicles/catalog.json`. Abrir `marrom_v25_lanternas_re.blend` na única janela e selecionar Renderizado com luzes/mundo da cena. Frame 160: freio e terceira luz; frame 200: ré branca; Espaço reproduz o ciclo de portas e luzes. Para controle manual no `RDP01_ROOT | viatura`, definir `demonstracao_ativa=0`, então `lanternas_ligadas`, `freio` e `re_engatada` como 0/1. Freio e ré independem da posição e podem operar juntos. O ciclo e os drivers não são implementação de gameplay na engine. V24 preservada; relatório de reabertura e comparações em `docs/reports/blender/rondesp_lanternas_v25.json`.

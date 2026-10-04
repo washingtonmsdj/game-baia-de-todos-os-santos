@@ -1,0 +1,11 @@
+{
+  "schema": "boas/transport-gate-v1",
+  "schema_errors": [],
+  "pending_checks": 977,
+  "contract_consistent": true,
+  "production_ready": false,
+  "checked_ways": 187,
+  "checked_segments": 743,
+  "status": "needs_review",
+  "note": "Contrato consistente não equivale a aprovação das medidas, ruas ou rotas."
+}

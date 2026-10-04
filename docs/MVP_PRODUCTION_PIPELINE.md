@@ -1,8 +1,8 @@
 # Produção do MVP: Blender → pacote interoperável → Three.js
 
-> Modelagem atual: B38 (binding da Conceição e refino local do colisor), candidata no catálogo. Produção mantém B30; nenhum pacote novo foi exportado. O replay parcial não aprova o circuito completo.
+> Modelagem atual: B40 (colisor local, auditoria de largura e fluxos candidatos), candidata no catálogo. Produção mantém B30; nenhum pacote novo foi exportado. O replay cinemático de 97,79 m não aprova toda a rede ou a física.
 
-Em 02/10/2026: trabalho autoral candidato B38 no catálogo
+Em 04/10/2026: trabalho autoral candidato B40 no catálogo
 `world/areas/mvp-centro-lacerda/blender-revisions.json`; produção registrada B30
 em `production.json`. B23 é antecessora. Política/entrada guardada:
 `docs/BLENDER_REVISION_POLICY.md`. Não escolher fonte pela janela aberta ou pelo
@@ -140,3 +140,7 @@ historicamente versionados permanecem rastreáveis até migração dedicada.
 Os scripts históricos em `automation/blender/r*` são histórico de revisões,
 não entradas de produção concorrentes. Novos trabalhos devem partir do wrapper
 canônico e do contrato, sem procurar "o arquivo mais recente".
+
+## Gate de vias e expansão
+
+Referência/contrato de fluxo candidatos não substituem os derivados runtime. Aplicar `docs/ROAD_TRANSPORT_PRODUCTION.md`; `validate_transport_network.py --require-production-ready` bloqueia aprovação enquanto largura, sentido, apoio e ônibus estiverem pendentes. Fonte/produção permanecem explícitas no catálogo/contrato, sem exportar B40 neste passe.

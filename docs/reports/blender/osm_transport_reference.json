@@ -1,0 +1,4006 @@
+{
+  "schema": "boas/osm-transport-source-v1",
+  "status": "reference_not_current_operation_verified",
+  "source": {
+    "file_name": "map.osm",
+    "sha256": "a96cd5ae5faf4dbb5d84ae120d545ab67f72be51b3330bcb2b23313169a48112",
+    "license": "OpenStreetMap ODbL; atribuição obrigatória",
+    "scope": "Ways do grafo; relações e paradas da captura, não itinerários completos aprovados.",
+    "capture_id": "aleph-20260924T205631Z-aqqo7pkx",
+    "graph_sha256": "5da6660088ebcbf067adfcb768dad4776334d8bee5ce6aa7ecef4ffe826bdf7b"
+  },
+  "ways": [
+    {
+      "id": 8505042,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua do Tijolo",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "1586476121",
+        "619749377",
+        "4047832935",
+        "7550296808",
+        "991899991"
+      ]
+    },
+    {
+      "id": 30968017,
+      "tags": {
+        "cycleway:right:conditional": "yes @ (su 07:00-16:00)",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "Rua Chile",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "surface": "sett"
+      },
+      "node_refs": [
+        "34592712",
+        "13348016147",
+        "4002451307",
+        "4007759713"
+      ]
+    },
+    {
+      "id": 30968024,
+      "tags": {
+        "alt_name": "Rua Rodrigo Silva",
+        "highway": "residential",
+        "name": "Rua do Tira Chapéu",
+        "surface": "paved"
+      },
+      "node_refs": [
+        "344371770",
+        "344371769",
+        "344371768"
+      ]
+    },
+    {
+      "id": 46348179,
+      "tags": {
+        "alt_name": "Avenida Contorno",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "name": "Avenida Lafayete Coutinho",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "592378620",
+        "3940312599",
+        "1672367592",
+        "5423989354",
+        "619723494",
+        "7550297061"
+      ]
+    },
+    {
+      "id": 48486871,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Rua Alvares Cabral",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "5140161972",
+        "619723270",
+        "5423794527",
+        "5423794529",
+        "5140161974",
+        "616073326"
+      ]
+    },
+    {
+      "id": 48846533,
+      "tags": {
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Rua Ruy Barbosa",
+        "oneway": "yes",
+        "surface": "paved"
+      },
+      "node_refs": [
+        "3988415048",
+        "7550296814",
+        "344371769",
+        "7550296841",
+        "7550296840",
+        "991900049"
+      ]
+    },
+    {
+      "id": 48846608,
+      "tags": {
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Rua da Argentina",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "619723016",
+        "5423905997",
+        "619723005"
+      ]
+    },
+    {
+      "id": 48846615,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "Rua da Polônia",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "1586482151",
+        "5423905999",
+        "13959944402",
+        "5423871267",
+        "5140161983"
+      ]
+    },
+    {
+      "id": 48846617,
+      "tags": {
+        "alt_name": "Rua Jose Pires de Albuquerque",
+        "highway": "residential",
+        "name": "Rua Rodrigues Alves",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "3178050248",
+        "7260777071",
+        "5423794526",
+        "5423794528",
+        "6401719190",
+        "5423794529"
+      ]
+    },
+    {
+      "id": 48846625,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Ladeira da Montanha",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "wikidata": "Q10315487",
+        "wikipedia": "pt:Ladeira da Montanha"
+      },
+      "node_refs": [
+        "1196075508",
+        "7260777075",
+        "7260777076",
+        "7260777077",
+        "619723456",
+        "7260777074",
+        "3940257662",
+        "7272614411",
+        "7272614410",
+        "7267008791",
+        "2394997055"
+      ]
+    },
+    {
+      "id": 48846634,
+      "tags": {
+        "highway": "service",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "619723494",
+        "8986745183",
+        "7520527651",
+        "619723497",
+        "619723499",
+        "12221362561",
+        "736589819",
+        "12230572524",
+        "619723500"
+      ]
+    },
+    {
+      "id": 48846636,
+      "tags": {
+        "highway": "residential",
+        "name": "Praça Condé dos Arcos",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "5140161977",
+        "1586482161"
+      ]
+    },
+    {
+      "id": 48846640,
+      "tags": {
+        "highway": "residential",
+        "name": "Beco do Frazão"
+      },
+      "node_refs": [
+        "619723519",
+        "5425187850",
+        "619723533"
+      ]
+    },
+    {
+      "id": 48846642,
+      "tags": {
+        "highway": "residential",
+        "name": "Caminho Novo do Taboão",
+        "note": "There's a difference between IBGE data (Caminho Novo do Tabuão) and OSM data (Caminho Novo do Taboão)",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "619723534",
+        "7258689639",
+        "7258689640",
+        "7258689636",
+        "619723537",
+        "7258689638",
+        "7258689635",
+        "3940312621",
+        "6321030800"
+      ]
+    },
+    {
+      "id": 48846645,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua do Julião"
+      },
+      "node_refs": [
+        "1586482159",
+        "619723554",
+        "7261039344",
+        "7261039343",
+        "7261039342",
+        "3940312622"
+      ]
+    },
+    {
+      "id": 48848241,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua das Flores",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "7258356603",
+        "4323313602",
+        "7258689656",
+        "7258689657",
+        "4007849684"
+      ]
+    },
+    {
+      "id": 48848243,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua do Passo",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "619739834",
+        "7258689654",
+        "7258689653",
+        "3986616623"
+      ]
+    },
+    {
+      "id": 48848250,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "60",
+        "name": "Avenida José Joaquim Seabra",
+        "oneway": "yes",
+        "sidewalk": "both",
+        "surface": "paved",
+        "wheelchair": "limited"
+      },
+      "node_refs": [
+        "7272614423",
+        "3940312601",
+        "7550296829",
+        "619739873",
+        "619739874",
+        "7550296830",
+        "3940312600",
+        "1909363547",
+        "7266896121",
+        "7519736206",
+        "1862216652",
+        "3843392564",
+        "5435958500",
+        "5435958499"
+      ]
+    },
+    {
+      "id": 48848251,
+      "tags": {
+        "highway": "residential",
+        "lane_markings": "no",
+        "name": "Rua Leovigildo de Carvalho",
+        "surface": "sett"
+      },
+      "node_refs": [
+        "991900072",
+        "991900184"
+      ]
+    },
+    {
+      "id": 48848284,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua do Açouguinho",
+        "surface": "unhewn_cobblestone"
+      },
+      "node_refs": [
+        "619740014",
+        "619740015"
+      ]
+    },
+    {
+      "id": 48848298,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua da Fonte do Gravats",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "1585129907",
+        "7550297012",
+        "1909363581",
+        "7550297013",
+        "7266896148",
+        "1909363574",
+        "619740241",
+        "619740226",
+        "619740206"
+      ]
+    },
+    {
+      "id": 48848299,
+      "tags": {
+        "highway": "residential",
+        "name": "Ladeira de Santana",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "1862216651",
+        "3940257548",
+        "7550297014",
+        "619740293",
+        "619740241"
+      ]
+    },
+    {
+      "id": 48848318,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Tingui",
+        "oneway": "yes",
+        "surface": "paved"
+      },
+      "node_refs": [
+        "619740241",
+        "619740555",
+        "3940257505",
+        "5522866307",
+        "5522875322"
+      ]
+    },
+    {
+      "id": 48849048,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua do Tesouro"
+      },
+      "node_refs": [
+        "616073355",
+        "3988415047",
+        "1703474649"
+      ]
+    },
+    {
+      "id": 48849200,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Frederico de Castro Rabelo",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "1672367447",
+        "5423794536",
+        "619750168"
+      ]
+    },
+    {
+      "id": 59392607,
+      "tags": {
+        "highway": "service",
+        "service": "parking_aisle"
+      },
+      "node_refs": [
+        "736589894",
+        "736589819"
+      ]
+    },
+    {
+      "id": 85523434,
+      "tags": {
+        "highway": "residential",
+        "name": "Largo Terreiro de Jesus",
+        "oneway": "yes",
+        "surface": "sett"
+      },
+      "node_refs": [
+        "1350858743",
+        "3988415045",
+        "13167153022",
+        "991899747",
+        "13167153024",
+        "3986616624",
+        "7260794986",
+        "7260794987",
+        "7260794988",
+        "7260794989",
+        "34592703",
+        "13167153027",
+        "1703474612",
+        "13167153026",
+        "1350858743"
+      ]
+    },
+    {
+      "id": 85523435,
+      "tags": {
+        "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed:type": "BR:urban",
+        "name": "Rua da Ordem Terceira",
+        "oneway": "yes",
+        "surface": "unhewn_cobblestone"
+      },
+      "node_refs": [
+        "619740028",
+        "1703440564",
+        "1703440561",
+        "619740029",
+        "619740025",
+        "619740019"
+      ]
+    },
+    {
+      "id": 85524300,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rua da Bélgica",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "1586482164",
+        "7523817822",
+        "6987260413",
+        "1586482168"
+      ]
+    },
+    {
+      "id": 103595139,
+      "tags": {
+        "highway": "residential",
+        "name": "Ladeira da Misericórdia",
+        "source": "Bing",
+        "surface": "cobblestone"
+      },
+      "node_refs": [
+        "5436479156",
+        "12230823962",
+        "5436479155",
+        "11298494892",
+        "12237370377",
+        "1196075500",
+        "1196075501",
+        "12189975111",
+        "7263547381",
+        "7263557485"
+      ]
+    },
+    {
+      "id": 120479885,
+      "tags": {
+        "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed:type": "BR:urban",
+        "name": "Rua das Laranjeiras",
+        "surface": "unhewn_cobblestone"
+      },
+      "node_refs": [
+        "1350858750",
+        "619740024",
+        "619740025",
+        "2420619396",
+        "4048123282"
+      ]
+    },
+    {
+      "id": 122790586,
+      "tags": {
+        "highway": "residential",
+        "name": "Ladeira do Carmo",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "4007849684",
+        "619739840",
+        "7258689665",
+        "5148629906",
+        "7258689663",
+        "7258689661"
+      ]
+    },
+    {
+      "id": 136796564,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua da Oração",
+        "surface": "sett"
+      },
+      "node_refs": [
+        "1350858743",
+        "2316666785",
+        "619749348",
+        "11033100660",
+        "991900104"
+      ]
+    },
+    {
+      "id": 136796565,
+      "tags": {
+        "highway": "residential",
+        "name": "Baixa dos Sapateiros"
+      },
+      "node_refs": [
+        "619723536",
+        "619739847"
+      ]
+    },
+    {
+      "id": 145041517,
+      "tags": {
+        "highway": "residential",
+        "name": "Ladeira da Palma"
+      },
+      "node_refs": [
+        "619749414",
+        "2618436916",
+        "1585109324",
+        "3940257553",
+        "7556976559",
+        "1585109342",
+        "3940257554",
+        "7556976558",
+        "1585129965"
+      ]
+    },
+    {
+      "id": 145041525,
+      "tags": {
+        "highway": "residential",
+        "lanes": "2",
+        "name": "Rua do Gravatá",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "1585129965",
+        "5155859973",
+        "5155859977",
+        "1585109296",
+        "7556976557",
+        "3940257549",
+        "3940257550",
+        "7271761461",
+        "1585109330",
+        "7556976553",
+        "5155859978",
+        "3839447721",
+        "619740206"
+      ]
+    },
+    {
+      "id": 145042862,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Ladeira de Santana",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "5435958499",
+        "1862216651"
+      ]
+    },
+    {
+      "id": 145218124,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "60",
+        "name": "Avenida José Joaquim Seabra",
+        "oneway": "no",
+        "sidewalk": "both",
+        "wheelchair": "limited"
+      },
+      "node_refs": [
+        "619749361",
+        "7550296837",
+        "7550296838",
+        "7550296839",
+        "344371770",
+        "11352638448",
+        "1586482163",
+        "1586482148",
+        "619722403"
+      ]
+    },
+    {
+      "id": 145218126,
+      "tags": {
+        "highway": "service",
+        "oneway": "no"
+      },
+      "node_refs": [
+        "1586476123",
+        "9054488062",
+        "619749377"
+      ]
+    },
+    {
+      "id": 145218127,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Visconde de Itaparica",
+        "surface": "paved"
+      },
+      "node_refs": [
+        "1586476125",
+        "7271895910",
+        "1586476116",
+        "2628525917",
+        "7271895908",
+        "7271895907",
+        "1586476140",
+        "6150846217",
+        "3988415048"
+      ]
+    },
+    {
+      "id": 145218130,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua do Tijolo",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "991899991",
+        "991900104"
+      ]
+    },
+    {
+      "id": 145218778,
+      "tags": {
+        "highway": "service"
+      },
+      "node_refs": [
+        "1586482158",
+        "11352656417",
+        "11352656416",
+        "11352656415",
+        "1586482158",
+        "9054302072",
+        "1586482148"
+      ]
+    },
+    {
+      "id": 145218785,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "3",
+        "name": "Avenida Estados Unidos",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "592378745",
+        "4896535703"
+      ]
+    },
+    {
+      "id": 145218787,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rua da Bélgica",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "7261348351",
+        "5423989368",
+        "9264983513",
+        "10725704657",
+        "7523817816",
+        "7523817815",
+        "7523817814",
+        "7523817813",
+        "7523817812"
+      ]
+    },
+    {
+      "id": 145218788,
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Rua Conselheiro Dantas",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "2111557380",
+        "5423856728",
+        "5423856732",
+        "1586482167",
+        "5423871265",
+        "5423871266",
+        "5423794530",
+        "5140161978"
+      ]
+    },
+    {
+      "id": 145218789,
+      "tags": {
+        "highway": "service",
+        "name": "Rua Rodrigo Silva"
+      },
+      "node_refs": [
+        "1586482149",
+        "9054302073",
+        "1586482163"
+      ]
+    },
+    {
+      "id": 145218792,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Rua da Holanda",
+        "oneway": "yes",
+        "surface": "cobblestone"
+      },
+      "node_refs": [
+        "1672367330",
+        "7520527641",
+        "5423912751"
+      ]
+    },
+    {
+      "id": 154743326,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua do Corpo Santo",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "1712584815",
+        "7520527558",
+        "5423847936",
+        "5423843924",
+        "619750172",
+        "619723492"
+      ]
+    },
+    {
+      "id": 154743329,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Rua da Conceição da Praia",
+        "oneway": "yes",
+        "surface": "sett"
+      },
+      "node_refs": [
+        "4527284526",
+        "1672367636",
+        "3986605267"
+      ]
+    },
+    {
+      "id": 154743330,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Visconde do Rosário",
+        "note": "OSG spelling \"Rosario,\" IBGE spelling \"Rasario\"",
+        "oneway": "no"
+      },
+      "node_refs": [
+        "2892588117",
+        "11764823533"
+      ]
+    },
+    {
+      "id": 154743335,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rua da Bélgica",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "1586482157",
+        "1586482164"
+      ]
+    },
+    {
+      "id": 154743338,
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Rua do Corpo Santo",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "619723492",
+        "7519736189",
+        "7519736190",
+        "1672367524",
+        "7519736191",
+        "1672367563"
+      ]
+    },
+    {
+      "id": 158089951,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Rua da Ajuda",
+        "oneway": "yes",
+        "surface": "paved"
+      },
+      "node_refs": [
+        "4007759718",
+        "13304581714",
+        "1703474642",
+        "1703474645",
+        "6939750290",
+        "5171279981",
+        "1703474649"
+      ]
+    },
+    {
+      "id": 180507770,
+      "tags": {
+        "highway": "residential",
+        "lanes": "2",
+        "name": "Ladeira da Praça",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "619749361",
+        "7550296812",
+        "1585129965"
+      ]
+    },
+    {
+      "id": 201205887,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Conselheiro Lafayette",
+        "oneway": "no"
+      },
+      "node_refs": [
+        "3178050249",
+        "7260777072",
+        "619723472"
+      ]
+    },
+    {
+      "id": 231091546,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Ladeira da Praça",
+        "oneway": "yes",
+        "surface": "paved"
+      },
+      "node_refs": [
+        "4007759713",
+        "13304581715",
+        "4007759718",
+        "7271761453",
+        "619749362"
+      ]
+    },
+    {
+      "id": 231091547,
+      "tags": {
+        "cycleway:right:conditional": "yes @ (su 07:00-16:00)",
+        "description": "A rua Chile é tida como a primeira do país. A via foi fundada em 1549 pelo governador Thomé de Souza como Rua Direita dos Mercadores. O atual nome é uma homenagem a quatro embaixadores chilenos que morreram de peste bubônica no Rio, em 1902.",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "Rua Chile",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "postal_code": "40020-000",
+        "source": "Livro: Histórias de Salvador nos Nomes das Suas Ruas;Companhia de Desenvolvimento Urbano dos Estado da Bahia",
+        "surface": "paved"
+      },
+      "node_refs": [
+        "3988415046",
+        "5157564529",
+        "5171279982",
+        "6939750291",
+        "34592721",
+        "13304581716",
+        "13348016139",
+        "34592712"
+      ]
+    },
+    {
+      "id": 231091548,
+      "tags": {
+        "bicycle:conditional": "yes @ (su 07:00-16:00)",
+        "cycleway:right": "lane",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Rua Guedes de Brito",
+        "note": "IBGE spelling \"Britto\" OSM spelling \"Brito\"",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "1703384768",
+        "7260777083",
+        "7260777082",
+        "7260794985",
+        "1703384777"
+      ]
+    },
+    {
+      "id": 231091549,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Guedes de Brito",
+        "note": "IBGE spelling \"Britto\" OSM spelling \"Brito\""
+      },
+      "node_refs": [
+        "2394997042",
+        "11033100660",
+        "2394997039"
+      ]
+    },
+    {
+      "id": 231091550,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Guedes de Brito",
+        "note": "IBGE spelling \"Britto\" OSM spelling \"Brito\"",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "2394997039",
+        "12223620615",
+        "1703384777"
+      ]
+    },
+    {
+      "id": 231091551,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua José Gonçalves",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "1703384777",
+        "1703474618",
+        "4007759718"
+      ]
+    },
+    {
+      "id": 231091553,
+      "tags": {
+        "bicycle:conditional": "yes @ (su 07:00-16:00)",
+        "cycleway:left": "lane",
+        "highway": "residential",
+        "name": "Rua da Ajuda",
+        "oneway": "yes",
+        "oneway:bicycle": "no"
+      },
+      "node_refs": [
+        "1703384777",
+        "2892547408",
+        "2892547387",
+        "13167199236",
+        "1703384730"
+      ]
+    },
+    {
+      "id": 231091554,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua das Vassouras",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "7550296814",
+        "7550296815",
+        "7550296816",
+        "616073355",
+        "1703474645"
+      ]
+    },
+    {
+      "id": 231091555,
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Rua do Pau da Bandeira",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "34592721",
+        "13304581717",
+        "7271761459",
+        "344371380",
+        "11298395761",
+        "2394997053",
+        "2394997055"
+      ]
+    },
+    {
+      "id": 231091556,
+      "tags": {
+        "alt_name": "Praça Padre Antônio Vieira",
+        "highway": "residential",
+        "name": "Rua do Tira Chapéu",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "619749373",
+        "344371767",
+        "1703474642",
+        "34592712"
+      ]
+    },
+    {
+      "id": 231091558,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua das Vassouras",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "1703474645",
+        "34592721"
+      ]
+    },
+    {
+      "id": 231092209,
+      "tags": {
+        "highway": "residential",
+        "lane_markings": "no",
+        "name": "Rua Saldanha da Gama",
+        "oneway": "yes",
+        "surface": "sett"
+      },
+      "node_refs": [
+        "1703474612",
+        "1586476146",
+        "619749359",
+        "2394997039"
+      ]
+    },
+    {
+      "id": 231092210,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua do Tijolo",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "991900104",
+        "991900086"
+      ]
+    },
+    {
+      "id": 231092211,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua do Tijolo",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "991900086",
+        "7267008787",
+        "7267008788",
+        "7524034117",
+        "7267008789",
+        "2395002128"
+      ]
+    },
+    {
+      "id": 231092212,
+      "tags": {
+        "highway": "residential",
+        "name": "Travessa do Tijolo",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "2395002128",
+        "7271761453"
+      ]
+    },
+    {
+      "id": 233718279,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Santa Isabel"
+      },
+      "node_refs": [
+        "2420619396",
+        "2420619398"
+      ]
+    },
+    {
+      "id": 258560240,
+      "tags": {
+        "bicycle:conditional": "yes @ (su 07:00-16:00)",
+        "cycleway:right": "lane",
+        "description": "A rua Chile é tida como a primeira do país. A via foi fundada em 1549 pelo governador Thomé de Souza como Rua Direita dos Mercadores. O atual nome é uma homenagem a quatro embaixadores chilenos que morreram de peste bubônica no Rio, em 1902.",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "Rua Chile",
+        "oneway": "no",
+        "oneway:bicycle": "no",
+        "postal_code": "40020-000",
+        "source": "Companhia de Desenvolvimento Urbano dos Estado da Bahia;Livro: Histórias de Salvador nos Nomes das Suas Ruas",
+        "start_date": "1549",
+        "surface": "asphalt",
+        "wikidata": "Q25442475",
+        "wikipedia": "pt:Rua Chile (Salvador)"
+      },
+      "node_refs": [
+        "344371778",
+        "3988415046"
+      ]
+    },
+    {
+      "id": 285592029,
+      "tags": {
+        "alt_name": "Ladeira da Ordem 3ª de São Francisco",
+        "bicycle": "no",
+        "foot": "yes",
+        "highway": "residential",
+        "name": "Ladeira da Ordem Terceira de São Francisco",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "1703440561",
+        "2420619398",
+        "7519736206"
+      ]
+    },
+    {
+      "id": 285595135,
+      "tags": {
+        "alt_name": "Praça Cairu",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Praça Visconde de Cayru",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "5917201014",
+        "7523817810",
+        "344571683",
+        "1672367520",
+        "7520527650",
+        "1672367506",
+        "1672367505",
+        "1586482164"
+      ]
+    },
+    {
+      "id": 312006926,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Conde D'Eu"
+      },
+      "node_refs": [
+        "5140161972",
+        "3178050248",
+        "3178050249",
+        "7260777070",
+        "7260777069",
+        "619723553"
+      ]
+    },
+    {
+      "id": 381095254,
+      "tags": {
+        "highway": "service",
+        "name": "Rua Barão do Desterro"
+      },
+      "node_refs": [
+        "3843392564",
+        "3843392566",
+        "7271895905",
+        "3843392567"
+      ]
+    },
+    {
+      "id": 395865968,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua da Holanda",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "1586482161",
+        "7520527566",
+        "7520527567",
+        "7520527568",
+        "5424808881",
+        "5140161981"
+      ]
+    },
+    {
+      "id": 395865969,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Rua da Polônia",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "5140161983",
+        "13959944403",
+        "5140161978",
+        "5423794531",
+        "5140161977",
+        "5140161972"
+      ]
+    },
+    {
+      "id": 395865970,
+      "tags": {
+        "alt_name": "Rua Miguel Calmon",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Praça Riachuelo",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "5140161983",
+        "5140161984",
+        "5140161987",
+        "5140161981"
+      ]
+    },
+    {
+      "id": 395865971,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua dos Ourives",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "616073326",
+        "5423794534",
+        "1586482167"
+      ]
+    },
+    {
+      "id": 395865972,
+      "tags": {
+        "cycleway:right": "lane",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "name": "Rua Miguel Calmon",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "1586482168",
+        "5423830213",
+        "1588595545"
+      ]
+    },
+    {
+      "id": 395865974,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Rua da Conceição da Praia",
+        "oneway": "yes",
+        "surface": "sett"
+      },
+      "node_refs": [
+        "3986605267",
+        "7524034096",
+        "12192617788",
+        "1672367607",
+        "2812362915",
+        "7520527648",
+        "12192687905",
+        "1584993400"
+      ]
+    },
+    {
+      "id": 395867308,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua do Passo",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "3986616623",
+        "7258689652",
+        "7258689649",
+        "7258689648",
+        "7258689647",
+        "7258689644",
+        "619739836",
+        "4007849686"
+      ]
+    },
+    {
+      "id": 395867311,
+      "tags": {
+        "access": "no",
+        "alt_name": "Ladeira do Ferrao",
+        "foot": "yes",
+        "highway": "residential",
+        "horse": "yes",
+        "name": "Ladeira do Ferrão"
+      },
+      "node_refs": [
+        "991900184",
+        "2902089733",
+        "2546378702",
+        "619739868"
+      ]
+    },
+    {
+      "id": 395867312,
+      "tags": {
+        "alt_name": "Rua Maciel de Baixo",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed:type": "BR:urban",
+        "name": "Rua Gregório de Matos",
+        "surface": "unhewn_cobblestone"
+      },
+      "node_refs": [
+        "991900184",
+        "5155873814",
+        "5155859955",
+        "619739867",
+        "7524034113",
+        "7524034114",
+        "619740024",
+        "7519736209",
+        "2832860306"
+      ]
+    },
+    {
+      "id": 395867313,
+      "tags": {
+        "alt_name": "Ladeira São Miguel",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed:type": "BR:urban",
+        "name": "Rua Frei Vicente",
+        "oneway": "yes",
+        "surface": "unhewn_cobblestone"
+      },
+      "node_refs": [
+        "619740019",
+        "619740020",
+        "7266896142",
+        "7266896141",
+        "619740022",
+        "7520524715",
+        "7266896143"
+      ]
+    },
+    {
+      "id": 395867314,
+      "tags": {
+        "alt_name": "Rua Maciel de Cima",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed:type": "BR:urban",
+        "motor_vehicle": "destination",
+        "name": "Rua João de Deus",
+        "surface": "unhewn_cobblestone",
+        "wikidata": "Q83281914"
+      },
+      "node_refs": [
+        "5155873814",
+        "619740015",
+        "1350858750",
+        "3988415045"
+      ]
+    },
+    {
+      "id": 396045001,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Visconde de Itaparica",
+        "oneway": "yes",
+        "surface": "paved"
+      },
+      "node_refs": [
+        "3988415048",
+        "3988415047"
+      ]
+    },
+    {
+      "id": 396045003,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Ruy Barbosa",
+        "oneway": "yes",
+        "surface": "paved"
+      },
+      "node_refs": [
+        "344371778",
+        "3988415048"
+      ]
+    },
+    {
+      "id": 397449211,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Travessa Professor Antônio Borja",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "1585129912",
+        "7550297016",
+        "5155859979"
+      ]
+    },
+    {
+      "id": 421206045,
+      "tags": {
+        "highway": "residential",
+        "name": "Ladeira da Conceição da Praia",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "619722483",
+        "7550296909",
+        "4210112613",
+        "5424026032",
+        "7267008796",
+        "5424026033",
+        "5424026035",
+        "7520527645",
+        "4527180952",
+        "7267008795",
+        "7267008793",
+        "7267008794",
+        "4527180951",
+        "1672367607"
+      ]
+    },
+    {
+      "id": 438907172,
+      "tags": {
+        "alt_name": "Rua Miguel Calmon",
+        "cycleway:right": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Praça Riachuelo",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "5140161983",
+        "5140161979",
+        "7261531269",
+        "5140161981"
+      ]
+    },
+    {
+      "id": 439251067,
+      "tags": {
+        "highway": "primary",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rua da Bélgica",
+        "oneway": "yes",
+        "parking:lane:right": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "1586482168",
+        "9264983514",
+        "11902444396",
+        "592378745"
+      ]
+    },
+    {
+      "id": 456471269,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Manoel Vitórino"
+      },
+      "node_refs": [
+        "4527284526",
+        "1672367659",
+        "7524034095",
+        "1672367626",
+        "7520527647",
+        "1672367618",
+        "4527180951"
+      ]
+    },
+    {
+      "id": 530127468,
+      "tags": {
+        "access": "no",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "residential",
+        "horse": "yes",
+        "motor_vehicle": "permissive",
+        "name": "Ladeira do Pelourinho",
+        "surface": "sett"
+      },
+      "node_refs": [
+        "991899860",
+        "7524034106",
+        "12223625536",
+        "619723536"
+      ]
+    },
+    {
+      "id": 530127469,
+      "tags": {
+        "highway": "residential",
+        "lane_markings": "no",
+        "name": "Rua Gregório de Matos",
+        "oneway": "yes",
+        "surface": "sett"
+      },
+      "node_refs": [
+        "991900184",
+        "12223890842",
+        "991899860"
+      ]
+    },
+    {
+      "id": 530127470,
+      "tags": {
+        "alt_name": "Rua das Portas do Carmo",
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Rua Portas do Carmo",
+        "oneway": "yes",
+        "sidewalk": "both",
+        "surface": "sett"
+      },
+      "node_refs": [
+        "991899864",
+        "991900072",
+        "7524034108",
+        "619740014",
+        "991899747"
+      ]
+    },
+    {
+      "id": 531109208,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Ladeira de Santana",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "1862216651",
+        "1585129910",
+        "7550297015",
+        "1585129907"
+      ]
+    },
+    {
+      "id": 531109209,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Rua do Carro",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "7272388162",
+        "619740059",
+        "7267008824",
+        "619740350",
+        "5544059360",
+        "1585129954"
+      ]
+    },
+    {
+      "id": 531301942,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua do Bispo"
+      },
+      "node_refs": [
+        "1586476146",
+        "2316666785",
+        "6150846220"
+      ]
+    },
+    {
+      "id": 531301943,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Três de Maio",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "619749359",
+        "619749348",
+        "6150846221",
+        "1586476138"
+      ]
+    },
+    {
+      "id": 561997874,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua de São Francisco",
+        "oneway": "yes",
+        "surface": "sett"
+      },
+      "node_refs": [
+        "619749363",
+        "991899991",
+        "2394997042",
+        "1586476138",
+        "1703556373",
+        "7550296811",
+        "1586476143",
+        "619740028"
+      ]
+    },
+    {
+      "id": 561997875,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Ladeira da Praça",
+        "oneway": "yes",
+        "surface": "paved"
+      },
+      "node_refs": [
+        "619749363",
+        "991900049",
+        "619749364",
+        "7550296813",
+        "619749361"
+      ]
+    },
+    {
+      "id": 561997876,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Rua do Tesouro",
+        "oneway": "yes",
+        "surface": "paved"
+      },
+      "node_refs": [
+        "1703474649",
+        "3988415046"
+      ]
+    },
+    {
+      "id": 562005412,
+      "tags": {
+        "bicycle:conditional": "yes @ (su 07:00-16:00)",
+        "cycleway:right": "lane",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Avenida Sete de Setembro",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "surface": "sett"
+      },
+      "node_refs": [
+        "7284789033",
+        "7550296987",
+        "7550296995",
+        "12249294286",
+        "344371778"
+      ]
+    },
+    {
+      "id": 562627119,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rua da Bélgica",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "7523817818",
+        "7523817819",
+        "7523817821",
+        "11902444397",
+        "592378745"
+      ]
+    },
+    {
+      "id": 562627120,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Rua Pinto Martins",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "2111557380",
+        "5423794535",
+        "2111557390",
+        "1712584815"
+      ]
+    },
+    {
+      "id": 562627121,
+      "tags": {
+        "cycleway:right": "lane",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "name": "Rua Miguel Calmon",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "2111557392",
+        "5423856729",
+        "5423856731",
+        "5436451361",
+        "619723016",
+        "5423871262",
+        "5423871261",
+        "13959944404",
+        "5423871268",
+        "5140161983"
+      ]
+    },
+    {
+      "id": 562631833,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Rua dos Algibebes",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "2111557390",
+        "7520527572",
+        "616073326"
+      ]
+    },
+    {
+      "id": 562631834,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua dos Ourives",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "616073326",
+        "5423794524",
+        "1586482160"
+      ]
+    },
+    {
+      "id": 562631838,
+      "tags": {
+        "alt_name": "Rua Guindaste dos Padres",
+        "highway": "residential",
+        "name": "Rua do Corpo Santo",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "1586482160",
+        "7520527557",
+        "7520527559",
+        "1712584815"
+      ]
+    },
+    {
+      "id": 562636051,
+      "tags": {
+        "cycleway:right": "lane",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "name": "Rua Miguel Calmon",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "1588595545",
+        "5423843923",
+        "5423843928",
+        "6948115080",
+        "2111557392"
+      ]
+    },
+    {
+      "id": 562637607,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Rua Santos Dumont",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "1586482157",
+        "1672367498",
+        "619750168",
+        "5423843925",
+        "5423847937",
+        "2111557390"
+      ]
+    },
+    {
+      "id": 562637609,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Lauro Müler",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "5423843925",
+        "5423843926",
+        "5423843927"
+      ]
+    },
+    {
+      "id": 562637612,
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Rua da Grécia",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "4896535703",
+        "1588595545"
+      ]
+    },
+    {
+      "id": 562637613,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "3",
+        "name": "Avenida Estados Unidos",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "4896535703",
+        "7520524770",
+        "6948115079",
+        "619723039",
+        "5423905997",
+        "5423905999",
+        "1672367330",
+        "11902444395",
+        "619723548"
+      ]
+    },
+    {
+      "id": 562638716,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Portugal",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "2111557380",
+        "5423843927",
+        "1672367447"
+      ]
+    },
+    {
+      "id": 562638717,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Rua Pinto Martins",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "2111557392",
+        "6987260416",
+        "2111557380"
+      ]
+    },
+    {
+      "id": 562643098,
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Avenida Jequitaia",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "7520524772",
+        "7261427104",
+        "8243832346",
+        "5140161993",
+        "7258450931"
+      ]
+    },
+    {
+      "id": 562646007,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Avenida da França",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "735265207",
+        "5423905994",
+        "3940146174",
+        "619723547",
+        "11902444394",
+        "9924968115",
+        "5423912751",
+        "5432399039",
+        "1586482151",
+        "7520527643",
+        "619723005",
+        "4529008982",
+        "7520524771",
+        "619723104",
+        "7523817820",
+        "7523817817",
+        "7523817818"
+      ]
+    },
+    {
+      "id": 562646008,
+      "tags": {
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Rua da Espanha",
+        "oneway": "yes",
+        "surface": "cobblestone"
+      },
+      "node_refs": [
+        "7261427104",
+        "11902444395"
+      ]
+    },
+    {
+      "id": 562660148,
+      "tags": {
+        "alt_name": "Avenida Contorno",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "name": "Avenida Lafayete Coutinho",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "1672367631",
+        "5423989355",
+        "5423989361"
+      ]
+    },
+    {
+      "id": 562769531,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Torquato Bahia",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "1586482161",
+        "7520527569",
+        "619723505",
+        "7261039341",
+        "619723507",
+        "7520524775",
+        "7520524774",
+        "7520524773",
+        "9940018867",
+        "7261039338",
+        "7261039337",
+        "7261039336",
+        "3940312616",
+        "5424808893"
+      ]
+    },
+    {
+      "id": 562769532,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua da Holanda"
+      },
+      "node_refs": [
+        "7520527569",
+        "1586482159"
+      ]
+    },
+    {
+      "id": 562769535,
+      "tags": {
+        "highway": "residential",
+        "name": "Praça Marechal Deodoro",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "5424808893",
+        "7261039334",
+        "7261039332",
+        "7520524776",
+        "7258450930"
+      ]
+    },
+    {
+      "id": 562778533,
+      "tags": {
+        "highway": "residential",
+        "name": "Travessa Campos Sales"
+      },
+      "node_refs": [
+        "3940312622",
+        "7261039332"
+      ]
+    },
+    {
+      "id": 563740405,
+      "tags": {
+        "cycleway:right": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Avenida da França",
+        "oneway": "yes",
+        "parking:left": "yes",
+        "parking:left:orientation": "parallel",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "5432399038",
+        "5423912750",
+        "7520527495",
+        "7520527485",
+        "7520527642",
+        "7520527487",
+        "4529008983",
+        "7520527644",
+        "7261348351"
+      ]
+    },
+    {
+      "id": 578704834,
+      "tags": {
+        "highway": "residential",
+        "name": "Ladeira do Pelourinho"
+      },
+      "node_refs": [
+        "619723536",
+        "4007849686",
+        "4007849684"
+      ]
+    },
+    {
+      "id": 656636750,
+      "tags": {
+        "highway": "service",
+        "name": "Rua do Curriachito"
+      },
+      "node_refs": [
+        "7550296995",
+        "6150846219",
+        "7267008786",
+        "7550296810",
+        "6150846218",
+        "7550296809",
+        "6150846217"
+      ]
+    },
+    {
+      "id": 656636751,
+      "tags": {
+        "highway": "residential",
+        "name": "Beco do Seminário"
+      },
+      "node_refs": [
+        "6150846221",
+        "6150846220"
+      ]
+    },
+    {
+      "id": 656636752,
+      "tags": {
+        "alt_name": "Ladeira São Miguel",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed:type": "BR:urban",
+        "name": "Rua Frei Vicente",
+        "surface": "unhewn_cobblestone"
+      },
+      "node_refs": [
+        "619740015",
+        "619739867"
+      ]
+    },
+    {
+      "id": 741297294,
+      "tags": {
+        "highway": "service",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "6939750290",
+        "6939750291"
+      ]
+    },
+    {
+      "id": 755361481,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Saldanha da Gama",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "619749362",
+        "619749373"
+      ]
+    },
+    {
+      "id": 755361482,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Ladeira da Praça",
+        "oneway": "yes",
+        "surface": "paved"
+      },
+      "node_refs": [
+        "619749362",
+        "619749363"
+      ]
+    },
+    {
+      "id": 755361483,
+      "tags": {
+        "highway": "service",
+        "name": "Rua Saldanha da Gama",
+        "service": "alley"
+      },
+      "node_refs": [
+        "619749362",
+        "991900086"
+      ]
+    },
+    {
+      "id": 778032828,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua do Julião"
+      },
+      "node_refs": [
+        "619723553",
+        "7520527570",
+        "5424881845",
+        "1586482159"
+      ]
+    },
+    {
+      "id": 778284292,
+      "tags": {
+        "highway": "service"
+      },
+      "node_refs": [
+        "7263823424",
+        "7263823423",
+        "7263823420",
+        "7263823417",
+        "10681488564",
+        "10681572405",
+        "7263823414",
+        "7263823413",
+        "7263823412",
+        "7263823411",
+        "7263823404",
+        "7263823403",
+        "7263823402",
+        "8442249271",
+        "7263823401",
+        "8442249270",
+        "7263823400",
+        "619739605"
+      ]
+    },
+    {
+      "id": 803899193,
+      "tags": {
+        "bicycle:conditional": "yes @ (su 07:00-16:00)",
+        "cycleway:left": "lane",
+        "highway": "residential",
+        "name": "Rua da Ajuda",
+        "oneway": "yes",
+        "oneway:bicycle": "no"
+      },
+      "node_refs": [
+        "1703384730",
+        "7524034115",
+        "34592703"
+      ]
+    },
+    {
+      "id": 803899194,
+      "tags": {
+        "highway": "residential",
+        "name": "Praça Ramos Queiroz"
+      },
+      "node_refs": [
+        "1703384730",
+        "2655806161"
+      ]
+    },
+    {
+      "id": 803899195,
+      "tags": {
+        "highway": "residential",
+        "lane_markings": "no",
+        "name": "Largo do Pelourinho",
+        "oneway": "yes",
+        "surface": "sett"
+      },
+      "node_refs": [
+        "991899860",
+        "12223890841",
+        "991899864"
+      ]
+    },
+    {
+      "id": 803899198,
+      "tags": {
+        "cycleway:right:conditional": "yes @ (su 07:00-16:00)",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Rua da Misericórdia",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "surface": "sett"
+      },
+      "node_refs": [
+        "4007759713",
+        "5436479156",
+        "1703384768"
+      ]
+    },
+    {
+      "id": 804043430,
+      "tags": {
+        "highway": "service"
+      },
+      "node_refs": [
+        "7520524779",
+        "7520524777",
+        "7520524778"
+      ]
+    },
+    {
+      "id": 804043431,
+      "tags": {
+        "highway": "service"
+      },
+      "node_refs": [
+        "7520524783",
+        "7520527486",
+        "7520527491",
+        "7520527490",
+        "7520527489",
+        "7520527488"
+      ]
+    },
+    {
+      "id": 804043432,
+      "tags": {
+        "covered": "yes",
+        "highway": "service"
+      },
+      "node_refs": [
+        "7520524782",
+        "7520524783"
+      ]
+    },
+    {
+      "id": 804043433,
+      "tags": {
+        "highway": "service"
+      },
+      "node_refs": [
+        "7520527485",
+        "9056883357",
+        "7520524784"
+      ]
+    },
+    {
+      "id": 804043434,
+      "tags": {
+        "highway": "service"
+      },
+      "node_refs": [
+        "7520527487",
+        "9056883356",
+        "7520527486"
+      ]
+    },
+    {
+      "id": 804043435,
+      "tags": {
+        "highway": "service"
+      },
+      "node_refs": [
+        "7520527495",
+        "7520527494",
+        "7520527493",
+        "7520527492",
+        "7520524784",
+        "7520524782"
+      ]
+    },
+    {
+      "id": 804043448,
+      "tags": {
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Rua da Holanda",
+        "oneway": "yes",
+        "surface": "cobblestone"
+      },
+      "node_refs": [
+        "5140161981",
+        "1672367330"
+      ]
+    },
+    {
+      "id": 804043460,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Praça da Inglaterra",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "619723039",
+        "2111557392"
+      ]
+    },
+    {
+      "id": 804405604,
+      "tags": {
+        "highway": "service"
+      },
+      "node_refs": [
+        "3986605267",
+        "12229016559",
+        "7524034093",
+        "7524034092",
+        "12229016558",
+        "7524034096"
+      ]
+    },
+    {
+      "id": 804405605,
+      "tags": {
+        "highway": "service"
+      },
+      "node_refs": [
+        "7524034112",
+        "12223890831",
+        "7524034111",
+        "7524034110",
+        "7524034109",
+        "7524034108"
+      ]
+    },
+    {
+      "id": 804405606,
+      "tags": {
+        "highway": "service",
+        "name": "Rua da Oração"
+      },
+      "node_refs": [
+        "991900104",
+        "619749350"
+      ]
+    },
+    {
+      "id": 807410400,
+      "tags": {
+        "highway": "service"
+      },
+      "node_refs": [
+        "7550296818",
+        "7550296817"
+      ]
+    },
+    {
+      "id": 807410401,
+      "tags": {
+        "alt_name": "Rua Rodrigo Silva",
+        "highway": "residential",
+        "name": "Rua do Tira Chapéu"
+      },
+      "node_refs": [
+        "7550296819",
+        "7550296817",
+        "7550296820",
+        "619749373"
+      ]
+    },
+    {
+      "id": 807410403,
+      "tags": {
+        "highway": "service"
+      },
+      "node_refs": [
+        "3843392566",
+        "7550296831"
+      ]
+    },
+    {
+      "id": 807410410,
+      "tags": {
+        "highway": "service",
+        "lit": "yes"
+      },
+      "node_refs": [
+        "7550296919",
+        "7550296910",
+        "7550296914",
+        "7550296913",
+        "7550296912",
+        "7550296908"
+      ]
+    },
+    {
+      "id": 807410424,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Avenida Carlos Gomes",
+        "oneway": "yes",
+        "surface": "sett"
+      },
+      "node_refs": [
+        "344371778",
+        "7550296990",
+        "7550296992",
+        "7550296993",
+        "7550296994",
+        "1703384810"
+      ]
+    },
+    {
+      "id": 807410430,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Travessa Professor Antônio Borja",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "5155859979",
+        "7550297009",
+        "7550297008",
+        "7550297007",
+        "7272388162"
+      ]
+    },
+    {
+      "id": 807410431,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Travessa Professor Antônio Borja",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "5155859979",
+        "7550297004",
+        "7550297011",
+        "7550297010",
+        "1585129907"
+      ]
+    },
+    {
+      "id": 807410432,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Rua do Carro",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "1585129907",
+        "7550297006",
+        "7272388162"
+      ]
+    },
+    {
+      "id": 823499871,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway"
+      },
+      "node_refs": [
+        "7520524772",
+        "9940018868",
+        "9940018869",
+        "7688187883",
+        "7688187884",
+        "9940018870",
+        "9940018871",
+        "9940018872",
+        "9940018873",
+        "9940018874",
+        "12235879474",
+        "7688187882"
+      ]
+    },
+    {
+      "id": 888185711,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "60",
+        "name": "Avenida José Joaquim Seabra",
+        "oneway": "no",
+        "sidewalk": "both",
+        "surface": "paved",
+        "wheelchair": "limited"
+      },
+      "node_refs": [
+        "5435958499",
+        "5435958501",
+        "1586476127",
+        "1586476121",
+        "619749381",
+        "619749361"
+      ]
+    },
+    {
+      "id": 899200573,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua do Bispo",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "6150846220",
+        "1586476143"
+      ]
+    },
+    {
+      "id": 899208999,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua do Taboão"
+      },
+      "node_refs": [
+        "7260795009",
+        "7260794995",
+        "7260794996",
+        "619723533",
+        "7260795006",
+        "7260795005",
+        "5424881846",
+        "7260795004",
+        "7260795003",
+        "7260795002",
+        "7260795001",
+        "3940312613",
+        "7260795000",
+        "13370547295",
+        "619723534",
+        "7260794999",
+        "619723535",
+        "7260794997",
+        "7260794998",
+        "619723536"
+      ]
+    },
+    {
+      "id": 973459386,
+      "tags": {
+        "highway": "service"
+      },
+      "node_refs": [
+        "5424808893",
+        "9009596677"
+      ]
+    },
+    {
+      "id": 978481515,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "3",
+        "lit": "yes",
+        "name": "Ladeira da Montanha",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "wikidata": "Q10315487",
+        "wikipedia": "pt:Ladeira da Montanha"
+      },
+      "node_refs": [
+        "2394997055",
+        "1447581238"
+      ]
+    },
+    {
+      "id": 978525930,
+      "tags": {
+        "alt_name": "Praça Cairu",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Praça Visconde de Cayru",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "5423989361",
+        "8243832355",
+        "5917201014"
+      ]
+    },
+    {
+      "id": 978527848,
+      "tags": {
+        "alt_name": "Avenida Contorno",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Avenida Lafayete Coutinho",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "1672367622",
+        "5424001594"
+      ]
+    },
+    {
+      "id": 978527849,
+      "tags": {
+        "alt_name": "Avenida Contorno",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Avenida Lafayete Coutinho",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "7550297061",
+        "1672367622"
+      ]
+    },
+    {
+      "id": 978572576,
+      "tags": {
+        "alt_name": "Ladeira São Miguel",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed:type": "BR:urban",
+        "name": "Rua Frei Vicente",
+        "surface": "unhewn_cobblestone"
+      },
+      "node_refs": [
+        "619739867",
+        "991899773",
+        "7261531272",
+        "619740019"
+      ]
+    },
+    {
+      "id": 987002818,
+      "tags": {
+        "highway": "service",
+        "name": "Avenida da França",
+        "oneway": "no",
+        "surface": "concrete"
+      },
+      "node_refs": [
+        "7261348351",
+        "11697366033",
+        "10681568948",
+        "10681474555",
+        "10681568950",
+        "10681568951",
+        "9123094682"
+      ]
+    },
+    {
+      "id": 1004133491,
+      "tags": {
+        "alt_name": "Avenida Contorno",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Avenida Lafayete Coutinho",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "7523817812",
+        "7523817807",
+        "7523817808",
+        "7523817809",
+        "592378626",
+        "592378620"
+      ]
+    },
+    {
+      "id": 1004133492,
+      "tags": {
+        "access": "private",
+        "highway": "service"
+      },
+      "node_refs": [
+        "9264985836",
+        "9264985837",
+        "619723500",
+        "9264985838",
+        "12230572522",
+        "7520527651"
+      ]
+    },
+    {
+      "id": 1004133493,
+      "tags": {
+        "access": "private",
+        "highway": "service"
+      },
+      "node_refs": [
+        "9264985838",
+        "9264985842",
+        "9264985839",
+        "9264985845",
+        "9264985840",
+        "9264985841"
+      ]
+    },
+    {
+      "id": 1004133494,
+      "tags": {
+        "access": "private",
+        "highway": "service",
+        "service": "parking_aisle"
+      },
+      "node_refs": [
+        "9264985842",
+        "9264985843",
+        "9264985844",
+        "9264985845"
+      ]
+    },
+    {
+      "id": 1004133497,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rua da Conceição da Praia",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "1584993400",
+        "3178050253",
+        "7519736193",
+        "7519736192",
+        "1672367563",
+        "1672367530",
+        "1672367515",
+        "1586482157"
+      ]
+    },
+    {
+      "id": 1075624439,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Ladeira da Montanha",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "wikidata": "Q10315487",
+        "wikipedia": "pt:Ladeira da Montanha"
+      },
+      "node_refs": [
+        "1712584815",
+        "7260777081",
+        "7260777080",
+        "7260777079",
+        "7520527555",
+        "3940312598",
+        "7520527556",
+        "7260777078",
+        "1196075508"
+      ]
+    },
+    {
+      "id": 1075624443,
+      "tags": {
+        "highway": "residential",
+        "name": "Caminho Novo do Taboão",
+        "note": "There's a difference between IBGE data (Caminho Novo do Tabuão) and OSM data (Caminho Novo do Taboão)",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "6321030800",
+        "7258689632",
+        "7258689631",
+        "3940312622",
+        "7258689630",
+        "7258689641",
+        "619723541",
+        "7258689642",
+        "5424808894",
+        "619723542"
+      ]
+    },
+    {
+      "id": 1075624454,
+      "tags": {
+        "alt_name": "Avenida Contorno",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Avenida Lafayete Coutinho",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "7550297058",
+        "344369510",
+        "1672367631"
+      ]
+    },
+    {
+      "id": 1075624458,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Praça Castro Alves",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "1447581238",
+        "12249294289",
+        "12249294290",
+        "7550296907",
+        "619722483"
+      ]
+    },
+    {
+      "id": 1084734849,
+      "tags": {
+        "cycleway:right": "lane",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Avenida Jequitaia",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "5140161981",
+        "7520524772"
+      ]
+    },
+    {
+      "id": 1150035141,
+      "tags": {
+        "highway": "service",
+        "name": "Terminal Turístico Náutico da Bahia",
+        "service": "parking_aisle",
+        "surface": "concrete"
+      },
+      "node_refs": [
+        "9123094682",
+        "10698263575",
+        "10698263576",
+        "10698263577",
+        "10698263578",
+        "10698263579",
+        "10698263580",
+        "10698263581",
+        "10698263582",
+        "10698263583"
+      ]
+    },
+    {
+      "id": 1150035142,
+      "tags": {
+        "highway": "service",
+        "service": "parking_aisle",
+        "surface": "paving_stones"
+      },
+      "node_refs": [
+        "10698263584",
+        "10698263583",
+        "10698263585"
+      ]
+    },
+    {
+      "id": 1247051187,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Saldanha da Gama"
+      },
+      "node_refs": [
+        "991900086",
+        "2394997039"
+      ]
+    },
+    {
+      "id": 1266629200,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Visconde do Rosário",
+        "note": "OSG spelling \"Rosario,\" IBGE spelling \"Rasario\"",
+        "oneway": "yes"
+      },
+      "node_refs": [
+        "1672367498",
+        "619723492"
+      ]
+    },
+    {
+      "id": 1266629201,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Portugal",
+        "oneway": "no"
+      },
+      "node_refs": [
+        "1672367447",
+        "2892588116",
+        "2892588117"
+      ]
+    },
+    {
+      "id": 1319367902,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua do Taboão"
+      },
+      "node_refs": [
+        "5424881845",
+        "12210024328",
+        "7260795009"
+      ]
+    }
+  ],
+  "stops": [
+    {
+      "id": 571288579,
+      "lat": -12.9738141,
+      "lon": -38.5134436,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "id": 4392853891,
+      "lat": -12.9714175,
+      "lon": -38.5143488,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "id": 5155859974,
+      "lat": -12.9762629,
+      "lon": -38.5108713,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "id": 5432435848,
+      "lat": -12.9696433,
+      "lon": -38.5125125,
+      "tags": {
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Terminal da França",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "yes",
+        "wheelchair": "designated"
+      }
+    },
+    {
+      "id": 5432435849,
+      "lat": -12.9705434,
+      "lon": -38.5133878,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "id": 5435978737,
+      "lat": -12.9759348,
+      "lon": -38.5100041,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "id": 5435978738,
+      "lat": -12.9757651,
+      "lon": -38.5091195,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "id": 8243832346,
+      "lat": -12.9689498,
+      "lon": -38.5100734,
+      "tags": {
+        "bus": "yes",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "id": 8243832352,
+      "lat": -12.9690764,
+      "lon": -38.5101187,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "noname": "yes",
+        "pole": "no",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "id": 8243832354,
+      "lat": -12.9739467,
+      "lon": -38.5135674,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "check_date:shelter": "2026-01-06",
+        "highway": "bus_stop",
+        "pole": "no",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "id": 8243832355,
+      "lat": -12.9738888,
+      "lon": -38.5136254,
+      "tags": {
+        "bus": "yes",
+        "public_transport": "stop_position"
+      }
+    }
+  ],
+  "bus_routes": [
+    {
+      "id": 12813785,
+      "tags": {
+        "from": "Barra",
+        "name": "Barra-Iapi",
+        "network": "Integra Salvador Norte",
+        "operator": "Integra",
+        "public_transport:version": "2",
+        "ref": "0429",
+        "route": "bus",
+        "to": "Iapi",
+        "type": "route"
+      },
+      "members": [
+        {
+          "type": "node",
+          "ref": "8243832365",
+          "role": "stop"
+        },
+        {
+          "type": "node",
+          "ref": "567999488",
+          "role": "platform"
+        },
+        {
+          "type": "node",
+          "ref": "8243832364",
+          "role": "stop"
+        },
+        {
+          "type": "node",
+          "ref": "4529021790",
+          "role": "platform"
+        },
+        {
+          "type": "node",
+          "ref": "8243832363",
+          "role": "stop"
+        },
+        {
+          "type": "node",
+          "ref": "2819046625",
+          "role": "platform"
+        },
+        {
+          "type": "node",
+          "ref": "8243832362",
+          "role": "stop"
+        },
+        {
+          "type": "node",
+          "ref": "565442609",
+          "role": "platform"
+        },
+        {
+          "type": "node",
+          "ref": "8243832361",
+          "role": "stop"
+        },
+        {
+          "type": "node",
+          "ref": "6615194781",
+          "role": "platform"
+        },
+        {
+          "type": "node",
+          "ref": "8243832360",
+          "role": "stop"
+        },
+        {
+          "type": "node",
+          "ref": "6614647837",
+          "role": "platform"
+        },
+        {
+          "type": "node",
+          "ref": "8243832359",
+          "role": "stop"
+        },
+        {
+          "type": "node",
+          "ref": "6614647834",
+          "role": "platform"
+        },
+        {
+          "type": "node",
+          "ref": "8243832358",
+          "role": "stop"
+        },
+        {
+          "type": "node",
+          "ref": "1018551874",
+          "role": "platform"
+        },
+        {
+          "type": "node",
+          "ref": "8243832356",
+          "role": "stop"
+        },
+        {
+          "type": "node",
+          "ref": "5126451914",
+          "role": "platform"
+        },
+        {
+          "type": "node",
+          "ref": "8243832355",
+          "role": "stop"
+        },
+        {
+          "type": "node",
+          "ref": "8243832354",
+          "role": "platform"
+        },
+        {
+          "type": "node",
+          "ref": "8243832346",
+          "role": "stop"
+        },
+        {
+          "type": "node",
+          "ref": "8243832353",
+          "role": "platform"
+        },
+        {
+          "type": "node",
+          "ref": "8243832344",
+          "role": "stop"
+        },
+        {
+          "type": "node",
+          "ref": "8243832345",
+          "role": "platform"
+        },
+        {
+          "type": "node",
+          "ref": "8243832337",
+          "role": "stop"
+        },
+        {
+          "type": "node",
+          "ref": "8243832343",
+          "role": "platform"
+        },
+        {
+          "type": "node",
+          "ref": "8243832335",
+          "role": "stop"
+        },
+        {
+          "type": "node",
+          "ref": "2548612712",
+          "role": "platform"
+        },
+        {
+          "type": "node",
+          "ref": "8243832333",
+          "role": "stop"
+        },
+        {
+          "type": "node",
+          "ref": "8243832334",
+          "role": "platform"
+        },
+        {
+          "type": "node",
+          "ref": "8807921903",
+          "role": "stop"
+        },
+        {
+          "type": "node",
+          "ref": "8243832332",
+          "role": "platform"
+        },
+        {
+          "type": "node",
+          "ref": "8243832329",
+          "role": "stop"
+        },
+        {
+          "type": "node",
+          "ref": "8243832330",
+          "role": "platform"
+        },
+        {
+          "type": "node",
+          "ref": "8244022980",
+          "role": "stop"
+        },
+        {
+          "type": "node",
+          "ref": "8244022981",
+          "role": "platform"
+        },
+        {
+          "type": "node",
+          "ref": "8244022978",
+          "role": "stop"
+        },
+        {
+          "type": "node",
+          "ref": "8244022979",
+          "role": "platform"
+        },
+        {
+          "type": "node",
+          "ref": "8244022976",
+          "role": "stop"
+        },
+        {
+          "type": "node",
+          "ref": "8244022977",
+          "role": "platform"
+        },
+        {
+          "type": "node",
+          "ref": "8244022970",
+          "role": "stop"
+        },
+        {
+          "type": "node",
+          "ref": "8244022971",
+          "role": "platform"
+        },
+        {
+          "type": "node",
+          "ref": "8244022966",
+          "role": "stop"
+        },
+        {
+          "type": "node",
+          "ref": "8244022967",
+          "role": "platform"
+        },
+        {
+          "type": "node",
+          "ref": "8244022964",
+          "role": "stop"
+        },
+        {
+          "type": "node",
+          "ref": "8244022965",
+          "role": "platform"
+        },
+        {
+          "type": "node",
+          "ref": "8244022962",
+          "role": "stop"
+        },
+        {
+          "type": "node",
+          "ref": "8244022963",
+          "role": "platform"
+        },
+        {
+          "type": "way",
+          "ref": "951579739",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "396220342",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "415835654",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "44437826",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "396220340",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "970750708",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "807345023",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "970750707",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "145438270",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "277548608",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "44502964",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "438006976",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "45743831",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "396220327",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "1072672975",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "131398241",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "972603893",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "972603892",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "44706459",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "778024065",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "474474477",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "972646210",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "971005081",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "397307498",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "438006981",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "165886060",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "972654813",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "972654811",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "972654812",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "95895495",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "1153585557",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "1153514375",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "95895493",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "1153514376",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "972111480",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "490349862",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "562166510",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "1150608622",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "131510688",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "1074160808",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "1074160809",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "1074160806",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "951581345",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "30765306",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "656623523",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "656623522",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "397312328",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "951581344",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "1075624475",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "395865975",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "639350713",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "1075624478",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "639350714",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "1075624454",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "562660148",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "978525930",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "285595135",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "85524300",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "395865972",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "562636051",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "562627121",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "438907172",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "1084734849",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "562643098",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "951581343",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "424958129",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "562643106",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "46348196",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "46348203",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "778252938",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "778252936",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "154743322",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "45982771",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "951581342",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "225705172",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "561823323",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "561823325",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "415843262",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "809851224",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "1088623206",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "441538105",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "1081748526",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "1081144893",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "867179835",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "298218888",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "395884302",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "415843266",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "415842575",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "395884303",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "359614690",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "136030764",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "104630540",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "702824545",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "702824539",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "951581339",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "702824541",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "83754580",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "951581336",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "391126363",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "251089616",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "951581335",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "83754562",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "83754565",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "951581333",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "951581332",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "395371195",
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": "951581331",
+          "role": ""
+        }
+      ]
+    }
+  ],
+  "restrictions": [
+    {
+      "id": 8815948,
+      "tags": {
+        "restriction": "no_u_turn",
+        "type": "restriction"
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": "562005412",
+          "role": "from"
+        },
+        {
+          "type": "node",
+          "ref": "344371778",
+          "role": "via"
+        },
+        {
+          "type": "way",
+          "ref": "807410424",
+          "role": "to"
+        }
+      ]
+    }
+  ]
+}

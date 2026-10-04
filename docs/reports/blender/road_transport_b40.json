@@ -1,0 +1,507 @@
+{
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b39_rondesp_percursos.blend",
+    "sha256": "d682741bf61a11cae333a9e8da6cb02c68557b4f4be8dabcb3d163c7dc120049",
+    "revision": "R30B.39",
+    "status": "authoring_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b38_binding_conceicao.blend",
+    "evidence": "docs/reports/blender/rondesp_driver_review_b39.json"
+  },
+  "classification": "ERROR",
+  "targets": 36,
+  "iterations": [
+    {
+      "iteration": 0,
+      "bad_faces": 20,
+      "maximum_difference_m": 0.49691009521484375,
+      "missing_support": 0
+    },
+    {
+      "iteration": 1,
+      "bad_faces": 14,
+      "maximum_difference_m": 0.4969139099121094,
+      "missing_support": 0
+    },
+    {
+      "iteration": 2,
+      "bad_faces": 11,
+      "maximum_difference_m": 0.46831512451171875,
+      "missing_support": 0
+    },
+    {
+      "iteration": 3,
+      "bad_faces": 7,
+      "maximum_difference_m": 0.4110832214355469,
+      "missing_support": 0
+    },
+    {
+      "iteration": 4,
+      "bad_faces": 6,
+      "maximum_difference_m": 0.2966346740722656,
+      "missing_support": 0
+    },
+    {
+      "iteration": 5,
+      "bad_faces": 3,
+      "maximum_difference_m": 0.3329582214355469,
+      "missing_support": 0
+    },
+    {
+      "iteration": 6,
+      "bad_faces": 2,
+      "maximum_difference_m": 0.3428306579589844,
+      "missing_support": 0
+    }
+  ],
+  "best_maximum_difference_m": 0.035327911376953125,
+  "new_vertices_without_projection": 460,
+  "vertices_before": 72240,
+  "vertices_after": 72886,
+  "faces_before": 137035,
+  "faces_after": 138048,
+  "zero_area_faces_removed": 50,
+  "protected_visual_components": 5452,
+  "protected_visual_differences": [],
+  "road_widths_changed": false,
+  "guide_splines": 159,
+  "guide_gaps": 0,
+  "guides_status": "rightmost_preview_only_not_lane_markings_or_approved_traffic",
+  "runtime_exported": false,
+  "approved": false,
+  "source_reopened": true,
+  "pending": [
+    "Larguras reais e distribuição de faixas por evidência",
+    "Misericórdia, bindings e falhas restantes de pavimento",
+    "Fluxos e conversões legais, trajetos atuais e binding das paradas",
+    "Envelope completo de ônibus, física e sentidos inversos"
+  ],
+  "transport_network": "world/areas/mvp-centro-lacerda/transport-network.json",
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b40_fluxos_e_colisao.blend",
+    "revision": "R30B.40",
+    "sha256": "99ecf2a8a091fdbc05d9f4cd28dbecfe3fca467307b8c1f0c3ffd7729943172a"
+  },
+  "local_support_constraints": {
+    "face_points_inserted": 6,
+    "shared_edges_split": 0,
+    "skipped": [],
+    "wheel_targets": 36,
+    "maximum_difference_m": 0.035327911376953125,
+    "missing_support": 0,
+    "degenerate_triangles": 0,
+    "vertices_after": 72886,
+    "faces_after": 138048
+  },
+  "corrected_contacts": [
+    {
+      "point": [
+        -30.109130859375,
+        21.818504333496094,
+        34.06265640258789
+      ],
+      "before_difference_m": 0.07190322875976562,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -36.971797943115234,
+        12.179935455322266,
+        35.52405548095703
+      ],
+      "before_difference_m": 0.4878425598144531,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -37.54859924316406,
+        11.36982536315918,
+        35.64666748046875
+      ],
+      "before_difference_m": 0.4908027648925781,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -38.12539291381836,
+        10.559715270996094,
+        35.76921081542969
+      ],
+      "before_difference_m": 0.4938316345214844,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -38.70219421386719,
+        9.74960708618164,
+        35.89170455932617
+      ],
+      "before_difference_m": 0.49691009521484375,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -40.49150848388672,
+        7.236526012420654,
+        36.271366119384766
+      ],
+      "before_difference_m": 0.1790618896484375,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -39.19627380371094,
+        6.314318656921387,
+        36.27089309692383
+      ],
+      "before_difference_m": 0.23209381103515625,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -39.855796813964844,
+        8.129380226135254,
+        36.13654327392578
+      ],
+      "before_difference_m": 0.4607200622558594,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -40.432594299316406,
+        7.319272041320801,
+        36.258872985839844
+      ],
+      "before_difference_m": 0.20516586303710938,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -39.137359619140625,
+        6.397064208984375,
+        36.258399963378906
+      ],
+      "before_difference_m": 0.2581977844238281,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -42.7987060546875,
+        3.9960784912109375,
+        36.76008224487305
+      ],
+      "before_difference_m": 0.23759841918945312,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -40.29095458984375,
+        4.776844024658203,
+        36.50288772583008
+      ],
+      "before_difference_m": 0.42110443115234375,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -42.739784240722656,
+        4.078831672668457,
+        36.747615814208984
+      ],
+      "before_difference_m": 0.18973922729492188,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -46.83629608154297,
+        -1.6746864318847656,
+        37.612525939941406
+      ],
+      "before_difference_m": 0.142486572265625,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -46.777381896972656,
+        -1.5919448137283325,
+        37.60011672973633
+      ],
+      "before_difference_m": 0.08246612548828125,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -49.661373138427734,
+        -5.64249324798584,
+        38.206539154052734
+      ],
+      "before_difference_m": 0.463287353515625,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -53.18108367919922,
+        -10.58590316772461,
+        38.943260192871094
+      ],
+      "before_difference_m": 0.2987937927246094,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -52.46265411376953,
+        -12.318225860595703,
+        39.06310272216797
+      ],
+      "before_difference_m": 0.09296417236328125,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -53.122169494628906,
+        -10.503158569335938,
+        38.93095779418945
+      ],
+      "before_difference_m": 0.28794097900390625,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -54.91148376464844,
+        -13.016239166259766,
+        39.30390548706055
+      ],
+      "before_difference_m": 0.2748985290527344,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -53.616249084472656,
+        -13.938446044921875,
+        39.303462982177734
+      ],
+      "before_difference_m": 0.17594528198242188,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -52.40373229980469,
+        -12.2354736328125,
+        39.050811767578125
+      ],
+      "before_difference_m": 0.3788261413574219,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -54.85256576538086,
+        -12.933486938476562,
+        39.29165267944336
+      ],
+      "before_difference_m": 0.2764549255371094,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -53.55733108520508,
+        -13.855693817138672,
+        39.29119873046875
+      ],
+      "before_difference_m": 0.12314987182617188,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -55.34664535522461,
+        -16.3687744140625,
+        39.66299057006836
+      ],
+      "before_difference_m": 0.16887664794921875,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -57.21867370605469,
+        -16.256675720214844,
+        39.78312683105469
+      ],
+      "before_difference_m": 0.3820991516113281,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -57.795475006103516,
+        -17.066783905029297,
+        39.90262985229492
+      ],
+      "before_difference_m": 0.3411445617675781,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -55.287723541259766,
+        -16.286022186279297,
+        39.65077209472656
+      ],
+      "before_difference_m": 0.13237762451171875,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -58.37227249145508,
+        -17.876895904541016,
+        40.02191162109375
+      ],
+      "before_difference_m": 0.327301025390625,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -58.31336212158203,
+        -17.794153213500977,
+        40.00973129272461
+      ],
+      "before_difference_m": 0.287200927734375,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -58.80744171142578,
+        -21.229440689086914,
+        40.378665924072266
+      ],
+      "before_difference_m": 0.050075531005859375,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -60.67947006225586,
+        -21.117341995239258,
+        40.49799346923828
+      ],
+      "before_difference_m": 0.19733047485351562,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -60.620548248291016,
+        -21.034589767456055,
+        40.48585510253906
+      ],
+      "before_difference_m": 0.11090850830078125,
+      "edge_id": "way-48846625-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -157.9095458984375,
+        -170.7881622314453,
+        58.04775619506836
+      ],
+      "before_difference_m": 0.1327972412109375,
+      "edge_id": "way-231091555-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -158.785888671875,
+        -171.2423858642578,
+        57.906795501708984
+      ],
+      "before_difference_m": 0.08402252197265625,
+      "edge_id": "way-231091555-seg-5",
+      "classification": "ERROR"
+    },
+    {
+      "point": [
+        -160.793212890625,
+        -174.0736541748047,
+        57.752227783203125
+      ],
+      "before_difference_m": 0.122802734375,
+      "edge_id": "way-231091555-seg-5",
+      "classification": "ERROR"
+    }
+  ],
+  "collision_targets_pending_count": 154,
+  "diagnostic_correction": {
+    "classification": "ERROR",
+    "subject": "auditor_no_support_gap",
+    "before_vertical_discontinuity_alerts": 2,
+    "after_vertical_discontinuity_alerts": 1,
+    "method": "Comparar diferenças verticais somente entre amostras com apoio; reiniciar após gap e usar distância entre frações reais. Não alterou Rua Chile nem removeu a falha de Misericórdia."
+  },
+  "reopened_validation": {
+    "local_targets": 36,
+    "local_maximum_difference_m": 0.035327911376953125,
+    "finite_proxy": true,
+    "degenerate_triangles": 0,
+    "proxy_vertices": 72886,
+    "proxy_faces": 138048,
+    "continuous_frames": 798,
+    "continuous_wheel_contacts": 3192,
+    "continuous_missing_support": 0,
+    "maximum_wheel_plane_error_m": 0.012704849243164062,
+    "maximum_continuous_proxy_difference_m": 0.007369041442871094,
+    "dynamic_physics_tested": false
+  },
+  "library_paths": [
+    "//assets\\vehicles\\rondesp-pickup\\marrom_v25_lanternas_re.blend",
+    "//assets\\monumento_mario_cravo\\monumento_mario_cravo_v01.blend"
+  ],
+  "driver_screenshot": "artifacts/roads/rondesp/b40-driver.png",
+  "network_after": {
+    "graph_edges": 743,
+    "wheel_samples": 73452,
+    "geometric_clear_segments": 453,
+    "issue_counts": {
+      "wheel_outside_pavement": 1136,
+      "center_outside_pavement": 318,
+      "crossfall_review": 461,
+      "collision_support_missing": 3,
+      "collision_visual_difference": 53,
+      "scene_binding_missing": 28,
+      "unresolved_endpoint_binding": 89,
+      "four_wheel_twist": 27,
+      "grade_review": 30,
+      "wheel_support_missing": 8,
+      "center_support_missing": 86,
+      "vertical_discontinuity": 1
+    },
+    "max_collision_visual_difference_m": 2.0062713623046875
+  },
+  "network_audit": "docs/reports/blender/rondesp_network_current.json",
+  "width_audit": "docs/reports/blender/road_width_scene_b39.json",
+  "driver_view_review": "Captura interna B40 conferida: pista e bordos visíveis na Montanha; cenário urbano ainda blockout, não AAA. Câmera não substitui envelope completo ou física."
+}

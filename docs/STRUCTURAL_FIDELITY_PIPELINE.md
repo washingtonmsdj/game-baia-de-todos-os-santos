@@ -205,3 +205,7 @@ Não:
 - transformar OSM em mesh final automaticamente.
 
 A referência serve para revelar divergências, não para escondê-las.
+
+## Semântica de trânsito e QA viário
+
+Após o gate de fit, o pipeline também gera `road_graph.json` e `osm_transport_reference.json`; passar `--capture-id` para proveniência conhecida. A criação de faixas e aprovação de circulação exigem a etapa de `ROAD_TRANSPORT_PRODUCTION.md`, com largura/sentido pendentes explícitos, apoio/envelope e histórico por área/OSM/nós. Estes arquivos são referência, não geometria final ou rotas prontas.

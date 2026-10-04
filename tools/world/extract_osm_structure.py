@@ -19,6 +19,7 @@ MAX_LAT = 85.0511287798066
 
 ROAD_VALUES = {
     "motorway", "trunk", "primary", "secondary", "tertiary", "unclassified", "residential",
+    "motorway_link", "trunk_link", "primary_link", "secondary_link", "tertiary_link",
     "service", "living_street", "pedestrian", "track", "path", "footway", "cycleway", "steps"
 }
 

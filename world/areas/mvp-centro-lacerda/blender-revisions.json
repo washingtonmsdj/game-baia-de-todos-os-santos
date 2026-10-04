@@ -3,12 +3,12 @@
   "area_id": "mvp-centro-lacerda",
   "production_source_reference": "production.json#/world_source",
   "authoring_source": {
-    "file": "blender/salvador_lacerda_r30b38_binding_conceicao.blend",
-    "sha256": "0d12cc8f7fd5a44ef27fa6c34b7f89360fece235b4f38a51f3c09672988b74fe",
-    "revision": "R30B.38",
+    "file": "blender/salvador_lacerda_r30b40_fluxos_e_colisao.blend",
+    "sha256": "99ecf2a8a091fdbc05d9f4cd28dbecfe3fca467307b8c1f0c3ffd7729943172a",
+    "revision": "R30B.40",
     "status": "authoring_candidate",
-    "parent_file": "blender/salvador_lacerda_r30b37_fachadas_baixa.blend",
-    "evidence": "docs/reports/blender/conceicao_binding_r30b38.json"
+    "parent_file": "blender/salvador_lacerda_r30b39_rondesp_percursos.blend",
+    "evidence": "docs/reports/blender/road_transport_b40.json"
   },
   "authoring_scene": "SALVADOR | ESBOCO OFICIAL",
   "selection_policy": "explicit_pointer_never_filename_mtime_or_open_window",
@@ -467,10 +467,28 @@
     {
       "file": "blender/salvador_lacerda_r30b38_binding_conceicao.blend",
       "revision": "R30B.38",
-      "status": "authoring_candidate",
+      "status": "historical",
       "parent_file": "blender/salvador_lacerda_r30b37_fachadas_baixa.blend",
       "evidence": "docs/reports/blender/conceicao_binding_r30b38.json",
       "sha256": "0d12cc8f7fd5a44ef27fa6c34b7f89360fece235b4f38a51f3c09672988b74fe",
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b39_rondesp_percursos.blend",
+      "revision": "R30B.39",
+      "status": "historical",
+      "parent_file": "blender/salvador_lacerda_r30b38_binding_conceicao.blend",
+      "evidence": "docs/reports/blender/rondesp_driver_review_b39.json",
+      "sha256": "d682741bf61a11cae333a9e8da6cb02c68557b4f4be8dabcb3d163c7dc120049",
+      "notes": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b40_fluxos_e_colisao.blend",
+      "revision": "R30B.40",
+      "status": "authoring_candidate",
+      "parent_file": "blender/salvador_lacerda_r30b39_rondesp_percursos.blend",
+      "evidence": "docs/reports/blender/road_transport_b40.json",
+      "sha256": "99ecf2a8a091fdbc05d9f4cd28dbecfe3fca467307b8c1f0c3ffd7729943172a",
       "notes": "Revisão de trabalho explicitamente selecionada; não equivale a aprovação para exportação."
     }
   ]

@@ -122,5 +122,14 @@
     "synthetic_edges": 0,
     "real_widths_verified": false,
     "complete_circuit_approved": false
+  },
+  "latest_osm_transport_review": {
+    "date": "2026-10-04",
+    "report": "docs/reports/blender/osm_transport_reference.json",
+    "network": "world/areas/mvp-centro-lacerda/transport-network.json",
+    "source_osm_sha256": "a96cd5ae5faf4dbb5d84ae120d545ab67f72be51b3330bcb2b23313169a48112",
+    "current_operation_verified": false,
+    "real_widths_verified": false,
+    "source_modified": false
   }
 }

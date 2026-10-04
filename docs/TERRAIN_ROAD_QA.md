@@ -132,3 +132,11 @@ Não aplicar smoothing global à escarpa para resolver poucos pontos locais.
 As distâncias horizontais usadas pelo QA vêm de EPSG:3857. Elas são adequadas para triagem relativa do recorte, mas o relatório não deve ser tratado como levantamento topográfico certificado.
 
 A finalidade é encontrar **onde investigar**, não substituir medição de campo.
+
+## Auditoria veicular B39 — 04/10/2026
+
+A fonte autora é B39 no catálogo; produção B30. A rede foi examinada com quatro contatos da Rondesp V25, mantendo bindings por OSM way e ordem dos nós. Relatórios `rondesp_network_audit_b38.json`, `rondesp_turn_audit.json` e `rondesp_driver_review_b39.json` registram coverage e pendências. Critérios de raio, grade, torção e tolerância do proxy são probes candidatos, não normas de engenharia ou aprovação AAA. Posição de câmera é candidata; material local de vidro permite inspeção. O percurso contínuo Montanha tem 3.192 apoios interpolados e não constitui validação de suspensão/tráfego/colisão volumétrica. Não reduzir resíduos por deformação global ou conectar endpoints sem apoio.
+
+## B40 — largura e circulação
+
+Priorizar apoio/camada/colisor, largura útil e faixa, fluxo legal e ônibus, nessa ordem. Regras e ferramentas em `ROAD_TRANSPORT_PRODUCTION.md`. Nenhuma largura real foi inventada ou aplicada na B40. Guias candidatas são referência; cenário visual preservado. Registrar ocorrências por OSM way/par de nós e preservar histórico, inclusive falhas não observadas que ainda precisam de confirmação.

@@ -4,12 +4,12 @@ Decisão de 02/10/2026. O catálogo distingue histórico, recuperação, trabalh
 
 | Papel | Revisão | Estado |
 | --- | --- | --- |
-| Trabalho/modelagem | B38 `salvador_lacerda_r30b38_binding_conceicao.blend` | Candidata: preserva B37, corrige binding de camada e refina colisor local; circuito completo pendente |
+| Trabalho/modelagem | B40 `salvador_lacerda_r30b40_fluxos_e_colisao.blend` | Candidata: refino de colisor, larguras auditadas e guias de fluxo; produção continua B30, ônibus/física pendentes |
 | Produção registrada | B30 `salvador_lacerda_r30b30_conexao_real_recorte.blend` | Conferência estrutural localizada; jogabilidade/cidade não aprovadas integralmente |
 | Base histórica | B23 `salvador_lacerda_r30b23_fachada_praca.blend` | Antecessora; não reiniciar o trabalho dela |
 | Experimentos R30C | `salvador_lacerda_mvp_r30c*.blend` | Rejeitados como base |
 
-A cadeia B23 → B24 → B25 → B26 → B27 → B28 → B29 → B30 → B31 → B32 → B33 → B34 → B35 → B36 → B37 → B38
+A cadeia B23 → B24 → B25 → B26 → B27 → B28 → B29 → B30 → B31 → B32 → B33 → B34 → B35 → B36 → B37 → B38 → B39 → B40
 é documentada em `source_before` nos relatórios de `docs/reports/blender/`.
 B24–B30 corrigiram encontro de vias, colisão e borda de terreno. B31 acrescentou
 arquitetura sem modificar terreno/ruas. B32 recuperou três corpos e 38 componentes
@@ -27,7 +27,7 @@ isso criaria outro ramo e excluiria correções sucessoras.
 - `artifacts/blender-sessions/current-session.json`: janela/porta adotadas e
   recuperação local; não é autoridade da cidade nem revisão de produção.
 - O pacote do navegador conserva sua própria origem/hash. Abrir outro `.blend`
-  não atualiza o jogo; não assumir que o navegador representa a candidata B38.
+  não atualiza o jogo; não assumir que o navegador representa a candidata B40.
 
 A B23 aberta na 9876 tinha alterações não salvas. Foi preservada uma cópia de
 recuperação em `artifacts/blender-sessions/`, sem sobrescrever a fonte e sem criar
@@ -97,3 +97,11 @@ no terreno/proxy, com lajes e colisores separados mantendo o piso da praça.
 Não tratar como aprovação geral do relevo ou gameplay. Detalhes/recuperação e
 conferência em `palacio_rio_branco_r30b34.json`. Preservar B33 e o backup local
 pré-refinamento; não reexecutar passes já aplicados para apenas trocar número.
+
+## B39 — revisão com a Rondesp
+
+Fonte de trabalho no catálogo, B38 preservada. Relatórios de rede, curvas e câmera em `docs/reports/blender/rondesp_*`. Prévia contínua da Montanha: frames 241–1038, 97,79 m; ação anterior preservada. Pistas e cidade permanecem candidatas, com apoios/bindings/curvas/obstáculos em revisão. A biblioteca V25 conserva hash e caminho relativo; transparência local de QA, câmera e ator não pertencem à exportação de produção. Não promover B39 a runtime com base no replay cinemático.
+
+## B40 — larguras e fluxos candidatos
+
+B39 preservada; colisor local corrigido e guias de revisão fora do runtime. Fonte explícita no catálogo, evidência em `road_transport_b40.json`. Largura real permanece null. Contrato/histórico da área e `ROAD_TRANSPORT_PRODUCTION.md` documentam pendências e gates. Não promover guias iguais a faixas reais.

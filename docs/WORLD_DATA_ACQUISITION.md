@@ -193,3 +193,7 @@ Toda nova fonte entra em `docs/references/SOURCE_REGISTRY.json` antes de ser pro
 ## Resultado esperado
 
 Com esse processo, o projeto poderá crescer para Salvador inteira sem transformar o `.blend` em uma coleção irreproduzível de imports manuais. Cada bairro manterá uma cadeia clara entre mundo real, fonte, captura, referência, blockout e geometria final.
+
+## Vias na expansão territorial
+
+Preservar sentidos, faixas, restrições de conversão e transporte coletivo desde a captura; pipeline estrutural agora emite grafo e referência de transporte. Ler `ROAD_TRANSPORT_PRODUCTION.md`. Não deduzir mão dupla, largura ou rota por classe/nome. Auditar costuras entre setores com IDs/camadas e manter histórico de correções da área.

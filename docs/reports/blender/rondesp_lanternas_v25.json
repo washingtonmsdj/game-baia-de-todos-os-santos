@@ -1,0 +1,211 @@
+{
+  "asset_id": "vehicle-rondesp-pickup",
+  "status": "candidate",
+  "parent": "blender/assets/vehicles/rondesp-pickup/marrom_v24_farois.blend",
+  "parent_sha256": "362783bb439f3f26d337c477bccdc955790b448fc5e25cb72f2db6be043945db",
+  "protected_mesh_hashes": {
+    "HILUX | CARROCERIA PRINCIPAL": "dc14cd6a4431adf1de0577c5c9c022d956b85ebfd1e7ba9d9759d9cf74e630c7",
+    "RDP01 | HILUX06 | Porta dianteira -1": "3fd0b965b846fd6fffd0255cc32db36bb2705500a1ae79907fac6d7466aedb76",
+    "RDP01 | HILUX06 | Porta dianteira 1": "b8a9212a9c4169b4684b24a44b00dfb5674b94d548e403b0f62205c5c465ce4e",
+    "RDP01 | HILUX06 | Porta traseira -1": "9991ece14467677ec44915a0eda482c598f57ac0d31258c950792cc452e156be",
+    "RDP01 | HILUX06 | Porta traseira 1": "b292a61a84c045c2b8dcab39a6b74ccb7d89f17a19e0fedab6f374e40b1d682a"
+  },
+  "geometry_unchanged": true,
+  "diagnosis": "Compartimento claro V22 era estático e não possuía circuito de ré; posição forte reduzia contraste do freio.",
+  "factory_lamp_compartment_position": "needs_review; preservado compartimento claro existente, sem alegar correspondência de peça industrial",
+  "reference_search": {
+    "toyota_manual_indexed": "https://media.toyota.com.br/5032742a-b1ae-4d27-aaac-134868b9da00.pdf",
+    "full_pdf": "403; ano/modelo e posição não verificados, sem uso como planta"
+  },
+  "changed_material_slots": [
+    {
+      "object": "RDP01 | HILUX06 | Segmento lanterna (-1, 0.943)",
+      "slot": 0
+    },
+    {
+      "object": "RDP01 | HILUX06 | Segmento lanterna (1, 0.943)",
+      "slot": 0
+    }
+  ],
+  "new_lights": [
+    "HILUX25 | Feixe de re -1",
+    "HILUX25 | Reflexo posicao e freio -1",
+    "HILUX25 | Feixe de re 1",
+    "HILUX25 | Reflexo posicao e freio 1"
+  ],
+  "checks": [
+    {
+      "state": "posicao",
+      "position": 1.0,
+      "brake": 0.0,
+      "reverse": 0.0,
+      "emissions": {
+        "HILUX22 | Lanterna posicao vermelha": 0.11999999731779099,
+        "HILUX22 | Lanterna e freio vermelhos": 0.18000000715255737,
+        "HILUX22 | Terceira luz freio": 0.0,
+        "HILUX25 | Re branca independente": 0.0
+      },
+      "powers": {
+        "HILUX25 | Feixe de re -1": 0.0,
+        "HILUX25 | Reflexo posicao e freio -1": 3.0,
+        "HILUX25 | Feixe de re 1": 0.0,
+        "HILUX25 | Reflexo posicao e freio 1": 3.0
+      }
+    },
+    {
+      "state": "freio",
+      "position": 1.0,
+      "brake": 1.0,
+      "reverse": 0.0,
+      "emissions": {
+        "HILUX22 | Lanterna posicao vermelha": 0.11999999731779099,
+        "HILUX22 | Lanterna e freio vermelhos": 4.179999828338623,
+        "HILUX22 | Terceira luz freio": 4.0,
+        "HILUX25 | Re branca independente": 0.0
+      },
+      "powers": {
+        "HILUX25 | Feixe de re -1": 0.0,
+        "HILUX25 | Reflexo posicao e freio -1": 33.0,
+        "HILUX25 | Feixe de re 1": 0.0,
+        "HILUX25 | Reflexo posicao e freio 1": 33.0
+      }
+    },
+    {
+      "state": "re",
+      "position": 1.0,
+      "brake": 0.0,
+      "reverse": 1.0,
+      "emissions": {
+        "HILUX22 | Lanterna posicao vermelha": 0.11999999731779099,
+        "HILUX22 | Lanterna e freio vermelhos": 0.18000000715255737,
+        "HILUX22 | Terceira luz freio": 0.0,
+        "HILUX25 | Re branca independente": 5.0
+      },
+      "powers": {
+        "HILUX25 | Feixe de re -1": 220.0,
+        "HILUX25 | Reflexo posicao e freio -1": 3.0,
+        "HILUX25 | Feixe de re 1": 220.0,
+        "HILUX25 | Reflexo posicao e freio 1": 3.0
+      }
+    },
+    {
+      "state": "freio-e-re",
+      "position": 1.0,
+      "brake": 1.0,
+      "reverse": 1.0,
+      "emissions": {
+        "HILUX22 | Lanterna posicao vermelha": 0.11999999731779099,
+        "HILUX22 | Lanterna e freio vermelhos": 4.179999828338623,
+        "HILUX22 | Terceira luz freio": 4.0,
+        "HILUX25 | Re branca independente": 5.0
+      },
+      "powers": {
+        "HILUX25 | Feixe de re -1": 220.0,
+        "HILUX25 | Reflexo posicao e freio -1": 33.0,
+        "HILUX25 | Feixe de re 1": 220.0,
+        "HILUX25 | Reflexo posicao e freio 1": 33.0
+      }
+    },
+    {
+      "state": "tudo-desligado",
+      "position": 0.0,
+      "brake": 0.0,
+      "reverse": 0.0,
+      "emissions": {
+        "HILUX22 | Lanterna posicao vermelha": 0.0,
+        "HILUX22 | Lanterna e freio vermelhos": 0.0,
+        "HILUX22 | Terceira luz freio": 0.0,
+        "HILUX25 | Re branca independente": 0.0
+      },
+      "powers": {
+        "HILUX25 | Feixe de re -1": 0.0,
+        "HILUX25 | Reflexo posicao e freio -1": 0.0,
+        "HILUX25 | Feixe de re 1": 0.0,
+        "HILUX25 | Reflexo posicao e freio 1": 0.0
+      }
+    }
+  ],
+  "source_reopened": true,
+  "runtime_exported": false,
+  "visual_review": "reviewed: posição discreta, freio mais intenso e terceira luz; ré branca e dois feixes no piso",
+  "unused_clear_slots": [
+    {
+      "object": "RDP01 | HILUX06 | Lente vermelha traseira -1",
+      "slot": 2
+    },
+    {
+      "object": "RDP01 | HILUX06 | Retorno lanterna -1",
+      "slot": 2
+    },
+    {
+      "object": "RDP01 | HILUX06 | Lente vermelha traseira 1",
+      "slot": 2
+    },
+    {
+      "object": "RDP01 | HILUX06 | Retorno lanterna 1",
+      "slot": 2
+    }
+  ],
+  "presentation_camera_before": {
+    "location": [
+      -6.800000190734863,
+      -8.0,
+      4.199999809265137
+    ],
+    "rotation": [
+      1.2823050022125244,
+      -8.681100638341377e-08,
+      -0.6953415870666504
+    ],
+    "scale": 7.599999904632568
+  },
+  "preview_paths": {
+    "posicao": "artifacts/vehicles/rondesp/v25-posicao-viewport.png",
+    "freio": "artifacts/vehicles/rondesp/v25-freio-viewport.png",
+    "re": "artifacts/vehicles/rondesp/v25-re-viewport.png",
+    "freio-e-re": "artifacts/vehicles/rondesp/v25-freio-e-re-viewport.png"
+  },
+  "file": "blender/assets/vehicles/rondesp-pickup/marrom_v25_lanternas_re.blend",
+  "scene": "VIATURA | Rondesp Hilux lanternas e re v25",
+  "sha256": "222c780b735275cebcd0c2e1a68260a898bb78ca3605798b4cff05f07f6f3937",
+  "objects": 519,
+  "live_session": {
+    "pid": 19576,
+    "port": 9876
+  },
+  "controls": {
+    "position": "lanternas_ligadas",
+    "brake": "freio",
+    "reverse": "re_engatada",
+    "manual_override": "demonstracao_ativa=0"
+  },
+  "demo_reverse_frames": [
+    190,
+    224
+  ],
+  "intensities_scope": "Parâmetros de aparência Blender; não medições fotométricas de fábrica.",
+  "source_sha256_after_reopen": "222c780b735275cebcd0c2e1a68260a898bb78ca3605798b4cff05f07f6f3937",
+  "reopen_checks": [
+    {
+      "frame": 200,
+      "reverse": 5.0,
+      "brake": 0.18000000715255737,
+      "third_brake": 0.0
+    },
+    {
+      "frame": 160,
+      "reverse": 0.0,
+      "brake": 4.179999828338623,
+      "third_brake": 4.0
+    },
+    {
+      "frame": 230,
+      "reverse": 0.0,
+      "brake": 0.18000000715255737,
+      "third_brake": 0.0
+    }
+  ],
+  "brake_reverse_with_position_off_verified": true,
+  "live_rendered": true,
+  "presentation_frame": 200
+}

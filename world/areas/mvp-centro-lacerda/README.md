@@ -15,6 +15,23 @@ Os arquivos canônicos desta área são:
 - `locations.json` — locais/assets que precisam existir e seu nível de fidelidade;
 - `media-manifest.json` — referências visuais catalogadas e sua proveniência.
 
+## Revisão veicular do terreno — B40
+
+A candidata de modelagem registrada é B40; produção continua B30. A Rondesp V25
+permanece como biblioteca separada, com câmera de revisão sobre o motorista.
+A prévia contínua da Montanha ocupa frames 241–1038 (97,79 m). Espaço reproduz
+na janela do Blender. Trata-se de movimento cinemático; suspensão e física
+não foram validadas. Auditoria de 743 segmentos e 617 curvas está registrada em
+`docs/reports/blender/rondesp_*`; ainda há apoios, bindings, curvas e obstáculos
+pendentes. Nenhum percurso completo ou padrão AAA está aprovado.
+
+## Vias e fluxo candidato
+
+`transport-network.json` registra sentidos, largura/faixas candidatas, itinerário
+parcial e paradas OSM; `road-corrections.json` preserva detecções e correções.
+Regras/prioridades: `docs/ROAD_TRANSPORT_PRODUCTION.md`. Produção B30 preservada.
+B40 melhora colisor local e mantém largura real null; não aprova tráfego/ônibus.
+
 ## Ordem de referência/modelagem
 
 Prioridade atual:
