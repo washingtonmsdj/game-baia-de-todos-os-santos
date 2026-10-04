@@ -1,0 +1,111 @@
+{
+  "asset_id": "vehicle-rondesp-pickup",
+  "file": "blender/assets/vehicles/rondesp-pickup/hilux_carroceria_v15.blend",
+  "scene": "HILUX | carroceria isolada v15",
+  "parent": "blender/assets/vehicles/rondesp-pickup/hilux_carroceria_v14.blend",
+  "sha256": "369f1fd1954a4f6f1db3c44a89bd8cf0acdba4a0acb97f9f47a01a943a38246e",
+  "status": "candidate",
+  "authoring_mode": "body_only",
+  "body_mesh": "HILUX | CARROCERIA PRINCIPAL",
+  "removed_components": [
+    "HILUX06 | Teto curvatura dupla",
+    "HILUX13 | Retorno continuo da borda do teto",
+    "HILUX13 | Encontro teto painel posterior",
+    "HILUX13 | Coluna B com cantos arredondados",
+    "HILUX13 | Retorno batente B -1",
+    "HILUX13 | Retorno batente B 1",
+    "HILUX13 | Coluna C e canto posterior",
+    "HILUX14 | Batente C com retorno interno",
+    "HILUX13 | Painel posterior com vão do vidro",
+    "HILUX13 | Flange do vidro posterior",
+    "HILUX14 | Montante A com largura de chapa",
+    "HILUX14 | Retorno interno montante A",
+    "HILUX14 | Pe montante A junto ao cowl",
+    "HILUX14 | Batente A integrado ao para-lama"
+  ],
+  "removed_faces": 6641,
+  "new_components": [
+    "HILUX15 | Armacão lateral continua A B C",
+    "HILUX15 | Teto continuo ate as colunas",
+    "HILUX15 | Batente dianteiro ligado ao contorno",
+    "HILUX15 | Batente traseiro ligado ao contorno",
+    "HILUX15 | Canto posterior cabine arredondado",
+    "HILUX15 | Painel posterior unido ao teto e cantos",
+    "HILUX15 | Retorno vao vidro traseiro",
+    "HILUX15 | Retorno cabeçalho parabrisa",
+    "HILUX15 | Retorno continuo lateral parabrisa"
+  ],
+  "base_vertices": 34333,
+  "base_faces": 34787,
+  "visible_meshes": [
+    "HILUX | CARROCERIA PRINCIPAL"
+  ],
+  "source_reopened": true,
+  "visual_review": "reviewed_with_fine_fit_pending",
+  "runtime_exported": false,
+  "rig_applied": false,
+  "reference_ids": [
+    "hilux-2024-std-dealer-side",
+    "hilux-srx-user-rear"
+  ],
+  "notes": [
+    "Contornos autorais candidatos, não medidas de fábrica.",
+    "Armação sem portas, rodas, chassi, vidros ou cobertura policial; conjuntos reservados preservados.",
+    "Sem npm, testes, build, exportação runtime ou commit.",
+    "Contornos da cabine construídos com estações comuns antes da solda.",
+    "Perfil da armação regularizado sem degrau nas colunas A/B.",
+    "Dobra arredondada localizada no encontro teto/lateral e retorno contínuo do para-brisa.",
+    "Normais separadas nas dobras internas, preservando o arredondamento geométrico da chapa externa."
+  ],
+  "scene_observation": {
+    "file": "blender/assets/vehicles/rondesp-pickup/hilux_carroceria_v15.blend",
+    "visible_meshes": [
+      "HILUX | CARROCERIA PRINCIPAL"
+    ],
+    "body_base_vertices": 34333,
+    "body_base_faces": 34787,
+    "modifiers": [
+      [
+        "ESPELHO X • editar metade +X",
+        "MIRROR"
+      ],
+      [
+        "Espessura visual da chapa • candidata",
+        "SOLIDIFY"
+      ]
+    ]
+  },
+  "contour_finish": {
+    "regularized_vertices": 1525,
+    "rounded_roof_edges": 68,
+    "roof_roll_radius_candidate_m": 0.008,
+    "windshield_side_return_candidate_m": 0.012,
+    "a_plane_regularized_vertices": 179,
+    "sheet_fold_sharp_edges": 1336
+  },
+  "visual_views": [
+    "artifacts/vehicles/rondesp/v15-carroceria-cacamba.png",
+    "artifacts/vehicles/rondesp/v15-carroceria-encontro-cabine.png",
+    "artifacts/vehicles/rondesp/v15-carroceria-frente.png",
+    "artifacts/vehicles/rondesp/v15-carroceria-batente-dianteiro.png",
+    "artifacts/vehicles/rondesp/v15-carroceria-tampa.png",
+    "artifacts/vehicles/rondesp/v15-carroceria-teto.png",
+    "artifacts/vehicles/rondesp/v15-carroceria-lateral.png"
+  ],
+  "remaining": [
+    "Refinamento do contorno e das transições finas da chapa.",
+    "Conferir encaixes de portas, vidros e componentes reservados ao restaurar a montagem.",
+    "Dobradiças, direção e rodagem ainda adiadas, conforme o escopo atual."
+  ],
+  "reopened_observation": {
+    "scene": "HILUX | carroceria isolada v15",
+    "base_vertices": 34333,
+    "base_faces": 34787,
+    "visible_meshes": [
+      "HILUX | CARROCERIA PRINCIPAL"
+    ],
+    "mirror_clipping": true,
+    "objects": 468,
+    "file_sha256": "369f1fd1954a4f6f1db3c44a89bd8cf0acdba4a0acb97f9f47a01a943a38246e"
+  }
+}

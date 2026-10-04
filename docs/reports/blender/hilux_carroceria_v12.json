@@ -1,0 +1,101 @@
+{
+  "asset_id": "vehicle-rondesp-pickup",
+  "file": "blender/assets/vehicles/rondesp-pickup/hilux_carroceria_v12.blend",
+  "scene": "HILUX | carroceria isolada v12",
+  "parent": "blender/assets/vehicles/rondesp-pickup/marrom_v11.blend",
+  "sha256": "ee179fcda5219d49379016316dd6ffaaae4d235d67dac235021394595c39783c",
+  "status": "candidate",
+  "authoring_mode": "body_only",
+  "body_mesh": "HILUX | CARROCERIA PRINCIPAL",
+  "symmetry": "Mirror X; source half +X",
+  "body_components": [
+    "RDP01 | HILUX06 | Capô e ombros estampados",
+    "RDP01 | HILUX06 | Para-lama dianteiro -1",
+    "RDP01 | HILUX06 | Retorno caixa roda (-1.43, -1)",
+    "RDP01 | HILUX06 | Retorno caixa roda (1.655, -1)",
+    "RDP01 | HILUX06 | Soleira -1",
+    "RDP01 | HILUX06 | Lateral caçamba -1",
+    "RDP01 | HILUX06 | Para-lama dianteiro 1",
+    "RDP01 | HILUX06 | Retorno caixa roda (-1.43, 1)",
+    "RDP01 | HILUX06 | Retorno caixa roda (1.655, 1)",
+    "RDP01 | HILUX06 | Soleira 1",
+    "RDP01 | HILUX06 | Lateral caçamba 1",
+    "RDP01 | HILUX06 | Teto curvatura dupla",
+    "RDP01 | HILUX06 | Montante A curvo -1",
+    "RDP01 | HILUX06 | Montante A curvo 1",
+    "RDP01 | HILUX06 | Cowl",
+    "RDP01 | HILUX06 | Parede posterior cabine",
+    "RDP01 | HILUX06 | Retorno para-choque -1",
+    "RDP01 | HILUX06 | Retorno para-choque 1",
+    "RDP01 | HILUX06 | Tampa caçamba",
+    "RDP01 | HILUX06 | Para-choque e testa esculpidos",
+    "RDP01 | HILUX06 | Travessa máscara Hilux STD",
+    "RDP01 | HILUX06 | Batentes externos e soleira -1",
+    "RDP01 | HILUX06 | Caixa interna roda (-1, -1.43)",
+    "RDP01 | HILUX06 | Caixa interna roda (-1, 1.655)",
+    "RDP01 | HILUX06 | Batentes externos e soleira 1",
+    "RDP01 | HILUX06 | Caixa interna roda (1, -1.43)",
+    "RDP01 | HILUX06 | Caixa interna roda (1, 1.655)",
+    "RDP01 | HILUX09 | Retorno farol -1",
+    "RDP01 | HILUX09 | Retorno farol 1",
+    "RDP01 | HILUX11 | Retour colonne C -1",
+    "RDP01 | HILUX11 | Retour colonne C 1",
+    "RDP01 | HILUX12 | Calha fixa -1",
+    "RDP01 | HILUX12 | Coluna C fixa -1",
+    "RDP01 | HILUX12 | Coluna B -1",
+    "RDP01 | HILUX12 | Calha fixa 1",
+    "RDP01 | HILUX12 | Coluna C fixa 1",
+    "RDP01 | HILUX12 | Coluna B 1",
+    "RDP01 | HILUX12 | Piso caçamba aberto",
+    "RDP01 | HILUX12 | Parede interna caçamba -1",
+    "RDP01 | HILUX12 | Caixa roda caçamba -1",
+    "RDP01 | HILUX12 | Face interna caixa -1",
+    "RDP01 | HILUX12 | Borda superior caçamba -1",
+    "RDP01 | HILUX12 | Parede interna caçamba 1",
+    "RDP01 | HILUX12 | Caixa roda caçamba 1",
+    "RDP01 | HILUX12 | Face interna caixa 1",
+    "RDP01 | HILUX12 | Borda superior caçamba 1",
+    "RDP01 | HILUX12 | Parede frontal caçamba",
+    "RDP01 | HILUX12 | Revestimento tampa caçamba",
+    "RDP01 | HILUX12 | Piso estrutural cabine"
+  ],
+  "visible_meshes": [
+    "HILUX | CARROCERIA PRINCIPAL"
+  ],
+  "reserved_collection": "RDP01 | PECAS RESERVADAS",
+  "objects": 468,
+  "source_reopened": true,
+  "visual_review": "Frente e caçamba conferidas em modo de modelagem; candidata para ajuste fino.",
+  "rig_applied": false,
+  "runtime_exported": false,
+  "notes": [
+    "Carroceria visual em malha única; juntas de chapas mantidas, não union boolean nem collider.",
+    "Portas/caixilhos, chassi, rodas, capota policial, vidros, interiores e equipamentos preservados ocultos.",
+    "Caçamba aberta com piso, paredes internas e caixas de roda candidatas, dimensões autorais.",
+    "Tentativa de rig V11 descartada após falha do Blender e mudança de escopo do usuário.",
+    "Batentes triangulados antigos substituídos: tiras não atravessam mais o vão das portas."
+  ],
+  "scene_observation": {
+    "file": "blender/assets/vehicles/rondesp-pickup/hilux_carroceria_v12.blend",
+    "visible_meshes": [
+      "HILUX | CARROCERIA PRINCIPAL"
+    ],
+    "body_base_vertices": 22343,
+    "body_base_faces": 21730,
+    "modifiers": [
+      [
+        "ESPELHO X • editar metade +X",
+        "MIRROR"
+      ],
+      [
+        "Espessura da chapa • 8 mm candidata",
+        "SOLIDIFY"
+      ]
+    ]
+  },
+  "wire_edges_removed": 5,
+  "loose_vertices_removed": 49,
+  "old_jamb_faces_replaced": 615,
+  "catalog_promoted": true,
+  "checks_run": "Reabertura da fonte e observação visual na única janela; sem npm, testes, build ou exportação runtime."
+}

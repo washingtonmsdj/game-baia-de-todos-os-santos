@@ -1,0 +1,149 @@
+{
+  "asset_id": "vehicle-rondesp-pickup",
+  "file": "blender/assets/vehicles/rondesp-pickup/hilux_carroceria_v17.blend",
+  "parent": "blender/assets/vehicles/rondesp-pickup/hilux_carroceria_v16.blend",
+  "sha256": "58d0b48616c03f3b6c5cf50fcdf00bc2cfa02921667aee732285e57b189eb7d3",
+  "scene": "HILUX | carroceria isolada v17",
+  "status": "candidate",
+  "authoring_mode": "body_only",
+  "body_mesh": "HILUX | CARROCERIA PRINCIPAL",
+  "new_components": [
+    "HILUX17 | Cabeceira externa com retorno superior ligado",
+    "HILUX17 | Retorno lateral cabeceira sem juncao tripla",
+    "HILUX17 | Soleira continua da cabine ao piso",
+    "HILUX17 | Encontro assoalho painel posterior",
+    "HILUX17 | Cowl continuo na base do parabrisa",
+    "HILUX17 | Tampa externa ligada a todas as dobras"
+  ],
+  "removed_faces": 1435,
+  "duplicate_flange_faces_removed": 17,
+  "boundary_splits_per_pass": [
+    180
+  ],
+  "base_vertices": 42610,
+  "base_faces": 46278,
+  "visible_meshes": [
+    "HILUX | CARROCERIA PRINCIPAL"
+  ],
+  "source_reopened": true,
+  "visual_review": "reviewed_with_reserved_components_fit_pending",
+  "runtime_exported": false,
+  "rig_applied": false,
+  "reference_ids": [
+    "hilux-2024-std-dealer-side",
+    "hilux-srx-user-rear",
+    "hilux-std-stock-front"
+  ],
+  "notes": [
+    "Uma malha com Mirror X; junta cabine/caçamba e aberturas funcionais preservadas.",
+    "Geometria candidata interpretada das referências; parâmetros não representam medidas de fábrica.",
+    "Portas, rodas, chassi, vidros e equipamento continuam reservados.",
+    "Sem npm, testes, build, exportação runtime ou commit."
+  ],
+  "scene_observation": {
+    "file": "blender/assets/vehicles/rondesp-pickup/hilux_carroceria_v17.blend",
+    "visible_meshes": [
+      "HILUX | CARROCERIA PRINCIPAL"
+    ],
+    "body_base_vertices": 42610,
+    "body_base_faces": 46278,
+    "modifiers": [
+      [
+        "ESPELHO X • editar metade +X",
+        "MIRROR"
+      ],
+      [
+        "Espessura visual da chapa • candidata",
+        "SOLIDIFY"
+      ]
+    ]
+  },
+  "intersection_finish": {
+    "remeshed": {
+      "fender": {
+        "old_faces": 2640,
+        "new_faces": 5266,
+        "preserved_control_vertices": 2747
+      },
+      "front": {
+        "old_faces": 2092,
+        "new_faces": 2141,
+        "preserved_control_vertices": 1213
+      }
+    },
+    "redundant_A_foot_faces_removed": 1,
+    "roof_corner_vertices_rebuilt": 9,
+    "bed_rear_vertices_adjusted": 2326,
+    "tailgate_base_clearance_candidate_m": 0.006
+  },
+  "joint_finish": {
+    "windshield_return_miter": true,
+    "front_return_stations": 58,
+    "front_return_faces": 456,
+    "front_return_component": "HILUX17 | Retorno frontal com bordas comuns"
+  },
+  "visual_views": [
+    "artifacts/vehicles/rondesp/v17-carroceria-cacamba.png",
+    "artifacts/vehicles/rondesp/v17-carroceria-encontro-cabine.png",
+    "artifacts/vehicles/rondesp/v17-carroceria-frente.png",
+    "artifacts/vehicles/rondesp/v17-carroceria-batente-dianteiro.png",
+    "artifacts/vehicles/rondesp/v17-carroceria-tampa.png",
+    "artifacts/vehicles/rondesp/v17-carroceria-arco-traseiro.png",
+    "artifacts/vehicles/rondesp/v17-carroceria-interior-cacamba.png",
+    "artifacts/vehicles/rondesp/v17-carroceria-lateral.png"
+  ],
+  "remaining": [
+    "Fidelidade interpretada das referências; não representa certificação ou medidas industriais.",
+    "Conferir encaixes de portas, vidros e componentes reservados ao restaurar a montagem.",
+    "Dobradiças, direção e rodagem ainda adiadas, conforme o escopo atual."
+  ],
+  "mesh_review": {
+    "scope": "Malha base de autoria, sem os conjuntos reservados.",
+    "before": {
+      "multi_edges": 53,
+      "inconsistent_winding": 221,
+      "tiny_faces": 0,
+      "duplicate_faces": 0,
+      "wire_edges": 0,
+      "coincident_vertices": 0,
+      "t_junctions": 148
+    },
+    "after": {
+      "multi_edges": 0,
+      "inconsistent_winding": 0,
+      "tiny_faces": 0,
+      "duplicate_faces": 0,
+      "wire_edges": 0,
+      "coincident_vertices": 0,
+      "t_junctions": 0
+    },
+    "edge_face_counts_after": {
+      "2": 87347,
+      "1": 1544
+    },
+    "intersections": {
+      "source": "base_mesh",
+      "tolerance_m": 1e-07,
+      "non_adjacent_intersecting_face_pairs": 0,
+      "shared_edge_contact_tolerance_m": 1e-06,
+      "shared_edge_triangle_contacts_excluded": 2,
+      "panel_counts": {},
+      "intersections": [],
+      "scope": "Penetração no interior de triângulos sem vértices compartilhados; exclui contato de bordas e não substitui conferência dos conjuntos reservados."
+    },
+    "mesh_before": "artifacts/vehicles/rondesp/v17-mesh-before.json",
+    "mesh_after": "artifacts/vehicles/rondesp/v17-mesh-after.json",
+    "intersection_report": "artifacts/vehicles/rondesp/v17-intersections.json"
+  },
+  "reopened_observation": {
+    "scene": "HILUX | carroceria isolada v17",
+    "base_vertices": 42610,
+    "base_faces": 46278,
+    "visible_meshes": [
+      "HILUX | CARROCERIA PRINCIPAL"
+    ],
+    "mirror_clipping": true,
+    "objects": 468,
+    "file_sha256": "58d0b48616c03f3b6c5cf50fcdf00bc2cfa02921667aee732285e57b189eb7d3"
+  }
+}

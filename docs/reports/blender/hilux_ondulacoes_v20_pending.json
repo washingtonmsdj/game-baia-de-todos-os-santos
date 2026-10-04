@@ -1,0 +1,40 @@
+{
+  "asset_id": "vehicle-rondesp-pickup",
+  "source": "blender/assets/vehicles/rondesp-pickup/hilux_superficies_v19.blend",
+  "source_sha256": "af484a3fcda12649e07a3ed4bd53c64b3233845b6878a56d557e174498bde540",
+  "status": "diagnosis_completed",
+  "user_review": "Ondulações visíveis no encontro do teto com o painel traseiro; V19 não aceita como acabamento concluído.",
+  "scope": "Análise read-only da geometria exportada V19; nenhuma mutação nova aplicada à cena.",
+  "observations": {
+    "rear_header_faces_above_1_72_m": 541,
+    "face_normal_deviation_from_rear_plane_degrees": {
+      "min": 0,
+      "max": 4.672379410272638
+    },
+    "roof_rear_shared_edges": 34,
+    "dihedral_degrees": {
+      "min": 27.7338731720148,
+      "max": 83.8617073659478
+    }
+  },
+  "interpretation": "Transição teto/parede traseira ainda abrupta e irregular; normais interpoladas em malha com distribuição desigual podem amplificar os reflexos. Comparação ao vivo preparada para separar espessura, geometria e sombreamento, ainda não executada.",
+  "next_action": "Iniciar servidor no painel BlendMCP porta 9877 na janela atual. Inspecionar e preservar cena Unsaved antes de abrir V19, sem iniciar outra janela. Depois executar comparação reversível de superfície.",
+  "blocker": {
+    "blender_pid": 19576,
+    "primary_mcp": "Transport closed",
+    "fallback_port": 9877,
+    "fallback_error": "ConnectionRefusedError WinError 10061 (127.0.0.1 e localhost, após usuário informar porta aberta).",
+    "computer_use": "list_apps timeout, inclusive após reinicialização do kernel",
+    "window_title": "* (Unsaved) - Blender 5.2.2 LTS",
+    "previous_blender_pid_ended": 16304
+  },
+  "new_blend_saved": true,
+  "connection_restored": {
+    "pid": 19576,
+    "port": 9876,
+    "addon_version": "1.4.4"
+  },
+  "resolution_report": "blender/assets/vehicles/rondesp-pickup/hilux_chapa_v20.blend",
+  "resolution_evidence": "docs/reports/blender/hilux_chapa_v20.json",
+  "confirmed_cause": "Espessura em offset 0 deslocava a superfície externa e criava marcas na faixa traseira. Offset -1 com normais de alta qualidade preserva o exterior."
+}

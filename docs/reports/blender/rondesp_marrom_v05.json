@@ -1,0 +1,69 @@
+{
+  "file": "blender/assets/vehicles/rondesp-pickup/marrom_v05.blend",
+  "scene": "VIATURA | Rondesp Hilux marrom v05",
+  "sha256": "326edf3a770fd611c7e01ca7493783e15bef38f324cb1b71816ff386a2c83ccb",
+  "asset_id": "vehicle-rondesp-pickup",
+  "status": "candidate",
+  "dimensions_nominal": {
+    "length": 5.325,
+    "body_width_without_mirrors": 1.855,
+    "stock_vehicle_height": 1.815,
+    "wheelbase": 3.085,
+    "cargo_internal_length": 1.569,
+    "cargo_internal_width": 1.645,
+    "cargo_internal_height": 0.481
+  },
+  "tires_nominal": {
+    "designation": "265/65 R17",
+    "width_m": 0.265,
+    "rim_diameter_m": 0.4318,
+    "nominal_unloaded_radius_m": 0.38815
+  },
+  "body_reference": "Toyota Hilux 2024 STD Power Pack; seções interpretadas, não escaneamento",
+  "accessories_status": "candidate; sem levantamento das dimensões policiais",
+  "body_endpoints_y_m": [
+    -2.43,
+    2.895
+  ],
+  "wheelbase_measured_m": 3.085,
+  "objects": 333,
+  "corrections": [
+    "carroceria reconstruída por superfícies curvas",
+    "frente com encaixes de faróis coincidentes",
+    "grade STD e para-choque separados",
+    "teto e janelas corrigidos pela vista lateral de fábrica",
+    "caçamba e capota arredondadas",
+    "rodas nas medidas nominais"
+  ],
+  "pending": [
+    "brasão PMBA detalhado",
+    "dimensões dos acessórios policiais",
+    "mapa exato camuflagem",
+    "animação das portas"
+  ],
+  "visual_review": "Vistas frontal, lateral e oblíqua; candidata sem aprovação final",
+  "geometry_finish": [
+    "junções frontais",
+    "máscara STD e grelhas",
+    "perfil topo capota",
+    "abertura vidro traseiro",
+    "rodas métricas reconstruídas",
+    "inscrições conformadas às chapas"
+  ],
+  "body_polish": [
+    "afunilamento e curvatura base para-choque",
+    "lanternas volumétricas com retorno lateral",
+    "prefixos assentados abaixo da junta"
+  ],
+  "saved": true,
+  "final_details": [
+    "batentes fixos e soleiras internas",
+    "tampa lateral conformada à curvatura",
+    "camuflagem diagonal candidata"
+  ],
+  "previous_revision": "marrom_v04.blend",
+  "body_revision": "V05: casca dianteira contínua esculpida, substitui dianteira quadrada V04",
+  "apertures": "Faróis e máscara STD com contornos explícitos, triangulação restrita e cavidades reais",
+  "inscriptions": "malhas adaptativas conformadas à carroceria; batentes e soleiras realmente internos",
+  "source_saved": true
+}

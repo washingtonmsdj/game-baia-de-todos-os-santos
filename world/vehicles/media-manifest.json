@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "area_id": "vehicles",
+  "media": [
+    {
+      "media_id": "onibus-verde-2813095d4fff",
+      "location_id": "vehicle-torino-salvador-31065",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "panorama",
+      "storage": {
+        "logical_path": "vehicles/media/590696151_827165756877523_5103230368682475952_n.jpg",
+        "sha256": "2813095d4fff4cc485c08c1c054679544d2e4d107d246f3d81109a0b69c6f972"
+      },
+      "provenance": {
+        "source_name": "Imagem fornecida pelo usuário; desenho Wagner Magalhães, alteração Elton Sousa (EPSBUS), créditos visíveis",
+        "license_status": "pending",
+        "license": null,
+        "source_url": null,
+        "notes": "Usada somente para orientar a cor. A referência mostra Comil Svelto 2024; o usuário pediu variante verde do Torino existente, sem modelar diferenças."
+      }
+    },
+    {
+      "media_id": "onibus-azul-7b48d648c872",
+      "location_id": "vehicle-torino-salvador-31065",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "oblique_right",
+      "storage": {
+        "logical_path": "vehicles/media/meubuzu-integra3.jpg",
+        "sha256": "7b48d648c87274f8a1613d80c3da35f9806dd75781e7571dd49ea52e7d7386cc"
+      },
+      "provenance": {
+        "source_name": "Imagem Meu Buzu/Integra fornecida pelo usuário",
+        "license_status": "pending",
+        "license": null,
+        "source_url": null,
+        "notes": "Referência de pintura azul; origem/licença externa não verificadas. Não incorporada como textura."
+      }
+    },
+    {
+      "media_id": "rondesp-pickup-user-front-left",
+      "location_id": "vehicle-rondesp-pickup",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "oblique_left",
+      "storage": {
+        "logical_path": "vehicles/media/codex-clipboard-1e4491ac-8ace-49b9-b731-e81fafe1664f.png",
+        "sha256": "a5980aab2943a6e5eb6f3feee7c46d5a079f424c2be85e410058aeff421c41cc"
+      },
+      "provenance": {
+        "source_name": "Imagem fornecida pelo usuário",
+        "license_status": "pending",
+        "license": null,
+        "source_url": null,
+        "notes": "Fotografia pequena enviada pelo usuário; origem/autoria externas não verificadas. Uso para orientação visual; não incorporada como textura."
+      }
+    },
+    {
+      "media_id": "rondesp-31110-front",
+      "location_id": "vehicle-rondesp-pickup",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "oblique_left",
+      "storage": {
+        "logical_path": "vehicles/media/codex-clipboard-00749df0-90b5-4206-b06c-ee8b894b39cc.png",
+        "sha256": "af4733a1628e75d225a31fc8289b2b907676f2ecd573b5856385b9103c3b831a"
+      },
+      "provenance": {
+        "source_name": "Imagem fornecida pelo usuário",
+        "license_status": "pending",
+        "license": null,
+        "source_url": "https://www.instagram.com/p/DV4fernIZKG/?img_index=1",
+        "notes": "Captura enviada pelo usuário. viaturas_ba_; fotografia creditada a Sotero Filho. Legenda: Toyota Hilux CD 2.8 2024/2025, Rondesp Leste, prefixo 3.1110. Uso para orientação visual; não incorporada como textura."
+      }
+    },
+    {
+      "media_id": "rondesp-31110-rear",
+      "location_id": "vehicle-rondesp-pickup",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "rear",
+      "storage": {
+        "logical_path": "vehicles/media/codex-clipboard-0b73fbc9-b1fa-4ffc-b7cd-6659f92bb261.png",
+        "sha256": "9c1777a59e574f75f9563269cbf5576969604914b10ba0a304dcaf31b953ba77"
+      },
+      "provenance": {
+        "source_name": "Imagem fornecida pelo usuário",
+        "license_status": "pending",
+        "license": null,
+        "source_url": "https://www.instagram.com/p/DV4fernIZKG/?img_index=2",
+        "notes": "Captura enviada pelo usuário. viaturas_ba_; fotografia creditada a Sotero Filho. Documenta capota, tampas laterais, traseira e inscrições da mesma viatura 3.1110. Uso para orientação visual; não incorporada como textura."
+      }
+    },
+    {
+      "media_id": "hilux-gx-factory-side",
+      "location_id": "vehicle-rondesp-pickup",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "side",
+      "storage": {
+        "logical_path": "vehicles/hilux/toyota-hilux-gx-side.jpg",
+        "sha256": "29fcc90858148ac36f69f637e2dabdc580a8fdd76d23871e330dff59512733f1"
+      },
+      "provenance": {
+        "source_name": "Toyota / concessionária Toyota",
+        "source_url": "https://images.toyota-europe.com/es/configurationtype/visual-for-grade-selector/product-token/6fa1b3ca-c11e-45bd-a72c-40098d0f2d1d/grade/d77d74f2-c4c0-4a88-b284-9105a8fe659c/body/f880e881-f794-4aef-9e12-db540db6d76d/fallback/true/width/928/height/556/scale-mode/0/padding/0/background-colour/FFFFFF/image-quality/75/exterior-9.jpg",
+        "license_status": "pending",
+        "license": null,
+        "notes": "Referência interna de contorno e seções da Hilux; não usada como textura. GX europeu e STD brasileiro distinguidos."
+      }
+    },
+    {
+      "media_id": "hilux-2024-std-dealer-side",
+      "location_id": "vehicle-rondesp-pickup",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "side",
+      "storage": {
+        "logical_path": "vehicles/hilux/hilux-2024-std-lateral.jpg",
+        "sha256": "5fbbe9d24fbc1337f42044be43193af7cb76b0fe1adc3f90335ab941a1b2f8a6"
+      },
+      "provenance": {
+        "source_name": "Toyota / concessionária Toyota",
+        "source_url": "https://files.agenciaarara.com.br/files/company/vehicle/cm0dvki52007hspaf2480nfgf/STD%20POWER%20PACK/03.Jpg.ixv7pq86c2sihumjomyjk833.jpg",
+        "license_status": "pending",
+        "license": null,
+        "notes": "Referência interna de contorno e seções da Hilux; não usada como textura. GX europeu e STD brasileiro distinguidos."
+      }
+    },
+    {
+      "media_id": "hilux-srx-user-rear",
+      "location_id": "vehicle-rondesp-pickup",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "rear",
+      "storage": {
+        "logical_path": "vehicles/hilux/TOYOTA_HILUX_2.8_D4D_TURBO_DIESEL_CD_SRX_PLUS_4X4_AUTOMATICO_37955116370847037.webp",
+        "sha256": "e474799bccc2ea7154956887b68ebd7691e398eb18a6fbb24680f2f64abda36c"
+      },
+      "provenance": {
+        "source_name": "Imagem fornecida pelo usuário, Hilux SRX Plus",
+        "source_url": null,
+        "license_status": "pending",
+        "license": null,
+        "notes": "Contornos compartilhados da cabine e frente. Rodas, alargadores SRX e cromados não transferidos para viatura STD. Não usada como textura."
+      }
+    },
+    {
+      "media_id": "hilux-srx-user-front",
+      "location_id": "vehicle-rondesp-pickup",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "front",
+      "storage": {
+        "logical_path": "vehicles/hilux/TOYOTA_HILUX_2.8_D4D_TURBO_DIESEL_CD_SRX_PLUS_4X4_AUTOMATICO_37955116370644939.webp",
+        "sha256": "f7dc45edc13f54a5d5465f3110893a0de354ed5efc96966af508bb278c2e95dd"
+      },
+      "provenance": {
+        "source_name": "Imagem fornecida pelo usuário, Hilux SRX Plus",
+        "source_url": null,
+        "license_status": "pending",
+        "license": null,
+        "notes": "Contornos compartilhados da cabine e frente. Rodas, alargadores SRX e cromados não transferidos para viatura STD. Não usada como textura."
+      }
+    },
+    {
+      "media_id": "hilux-srx-user-side",
+      "location_id": "vehicle-rondesp-pickup",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "side",
+      "storage": {
+        "logical_path": "vehicles/hilux/TOYOTA_HILUX_2.8_D4D_TURBO_DIESEL_CD_SRX_PLUS_4X4_AUTOMATICO_37955116370697928.webp",
+        "sha256": "c5ddca2c5ed9b20ed814e661dcc8683e57b20248a6fc5d379acfefa153fe9784"
+      },
+      "provenance": {
+        "source_name": "Imagem fornecida pelo usuário, Hilux SRX Plus",
+        "source_url": null,
+        "license_status": "pending",
+        "license": null,
+        "notes": "Contornos compartilhados da cabine e frente. Rodas, alargadores SRX e cromados não transferidos para viatura STD. Não usada como textura."
+      }
+    },
+    {
+      "media_id": "hilux-std-stock-front",
+      "location_id": "vehicle-rondesp-pickup",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "oblique_front",
+      "storage": {
+        "logical_path": "vehicles/hilux/hilux-std-frente.jpg",
+        "sha256": "f056606e4cff1afbd41ca0785adbf943bcc41c652669141bbbb0f0a242ff7ec6"
+      },
+      "provenance": {
+        "source_name": "Fotografia Hilux STD reproduzida por AutoPapo",
+        "source_url": "https://cdn.autopapo.com.br/box/uploads/2022/09/02185628/toyota-hilux-manual-4x4-1-e1662155837543.jpg",
+        "license_status": "pending",
+        "license": null,
+        "notes": "Referência interna da máscara STD e curvas; não usada como textura."
+      }
+    },
+    {
+      "media_id": "rondesp-user-rear-21212-v10",
+      "location_id": "vehicle-rondesp-pickup",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "rear",
+      "storage": {
+        "logical_path": "vehicles/media/codex-clipboard-e3fac0b9-f0a3-4c85-b99e-6fa0d3ae5b10.png",
+        "sha256": "d0c1d495369b22de98c023176cc550fa74484642abc252953ea345ea4be5b7bc"
+      },
+      "provenance": {
+        "source_name": "Fotografia fornecida pelo usuário em 03/10/2026",
+        "source_url": null,
+        "license_status": "pending",
+        "license": null,
+        "notes": "Viatura 2.1212 RONDESP BTS: forma da traseira e tipografia; prefixo/unidade não transferidos para 3.1110. Origem externa e licença não verificadas; não usada como textura."
+      }
+    },
+    {
+      "media_id": "rondesp-user-front-21103-v10",
+      "location_id": "vehicle-rondesp-pickup",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "oblique_left",
+      "storage": {
+        "logical_path": "vehicles/media/codex-clipboard-3221822a-b2e1-410c-b961-c78333501fe6.png",
+        "sha256": "cff6b96e61a582e394be09618a8e89e2e203d2cdc7d518efccef3d015a410c8e"
+      },
+      "provenance": {
+        "source_name": "Fotografia fornecida pelo usuário em 03/10/2026",
+        "source_url": null,
+        "license_status": "pending",
+        "license": null,
+        "notes": "Viatura com prefixo diferente: disposição de letras, telefone, capô e sinalizador. Origem externa e licença não verificadas; não usada como textura."
+      }
+    },
+    {
+      "media_id": "rondesp-user-lightbar-v10",
+      "location_id": "vehicle-rondesp-pickup",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "oblique_left",
+      "storage": {
+        "logical_path": "vehicles/media/codex-clipboard-5c066d3f-7447-486a-975b-ce832e3d672b.png",
+        "sha256": "b065bcfd4319e10fe03f8317c439362f588aca57345d1feee1ae90b7cbe9dbf3"
+      },
+      "provenance": {
+        "source_name": "Fotografia fornecida pelo usuário em 03/10/2026",
+        "source_url": null,
+        "license_status": "pending",
+        "license": null,
+        "notes": "Sinalizador vermelho ligado, capota e marcações; prefixo não confirmado. Origem externa e licença não verificadas; não usada como textura."
+      }
+    }
+  ]
+}

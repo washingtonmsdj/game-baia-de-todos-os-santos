@@ -1,0 +1,123 @@
+{
+  "asset_id": "vehicle-rondesp-pickup",
+  "status": "candidate",
+  "file": "blender/assets/vehicles/rondesp-pickup/marrom_v09.blend",
+  "parent": "blender/assets/vehicles/rondesp-pickup/marrom_v08.blend",
+  "sha256": "a951375d7a71574b696d8488537fbd560f6c80770a3a575dafacf27dfaa3da09",
+  "changes": [
+    "coroa transversal do capô",
+    "transição tangente entre capô e para-lamas",
+    "retorno lateral dos faróis fechado",
+    "coroa longitudinal das portas e inscrições conformadas",
+    "fechamento interno das caixas de roda"
+  ],
+  "changed_objects": [
+    "RDP01 | HILUX06 | Capô e ombros estampados",
+    "RDP01 | HILUX06 | Junta capô -1",
+    "RDP01 | HILUX06 | Junta capô 1",
+    "RDP01 | HILUX06 | Para-lama dianteiro -1",
+    "RDP01 | HILUX06 | Para-lama dianteiro 1"
+  ],
+  "protected_objects_verified": 333,
+  "source_reopened": true,
+  "visual_review": {
+    "status": "partial_reviewed",
+    "views": [
+      "artifacts/vehicles/rondesp/v09-frente.png",
+      "artifacts/vehicles/rondesp/v09-lateral.png",
+      "artifacts/vehicles/rondesp/v09-traseira.png",
+      "artifacts/vehicles/rondesp/v09-materiais.png"
+    ],
+    "notes": "Capô e ombros menos planos, laterais curvas e vãos internos das rodas fechados. Aprovação final de fidelidade permanece pendente. Teto preservado após reversão da tentativa que criava ressalto.",
+    "material_render": "completed; Cycles CPU 24 amostras na mesma instância visível; timeout MCP recuperado pelo resultado durável"
+  },
+  "runtime_exported": false,
+  "catalog_promoted": true,
+  "pending": [
+    "aprovação final da fidelidade de carroceria",
+    "brasão PMBA detalhado",
+    "camuflagem exata",
+    "animação e runtime"
+  ],
+  "finish_changed_objects": [
+    "RDP01 | HILUX06 | Para-lama dianteiro -1",
+    "RDP01 | HILUX09 | Retorno farol -1",
+    "RDP01 | HILUX06 | Para-lama dianteiro 1",
+    "RDP01 | HILUX09 | Retorno farol 1",
+    "RDP01 | HILUX06 | Retorno caixa roda (-1.43, -1)",
+    "RDP01 | HILUX06 | Soleira -1",
+    "RDP01 | HILUX06 | Armação cabine com vãos -1",
+    "RDP01 | HILUX06 | Retorno caixa roda (-1.43, 1)",
+    "RDP01 | HILUX06 | Soleira 1",
+    "RDP01 | HILUX06 | Armação cabine com vãos 1",
+    "RDP01 | HILUX06 | Parede posterior cabine",
+    "RDP01 | HILUX06 | Fechamento posterior cabine lateral -1",
+    "RDP01 | HILUX06 | Fechamento posterior cabine lateral 1",
+    "RDP01 | HILUX06 | Batentes externos e soleira -1",
+    "RDP01 | HILUX06 | Caixa interna roda (-1, -1.43)",
+    "RDP01 | HILUX06 | Batentes externos e soleira 1",
+    "RDP01 | HILUX06 | Caixa interna roda (1, -1.43)",
+    "RDP01 | HILUX06 | Porta dianteira -1",
+    "RDP01 | HILUX06 | Junta porta dianteira -1",
+    "RDP01 | HILUX06 | Bolso maçaneta dianteira-1",
+    "RDP01 | HILUX06 | Maçaneta dianteira-1",
+    "RDP01 | HILUX06 | Porta traseira -1",
+    "RDP01 | HILUX06 | Junta porta traseira -1",
+    "RDP01 | HILUX06 | Bolso maçaneta traseira-1",
+    "RDP01 | HILUX06 | Maçaneta traseira-1",
+    "RDP01 | HILUX06 | Porta dianteira 1",
+    "RDP01 | HILUX06 | Junta porta dianteira 1",
+    "RDP01 | HILUX06 | Bolso maçaneta dianteira1",
+    "RDP01 | HILUX06 | Maçaneta dianteira1",
+    "RDP01 | HILUX06 | Porta traseira 1",
+    "RDP01 | HILUX06 | Junta porta traseira 1",
+    "RDP01 | HILUX06 | Bolso maçaneta traseira1",
+    "RDP01 | HILUX06 | Maçaneta traseira1",
+    "RDP01 | Contorno brasão pendente -1",
+    "RDP01 | Contorno brasão pendente 1",
+    "RDP01 | Bandeira faixa -10",
+    "RDP01 | Bandeira faixa -11",
+    "RDP01 | Bandeira faixa -12",
+    "RDP01 | Bandeira faixa 10",
+    "RDP01 | Bandeira faixa 11",
+    "RDP01 | Bandeira faixa 12",
+    "RDP01 | HILUX06 | POLÍCIA MILITAR -1.001",
+    "RDP01 | HILUX06 | POLÍCIA MILITAR 1.001",
+    "RDP01 | HILUX06 | Teto curvatura dupla",
+    "RDP01 | HILUX09 | Fecho interno caixa (-1, -1.43)",
+    "RDP01 | HILUX09 | Fecho interno caixa (-1, 1.655)",
+    "RDP01 | HILUX09 | Fecho interno caixa (1, -1.43)",
+    "RDP01 | HILUX09 | Fecho interno caixa (1, 1.655)"
+  ],
+  "visual_correction": "Elevação posterior do teto revertida: criava ressalto na vista lateral.",
+  "wheelbase_measured_m": 3.084999918937683,
+  "objects": 344,
+  "validation": {
+    "compileall": "passed",
+    "unittest_count": 62,
+    "unittest": "passed",
+    "reference_registry_errors": 0,
+    "reference_registry_warnings": 2
+  },
+  "reference_ids": [
+    "hilux-std-stock-front",
+    "hilux-2024-std-dealer-side",
+    "hilux-srx-user-front",
+    "rondesp-31110-front",
+    "rondesp-31110-rear"
+  ],
+  "research": [
+    {
+      "url": "https://www.toyotacomunica.com.br/toyota-hilux-e-sw4-estreiam-novidades-na-linha-2025/",
+      "purpose": "Publicação oficial da linha 2025; encontrada no índice de pesquisa. Conteúdo integral indisponível no fetch."
+    },
+    {
+      "url": "https://media.toyota.com.br/0a63079c-ec07-4607-a6b0-b0d182bda6b4.pdf",
+      "purpose": "Catálogo 2024/2025 localizado; acesso ao PDF retornou HTTP 403, não usado como medição."
+    },
+    {
+      "url": "https://www.instagram.com/p/DV4fernIZKG/?img_index=1",
+      "purpose": "Foto da RONDESP 3.1110 já fornecida pelo usuário e catalogada, inspecionada localmente. Sotero Filho/viaturas_ba_."
+    }
+  ]
+}

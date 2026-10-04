@@ -1,0 +1,102 @@
+{
+  "asset_id": "vehicle-rondesp-pickup",
+  "file": "blender/assets/vehicles/rondesp-pickup/hilux_carroceria_v14.blend",
+  "scene": "HILUX | carroceria isolada v14",
+  "parent": "blender/assets/vehicles/rondesp-pickup/hilux_carroceria_v13.blend",
+  "sha256": "01e45c734eff3e948ea5a663ef0b4aff0b998e5617fae6995d106417a49b6732",
+  "status": "candidate",
+  "authoring_mode": "body_only",
+  "body_mesh": "HILUX | CARROCERIA PRINCIPAL",
+  "removed_components": [
+    "HILUX06 | Para-lama dianteiro 1",
+    "HILUX13 | Retorno recorte Para-lama dianteiro 1",
+    "HILUX09 | Retorno farol 1",
+    "HILUX13 | Retorno dianteiro sem chapas duplicadas",
+    "HILUX06 | Soleira 1",
+    "HILUX13 | Face interna tampa caçamba",
+    "HILUX13 | Retorno superior tampa caçamba",
+    "batente A sem identificação"
+  ],
+  "removed_faces": 5817,
+  "new_components": [
+    "HILUX14 | Para-lama continuo ate soleira",
+    "HILUX14 | Retorno recorte dianteiro",
+    "HILUX14 | Retorno frontal alinhado ao para-lama",
+    "HILUX14 | Batente A integrado ao para-lama",
+    "HILUX14 | Batente C com retorno interno",
+    "HILUX14 | Soleira dobrada e retorno do piso",
+    "HILUX14 | Ligacao dianteira soleira batente",
+    "HILUX14 | Encaixe farol com flange",
+    "HILUX14 | Encaixe grade com flange",
+    "HILUX14 | Face interna tampa alinhada",
+    "HILUX14 | Dobra lateral tampa",
+    "HILUX14 | Dobra inferior tampa",
+    "HILUX14 | Borda superior tampa arredondada"
+  ],
+  "base_vertices": 34193,
+  "base_faces": 33753,
+  "visible_meshes": [
+    "HILUX | CARROCERIA PRINCIPAL"
+  ],
+  "source_reopened": true,
+  "visual_review": {
+    "status": "reviewed",
+    "method": "Vistas Workbench na única janela Blender visível; frente, traseira, batente dianteiro, encontro cabine/caçamba e tampa.",
+    "images": [
+      "artifacts/vehicles/rondesp/v14-carroceria-frente.png",
+      "artifacts/vehicles/rondesp/v14-carroceria-cacamba.png",
+      "artifacts/vehicles/rondesp/v14-carroceria-batente-dianteiro.png",
+      "artifacts/vehicles/rondesp/v14-carroceria-encontro-cabine.png",
+      "artifacts/vehicles/rondesp/v14-carroceria-tampa.png"
+    ],
+    "findings": [
+      "Para-lama dianteiro agora alcança a soleira, com batente A ligado à chapa.",
+      "Coluna A ampliada em Y/Z, coluna B suavizada e batente C com retorno interno.",
+      "Encaixes de farol e grade com flanges; aberturas mantidas.",
+      "Tampa com largura variável, face interna e dobras; cantos inferiores da caçamba elevados e fechados sem pontas."
+    ],
+    "remaining": "Contorno fino externo, continuidade de alguns encontros do teto e encaixe posterior das peças reservadas seguem candidatos; não é aprovação final ou veículo pronto para runtime."
+  },
+  "runtime_exported": false,
+  "rig_applied": false,
+  "reference_ids": [
+    "hilux-2024-std-dealer-side",
+    "hilux-std-stock-front",
+    "hilux-srx-user-rear"
+  ],
+  "notes": [
+    "Seções, flanges e juntas são parâmetros autorais candidatos, não medidas de fábrica.",
+    "Peças reservadas preservadas; sem npm, testes, build, exportação runtime ou commit.",
+    "boas_panel_id preserva a identidade das faces após a solda."
+  ],
+  "scene_observation": {
+    "file": "blender/assets/vehicles/rondesp-pickup/hilux_carroceria_v14.blend",
+    "visible_meshes": [
+      "HILUX | CARROCERIA PRINCIPAL"
+    ],
+    "body_base_vertices": 34193,
+    "body_base_faces": 33753,
+    "modifiers": [
+      [
+        "ESPELHO X • editar metade +X",
+        "MIRROR"
+      ],
+      [
+        "Espessura visual da chapa • candidata",
+        "SOLIDIFY"
+      ]
+    ]
+  },
+  "finish": {
+    "removed_faces": 216,
+    "new_components": [
+      "HILUX14 | Montante A com largura de chapa",
+      "HILUX14 | Retorno interno montante A",
+      "HILUX14 | Pe montante A junto ao cowl",
+      "HILUX14 | Dobra inferior cantos cacamba"
+    ],
+    "rear_lower_vertices_adjusted": 1406,
+    "scope": "Largura da coluna A e dobra dos cantos inferiores da caçamba; seções autorais candidatas."
+  },
+  "catalog_promoted": true
+}

@@ -1,0 +1,25 @@
+{
+  "asset_id": "vehicle-rondesp-pickup",
+  "file": "blender/assets/vehicles/rondesp-pickup/marrom_v07.blend",
+  "scene": "VIATURA | Rondesp Hilux marrom v07",
+  "sha256": "cfcb699fb78569b299c4d71f53ed44cb76b3abbe0b16e94d8f7479bccf9c8140",
+  "parent": "blender/assets/vehicles/rondesp-pickup/marrom_v06.blend",
+  "status": "candidate",
+  "changes": [
+    "ombros dos para-lamas arredondados e contínuos com capô",
+    "encaixe teto/para-brisa",
+    "acabamento das peças moldadas",
+    "pintura menos brilhante e camuflagem de menor contraste"
+  ],
+  "wheelbase_m": 3.085,
+  "dimensions_source": "world/vehicles/hilux-dimensions.json",
+  "runtime_exported": false,
+  "pending": [
+    "fidelidade final de carroceria",
+    "brasão PMBA",
+    "camuflagem exata",
+    "animação e runtime"
+  ],
+  "visual_review": "Viewport MCP conferido; fidelidade continua candidate. Sem render offline.",
+  "source_reopened": true
+}

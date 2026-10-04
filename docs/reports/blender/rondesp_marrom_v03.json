@@ -1,0 +1,185 @@
+{
+  "asset_id": "vehicle-rondesp-pickup",
+  "status": "candidate",
+  "file": "blender/assets/vehicles/rondesp-pickup/marrom_v03.blend",
+  "scene": "VIATURA | Rondesp picape marrom v03",
+  "sha256": "4a76a42572076f6fe9c0e544d62a4f6c0f02db2673e1a4908d325098fef88333",
+  "reference_id": "rondesp-pickup-user-front-left",
+  "dimensions_status": "candidate_not_measured",
+  "parameters_m": {
+    "body_length": 5.335,
+    "body_width": 1.854,
+    "wheelbase": 3.085,
+    "tire_radius": 0.405
+  },
+  "vehicle_objects": 296,
+  "collections": [
+    "CARROCERIA",
+    "PORTAS",
+    "CAPOTA",
+    "VIDROS",
+    "RODAS",
+    "CHASSIS",
+    "LUZES",
+    "ACABAMENTOS",
+    "INSCRICOES",
+    "APRESENTACAO"
+  ],
+  "door_pivots": 4,
+  "wheel_pivots": 4,
+  "window_apertures": "cabine sem sólido obstruindo os vidros",
+  "glass": "Principled transmission 0.83",
+  "pending": [
+    "brasão PMBA detalhado",
+    "confirmação de dimensões",
+    "mapa exato camuflagem",
+    "animação e inscrição dividida por folhas"
+  ],
+  "preserved": "ônibus azul aberto anteriormente; fontes existentes não sobrescritas",
+  "runtime_integration": false,
+  "visual_review": "pending; render material para comparação",
+  "reopened": {
+    "ok": true,
+    "scenes": 1,
+    "objects": 301,
+    "source": "v03",
+    "other_assets_present": false
+  },
+  "prefix": "3.1110",
+  "model_reference": "Toyota Hilux CD 2.8 2024/2025; legenda da foto enviada, não verificação VIN",
+  "references": "rondesp-pickup-user-front-left; rondesp-31110-front; rondesp-31110-rear",
+  "revision_parent": "blender/assets/vehicles/rondesp-pickup/marrom_v02.blend",
+  "bind_fixed": [
+    "RDP01 | Porta dianteira -1",
+    "RDP01 | Porta traseira -1",
+    "RDP01 | Porta dianteira +1",
+    "RDP01 | Porta traseira +1",
+    "RDP01 | Caixilho porta dianteira -1",
+    "RDP01 | Caixilho porta traseira -1",
+    "RDP01 | Caixilho porta dianteira +1",
+    "RDP01 | Caixilho porta traseira +1",
+    "RDP01 | Vedação porta dianteira -1",
+    "RDP01 | Vidro porta dianteira -1",
+    "RDP01 | Vedação porta traseira -1",
+    "RDP01 | Vidro porta traseira -1",
+    "RDP01 | Vedação porta dianteira +1",
+    "RDP01 | Vidro porta dianteira +1",
+    "RDP01 | Vedação porta traseira +1",
+    "RDP01 | Vidro porta traseira +1",
+    "RDP01 | Pneu 0 -1",
+    "RDP01 | Aro borda 0 -1",
+    "RDP01 | Relevo lateral pneu 0 -1 0.285",
+    "RDP01 | Relevo lateral pneu 0 -1 0.32",
+    "RDP01 | Relevo lateral pneu 0 -1 0.355",
+    "RDP01 | Braço aço aro 0 -1 0",
+    "RDP01 | Braço aço aro 0 -1 1",
+    "RDP01 | Braço aço aro 0 -1 2",
+    "RDP01 | Braço aço aro 0 -1 3",
+    "RDP01 | Braço aço aro 0 -1 4",
+    "RDP01 | Braço aço aro 0 -1 5",
+    "RDP01 | Braço aço aro 0 -1 6",
+    "RDP01 | Braço aço aro 0 -1 7",
+    "RDP01 | Braço aço aro 0 -1 8",
+    "RDP01 | Braço aço aro 0 -1 9",
+    "RDP01 | Pneu 1 -1",
+    "RDP01 | Aro borda 1 -1",
+    "RDP01 | Relevo lateral pneu 1 -1 0.285",
+    "RDP01 | Relevo lateral pneu 1 -1 0.32",
+    "RDP01 | Relevo lateral pneu 1 -1 0.355",
+    "RDP01 | Braço aço aro 1 -1 0",
+    "RDP01 | Braço aço aro 1 -1 1",
+    "RDP01 | Braço aço aro 1 -1 2",
+    "RDP01 | Braço aço aro 1 -1 3",
+    "RDP01 | Braço aço aro 1 -1 4",
+    "RDP01 | Braço aço aro 1 -1 5",
+    "RDP01 | Braço aço aro 1 -1 6",
+    "RDP01 | Braço aço aro 1 -1 7",
+    "RDP01 | Braço aço aro 1 -1 8",
+    "RDP01 | Braço aço aro 1 -1 9",
+    "RDP01 | Pneu 0 +1",
+    "RDP01 | Aro borda 0 +1",
+    "RDP01 | Relevo lateral pneu 0 +1 0.285",
+    "RDP01 | Relevo lateral pneu 0 +1 0.32",
+    "RDP01 | Relevo lateral pneu 0 +1 0.355",
+    "RDP01 | Braço aço aro 0 +1 0",
+    "RDP01 | Braço aço aro 0 +1 1",
+    "RDP01 | Braço aço aro 0 +1 2",
+    "RDP01 | Braço aço aro 0 +1 3",
+    "RDP01 | Braço aço aro 0 +1 4",
+    "RDP01 | Braço aço aro 0 +1 5",
+    "RDP01 | Braço aço aro 0 +1 6",
+    "RDP01 | Braço aço aro 0 +1 7",
+    "RDP01 | Braço aço aro 0 +1 8",
+    "RDP01 | Braço aço aro 0 +1 9",
+    "RDP01 | Pneu 1 +1",
+    "RDP01 | Aro borda 1 +1",
+    "RDP01 | Relevo lateral pneu 1 +1 0.285",
+    "RDP01 | Relevo lateral pneu 1 +1 0.32",
+    "RDP01 | Relevo lateral pneu 1 +1 0.355",
+    "RDP01 | Braço aço aro 1 +1 0",
+    "RDP01 | Braço aço aro 1 +1 1",
+    "RDP01 | Braço aço aro 1 +1 2",
+    "RDP01 | Braço aço aro 1 +1 3",
+    "RDP01 | Braço aço aro 1 +1 4",
+    "RDP01 | Braço aço aro 1 +1 5",
+    "RDP01 | Braço aço aro 1 +1 6",
+    "RDP01 | Braço aço aro 1 +1 7",
+    "RDP01 | Braço aço aro 1 +1 8",
+    "RDP01 | Braço aço aro 1 +1 9"
+  ],
+  "wheel_centers_verified": [
+    {
+      "name": "RDP01 | Pneu 0 -1",
+      "center": [
+        -0.8250000476837158,
+        -1.4300000667572021,
+        0.41499999165534973
+      ],
+      "ground_clearance_m": 0.009999999776482582
+    },
+    {
+      "name": "RDP01 | Pneu 1 -1",
+      "center": [
+        -0.8250000476837158,
+        1.6549999713897705,
+        0.41499999165534973
+      ],
+      "ground_clearance_m": 0.009999999776482582
+    },
+    {
+      "name": "RDP01 | Pneu 0 +1",
+      "center": [
+        0.8250000476837158,
+        -1.4300000667572021,
+        0.41499999165534973
+      ],
+      "ground_clearance_m": 0.009999999776482582
+    },
+    {
+      "name": "RDP01 | Pneu 1 +1",
+      "center": [
+        0.8250000476837158,
+        1.6549999713897705,
+        0.41499999165534973
+      ],
+      "ground_clearance_m": 0.009999999776482582
+    }
+  ],
+  "corrections_v03": [
+    "perfil capô/para-lamas contínuo",
+    "aros aço com doze aberturas",
+    "lentes expostas",
+    "camuflagem bandas largas",
+    "quatro bandas de pneu agrupadas por roda"
+  ],
+  "corrections_finish": [
+    "normais/orientação cubos e porcas",
+    "cantos arredondados janelas",
+    "aberturas reais faróis",
+    "camuflagem contínua sem degraus de cor"
+  ],
+  "views": [
+    "artifacts/vehicles/rondesp/v03-frente-materiais.png",
+    "artifacts/vehicles/rondesp/v03-traseira-materiais.png"
+  ]
+}

@@ -1,5 +1,263 @@
 # Estado Atual do Projeto — Bay of All Saints
 
+## 03/10/2026 — Rondesp V24: potência dos faróis e fronteira com runtime
+
+Fonte ativa: `blender/assets/vehicles/rondesp-pickup/marrom_v24_farois.blend`, cena `VIATURA | Rondesp Hilux farois v24`, SHA-256 `362783bb439f3f26d337c477bccdc955790b448fc5e25cb72f2db6be043945db`. V23 preservada com hash conferido. Feixes dianteiros passam de parâmetro de potência 120 para 2400 por luz SPOT (20 vezes), mantendo direção e abertura. É potência de iluminação Blender, sem equivalência com consumo elétrico ou medição fotométrica de fábrica. Reforçados núcleo/guia/lente emissivos; `intensidade_farois` no root multiplica potência/emissão. `farois_ligados` continua 0/1. Conferência: desligado 0/0; ligado 2400/2400; reabertura confirmou intensidades. Capturas da viewport antes/depois mostram iluminação mais forte do piso à frente.
+
+MCP 9876 na única janela PID 19576. Fonte salva/reaberta; hashes do corpo e quatro folhas preservados; demonstração V23 e demais luzes mantidas. Relatório: `docs/reports/blender/rondesp_farois_v24.json`; imagens `artifacts/vehicles/rondesp/v24-farois-*-viewport.png`. Janela atual Renderizado com reprodução ativa; fonte salva MATERIAL para preservar cores ao reabrir.
+
+Esclarecimento ao usuário: o ciclo automático de apresentação é uma demonstração, não a lógica do veículo jogável. Malhas, pivôs, materiais compatíveis, posições/cores das luzes e movimentos de portas amostrados são candidatos a reaproveitamento. Drivers Python e compositor do Blender não executam na engine. Runtime precisará ligar as luzes aos estados/entradas do veículo, controlar pisca/freio, calibrar intensidades/sombras e implementar bloom. Exportação glTF pode levar luzes punctual quando habilitada e suportada no destino; transforms animados podem ser amostrados. Materiais procedurais que não forem compatíveis precisam de adaptação/bake. Nenhuma importação, exportação ou integração foi validada nesta etapa. Sem engine definitiva imposta, alteração de production.json, npm, testes, build ou commit.
+
+
+## 03/10/2026 — Rondesp V23: demonstração visível de portas e luzes
+
+Fonte ativa: `blender/assets/vehicles/rondesp-pickup/marrom_v23_demonstracao.blend`, cena `VIATURA | Rondesp Hilux demonstracao v23`, SHA-256 `d81c32eaa60ec275bd85372cfe225499e17ad955db90c0f3e71f46ab15e262f1`. V22 preservada com hash conferido. Usuário não via luzes: inspeção encontrou prévia de material com estúdio forte; reabertura da versão salva em Renderizado voltou a Sólido. Fonte final V23 salva em MATERIAL, confirmada na reabertura, e janela atual explicitamente colocada em RENDERED com compositor ALWAYS. Estúdio reduzido, emissão/iluminação do giroflex reforçada e alternância mais lenta. Três capturas da própria viewport comprovam azul, vermelho e quatro portas abertas.
+
+Timeline 1–240, 24 fps nominais, FRAME_DROP para acompanhar o tempo disponível da viewport. Quatro portas abrem, aguardam e fecham, com vidros, espelhos e inscrições ligados aos pivôs existentes. Frame 1: fechadas; frame 90: todas abertas a 65 graus; frame 190: fechadas. Freio também alterna na demonstração. `RDP01_ROOT | viatura` → `demonstracao_ativa=0` devolve abertura/freio aos controles manuais originais; `abertura_graus` fica nos quatro pivôs. As folhas, eixos, parentagens e carroceria permanecem preservados. Não equivale a auditoria de colisão da montagem completa.
+
+Única janela PID 19576, MCP 9876. Fonte salva/reaberta, hashes da malha protegida conferidos. Reprodução real amostrada por timer temporário de leitura: movimento das folhas e duas cores observados; callback encerra sozinho após 12 amostras. Relatório: `docs/reports/blender/rondesp_demonstracao_v23.json`; imagens `artifacts/vehicles/rondesp/v23-*-viewport.png`. Espaço pausa/reproduz; Z → R ativa iluminação completa depois de reabrir. Granulação inicial da prévia EEVEE durante acumulação não é defeito da malha. Sem npm, suíte de testes, build, commit ou exportação runtime. Acabamento fino segue candidato.
+
+
+## 03/10/2026 — Rondesp montada: encaixes e luzes V22
+
+Fonte ativa: `blender/assets/vehicles/rondesp-pickup/marrom_v22_luzes.blend`, cena `VIATURA | Rondesp Hilux marrom v22`, SHA-256 `13ec4cfb77c2597de25b487fd61deb17c04ecfc8cbf326c1a1cde4301bf527ea`. Revisões V20 e V21 preservadas e hashes conferidos. Montagem V21 (`blender/assets/vehicles/rondesp-pickup/marrom_v21_montada.blend`, SHA-256 `41c5833edb6350c83d1e23900d1d2347b628909f86804829bca7b1271d2cc581`) restaurou rodas, chassi, interior, capota, equipamentos, materiais marrons e inscrições; vidros/espelhos/textos das portas acompanham os pivôs. Materiais procedurais e letras em geometria, sem alegar textura fotográfica aprovada.
+
+V22 ajustou 22 acessórios, incluindo lanternas traseiras, puxador, terceira luz, para-choque, suportes dianteiros e engate. Alojamentos e travessa/prolongamentos de suporte separados do corpo. Giroflex azul no lado esquerdo do veículo e vermelho no direito, com piscadas alternadas por drivers; faróis com feixes, posição traseira e freio independentes. Controles em `RDP01_ROOT | viatura`: `giroflex_ligado`, `farois_ligados`, `lanternas_ligadas`, `freio` (0/1), mais `giroflex_velocidade`. Na viewport, Z → M mostra emissão; Z → R mostra também os feixes e reflexos. Espaço inicia/pausa as piscadas pela timeline.
+
+Aplicação pelo MCP 9876 na única janela Blender PID 19576. V22 salva/reaberta; fingerprints do corpo e quatro folhas preservados. Intensidades conferidas nas duas fases do sinalizador e com freio acionado; vistas finais inspecionadas. Relatórios: `docs/reports/blender/rondesp_marrom_v21.json` e `docs/reports/blender/rondesp_marrom_v22.json`; imagens `artifacts/vehicles/rondesp/v22-*.png`. Acabamento fino, capota, brasão e padrão policial permanecem candidatos; sem certificação industrial. Drivers/material Blender não equivalem à implementação no jogo. Sem npm, testes, build, commit ou exportação runtime.
+
+
+## 03/10/2026 — Hilux: espessura interna e superfície externa V20
+
+Fonte ativa: `blender/assets/vehicles/rondesp-pickup/hilux_chapa_v20.blend`, cena `HILUX | chapa e portas v20`, SHA-256 `7bd84c96d4392a73d2fd1c603f738274046022712c8abebea31d9756907494e1`. V19 e demais revisões preservadas. Comparação ao vivo separou superfície, espessura e normais: a faixa ondulada acima do vidro traseiro desaparece ao desligar a espessura ou mantê-la toda para dentro. Corrigido Solidify para offset −1, normais de alta qualidade, espessura candidata de 2,5 mm; adicionado Weighted Normal por área e ângulo conservando arestas marcadas. Não houve alteração dos vértices, faces, contornos ou portas.
+
+MCP restabelecido na porta **9876**, conforme informado pelo usuário, na única janela PID 19576. A cena padrão dessa janela foi preservada em `artifacts/vehicles/rondesp/v20-recovered-default-scene.blend` antes de abrir a Hilux. V20 salva e reaberta; malha base comparada à geometria V19 e fingerprints das malhas preservados. Conferência de 0, 5 e 70 graus: zero penetração estrita detectada entre folhas/carroceria avaliada ou entre folhas; amostragem não certifica varredura contínua. Vistas neutras e linhas de reflexo publicadas. Relatório: `docs/reports/blender/hilux_chapa_v20.json`. Superfície candidata para avaliação do usuário; não declarar réplica perfeita ou aprovação industrial. Sem npm, suíte de testes, build, commit ou exportação.
+
+## 03/10/2026 — Hilux V19: ondulações ainda pendentes
+
+Usuário apontou ondulações no encontro do teto e painel posterior. V19 passa a `needs_review`; inspeção topológica anterior não constitui aprovação da superfície. Nenhuma nova mutação aplicada nesta tentativa: MCP OrdaX retorna `Transport closed`; fallback 9877 recusou conexão e não há listener no PID Blender 16304. Recuperação por computer-use também falhou em `list_apps`, inclusive após reset. Preservada a única janela e o arquivo V19.
+
+Diagnóstico read-only: `docs/reports/blender/hilux_ondulacoes_v20_pending.json`. Comparação reversível preparada em `automation/blender/diagnose_hilux_ripples_v20.py`, ainda não executada. Próximo passo é reconectar o MCP na janela existente e conferir perto o encontro traseiro, incluindo forma da chapa e normais; não salvar V20 nem promover acabamento sem resultado visual convincente.
+
+## 03/10/2026 — Hilux: cabeceira e capô V19
+
+Fonte ativa: `blender/assets/vehicles/rondesp-pickup/hilux_superficies_v19.blend`, cena `HILUX | superficies e portas v19`, SHA-256 `af484a3fcda12649e07a3ed4bd53c64b3233845b6878a56d557e174498bde540`. V18 preservada. Correção do recuo da coluna B que deformava a faixa acima das portas; retorno interno com linhas de suporte entre Z 1,750 e 1,758 m. Capô com coroamento adicional candidato de até 24 mm e arredondamento local de 8 mm. Quatro portas, pivôs e peças reservadas preservados.
+
+Edição pelo fallback MCP na única janela visível, PID 16304; revisão salva e reaberta. Malha final sem faces degeneradas/duplicadas, arestas com mais de duas faces, winding inconsistente, vértices coincidentes ou junções em T nos critérios da inspeção. Cinco poses (0, 2, 5, 10, 70 graus) sem penetração estrita detectada entre portas/carroceria antes do último microacabamento de menos de 0,02 mm. Não equivale a varredura contínua. Relatório: `docs/reports/blender/hilux_superficies_v19.json`. Sem npm, suíte de testes, build, commit ou exportação runtime. Acabamento permanece candidato.
+
+## 03/10/2026 — Hilux: portas independentes e coluna B interna V18
+
+Fonte explícita: `blender/assets/vehicles/rondesp-pickup/hilux_portas_v18.blend`, cena `HILUX | carroceria e portas v18`. SHA-256: `0facd4dd74797aec7f2051d8b445019fb9ea310ee762e71677390647b0e8e260`. V17 preservada com hash conferido; montagem V11 mantida. Oficina agora mostra carroceria fixa, quatro portas e suas ferragens; vidros, rodas, chassi, capota policial, inscrições e demais conjuntos permanecem reservados.
+
+As quatro folhas foram refeitas com chapa externa curva, caixilho integrado, dobra periférica e estampagem interna com abertura de serviço. Maçanetas, canais das janelas e vedações acompanham cada porta. Geometria refletida entre os lados, com malhas e movimento independentes, mantendo nomes dos objetos e pivôs existentes. Dobradiças possuem folhas fixas/móveis e pinos; o controle `abertura_graus` no pivô aceita 0–70 graus, com sentido oposto nos lados. Portas salvas fechadas.
+
+Correção solicitada a partir da lateral Hilux catalogada: as portas cobrem a coluna B estrutural e se encontram por fora numa junta candidata de 4 mm. Recuo localizado de 537 vértices da coluna/encontros, com identidade de painéis preservada; corpo continua em uma malha com Mirror X. O contorno das janelas foi compatibilizado com as folhas e a estrutura interna recuada 10 mm do bordo externo para liberar os batentes. Dimensões e posição dos eixos são parâmetros de modelagem candidatos, sem levantamento industrial.
+
+Conferência de 13 poses, inclusive portas dianteiras/traseiras abrindo separadamente: zero penetração estrita detectada entre folhas ou contra a carroceria avaliada com Mirror e espessura. Zero auto-interseções detectadas nas folhas, faces degeneradas, arestas soltas, junções triplas ou orientação incoerente. Reflexão dos vértices esquerda/direita sem diferença na tolerância numérica observada. Arestas abertas das aberturas de serviço são intencionais. Corpo mantém 42.610 vértices/46.278 faces; portas dianteiras 4.372/7.534, traseiras 3.847/6.524. Não há certificação de varredura contínua ou da remontagem das peças reservadas.
+
+Aplicação inicial por OrdaX MCP na janela PID 4160. Após perda de transporte e encerramento dessa janela, checkpoint V18 recuperado em uma única janela visível PID 16304, com BlendMCP 1.4.4 na porta 9877. A rejeição de auditoria simultânea foi respeitada; operações seguintes ocorreram sequencialmente após confirmação da recuperação. Wrapper `tools/blendmcp/run_vehicle_script.py` confere arquivo/hash/PID do asset sem alterar o contrato da cidade. Fonte final salva/reaberta, hash e quatro controles fechados conferidos.
+
+Relatório: `docs/reports/blender/hilux_portas_v18.json`; inventário e geometria: `artifacts/vehicles/rondesp/v18-doors-before.json` e `v18-doors-audit.json`; cinco vistas `v18-*.png`. Scripts aplicados: `model_hilux_doors_v18.py`, `join_hilux_door_seams_v18.py`, `conceal_hilux_hinges_v18.py`, `finish_hilux_door_returns_v18.py`, `finish_hilux_front_hinge_v18.py`, `save_hilux_doors_v18.py`. Não repetir mutações sobre a fonte final. Inspeção: `audit_hilux_doors_v18.py`; vistas: `review_hilux_doors_v18.py`. Sem npm, testes, build, exportação runtime ou commit, conforme pedido. Direção e rodagem continuam adiadas.
+
+
+## 03/10/2026 — Hilux: conexões da chapa e retopologia V17
+
+Fonte explícita: `blender/assets/vehicles/rondesp-pickup/hilux_carroceria_v17.blend`, cena `HILUX | carroceria isolada v17`. Hash SHA-256: `58d0b48616c03f3b6c5cf50fcdf00bc2cfa02921667aee732285e57b189eb7d3`. V16 preservada com hash anterior conferido; montagem V11 mantida. Somente `HILUX | CARROCERIA PRINCIPAL` visível, metade +X e Mirror X com clipping; portas, rodas, chassi, vidros, capota e equipamentos continuam separados e ocultos.
+
+Cabeceira externa da caçamba ligada ao retorno superior, eliminando a junção tripla com sua parede interna. Soleira refeita como percurso contínuo entre armação e assoalho; transição do piso ao painel posterior e cowl ligados às respectivas bordas. Tampa externa usa as mesmas estações das dobras. Retiradas 17 faces da flange da grade que duplicavam parte do encaixe do farol. Retopologia localizada conserva os contornos e pontos de controle do para-lama e da frente, retirando faces dobradas. Retorno frontal reconstruído entre os limites efetivos da frente, capô e para-lama; canto dos retornos do para-brisa recebe mitra comum. Estações finais da caçamba ajustadas para folga candidata de 6 mm da face interna da tampa; o parâmetro está registrado, sem alegar medida de fábrica.
+
+Auditoria da malha base: arestas com mais de duas faces **53 → 0**, orientações incoerentes **221 → 0**, pontos intermediários desconectados em bordas **148 → 0**. Zero faces degeneradas/duplicadas, arestas soltas ou vértices coincidentes na tolerância auditada. Inspeção final não encontrou penetração não local entre chapas; dois contatos numéricos em arestas efetivamente compartilhadas foram classificados como contato com tolerância de 1 µm. As bordas dos vãos, centro do Mirror e juntas físicas não são defeitos a fechar automaticamente. Esta auditoria não certifica dimensões industriais nem o encaixe dos conjuntos reservados ou toda a malha avaliada por modificadores.
+
+Aplicado via MCP na única janela Blender visível, PID 4160. Revisão salva/reaberta, 42.610 vértices e 46.278 faces de autoria, hash conferido e oito vistas revisadas. Relatório: `docs/reports/blender/hilux_carroceria_v17.json`; evidências: `artifacts/vehicles/rondesp/v17-mesh-before.json`, `v17-mesh-after.json`, `v17-intersections.json` e `v17-carroceria-*.png`. Fidelidade e parâmetros permanecem candidatos de modelagem. Rig, remontagem e exportação continuam adiados. Sem npm, testes, build ou commit, conforme pedido.
+
+Scripts aplicados, não repetir: `polish_hilux_structure_v17.py`, `finish_hilux_intersections_v17.py`, `finish_hilux_joints_v17.py` e `save_hilux_body_v17.py`, em `automation/blender/`. Scripts de leitura: `inspect_hilux_mesh_v17.py` e `inspect_hilux_intersections_v17.py`; vistas: `review_hilux_body_v17.py`. Checkpoints não são fontes ativas. Durante a sessão, o worker `ordax_studio.workbench_bridge` monopolizou o lock global sem comandos na fila Blender; recuperação restrita a esse helper, com a janela Blender preservada. As mutações da cena ocorreram pelo MCP.
+
+
+
+## 03/10/2026 — Hilux: caçamba contínua e encontro frontal V16
+
+Fonte explícita: `blender/assets/vehicles/rondesp-pickup/hilux_carroceria_v16.blend`, cena `HILUX | carroceria isolada v16`. V15 e montagem V11 preservadas. Continua visível somente a carroceria com Mirror X; portas, rodas, chassi, vidros, capota e acessórios ficam separados e ocultos.
+
+Caçamba reconstruída com as mesmas estações na lateral, borda enrolada, parede interna, piso e caixa de roda. Cabeceira ligada ao piso e às laterais, fechos das bordas dianteira/traseira e dobras que acompanham os arcos. Volume lateral regularizado, preservando a junta física com a cabine e o encaixe candidato da tampa. Chapa frontal ligada ao contorno existente do capô por 57 arestas compartilhadas; faixa abaixo dessa borda regularizada. Cabine e tampa mantidas. Identidade das faces em `boas_panel_id`.
+
+Aplicado na única janela Blender visível; revisão salva/reaberta, hash conferido e oito vistas revisadas. Relatório: `docs/reports/blender/hilux_carroceria_v16.json`; imagens: `artifacts/vehicles/rondesp/v16-carroceria-*.png`. Contornos finos da cabine/frente e encaixes dos conjuntos reservados continuam candidatos. Dobradiças, direção e rodagem adiadas. Forma e raios são interpretação autoral das referências catalogadas, sem medidas de fábrica. Sem npm, testes, build, exportação runtime ou commit, conforme pedido.
+
+Scripts aplicados, não repetir: `rebuild_hilux_bed_v16.py`, `align_hilux_front_v16.py`, `finish_hilux_front_band_v16.py` e `save_hilux_body_v16.py`, em `automation/blender/`. `review_hilux_body_v16.py` gera oito vistas, `review_hilux_front_v16.py` duas vistas frontais. `inspect_hilux_shell_v16.py` lê contornos. Checkpoints em `artifacts/vehicles/rondesp/` não são fontes ativas; o inventário `v16-contours-live.json` usado no acabamento frontal corresponde à etapa anterior a esse acabamento. Guia: `world/vehicles/hilux-body-editing.md`.
+
+
+## 03/10/2026 — Hilux: armação contínua da cabine V15
+
+Fonte explícita: `blender/assets/vehicles/rondesp-pickup/hilux_carroceria_v15.blend`, cena `HILUX | carroceria isolada v15`. V14 e montagem V11 preservadas. Uma carroceria visível, metade +X com Mirror X; portas, rodas, chassi, vidros, capota e acessórios seguem separados e ocultos.
+
+Substituídos os painéis independentes da cabine por armação lateral A/B/C com vãos completos, teto e painel posterior que compartilham os contornos. Cantos C arredondados, vão do vidro traseiro aberto e retornos dos batentes ligados à armação. Perfil lateral regularizado, retorno contínuo do para-brisa e dobra localizada no encontro teto/lateral; corrigidos os dentes na borda A e a mistura de normais nas dobras internas. Mantidas as chapas de caçamba e frente da V14, a junta física cabine/caçamba e a identificação de faces `boas_panel_id`.
+
+Aplicado na única janela Blender visível; fonte salva/reaberta, hash conferido e sete vistas revisadas. Relatório: `docs/reports/blender/hilux_carroceria_v15.json`; vistas: `artifacts/vehicles/rondesp/v15-carroceria-*.png`. Contorno e transições finas da chapa continuam candidatos; conferir o encaixe das peças reservadas ao remontar. Dobradiças, direção e rodagem permanecem adiadas. Parâmetros autorais, sem alegar medidas de fábrica. Sem npm, testes, build, exportação runtime ou commit, conforme pedido.
+
+Scripts já aplicados, não repetir: `rebuild_hilux_cab_v15.py`, `finish_hilux_cab_v15.py`, `regularize_hilux_a_v15.py`, `finish_hilux_sheet_normals_v15.py`, `save_hilux_body_v15.py` em `automation/blender/`. `review_hilux_body_v15.py` gera vistas; `inspect_hilux_cab_v15.py` lê os contornos. Checkpoints em `artifacts/vehicles/rondesp/` não são fontes ativas. Guia: `world/vehicles/hilux-body-editing.md`.
+
+
+## 03/10/2026 — Hilux: vãos, frente e cantos da caçamba V14
+
+Fonte explícita: `blender/assets/vehicles/rondesp-pickup/hilux_carroceria_v14.blend`, cena `HILUX | carroceria isolada v14`. V13 preservada. Apenas a carroceria fica visível, com Mirror X; portas, rodas, chassi, vidros, capota e acessórios seguem separados e ocultos. Rig continua adiado.
+
+Para-lama dianteiro reconstruído até a soleira, batente A ligado à chapa e soleira com retorno ao piso. Coluna A ganhou largura em Y/Z, seção B suavizada e coluna C com retorno interno. Flanges adicionadas nos encaixes de farol e grade. Tampa da caçamba acompanha a largura lateral por altura, com face interna e dobras alinhadas. Linha inferior da lateral traseira elevada suavemente e dobrada, removendo as pontas da deformação antiga. Faces identificadas por `boas_panel_id`, preservado após a solda.
+
+Aplicado na única janela Blender visível; fonte salva/reaberta, hash conferido e cinco vistas revisadas. Relatório: `docs/reports/blender/hilux_carroceria_v14.json`; vistas: `artifacts/vehicles/rondesp/v14-carroceria-*.png`. Parâmetros autorais candidatos, sem alegar medidas de fábrica. Contorno fino, alguns encontros do teto e encaixe posterior das peças reservadas ainda precisam de ajuste. Sem npm, testes, build, exportação runtime ou commit, conforme pedido.
+
+Scripts aplicados, não repetir: `automation/blender/refine_hilux_shell_v14.py` e `automation/blender/finish_hilux_shell_v14.py`. `review_hilux_body_v14.py` gera vistas da fonte na sessão visível. Checkpoints em `artifacts/vehicles/rondesp/` não são fontes ativas. O guia `world/vehicles/hilux-body-editing.md` acompanha esta revisão.
+
+## 03/10/2026 — Hilux: correção das chapas e encontros V13
+
+Fonte explícita de autoria no catálogo: `blender/assets/vehicles/rondesp-pickup/hilux_carroceria_v13.blend`, cena `HILUX | carroceria isolada v13`. V12 e montagem V11 preservadas. Mantido o pedido de trabalhar somente na carroceria: uma malha visível, Mirror X, portas, rodas, chassi, vidros, capota e equipamentos ocultos em peças reservadas.
+
+Painel posterior da cabine reconstruído com vão de vidro arredondado, contorno curvo da coluna C e encontro com teto. Cabeceira da caçamba independente da chapa da cabine, preservando a junta física. Piso com estampagem longitudinal, paredes internas, caixas de roda e bordas superiores refeitos; superfícies duplicadas e 99 faces residuais nas bordas compartilhadas removidas. Retorno dianteiro substituído, lábios dos arcos refeitos e ponta A/teto alinhada. Corrigida a amplificação da espessura nas quinas. Identidade das faces registrada em `boas_panel_id`, pois grupos de vértices soldados não bastam para identificar os painéis.
+
+Aplicado via MCP na única janela Blender visível, fonte salva e reaberta, hash conferido e vistas frontal, traseira e aproximada revisadas. Relatório: `docs/reports/blender/hilux_carroceria_v13.json`; imagens: `artifacts/vehicles/rondesp/v13-carroceria-*.png`. Referências internas já catalogadas: `hilux-srx-user-rear` e `hilux-2024-std-dealer-side`; dimensões novas são parâmetros autorais candidatos. Fidelidade fina do contorno e encaixe das peças reservadas seguem pendentes. Sem npm, testes, build, exportação runtime ou commit, conforme pedido.
+
+Scripts aplicados, não repetir: `refine_hilux_shell_v13.py`, `finish_hilux_shell_v13.py`, `clean_hilux_v13_shared_edges.py`, `align_hilux_v13_roof_tip.py`. `review_hilux_body_v13.py` gera as vistas da fonte V13 na sessão visível. Scripts em `automation/blender/`; checkpoints em `artifacts/vehicles/rondesp/` não são fontes ativas.
+
+## 03/10/2026 — Hilux: oficina da carroceria isolada V12
+
+Pedido atual: trabalhar apenas na carroceria original da Hilux, sem portas,
+rodas, chassi ou cobertura policial sobre a caçamba; recolocar os conjuntos
+depois. Fonte de autoria explícita no catálogo:
+`blender/assets/vehicles/rondesp-pickup/hilux_carroceria_v12.blend`, cena
+`HILUX | carroceria isolada v12`. A montagem V11 e as fontes anteriores
+permanecem preservadas.
+
+Somente `HILUX | CARROCERIA PRINCIPAL` fica visível: uma malha de chapa fixa
+com Mirror X, origem métrica preservada e metade +X editável. Caixilhos
+separados das colunas; caçamba aberta com piso, paredes e caixas de roda
+candidatas. Tiras antigas de batente que cruzavam os vãos removidas. Não há
+união boolean nem collider gerado. Forma e interior ainda precisam de ajuste
+fino; dimensões das novas chapas são autorais, não levantamento de fábrica.
+
+Demais conjuntos estão separados e ocultos em `RDP01 | PECAS RESERVADAS`.
+Portas/dobradiças, direção e rodagem ficaram adiadas conforme o novo escopo.
+A tentativa inicial de rig falhou no Blender, foi descartada e a sessão foi
+recuperada da V11 salva; nenhuma animação funcional foi promovida.
+
+V11 corrigiu encaixes do teto, fechamento posterior da cabine, painéis da
+capota e suportes do giroflex; preservada como snapshot de montagem no
+catálogo. V12 salva/reaberta na única janela visível, com apenas uma malha
+visível. Relatório: `docs/reports/blender/hilux_carroceria_v12.json`; vistas:
+`artifacts/vehicles/rondesp/v12-carroceria-frente.png` e
+`artifacts/vehicles/rondesp/v12-carroceria-cacamba.png`. Guia de edição:
+`world/vehicles/hilux-body-editing.md`. Sem npm, testes, build, exportação
+runtime ou commit, a pedido do usuário.
+
+
+## 03/10/2026 — Rondesp: traseira e inscrições V10
+
+Fonte candidata `blender/assets/vehicles/rondesp-pickup/marrom_v10.blend`; V09
+preservada. Capota afunilada, painel traseiro inclinado, cantos curvos e
+para-choque com asas arredondadas/rebaixo da placa. Letreiro mais pesado,
+prefixo traseiro maior, 190 com telefone, RONDESP/LESTE nas laterais e POLÍCIA
+no capô. Giroflex com lentes vermelhas e emissão estática, sem animação.
+Brasões são simplificações vetoriais candidatas, não réplicas aprovadas.
+
+Três fotos do usuário catalogadas em `world/vehicles/media-manifest.json`;
+prefixos 2.1212/BTS e de outras viaturas não substituem a identidade 3.1110.
+Dimensões da adaptação são autorais pela fotografia, não levantamento.
+Fonte salva/reaberta via MCP na única janela. Relatório/hash em
+`docs/reports/blender/rondesp_marrom_v10.json`; vistas em
+`artifacts/vehicles/rondesp/v10-frente.png` e `v10-traseira.png`.
+Scripts `refine_rondesp_v10.py` e `finish_rondesp_v10.py` já aplicados.
+Sem npm, testes, build, exportação runtime ou commit, conforme solicitação.
+Fidelidade final, brasão detalhado e camuflagem exata continuam pendentes.
+
+
+## 03/10/2026 — Rondesp: carroceria candidata V09
+
+Fonte `blender/assets/vehicles/rondesp-pickup/marrom_v09.blend`; V08 preservada.
+Capô abaulado transversalmente, transição curva dos ombros, portas com coroa
+longitudinal e inscrições conformadas, retorno lateral dos faróis e fechamento
+interno das caixas de roda. Entre-eixos conferido: 3,085 m. Teto preservado após
+reverter uma tentativa que produzia ressalto. Seções são interpretação das fotos,
+não medidas de levantamento. Pesquisa da Hilux 2025 e RONDESP registrada no relatório;
+catálogo Toyota 2024/2025 retornou HTTP 403 e não foi usado como medição nova.
+
+Aplicação via MCP na única instância visível. Fonte salva/reaberta; revisão de
+frente, lateral e traseira em `artifacts/vehicles/rondesp/v09-*.png`. Relatório:
+`docs/reports/blender/rondesp_marrom_v09.json`. Scripts `refine_hilux_body_v09.py`,
+`finish_hilux_body_v09.py`, `close_hilux_body_v09.py` já aplicados; não repetir.
+`review_hilux_body_v09.py` somente gera vistas na instância visível. Checkpoints
+intermediários em `artifacts/vehicles/rondesp/`; não são fontes de autoria.
+
+Status candidate: fidelidade final ainda precisa de aprovação; brasão, camuflagem
+exata, animação e runtime pendentes. Compileall passou; 62 testes aprovados;
+registro de referências com zero erros e dois avisos existentes da cidade.
+Sem commit/push, build ou exportação runtime.
+
+
+## 03/10/2026 — Rondesp: fonte candidata V08
+
+Fonte `blender/assets/vehicles/rondesp-pickup/marrom_v08.blend`, V07 preservada. Protetor frontal reconstruído com tubos curvos e suportes, sinalizador baixo sem módulos repetidos e acabamento dos refletores. Acessórios interpretados das fotos, dimensões não verificadas. Relatório/hash: `docs/reports/blender/rondesp_marrom_v08.json`. Script `automation/blender/refine_rondesp_front_v08.py`, aplicado via MCP na única janela, fonte reaberta. Sem render offline/npm/build/testes gerais; sem exportação runtime. Fidelidade final da carroceria, brasão e camuflagem exata continuam pendentes.
+
+
+## 03/10/2026 — Hilux Rondesp: fonte candidata V07
+
+Fonte: `blender/assets/vehicles/rondesp-pickup/marrom_v07.blend`; V06 preservada.
+Correção local dos ombros dos para-lamas e continuidade com capô, encaixe teto/para-brisa, acabamento de peças moldadas e pintura menos brilhante. Script: `automation/blender/correct_hilux_v07.py`. Relatório/hash: `docs/reports/blender/rondesp_marrom_v07.json`. Fonte salva e reaberta na única janela; viewport conferido via MCP. Sem render offline, pesquisa, npm/build ou testes gerais. Status candidate: fidelidade final, brasão e camuflagem exata pendentes; sem integração runtime.
+
+
+## 03/10/2026 — Hilux Rondesp: autoria candidata V06
+
+Fonte explícita: `blender/assets/vehicles/rondesp-pickup/marrom_v06.blend`, cena
+`VIATURA | Rondesp Hilux marrom v06`. Hash no catálogo e em
+`docs/reports/blender/rondesp_marrom_v06.json`. V01–V05 preservadas; V04/V05
+não atendiam à fidelidade solicitada. Não retomar essas bases pelo histórico.
+
+V06 reconstrói a carroceria pelas referências existentes: caimento do capô,
+ombros dos para-lamas, estreitamento da cabine no teto, vãos curvos das janelas,
+chapas das portas, batentes/soleiras, grade STD, câmaras ópticas e lentes,
+capota e lanternas. Inscrições da 3.1110 conformadas à superfície. Entre-eixos
+mantido em 3,085 m; especificações nominais em `world/vehicles/hilux-dimensions.json`.
+As seções da carroceria continuam interpretações de imagens com perspectiva,
+não medidas de escaneamento; acessórios policiais não têm dimensões verificadas.
+
+Revisão visual: frente, lateral, traseira e forma neutra em
+`artifacts/vehicles/rondesp/v06-*.png`. Trabalho via MCP na única instância visível.
+Scripts: `rebuild_hilux_reference_v06.py`, `finish_hilux_reference_v06.py`,
+`present_hilux_v06.py`, em `automation/blender/`. Executam passes de modelagem;
+não repetir um passe de acabamento na mesma revisão sem conferir seu escopo.
+
+Status **candidate**, não approved e não declarado equivalente ao ônibus.
+Pendentes: aprovação de fidelidade, brasão PMBA detalhado, camuflagem exata,
+animação das portas e integração runtime. Sem pesquisa adicional, npm/build ou
+testes gerais neste ciclo, conforme escopo solicitado; sem commit/push.
+
+
+## 02/10/2026 — Hilux Rondesp: fonte V04
+
+Fonte explícita: `blender/assets/vehicles/rondesp-pickup/marrom_v04.blend`, cena `VIATURA | Rondesp Hilux marrom v04`. V01–V03 preservadas como históricas; não retomar por maior sufixo ou mtime.
+
+Carroceria reconstruída com seções curvas; revisão da frente, encaixes dos faróis, máscara STD, capô, portas, teto, caçamba, capota e rodas. Medidas nominais Toyota em `world/vehicles/hilux-dimensions.json`: comprimento 5,325 m, largura base 1,855 m, altura stock 1,815 m, entre-eixos 3,085 m e pneus 265/65 R17. Esses valores são especificações do veículo base; não levantamento dos acessórios policiais. Vistas SRX enviadas servem ao contorno, sem aplicar rodas/alargadores da SRX à viatura.
+
+Status `candidate`: aprovação visual final, brasão e mapa exato da camuflagem pendentes; não exportado/integrado no runtime. Relatório `docs/reports/blender/rondesp_marrom_v04.json`; comparação visual em quatro vistas, sem npm/build/testes gerais nesta etapa, conforme pedido do usuário.
+
+## 02/10/2026 — Variante azul do ônibus
+
+Torino azul criado da mesma base amarela v06; amarelo e verde preservados.
+Fonte: `blender/assets/vehicles/torino-31065/azul_v01.blend`; catálogo/hashes em
+`world/vehicles/catalog.json`. Somente materiais externos e cor dos letreiros.
+Geometria, dimensões, textos, três portas e anúncio traseiro mantidos.
+Referência do usuário registrada em `world/vehicles/media-manifest.json`.
+Scripts de cor compartilham `automation/blender/bus_color_variant.py`.
+Conferência: `docs/reports/blender/torino_azul_v01.json`; runtime inalterado.
+
+
+## 02/10/2026 — Variante verde do ônibus
+
+Torino verde criado a partir da fonte amarela v06 com anúncio traseiro;
+amarelo preservado. Fontes e hashes em `world/vehicles/catalog.json`.
+Nova fonte: `blender/assets/vehicles/torino-31065/verde_v01.blend`.
+Somente pintura externa/marca e cor dos letreiros mudaram. Geometria,
+dimensões, textos, pivôs, portas, rodas e anúncio preservados.
+É variante do Torino, não modelagem do Comil Svelto da referência.
+Relatório: `docs/reports/blender/torino_verde_v01.json`.
+Produção/runtime e cidade inalterados; sem build/npm.
+
 ## 02/10/2026 — Conceição: binding de camada e colisor local — B38
 
 **Autoria candidata B38**, `blender/salvador_lacerda_r30b38_binding_conceicao.blend`,
@@ -807,3 +1065,15 @@ Toda mudança material em qualquer um destes itens deve atualizar este documento
 - próximos passos.
 
 O repositório deve permitir que outro agente retome o projeto sem depender da memória de uma conversa.
+## 02/10/2026 — Viatura Rondesp: autoria candidata V03
+
+Fonte explícita: `blender/assets/vehicles/rondesp-pickup/marrom_v03.blend`,
+ID `vehicle-rondesp-pickup`. Catálogo em `world/vehicles/catalog.json`.
+Referências enviadas mostram Hilux CD 2.8 2024/2025, Rondesp Leste 3.1110.
+Cabine dupla, capota fechada/acessos, rodas de aço pretas, estribos, quebra-mato,
+sinalizador, vidros e inscrições separados. V02 corrige bind das rodas/portas;
+V03 refina capô/para-lamas, rodas vazadas, janelas, lentes e camuflagem.
+Relatório: `docs/reports/blender/rondesp_marrom_v03.json`.
+Dimensões, mapa exato da pintura, brasão detalhado e animação final pendentes;
+asset não aprovado nem integrado no runtime. V01/V02 históricas preservadas.
+Sem mudanças na cidade, exportação de produção, npm ou build.

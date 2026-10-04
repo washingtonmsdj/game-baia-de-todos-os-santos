@@ -1,0 +1,256 @@
+{
+  "asset_id": "vehicle-rondesp-pickup",
+  "file": "blender/assets/vehicles/rondesp-pickup/hilux_superficies_v19.blend",
+  "scene": "HILUX | superficies e portas v19",
+  "parent": "blender/assets/vehicles/rondesp-pickup/hilux_portas_v18.blend",
+  "parent_sha256": "0facd4dd74797aec7f2051d8b445019fb9ea310ee762e71677390647b0e8e260",
+  "status": "needs_review",
+  "roof_vertices_corrected": 199,
+  "hood_vertices": 2502,
+  "hood_boundary_edges_rounded": 96,
+  "hood_bevel_m": 0.008,
+  "hood_additional_crown_m": 0.024,
+  "notes": [
+    "Coluna B permanece recuada abaixo da cabeceira.",
+    "Portas, pivôs e demais peças preservados.",
+    "Dimensões de acabamento são parâmetros artísticos, não medidas de fábrica."
+  ],
+  "runtime_exported": false,
+  "source_reopened": true,
+  "geometry_review": {
+    "body_unchanged": false,
+    "protected_meshes_unchanged": true,
+    "changed_unrelated_meshes": [],
+    "mesh_reviews": {
+      "RDP01 | HILUX06 | Porta dianteira -1": {
+        "vertices": 4372,
+        "faces": 7534,
+        "multi_edges": 0,
+        "wire_edges": 0,
+        "tiny_faces": 0,
+        "inconsistent_winding": 0,
+        "boundary_edges": 90
+      },
+      "RDP01 | HILUX06 | Porta dianteira 1": {
+        "vertices": 4372,
+        "faces": 7534,
+        "multi_edges": 0,
+        "wire_edges": 0,
+        "tiny_faces": 0,
+        "inconsistent_winding": 0,
+        "boundary_edges": 90
+      },
+      "RDP01 | HILUX06 | Porta traseira -1": {
+        "vertices": 3847,
+        "faces": 6524,
+        "multi_edges": 0,
+        "wire_edges": 0,
+        "tiny_faces": 0,
+        "inconsistent_winding": 0,
+        "boundary_edges": 88
+      },
+      "RDP01 | HILUX06 | Porta traseira 1": {
+        "vertices": 3847,
+        "faces": 6524,
+        "multi_edges": 0,
+        "wire_edges": 0,
+        "tiny_faces": 0,
+        "inconsistent_winding": 0,
+        "boundary_edges": 88
+      }
+    },
+    "body_mesh_review": {
+      "vertices": 43788,
+      "faces": 47421,
+      "multi_edges": 0,
+      "wire_edges": 0,
+      "tiny_faces": 0,
+      "inconsistent_winding": 0,
+      "boundary_edges": 1556
+    },
+    "self_intersections": {
+      "RDP01 | HILUX06 | Porta dianteira -1": [],
+      "RDP01 | HILUX06 | Porta dianteira 1": [],
+      "RDP01 | HILUX06 | Porta traseira -1": [],
+      "RDP01 | HILUX06 | Porta traseira 1": []
+    },
+    "movement_samples": [
+      {
+        "pose": "todas_0",
+        "angle_degrees": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "doors": {
+          "RDP01 | HILUX06 | Porta dianteira -1": {
+            "rotation_z_degrees": 0,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta dianteira 1": {
+            "rotation_z_degrees": 0,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira -1": {
+            "rotation_z_degrees": 0,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira 1": {
+            "rotation_z_degrees": 0,
+            "body_intersections": []
+          }
+        },
+        "door_pair_intersections": []
+      },
+      {
+        "pose": "todas_2",
+        "angle_degrees": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "doors": {
+          "RDP01 | HILUX06 | Porta dianteira -1": {
+            "rotation_z_degrees": 1.9999999845072665,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta dianteira 1": {
+            "rotation_z_degrees": -1.9999999845072665,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira -1": {
+            "rotation_z_degrees": 1.9999999845072665,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira 1": {
+            "rotation_z_degrees": -1.9999999845072665,
+            "body_intersections": []
+          }
+        },
+        "door_pair_intersections": []
+      },
+      {
+        "pose": "todas_5",
+        "angle_degrees": [
+          5,
+          5,
+          5,
+          5
+        ],
+        "doors": {
+          "RDP01 | HILUX06 | Porta dianteira -1": {
+            "rotation_z_degrees": 4.99999985454646,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta dianteira 1": {
+            "rotation_z_degrees": -4.99999985454646,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira -1": {
+            "rotation_z_degrees": 4.99999985454646,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira 1": {
+            "rotation_z_degrees": -4.99999985454646,
+            "body_intersections": []
+          }
+        },
+        "door_pair_intersections": []
+      },
+      {
+        "pose": "todas_10",
+        "angle_degrees": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "doors": {
+          "RDP01 | HILUX06 | Porta dianteira -1": {
+            "rotation_z_degrees": 9.99999970909292,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta dianteira 1": {
+            "rotation_z_degrees": -9.99999970909292,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira -1": {
+            "rotation_z_degrees": 9.99999970909292,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira 1": {
+            "rotation_z_degrees": -9.99999970909292,
+            "body_intersections": []
+          }
+        },
+        "door_pair_intersections": []
+      },
+      {
+        "pose": "todas_70",
+        "angle_degrees": [
+          70,
+          70,
+          70,
+          70
+        ],
+        "doors": {
+          "RDP01 | HILUX06 | Porta dianteira -1": {
+            "rotation_z_degrees": 69.99999967119774,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta dianteira 1": {
+            "rotation_z_degrees": -69.99999967119774,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira -1": {
+            "rotation_z_degrees": 69.99999967119774,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira 1": {
+            "rotation_z_degrees": -69.99999967119774,
+            "body_intersections": []
+          }
+        },
+        "door_pair_intersections": []
+      }
+    ],
+    "scope": "Malhas de portas; penetracao estrita de triangulos contra carroceria avaliada com Mirror e espessura. Ferragens de contato intencional excluidas. Amostragem angular, sem certificacao de varredura continua. Conferência antes da consolidação final de um par de vértices a menos de 0,02 mm e ajuste de sombreado; malha final inspecionada separadamente.",
+    "door_body_intersection_count": 0,
+    "door_pair_intersection_count": 0,
+    "mirror_vertex_difference_m": {
+      "dianteira": 0,
+      "traseira": 0
+    },
+    "body_matches_v18": false
+  },
+  "geometry_audit_file": "artifacts/vehicles/rondesp/v19-door-clearance.json",
+  "sha256": "af484a3fcda12649e07a3ed4bd53c64b3233845b6878a56d557e174498bde540",
+  "mesh_review": {
+    "vertices": 43787,
+    "faces": 47420,
+    "multi_edges": 0,
+    "inconsistent_winding": 0,
+    "tiny_faces": 0,
+    "duplicate_faces": 0,
+    "wire_edges": 0,
+    "coincident_vertices": 0,
+    "t_junctions": 0
+  },
+  "visual_views": [
+    "artifacts/vehicles/rondesp/v19-after-teto.png",
+    "artifacts/vehicles/rondesp/v19-after-capo.png",
+    "artifacts/vehicles/rondesp/v19-after-geral.png"
+  ],
+  "visual_review": "A comparação anterior não identificou todas as ondulações. É necessária revisão próxima com reflexo antes de declarar acabamento concluído.",
+  "header_return": {
+    "start_z_m": 1.75,
+    "end_z_m": 1.758,
+    "support_cuts": 5
+  },
+  "remaining": [
+    "Refinamento visual conforme avaliação do usuário; sem certificação dimensional de fábrica."
+  ],
+  "user_review": "Rejeitado como acabamento final: ondulações visíveis no painel traseiro/encontro do teto (foto do usuário, 03/10/2026)."
+}

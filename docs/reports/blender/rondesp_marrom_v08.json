@@ -1,0 +1,55 @@
+{
+  "asset_id": "vehicle-rondesp-pickup",
+  "file": "blender/assets/vehicles/rondesp-pickup/marrom_v08.blend",
+  "scene": "VIATURA | Rondesp Hilux marrom v08",
+  "sha256": "f3dff8a67bd4c57dd62646083b4c73f55e15d0714ba807ef213b8c9052d4bd8a",
+  "parent": "blender/assets/vehicles/rondesp-pickup/marrom_v07.blend",
+  "status": "candidate",
+  "removed_components": [
+    "RDP01 | Base quebra-mato -0.54",
+    "RDP01 | Base quebra-mato 0.54",
+    "RDP01 | Base barra sinalizadora",
+    "RDP01 | Barra vermelha",
+    "RDP01 | LED vermelho barra -0.1-0.53",
+    "RDP01 | LED vermelho barra -0.1-0.37",
+    "RDP01 | LED vermelho barra -0.1-0.2",
+    "RDP01 | LED vermelho barra -0.10.2",
+    "RDP01 | LED vermelho barra -0.10.37",
+    "RDP01 | LED vermelho barra -0.10.53",
+    "RDP01 | LED vermelho barra 0.49-0.53",
+    "RDP01 | LED vermelho barra 0.49-0.37",
+    "RDP01 | LED vermelho barra 0.49-0.2",
+    "RDP01 | LED vermelho barra 0.490.2",
+    "RDP01 | LED vermelho barra 0.490.37",
+    "RDP01 | LED vermelho barra 0.490.53",
+    "RDP01 | Montante quebra-mato -0.54",
+    "RDP01 | Montante quebra-mato 0.54",
+    "RDP01 | Arco central quebra-mato",
+    "RDP01 | Travessa quebra-mato",
+    "RDP01 | Proteção externa quebra-mato -1",
+    "RDP01 | Proteção externa quebra-mato +1"
+  ],
+  "changes": [
+    "protetor frontal com tubos curvos, retornos e suportes de chapa",
+    "sinalizador baixo e remoção de módulos antigos duplicados",
+    "acabamento interno dos refletores e junção do para-choque"
+  ],
+  "dimensions_accessories": "candidate, interpretadas das fotos",
+  "runtime_exported": false,
+  "pending": [
+    "fidelidade final da carroceria",
+    "brasão PMBA detalhado",
+    "camuflagem exata",
+    "animação e runtime"
+  ],
+  "source_reopened": true,
+  "is_dirty_after_reopen": false,
+  "legacy_light_modules_removed": [
+    "RDP01 | Módulo refletor -0.45",
+    "RDP01 | Módulo refletor -0.3",
+    "RDP01 | Módulo refletor -0.15",
+    "RDP01 | Módulo refletor 0.15",
+    "RDP01 | Módulo refletor 0.3",
+    "RDP01 | Módulo refletor 0.45"
+  ]
+}

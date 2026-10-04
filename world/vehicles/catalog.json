@@ -1,0 +1,143 @@
+{
+  "schema": "boas/vehicle-variants-v1",
+  "vehicles": [
+    {
+      "asset_id": "vehicle-torino-salvador-31065",
+      "authoring_base": {
+        "file": "blender/assets/onibus_torino_31065_v06_anuncio_traseiro.blend",
+        "sha256": "781b3389aa3eedbbafa53ea9959c9c24078fa0a45b22c5b2c516d8e70af5f0b9",
+        "scene": "ONIBUS | Torino 31065 v06"
+      },
+      "variants": [
+        {
+          "variant_id": "torino-31065-amarelo",
+          "color": "amarelo",
+          "file": "blender/assets/onibus_torino_31065_v06_anuncio_traseiro.blend",
+          "scene": "ONIBUS | Torino 31065 v06",
+          "sha256": "781b3389aa3eedbbafa53ea9959c9c24078fa0a45b22c5b2c516d8e70af5f0b9"
+        },
+        {
+          "variant_id": "torino-31065-verde",
+          "color": "verde",
+          "file": "blender/assets/vehicles/torino-31065/verde_v01.blend",
+          "scene": "ONIBUS | Torino 31065 verde v01",
+          "sha256": "8ec4c421b67507c4ea0a07e146f4be089d01382c62300a2d6dbf05f1a6359b0e",
+          "status": "candidate",
+          "reference_id": "onibus-verde-2813095d4fff",
+          "scope": "Variante de pintura do Torino existente; não representa a carroceria Comil Svelto da referência."
+        },
+        {
+          "variant_id": "torino-31065-azul",
+          "color": "azul",
+          "file": "blender/assets/vehicles/torino-31065/azul_v01.blend",
+          "scene": "ONIBUS | Torino 31065 azul v01",
+          "sha256": "d5993e3c557b013ae5ce510b8de01cfa3f242160b8a0db821d63cfc71a2aecf5",
+          "status": "candidate",
+          "reference_id": "onibus-azul-7b48d648c872",
+          "scope": "Variante de pintura azul do Torino existente, conforme referência fornecida."
+        }
+      ]
+    },
+    {
+      "asset_id": "vehicle-rondesp-pickup",
+      "authoring_base": {
+        "file": "blender/assets/vehicles/rondesp-pickup/marrom_v24_farois.blend",
+        "scene": "VIATURA | Rondesp Hilux farois v24",
+        "sha256": "362783bb439f3f26d337c477bccdc955790b448fc5e25cb72f2db6be043945db",
+        "authoring_mode": "assembled_demo_review",
+        "export_ready": false
+      },
+      "variants": [
+        {
+          "variant_id": "rondesp-pickup-marrom",
+          "color": "marrom",
+          "file": "blender/assets/vehicles/rondesp-pickup/marrom_v24_farois.blend",
+          "scene": "VIATURA | Rondesp Hilux farois v24",
+          "sha256": "362783bb439f3f26d337c477bccdc955790b448fc5e25cb72f2db6be043945db",
+          "status": "candidate",
+          "reference_ids": [
+            "rondesp-31110-front",
+            "rondesp-31110-rear",
+            "hilux-gx-factory-side",
+            "hilux-2024-std-dealer-side",
+            "hilux-srx-user-rear",
+            "hilux-srx-user-front",
+            "hilux-srx-user-side",
+            "hilux-std-stock-front",
+            "rondesp-user-rear-21212-v10",
+            "rondesp-user-front-21103-v10",
+            "rondesp-user-lightbar-v10"
+          ],
+          "scope": "V24: potência de cena dos feixes dianteiros reforçada em 20 vezes; intensidade_farois ajustável no root. Demonstração das portas, freio e giroflex V23 preservada; nenhuma alteração de chapa. Sem exportação/integração runtime. Feixe autoral sem fotometria industrial; acabamento e brasão candidatos."
+        }
+      ],
+      "revision_policy": "V24 é a fonte explícita montada para revisão visual no Blender. V23, V22, V21 e oficina V20 preservadas. Seleção pelo catálogo, sem sufixo/mtime. Drivers/compositor pertencem à autoria; lógica de faróis, freio e giroflex será implementada no runtime.",
+      "assembly_snapshot": {
+        "file": "blender/assets/vehicles/rondesp-pickup/marrom_v11.blend",
+        "scene": "VIATURA | Rondesp Hilux marrom v11",
+        "sha256": "de341081f907b34562978f0d5f9429c9ccd3e13a2852614d84161414fbc6dbbc",
+        "status": "candidate",
+        "scope": "Conjunto montado V11 preservado antes da oficina da carroceria."
+      },
+      "body_workshop_snapshot": {
+        "file": "blender/assets/vehicles/rondesp-pickup/hilux_carroceria_v17.blend",
+        "scene": "HILUX | carroceria isolada v17",
+        "sha256": "58d0b48616c03f3b6c5cf50fcdf00bc2cfa02921667aee732285e57b189eb7d3",
+        "authoring_mode": "body_only",
+        "export_ready": false,
+        "status": "candidate",
+        "scope": "V17 preservada antes do recuo da coluna B e da etapa de portas V18."
+      },
+      "surface_workshop_snapshot": {
+        "file": "blender/assets/vehicles/rondesp-pickup/hilux_superficies_v19.blend",
+        "scene": "HILUX | superficies e portas v19",
+        "sha256": "af484a3fcda12649e07a3ed4bd53c64b3233845b6878a56d557e174498bde540",
+        "authoring_mode": "body_and_doors",
+        "export_ready": false,
+        "status": "needs_review",
+        "scope": "V19 preservada; usuário apontou ondulações geradas pela espessura externa."
+      },
+      "chapa_workshop_snapshot": {
+        "file": "blender/assets/vehicles/rondesp-pickup/hilux_chapa_v20.blend",
+        "scene": "HILUX | chapa e portas v20",
+        "sha256": "7bd84c96d4392a73d2fd1c603f738274046022712c8abebea31d9756907494e1",
+        "authoring_mode": "body_and_doors",
+        "export_ready": false,
+        "status": "candidate",
+        "scope": "V20 preservada: oficina de carroceria e portas antes da montagem completa."
+      },
+      "assembled_material_snapshot": {
+        "file": "blender/assets/vehicles/rondesp-pickup/marrom_v21_montada.blend",
+        "scene": "VIATURA | Rondesp Hilux marrom v21",
+        "sha256": "41c5833edb6350c83d1e23900d1d2347b628909f86804829bca7b1271d2cc581",
+        "authoring_mode": "assembled_review",
+        "export_ready": false,
+        "status": "candidate",
+        "scope": "Montagem V21 preservada antes dos encaixes traseiros e da iluminação V22."
+      },
+      "lighting_snapshot": {
+        "file": "blender/assets/vehicles/rondesp-pickup/marrom_v22_luzes.blend",
+        "scene": "VIATURA | Rondesp Hilux marrom v22",
+        "sha256": "13ec4cfb77c2597de25b487fd61deb17c04ecfc8cbf326c1a1cde4301bf527ea",
+        "authoring_mode": "assembled_review",
+        "export_ready": false,
+        "status": "candidate",
+        "scope": "Montagem e encaixes V22 preservados antes da demonstração animada V23."
+      },
+      "demo_snapshot": {
+        "file": "blender/assets/vehicles/rondesp-pickup/marrom_v23_demonstracao.blend",
+        "scene": "VIATURA | Rondesp Hilux demonstracao v23",
+        "sha256": "d81c32eaa60ec275bd85372cfe225499e17ad955db90c0f3e71f46ab15e262f1",
+        "authoring_mode": "assembled_demo_review",
+        "export_ready": false,
+        "status": "candidate",
+        "scope": "V23 preservada: quatro portas e freio automáticos, giroflex azul/vermelho, antes de reforçar os faróis."
+      }
+    }
+  ],
+  "notes": [
+    "Uma fonte por cor, sem duplicar o amarelo ou mover fontes legadas.",
+    "O catálogo identifica autoria; production.json continua definindo o veículo integrado no runtime.",
+    "Variantes de cor preservam geometria, dimensões, textos, anúncio, pivôs e animações."
+  ]
+}

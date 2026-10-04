@@ -1,0 +1,49 @@
+{
+  "file": "blender/assets/vehicles/rondesp-pickup/marrom_v06.blend",
+  "scene": "VIATURA | Rondesp Hilux marrom v06",
+  "asset_id": "vehicle-rondesp-pickup",
+  "status": "candidate",
+  "sha256": "de6047ee5e6e21d94df6f211b5214b201955be54cb7926cf2b8f556eb1ed56e4",
+  "parent": "blender/assets/vehicles/rondesp-pickup/marrom_v05.blend",
+  "changes": [
+    "capô mais baixo e inclinado",
+    "para-lamas com ombros e caixas abertas",
+    "cabine estreita no teto e curva dos vidros",
+    "chapas de porta com seção estampada",
+    "faróis com câmaras côncavas",
+    "capota com raios e tampas tesselladas"
+  ],
+  "dimensions_source": "world/vehicles/hilux-dimensions.json",
+  "pending": [
+    "aprovação visual de fidelidade",
+    "brasão PMBA detalhado",
+    "mapeamento exato de camuflagem",
+    "animação e integração runtime"
+  ],
+  "runtime_exported": false,
+  "objects": 320,
+  "equipment_restored": true,
+  "source_saved": true,
+  "wheelbase_measured_m": 3.084999918937683,
+  "reopen_verification": {
+    "verified": true,
+    "method": "get_blender_status após conclusão do comando MCP 5934e42f41574b518bab64ce2f7f5c19",
+    "file_observed": "blender/assets/vehicles/rondesp-pickup/marrom_v06.blend",
+    "scene_observed": "VIATURA | Rondesp Hilux marrom v06",
+    "pid": 11116,
+    "is_dirty": false
+  },
+  "visual_review": {
+    "views": [
+      "v06-base-lateral.png",
+      "v06-base-frente.png",
+      "v06-base-frontal.png",
+      "v06-frente.png",
+      "v06-traseira.png",
+      "v06-materiais.png"
+    ],
+    "latest_material_view": "artifacts/vehicles/rondesp/v06-materiais.png",
+    "status": "candidate",
+    "limitations": "Comparação visual qualitativa; fidelidade perfeita e equivalência ao ônibus não demonstradas. Brasão e camuflagem simplificados."
+  }
+}

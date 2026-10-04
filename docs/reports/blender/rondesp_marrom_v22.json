@@ -1,0 +1,1278 @@
+{
+  "asset_id": "vehicle-rondesp-pickup",
+  "status": "candidate",
+  "parent": "blender/assets/vehicles/rondesp-pickup/marrom_v21_montada.blend",
+  "parent_sha256": "41c5833edb6350c83d1e23900d1d2347b628909f86804829bca7b1271d2cc581",
+  "base_body_and_doors_unchanged": true,
+  "protected_mesh_hashes": {
+    "HILUX | CARROCERIA PRINCIPAL": "dc14cd6a4431adf1de0577c5c9c022d956b85ebfd1e7ba9d9759d9cf74e630c7",
+    "RDP01 | HILUX06 | Porta dianteira -1": "3fd0b965b846fd6fffd0255cc32db36bb2705500a1ae79907fac6d7466aedb76",
+    "RDP01 | HILUX06 | Porta dianteira 1": "b8a9212a9c4169b4684b24a44b00dfb5674b94d548e403b0f62205c5c465ce4e",
+    "RDP01 | HILUX06 | Porta traseira -1": "9991ece14467677ec44915a0eda482c598f57ac0d31258c950792cc452e156be",
+    "RDP01 | HILUX06 | Porta traseira 1": "b292a61a84c045c2b8dcab39a6b74ccb7d89f17a19e0fedab6f374e40b1d682a"
+  },
+  "changed_attachments": [
+    "RDP01 | HILUX06 | Base lanterna traseira -1",
+    "RDP01 | HILUX06 | Lente vermelha traseira -1",
+    "RDP01 | HILUX06 | Segmento lanterna (-1, 1.095)",
+    "RDP01 | HILUX06 | Segmento lanterna (-1, 0.943)",
+    "RDP01 | HILUX06 | Segmento lanterna (-1, 0.767)",
+    "RDP01 | HILUX06 | Retorno lanterna -1",
+    "RDP01 | HILUX06 | Base lanterna traseira 1",
+    "RDP01 | HILUX06 | Lente vermelha traseira 1",
+    "RDP01 | HILUX06 | Segmento lanterna (1, 1.095)",
+    "RDP01 | HILUX06 | Segmento lanterna (1, 0.943)",
+    "RDP01 | HILUX06 | Segmento lanterna (1, 0.767)",
+    "RDP01 | HILUX06 | Retorno lanterna 1",
+    "RDP01 | Puxador tampa caçamba",
+    "RDP01 | Terceira luz freio",
+    "RDP01 | HILUX10 | Asa para-choque -1",
+    "RDP01 | HILUX10 | Piso antiderrapante -1",
+    "RDP01 | HILUX10 | Asa para-choque 1",
+    "RDP01 | HILUX10 | Piso antiderrapante 1",
+    "RDP01 | Engate reboque",
+    "RDP01 | Esfera engate",
+    "RDP01 | HILUX08 | Suporte estrutural -1",
+    "RDP01 | HILUX08 | Suporte estrutural 1"
+  ],
+  "added_components": [
+    "HILUX22 | Alojamento posterior lanterna -1",
+    "HILUX22 | Alojamento posterior lanterna 1",
+    "HILUX22 | Prolongamento fixacao traseira -1",
+    "HILUX22 | Prolongamento fixacao traseira 1",
+    "HILUX22 | Travessa suporte parachoque e engate",
+    "HILUX22 | Feixe farol -1",
+    "HILUX22 | Reflexo giroflex -1",
+    "HILUX22 | Feixe farol 1",
+    "HILUX22 | Reflexo giroflex 1"
+  ],
+  "attachment_displacements": [
+    {
+      "object": "RDP01 | HILUX06 | Base lanterna traseira -1",
+      "max_vertex_displacement_m": 0.06676977943740733
+    },
+    {
+      "object": "RDP01 | HILUX06 | Lente vermelha traseira -1",
+      "max_vertex_displacement_m": 0.04474097606843331
+    },
+    {
+      "object": "RDP01 | HILUX06 | Segmento lanterna (-1, 1.095)",
+      "max_vertex_displacement_m": 0.041721165239771346
+    },
+    {
+      "object": "RDP01 | HILUX06 | Segmento lanterna (-1, 0.943)",
+      "max_vertex_displacement_m": 0.04123651961348674
+    },
+    {
+      "object": "RDP01 | HILUX06 | Segmento lanterna (-1, 0.767)",
+      "max_vertex_displacement_m": 0.04359680371886026
+    },
+    {
+      "object": "RDP01 | HILUX06 | Retorno lanterna -1",
+      "max_vertex_displacement_m": 0.04615942408457481
+    },
+    {
+      "object": "RDP01 | HILUX06 | Base lanterna traseira 1",
+      "max_vertex_displacement_m": 0.06676966087704996
+    },
+    {
+      "object": "RDP01 | HILUX06 | Lente vermelha traseira 1",
+      "max_vertex_displacement_m": 0.04474097606843331
+    },
+    {
+      "object": "RDP01 | HILUX06 | Segmento lanterna (1, 1.095)",
+      "max_vertex_displacement_m": 0.041721165239771346
+    },
+    {
+      "object": "RDP01 | HILUX06 | Segmento lanterna (1, 0.943)",
+      "max_vertex_displacement_m": 0.04123651961348674
+    },
+    {
+      "object": "RDP01 | HILUX06 | Segmento lanterna (1, 0.767)",
+      "max_vertex_displacement_m": 0.04359692388093215
+    },
+    {
+      "object": "RDP01 | HILUX06 | Retorno lanterna 1",
+      "max_vertex_displacement_m": 0.04615942408457481
+    },
+    {
+      "object": "RDP01 | Puxador tampa caçamba",
+      "max_vertex_displacement_m": 0.1075191490866429
+    },
+    {
+      "object": "RDP01 | Terceira luz freio",
+      "max_vertex_displacement_m": 0.15912549198406595
+    },
+    {
+      "object": "RDP01 | HILUX10 | Asa para-choque -1",
+      "max_vertex_displacement_m": 0.061624049238251516
+    },
+    {
+      "object": "RDP01 | HILUX10 | Piso antiderrapante -1",
+      "max_vertex_displacement_m": 0.05785930203459731
+    },
+    {
+      "object": "RDP01 | HILUX10 | Asa para-choque 1",
+      "max_vertex_displacement_m": 0.061624049238251516
+    },
+    {
+      "object": "RDP01 | HILUX10 | Piso antiderrapante 1",
+      "max_vertex_displacement_m": 0.05785930203459731
+    },
+    {
+      "object": "RDP01 | Engate reboque",
+      "max_vertex_displacement_m": 0.29999970793709846
+    },
+    {
+      "object": "RDP01 | Esfera engate",
+      "max_vertex_displacement_m": 0.12399983369187385
+    },
+    {
+      "object": "RDP01 | HILUX08 | Suporte estrutural -1",
+      "max_vertex_displacement_m": 0.16560492765057275
+    },
+    {
+      "object": "RDP01 | HILUX08 | Suporte estrutural 1",
+      "max_vertex_displacement_m": 0.16560492765057275
+    }
+  ],
+  "corner_contacts": [
+    {
+      "point": [
+        -0.8836843967437744,
+        2.732424259185791,
+        1.2073999643325806
+      ],
+      "contact": [
+        -0.842536449432373,
+        2.731438159942627,
+        1.1972227096557617
+      ],
+      "distance_m": 0.042399320751428604
+    },
+    {
+      "point": [
+        -0.8844105005264282,
+        2.7330219745635986,
+        1.2050180435180664
+      ],
+      "contact": [
+        -0.843120813369751,
+        2.7320001125335693,
+        1.1948057413101196
+      ],
+      "distance_m": 0.04254613444209099
+    },
+    {
+      "point": [
+        -0.8854849338531494,
+        2.7334630489349365,
+        1.2012319564819336
+      ],
+      "contact": [
+        -0.8440651893615723,
+        2.7320001125335693,
+        1.190987467765808
+      ],
+      "distance_m": 0.042692914605140686
+    },
+    {
+      "point": [
+        -0.8868439793586731,
+        2.73376202583313,
+        1.1960420608520508
+      ],
+      "contact": [
+        -0.8453531861305237,
+        2.7320001125335693,
+        1.1857800483703613
+      ],
+      "distance_m": 0.042777322232723236
+    },
+    {
+      "point": [
+        -0.8883974552154541,
+        2.7339391708374023,
+        1.1894479990005493
+      ],
+      "contact": [
+        -0.8461506962776184,
+        2.7320001125335693,
+        1.1825555562973022
+      ],
+      "distance_m": 0.04284920543432236
+    },
+    {
+      "point": [
+        -0.8900256156921387,
+        2.734025001525879,
+        1.1814500093460083
+      ],
+      "contact": [
+        -0.8470425605773926,
+        2.7320001125335693,
+        1.1757867336273193
+      ],
+      "distance_m": 0.043401796370744705
+    },
+    {
+      "point": [
+        -0.8915753960609436,
+        2.7340593338012695,
+        1.1720479726791382
+      ],
+      "contact": [
+        -0.8482866287231445,
+        2.7320001125335693,
+        1.166344404220581
+      ],
+      "distance_m": 0.04371142387390137
+    },
+    {
+      "point": [
+        -0.892856240272522,
+        2.73409366607666,
+        1.1612420082092285
+      ],
+      "contact": [
+        -0.8489426374435425,
+        2.7320001125335693,
+        1.160117268562317
+      ],
+      "distance_m": 0.04397786408662796
+    },
+    {
+      "point": [
+        -0.8936344981193542,
+        2.7341928482055664,
+        1.1490319967269897
+      ],
+      "contact": [
+        -0.8492556810379028,
+        2.7320001125335693,
+        1.147895336151123
+      ],
+      "distance_m": 0.04444749280810356
+    },
+    {
+      "point": [
+        -0.8936328887939453,
+        2.734433174133301,
+        1.1354179382324219
+      ],
+      "contact": [
+        -0.8493142127990723,
+        2.7320001125335693,
+        1.1367943286895752
+      ],
+      "distance_m": 0.04440674930810928
+    },
+    {
+      "point": [
+        -0.8815116882324219,
+        2.7371325492858887,
+        0.6862800121307373
+      ],
+      "contact": [
+        -0.8310087323188782,
+        2.7320001125335693,
+        0.6846416592597961
+      ],
+      "distance_m": 0.05078951641917229
+    },
+    {
+      "point": [
+        -0.8814857602119446,
+        2.7354915142059326,
+        0.6803100109100342
+      ],
+      "contact": [
+        -0.8311196565628052,
+        2.7320001125335693,
+        0.6812222003936768
+      ],
+      "distance_m": 0.0504952110350132
+    },
+    {
+      "point": [
+        -0.8812038898468018,
+        2.733628988265991,
+        0.6758400201797485
+      ],
+      "contact": [
+        -0.8309947848320007,
+        2.7319793701171875,
+        0.6775628328323364
+      ],
+      "distance_m": 0.050265729427337646
+    },
+    {
+      "point": [
+        -0.8762195706367493,
+        2.73773193359375,
+        0.7638139724731445
+      ],
+      "contact": [
+        -0.8244826197624207,
+        2.7320001125335693,
+        0.757271409034729
+      ],
+      "distance_m": 0.052463047206401825
+    },
+    {
+      "point": [
+        -0.8786017894744873,
+        2.737161636352539,
+        0.7497422099113464
+      ],
+      "contact": [
+        -0.8262127637863159,
+        2.7320001125335693,
+        0.7435677647590637
+      ],
+      "distance_m": 0.05300353839993477
+    },
+    {
+      "point": [
+        -0.8813661336898804,
+        2.73622989654541,
+        0.7370803952217102
+      ],
+      "contact": [
+        -0.8277224898338318,
+        2.7320001125335693,
+        0.7307581305503845
+      ],
+      "distance_m": 0.05418027937412262
+    },
+    {
+      "point": [
+        -0.8839775323867798,
+        2.7350728511810303,
+        0.7258285284042358
+      ],
+      "contact": [
+        -0.8288044333457947,
+        2.7320001125335693,
+        0.721060574054718
+      ],
+      "distance_m": 0.055463917553424835
+    },
+    {
+      "point": [
+        -0.886146068572998,
+        2.733767509460449,
+        0.7159868478775024
+      ],
+      "contact": [
+        -0.8296871185302734,
+        2.7314493656158447,
+        0.7111077308654785
+      ],
+      "distance_m": 0.05671677365899086
+    },
+    {
+      "point": [
+        -0.8877613544464111,
+        2.732344388961792,
+        0.7075550556182861
+      ],
+      "contact": [
+        -0.8304584622383118,
+        2.7301719188690186,
+        0.7027395367622375
+      ],
+      "distance_m": 0.05754590034484863
+    },
+    {
+      "point": [
+        -0.8744033575057983,
+        2.7338223457336426,
+        0.912774920463562
+      ],
+      "contact": [
+        -0.8195585012435913,
+        2.7306809425354004,
+        0.9206339120864868
+      ],
+      "distance_m": 0.05549405887722969
+    },
+    {
+      "point": [
+        -0.8746925592422485,
+        2.735283136367798,
+        0.9159438014030457
+      ],
+      "contact": [
+        -0.8199352025985718,
+        2.7320001125335693,
+        0.9237902760505676
+      ],
+      "distance_m": 0.05541401728987694
+    },
+    {
+      "point": [
+        -0.8809877038002014,
+        2.7342867851257324,
+        0.9663999676704407
+      ],
+      "contact": [
+        -0.829693615436554,
+        2.731865644454956,
+        0.9766028523445129
+      ],
+      "distance_m": 0.05235498398542404
+    },
+    {
+      "point": [
+        -0.881570041179657,
+        2.7337563037872314,
+        0.9700562357902527
+      ],
+      "contact": [
+        -0.8304391503334045,
+        2.7313427925109863,
+        0.9802266359329224
+      ],
+      "distance_m": 0.05218840762972832
+    },
+    {
+      "point": [
+        -0.8820282220840454,
+        2.7324771881103516,
+        0.9732249975204468
+      ],
+      "contact": [
+        -0.831120491027832,
+        2.730074405670166,
+        0.9833509922027588
+      ],
+      "distance_m": 0.051960621029138565
+    },
+    {
+      "point": [
+        -0.8853140473365784,
+        2.733386516571045,
+        0.7367750406265259
+      ],
+      "contact": [
+        -0.8278670310974121,
+        2.730774164199829,
+        0.7300044894218445
+      ],
+      "distance_m": 0.057903580367565155
+    },
+    {
+      "point": [
+        -0.8846802115440369,
+        2.7350103855133057,
+        0.7399437427520752
+      ],
+      "contact": [
+        -0.8274350166320801,
+        2.7320001125335693,
+        0.7331969738006592
+      ],
+      "distance_m": 0.05771995335817337
+    },
+    {
+      "point": [
+        -0.8778344392776489,
+        2.737194061279297,
+        0.790399968624115
+      ],
+      "contact": [
+        -0.8213691711425781,
+        2.7320001125335693,
+        0.7840636372566223
+      ],
+      "distance_m": 0.057056576013565063
+    },
+    {
+      "point": [
+        -0.8775238394737244,
+        2.7368853092193604,
+        0.794056236743927
+      ],
+      "contact": [
+        -0.8208797574043274,
+        2.7320001125335693,
+        0.7896062731742859
+      ],
+      "distance_m": 0.057028234004974365
+    },
+    {
+      "point": [
+        -0.8772068023681641,
+        2.7358062267303467,
+        0.7972249984741211
+      ],
+      "contact": [
+        -0.8206304311752319,
+        2.7320001125335693,
+        0.792780339717865
+      ],
+      "distance_m": 0.05687817931175232
+    },
+    {
+      "point": [
+        -0.8768810629844666,
+        2.73395037651062,
+        0.7999062538146973
+      ],
+      "contact": [
+        -0.8204793930053711,
+        2.730883836746216,
+        0.7954753637313843
+      ],
+      "distance_m": 0.05665849149227142
+    },
+    {
+      "point": [
+        0.8836843967437744,
+        2.732424259185791,
+        1.2073999643325806
+      ],
+      "contact": [
+        0.842536449432373,
+        2.731438398361206,
+        1.1972227096557617
+      ],
+      "distance_m": 0.042399317026138306
+    },
+    {
+      "point": [
+        0.8844105005264282,
+        2.7330219745635986,
+        1.2050180435180664
+      ],
+      "contact": [
+        0.843120813369751,
+        2.7320001125335693,
+        1.1948057413101196
+      ],
+      "distance_m": 0.04254613444209099
+    },
+    {
+      "point": [
+        0.8854849338531494,
+        2.7334630489349365,
+        1.2012319564819336
+      ],
+      "contact": [
+        0.8440651893615723,
+        2.7320001125335693,
+        1.190987467765808
+      ],
+      "distance_m": 0.042692914605140686
+    },
+    {
+      "point": [
+        0.8868439793586731,
+        2.73376202583313,
+        1.1960420608520508
+      ],
+      "contact": [
+        0.8453531861305237,
+        2.7320001125335693,
+        1.1857800483703613
+      ],
+      "distance_m": 0.042777322232723236
+    },
+    {
+      "point": [
+        0.8883974552154541,
+        2.7339391708374023,
+        1.1894479990005493
+      ],
+      "contact": [
+        0.8461506962776184,
+        2.7320001125335693,
+        1.1825555562973022
+      ],
+      "distance_m": 0.04284920543432236
+    },
+    {
+      "point": [
+        0.8900256156921387,
+        2.734025001525879,
+        1.1814500093460083
+      ],
+      "contact": [
+        0.8470425605773926,
+        2.7320001125335693,
+        1.1757867336273193
+      ],
+      "distance_m": 0.043401796370744705
+    },
+    {
+      "point": [
+        0.8915753960609436,
+        2.7340593338012695,
+        1.1720479726791382
+      ],
+      "contact": [
+        0.8482866287231445,
+        2.7320001125335693,
+        1.166344404220581
+      ],
+      "distance_m": 0.04371142387390137
+    },
+    {
+      "point": [
+        0.892856240272522,
+        2.73409366607666,
+        1.1612420082092285
+      ],
+      "contact": [
+        0.8489426374435425,
+        2.7320001125335693,
+        1.160117268562317
+      ],
+      "distance_m": 0.04397786408662796
+    },
+    {
+      "point": [
+        0.8936344981193542,
+        2.7341928482055664,
+        1.1490319967269897
+      ],
+      "contact": [
+        0.8492556810379028,
+        2.7320001125335693,
+        1.147895336151123
+      ],
+      "distance_m": 0.04444749280810356
+    },
+    {
+      "point": [
+        0.8936328887939453,
+        2.734433174133301,
+        1.1354179382324219
+      ],
+      "contact": [
+        0.8493142127990723,
+        2.7320001125335693,
+        1.1367943286895752
+      ],
+      "distance_m": 0.04440674930810928
+    },
+    {
+      "point": [
+        0.8815116882324219,
+        2.7371325492858887,
+        0.6862800121307373
+      ],
+      "contact": [
+        0.8310087323188782,
+        2.7320001125335693,
+        0.6846416592597961
+      ],
+      "distance_m": 0.05078951641917229
+    },
+    {
+      "point": [
+        0.8814857602119446,
+        2.7354915142059326,
+        0.6803100109100342
+      ],
+      "contact": [
+        0.8311196565628052,
+        2.7320001125335693,
+        0.6812222003936768
+      ],
+      "distance_m": 0.0504952110350132
+    },
+    {
+      "point": [
+        0.8812038898468018,
+        2.733628988265991,
+        0.6758400201797485
+      ],
+      "contact": [
+        0.8309947848320007,
+        2.7319793701171875,
+        0.6775628328323364
+      ],
+      "distance_m": 0.050265729427337646
+    },
+    {
+      "point": [
+        0.8762195706367493,
+        2.73773193359375,
+        0.7638139724731445
+      ],
+      "contact": [
+        0.8244826197624207,
+        2.7320001125335693,
+        0.757271409034729
+      ],
+      "distance_m": 0.052463047206401825
+    },
+    {
+      "point": [
+        0.8786017894744873,
+        2.737161636352539,
+        0.7497422099113464
+      ],
+      "contact": [
+        0.8262127637863159,
+        2.7320001125335693,
+        0.7435677647590637
+      ],
+      "distance_m": 0.05300353839993477
+    },
+    {
+      "point": [
+        0.8813661336898804,
+        2.73622989654541,
+        0.7370803952217102
+      ],
+      "contact": [
+        0.8277224898338318,
+        2.7320001125335693,
+        0.7307581305503845
+      ],
+      "distance_m": 0.05418027937412262
+    },
+    {
+      "point": [
+        0.8839775323867798,
+        2.7350728511810303,
+        0.7258285284042358
+      ],
+      "contact": [
+        0.8288044333457947,
+        2.7320001125335693,
+        0.721060574054718
+      ],
+      "distance_m": 0.055463917553424835
+    },
+    {
+      "point": [
+        0.886146068572998,
+        2.733767509460449,
+        0.7159868478775024
+      ],
+      "contact": [
+        0.8296871781349182,
+        2.7314493656158447,
+        0.7111077308654785
+      ],
+      "distance_m": 0.056716714054346085
+    },
+    {
+      "point": [
+        0.8877613544464111,
+        2.732344388961792,
+        0.7075550556182861
+      ],
+      "contact": [
+        0.8304585218429565,
+        2.7301719188690186,
+        0.7027395963668823
+      ],
+      "distance_m": 0.05754583328962326
+    },
+    {
+      "point": [
+        0.8744033575057983,
+        2.7338223457336426,
+        0.912774920463562
+      ],
+      "contact": [
+        0.8195585012435913,
+        2.7306807041168213,
+        0.9206339716911316
+      ],
+      "distance_m": 0.05549407750368118
+    },
+    {
+      "point": [
+        0.8746925592422485,
+        2.735283136367798,
+        0.9159438014030457
+      ],
+      "contact": [
+        0.8199352025985718,
+        2.7320001125335693,
+        0.9237902760505676
+      ],
+      "distance_m": 0.05541401728987694
+    },
+    {
+      "point": [
+        0.8809877038002014,
+        2.7342867851257324,
+        0.9663999676704407
+      ],
+      "contact": [
+        0.8296936750411987,
+        2.731865644454956,
+        0.9766027927398682
+      ],
+      "distance_m": 0.05235491320490837
+    },
+    {
+      "point": [
+        0.881570041179657,
+        2.7337563037872314,
+        0.9700562357902527
+      ],
+      "contact": [
+        0.8304391503334045,
+        2.7313427925109863,
+        0.9802266359329224
+      ],
+      "distance_m": 0.05218840762972832
+    },
+    {
+      "point": [
+        0.8820282220840454,
+        2.7324771881103516,
+        0.9732249975204468
+      ],
+      "contact": [
+        0.831120491027832,
+        2.730074167251587,
+        0.9833509922027588
+      ],
+      "distance_m": 0.05196063220500946
+    },
+    {
+      "point": [
+        0.8853140473365784,
+        2.733386516571045,
+        0.7367750406265259
+      ],
+      "contact": [
+        0.8278670907020569,
+        2.73077392578125,
+        0.7300044894218445
+      ],
+      "distance_m": 0.05790352821350098
+    },
+    {
+      "point": [
+        0.8846802115440369,
+        2.7350103855133057,
+        0.7399437427520752
+      ],
+      "contact": [
+        0.8274350166320801,
+        2.7320001125335693,
+        0.7331969738006592
+      ],
+      "distance_m": 0.05771995335817337
+    },
+    {
+      "point": [
+        0.8778344392776489,
+        2.737194061279297,
+        0.790399968624115
+      ],
+      "contact": [
+        0.8213691711425781,
+        2.7320001125335693,
+        0.7840636372566223
+      ],
+      "distance_m": 0.057056576013565063
+    },
+    {
+      "point": [
+        0.8775238394737244,
+        2.7368853092193604,
+        0.794056236743927
+      ],
+      "contact": [
+        0.8208797574043274,
+        2.7320001125335693,
+        0.7896062731742859
+      ],
+      "distance_m": 0.057028234004974365
+    },
+    {
+      "point": [
+        0.8772068023681641,
+        2.7358062267303467,
+        0.7972249984741211
+      ],
+      "contact": [
+        0.8206304311752319,
+        2.7320001125335693,
+        0.792780339717865
+      ],
+      "distance_m": 0.05687817931175232
+    },
+    {
+      "point": [
+        0.8768810629844666,
+        2.73395037651062,
+        0.7999062538146973
+      ],
+      "contact": [
+        0.8204794526100159,
+        2.7308835983276367,
+        0.7954753041267395
+      ],
+      "distance_m": 0.05665845051407814
+    }
+  ],
+  "rear_rail_extensions": [
+    {
+      "object": "HILUX22 | Prolongamento fixacao traseira -1",
+      "source_rail": "RDP01 | Longarina -0.51",
+      "overlap_m": 0.025,
+      "rear_end_m": 2.785
+    },
+    {
+      "object": "HILUX22 | Prolongamento fixacao traseira 1",
+      "source_rail": "RDP01 | Longarina 0.51",
+      "overlap_m": 0.025,
+      "rear_end_m": 2.785
+    }
+  ],
+  "bumper_outer_width_per_side_m": [
+    0.8633759355545044,
+    0.8633759355545044
+  ],
+  "controls": {
+    "giroflex_ligado": {
+      "default": 1.0,
+      "min": 0.0,
+      "max": 1.0,
+      "description": "Liga o sinalizador azul/vermelho; 0 desligado, 1 ligado."
+    },
+    "giroflex_velocidade": {
+      "default": 1.0,
+      "min": 0.25,
+      "max": 4.0,
+      "description": "Velocidade das piscadas; controle visual, não frequência certificada."
+    },
+    "farois_ligados": {
+      "default": 1.0,
+      "min": 0.0,
+      "max": 1.0,
+      "description": "Acende os faróis dianteiros e seus feixes."
+    },
+    "lanternas_ligadas": {
+      "default": 1.0,
+      "min": 0.0,
+      "max": 1.0,
+      "description": "Acende as lanternas de posição traseiras."
+    },
+    "freio": {
+      "default": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "description": "0 sem freio; 1 acende luzes de freio e terceira luz."
+    }
+  },
+  "lighting_materials": [
+    {
+      "material": "HILUX22 | LED AZUL ESQUERDO",
+      "expression": "liga*(.02+5*(((frame-1)*vel)%16<3 or 6<=((frame-1)*vel)%16<9))",
+      "controls": [
+        [
+          "liga",
+          "giroflex_ligado"
+        ],
+        [
+          "vel",
+          "giroflex_velocidade"
+        ]
+      ]
+    },
+    {
+      "material": "HILUX22 | Lente AZUL ESQUERDO",
+      "expression": "liga*(.01+1.6*(((frame-1)*vel)%16<3 or 6<=((frame-1)*vel)%16<9))",
+      "controls": [
+        [
+          "liga",
+          "giroflex_ligado"
+        ],
+        [
+          "vel",
+          "giroflex_velocidade"
+        ]
+      ]
+    },
+    {
+      "material": "HILUX22 | LED VERMELHO DIREITO",
+      "expression": "liga*(.02+5*(8<=((frame-1)*vel)%16<11 or 14<=((frame-1)*vel)%16<16))",
+      "controls": [
+        [
+          "liga",
+          "giroflex_ligado"
+        ],
+        [
+          "vel",
+          "giroflex_velocidade"
+        ]
+      ]
+    },
+    {
+      "material": "HILUX22 | Lente VERMELHO DIREITO",
+      "expression": "liga*(.01+1.6*(8<=((frame-1)*vel)%16<11 or 14<=((frame-1)*vel)%16<16))",
+      "controls": [
+        [
+          "liga",
+          "giroflex_ligado"
+        ],
+        [
+          "vel",
+          "giroflex_velocidade"
+        ]
+      ]
+    },
+    {
+      "material": "HILUX22 | Lanterna posicao vermelha",
+      "expression": ".35*pos",
+      "controls": [
+        [
+          "pos",
+          "lanternas_ligadas"
+        ]
+      ]
+    },
+    {
+      "material": "HILUX22 | Lanterna e freio vermelhos",
+      "expression": ".50*pos+2.4*freia",
+      "controls": [
+        [
+          "pos",
+          "lanternas_ligadas"
+        ],
+        [
+          "freia",
+          "freio"
+        ]
+      ]
+    },
+    {
+      "material": "HILUX22 | Terceira luz freio",
+      "expression": "2.4*freia",
+      "controls": [
+        [
+          "freia",
+          "freio"
+        ]
+      ]
+    },
+    {
+      "material": "HILUX22 | Nucleo farol branco",
+      "expression": "8.0*aceso",
+      "controls": [
+        [
+          "aceso",
+          "farois_ligados"
+        ]
+      ]
+    },
+    {
+      "material": "HILUX22 | Guia optica branca",
+      "expression": "4.0*aceso",
+      "controls": [
+        [
+          "aceso",
+          "farois_ligados"
+        ]
+      ]
+    },
+    {
+      "material": "HILUX22 | Lente farol iluminada",
+      "expression": ".04*aceso",
+      "controls": [
+        [
+          "aceso",
+          "farois_ligados"
+        ]
+      ]
+    }
+  ],
+  "projection_lights": [
+    "HILUX22 | Feixe farol -1",
+    "HILUX22 | Reflexo giroflex -1",
+    "HILUX22 | Feixe farol 1",
+    "HILUX22 | Reflexo giroflex 1"
+  ],
+  "lightbar_sides": {
+    "left_negative_x": "blue",
+    "right_positive_x": "red"
+  },
+  "source_reopened": true,
+  "runtime_exported": false,
+  "visual_review": "Vistas finais de montagem, duas fases do giroflex, freio e encaixes inspecionadas; fidelidade fina permanece candidata.",
+  "pending": [
+    "Dimensões de fixação e forma finais candidatas.",
+    "Brasão detalhado e desenho exato da camuflagem pendentes.",
+    "Circuitos Blender ainda sem adaptação a runtime."
+  ],
+  "file": "blender/assets/vehicles/rondesp-pickup/marrom_v22_luzes.blend",
+  "scene": "VIATURA | Rondesp Hilux marrom v22",
+  "driver_readings": [
+    {
+      "frame": 1,
+      "brake_control": 0.0,
+      "materials": {
+        "HILUX22 | LED AZUL ESQUERDO": 5.019999980926514,
+        "HILUX22 | Lente AZUL ESQUERDO": 1.6100000143051147,
+        "HILUX22 | LED VERMELHO DIREITO": 0.019999999552965164,
+        "HILUX22 | Lente VERMELHO DIREITO": 0.009999999776482582,
+        "HILUX22 | Lanterna posicao vermelha": 1.399999976158142,
+        "HILUX22 | Lanterna e freio vermelhos": 1.0,
+        "HILUX22 | Terceira luz freio": 0.0,
+        "HILUX22 | Nucleo farol branco": 8.0,
+        "HILUX22 | Guia optica branca": 4.0,
+        "HILUX22 | Lente farol iluminada": 0.6000000238418579
+      },
+      "lights": {
+        "HILUX22 | Feixe farol -1": 0.0,
+        "HILUX22 | Reflexo giroflex -1": 18.0,
+        "HILUX22 | Feixe farol 1": 0.0,
+        "HILUX22 | Reflexo giroflex 1": 0.0
+      }
+    },
+    {
+      "frame": 11,
+      "brake_control": 0.0,
+      "materials": {
+        "HILUX22 | LED AZUL ESQUERDO": 0.019999999552965164,
+        "HILUX22 | Lente AZUL ESQUERDO": 0.009999999776482582,
+        "HILUX22 | LED VERMELHO DIREITO": 5.019999980926514,
+        "HILUX22 | Lente VERMELHO DIREITO": 1.6100000143051147,
+        "HILUX22 | Lanterna posicao vermelha": 1.399999976158142,
+        "HILUX22 | Lanterna e freio vermelhos": 1.0,
+        "HILUX22 | Terceira luz freio": 0.0,
+        "HILUX22 | Nucleo farol branco": 8.0,
+        "HILUX22 | Guia optica branca": 4.0,
+        "HILUX22 | Lente farol iluminada": 0.6000000238418579
+      },
+      "lights": {
+        "HILUX22 | Feixe farol -1": 0.0,
+        "HILUX22 | Reflexo giroflex -1": 0.0,
+        "HILUX22 | Feixe farol 1": 0.0,
+        "HILUX22 | Reflexo giroflex 1": 18.0
+      }
+    },
+    {
+      "frame": 9,
+      "brake_control": 1.0,
+      "materials": {
+        "HILUX22 | LED AZUL ESQUERDO": 5.019999980926514,
+        "HILUX22 | Lente AZUL ESQUERDO": 1.6100000143051147,
+        "HILUX22 | LED VERMELHO DIREITO": 5.019999980926514,
+        "HILUX22 | Lente VERMELHO DIREITO": 1.6100000143051147,
+        "HILUX22 | Lanterna posicao vermelha": 1.399999976158142,
+        "HILUX22 | Lanterna e freio vermelhos": 7.0,
+        "HILUX22 | Terceira luz freio": 6.0,
+        "HILUX22 | Nucleo farol branco": 8.0,
+        "HILUX22 | Guia optica branca": 4.0,
+        "HILUX22 | Lente farol iluminada": 0.6000000238418579
+      },
+      "lights": {
+        "HILUX22 | Feixe farol -1": 0.0,
+        "HILUX22 | Reflexo giroflex -1": 18.0,
+        "HILUX22 | Feixe farol 1": 0.0,
+        "HILUX22 | Reflexo giroflex 1": 18.0
+      }
+    }
+  ],
+  "live_session": {
+    "pid": 19576,
+    "port": 9876
+  },
+  "preview_paths": {
+    "assembled": "artifacts/vehicles/rondesp/v22-frente-completa.png",
+    "blue_phase": "artifacts/vehicles/rondesp/v22-giroflex-azul.png",
+    "red_phase": "artifacts/vehicles/rondesp/v22-giroflex-vermelho.png",
+    "brake": "artifacts/vehicles/rondesp/v22-traseira-freio.png",
+    "rear_fit": "artifacts/vehicles/rondesp/v22-encaixes-traseiros.png"
+  },
+  "sha256": "13ec4cfb77c2597de25b487fd61deb17c04ecfc8cbf326c1a1cde4301bf527ea",
+  "rear_lens_compartments": [
+    "RDP01 | HILUX06 | Lente vermelha traseira -1",
+    "RDP01 | HILUX06 | Retorno lanterna -1",
+    "RDP01 | HILUX06 | Lente vermelha traseira 1",
+    "RDP01 | HILUX06 | Retorno lanterna 1"
+  ],
+  "headlight_energy_on": {
+    "HILUX22 | Feixe farol -1": 120.0,
+    "HILUX22 | Feixe farol 1": 120.0
+  },
+  "finish_note": "Lentes dianteiras com emissão discreta para preservar óptica. Lanternas divididas em vermelho/claro/vermelho, freio no segmento superior; potência dos feixes atualizada.",
+  "driver_readings_final": [
+    {
+      "frame": 1,
+      "brake_control": 0.0,
+      "materials": {
+        "HILUX22 | LED AZUL ESQUERDO": 5.019999980926514,
+        "HILUX22 | Lente AZUL ESQUERDO": 1.6100000143051147,
+        "HILUX22 | LED VERMELHO DIREITO": 0.019999999552965164,
+        "HILUX22 | Lente VERMELHO DIREITO": 0.009999999776482582,
+        "HILUX22 | Lanterna posicao vermelha": 0.3499999940395355,
+        "HILUX22 | Lanterna e freio vermelhos": 0.4999999403953552,
+        "HILUX22 | Terceira luz freio": 0.0,
+        "HILUX22 | Nucleo farol branco": 8.0,
+        "HILUX22 | Guia optica branca": 4.0,
+        "HILUX22 | Lente farol iluminada": 0.03999999910593033
+      },
+      "lights": {
+        "HILUX22 | Feixe farol -1": 120.0,
+        "HILUX22 | Reflexo giroflex -1": 18.0,
+        "HILUX22 | Feixe farol 1": 120.0,
+        "HILUX22 | Reflexo giroflex 1": 0.0
+      }
+    },
+    {
+      "frame": 11,
+      "brake_control": 0.0,
+      "materials": {
+        "HILUX22 | LED AZUL ESQUERDO": 0.019999999552965164,
+        "HILUX22 | Lente AZUL ESQUERDO": 0.009999999776482582,
+        "HILUX22 | LED VERMELHO DIREITO": 5.019999980926514,
+        "HILUX22 | Lente VERMELHO DIREITO": 1.6100000143051147,
+        "HILUX22 | Lanterna posicao vermelha": 0.3499999940395355,
+        "HILUX22 | Lanterna e freio vermelhos": 0.4999999403953552,
+        "HILUX22 | Terceira luz freio": 0.0,
+        "HILUX22 | Nucleo farol branco": 8.0,
+        "HILUX22 | Guia optica branca": 4.0,
+        "HILUX22 | Lente farol iluminada": 0.03999999910593033
+      },
+      "lights": {
+        "HILUX22 | Feixe farol -1": 120.0,
+        "HILUX22 | Reflexo giroflex -1": 0.0,
+        "HILUX22 | Feixe farol 1": 120.0,
+        "HILUX22 | Reflexo giroflex 1": 18.0
+      }
+    },
+    {
+      "frame": 9,
+      "brake_control": 1.0,
+      "materials": {
+        "HILUX22 | LED AZUL ESQUERDO": 5.019999980926514,
+        "HILUX22 | Lente AZUL ESQUERDO": 1.6100000143051147,
+        "HILUX22 | LED VERMELHO DIREITO": 5.019999980926514,
+        "HILUX22 | Lente VERMELHO DIREITO": 1.6100000143051147,
+        "HILUX22 | Lanterna posicao vermelha": 0.3499999940395355,
+        "HILUX22 | Lanterna e freio vermelhos": 2.9000000953674316,
+        "HILUX22 | Terceira luz freio": 2.4000000953674316,
+        "HILUX22 | Nucleo farol branco": 8.0,
+        "HILUX22 | Guia optica branca": 4.0,
+        "HILUX22 | Lente farol iluminada": 0.03999999910593033
+      },
+      "lights": {
+        "HILUX22 | Feixe farol -1": 120.0,
+        "HILUX22 | Reflexo giroflex -1": 18.0,
+        "HILUX22 | Feixe farol 1": 120.0,
+        "HILUX22 | Reflexo giroflex 1": 18.0
+      }
+    }
+  ],
+  "source_sha256_after_reopen": "13ec4cfb77c2597de25b487fd61deb17c04ecfc8cbf326c1a1cde4301bf527ea",
+  "protected_meshes_verified_after_reopen": true,
+  "objects": 515,
+  "driver_dependencies_refreshed": true,
+  "material_preview_enabled": true,
+  "live_flashing_playback": true
+}

@@ -1,0 +1,729 @@
+{
+  "asset_id": "vehicle-rondesp-pickup",
+  "file": "blender/assets/vehicles/rondesp-pickup/hilux_portas_v18.blend",
+  "scene": "HILUX | carroceria e portas v18",
+  "parent": "blender/assets/vehicles/rondesp-pickup/hilux_carroceria_v17.blend",
+  "parent_sha256": "58d0b48616c03f3b6c5cf50fcdf00bc2cfa02921667aee732285e57b189eb7d3",
+  "status": "candidate",
+  "authoring_mode": "body_and_doors",
+  "body_hash_before": "1c60b0caf14ee3c6f1840c0a8813246b92dfa5bba8cdc2200060edea5bffa4b1",
+  "body_hash_after": "9d380dd2f2f08ad84c7bd5314d220681932d9fb7853b58ef5a12154807685490",
+  "body_unchanged": false,
+  "door_assemblies": [
+    {
+      "shell": "RDP01 | HILUX06 | Porta dianteira -1",
+      "pivot": "RDP01 | Pivô porta dianteira -1",
+      "door": "Porta dianteira esquerda",
+      "side": -1,
+      "opening_control": "abertura_graus",
+      "range_degrees": [
+        0,
+        70
+      ],
+      "hinge_position_candidate_m": [
+        -0.8999999761581421,
+        -1.0,
+        0.9850000143051147
+      ],
+      "children": [
+        "RDP01 | HILUX06 | Porta dianteira -1",
+        "HILUX18 | Canal vidro dianteira esquerda",
+        "HILUX18 | Vedacao interna dianteira esquerda",
+        "RDP01 | HILUX06 | Bolso maçaneta dianteira-1",
+        "RDP01 | HILUX06 | Maçaneta dianteira-1",
+        "HILUX18 | Dobradica movel dianteira esquerda 1",
+        "HILUX18 | Dobradica movel dianteira esquerda 2"
+      ]
+    },
+    {
+      "shell": "RDP01 | HILUX06 | Porta dianteira 1",
+      "pivot": "RDP01 | Pivô porta dianteira +1",
+      "door": "Porta dianteira direita",
+      "side": 1,
+      "opening_control": "abertura_graus",
+      "range_degrees": [
+        0,
+        70
+      ],
+      "hinge_position_candidate_m": [
+        0.8999999761581421,
+        -1.0,
+        0.9850000143051147
+      ],
+      "children": [
+        "RDP01 | HILUX06 | Porta dianteira 1",
+        "HILUX18 | Canal vidro dianteira direita",
+        "HILUX18 | Vedacao interna dianteira direita",
+        "RDP01 | HILUX06 | Bolso maçaneta dianteira1",
+        "RDP01 | HILUX06 | Maçaneta dianteira1",
+        "HILUX18 | Dobradica movel dianteira direita 1",
+        "HILUX18 | Dobradica movel dianteira direita 2"
+      ]
+    },
+    {
+      "shell": "RDP01 | HILUX06 | Porta traseira -1",
+      "pivot": "RDP01 | Pivô porta traseira -1",
+      "door": "Porta traseira esquerda",
+      "side": -1,
+      "opening_control": "abertura_graus",
+      "range_degrees": [
+        0,
+        70
+      ],
+      "hinge_position_candidate_m": [
+        -0.8700000047683716,
+        0.11999999731779099,
+        0.9850000143051147
+      ],
+      "children": [
+        "RDP01 | HILUX06 | Porta traseira -1",
+        "HILUX18 | Canal vidro traseira esquerda",
+        "HILUX18 | Vedacao interna traseira esquerda",
+        "HILUX18 | Divisoria janela esquerda",
+        "RDP01 | HILUX06 | Bolso maçaneta traseira-1",
+        "RDP01 | HILUX06 | Maçaneta traseira-1",
+        "HILUX18 | Dobradica movel traseira esquerda 1",
+        "HILUX18 | Dobradica movel traseira esquerda 2"
+      ]
+    },
+    {
+      "shell": "RDP01 | HILUX06 | Porta traseira 1",
+      "pivot": "RDP01 | Pivô porta traseira +1",
+      "door": "Porta traseira direita",
+      "side": 1,
+      "opening_control": "abertura_graus",
+      "range_degrees": [
+        0,
+        70
+      ],
+      "hinge_position_candidate_m": [
+        0.8700000047683716,
+        0.11999999731779099,
+        0.9850000143051147
+      ],
+      "children": [
+        "RDP01 | HILUX06 | Porta traseira 1",
+        "HILUX18 | Canal vidro traseira direita",
+        "HILUX18 | Vedacao interna traseira direita",
+        "HILUX18 | Divisoria janela direita",
+        "RDP01 | HILUX06 | Bolso maçaneta traseira1",
+        "RDP01 | HILUX06 | Maçaneta traseira1",
+        "HILUX18 | Dobradica movel traseira direita 1",
+        "HILUX18 | Dobradica movel traseira direita 2"
+      ]
+    }
+  ],
+  "migrated_objects": [
+    "RDP01 | HILUX06 | Porta dianteira -1",
+    "RDP01 | HILUX06 | Bolso maçaneta dianteira-1",
+    "RDP01 | HILUX06 | Maçaneta dianteira-1",
+    "RDP01 | HILUX06 | Porta dianteira 1",
+    "RDP01 | HILUX06 | Bolso maçaneta dianteira1",
+    "RDP01 | HILUX06 | Maçaneta dianteira1",
+    "RDP01 | HILUX06 | Porta traseira -1",
+    "RDP01 | HILUX06 | Bolso maçaneta traseira-1",
+    "RDP01 | HILUX06 | Maçaneta traseira-1",
+    "RDP01 | HILUX06 | Porta traseira 1",
+    "RDP01 | HILUX06 | Bolso maçaneta traseira1",
+    "RDP01 | HILUX06 | Maçaneta traseira1"
+  ],
+  "added_objects": [
+    "HILUX18 | Canal vidro dianteira esquerda",
+    "HILUX18 | Vedacao interna dianteira esquerda",
+    "HILUX18 | Dobradica fixa dianteira esquerda 1",
+    "HILUX18 | Dobradica movel dianteira esquerda 1",
+    "HILUX18 | Pino dobradica dianteira esquerda 1",
+    "HILUX18 | Dobradica fixa dianteira esquerda 2",
+    "HILUX18 | Dobradica movel dianteira esquerda 2",
+    "HILUX18 | Pino dobradica dianteira esquerda 2",
+    "HILUX18 | Canal vidro dianteira direita",
+    "HILUX18 | Vedacao interna dianteira direita",
+    "HILUX18 | Dobradica fixa dianteira direita 1",
+    "HILUX18 | Dobradica movel dianteira direita 1",
+    "HILUX18 | Pino dobradica dianteira direita 1",
+    "HILUX18 | Dobradica fixa dianteira direita 2",
+    "HILUX18 | Dobradica movel dianteira direita 2",
+    "HILUX18 | Pino dobradica dianteira direita 2",
+    "HILUX18 | Canal vidro traseira esquerda",
+    "HILUX18 | Vedacao interna traseira esquerda",
+    "HILUX18 | Divisoria janela esquerda",
+    "HILUX18 | Dobradica fixa traseira esquerda 1",
+    "HILUX18 | Dobradica movel traseira esquerda 1",
+    "HILUX18 | Pino dobradica traseira esquerda 1",
+    "HILUX18 | Dobradica fixa traseira esquerda 2",
+    "HILUX18 | Dobradica movel traseira esquerda 2",
+    "HILUX18 | Pino dobradica traseira esquerda 2",
+    "HILUX18 | Canal vidro traseira direita",
+    "HILUX18 | Vedacao interna traseira direita",
+    "HILUX18 | Divisoria janela direita",
+    "HILUX18 | Dobradica fixa traseira direita 1",
+    "HILUX18 | Dobradica movel traseira direita 1",
+    "HILUX18 | Pino dobradica traseira direita 1",
+    "HILUX18 | Dobradica fixa traseira direita 2",
+    "HILUX18 | Dobradica movel traseira direita 2",
+    "HILUX18 | Pino dobradica traseira direita 2"
+  ],
+  "source_reopened": true,
+  "visual_review": "reviewed_closed_and_open",
+  "runtime_exported": false,
+  "wheel_rig_applied": false,
+  "door_rig_applied": true,
+  "reference_ids": [
+    "hilux-2024-std-dealer-side",
+    "hilux-srx-user-side"
+  ],
+  "notes": [
+    "Contornos derivados dos vãos efetivos da V17, com folga candidata de 3,5 mm.",
+    "Uma folha integrada por porta: chapa externa, caixilho, dobra periférica e estampagem interna com abertura de serviço.",
+    "Geometria simétrica, sem escala negativa nos objetos; ferragens e maçanetas acompanham o conjunto correspondente.",
+    "Vidros, rodas, chassi, capota, inscrições e demais peças continuam ocultos.",
+    "Parâmetros autorais candidatos; não representam medidas de fábrica.",
+    "Sem npm, testes, build, exportação runtime ou commit.",
+    "Coluna B recuada sob as folhas. Portas cobrem a estrutura e se encontram externamente numa junta estreita; V17 permanece preservada."
+  ],
+  "sha256": "0facd4dd74797aec7f2051d8b445019fb9ea310ee762e71677390647b0e8e260",
+  "visual_views": [
+    "artifacts/vehicles/rondesp/v18-lateral-fechadas.png",
+    "artifacts/vehicles/rondesp/v18-encaixe-portas.png",
+    "artifacts/vehicles/rondesp/v18-frente-fechadas.png",
+    "artifacts/vehicles/rondesp/v18-portas-abertas.png",
+    "artifacts/vehicles/rondesp/v18-interior-portas.png"
+  ],
+  "body_change_scope": "Recuo localizado da coluna B e seus encontros, autorizado para permitir o fechamento real das folhas.",
+  "center_joint": {
+    "external_gap_candidate_m": 0.004,
+    "modified_body_vertices": 537,
+    "b_pillar_candidate_recess_lower_m": 0.078,
+    "b_pillar_candidate_recess_upper_m": 0.042,
+    "reference_id": "hilux-2024-std-dealer-side",
+    "status": "candidate"
+  },
+  "hinge_finish": "Eixos recuados sob a chapa fixa, com folhas moveis prolongadas ate a estrutura interna.",
+  "geometry_review": {
+    "body_unchanged": false,
+    "body_matches_authorized_change": true,
+    "protected_meshes_unchanged": true,
+    "changed_unrelated_meshes": [],
+    "mesh_reviews": {
+      "RDP01 | HILUX06 | Porta dianteira -1": {
+        "vertices": 4372,
+        "faces": 7534,
+        "multi_edges": 0,
+        "wire_edges": 0,
+        "tiny_faces": 0,
+        "inconsistent_winding": 0,
+        "boundary_edges": 90
+      },
+      "RDP01 | HILUX06 | Porta dianteira 1": {
+        "vertices": 4372,
+        "faces": 7534,
+        "multi_edges": 0,
+        "wire_edges": 0,
+        "tiny_faces": 0,
+        "inconsistent_winding": 0,
+        "boundary_edges": 90
+      },
+      "RDP01 | HILUX06 | Porta traseira -1": {
+        "vertices": 3847,
+        "faces": 6524,
+        "multi_edges": 0,
+        "wire_edges": 0,
+        "tiny_faces": 0,
+        "inconsistent_winding": 0,
+        "boundary_edges": 88
+      },
+      "RDP01 | HILUX06 | Porta traseira 1": {
+        "vertices": 3847,
+        "faces": 6524,
+        "multi_edges": 0,
+        "wire_edges": 0,
+        "tiny_faces": 0,
+        "inconsistent_winding": 0,
+        "boundary_edges": 88
+      }
+    },
+    "body_mesh_review": {
+      "vertices": 42610,
+      "faces": 46278,
+      "multi_edges": 0,
+      "wire_edges": 0,
+      "tiny_faces": 0,
+      "inconsistent_winding": 0,
+      "boundary_edges": 1544
+    },
+    "self_intersections": {
+      "RDP01 | HILUX06 | Porta dianteira -1": [],
+      "RDP01 | HILUX06 | Porta dianteira 1": [],
+      "RDP01 | HILUX06 | Porta traseira -1": [],
+      "RDP01 | HILUX06 | Porta traseira 1": []
+    },
+    "movement_samples": [
+      {
+        "pose": "todas_0",
+        "angle_degrees": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "doors": {
+          "RDP01 | HILUX06 | Porta dianteira -1": {
+            "rotation_z_degrees": 0.0,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta dianteira 1": {
+            "rotation_z_degrees": 0.0,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira -1": {
+            "rotation_z_degrees": 0.0,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira 1": {
+            "rotation_z_degrees": 0.0,
+            "body_intersections": []
+          }
+        },
+        "door_pair_intersections": []
+      },
+      {
+        "pose": "todas_2",
+        "angle_degrees": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "doors": {
+          "RDP01 | HILUX06 | Porta dianteira -1": {
+            "rotation_z_degrees": 1.9999999845072665,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta dianteira 1": {
+            "rotation_z_degrees": -1.9999999845072665,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira -1": {
+            "rotation_z_degrees": 1.9999999845072665,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira 1": {
+            "rotation_z_degrees": -1.9999999845072665,
+            "body_intersections": []
+          }
+        },
+        "door_pair_intersections": []
+      },
+      {
+        "pose": "todas_5",
+        "angle_degrees": [
+          5,
+          5,
+          5,
+          5
+        ],
+        "doors": {
+          "RDP01 | HILUX06 | Porta dianteira -1": {
+            "rotation_z_degrees": 4.99999985454646,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta dianteira 1": {
+            "rotation_z_degrees": -4.99999985454646,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira -1": {
+            "rotation_z_degrees": 4.99999985454646,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira 1": {
+            "rotation_z_degrees": -4.99999985454646,
+            "body_intersections": []
+          }
+        },
+        "door_pair_intersections": []
+      },
+      {
+        "pose": "todas_10",
+        "angle_degrees": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "doors": {
+          "RDP01 | HILUX06 | Porta dianteira -1": {
+            "rotation_z_degrees": 9.99999970909292,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta dianteira 1": {
+            "rotation_z_degrees": -9.99999970909292,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira -1": {
+            "rotation_z_degrees": 9.99999970909292,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira 1": {
+            "rotation_z_degrees": -9.99999970909292,
+            "body_intersections": []
+          }
+        },
+        "door_pair_intersections": []
+      },
+      {
+        "pose": "todas_20",
+        "angle_degrees": [
+          20,
+          20,
+          20,
+          20
+        ],
+        "doors": {
+          "RDP01 | HILUX06 | Porta dianteira -1": {
+            "rotation_z_degrees": 19.99999941818584,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta dianteira 1": {
+            "rotation_z_degrees": -19.99999941818584,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira -1": {
+            "rotation_z_degrees": 19.99999941818584,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira 1": {
+            "rotation_z_degrees": -19.99999941818584,
+            "body_intersections": []
+          }
+        },
+        "door_pair_intersections": []
+      },
+      {
+        "pose": "todas_35",
+        "angle_degrees": [
+          35,
+          35,
+          35,
+          35
+        ],
+        "doors": {
+          "RDP01 | HILUX06 | Porta dianteira -1": {
+            "rotation_z_degrees": 34.99999983559887,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta dianteira 1": {
+            "rotation_z_degrees": -34.99999983559887,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira -1": {
+            "rotation_z_degrees": 34.99999983559887,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira 1": {
+            "rotation_z_degrees": -34.99999983559887,
+            "body_intersections": []
+          }
+        },
+        "door_pair_intersections": []
+      },
+      {
+        "pose": "todas_50",
+        "angle_degrees": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "doors": {
+          "RDP01 | HILUX06 | Porta dianteira -1": {
+            "rotation_z_degrees": 50.0000002530119,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta dianteira 1": {
+            "rotation_z_degrees": -50.0000002530119,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira -1": {
+            "rotation_z_degrees": 50.0000002530119,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira 1": {
+            "rotation_z_degrees": -50.0000002530119,
+            "body_intersections": []
+          }
+        },
+        "door_pair_intersections": []
+      },
+      {
+        "pose": "todas_65",
+        "angle_degrees": [
+          65,
+          65,
+          65,
+          65
+        ],
+        "doors": {
+          "RDP01 | HILUX06 | Porta dianteira -1": {
+            "rotation_z_degrees": 65.00000067042492,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta dianteira 1": {
+            "rotation_z_degrees": -65.00000067042492,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira -1": {
+            "rotation_z_degrees": 65.00000067042492,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira 1": {
+            "rotation_z_degrees": -65.00000067042492,
+            "body_intersections": []
+          }
+        },
+        "door_pair_intersections": []
+      },
+      {
+        "pose": "todas_70",
+        "angle_degrees": [
+          70,
+          70,
+          70,
+          70
+        ],
+        "doors": {
+          "RDP01 | HILUX06 | Porta dianteira -1": {
+            "rotation_z_degrees": 69.99999967119774,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta dianteira 1": {
+            "rotation_z_degrees": -69.99999967119774,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira -1": {
+            "rotation_z_degrees": 69.99999967119774,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira 1": {
+            "rotation_z_degrees": -69.99999967119774,
+            "body_intersections": []
+          }
+        },
+        "door_pair_intersections": []
+      },
+      {
+        "pose": "dianteiras_abertas",
+        "angle_degrees": [
+          65,
+          65,
+          0,
+          0
+        ],
+        "doors": {
+          "RDP01 | HILUX06 | Porta dianteira -1": {
+            "rotation_z_degrees": 65.00000067042492,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta dianteira 1": {
+            "rotation_z_degrees": -65.00000067042492,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira -1": {
+            "rotation_z_degrees": 0.0,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira 1": {
+            "rotation_z_degrees": 0.0,
+            "body_intersections": []
+          }
+        },
+        "door_pair_intersections": []
+      },
+      {
+        "pose": "traseiras_inicio",
+        "angle_degrees": [
+          0,
+          0,
+          5,
+          5
+        ],
+        "doors": {
+          "RDP01 | HILUX06 | Porta dianteira -1": {
+            "rotation_z_degrees": 0.0,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta dianteira 1": {
+            "rotation_z_degrees": 0.0,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira -1": {
+            "rotation_z_degrees": 4.99999985454646,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira 1": {
+            "rotation_z_degrees": -4.99999985454646,
+            "body_intersections": []
+          }
+        },
+        "door_pair_intersections": []
+      },
+      {
+        "pose": "traseiras_abertas",
+        "angle_degrees": [
+          0,
+          0,
+          65,
+          65
+        ],
+        "doors": {
+          "RDP01 | HILUX06 | Porta dianteira -1": {
+            "rotation_z_degrees": 0.0,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta dianteira 1": {
+            "rotation_z_degrees": 0.0,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira -1": {
+            "rotation_z_degrees": 65.00000067042492,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira 1": {
+            "rotation_z_degrees": -65.00000067042492,
+            "body_intersections": []
+          }
+        },
+        "door_pair_intersections": []
+      },
+      {
+        "pose": "dianteiras_meia",
+        "angle_degrees": [
+          35,
+          35,
+          70,
+          70
+        ],
+        "doors": {
+          "RDP01 | HILUX06 | Porta dianteira -1": {
+            "rotation_z_degrees": 34.99999983559887,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta dianteira 1": {
+            "rotation_z_degrees": -34.99999983559887,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira -1": {
+            "rotation_z_degrees": 69.99999967119774,
+            "body_intersections": []
+          },
+          "RDP01 | HILUX06 | Porta traseira 1": {
+            "rotation_z_degrees": -69.99999967119774,
+            "body_intersections": []
+          }
+        },
+        "door_pair_intersections": []
+      }
+    ],
+    "scope": "Malhas de portas; penetracao estrita de triangulos contra carroceria avaliada com Mirror e espessura. Ferragens de contato intencional excluidas. Amostragem angular, sem certificacao de varredura continua.",
+    "door_body_intersection_count": 0,
+    "door_pair_intersection_count": 0,
+    "mirror_vertex_difference_m": {
+      "dianteira": 0.0,
+      "traseira": 0.0
+    }
+  },
+  "geometry_audit_file": "artifacts/vehicles/rondesp/v18-doors-audit.json",
+  "door_return_finish": {
+    "internal_edge_inset_candidate_m": 0.01,
+    "hem_candidate_m": 0.0015,
+    "front_window_contained_in_door": true,
+    "status": "candidate; conferir abertura"
+  },
+  "front_hinge_finish": "Eixo dianteiro ajustado em X para liberar a dobra no batente A, sem deslocar as portas fechadas.",
+  "live_session": {
+    "pid": 16304,
+    "transport": "BlendMCP 1.4.4 fallback",
+    "port": 9877,
+    "single_visible_window": true
+  },
+  "mesh_review_scope": "Folhas externas/internas e caixilhos; carroceria avaliada com Mirror e espessura para a amostragem angular.",
+  "remaining": [
+    "Parâmetros autorais candidatos, sem dimensões industriais confirmadas.",
+    "Vidros, acabamento de interior, rodas, chassi e equipamentos permanecem reservados para etapas seguintes.",
+    "Amostragem de 13 poses não certifica varredura contínua nem a montagem de todos os componentes reservados."
+  ],
+  "visible_meshes": [
+    "HILUX | CARROCERIA PRINCIPAL",
+    "HILUX18 | Dobradica fixa dianteira esquerda 1",
+    "HILUX18 | Dobradica fixa dianteira esquerda 2",
+    "HILUX18 | Dobradica fixa dianteira direita 1",
+    "HILUX18 | Dobradica fixa dianteira direita 2",
+    "HILUX18 | Dobradica fixa traseira esquerda 1",
+    "HILUX18 | Dobradica fixa traseira esquerda 2",
+    "HILUX18 | Dobradica fixa traseira direita 1",
+    "HILUX18 | Dobradica fixa traseira direita 2",
+    "RDP01 | HILUX06 | Bolso maçaneta dianteira-1",
+    "RDP01 | HILUX06 | Maçaneta dianteira-1",
+    "HILUX18 | Dobradica movel dianteira esquerda 1",
+    "HILUX18 | Dobradica movel dianteira esquerda 2",
+    "RDP01 | HILUX06 | Porta dianteira -1",
+    "RDP01 | HILUX06 | Bolso maçaneta dianteira1",
+    "RDP01 | HILUX06 | Maçaneta dianteira1",
+    "HILUX18 | Dobradica movel dianteira direita 1",
+    "HILUX18 | Dobradica movel dianteira direita 2",
+    "RDP01 | HILUX06 | Porta dianteira 1",
+    "RDP01 | HILUX06 | Bolso maçaneta traseira-1",
+    "RDP01 | HILUX06 | Maçaneta traseira-1",
+    "HILUX18 | Dobradica movel traseira esquerda 1",
+    "HILUX18 | Dobradica movel traseira esquerda 2",
+    "RDP01 | HILUX06 | Porta traseira -1",
+    "RDP01 | HILUX06 | Bolso maçaneta traseira1",
+    "RDP01 | HILUX06 | Maçaneta traseira1",
+    "HILUX18 | Dobradica movel traseira direita 1",
+    "HILUX18 | Dobradica movel traseira direita 2",
+    "RDP01 | HILUX06 | Porta traseira 1"
+  ],
+  "recovery_notes": "MCP principal perdeu o transporte e a janela anterior deixou de existir. Checkpoint V18 recuperado em uma única janela visível e alterações continuadas pelo fallback MCP. A rejeição de auditoria concorrente foi respeitada; nova conferência somente após recuperação e conclusão das mutações.",
+  "reopened_observation": {
+    "scene": "HILUX | carroceria e portas v18",
+    "pid": 16304,
+    "objects": 502,
+    "file_sha256": "0facd4dd74797aec7f2051d8b445019fb9ea310ee762e71677390647b0e8e260",
+    "door_controls": {
+      "RDP01 | Pivô porta dianteira -1": 0.0,
+      "RDP01 | Pivô porta dianteira +1": 0.0,
+      "RDP01 | Pivô porta traseira -1": 0.0,
+      "RDP01 | Pivô porta traseira +1": 0.0
+    },
+    "visible_meshes": [
+      "HILUX | CARROCERIA PRINCIPAL",
+      "HILUX18 | Dobradica fixa dianteira esquerda 1",
+      "HILUX18 | Dobradica fixa dianteira esquerda 2",
+      "HILUX18 | Dobradica fixa dianteira direita 1",
+      "HILUX18 | Dobradica fixa dianteira direita 2",
+      "HILUX18 | Dobradica fixa traseira esquerda 1",
+      "HILUX18 | Dobradica fixa traseira esquerda 2",
+      "HILUX18 | Dobradica fixa traseira direita 1",
+      "HILUX18 | Dobradica fixa traseira direita 2",
+      "RDP01 | HILUX06 | Bolso maçaneta dianteira-1",
+      "RDP01 | HILUX06 | Maçaneta dianteira-1",
+      "HILUX18 | Dobradica movel dianteira esquerda 1",
+      "HILUX18 | Dobradica movel dianteira esquerda 2",
+      "RDP01 | HILUX06 | Porta dianteira -1",
+      "RDP01 | HILUX06 | Bolso maçaneta dianteira1",
+      "RDP01 | HILUX06 | Maçaneta dianteira1",
+      "HILUX18 | Dobradica movel dianteira direita 1",
+      "HILUX18 | Dobradica movel dianteira direita 2",
+      "RDP01 | HILUX06 | Porta dianteira 1",
+      "RDP01 | HILUX06 | Bolso maçaneta traseira-1",
+      "RDP01 | HILUX06 | Maçaneta traseira-1",
+      "HILUX18 | Dobradica movel traseira esquerda 1",
+      "HILUX18 | Dobradica movel traseira esquerda 2",
+      "RDP01 | HILUX06 | Porta traseira -1",
+      "RDP01 | HILUX06 | Bolso maçaneta traseira1",
+      "RDP01 | HILUX06 | Maçaneta traseira1",
+      "HILUX18 | Dobradica movel traseira direita 1",
+      "HILUX18 | Dobradica movel traseira direita 2",
+      "RDP01 | HILUX06 | Porta traseira 1"
+    ]
+  }
+}

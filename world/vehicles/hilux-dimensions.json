@@ -1,0 +1,41 @@
+{
+  "asset_id": "vehicle-rondesp-pickup",
+  "source_url": "https://media.toyota.com.br/ac8fa1b8-e792-4e4a-81cf-3206c2cee7f4.pdf",
+  "source_name": "Toyota do Brasil, ficha técnica Hilux 2024 STD Power Pack",
+  "dimensions_m": {
+    "length": 5.325,
+    "body_width_without_mirrors": 1.855,
+    "stock_vehicle_height": 1.815,
+    "wheelbase": 3.085,
+    "cargo_internal_length": 1.569,
+    "cargo_internal_width": 1.645,
+    "cargo_internal_height": 0.481
+  },
+  "tires": {
+    "designation": "265/65 R17",
+    "width_m": 0.265,
+    "rim_diameter_m": 0.4318,
+    "nominal_unloaded_radius_m": 0.38815
+  },
+  "application_notes": "Medidas nominais do veículo base. Capota, antena, estribos e quebra-mato policiais não medidos; altura/contorno desses acessórios continuam candidatos. Modelo fotografado 2024/2025 conforme legenda do usuário; não confirmação da versão via VIN.",
+  "media_acquisition": [
+    {
+      "file": "vehicles/hilux/toyota-hilux-gx-side.jpg",
+      "url": "https://images.toyota-europe.com/es/configurationtype/visual-for-grade-selector/product-token/6fa1b3ca-c11e-45bd-a72c-40098d0f2d1d/grade/d77d74f2-c4c0-4a88-b284-9105a8fe659c/body/f880e881-f794-4aef-9e12-db540db6d76d/fallback/true/width/928/height/556/scale-mode/0/padding/0/background-colour/FFFFFF/image-quality/75/exterior-9.jpg",
+      "sha256": "29fcc90858148ac36f69f637e2dabdc580a8fdd76d23871e330dff59512733f1",
+      "usage_class": "REFERENCIA_INTERNA",
+      "license_status": "pending"
+    },
+    {
+      "url": "https://media.toyota.com.br/ac8fa1b8-e792-4e4a-81cf-3206c2cee7f4.pdf",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "vehicles/hilux/hilux-2024-std-lateral.jpg",
+      "url": "https://files.agenciaarara.com.br/files/company/vehicle/cm0dvki52007hspaf2480nfgf/STD%20POWER%20PACK/03.Jpg.ixv7pq86c2sihumjomyjk833.jpg",
+      "sha256": "5fbbe9d24fbc1337f42044be43193af7cb76b0fe1adc3f90335ab941a1b2f8a6",
+      "usage_class": "REFERENCIA_INTERNA",
+      "license_status": "pending"
+    }
+  ]
+}

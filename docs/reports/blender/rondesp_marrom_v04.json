@@ -1,0 +1,116 @@
+{
+  "file": "blender/assets/vehicles/rondesp-pickup/marrom_v04.blend",
+  "scene": "VIATURA | Rondesp Hilux marrom v04",
+  "sha256": "9c893afc2c5cae8e0248f2b96e9ee79a28ab96ed4bb440e77aa5c5cf407e8cea",
+  "asset_id": "vehicle-rondesp-pickup",
+  "status": "candidate",
+  "dimensions_nominal": {
+    "length": 5.325,
+    "body_width_without_mirrors": 1.855,
+    "stock_vehicle_height": 1.815,
+    "wheelbase": 3.085,
+    "cargo_internal_length": 1.569,
+    "cargo_internal_width": 1.645,
+    "cargo_internal_height": 0.481
+  },
+  "tires_nominal": {
+    "designation": "265/65 R17",
+    "width_m": 0.265,
+    "rim_diameter_m": 0.4318,
+    "nominal_unloaded_radius_m": 0.38815
+  },
+  "body_reference": "Toyota Hilux 2024 STD Power Pack; seções interpretadas, não escaneamento",
+  "accessories_status": "candidate; sem levantamento das dimensões policiais",
+  "body_endpoints_y_m": [
+    -2.43,
+    2.895
+  ],
+  "wheelbase_measured_m": 3.085,
+  "objects": 347,
+  "corrections": [
+    "carroceria reconstruída por superfícies curvas",
+    "frente com encaixes de faróis coincidentes",
+    "grade STD e para-choque separados",
+    "teto e janelas corrigidos pela vista lateral de fábrica",
+    "caçamba e capota arredondadas",
+    "rodas nas medidas nominais"
+  ],
+  "pending": [
+    "brasão PMBA detalhado",
+    "dimensões dos acessórios policiais",
+    "mapa exato camuflagem",
+    "animação das portas"
+  ],
+  "visual_review": "Quatro vistas Workbench comparadas; aprovação final não concedida",
+  "geometry_finish": [
+    "junções frontais",
+    "máscara STD e grelhas",
+    "perfil topo capota",
+    "abertura vidro traseiro",
+    "rodas métricas reconstruídas",
+    "inscrições conformadas às chapas"
+  ],
+  "material_render": "artifacts/vehicles/rondesp/v04-frente-materiais.png",
+  "body_polish": [
+    "afunilamento e curvatura base para-choque",
+    "lanternas volumétricas com retorno lateral",
+    "prefixos assentados abaixo da junta"
+  ],
+  "actual_mesh_measurements": {
+    "roof": {
+      "min_xyz_m": [
+        -0.7755496501922607,
+        -0.41999998688697815,
+        1.6527996063232422
+      ],
+      "max_xyz_m": [
+        0.7755496501922607,
+        1.100000023841858,
+        1.8160144090652466
+      ],
+      "size_xyz_m": [
+        1.5510993003845215,
+        1.520000010728836,
+        0.1632148027420044
+      ]
+    },
+    "body_panels": {
+      "min_xyz_m": [
+        -0.9395321607589722,
+        -2.4030001163482666,
+        0.49273988604545593
+      ],
+      "max_xyz_m": [
+        0.9395321607589722,
+        2.7750000953674316,
+        1.8160144090652466
+      ],
+      "size_xyz_m": [
+        1.8790643215179443,
+        5.178000211715698,
+        1.3232745230197906
+      ]
+    },
+    "axle_centers": [
+      [
+        0.7950000166893005,
+        -1.4299999475479126,
+        0.38815000653266907
+      ],
+      [
+        0.7950000166893005,
+        1.6549999713897705,
+        0.38815000653266907
+      ]
+    ],
+    "wheelbase_m": 3.084999918937683,
+    "notes": "Chapas medidas diretamente na cena avaliada. Medidas nominais do fabricante separadas; acessórios policiais não incluídos na largura/altura stock. Não é escaneamento da viatura."
+  },
+  "saved": true,
+  "final_details": [
+    "batentes fixos e soleiras internas",
+    "tampa lateral conformada à curvatura",
+    "camuflagem diagonal candidata"
+  ],
+  "material_preview_note": "Imagem de materiais anterior ao ajuste dos reflexos, camuflagem e batentes; não evidência da fonte final exata."
+}

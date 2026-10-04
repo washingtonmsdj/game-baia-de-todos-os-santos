@@ -174,3 +174,15 @@ Toda alteração de cena deve ocorrer em **uma única janela visível do Blender
 - não usar Blender background para mutações da cena;
 - manter OrdaX/Blender Live e BlendMCP no mesmo processo quando possível;
 - processos headless ficam restritos a validações read-only, testes e CI.
+
+## Revisão da iluminação Rondesp V22
+
+Usar a fonte explícita `vehicle-rondesp-pickup` no catálogo, mantendo a única janela visível e o MCP dessa instância. Selecionar `RDP01_ROOT | viatura` → Propriedades do Objeto → Propriedades Personalizadas. Os controles `giroflex_ligado`, `farois_ligados`, `lanternas_ligadas` aceitam 0/1; `freio=1` acende o freio e a terceira luz. `giroflex_velocidade` altera o ritmo visual. Reproduzir a timeline com Espaço para ver as piscadas. Z → M mostra emissão; Z → R permite avaliar feixes e reflexos com luzes/mundo da cena. São drivers nativos da autoria Blender; integração com a engine requer implementação posterior. Relatório: `docs/reports/blender/rondesp_marrom_v22.json`.
+
+## Demonstração Rondesp V23
+
+A fonte atual do catálogo inclui demonstração 1–240: Espaço inicia/pausa portas e giroflex. Frame 1 ou 190: portas fechadas; frame 90: quatro abertas. A fonte abre em Prévia de material; usar Z → R para luzes e reflexos completos. `demonstracao_ativa=0` no root devolve o freio e a abertura das portas aos controles manuais; `abertura_graus` nos quatro pivôs. Não apagar a ação da demonstração para editar a carroceria. Geometria protegida intacta; iluminação/ação ainda pertencem à autoria Blender.
+
+## Faróis Rondesp V24 e runtime
+
+`intensidade_farois` no root é multiplicador de potência/emissão; 1 corresponde ao reforço V24 e 0 apaga. `farois_ligados` mantém o comando 0/1. Os valores Blender não são consumo elétrico do carro. Preview, compositor e drivers são autoria. O código de gameplay precisará dirigir faróis, giroflex, freio e portas com estados/entradas reais. Reutilizar geometria/pivôs/material compatível e posições das luzes; amostrar animações quando necessário. Não considerar a demo integrada na engine nem promover a produção sem exportação/importação e revisão explícitas.

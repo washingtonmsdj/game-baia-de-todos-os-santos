@@ -1,0 +1,130 @@
+{
+  "asset_id": "vehicle-rondesp-pickup",
+  "file": "blender/assets/vehicles/rondesp-pickup/hilux_carroceria_v13.blend",
+  "scene": "HILUX | carroceria isolada v13",
+  "parent": "blender/assets/vehicles/rondesp-pickup/hilux_carroceria_v12.blend",
+  "sha256": "6eb612ea2d90fa70ba3e514e5c71ac5d3be2e2527522c41f66bb6a15cef101b0",
+  "status": "candidate",
+  "authoring_mode": "body_only",
+  "body_mesh": "HILUX | CARROCERIA PRINCIPAL",
+  "replaced_components": [
+    "Parede posterior cabine",
+    "Retour colonne C",
+    "Coluna C fixa",
+    "Parede frontal caçamba",
+    "Piso caçamba aberto",
+    "Parede interna caçamba",
+    "Caixa roda caçamba",
+    "Face interna caixa",
+    "Borda superior caçamba",
+    "Revestimento tampa caçamba",
+    "Caixa interna roda (1, 1.655)",
+    "Retorno para-choque 1",
+    "Retorno farol 1"
+  ],
+  "new_components": [
+    "HILUX13 | Coluna C e canto posterior",
+    "HILUX13 | Painel posterior com vão do vidro",
+    "HILUX13 | Flange do vidro posterior",
+    "HILUX13 | Piso caçamba e estampagem longitudinal",
+    "HILUX13 | Parede interna caçamba",
+    "HILUX13 | Borda enrolada caçamba",
+    "HILUX13 | Caixa roda interna integrada",
+    "HILUX13 | Face interna caixa roda",
+    "HILUX13 | Cabeceira caçamba estampada",
+    "HILUX13 | Retorno superior cabeceira",
+    "HILUX13 | Face interna tampa caçamba",
+    "HILUX13 | Retorno superior tampa caçamba",
+    "HILUX13 | Retorno dianteiro sem chapas duplicadas"
+  ],
+  "removed_faces": 5965,
+  "base_vertices": 32209,
+  "base_faces": 31734,
+  "visible_meshes": [
+    "HILUX | CARROCERIA PRINCIPAL"
+  ],
+  "source_reopened": true,
+  "visual_review": {
+    "status": "reviewed",
+    "method": "Vistas Workbench de frente, traseira e encontro cabine/caçamba na única sessão visível.",
+    "images": [
+      "artifacts/vehicles/rondesp/v13-carroceria-frente.png",
+      "artifacts/vehicles/rondesp/v13-carroceria-cacamba.png",
+      "artifacts/vehicles/rondesp/v13-carroceria-encontro-cabine.png"
+    ],
+    "findings": [
+      "Painel traseiro reconstruído com vão de vidro arredondado; tiras antigas removidas das colunas.",
+      "Cabeceira, paredes internas, piso e bordas da caçamba reconstruídos; eliminadas caixas de roda duplicadas.",
+      "Retorno frontal substituído e encontro da coluna A com teto ajustado; pontas da espessura corrigidas."
+    ],
+    "remaining": "Fidelidade fina do contorno externo e encaixe futuro das peças reservadas continuam candidatos; sem aprovação final ou integração runtime."
+  },
+  "runtime_exported": false,
+  "rig_applied": false,
+  "reference_ids": [
+    "hilux-srx-user-rear",
+    "hilux-2024-std-dealer-side"
+  ],
+  "notes": [
+    "Contornos, raios e espessura são parâmetros autorais candidatos, não medidas confirmadas de fábrica.",
+    "Cabine e caçamba mantêm a separação física, dentro da mesma malha de autoria.",
+    "Peças reservadas continuam ocultas; nenhuma exportação, npm, testes ou build."
+  ],
+  "scene_observation": {
+    "file": "blender/assets/vehicles/rondesp-pickup/hilux_carroceria_v13.blend",
+    "visible_meshes": [
+      "HILUX | CARROCERIA PRINCIPAL"
+    ],
+    "body_base_vertices": 32209,
+    "body_base_faces": 31734,
+    "modifiers": [
+      [
+        "ESPELHO X • editar metade +X",
+        "MIRROR"
+      ],
+      [
+        "Espessura visual da chapa • candidata",
+        "SOLIDIFY"
+      ]
+    ]
+  },
+  "finish": {
+    "removed_components": [
+      "Calha fixa 1",
+      "Coluna B 1",
+      "Caixa interna roda (1, -1.43)",
+      "Retorno caixa roda (-1.43, 1)",
+      "Retorno caixa roda (1.655, 1)"
+    ],
+    "removed_faces": 1753,
+    "new_components": [
+      "HILUX13 | Retorno continuo da borda do teto",
+      "HILUX13 | Encontro teto painel posterior",
+      "HILUX13 | Coluna B com cantos arredondados",
+      "HILUX13 | Retorno batente B -1",
+      "HILUX13 | Retorno batente B 1",
+      "HILUX13 | Retorno recorte Para-lama dianteiro 1",
+      "HILUX13 | Retorno recorte Lateral caçamba 1"
+    ],
+    "sheet_thickness_candidate_m": 0.0025,
+    "constant_thickness": true
+  },
+  "shared_edge_cleanup": {
+    "removed_faces": 99,
+    "components": {
+      "HILUX06 | Retorno caixa roda (1.655, 1)": 2,
+      "HILUX12 | Coluna C fixa 1": 13,
+      "HILUX12 | Calha fixa 1": 23,
+      "HILUX12 | Parede interna caçamba 1": 2,
+      "HILUX12 | Caixa roda caçamba 1": 2,
+      "HILUX12 | Face interna caixa 1": 53,
+      "HILUX12 | Parede frontal caçamba": 2,
+      "HILUX12 | Revestimento tampa caçamba": 2
+    },
+    "panel_face_attribute": "boas_panel_id"
+  },
+  "roof_tip_alignment": {
+    "vertices": 44,
+    "scope": "Transição local da coluna A para a borda do teto; parâmetros candidatos."
+  }
+}

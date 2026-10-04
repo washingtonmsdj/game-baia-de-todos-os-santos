@@ -1,0 +1,440 @@
+{
+  "asset_id": "vehicle-rondesp-pickup",
+  "status": "candidate",
+  "parent": "blender/assets/vehicles/rondesp-pickup/marrom_v22_luzes.blend",
+  "parent_sha256": "13ec4cfb77c2597de25b487fd61deb17c04ecfc8cbf326c1a1cde4301bf527ea",
+  "protected_mesh_hashes": {
+    "HILUX | CARROCERIA PRINCIPAL": "dc14cd6a4431adf1de0577c5c9c022d956b85ebfd1e7ba9d9759d9cf74e630c7",
+    "RDP01 | HILUX06 | Porta dianteira -1": "3fd0b965b846fd6fffd0255cc32db36bb2705500a1ae79907fac6d7466aedb76",
+    "RDP01 | HILUX06 | Porta dianteira 1": "b8a9212a9c4169b4684b24a44b00dfb5674b94d548e403b0f62205c5c465ce4e",
+    "RDP01 | HILUX06 | Porta traseira -1": "9991ece14467677ec44915a0eda482c598f57ac0d31258c950792cc452e156be",
+    "RDP01 | HILUX06 | Porta traseira 1": "b292a61a84c045c2b8dcab39a6b74ccb7d89f17a19e0fedab6f374e40b1d682a"
+  },
+  "geometry_unchanged": true,
+  "source_reopened": true,
+  "runtime_exported": false,
+  "timeline": [
+    1,
+    240
+  ],
+  "fps": 24,
+  "diagnosis": {
+    "doors_had_no_timeline_animation": true,
+    "material_preview_without_compositor": true,
+    "studio_lights_before": [
+      {
+        "name": "HILUX06 | Luz principal",
+        "energy": 1500.0,
+        "visible": true
+      },
+      {
+        "name": "HILUX06 | Luz lateral",
+        "energy": 1150.0,
+        "visible": true
+      },
+      {
+        "name": "HILUX06 | Luz contorno",
+        "energy": 1700.0,
+        "visible": true
+      }
+    ],
+    "autoexec_fail": false
+  },
+  "preview_changes": {
+    "world_strength_before": 0.44999998807907104,
+    "glow_compositor": true
+  },
+  "checks": [
+    {
+      "frame": 1,
+      "doors": [
+        {
+          "pivot": "RDP01 | Pivô porta dianteira -1",
+          "angle_deg": 0.0,
+          "driver_valid": true
+        },
+        {
+          "pivot": "RDP01 | Pivô porta dianteira +1",
+          "angle_deg": 0.0,
+          "driver_valid": true
+        },
+        {
+          "pivot": "RDP01 | Pivô porta traseira -1",
+          "angle_deg": 0.0,
+          "driver_valid": true
+        },
+        {
+          "pivot": "RDP01 | Pivô porta traseira +1",
+          "angle_deg": 0.0,
+          "driver_valid": true
+        }
+      ],
+      "blue": 12.015000343322754,
+      "red": 0.014999999664723873,
+      "third_brake": 0.0
+    },
+    {
+      "frame": 19,
+      "doors": [
+        {
+          "pivot": "RDP01 | Pivô porta dianteira -1",
+          "angle_deg": 0.0,
+          "driver_valid": true
+        },
+        {
+          "pivot": "RDP01 | Pivô porta dianteira +1",
+          "angle_deg": 0.0,
+          "driver_valid": true
+        },
+        {
+          "pivot": "RDP01 | Pivô porta traseira -1",
+          "angle_deg": 0.0,
+          "driver_valid": true
+        },
+        {
+          "pivot": "RDP01 | Pivô porta traseira +1",
+          "angle_deg": 0.0,
+          "driver_valid": true
+        }
+      ],
+      "blue": 0.014999999664723873,
+      "red": 12.015000343322754,
+      "third_brake": 0.0
+    },
+    {
+      "frame": 60,
+      "doors": [
+        {
+          "pivot": "RDP01 | Pivô porta dianteira -1",
+          "angle_deg": 62.77092745365624,
+          "driver_valid": true
+        },
+        {
+          "pivot": "RDP01 | Pivô porta dianteira +1",
+          "angle_deg": -62.77092745365624,
+          "driver_valid": true
+        },
+        {
+          "pivot": "RDP01 | Pivô porta traseira -1",
+          "angle_deg": 51.86019202818112,
+          "driver_valid": true
+        },
+        {
+          "pivot": "RDP01 | Pivô porta traseira +1",
+          "angle_deg": -51.86019202818112,
+          "driver_valid": true
+        }
+      ],
+      "blue": 0.014999999664723873,
+      "red": 12.015000343322754,
+      "third_brake": 2.4000000953674316
+    },
+    {
+      "frame": 90,
+      "doors": [
+        {
+          "pivot": "RDP01 | Pivô porta dianteira -1",
+          "angle_deg": 65.00000067042492,
+          "driver_valid": true
+        },
+        {
+          "pivot": "RDP01 | Pivô porta dianteira +1",
+          "angle_deg": -65.00000067042492,
+          "driver_valid": true
+        },
+        {
+          "pivot": "RDP01 | Pivô porta traseira -1",
+          "angle_deg": 65.00000067042492,
+          "driver_valid": true
+        },
+        {
+          "pivot": "RDP01 | Pivô porta traseira +1",
+          "angle_deg": -65.00000067042492,
+          "driver_valid": true
+        }
+      ],
+      "blue": 12.015000343322754,
+      "red": 0.014999999664723873,
+      "third_brake": 0.0
+    },
+    {
+      "frame": 156,
+      "doors": [
+        {
+          "pivot": "RDP01 | Pivô porta dianteira -1",
+          "angle_deg": 1.449432416055996,
+          "driver_valid": true
+        },
+        {
+          "pivot": "RDP01 | Pivô porta dianteira +1",
+          "angle_deg": -1.449432416055996,
+          "driver_valid": true
+        },
+        {
+          "pivot": "RDP01 | Pivô porta traseira -1",
+          "angle_deg": 11.401481956019607,
+          "driver_valid": true
+        },
+        {
+          "pivot": "RDP01 | Pivô porta traseira +1",
+          "angle_deg": -11.401481956019607,
+          "driver_valid": true
+        }
+      ],
+      "blue": 12.015000343322754,
+      "red": 0.014999999664723873,
+      "third_brake": 2.4000000953674316
+    },
+    {
+      "frame": 190,
+      "doors": [
+        {
+          "pivot": "RDP01 | Pivô porta dianteira -1",
+          "angle_deg": 0.0,
+          "driver_valid": true
+        },
+        {
+          "pivot": "RDP01 | Pivô porta dianteira +1",
+          "angle_deg": 0.0,
+          "driver_valid": true
+        },
+        {
+          "pivot": "RDP01 | Pivô porta traseira -1",
+          "angle_deg": 0.0,
+          "driver_valid": true
+        },
+        {
+          "pivot": "RDP01 | Pivô porta traseira +1",
+          "angle_deg": 0.0,
+          "driver_valid": true
+        }
+      ],
+      "blue": 12.015000343322754,
+      "red": 0.014999999664723873,
+      "third_brake": 0.0
+    },
+    {
+      "frame": 240,
+      "doors": [
+        {
+          "pivot": "RDP01 | Pivô porta dianteira -1",
+          "angle_deg": 0.0,
+          "driver_valid": true
+        },
+        {
+          "pivot": "RDP01 | Pivô porta dianteira +1",
+          "angle_deg": 0.0,
+          "driver_valid": true
+        },
+        {
+          "pivot": "RDP01 | Pivô porta traseira -1",
+          "angle_deg": 0.0,
+          "driver_valid": true
+        },
+        {
+          "pivot": "RDP01 | Pivô porta traseira +1",
+          "angle_deg": 0.0,
+          "driver_valid": true
+        }
+      ],
+      "blue": 0.014999999664723873,
+      "red": 12.015000343322754,
+      "third_brake": 0.0
+    }
+  ],
+  "file": "blender/assets/vehicles/rondesp-pickup/marrom_v23_demonstracao.blend",
+  "scene": "VIATURA | Rondesp Hilux demonstracao v23",
+  "sha256": "d81c32eaa60ec275bd85372cfe225499e17ad955db90c0f3e71f46ab15e262f1",
+  "objects": 515,
+  "live_session": {
+    "pid": 19576,
+    "port": 9876
+  },
+  "visual_review": "Viewport real inspecionada: duas cores e reflexos visíveis; quatro folhas abertas, com vidros/espelhos/inscrições acompanhando os pivôs. Prévia granular durante acumulação EEVEE.",
+  "protected_meshes_verified_after_reopen": true,
+  "source_sha256_after_reopen": "d81c32eaa60ec275bd85372cfe225499e17ad955db90c0f3e71f46ab15e262f1",
+  "rendered_viewport": true,
+  "viewport_compositor": "ALWAYS",
+  "viewport_capture": "artifacts/vehicles/rondesp/v23-portas-abertas-viewport.png",
+  "rendered_reset_on_reopen_observed": true,
+  "saved_reopen_shading": "MATERIAL",
+  "viewport_captures": {
+    "azul-portas-fechadas": "artifacts/vehicles/rondesp/v23-azul-portas-fechadas-viewport.png",
+    "vermelho-portas-fechadas": "artifacts/vehicles/rondesp/v23-vermelho-portas-fechadas-viewport.png",
+    "portas-abertas": "artifacts/vehicles/rondesp/v23-portas-abertas-viewport.png"
+  },
+  "live_animation_playing": true,
+  "playback_sync": "FRAME_DROP",
+  "playback_observations": [
+    {
+      "elapsed_s": 3.29,
+      "frame": 53,
+      "playing": true,
+      "door_angles_deg": [
+        53.6,
+        -53.6,
+        37.89,
+        -37.89
+      ],
+      "blue": 12.015000343322754,
+      "red": 0.014999999664723873,
+      "shading": "RENDERED"
+    },
+    {
+      "elapsed_s": 3.94,
+      "frame": 100,
+      "playing": true,
+      "door_angles_deg": [
+        65.0,
+        -65.0,
+        65.0,
+        -65.0
+      ],
+      "blue": 0.014999999664723873,
+      "red": 12.015000343322754,
+      "shading": "RENDERED"
+    },
+    {
+      "elapsed_s": 5.01,
+      "frame": 125,
+      "playing": true,
+      "door_angles_deg": [
+        56.8,
+        -56.8,
+        64.63,
+        -64.63
+      ],
+      "blue": 12.015000343322754,
+      "red": 0.014999999664723873,
+      "shading": "RENDERED"
+    },
+    {
+      "elapsed_s": 6.06,
+      "frame": 151,
+      "playing": true,
+      "door_angles_deg": [
+        6.76,
+        -6.76,
+        20.82,
+        -20.82
+      ],
+      "blue": 12.015000343322754,
+      "red": 0.014999999664723873,
+      "shading": "RENDERED"
+    },
+    {
+      "elapsed_s": 7.63,
+      "frame": 188,
+      "playing": true,
+      "door_angles_deg": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "blue": 12.015000343322754,
+      "red": 0.014999999664723873,
+      "shading": "RENDERED"
+    },
+    {
+      "elapsed_s": 8.86,
+      "frame": 218,
+      "playing": true,
+      "door_angles_deg": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "blue": 12.015000343322754,
+      "red": 0.014999999664723873,
+      "shading": "RENDERED"
+    },
+    {
+      "elapsed_s": 9.95,
+      "frame": 1,
+      "playing": true,
+      "door_angles_deg": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "blue": 12.015000343322754,
+      "red": 0.014999999664723873,
+      "shading": "RENDERED"
+    },
+    {
+      "elapsed_s": 11.05,
+      "frame": 27,
+      "playing": true,
+      "door_angles_deg": [
+        4.23,
+        -4.23,
+        0.0,
+        0.0
+      ],
+      "blue": 0.014999999664723873,
+      "red": 12.015000343322754,
+      "shading": "RENDERED"
+    },
+    {
+      "elapsed_s": 12.14,
+      "frame": 53,
+      "playing": true,
+      "door_angles_deg": [
+        53.6,
+        -53.6,
+        37.89,
+        -37.89
+      ],
+      "blue": 12.015000343322754,
+      "red": 0.014999999664723873,
+      "shading": "RENDERED"
+    },
+    {
+      "elapsed_s": 13.86,
+      "frame": 95,
+      "playing": true,
+      "door_angles_deg": [
+        65.0,
+        -65.0,
+        65.0,
+        -65.0
+      ],
+      "blue": 0.014999999664723873,
+      "red": 12.015000343322754,
+      "shading": "RENDERED"
+    },
+    {
+      "elapsed_s": 15.13,
+      "frame": 125,
+      "playing": true,
+      "door_angles_deg": [
+        56.8,
+        -56.8,
+        64.63,
+        -64.63
+      ],
+      "blue": 12.015000343322754,
+      "red": 0.014999999664723873,
+      "shading": "RENDERED"
+    },
+    {
+      "elapsed_s": 16.69,
+      "frame": 162,
+      "playing": true,
+      "door_angles_deg": [
+        0.0,
+        0.0,
+        3.16,
+        -3.16
+      ],
+      "blue": 12.015000343322754,
+      "red": 0.014999999664723873,
+      "shading": "RENDERED"
+    }
+  ],
+  "actual_playback_motion_observed": true,
+  "actual_playback_blue_and_red_observed": true
+}

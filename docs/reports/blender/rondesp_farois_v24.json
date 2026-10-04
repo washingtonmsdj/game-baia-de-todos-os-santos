@@ -1,0 +1,89 @@
+{
+  "asset_id": "vehicle-rondesp-pickup",
+  "status": "candidate",
+  "parent": "blender/assets/vehicles/rondesp-pickup/marrom_v23_demonstracao.blend",
+  "parent_sha256": "d81c32eaa60ec275bd85372cfe225499e17ad955db90c0f3e71f46ab15e262f1",
+  "file": "blender/assets/vehicles/rondesp-pickup/marrom_v24_farois.blend",
+  "scene": "VIATURA | Rondesp Hilux farois v24",
+  "sha256": "362783bb439f3f26d337c477bccdc955790b448fc5e25cb72f2db6be043945db",
+  "protected_mesh_hashes": {
+    "HILUX | CARROCERIA PRINCIPAL": "dc14cd6a4431adf1de0577c5c9c022d956b85ebfd1e7ba9d9759d9cf74e630c7",
+    "RDP01 | HILUX06 | Porta dianteira -1": "3fd0b965b846fd6fffd0255cc32db36bb2705500a1ae79907fac6d7466aedb76",
+    "RDP01 | HILUX06 | Porta dianteira 1": "b8a9212a9c4169b4684b24a44b00dfb5674b94d548e403b0f62205c5c465ce4e",
+    "RDP01 | HILUX06 | Porta traseira -1": "9991ece14467677ec44915a0eda482c598f57ac0d31258c950792cc452e156be",
+    "RDP01 | HILUX06 | Porta traseira 1": "b292a61a84c045c2b8dcab39a6b74ccb7d89f17a19e0fedab6f374e40b1d682a"
+  },
+  "geometry_unchanged": true,
+  "door_demo_preserved": true,
+  "headlight_changes": [
+    {
+      "object": "HILUX22 | Feixe farol -1",
+      "expression_before": "120*aceso",
+      "power_before": 120.0,
+      "power_at_full_control": 2400.0,
+      "ratio_to_v23": 20.0,
+      "unit_scope": "Blender scene-light power; not electrical wattage or certified photometry"
+    },
+    {
+      "object": "HILUX22 | Feixe farol 1",
+      "expression_before": "120*aceso",
+      "power_before": 120.0,
+      "power_at_full_control": 2400.0,
+      "ratio_to_v23": 20.0,
+      "unit_scope": "Blender scene-light power; not electrical wattage or certified photometry"
+    }
+  ],
+  "on_off_checks": [
+    {
+      "on": 0.0,
+      "powers": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "on": 1.0,
+      "powers": [
+        2400.0,
+        2400.0
+      ]
+    }
+  ],
+  "source_reopened": true,
+  "runtime_exported": false,
+  "visual_review": "Capturas reais antes/depois inspecionadas: feixes agora iluminam claramente o piso à frente; chapas e animação de portas preservadas. Parâmetro de potência autoral, sem certificação fotométrica.",
+  "preview_paths": {
+    "before": "artifacts/vehicles/rondesp/v24-farois-antes-viewport.png",
+    "after": "artifacts/vehicles/rondesp/v24-farois-reforcados-viewport.png"
+  },
+  "live_session": {
+    "pid": 19576,
+    "port": 9876
+  },
+  "engine_boundary": {
+    "presentation_cycle_only": true,
+    "reuse_candidates": [
+      "geometry",
+      "door_pivots",
+      "compatible_materials",
+      "sampled_door_transforms",
+      "light_positions_and_colors"
+    ],
+    "requires_engine_implementation": [
+      "vehicle_input_and_states",
+      "blink_control",
+      "brake_control",
+      "light_intensity_and_shadows",
+      "bloom_postprocess"
+    ],
+    "export_or_import_not_verified": true
+  },
+  "source_sha256_after_reopen": "362783bb439f3f26d337c477bccdc955790b448fc5e25cb72f2db6be043945db",
+  "protected_meshes_verified_after_reopen": true,
+  "headlight_power_after_reopen": [
+    2400.0,
+    2400.0
+  ],
+  "live_rendered": true,
+  "live_demo_playing": true
+}

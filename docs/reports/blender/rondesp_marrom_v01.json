@@ -1,0 +1,45 @@
+{
+  "asset_id": "vehicle-rondesp-pickup",
+  "status": "candidate",
+  "file": "blender/assets/vehicles/rondesp-pickup/marrom_v01.blend",
+  "scene": "VIATURA | Rondesp picape marrom v01",
+  "sha256": "7a0f716de12ae63e2948897bfbfb7bd54007dae4db4f9bafa6c6fbe673015a9c",
+  "reference_id": "rondesp-pickup-user-front-left",
+  "dimensions_status": "candidate_not_measured",
+  "parameters_m": {
+    "body_length": 5.335,
+    "body_width": 1.854,
+    "wheelbase": 3.085,
+    "tire_radius": 0.405
+  },
+  "vehicle_objects": 1000,
+  "collections": [
+    "CARROCERIA",
+    "PORTAS",
+    "CAPOTA",
+    "VIDROS",
+    "RODAS",
+    "CHASSIS",
+    "LUZES",
+    "ACABAMENTOS",
+    "INSCRICOES",
+    "APRESENTACAO"
+  ],
+  "door_pivots": 4,
+  "wheel_pivots": 4,
+  "window_apertures": "cabine sem sólido obstruindo os vidros",
+  "glass": "Principled transmission 0.83",
+  "pending": [
+    "brasão PMBA detalhado",
+    "confirmação de dimensões",
+    "mapa exato da camuflagem",
+    "mecanismos portas ainda sem teste"
+  ],
+  "preserved": "ônibus azul aberto anteriormente; fontes existentes não sobrescritas",
+  "runtime_integration": false,
+  "visual_review": "pending",
+  "reopened": "pending",
+  "prefix": "3.1110",
+  "model_reference": "Toyota Hilux CD 2.8 2024/2025; legenda da foto enviada, não verificação VIN",
+  "references": "rondesp-pickup-user-front-left; rondesp-31110-front; rondesp-31110-rear"
+}
