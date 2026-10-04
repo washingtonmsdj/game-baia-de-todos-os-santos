@@ -1,0 +1,86 @@
+{
+  "schema": "boas/misericordia-proxy-r30b45-v1",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b44_proxy_misericordia.blend",
+    "revision": "R30B.44",
+    "sha256": "e07323b0306f30cc7946dcfb61d47e9a2c349c6fc43448f8fc98239481b81f32"
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b45_proxy_misericordia_final.blend",
+    "revision": "R30B.45",
+    "sha256": "3911fd4402591a0484da3adee15b64ba6af01b50133f49215fd67ff17f58ab0e"
+  },
+  "classification": "ERROR",
+  "target_xy": [
+    99.1128,
+    46.3627
+  ],
+  "target_ground_z": 65.9531,
+  "before_error_m": 0.20136260986328125,
+  "after_error_m": 0.0,
+  "mode": "poke",
+  "vertices_before": 73597,
+  "vertices_after": 73598,
+  "faces_before": 139468,
+  "faces_after": 139470,
+  "ground_changed": false,
+  "road_helpers_changed": false,
+  "visual_geometry_changed": false,
+  "road_widths_changed": false,
+  "runtime_exported": false,
+  "approved": false,
+  "pending": [
+    "Crossfall excessivo no início de way-803899198-seg-1 requer evidência geométrica/levantamento antes de alterar a superfície",
+    "Largura real continua não verificada",
+    "Runtime permanece inalterado"
+  ],
+  "validation": {
+    "graph_edges": 743,
+    "wheel_samples": 73532,
+    "issue_counts_before_b41": {
+      "wheel_outside_pavement": 1136,
+      "center_outside_pavement": 318,
+      "crossfall_review": 463,
+      "collision_support_missing": 3,
+      "collision_visual_difference": 53,
+      "scene_binding_missing": 28,
+      "unresolved_endpoint_binding": 89,
+      "four_wheel_twist": 27,
+      "grade_review": 31,
+      "wheel_support_missing": 8,
+      "center_support_missing": 66,
+      "vertical_discontinuity": 1
+    },
+    "issue_counts_after_b45": {
+      "wheel_outside_pavement": 1136,
+      "center_outside_pavement": 318,
+      "crossfall_review": 463,
+      "collision_support_missing": 3,
+      "collision_visual_difference": 53,
+      "scene_binding_missing": 28,
+      "unresolved_endpoint_binding": 89,
+      "four_wheel_twist": 27,
+      "grade_review": 27,
+      "wheel_support_missing": 8,
+      "center_support_missing": 66
+    },
+    "geometric_clear_segments_before_b41": 453,
+    "geometric_clear_segments_after_b45": 453,
+    "changed_segments": [
+      "way-803899198-seg-1"
+    ],
+    "collision_visual_difference_restored_to_b41_baseline": true,
+    "grade_review_improved": true,
+    "full_gameplay_approved": false
+  },
+  "crossfall_diagnostic": {
+    "method": "read-only lateral offset sweep -1.5m..+0.5m over first 12.24% of way-803899198-seg-1",
+    "best_offset_candidate_m": -0.8,
+    "best_outside_wheel_hits": 0,
+    "best_max_abs_bank": 0.39850150177460625,
+    "best_max_abs_grade": 0.3786628117820499,
+    "conclusion": "Lateral trajectory offset removes wheel-outside condition but does not resolve excessive crossfall; do not shift route as a proxy for surface correction. Crossfall remains a geometry/evidence gate.",
+    "geometry_changed": false,
+    "evidence": "artifacts/roads/rondesp/misericordia_lane_offset_b45.json"
+  }
+}

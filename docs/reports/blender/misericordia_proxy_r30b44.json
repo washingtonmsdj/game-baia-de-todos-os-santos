@@ -1,0 +1,35 @@
+{
+  "schema": "boas/misericordia-proxy-r30b44-v1",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b43_twist_misericordia.blend",
+    "revision": "R30B.43",
+    "sha256": "de19d1f8aa672b38d56aa39b88ee1a34c852024fcc47c2ed177b4e9c3f1c3339"
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b44_proxy_misericordia.blend",
+    "revision": "R30B.44",
+    "sha256": "e07323b0306f30cc7946dcfb61d47e9a2c349c6fc43448f8fc98239481b81f32"
+  },
+  "classification": "ERROR",
+  "scope": "Somente terrain proxy nos apoios da Rua da Misericórdia divergentes após B43",
+  "raw_targets": 1,
+  "unique_targets": 1,
+  "pokes": 0,
+  "edge_splits": 1,
+  "already_within_35mm": 0,
+  "vertices_before": 73596,
+  "vertices_after": 73597,
+  "faces_before": 139468,
+  "faces_after": 139468,
+  "maximum_target_error_m": 0.0,
+  "ground_changed": false,
+  "road_helpers_changed": false,
+  "visual_geometry_changed": false,
+  "road_widths_changed": false,
+  "runtime_exported": false,
+  "approved": false,
+  "pending": [
+    "Reabrir B44 e repetir auditoria integral de 743 segmentos",
+    "Crossfall/grade/largura real continuam gates separados"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "boas/misericordia-twist-r30b43-v3",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b42_superficie_misericordia.blend",
+    "revision": "R30B.42",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b41_perfil_misericordia.blend",
+    "evidence": "docs/reports/blender/misericordia_surface_r30b42.json",
+    "sha256": "6f20b0e7ce621eb3f50e3b939b9bf24634137ba0040b8a6f0a6843a0b475a64f",
+    "notes": "Candidata em validação; corrige perfil vertical da superfície da Misericórdia com forma relativa do DEM. Não promovida a autoria/runtime/gameplay."
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b43_twist_misericordia.blend",
+    "revision": "R30B.43",
+    "sha256": "de19d1f8aa672b38d56aa39b88ee1a34c852024fcc47c2ed177b4e9c3f1c3339"
+  },
+  "classification": "ADAPT_LOCAL",
+  "sample_fraction": 0.02040816326530612,
+  "maximum_plane_residual_before_m": 0.10668182373049717,
+  "maximum_plane_residual_after_m": 4.263256414560601e-14,
+  "ground_support_moves_m": [
+    0.10668182373049717,
+    -0.10668182373044033,
+    -0.10668182373044033,
+    0.10668182373049717
+  ],
+  "maximum_ground_support_move_m": 0.10668182373049717,
+  "proxy_faces_refined": 4,
+  "maximum_proxy_error_before_m": 0.31829071044921875,
+  "maximum_proxy_error_after_m": 0.0,
+  "ground_degenerate_triangles_lt_1e10": 101,
+  "proxy_degenerate_triangles_lt_1e10": 0,
+  "source_xy_changed": false,
+  "material_assignments_changed": false,
+  "road_widths_changed": false,
+  "protected_changes": [],
+  "runtime_exported": false,
+  "approved": false,
+  "pending": [
+    "Reabrir B43 e repetir auditoria integral de 743 segmentos",
+    "Crossfall continua gate separado",
+    "Largura real continua não verificada"
+  ]
+}

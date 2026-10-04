@@ -9,7 +9,7 @@ if __name__ == '__main__':
     parser.add_argument('script')
     parser.add_argument('--port', type=int, default=9876)
     parser.add_argument('--timeout', type=float, default=180)
-    parser.add_argument('--source', choices=('authoring', 'production'), default='authoring')
+    parser.add_argument('--source', choices=('authoring', 'validation', 'production'), default='authoring')
     parser.add_argument('--read-only', action='store_true', help='Inspeção, sem mutação de geometria/fonte')
     parser.add_argument('--source-operation', action='store_true', help='Somente abertura registrada ou cópia de recuperação')
     parser.add_argument('--adopt-session', action='store_true', help='Adotar a porta indicada, somente com inspect_authoring_session.py --read-only')

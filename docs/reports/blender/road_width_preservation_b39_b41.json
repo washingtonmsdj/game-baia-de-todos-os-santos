@@ -1,0 +1,42 @@
+{
+  "schema": "boas/road-width-preservation-v1",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b39_rondesp_percursos.blend",
+    "revision": "R30B.39",
+    "status": "historical",
+    "parent_file": "blender/salvador_lacerda_r30b38_binding_conceicao.blend",
+    "evidence": "docs/reports/blender/rondesp_driver_review_b39.json",
+    "sha256": "d682741bf61a11cae333a9e8da6cb02c68557b4f4be8dabcb3d163c7dc120049",
+    "notes": null
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b41_perfil_misericordia.blend",
+    "revision": "R30B.41",
+    "status": "authoring_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b40_fluxos_e_colisao.blend",
+    "evidence": "docs/reports/blender/misericordia_profile_r30b41.json",
+    "sha256": "5578d54b8c8bdba81216f12745bb3e8a90e38fdec1ae857d17fe5401f38434ef",
+    "notes": "Corrige somente o perfil derivado da Rua da Misericórdia; OSM, XY, largura, pavimento visual, colisor e runtime preservados. Gameplay continua não aprovado."
+  },
+  "road_object": "MVP | terreno corrigido | colisão estática",
+  "road_object_signature_identical": true,
+  "road_widths_changed": false,
+  "protected_visual_differences": [],
+  "source_reopened": true,
+  "width_audit_b39": "docs/reports/blender/road_width_scene_b39.json",
+  "width_audit_b41_compare": "artifacts/roads/rondesp/road_width_scene_b41_compare.json",
+  "width_segments_compared": 743,
+  "width_summary_identical": true,
+  "maximum_width_delta_m": 0.0,
+  "maximum_station_xy_delta_m": 0.0,
+  "maximum_station_z_delta_m": 0.00061798095703125,
+  "station_position_differences": [
+    "way-803899198-seg-1"
+  ],
+  "note": "A única diferença posicional é submilimétrica em Z numa estação já não resolvida da Misericórdia; largura, XY, issues, materiais, malha e transform da superfície viária são idênticos.",
+  "chain_evidence": [
+    "docs/reports/blender/road_transport_b40.json",
+    "docs/reports/blender/misericordia_profile_r30b41.json"
+  ],
+  "approved_for_real_width_claim": false
+}

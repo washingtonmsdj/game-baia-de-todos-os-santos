@@ -7,7 +7,8 @@ from mathutils.bvhtree import BVHTree
 
 root = Path(__file__).resolve().parents[2]
 scene = bpy.context.scene
-source = json.loads((root/'world/areas/mvp-centro-lacerda/blender-revisions.json').read_text(encoding='utf8'))['authoring_source']
+registry_source = json.loads((root/'world/areas/mvp-centro-lacerda/blender-revisions.json').read_text(encoding='utf8'))['authoring_source']
+source = globals().get('BOAS_SOURCE_OVERRIDE') or registry_source
 assert Path(bpy.data.filepath).resolve() == (root/source['file']).resolve()
 contract = json.loads((root/'world/areas/mvp-centro-lacerda/production.json').read_text(encoding='utf8'))
 graph = json.loads((root/contract['staging']['roads']).read_text(encoding='utf8'))
@@ -78,5 +79,7 @@ for edge in graph['edges']:
     record['scene_pavement_width_median_m']=statistics.median(values) if values else None
     results.append(record)
 report={'schema':'boas/road-width-scene-audit-v1','source':source,'source_sha256_at_read':hashlib.sha256(Path(bpy.data.filepath).read_bytes()).hexdigest(),'segments':results,'summary':dict(counts),'real_width_verified':False,'geometry_changed':False,'approved':False,'method':'Três estações internas por segmento, transversal ao eixo OSM. Limite pelo material do pavimento autoral e camada local ±0,4 m, passos 0,25 m e bisseção. Raio de busca 16 m por lado. Exclui calçadas com outro material; não identifica meio-fio por levantamento.','limitations':['Interseções e pavimentos contíguos podem ampliar medida; variações e estreitamentos exigem inspeção.','Largura da cena não comprova largura real. Tags OSM são referência, não levantamento.','Não determina quantas faixas cabem nem sentido; não aprova ônibus.']}
-out=root/'docs/reports/blender/road_width_scene_b39.json';out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+out=root/globals().get('BOAS_REPORT_PATH','docs/reports/blender/road_width_scene_b39.json')
+out.parent.mkdir(parents=True,exist_ok=True)
+out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
 print(json.dumps(report['summary']))

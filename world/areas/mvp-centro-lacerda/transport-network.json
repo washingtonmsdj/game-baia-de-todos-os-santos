@@ -25731,11 +25731,10 @@
       "motor_road_candidate": true,
       "bus_candidate": true,
       "support_issues": {
-        "crossfall_review": 5,
+        "crossfall_review": 7,
         "wheel_outside_pavement": 1,
-        "grade_review": 5,
-        "vertical_discontinuity": 1,
-        "center_support_missing": 20
+        "grade_review": 6,
+        "vertical_discontinuity": 1
       },
       "lane_preview": [],
       "bus_lane_width_probe_passed": false,
@@ -38111,7 +38110,7 @@
       "classification": "NEEDS_REVIEW",
       "status": "pending",
       "evidence": {
-        "occurrences": 5,
+        "occurrences": 7,
         "support_report_edge": "way-803899198-seg-1"
       },
       "required_action": "Inspecionar mesma camada e OSM ID; corrigir causa comprovada e repetir quatro apoios, colisor e limites. Não ligar através de lacuna.",
@@ -38135,7 +38134,7 @@
       "classification": "NEEDS_REVIEW",
       "status": "pending",
       "evidence": {
-        "occurrences": 5,
+        "occurrences": 6,
         "support_report_edge": "way-803899198-seg-1"
       },
       "required_action": "Inspecionar mesma camada e OSM ID; corrigir causa comprovada e repetir quatro apoios, colisor e limites. Não ligar através de lacuna.",
@@ -38148,18 +38147,6 @@
       "status": "pending",
       "evidence": {
         "occurrences": 1,
-        "support_report_edge": "way-803899198-seg-1"
-      },
-      "required_action": "Inspecionar mesma camada e OSM ID; corrigir causa comprovada e repetir quatro apoios, colisor e limites. Não ligar através de lacuna.",
-      "acceptance": null
-    },
-    {
-      "issue_id": "mvp-centro-lacerda/way-803899198/nodes-5436479156-1703384768/center_support_missing",
-      "priority": 0,
-      "classification": "NEEDS_REVIEW",
-      "status": "pending",
-      "evidence": {
-        "occurrences": 20,
         "support_report_edge": "way-803899198-seg-1"
       },
       "required_action": "Inspecionar mesma camada e OSM ID; corrigir causa comprovada e repetir quatro apoios, colisor e limites. Não ligar através de lacuna.",
@@ -40337,7 +40324,7 @@
       "2": 187,
       "3": 60,
       "1": 456,
-      "0": 12
+      "0": 11
     }
   },
   "limitations": [
@@ -40351,17 +40338,18 @@
     "graph": "5da6660088ebcbf067adfcb768dad4776334d8bee5ce6aa7ecef4ffe826bdf7b",
     "source": "0b33858c1e0c3213303561ef9d0a445616d6f9835f330de096467652f91b9421",
     "widths": "6bb6965b18a3f9011d9da6e65c0c3dd04926e6148aca933d04eb144288715e73",
-    "supports": "d38fbc1f7d20406bbe54d1073353e6d6b5a6199cf3efb00e4be43a057ac2b9f9",
+    "supports": "9c2b2a08c1454dd8798a7d8cdaab8f0a7f986c4a3d8a5b35158357d8486637fe",
     "turns": "7f683052df3d8a1a434a3c340cd9a4a941568c31fab1708b12b8ac12df2b855d",
     "production_contract": "02f9531108052aef61adbfb87596f61744ddebecd7eee0a36755c4bf7ce457ca"
   },
   "scene_source": {
-    "file": "blender/salvador_lacerda_r30b40_fluxos_e_colisao.blend",
-    "sha256": "99ecf2a8a091fdbc05d9f4cd28dbecfe3fca467307b8c1f0c3ffd7729943172a",
-    "revision": "R30B.40",
+    "file": "blender/salvador_lacerda_r30b41_perfil_misericordia.blend",
+    "revision": "R30B.41",
     "status": "authoring_candidate",
-    "parent_file": "blender/salvador_lacerda_r30b39_rondesp_percursos.blend",
-    "evidence": "docs/reports/blender/road_transport_b40.json"
+    "parent_file": "blender/salvador_lacerda_r30b40_fluxos_e_colisao.blend",
+    "evidence": "docs/reports/blender/misericordia_profile_r30b41.json",
+    "sha256": "5578d54b8c8bdba81216f12745bb3e8a90e38fdec1ae857d17fe5401f38434ef",
+    "notes": "Corrige somente o perfil derivado da Rua da Misericórdia; OSM, XY, largura, pavimento visual, colisor e runtime preservados. Gameplay continua não aprovado."
   },
   "width_audit_source": {
     "file": "blender/salvador_lacerda_r30b39_rondesp_percursos.blend",
@@ -40371,5 +40359,5 @@
     "parent_file": "blender/salvador_lacerda_r30b38_binding_conceicao.blend",
     "evidence": "docs/reports/blender/rondesp_driver_review_b39.json"
   },
-  "width_geometry_preserved_report": "docs/reports/blender/road_transport_b40.json"
+  "width_geometry_preserved_report": "docs/reports/blender/road_width_preservation_b39_b41.json"
 }

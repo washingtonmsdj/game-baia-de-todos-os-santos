@@ -140,3 +140,11 @@ A fonte autora é B39 no catálogo; produção B30. A rede foi examinada com qua
 ## B40 — largura e circulação
 
 Priorizar apoio/camada/colisor, largura útil e faixa, fluxo legal e ônibus, nessa ordem. Regras e ferramentas em `ROAD_TRANSPORT_PRODUCTION.md`. Nenhuma largura real foi inventada ou aplicada na B40. Guias candidatas são referência; cenário visual preservado. Registrar ocorrências por OSM way/par de nós e preservar histórico, inclusive falhas não observadas que ainda precisam de confirmação.
+
+## B41 — perfil vertical derivado da Misericórdia
+
+A ausência de apoio central em `way-803899198-seg-1` não era motivo para mover o terreno nem reaplicar transform global. O helper R30A7 ligava nós OSM esparsos por interpolação Z reta e não acompanhava o perfil vertical intermediário do pavimento. A B41 densifica somente esse helper sobre a mesma superfície de via, preservando XY/nós OSM.
+
+Após reabertura e auditoria de toda a rede, `center_support_missing` caiu de 86 para 66, correspondendo às 20 ocorrências do alvo, e os 89 bindings de endpoint pendentes permaneceram inalterados. Grade, crossfall, descontinuidade e roda fora do pavimento continuam `NEEDS_REVIEW`; são sinais a investigar na geometria funcional, não valores a apagar por smoothing.
+
+A largura de cena B39 foi reauditada na B41: 1.732 estações medidas, mesmas contagens de QA, delta de largura 0 m em 743 segmentos e malha/material/transform da superfície viária idênticos. Evidências em `misericordia_profile_r30b41.json` e `road_width_preservation_b39_b41.json`.

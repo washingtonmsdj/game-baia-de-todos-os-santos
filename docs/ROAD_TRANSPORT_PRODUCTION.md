@@ -156,3 +156,11 @@ Auditoria de largura B39: 1.732 estações medidas, 91 sem limite resolvido,
 55 sem pavimento central adequado, 28 segmentos sem curva e 89 sem binding
 de endpoint. As larguras reais continuam `null`; nenhuma via foi alargada.
 Resultados e limitações estão nos relatórios de `docs/reports/blender/`.
+
+## Evidência B41 — 04/10/2026
+
+A R30B.41 corrige somente o perfil derivado de `way 803899198` (Rua da Misericórdia). A causa foi interpolação Z linear entre nós OSM esparsos; o helper passou de 3 para 224 pontos, com amostragem ≤ 0,5 m sobre o pavimento funcional, sem alterar OSM, XY, largura, pavimento visual, colisor ou runtime.
+
+A auditoria integral após reabertura eliminou as 20 ocorrências de `center_support_missing` do segmento `way-803899198-seg-1`; `unresolved_endpoint_binding` permaneceu 89. Permanecem no segmento `crossfall_review=7`, `grade_review=6`, `vertical_discontinuity=1` e `wheel_outside_pavement=1`. Não suavizar nem aplicar offset global para ocultar esses valores.
+
+A prova B39→B41 reexecutou a auditoria de largura e comparou 743 segmentos: delta máximo de largura 0 m e superfície viária com assinatura idêntica. Usar `docs/reports/blender/road_width_preservation_b39_b41.json` quando largura B39 e apoio B41 forem combinados no contrato. O gate continua `needs_review`; produção permanece B30.

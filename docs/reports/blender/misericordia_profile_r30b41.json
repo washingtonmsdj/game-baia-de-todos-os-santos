@@ -1,0 +1,98 @@
+{
+  "schema": "boas/misericordia-profile-r30b41-v1",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b40_fluxos_e_colisao.blend",
+    "sha256": "99ecf2a8a091fdbc05d9f4cd28dbecfe3fca467307b8c1f0c3ffd7729943172a",
+    "revision": "R30B.40",
+    "status": "authoring_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b39_rondesp_percursos.blend",
+    "evidence": "docs/reports/blender/road_transport_b40.json"
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b41_perfil_misericordia.blend",
+    "revision": "R30B.41",
+    "sha256": "5578d54b8c8bdba81216f12745bb3e8a90e38fdec1ae857d17fe5401f38434ef"
+  },
+  "classification": "ERROR",
+  "osm_way_id": 803899198,
+  "name": "Rua da Misericórdia",
+  "node_refs": [
+    "4007759713",
+    "5436479156",
+    "1703384768"
+  ],
+  "cause": "Helper R30A7 interpolava Z linearmente apenas entre nós OSM esparsos; o pavimento funcional possui perfil vertical intermediário não linear.",
+  "old_helper_points": [
+    [
+      58.21577453613281,
+      -2.68056321144104,
+      69.51361846923828
+    ],
+    [
+      98.71443939208984,
+      44.67372131347656,
+      66.66728973388672
+    ],
+    [
+      129.73272705078125,
+      82.08397674560547,
+      66.3320541381836
+    ]
+  ],
+  "new_profile_points": 224,
+  "source_node_profile_indices": [
+    0,
+    125,
+    223
+  ],
+  "spacing_m": 0.5,
+  "clearance_m": 0.18,
+  "max_local_grade": 0.5216868783655788,
+  "surface_z_min": 63.55400085449219,
+  "surface_z_max": 69.33364868164062,
+  "all_samples_road_material": true,
+  "osm_source_changed": false,
+  "source_xy_changed": false,
+  "road_widths_changed": false,
+  "visual_geometry_changed": false,
+  "collision_changed": false,
+  "protected_components": 5453,
+  "protected_changes": [],
+  "runtime_exported": false,
+  "approved": false,
+  "pending": [
+    "Grade/crossfall elevados na própria superfície funcional da Misericórdia exigem revisão geométrica separada",
+    "Envelope/obstáculos e física dinâmica ainda não aprovados",
+    "Largura real continua não verificada",
+    "Runtime permanece na fonte registrada B30"
+  ],
+  "validation": {
+    "method": "auditoria integral da rede com perfil derivado seguido como polilinha e quatro apoios reais da Rondesp",
+    "graph_edges": 743,
+    "changed_issue_segments": [
+      "way-803899198-seg-1"
+    ],
+    "target_before": {
+      "crossfall_review": 5,
+      "wheel_outside_pavement": 1,
+      "grade_review": 5,
+      "vertical_discontinuity": 1,
+      "center_support_missing": 20
+    },
+    "target_after": {
+      "crossfall_review": 7,
+      "wheel_outside_pavement": 1,
+      "grade_review": 6,
+      "vertical_discontinuity": 1
+    },
+    "network_center_support_missing_before": 86,
+    "network_center_support_missing_after": 66,
+    "unresolved_endpoint_binding_before": 89,
+    "unresolved_endpoint_binding_after": 89,
+    "geometric_clear_segments_before": 453,
+    "geometric_clear_segments_after": 453,
+    "candidate_report": "artifacts/roads/rondesp/rondesp_network_b41_candidate.json",
+    "binding_error_resolved": true,
+    "full_gameplay_approved": false
+  }
+}

@@ -1,5 +1,20 @@
 # Handoff do Codex — Fidelidade Estrutural
 
+## 04/10/2026 — B41: perfil derivado da Rua da Misericórdia
+
+Autoria candidata: `blender/salvador_lacerda_r30b41_perfil_misericordia.blend`, SHA-256 `5578d54b8c8bdba81216f12745bb3e8a90e38fdec1ae857d17fe5401f38434ef`, pai B40 preservado; produção/runtime continuam B30. A causa do alerta de apoio em `way-803899198-seg-1` foi identificada no helper R30A7: Z era interpolado linearmente entre apenas três nós OSM, enquanto o pavimento da Misericórdia tem perfil vertical intermediário não linear. Reaplicar o transform do terreno foi descartado por prova: o residual mediano dos helpers passaria de ~0,18 m para ~3,38 m.
+
+A correção `ERROR` alterou somente `R30A7 | ROAD | 803899198`: 3 → 224 pontos, drape derivados a cada ≤0,5 m sobre material de via, mantendo os três nós OSM, XY fonte e clearance de 0,18 m. Os 5.453 componentes protegidos permaneceram idênticos; pavimento visual, colisor, largura e runtime não foram alterados. A B41 foi salva e reaberta antes da prova final.
+
+Auditoria integral: 743 segmentos e 73.532 apoios de roda. `center_support_missing` caiu de 86 para 66, exatamente as 20 ocorrências do segmento alvo; `unresolved_endpoint_binding` permaneceu 89. Nenhum outro segmento mudou seu conjunto de issues. A Misericórdia ainda não está aprovada: no segmento corrigido permanecem `crossfall_review=7`, `grade_review=6`, `vertical_discontinuity=1` e `wheel_outside_pavement=1`. Esses valores agora refletem a superfície funcional real e não devem ser zerados por smoothing/offset artificial.
+
+A prova direta de largura B39→B41 comparou os 743 segmentos: delta máximo de largura 0 m, mesma assinatura de malha/material/transform da superfície viária e apenas 0,000618 m de diferença Z numa estação já não resolvida. O contrato de transporte foi regenerado com essa prova: 187 ways, 743 segmentos, 119 vias explicitamente de mão única, 8 explicitamente bidirecionais e 60 sem direção confirmada; 11 paradas OSM e a relação 0429 continuam referências candidatas. O gate permanece `needs_review`, `pending_checks=977`, `production_ready=false`.
+
+Histórico: o issue específico `center_support_missing` da Misericórdia foi confirmado como resolvido após reabertura e auditoria completa; grade, crossfall, descontinuidade e roda fora do pavimento permanecem pendentes. Evidências: `docs/reports/blender/misericordia_profile_r30b41.json`, `docs/reports/blender/road_width_preservation_b39_b41.json`, `docs/reports/blender/rondesp_network_current.json`, `world/areas/mvp-centro-lacerda/transport-network.json` e `road-corrections.json`.
+
+Próximo foco: revisar a geometria funcional/limites da Misericórdia para entender grade e crossfall sem deformação global; depois continuar bindings/apoios restantes, largura real/faixas, conversões e ônibus.
+
+
 ## 04/10/2026 — B40: colisor, larguras e fluxo viário candidato
 
 Autoria candidata `blender/salvador_lacerda_r30b40_fluxos_e_colisao.blend`, SHA-256 `99ecf2a8a091fdbc05d9f4cd28dbecfe3fca467307b8c1f0c3ffd7729943172a`, pai B39 preservado; produção permanece B30. Aplicação por MCP 9876, na única janela PID 19576. Corrigidos 36 contatos locais: erro máximo 0.4969 → 0.0353 m. Refino de faces e seis apoios inseridos, sem deslocar terreno visual ou alargar ruas. 5.452 componentes protegidos preservados; proxy final finito, sem triângulos degenerados. Reabertura confirmou os contatos e a passagem da Montanha (798 frames, 3.192 apoios, zero ausente). Captura interna real conferida em `artifacts/roads/rondesp/b40-driver.png`.

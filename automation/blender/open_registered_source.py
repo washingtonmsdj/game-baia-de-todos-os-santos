@@ -5,12 +5,18 @@ from datetime import datetime,timezone
 from bpy.app.handlers import persistent
 root=Path(__file__).resolve().parents[2]
 mode=globals().get('BOAS_SOURCE_MODE','authoring')
-if mode=='authoring':entry=json.loads((root/'world/areas/mvp-centro-lacerda/blender-revisions.json').read_text(encoding='utf8'))['authoring_source']
-else:entry=json.loads((root/'world/areas/mvp-centro-lacerda/production.json').read_text(encoding='utf8'))['world_source']
+if mode=='authoring':
+    entry=json.loads((root/'world/areas/mvp-centro-lacerda/blender-revisions.json').read_text(encoding='utf8'))['authoring_source']
+elif mode=='validation':
+    entry=json.loads((root/'world/areas/mvp-centro-lacerda/blender-revisions.json').read_text(encoding='utf8')).get('validation_source')
+    if not entry:raise RuntimeError('Nenhuma fonte de validação registrada')
+else:
+    entry=json.loads((root/'world/areas/mvp-centro-lacerda/production.json').read_text(encoding='utf8'))['world_source']
 file=(root/entry['file']).resolve()
 with file.open('rb') as stream:actual=hashlib.file_digest(stream,'sha256').hexdigest()
 if actual!=entry['sha256']:raise RuntimeError('Fonte mudou sem registrar revisão')
-if Path(bpy.data.filepath).resolve()==file and not globals().get('BOAS_FORCE_REOPEN',False):print('Fonte registrada já está aberta; não recarregar nem descartar alterações.')
+if Path(bpy.data.filepath).resolve()==file and not globals().get('BOAS_FORCE_REOPEN',False):
+    print('Fonte registrada já está aberta; não recarregar nem descartar alterações.')
 else:
     if bpy.data.is_dirty:runpy.run_path(str(root/'automation/blender/preserve_authoring_session.py'),run_name='__main__',init_globals={'BOAS_MCP_PORT':globals().get('BOAS_MCP_PORT',9876)})
     @persistent

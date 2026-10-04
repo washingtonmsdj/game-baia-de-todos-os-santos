@@ -12,9 +12,17 @@ def merge(network, prior, cycle):
             records[key]={**issue,'first_seen_cycle':cycle,'last_seen_cycle':cycle,'history':[{'cycle':cycle,'event':'detected','evidence':issue['evidence']}]}
         else:
             old=records[key]
+            previous_evidence=old.get('evidence')
             if old['status'] in {'resolved','not_observed_needs_confirmation'}:
-                old['status']='pending';old['history'].append({'cycle':cycle,'event':'observed_again','evidence':issue['evidence']})
-            old['last_seen_cycle']=cycle;old['evidence']=issue['evidence'];old['priority']=issue['priority']
+                old['status']='pending'
+                old['history'].append({'cycle':cycle,'event':'observed_again','evidence':issue['evidence']})
+            elif previous_evidence != issue['evidence']:
+                old['history'].append({'cycle':cycle,'event':'evidence_updated','before':previous_evidence,'after':issue['evidence']})
+            old['last_seen_cycle']=cycle
+            old['evidence']=issue['evidence']
+            old['priority']=issue['priority']
+            old['classification']=issue['classification']
+            old['required_action']=issue['required_action']
     for key,item in records.items():
         if key not in active and item['status']=='pending':
             item['status']='not_observed_needs_confirmation'

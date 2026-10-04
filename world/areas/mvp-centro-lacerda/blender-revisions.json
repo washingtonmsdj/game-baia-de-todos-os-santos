@@ -3,12 +3,13 @@
   "area_id": "mvp-centro-lacerda",
   "production_source_reference": "production.json#/world_source",
   "authoring_source": {
-    "file": "blender/salvador_lacerda_r30b40_fluxos_e_colisao.blend",
-    "sha256": "99ecf2a8a091fdbc05d9f4cd28dbecfe3fca467307b8c1f0c3ffd7729943172a",
-    "revision": "R30B.40",
+    "file": "blender/salvador_lacerda_r30b41_perfil_misericordia.blend",
+    "revision": "R30B.41",
     "status": "authoring_candidate",
-    "parent_file": "blender/salvador_lacerda_r30b39_rondesp_percursos.blend",
-    "evidence": "docs/reports/blender/road_transport_b40.json"
+    "parent_file": "blender/salvador_lacerda_r30b40_fluxos_e_colisao.blend",
+    "evidence": "docs/reports/blender/misericordia_profile_r30b41.json",
+    "sha256": "5578d54b8c8bdba81216f12745bb3e8a90e38fdec1ae857d17fe5401f38434ef",
+    "notes": "Corrige somente o perfil derivado da Rua da Misericórdia; OSM, XY, largura, pavimento visual, colisor e runtime preservados. Gameplay continua não aprovado."
   },
   "authoring_scene": "SALVADOR | ESBOCO OFICIAL",
   "selection_policy": "explicit_pointer_never_filename_mtime_or_open_window",
@@ -485,11 +486,65 @@
     {
       "file": "blender/salvador_lacerda_r30b40_fluxos_e_colisao.blend",
       "revision": "R30B.40",
-      "status": "authoring_candidate",
+      "status": "historical",
       "parent_file": "blender/salvador_lacerda_r30b39_rondesp_percursos.blend",
       "evidence": "docs/reports/blender/road_transport_b40.json",
       "sha256": "99ecf2a8a091fdbc05d9f4cd28dbecfe3fca467307b8c1f0c3ffd7729943172a",
-      "notes": "Revisão de trabalho explicitamente selecionada; não equivale a aprovação para exportação."
+      "notes": "Substituída como fonte de autoria pela R30B.41; continua preservada e não foi promovida a runtime."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b41_perfil_misericordia.blend",
+      "revision": "R30B.41",
+      "status": "authoring_candidate",
+      "parent_file": "blender/salvador_lacerda_r30b40_fluxos_e_colisao.blend",
+      "evidence": "docs/reports/blender/misericordia_profile_r30b41.json",
+      "sha256": "5578d54b8c8bdba81216f12745bb3e8a90e38fdec1ae857d17fe5401f38434ef",
+      "notes": "Corrige somente o perfil derivado da Rua da Misericórdia; OSM, XY, largura, pavimento visual, colisor e runtime preservados. Gameplay continua não aprovado."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b42_superficie_misericordia.blend",
+      "revision": "R30B.42",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b41_perfil_misericordia.blend",
+      "evidence": "docs/reports/blender/misericordia_surface_r30b42.json",
+      "sha256": "6f20b0e7ce621eb3f50e3b939b9bf24634137ba0040b8a6f0a6843a0b475a64f",
+      "notes": "Substituída em validação pela R30B.43 após regressão local de four-wheel twist; preservada como evidência."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b43_twist_misericordia.blend",
+      "revision": "R30B.43",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b42_superficie_misericordia.blend",
+      "evidence": "docs/reports/blender/misericordia_twist_r30b43.json",
+      "sha256": "de19d1f8aa672b38d56aa39b88ee1a34c852024fcc47c2ed177b4e9c3f1c3339",
+      "notes": "Batch local de quatro apoios coplanares e proxy alinhado nos pontos afetados; não promovida a autoria/runtime/gameplay."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b44_proxy_misericordia.blend",
+      "revision": "R30B.44",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b43_twist_misericordia.blend",
+      "evidence": "docs/reports/blender/misericordia_proxy_r30b44.json",
+      "sha256": "e07323b0306f30cc7946dcfb61d47e9a2c349c6fc43448f8fc98239481b81f32",
+      "notes": "Refino local do terrain proxy na Misericórdia; superfície visual, helpers, largura e runtime preservados; validação integral ainda não promove autoria."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b45_proxy_misericordia_final.blend",
+      "revision": "R30B.45",
+      "status": "validation_candidate",
+      "parent_file": "blender/salvador_lacerda_r30b44_proxy_misericordia.blend",
+      "evidence": "docs/reports/blender/misericordia_proxy_r30b45.json",
+      "sha256": "3911fd4402591a0484da3adee15b64ba6af01b50133f49215fd67ff17f58ab0e",
+      "notes": "Candidata validada na rede completa: corrige apoio final do proxy na Misericórdia; sem regressão global de colisão, melhora grade vs B41; autoria/runtime ainda não promovidos."
     }
-  ]
+  ],
+  "validation_source": {
+    "file": "blender/salvador_lacerda_r30b45_proxy_misericordia_final.blend",
+    "revision": "R30B.45",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b44_proxy_misericordia.blend",
+    "evidence": "docs/reports/blender/misericordia_proxy_r30b45.json",
+    "sha256": "3911fd4402591a0484da3adee15b64ba6af01b50133f49215fd67ff17f58ab0e",
+    "notes": "Candidata validada na rede completa: corrige apoio final do proxy na Misericórdia; sem regressão global de colisão, melhora grade vs B41; autoria/runtime ainda não promovidos."
+  }
 }
