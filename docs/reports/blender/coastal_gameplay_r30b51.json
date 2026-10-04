@@ -1,0 +1,227 @@
+{
+  "schema": "boas/coastal-gameplay-r30b51-v1",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b50_encosta_sem_blockouts.blend",
+    "revision": "R30B.50",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b49_costa_e_fundo_candidatos.blend",
+    "evidence": "docs/reports/blender/legacy_slopes_r30b50.json",
+    "sha256": "c12a08397fe72feb4b3852b527826747455dc20d0a52c87ed89363131c98c314",
+    "notes": "Oculta blockouts legados de encosta, preservando terreno funcional, expansão costeira, água, cais e píeres; sem promoção a gameplay/runtime."
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b51_gameplay_costeiro.blend",
+    "revision": "R30B.51",
+    "sha256": "30f49988955c40bf70fab7d7af1d4b85611a679a8787b81b3ced24467b1c810e"
+  },
+  "aleph_method_reused": [
+    "OSM centerlines",
+    "DEM-relative terrain basis",
+    "shared terrain/road elevation source",
+    "explicit gameplay export semantics"
+  ],
+  "terrain": [
+    {
+      "visual": "EXPANSAO B49 | terra emersa costeira | candidata",
+      "collision": "B51 | COLLISION | land",
+      "vertices": 710,
+      "polygons": 621,
+      "role": "land"
+    },
+    {
+      "visual": "EXPANSAO B49 | faixa de transicao costeira | candidata",
+      "collision": "B51 | COLLISION | shore_transition",
+      "vertices": 75,
+      "polygons": 33,
+      "role": "shore_transition"
+    },
+    {
+      "visual": "EXPANSAO B49 | fundo submerso DEM relativo | candidato",
+      "collision": "B51 | COLLISION | underwater_seabed",
+      "vertices": 31,
+      "polygons": 15,
+      "role": "underwater_seabed"
+    }
+  ],
+  "roads": [
+    {
+      "osm_way_id": 154743329,
+      "name": "Rua da Conceição da Praia",
+      "role": "road_driveable",
+      "highway": "tertiary",
+      "runs": 1,
+      "objects": [
+        "B51 | ROAD | 154743329 | Rua da Conceição da Praia"
+      ],
+      "vertices": 60,
+      "faces": 29,
+      "graph_object": "B51 | GRAPH | 154743329 | Rua da Conceição da Praia",
+      "gameplay_width_m": 6.4,
+      "width_status": "ADAPT_GAMEPLAY_NOT_SURVEYED",
+      "access": null,
+      "oneway": "yes"
+    },
+    {
+      "osm_way_id": 456471269,
+      "name": "Rua Manoel Vitórino",
+      "role": "road_driveable",
+      "highway": "residential",
+      "runs": 1,
+      "objects": [
+        "B51 | ROAD | 456471269 | Rua Manoel Vitórino"
+      ],
+      "vertices": 54,
+      "faces": 26,
+      "graph_object": null,
+      "gameplay_width_m": 5.2,
+      "width_status": "ADAPT_GAMEPLAY_NOT_SURVEYED",
+      "access": null,
+      "oneway": null
+    },
+    {
+      "osm_way_id": 562660148,
+      "name": "Avenida Lafayete Coutinho",
+      "role": "road_driveable",
+      "highway": "primary",
+      "runs": 1,
+      "objects": [
+        "B51 | ROAD | 562660148 | Avenida Lafayete Coutinho"
+      ],
+      "vertices": 38,
+      "faces": 18,
+      "graph_object": null,
+      "gameplay_width_m": 9.0,
+      "width_status": "ADAPT_GAMEPLAY_NOT_SURVEYED",
+      "access": null,
+      "oneway": "yes"
+    },
+    {
+      "osm_way_id": 978527848,
+      "name": "Avenida Lafayete Coutinho",
+      "role": "road_driveable",
+      "highway": "primary",
+      "runs": 1,
+      "objects": [
+        "B51 | ROAD | 978527848 | Avenida Lafayete Coutinho"
+      ],
+      "vertices": 66,
+      "faces": 32,
+      "graph_object": "B51 | GRAPH | 978527848 | Avenida Lafayete Coutinho",
+      "gameplay_width_m": 9.0,
+      "width_status": "ADAPT_GAMEPLAY_NOT_SURVEYED",
+      "access": null,
+      "oneway": "yes"
+    },
+    {
+      "osm_way_id": 1004133492,
+      "name": "",
+      "role": "road_driveable",
+      "highway": "service",
+      "runs": 1,
+      "objects": [
+        "B51 | ROAD | 1004133492 | service"
+      ],
+      "vertices": 44,
+      "faces": 21,
+      "graph_object": "B51 | GRAPH | 1004133492 | service",
+      "gameplay_width_m": 3.8,
+      "width_status": "ADAPT_GAMEPLAY_NOT_SURVEYED",
+      "access": "private",
+      "oneway": null
+    },
+    {
+      "osm_way_id": 1004133493,
+      "name": "",
+      "role": "road_driveable",
+      "highway": "service",
+      "runs": 1,
+      "objects": [
+        "B51 | ROAD | 1004133493 | service"
+      ],
+      "vertices": 160,
+      "faces": 79,
+      "graph_object": "B51 | GRAPH | 1004133493 | service",
+      "gameplay_width_m": 3.8,
+      "width_status": "ADAPT_GAMEPLAY_NOT_SURVEYED",
+      "access": "private",
+      "oneway": null
+    },
+    {
+      "osm_way_id": 1004133494,
+      "name": "",
+      "role": "road_driveable",
+      "highway": "service",
+      "runs": 2,
+      "objects": [
+        "B51 | ROAD | 1004133494 | service",
+        "B51 | ROAD | 1004133494 | service.001"
+      ],
+      "vertices": 102,
+      "faces": 49,
+      "graph_object": "B51 | GRAPH | 1004133494 | service",
+      "gameplay_width_m": 3.8,
+      "width_status": "ADAPT_GAMEPLAY_NOT_SURVEYED",
+      "access": "private",
+      "oneway": null
+    },
+    {
+      "osm_way_id": 1075624454,
+      "name": "Avenida Lafayete Coutinho",
+      "role": "road_driveable",
+      "highway": "primary",
+      "runs": 1,
+      "objects": [
+        "B51 | ROAD | 1075624454 | Avenida Lafayete Coutinho"
+      ],
+      "vertices": 138,
+      "faces": 68,
+      "graph_object": "B51 | GRAPH | 1075624454 | Avenida Lafayete Coutinho",
+      "gameplay_width_m": 9.0,
+      "width_status": "ADAPT_GAMEPLAY_NOT_SURVEYED",
+      "access": null,
+      "oneway": "yes"
+    },
+    {
+      "osm_way_id": 1321544428,
+      "name": "",
+      "role": "walkable",
+      "highway": "footway",
+      "runs": 1,
+      "objects": [
+        "B51 | WALK | 1321544428 | footway"
+      ],
+      "vertices": 90,
+      "faces": 44,
+      "graph_object": null,
+      "gameplay_width_m": 2.2,
+      "width_status": "ADAPT_GAMEPLAY_NOT_SURVEYED",
+      "access": null,
+      "oneway": null
+    }
+  ],
+  "road_count_contract": 9,
+  "road_surface_objects": 10,
+  "road_graph_objects": 6,
+  "collision_objects": 3,
+  "existing_geometry_changed": false,
+  "protected_changes": [],
+  "water_changed": false,
+  "quay_changed": false,
+  "piers_changed": false,
+  "runtime_exported": false,
+  "approved": false,
+  "policy": {
+    "all_generated_terrain_is_gameplay_surface": true,
+    "render_and_collision_share_same_elevation_source": true,
+    "road_centerlines_are_osm_authoritative": true,
+    "gameplay_widths_do_not_claim_surveyed_real_width": true,
+    "do_not_resize_existing_source_geometry": true,
+    "restricted_service_roads_remain_restricted": true
+  },
+  "pending": [
+    "Auditar cobertura das 9 vias e continuidade com o grafo existente",
+    "Validar colisão B51 e contato veículo/terreno",
+    "Gerar chunks/streaming da expansão antes de runtime",
+    "Larguras de gameplay permanecem adaptações não topográficas"
+  ]
+}

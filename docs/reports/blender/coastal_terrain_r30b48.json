@@ -1,0 +1,41 @@
+{
+  "schema": "boas/coastal-terrain-r30b48-v1",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b47_coastline_sudoeste.blend",
+    "revision": "R30B.47",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b46_pieres_osm.blend",
+    "evidence": "docs/reports/blender/coastline_southwest_r30b47.json",
+    "sha256": "9c0a880ce49ecd8d2c9460b19b2b0746007ca2416c02fca6618a66916e7c0e70",
+    "notes": "Corrige somente a shoreline sudoeste da água usando coastline OSM 354138561 dentro da cobertura DEM; terreno/cais/píeres preservados; fechamento externo continua recorte, não coastline."
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b48_expansao_costeira_dem.blend",
+    "revision": "R30B.48",
+    "sha256": "03bd0b14e11799994986fe247506f6bd55af8b7c7736c23679cb383641777ca2"
+  },
+  "classification": "ADAPT_LOCAL",
+  "object": "EXPANSAO B48 | terreno costeiro DEM relativo | candidato",
+  "vertices": 760,
+  "faces": 669,
+  "grid_spacing_m": 10.0,
+  "dem_points_valid": 812,
+  "dem_points_rejected": 1,
+  "local_anchor_count": 57,
+  "local_vertical_offset_m": -3.463484764099121,
+  "z_min_m": -2.463484764099121,
+  "z_max_m": 63.59481906890869,
+  "existing_ground_changed": false,
+  "water_changed": false,
+  "quay_changed": false,
+  "piers_changed": false,
+  "protected_changes": [],
+  "runtime_exported": false,
+  "approved": false,
+  "pending": [
+    "Reabrir e validar costura/topologia B48",
+    "Refinar encostas e materiais apenas após revisão visual",
+    "Expandir para outros lados somente dentro da cobertura DEM comprovada",
+    "Gameplay/runtime continuam bloqueados"
+  ]
+}

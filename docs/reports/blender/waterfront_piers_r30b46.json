@@ -1,0 +1,91 @@
+{
+  "schema": "boas/waterfront-piers-r30b46-v1",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b45_proxy_misericordia_final.blend",
+    "revision": "R30B.45",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b44_proxy_misericordia.blend",
+    "evidence": "docs/reports/blender/misericordia_proxy_r30b45.json",
+    "sha256": "3911fd4402591a0484da3adee15b64ba6af01b50133f49215fd67ff17f58ab0e",
+    "notes": "Candidata validada na rede completa: corrige apoio final do proxy na Misericórdia; sem regressão global de colisão, melhora grade vs B41; autoria/runtime ainda não promovidos."
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b46_pieres_osm.blend",
+    "revision": "R30B.46",
+    "sha256": "ee3cebdda0fb6830e838298f92208ac53cc6d623582097449c0b075cc7c39263"
+  },
+  "classification": "KEEP_REAL_REFERENCE",
+  "osm_pier_ids": [
+    1321682676,
+    1321682677,
+    1426173139,
+    1426173140
+  ],
+  "created": [
+    {
+      "name": "PIER OSM | 1321682676 | eixo sem largura",
+      "osm_id": 1321682676,
+      "closed": false,
+      "role": "reference_centerline_width_unknown",
+      "point_count": 2,
+      "area_m2_projected": null,
+      "length_m_projected": 103.57402328280614
+    },
+    {
+      "name": "PIER OSM | 1321682677 | eixo sem largura",
+      "osm_id": 1321682677,
+      "closed": false,
+      "role": "reference_centerline_width_unknown",
+      "point_count": 2,
+      "area_m2_projected": null,
+      "length_m_projected": 102.69315821896524
+    },
+    {
+      "name": "PIER OSM | 1426173139 | footprint real",
+      "osm_id": 1426173139,
+      "closed": true,
+      "role": "reference_surface",
+      "point_count": 5,
+      "area_m2_projected": 118.83544921875,
+      "length_m_projected": 66.51193247585198
+    },
+    {
+      "name": "PIER OSM | 1426173140 | footprint real",
+      "osm_id": 1426173140,
+      "closed": true,
+      "role": "reference_surface",
+      "point_count": 7,
+      "area_m2_projected": 388.68798828125,
+      "length_m_projected": 224.42459234122077
+    }
+  ],
+  "deck_z_candidate_m": 7.255664825439453,
+  "deck_z_land_controls_m": [
+    7.255668640136719,
+    7.255668640136719,
+    7.04217529296875,
+    7.255668640136719,
+    7.255668640136719,
+    7.255668640136719,
+    7.183723449707031,
+    7.04217529296875,
+    7.235984802246094,
+    7.2556610107421875,
+    7.255683898925781,
+    7.235984802246094
+  ],
+  "water_level_m": 0.35,
+  "closed_pier_footprints_created": 2,
+  "linear_piers_as_centerline_only": 2,
+  "linear_width_invented": false,
+  "ground_changed": false,
+  "water_changed": false,
+  "quay_changed": false,
+  "runtime_exported": false,
+  "approved": false,
+  "pending": [
+    "Largura dos dois píeres lineares continua sem fonte; não converter os eixos em deck final sem evidência/adaptação registrada.",
+    "Validar conexão dos píeres com cais/rotas pedonais e cota do deck em revisão visual.",
+    "Expandir e estabilizar coastline/cais e encostas antes de promover gameplay/runtime."
+  ]
+}

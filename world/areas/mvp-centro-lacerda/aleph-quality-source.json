@@ -1,0 +1,54 @@
+{
+  "schema": "boas/aleph-quality-source-v1",
+  "purpose": "Fonte auxiliar para melhorar relevo, implantação, OSM, estradas e QA sem substituir o repositório do jogo como autoridade de produção.",
+  "source_project_root": "C:\\Users\\TONECOS\\Documents\\github\\Tom Oliver\\projeto-salvador-elevador-lacerda",
+  "files": [
+    {
+      "path": "C:\\Users\\TONECOS\\Documents\\github\\Tom Oliver\\projeto-salvador-elevador-lacerda\\data\\aleph\\aleph-20260924T205631Z-aqqo7pkx\\terrain.tif",
+      "size_bytes": 498804,
+      "sha256": "674fe65e08c761f879f1fa02a5560a62c9e836c09e1dfacb2aa805e9def15ca7"
+    },
+    {
+      "path": "C:\\Users\\TONECOS\\Documents\\github\\Tom Oliver\\projeto-salvador-elevador-lacerda\\data\\aleph\\aleph-20260924T205631Z-aqqo7pkx\\map.osm",
+      "size_bytes": 11590732,
+      "sha256": "a96cd5ae5faf4dbb5d84ae120d545ab67f72be51b3330bcb2b23313169a48112"
+    },
+    {
+      "path": "C:\\Users\\TONECOS\\Documents\\github\\Tom Oliver\\projeto-salvador-elevador-lacerda\\data\\aleph\\aleph-20260924T205631Z-aqqo7pkx\\manifest.json",
+      "size_bytes": 1795,
+      "sha256": "ee52c8dfca67b5aac6bfd364d9878d61e875c152d78b8ceff8dfc8461f035a18"
+    },
+    {
+      "path": "C:\\Users\\TONECOS\\Documents\\github\\Tom Oliver\\projeto-salvador-elevador-lacerda\\data\\osm\\salvador_osm_map.xml",
+      "size_bytes": 1914920,
+      "sha256": "e6cb1298677a0aebb9685b67f728d36d044b1e991eff1505a0e24c9e94b0c2ab"
+    },
+    {
+      "path": "C:\\Users\\TONECOS\\Documents\\github\\Tom Oliver\\projeto-salvador-elevador-lacerda\\scripts\\catalogar_osm_mvp.py",
+      "size_bytes": 6734,
+      "sha256": "065aa9b28a1f011b7bdddd840a74490fd8785830b284646d44bff91fdb90e771"
+    },
+    {
+      "path": "C:\\Users\\TONECOS\\Documents\\github\\Tom Oliver\\projeto-salvador-elevador-lacerda\\scripts\\corrigir_implantacao_osm.py",
+      "size_bytes": 902,
+      "sha256": "0d9f35f776d61beccb49eeddc920ab77d74f9fb9deeb6813bf29c8aa87c2f07c"
+    },
+    {
+      "path": "C:\\Users\\TONECOS\\Documents\\github\\Tom Oliver\\projeto-salvador-elevador-lacerda\\docs\\AUDIT_LOWER_TERRAIN_PROFILE_V1.md",
+      "size_bytes": 566,
+      "sha256": "31e17c79c53432dd9b91d219bf35c9b0308fd1ed56f6a979ffa758187c3da2e9"
+    },
+    {
+      "path": "C:\\Users\\TONECOS\\Documents\\github\\Tom Oliver\\projeto-salvador-elevador-lacerda\\docs\\AUDIT_PLATEAU_DELTA_MESHONLY_V2.md",
+      "size_bytes": 4607,
+      "sha256": "1ad06edfb78e47183ced0265df1e7984dd7b5c059a7cd7790ba1e9d09b8c57a8"
+    }
+  ],
+  "rules": [
+    "Aleph pode fornecer forma relativa DEM, OSM, implantação e auditorias.",
+    "Geometria validada do jogo prevalece em conflitos locais.",
+    "Todo terreno derivado do Aleph deve cumprir terrain-gameplay-policy.json.",
+    "Nenhuma largura real é inferida quando ausente.",
+    "Nenhum terreno novo pode ser promovido sem colisão, vias/pedestres aplicáveis e gates geométricos."
+  ]
+}

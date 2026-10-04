@@ -1,0 +1,123 @@
+{
+  "schema": "boas/coastal-integrated-r30b52-v1",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b51_gameplay_costeiro.blend",
+    "revision": "R30B.51",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b50_encosta_sem_blockouts.blend",
+    "evidence": "docs/reports/blender/coastal_gameplay_r30b51.json",
+    "sha256": "30f49988955c40bf70fab7d7af1d4b85611a679a8787b81b3ced24467b1c810e",
+    "notes": "Expansão costeira materializada como gameplay: terreno visual+colisão, 9 vias OSM, superfícies dirigíveis/pedonais e grafo parcial; aguarda auditoria de grade/crossfall/contato."
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b52_gameplay_integrado.blend",
+    "revision": "R30B.52",
+    "sha256": "96ba58f55cbf3cc2d4f8a2d8871537aa212a15a17f58183119feb78a2f047a99"
+  },
+  "surface_object": "B52 | GAMEPLAY TERRAIN | costa integrada + vias",
+  "collision_object": "B52 | COLLISION | costa integrada + vias",
+  "vertices": 20708,
+  "faces": 20245,
+  "grid_m": 2.0,
+  "material_face_counts": {
+    "0": 16548,
+    "1": 3213,
+    "2": 216,
+    "3": 268
+  },
+  "surface_role_codes": {
+    "0": "land",
+    "1": "road_driveable",
+    "2": "walkable",
+    "3": "underwater_seabed"
+  },
+  "graph": [
+    {
+      "osm_way_id": 154743329,
+      "role": "road_driveable",
+      "runs": 1,
+      "objects": [
+        "B52 | GRAPH | 154743329 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 456471269,
+      "role": "road_driveable",
+      "runs": 1,
+      "objects": [
+        "B52 | GRAPH | 456471269 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 562660148,
+      "role": "road_driveable",
+      "runs": 1,
+      "objects": [
+        "B52 | GRAPH | 562660148 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 978527848,
+      "role": "road_driveable",
+      "runs": 1,
+      "objects": [
+        "B52 | GRAPH | 978527848 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 1004133492,
+      "role": "road_driveable",
+      "runs": 1,
+      "objects": [
+        "B52 | GRAPH | 1004133492 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 1004133493,
+      "role": "road_driveable",
+      "runs": 1,
+      "objects": [
+        "B52 | GRAPH | 1004133493 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 1004133494,
+      "role": "road_driveable",
+      "runs": 1,
+      "objects": [
+        "B52 | GRAPH | 1004133494 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 1075624454,
+      "role": "road_driveable",
+      "runs": 1,
+      "objects": [
+        "B52 | GRAPH | 1075624454 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 1321544428,
+      "role": "walkable",
+      "runs": 1,
+      "objects": [
+        "B52 | GRAPH | 1321544428 | run 0"
+      ]
+    }
+  ],
+  "graph_way_count": 9,
+  "graph_run_count": 9,
+  "superseded_objects_hidden": 22,
+  "existing_ground_changed": false,
+  "water_changed": false,
+  "quay_changed": false,
+  "piers_changed": false,
+  "protected_changes": [],
+  "runtime_exported": false,
+  "approved": false,
+  "pending": [
+    "Auditar grade/crossfall na superfície integrada B52",
+    "Validar igualdade visual/colisão após reabrir",
+    "Gerar chunks de streaming após os gates geométricos"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "schema": "boas/pier-gameplay-r30b56-v1",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b55_gameplay_costeiro.blend",
+    "revision": "R30B.55",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b54_plataformas_gameplay.blend",
+    "evidence": "docs/reports/blender/coastal_gameplay_r30b55_audit.json",
+    "sha256": "6f56604456e957c87bf39cbfad97a72ab8f9c87ac45720d902f9bcdf47377ad2",
+    "notes": "Expansão costeira jogável validada: visual=colisão, 9/9 grafos OSM, zero gates de grade/crossfall/colisão/suporte e hard-boundary com erro 0.0m. Runtime/streaming ainda não promovidos."
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b56_pieres_gameplay.blend",
+    "revision": "R30B.56",
+    "sha256": "456700b06ee738630f27a42e8245097347bf96da5ec2bc1953a66f3223d897fd"
+  },
+  "walkable_pier_footprints": [
+    {
+      "osm_id": 1426173139,
+      "surface": "B56 | WALKABLE PIER | 1426173139",
+      "collision": "B56 | COLLISION | PIER | 1426173139",
+      "vertices": 5,
+      "faces": 1
+    },
+    {
+      "osm_id": 1426173140,
+      "surface": "B56 | WALKABLE PIER | 1426173140",
+      "collision": "B56 | COLLISION | PIER | 1426173140",
+      "vertices": 7,
+      "faces": 1
+    }
+  ],
+  "pedestrian_graphs": [
+    {
+      "osm_way_id": 1426173138,
+      "object": "B56 | GRAPH WALK | 1426173138",
+      "points": 3
+    },
+    {
+      "osm_way_id": 1426173325,
+      "object": "B56 | GRAPH WALK | 1426173325",
+      "points": 2
+    },
+    {
+      "osm_way_id": 1426173326,
+      "object": "B56 | GRAPH WALK | 1426173326",
+      "points": 3
+    },
+    {
+      "osm_way_id": 1426173327,
+      "object": "B56 | GRAPH WALK | 1426173327",
+      "points": 2
+    }
+  ],
+  "linear_piers_kept_centerline_only": [
+    "PIER OSM | 1321682676 | eixo sem largura",
+    "PIER OSM | 1321682677 | eixo sem largura"
+  ],
+  "linear_width_invented": false,
+  "terrain_changed": false,
+  "water_changed": false,
+  "quay_changed": false,
+  "protected_changes": [],
+  "runtime_exported": false,
+  "approved": false,
+  "policy": {
+    "footprint_required_for_walkable_surface": true,
+    "collision_identical_to_walkable_surface": true,
+    "unknown_width_never_invented": true
+  },
+  "pending": [
+    "Auditar igualdade visual/colisão dos footprints",
+    "Validar conectividade dos footways ao terreno/cais",
+    "Somente depois promover gameplay/runtime dos píeres"
+  ]
+}

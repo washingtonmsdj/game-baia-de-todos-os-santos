@@ -1,0 +1,201 @@
+{
+  "schema": "boas/coastal-gameplay-r30b51-audit-v1",
+  "source_reopened": true,
+  "collision_geometry_checks": [
+    {
+      "role": "land",
+      "visual_vertices": 710,
+      "collision_vertices": 710,
+      "polygons_visual": 621,
+      "polygons_collision": 621,
+      "max_vertex_delta_m": 0.0
+    },
+    {
+      "role": "shore_transition",
+      "visual_vertices": 75,
+      "collision_vertices": 75,
+      "polygons_visual": 33,
+      "polygons_collision": 33,
+      "max_vertex_delta_m": 0.0
+    },
+    {
+      "role": "underwater_seabed",
+      "visual_vertices": 31,
+      "collision_vertices": 31,
+      "polygons_visual": 15,
+      "polygons_collision": 15,
+      "max_vertex_delta_m": 0.0
+    }
+  ],
+  "roads": [
+    {
+      "osm_way_id": 154743329,
+      "name": "B51 | ROAD | 154743329 | Rua da Conceição da Praia",
+      "role": "road_driveable",
+      "access": null,
+      "width_m": 6.4,
+      "samples": 30,
+      "max_abs_grade": 0.4525697054062142,
+      "max_abs_crossfall": 0.5625295639038086,
+      "max_collision_visual_difference_m": 0.020087718963623047,
+      "missing_collision_hits": 0,
+      "issues": [
+        "grade_review",
+        "crossfall_review"
+      ]
+    },
+    {
+      "osm_way_id": 456471269,
+      "name": "B51 | ROAD | 456471269 | Rua Manoel Vitórino",
+      "role": "road_driveable",
+      "access": null,
+      "width_m": 5.2,
+      "samples": 27,
+      "max_abs_grade": 0.7009577971470377,
+      "max_abs_crossfall": 0.3290675236628606,
+      "max_collision_visual_difference_m": 0.018045902252197266,
+      "missing_collision_hits": 0,
+      "issues": [
+        "grade_review",
+        "crossfall_review"
+      ]
+    },
+    {
+      "osm_way_id": 562660148,
+      "name": "B51 | ROAD | 562660148 | Avenida Lafayete Coutinho",
+      "role": "road_driveable",
+      "access": null,
+      "width_m": 9.0,
+      "samples": 19,
+      "max_abs_grade": 0.017128479832678917,
+      "max_abs_crossfall": 0.02166748046875,
+      "max_collision_visual_difference_m": 0.021450519561767578,
+      "missing_collision_hits": 0,
+      "issues": []
+    },
+    {
+      "osm_way_id": 978527848,
+      "name": "B51 | ROAD | 978527848 | Avenida Lafayete Coutinho",
+      "role": "road_driveable",
+      "access": null,
+      "width_m": 9.0,
+      "samples": 33,
+      "max_abs_grade": 0.3388798863875316,
+      "max_abs_crossfall": 0.3572421073913574,
+      "max_collision_visual_difference_m": 0.01973867416381836,
+      "missing_collision_hits": 0,
+      "issues": [
+        "grade_review",
+        "crossfall_review"
+      ]
+    },
+    {
+      "osm_way_id": 1004133492,
+      "name": "B51 | ROAD | 1004133492 | service",
+      "role": "road_driveable",
+      "access": "private",
+      "width_m": 3.8,
+      "samples": 22,
+      "max_abs_grade": 0.046323764355622354,
+      "max_abs_crossfall": 0.044194271689967105,
+      "max_collision_visual_difference_m": 0.020684242248535156,
+      "missing_collision_hits": 0,
+      "issues": []
+    },
+    {
+      "osm_way_id": 1004133493,
+      "name": "B51 | ROAD | 1004133493 | service",
+      "role": "road_driveable",
+      "access": "private",
+      "width_m": 3.8,
+      "samples": 80,
+      "max_abs_grade": 0.14933619217555852,
+      "max_abs_crossfall": 0.1823987458881579,
+      "max_collision_visual_difference_m": 0.022626399993896484,
+      "missing_collision_hits": 0,
+      "issues": [
+        "crossfall_review"
+      ]
+    },
+    {
+      "osm_way_id": 1004133494,
+      "name": "B51 | ROAD | 1004133494 | service",
+      "role": "road_driveable",
+      "access": "private",
+      "width_m": 3.8,
+      "samples": 6,
+      "max_abs_grade": 1.6106069339194154e-05,
+      "max_abs_crossfall": 8.030941611842105e-06,
+      "max_collision_visual_difference_m": 0.017786502838134766,
+      "missing_collision_hits": 0,
+      "issues": []
+    },
+    {
+      "osm_way_id": 1004133494,
+      "name": "B51 | ROAD | 1004133494 | service.001",
+      "role": "road_driveable",
+      "access": "private",
+      "width_m": 3.8,
+      "samples": 45,
+      "max_abs_grade": 0.17326721120955266,
+      "max_abs_crossfall": 0.1643691564861097,
+      "max_collision_visual_difference_m": 0.020855426788330078,
+      "missing_collision_hits": 0,
+      "issues": [
+        "crossfall_review"
+      ]
+    },
+    {
+      "osm_way_id": 1075624454,
+      "name": "B51 | ROAD | 1075624454 | Avenida Lafayete Coutinho",
+      "role": "road_driveable",
+      "access": null,
+      "width_m": 9.0,
+      "samples": 69,
+      "max_abs_grade": 0.39881232271505784,
+      "max_abs_crossfall": 0.4403347439236111,
+      "max_collision_visual_difference_m": 0.021506786346435547,
+      "missing_collision_hits": 0,
+      "issues": [
+        "grade_review",
+        "crossfall_review"
+      ]
+    },
+    {
+      "osm_way_id": 1321544428,
+      "name": "B51 | WALK | 1321544428 | footway",
+      "role": "walkable",
+      "access": null,
+      "width_m": 2.2,
+      "samples": 45,
+      "max_abs_grade": 0.3132535743987573,
+      "max_abs_crossfall": 0.29249711470170453,
+      "max_collision_visual_difference_m": 0.01964426040649414,
+      "missing_collision_hits": 0,
+      "issues": [
+        "grade_review",
+        "crossfall_review"
+      ]
+    }
+  ],
+  "issue_counts": {
+    "grade_review": 5,
+    "crossfall_review": 7,
+    "collision_visual_difference": 0,
+    "missing_collision": 0
+  },
+  "missing_graph_way_ids": [
+    456471269,
+    562660148,
+    1321544428
+  ],
+  "road_surface_objects": 10,
+  "all_collision_geometry_identical": true,
+  "thresholds": {
+    "grade_review": 0.3,
+    "crossfall_review": 0.15,
+    "collision_visual_difference_m": 0.05
+  },
+  "geometry_changed": false,
+  "approved": false
+}

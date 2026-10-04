@@ -531,20 +531,119 @@
     {
       "file": "blender/salvador_lacerda_r30b45_proxy_misericordia_final.blend",
       "revision": "R30B.45",
-      "status": "validation_candidate",
+      "status": "superseded_validation",
       "parent_file": "blender/salvador_lacerda_r30b44_proxy_misericordia.blend",
       "evidence": "docs/reports/blender/misericordia_proxy_r30b45.json",
       "sha256": "3911fd4402591a0484da3adee15b64ba6af01b50133f49215fd67ff17f58ab0e",
       "notes": "Candidata validada na rede completa: corrige apoio final do proxy na Misericórdia; sem regressão global de colisão, melhora grade vs B41; autoria/runtime ainda não promovidos."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b46_pieres_osm.blend",
+      "revision": "R30B.46",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b45_proxy_misericordia_final.blend",
+      "evidence": "docs/reports/blender/waterfront_piers_r30b46.json",
+      "sha256": "ee3cebdda0fb6830e838298f92208ac53cc6d623582097449c0b075cc7c39263",
+      "notes": "Materializa 4 píeres OSM: dois footprints fechados e dois eixos lineares sem largura inventada; água/terreno/cais preservados; ainda não promove gameplay/runtime."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b47_coastline_sudoeste.blend",
+      "revision": "R30B.47",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b46_pieres_osm.blend",
+      "evidence": "docs/reports/blender/coastline_southwest_r30b47.json",
+      "sha256": "9c0a880ce49ecd8d2c9460b19b2b0746007ca2416c02fca6618a66916e7c0e70",
+      "notes": "Corrige somente a shoreline sudoeste da água usando coastline OSM 354138561 dentro da cobertura DEM; terreno/cais/píeres preservados; fechamento externo continua recorte, não coastline."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b48_expansao_costeira_dem.blend",
+      "revision": "R30B.48",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b47_coastline_sudoeste.blend",
+      "evidence": "docs/reports/blender/coastal_terrain_r30b48.json",
+      "sha256": "03bd0b14e11799994986fe247506f6bd55af8b7c7736c23679cb383641777ca2",
+      "notes": "Expansão costeira sudoeste separada, usando forma relativa do DEM e costura local; terreno oficial, água, cais e píeres preservados; ainda não gameplay/runtime."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b49_costa_e_fundo_candidatos.blend",
+      "revision": "R30B.49",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b48_expansao_costeira_dem.blend",
+      "evidence": "docs/reports/blender/coast_seabed_r30b49.json",
+      "sha256": "93a6b21c44d883313a10d0ca970794af9333823ed39d86185467542852a62a58",
+      "notes": "Separa semanticamente terra emersa, transição costeira e fundo submerso candidato; água, cais, píeres e terreno oficial preservados; gameplay/runtime não promovidos."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b50_encosta_sem_blockouts.blend",
+      "revision": "R30B.50",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b49_costa_e_fundo_candidatos.blend",
+      "evidence": "docs/reports/blender/legacy_slopes_r30b50.json",
+      "sha256": "c12a08397fe72feb4b3852b527826747455dc20d0a52c87ed89363131c98c314",
+      "notes": "Oculta blockouts legados de encosta, preservando terreno funcional, expansão costeira, água, cais e píeres; sem promoção a gameplay/runtime."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b51_gameplay_costeiro.blend",
+      "revision": "R30B.51",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b50_encosta_sem_blockouts.blend",
+      "evidence": "docs/reports/blender/coastal_gameplay_r30b51.json",
+      "sha256": "30f49988955c40bf70fab7d7af1d4b85611a679a8787b81b3ced24467b1c810e",
+      "notes": "Expansão costeira materializada como gameplay: terreno visual+colisão, 9 vias OSM, superfícies dirigíveis/pedonais e grafo parcial; aguarda auditoria de grade/crossfall/contato."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b52_gameplay_integrado.blend",
+      "revision": "R30B.52",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b51_gameplay_costeiro.blend",
+      "evidence": "docs/reports/blender/coastal_integrated_r30b52.json",
+      "sha256": "96ba58f55cbf3cc2d4f8a2d8871537aa212a15a17f58183119feb78a2f047a99",
+      "notes": "Superfície costeira integrada de 2m: terreno+vias+walkable na mesma malha, colisão idêntica, 9/9 grafos OSM; aguarda auditoria geométrica e streaming."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b53_costura_gameplay.blend",
+      "revision": "R30B.53",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b52_gameplay_integrado.blend",
+      "evidence": "docs/reports/blender/coastal_hard_boundary_r30b53.json",
+      "sha256": "c9b54542fe024e4b0f56f8e54215cc2d6102a18832c2fdb38682bf589da3f01c",
+      "notes": "Hard-boundary em X=-284 onde terreno oficial existe; expansão e terreno oficial sem sobreposição concorrente; 9/9 grafos; aguarda auditoria combinada visual/colisão."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b54_plataformas_gameplay.blend",
+      "revision": "R30B.54",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b53_costura_gameplay.blend",
+      "evidence": "docs/reports/blender/coastal_platform_r30b54.json",
+      "sha256": "68cd5432d36e7f7b3988fb5a6aeba37188a9ff19ab336fa97fa53464a32d862a",
+      "notes": "Plataformas viárias reaplicadas após hard-boundary: 9 vias OSM, 6 anchors de costura, 7 amostras sobre vazio descartadas; terreno visual e colisão idênticos; aguarda auditoria final."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b55_gameplay_costeiro.blend",
+      "revision": "R30B.55",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b54_plataformas_gameplay.blend",
+      "evidence": "docs/reports/blender/coastal_gameplay_r30b55_audit.json",
+      "sha256": "6f56604456e957c87bf39cbfad97a72ab8f9c87ac45720d902f9bcdf47377ad2",
+      "notes": "Expansão costeira jogável validada: visual=colisão, 9/9 grafos OSM, zero gates de grade/crossfall/colisão/suporte e hard-boundary com erro 0.0m. Runtime/streaming ainda não promovidos."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b56_pieres_gameplay.blend",
+      "revision": "R30B.56",
+      "status": "validation_candidate",
+      "parent_file": "blender/salvador_lacerda_r30b55_gameplay_costeiro.blend",
+      "evidence": "docs/reports/blender/pier_gameplay_r30b56_audit.json",
+      "sha256": "456700b06ee738630f27a42e8245097347bf96da5ec2bc1953a66f3223d897fd",
+      "notes": "Integra gameplay pedonal nos 2 píeres com footprint OSM e 4 footways reais; colisão idêntica à superfície walkable; píeres lineares seguem apenas referência por largura desconhecida."
     }
   ],
   "validation_source": {
-    "file": "blender/salvador_lacerda_r30b45_proxy_misericordia_final.blend",
-    "revision": "R30B.45",
+    "file": "blender/salvador_lacerda_r30b56_pieres_gameplay.blend",
+    "revision": "R30B.56",
     "status": "validation_candidate",
-    "parent_file": "blender/salvador_lacerda_r30b44_proxy_misericordia.blend",
-    "evidence": "docs/reports/blender/misericordia_proxy_r30b45.json",
-    "sha256": "3911fd4402591a0484da3adee15b64ba6af01b50133f49215fd67ff17f58ab0e",
-    "notes": "Candidata validada na rede completa: corrige apoio final do proxy na Misericórdia; sem regressão global de colisão, melhora grade vs B41; autoria/runtime ainda não promovidos."
+    "parent_file": "blender/salvador_lacerda_r30b55_gameplay_costeiro.blend",
+    "evidence": "docs/reports/blender/pier_gameplay_r30b56_audit.json",
+    "sha256": "456700b06ee738630f27a42e8245097347bf96da5ec2bc1953a66f3223d897fd",
+    "notes": "Integra gameplay pedonal nos 2 píeres com footprint OSM e 4 footways reais; colisão idêntica à superfície walkable; píeres lineares seguem apenas referência por largura desconhecida."
   }
 }

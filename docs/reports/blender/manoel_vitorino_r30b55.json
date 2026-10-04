@@ -1,0 +1,154 @@
+{
+  "schema": "boas/manoel-vitorino-r30b55-v1",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b54_plataformas_gameplay.blend",
+    "revision": "R30B.54",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b53_costura_gameplay.blend",
+    "evidence": "docs/reports/blender/coastal_platform_r30b54.json",
+    "sha256": "68cd5432d36e7f7b3988fb5a6aeba37188a9ff19ab336fa97fa53464a32d862a",
+    "notes": "Plataformas viárias reaplicadas após hard-boundary: 9 vias OSM, 6 anchors de costura, 7 amostras sobre vazio descartadas; terreno visual e colisão idênticos; aguarda auditoria final."
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b55_gameplay_costeiro.blend",
+    "revision": "R30B.55",
+    "sha256": "6f56604456e957c87bf39cbfad97a72ab8f9c87ac45720d902f9bcdf47377ad2"
+  },
+  "surface_object": "B55 | GAMEPLAY TERRAIN | costa + vias refinadas",
+  "collision_object": "B55 | COLLISION | costa + vias refinadas",
+  "changed_vertices_scene": 9628,
+  "maximum_applied_delta_m": 0.8890909782417351,
+  "patch": {
+    "schema": "boas/manoel-vitorino-crossfall-b55-v1",
+    "source": "coastal_integrated_surface_b54.npz",
+    "osm_way_id": 456471269,
+    "patch_s_m": [
+      4.0,
+      13.8
+    ],
+    "core_s_m": [
+      6.0,
+      12.0
+    ],
+    "gameplay_width_m": 5.2,
+    "transition_lateral_m": 4.0,
+    "hard_boundary_x": -284.0,
+    "changed_grid_vertices": 27,
+    "maximum_vertex_delta_m": 0.8890906687125524,
+    "hard_boundary_max_delta_m": 0.0,
+    "problem_probe": [
+      {
+        "q": 4,
+        "xy": [
+          -289.5619623203738,
+          -195.80539638667295
+        ],
+        "center_z": 8.036162198890779,
+        "left_z": 8.120554185492583,
+        "right_z": 8.083051553314608,
+        "crossfall": 0.007212044649610705
+      },
+      {
+        "q": 5,
+        "xy": [
+          -287.7844271216279,
+          -194.896471680339
+        ],
+        "center_z": 7.741859345809059,
+        "left_z": 7.804936656767197,
+        "right_z": 7.737025575163056,
+        "crossfall": 0.013059823385411699
+      },
+      {
+        "q": 6,
+        "xy": [
+          -286.00689192288195,
+          -193.98754697400503
+        ],
+        "center_z": 7.535364056672016,
+        "left_z": 7.597113241965393,
+        "right_z": 7.4040105161711764,
+        "crossfall": 0.03713513957581084
+      }
+    ],
+    "problem_probe_max_crossfall": 0.03713513957581084,
+    "target_vehicle_crossfall_gate": 0.15
+  },
+  "graph": [
+    {
+      "osm_way_id": 154743329,
+      "runs": 1,
+      "objects": [
+        "B55 | GRAPH | 154743329 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 456471269,
+      "runs": 1,
+      "objects": [
+        "B55 | GRAPH | 456471269 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 562660148,
+      "runs": 1,
+      "objects": [
+        "B55 | GRAPH | 562660148 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 978527848,
+      "runs": 1,
+      "objects": [
+        "B55 | GRAPH | 978527848 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 1004133492,
+      "runs": 1,
+      "objects": [
+        "B55 | GRAPH | 1004133492 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 1004133493,
+      "runs": 1,
+      "objects": [
+        "B55 | GRAPH | 1004133493 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 1004133494,
+      "runs": 1,
+      "objects": [
+        "B55 | GRAPH | 1004133494 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 1075624454,
+      "runs": 1,
+      "objects": [
+        "B55 | GRAPH | 1075624454 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 1321544428,
+      "runs": 1,
+      "objects": [
+        "B55 | GRAPH | 1321544428 | run 0"
+      ]
+    }
+  ],
+  "graph_way_count": 9,
+  "existing_ground_changed": false,
+  "water_changed": false,
+  "quay_changed": false,
+  "piers_changed": false,
+  "protected_changes": [],
+  "runtime_exported": false,
+  "approved": false,
+  "pending": [
+    "Auditoria geométrica final B55",
+    "Chunking/streaming após gate final"
+  ]
+}

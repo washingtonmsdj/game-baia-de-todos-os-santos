@@ -1,0 +1,141 @@
+{
+  "schema": "boas/coastal-union-r30b53-audit-v1",
+  "source_reopened": true,
+  "new_visual_collision_identical": true,
+  "roads": [
+    {
+      "osm_way_id": 154743329,
+      "name": "Rua da Conceição da Praia",
+      "role": "road_driveable",
+      "max_abs_grade": 0.3989793592633822,
+      "max_abs_crossfall": 0.19880294799804688,
+      "max_collision_visual_difference_m": 0.002685546875,
+      "support_missing_count": 0,
+      "issues": [
+        "grade_review",
+        "crossfall_review"
+      ]
+    },
+    {
+      "osm_way_id": 456471269,
+      "name": "Rua Manoel Vitórino",
+      "role": "road_driveable",
+      "max_abs_grade": 0.3243167983070945,
+      "max_abs_crossfall": 0.2531315730168269,
+      "max_collision_visual_difference_m": 0.0009307861328125,
+      "support_missing_count": 0,
+      "issues": [
+        "grade_review",
+        "crossfall_review"
+      ]
+    },
+    {
+      "osm_way_id": 562660148,
+      "name": "Avenida Lafayete Coutinho",
+      "role": "road_driveable",
+      "max_abs_grade": 0.007445832914742356,
+      "max_abs_crossfall": 0.021662394205729168,
+      "max_collision_visual_difference_m": 0.0029144287109375,
+      "support_missing_count": 0,
+      "issues": []
+    },
+    {
+      "osm_way_id": 978527848,
+      "name": "Avenida Lafayete Coutinho",
+      "role": "road_driveable",
+      "max_abs_grade": 0.30120091467190285,
+      "max_abs_crossfall": 0.1529015435112847,
+      "max_collision_visual_difference_m": 0.001495361328125,
+      "support_missing_count": 0,
+      "issues": [
+        "grade_review",
+        "crossfall_review"
+      ]
+    },
+    {
+      "osm_way_id": 1004133492,
+      "name": "",
+      "role": "road_driveable",
+      "max_abs_grade": 0.0465345400522606,
+      "max_abs_crossfall": 0.044190256219161186,
+      "max_collision_visual_difference_m": 0.0035400390625,
+      "support_missing_count": 1,
+      "issues": [
+        "support_missing"
+      ]
+    },
+    {
+      "osm_way_id": 1004133493,
+      "name": "",
+      "role": "road_driveable",
+      "max_abs_grade": 0.1794737076266007,
+      "max_abs_crossfall": 0.07388867829975329,
+      "max_collision_visual_difference_m": 0.0064544677734375,
+      "support_missing_count": 0,
+      "issues": []
+    },
+    {
+      "osm_way_id": 1004133494,
+      "name": "",
+      "role": "road_driveable",
+      "max_abs_grade": 0.13498402373467647,
+      "max_abs_crossfall": 0.10302894993832237,
+      "max_collision_visual_difference_m": 0.0057830810546875,
+      "support_missing_count": 0,
+      "issues": []
+    },
+    {
+      "osm_way_id": 1075624454,
+      "name": "Avenida Lafayete Coutinho",
+      "role": "road_driveable",
+      "max_abs_grade": 0.434649659184329,
+      "max_abs_crossfall": 0.1573418511284722,
+      "max_collision_visual_difference_m": 0.0045166015625,
+      "support_missing_count": 0,
+      "issues": [
+        "grade_review",
+        "crossfall_review"
+      ]
+    },
+    {
+      "osm_way_id": 1321544428,
+      "name": "",
+      "role": "walkable",
+      "max_abs_grade": 0.3730448723805867,
+      "max_abs_crossfall": 0.21380337801846588,
+      "max_collision_visual_difference_m": 0.0029449462890625,
+      "support_missing_count": 0,
+      "issues": []
+    }
+  ],
+  "issue_counts": {
+    "grade_review": 4,
+    "crossfall_review": 4,
+    "collision_visual_difference": 0,
+    "support_missing": 1
+  },
+  "graph_objects": 9,
+  "graph_way_ids": [
+    154743329,
+    456471269,
+    562660148,
+    978527848,
+    1004133492,
+    1004133493,
+    1004133494,
+    1075624454,
+    1321544428
+  ],
+  "hard_boundary_samples": 0,
+  "hard_boundary_max_error_m": null,
+  "hard_boundary_median_error_m": null,
+  "thresholds": {
+    "vehicle_grade": 0.3,
+    "vehicle_crossfall": 0.15,
+    "walk_grade": 0.45,
+    "walk_crossfall": 0.25,
+    "collision_diff": 0.05
+  },
+  "geometry_changed": false,
+  "approved": false
+}

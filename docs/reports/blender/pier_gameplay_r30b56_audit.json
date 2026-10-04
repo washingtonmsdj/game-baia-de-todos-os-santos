@@ -1,0 +1,35 @@
+{
+  "schema": "boas/pier-gameplay-r30b56-audit-v1",
+  "source_reopened": true,
+  "footprints": [
+    {
+      "osm_id": 1426173139,
+      "same_geometry": true,
+      "vertices": 5,
+      "faces": 1
+    },
+    {
+      "osm_id": 1426173140,
+      "same_geometry": true,
+      "vertices": 7,
+      "faces": 1
+    }
+  ],
+  "all_collision_identical": true,
+  "graph_count": 4,
+  "graph_ids": [
+    1426173138,
+    1426173325,
+    1426173326,
+    1426173327
+  ],
+  "expected_graph_ids": [
+    1426173138,
+    1426173325,
+    1426173326,
+    1426173327
+  ],
+  "linear_piers_still_reference_only": true,
+  "geometry_changed": false,
+  "approved": false
+}

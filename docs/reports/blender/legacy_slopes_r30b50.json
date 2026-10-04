@@ -1,0 +1,101 @@
+{
+  "schema": "boas/legacy-slopes-r30b50-v1",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b49_costa_e_fundo_candidatos.blend",
+    "revision": "R30B.49",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b48_expansao_costeira_dem.blend",
+    "evidence": "docs/reports/blender/coast_seabed_r30b49.json",
+    "sha256": "93a6b21c44d883313a10d0ca970794af9333823ed39d86185467542852a62a58",
+    "notes": "Separa semanticamente terra emersa, transição costeira e fundo submerso candidato; água, cais, píeres e terreno oficial preservados; gameplay/runtime não promovidos."
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b50_encosta_sem_blockouts.blend",
+    "revision": "R30B.50",
+    "sha256": "c12a08397fe72feb4b3852b527826747455dc20d0a52c87ed89363131c98c314"
+  },
+  "classification": "ERROR",
+  "hidden_legacy_objects": [
+    {
+      "name": "Encosta | fechamento lateral",
+      "verts": 8,
+      "polys": 1,
+      "was_hide_viewport": false,
+      "was_hide_render": false
+    },
+    {
+      "name": "Encosta | fechamento lateral.001",
+      "verts": 8,
+      "polys": 1,
+      "was_hide_viewport": false,
+      "was_hide_render": false
+    },
+    {
+      "name": "Encosta | faixa 00",
+      "verts": 4,
+      "polys": 1,
+      "was_hide_viewport": false,
+      "was_hide_render": false
+    },
+    {
+      "name": "Encosta | faixa 01",
+      "verts": 4,
+      "polys": 1,
+      "was_hide_viewport": false,
+      "was_hide_render": false
+    },
+    {
+      "name": "Encosta | faixa 02",
+      "verts": 4,
+      "polys": 1,
+      "was_hide_viewport": false,
+      "was_hide_render": false
+    },
+    {
+      "name": "Encosta | faixa 03",
+      "verts": 4,
+      "polys": 1,
+      "was_hide_viewport": false,
+      "was_hide_render": false
+    },
+    {
+      "name": "Encosta | faixa 04",
+      "verts": 4,
+      "polys": 1,
+      "was_hide_viewport": false,
+      "was_hide_render": false
+    },
+    {
+      "name": "Encosta | coroamento",
+      "verts": 8,
+      "polys": 6,
+      "was_hide_viewport": false,
+      "was_hide_render": false
+    },
+    {
+      "name": "Encosta | coroamento.001",
+      "verts": 8,
+      "polys": 6,
+      "was_hide_viewport": false,
+      "was_hide_render": false
+    }
+  ],
+  "deleted_objects": 0,
+  "existing_ground_changed": false,
+  "coastal_expansion_changed": false,
+  "water_changed": false,
+  "quay_changed": false,
+  "piers_changed": false,
+  "protected_changes": [],
+  "runtime_exported": false,
+  "approved": false,
+  "notes": [
+    "Blockouts de uma única face/baixa topologia foram ocultados, não apagados.",
+    "A encosta visível passa a usar superfícies funcionais/contínuas já presentes; não foi inventada nova topografia."
+  ],
+  "pending": [
+    "Revisão visual da encosta sem blockouts",
+    "Refino de materiais/vegetação em etapa separada",
+    "Gameplay/runtime continuam não promovidos"
+  ]
+}

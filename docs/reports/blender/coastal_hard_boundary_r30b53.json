@@ -1,0 +1,114 @@
+{
+  "schema": "boas/coastal-hard-boundary-r30b53-v1",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b52_gameplay_integrado.blend",
+    "revision": "R30B.52",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b51_gameplay_costeiro.blend",
+    "evidence": "docs/reports/blender/coastal_integrated_r30b52.json",
+    "sha256": "96ba58f55cbf3cc2d4f8a2d8871537aa212a15a17f58183119feb78a2f047a99",
+    "notes": "Superfície costeira integrada de 2m: terreno+vias+walkable na mesma malha, colisão idêntica, 9/9 grafos OSM; aguarda auditoria geométrica e streaming."
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b53_costura_gameplay.blend",
+    "revision": "R30B.53",
+    "sha256": "c9b54542fe024e4b0f56f8e54215cc2d6102a18832c2fdb38682bf589da3f01c"
+  },
+  "surface_object": "B53 | GAMEPLAY TERRAIN | costa + vias | hard boundary",
+  "collision_object": "B53 | COLLISION | costa + vias | hard boundary",
+  "vertices": 19137,
+  "faces": 18684,
+  "boundary": {
+    "schema": "boas/coastal-seam-b53-v1",
+    "source": "artifacts/waterfront/coastal_integrated_surface_b52.npz",
+    "boundary_x": -284.0,
+    "official_ground_y_min": -280.0,
+    "blend_west_x": -324.0,
+    "blend_distance_m": 40.0,
+    "hard_controls_applied": 136,
+    "max_boundary_error_before_m": 4.372089874551186,
+    "median_boundary_error_before_m": 0.9378804048441172,
+    "max_boundary_error_after_m": 0.0,
+    "remaining_mask_points": 19137,
+    "policy": "existing official terrain owns x>-284 for y>=-280; expansion owns the remainder; hard boundary values come from Blender terrain controls"
+  },
+  "graph": [
+    {
+      "osm_way_id": 154743329,
+      "runs": 1,
+      "objects": [
+        "B53 | GRAPH | 154743329 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 456471269,
+      "runs": 1,
+      "objects": [
+        "B53 | GRAPH | 456471269 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 562660148,
+      "runs": 1,
+      "objects": [
+        "B53 | GRAPH | 562660148 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 978527848,
+      "runs": 1,
+      "objects": [
+        "B53 | GRAPH | 978527848 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 1004133492,
+      "runs": 1,
+      "objects": [
+        "B53 | GRAPH | 1004133492 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 1004133493,
+      "runs": 1,
+      "objects": [
+        "B53 | GRAPH | 1004133493 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 1004133494,
+      "runs": 1,
+      "objects": [
+        "B53 | GRAPH | 1004133494 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 1075624454,
+      "runs": 1,
+      "objects": [
+        "B53 | GRAPH | 1075624454 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 1321544428,
+      "runs": 1,
+      "objects": [
+        "B53 | GRAPH | 1321544428 | run 0"
+      ]
+    }
+  ],
+  "graph_way_count": 9,
+  "superseded_objects_hidden": 11,
+  "existing_ground_changed": false,
+  "water_changed": false,
+  "quay_changed": false,
+  "piers_changed": false,
+  "protected_changes": [],
+  "runtime_exported": false,
+  "approved": false,
+  "pending": [
+    "Auditar costura/grade/crossfall com superfície combinada",
+    "Validar colisão combinada B53 + proxy oficial",
+    "Depois gerar chunks/streaming"
+  ]
+}

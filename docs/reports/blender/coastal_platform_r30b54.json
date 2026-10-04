@@ -1,0 +1,114 @@
+{
+  "schema": "boas/coastal-platform-r30b54-v1",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b53_costura_gameplay.blend",
+    "revision": "R30B.53",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b52_gameplay_integrado.blend",
+    "evidence": "docs/reports/blender/coastal_hard_boundary_r30b53.json",
+    "sha256": "c9b54542fe024e4b0f56f8e54215cc2d6102a18832c2fdb38682bf589da3f01c",
+    "notes": "Hard-boundary em X=-284 onde terreno oficial existe; expansão e terreno oficial sem sobreposição concorrente; 9/9 grafos; aguarda auditoria combinada visual/colisão."
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b54_plataformas_gameplay.blend",
+    "revision": "R30B.54",
+    "sha256": "68cd5432d36e7f7b3988fb5a6aeba37188a9ff19ab336fa97fa53464a32d862a"
+  },
+  "surface_object": "B54 | GAMEPLAY TERRAIN | costa + vias refinadas",
+  "collision_object": "B54 | COLLISION | costa + vias refinadas",
+  "vertices": 19137,
+  "faces": 18684,
+  "platform_meta": {
+    "schema": "boas/coastal-road-platform-b54-v2",
+    "source": "coastal_integrated_surface_b53.npz",
+    "graph_nodes": 185,
+    "graph_edges": 180,
+    "hard_anchor_nodes": 6,
+    "skipped_surface_samples": 7,
+    "iterations": 43,
+    "max_graph_grade": 0.38411948842379345,
+    "max_vehicle_graph_grade": 0.1800002259866431,
+    "vehicle_grade_limit": 0.18,
+    "boundary_x": -284.0,
+    "max_boundary_residual_before_final_lock_m": 0.5863475883098728,
+    "final_boundary_error_m": 0.0
+  },
+  "graph": [
+    {
+      "osm_way_id": 154743329,
+      "runs": 1,
+      "objects": [
+        "B54 | GRAPH | 154743329 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 456471269,
+      "runs": 1,
+      "objects": [
+        "B54 | GRAPH | 456471269 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 562660148,
+      "runs": 1,
+      "objects": [
+        "B54 | GRAPH | 562660148 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 978527848,
+      "runs": 1,
+      "objects": [
+        "B54 | GRAPH | 978527848 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 1004133492,
+      "runs": 1,
+      "objects": [
+        "B54 | GRAPH | 1004133492 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 1004133493,
+      "runs": 1,
+      "objects": [
+        "B54 | GRAPH | 1004133493 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 1004133494,
+      "runs": 1,
+      "objects": [
+        "B54 | GRAPH | 1004133494 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 1075624454,
+      "runs": 1,
+      "objects": [
+        "B54 | GRAPH | 1075624454 | run 0"
+      ]
+    },
+    {
+      "osm_way_id": 1321544428,
+      "runs": 1,
+      "objects": [
+        "B54 | GRAPH | 1321544428 | run 0"
+      ]
+    }
+  ],
+  "graph_way_count": 9,
+  "superseded_hidden": 11,
+  "existing_ground_changed": false,
+  "water_changed": false,
+  "quay_changed": false,
+  "piers_changed": false,
+  "protected_changes": [],
+  "runtime_exported": false,
+  "approved": false,
+  "pending": [
+    "Auditoria final de grade/crossfall/costura/colisão",
+    "Chunking e streaming após gate geométrico"
+  ]
+}

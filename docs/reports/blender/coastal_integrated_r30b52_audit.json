@@ -1,0 +1,154 @@
+{
+  "schema": "boas/coastal-integrated-r30b52-audit-v1",
+  "source_reopened": true,
+  "visual_collision_geometry_identical": true,
+  "visual_vertices": 20708,
+  "collision_vertices": 20708,
+  "visual_faces": 20245,
+  "collision_faces": 20245,
+  "roads": [
+    {
+      "osm_way_id": 154743329,
+      "name": "Rua da Conceição da Praia",
+      "role": "road_driveable",
+      "width_m": 6.4,
+      "max_abs_grade": 0.17846923579706228,
+      "max_abs_crossfall": 0.09479999542236328,
+      "max_collision_visual_difference_m": 0.0,
+      "support_missing_count": 2,
+      "issues": [
+        "support_missing"
+      ]
+    },
+    {
+      "osm_way_id": 456471269,
+      "name": "Rua Manoel Vitórino",
+      "role": "road_driveable",
+      "width_m": 5.2,
+      "max_abs_grade": 0.1797335524000102,
+      "max_abs_crossfall": 0.10759206918569711,
+      "max_collision_visual_difference_m": 0.0,
+      "support_missing_count": 1,
+      "issues": [
+        "support_missing"
+      ]
+    },
+    {
+      "osm_way_id": 562660148,
+      "name": "Avenida Lafayete Coutinho",
+      "role": "road_driveable",
+      "width_m": 9.0,
+      "max_abs_grade": 0.11183303983778155,
+      "max_abs_crossfall": 0.037989298502604164,
+      "max_collision_visual_difference_m": 0.0,
+      "support_missing_count": 3,
+      "issues": [
+        "support_missing"
+      ]
+    },
+    {
+      "osm_way_id": 978527848,
+      "name": "Avenida Lafayete Coutinho",
+      "role": "road_driveable",
+      "width_m": 9.0,
+      "max_abs_grade": 0.17198510241755718,
+      "max_abs_crossfall": 0.1283026801215278,
+      "max_collision_visual_difference_m": 0.0,
+      "support_missing_count": 0,
+      "issues": []
+    },
+    {
+      "osm_way_id": 1004133492,
+      "name": "",
+      "role": "road_driveable",
+      "width_m": 3.8,
+      "max_abs_grade": 0.11455433164004969,
+      "max_abs_crossfall": 0.030308773643092108,
+      "max_collision_visual_difference_m": 0.0,
+      "support_missing_count": 2,
+      "issues": [
+        "support_missing"
+      ]
+    },
+    {
+      "osm_way_id": 1004133493,
+      "name": "",
+      "role": "road_driveable",
+      "width_m": 3.8,
+      "max_abs_grade": 0.1794737076266007,
+      "max_abs_crossfall": 0.06140457956414474,
+      "max_collision_visual_difference_m": 0.0,
+      "support_missing_count": 1,
+      "issues": [
+        "support_missing"
+      ]
+    },
+    {
+      "osm_way_id": 1004133494,
+      "name": "",
+      "role": "road_driveable",
+      "width_m": 3.8,
+      "max_abs_grade": 0.17303434124434552,
+      "max_abs_crossfall": 0.04331086811266448,
+      "max_collision_visual_difference_m": 0.0,
+      "support_missing_count": 1,
+      "issues": [
+        "support_missing"
+      ]
+    },
+    {
+      "osm_way_id": 1075624454,
+      "name": "Avenida Lafayete Coutinho",
+      "role": "road_driveable",
+      "width_m": 9.0,
+      "max_abs_grade": 0.17668889771791238,
+      "max_abs_crossfall": 0.061065673828125,
+      "max_collision_visual_difference_m": 0.0,
+      "support_missing_count": 0,
+      "issues": []
+    },
+    {
+      "osm_way_id": 1321544428,
+      "name": "",
+      "role": "walkable",
+      "width_m": 2.2,
+      "max_abs_grade": 0.44756168011862363,
+      "max_abs_crossfall": 0.14250321821732953,
+      "max_collision_visual_difference_m": 0.0,
+      "support_missing_count": 1,
+      "issues": [
+        "support_missing"
+      ]
+    }
+  ],
+  "issue_counts": {
+    "grade_review": 0,
+    "crossfall_review": 0,
+    "collision_visual_difference": 0,
+    "support_missing": 7
+  },
+  "road_graph_objects": 9,
+  "road_graph_way_ids": [
+    154743329,
+    456471269,
+    562660148,
+    978527848,
+    1004133492,
+    1004133493,
+    1004133494,
+    1075624454,
+    1321544428
+  ],
+  "seam_samples": 1552,
+  "seam_median_abs_error_m": 0.01996612548828125,
+  "seam_max_abs_error_m": 4.3720855712890625,
+  "thresholds": {
+    "vehicle_grade": 0.3,
+    "vehicle_crossfall": 0.15,
+    "walk_grade": 0.45,
+    "walk_crossfall": 0.25,
+    "collision_diff_m": 0.05
+  },
+  "geometry_changed": false,
+  "approved": false
+}

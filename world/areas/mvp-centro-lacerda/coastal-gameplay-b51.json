@@ -1,0 +1,349 @@
+{
+  "schema": "boas/coastal-gameplay-contract-b51-v1",
+  "area_id": "mvp-centro-lacerda",
+  "bbox_blender": {
+    "min_x": -560.0,
+    "max_x": -270.0,
+    "min_y": -510.0,
+    "max_y": 10.0
+  },
+  "source": {
+    "aleph_capture": "data/aleph/aleph-20260924T205631Z-aqqo7pkx",
+    "osm_source": "Aleph map.osm -> structural_reference.json",
+    "terrain_source": "Aleph terrain.tif/terrain_samples -> B48/B49 relative DEM expansion",
+    "georef_fit": "artifacts/structural-pipeline/mvp-centro-lacerda/georef_fit.json"
+  },
+  "terrain": {
+    "visual_objects": [
+      "EXPANSAO B49 | terra emersa costeira | candidata",
+      "EXPANSAO B49 | faixa de transicao costeira | candidata",
+      "EXPANSAO B49 | fundo submerso DEM relativo | candidato"
+    ],
+    "gameplay_required": true,
+    "collision_required": true,
+    "underwater_collision_required": true,
+    "runtime_approved": false
+  },
+  "roads": [
+    {
+      "osm_way_id": 154743329,
+      "name": "Rua da Conceição da Praia",
+      "highway": "tertiary",
+      "source_width_m": null,
+      "lanes": "2",
+      "oneway": "yes",
+      "access": null,
+      "surface": "sett",
+      "blender_xy": [
+        [
+          -296.67210311535746,
+          -199.4410952120088
+        ],
+        [
+          -267.0124314245768,
+          -159.5799720119685
+        ],
+        [
+          -262.5912606716156,
+          -155.08423461578786
+        ]
+      ],
+      "gameplay_width_m": 6.4,
+      "gameplay_width_basis": "production.runtime.road_widths_gameplay_m.tertiary",
+      "gameplay_width_status": "ADAPT_GAMEPLAY_NOT_SURVEYED",
+      "role": "road_driveable"
+    },
+    {
+      "osm_way_id": 456471269,
+      "name": "Rua Manoel Vitórino",
+      "highway": "residential",
+      "source_width_m": null,
+      "lanes": null,
+      "oneway": null,
+      "access": null,
+      "surface": null,
+      "blender_xy": [
+        [
+          -296.67210311535746,
+          -199.4410952120088
+        ],
+        [
+          -227.34823036426678,
+          -163.9930316649843
+        ],
+        [
+          -212.86769079975784,
+          -154.28618312790059
+        ],
+        [
+          -201.30347418366,
+          -144.96464521507733
+        ],
+        [
+          -189.6497808918357,
+          -132.1853170027025
+        ],
+        [
+          -182.1570345563814,
+          -122.74933394929394
+        ],
+        [
+          -170.0119497864507,
+          -103.90809846599586
+        ]
+      ],
+      "gameplay_width_m": 5.2,
+      "gameplay_width_basis": "production.runtime.road_widths_gameplay_m.residential",
+      "gameplay_width_status": "ADAPT_GAMEPLAY_NOT_SURVEYED",
+      "role": "road_driveable"
+    },
+    {
+      "osm_way_id": 562660148,
+      "name": "Avenida Lafayete Coutinho",
+      "highway": "primary",
+      "source_width_m": null,
+      "lanes": "3",
+      "oneway": "yes",
+      "access": null,
+      "surface": "asphalt",
+      "blender_xy": [
+        [
+          -274.0031733987853,
+          -151.02880754391663
+        ],
+        [
+          -132.43779080128297,
+          18.812550018075854
+        ],
+        [
+          -115.56570559740067,
+          33.8702271473594
+        ]
+      ],
+      "gameplay_width_m": 9.0,
+      "gameplay_width_basis": "production.runtime.road_widths_gameplay_m.primary",
+      "gameplay_width_status": "ADAPT_GAMEPLAY_NOT_SURVEYED",
+      "role": "road_driveable"
+    },
+    {
+      "osm_way_id": 978527848,
+      "name": "Avenida Lafayete Coutinho",
+      "highway": "primary",
+      "source_width_m": null,
+      "lanes": "3",
+      "oneway": "yes",
+      "access": null,
+      "surface": "asphalt",
+      "blender_xy": [
+        [
+          -268.6939136525616,
+          -131.59407404111698
+        ],
+        [
+          -308.0915210461244,
+          -179.54812202765606
+        ]
+      ],
+      "gameplay_width_m": 9.0,
+      "gameplay_width_basis": "production.runtime.road_widths_gameplay_m.primary",
+      "gameplay_width_status": "ADAPT_GAMEPLAY_NOT_SURVEYED",
+      "role": "road_driveable"
+    },
+    {
+      "osm_way_id": 1004133492,
+      "name": "",
+      "highway": "service",
+      "source_width_m": null,
+      "lanes": null,
+      "oneway": null,
+      "access": "private",
+      "surface": null,
+      "blender_xy": [
+        [
+          -290.9766744663939,
+          11.206718124914914
+        ],
+        [
+          -276.6985032390803,
+          -0.17701393319293857
+        ],
+        [
+          -265.1515568527393,
+          1.8741241139359772
+        ],
+        [
+          -233.81147903529927,
+          -23.866042068693787
+        ],
+        [
+          -210.73819916741922,
+          5.616040823049843
+        ],
+        [
+          -178.8745850995183,
+          46.32828550343402
+        ]
+      ],
+      "gameplay_width_m": 3.8,
+      "gameplay_width_basis": "production.runtime.road_widths_gameplay_m.service",
+      "gameplay_width_status": "ADAPT_GAMEPLAY_NOT_SURVEYED",
+      "role": "road_driveable"
+    },
+    {
+      "osm_way_id": 1004133493,
+      "name": "",
+      "highway": "service",
+      "source_width_m": null,
+      "lanes": null,
+      "oneway": null,
+      "access": "private",
+      "surface": null,
+      "blender_xy": [
+        [
+          -233.81147903529927,
+          -23.866042068693787
+        ],
+        [
+          -258.47486193012446,
+          -56.17287959647365
+        ],
+        [
+          -282.630540240556,
+          -88.35829488723539
+        ],
+        [
+          -303.73716011457145,
+          -116.63419040897861
+        ],
+        [
+          -331.60208265157416,
+          -154.2913446170278
+        ],
+        [
+          -318.6950374385342,
+          -165.15302659152076
+        ]
+      ],
+      "gameplay_width_m": 3.8,
+      "gameplay_width_basis": "production.runtime.road_widths_gameplay_m.service",
+      "gameplay_width_status": "ADAPT_GAMEPLAY_NOT_SURVEYED",
+      "role": "road_driveable"
+    },
+    {
+      "osm_way_id": 1004133494,
+      "name": "",
+      "highway": "service",
+      "source_width_m": null,
+      "lanes": null,
+      "oneway": null,
+      "access": "private",
+      "surface": null,
+      "blender_xy": [
+        [
+          -258.47486193012446,
+          -56.17287959647365
+        ],
+        [
+          -246.7871322701685,
+          -65.82540174154565
+        ],
+        [
+          -290.58045428898185,
+          -126.07746549323201
+        ],
+        [
+          -303.73716011457145,
+          -116.63419040897861
+        ]
+      ],
+      "gameplay_width_m": 3.8,
+      "gameplay_width_basis": "production.runtime.road_widths_gameplay_m.service",
+      "gameplay_width_status": "ADAPT_GAMEPLAY_NOT_SURVEYED",
+      "role": "road_driveable"
+    },
+    {
+      "osm_way_id": 1075624454,
+      "name": "Avenida Lafayete Coutinho",
+      "highway": "primary",
+      "source_width_m": null,
+      "lanes": "2",
+      "oneway": "yes",
+      "access": null,
+      "surface": "asphalt",
+      "blender_xy": [
+        [
+          -355.96155136823654,
+          -257.70689071086235
+        ],
+        [
+          -349.14948583208025,
+          -248.5916650313884
+        ],
+        [
+          -274.0031733987853,
+          -151.02880754391663
+        ]
+      ],
+      "gameplay_width_m": 9.0,
+      "gameplay_width_basis": "production.runtime.road_widths_gameplay_m.primary",
+      "gameplay_width_status": "ADAPT_GAMEPLAY_NOT_SURVEYED",
+      "role": "road_driveable"
+    },
+    {
+      "osm_way_id": 1321544428,
+      "name": "",
+      "highway": "footway",
+      "source_width_m": null,
+      "lanes": null,
+      "oneway": null,
+      "access": null,
+      "surface": "sett",
+      "blender_xy": [
+        [
+          -305.2483412004076,
+          -164.26727543980815
+        ],
+        [
+          -230.17125713219866,
+          -71.68087757192552
+        ],
+        [
+          -224.35824829433113,
+          -68.70475050783716
+        ],
+        [
+          -159.99660631082952,
+          9.593964952742681
+        ],
+        [
+          -159.65896826377138,
+          12.785530515480787
+        ],
+        [
+          -160.36957318848,
+          15.246559411287308
+        ],
+        [
+          -161.21006315713748,
+          17.386300574056804
+        ],
+        [
+          -162.41871691355482,
+          18.440248442115262
+        ]
+      ],
+      "gameplay_width_m": 2.2,
+      "gameplay_width_basis": "aleph_historical_gameplay_footway_2.2m",
+      "gameplay_width_status": "ADAPT_GAMEPLAY_NOT_SURVEYED",
+      "role": "walkable"
+    }
+  ],
+  "policy": {
+    "all_generated_terrain_is_gameplay_surface": true,
+    "render_and_collision_share_same_elevation_source": true,
+    "road_centerlines_are_osm_authoritative": true,
+    "gameplay_widths_do_not_claim_surveyed_real_width": true,
+    "do_not_resize_existing_source_geometry": true,
+    "restricted_service_roads_remain_restricted": true
+  }
+}

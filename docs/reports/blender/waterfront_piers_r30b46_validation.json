@@ -1,0 +1,43 @@
+{
+  "schema": "boas/waterfront-piers-r30b46-validation-v2",
+  "source_reopened": true,
+  "rows": [
+    {
+      "osm_id": 1321682676,
+      "kind": "centerline",
+      "max_xy_error_m": 0.0,
+      "z": 7.255664825439453
+    },
+    {
+      "osm_id": 1321682677,
+      "kind": "centerline",
+      "max_xy_error_m": 0.0,
+      "z": 7.255664825439453
+    },
+    {
+      "osm_id": 1426173139,
+      "kind": "footprint",
+      "max_xy_error_m": 0.0,
+      "blender_area_m2": 111.85163817973807,
+      "source_projected_area_m2": 118.83544921875,
+      "z": 7.255664825439453
+    },
+    {
+      "osm_id": 1426173140,
+      "kind": "footprint",
+      "max_xy_error_m": 0.0,
+      "blender_area_m2": 365.8470586705953,
+      "source_projected_area_m2": 388.68798828125,
+      "z": 7.255664825439453
+    }
+  ],
+  "protected_objects_identical": true,
+  "protected_objects": [
+    "MVP | terreno corrigido | colisão estática",
+    "BAÍA DE TODOS-OS-SANTOS | superfície e recorte costeiro",
+    "CAIS | contenção costeira alinhada à linha de costa"
+  ],
+  "area_note": "source_projected_area_m2 pertence ao CRS projetado da fonte; não comparar diretamente com área Blender após fit XY",
+  "approved": false,
+  "geometry_changed": false
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "boas/terrain-gameplay-policy-v1",
+  "area_id": "mvp-centro-lacerda",
+  "status": "mandatory",
+  "principle": "Todo terreno gerado para o mapa deve nascer como espaço jogável; não existe expansão puramente cenográfica.",
+  "required_for_every_generated_terrain": {
+    "visual_surface": true,
+    "collision_surface_same_elevation_source": true,
+    "walkable_or_driveable_classification": true,
+    "osm_roads_materialized_when_present": true,
+    "road_collision_and_support": true,
+    "road_graph_when_driveable": true,
+    "pedestrian_graph_or_walkable_surface_when_footway_present": true,
+    "water_transition_when_coastal": true,
+    "underwater_gameplay_contract_when_submerged": true,
+    "streaming_chunk_plan_before_runtime_promotion": true,
+    "provenance_and_evidence": true
+  },
+  "gates": {
+    "vehicle_grade_max": 0.3,
+    "vehicle_crossfall_max": 0.15,
+    "walk_grade_max": 0.45,
+    "walk_crossfall_max": 0.25,
+    "visual_collision_max_difference_m": 0.05,
+    "support_missing_allowed": 0,
+    "hard_boundary_max_error_m": 0.0
+  },
+  "source_priority": [
+    "Projeto do jogo: geometria já validada e contratos de gameplay",
+    "Aleph: OSM/map.osm, terrain.tif, implantação e auditorias como fonte auxiliar",
+    "OSM estrutural do pipeline do jogo",
+    "Adaptação de gameplay explicitamente marcada quando largura/medida real não estiver disponível"
+  ],
+  "prohibitions": [
+    "Não gerar terreno apenas para preencher horizonte.",
+    "Não criar estrada visual sem superfície dirigível/colisão correspondente.",
+    "Não inventar largura real; largura adaptada de gameplay deve permanecer rotulada.",
+    "Não preencher mar como terra.",
+    "Não promover terreno sem auditoria de grade, crossfall, colisão, suporte e costura."
+  ],
+  "validated_example": {
+    "revision": "R30B.55",
+    "audit": "docs/reports/blender/coastal_gameplay_r30b55_audit.json",
+    "roads": 9,
+    "issue_counts": {
+      "grade_review": 0,
+      "crossfall_review": 0,
+      "collision_visual_difference": 0,
+      "support_missing": 0
+    }
+  }
+}

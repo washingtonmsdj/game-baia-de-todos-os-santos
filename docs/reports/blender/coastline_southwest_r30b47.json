@@ -1,0 +1,70 @@
+{
+  "schema": "boas/coastline-southwest-r30b47-v1",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b46_pieres_osm.blend",
+    "revision": "R30B.46",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b45_proxy_misericordia_final.blend",
+    "evidence": "docs/reports/blender/waterfront_piers_r30b46.json",
+    "sha256": "ee3cebdda0fb6830e838298f92208ac53cc6d623582097449c0b075cc7c39263",
+    "notes": "Materializa 4 píeres OSM: dois footprints fechados e dois eixos lineares sem largura inventada; água/terreno/cais preservados; ainda não promove gameplay/runtime."
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b47_coastline_sudoeste.blend",
+    "revision": "R30B.47",
+    "sha256": "9c0a880ce49ecd8d2c9460b19b2b0746007ca2416c02fca6618a66916e7c0e70"
+  },
+  "classification": "ERROR",
+  "osm_way_id": 354138561,
+  "source_tag": "natural=coastline",
+  "source_points_used": 48,
+  "source_point_range": [
+    0,
+    47
+  ],
+  "dem_cutoff_blender_x_m": -555.0,
+  "first_source_xy": [
+    -356.14056396484375,
+    -94.77637481689453
+  ],
+  "last_source_xy": [
+    -553.2421875,
+    -498.5760192871094
+  ],
+  "old_artificial_closure": {
+    "outer_xy": [
+      -430.0,
+      -850.0
+    ],
+    "shore_xy": [
+      -358.70416259765625,
+      -94.84332275390625
+    ],
+    "length_m": 758.5148127699329
+  },
+  "remaining_outer_closure": {
+    "from_xy": [
+      -430.0,
+      -850.0
+    ],
+    "to_xy": [
+      -553.2421875,
+      -498.5760192871094
+    ],
+    "classification": "recorte_externo_nao_coastline"
+  },
+  "inserted_vertices": 48,
+  "maximum_target_xy_error_m": 0.0,
+  "water_level_m": 0.35,
+  "ground_changed": false,
+  "quay_changed": false,
+  "piers_changed": false,
+  "water_volume_changed": false,
+  "runtime_exported": false,
+  "approved": false,
+  "pending": [
+    "Reabrir e validar topologia/shoreline B47.",
+    "Construir terreno/encosta somente no lado terrestre com DEM; não preencher mar como solo.",
+    "Revisar ligação do fechamento externo da água fora da costa modelada."
+  ]
+}

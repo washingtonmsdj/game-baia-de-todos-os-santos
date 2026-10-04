@@ -1,0 +1,147 @@
+{
+  "schema": "boas/coastal-gameplay-r30b55-audit-v1",
+  "source_reopened": true,
+  "visual_collision_geometry_identical": true,
+  "visual_vertices": 19137,
+  "visual_faces": 18684,
+  "collision_vertices": 19137,
+  "collision_faces": 18684,
+  "roads": [
+    {
+      "osm_way_id": 154743329,
+      "name": "Rua da Conceição da Praia",
+      "role": "road_driveable",
+      "sample_count": 11,
+      "max_abs_grade": 0.24080338344180272,
+      "max_abs_crossfall": 0.1475071907043457,
+      "max_collision_visual_difference_m": 0.0,
+      "support_missing_count": 0,
+      "issues": []
+    },
+    {
+      "osm_way_id": 456471269,
+      "name": "Rua Manoel Vitórino",
+      "role": "road_driveable",
+      "sample_count": 8,
+      "max_abs_grade": 0.21486490178589762,
+      "max_abs_crossfall": 0.05942711463341346,
+      "max_collision_visual_difference_m": 0.0,
+      "support_missing_count": 0,
+      "issues": []
+    },
+    {
+      "osm_way_id": 562660148,
+      "name": "Avenida Lafayete Coutinho",
+      "role": "road_driveable",
+      "sample_count": 0,
+      "max_abs_grade": 0.0,
+      "max_abs_crossfall": 0.0,
+      "max_collision_visual_difference_m": 0.0,
+      "support_missing_count": 0,
+      "issues": []
+    },
+    {
+      "osm_way_id": 978527848,
+      "name": "Avenida Lafayete Coutinho",
+      "role": "road_driveable",
+      "sample_count": 20,
+      "max_abs_grade": 0.19646111584944284,
+      "max_abs_crossfall": 0.08196343315972222,
+      "max_collision_visual_difference_m": 0.0,
+      "support_missing_count": 0,
+      "issues": []
+    },
+    {
+      "osm_way_id": 1004133492,
+      "name": "",
+      "role": "road_driveable",
+      "sample_count": 0,
+      "max_abs_grade": 0.0,
+      "max_abs_crossfall": 0.0,
+      "max_collision_visual_difference_m": 0.0,
+      "support_missing_count": 0,
+      "issues": []
+    },
+    {
+      "osm_way_id": 1004133493,
+      "name": "",
+      "role": "road_driveable",
+      "sample_count": 50,
+      "max_abs_grade": 0.17559051074109364,
+      "max_abs_crossfall": 0.05530909488075658,
+      "max_collision_visual_difference_m": 0.000457763671875,
+      "support_missing_count": 0,
+      "issues": []
+    },
+    {
+      "osm_way_id": 1004133494,
+      "name": "",
+      "role": "road_driveable",
+      "sample_count": 15,
+      "max_abs_grade": 0.12624976337537389,
+      "max_abs_crossfall": 0.045679995888157895,
+      "max_collision_visual_difference_m": 0.0,
+      "support_missing_count": 0,
+      "issues": []
+    },
+    {
+      "osm_way_id": 1075624454,
+      "name": "Avenida Lafayete Coutinho",
+      "role": "road_driveable",
+      "sample_count": 60,
+      "max_abs_grade": 0.2058207757094778,
+      "max_abs_crossfall": 0.13486735026041666,
+      "max_collision_visual_difference_m": 0.0,
+      "support_missing_count": 0,
+      "issues": []
+    },
+    {
+      "osm_way_id": 1321544428,
+      "name": "",
+      "role": "walkable",
+      "sample_count": 17,
+      "max_abs_grade": 0.3667950888558797,
+      "max_abs_crossfall": 0.11847062544389203,
+      "max_collision_visual_difference_m": 0.0,
+      "support_missing_count": 0,
+      "issues": []
+    }
+  ],
+  "issue_counts": {
+    "grade_review": 0,
+    "crossfall_review": 0,
+    "collision_visual_difference": 0,
+    "support_missing": 0
+  },
+  "graph_objects": 9,
+  "graph_way_ids": [
+    154743329,
+    456471269,
+    562660148,
+    978527848,
+    1004133492,
+    1004133493,
+    1004133494,
+    1075624454,
+    1321544428
+  ],
+  "hard_boundary_samples": 136,
+  "hard_boundary_max_error_m": 0.0,
+  "hard_boundary_median_error_m": 0.0,
+  "thresholds": {
+    "vehicle_grade": 0.3,
+    "vehicle_crossfall": 0.15,
+    "walk_grade": 0.45,
+    "walk_crossfall": 0.25,
+    "collision_diff_m": 0.05
+  },
+  "gameplay_contract": {
+    "terrain_visual": true,
+    "terrain_collision": true,
+    "roads_required": true,
+    "walkable_required_when_osm_present": true,
+    "graphs_required_for_driveable": true
+  },
+  "geometry_changed": false,
+  "approved": false
+}

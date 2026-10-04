@@ -1,0 +1,54 @@
+{
+  "schema": "boas/coast-seabed-r30b49-v1",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b48_expansao_costeira_dem.blend",
+    "revision": "R30B.48",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b47_coastline_sudoeste.blend",
+    "evidence": "docs/reports/blender/coastal_terrain_r30b48.json",
+    "sha256": "03bd0b14e11799994986fe247506f6bd55af8b7c7736c23679cb383641777ca2",
+    "notes": "Expansão costeira sudoeste separada, usando forma relativa do DEM e costura local; terreno oficial, água, cais e píeres preservados; ainda não gameplay/runtime."
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b49_costa_e_fundo_candidatos.blend",
+    "revision": "R30B.49",
+    "sha256": "93a6b21c44d883313a10d0ca970794af9333823ed39d86185467542852a62a58"
+  },
+  "water_level_m": 0.35,
+  "classification_threshold_m": 0.3,
+  "land": {
+    "vertices": 710,
+    "faces": 621,
+    "z_min": 0.45893383026123047,
+    "z_max": 63.594818115234375
+  },
+  "transition": {
+    "vertices": 75,
+    "faces": 33,
+    "z_min": -2.3498687744140625,
+    "z_max": 12.830248832702637
+  },
+  "submerged": {
+    "vertices": 31,
+    "faces": 15,
+    "z_min": -2.463484764099121,
+    "z_max": 0.2832913398742676
+  },
+  "existing_ground_changed": false,
+  "water_changed": false,
+  "quay_changed": false,
+  "piers_changed": false,
+  "protected_changes": [],
+  "runtime_exported": false,
+  "approved": false,
+  "notes": [
+    "Terra, transição e fundo submerso foram separados semanticamente; nenhuma elevação foi inventada ou achatada.",
+    "Fundo submerso é apenas referência candidata para futura batimetria/gameplay de mergulho."
+  ],
+  "pending": [
+    "Validar visualmente a transição costa/água",
+    "Batimetria real continua ausente; não tratar o DEM terrestre como fundo final",
+    "Refinar encostas e vegetação em revisão posterior",
+    "Expandir recorte adicional usando a mesma disciplina"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "boas/coastline-southwest-r30b47-validation-v1",
+  "source_reopened": true,
+  "water_vertices": 123,
+  "water_polygons": 120,
+  "triangles": 120,
+  "degenerate_triangles_lt_1e8": 0,
+  "boundary_edges": 122,
+  "coastline_points_checked": 48,
+  "max_coastline_boundary_error_m": 0.0,
+  "protected_objects_identical": true,
+  "protected_count": 7,
+  "water_level_m": 0.35,
+  "approved": false,
+  "geometry_changed": false
+}
