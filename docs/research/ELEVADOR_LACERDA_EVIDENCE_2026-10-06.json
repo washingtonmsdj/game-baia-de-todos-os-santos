@@ -1,0 +1,136 @@
+{
+  "research_date": "2026-10-06",
+  "scope": "B80 upper boarding, shaft, cabin, landings and current post-restoration configuration",
+  "scene_mutation_authorized": false,
+  "sources": [
+    {
+      "id": "iphan-tombamento-1497-t-02",
+      "class": "OFFICIAL_TEXT",
+      "url": "https://portal.iphan.gov.br/uploads/publicacao/pareceres_conselho_consultivo_patrimonio_cultural_vol2.pdf",
+      "identifiers": ["01502.000406/2001-93", "1497-T-02"],
+      "supports": [
+        "existence of 2002 reform drawings",
+        "existence of contemporaneous photographs",
+        "administrative chronology of the 2002 intervention"
+      ],
+      "does_not_prove": [
+        "current cabin dimensions",
+        "current shaft clearance",
+        "current sill geometry"
+      ],
+      "priority": "highest"
+    },
+    {
+      "id": "iphan-digital-archive",
+      "class": "OFFICIAL_ARCHIVE_INDEX",
+      "url": "https://acervodigital.iphan.gov.br/",
+      "supports": ["discovery of digitized drawings, tombamento records, work reports and images"],
+      "search_terms": [
+        "Elevador Lacerda",
+        "1497-T-2002",
+        "1497-T-02",
+        "01502.000406/2001-93",
+        "Daniel Colina"
+      ]
+    },
+    {
+      "id": "ufba-concreto-salvador-1919-1938",
+      "class": "ACADEMIC_SECONDARY",
+      "url": "https://repositorio.ufba.br/bitstream/ri/24863/1/O%20concreto%20armado%20nas%20edifica%C3%A7%C3%B5es%20de%20Salvador%20no%20per%C3%ADodo%20entre%20guerras%20%281919-1938%29.pdf",
+      "relevant_pages": [183, 184],
+      "historical_drawing_refs": [
+        "Figura 122 - acesso Cidade Alta",
+        "Figura 123 - acesso Cidade Baixa",
+        "Figura 124 - corte, cadastro Daniel Colina 2000"
+      ],
+      "numeric_evidence": {
+        "passadico_m": [6.0, 28.7],
+        "tower_height_m": 73.0,
+        "tower_width_m": 7.5,
+        "tower_length_m_approx": 3.5,
+        "elevator_travel_m": 59.0,
+        "structural_beam_spacing_m": 3.5
+      },
+      "limitations": [
+        "historical secondary source",
+        "2000 survey predates 2001-2002 and 2023-2025 interventions",
+        "figures must be inspected at sufficient resolution before graphical measurement",
+        "numeric values must not be used to auto-rescale the B80 scene"
+      ]
+    },
+    {
+      "id": "sucop-concorrencia-24-2023",
+      "class": "OFFICIAL_DOCUMENT",
+      "url": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "supports": [
+        "existence of the 2023 restoration/requalification procurement",
+        "route to the official executive-project package"
+      ],
+      "retrieval_status": "direct PDF URL identified; full technical annex package not recovered in this research pass"
+    },
+    {
+      "id": "bahia-noticias-project-2023",
+      "class": "PROJECT_SECONDARY_REPORTING",
+      "url": "https://www.bahianoticias.com.br/noticia/285327-video-elevador-lacerda-vai-ganhar-ar-condicionado-e-varandas-e-cubana-muda-de-lugar-saiba-detalhes-e-valores-de-edital",
+      "supports": [
+        "AP Arquitetos Associados as executive-project author",
+        "SEDUR/FMLF supervision",
+        "upper station entry left / exit right",
+        "lower station recovered entry left / exit right",
+        "removal of triangular commercial spaces at lower station",
+        "reopening of lateral upper verandas"
+      ],
+      "does_not_prove": ["cabin W/D/H", "shaft clearances", "slab thicknesses"]
+    },
+    {
+      "id": "sbqp-2025-restoration",
+      "class": "ACADEMIC_TECHNICAL_RECENT",
+      "url": "https://eventos.antac.org.br/index.php/sbqp/article/download/8233/6115",
+      "doi": "10.46421/sbqp.v9i.8233",
+      "supports": [
+        "2023-2025 restoration based on historical research, architectural survey and diagnosis",
+        "interpretation of changes introduced in 2001-2002",
+        "post-restoration lower-station spatial documentation",
+        "removal/replacement of heavy ceilings and recovery of spatial reading"
+      ],
+      "does_not_prove": ["exact cabin dimensions", "exact shaft opening", "minimum running clearances"]
+    },
+    {
+      "id": "post-restoration-2025-reporting",
+      "class": "CURRENT_VISUAL_PROJECT_REPORT",
+      "urls": [
+        "https://caubr.gov.br/restauro-do-elevador-lacerda-mostra-forca-da-iluminacao-na-arquitetura/",
+        "https://www.maisregiao.com.br/noticia/79297/elevador-lacerda-sera-gratuito-por-90-dias-confira-mudancas"
+      ],
+      "supports": [
+        "new/requalified cabins after 2024-2025 works",
+        "brown anti-slip granite station floors",
+        "reopened upper verandas",
+        "new upper passadiço/station frames inspired by 1930 configuration",
+        "new lower-station skylights",
+        "post-restoration access configuration"
+      ]
+    }
+  ],
+  "b80_blocker_mapping": {
+    "upper_access_clear_width": "partial: drawings known to exist, not yet recovered",
+    "door_positions": "partial: flow orientation confirmed, fine geometry unknown",
+    "sill_to_cabin_gap": "unknown",
+    "slab_thickness_and_position": "unknown",
+    "internal_roof_geometry": "partial only",
+    "cabin_width_depth_height": "unknown",
+    "shaft_opening_and_clearance": "unknown",
+    "landing_vertical_alignment": "partial only",
+    "passadico": "historical reference 6.00 x 28.70 m",
+    "vertical_travel": "historical reference 59 m; compare only, do not auto-rescale",
+    "tower_general_envelope": "historical reference 73 m x 7.50 m x approx 3.50 m"
+  },
+  "rules": [
+    "Do not mutate B80 geometry from these numbers alone.",
+    "Do not auto-rescale scene from the 59 m historical travel reference.",
+    "Do not use the 6 m passadiço width to close walls or returns automatically.",
+    "Do not treat year-2000 drawings as post-2025 as-built state.",
+    "Keep movement blocked while solid CCD witnesses remain unexplained.",
+    "Any geometry correction must cite an independent supporting source."
+  ]
+}
