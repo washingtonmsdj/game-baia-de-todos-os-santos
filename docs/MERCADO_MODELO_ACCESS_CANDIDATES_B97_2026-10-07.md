@@ -146,3 +146,20 @@ candidato na B97 com as malhas caminháveis e os colisores reais
 largura da cápsula do personagem e buscar evidência independente da
 entrada física. O trajeto atual tem `fit_status=candidate_only` e
 `FULL_TOME_MARKET_ROUTE=NOT_APPROVED`.
+
+
+### Sondagem visual na B97 aberta
+
+A inspeção direta dos **cinco segmentos OSM encontrados**, no
+Blender B97 já aberto, realizou raycasts à altura **Z=8,0 m** com
+filtro de geometria visual relevante da Praça Cairu e Mercado Modelo.
+Resultado: **zero interseções no eixo central observado**. O teste
+manteve `bpy.data.is_dirty=false`, não modificou malha ou cena e não
+criou um caminho no runtime.
+
+**Limites materiais:** um único raio central não é um ensaio de cápsula
+com largura/altura, não cobre colisores ocultos nem classifica
+superfícies como caminháveis. Também permanece a lacuna de **6,711514 m**
+do último nó OSM até a abertura tipológica não autenticada.
+Assim, o resultado é somente `VISUAL_CENTERLINE_NO_HIT`;
+`route_approved=false` continua obrigatório.
