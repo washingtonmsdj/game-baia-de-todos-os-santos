@@ -102,6 +102,15 @@ O empacotador preserva vértices, índices, materiais, transforms e ancestrais g
 Cada nó com mesh pertence a exatamente um setor. Ancestrais sem mesh podem ser
 repetidos como estrutura, sem duplicar a geometria. Não recorta prédios pelo meio.
 
+Os setores incluem apenas materiais, texturas, imagens embutidas e samplers
+efetivamente referenciados por suas meshes. O empacotador remapeia os índices
+glTF e os bufferViews correspondentes, sem alterar a cena de origem. Quando
+extensões de materiais, texturas ou imagens exigirem dependências ainda
+desconhecidas, preserva conservadoramente as tabelas completas em vez de gerar
+referências inválidas. Testes sintéticos verificam integridade do GLB, seleção
+de recursos, índices e esse fallback seguro. Ganhos reais de memória e tráfego
+precisam ser medidos no pacote final, não presumidos.
+
 Objetos menores são atribuídos a células de 256 m. Objetos maiores que uma célula
 (terreno contínuo/oceano) ficam no core. O tamanho é uma configuração de entrega,
 não uma alteração da geografia. Mudar o tamanho gera nova release.
