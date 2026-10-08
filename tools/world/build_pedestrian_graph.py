@@ -136,6 +136,120 @@ def build_graph(structure: dict, fit_report: dict) -> dict:
     }
 
 
+
+def inspect_candidate_route(graph: dict, start_xy, target_xy, *,
+                            max_snap_distance_m: float = 2.5,
+                            allow_steps: bool = False) -> dict:
+    """Dijkstra restrito às arestas OSM, sem fabricar ligação entre nós ou entrada.
+
+    Retorna caminho sobre grafo *candidato*, não navmesh nem autorização de
+    movimento. Distância da origem e do alvo aos nós fica explícita; o
+    comprimento da rota não inclui saltos virtuais de snapping.
+    """
+    import heapq
+
+    def point(value, label):
+        if not isinstance(value, (list, tuple)) or len(value) != 2:
+            raise ValueError(f"{label}: XY deve ter duas coordenadas")
+        if any(isinstance(x, bool) or not isinstance(x, (int, float))
+               or not math.isfinite(x) for x in value):
+            raise ValueError(f"{label}: XY deve ser finito")
+        return [float(x) for x in value]
+
+    source = point(start_xy, "origem")
+    destination = point(target_xy, "destino")
+    limit = max_snap_distance_m
+    if isinstance(limit, bool) or not isinstance(limit, (float, int)) or not math.isfinite(limit) or limit <= 0:
+        raise ValueError("Limite de proximidade inválido")
+    if graph.get("schema") != SCHEMA:
+        raise ValueError("Grafo pedonal de versão desconhecida")
+    entries = graph.get("nodes")
+    if not isinstance(entries, list) or not entries:
+        raise ValueError("Grafo sem nós")
+    nodes = {}
+    for row in entries:
+        if not isinstance(row, dict):
+            raise ValueError("Nó OSM malformado")
+        node_id = str(row.get("id", ""))
+        if not node_id or node_id in nodes:
+            raise ValueError("Nó OSM duplicado ou sem ID")
+        nodes[node_id] = point(row.get("blender_xy"), "nó " + node_id)
+
+    def nearest(xy):
+        return min(((math.dist(xy, value), node_id) for node_id, value in nodes.items()),
+                   key=lambda item: (item[0], item[1]))
+
+    start_gap, start_id = nearest(source)
+    target_gap, target_id = nearest(destination)
+    adjacency = defaultdict(list)
+    for edge in graph.get("edges", []):
+        if not isinstance(edge, dict):
+            raise ValueError("Aresta OSM inválida")
+        a, b = str(edge.get("from", "")), str(edge.get("to", ""))
+        if a not in nodes or b not in nodes:
+            raise ValueError("Aresta com nó ausente no grafo")
+        if edge.get("access") == "restricted" or edge.get("kind") == "steps" and not allow_steps:
+            continue
+        if edge.get("kind") not in LAYERS:
+            raise ValueError("Aresta de tipo desconhecido")
+        traversal = edge.get("traversal")
+        if traversal not in ("both", "forward", "reverse"):
+            raise ValueError("Direção pedonal não reconhecida")
+        length = math.dist(nodes[a], nodes[b])
+        if length <= 0:
+            raise ValueError("Aresta de comprimento zero")
+        if traversal in ("both", "forward"):
+            adjacency[a].append((b, length))
+        if traversal in ("both", "reverse"):
+            adjacency[b].append((a, length))
+    distances = {start_id: 0.0}
+    predecessors = {}
+    queue = [(0.0, start_id)]
+    while queue:
+        d, u = heapq.heappop(queue)
+        if d > distances[u] + 1e-10:
+            continue
+        if u == target_id:
+            break
+        for v, length in adjacency[u]:
+            candidate = d + length
+            if candidate + 1e-10 < distances.get(v, math.inf):
+                distances[v] = candidate
+                predecessors[v] = u
+                heapq.heappush(queue, (candidate, v))
+    route = []
+    if target_id in distances:
+        route = [target_id]
+        while route[-1] != start_id:
+            route.append(predecessors[route[-1]])
+        route.reverse()
+    gaps_pass = start_gap <= limit and target_gap <= limit
+    return {
+        "schema": "boas/pedestrian-route-inspection-v1",
+        "source_graph_schema": graph["schema"],
+        "source_fit_status": graph.get("fit_status"),
+        "source_graph_status": graph.get("status"),
+        "start_xy": source,
+        "target_xy": destination,
+        "nearest_start_node": start_id,
+        "nearest_target_node": target_id,
+        "start_snap_gap_m": round(start_gap, 6),
+        "target_snap_gap_m": round(target_gap, 6),
+        "snap_limit_m": float(limit),
+        "osm_graph_path_exists": bool(route),
+        "waypoint_ids": route,
+        "waypoints_world_xy": [nodes[node_id] for node_id in route],
+        "graph_path_length_m": round(distances[target_id], 6) if route else None,
+        "unverified_endpoint_gap": not gaps_pass,
+        "status": "NO_OSM_GRAPH_PATH" if not route else (
+            "UNVERIFIED_ENDPOINT_GAP" if not gaps_pass else "GRAPH_CANDIDATE_ONLY"),
+        "route_approved": False,
+        "navigation_approved": False,
+        "entrance_verified": False,
+        "geometry_modified": False,
+    }
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(
         description="Constrói grafo pedonal a partir do OSM estrutural."

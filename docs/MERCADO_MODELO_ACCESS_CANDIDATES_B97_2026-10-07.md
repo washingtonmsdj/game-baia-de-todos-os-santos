@@ -109,3 +109,57 @@ candidata por reta, não mover bancos, não ampliar calçadas e não criar
 navmesh por posição aproximada. A rota continua bloqueada até existir
 evidência independente do acesso real e teste de deslocamento físico
 ponta a ponta.
+
+
+## Análise do grafo pedonal existente — 08/10/2026
+
+O pipeline já constrói `docs/reports/blender/r30a11/pedestrian_graph.json`
+com nós OSM em XY Blender, arestas, permissões e sentidos por `oneway:foot`.
+Não se deve criar um segundo grafo somente para o Mercado.
+
+Buscando o percurso de `B82.lower_route[-1]` até a **abertura modelada**
+voltada à Praça Cairu, o grafo candidato contém:
+
+- **487 nós e 488 arestas** no inventário completo;
+- início em `(-89,289593; 106,561385)`, coincidente com um nó existente;
+- **6 nós** encadeados por aproximadamente **72,027 m** de arestas pedonais;
+- último nó em `(-126,502035; 147,578777)`;
+- a abertura modelada em `(-126,491974; 154,290283)` ainda fica
+  **6,712 m além desse último nó**.
+
+Esse afastamento é superior ao limite explícito de associação de 2,5 m,
+portanto **não existe ligação aprovada entre a rede OSM e a entrada**.
+O caminho de 72,027 m é um *candidato sobre o grafo*, não movimento
+contínuo certificado no cenário ou uma rota até dentro do Mercado.
+
+`tools/world/build_pedestrian_graph.py` agora contém
+`inspect_candidate_route`, que respeita `access=restricted`,
+`oneway:foot`, separa escadas por padrão, usa distância planar acumulada
+de arestas reais e rejeita snaps implícitos. A auditoria do Mercado apenas
+reutiliza essa operação e reporta lacunas em
+`osm_pedestrian_candidate` — não gera navmesh, novos waypoints,
+colisores nem aprova `movement_enabled`.
+
+**Próxima validação geométrica:** sondar os segmentos desse caminho
+candidato na B97 com as malhas caminháveis e os colisores reais
+(incluindo banco, gola de árvores, mobiliário e fachadas), testar a
+largura da cápsula do personagem e buscar evidência independente da
+entrada física. O trajeto atual tem `fit_status=candidate_only` e
+`FULL_TOME_MARKET_ROUTE=NOT_APPROVED`.
+
+
+### Sondagem visual na B97 aberta
+
+A inspeção direta dos **cinco segmentos OSM encontrados**, no
+Blender B97 já aberto, realizou raycasts à altura **Z=8,0 m** com
+filtro de geometria visual relevante da Praça Cairu e Mercado Modelo.
+Resultado: **zero interseções no eixo central observado**. O teste
+manteve `bpy.data.is_dirty=false`, não modificou malha ou cena e não
+criou um caminho no runtime.
+
+**Limites materiais:** um único raio central não é um ensaio de cápsula
+com largura/altura, não cobre colisores ocultos nem classifica
+superfícies como caminháveis. Também permanece a lacuna de **6,711514 m**
+do último nó OSM até a abertura tipológica não autenticada.
+Assim, o resultado é somente `VISUAL_CENTERLINE_NO_HIT`;
+`route_approved=false` continua obrigatório.
