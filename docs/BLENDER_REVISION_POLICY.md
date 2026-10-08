@@ -36,6 +36,46 @@ selecionados não encontrou diferença entre recuperação e B23 salva. Isso nã
 compara a cena inteira. Diferenças legítimas restantes devem ser incorporadas por objetos/IDs.
 Nenhuma revisão foi apagada ou movida nesta organização.
 
+## Auditoria reproduzível da genealogia
+
+O catálogo `world/areas/mvp-centro-lacerda/blender-revisions.json` declara
+um único `authoring_source`; os ancestrais devem ser encontrados somente
+pelos vínculos `parent_file` registrados, sem procurar a revisão mais recente
+por nome/data e sem escolher automaticamente ramos alternativos.
+
+Na raiz do repositório, para conferir a cadeia sem ler todos os gigabytes:
+
+```powershell
+python -m tools.blender.audit_revision_chain --summary
+```
+
+Antes de consolidar fontes no Git LFS, fazer verificação completa de conteúdo
+e exigir arquivos e evidências versionados:
+
+```powershell
+python -m tools.blender.audit_revision_chain --verify-sha --require-tracked --summary
+```
+
+O comando pode receber `--root CAMINHO` e `--report CAMINHO_JSON` para
+auditar um workspace local e gravar diagnóstico fora da fonte. A análise
+é somente leitura quanto a `.blend`, índices de Git e contratos.
+A validação criptográfica percorre os arquivos completos e pode ler vários GB;
+usar somente quando a fonte local estiver disponível e a máquina não estiver
+ocupada por outra operação de disco intensiva.
+
+O modo padrão permite diagnosticar revisões locais ainda não publicadas
+e reporta advertências para fontes/evidências fora do Git. O modo
+`--require-tracked` **falha** enquanto houver arquivos não versionados.
+Não confundir `passed=true` sem este último parâmetro com aprovação de
+produção ou consolidação do histórico.
+
+Este auditor complementa `tools/blender/audit_authoring_inventory.py`:
+aquele valida os ponteiros atuais de produção/autoria; este percorre
+a **genealogia completa da fonte autoral** e detecta SHA divergente (quando
+habilitado), ancestrais quebrados, evidências ausentes, ciclos, duplicatas e
+referências inseguras. Nenhum deles altera o ponteiro `production.json`,
+importa/reexporta cenas, altera visibilidade ou libera gameplay.
+
 ## Entrada única
 
 Adotar somente a janela indicada pelo usuário, sem abrir outra:
