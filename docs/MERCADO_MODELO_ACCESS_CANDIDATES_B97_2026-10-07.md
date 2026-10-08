@@ -63,3 +63,49 @@ Nenhuma alteração do arquivo .blend é necessária para esta auditoria.
 Próximo trabalho: comparar a posição das ombreiras com fontes de
 acesso físico verificadas, resolver o binding do Mercado e conferir
 uma faixa caminhável contínua desde Cairu por malhas e colisores reais.
+
+
+## Ligação ao último ponto do percurso experimental B82
+
+A fonte existente `world/areas/mvp-centro-lacerda/lacerda-gameplay-proxy.json`
+usa um frame local explícito e termina o percurso inferior em aproximadamente
+**XY mundial (-89,289593; 106,561385)**. O centro da abertura candidata
+voltada à Praça Cairu está em **(-126,491974; 154,290283)**, distante
+**60,515 m em linha reta**. Não existe ligação no controller B82.
+
+Uma nova inspeção somente-leitura no Blender B97 mediu terreno sob 16
+pontos igualmente espaçados do segmento, todos com Z≈7,2557 m. Isso
+comprova apenas **cobertura do terreno na linha amostrada**, não caminhabilidade
+da praça. Verificação por `ray_cast` nas malhas visuais detectou pelo menos:
+
+- **5,145 m** desde o início: encosto de banco da Praça Cairu no raio horizontal
+  Z≈8,0 m;
+- **58,896 m** desde o início: ombreira direita da abertura candidata do Mercado,
+  com interseção em raios Z≈7,6 / 8,0 / 8,55 m.
+
+Portanto a ligação reta **não está livre**. Esses são acertos geométricos
+reais da linha, não apenas sobreposição de AABB; mesmo assim, **não**
+representam um teste completo de cápsula ou da árvore de colisores. A
+malha `B81 | NAV | Cairu OSM parcial bloqueada` tem envelope XY
+aproximado x=[-89,29; -47,07], y=[54,16;116,06], deixando o alvo
+**fora da cobertura**. Estar dentro de uma bounding box de nav
+tampouco certifica conexão.
+
+A extensão de `tools/world/market_access.py` calcula a diferença entre
+o último waypoint B82 (transformado por seu frame local) e a geometria
+atual do Mercado. A própria
+`automation/blender/audit_market_access.py` usa broadphase para selecionar
+malhas visíveis próximas e raycasts pontuais de alturas de personagem.
+O resultado `direct_cairu_approach` é um **diagnóstico reproduzível**:
+`route_approved=false` e `navigation_approved=false` independentemente
+de o número de interseções ser zero.
+
+### Próxima intervenção física
+
+Propor e avaliar segmentos alternativos por malhas caminháveis e
+colisores reais, considerando os bancos e ombreiras, travessias e
+posição verdadeira de acesso ao Mercado. Não ligar ponto B82 a porta
+candidata por reta, não mover bancos, não ampliar calçadas e não criar
+navmesh por posição aproximada. A rota continua bloqueada até existir
+evidência independente do acesso real e teste de deslocamento físico
+ponta a ponta.
