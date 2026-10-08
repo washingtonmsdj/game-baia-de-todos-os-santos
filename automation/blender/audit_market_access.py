@@ -14,6 +14,7 @@ source_root = next(p for p in Path(bpy.data.filepath).parents
                    if (p / "world/areas/mvp-centro-lacerda/blender-revisions.json").exists())
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from tools.world.market_access import evaluate_access_candidates, evaluate_direct_approach
+from tools.world.build_pedestrian_graph import inspect_candidate_route
 
 revisions = json.loads((source_root / "world/areas/mvp-centro-lacerda/blender-revisions.json").read_text(encoding="utf-8"))
 source = (source_root / revisions["authoring_source"]["file"]).resolve()
@@ -162,6 +163,14 @@ if nav_object is not None and nav_object.type == "MESH":
                    max(point[d] for point in nav_points)] for d in (0, 1)]
 report["direct_cairu_approach"] = evaluate_direct_approach(
     cfg, entry["center_xy"], terrain_samples, visual_hits, nav_bounds=nav_bounds)
+# OSM representa somente hints com fit de qualidade candidata, sem
+# certificação de colisão nem conexão autorizada ao acesso do Mercado.
+graph_path = source_root / "docs/reports/blender/r30a11/pedestrian_graph.json"
+graph = json.loads(graph_path.read_text(encoding="utf-8"))
+report["osm_pedestrian_candidate"] = inspect_candidate_route(
+    graph, report["direct_cairu_approach"]["segment"]["start_world_xy"],
+    entry["center_xy"])
+
 
 report.update({
     "source_file": revisions["authoring_source"]["file"],
