@@ -1,7 +1,6 @@
-"""Diagnóstico somente-leitura do contato Cidade Baixa ↔ piso B93/B97.
+"""Sondagem de duas malhas no mesmo XY, somente leitura no Blender visível.
 
-Executar com o Blender já aberto via runner canônico --read-only;
-não cria/seleciona/salva objetos e não confere aprovação de circulação.
+Sem interseção real com piso e terreno não existe delta de superfície válido.
 """
 import bpy
 import hashlib
@@ -40,9 +39,17 @@ evidence_path = root / "docs/reports/blender/lacerda-lower-structure-b93/applica
 frame_path = root / "docs/reports/blender/lacerda-corridor/scene_b78.json"
 evidence = json.loads(evidence_path.read_text(encoding="utf-8"))
 frame = Matrix(json.loads(frame_path.read_text(encoding="utf-8"))["measurement_frame"])
-floor_z = max((floor.matrix_world @ Vector(corner)).z for corner in floor.bound_box)
-inverted = terrain.matrix_world.inverted()
-down = (inverted.to_3x3() @ Vector((0, 0, -1))).normalized()
+floor_reference_z = max((floor.matrix_world @ Vector(corner)).z for corner in floor.bound_box)
+
+
+def sample_surface(object_, x, y):
+    inverse = object_.matrix_world.inverted()
+    origin = inverse @ Vector((x, y, 200))
+    direction = (inverse.to_3x3() @ Vector((0, 0, -1))).normalized()
+    hit, location, normal, index = object_.ray_cast(origin, direction, distance=500)
+    return ((object_.matrix_world @ location).z if hit else None,
+            index if hit else None)
+
 
 samples = []
 for sample in evidence["terrain_samples_before"]:
@@ -50,17 +57,19 @@ for sample in evidence["terrain_samples_before"]:
         continue
     xy = sample["local_xy"]
     point = frame @ Vector((xy[0], xy[1], 0))
-    origin = inverted @ Vector((point.x, point.y, 200))
-    hit, location, normal, index = terrain.ray_cast(origin, down, distance=500)
+    floor_z, floor_polygon = sample_surface(floor, point.x, point.y)
+    terrain_z, terrain_polygon = sample_surface(terrain, point.x, point.y)
     samples.append({
         "world_xy": [point.x, point.y],
-        "terrain_world_z": (terrain.matrix_world @ location).z if hit else None,
+        "floor_world_z": floor_z,
+        "terrain_world_z": terrain_z,
         "terrain_world_z_baseline": sample.get("terrain_world_z"),
-        "polygon": index if hit else None,
+        "floor_polygon": floor_polygon,
+        "terrain_polygon": terrain_polygon,
         "control_group": sample["control_group"],
     })
 
-result = evaluate_samples(samples, floor_z)
+result = evaluate_samples(samples, floor_reference_z)
 result.update({
     "source_file": authoring["file"],
     "source_sha256": sha,
@@ -71,7 +80,7 @@ result.update({
     "terrain_object": terrain.name,
     "floor_object": floor.name,
     "source_dirty": bpy.data.is_dirty,
-    "method": "B93 documented control XY transformed through B78 frame; vertical ray against saved terrain mesh",
+    "method": "B93 XY transformed by B78 frame; independent downward rays on floor and terrain meshes at identical XY",
     "absolute_placement_approved": False,
     "market_connector_approved": False,
 })
