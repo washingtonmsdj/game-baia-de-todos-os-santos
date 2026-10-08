@@ -14,6 +14,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from tools.runtime.production import ROOT, CONTRACT, load_contract, require_source, resolve, sha256
+from tools.runtime.glb_resources import prune_render_resources
 
 
 def encode(value):
@@ -122,6 +123,7 @@ def subset(doc, binary, selected, parents):
     out['scenes'] = [{'nodes':[node_map[i] for i in node_ids if parents.get(i) not in kept]}]
     out['scene'] = 0
     out['meshes'] = [copy.deepcopy(doc['meshes'][i]) for i in mesh_ids]
+    prune_render_resources(doc, out)
     accessors = set()
     for mesh in out['meshes']:
         for primitive in mesh['primitives']:
