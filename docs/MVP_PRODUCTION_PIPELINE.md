@@ -91,6 +91,21 @@ Para editar/exportar o ônibus, abrir a fonte de `vehicle.source` na mesma janel
 e usar `automation/blender/export_onibus_torino_glb.py`. Voltar à composição para
 integração. Não criar outra janela nem substituir a cena de cidade pelo estúdio.
 
+O exportador deve selecionar apenas BUS02/BUS03 na cena registrada, excluindo
+chão de estúdio/apresentação, câmeras e luzes. A seleção original da janela é
+restaurada após a operação; o GLB temporário é validado antes da troca atômica
+do staging. O manifesto lado a lado (mesmo nome-base, extensão JSON) registra
+arquivo/hash/cena da fonte, ID do ônibus, inventário da seleção, quantidade
+de cenas e SHA-256 do GLB gerado. O empacotador **recusa** staging sem
+proveniência, com cenas extras, itens de estúdio, conteúdo modificado ou
+inventário incompatível com o contrato. Não inserir manualmente manifesto
+para 'liberar' um GLB antigo; reexportar pela fonte autorizada.
+
+Auditoria de 07/10/2026: o GLB de staging antigo possuía três cenas
+(Integra, Torino e Salvador) e não pode ser tratado como exportação canônica
+do ônibus. A fonte .blend preservada e a cena B97 da cidade não são
+alteradas por esta correção de pipeline.
+
 Os caminhos de staging antigos permanecem como compatibilidade dos exportadores.
 O jogo passa a consumir exclusivamente `/world/runtime.json` e os arquivos de sua
 release, nunca esses caminhos legados diretamente. Para novo clone, gerar o
