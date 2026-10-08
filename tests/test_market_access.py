@@ -2,7 +2,7 @@ import copy
 import math
 import unittest
 
-from tools.world.market_access import evaluate_access_candidates
+from tools.world.market_access import evaluate_access_candidates, evaluate_direct_approach
 
 
 def location():
@@ -80,6 +80,79 @@ class MarketAccessTests(unittest.TestCase):
         before = copy.deepcopy(source)
         evaluate_access_candidates(location(), "mercado-modelo", [source])
         self.assertEqual(before, source)
+
+
+
+
+def proxy():
+    return {
+        "scene_file": "blender/salvador_lacerda_r30b82_gameplay_proxy.blend",
+        "local_frame": {"origin_xy": [-48.321311950683594, 48.90056800842285],
+                        "angle": -0.7536059503636807},
+        "lower_route": [[-3, 0], [-69.33086893763439, 14.014297508040542, 7.25566864]],
+    }
+
+
+def ground():
+    return [{"t": 0.0, "terrain_z": 7.25566},
+            {"t": 0.5, "terrain_z": 7.25566},
+            {"t": 1.0, "terrain_z": 7.25566}]
+
+
+class MarketApproachTests(unittest.TestCase):
+    def test_real_gap_and_measured_visible_hits(self):
+        observations = [
+            {"name": "banco | posição aproximada encosto.002", "distance_m": 5.145, "ray_z": 8.0},
+            {"name": "ACESSO | fachada Praça Cairu | ombreira D",
+             "distance_m": 58.896, "ray_z": 7.6},
+        ]
+        r = evaluate_direct_approach(proxy(), [-126.491974, 154.290283],
+                                     ground(), observations,
+                                     nav_bounds=[[-89.29, -47.07], [54.16, 116.06]])
+        self.assertAlmostEqual(r["segment"]["length_m"], 60.515, places=2)
+        self.assertAlmostEqual(r["segment"]["start_world_xy"][0], -89.289593, places=3)
+        self.assertEqual("DIRECT_LINE_INTERSECTS_VISIBLE_GEOMETRY", r["status"])
+        self.assertEqual("banco | posição aproximada encosto.002", r["visual_ray_hits"][0]["name"])
+        self.assertTrue(r["nav_hint_start_inside_bbox"])
+        self.assertFalse(r["nav_hint_target_inside_bbox"])
+        self.assertFalse(r["route_approved"])
+        self.assertFalse(r["complete_collision_test"])
+
+    def test_no_visual_hit_is_not_certification(self):
+        r = evaluate_direct_approach(proxy(), [-126.491974, 154.290283], ground(), [])
+        self.assertEqual("NO_VISUAL_HIT_NOT_CERTIFIED", r["status"])
+        self.assertTrue(r["visual_line_clear"])
+        self.assertFalse(r["route_approved"])
+        self.assertFalse(r["navigation_approved"])
+
+    def test_requires_whole_segment_terrain_sampling(self):
+        samples = ground()[1:]
+        with self.assertRaisesRegex(ValueError, "extremidades"):
+            evaluate_direct_approach(proxy(), [-126, 154], samples, [])
+
+    def test_missing_terrain_does_not_approve(self):
+        samples = ground()
+        samples[1]["terrain_z"] = None
+        r = evaluate_direct_approach(proxy(), [-126, 154], samples, [])
+        self.assertEqual(1, r["terrain_missing"])
+        self.assertFalse(r["route_approved"])
+
+    def test_outside_hit_and_duplicate_t_rejected(self):
+        with self.assertRaisesRegex(ValueError, "fora do segmento"):
+            evaluate_direct_approach(proxy(), [-126, 154], ground(),
+                                     [{"name": "obstacle", "distance_m": 999, "ray_z": 8}])
+        bad = ground()
+        bad[1]["t"] = 0
+        with self.assertRaisesRegex(ValueError, "sequência"):
+            evaluate_direct_approach(proxy(), [-126, 154], bad, [])
+
+    def test_unchanged_inputs(self):
+        p = proxy()
+        t = ground()
+        h = [{"name": "bench", "distance_m": 2, "ray_z": 8}]
+        before = copy.deepcopy((p, t, h))
+        evaluate_direct_approach(p, [-126, 154], t, h)
+        self.assertEqual((p, t, h), before)
 
 
 if __name__ == "__main__":
