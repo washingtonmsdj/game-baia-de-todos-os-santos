@@ -15,6 +15,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from tools.runtime.production import ROOT, CONTRACT, load_contract, require_source, resolve, sha256
 from tools.runtime.glb_resources import prune_render_resources
+from tools.runtime.vehicle_staging import validate_vehicle_staging
 
 
 def encode(value):
@@ -215,7 +216,8 @@ def main():
     for name, indices in sorted(groups.items()):
         sectors.append(emit(name,name+'.glb',subset(doc,binary,indices,parents), bounds=union([bounds[i] for i in indices]), always_loaded=name=='city-core', source_nodes=indices))
     # Veículos são assets completos: nunca passar rig/animação pelo particionador estático.
-    vehicle = emit(contract['vehicle']['id'],'vehicle.glb',resolve(inputs['vehicle']).read_bytes(),source=contract['vehicle']['source'],dimensions=contract['vehicle']['dimensions'])
+    vehicle_check = validate_vehicle_staging(resolve(inputs['vehicle']), contract['vehicle'])
+    vehicle = emit(contract['vehicle']['id'],'vehicle.glb',resolve(inputs['vehicle']).read_bytes(),source=contract['vehicle']['source'],dimensions=contract['vehicle']['dimensions'],provenance=vehicle_check)
     assets = {'vehicle':vehicle}
     if 'urban_slice' in inputs:
         urban_slice = json.loads(resolve(inputs['urban_slice']).read_text(encoding='utf-8'))
