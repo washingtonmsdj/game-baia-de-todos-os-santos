@@ -1,0 +1,44 @@
+{
+  "schema": "boas/coastal-floor-parameterized-b70-probe-v1",
+  "source": {
+    "file": "blender/salvador_lacerda_r30b69_encontros_sem_frestas.blend",
+    "revision": "R30B.69",
+    "sha256": "30d079046f029b559ffce28d1254bc65a6a3f57f0625245b809deb9c7ad7bfa2",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b68_encontros_terrestres_pieres.blend",
+    "evidence": "docs/reports/blender/pier_land_contacts_r30b69.json",
+    "notes": "Corrige frestas residuais por cortes em coordenadas locais; 16000 probes, sem lacunas terrestres amostradas. Terrenos, costa, mar e decks preservados; alturas e acessibilidade pendentes.",
+    "source_reopened": true,
+    "validation_evidence": "docs/reports/blender/pier_land_contacts_r30b69_validation.json",
+    "local_geometry_checks_passed": true,
+    "sampled_gap_coverage_passed": true
+  },
+  "object": "B63 | VISUAL | piso contínuo até o cais",
+  "method": "cotangent_harmonic_xy_with_all_boundary_heights_fixed",
+  "classification": "ADAPT_LOCAL",
+  "before": {
+    "triangles": 2827,
+    "projected_degenerate_triangles": 0,
+    "grade_over_200percent": 126,
+    "grade_max": 25.4181723913851,
+    "grade_p95": 1.4286692215635417
+  },
+  "after": {
+    "triangles": 2827,
+    "projected_degenerate_triangles": 0,
+    "grade_over_200percent": 136,
+    "grade_max": 23.298478114231177,
+    "grade_p95": 1.8661649669283566
+  },
+  "boundary_vertices": 480,
+  "interior_vertices": 1174,
+  "boundary_max_change_m": 0.0,
+  "max_interior_height_change_m": 3.0381552624554997,
+  "linear_residual_max": 3.4924596548080444e-10,
+  "finite": true,
+  "source_changed": false,
+  "proposed_gate_passed": false,
+  "pending": [
+    "Altimetria/costa e junção B62 continuam candidatos; não é levantamento real"
+  ]
+}

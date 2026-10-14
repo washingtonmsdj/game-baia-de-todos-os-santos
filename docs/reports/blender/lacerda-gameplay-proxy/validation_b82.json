@@ -1,0 +1,408 @@
+{
+  "revision": "R30B.82",
+  "source_reopened": true,
+  "pid": 10684,
+  "historical_objects": 6296,
+  "historical_components_changed": [],
+  "proxy_objects": 70,
+  "obstacle_equivalence": [
+    {
+      "object": "B82 | path_guard_0_-1",
+      "center_error": 0.0,
+      "size_error": 3.6228485100764374e-07
+    },
+    {
+      "object": "B82 | path_guard_0_1",
+      "center_error": 0.0,
+      "size_error": 3.6228485100764374e-07
+    },
+    {
+      "object": "B82 | path_guard_1_-1",
+      "center_error": 0.0,
+      "size_error": 2.3841857821338408e-08
+    },
+    {
+      "object": "B82 | path_guard_1_1",
+      "center_error": 0.0,
+      "size_error": 2.3841857821338408e-08
+    },
+    {
+      "object": "B82 | path_guard_2_-1",
+      "center_error": 0.0,
+      "size_error": 2.0025547797786203e-07
+    },
+    {
+      "object": "B82 | path_guard_2_1",
+      "center_error": 0.0,
+      "size_error": 2.0025547797786203e-07
+    },
+    {
+      "object": "B82 | path_guard_3_-1",
+      "center_error": 0.0,
+      "size_error": 2.2843208924427927e-07
+    },
+    {
+      "object": "B82 | path_guard_3_1",
+      "center_error": 0.0,
+      "size_error": 2.2843208924427927e-07
+    },
+    {
+      "object": "B82 | path_guard_4_-1",
+      "center_error": 0.0,
+      "size_error": 2.3841857821338408e-08
+    },
+    {
+      "object": "B82 | path_guard_4_1",
+      "center_error": 0.0,
+      "size_error": 2.3841857821338408e-08
+    },
+    {
+      "object": "B82 | path_guard_5_-1",
+      "center_error": 0.0,
+      "size_error": 6.911066385839604e-07
+    },
+    {
+      "object": "B82 | path_guard_5_1",
+      "center_error": 0.0,
+      "size_error": 6.911066385839604e-07
+    },
+    {
+      "object": "B82 | upper_guard_-1",
+      "center_error": 0.0,
+      "size_error": 2.3841857821338408e-08
+    },
+    {
+      "object": "B82 | upper_guard_1",
+      "center_error": 0.0,
+      "size_error": 2.3841857821338408e-08
+    },
+    {
+      "object": "B82 | upper_lobby_side_-1",
+      "center_error": 0.0,
+      "size_error": 4.7683715642676816e-08
+    },
+    {
+      "object": "B82 | upper_lobby_side_1",
+      "center_error": 0.0,
+      "size_error": 4.7683715642676816e-08
+    },
+    {
+      "object": "B82 | upper_entry_wall_-9.0",
+      "center_error": 0.0,
+      "size_error": 6.774658167785219e-08
+    },
+    {
+      "object": "B82 | upper_entry_wall_5.97055194",
+      "center_error": 0.0,
+      "size_error": 4.7683715642676816e-08
+    },
+    {
+      "object": "B82 | upper_lobby_back",
+      "center_error": 0.0,
+      "size_error": 4.7683715642676816e-08
+    },
+    {
+      "object": "B82 | upper_lobby_back2",
+      "center_error": 0.0,
+      "size_error": 4.7683715642676816e-08
+    },
+    {
+      "object": "B82 | forecourt_guard_-1",
+      "center_error": 0.0,
+      "size_error": 2.3841857821338408e-08
+    },
+    {
+      "object": "B82 | forecourt_guard_1",
+      "center_error": 0.0,
+      "size_error": 2.3841857821338408e-08
+    },
+    {
+      "object": "B82 | forecourt_end",
+      "center_error": 0.0,
+      "size_error": 2.3841857821338408e-08
+    },
+    {
+      "object": "B82 | queue_proxy_1",
+      "center_error": 0.0,
+      "size_error": 2.3841857821338408e-08
+    },
+    {
+      "object": "B82 | queue_proxy_2",
+      "center_error": 0.0,
+      "size_error": 2.3841857821338408e-08
+    },
+    {
+      "object": "B82 | ticket_island_proxy",
+      "center_error": 0.0,
+      "size_error": 4.768371586472142e-08
+    },
+    {
+      "object": "B82 | lower_lobby_side_-1",
+      "center_error": 0.0,
+      "size_error": 4.7683715642676816e-08
+    },
+    {
+      "object": "B82 | lower_lobby_side_1",
+      "center_error": 0.0,
+      "size_error": 4.7683715642676816e-08
+    },
+    {
+      "object": "B82 | lower_exit_wall_-5.5",
+      "center_error": 0.0,
+      "size_error": 1.7628812720715814e-07
+    },
+    {
+      "object": "B82 | lower_exit_wall_6.76101972117281",
+      "center_error": 0.0,
+      "size_error": 4.7683715642676816e-08
+    },
+    {
+      "object": "B82 | shaft_side_-1",
+      "center_error": 0.0,
+      "size_error": 1.430511474609375e-06
+    },
+    {
+      "object": "B82 | shaft_side_1",
+      "center_error": 0.0,
+      "size_error": 1.430511474609375e-06
+    },
+    {
+      "object": "B82 | portal_jamb_upper_-1.18",
+      "center_error": 0.0,
+      "size_error": 4.7683715642676816e-08
+    },
+    {
+      "object": "B82 | portal_jamb_upper_1.18",
+      "center_error": 0.0,
+      "size_error": 4.7683715642676816e-08
+    },
+    {
+      "object": "B82 | shaft_end_upper_7.1059996604919435",
+      "center_error": 0.0,
+      "size_error": 6.675720243265459e-07
+    },
+    {
+      "object": "B82 | shaft_end_upper_72.61499786376953",
+      "center_error": 0.0,
+      "size_error": 9.536743172944284e-08
+    },
+    {
+      "object": "B82 | portal_jamb_lower_-1.18",
+      "center_error": 0.0,
+      "size_error": 4.7683715642676816e-08
+    },
+    {
+      "object": "B82 | portal_jamb_lower_1.18",
+      "center_error": 0.0,
+      "size_error": 4.7683715642676816e-08
+    },
+    {
+      "object": "B82 | shaft_end_lower_7.1059996604919435",
+      "center_error": 0.0,
+      "size_error": 9.536743172944284e-08
+    },
+    {
+      "object": "B82 | shaft_end_lower_9.905999660491943",
+      "center_error": 0.0,
+      "size_error": 1.430511474609375e-06
+    }
+  ],
+  "floor_equivalence": [
+    {
+      "object": "B82 | upper_walkway",
+      "top_profile_error": 3.5762786898541066e-09
+    },
+    {
+      "object": "B82 | upper_lobby",
+      "top_profile_error": 3.5762786898541066e-09
+    },
+    {
+      "object": "B82 | tome_forecourt",
+      "top_profile_error": 3.5762786898541066e-09
+    },
+    {
+      "object": "B82 | lower_lobby",
+      "top_profile_error": 3.5762786898541066e-09
+    },
+    {
+      "object": "B82 | osm_path_0",
+      "top_profile_error": 3.5762786898541066e-09
+    },
+    {
+      "object": "B82 | osm_path_1",
+      "top_profile_error": 4.93050608674217e-09
+    },
+    {
+      "object": "B82 | osm_path_2",
+      "top_profile_error": 3.5762786898541066e-09
+    },
+    {
+      "object": "B82 | osm_path_3",
+      "top_profile_error": 3.5762786898541066e-09
+    },
+    {
+      "object": "B82 | osm_path_4",
+      "top_profile_error": 3.5762791894544677e-09
+    },
+    {
+      "object": "B82 | osm_path_5",
+      "top_profile_error": 3.5762791478211042e-09
+    },
+    {
+      "object": "B82 | osm_joint_0",
+      "top_profile_error": 3.5762786898541066e-09
+    },
+    {
+      "object": "B82 | osm_joint_1",
+      "top_profile_error": 3.5762786898541066e-09
+    },
+    {
+      "object": "B82 | osm_joint_2",
+      "top_profile_error": 3.5762786898541066e-09
+    },
+    {
+      "object": "B82 | osm_joint_3",
+      "top_profile_error": 3.5762786898541066e-09
+    },
+    {
+      "object": "B82 | osm_joint_4",
+      "top_profile_error": 3.5762786898541066e-09
+    },
+    {
+      "object": "B82 | osm_joint_5",
+      "top_profile_error": 3.5762786898541066e-09
+    },
+    {
+      "object": "B82 | osm_joint_6",
+      "top_profile_error": 3.5762786898541066e-09
+    }
+  ],
+  "live_poses": [
+    {
+      "tag": "upper_ready",
+      "foot_world": [
+        19.084564208984375,
+        -7.808112144470215,
+        70.12999725341797
+      ],
+      "cabin_floor_world": [
+        -48.321311950683594,
+        48.90056610107422,
+        70.0250015258789
+      ]
+    },
+    {
+      "tag": "descending",
+      "foot_world": [
+        -48.307064056396484,
+        48.8871955871582,
+        34.96332931518555
+      ],
+      "cabin_floor_world": [
+        -48.321311950683594,
+        48.90056610107422,
+        34.85832977294922
+      ]
+    },
+    {
+      "tag": "cairu",
+      "foot_world": [
+        -89.27938842773438,
+        106.5518569946289,
+        7.2706685066223145
+      ],
+      "cabin_floor_world": [
+        -48.321311950683594,
+        48.90056610107422,
+        7.315999507904053
+      ]
+    }
+  ],
+  "round_trip": "GAMEPLAY_PROXY_ROUND_TRIP_PASSED",
+  "interlocks": {
+    "status": "PASS_PROXY_ONLY",
+    "cases": [
+      {
+        "case": "closed_door_blocks_entry",
+        "passed": true,
+        "detail": [
+          2.145833333333331,
+          0.0,
+          70.12999786376953
+        ]
+      },
+      {
+        "case": "absent_cabin_shaft_inaccessible",
+        "passed": true,
+        "detail": [
+          2.145833333333331,
+          0.0,
+          70.12999786376953
+        ]
+      },
+      {
+        "case": "occupied_portal_prevents_close",
+        "passed": true,
+        "detail": "Abertura ocupada: fechamento impedido"
+      },
+      {
+        "case": "no_motion_with_open_doors",
+        "passed": true,
+        "detail": 0.9833333333333333
+      },
+      {
+        "case": "no_opening_without_docked_cabin",
+        "passed": true,
+        "detail": "CLOSED"
+      },
+      {
+        "case": "cabin_wall_blocks_player",
+        "passed": true,
+        "detail": [
+          0.0,
+          0.9750000000000005,
+          70.12999786376953
+        ]
+      },
+      {
+        "case": "passenger_carried_continuously",
+        "passed": true,
+        "detail": {
+          "samples": 2100,
+          "maximum_relative_z_error": 5.689893001203927e-16
+        }
+      },
+      {
+        "case": "departure_interlocks",
+        "passed": true,
+        "detail": [
+          {
+            "event": "departure",
+            "time": 37.733333333332475,
+            "door_aperture": 0.0,
+            "carrying": true
+          },
+          {
+            "event": "departure",
+            "time": 123.59999999999427,
+            "door_aperture": 0.0,
+            "carrying": true
+          }
+        ]
+      },
+      {
+        "case": "no_position_teleport",
+        "passed": true,
+        "detail": {
+          "maximum_xy_frame_delta": 0.0416666666666792,
+          "maximum_z_frame_delta": 0.06666666666666998
+        }
+      }
+    ],
+    "historical_gates_resolved": false,
+    "engine_certification": false
+  },
+  "gameplay_status": "FUNCTIONAL_BLENDER_PROXY",
+  "historical_fidelity_resolved": false,
+  "production_ready": false
+}

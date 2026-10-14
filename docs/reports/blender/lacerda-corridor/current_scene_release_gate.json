@@ -1,0 +1,33 @@
+{
+  "schema": "boas/release-provenance-audit-v1",
+  "passed": false,
+  "errors": [
+    {
+      "code": "REPLACE_BEFORE_RELEASE",
+      "resource": "derived:lacerda-corridor-b77",
+      "detail": "Recurso/dependência não autorizado para pacote final"
+    },
+    {
+      "code": "REPLACE_BEFORE_RELEASE",
+      "resource": "source:legacy-dem-mvp",
+      "detail": "Recurso/dependência não autorizado para pacote final"
+    },
+    {
+      "code": "REPLACE_BEFORE_RELEASE",
+      "resource": "source:legacy-lacerda-authoring",
+      "detail": "Recurso/dependência não autorizado para pacote final"
+    },
+    {
+      "code": "INCOMPLETE_INVENTORY",
+      "resource": null,
+      "detail": "Gate exige inventário integral declarado"
+    }
+  ],
+  "resources_checked": 3,
+  "files_checked": 1,
+  "scope": "Manifesto fornecido e dependências transitivas; requer exportador que gere inventário completo e vínculo de materiais/texturas. Não inspeciona binário glTF automaticamente.",
+  "foundation_only": true,
+  "package_created": false,
+  "source_revision": "R30B.77B",
+  "note": "Auditoria deliberadamente incompleta da cena candidata; não é pacote final. Exportador ainda deve gerar inventário completo."
+}

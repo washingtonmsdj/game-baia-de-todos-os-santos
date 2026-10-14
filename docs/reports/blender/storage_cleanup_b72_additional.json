@@ -1,0 +1,19 @@
+{
+  "schema": "boas/storage-cleanup-b72-additional-v1",
+  "obsolete_autosaves_removed": [
+    {
+      "name": "salvador_lacerda_r30b67_pieres_e_dominio_oceanico_22916_autosave.blend",
+      "bytes": 104526777
+    },
+    {
+      "name": "hilux_portas_v18_16304_autosave.blend",
+      "bytes": 3574647
+    },
+    {
+      "name": "marrom_v25_lanternas_re_19576_autosave.blend",
+      "bytes": 3748729
+    }
+  ],
+  "original_files_preserved": true,
+  "free_at_registration": 6193152000
+}

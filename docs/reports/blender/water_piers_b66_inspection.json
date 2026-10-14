@@ -1,0 +1,4169 @@
+{
+  "schema": "boas/water-piers-b66-local-inspection-v1",
+  "source": {
+    "file": "blender/salvador_lacerda_r30b66_cais_normais_corrigidas.blend",
+    "revision": "R30B.66",
+    "sha256": "1c64173cc11b4c086084e55a6d0a6e399a1a67a1715babc160517221d45f0bf8",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b65_piso_orla_sem_residuos.blend",
+    "evidence": "docs/reports/blender/coastal_orientation_r30b66.json",
+    "notes": "Normais do cais voltadas à água e resíduos numéricos do piso removidos; sem alterar pistas, costa ou píeres; passarela e dimensões reais pendentes."
+  },
+  "water_mesh_z_range": [
+    0.3499999940395355,
+    0.3499999940395355
+  ],
+  "contract_water_level": 0.35,
+  "pier_reference_deck_z": 7.255664825439453,
+  "reference_freeboard_candidate": 6.9056648254394535,
+  "absolute_vertical_verified": false,
+  "objects": [
+    {
+      "name": "OFICIAL | Terminal alto | apoio junto encosta",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": false,
+      "bounds": [
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "properties": {},
+      "materials": [
+        "Esboco | marfim"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "OFICIAL | Terminal alto | piso de entrada",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": false,
+      "bounds": [
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "properties": {},
+      "materials": [
+        "Esboco | pisos"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "OFICIAL | Terminal alto | galeria piso",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": false,
+      "bounds": [
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "properties": {},
+      "materials": [
+        "Esboco | pisos"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "OFICIAL | Terminal alto | galeria cobertura",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": false,
+      "bounds": [
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "properties": {},
+      "materials": [
+        "Esboco | marfim"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Terminal Turístico Náutico da Bahia.001",
+      "type": "CURVE",
+      "visible": false,
+      "hide_render": false,
+      "bounds": [
+        [
+          -235.5787811279297,
+          267.73199462890625,
+          -0.9200000166893005
+        ],
+        [
+          -223.6839599609375,
+          290.0990295410156,
+          1.0800000429153442
+        ]
+      ],
+      "properties": {},
+      "materials": [
+        "Eixos reais das ruas"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Terminal de Cruzeiros.001",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": false,
+      "bounds": [
+        [
+          -41.781734466552734,
+          495.5240478515625,
+          0.0
+        ],
+        [
+          71.10814666748047,
+          605.4130859375,
+          25.0
+        ]
+      ],
+      "properties": {},
+      "materials": [
+        "Volumes com pavimentos OSM; pe-direito convencional"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "ELEVADOR | torre passarela e encosta",
+      "type": "CAMERA",
+      "visible": false,
+      "hide_render": false,
+      "bounds": null,
+      "properties": {
+        "boas_hidden_in_gameplay_review": true,
+        "boas_hidden_in_navigation_review": true
+      },
+      "materials": [],
+      "modifiers": []
+    },
+    {
+      "name": "CALIBRADO | terreno Encosta 75 graus",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -120.10969543457031,
+          -91.1340560913086,
+          -3.0
+        ],
+        [
+          96.70047760009766,
+          138.4514617919922,
+          69.8499984741211
+        ]
+      ],
+      "properties": {},
+      "materials": [
+        "Terreno calibrado | encosta"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Encosta | fechamento lateral",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -138.765869140625,
+          -76.49405670166016,
+          -3.0
+        ],
+        [
+          -124.18135070800781,
+          -62.80860137939453,
+          69.8499984741211
+        ]
+      ],
+      "properties": {
+        "boas_status": "legacy_slope_blockout_hidden_r30b50",
+        "boas_replacement_basis": "functional_ground_and_coastal_expansion_candidates"
+      },
+      "materials": [
+        "Terreno | solo encosta"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Encosta | fechamento lateral.001",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          66.51595306396484,
+          142.2738037109375,
+          -3.0
+        ],
+        [
+          81.10047912597656,
+          155.95925903320312,
+          69.8499984741211
+        ]
+      ],
+      "properties": {
+        "boas_status": "legacy_slope_blockout_hidden_r30b50",
+        "boas_replacement_basis": "functional_ground_and_coastal_expansion_candidates"
+      },
+      "materials": [
+        "Terreno | solo encosta"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Encosta | faixa 00",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -138.765869140625,
+          -62.80860137939453,
+          10.850000381469727
+        ],
+        [
+          66.51595306396484,
+          155.95925903320312,
+          17.0
+        ]
+      ],
+      "properties": {
+        "boas_status": "legacy_slope_blockout_hidden_r30b50",
+        "boas_replacement_basis": "functional_ground_and_coastal_expansion_candidates"
+      },
+      "materials": [
+        "Terreno | contenção"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Encosta | faixa 01",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -138.765869140625,
+          -64.86141967773438,
+          17.0
+        ],
+        [
+          68.70362854003906,
+          155.95925903320312,
+          17.0
+        ]
+      ],
+      "properties": {
+        "boas_status": "legacy_slope_blockout_hidden_r30b50",
+        "boas_replacement_basis": "functional_ground_and_coastal_expansion_candidates"
+      },
+      "materials": [
+        "Terreno | cobertura vegetal baixa"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Encosta | faixa 02",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -136.5782012939453,
+          -71.70414733886719,
+          17.0
+        ],
+        [
+          75.99589538574219,
+          153.90643310546875,
+          46.0
+        ]
+      ],
+      "properties": {
+        "boas_status": "legacy_slope_blockout_hidden_r30b50",
+        "boas_replacement_basis": "functional_ground_and_coastal_expansion_candidates"
+      },
+      "materials": [
+        "Terreno | cobertura vegetal baixa"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Encosta | faixa 03",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -129.2859344482422,
+          -75.1255111694336,
+          46.0
+        ],
+        [
+          79.64202880859375,
+          147.06370544433594,
+          64.0
+        ]
+      ],
+      "properties": {
+        "boas_status": "legacy_slope_blockout_hidden_r30b50",
+        "boas_replacement_basis": "functional_ground_and_coastal_expansion_candidates"
+      },
+      "materials": [
+        "Terreno | cobertura vegetal baixa"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Encosta | faixa 04",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -125.63980102539062,
+          -76.49405670166016,
+          64.0
+        ],
+        [
+          81.10047912597656,
+          143.642333984375,
+          69.8499984741211
+        ]
+      ],
+      "properties": {
+        "boas_status": "legacy_slope_blockout_hidden_r30b50",
+        "boas_replacement_basis": "functional_ground_and_coastal_expansion_candidates"
+      },
+      "materials": [
+        "Terreno | cobertura vegetal baixa"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Encosta | coroamento",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -124.18135070800781,
+          -76.87040710449219,
+          69.6500015258789
+        ],
+        [
+          -31.403453826904297,
+          21.951475143432617,
+          69.94999694824219
+        ]
+      ],
+      "properties": {
+        "boas_status": "legacy_slope_blockout_hidden_r30b50",
+        "boas_replacement_basis": "functional_ground_and_coastal_expansion_candidates"
+      },
+      "materials": [
+        "Terreno | contenção"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Encosta | coroamento.001",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -18.11907386779785,
+          36.15964889526367,
+          69.6500015258789
+        ],
+        [
+          81.50155639648438,
+          142.2738037109375,
+          69.94999694824219
+        ]
+      ],
+      "properties": {
+        "boas_status": "legacy_slope_blockout_hidden_r30b50",
+        "boas_replacement_basis": "functional_ground_and_coastal_expansion_candidates"
+      },
+      "materials": [
+        "Terreno | contenção"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "ACESSO | ligação praça terminal a validar",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -23.30405044555664,
+          -3.252213478088379,
+          70.0
+        ],
+        [
+          9.331670761108398,
+          28.498537063598633,
+          70.0
+        ]
+      ],
+      "properties": {},
+      "materials": [
+        "URBANO | praca pedra clara"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "OSM | Terminal de Cruzeiros",
+      "type": "MESH",
+      "visible": true,
+      "hide_render": false,
+      "bounds": [
+        [
+          -41.77487564086914,
+          495.1197204589844,
+          7.055630683898926
+        ],
+        [
+          71.09647369384766,
+          604.9190673828125,
+          32.255645751953125
+        ]
+      ],
+      "properties": {},
+      "materials": [
+        "MVP | edifícios identificados OSM"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "BAÍA DE TODOS-OS-SANTOS | superfície e recorte costeiro",
+      "type": "MESH",
+      "visible": true,
+      "hide_render": false,
+      "bounds": [
+        [
+          -1350.0,
+          -850.0,
+          0.3499999940395355
+        ],
+        [
+          29.83144760131836,
+          600.1769409179688,
+          0.3499999940395355
+        ]
+      ],
+      "properties": {
+        "boas_runtime_role": "water_surface",
+        "boas_runtime_source_revision": "R30A.4",
+        "boas_export_candidate": true,
+        "boas_water_system": "r30a8_ocean",
+        "boas_gameplay_surface_flat": true,
+        "boas_water_role": "gameplay_surface_reference",
+        "boas_water_level_m": 0.35,
+        "boas_surface_query_source": "engine_runtime",
+        "boas_collision_source": false,
+        "boas_visual_displacement_collision": false
+      },
+      "materials": [
+        "R30A8 | Água oceânica"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "BAÍA | volume de água no limite do recorte",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -1350.0,
+          -850.0,
+          -16.0
+        ],
+        [
+          29.83144760131836,
+          600.1769409179688,
+          0.3499999940395355
+        ]
+      ],
+      "properties": {
+        "boas_runtime_role": "water_surface",
+        "boas_runtime_source_revision": "R30A.4",
+        "boas_export_candidate": true,
+        "boas_water_system": "r30a8_ocean",
+        "boas_runtime_volume": true,
+        "boas_water_role": "swim_dive_volume",
+        "boas_swimmable": true,
+        "boas_diveable": true,
+        "boas_boats_supported": true,
+        "boas_min_depth_m": -16.0,
+        "boas_max_surface_m": 0.35,
+        "boas_buoyancy_runtime": true,
+        "boas_underwater_runtime": true,
+        "boas_currents_runtime": true,
+        "boas_runtime_engine_binding": "unbound"
+      },
+      "materials": [
+        "R30A8 | Volume oceânico"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "CAIS | contenção costeira alinhada à linha de costa",
+      "type": "MESH",
+      "visible": true,
+      "hide_render": false,
+      "bounds": [
+        [
+          -388.4596862792969,
+          -94.84332275390625,
+          0.3499999940395355
+        ],
+        [
+          29.831451416015625,
+          600.1769409179688,
+          8.9639892578125
+        ]
+      ],
+      "properties": {
+        "boas_revision": "R30B.66",
+        "boas_classification": "ERROR",
+        "boas_source_controls": "costa da água B63 preservada + apoio atual do piso",
+        "boas_real_wall_thickness_status": "pending",
+        "boas_real_foundation_status": "pending",
+        "boas_geographic_fidelity_status": "candidate_pending_photo_comparison",
+        "boas_collision_partner": "B64 | COLLISION | cais e borda marítima"
+      },
+      "materials": [
+        "CAIS | pedra costeira"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "ORLA | vista aérea Mercado, praça e Baía",
+      "type": "CAMERA",
+      "visible": false,
+      "hide_render": false,
+      "bounds": null,
+      "properties": {
+        "boas_hidden_in_gameplay_review": true,
+        "boas_hidden_in_navigation_review": true
+      },
+      "materials": [],
+      "modifiers": []
+    },
+    {
+      "name": "CAIS | rampa curta até plataforma flutuante",
+      "type": "MESH",
+      "visible": true,
+      "hide_render": false,
+      "bounds": [
+        [
+          -486.85418701171875,
+          453.88995361328125,
+          0.3499999940395355
+        ],
+        [
+          -478.368896484375,
+          462.375244140625,
+          1.7999999523162842
+        ]
+      ],
+      "properties": {},
+      "materials": [
+        "FORTE | cantaria"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "CAIS | plataforma flutuante de embarque aproximada",
+      "type": "MESH",
+      "visible": true,
+      "hide_render": false,
+      "bounds": [
+        [
+          -481.9044189453125,
+          447.5260009765625,
+          -0.05000000074505806
+        ],
+        [
+          -472.00494384765625,
+          457.42547607421875,
+          0.6499999761581421
+        ]
+      ],
+      "properties": {},
+      "materials": [
+        "CAIS | plataforma flutuante"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "R30A8 | FOAM | linha costeira",
+      "type": "CURVE",
+      "visible": true,
+      "hide_render": false,
+      "bounds": [
+        [
+          -430.2190246582031,
+          -850.0206909179688,
+          0.1857675164937973
+        ],
+        [
+          29.986154556274414,
+          600.3333740234375,
+          0.6042324900627136
+        ]
+      ],
+      "properties": {
+        "boas_revision": "R30A.8",
+        "boas_source": "water_surface_boundary",
+        "boas_visual_only": true
+      },
+      "materials": [
+        "R30A8 | Espuma costeira"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "R30A8 | FOAM | halo costeiro",
+      "type": "CURVE",
+      "visible": true,
+      "hide_render": false,
+      "bounds": [
+        [
+          -430.5475769042969,
+          -850.0516967773438,
+          -0.13808125257492065
+        ],
+        [
+          30.218215942382812,
+          600.5679931640625,
+          0.9080811738967896
+        ]
+      ],
+      "properties": {
+        "boas_revision": "R30A.8",
+        "boas_source": "water_surface_boundary",
+        "boas_visual_only": true
+      },
+      "materials": [
+        "R30A8 | Espuma costeira suave"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "LAC R35 | Caixilhos verticais do apoio",
+      "type": "MESH",
+      "visible": true,
+      "hide_render": false,
+      "bounds": [
+        [
+          -6.990963459014893,
+          9.42904281616211,
+          43.99300003051758
+        ],
+        [
+          -4.037839412689209,
+          12.56131362915039,
+          64.79500579833984
+        ]
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_revision": "R30B.35",
+        "boas_role": "visual_architecture"
+      },
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERRENO | Encosta",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -116.68624877929688,
+          -77.33656311035156,
+          -3.0
+        ],
+        [
+          87.28492736816406,
+          137.136962890625,
+          39.900001525878906
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | terra"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | corpo vertical encosta",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -8.586333274841309,
+          4.764439582824707,
+          41.849998474121094
+        ],
+        [
+          0.7077991962432861,
+          14.26984977722168,
+          69.8499984741211
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | pilastra apoio",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -8.77088451385498,
+          7.674847602844238,
+          41.849998474121094
+        ],
+        [
+          -8.205484390258789,
+          8.240245819091797,
+          69.8499984741211
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | pilastra apoio.001",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -2.95456600189209,
+          13.873270034790039,
+          41.849998474121094
+        ],
+        [
+          -2.3891661167144775,
+          14.438669204711914,
+          69.8499984741211
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | grelha vertical",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -7.873464584350586,
+          8.587603569030762,
+          58.20000076293945
+        ],
+        [
+          -7.089346408843994,
+          9.414875984191895,
+          66.19999694824219
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | grelhas"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -7.928155899047852,
+          8.63208293914795,
+          58.5625
+        ],
+        [
+          -7.13674783706665,
+          9.466195106506348,
+          58.63750076293945
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.001",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -7.928155899047852,
+          8.63208293914795,
+          59.212501525878906
+        ],
+        [
+          -7.13674783706665,
+          9.466195106506348,
+          59.287498474121094
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.002",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -7.928155899047852,
+          8.63208293914795,
+          59.86249923706055
+        ],
+        [
+          -7.13674783706665,
+          9.466195106506348,
+          59.9375
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.003",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -7.928155899047852,
+          8.63208293914795,
+          60.51250076293945
+        ],
+        [
+          -7.13674783706665,
+          9.466195106506348,
+          60.587501525878906
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.004",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -7.928155899047852,
+          8.63208293914795,
+          61.162498474121094
+        ],
+        [
+          -7.13674783706665,
+          9.466195106506348,
+          61.23749923706055
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.005",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -7.928155899047852,
+          8.63208293914795,
+          61.8125
+        ],
+        [
+          -7.13674783706665,
+          9.466195106506348,
+          61.88750076293945
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.006",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -7.928155899047852,
+          8.63208293914795,
+          62.462501525878906
+        ],
+        [
+          -7.13674783706665,
+          9.466195106506348,
+          62.537498474121094
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.007",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -7.928155899047852,
+          8.63208293914795,
+          63.11249923706055
+        ],
+        [
+          -7.13674783706665,
+          9.466195106506348,
+          63.1875
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.008",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -7.928155899047852,
+          8.63208293914795,
+          63.76250076293945
+        ],
+        [
+          -7.13674783706665,
+          9.466195106506348,
+          63.837501525878906
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.009",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -7.928155899047852,
+          8.63208293914795,
+          64.4124984741211
+        ],
+        [
+          -7.13674783706665,
+          9.466195106506348,
+          64.48750305175781
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.010",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -7.928155899047852,
+          8.63208293914795,
+          65.0625
+        ],
+        [
+          -7.13674783706665,
+          9.466195106506348,
+          65.13749694824219
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.011",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -7.928155899047852,
+          8.63208293914795,
+          65.7125015258789
+        ],
+        [
+          -7.13674783706665,
+          9.466195106506348,
+          65.7874984741211
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | grelha vertical.001",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -5.95750093460083,
+          10.629437446594238,
+          58.20000076293945
+        ],
+        [
+          -5.173382759094238,
+          11.456708908081055,
+          66.19999694824219
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | grelhas"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.012",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -6.012192249298096,
+          10.673916816711426,
+          58.5625
+        ],
+        [
+          -5.2207841873168945,
+          11.508028030395508,
+          58.63750076293945
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.013",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -6.012192249298096,
+          10.673916816711426,
+          59.212501525878906
+        ],
+        [
+          -5.2207841873168945,
+          11.508028030395508,
+          59.287498474121094
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.014",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -6.012192249298096,
+          10.673916816711426,
+          59.86249923706055
+        ],
+        [
+          -5.2207841873168945,
+          11.508028030395508,
+          59.9375
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.015",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -6.012192249298096,
+          10.673916816711426,
+          60.51250076293945
+        ],
+        [
+          -5.2207841873168945,
+          11.508028030395508,
+          60.587501525878906
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.016",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -6.012192249298096,
+          10.673916816711426,
+          61.162498474121094
+        ],
+        [
+          -5.2207841873168945,
+          11.508028030395508,
+          61.23749923706055
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.017",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -6.012192249298096,
+          10.673916816711426,
+          61.8125
+        ],
+        [
+          -5.2207841873168945,
+          11.508028030395508,
+          61.88750076293945
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.018",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -6.012192249298096,
+          10.673916816711426,
+          62.462501525878906
+        ],
+        [
+          -5.2207841873168945,
+          11.508028030395508,
+          62.537498474121094
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.019",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -6.012192249298096,
+          10.673916816711426,
+          63.11249923706055
+        ],
+        [
+          -5.2207841873168945,
+          11.508028030395508,
+          63.1875
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.020",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -6.012192249298096,
+          10.673916816711426,
+          63.76250076293945
+        ],
+        [
+          -5.2207841873168945,
+          11.508028030395508,
+          63.837501525878906
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.021",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -6.012192249298096,
+          10.673916816711426,
+          64.4124984741211
+        ],
+        [
+          -5.2207841873168945,
+          11.508028030395508,
+          64.48750305175781
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.022",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -6.012192249298096,
+          10.673916816711426,
+          65.0625
+        ],
+        [
+          -5.2207841873168945,
+          11.508028030395508,
+          65.13749694824219
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.023",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -6.012192249298096,
+          10.673916816711426,
+          65.7125015258789
+        ],
+        [
+          -5.2207841873168945,
+          11.508028030395508,
+          65.7874984741211
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | grelha vertical.002",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -4.041537284851074,
+          12.671270370483398,
+          58.20000076293945
+        ],
+        [
+          -3.2574188709259033,
+          13.498542785644531,
+          66.19999694824219
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | grelhas"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.024",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -4.09622859954834,
+          12.715749740600586,
+          58.5625
+        ],
+        [
+          -3.3048202991485596,
+          13.549861907958984,
+          58.63750076293945
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.025",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -4.09622859954834,
+          12.715749740600586,
+          59.212501525878906
+        ],
+        [
+          -3.3048202991485596,
+          13.549861907958984,
+          59.287498474121094
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.026",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -4.09622859954834,
+          12.715749740600586,
+          59.86249923706055
+        ],
+        [
+          -3.3048202991485596,
+          13.549861907958984,
+          59.9375
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.027",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -4.09622859954834,
+          12.715749740600586,
+          60.51250076293945
+        ],
+        [
+          -3.3048202991485596,
+          13.549861907958984,
+          60.587501525878906
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.028",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -4.09622859954834,
+          12.715749740600586,
+          61.162498474121094
+        ],
+        [
+          -3.3048202991485596,
+          13.549861907958984,
+          61.23749923706055
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.029",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -4.09622859954834,
+          12.715749740600586,
+          61.8125
+        ],
+        [
+          -3.3048202991485596,
+          13.549861907958984,
+          61.88750076293945
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.030",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -4.09622859954834,
+          12.715749740600586,
+          62.462501525878906
+        ],
+        [
+          -3.3048202991485596,
+          13.549861907958984,
+          62.537498474121094
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.031",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -4.09622859954834,
+          12.715749740600586,
+          63.11249923706055
+        ],
+        [
+          -3.3048202991485596,
+          13.549861907958984,
+          63.1875
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.032",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -4.09622859954834,
+          12.715749740600586,
+          63.76250076293945
+        ],
+        [
+          -3.3048202991485596,
+          13.549861907958984,
+          63.837501525878906
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.033",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -4.09622859954834,
+          12.715749740600586,
+          64.4124984741211
+        ],
+        [
+          -3.3048202991485596,
+          13.549861907958984,
+          64.48750305175781
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.034",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -4.09622859954834,
+          12.715749740600586,
+          65.0625
+        ],
+        [
+          -3.3048202991485596,
+          13.549861907958984,
+          65.13749694824219
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TERMINAL | lamela grelha.035",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -4.09622859954834,
+          12.715749740600586,
+          65.7125015258789
+        ],
+        [
+          -3.3048202991485596,
+          13.549861907958984,
+          65.7874984741211
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      },
+      "materials": [
+        "Encosta | apoio rebocado"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "PIER OSM | 1321682676 | eixo sem largura",
+      "type": "CURVE",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -297.72296142578125,
+          179.30262756347656,
+          6.255664825439453
+        ],
+        [
+          -226.24720764160156,
+          253.89955139160156,
+          8.255664825439453
+        ]
+      ],
+      "properties": {
+        "boas_osm_type": "way",
+        "boas_osm_id": 1321682676,
+        "boas_source_layer": "waterfront",
+        "boas_source_tag": "man_made=pier",
+        "boas_classification": "KEEP_REAL_REFERENCE",
+        "boas_runtime_role": "reference_centerline_width_unknown",
+        "boas_gameplay_approved": false,
+        "boas_width_verified_m": -1.0,
+        "boas_width_status": "unknown_do_not_invent",
+        "boas_deck_z_candidate_m": 7.255664825439453,
+        "boas_deck_z_basis": "median of current functional land surface hits at OSM pier vertices",
+        "boas_gameplay_status": "centerline_only_width_unknown_not_walkable_surface"
+      },
+      "materials": [
+        "B46 | Pier linear | eixo sem largura"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "PIER OSM | 1321682677 | eixo sem largura",
+      "type": "CURVE",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -342.41558837890625,
+          224.992431640625,
+          6.255664825439453
+        ],
+        [
+          -269.797119140625,
+          297.27191162109375,
+          8.255664825439453
+        ]
+      ],
+      "properties": {
+        "boas_osm_type": "way",
+        "boas_osm_id": 1321682677,
+        "boas_source_layer": "waterfront",
+        "boas_source_tag": "man_made=pier",
+        "boas_classification": "KEEP_REAL_REFERENCE",
+        "boas_runtime_role": "reference_centerline_width_unknown",
+        "boas_gameplay_approved": false,
+        "boas_width_verified_m": -1.0,
+        "boas_width_status": "unknown_do_not_invent",
+        "boas_deck_z_candidate_m": 7.255664825439453,
+        "boas_deck_z_basis": "median of current functional land surface hits at OSM pier vertices",
+        "boas_gameplay_status": "centerline_only_width_unknown_not_walkable_surface"
+      },
+      "materials": [
+        "B46 | Pier linear | eixo sem largura"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "PIER OSM | 1426173139 | footprint real",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -277.8446350097656,
+          330.58331298828125,
+          7.255664825439453
+        ],
+        [
+          -254.71536254882812,
+          353.0747985839844,
+          7.255664825439453
+        ]
+      ],
+      "properties": {
+        "boas_osm_type": "way",
+        "boas_osm_id": 1426173139,
+        "boas_source_layer": "waterfront",
+        "boas_source_tag": "man_made=pier",
+        "boas_classification": "KEEP_REAL_REFERENCE",
+        "boas_runtime_role": "reference_surface",
+        "boas_gameplay_approved": false,
+        "boas_width_verified_m": 0.0,
+        "boas_width_status": "footprint_from_osm",
+        "boas_deck_z_candidate_m": 7.255664825439453,
+        "boas_deck_z_basis": "median of current functional land surface hits at OSM pier vertices"
+      },
+      "materials": [
+        "B46 | Pier OSM | referencia estrutural"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "PIER OSM | 1426173140 | footprint real",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -351.6195983886719,
+          298.73565673828125,
+          7.255664825439453
+        ],
+        [
+          -274.93023681640625,
+          345.09295654296875,
+          7.255664825439453
+        ]
+      ],
+      "properties": {
+        "boas_osm_type": "way",
+        "boas_osm_id": 1426173140,
+        "boas_source_layer": "waterfront",
+        "boas_source_tag": "man_made=pier",
+        "boas_classification": "KEEP_REAL_REFERENCE",
+        "boas_runtime_role": "reference_surface",
+        "boas_gameplay_approved": false,
+        "boas_width_verified_m": 0.0,
+        "boas_width_status": "footprint_from_osm",
+        "boas_deck_z_candidate_m": 7.255664825439453,
+        "boas_deck_z_basis": "median of current functional land surface hits at OSM pier vertices"
+      },
+      "materials": [
+        "B46 | Pier OSM | referencia estrutural"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "EXPANSAO B48 | terreno costeiro DEM relativo | candidato",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -540.0,
+          -510.0,
+          -2.463484764099121
+        ],
+        [
+          -280.0,
+          -10.0,
+          63.594818115234375
+        ]
+      ],
+      "properties": {
+        "boas_revision": "R30B.48",
+        "boas_classification": "ADAPT_LOCAL",
+        "boas_runtime_role": "terrain_expansion_reference_candidate",
+        "boas_source_dem_relative_only": true,
+        "boas_vertical_absolute_approved": false,
+        "boas_vertical_local_offset_m": -3.463484764099121,
+        "boas_gameplay_approved": false,
+        "boas_osm_coastline_way_id": 354138561,
+        "boas_superseded_by": "R30B.49"
+      },
+      "materials": [
+        "GAL R34 | encosta localizada | MVP | terreno contínuo"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "EXPANSAO B49 | terra emersa costeira | candidata",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -530.0,
+          -510.0,
+          0.45893383026123047
+        ],
+        [
+          -280.0,
+          -20.0,
+          63.594818115234375
+        ]
+      ],
+      "properties": {
+        "boas_revision": "R30B.49",
+        "boas_classification": "ADAPT_LOCAL",
+        "boas_runtime_role": "terrain_land_candidate",
+        "boas_gameplay_approved": false,
+        "boas_water_level_reference_m": 0.35,
+        "boas_source_dem_relative_only": true,
+        "boas_gameplay_surface": true,
+        "boas_gameplay_role": "land",
+        "boas_collision_required": true,
+        "boas_collision_partner": "B51 | COLLISION | land",
+        "boas_superseded_by": "R30B.52"
+      },
+      "materials": [
+        "GAL R34 | encosta localizada | MVP | terreno contínuo"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "EXPANSAO B49 | faixa de transicao costeira | candidata",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -530.0,
+          -500.0,
+          -2.3498687744140625
+        ],
+        [
+          -340.0,
+          -90.0,
+          12.830248832702637
+        ]
+      ],
+      "properties": {
+        "boas_revision": "R30B.49",
+        "boas_classification": "ADAPT_LOCAL",
+        "boas_runtime_role": "shore_transition_candidate",
+        "boas_gameplay_approved": false,
+        "boas_water_level_reference_m": 0.35,
+        "boas_source_dem_relative_only": true,
+        "boas_gameplay_surface": true,
+        "boas_gameplay_role": "shore_transition",
+        "boas_collision_required": true,
+        "boas_collision_partner": "B51 | COLLISION | shore_transition",
+        "boas_superseded_by": "R30B.52"
+      },
+      "materials": [
+        "GAL R34 | encosta localizada | MVP | terreno contínuo"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "EXPANSAO B49 | fundo submerso DEM relativo | candidato",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -500.0,
+          -470.0,
+          -2.463484764099121
+        ],
+        [
+          -430.0,
+          -370.0,
+          0.2832913398742676
+        ]
+      ],
+      "properties": {
+        "boas_revision": "R30B.49",
+        "boas_classification": "ADAPT_LOCAL",
+        "boas_runtime_role": "underwater_seabed_reference_candidate",
+        "boas_gameplay_approved": false,
+        "boas_water_level_reference_m": 0.35,
+        "boas_source_dem_relative_only": true,
+        "boas_gameplay_surface": true,
+        "boas_gameplay_role": "underwater_seabed",
+        "boas_collision_required": true,
+        "boas_collision_partner": "B51 | COLLISION | underwater_seabed",
+        "boas_superseded_by": "R30B.52"
+      },
+      "materials": [
+        "GAL R34 | encosta localizada | MVP | terreno contínuo"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "B56 | WALKABLE PIER | 1426173139",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -277.8446350097656,
+          330.58331298828125,
+          7.255664825439453
+        ],
+        [
+          -254.71536254882812,
+          353.0747985839844,
+          7.255664825439453
+        ]
+      ],
+      "properties": {
+        "boas_osm_id": 1426173139,
+        "boas_runtime_role": "walkable_surface",
+        "boas_collision_required": true,
+        "boas_width_status": "footprint_from_osm",
+        "boas_gameplay_approved": false
+      },
+      "materials": [
+        "B46 | Pier OSM | referencia estrutural"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "B56 | COLLISION | PIER | 1426173139",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -277.8446350097656,
+          330.58331298828125,
+          7.255664825439453
+        ],
+        [
+          -254.71536254882812,
+          353.0747985839844,
+          7.255664825439453
+        ]
+      ],
+      "properties": {
+        "boas_runtime_role": "walkable_collision",
+        "boas_source_surface": "B56 | WALKABLE PIER | 1426173139",
+        "boas_gameplay_approved": false
+      },
+      "materials": [
+        "B46 | Pier OSM | referencia estrutural"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "B56 | WALKABLE PIER | 1426173140",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -351.6195983886719,
+          298.73565673828125,
+          7.255664825439453
+        ],
+        [
+          -274.93023681640625,
+          345.09295654296875,
+          7.255664825439453
+        ]
+      ],
+      "properties": {
+        "boas_osm_id": 1426173140,
+        "boas_runtime_role": "walkable_surface",
+        "boas_collision_required": true,
+        "boas_width_status": "footprint_from_osm",
+        "boas_gameplay_approved": false
+      },
+      "materials": [
+        "B46 | Pier OSM | referencia estrutural"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "B56 | COLLISION | PIER | 1426173140",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -351.6195983886719,
+          298.73565673828125,
+          7.255664825439453
+        ],
+        [
+          -274.93023681640625,
+          345.09295654296875,
+          7.255664825439453
+        ]
+      ],
+      "properties": {
+        "boas_runtime_role": "walkable_collision",
+        "boas_source_surface": "B56 | WALKABLE PIER | 1426173140",
+        "boas_gameplay_approved": false
+      },
+      "materials": [
+        "B46 | Pier OSM | referencia estrutural"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "B57 | PIER VISUAL | 1426173139",
+      "type": "MESH",
+      "visible": true,
+      "hide_render": false,
+      "bounds": [
+        [
+          -277.8446350097656,
+          330.58331298828125,
+          6.905664920806885
+        ],
+        [
+          -254.71536254882812,
+          353.0747985839844,
+          7.255664825439453
+        ]
+      ],
+      "properties": {
+        "boas_osm_id": 1426173139,
+        "boas_runtime_role": "pier_visual",
+        "boas_collision_source": "B56 | COLLISION | PIER | 1426173139",
+        "boas_visual_thickness_m": 0.35,
+        "boas_thickness_status": "ADAPT_VISUAL_NOT_SURVEYED",
+        "boas_gameplay_approved": false
+      },
+      "materials": [
+        "CAIS | pedra costeira"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "B57 | PIER VISUAL | 1426173140",
+      "type": "MESH",
+      "visible": true,
+      "hide_render": false,
+      "bounds": [
+        [
+          -351.6195983886719,
+          298.73565673828125,
+          6.905664920806885
+        ],
+        [
+          -274.93023681640625,
+          345.09295654296875,
+          7.255664825439453
+        ]
+      ],
+      "properties": {
+        "boas_osm_id": 1426173140,
+        "boas_runtime_role": "pier_visual",
+        "boas_collision_source": "B56 | COLLISION | PIER | 1426173140",
+        "boas_visual_thickness_m": 0.35,
+        "boas_thickness_status": "ADAPT_VISUAL_NOT_SURVEYED",
+        "boas_gameplay_approved": false
+      },
+      "materials": [
+        "CAIS | pedra costeira"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "B59 | GAMEPLAY TERRAIN HQ | encosta contínua",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -551.0,
+          -510.0,
+          -2.463484764099121
+        ],
+        [
+          -260.75,
+          -12.0,
+          66.88790130615234
+        ]
+      ],
+      "properties": {
+        "boas_revision": "R30B.59",
+        "boas_runtime_role": "gameplay_terrain_visual_hq",
+        "boas_grid_step_m": 0.75,
+        "boas_source_dem": "Aleph terrain.tif",
+        "boas_gameplay_approved": false,
+        "boas_collision_partner": "B59 | COLLISION | terreno encosta contínua",
+        "boas_superseded_by": "B60 | GAMEPLAY TERRAIN HQ | plataformas costeiras"
+      },
+      "materials": [
+        "GAL R34 | encosta localizada | MVP | terreno contínuo",
+        "Terreno | solo encosta",
+        "ENV R35 | terreno e rocha junto ao apoio"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "B59 | COLLISION | terreno encosta contínua",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -551.0,
+          -510.0,
+          -2.463484764099121
+        ],
+        [
+          -260.75,
+          -12.0,
+          66.88790130615234
+        ]
+      ],
+      "properties": {
+        "boas_runtime_role": "terrain_collision",
+        "boas_source_surface": "B59 | GAMEPLAY TERRAIN HQ | encosta contínua",
+        "boas_geometry_identical_to_visual": true,
+        "boas_gameplay_approved": false,
+        "boas_superseded_by": "B60 | COLLISION | plataformas costeiras"
+      },
+      "materials": [
+        "GAL R34 | encosta localizada | MVP | terreno contínuo",
+        "Terreno | solo encosta",
+        "ENV R35 | terreno e rocha junto ao apoio"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "B60 | GAMEPLAY TERRAIN HQ | plataformas costeiras",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -551.0,
+          -510.0,
+          -2.463484764099121
+        ],
+        [
+          -260.75,
+          -12.0,
+          66.88790130615234
+        ]
+      ],
+      "properties": {
+        "boas_revision": "R30B.60",
+        "boas_runtime_role": "gameplay_terrain_visual_hq",
+        "boas_grid_step_m": 0.75,
+        "boas_source_dem": "Aleph terrain.tif",
+        "boas_gameplay_approved": false,
+        "boas_collision_partner": "B60 | COLLISION | plataformas costeiras",
+        "boas_superseded_by": "B61 | GAMEPLAY TERRAIN HQ | pavimento integrado"
+      },
+      "materials": [
+        "GAL R34 | encosta localizada | MVP | terreno contínuo",
+        "Terreno | solo encosta",
+        "ENV R35 | terreno e rocha junto ao apoio"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "B60 | COLLISION | plataformas costeiras",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -551.0,
+          -510.0,
+          -2.463484764099121
+        ],
+        [
+          -260.75,
+          -12.0,
+          66.88790130615234
+        ]
+      ],
+      "properties": {
+        "boas_source_surface": "B60 | GAMEPLAY TERRAIN HQ | plataformas costeiras",
+        "boas_runtime_role": "terrain_collision",
+        "boas_geometry_identical_to_visual": true,
+        "boas_gameplay_approved": false,
+        "boas_superseded_by": "B61 | COLLISION | terreno e pavimento integrado"
+      },
+      "materials": [
+        "GAL R34 | encosta localizada | MVP | terreno contínuo",
+        "Terreno | solo encosta",
+        "ENV R35 | terreno e rocha junto ao apoio"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "B63 | VISUAL | piso contínuo até o cais",
+      "type": "MESH",
+      "visible": true,
+      "hide_render": false,
+      "bounds": [
+        [
+          -388.4596862792969,
+          -94.84332275390625,
+          -0.58892822265625
+        ],
+        [
+          -285.70343017578125,
+          39.402835845947266,
+          9.056307792663574
+        ]
+      ],
+      "properties": {
+        "boas_revision": "R30B.66",
+        "boas_runtime_role": "sidewalk_walkable",
+        "boas_gameplay_approved": false,
+        "boas_real_dimensions_verified": false,
+        "boas_classification": "ERROR",
+        "boas_correction_reason": "Piso ausente entre limites existentes; interpolação ancorada no cais e no terreno preservados.",
+        "boas_source_controls": "cais construído R30A8; limite núcleo; limite HQ B62",
+        "boas_location_id": "cais-praca-cairu",
+        "boas_surface_design_status": "ADAPT_LOCAL_CANDIDATE",
+        "boas_collision_partner": "B63 | COLLISION | piso contínuo até o cais",
+        "boas_coastline_control": "limite superior da água preservada B63"
+      },
+      "materials": [
+        "VIAS | passeio mineral claro"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "B63 | COLLISION | piso contínuo até o cais",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -388.4596862792969,
+          -94.84332275390625,
+          -0.58892822265625
+        ],
+        [
+          -285.70343017578125,
+          39.402835845947266,
+          9.056307792663574
+        ]
+      ],
+      "properties": {
+        "boas_runtime_role": "terrain_collision",
+        "boas_source_surface": "B63 | VISUAL | piso contínuo até o cais",
+        "boas_geometry_identical_to_visual": true,
+        "boas_gameplay_approved": false,
+        "boas_revision": "R30B.66"
+      },
+      "materials": [
+        "VIAS | passeio mineral claro"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "B64 | COLLISION | cais e borda marítima",
+      "type": "MESH",
+      "visible": false,
+      "hide_render": true,
+      "bounds": [
+        [
+          -388.4596862792969,
+          -94.84332275390625,
+          0.3499999940395355
+        ],
+        [
+          29.831451416015625,
+          600.1769409179688,
+          8.9639892578125
+        ]
+      ],
+      "properties": {
+        "boas_runtime_role": "coastal_wall_collision",
+        "boas_source_surface": "CAIS | contenção costeira alinhada à linha de costa",
+        "boas_gameplay_approved": false,
+        "boas_revision": "R30B.66"
+      },
+      "materials": [
+        "CAIS | pedra costeira"
+      ],
+      "modifiers": []
+    }
+  ],
+  "real_source_features": [
+    {
+      "osm_id": 291006881,
+      "osm_type": "way",
+      "layer": "coastline",
+      "closed": false,
+      "tags": {
+        "natural": "coastline"
+      },
+      "xy": [
+        [
+          937.2206468484364,
+          2362.4740435655694
+        ],
+        [
+          931.8893937151879,
+          2354.7325227730907
+        ],
+        [
+          928.4617960150354,
+          2350.2141468962654
+        ],
+        [
+          917.3661785908043,
+          2333.479223100934
+        ],
+        [
+          909.8654641965404,
+          2315.0898805253673
+        ],
+        [
+          900.8907925160602,
+          2303.029629904544
+        ],
+        [
+          895.4194954866543,
+          2295.6871672554407
+        ],
+        [
+          885.1825254228897,
+          2285.079767570365
+        ],
+        [
+          851.2342743724585,
+          2231.9497943299357
+        ],
+        [
+          845.1562489122152,
+          2222.4357848365325
+        ],
+        [
+          834.0236154878512,
+          2212.649220834719
+        ],
+        [
+          791.4449841883034,
+          2230.9391342294402
+        ],
+        [
+          783.0744662266225,
+          2230.2927469941787
+        ],
+        [
+          780.211127072107,
+          2228.765982463956
+        ],
+        [
+          778.7295067133382,
+          2226.4844137066975
+        ],
+        [
+          775.4275630372576,
+          2217.5331127825193
+        ],
+        [
+          776.6994186616503,
+          2214.6839115351904
+        ],
+        [
+          779.266988242045,
+          2211.5232613261323
+        ],
+        [
+          787.9562667836435,
+          2206.284831448458
+        ],
+        [
+          791.0710718207993,
+          2199.1230956162326
+        ],
+        [
+          799.1410960992798,
+          2189.773795585148
+        ],
+        [
+          810.542948895134,
+          2186.549870474031
+        ],
+        [
+          805.2660799422301,
+          2179.2404497580137
+        ],
+        [
+          805.2601230316795,
+          2172.5469282220583
+        ],
+        [
+          806.7335477094166,
+          2165.619366439758
+        ],
+        [
+          805.9969545388594,
+          2151.013939206954
+        ],
+        [
+          806.8758906270377,
+          2143.5328005396295
+        ],
+        [
+          801.8959259674884,
+          2130.050421701744
+        ],
+        [
+          796.8672578539699,
+          2122.519124736078
+        ],
+        [
+          792.4288769182749,
+          2110.8204595982097
+        ],
+        [
+          788.5318824606948,
+          2100.683873723261
+        ],
+        [
+          780.4317180057988,
+          2088.301372078946
+        ],
+        [
+          761.8846707092598,
+          2060.0143506117165
+        ],
+        [
+          736.3909385148436,
+          2041.2418847281951
+        ],
+        [
+          698.2771222363226,
+          2040.2562553603202
+        ],
+        [
+          655.8211375041865,
+          2038.5984850339592
+        ],
+        [
+          659.2656005937606,
+          2049.932357779937
+        ],
+        [
+          648.9874323564582,
+          2053.709401154658
+        ],
+        [
+          765.7266250126995,
+          2384.502372515388
+        ],
+        [
+          772.4313125582412,
+          2382.1802854740527
+        ],
+        [
+          785.3948705941439,
+          2422.6842010342516
+        ],
+        [
+          745.7716392944567,
+          2436.726980581414
+        ],
+        [
+          604.9838842018507,
+          2036.3497426083777
+        ],
+        [
+          499.7053425037302,
+          1731.995563791832
+        ],
+        [
+          486.204460457433,
+          1694.494386188453
+        ],
+        [
+          489.6183981811628,
+          1695.7990465147886
+        ],
+        [
+          492.7499797581695,
+          1695.3529719163198
+        ],
+        [
+          495.53429719340056,
+          1693.0343159607146
+        ],
+        [
+          499.3744324054569,
+          1687.8222676536534
+        ],
+        [
+          485.02156922081485,
+          1675.9549262914807
+        ],
+        [
+          632.22229977604,
+          1491.382271191338
+        ],
+        [
+          556.7351398495957,
+          1362.750714190537
+        ],
+        [
+          484.4913868890144,
+          1237.9723370277788
+        ],
+        [
+          275.22670466220006,
+          867.9382723141462
+        ],
+        [
+          274.03810223564506,
+          867.2522136385087
+        ],
+        [
+          272.6988138332963,
+          867.1425803005695
+        ],
+        [
+          267.77708921721205,
+          870.5603775677737
+        ],
+        [
+          266.31897213403136,
+          870.4176024275366
+        ],
+        [
+          264.14663037424907,
+          868.6684970722999
+        ],
+        [
+          237.33162870863453,
+          821.4918537407648
+        ],
+        [
+          24.53609953261912,
+          610.0371083989739
+        ],
+        [
+          31.300240708515048,
+          601.7080342124682
+        ]
+      ],
+      "metrics": {
+        "length_m_projected": 3272.5136598783142,
+        "area_m2_projected": null,
+        "width_m_tagged": null,
+        "lanes_tagged": null
+      }
+    },
+    {
+      "osm_id": 354138561,
+      "osm_type": "way",
+      "layer": "coastline",
+      "closed": false,
+      "tags": {
+        "natural": "coastline"
+      },
+      "xy": [
+        [
+          -356.14054888347164,
+          -94.77637665299699
+        ],
+        [
+          -354.8296856805682,
+          -102.33608952607028
+        ],
+        [
+          -356.7512428285554,
+          -113.5392077032011
+        ],
+        [
+          -363.7082443507388,
+          -127.75240433961153
+        ],
+        [
+          -368.94515919405967,
+          -138.70875791553408
+        ],
+        [
+          -375.70482295937836,
+          -149.61942894710228
+        ],
+        [
+          -380.03888421691954,
+          -153.31727169966325
+        ],
+        [
+          -385.7643002658151,
+          -154.95245070382953
+        ],
+        [
+          -397.03135586855933,
+          -145.88766707363538
+        ],
+        [
+          -403.6591224852018,
+          -154.21613440592773
+        ],
+        [
+          -408.4594049002044,
+          -159.96390615939163
+        ],
+        [
+          -408.81626575114205,
+          -160.48448662110604
+        ],
+        [
+          -412.2218201388605,
+          -164.50456239120103
+        ],
+        [
+          -410.1928559555672,
+          -166.10231132782064
+        ],
+        [
+          -434.86405034316704,
+          -195.05117450794205
+        ],
+        [
+          -438.799431941472,
+          -199.7800928002689
+        ],
+        [
+          -455.9466342460364,
+          -220.58970947097987
+        ],
+        [
+          -461.87888603890315,
+          -224.06448019645177
+        ],
+        [
+          -465.3575247162953,
+          -225.2583443990443
+        ],
+        [
+          -468.4686407088302,
+          -226.08679792354815
+        ],
+        [
+          -470.75853884825483,
+          -226.4394148683641
+        ],
+        [
+          -473.0371340424754,
+          -226.22681071632542
+        ],
+        [
+          -480.2812945167534,
+          -223.31662739929743
+        ],
+        [
+          -491.3558946517296,
+          -216.43533556326292
+        ],
+        [
+          -492.61883402382955,
+          -215.70273626525886
+        ],
+        [
+          -493.9904925930314,
+          -215.77909627440386
+        ],
+        [
+          -495.0389229715802,
+          -216.72021480486728
+        ],
+        [
+          -504.33738642698154,
+          -240.6843925092835
+        ],
+        [
+          -504.5877177361399,
+          -242.85643185907975
+        ],
+        [
+          -504.19005399476737,
+          -245.02904806588776
+        ],
+        [
+          -503.4028830653988,
+          -246.40403709444217
+        ],
+        [
+          -413.8535978947766,
+          -286.9698578303214
+        ],
+        [
+          -411.9762172345072,
+          -288.99971552635543
+        ],
+        [
+          -411.24419990275055,
+          -291.6713674708735
+        ],
+        [
+          -411.39842678653076,
+          -295.07370838942006
+        ],
+        [
+          -412.7780549162999,
+          -304.1051201191731
+        ],
+        [
+          -414.1973023330793,
+          -309.11337130120955
+        ],
+        [
+          -429.1131141339429,
+          -346.7712299176492
+        ],
+        [
+          -446.86124593252316,
+          -375.3717874926515
+        ],
+        [
+          -463.5452157771215,
+          -397.48974695266224
+        ],
+        [
+          -477.1121910782531,
+          -412.17377826408483
+        ],
+        [
+          -481.3946495754644,
+          -418.5648810961284
+        ],
+        [
+          -489.12128556286916,
+          -423.8335328672547
+        ],
+        [
+          -497.1801352617331,
+          -438.33406837051734
+        ],
+        [
+          -506.51398676494136,
+          -453.5206262387801
+        ],
+        [
+          -517.6291440925561,
+          -467.9408759891521
+        ],
+        [
+          -534.0912272115238,
+          -483.4425153650809
+        ],
+        [
+          -553.2421643100679,
+          -498.5760291055776
+        ],
+        [
+          -560.7084088209085,
+          -502.5038758404553
+        ],
+        [
+          -571.7370085171424,
+          -504.6109283196274
+        ],
+        [
+          -594.6933223684318,
+          -487.61123139457777
+        ],
+        [
+          -605.9171298723668,
+          -502.762885292992
+        ],
+        [
+          -603.7369767250493,
+          -504.3718714581337
+        ],
+        [
+          -607.7374439164996,
+          -509.42219423362985
+        ],
+        [
+          -623.7290651178919,
+          -530.2441565387417
+        ],
+        [
+          -626.3458014451899,
+          -533.7884155649226
+        ],
+        [
+          -629.292245701421,
+          -531.6135082938708
+        ],
+        [
+          -636.5693784868345,
+          -541.4820640173275
+        ],
+        [
+          -633.9898947058246,
+          -543.3906512940302
+        ],
+        [
+          -638.1419059652835,
+          -548.8287546390202
+        ],
+        [
+          -654.2517443448305,
+          -568.9967385507189
+        ],
+        [
+          -666.6638683066703,
+          -584.5131222831551
+        ],
+        [
+          -670.3471234892495,
+          -585.052916660672
+        ],
+        [
+          -692.621503802482,
+          -566.3248132325243
+        ],
+        [
+          -698.1269465670921,
+          -563.4937231261283
+        ],
+        [
+          -705.9454457303509,
+          -562.7663635786157
+        ],
+        [
+          -716.3682735711336,
+          -563.776732917875
+        ],
+        [
+          -722.1691115228459,
+          -565.2123734478373
+        ],
+        [
+          -724.0501810838468,
+          -567.3275716153439
+        ],
+        [
+          -738.3553877267987,
+          -586.3223656169139
+        ],
+        [
+          -748.2160976286978,
+          -598.88183824718
+        ],
+        [
+          -764.1958833127283,
+          -618.540151035646
+        ],
+        [
+          -766.6241090632975,
+          -616.5651944372803
+        ],
+        [
+          -775.2190685346723,
+          -626.6986028512474
+        ],
+        [
+          -773.2874515852891,
+          -628.4625388276763
+        ],
+        [
+          -775.3839572849683,
+          -629.9458119245246
+        ],
+        [
+          -777.9028137894347,
+          -632.7254351079464
+        ],
+        [
+          -778.520164782647,
+          -634.69768244843
+        ],
+        [
+          -778.718370584771,
+          -638.9755938816816
+        ],
+        [
+          -777.8802972068079,
+          -643.8307510691229
+        ],
+        [
+          -778.7284411597066,
+          -650.2914629143197
+        ],
+        [
+          -783.7450277847238,
+          -656.3827230429742
+        ],
+        [
+          -785.6555183427408,
+          -655.1507946248166
+        ],
+        [
+          -787.3205994227901,
+          -657.2772750649601
+        ],
+        [
+          -789.608406517189,
+          -655.2802743832581
+        ],
+        [
+          -790.2463216828182,
+          -656.0887756478041
+        ],
+        [
+          -796.0848067472689,
+          -663.4206172374543
+        ],
+        [
+          -797.4255450814962,
+          -665.1594770469237
+        ],
+        [
+          -792.6985249170102,
+          -668.9208687453065
+        ],
+        [
+          -797.152707031928,
+          -674.1038156817667
+        ],
+        [
+          -802.3131842520088,
+          -684.1183871794492
+        ],
+        [
+          -803.9349768920802,
+          -686.1451600422151
+        ],
+        [
+          -805.545022724662,
+          -687.1079611531459
+        ],
+        [
+          -807.8124629119411,
+          -686.4963700352237
+        ],
+        [
+          -819.8791265236214,
+          -677.8961920973379
+        ],
+        [
+          -835.8843571385369,
+          -665.4688279237598
+        ],
+        [
+          -893.4177841530181,
+          -619.4226307743229
+        ],
+        [
+          -894.7474759812467,
+          -620.8844195725396
+        ],
+        [
+          -896.8735407637432,
+          -619.1757266337518
+        ],
+        [
+          -898.6689600683749,
+          -609.9973052931018
+        ],
+        [
+          -901.1299702459946,
+          -608.4545617077965
+        ],
+        [
+          -902.66079677362,
+          -605.3499265634455
+        ],
+        [
+          -904.8734088484198,
+          -603.8074043004308
+        ],
+        [
+          -906.9464406599291,
+          -603.184904922964
+        ],
+        [
+          -909.6462227720767,
+          -602.9608399360441
+        ],
+        [
+          -912.6809206879698,
+          -602.8694742785301
+        ],
+        [
+          -914.1815470079891,
+          -602.2364012196194
+        ],
+        [
+          -936.4995313789696,
+          -583.9626545880456
+        ],
+        [
+          -948.9970475607552,
+          -574.0764850636479
+        ],
+        [
+          -961.6132937958464,
+          -564.1126317153685
+        ],
+        [
+          -973.8411967186257,
+          -554.6589499844704
+        ],
+        [
+          -986.2524319295771,
+          -544.9058648445643
+        ],
+        [
+          -999.3109027133323,
+          -534.2988093555905
+        ],
+        [
+          -1012.8013307475485,
+          -523.647041188553
+        ],
+        [
+          -1024.8563659600914,
+          -514.1159455967136
+        ],
+        [
+          -1035.4867096310481,
+          -505.59468113281764
+        ],
+        [
+          -1062.46764463,
+          -484.37983552296646
+        ],
+        [
+          -1068.5748547250405,
+          -478.1457169726491
+        ],
+        [
+          -1068.829545179382,
+          -473.0805299130734
+        ],
+        [
+          -1067.8106147106737,
+          -468.88095603720285
+        ],
+        [
+          -1056.0463970857672,
+          -453.26431316835806
+        ],
+        [
+          -1048.3807336091995,
+          -443.695377093507
+        ],
+        [
+          -995.6065247822553,
+          -376.534801362548
+        ],
+        [
+          -960.0771319973283,
+          -330.64948877040297
+        ],
+        [
+          -929.9207231104374,
+          -290.855114804348
+        ],
+        [
+          -899.3203439246863,
+          -249.7423196285963
+        ],
+        [
+          -880.0755608212203,
+          -226.2413870000746
+        ],
+        [
+          -877.8589245034382,
+          -223.26204255595803
+        ],
+        [
+          -817.1074135592207,
+          -148.28455273178406
+        ],
+        [
+          -814.8581999568269,
+          -145.10575295612216
+        ],
+        [
+          -814.1971463006921,
+          -142.5683501099702
+        ],
+        [
+          -815.1780746378936,
+          -140.47280338779092
+        ],
+        [
+          -816.8509966223501,
+          -139.2743582148105
+        ],
+        [
+          -818.6214334866963,
+          -138.4304800236132
+        ],
+        [
+          -821.9483900158666,
+          -139.08141198940575
+        ],
+        [
+          -824.4128326317295,
+          -141.3955509897787
+        ],
+        [
+          -874.0717034703121,
+          -202.98359861620702
+        ],
+        [
+          -883.0667726462707,
+          -213.69281262299046
+        ],
+        [
+          -891.185628191568,
+          -222.80686392844655
+        ],
+        [
+          -907.1318796053529,
+          -241.19039656198584
+        ],
+        [
+          -932.6489493777044,
+          -274.0508791541215
+        ],
+        [
+          -991.814026763197,
+          -350.3268361482769
+        ],
+        [
+          -1060.6972551676445,
+          -436.7353435824625
+        ],
+        [
+          -1088.8209618534893,
+          -473.9272174711805
+        ],
+        [
+          -1089.6910113720223,
+          -480.73144509550184
+        ],
+        [
+          -1088.6917775915936,
+          -486.5287786992267
+        ],
+        [
+          -1085.5744678778574,
+          -490.8761162380688
+        ],
+        [
+          -899.1002082349733,
+          -633.4266436113976
+        ],
+        [
+          -829.3068830054253,
+          -689.3810262531042
+        ],
+        [
+          -790.5319160292856,
+          -722.1551793599501
+        ],
+        [
+          -780.3957646680064,
+          -727.7501149699092
+        ],
+        [
+          -777.0699029737152,
+          -728.329399446724
+        ],
+        [
+          -773.3655312634073,
+          -728.3326961582061
+        ],
+        [
+          -765.1786019736901,
+          -727.674992182292
+        ],
+        [
+          -760.966821547132,
+          -727.8893206112552
+        ]
+      ],
+      "metrics": {
+        "length_m_projected": 2737.715178041098,
+        "area_m2_projected": null,
+        "width_m_tagged": null,
+        "lanes_tagged": null
+      }
+    },
+    {
+      "osm_id": 609043796,
+      "osm_type": "way",
+      "layer": "coastline",
+      "closed": false,
+      "tags": {
+        "natural": "coastline"
+      },
+      "xy": [
+        [
+          -180.65212291292846,
+          63.4639545280952
+        ],
+        [
+          -181.96948599722236,
+          63.72003240091726
+        ],
+        [
+          -203.72234403155744,
+          85.96049086959101
+        ],
+        [
+          -204.77090262202546,
+          84.87530587404035
+        ],
+        [
+          -208.7094499943778,
+          88.7245557170827
+        ],
+        [
+          -207.52044315822423,
+          89.86502975295298
+        ],
+        [
+          -213.7030949811451,
+          96.27641082019545
+        ],
+        [
+          -213.62688404135406,
+          96.96347869792953
+        ],
+        [
+          -203.1089674239047,
+          107.73771338467486
+        ],
+        [
+          -202.78423016145825,
+          108.56863657734357
+        ],
+        [
+          -204.35097741009668,
+          119.85234859515913
+        ],
+        [
+          -205.82933321408927,
+          121.23901729215868
+        ],
+        [
+          -222.36872178968042,
+          103.82044891244732
+        ],
+        [
+          -242.64808737160638,
+          82.8032753188163
+        ],
+        [
+          -240.33883820660412,
+          80.62898358190432
+        ],
+        [
+          -243.2898688861169,
+          77.65032564871944
+        ],
+        [
+          -245.60998701117933,
+          79.74704741011374
+        ],
+        [
+          -327.33451340859756,
+          -6.870337838074192
+        ],
+        [
+          -308.88018678314984,
+          -22.092470727162436
+        ],
+        [
+          -316.6427929424681,
+          -31.373018773738295
+        ],
+        [
+          -336.67324668588117,
+          -15.406925182556733
+        ],
+        [
+          -348.5642718076706,
+          -27.886750180274248
+        ],
+        [
+          -360.86599955894053,
+          -40.709784894483164
+        ],
+        [
+          -351.63781047891825,
+          -47.168239779770374
+        ],
+        [
+          -358.2022471842356,
+          -57.148085025604814
+        ],
+        [
+          -369.5788899711333,
+          -49.867581700440496
+        ],
+        [
+          -384.58459172258154,
+          -67.17679431010038
+        ],
+        [
+          -385.7420963649638,
+          -69.32584683480673
+        ],
+        [
+          -385.53858454711735,
+          -71.22120403102599
+        ],
+        [
+          -356.14054888347164,
+          -94.77637665299699
+        ]
+      ],
+      "metrics": {
+        "length_m_projected": 475.349045948098,
+        "area_m2_projected": null,
+        "width_m_tagged": null,
+        "lanes_tagged": null
+      }
+    },
+    {
+      "osm_id": 609043797,
+      "osm_type": "way",
+      "layer": "coastline",
+      "closed": false,
+      "tags": {
+        "natural": "coastline"
+      },
+      "xy": [
+        [
+          31.300240708515048,
+          601.7080342124682
+        ],
+        [
+          -177.42021967703477,
+          394.1823376121465
+        ],
+        [
+          -234.8750024875626,
+          334.43107871944085
+        ],
+        [
+          -240.56018763128668,
+          329.45998832420446
+        ],
+        [
+          -241.81664713472128,
+          325.3383268218022
+        ],
+        [
+          -245.98889697063714,
+          321.42983174324036
+        ],
+        [
+          -250.0974815590307,
+          316.2467637339141
+        ],
+        [
+          -257.0671566114761,
+          312.063688256545
+        ],
+        [
+          -262.11540306638926,
+          306.8038754919544
+        ],
+        [
+          -264.42792679788545,
+          305.298679567175
+        ],
+        [
+          -266.6653837147169,
+          303.19494821550325
+        ],
+        [
+          -267.8436695286073,
+          301.9658114621416
+        ],
+        [
+          -269.14210568135604,
+          299.2184445387684
+        ],
+        [
+          -271.8114113523625,
+          297.2813383452594
+        ],
+        [
+          -270.79711664747447,
+          296.27190511021763
+        ],
+        [
+          -269.76124183507636,
+          295.2402871248778
+        ],
+        [
+          -251.9571293112822,
+          277.52527843764983
+        ],
+        [
+          -245.0297171222046,
+          270.62563507352024
+        ],
+        [
+          -240.10909724142402,
+          265.9664947153069
+        ],
+        [
+          -227.24721431173384,
+          252.89954705536366
+        ],
+        [
+          -211.07276496104896,
+          236.44939821120352
+        ],
+        [
+          -198.12456160970032,
+          223.29369749873877
+        ],
+        [
+          -165.1080111041665,
+          188.20944962650537
+        ],
+        [
+          -164.09459422295913,
+          186.2136441951152
+        ],
+        [
+          -158.84871457796544,
+          170.8371307249181
+        ],
+        [
+          -159.24935701908544,
+          169.66271002683789
+        ],
+        [
+          -178.63199405604973,
+          149.02160431840457
+        ],
+        [
+          -179.2701261891052,
+          147.9693049886264
+        ],
+        [
+          -179.17419952433556,
+          134.40385289606638
+        ],
+        [
+          -178.44056459562853,
+          133.54982294514775
+        ],
+        [
+          -168.3657010528259,
+          144.03628441877663
+        ],
+        [
+          -165.09630471793935,
+          140.68636454106309
+        ],
+        [
+          -163.95044823968783,
+          141.88228890136816
+        ],
+        [
+          -159.4507983098738,
+          137.47840626095422
+        ],
+        [
+          -160.5533466222696,
+          136.40435416297987
+        ],
+        [
+          -132.42393136955798,
+          107.19824545737356
+        ],
+        [
+          -132.99899005517364,
+          104.2063930768054
+        ],
+        [
+          -152.53264844231308,
+          83.76486383145675
+        ],
+        [
+          -154.77741372445598,
+          85.5844471049495
+        ],
+        [
+          -156.36477474682033,
+          85.84076505945995
+        ],
+        [
+          -157.44537801621482,
+          85.15459076780826
+        ],
+        [
+          -180.65212291292846,
+          63.4639545280952
+        ]
+      ],
+      "metrics": {
+        "length_m_projected": 809.5454349194672,
+        "area_m2_projected": null,
+        "width_m_tagged": null,
+        "lanes_tagged": null
+      }
+    },
+    {
+      "osm_id": 1075624479,
+      "osm_type": "way",
+      "layer": "coastline",
+      "closed": false,
+      "tags": {
+        "natural": "coastline"
+      },
+      "xy": [
+        [
+          -760.966821547132,
+          -727.8893206112552
+        ],
+        [
+          -753.1388053111732,
+          -742.1935746402014
+        ],
+        [
+          -751.5132454088889,
+          -748.0691028109286
+        ],
+        [
+          -750.4075018912554,
+          -755.5401470402721
+        ],
+        [
+          -753.5464027398266,
+          -775.4538295345847
+        ],
+        [
+          -756.5070004826412,
+          -777.0471734087914
+        ],
+        [
+          -760.741929311771,
+          -778.5728841663804
+        ],
+        [
+          -765.507257447578,
+          -781.4502717920113
+        ],
+        [
+          -767.9305027304217,
+          -786.0143887496088
+        ],
+        [
+          -768.3036081586033,
+          -792.6528877753299
+        ],
+        [
+          -769.0741405687295,
+          -796.8527320388239
+        ],
+        [
+          -771.7998525891453,
+          -801.4941647371743
+        ],
+        [
+          -775.9400085839443,
+          -805.7464275348466
+        ],
+        [
+          -785.080181168858,
+          -809.606329260394
+        ],
+        [
+          -791.3688401696272,
+          -813.0919404393062
+        ],
+        [
+          -795.532401020173,
+          -819.3724101870321
+        ],
+        [
+          -789.213473408483,
+          -830.4169056594837
+        ],
+        [
+          -792.7220558468252,
+          -828.8510510516353
+        ],
+        [
+          -833.1899300026707,
+          -853.7411789454054
+        ],
+        [
+          -839.57994080754,
+          -861.8927406023722
+        ],
+        [
+          -853.3780545471236,
+          -881.4534338114318
+        ],
+        [
+          -859.358250441961,
+          -890.2592790231574
+        ],
+        [
+          -878.6328008975834,
+          -922.9376766830683
+        ],
+        [
+          -868.3054961622693,
+          -932.1792114765849
+        ],
+        [
+          -875.7925528241321,
+          -959.4927680951077
+        ],
+        [
+          -884.1895939684473,
+          -989.9421075417195
+        ],
+        [
+          -890.4973488636315,
+          -1014.8849487062544
+        ],
+        [
+          -887.620458391495,
+          -1022.4019747027196
+        ],
+        [
+          -884.567780575715,
+          -1026.5609233488794
+        ],
+        [
+          -887.0557464910671,
+          -1031.036357061239
+        ],
+        [
+          -894.353670455981,
+          -1039.9962434975896
+        ],
+        [
+          -905.0485084229149,
+          -1043.2673800424673
+        ],
+        [
+          -922.385305528529,
+          -1046.5436892514117
+        ],
+        [
+          -942.3392828847282,
+          -1053.8630727732088
+        ],
+        [
+          -963.0935983150266,
+          -1062.467408808181
+        ],
+        [
+          -971.6450327634811,
+          -1072.2352711411659
+        ],
+        [
+          -976.6222863327712,
+          -1082.671316297492
+        ],
+        [
+          -979.7287671822123,
+          -1090.426868754672
+        ],
+        [
+          -987.9345352351665,
+          -1100.1174654350616
+        ],
+        [
+          -997.7230579969473,
+          -1104.3758309499826
+        ],
+        [
+          -1004.8142349622212,
+          -1111.5958439654205
+        ],
+        [
+          -1011.8676759642549,
+          -1112.8198153132107
+        ],
+        [
+          -1019.1295407996513,
+          -1117.6678474959917
+        ],
+        [
+          -1022.2167693632655,
+          -1128.0612586147618
+        ],
+        [
+          -1026.2395663983189,
+          -1133.9318423664663
+        ],
+        [
+          -1029.9685266190208,
+          -1137.2867727226112
+        ],
+        [
+          -1036.3451237217523,
+          -1142.501347041456
+        ],
+        [
+          -1045.5580945024267,
+          -1143.2135645742528
+        ],
+        [
+          -1057.5758002093062,
+          -1164.5493769047316
+        ],
+        [
+          -1071.0645633516833,
+          -1188.4330672570504
+        ],
+        [
+          -1080.2100828494877,
+          -1210.436472354224
+        ],
+        [
+          -1082.9712820071727,
+          -1218.5470357383601
+        ],
+        [
+          -1083.551410737913,
+          -1227.2358776254114
+        ],
+        [
+          -1086.8983798609115,
+          -1238.2386843813583
+        ],
+        [
+          -1091.5400568130426,
+          -1247.7995045164134
+        ],
+        [
+          -1092.1172165898606,
+          -1253.1522615391295
+        ],
+        [
+          -1105.2044791639782,
+          -1274.8972925452981
+        ]
+      ],
+      "metrics": {
+        "length_m_projected": 755.6641344434256,
+        "area_m2_projected": null,
+        "width_m_tagged": null,
+        "lanes_tagged": null
+      }
+    },
+    {
+      "osm_id": 1321755865,
+      "osm_type": "way",
+      "layer": "pedestrian",
+      "closed": false,
+      "tags": {
+        "bridge": "yes",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "layer": "1"
+      },
+      "xy": [
+        [
+          132.28762909118086,
+          88.96414384199306
+        ],
+        [
+          132.7111634472385,
+          91.59039912256412
+        ],
+        [
+          144.9917154260911,
+          104.88995258277282
+        ],
+        [
+          160.58093785773963,
+          110.428576416336
+        ]
+      ],
+      "metrics": {
+        "length_m_projected": 38.45321244384892,
+        "area_m2_projected": null,
+        "width_m_tagged": null,
+        "lanes_tagged": null
+      }
+    },
+    {
+      "osm_id": 1426173324,
+      "osm_type": "way",
+      "layer": "pedestrian",
+      "closed": false,
+      "tags": {
+        "bridge": "yes",
+        "highway": "footway",
+        "layer": "1"
+      },
+      "xy": [
+        [
+          -256.04498111689463,
+          332.04496466415003
+        ],
+        [
+          -245.98889697063714,
+          321.42983174324036
+        ]
+      ],
+      "metrics": {
+        "length_m_projected": 15.071636735009442,
+        "area_m2_projected": null,
+        "width_m_tagged": null,
+        "lanes_tagged": null
+      }
+    },
+    {
+      "osm_id": 1426173327,
+      "osm_type": "way",
+      "layer": "pedestrian",
+      "closed": false,
+      "tags": {
+        "bridge": "yes",
+        "highway": "footway",
+        "layer": "1"
+      },
+      "xy": [
+        [
+          -276.2058334816247,
+          310.70646005519666
+        ],
+        [
+          -266.6653837147169,
+          303.19494821550325
+        ]
+      ],
+      "metrics": {
+        "length_m_projected": 12.515916808667846,
+        "area_m2_projected": null,
+        "width_m_tagged": null,
+        "lanes_tagged": null
+      }
+    },
+    {
+      "osm_id": 1321682676,
+      "osm_type": "way",
+      "layer": "waterfront",
+      "closed": false,
+      "tags": {
+        "man_made": "pier"
+      },
+      "xy": [
+        [
+          -227.24721431173384,
+          252.89954705536366
+        ],
+        [
+          -296.72294692508876,
+          180.30263432185166
+        ]
+      ],
+      "metrics": {
+        "length_m_projected": 103.57402328280614,
+        "area_m2_projected": null,
+        "width_m_tagged": null,
+        "lanes_tagged": null
+      }
+    },
+    {
+      "osm_id": 1321682677,
+      "osm_type": "way",
+      "layer": "waterfront",
+      "closed": false,
+      "tags": {
+        "man_made": "pier"
+      },
+      "xy": [
+        [
+          -341.415579023771,
+          225.99242508900352
+        ],
+        [
+          -270.79711664747447,
+          296.27190511021763
+        ]
+      ],
+      "metrics": {
+        "length_m_projected": 102.69315821896524,
+        "area_m2_projected": null,
+        "width_m_tagged": null,
+        "lanes_tagged": null
+      }
+    },
+    {
+      "osm_id": 1426173139,
+      "osm_type": "way",
+      "layer": "waterfront",
+      "closed": true,
+      "tags": {
+        "man_made": "pier"
+      },
+      "xy": [
+        [
+          -277.8446489041671,
+          350.22896894672886
+        ],
+        [
+          -257.46107224049047,
+          330.5833032981027
+        ],
+        [
+          -256.04498111689463,
+          332.04496466415003
+        ],
+        [
+          -254.71536824014038,
+          333.4180410047993
+        ],
+        [
+          -275.0989350415766,
+          353.0747873557266
+        ],
+        [
+          -277.8446489041671,
+          350.22896894672886
+        ]
+      ],
+      "metrics": {
+        "length_m_projected": 66.51193247585198,
+        "area_m2_projected": 118.83544921875,
+        "width_m_tagged": null,
+        "lanes_tagged": null
+      }
+    },
+    {
+      "osm_id": 1426173140,
+      "osm_type": "way",
+      "layer": "waterfront",
+      "closed": true,
+      "tags": {
+        "man_made": "pier"
+      },
+      "xy": [
+        [
+          -274.93023991631344,
+          312.05742003954947
+        ],
+        [
+          -276.2058334816247,
+          310.70646005519666
+        ],
+        [
+          -277.5570955122821,
+          309.27798810601234
+        ],
+        [
+          -310.1994167403318,
+          340.12814426934347
+        ],
+        [
+          -349.2995866732672,
+          298.7356431868393
+        ],
+        [
+          -351.6196061815135,
+          300.9431755847763
+        ],
+        [
+          -309.914200221654,
+          345.0929557257332
+        ],
+        [
+          -274.93023991631344,
+          312.05742003954947
+        ]
+      ],
+      "metrics": {
+        "length_m_projected": 224.42459234122077,
+        "area_m2_projected": 388.68798828125,
+        "width_m_tagged": null,
+        "lanes_tagged": null
+      }
+    }
+  ],
+  "geometry_changed": false
+}

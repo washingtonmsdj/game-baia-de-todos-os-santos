@@ -1,4 +1,295 @@
+## 08/10/2026 — B102 ativa: corpo exterior e quatro equipamentos provisórios
+
+B101 preservada; resíduos R10 arquivados. Corpo externo Cidade Alta separado do núcleo, contornos14/cotas23 com seções/extrusões candidatas. Recorte local de28 faces do terreno pelo núcleo17, DEM/SSOT intactos. Quatro equipamentos GAMEPLAY_PROXY passaram CCD e ciclo ao vivo na mesma cena; chamadas/portas/transporte intertravados. **Rota pedonal dos quatro NÃO integrada**, instalação histórica bloqueada/27 testemunhas/B82 íntegros, nenhuma produção. Revisão salva/reaberta, hash confirmado. Relatório docs/LACERDA_EXTERIOR_FOUR_LIFTS_B102_2026-10-08.md. Não afirmar certificado/finalizado nem reutilizar os cabines históricos congelados como ativos.
+
+## 08/10/2026 — B101 ativa: pavimentos e controle dimensional estrutural
+
+B100 preservada; três lajes acrescentadas nas cotas documentais−9,74/−19,85, com recorte de escada da15 livre. B101 aplicada/salva/reaberta na única janela9876/PID8792. 623 componentes conferidos,620 anteriores intactos;22 sondagens de piso/25 de escada,13 níveis existentes e quatro contornos conferidos. Manifesto dimensions.json consolida controles; seções e fechamentos das salas03/instalação/implantação não certificados. Não fabricar paredes usando alturas desconhecidas nem reescalar pela área útil nominal. Mapas/terreno/torres/passarela/B82/27 testemunhas/B76–B100/SSOT intactos, movimento falso, produção B30 inalterada. Relatório docs/LACERDA_STRUCTURAL_DIMENSIONS_B101_2026-10-08.md. Mapa completo aberto e sem alteração pendente; acabamento fora do escopo.
+
+## 08/10/2026 — B100 ativa: corpo superior, cobertura e pavimentos
+
+B99 íntegra confirmada; B100 aplicada/salva/reaberta na única janela9876. Corpo oco contínuo com ala técnica, cobertura no contorno completo20, platibanda e lajes+4,94/+9,42.158 peças de esquadria migradas rigidamente;19 referências preservadas,16 tampões internos removidos antes da soldagem. Conversão da cobertura corrigida no gerador/mesh, sem duplicação. QA de 620 componentes, 160 sondagens de paredes, 40 da cobertura e18 vãos envidraçados. Implantação/seções/layout de janelas candidatos; não controller ou as-built. B76–B99/SSOT/terreno/torres/passarela/túnel/subsolos/B82/27 testemunhas preservados, movimento falso, sem produção. Relatório docs/LACERDA_UPPER_BODY_B100_2026-10-08.md. Mapa completo aberto, sem edição pendente.
+
+## 08/10/2026 — B99 ativa: subsolos e corpo da Cidade Alta
+
+B98 inspecionada intacta na janela9876; B99 modelada/salva/reaberta na mesma instância. Bloco sólido baseado no andar de cima substituído por envoltória oca com recuos da16 e laje cinza documentada -4,97; duas meshes novas, antigo preservado. Seis pranchas oficiais recuperadas/catalogadas. Registro relativo entre folhas, seção0,15/laje0,25 e extrusão inferior candidatas; três correspondências15 NEEDS_REVIEW. QA de 616 componentes, 216 sondagens de fechamento e 26 da laje;614 assinaturas anteriores preservadas. Núcleo/terreno/SSOT/B82/B76–B98/27 testemunhas/bloqueio histórico intactos, movimento falso, sem produção. Relatório docs/LACERDA_BASEMENT_STRUCTURE_B99_2026-10-08.md. Próxima reconciliação exterior: corpo superior18/19/20, teto galeria+4 versus andar+4,94; não instalação ou expansão.
+
+## 07/10/2026 — B98 ativa: frente superior reconciliada
+
+B97 inspecionada intacta/sem alterações pendentes; B98 modelada/salva/reaberta na mesma janela9876. Frente antiga reta/cinco vãos substituída na apresentação por quatro apoios oblíquos CAD17, dois fechamentos de rolo e vão central; nove meshes novas e68 referências antigas preservadas. Marquise legada deslocada separada da apresentação, sem inventar projeção nova. QA de 614 componentes e CCD local da frente, sem aprovação do controller. Altura de abertura/seções/implantação continuam candidatas; B76–B97, SSOT, proxyB82,27 testemunhas e movement_enabled=false preservados. Relatório docs/LACERDA_SUPERIOR_COMPLETION_B98_2026-10-07.md. Não afirmar elevador completo finalizado: instalação vertical bloqueada e datum/interface inferior continuam pendentes; sem produção.
+
+## 07/10/2026 — B97 ativa: bordas dos vestíbulos superiores
+
+B97 salva/reaberta na mesma janela MCP9876. Dois volumes de guarda nos limites ENTRADA/SAÍDA da planta17; acessos orientais livres, nenhum componente anterior modificado. Contorno relativo documental, seção0,18/altura1,10 aproximadas, GAMEPLAY_PROXY/replacement_required: não as-built. QA das duas meshes,108 apoios locais e603 assinaturas preservadas; sem aprovação de controller. B76–B96, SSOT, B82 e gates históricos intactos; produção bloqueada. Relatório: docs/LACERDA_UPPER_VESTIBULES_B97_2026-10-07.md. Próximo: frente superior/pilares/aberturas conforme linha oblíqua documental; não expansão ou fachada fina.
+
+## 07/10/2026 — B96 ativa: corpo superior/cobertura sem sobreposição exterior
+
+B96 finalizada/reaberta na mesma janela MCP9876: posterior e seis caixilhos reconciliados juntos com envelope candidato/cotas; posterior e duas laterais terminam sob a cobertura, com cantos em contato sem faces exteriores coincidentes. Nove meshes alteradas, nenhum objeto novo; não muda poço, mapa, terreno ou SSOT. QA de 603 componentes, 391 visíveis, 30 sondagens de cobertura posterior, dois cantos e encontros B94/B95 rechecados. Vistas reais sem a cintilação observada no estágio intermediário; mapa completo/terreno visíveis, memória sem edição pendente. B76–B95, recuperação B95, GAMEPLAY_PROXY B82, 27 testemunhas e bloqueio histórico preservados. X é ADAPT_LOCAL/envelope candidato, Z vem dos níveis +4/+14 da prancha23 e espessura herdada; não as-built/implantação/controller. Backups automáticos obsoletos removidos com hashes/evidência; nenhum snapshot oficial apagado. Relatório: docs/LACERDA_BODY_JOINTS_B96_2026-10-07.md. Próxima modelagem: acesso superior/guardas dos vestíbulos, sem fachadas finas ou expansão.
+
+## 07/10/2026 — B95 ativa: limites das circulações superiores
+
+B95 continua B94: duas paredes envidraçadas recortadas nas quinas documentais da circulação/entrada/saída da planta17, sem esticar caixilhos; verga do portal reconciliada com a cobertura +4,00m; seis peças sobrepostas do retorno antigo preservadas como SUPERSEDED_REFERENCE. Três meshes alteradas, nenhum objeto novo. Salva/reaberta na mesma janela MCP9876, mapa completo/terreno visíveis e memória sem edição pendente. QA: 603 componentes, 391 visíveis, 100 sondagens de piso/teto, 60 de parede e 15 do portal. Envoltórias ponte/galeria já tinham 400 sondagens sem abertura detectada; não preencher áreas de entrada/saída intencionalmente abertas. SSOT, terreno, proxy B82, B76–B94, 27 testemunhas e gates preservados. movement_enabled=false; sem produção. Relatório: docs/LACERDA_UPPER_ENCLOSURE_B95_2026-10-07.md. Próxima modelagem: corpo antigo/alas e limites dos acessos; não reabrir instalação dos ascensores.
+
+## 07/10/2026 — B94 ativa: fechamentos da passarela e do túnel
+
+B94 continua B93 na mesma janela MCP9876. Dois retornos envidraçados fecham as laterais ponte/saguão superior, preservando o portal de 6.1636m. Piso/teto e paredes do túnel prolongados até a reentrância existente da torre, com encontro local documentado de 1.9472m² e remoção do tampão transversal prematuro. Seis meshes alteradas, seis componentes novos; núcleo/poço, terrain, SSOT e GAMEPLAY_PROXY B82 intactos. Salva/reaberta; QA de 603 componentes, 100 sondagens de piso/teto, 60 de parede e 15 do portal. Janela final no mapa completo, terreno visível, sem alterações pendentes. Não certifica percurso/controller ou implantação absoluta; gates históricos, 27 testemunhas e movement_enabled=false preservados. Fonte authoring_source/validation_source B94; produção não promovida. Relatório: docs/LACERDA_CORRIDOR_CLOSURE_B94_2026-10-07.md. Próxima modelagem: demais encontros exteriores, preservando entradas e separando as pendências de circulação.
+
+## 07/10/2026 — B93 ativa: estrutura inferior documental
+
+B93 continua B92: cobertura inferior corrigida em +0,08m (-59,01 piso → -53,17 cobertura = 5,84m), encontros de paredes/casca reconciliados e quatro apoios frontais recuperados dos vetores CAD12. 51 peças da frente legada preservadas integralmente como referência substituída, sem migrar acabamentos por escala visual. Salva/reaberta na mesma janela MCP9876; QA de 597 componentes, 391 visíveis, e 13 contatos Z. Comparação independente com B92 confirma terrain/proxyB82 intactos. Implantação absoluta e interface com terreno permanecem NEEDS_REVIEW (piso relativo ~3,857m acima do terreno na linha frontal). B76–B92, SSOT, gates, 27 testemunhas, movement_enabled=false e produção preservados. Relatório: docs/LACERDA_LOWER_STRUCTURE_B93_2026-10-07.md. Fonte authoring_source/validation_source B93; não exportar. Próximo passo: implantação exterior por controles físicos, sem reabrir cabine/poço nem detalhar expansão.
+
+## 07/10/2026 — B92 ativa: ponte e malhas estruturais consolidadas
+
+B91/B92 corrigem omissão da coleção calibrada na seleção B88: laje/cobertura da ponte no contorno CAD, casca contínua da torre e consolo alargado; 226 faces internas removidas e três paredes com borda degenerada corrigidas. Vinte peças da ponte e a plataforma superior antiga preservadas como SUPERSEDED_REFERENCE; plataforma flutuante substituída fora da apresentação ativa. B92 salva/reaberta na mesma janela MCP 9876; QA de 542 componentes, 387 visíveis sem faces degeneradas/arestas não manifold/winding inconsistente/duplicatas internas. Quatro contatos estruturais verificados. Consolo/espessuras sem cota e implantação geográfica permanecem candidatos; fachada inferior no antigo datum ainda requer reconciliação independente. B76–B91, SSOT, terreno, GAMEPLAY_PROXY B82, 27 testemunhas e BLOCKED_EXTERNAL_EVIDENCE preservados; movement_enabled false, produção B30 inalterada. Relatório: docs/LACERDA_STRUCTURE_B92_2026-10-07.md. Fonte authoring_source/validation_source B92; não exportar. Próxima prioridade: implantação/interface inferior, sem reabrir cabine/poço ou fazer decoração.
+
+## 07/10/2026 — B91: integridade das malhas e encontros do Lacerda
+
+B91 é authoring_source/validation_source, aplicada e reaberta na mesma janela MCP 9876. Corrigida a laje legada de ~55,54 m, casca da torre contínua e apoio alargado da galeria; 226 faces internas removidas, três paredes degeneradas corrigidas, uma cobertura redundante preservada fora da camada ativa. QA de 520 componentes, contatos estruturais explícitos sem gaps numéricos relevantes. Consolo/espessuras permanecem aproximados declarados; implantação absoluta, interiores, as-built e controller NÃO aprovados. B76–B90, terreno, SSOT, proxy B82, 27 testemunhas e BLOCKED_EXTERNAL_EVIDENCE preservados; movement_enabled false, produção B30 inalterada. Relatório: docs/LACERDA_MESH_STRUCTURE_B91_2026-10-07.md. Não reabrir investigação da instalação ou detalhar expansão por causa desta correção exterior.
+
+## 07/10/2026 — B90 ativa: estrutura arquitetônica relativa SUCOP
+
+B88–B90 corrigem ponte livre, orientação das torres, separação núcleo antigo/alas do edifício, envoltórias dos pisos superior/inferior e túnel, abertura galeria/ponte e cotas exteriores impressas. B90 salva/reaberta na mesma janela MCP 9876; mapa completo visível, sem isolamento local. QA: 518 componentes, zero faces de área zero; cotas relativas 59,01 / +4,00 / +14,00 / +15,40 m. Não equivale a implantação geográfica, layout interno, poço ou controller certificados. Registro absoluto/datum inferior no mapa NEEDS_REVIEW; terreno/SSOT não deformados para encaixar o asset. Bindings físicos preservados mas validações afetadas invalidadas; movement_enabled false, 27 testemunhas e BLOCKED_EXTERNAL_EVIDENCE preservados. B76–B89 e proxy B82 intactos; produção B30 inalterada. Fonte authoring_source/validation_source B90. Relatório: docs/LACERDA_ARCHITECTURAL_STRUCTURE_B90_2026-10-07.md. Próximo passo: reconciliação da implantação/interface com terreno antes de layout/janelas.
+
+## 07/10/2026 — B87 ativa: saguão ampliado, vidro e piso reconciliados
+
+B87 salva/reaberta na única janela PID 16912/MCP 9876. B86 corrigiu contorno/proporções superiores; B87 reconstruiu duas laterais envidraçadas, reconciliou topo do piso/colisores e preservou helper obsoleto como referência substituída. QA local: Y -1.0: LOCAL_CLEAR, Y +0.0: LOCAL_CLEAR, Y +1.0: LOCAL_CLEAR; não aprova controller/poço/percurso completo. Torres e instalação ainda pendentes. SSOT, B76–B86, proxy B82, 27 testemunhas e bloqueio histórico preservados; sem produção. Fonte explícita authoring_source/validation_source B87. Relatório: docs/LACERDA_UPPER_FINISH_B87_2026-10-07.md.
+
+## 07/10/2026 — B85: apoio ampliado; conjunto superior ainda pendente
+
+B85 é a candidata ativa, salva/reaberta na mesma janela MCP 9876. Seis meshes do apoio da encosta ajustadas transversalmente como ADAPT_LOCAL/APPROXIMATE; 11,40 unidades não é dimensão levantada. Torre da Cidade Baixa, ponte, saguão, SSOT, terreno e proxy B82 preservados. QA local sem novas penetrações; não aprova percurso completo. Pranchas 12/17 mostram conexões inferior por túnel e superior por passarela, saguões/circulações distintos: não confundir salão superior de 117,50 m² com todo o conjunto. Saguão ainda não redimensionado; quatro equipamentos devem ser auditados como dois conjuntos, não duplicados por conveniência. Relatório: docs/LACERDA_EXTERNAL_PROPORTIONS_B85_2026-10-07.md. Gates históricos e produção B30 inalterados.
+
+## 06/10/2026 — B84: retornos superiores envidraçados
+
+B84 é a candidata ativa em authoring_source/validation_source, salva e reaberta na mesma janela Blender. Dois retornos e dois lambris reconciliados com faixa de vidro/esquadrias, conforme fotografia enviada; dimensões e subdivisão aproximadas. 6.298 objetos conferidos, nenhuma mudança inesperada, 1.947 amostras locais sem penetração. B76–B83, SSOT, colisores, proxy B82 e produção B30 preservados; gates históricos continuam bloqueados. Relatório: docs/LACERDA_UPPER_GLAZING_B84_2026-10-06.md. Não usar o teste local como aprovação do trajeto completo ou do poço.
+
+## 06/10/2026 — B83 ativa para modelagem; gates históricos preservados
+
+B83 salva/reaberta/validada e registrada em authoring_source/validation_source. Cena completa SALVADOR | ESBOCO OFICIAL permanece aberta na única janela; B76–B82 e produção B30 preservadas. Encontro superior corrigido em sete malhas, dois colisores derivados ocultos, 48/48 sondagens fechadas e nenhuma alteração inesperada em 6.296 componentes. CCD completo: 38 componentes, mesmos 54 pares de contato da B80; nenhuma nova interferência por par, gate vertical continua bloqueado. Sweep histórico B83: superior zero penetrações, inferior nove; não declarar percurso histórico completo aprovado. Fonte proxy B82 separada e aproximada; Mercado final pendente. Relatório: docs/LACERDA_CONSOLIDATION_B83_2026-10-06.md. Próxima alteração deve usar ponteiro explícito B83, nunca maior sufixo/mtime.
+
+## 06/10/2026 — B83: encontro superior corrigido; mapa completo aberto
+
+B83 salva/reaberta na única janela MCP 9876: sete malhas B78 migradas especificamente após confirmar abertura lateral B82, dois colisores derivados com binding. 6.296 componentes históricos verificados, zero mudanças inesperadas; 48/48 sondagens fechadas, 1.947 amostras sem bloqueio pelas sete malhas. B82/SSOT preservados; 70 proxies intactos. Cena aberta SALVADOR | ESBOCO OFICIAL, terreno completo visível. B83 é validation_candidate, não produção. Vertical histórico permanece BLOCKED_EXTERNAL_EVIDENCE, 27 testemunhas UNRESOLVED, movimento histórico falso; entrada Mercado não aprovada. Não declarar mapa perfeito ou arquitetura certificada. Relatório: docs/LACERDA_CONSOLIDATION_B83_2026-10-06.md.
+
+## 06/10/2026 — Teste B82: Tomé–Cairu funciona no proxy; Mercado não aprovado
+
+Reexecutado controller: 10.608 amostras/nove interlocks aprovados. Execução na única janela PID 11304/MCP 9876 por inputs progressivos, descida/Cairu/subida/retorno concluídos, 10.675 passos/yields e erro de pose 0. Colisão somente pisos/OBBs do proxy; cenário histórico completo não aprovado. Conector final até entrada física do Mercado não implementado; FULL_TOME_MARKET_ROUTE = NOT_APPROVED. Nenhuma malha alterada/save/B83/produção. Histórico B80 bloqueado e 27 testemunhas preservados. Relatório: docs/LACERDA_CURRENT_ROUTE_PLAYTEST_2026-10-06.md.
+
+## 06/10/2026 — B82: terreno oculto no proxy; apresentação recuperada
+
+Máscara AABB ocultava malhas integrais do núcleo e expansão. Na mesma janela MCP 9876, recuperada a vista SALVADOR | ESBOCO OFICIAL e restaurada visibilidade de dois terrenos somente na view layer proxy. Regra presentation.keep_context_visible no contrato B82, reutilizada pelo finalizador/launcher. Nenhuma mudança de malha, física ou gate histórico; 70 proxies preservados. Patch visual da sessão não salvo sobre B82, nenhuma B83/produção. Modelagem deve usar a cena histórica; protótipo continua separado e aproximado. Relatório: docs/LACERDA_LIVE_DIAGNOSTIC_2026-10-06.md. Retomada estrutural permanece Tomé/Misericórdia/Pelourinho.
+
+## 06/10/2026 — Tomé / Rua Chile: auditoria B82 concluída, sem B83
+
+17 segmentos / 10 ways: 7 MISSING_BINDING, 6 VALID_PARTIAL_HELPER, 1 SOURCE_NODE_PRESENT_SURFACE_VALID (extremidades apenas), 3 NEEDS_REVIEW. 55 limitações locais de largura/sentido permanecem UNKNOWN quando ausentes da fonte; nenhum dos 162 alertas fechado. Residual 421206045 explicado pela adaptação documentada B38; preservar KEEP_GAMEPLAY, não restaurar XY. Apoio volumétrico corrigido somente no auditor. Eixo viário passou no recorte; calçada bloqueada por diferença visual/collider de 60,112 mm; direção Misericórdia bloqueada em face lateral de terrain proxy, com step/slide/CCD tentados. Corredores pedonais Chile–Tomé e Tomé–Pelourinho não aprovados; Barroquinha topologia apenas. NO_SCENE_CHANGE, nenhuma B83/produção, B76–B82/SSOT/27 testemunhas/Lacerda congelado preservados. Próxima região Pelourinho pela ligação Misericórdia, após triagem do envelope lateral e binding das calçadas. Relatório: docs/CHILE_PEDESTRIAN_STRUCTURE_B82_2026-10-06.md.
+
+## 06/10/2026 — Centro Histórico: triagem B82, sem mudança de cena
+
+714 alertas herdados B40/B41: ROAD_ALIGNMENT 283, LEGACY_PROXY 117, HEIGHT_UNKNOWN 55, NEEDS_REVIEW 259; demais categorias zero nesta lista, sem afirmar ausência na cidade. 364 têm causa compartilhada de representação/metadados; 0 falsos positivos comprovados, nenhum fechado. Inventário B82 read-only e SSOT preservado: 176/177 helpers alinhados dentro de 0,02 unidade, candidato local 421206045 até 1,14. Apoio de cinco ways prioritários: 210 posições sem faltas, diferença visual/collider máxima 4,43 mm; não é sweep pedonal completo. 4 overlaps-fonte e 46 grupos de duplicatas candidatos separados, sem exclusão. NO_SCENE_CHANGE, nenhuma B83/produção. B82 e congelamento Lacerda intactos. Próximo cluster Tomé/Rua Chile: 162 alertas, 17 helpers legados; calçada/envelope pedonal e saída para Pelourinho/Barroquinha. Mercado permanece gate de acesso final. Relatório: docs/CENTRO_STRUCTURAL_TRIAGE_B82_2026-10-06.md.
+
+## 06/10/2026 — B82: protótipo funcional separado; fidelidade congelada
+
+Decisão atual do usuário: encerrar temporariamente investigação de alta fidelidade do Lacerda. B76–B81, SSOT, 27 testemunhas UNRESOLVED e movement_enabled false históricos preservados. B82 acrescenta 70 objetos GAMEPLAY_PROXY/APPROXIMATE/REPLACE_BEFORE_RELEASE, sem alteração dos 6.296 componentes históricos. Controller controlável na janela Blender, ida/volta numérica aprovada e nove interlocks verificados; revisão reaberta e colisores comparados. Não é integração na engine nem aprovação de produção. Política: docs/LACERDA_GAMEPLAY_PROXY_POLICY.md; resultado: docs/LACERDA_GAMEPLAY_PROXY_B82_2026-10-06.md. Próxima frente estrutural: Centro Histórico, depois Lapa/Campo, Dique e Fonte Nova em greybox. Auditoria/ordenação das pendências existentes retomada, sem declarar terreno novo corrigido.
+
+## 06/10/2026 — B81: fotos/vídeos 2025 e slide corrigido, sem mudança de cena
+
+Cinco fotos Commons integrais e oito quadros úteis de dois vídeos Farol Viagem examinados. Gradis e passagens laterais visíveis, mas identidade/posição da guia `.001` e conector registrado até OSM continuam `STILL_UNRESOLVED`. Nenhuma B82, nova rota ou alteração física. Solver escolhe face lateral no contato CCD, preserva parâmetros e recalcula apoio no XY do slide; 11 regressões passaram. Replay candidato: 145 movimentos, 95 slides, parada 146 por apoio não certificado; nenhuma chegada/engine aprovada. `NO_SCENE_CHANGE`, 24 hashes protegidos/contrato preservados, vertical `BLOCKED_EXTERNAL_EVIDENCE`, 27 UNRESOLVED, movimento/NAV falsos, tráfego null. Referências DEV_REFERENCE_ONLY catalogadas; não avançar travessia/Mercado. Ler `docs/LACERDA_LOWER_GUIDE_VISUAL_EVIDENCE_2026-10-06.md`.
+
+## 06/10/2026 — B81: guia inferior e conector ainda UNRESOLVED
+
+Auditoria ao vivo/read-only na mesma janela MCP 9876/PID 10684. Guia de fila é caixa sólida candidata 4,00 × 0,08 × 1,10 m, já presente em R30A; referências externas/prancha 12 não comprovam existência/posição atual. Colisão mantida. Replay inicial parou no movimento 51: penetração 20,49 mm, step elevado bloqueado, apoio presente, slide sem normal horizontal válida. Limitação do solver documentada; não aprovar contorno real pela simulação. `LOWER_LOBBY_TO_OSM = UNRESOLVED_BLOCKED`. Nenhuma B82; `NO_SCENE_CHANGE`, B76–B81/SSOT/27 testemunhas preservados, movimento e NAV falsos. Vertical continua `BLOCKED_EXTERNAL_EVIDENCE`, travessia/Mercado não avançados, tráfego null. Ler `docs/LACERDA_LOWER_LOBBY_CONNECTOR_2026-10-06.md`; próxima evidência: interior inferior com guia/abertura/piso ou levantamento registrado.
+
+## 06/10/2026 — B81 externa parcial, percurso bloqueado
+
+MCP recuperado na mesma janela/PID 10684, B80 limpa confirmada. Salva B81 com dois derivados externos e 6.296 objetos: patch físico de 1.848 triângulos de meio-fio fiel à fonte e guia OSM parcial desabilitada. Zero mudança em geometria/transforms/materiais dos 6.294 originais; pintura recebe papel sem colisão, pisos reutilizam bindings existentes. Nova cadeia OSM termina em 12229090827, sem entrada Mercado comprovada. Sweep candidato: 47 segmentos contra guia de fila; controller numérico com gravidade/step/slide parou após 50 movimentos. `CAIRU_MARKET_PEDESTRIAN = PARTIAL_ROUTE_APPLIED_BLOCKED`; `LACERDA_VERTICAL = BLOCKED_EXTERNAL_EVIDENCE`, 27 UNRESOLVED, movimento falso. Expansão greybox, produção inalterada. Relatório: `docs/LACERDA_EXTERNAL_B81_2026-10-06.md`.
+
+## 06/10/2026 — bloqueio externo B80 encerrado; frente pedonal Cairu
+
+`LACERDA_VERTICAL = BLOCKED_EXTERNAL_EVIDENCE`, investigação `STILL_UNRESOLVED`: próxima evidência depende do processo SEMOB 151228/2023 / contrato 008/2023 ou levantamento físico equivalente. Nenhuma busca genérica nova. B76–B80, SSOT, 27 testemunhas e movimento bloqueado preservados por hash. `EXPANDED_MAP = GREYBOX`.
+
+`CAIRU_MARKET_PEDESTRIAN = CANDIDATE_VALIDATION_NOT_APPLIED`: vínculo da travessia 395865976 confirmado por nós OSM nas três vias solicitadas; rota antiga se afasta até 11,048 unidades desses nós. Preparado ground-following e ensaio de separação da pintura visual de collider: travessia ainda apresenta seis segmentos penetrantes; solver/engine e acessos continuam pendentes. MCP da janela atual não responde; nenhuma edição headless, revisão B81 ou exportação. Relatório: `docs/LACERDA_EXTERNAL_PEDESTRIAN_2026-10-06.md`. Recuperar a mesma sessão visível e validar chão/colliders/acessos externos antes de promover qualquer percurso.
+
+## 06/10/2026 — B80: SEMOB/XY/genealogia ainda inconclusivos
+
+Rodada restrita, `NO_SCENE_CHANGE`. Contexto histórico R27/metadado R21 identifica nível inferior 7,406 como aproximação do MVP; não comprova operação/revisão de criação do −3,709. R30A/B01/B80: 54/54/56 objetos compartilham offset exato; os dois novos são colisores parentados a portas inferiores. Passarela já mede 55,538544 na primeira R30A preservada. Nove pontos documentais não colineares nas plantas 17/12/13, zero controles de cena aceitos; instalação SEMOB 008/2023/processo 151228/2023 sem anexos dimensionais recuperados. Três gates continuam `STILL_UNRESOLVED`; 27 testemunhas e movimento bloqueados. Relatório: `docs/research/LACERDA_B80_INSTALLATION_XY_GENEALOGY_2026-10-06.md`. Nenhuma B81, exportação ou CCD repetido.
+
+## 06/10/2026 — B80: registro arquitetônico parcial, NO_SCENE_CHANGE
+
+Comparação controlada das pranchas 12/13/17/21/23/24, oito comparações Z e nove tentativas XY; zero controles de registro completo aprovados. Diagnóstico localiza 3,709 do excesso vertical no transform inferior e 0,070 na diferença 59,00 × 58,93. Não autoriza desfazer o transform: intenção original e associação física continuam desconhecidas. Plataforma/cobertura inferior também apresentam resíduos candidatos, sem correção autorizada. As 27 testemunhas seguem `UNRESOLVED`, preservando detecção sólida. B80/SSOT e snapshots intactos, movimento bloqueado, nenhuma B81/exportação. Relatório: `docs/research/LACERDA_B80_CONTROLLED_REGISTRATION_2026-10-06.md`; dados/proveniência central em `docs/reports/research/lacerda-registration-b80/`. Próximo gate: controles físicos XY e anexos executados da modernização, não modelagem.
+
+## 06/10/2026 — Issue #22: investigação independente B80, sem mudança de cena
+
+Branch `research/lacerda-evidence-2026-10-06`. Recuperadas e inspecionadas 12 pranchas oficiais SUCOP/A+P R00 de 2023, memorial justificativo e caderno de especificações. Os 27 registros sólidos B80 foram reconciliados individualmente em três grupos (13 plataforma superior, 13 cobertura inferior, 1 plataforma inferior), mantendo a detecção geométrica e classificando a correção independente como `NEEDS_REVIEW`. Projeto indica acessos 0,00/−58,93 m em datum local; B80 desloca 62,709 unidades candidatas. Não aplicar reescala/recorte por essa diferença.
+
+Decisão `NO_SCENE_CHANGE`: cinco revisões B76–B80 e SSOT conferidos por hash; relatório local B80 canônico preservado; nenhuma B81, merge B78, exportação ou aprovação física. Falta registrar desenhos no SSOT e confirmar cabine/poço/soleiras atuais. Fontes DEV_REFERENCE_ONLY no catálogo central; brutos fora do Git/release. Relatório: `docs/research/LACERDA_B80_ISSUE22_RESULT_2026-10-06.md`; triagem, matriz e reconciliação em `docs/reports/research/lacerda-issue22/`. Movimento bloqueado, 18 apoios superiores pendentes; expansão permanece greybox.
+
+## 06/10/2026 — B80: piso superior reconciliado; gate físico e viagem bloqueados
+
+Derivada diretamente da B79, salva/reaberta na única janela MCP 9876. B76/B77B/B78/B79 e SSOT preservados por hash; 6.292 objetos originais intactos, dois derivados adicionados (6.294). Novo collider de 660 triângulos coincide com piso visual; binding do antigo plano NAV desabilitado no perfil central. Traçado XY preservado, 901 pontos de ground-following candidato; nenhuma malha arquitetônica alterada e nenhuma correção B78 migrada.
+
+Quatro novas consultas Aleph/Street View e referências locais inspecionadas/catalogadas. Panoramas superiores de dezembro/2024 mostram estruturas temporárias; outra consulta retorna Ladeira da Montanha em maio/2024, não interior superior. Texto histórico UFBA documenta passadiço 6,00 × 28,70 m, mas PDF/plantas integrais não puderam ser inspecionados. Cabine, portas, soleiras, lajes e folga real continuam desconhecidos/candidatos. Proveniência distingue coordenada solicitada e retornada; referências DEV_REFERENCE_ONLY, derivado B80 pendente de release.
+
+CCD da B80 salva repete 54 contatos e 27 testemunhas de penetração sólida. Cápsula superior passa de oito trechos penetrando para zero contra superfícies exportadas; 18 apoios arredondados ainda exigem engine. Inferior mantém nove trechos com penetração. Nenhuma viagem ou embarque físico certificado. 81 combinações de estados, dois casos de referência desconhecida/falsa e dez estados reais mantêm bloqueio; animação da timeline ainda é demonstração, não controller intertravado. Catálogo: zero erros/dois avisos herdados; seis recursos temporários/candidatos rejeitados pelo gate. Sem npm/build/suíte geral, sem exportar B79/B80 para produção.
+
+Relatório: `docs/LACERDA_CORRIDOR_B80.md`; evidências em `docs/reports/blender/lacerda-controller-b80/`; contrato `slice-engine-contract-b80.json`; dimensões em `upper-boarding-evidence-b80.json`. Próximo: planta/corte/levantamento independente do acesso e poço, corrigir apenas interferência comprovada e repetir sweeps/apoio físico. Travessia OSM 395865976 existe, binding/fluxo ainda pendentes; não criar faixa por proximidade. Lapa/Dique/Fonte Nova permanecem greybox; produção B30/autoria B41 não promovidas.
+
+## 06/10/2026 — B79: contrato da slice e colisores; geometria ainda bloqueada
+
+Derivada diretamente da B77B por solicitação; B76/B77B/B78 preservadas. B79 salva/reaberta no MCP 9876; 6.088 objetos originais intactos, 203 patches físicos locais e um trigger query-only adicionados (6.292 objetos). SSOT, terreno e Hero preservados; expansão permanece greybox. Produção B30/autoria B41 não promovidas.
+
+Sweep contínuo dos 38 componentes visíveis: 54 pares com contato e 27 testemunhas de interseção sólida em plataformas/cobertura; outras interferências exigem triagem. Cápsula completa reprova 8 trechos superiores e 9 inferiores (pisos/soleiras/meios-fios). Não ampliar arquitetura ou recortar pelo envelope da animação sem controle independente. Contrato executável bloqueia portas fechadas, cabine ausente, estados desconhecidos e sweep reprovado; serviço temporal separado de caminhada. 81 combinações de gate, sequência sintética e dez estados reais conferidos; não equivalem a física da engine. 225 checks de follow dinâmico com erro zero. Catálogo de referências: zero erros, dois avisos herdados.
+
+Relatório: `docs/LACERDA_CORRIDOR_B79.md`; evidências: `docs/reports/blender/lacerda-controller/`; contrato central: `corridor-slice.json`, adaptador: `slice-engine-contract-b79.json`. Próximo: piso/soleira/poço superior com referências independentes, depois desembarque e travessia OSM Cairu–Mercado. Não anunciar percurso funcional ou release aprovado. Sem npm/build/suíte geral.
+
+## 05/10/2026 — B78: encontro do saguão com a passarela corrigido
+
+B78 salva e reaberta na única janela MCP 9876. Fonte candidata declarada em `blender-revisions.json#/validation_source`; B77B preservada. Aberturas laterais indevidas de 1,70 unidade fechadas por prolongamento dos retornos existentes até o vão de 6,00 da passarela; verga conciliada sem sobreposição. Sete malhas alteradas, dois colisores separados adicionados, 6.088 objetos anteriores preservados (6.090 finais), nenhum deslocamento de Hero/geografia/terreno.
+
+Auditoria reaberta passou: 48/48 sondagens de fechamento, 5.508 amostras sem bloqueio novo, portas reais livres nas duas rotas, colisores coincidentes, nenhuma alteração fora do escopo. Dimensões construtivas reais continuam parciais; produção/runtime/física não aprovados. Documentação: `docs/LACERDA_JUNCTION_B78.md`; evidências: `docs/reports/blender/lacerda-corridor/{scene_b78,validation_b78}.json`. Próximo: soleira/cabine/poço e travessias Cairu–Mercado; expansão segue greybox. Sem npm/build/suíte geral.
+
+## 05/10/2026 — B76: contrato geográfico único; vertical ainda pendente
+
+B76 salva/reaberta via MCP 9876; 6.068 objetos anteriores conservados, núcleo intacto. `world/geographic-reference.json` centraliza o fit XY compartilhado e Z local candidato; contratos das duas áreas usam esse SSOT. Incluído Campo da Pólvora pelo way 257336400. Níveis de detalhe anotados nas coleções existentes; expansão permanece greybox/referência. Aleph GeoTIFF adquirido e auditado com proveniência, sem substituir silenciosamente DEM/OSM. Datum, margem do Dique e vias finais ainda pendentes. Autoria B41/produção B30 mantidas.
+
+Relatório: `docs/GEOGRAPHIC_FOUNDATION_B76.md`; validação: `docs/reports/blender/geographic-foundation/validation_b76.json`. Próxima prioridade: topografia e continuidade Tomé de Souza → Lacerda → Cairu/Mercado, antes de detalhe arquitetônico. Sem npm/build/suíte unitária ou aprovação de física.
+
 # Estado Atual do Projeto — Bay of All Saints
+
+## 05/10/2026 — B75: passeios por larguras OSM; margem do Dique pendente
+
+Fonte de validação: `blender/salvador_lacerda_r30b75_passeios_larguras_osm.blend`, SHA-256 `e1fcd8446aef5bee1fbd6d2cd787ba511c5bf38d2a3b959a6b4c113db9a8829a`. Aplicada pelo MCP 9876 na única janela, salva, reaberta e conferida. B74 preservada; autoria B41 e produção B30 mantidas.
+
+29 passeios candidatos, com 4.437,29 unidades de eixo e larguras explícitas OSM (não levantamento). Conversão horizontal explicita o fit EPSG:3857 candidato e a escala Mercator local. Superfície subdividida, passeios removidos da base e encaixados em objetos próprios com OSM IDs; sem planos elevados sobrepostos. Todos os controles originais do terreno mantidos; erro Z máximo dos novos pontos relativo às faces anteriores: 0,00000487 unidade. 22 divisões de arestas corrigem nós colineares desconectados nos encontros. Malha combinada sem frestas internas, triângulos degenerados ou arestas com mais de duas faces; partições reabertas idênticas aos dados derivados, sem vértices órfãos.
+
+Seis trechos excluídos: três conflitos com footprints, duas travessias dependentes de via e uma ligação de escada. Ledger preserva os 106 alertas B74 e adiciona esses seis casos e a margem do Dique. Costa, cais, núcleo, água e marcos anteriores preservados. Replays RONDESP e câmera mantidos; a subdivisão conserva a superfície anterior, mas não houve novo teste físico e ruas finais continuam ausentes.
+
+Revisão visual B74 completada após liberar espaço; duas imagens B75 conferidas. O lago revela um intervalo entre terreno aberto e água plana candidata: delta Z varia de -0,1232 a 23,9923 unidades. Altimetria/resolução nativa desconhecidas; não são alturas reais medidas. Resolver perfil hidrológico/margem antes de aprovar o Dique, sem elevar água globalmente ou criar um muro para ocultar a diferença. Os passeios seguem relevo candidato e não têm caminhabilidade aprovada.
+
+Evidências: `docs/reports/blender/centro-expansion/{walkways_b75_derivation,scene_b75,validation_b75,visual_review_b75,dique_shore_height_b75}.json`; scripts reproduzíveis em `tools/world/derive_centro_walkways_b75.py` e `automation/blender/model_centro_walkways_b75.py`. Próximo: coerência vertical/margem do Dique, limites/larguras e perfis de vias, travessias/acessos. Serviços públicos GeoSalvador/SIG Salvador e CONDER foram consultados apenas para localizar fontes; nenhuma camada foi adquirida ou aprovada. Sem npm/build/suíte de testes, exportação runtime ou aprovação integral.
+
+## 05/10/2026 — B74: expansão candidata e revisão dos apoios da RONDESP
+
+Fonte de validação: `blender/salvador_lacerda_r30b74_expansao_lapa_tororo_fonte_nova.blend`, SHA-256 `1b4c16b9831a38bff93e3fb9c03c87bdfaf3e48f5a00cf03e0945b7f6d9b220a`. Salva e reaberta na única janela MCP 9876; B73 preservada, autoria B41 e produção B30 mantidas. Controle em seis anchors explícitos; coincidência relativa conferida, georreferenciamento e altimetria absolutos continuam candidatos.
+
+Terreno: 92.609 vértices/181.899 triângulos, recorte terrestre sul/leste sem preencher ausências costeiras; sem degenerados, vértices duplicados, triângulos invertidos ou arestas com mais de duas faces na nova malha. Bordas abertas correspondem ao domínio esperado. Fonte DEM preservada, interpolação bilinear e transição local de 120 unidades de projeto (não largura levantada), delta Z máximo 15,6795 unidades. Núcleo, HQ, costa, cais e píeres anteriores preservados. A projeção XY preexistente contém uma auto-interseção; o reparo foi restrito à máscara derivada, sem mudar a malha original.
+
+7.952 traçados OSM são referência, não pavimento. Center Lapa (way 257113955), Arena Fonte Nova (relation 3346613, com anel interno) e Dique (relation 15601931) têm IDs e bindings; continuam proxies. A água do Dique tem cota candidata, sem medição absoluta. Não foram criados edifícios fictícios nem larguras ausentes. Terreno, referências, água e QA permanecem separados.
+
+RONDESP V25 compartilhada por instância, câmera do motorista e três replays por grafo OSM. 10.173 posições/40.692 sondagens, sem apoio ausente das rodas. Restam 106 alertas em oito OSM ways, classificados NEEDS_REVIEW por inclinação acima do critério candidato de 30%; máximo 41,61%. Isto não é aprovação física, teste de obstáculos, prova de largura ou de acesso ao destino. Duas imagens do motorista conferidas mostram terreno/contornos sem ruas finais; screenshots 1×1 foram rejeitados. A captura restante falhou com disco cheio e deve ser refeita.
+
+Evidências: `docs/reports/blender/centro-expansion/{scene_b74,validation_b74,candidate_derivation,rondesp_ground_probe_b74}.json`; ledger da nova área em `world/areas/centro-lapa-tororo-fontenova/road-corrections.json`. As 716 detecções antigas do MVP foram preservadas. Sem npm/build/suíte de testes, exportação ou promoção ao runtime. Próximo: revisão visual restante, perfis viários e fonte confiável para limites/larguras das vias; não alisar ladeiras reais só para reduzir alertas.
+
+## 05/10/2026 — Expansão Lapa–Tororó–Fonte Nova: fontes adquiridas, integração pendente
+
+Captura explícita `osm-mapzen-20261005T045222Z`, área `centro-lapa-tororo-fontenova`: OSM Map API em quatro recortes preservados e DEM Mapzen/Terrarium com proveniência, SHA e GeoTIFF derivado sem ajuste vertical. Não substitui a captura Aleph histórica ausente. IDs confirmados: Center Lapa way 257113955; Arena Fonte Nova relation 3346613; Dique do Tororó relation 15601931. A janela de aquisição não é um limite geográfico medido.
+
+Extração: 16.642 features, nenhuma referência de nó ausente, multipolígono incompleto ou edifício aberto. Conferência somente em stdout por falta de espaço: 16 near-misses, três possíveis separações de nível, 764 itens de revisão; não são erros automaticamente. Fit candidato: 1.012 anchors robustos, RMS 4,1686 unidades; não promovido. Perfis DEM: 1.428 de 2.545 features pedonais/viárias sinalizadas; quatro com nodata. Valores anômalos e resolução/datum não verificados impedem aplicar o raster cegamente. Larguras reais ausentes continuam null.
+
+Bloqueios: disco C sem espaço; remoção de temporários LFS/caches rejeitada automaticamente com “blocked by policy”, sem remoções. Blender atual sem MCP acessível; porta 9876 recusou conexão. B73 preservada, sem nova geometria/revisão/exportação ou travessia da RONDESP nesta expansão. Relatórios completos do pipeline ainda não persistidos. Registro: `docs/reports/world/centro-lapa-tororo-fontenova/{source_summary,preparation}.json`. Retomar liberando espaço e conectando a única janela; concluir pipeline/anchors/fit vertical antes de integrar terreno/vias e percorrer com carro e câmera do motorista. Sem npm/build/suíte de testes.
+
+
+## 05/10/2026 — B72/B73: continuidade das vias e tangente local da encosta
+
+Candidata ativa de validação: `blender/salvador_lacerda_r30b73_tangente_encosta_costura.blend`, SHA-256 `d49f9b35e00b292acdbd33028b58f8eaa52d71e9ba9fd232ba679190227e1f0b`. B71 e B72 preservadas. Ambas as revisões foram salvas/reabertas na mesma janela MCP. Autoria B41 e produção B30 permanecem separadas.
+
+Os oito eixos conferidos coincidem exatamente com a referência OSM armazenada, pelos mesmos IDs. Isso não certifica o georreferenciamento da cidade: o fit permanece candidato. B72 continuou o pavimento nas superfícies existentes e recompôs a junção OSM 4527284526 entre Manoel Vitórino/Conceição: 1.286 vértices, delta Z máximo 0,5672 m. Inclinação transversal máxima: Manoel 12,97% → 3,77%; Conceição 6,92% → 3,77%. Longitudinal: Manoel 22,98% → 16,15%; Conceição 14,43% → 16,20% (tradeoff explícito). Os oito eixos e apoios laterais a ±0,825 m têm chão nas amostras a cada até 0,5 m; isso é leitura geométrica, não teste físico do veículo. Materiais contínuos nos eixos; o nó compartilhado da Manoel usa o pavimento de pedra da Conceição.
+
+B73 modifica 2.359 vértices de terreno não viário numa faixa de transição de 8 m; escolha local de modelagem, não dimensão levantada. Preserva XY, topologia, extremos, vias/calçadas bloqueadas, núcleo, piso/cais, píeres e água; delta Z máximo 3,9890 m. Diferença de inclinação entre os lados, medida em segmentos de 1 m: P95 3,7581 → 0,3600. Diferença de cotas em pontos a ±0,01 m da borda: máxima 0,07884 → 0,00980 m. Valores de vários metros medidos em pontos separados por 2 m incluíam a própria descida da encosta; não eram um degrau medido no mesmo XY.
+
+**Não concluído:** bordas serrilhadas do pavimento, acabamento da expansão, georreferenciamento/altimetria absolutos, larguras reais, 94 triângulos degenerados preexistentes no núcleo e travessia física na engine. A captura original Aleph ainda está ausente; não inventar sua altitude nem promover o fit por reduzir uma métrica. A cena continua parcial e não aprovada para produção/AAA.
+
+Evidências: `docs/reports/blender/city_seam_r30b72{,_validation}.json`, `terrain_tangent_r30b73{,_validation}.json` e `terrain_tangent_b73_candidate.json`. Ledger preserva as 716 detecções existentes e registra os dois ciclos. Limpeza recuperável de caches/autosaves registrada em `storage_cleanup_b72_*.json` e `storage_cleanup_b73_browser_cache.json`; instalações e revisões oficiais preservadas.
+
+Nova solicitação de 05/10: expandir até Dique do Tororó, Arena Fonte Nova e Center Lapa, adquirindo fontes reais, verificando anchors/overlap e só depois integrar terreno/vias e revisão cinemática com a Rondesp/câmera do motorista. Sem npm/build/suíte de testes.
+
+## 04/10/2026 — B71: encontro norte corrigido; acesso privado nas vias revisadas
+
+Fonte candidata salva/reaberta pelo MCP na mesma janela: `blender/salvador_lacerda_r30b71_encontro_norte_cais.blend`, SHA-256 `b851703b3e47571469f30bd5c32c1e0fe01fa7e476f2776976e7b222dd4ed989`. B70 preservada; autoria B41/produção B30 mantidas. O canto do piso coincidia em XY com o núcleo, mas estava 1,8006 m acima; corrigido o vínculo ao vértice real da cena. Topo do cais e piso recompostos localmente até esse apoio: 12 vértices do cais alterados, 380 do piso acima de 0,00001 m; transição de 12 m é escolha candidata de modelagem, não dimensão real levantada. Núcleo, HQ, vias, píeres, água, XY e topologia preservados; visual/colisão iguais após reabrir.
+
+Piso: dois → zero triângulos acima de 200%; inclinação máxima 259,49% → 63,85%, P95 23,35% → 21,82%; nenhum vértice abaixo do mar nominal. Máximo desencontro Z nos 23 vínculos norte: 0,0000003813 m (precisão numérica), canto a 0,0000305 m do controle. Zero triângulos degenerados/arestas com mais de duas faces. As superfícies abertas de piso e contenção não são volumes estanques; estes números não certificam caminhabilidade ou altimetria real.
+
+Revisão das quatro vias: OSM 1004133492/3493 são acessos privados e 1004133494 é corredor privado de estacionamento; 778284292 é via de serviço com acesso pendente. 757 amostras dos eixos dentro da região, a cada até 1 m, com chão presente; isso não prova largura, conexão completa, material correto ou passagem das quatro rodas. Não usar esses acessos privados automaticamente como trajetos de ônibus. Larguras reais null.
+
+Evidências: `docs/reports/blender/north_junction_r30b71.json`, `north_junction_r30b71_validation.json`, `coastal_service_roads_b71_review.json` no mesmo diretório; vista `artifacts/waterfront/b71-encontro-norte.png`. Próximo: perfis/encontros viários e encosta, com controles existentes e classificação explícita; acabamento regional/níveis absolutos/fonte Aleph original seguem pendentes. Sem aprovação integral ou exportação runtime.
+
+
+## 04/10/2026 — B70: junção terreno–piso–cais recomposta localmente
+
+Candidata salva/reaberta pelo MCP na única janela PID 22916/porta 9876: `blender/salvador_lacerda_r30b70_juncao_terreno_cais.blend`, SHA-256 `2838e38a4347cd307d6e25eddf152fd38d7bde40747b4adb7c672a5e75093c64`. B69 preservada; autoria B41/produção B30 mantidas. Corrigido o vínculo de alturas por arestas físicas entre B62/B63; adaptação local aos controles do cais existente, sem levantamento altimétrico. Piso: 126 → 2 triângulos acima de 200% de inclinação; 19 → 0 vértices abaixo do mar nominal. Conferência reaberta: 206 contatos com diferença Z zero, visual/colisão iguais, zero triângulos degenerados, XY/topologia preservados e 16.240 vértices de vias/passeios fixos. As superfícies de terreno permanecem abertas intencionalmente.
+
+A faixa de contato de 2 m e transição até 30 m são escolhas de modelagem candidatas, não larguras reais medidas; maior alteração local Z: 7,5900 m. Altimetria absoluta continua não verificada. Restam dois triângulos no extremo norte (controles 7,2557 versus ~9,0563 m), transição diagonal, acabamento urbano/encosta e conexões viárias. Não aprovado para circulação integral nem promovido ao runtime. Originais Aleph ainda ausentes no caminho registrado.
+
+Evidências: `docs/reports/blender/coastal_junction_r30b70.json`, `docs/reports/blender/coastal_junction_r30b70_validation.json` e `artifacts/waterfront/b70-juncao-cais.png`. Próximo passe: revisar o conflito local norte com controles verticais confiáveis e inspecionar conexões viárias OSM 778284292/1004133492/3493/3494, sem inventar larguras.
+
+
+## 04/10/2026 — B69: encontros dos píeres corrigidos; região ainda incompleta
+
+Candidata explícita: `blender/salvador_lacerda_r30b69_encontros_sem_frestas.blend`, SHA-256 `30d079046f029b559ffce28d1254bc65a6a3f57f0625245b809deb9c7ad7bfa2`. B67/B68 preservadas; autoria B41 e produção B30 inalteradas. MCP na única janela PID 22916/porta 9876; fonte salva, reaberta e conferida.
+
+B68 criou dois preenchimentos terrestres, mas a sondagem posterior encontrou 24/21 lacunas nos encontros. B69 substituiu apenas suas malhas por recortes obtidos pela subtração XY do chão e da água existentes, com triangulação em coordenadas locais. Áreas planas: 4,0730 e 3,2009 m². Na conferência reaberta: 16.000 sondagens, zero apoio terrestre ausente no recorte examinado; sólidos com zero arestas/vértices não manifold, zero triângulos degenerados e colisão igual. As 24 assinaturas protegidas permaneceram iguais. Isso não aprova toda a costa nem acessibilidade.
+
+Diferenças máximas deck/piso: 1,4774 m (609043799) e 0,0477 m (609043801). Alturas reais, fundações e maré continuam null/pending. Nível nominal 0,35 preservado; base dos volumes é domínio candidato, não fundação levantada. Área de sobreposição usa projeção XY/centroides, não a área inclinada 3D nem uma prova integral de interseção.
+
+A imagem regional foi obtida novamente: `artifacts/waterfront/b69-regiao-pendente.png`. **O relevo, acabamento urbano, junções das vias e relação vertical terra/água continuam insatisfatórios.** O piso B63 tem 126 triângulos acima de 200% de inclinação e 19 vértices de fronteira abaixo do mar nominal. Um ensaio de alisamento interno com borda fixa piorou a malha e foi rejeitado sem aplicação. Não mascarar a causa com suavização/global Z.
+
+Triagem regional OSM: 620 amostras de eixo a cada ≤10 m; 614 com material de via e seis com chão sem material viário. Isso NÃO demonstra conexão correta, largura, perfil, quatro rodas ou veículos. Os alertas de material abrangem IDs 778284292, 1004133492/3493/3494 e requerem inspeção; não alargar nem mover eixos automaticamente.
+
+Originais Aleph `map.osm`/`terrain.tif` não estão disponíveis no caminho registrado do projeto auxiliar; busca limitada ao diretório Tom Oliver também não os encontrou. Referência estrutural derivada e demais derivados permanecem disponíveis. Não substituir fonte silenciosamente nem apresentar alturas candidatas como reais. Próximo passe: recuperar/provar fontes e corrigir a junção B62–B63–cais, depois perfis/conexões das vias e relevo local.
+
+Evidências: `docs/reports/blender/pier_land_contacts_r30b69.json`, `pier_land_contacts_r30b69_validation.json`, `coastal_region_source_coverage_b69.json`, `coastal_region_b68_inventory.json` e `coastal_floor_fairing_b69_probe.json` (últimos quatro no mesmo diretório). Pendências preservadas no ledger; sem npm, build, instalação, suíte geral ou exportação runtime.
+
+## 04/10/2026 — B67: píeres reais e domínio da água
+
+Candidata de validação: `blender/salvador_lacerda_r30b67_pieres_e_dominio_oceanico.blend`, SHA-256 `e0fcda84e28adaf3161da7458195471511b00c2ef9e70fd42f6edc555188b412`. B66 preservada; autoria B41 e produção B30 continuam separadas. Aplicação MCP na única janela PID 22916/porta 9876, seguida de reabertura e conferência local.
+
+Uma consulta oficial nova ao OSM foi preservada em `artifacts/waterfront/osm_coastal_check_20261004.osm.gz`, sem substituir silenciosamente a captura anterior. Seis controles de mesmas features confirmaram reutilização local da transformação XY. Dois contornos fechados ausentes, OSM 609043799 e 609043801, receberam decks visuais, referência e superfícies candidatas separadas de colisão. Contornos XY mantidos dentro de 0,0001 m de tolerância numérica da mesh; isso não certifica a precisão absoluta da fonte.
+
+Alturas dos novos decks: 2,9742 e 4,5861 unidades Blender, derivadas do piso da cena, classificadas ADAPT_LOCAL/candidate. Não são levantamento real. Ligação à margem, fundações, guarda-corpos e maré permanecem pendentes; o primeiro ponto de margem tem variação de 2,4814 unidades e exige revisão antes de criar acesso. Eixos adicionais 1321555661/1321717133, quebra-mar 217677378 e passarela 1426173324 permanecem somente referências ocultas, com largura/altura reais null.
+
+O volume de água foi reconstruído a partir do contorno da superfície atual, fechado e com normais coerentes. Espuma costeira derivada do mesmo limite, excluindo três bordas artificiais do recorte. Nível 0,35 preservado; fundo -16 é domínio de gameplay legado, não batimetria. Nos decks antigos há bordo livre candidato de 6,9057 unidades, portanto o encaixe vertical absoluto água–cais–píeres ainda não está aprovado. Não elevar o mar nem aplicar escala/offset Z global para ocultar isso.
+
+Conferência após reabertura: volume fechado com zero arestas não manifold e zero triângulos degenerados; dois decks sólidos fechados, referências/superfícies sem degeneração, colisão igual e espuma coerente com a costa atual. Terrenos, água visual, cais, píeres anteriores e larguras de ruas preservados no passe. Sem exportação runtime ou aprovação global de cidade, tráfego, personagem/veículo.
+
+Evidências: `docs/reports/blender/coastal_osm_source_check.json`, `pier_land_contacts_b67_probe.json`, `waterfront_piers_r30b67.json` e `waterfront_piers_r30b67_validation.json` (estes três em `docs/reports/blender/`). No Blender ficam domínio/nível e prévia da água; renderização dinâmica, ondas, consultas de altura e flutuação exigem implementação na engine. A engine definitiva segue em aberto; o protótipo Three.js usa nível nominal 0,35.
+
+Limpeza autorizada adicional: perfis temporários inativos, três pacotes runtime antigos fora do ponteiro ativo, cache de downloads pip antigo e três autosaves temporários B56/B57/B62 substituídos. Fontes oficiais, bibliotecas instaladas, pacote ativo e recoveries manuais preservados. Relatórios de limpeza guardam escopo e hashes. A falta recorrente de espaço ainda limita novas revisões. Sem npm, build, instalação ou suíte geral.
+
+
+Limpeza adicional por disco cheio: cinco experimentos R30C rejeitados foram removidos (274.731.641 bytes), com hashes e estado local registrados. Um perfil temporário R30A10 sem processo ativo também foi removido. Fontes B30/B41/B66, revisões oficiais e recoveries preservados.
+
+## 04/10/2026 — B66: face marítima do cais corrigida
+
+Candidata atual: `blender/salvador_lacerda_r30b66_cais_normais_corrigidas.blend`, SHA-256 `1c64173cc11b4c086084e55a6d0a6e399a1a67a1715babc160517221d45f0bf8`. B65 preservada; autoria B41 e produção B30 não promovidas.
+
+A conferência da B65 reaberta detectou 678 faces do cais voltadas para o lado terrestre e quatro resíduos numéricos do piso sobre a água, somando 0,000058 unidades Blender². B66 corrigiu as normais para o lado marítimo e removeu esses resíduos. Pistas, terrenos principais, água e píeres preservados; colisão sincronizada. Espessura/fundação reais e passarela OSM 1426173327 continuam pendentes. O trabalho é uma correção estrutural candidata, sem certificação global de fidelidade ou gameplay.
+
+Conferência B66 após reabertura: 11 malhas visíveis novas/alteradas com zero triângulos degenerados e colisão igual; piso novo com zero centroides sobre água; cais com zero faces voltadas para o lado errado. Meios-fios e oito canteiros mantidos com zero arestas não manifold. Piso/cais são superfícies abertas intencionais, ainda sem volume/fundação real certificados. Isso não aprova a passarela nem todo o mapa.
+
+Referências reais, limitações e regras de expansão: `docs/WATERFRONT_FIDELITY_REVIEW.md`. Evidências B66: `docs/reports/blender/coastal_orientation_r30b66.json` e `docs/reports/blender/coastal_floor_r30b66_validation.json`.
+
+
+## 04/10/2026 — B65: costa recortada e referências reais do cais
+
+Candidata explícita: `blender/salvador_lacerda_r30b65_piso_orla_sem_residuos.blend`, SHA-256 `36ccb3462dcc7c7abe584aa1ea903eab7e5f786eefbe3c4e58954b7e9024a2d7`. Autoria B41 e produção B30 preservadas. Mesma janela PID 22916, MCP 9876/OrdaX; sem exportação runtime.
+
+B63 acrescentou bordas pista/passeio e piso na lacuna junto ao cais. B64 recortou 59.453 faces marítimas do núcleo e 59 do piso novo, preservando 266.281 faces de pavimento e seus vértices. Cais apoiado no piso/costa com identidade preservada; meios-fios e oito canteiros mantidos fechados, dimensões candidatas. B65 corrigiu resíduos de triangulação e soldou vértices repetidos da face visível do cais. Espessura/fundação reais permanecem null.
+
+Três fotografias reais de 2022/2024 foram catalogadas e inspecionadas com autoria, licença e hash. Confirmam cais pavimentado/vertical, terminal, marina sobre água e Forte São Marcelo separado da costa. Acesso de gameplay náutico; dimensões métricas e operação atual não certificadas. Ver `docs/WATERFRONT_FIDELITY_REVIEW.md`.
+
+Na B64 reaberta, núcleo e expansão têm zero centroides de faces sobre água. Eixos 1426173138/3325/3326 têm apoio nas amostras; a passarela 1426173327 tem 11 amostras sem piso e largura real ausente. Não preencher o mar nem tratar largura suposta como medida real. Passarela, níveis absolutos, arquitetura/época do terminal e percursos completos pendentes; região candidata, sem declaração de cidade perfeita/AAA.
+
+Falta de espaço interrompeu metadados; mídia recuperada com 35 registros originais intactos e três novos hashes conferidos. Derivados obsoletos e perfis temporários sem processo ativo removidos, fontes e recoveries preservados. Sem npm/build/instalação/CI/testes gerais.
+
+
+## 04/10/2026 — B62: encosta costeira, costura e pavimento integrado
+
+Candidata de validação explícita: `blender/salvador_lacerda_r30b62_pavimento_costura_limpa.blend`, SHA-256 `39b40bd1a18f02388be3e156ee8ec164532bc78db32cfd2ac1f24b44290dd17d`. Autoria B41 e produção B30 preservadas. Janela única PID 22916, MCP 9876. B57 preservada com cópia de recuperação antes da edição.
+
+B58 removeu 12.476 faces duplicadas na sobreposição com o domínio físico do núcleo. B59 remodelou a transição do relevo por restrições locais, sem aplicar fit Z global: faixa de influência até 75 m, DEM-fonte intacto. B60 corrigiu plataformas candidatas mantendo eixos XY/larguras registradas; B61 integrou o pavimento à mesma malha do piso, com refino local de 0,375 m; B62 retriangulou apenas 26 faces problemáticas. Terreno, água, cais e píeres protegidos permaneceram preservados. Materiais existentes reutilizados.
+
+Reabertura B62: visual/colisão iguais, malha finita, zero triângulos degenerados, 499 controles de costura sem apoio ausente e erro máximo 0,000130 m. Nos seis trechos costeiros com cobertura, 310 estações de dois apoios laterais: zero apoios ausentes e diferença piso/colisão zero; grade máxima 19,6% e crossfall máximo 13,0%. Isso não valida quatro rodas simultâneas, física, ônibus, sentidos completos ou trajetórias inteiras. Dois IDs sem amostras na expansão permanecem sem conclusão.
+
+**Próximo bloco obrigatório:** fechar a lacuna histórica entre o limite do núcleo e o cais usando controles de costa/DEM; conferir acessos aos píeres e atualizar os grafos/hints ao piso atual. A região NÃO está concluída. Não promover runtime nem considerar o grafo B55 validado sobre B62. Evidências: `coastal_sculpt_r30b59.json`, `coastal_roads_r30b60.json`, `coastal_pavement_r30b61.json`, `coastal_cleanup_r30b62.json`, `coastal_transition_r30b62_check.json` em `docs/reports/blender/`. Sem npm/build/CI/instalações/testes gerais.
+
 
 
 ## 04/10/2026 — B45: Misericórdia validada; próximo foco waterfront
@@ -1144,3 +1435,10 @@ Relatório: `docs/reports/blender/rondesp_marrom_v03.json`.
 Dimensões, mapa exato da pintura, brasão detalhado e animação final pendentes;
 asset não aprovado nem integrado no runtime. V01/V02 históricas preservadas.
 Sem mudanças na cidade, exportação de produção, npm ou build.
+
+## Rodada B77 — corredor e proveniência
+
+Fonte de validação: B77, preservando B76/SSOT e expansão greybox. Colisões separadas, recorte local reversível do consolo e demonstração da cabine 3. Ver [LACERDA_CORRIDOR_B77.md](LACERDA_CORRIDOR_B77.md). Física/datum/volume completo do poço pendentes; não promover runtime/release.
+## 07/10/2026 — B85 preservada; ajuste superior preparado, sessão em recuperação
+
+Não há B86 salva/validada. Derivação vetorial da prancha 17 preparada para corrigir contorno/proporção do conjunto superior; registro XY da arquitetura e instalação continuam candidatos. Após travamento do PID 11304/MCP 9876, usuário autorizou reinício: fonte registrada B85 reaberta pelo launcher em única instância PID 16912, conexão/carregamento ainda sujeitos a confirmação. Aplicação explicitamente desabilitada até recuperar controle. SSOT, B76–B85, proxy B82 e gates históricos preservados; nenhuma produção. Relatório: docs/LACERDA_UPPER_LAYOUT_PREPARATION_2026-10-07.md.

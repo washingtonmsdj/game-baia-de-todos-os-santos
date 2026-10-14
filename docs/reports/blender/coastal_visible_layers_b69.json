@@ -1,0 +1,1458 @@
+[
+  {
+    "name": "FACHADA INFERIOR R22 | identificação",
+    "faces": 1706,
+    "bounds": [
+      [
+        -57.84302520751953,
+        58.380271911621094,
+        11.58276081085205
+      ],
+      [
+        -56.12797164916992,
+        60.20744323730469,
+        11.834760665893555
+      ]
+    ],
+    "collections": [
+      "Scene Collection"
+    ],
+    "properties": {
+      "revision_note": "R30B22: texto contido entre pilares do portal central; sem mover fachada."
+    }
+  },
+  {
+    "name": "RIO BRANCO | corpo footprint 402383814",
+    "faces": 1400,
+    "bounds": [
+      [
+        -30.8185977935791,
+        -79.2571792602539,
+        70.0
+      ],
+      [
+        16.130680084228516,
+        -24.76095962524414,
+        84.30000305175781
+      ]
+    ],
+    "collections": [
+      "14 IMPLANTACAO | OSM e ladeira"
+    ],
+    "properties": {
+      "boas_revision": "R30B.34",
+      "boas_location_candidate": "palacio-rio-branco",
+      "osm_way_id": "402383814",
+      "boas_role": "visual_architecture",
+      "reference_status": "partial",
+      "classification": "ADAPT_LOCAL",
+      "dimensions_status": "proporções fotográficas candidatas; sem levantamento",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]",
+      "source_footprint_object": "RIO BRANCO | corpo footprint 402383814",
+      "footprint_xy_preserved": true
+    }
+  },
+  {
+    "name": "MVP | terreno corrigido | colisão estática",
+    "faces": 1030750,
+    "bounds": [
+      [
+        -285.70343017578125,
+        -285.2629089355469,
+        4.255668640136719
+      ],
+      [
+        542.2965698242188,
+        621.7371215820312,
+        70.2554931640625
+      ]
+    ],
+    "collections": [
+      "19 MVP | terreno DEM e acessos corrigidos",
+      "32.1 GAMEPLAY | TERRAIN",
+      "32.2 GAMEPLAY | COLLISION SOURCE"
+    ],
+    "properties": {
+      "game_role": "composite:collision_source+gameplay_terrain",
+      "source": "Aleph DEM + OSM; patamares adaptados aos pisos do esboço",
+      "grid_m": 1.5,
+      "walkable_slope_limit_deg": 32.0,
+      "surface_method": "Crista OSM + DEM filtrado na Cidade Alta + planície baixa; rede conectada com patamares fixos e perfis harmônicos de ligação",
+      "revision": "superficie_integrada_v1",
+      "mercado_support": "OSM 59392558: apoio z10.82, entorno integrado sem laje retangular sobre vias",
+      "cairu_grade": "Patamar z10.82m em compatibilidade com piso Mercado z11; cota inferida, não levantamento",
+      "roads_revision": "Vias 25: passeios materiais integrados; superfícies sett OSM; guias e travessias documentadas",
+      "network_revision": "v6",
+      "accuracy": "Traçado OSM; altimetria filtrada e corrigida para MVP. Patamares 10.82/69.78m compatíveis com a arquitetura existente; não levantamento.",
+      "road_edges_refined": true,
+      "narrow_streets": "Ladeira da Conceição 3m; Montanha 6m: ajustes provisórios de largura para separar patamares; sem medida cadastral.",
+      "ordax_upper_plateau_fix": "v4-correct-transform",
+      "ordax_upper_plateau_plaza_z": 69.985,
+      "ordax_upper_plateau_pref_z": 70.2555,
+      "ordax_upper_plateau_falloff_m": "plaza20,pref20,rio18,camara18",
+      "ordax_upper_plateau_vertices_changed": 7205,
+      "ordax_upper_plateau_regions": "plaza,prefeitura,rio_branco,camara",
+      "ordax_upper_plateau_vertices_changed_v2": 7932,
+      "ordax_upper_plateau_smoothing": "localized-spike-cleanup-v2",
+      "ordax_upper_plateau_smooth_iterations": 10,
+      "ordax_upper_plateau_smooth_changed": 5290,
+      "ordax_upper_plateau_smooth_max_change_m": 3.5421,
+      "ordax_upper_plateau_spikes_before": 169,
+      "ordax_upper_plateau_spikes_after": 48,
+      "ordax_upper_plateau_spike_vertices_changed": 208,
+      "ordax_upper_plateau_transition": "baseline-local/current-matrix smootherstep",
+      "ordax_upper_plateau_vertices_rebuilt": 18130,
+      "ordax_upper_plateau_vertices_rebuilt_v4": 18928,
+      "ordax_semantic_revision": "R30A.4",
+      "ordax_semantic_layer": "32.2 GAMEPLAY | COLLISION SOURCE",
+      "ordax_semantic_note": "Collision source; geometry split intentionally deferred.",
+      "ordax_semantic_status": "composite_legacy_not_geometry_split",
+      "ordax_semantic_roles": "[\"COLLISION_SOURCE\", \"GAMEPLAY_TERRAIN\"]",
+      "r30b09_retaining_faces": 555,
+      "r30b09_note": "Apenas material visual nas faces íngremes junto à Ladeira; topologia, pista e colisão preservadas.",
+      "r30b10_retaining_faces": 1756,
+      "r30b10_note": "Faixa continua delimitada pela borda externa do passeio da Ladeira, sem mudar topologia ou materiais viarios.",
+      "r30b11_seam_faces": 1305,
+      "r30b11_seam_note": "Revestimento de pedra ate o passeio existente; sem alteracao na malha, pista ou colisao.",
+      "r30b12_terrain_reshaped": true,
+      "r30b12_method": "Perfil continuo entre limite externo do passeio existente e primeira cota de 69 m; vertices viarios preservados.",
+      "r30b13_full_ladeira": true,
+      "r30b13_profile": "Perfis de seção da pista existente e primeiro patamar estável da encosta; pista/passeios preservados.",
+      "r30b15_support_recess": "Relevo original restaurado ao redor do apoio; transição suave para contenção junto ao passeio.",
+      "r30b16_smoothing": "Laplace local com base do apoio e vertices viarios fixos; nao altera objetos separados.",
+      "boas_terrain_correction": "ERROR: encontro Montanha/Pau da Bandeira; regularização Z local sobre eixos OSM existentes, XY/materiais/topologia preservados",
+      "boas_boundary_extension_osm_ids": "1075624458,421206045; shared node 619722483",
+      "boas_boundary_extension_classification": "ADAPT_LOCAL",
+      "boas_boundary_extension_method": "Recorte ampliado 4 m; seção e materiais autorais continuados, sem deslocar vértices anteriores ou alterar larguras. Altimetria extrapolada local, não medida.",
+      "boas_boundary_extension_report": "docs/reports/blender/terrain_real_boundary_extension.json",
+      "r34_material_mask": "boas_r34_barranco: material em banda íngreme sob galerias; sem deslocar vértices, estrada ou colisor.",
+      "r34_profile_reason": "Ruptura local de contenção vertical documentada nas fotos; elimina solo na frente das galerias, preservando XY, praça e materiais de circulação.",
+      "r34_profile_classification": "ADAPT_LOCAL",
+      "r34_profile_status": "candidate_photo_geometry; medidas de base/profundidade não levantadas",
+      "r35_profile_reason": "Galerias escavadas sob laje; encosta recomposta entre perfil amostrado da ladeira e face do apoio alinhado. Sem alterar DEM-fonte ou pista.",
+      "r36_profile_correction": "Solo ajustado ao encontro das galerias, escadas internas e terraço, sem limiar Z deixando picos; vias/XY preservados.",
+      "boas_revision": "R30B.64",
+      "boas_coastline_control": "limite superior da água preservada B63",
+      "boas_classification": "ERROR"
+    }
+  },
+  {
+    "name": "BAÍA DE TODOS-OS-SANTOS | superfície e recorte costeiro",
+    "faces": 120,
+    "bounds": [
+      [
+        -1350.0,
+        -850.0,
+        0.3499999940395355
+      ],
+      [
+        29.83144760131836,
+        600.1769409179688,
+        0.3499999940395355
+      ]
+    ],
+    "collections": [
+      "24 ORLA | Baía de Todos-os-Santos e cais OSM",
+      "32.7 GAMEPLAY | WATER",
+      "33.6 RUNTIME | WATER"
+    ],
+    "properties": {
+      "coastline_ways": "609043796,609043797",
+      "water_level_m": 0.35,
+      "extent": "Inclui Forte São Marcelo; costa OSM preservada, limite offshore cenográfico.",
+      "ordax_semantic_revision": "R30A.4",
+      "game_role": "water_surface",
+      "ordax_semantic_layer": "32.7 GAMEPLAY | WATER",
+      "ordax_semantic_roles": "[\"WATER_SURFACE\"]",
+      "boas_runtime_role": "water_surface",
+      "boas_runtime_source_revision": "R30A.4",
+      "boas_export_candidate": true,
+      "boas_water_system": "r30a8_ocean",
+      "boas_gameplay_surface_flat": true,
+      "boas_water_role": "gameplay_surface_reference",
+      "boas_water_level_m": 0.35,
+      "boas_surface_query_source": "engine_runtime",
+      "boas_collision_source": false,
+      "boas_visual_displacement_collision": false,
+      "boas_water_level_status": "candidate_vertical_datum_pending"
+    }
+  },
+  {
+    "name": "CAIS | contenção costeira alinhada à linha de costa",
+    "faces": 1271,
+    "bounds": [
+      [
+        -388.4596862792969,
+        -94.84332275390625,
+        0.3499999940395355
+      ],
+      [
+        29.831451416015625,
+        600.1769409179688,
+        8.9639892578125
+      ]
+    ],
+    "collections": [
+      "24 ORLA | Baía de Todos-os-Santos e cais OSM"
+    ],
+    "properties": {
+      "source": "Geometria inferida a partir da costa OSM; dimensões verticais aproximadas.",
+      "boas_revision": "R30B.66",
+      "boas_classification": "ERROR",
+      "boas_source_controls": "costa da água B63 preservada + apoio atual do piso",
+      "boas_real_wall_thickness_status": "pending",
+      "boas_real_foundation_status": "pending",
+      "boas_geographic_fidelity_status": "candidate_pending_photo_comparison",
+      "boas_collision_partner": "B64 | COLLISION | cais e borda marítima"
+    }
+  },
+  {
+    "name": "VIAS | guias contínuas com aberturas nas travessias",
+    "faces": 18042,
+    "bounds": [
+      [
+        -232.53720092773438,
+        -137.4571533203125,
+        7.237645626068115
+      ],
+      [
+        97.13999938964844,
+        232.5,
+        66.31568145751953
+      ]
+    ],
+    "collections": [
+      "25 VIAS | passeios e travessias OSM",
+      "32.6 GAMEPLAY | CURB BOUNDARIES",
+      "33.5 RUNTIME | CURBS"
+    ],
+    "properties": {
+      "accuracy": "Guia 10 cm; altura inferida. Passeios integrados na superfície do terreno, sem alterar altimetria.",
+      "ordax_semantic_revision": "R30A.4",
+      "game_role": "curb_boundary",
+      "ordax_semantic_layer": "32.6 GAMEPLAY | CURB BOUNDARIES",
+      "ordax_semantic_roles": "[\"CURB_BOUNDARY\"]",
+      "boas_runtime_role": "curb_boundary",
+      "boas_runtime_source_revision": "R30A.4",
+      "boas_export_candidate": true
+    }
+  },
+  {
+    "name": "AZULEJOS | fachadas e vãos",
+    "faces": 1122,
+    "bounds": [
+      [
+        -54.459510803222656,
+        139.4466094970703,
+        7.255640029907227
+      ],
+      [
+        -21.92646026611328,
+        179.1890106201172,
+        24.54564094543457
+      ]
+    ],
+    "collections": [
+      "28 COMÉRCIO | fachadas dos casarões"
+    ],
+    "properties": {
+      "representation": "fachada esquemática; ritmo de vãos e cobertura estimados; sem interior acessível"
+    }
+  },
+  {
+    "name": "LAC R30B | Galeria | frisos cruzetados",
+    "faces": 4860,
+    "bounds": [
+      [
+        -53.87863540649414,
+        43.386253356933594,
+        70.27305603027344
+      ],
+      [
+        -40.51311111450195,
+        56.82133102416992,
+        70.68695068359375
+      ]
+    ],
+    "collections": [
+      "HERO | Lacerda | detalhes R30B"
+    ],
+    "properties": {
+      "boas_location_id": "elevador-lacerda",
+      "boas_role": "visual_detail"
+    }
+  },
+  {
+    "name": "LAC R30B07 | torre | laminas venezianas",
+    "faces": 5148,
+    "bounds": [
+      [
+        -50.35699462890625,
+        49.33036422729492,
+        14.632851600646973
+      ],
+      [
+        -46.67952346801758,
+        53.243385314941406,
+        63.76715087890625
+      ]
+    ],
+    "collections": [
+      "HERO | Lacerda | torre e entrada R30B07"
+    ],
+    "properties": {
+      "boas_location_id": "elevador-lacerda",
+      "boas_role": "visual_architecture",
+      "classification": "ADAPT_LOCAL",
+      "reference_status": "partial"
+    }
+  },
+  {
+    "name": "LAC R30B07 | corpo tecnico | laminas",
+    "faces": 2736,
+    "bounds": [
+      [
+        -50.3737678527832,
+        46.87862014770508,
+        75.03250122070312
+      ],
+      [
+        -44.06671142578125,
+        53.25912857055664,
+        82.5425033569336
+      ]
+    ],
+    "collections": [
+      "HERO | Lacerda | torre e entrada R30B07"
+    ],
+    "properties": {
+      "boas_location_id": "elevador-lacerda",
+      "boas_role": "visual_architecture",
+      "classification": "ADAPT_LOCAL",
+      "reference_status": "partial"
+    }
+  },
+  {
+    "name": "LAC R30B20 | torre | laminas venezianas opostas",
+    "faces": 5148,
+    "bounds": [
+      [
+        -47.6661491394043,
+        46.80540084838867,
+        14.632851600646973
+      ],
+      [
+        -43.988685607910156,
+        50.71841812133789,
+        63.767147064208984
+      ]
+    ],
+    "collections": [
+      "HERO | Lacerda | venezianas opostas R30B20"
+    ],
+    "properties": {
+      "boas_location_id": "elevador-lacerda",
+      "boas_role": "visual_architecture"
+    }
+  },
+  {
+    "name": "ENTORNO LAC | Comercio adjacente | paineis vazados",
+    "faces": 1332,
+    "bounds": [
+      [
+        -49.06058120727539,
+        62.327552795410156,
+        11.15000057220459
+      ],
+      [
+        -37.33300018310547,
+        71.83175659179688,
+        15.875
+      ]
+    ],
+    "collections": [
+      "ENVIRONMENT_FINAL | Comércio B23 preservado"
+    ],
+    "properties": {
+      "osm_way_id": "1263035779",
+      "boas_role": "visual_environment",
+      "classification": "ADAPT_LOCAL",
+      "reference_status": "candidate",
+      "reference_media_id": "elevador-lacerda-front-2d9b4031ff6a",
+      "identity_note": "OSM shop=bakery e posição adjacente compatíveis; identidade comercial Cayru ainda candidata.",
+      "boas_model_restored_from": "blender/salvador_lacerda_r30b23_fachada_praca.blend",
+      "boas_revision": "R30B.32"
+    }
+  },
+  {
+    "name": "BAIXA R33 | 1263035780 | Folhas verdes",
+    "faces": 2016,
+    "bounds": [
+      [
+        -69.79557800292969,
+        40.718284606933594,
+        11.087645530700684
+      ],
+      [
+        -60.39105987548828,
+        51.317298889160156,
+        13.323647499084473
+      ]
+    ],
+    "collections": [
+      "ENVIRONMENT_FINAL | Cidade Baixa fotografia R33"
+    ],
+    "properties": {
+      "osm_way_id": "1263035780",
+      "boas_role": "visual_environment",
+      "reference_media_id": "elevador-lacerda-panorama-783a31279c0d",
+      "reference_status": "candidate",
+      "classification": "ADAPT_LOCAL",
+      "boas_revision": "R30B.37",
+      "photo_binding_status": "candidate",
+      "height_basis": "Proporção/contagem visível de pavimentos; não medição",
+      "boas_location_candidate": "edificio-baixa-osm-1263035780"
+    }
+  },
+  {
+    "name": "RIO R34 | Caixilhos das alas",
+    "faces": 2898,
+    "bounds": [
+      [
+        -37.66069793701172,
+        -78.80150604248047,
+        71.25
+      ],
+      [
+        16.087909698486328,
+        -24.78639793395996,
+        82.9000015258789
+      ]
+    ],
+    "collections": [
+      "HERO | Palácio Rio Branco | fotografia R34"
+    ],
+    "properties": {
+      "boas_revision": "R30B.34",
+      "boas_location_candidate": "palacio-rio-branco",
+      "osm_way_id": "402383814",
+      "boas_role": "visual_architecture",
+      "reference_status": "partial",
+      "classification": "ADAPT_LOCAL",
+      "dimensions_status": "proporções fotográficas candidatas; sem levantamento",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]"
+    }
+  },
+  {
+    "name": "RIO R34 | Molduras e peitoris",
+    "faces": 4086,
+    "bounds": [
+      [
+        -38.17273712158203,
+        -79.2998046875,
+        70.98999786376953
+      ],
+      [
+        16.653175354003906,
+        -24.218820571899414,
+        83.45320129394531
+      ]
+    ],
+    "collections": [
+      "HERO | Palácio Rio Branco | fotografia R34"
+    ],
+    "properties": {
+      "boas_revision": "R30B.35",
+      "boas_location_candidate": "palacio-rio-branco",
+      "osm_way_id": "402383814",
+      "boas_role": "visual_architecture",
+      "reference_status": "partial",
+      "classification": "ADAPT_LOCAL",
+      "dimensions_status": "proporções fotográficas candidatas; sem levantamento",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]"
+    }
+  },
+  {
+    "name": "RIO R34 | Balaustradas do palácio",
+    "faces": 2556,
+    "bounds": [
+      [
+        -1.353756308555603,
+        -39.424560546875,
+        77.30999755859375
+      ],
+      [
+        6.727235794067383,
+        -32.198524475097656,
+        78.4000015258789
+      ]
+    ],
+    "collections": [
+      "HERO | Palácio Rio Branco | fotografia R34"
+    ],
+    "properties": {
+      "boas_revision": "R30B.34",
+      "boas_location_candidate": "palacio-rio-branco",
+      "osm_way_id": "402383814",
+      "boas_role": "visual_architecture",
+      "reference_status": "partial",
+      "classification": "ADAPT_LOCAL",
+      "dimensions_status": "proporções fotográficas candidatas; sem levantamento",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]"
+    }
+  },
+  {
+    "name": "RIO R34 | Ritmo de telhas",
+    "faces": 3680,
+    "bounds": [
+      [
+        -38.073368072509766,
+        -79.25642395019531,
+        84.39913940429688
+      ],
+      [
+        16.094221115112305,
+        -24.80811309814453,
+        85.69085693359375
+      ]
+    ],
+    "collections": [
+      "HERO | Palácio Rio Branco | fotografia R34"
+    ],
+    "properties": {
+      "boas_revision": "R30B.34",
+      "boas_location_candidate": "palacio-rio-branco",
+      "osm_way_id": "402383814",
+      "boas_role": "visual_architecture",
+      "reference_status": "partial",
+      "classification": "ADAPT_LOCAL",
+      "dimensions_status": "proporções fotográficas candidatas; sem levantamento",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]"
+    }
+  },
+  {
+    "name": "RIO R34 | Nervuras da cúpula",
+    "faces": 1080,
+    "bounds": [
+      [
+        -8.115341186523438,
+        -47.326194763183594,
+        92.41209411621094
+      ],
+      [
+        5.818993091583252,
+        -33.39186096191406,
+        96.64676666259766
+      ]
+    ],
+    "collections": [
+      "HERO | Palácio Rio Branco | fotografia R34"
+    ],
+    "properties": {
+      "boas_revision": "R30B.34",
+      "boas_location_candidate": "palacio-rio-branco",
+      "osm_way_id": "402383814",
+      "boas_role": "visual_architecture",
+      "reference_status": "partial",
+      "classification": "ADAPT_LOCAL",
+      "dimensions_status": "proporções fotográficas candidatas; sem levantamento",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]"
+    }
+  },
+  {
+    "name": "RIO R34 | Lucarnas e óculos",
+    "faces": 1392,
+    "bounds": [
+      [
+        -8.123373031616211,
+        -47.334228515625,
+        92.30000305175781
+      ],
+      [
+        5.827025890350342,
+        -33.383827209472656,
+        93.3800048828125
+      ]
+    ],
+    "collections": [
+      "HERO | Palácio Rio Branco | fotografia R34"
+    ],
+    "properties": {
+      "boas_revision": "R30B.34",
+      "boas_location_candidate": "palacio-rio-branco",
+      "osm_way_id": "402383814",
+      "boas_role": "visual_architecture",
+      "reference_status": "partial",
+      "classification": "ADAPT_LOCAL",
+      "dimensions_status": "proporções fotográficas candidatas; sem levantamento",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]"
+    }
+  },
+  {
+    "name": "RIO R34 | Balaustrada sacada lateral",
+    "faces": 5064,
+    "bounds": [
+      [
+        -28.583938598632812,
+        -41.102142333984375,
+        76.4800033569336
+      ],
+      [
+        -17.371963500976562,
+        -28.84360122680664,
+        77.56999969482422
+      ]
+    ],
+    "collections": [
+      "HERO | Palácio Rio Branco | fotografia R34"
+    ],
+    "properties": {
+      "boas_revision": "R30B.34",
+      "boas_location_candidate": "palacio-rio-branco",
+      "osm_way_id": "402383814",
+      "boas_role": "visual_architecture",
+      "reference_status": "partial",
+      "classification": "ADAPT_LOCAL",
+      "dimensions_status": "proporções fotográficas candidatas; sem levantamento",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]"
+    }
+  },
+  {
+    "name": "RIO R34 | Cantaria volutas e chaves",
+    "faces": 3792,
+    "bounds": [
+      [
+        -13.118404388427734,
+        -49.57698059082031,
+        70.6500015258789
+      ],
+      [
+        16.920654296875,
+        -23.909292221069336,
+        89.75479125976562
+      ]
+    ],
+    "collections": [
+      "HERO | Palácio Rio Branco | fotografia R34"
+    ],
+    "properties": {
+      "boas_revision": "R30B.34",
+      "boas_location_candidate": "palacio-rio-branco",
+      "boas_role": "visual_architecture",
+      "reference_status": "partial",
+      "classification": "ADAPT_LOCAL",
+      "dimensions_status": "acabamento proporcional à fotografia; detalhes esculpidos menores pendentes"
+    }
+  },
+  {
+    "name": "GAL R34 | Palácio | balaustrada da praça",
+    "faces": 1896,
+    "bounds": [
+      [
+        -15.078725814819336,
+        -16.647066116333008,
+        69.85999298095703
+      ],
+      [
+        -2.8073294162750244,
+        -2.9443981647491455,
+        71.0199966430664
+      ]
+    ],
+    "collections": [
+      "ENVIRONMENT_FINAL | Galerias Cidade Alta R34"
+    ],
+    "properties": {
+      "boas_revision": "R30B.34",
+      "boas_location_candidate": "praca-tome-de-sousa",
+      "boas_role": "visual_architecture",
+      "reference_status": "partial",
+      "classification": "ADAPT_LOCAL",
+      "dimensions_status": "arquitetura proporcional às fotos sobre controle existente; dimensões não medidas",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]",
+      "r36_preservation": "Galeria existente restaurada da fonte B35; não deslocar para fechar lacuna. Ligação acrescentada em componentes separados."
+    }
+  },
+  {
+    "name": "GAL R34 | Prefeitura | alvenaria vazada",
+    "faces": 1100,
+    "bounds": [
+      [
+        8.164261817932129,
+        8.481840133666992,
+        62.849998474121094
+      ],
+      [
+        30.464031219482422,
+        34.43341064453125,
+        69.8499984741211
+      ]
+    ],
+    "collections": [
+      "ENVIRONMENT_FINAL | Galerias Cidade Alta R34"
+    ],
+    "properties": {
+      "boas_revision": "R30B.35",
+      "boas_location_candidate": "praca-tome-de-sousa",
+      "boas_role": "visual_architecture",
+      "reference_status": "partial",
+      "classification": "ADAPT_LOCAL",
+      "dimensions_status": "arquitetura proporcional às fotos sobre controle existente; dimensões não medidas",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]"
+    }
+  },
+  {
+    "name": "GAL R34 | Prefeitura | intradorsos e aduelas",
+    "faces": 1280,
+    "bounds": [
+      [
+        8.250142097473145,
+        11.311946868896484,
+        66.1500015258789
+      ],
+      [
+        27.07271385192871,
+        34.30644989013672,
+        67.43323516845703
+      ]
+    ],
+    "collections": [
+      "ENVIRONMENT_FINAL | Galerias Cidade Alta R34"
+    ],
+    "properties": {
+      "boas_revision": "R30B.34",
+      "boas_location_candidate": "praca-tome-de-sousa",
+      "boas_role": "visual_architecture",
+      "reference_status": "partial",
+      "classification": "ADAPT_LOCAL",
+      "dimensions_status": "arquitetura proporcional às fotos sobre controle existente; dimensões não medidas",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]"
+    }
+  },
+  {
+    "name": "GAL R34 | Prefeitura | balaustrada da praça",
+    "faces": 6264,
+    "bounds": [
+      [
+        8.017181396484375,
+        11.020389556884766,
+        69.85999298095703
+      ],
+      [
+        27.35986328125,
+        34.55369186401367,
+        71.0199966430664
+      ]
+    ],
+    "collections": [
+      "ENVIRONMENT_FINAL | Galerias Cidade Alta R34"
+    ],
+    "properties": {
+      "boas_revision": "R30B.34",
+      "boas_location_candidate": "praca-tome-de-sousa",
+      "boas_role": "visual_architecture",
+      "reference_status": "partial",
+      "classification": "ADAPT_LOCAL",
+      "dimensions_status": "arquitetura proporcional às fotos sobre controle existente; dimensões não medidas",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]"
+    }
+  },
+  {
+    "name": "GAL R34 | Prefeitura | juntas das aduelas",
+    "faces": 1440,
+    "bounds": [
+      [
+        8.230015754699707,
+        11.354995727539062,
+        66.13787841796875
+      ],
+      [
+        27.020076751708984,
+        34.322906494140625,
+        67.42887878417969
+      ]
+    ],
+    "collections": [
+      "ENVIRONMENT_FINAL | Galerias Cidade Alta R34"
+    ],
+    "properties": {
+      "boas_revision": "R30B.34",
+      "boas_location_candidate": "praca-tome-de-sousa",
+      "boas_role": "visual_architecture",
+      "reference_status": "partial",
+      "classification": "ADAPT_LOCAL",
+      "dimensions_status": "arquitetura proporcional às fotos sobre controle existente; dimensões não medidas",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]"
+    }
+  },
+  {
+    "name": "GAL R35 | Palácio | Nervuras internas",
+    "faces": 1152,
+    "bounds": [
+      [
+        -13.974440574645996,
+        -18.55479621887207,
+        65.9000015258789
+      ],
+      [
+        -0.5298891067504883,
+        -4.050773620605469,
+        68.10704040527344
+      ]
+    ],
+    "collections": [
+      "ENVIRONMENT_FINAL | Galerias Cidade Alta R34"
+    ],
+    "properties": {
+      "boas_revision": "R30B.35",
+      "boas_role": "visual_structure",
+      "boas_location_candidate": "praca-tome-de-sousa",
+      "reference_status": "partial",
+      "depth_candidate_m": 4.2,
+      "classification": "ADAPT_LOCAL",
+      "r36_preservation": "Galeria existente restaurada da fonte B35; não deslocar para fechar lacuna. Ligação acrescentada em componentes separados."
+    }
+  },
+  {
+    "name": "GAL R35 | Prefeitura | Nervuras internas",
+    "faces": 3840,
+    "bounds": [
+      [
+        8.870426177978516,
+        8.95458984375,
+        66.1500015258789
+      ],
+      [
+        30.013320922851562,
+        33.75175476074219,
+        67.24822998046875
+      ]
+    ],
+    "collections": [
+      "ENVIRONMENT_FINAL | Galerias Cidade Alta R34"
+    ],
+    "properties": {
+      "boas_revision": "R30B.35",
+      "boas_role": "visual_structure",
+      "boas_location_candidate": "praca-tome-de-sousa",
+      "reference_status": "partial",
+      "depth_candidate_m": 4.2,
+      "classification": "ADAPT_LOCAL"
+    }
+  },
+  {
+    "name": "RIO R35 | Consoles e dentículos das alas",
+    "faces": 2036,
+    "bounds": [
+      [
+        -38.57826232910156,
+        -79.7027816772461,
+        83.0199966430664
+      ],
+      [
+        16.947233200073242,
+        -23.945507049560547,
+        84.02000427246094
+      ]
+    ],
+    "collections": [
+      "HERO | Palácio Rio Branco | relevos R35"
+    ],
+    "properties": {
+      "boas_revision": "R30B.35",
+      "boas_location_candidate": "palacio-rio-branco",
+      "osm_way_id": "402383814",
+      "boas_role": "visual_architecture",
+      "classification": "ADAPT_LOCAL",
+      "reference_status": "partial",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]",
+      "dimensions_status": "proporções candidatas das fotos; dimensões reais não levantadas"
+    }
+  },
+  {
+    "name": "RIO R35 | Guirlandas sobre vãos",
+    "faces": 1540,
+    "bounds": [
+      [
+        -29.38144302368164,
+        -66.17324829101562,
+        75.8915786743164
+      ],
+      [
+        13.211506843566895,
+        -24.4427433013916,
+        76.31497192382812
+      ]
+    ],
+    "collections": [
+      "HERO | Palácio Rio Branco | relevos R35"
+    ],
+    "properties": {
+      "boas_revision": "R30B.35",
+      "boas_location_candidate": "palacio-rio-branco",
+      "osm_way_id": "402383814",
+      "boas_role": "visual_architecture",
+      "classification": "ADAPT_LOCAL",
+      "reference_status": "partial",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]",
+      "dimensions_status": "proporções candidatas das fotos; dimensões reais não levantadas"
+    }
+  },
+  {
+    "name": "RIO R35 | Fechos florais das janelas",
+    "faces": 12320,
+    "bounds": [
+      [
+        -28.99015998840332,
+        -65.25617218017578,
+        75.84614562988281
+      ],
+      [
+        12.745657920837402,
+        -24.38101577758789,
+        76.21385192871094
+      ]
+    ],
+    "collections": [
+      "HERO | Palácio Rio Branco | relevos R35"
+    ],
+    "properties": {
+      "boas_revision": "R30B.35",
+      "boas_location_candidate": "palacio-rio-branco",
+      "osm_way_id": "402383814",
+      "boas_role": "visual_architecture",
+      "classification": "ADAPT_LOCAL",
+      "reference_status": "partial",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]",
+      "dimensions_status": "proporções candidatas das fotos; dimensões reais não levantadas"
+    }
+  },
+  {
+    "name": "RIO R35 | Rosetas dos tímpanos",
+    "faces": 21120,
+    "bounds": [
+      [
+        -37.623416900634766,
+        -78.64696502685547,
+        82.52490234375
+      ],
+      [
+        16.524431228637695,
+        -24.361125946044922,
+        82.8750991821289
+      ]
+    ],
+    "collections": [
+      "HERO | Palácio Rio Branco | relevos R35"
+    ],
+    "properties": {
+      "boas_revision": "R30B.35",
+      "boas_location_candidate": "palacio-rio-branco",
+      "osm_way_id": "402383814",
+      "boas_role": "visual_architecture",
+      "classification": "ADAPT_LOCAL",
+      "reference_status": "partial",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]",
+      "dimensions_status": "proporções candidatas das fotos; dimensões reais não levantadas"
+    }
+  },
+  {
+    "name": "RIO R35 | Molduras dos medalhões",
+    "faces": 5760,
+    "bounds": [
+      [
+        -10.945249557495117,
+        -47.513607025146484,
+        84.25514221191406
+      ],
+      [
+        15.19876766204834,
+        -25.437541961669922,
+        86.34486389160156
+      ]
+    ],
+    "collections": [
+      "HERO | Palácio Rio Branco | relevos R35"
+    ],
+    "properties": {
+      "boas_revision": "R30B.35",
+      "boas_location_candidate": "palacio-rio-branco",
+      "osm_way_id": "402383814",
+      "boas_role": "visual_architecture",
+      "classification": "ADAPT_LOCAL",
+      "reference_status": "partial",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]",
+      "dimensions_status": "proporções candidatas das fotos; dimensões reais não levantadas"
+    }
+  },
+  {
+    "name": "RIO R35 | Volutas dos frontões",
+    "faces": 3840,
+    "bounds": [
+      [
+        -11.390719413757324,
+        -47.89810562133789,
+        84.6536865234375
+      ],
+      [
+        15.592663764953613,
+        -25.114198684692383,
+        85.34012603759766
+      ]
+    ],
+    "collections": [
+      "HERO | Palácio Rio Branco | relevos R35"
+    ],
+    "properties": {
+      "boas_revision": "R30B.35",
+      "boas_location_candidate": "palacio-rio-branco",
+      "osm_way_id": "402383814",
+      "boas_role": "visual_architecture",
+      "classification": "ADAPT_LOCAL",
+      "reference_status": "partial",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]",
+      "dimensions_status": "proporções candidatas das fotos; dimensões reais não levantadas"
+    }
+  },
+  {
+    "name": "RIO R35 | Folhas dos frontões",
+    "faces": 5760,
+    "bounds": [
+      [
+        -11.00226879119873,
+        -47.55617141723633,
+        85.26851654052734
+      ],
+      [
+        15.26223373413086,
+        -25.387331008911133,
+        86.44053649902344
+      ]
+    ],
+    "collections": [
+      "HERO | Palácio Rio Branco | relevos R35"
+    ],
+    "properties": {
+      "boas_revision": "R30B.35",
+      "boas_location_candidate": "palacio-rio-branco",
+      "osm_way_id": "402383814",
+      "boas_role": "visual_architecture",
+      "classification": "ADAPT_LOCAL",
+      "reference_status": "partial",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]",
+      "dimensions_status": "proporções candidatas das fotos; dimensões reais não levantadas"
+    }
+  },
+  {
+    "name": "RIO R35 | Rosetas da arquivolta",
+    "faces": 36960,
+    "bounds": [
+      [
+        -1.6524838209152222,
+        -39.663726806640625,
+        84.52261352539062
+      ],
+      [
+        5.957575798034668,
+        -33.226261138916016,
+        89.30384826660156
+      ]
+    ],
+    "collections": [
+      "HERO | Palácio Rio Branco | relevos R35"
+    ],
+    "properties": {
+      "boas_revision": "R30B.35",
+      "boas_location_candidate": "palacio-rio-branco",
+      "osm_way_id": "402383814",
+      "boas_role": "visual_architecture",
+      "classification": "ADAPT_LOCAL",
+      "reference_status": "partial",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]",
+      "dimensions_status": "proporções candidatas das fotos; dimensões reais não levantadas"
+    }
+  },
+  {
+    "name": "RIO R35 | Rosetas dos cantos do pavilhão",
+    "faces": 3520,
+    "bounds": [
+      [
+        -1.8522803783416748,
+        -39.84767532348633,
+        88.7881088256836
+      ],
+      [
+        6.067118167877197,
+        -33.14933776855469,
+        89.47189331054688
+      ]
+    ],
+    "collections": [
+      "HERO | Palácio Rio Branco | relevos R35"
+    ],
+    "properties": {
+      "boas_revision": "R30B.35",
+      "boas_location_candidate": "palacio-rio-branco",
+      "osm_way_id": "402383814",
+      "boas_role": "visual_architecture",
+      "classification": "ADAPT_LOCAL",
+      "reference_status": "partial",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]",
+      "dimensions_status": "proporções candidatas das fotos; dimensões reais não levantadas"
+    }
+  },
+  {
+    "name": "RIO R35 | Ramos dos cantos",
+    "faces": 1640,
+    "bounds": [
+      [
+        -1.587947130203247,
+        -39.62034606933594,
+        87.94103240966797
+      ],
+      [
+        5.818900108337402,
+        -33.35755920410156,
+        88.52896881103516
+      ]
+    ],
+    "collections": [
+      "HERO | Palácio Rio Branco | relevos R35"
+    ],
+    "properties": {
+      "boas_revision": "R30B.35",
+      "boas_location_candidate": "palacio-rio-branco",
+      "osm_way_id": "402383814",
+      "boas_role": "visual_architecture",
+      "classification": "ADAPT_LOCAL",
+      "reference_status": "partial",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]",
+      "dimensions_status": "proporções candidatas das fotos; dimensões reais não levantadas"
+    }
+  },
+  {
+    "name": "RIO R35 | Rosetas dos pedestais",
+    "faces": 3520,
+    "bounds": [
+      [
+        -1.4610949754714966,
+        -39.36984634399414,
+        74.37476348876953
+      ],
+      [
+        6.539793014526367,
+        -32.60279083251953,
+        74.865234375
+      ]
+    ],
+    "collections": [
+      "HERO | Palácio Rio Branco | relevos R35"
+    ],
+    "properties": {
+      "boas_revision": "R30B.35",
+      "boas_location_candidate": "palacio-rio-branco",
+      "osm_way_id": "402383814",
+      "boas_role": "visual_architecture",
+      "classification": "ADAPT_LOCAL",
+      "reference_status": "partial",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]",
+      "dimensions_status": "proporções candidatas das fotos; dimensões reais não levantadas"
+    }
+  },
+  {
+    "name": "RIO R35 | Capitéis das pilastras centrais",
+    "faces": 3520,
+    "bounds": [
+      [
+        0.906969428062439,
+        -37.458961486816406,
+        82.63108825683594
+      ],
+      [
+        3.668884754180908,
+        -35.109954833984375,
+        83.06890869140625
+      ]
+    ],
+    "collections": [
+      "HERO | Palácio Rio Branco | relevos R35"
+    ],
+    "properties": {
+      "boas_revision": "R30B.35",
+      "boas_location_candidate": "palacio-rio-branco",
+      "osm_way_id": "402383814",
+      "boas_role": "visual_architecture",
+      "classification": "ADAPT_LOCAL",
+      "reference_status": "partial",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]",
+      "dimensions_status": "proporções candidatas das fotos; dimensões reais não levantadas"
+    }
+  },
+  {
+    "name": "RIO R35 | Volutas dos capitéis",
+    "faces": 3840,
+    "bounds": [
+      [
+        -1.9104528427124023,
+        -39.834686279296875,
+        82.57506561279297
+      ],
+      [
+        6.577205657958984,
+        -32.626441955566406,
+        82.92493438720703
+      ]
+    ],
+    "collections": [
+      "HERO | Palácio Rio Branco | relevos R35"
+    ],
+    "properties": {
+      "boas_revision": "R30B.35",
+      "boas_location_candidate": "palacio-rio-branco",
+      "osm_way_id": "402383814",
+      "boas_role": "visual_architecture",
+      "classification": "ADAPT_LOCAL",
+      "reference_status": "partial",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]",
+      "dimensions_status": "proporções candidatas das fotos; dimensões reais não levantadas"
+    }
+  },
+  {
+    "name": "RIO R36 | Balaustradas dos terraços",
+    "faces": 6042,
+    "bounds": [
+      [
+        -54.94868087768555,
+        -36.42491149902344,
+        51.006996154785156
+      ],
+      [
+        -25.17632484436035,
+        -5.939748764038086,
+        64.84066772460938
+      ]
+    ],
+    "collections": [
+      "HERO | Terraços Rio Branco | fotografia R36"
+    ],
+    "properties": {
+      "boas_revision": "R30B.36",
+      "boas_location_candidate": "palacio-rio-branco",
+      "osm_way_id": "402383814",
+      "classification": "ADAPT_LOCAL",
+      "reference_status": "partial",
+      "dimensions_status": "candidate; proporções das fotos sem medição real",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-right-5c2fa307341b\"]",
+      "boas_role": "visual_architecture",
+      "r36_correction": "Acesso interno/ligação arquitetônica conferida nas fotos; dimensões candidatas.",
+      "r36_lateral_control": "Escadaria no lado oposto da galeria, conforme foto oblíqua; objeto mantém escala positiva."
+    }
+  },
+  {
+    "name": "RIO R36 | Guarda da escada interna",
+    "faces": 1584,
+    "bounds": [
+      [
+        -48.41167449951172,
+        -21.1234130859375,
+        51.006996154785156
+      ],
+      [
+        -43.10260009765625,
+        -15.363572120666504,
+        52.31199264526367
+      ]
+    ],
+    "collections": [
+      "HERO | Terraços Rio Branco | fotografia R36"
+    ],
+    "properties": {
+      "boas_revision": "R30B.36",
+      "boas_location_candidate": "palacio-rio-branco",
+      "osm_way_id": "402383814",
+      "classification": "ADAPT_LOCAL",
+      "reference_status": "partial",
+      "dimensions_status": "candidate; proporções das fotos sem medição real",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-right-5c2fa307341b\"]",
+      "boas_role": "visual_architecture",
+      "r36_correction": "Acesso interno/ligação arquitetônica conferida nas fotos; dimensões candidatas."
+    }
+  },
+  {
+    "name": "RIO R36 | Juntas horizontais da cantaria",
+    "faces": 5440,
+    "bounds": [
+      [
+        -33.15940856933594,
+        -38.249267578125,
+        57.24967575073242
+      ],
+      [
+        -20.91158676147461,
+        -25.214595794677734,
+        68.81298065185547
+      ]
+    ],
+    "collections": [
+      "HERO | Terraços Rio Branco | fotografia R36"
+    ],
+    "properties": {
+      "boas_revision": "R30B.36",
+      "boas_location_candidate": "palacio-rio-branco",
+      "osm_way_id": "402383814",
+      "classification": "ADAPT_LOCAL",
+      "reference_status": "partial",
+      "dimensions_status": "candidate; proporções das fotos sem medição real",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-right-5c2fa307341b\"]",
+      "boas_role": "visual_architecture"
+    }
+  },
+  {
+    "name": "RIO R36 | Guarda do terraço curvo",
+    "faces": 1352,
+    "bounds": [
+      [
+        -33.05146789550781,
+        -38.11298751831055,
+        69.8499984741211
+      ],
+      [
+        -20.815494537353516,
+        -25.13723373413086,
+        70.90999603271484
+      ]
+    ],
+    "collections": [
+      "HERO | Terraços Rio Branco | fotografia R36"
+    ],
+    "properties": {
+      "boas_revision": "R30B.36",
+      "boas_location_candidate": "palacio-rio-branco",
+      "osm_way_id": "402383814",
+      "classification": "ADAPT_LOCAL",
+      "reference_status": "partial",
+      "dimensions_status": "candidate; proporções das fotos sem medição real",
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-right-5c2fa307341b\"]",
+      "boas_role": "visual_architecture"
+    }
+  },
+  {
+    "name": "GAL R36 | Ligação terraço | Balaustrada contínua",
+    "faces": 4080,
+    "bounds": [
+      [
+        -21.099836349487305,
+        -29.29566764831543,
+        69.9949951171875
+      ],
+      [
+        -14.765064239501953,
+        -16.43955421447754,
+        71.15499877929688
+      ]
+    ],
+    "collections": [
+      "ENVIRONMENT_FINAL | Ligação galerias terraço R36"
+    ],
+    "properties": {
+      "boas_revision": "R30B.36",
+      "boas_role": "visual_structure",
+      "boas_location_candidate": "praca-tome-de-sousa",
+      "classification": "ADAPT_LOCAL",
+      "reference_status": "partial",
+      "dimensions_status": "candidatas; encontro entre controles geométricos existentes",
+      "arch_count_verified": false,
+      "reference_media_ids": "[\"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-right-5c2fa307341b\"]"
+    }
+  },
+  {
+    "name": "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+    "faces": 149188,
+    "bounds": [
+      [
+        -551.0,
+        -510.0,
+        -2.463484764099121
+      ],
+      [
+        -260.75,
+        -12.0,
+        66.88790130615234
+      ]
+    ],
+    "collections": [
+      "39.5 GAMEPLAY | B62 COSTURA LIMPA"
+    ],
+    "properties": {
+      "boas_revision": "R30B.62",
+      "boas_runtime_role": "gameplay_terrain_integrated_candidate",
+      "boas_grid_step_m": 0.75,
+      "boas_source_dem": "Aleph terrain.tif",
+      "boas_gameplay_approved": false,
+      "boas_collision_partner": "B62 | COLLISION | pavimento e costura limpa",
+      "boas_pavement_status": "Na geometria do piso; largura candidata de gameplay; limites discretizados em até 0.375m."
+    }
+  },
+  {
+    "name": "B63 | VISUAL | piso contínuo até o cais",
+    "faces": 2827,
+    "bounds": [
+      [
+        -388.4596862792969,
+        -94.84332275390625,
+        -0.58892822265625
+      ],
+      [
+        -285.70343017578125,
+        39.402835845947266,
+        9.056307792663574
+      ]
+    ],
+    "collections": [
+      "39.6 GAMEPLAY | B63 ORLA E BORDAS"
+    ],
+    "properties": {
+      "boas_revision": "R30B.66",
+      "boas_runtime_role": "sidewalk_walkable",
+      "boas_gameplay_approved": false,
+      "boas_real_dimensions_verified": false,
+      "boas_classification": "ERROR",
+      "boas_correction_reason": "Piso ausente entre limites existentes; interpolação ancorada no cais e no terreno preservados.",
+      "boas_source_controls": "cais construído R30A8; limite núcleo; limite HQ B62",
+      "boas_location_id": "cais-praca-cairu",
+      "boas_surface_design_status": "ADAPT_LOCAL_CANDIDATE",
+      "boas_collision_partner": "B63 | COLLISION | piso contínuo até o cais",
+      "boas_coastline_control": "limite superior da água preservada B63"
+    }
+  },
+  {
+    "name": "B63 | VISUAL | meios-fios das vias existentes",
+    "faces": 25662,
+    "bounds": [
+      [
+        -239.20343017578125,
+        -252.3878936767578,
+        7.255645751953125
+      ],
+      [
+        519.302490234375,
+        594.0255126953125,
+        70.21204376220703
+      ]
+    ],
+    "collections": [
+      "39.6 GAMEPLAY | B63 ORLA E BORDAS"
+    ],
+    "properties": {
+      "boas_revision": "R30B.64",
+      "boas_runtime_role": "environment_final",
+      "boas_gameplay_approved": false,
+      "boas_real_dimensions_verified": false,
+      "boas_classification": "ADAPT_LOCAL",
+      "boas_design_width_m": 0.18,
+      "boas_design_height_m": 0.12,
+      "boas_source_controls": "arestas pista/passeio na malha preservada; dimensões de desenho candidatas",
+      "boas_collision_partner": "B63 | COLLISION | meios-fios das vias existentes"
+    }
+  }
+]

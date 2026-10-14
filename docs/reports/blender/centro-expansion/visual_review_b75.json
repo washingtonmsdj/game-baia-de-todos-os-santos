@@ -1,0 +1,22 @@
+{
+  "source_file": "blender/salvador_lacerda_r30b75_passeios_larguras_osm.blend",
+  "images": [
+    "artifacts/centro-expansion/render-dique-passeios-b75.png",
+    "artifacts/centro-expansion/render-encontros-passeios-b75.png"
+  ],
+  "method": "Câmeras reais Blender / Workbench, sem simular conteúdo ausente",
+  "scene_saved": false,
+  "motor_roads_built": false,
+  "production_ready": false,
+  "images_inspected": [
+    "artifacts/centro-expansion/render-dique-passeios-b75.png",
+    "artifacts/centro-expansion/render-encontros-passeios-b75.png"
+  ],
+  "status": "partial_world",
+  "findings": [
+    "Passeios estreitos com largura explícita encaixados no terreno",
+    "Ruas finais ainda ausentes na expansão",
+    "Intervalo entre borda de terreno e água do Dique exige perfil de margem/altimetria; não aprovado"
+  ],
+  "shore_review": "docs/reports/blender/centro-expansion/dique_shore_height_b75.json"
+}

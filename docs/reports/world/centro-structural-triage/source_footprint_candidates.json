@@ -1,0 +1,65 @@
+{
+  "note": "Independent source-layer candidates; not included in the 714, not bugs, no Blender triangle-intersection approval",
+  "pairs": [
+    {
+      "building": [
+        "relation",
+        18073836
+      ],
+      "road": [
+        "way",
+        1317127244
+      ],
+      "road_name": null,
+      "area": "TOME_RUA_CHILE",
+      "classification": "NEEDS_REVIEW",
+      "cause_confirmed": false,
+      "reason": "Source node strictly inside footprint; vertical layer and access must be checked"
+    },
+    {
+      "building": [
+        "way",
+        498407319
+      ],
+      "road": [
+        "way",
+        684497773
+      ],
+      "road_name": null,
+      "area": "CAIRU_MERCADO",
+      "classification": "EXPECTED_OVERLAP",
+      "cause_confirmed": false,
+      "reason": "Source node strictly inside footprint; vertical layer and access must be checked"
+    },
+    {
+      "building": [
+        "way",
+        498407319
+      ],
+      "road": [
+        "way",
+        1426173135
+      ],
+      "road_name": null,
+      "area": "CAIRU_MERCADO",
+      "classification": "EXPECTED_OVERLAP",
+      "cause_confirmed": false,
+      "reason": "Source node strictly inside footprint; vertical layer and access must be checked"
+    },
+    {
+      "building": [
+        "way",
+        1263035777
+      ],
+      "road": [
+        "way",
+        312006925
+      ],
+      "road_name": null,
+      "area": "CAIRU_MERCADO",
+      "classification": "NEEDS_REVIEW",
+      "cause_confirmed": false,
+      "reason": "Source node strictly inside footprint; vertical layer and access must be checked"
+    }
+  ]
+}

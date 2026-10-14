@@ -1,0 +1,125 @@
+{
+  "source": "blender/salvador_lacerda_r30b63_orla_bordas_canteiros.blend",
+  "core_faces_in_water_by_material": {
+    "0": 21845,
+    "1": 279
+  },
+  "examples": [
+    [
+      -273.20343017578125,
+      52.73710250854492,
+      7.255668640136719,
+      0
+    ],
+    [
+      -272.70343017578125,
+      53.73710250854492,
+      7.255668640136719,
+      0
+    ],
+    [
+      -273.20343017578125,
+      54.23710250854492,
+      7.255668640136719,
+      0
+    ],
+    [
+      -271.70343017578125,
+      54.23710250854492,
+      7.255668640136719,
+      0
+    ],
+    [
+      -272.70343017578125,
+      55.23710250854492,
+      7.255668640136719,
+      0
+    ],
+    [
+      -273.20343017578125,
+      55.73710250854492,
+      7.255668640136719,
+      0
+    ],
+    [
+      -271.20343017578125,
+      55.23710250854492,
+      7.255668640136719,
+      0
+    ],
+    [
+      -271.70343017578125,
+      55.73710250854492,
+      7.255668640136719,
+      0
+    ]
+  ],
+  "generated_meshes": [
+    {
+      "name": "B63 | VISUAL | piso contínuo até o cais",
+      "faces": 2715,
+      "negative_upward_faces": 0,
+      "degenerate": 0
+    },
+    {
+      "name": "B63 | VISUAL | meios-fios das vias existentes",
+      "faces": 20000,
+      "negative_upward_faces": 7246,
+      "degenerate": 0
+    },
+    {
+      "name": "B63 | VISUAL | canteiro OSM 285592034",
+      "faces": 1448,
+      "negative_upward_faces": 0,
+      "degenerate": 0
+    },
+    {
+      "name": "B63 | VISUAL | canteiro OSM 565958078",
+      "faces": 17,
+      "negative_upward_faces": 0,
+      "degenerate": 0
+    },
+    {
+      "name": "B63 | VISUAL | canteiro OSM 1232803924",
+      "faces": 323,
+      "negative_upward_faces": 0,
+      "degenerate": 0
+    },
+    {
+      "name": "B63 | VISUAL | canteiro OSM 1265894224",
+      "faces": 216,
+      "negative_upward_faces": 0,
+      "degenerate": 0
+    },
+    {
+      "name": "B63 | VISUAL | canteiro OSM 1320939604",
+      "faces": 228,
+      "negative_upward_faces": 0,
+      "degenerate": 0
+    },
+    {
+      "name": "B63 | VISUAL | canteiro OSM 1321519023",
+      "faces": 58,
+      "negative_upward_faces": 0,
+      "degenerate": 0
+    },
+    {
+      "name": "B63 | VISUAL | canteiro OSM 1321718836",
+      "faces": 200,
+      "negative_upward_faces": 0,
+      "degenerate": 0
+    },
+    {
+      "name": "B63 | VISUAL | canteiro OSM 1321718837",
+      "faces": 38,
+      "negative_upward_faces": 0,
+      "degenerate": 0
+    },
+    {
+      "name": "B63 | VISUAL | canteiro OSM 1321718838",
+      "faces": 42,
+      "negative_upward_faces": 0,
+      "degenerate": 0
+    }
+  ]
+}

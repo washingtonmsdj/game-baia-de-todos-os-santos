@@ -1,0 +1,3647 @@
+{
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b72_costura_viaria_continua.blend",
+    "revision": "R30B.72",
+    "sha256": "bef607e739f3a84e78a5c6e71ef20bc704ed5536d715896beaa9da0ea856db78",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b71_encontro_norte_cais.blend",
+    "evidence": "docs/reports/blender/city_seam_r30b72.json",
+    "notes": "Junção compartilhada Manoel/Conceição e pavimento de oito corredores nas três superfícies, mesmos IDs/XY e larguras candidatas; fidelidade global pendente."
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b73_tangente_encosta_costura.blend",
+    "revision": "R30B.73",
+    "sha256": "d49f9b35e00b292acdbd33028b58f8eaa52d71e9ba9fd232ba679190227e1f0b"
+  },
+  "candidate": {
+    "source": {
+      "file": "blender/salvador_lacerda_r30b72_costura_viaria_continua.blend",
+      "revision": "R30B.72",
+      "sha256": "bef607e739f3a84e78a5c6e71ef20bc704ed5536d715896beaa9da0ea856db78",
+      "status": "validation_candidate",
+      "parent_file": "blender/salvador_lacerda_r30b71_encontro_norte_cais.blend",
+      "evidence": "docs/reports/blender/city_seam_r30b72.json",
+      "notes": "Junção compartilhada Manoel/Conceição e pavimento de oito corredores nas três superfícies, mesmos IDs/XY e larguras candidatas; fidelidade global pendente."
+    },
+    "classification": "ADAPT_LOCAL",
+    "design_transition_width_m": 8.0,
+    "width_surveyed": false,
+    "changed_vertices": 2359,
+    "max_delta_z_m": 3.9890025563893374,
+    "skipped_no_support": 0,
+    "locked_vertices": 16240,
+    "finite": true,
+    "xy_changed": false,
+    "topology_changed": false,
+    "source_dem_changed": false,
+    "metrics": {
+      "slope_discontinuity_before": {
+        "max": 3.9420623779296875,
+        "p95": 3.7580558776855466
+      },
+      "slope_discontinuity_after": {
+        "max": 0.696014404296875,
+        "p95": 0.35998077392578093
+      },
+      "opposite_point_difference_before": {
+        "max": 0.0788421630859375,
+        "p95": 0.07418594360351563
+      },
+      "opposite_point_difference_after": {
+        "max": 0.009796142578125,
+        "p95": 0.006134796142578125
+      }
+    },
+    "rows": [
+      {
+        "y": -277.0,
+        "slope_discontinuity_before": 3.4473724365234375,
+        "slope_discontinuity_after": 0.272796630859375,
+        "opposite_point_difference_before": 0.0684051513671875,
+        "opposite_point_difference_after": 0.0046234130859375
+      },
+      {
+        "y": -276.0,
+        "slope_discontinuity_before": 3.4620590209960938,
+        "slope_discontinuity_after": 0.2668914794921875,
+        "opposite_point_difference_before": 0.06879425048828125,
+        "opposite_point_difference_after": 0.00457763671875
+      },
+      {
+        "y": -275.0,
+        "slope_discontinuity_before": 3.438629150390625,
+        "slope_discontinuity_after": 0.26943206787109375,
+        "opposite_point_difference_before": 0.0684661865234375,
+        "opposite_point_difference_after": 0.00460052490234375
+      },
+      {
+        "y": -274.0,
+        "slope_discontinuity_before": 3.4218368530273438,
+        "slope_discontinuity_after": 0.271697998046875,
+        "opposite_point_difference_before": 0.06815338134765625,
+        "opposite_point_difference_after": 0.00460052490234375
+      },
+      {
+        "y": -273.0,
+        "slope_discontinuity_before": 3.4315338134765625,
+        "slope_discontinuity_after": 0.2685089111328125,
+        "opposite_point_difference_before": 0.06824493408203125,
+        "opposite_point_difference_after": 0.004608154296875
+      },
+      {
+        "y": -272.0,
+        "slope_discontinuity_before": 3.44134521484375,
+        "slope_discontinuity_after": 0.2648773193359375,
+        "opposite_point_difference_before": 0.06847381591796875,
+        "opposite_point_difference_after": 0.00458526611328125
+      },
+      {
+        "y": -271.0,
+        "slope_discontinuity_before": 3.4228134155273438,
+        "slope_discontinuity_after": 0.26532745361328125,
+        "opposite_point_difference_before": 0.06833648681640625,
+        "opposite_point_difference_after": 0.00458526611328125
+      },
+      {
+        "y": -270.0,
+        "slope_discontinuity_before": 3.391387939453125,
+        "slope_discontinuity_after": 0.26385498046875,
+        "opposite_point_difference_before": 0.06772613525390625,
+        "opposite_point_difference_after": 0.0047149658203125
+      },
+      {
+        "y": -269.0,
+        "slope_discontinuity_before": 3.3596649169921875,
+        "slope_discontinuity_after": 0.26102447509765625,
+        "opposite_point_difference_before": 0.0674285888671875,
+        "opposite_point_difference_after": 0.00476837158203125
+      },
+      {
+        "y": -268.0,
+        "slope_discontinuity_before": 3.342315673828125,
+        "slope_discontinuity_after": 0.25875091552734375,
+        "opposite_point_difference_before": 0.06409454345703125,
+        "opposite_point_difference_after": 0.00183868408203125
+      },
+      {
+        "y": -267.0,
+        "slope_discontinuity_before": 3.3893508911132812,
+        "slope_discontinuity_after": 0.25716400146484375,
+        "opposite_point_difference_before": 0.06836700439453125,
+        "opposite_point_difference_after": 0.00518798828125
+      },
+      {
+        "y": -266.0,
+        "slope_discontinuity_before": 3.4561691284179688,
+        "slope_discontinuity_after": 0.25836181640625,
+        "opposite_point_difference_before": 0.069183349609375,
+        "opposite_point_difference_after": 0.005035400390625
+      },
+      {
+        "y": -265.0,
+        "slope_discontinuity_before": 3.4975204467773438,
+        "slope_discontinuity_after": 0.2639923095703125,
+        "opposite_point_difference_before": 0.06978607177734375,
+        "opposite_point_difference_after": 0.0050506591796875
+      },
+      {
+        "y": -264.0,
+        "slope_discontinuity_before": 3.5325241088867188,
+        "slope_discontinuity_after": 0.2723541259765625,
+        "opposite_point_difference_before": 0.0705718994140625,
+        "opposite_point_difference_after": 0.00493621826171875
+      },
+      {
+        "y": -263.0,
+        "slope_discontinuity_before": 3.6101150512695312,
+        "slope_discontinuity_after": 0.27335357666015625,
+        "opposite_point_difference_before": 0.07147979736328125,
+        "opposite_point_difference_after": 0.00478363037109375
+      },
+      {
+        "y": -262.0,
+        "slope_discontinuity_before": 3.6768798828125,
+        "slope_discontinuity_after": 0.27359771728515625,
+        "opposite_point_difference_before": 0.07260894775390625,
+        "opposite_point_difference_after": 0.00495147705078125
+      },
+      {
+        "y": -261.0,
+        "slope_discontinuity_before": 3.7154006958007812,
+        "slope_discontinuity_after": 0.27989959716796875,
+        "opposite_point_difference_before": 0.07352447509765625,
+        "opposite_point_difference_after": 0.0046539306640625
+      },
+      {
+        "y": -260.0,
+        "slope_discontinuity_before": 3.756317138671875,
+        "slope_discontinuity_after": 0.2860870361328125,
+        "opposite_point_difference_before": 0.07386016845703125,
+        "opposite_point_difference_after": 0.00457000732421875
+      },
+      {
+        "y": -259.0,
+        "slope_discontinuity_before": 3.82012939453125,
+        "slope_discontinuity_after": 0.28655242919921875,
+        "opposite_point_difference_before": 0.0746002197265625,
+        "opposite_point_difference_after": 0.00457000732421875
+      },
+      {
+        "y": -258.0,
+        "slope_discontinuity_before": 3.8889083862304688,
+        "slope_discontinuity_after": 0.2852783203125,
+        "opposite_point_difference_before": 0.07640838623046875,
+        "opposite_point_difference_after": 0.00444793701171875
+      },
+      {
+        "y": -257.0,
+        "slope_discontinuity_before": 3.920379638671875,
+        "slope_discontinuity_after": 0.29076385498046875,
+        "opposite_point_difference_before": 0.0767059326171875,
+        "opposite_point_difference_after": 0.004364013671875
+      },
+      {
+        "y": -256.0,
+        "slope_discontinuity_before": 3.9420623779296875,
+        "slope_discontinuity_after": 0.2949371337890625,
+        "opposite_point_difference_before": 0.0788421630859375,
+        "opposite_point_difference_after": 0.00614166259765625
+      },
+      {
+        "y": -255.0,
+        "slope_discontinuity_before": 3.939361572265625,
+        "slope_discontinuity_after": 0.29772186279296875,
+        "opposite_point_difference_before": 0.0770721435546875,
+        "opposite_point_difference_after": 0.0043182373046875
+      },
+      {
+        "y": -254.0,
+        "slope_discontinuity_before": 3.9300918579101562,
+        "slope_discontinuity_after": 0.3007049560546875,
+        "opposite_point_difference_before": 0.076904296875,
+        "opposite_point_difference_after": 0.0042572021484375
+      },
+      {
+        "y": -253.0,
+        "slope_discontinuity_before": 3.9074935913085938,
+        "slope_discontinuity_after": 0.29557037353515625,
+        "opposite_point_difference_before": 0.07866668701171875,
+        "opposite_point_difference_after": 0.00629425048828125
+      },
+      {
+        "y": -252.0,
+        "slope_discontinuity_before": 3.882110595703125,
+        "slope_discontinuity_after": 0.288726806640625,
+        "opposite_point_difference_before": 0.07579803466796875,
+        "opposite_point_difference_after": 0.004119873046875
+      },
+      {
+        "y": -251.0,
+        "slope_discontinuity_before": 3.7737045288085938,
+        "slope_discontinuity_after": 0.28839111328125,
+        "opposite_point_difference_before": 0.0741729736328125,
+        "opposite_point_difference_after": 0.0040283203125
+      },
+      {
+        "y": -250.0,
+        "slope_discontinuity_before": 3.6618804931640625,
+        "slope_discontinuity_after": 0.28577423095703125,
+        "opposite_point_difference_before": 0.07430267333984375,
+        "opposite_point_difference_after": 0.0057220458984375
+      },
+      {
+        "y": -249.0,
+        "slope_discontinuity_before": 3.547271728515625,
+        "slope_discontinuity_after": 0.2757568359375,
+        "opposite_point_difference_before": 0.0693359375,
+        "opposite_point_difference_after": 0.003875732421875
+      },
+      {
+        "y": -248.0,
+        "slope_discontinuity_before": 3.4198989868164062,
+        "slope_discontinuity_after": 0.2677001953125,
+        "opposite_point_difference_before": 0.0676422119140625,
+        "opposite_point_difference_after": 0.003753662109375
+      },
+      {
+        "y": -247.0,
+        "slope_discontinuity_before": 3.2391510009765625,
+        "slope_discontinuity_after": 0.2601776123046875,
+        "opposite_point_difference_before": 0.06658935546875,
+        "opposite_point_difference_after": 0.0050201416015625
+      },
+      {
+        "y": -246.0,
+        "slope_discontinuity_before": 3.1357574462890625,
+        "slope_discontinuity_after": 0.2537078857421875,
+        "opposite_point_difference_before": 0.05959320068359375,
+        "opposite_point_difference_after": 0.00360107421875
+      },
+      {
+        "y": -245.0,
+        "slope_discontinuity_before": 2.9334259033203125,
+        "slope_discontinuity_after": 0.2411651611328125,
+        "opposite_point_difference_before": 0.05670928955078125,
+        "opposite_point_difference_after": 0.00345611572265625
+      },
+      {
+        "y": -244.0,
+        "slope_discontinuity_before": 2.7081756591796875,
+        "slope_discontinuity_after": 0.22290802001953125,
+        "opposite_point_difference_before": 0.054473876953125,
+        "opposite_point_difference_after": 0.0042877197265625
+      },
+      {
+        "y": -243.0,
+        "slope_discontinuity_before": 2.4709243774414062,
+        "slope_discontinuity_after": 0.20455169677734375,
+        "opposite_point_difference_before": 0.04427337646484375,
+        "opposite_point_difference_after": 0.00318145751953125
+      },
+      {
+        "y": -242.0,
+        "slope_discontinuity_before": 2.1760025024414062,
+        "slope_discontinuity_after": 0.19072723388671875,
+        "opposite_point_difference_before": 0.03887176513671875,
+        "opposite_point_difference_after": 0.00304412841796875
+      },
+      {
+        "y": -241.0,
+        "slope_discontinuity_before": 1.908905029296875,
+        "slope_discontinuity_after": 0.17081451416015625,
+        "opposite_point_difference_before": 0.0338897705078125,
+        "opposite_point_difference_after": 0.00341033935546875
+      },
+      {
+        "y": -240.0,
+        "slope_discontinuity_before": 1.65045166015625,
+        "slope_discontinuity_after": 0.15035247802734375,
+        "opposite_point_difference_before": 0.0221405029296875,
+        "opposite_point_difference_after": 0.00274658203125
+      },
+      {
+        "y": -239.0,
+        "slope_discontinuity_before": 1.4207916259765625,
+        "slope_discontinuity_after": 0.1334228515625,
+        "opposite_point_difference_before": 0.01857757568359375,
+        "opposite_point_difference_after": 0.0026092529296875
+      },
+      {
+        "y": -238.0,
+        "slope_discontinuity_before": 1.166412353515625,
+        "slope_discontinuity_after": 0.10845184326171875,
+        "opposite_point_difference_before": 0.01642608642578125,
+        "opposite_point_difference_after": 0.002471923828125
+      },
+      {
+        "y": -237.0,
+        "slope_discontinuity_before": 0.9062423706054688,
+        "slope_discontinuity_after": 0.0827789306640625,
+        "opposite_point_difference_before": 0.01219940185546875,
+        "opposite_point_difference_after": 0.00225067138671875
+      },
+      {
+        "y": -236.0,
+        "slope_discontinuity_before": 0.68548583984375,
+        "slope_discontinuity_after": 0.064544677734375,
+        "opposite_point_difference_before": 0.0100250244140625,
+        "opposite_point_difference_after": 0.0020751953125
+      },
+      {
+        "y": -235.0,
+        "slope_discontinuity_before": 0.429931640625,
+        "slope_discontinuity_after": 0.03961181640625,
+        "opposite_point_difference_before": 0.007568359375,
+        "opposite_point_difference_after": 0.001678466796875
+      },
+      {
+        "y": -234.0,
+        "slope_discontinuity_before": 0.16998291015625,
+        "slope_discontinuity_after": 0.01416015625,
+        "opposite_point_difference_before": 0.0036163330078125,
+        "opposite_point_difference_after": 0.001739501953125
+      },
+      {
+        "y": -233.0,
+        "slope_discontinuity_before": 0.0527801513671875,
+        "slope_discontinuity_after": 0.00421142578125,
+        "opposite_point_difference_before": 0.001434326171875,
+        "opposite_point_difference_after": 0.001556396484375
+      },
+      {
+        "y": -232.0,
+        "slope_discontinuity_before": 0.3120269775390625,
+        "slope_discontinuity_after": 0.0553436279296875,
+        "opposite_point_difference_before": 0.0004730224609375,
+        "opposite_point_difference_after": 0.0016937255859375
+      },
+      {
+        "y": -231.0,
+        "slope_discontinuity_before": 0.5711822509765625,
+        "slope_discontinuity_after": 0.078399658203125,
+        "opposite_point_difference_before": 0.0049896240234375,
+        "opposite_point_difference_after": 0.000701904296875
+      },
+      {
+        "y": -230.0,
+        "slope_discontinuity_before": 0.781463623046875,
+        "slope_discontinuity_after": 0.07879638671875,
+        "opposite_point_difference_before": 0.0070648193359375,
+        "opposite_point_difference_after": 0.0006561279296875
+      },
+      {
+        "y": -229.0,
+        "slope_discontinuity_before": 1.008331298828125,
+        "slope_discontinuity_after": 0.0985870361328125,
+        "opposite_point_difference_before": 0.012115478515625,
+        "opposite_point_difference_after": 0.0024566650390625
+      },
+      {
+        "y": -228.0,
+        "slope_discontinuity_before": 1.211944580078125,
+        "slope_discontinuity_after": 0.1173553466796875,
+        "opposite_point_difference_before": 0.0124359130859375,
+        "opposite_point_difference_after": 0.0006103515625
+      },
+      {
+        "y": -227.0,
+        "slope_discontinuity_before": 1.347900390625,
+        "slope_discontinuity_after": 0.1263427734375,
+        "opposite_point_difference_before": 0.0138397216796875,
+        "opposite_point_difference_after": 0.000579833984375
+      },
+      {
+        "y": -226.0,
+        "slope_discontinuity_before": 1.4634857177734375,
+        "slope_discontinuity_after": 0.1376495361328125,
+        "opposite_point_difference_before": 0.019439697265625,
+        "opposite_point_difference_after": 0.003936767578125
+      },
+      {
+        "y": -225.0,
+        "slope_discontinuity_before": 1.536956787109375,
+        "slope_discontinuity_after": 0.144561767578125,
+        "opposite_point_difference_before": 0.01629638671875,
+        "opposite_point_difference_after": 0.0004425048828125
+      },
+      {
+        "y": -224.0,
+        "slope_discontinuity_before": 1.5626983642578125,
+        "slope_discontinuity_after": 0.1461181640625,
+        "opposite_point_difference_before": 0.0166473388671875,
+        "opposite_point_difference_after": 0.0003662109375
+      },
+      {
+        "y": -223.0,
+        "slope_discontinuity_before": 1.5719451904296875,
+        "slope_discontinuity_after": 0.1468048095703125,
+        "opposite_point_difference_before": 0.016815185546875,
+        "opposite_point_difference_after": 0.000335693359375
+      },
+      {
+        "y": -222.0,
+        "slope_discontinuity_before": 1.5667572021484375,
+        "slope_discontinuity_after": 0.1457366943359375,
+        "opposite_point_difference_before": 0.016815185546875,
+        "opposite_point_difference_after": 0.000274658203125
+      },
+      {
+        "y": -221.0,
+        "slope_discontinuity_before": 1.552001953125,
+        "slope_discontinuity_after": 0.1436767578125,
+        "opposite_point_difference_before": 0.0167388916015625,
+        "opposite_point_difference_after": 0.000213623046875
+      },
+      {
+        "y": -220.0,
+        "slope_discontinuity_before": 1.53515625,
+        "slope_discontinuity_after": 0.141845703125,
+        "opposite_point_difference_before": 0.0166778564453125,
+        "opposite_point_difference_after": 0.0001678466796875
+      },
+      {
+        "y": -219.0,
+        "slope_discontinuity_before": 1.5185394287109375,
+        "slope_discontinuity_after": 0.1396026611328125,
+        "opposite_point_difference_before": 0.01641845703125,
+        "opposite_point_difference_after": 0.0001373291015625
+      },
+      {
+        "y": -218.0,
+        "slope_discontinuity_before": 1.5012664794921875,
+        "slope_discontinuity_after": 0.137298583984375,
+        "opposite_point_difference_before": 0.0163421630859375,
+        "opposite_point_difference_after": 6.103515625e-05
+      },
+      {
+        "y": -217.0,
+        "slope_discontinuity_before": 1.4832305908203125,
+        "slope_discontinuity_after": 0.1353302001953125,
+        "opposite_point_difference_before": 0.0161895751953125,
+        "opposite_point_difference_after": 9.1552734375e-05
+      },
+      {
+        "y": -216.0,
+        "slope_discontinuity_before": 1.4653167724609375,
+        "slope_discontinuity_after": 0.1329498291015625,
+        "opposite_point_difference_before": 0.0160369873046875,
+        "opposite_point_difference_after": 0.0
+      },
+      {
+        "y": -215.0,
+        "slope_discontinuity_before": 1.448272705078125,
+        "slope_discontinuity_after": 0.1306610107421875,
+        "opposite_point_difference_before": 0.01593017578125,
+        "opposite_point_difference_after": 9.1552734375e-05
+      },
+      {
+        "y": -214.0,
+        "slope_discontinuity_before": 1.43170166015625,
+        "slope_discontinuity_after": 0.128814697265625,
+        "opposite_point_difference_before": 0.01580810546875,
+        "opposite_point_difference_after": 9.1552734375e-05
+      },
+      {
+        "y": -213.0,
+        "slope_discontinuity_before": 1.4144744873046875,
+        "slope_discontinuity_after": 0.126434326171875,
+        "opposite_point_difference_before": 0.0156097412109375,
+        "opposite_point_difference_after": 0.000152587890625
+      },
+      {
+        "y": -212.0,
+        "slope_discontinuity_before": 1.397491455078125,
+        "slope_discontinuity_after": 0.1236572265625,
+        "opposite_point_difference_before": 0.015533447265625,
+        "opposite_point_difference_after": 0.000213623046875
+      },
+      {
+        "y": -211.0,
+        "slope_discontinuity_before": 1.382476806640625,
+        "slope_discontinuity_after": 0.119659423828125,
+        "opposite_point_difference_before": 0.0153961181640625,
+        "opposite_point_difference_after": 0.00018310546875
+      },
+      {
+        "y": -210.0,
+        "slope_discontinuity_before": 1.3673248291015625,
+        "slope_discontinuity_after": 0.111724853515625,
+        "opposite_point_difference_before": 0.0152587890625,
+        "opposite_point_difference_after": 0.0002288818359375
+      },
+      {
+        "y": -209.0,
+        "slope_discontinuity_before": 1.3454437255859375,
+        "slope_discontinuity_after": 0.1006622314453125,
+        "opposite_point_difference_before": 0.0151519775390625,
+        "opposite_point_difference_after": 0.000274658203125
+      },
+      {
+        "y": -208.0,
+        "slope_discontinuity_before": 1.3028411865234375,
+        "slope_discontinuity_after": 0.0807647705078125,
+        "opposite_point_difference_before": 0.014923095703125,
+        "opposite_point_difference_after": 0.00018310546875
+      },
+      {
+        "y": -207.0,
+        "slope_discontinuity_before": 1.2280426025390625,
+        "slope_discontinuity_after": 0.05474853515625,
+        "opposite_point_difference_before": 0.01409912109375,
+        "opposite_point_difference_after": 0.0001220703125
+      },
+      {
+        "y": -206.0,
+        "slope_discontinuity_before": 1.1244659423828125,
+        "slope_discontinuity_after": 0.0054168701171875,
+        "opposite_point_difference_before": 0.0132904052734375,
+        "opposite_point_difference_after": 6.103515625e-05
+      },
+      {
+        "y": -205.0,
+        "slope_discontinuity_before": 0.96661376953125,
+        "slope_discontinuity_after": 0.0041961669921875,
+        "opposite_point_difference_before": 0.0121917724609375,
+        "opposite_point_difference_after": 6.103515625e-05
+      },
+      {
+        "y": -204.0,
+        "slope_discontinuity_before": 0.7762451171875,
+        "slope_discontinuity_after": 0.03656005859375,
+        "opposite_point_difference_before": 0.0093231201171875,
+        "opposite_point_difference_after": 0.000244140625
+      },
+      {
+        "y": -203.0,
+        "slope_discontinuity_before": 0.60028076171875,
+        "slope_discontinuity_after": 0.0058746337890625,
+        "opposite_point_difference_before": 0.007659912109375,
+        "opposite_point_difference_after": 1.52587890625e-05
+      },
+      {
+        "y": -202.0,
+        "slope_discontinuity_before": 0.41357421875,
+        "slope_discontinuity_after": 0.059356689453125,
+        "opposite_point_difference_before": 0.0058441162109375,
+        "opposite_point_difference_after": 9.1552734375e-05
+      },
+      {
+        "y": -201.0,
+        "slope_discontinuity_before": 0.2480926513671875,
+        "slope_discontinuity_after": 0.0588836669921875,
+        "opposite_point_difference_before": 0.003021240234375,
+        "opposite_point_difference_after": 0.00030517578125
+      },
+      {
+        "y": -200.0,
+        "slope_discontinuity_before": 0.1923828125,
+        "slope_discontinuity_after": 0.0516204833984375,
+        "opposite_point_difference_before": 0.0019378662109375,
+        "opposite_point_difference_after": 0.000274658203125
+      },
+      {
+        "y": -199.0,
+        "slope_discontinuity_before": 0.286102294921875,
+        "slope_discontinuity_after": 0.04608154296875,
+        "opposite_point_difference_before": 0.0029296875,
+        "opposite_point_difference_after": 0.000244140625
+      },
+      {
+        "y": -198.0,
+        "slope_discontinuity_before": 0.266357421875,
+        "slope_discontinuity_after": 0.037109375,
+        "opposite_point_difference_before": 0.0058746337890625,
+        "opposite_point_difference_after": 0.0001068115234375
+      },
+      {
+        "y": -197.0,
+        "slope_discontinuity_before": 0.15850830078125,
+        "slope_discontinuity_after": 0.1619873046875,
+        "opposite_point_difference_before": 0.0035858154296875,
+        "opposite_point_difference_after": 0.0001068115234375
+      },
+      {
+        "y": -196.0,
+        "slope_discontinuity_before": 0.0660858154296875,
+        "slope_discontinuity_after": 0.0660858154296875,
+        "opposite_point_difference_before": 0.0007171630859375,
+        "opposite_point_difference_after": 0.0007171630859375
+      },
+      {
+        "y": -195.0,
+        "slope_discontinuity_before": 0.0113677978515625,
+        "slope_discontinuity_after": 0.0113677978515625,
+        "opposite_point_difference_before": 0.0,
+        "opposite_point_difference_after": 0.0
+      },
+      {
+        "y": -194.0,
+        "slope_discontinuity_before": 0.0003662109375,
+        "slope_discontinuity_after": 0.0003662109375,
+        "opposite_point_difference_before": 1.52587890625e-05,
+        "opposite_point_difference_after": 1.52587890625e-05
+      },
+      {
+        "y": -193.0,
+        "slope_discontinuity_before": 1.52587890625e-05,
+        "slope_discontinuity_after": 1.52587890625e-05,
+        "opposite_point_difference_before": 1.52587890625e-05,
+        "opposite_point_difference_after": 1.52587890625e-05
+      },
+      {
+        "y": -192.0,
+        "slope_discontinuity_before": 3.0517578125e-05,
+        "slope_discontinuity_after": 3.0517578125e-05,
+        "opposite_point_difference_before": 0.0,
+        "opposite_point_difference_after": 0.0
+      },
+      {
+        "y": -191.0,
+        "slope_discontinuity_before": 1.52587890625e-05,
+        "slope_discontinuity_after": 1.52587890625e-05,
+        "opposite_point_difference_before": 1.52587890625e-05,
+        "opposite_point_difference_after": 1.52587890625e-05
+      },
+      {
+        "y": -190.0,
+        "slope_discontinuity_before": 3.0517578125e-05,
+        "slope_discontinuity_after": 3.0517578125e-05,
+        "opposite_point_difference_before": 0.0,
+        "opposite_point_difference_after": 0.0
+      },
+      {
+        "y": -189.0,
+        "slope_discontinuity_before": 0.0,
+        "slope_discontinuity_after": 0.0,
+        "opposite_point_difference_before": 1.52587890625e-05,
+        "opposite_point_difference_after": 1.52587890625e-05
+      },
+      {
+        "y": -188.0,
+        "slope_discontinuity_before": 1.52587890625e-05,
+        "slope_discontinuity_after": 1.52587890625e-05,
+        "opposite_point_difference_before": 1.52587890625e-05,
+        "opposite_point_difference_after": 1.52587890625e-05
+      },
+      {
+        "y": -187.0,
+        "slope_discontinuity_before": 1.52587890625e-05,
+        "slope_discontinuity_after": 1.52587890625e-05,
+        "opposite_point_difference_before": 1.52587890625e-05,
+        "opposite_point_difference_after": 1.52587890625e-05
+      },
+      {
+        "y": -186.0,
+        "slope_discontinuity_before": 0.001220703125,
+        "slope_discontinuity_after": 0.001220703125,
+        "opposite_point_difference_before": 0.001251220703125,
+        "opposite_point_difference_after": 0.001251220703125
+      },
+      {
+        "y": -185.0,
+        "slope_discontinuity_before": 0.0380706787109375,
+        "slope_discontinuity_after": 0.0380706787109375,
+        "opposite_point_difference_before": 0.0005645751953125,
+        "opposite_point_difference_after": 0.0005645751953125
+      },
+      {
+        "y": -184.0,
+        "slope_discontinuity_before": 0.015045166015625,
+        "slope_discontinuity_after": 0.015045166015625,
+        "opposite_point_difference_before": 0.0002899169921875,
+        "opposite_point_difference_after": 0.0002899169921875
+      },
+      {
+        "y": -183.0,
+        "slope_discontinuity_before": 0.0099334716796875,
+        "slope_discontinuity_after": 0.0099334716796875,
+        "opposite_point_difference_before": 0.0001983642578125,
+        "opposite_point_difference_after": 0.0001983642578125
+      },
+      {
+        "y": -182.0,
+        "slope_discontinuity_before": 0.004730224609375,
+        "slope_discontinuity_after": 0.004730224609375,
+        "opposite_point_difference_before": 0.0001068115234375,
+        "opposite_point_difference_after": 0.0001068115234375
+      },
+      {
+        "y": -181.0,
+        "slope_discontinuity_before": 0.011871337890625,
+        "slope_discontinuity_after": 0.011871337890625,
+        "opposite_point_difference_before": 7.62939453125e-05,
+        "opposite_point_difference_after": 7.62939453125e-05
+      },
+      {
+        "y": -180.0,
+        "slope_discontinuity_before": 0.02880859375,
+        "slope_discontinuity_after": 0.0892333984375,
+        "opposite_point_difference_before": 0.0001373291015625,
+        "opposite_point_difference_after": 0.0001373291015625
+      },
+      {
+        "y": -179.0,
+        "slope_discontinuity_before": 0.3690948486328125,
+        "slope_discontinuity_after": 0.0828704833984375,
+        "opposite_point_difference_before": 0.0010833740234375,
+        "opposite_point_difference_after": 0.0002593994140625
+      },
+      {
+        "y": -178.0,
+        "slope_discontinuity_before": 0.623260498046875,
+        "slope_discontinuity_after": 0.08209228515625,
+        "opposite_point_difference_before": 0.004669189453125,
+        "opposite_point_difference_after": 0.0001983642578125
+      },
+      {
+        "y": -177.0,
+        "slope_discontinuity_before": 0.7125396728515625,
+        "slope_discontinuity_after": 0.0748138427734375,
+        "opposite_point_difference_before": 0.0087890625,
+        "opposite_point_difference_after": 0.0003814697265625
+      },
+      {
+        "y": -176.0,
+        "slope_discontinuity_before": 0.74017333984375,
+        "slope_discontinuity_after": 0.062103271484375,
+        "opposite_point_difference_before": 0.01165771484375,
+        "opposite_point_difference_after": 0.00018310546875
+      },
+      {
+        "y": -175.0,
+        "slope_discontinuity_before": 0.6847076416015625,
+        "slope_discontinuity_after": 0.696014404296875,
+        "opposite_point_difference_before": 0.011444091796875,
+        "opposite_point_difference_after": 0.0001373291015625
+      },
+      {
+        "y": -174.0,
+        "slope_discontinuity_before": 0.5714263916015625,
+        "slope_discontinuity_after": 0.5714263916015625,
+        "opposite_point_difference_before": 0.009796142578125,
+        "opposite_point_difference_after": 0.009796142578125
+      },
+      {
+        "y": -173.0,
+        "slope_discontinuity_before": 0.4577789306640625,
+        "slope_discontinuity_after": 0.4577789306640625,
+        "opposite_point_difference_before": 0.0082550048828125,
+        "opposite_point_difference_after": 0.0082550048828125
+      },
+      {
+        "y": -172.0,
+        "slope_discontinuity_before": 0.354583740234375,
+        "slope_discontinuity_after": 0.354583740234375,
+        "opposite_point_difference_before": 0.006134033203125,
+        "opposite_point_difference_after": 0.006134033203125
+      },
+      {
+        "y": -171.0,
+        "slope_discontinuity_before": 0.2625579833984375,
+        "slope_discontinuity_after": 0.2625579833984375,
+        "opposite_point_difference_before": 0.0042877197265625,
+        "opposite_point_difference_after": 0.0042877197265625
+      },
+      {
+        "y": -170.0,
+        "slope_discontinuity_before": 0.18597412109375,
+        "slope_discontinuity_after": 0.18597412109375,
+        "opposite_point_difference_before": 0.00323486328125,
+        "opposite_point_difference_after": 0.00323486328125
+      },
+      {
+        "y": -169.0,
+        "slope_discontinuity_before": 0.1279296875,
+        "slope_discontinuity_after": 0.1279296875,
+        "opposite_point_difference_before": 0.0019378662109375,
+        "opposite_point_difference_after": 0.0019378662109375
+      },
+      {
+        "y": -168.0,
+        "slope_discontinuity_before": 0.087066650390625,
+        "slope_discontinuity_after": 0.087066650390625,
+        "opposite_point_difference_before": 0.0012054443359375,
+        "opposite_point_difference_after": 0.0012054443359375
+      },
+      {
+        "y": -167.0,
+        "slope_discontinuity_before": 0.0589599609375,
+        "slope_discontinuity_after": 0.0589599609375,
+        "opposite_point_difference_before": 0.00079345703125,
+        "opposite_point_difference_after": 0.00079345703125
+      },
+      {
+        "y": -166.0,
+        "slope_discontinuity_before": 0.037445068359375,
+        "slope_discontinuity_after": 0.037445068359375,
+        "opposite_point_difference_before": 0.0003509521484375,
+        "opposite_point_difference_after": 0.0003509521484375
+      },
+      {
+        "y": -165.0,
+        "slope_discontinuity_before": 0.0813446044921875,
+        "slope_discontinuity_after": 0.0813446044921875,
+        "opposite_point_difference_before": 0.0006866455078125,
+        "opposite_point_difference_after": 0.0006866455078125
+      },
+      {
+        "y": -164.0,
+        "slope_discontinuity_before": 0.2249755859375,
+        "slope_discontinuity_after": 0.2249755859375,
+        "opposite_point_difference_before": 0.0015106201171875,
+        "opposite_point_difference_after": 0.0015106201171875
+      },
+      {
+        "y": -163.0,
+        "slope_discontinuity_before": 0.3525543212890625,
+        "slope_discontinuity_after": 0.3525543212890625,
+        "opposite_point_difference_before": 0.004486083984375,
+        "opposite_point_difference_after": 0.004486083984375
+      },
+      {
+        "y": -162.0,
+        "slope_discontinuity_before": 0.41143798828125,
+        "slope_discontinuity_after": 0.41143798828125,
+        "opposite_point_difference_before": 0.00628662109375,
+        "opposite_point_difference_after": 0.00628662109375
+      },
+      {
+        "y": -161.0,
+        "slope_discontinuity_before": 0.4502105712890625,
+        "slope_discontinuity_after": 0.4502105712890625,
+        "opposite_point_difference_before": 0.006805419921875,
+        "opposite_point_difference_after": 0.006805419921875
+      },
+      {
+        "y": -160.0,
+        "slope_discontinuity_before": 0.492401123046875,
+        "slope_discontinuity_after": 0.492401123046875,
+        "opposite_point_difference_before": 0.00762939453125,
+        "opposite_point_difference_after": 0.00762939453125
+      },
+      {
+        "y": -159.0,
+        "slope_discontinuity_before": 0.483795166015625,
+        "slope_discontinuity_after": 0.483795166015625,
+        "opposite_point_difference_before": 0.0074920654296875,
+        "opposite_point_difference_after": 0.0074920654296875
+      },
+      {
+        "y": -158.0,
+        "slope_discontinuity_before": 0.4085540771484375,
+        "slope_discontinuity_after": 0.4085540771484375,
+        "opposite_point_difference_before": 0.006378173828125,
+        "opposite_point_difference_after": 0.006378173828125
+      },
+      {
+        "y": -157.0,
+        "slope_discontinuity_before": 0.3387908935546875,
+        "slope_discontinuity_after": 0.3387908935546875,
+        "opposite_point_difference_before": 0.0049285888671875,
+        "opposite_point_difference_after": 0.0049285888671875
+      },
+      {
+        "y": -156.0,
+        "slope_discontinuity_before": 0.2754058837890625,
+        "slope_discontinuity_after": 0.2754058837890625,
+        "opposite_point_difference_before": 0.003570556640625,
+        "opposite_point_difference_after": 0.003570556640625
+      },
+      {
+        "y": -155.0,
+        "slope_discontinuity_before": 0.2225189208984375,
+        "slope_discontinuity_after": 0.2225189208984375,
+        "opposite_point_difference_before": 0.0027923583984375,
+        "opposite_point_difference_after": 0.0027923583984375
+      },
+      {
+        "y": -154.0,
+        "slope_discontinuity_before": 0.1743011474609375,
+        "slope_discontinuity_after": 0.1743011474609375,
+        "opposite_point_difference_before": 0.0016937255859375,
+        "opposite_point_difference_after": 0.0016937255859375
+      },
+      {
+        "y": -153.0,
+        "slope_discontinuity_before": 0.1273345947265625,
+        "slope_discontinuity_after": 0.1273345947265625,
+        "opposite_point_difference_before": 0.0007476806640625,
+        "opposite_point_difference_after": 0.0007476806640625
+      },
+      {
+        "y": -152.0,
+        "slope_discontinuity_before": 0.0941314697265625,
+        "slope_discontinuity_after": 0.0941314697265625,
+        "opposite_point_difference_before": 0.000152587890625,
+        "opposite_point_difference_after": 0.000152587890625
+      },
+      {
+        "y": -151.0,
+        "slope_discontinuity_before": 0.0926666259765625,
+        "slope_discontinuity_after": 0.0926666259765625,
+        "opposite_point_difference_before": 0.000579833984375,
+        "opposite_point_difference_after": 0.000579833984375
+      },
+      {
+        "y": -150.0,
+        "slope_discontinuity_before": 0.1079559326171875,
+        "slope_discontinuity_after": 0.1079559326171875,
+        "opposite_point_difference_before": 0.000732421875,
+        "opposite_point_difference_after": 0.000732421875
+      },
+      {
+        "y": -149.0,
+        "slope_discontinuity_before": 0.11968994140625,
+        "slope_discontinuity_after": 0.11968994140625,
+        "opposite_point_difference_before": 0.0008697509765625,
+        "opposite_point_difference_after": 0.0008697509765625
+      },
+      {
+        "y": -148.0,
+        "slope_discontinuity_before": 0.131103515625,
+        "slope_discontinuity_after": 0.131103515625,
+        "opposite_point_difference_before": 0.0010528564453125,
+        "opposite_point_difference_after": 0.0010528564453125
+      },
+      {
+        "y": -147.0,
+        "slope_discontinuity_before": 0.2198333740234375,
+        "slope_discontinuity_after": 0.2198333740234375,
+        "opposite_point_difference_before": 0.0013427734375,
+        "opposite_point_difference_after": 0.0013427734375
+      },
+      {
+        "y": -146.0,
+        "slope_discontinuity_before": 0.5376129150390625,
+        "slope_discontinuity_after": 0.146514892578125,
+        "opposite_point_difference_before": 0.0022735595703125,
+        "opposite_point_difference_after": 0.0022735595703125
+      },
+      {
+        "y": -145.0,
+        "slope_discontinuity_before": 0.6196441650390625,
+        "slope_discontinuity_after": 0.09521484375,
+        "opposite_point_difference_before": 0.0040283203125,
+        "opposite_point_difference_after": 0.0005035400390625
+      },
+      {
+        "y": -144.0,
+        "slope_discontinuity_before": 0.490478515625,
+        "slope_discontinuity_after": 0.0660552978515625,
+        "opposite_point_difference_before": 0.005218505859375,
+        "opposite_point_difference_after": 0.00048828125
+      },
+      {
+        "y": -143.0,
+        "slope_discontinuity_before": 0.4104766845703125,
+        "slope_discontinuity_after": 0.41522216796875,
+        "opposite_point_difference_before": 0.0042877197265625,
+        "opposite_point_difference_after": 0.000457763671875
+      },
+      {
+        "y": -142.0,
+        "slope_discontinuity_before": 0.3409881591796875,
+        "slope_discontinuity_after": 0.3409881591796875,
+        "opposite_point_difference_before": 0.0029296875,
+        "opposite_point_difference_after": 0.0029296875
+      },
+      {
+        "y": -141.0,
+        "slope_discontinuity_before": 0.31549072265625,
+        "slope_discontinuity_after": 0.31549072265625,
+        "opposite_point_difference_before": 0.0023040771484375,
+        "opposite_point_difference_after": 0.0023040771484375
+      },
+      {
+        "y": -140.0,
+        "slope_discontinuity_before": 0.3128509521484375,
+        "slope_discontinuity_after": 0.3128509521484375,
+        "opposite_point_difference_before": 0.00201416015625,
+        "opposite_point_difference_after": 0.00201416015625
+      },
+      {
+        "y": -139.0,
+        "slope_discontinuity_before": 0.365966796875,
+        "slope_discontinuity_after": 0.09619140625,
+        "opposite_point_difference_before": 0.00201416015625,
+        "opposite_point_difference_after": 0.00201416015625
+      },
+      {
+        "y": -138.0,
+        "slope_discontinuity_before": 0.4842987060546875,
+        "slope_discontinuity_after": 0.10821533203125,
+        "opposite_point_difference_before": 0.002166748046875,
+        "opposite_point_difference_after": 0.0004730224609375
+      },
+      {
+        "y": -137.0,
+        "slope_discontinuity_before": 0.604644775390625,
+        "slope_discontinuity_after": 0.1167449951171875,
+        "opposite_point_difference_before": 0.0029449462890625,
+        "opposite_point_difference_after": 0.00048828125
+      },
+      {
+        "y": -136.0,
+        "slope_discontinuity_before": 0.64239501953125,
+        "slope_discontinuity_after": 0.105133056640625,
+        "opposite_point_difference_before": 0.0059814453125,
+        "opposite_point_difference_after": 0.000457763671875
+      },
+      {
+        "y": -135.0,
+        "slope_discontinuity_before": 0.592254638671875,
+        "slope_discontinuity_after": 0.0839691162109375,
+        "opposite_point_difference_before": 0.005340576171875,
+        "opposite_point_difference_after": 0.00048828125
+      },
+      {
+        "y": -134.0,
+        "slope_discontinuity_before": 0.5516357421875,
+        "slope_discontinuity_after": 0.0709381103515625,
+        "opposite_point_difference_before": 0.0051422119140625,
+        "opposite_point_difference_after": 0.00048828125
+      },
+      {
+        "y": -133.0,
+        "slope_discontinuity_before": 0.481689453125,
+        "slope_discontinuity_after": 0.056732177734375,
+        "opposite_point_difference_before": 0.0049285888671875,
+        "opposite_point_difference_after": 0.0003509521484375
+      },
+      {
+        "y": -132.0,
+        "slope_discontinuity_before": 0.39697265625,
+        "slope_discontinuity_after": 0.0536956787109375,
+        "opposite_point_difference_before": 0.0036468505859375,
+        "opposite_point_difference_after": 0.00048828125
+      },
+      {
+        "y": -131.0,
+        "slope_discontinuity_before": 0.3305511474609375,
+        "slope_discontinuity_after": 0.0518035888671875,
+        "opposite_point_difference_before": 0.0030364990234375,
+        "opposite_point_difference_after": 0.0004730224609375
+      },
+      {
+        "y": -130.0,
+        "slope_discontinuity_before": 0.271087646484375,
+        "slope_discontinuity_after": 0.050567626953125,
+        "opposite_point_difference_before": 0.00250244140625,
+        "opposite_point_difference_after": 0.000457763671875
+      },
+      {
+        "y": -129.0,
+        "slope_discontinuity_before": 0.22900390625,
+        "slope_discontinuity_after": 0.049102783203125,
+        "opposite_point_difference_before": 0.0016632080078125,
+        "opposite_point_difference_after": 0.0004425048828125
+      },
+      {
+        "y": -128.0,
+        "slope_discontinuity_before": 0.238037109375,
+        "slope_discontinuity_after": 0.0471038818359375,
+        "opposite_point_difference_before": 0.001373291015625,
+        "opposite_point_difference_after": 0.00042724609375
+      },
+      {
+        "y": -127.0,
+        "slope_discontinuity_before": 0.294525146484375,
+        "slope_discontinuity_after": 0.0449676513671875,
+        "opposite_point_difference_before": 0.0018157958984375,
+        "opposite_point_difference_after": 0.0004119873046875
+      },
+      {
+        "y": -126.0,
+        "slope_discontinuity_before": 0.33282470703125,
+        "slope_discontinuity_after": 0.0431671142578125,
+        "opposite_point_difference_before": 0.0036468505859375,
+        "opposite_point_difference_after": 0.000396728515625
+      },
+      {
+        "y": -125.0,
+        "slope_discontinuity_before": 0.3300323486328125,
+        "slope_discontinuity_after": 0.03668212890625,
+        "opposite_point_difference_before": 0.0043792724609375,
+        "opposite_point_difference_after": 0.0002899169921875
+      },
+      {
+        "y": -124.0,
+        "slope_discontinuity_before": 0.2854461669921875,
+        "slope_discontinuity_after": 0.2898712158203125,
+        "opposite_point_difference_before": 0.004119873046875,
+        "opposite_point_difference_after": 0.00030517578125
+      },
+      {
+        "y": -123.0,
+        "slope_discontinuity_before": 0.2292633056640625,
+        "slope_discontinuity_after": 0.22930908203125,
+        "opposite_point_difference_before": 0.0031280517578125,
+        "opposite_point_difference_after": 0.003082275390625
+      },
+      {
+        "y": -122.0,
+        "slope_discontinuity_before": 0.1687164306640625,
+        "slope_discontinuity_after": 0.1687164306640625,
+        "opposite_point_difference_before": 0.0023956298828125,
+        "opposite_point_difference_after": 0.0023956298828125
+      },
+      {
+        "y": -121.0,
+        "slope_discontinuity_before": 0.1110382080078125,
+        "slope_discontinuity_after": 0.1110382080078125,
+        "opposite_point_difference_before": 0.0013885498046875,
+        "opposite_point_difference_after": 0.0013885498046875
+      },
+      {
+        "y": -120.0,
+        "slope_discontinuity_before": 0.0595550537109375,
+        "slope_discontinuity_after": 0.0595550537109375,
+        "opposite_point_difference_before": 0.000396728515625,
+        "opposite_point_difference_after": 0.000396728515625
+      },
+      {
+        "y": -119.0,
+        "slope_discontinuity_before": 0.0054168701171875,
+        "slope_discontinuity_after": 0.0054168701171875,
+        "opposite_point_difference_before": 0.0002593994140625,
+        "opposite_point_difference_after": 0.0002593994140625
+      },
+      {
+        "y": -118.0,
+        "slope_discontinuity_before": 0.0411529541015625,
+        "slope_discontinuity_after": 0.0411529541015625,
+        "opposite_point_difference_before": 0.0011444091796875,
+        "opposite_point_difference_after": 0.0011444091796875
+      },
+      {
+        "y": -117.0,
+        "slope_discontinuity_before": 0.0594635009765625,
+        "slope_discontinuity_after": 0.0391845703125,
+        "opposite_point_difference_before": 0.0017242431640625,
+        "opposite_point_difference_after": 0.0017242431640625
+      },
+      {
+        "y": -116.0,
+        "slope_discontinuity_before": 0.021026611328125,
+        "slope_discontinuity_after": 0.0232391357421875,
+        "opposite_point_difference_before": 0.0013275146484375,
+        "opposite_point_difference_after": 0.0013275146484375
+      },
+      {
+        "y": -115.0,
+        "slope_discontinuity_before": 0.0388946533203125,
+        "slope_discontinuity_after": 0.021209716796875,
+        "opposite_point_difference_before": 0.0002593994140625,
+        "opposite_point_difference_after": 0.0001220703125
+      },
+      {
+        "y": -114.0,
+        "slope_discontinuity_before": 0.081817626953125,
+        "slope_discontinuity_after": 0.01861572265625,
+        "opposite_point_difference_before": 0.0003204345703125,
+        "opposite_point_difference_after": 4.57763671875e-05
+      },
+      {
+        "y": -113.0,
+        "slope_discontinuity_before": 0.101226806640625,
+        "slope_discontinuity_after": 0.0047454833984375,
+        "opposite_point_difference_before": 0.0008087158203125,
+        "opposite_point_difference_after": 6.103515625e-05
+      },
+      {
+        "y": -112.0,
+        "slope_discontinuity_before": 0.1136627197265625,
+        "slope_discontinuity_after": 0.0037841796875,
+        "opposite_point_difference_before": 0.0009918212890625,
+        "opposite_point_difference_after": 3.0517578125e-05
+      },
+      {
+        "y": -111.0,
+        "slope_discontinuity_before": 0.1217498779296875,
+        "slope_discontinuity_after": 0.002685546875,
+        "opposite_point_difference_before": 0.0012359619140625,
+        "opposite_point_difference_after": 4.57763671875e-05
+      },
+      {
+        "y": -110.0,
+        "slope_discontinuity_before": 0.1167144775390625,
+        "slope_discontinuity_after": 0.002044677734375,
+        "opposite_point_difference_before": 0.00128173828125,
+        "opposite_point_difference_after": 1.52587890625e-05
+      },
+      {
+        "y": -109.0,
+        "slope_discontinuity_before": 0.1035614013671875,
+        "slope_discontinuity_after": 0.0095062255859375,
+        "opposite_point_difference_before": 0.0011444091796875,
+        "opposite_point_difference_after": 0.0001220703125
+      },
+      {
+        "y": -108.0,
+        "slope_discontinuity_before": 0.08404541015625,
+        "slope_discontinuity_after": 0.01373291015625,
+        "opposite_point_difference_before": 0.0010528564453125,
+        "opposite_point_difference_after": 6.103515625e-05
+      },
+      {
+        "y": -107.0,
+        "slope_discontinuity_before": 0.066131591796875,
+        "slope_discontinuity_after": 0.01129150390625,
+        "opposite_point_difference_before": 0.00091552734375,
+        "opposite_point_difference_after": 4.57763671875e-05
+      },
+      {
+        "y": -106.0,
+        "slope_discontinuity_before": 0.0452423095703125,
+        "slope_discontinuity_after": 0.0084075927734375,
+        "opposite_point_difference_before": 0.0007476806640625,
+        "opposite_point_difference_after": 4.57763671875e-05
+      },
+      {
+        "y": -105.0,
+        "slope_discontinuity_before": 0.0264434814453125,
+        "slope_discontinuity_after": 0.006256103515625,
+        "opposite_point_difference_before": 0.000457763671875,
+        "opposite_point_difference_after": 3.0517578125e-05
+      },
+      {
+        "y": -104.0,
+        "slope_discontinuity_before": 0.0139923095703125,
+        "slope_discontinuity_after": 0.0047760009765625,
+        "opposite_point_difference_before": 0.000335693359375,
+        "opposite_point_difference_after": 3.0517578125e-05
+      },
+      {
+        "y": -103.0,
+        "slope_discontinuity_before": 0.005523681640625,
+        "slope_discontinuity_after": 0.0032501220703125,
+        "opposite_point_difference_before": 0.000213623046875,
+        "opposite_point_difference_after": 1.52587890625e-05
+      },
+      {
+        "y": -102.0,
+        "slope_discontinuity_before": 0.00390625,
+        "slope_discontinuity_after": 0.001922607421875,
+        "opposite_point_difference_before": 0.0001373291015625,
+        "opposite_point_difference_after": 1.52587890625e-05
+      },
+      {
+        "y": -101.0,
+        "slope_discontinuity_before": 0.01397705078125,
+        "slope_discontinuity_after": 0.0010986328125,
+        "opposite_point_difference_before": 0.00018310546875,
+        "opposite_point_difference_after": 1.52587890625e-05
+      },
+      {
+        "y": -100.0,
+        "slope_discontinuity_before": 0.0336761474609375,
+        "slope_discontinuity_after": 0.0006103515625,
+        "opposite_point_difference_before": 0.00030517578125,
+        "opposite_point_difference_after": 0.0
+      },
+      {
+        "y": -99.0,
+        "slope_discontinuity_before": 0.0377197265625,
+        "slope_discontinuity_after": 0.0001678466796875,
+        "opposite_point_difference_before": 0.0006103515625,
+        "opposite_point_difference_after": 0.0
+      }
+    ]
+  },
+  "protected_signatures": {
+    "B67 | WALKABLE CANDIDATE | 609043799": {
+      "geometry_sha256": "0f6413ee92d84b2154636b92d83ea2562a905256936e0542e5fd96e0b561d959",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.38999998569488525,
+            0.3700000047683716,
+            0.3199999928474426,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.5,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 4,
+      "polygons": 2
+    },
+    "MVP | terreno corrigido | colisão estática": {
+      "geometry_sha256": "5cb3a4c52d80a699034b236142c67c0d0ab8a57c2bd501cd72409a716db2530b",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.2965762615203857
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.7371039390563965
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -3.5643310546875
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.30000001192092896,
+            1.0
+          ],
+          "base": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.30000001192092896,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.6800000071525574,
+            0.6399999856948853,
+            0.550000011920929,
+            1.0
+          ],
+          "base": [
+            0.6800000071525574,
+            0.6399999856948853,
+            0.550000011920929,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.12999999523162842,
+            0.14000000059604645,
+            0.15000000596046448,
+            1.0
+          ],
+          "base": [
+            0.12999999523162842,
+            0.14000000059604645,
+            0.15000000596046448,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.6000000238418579,
+            0.5699999928474426,
+            0.49000000953674316,
+            1.0
+          ],
+          "base": [
+            0.6000000238418579,
+            0.5699999928474426,
+            0.49000000953674316,
+            1.0
+          ],
+          "roughness": 0.8500000238418579,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.5199999809265137,
+            0.49000000953674316,
+            0.4300000071525574,
+            1.0
+          ],
+          "base": [
+            0.5199999809265137,
+            0.49000000953674316,
+            0.4300000071525574,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.3100000023841858,
+            0.28999999165534973,
+            0.2549999952316284,
+            1.0
+          ],
+          "base": [
+            0.3100000023841858,
+            0.28999999165534973,
+            0.2549999952316284,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.3799999952316284,
+            0.3700000047683716,
+            0.33000001311302185,
+            1.0
+          ],
+          "base": [
+            0.3799999952316284,
+            0.3700000047683716,
+            0.33000001311302185,
+            1.0
+          ],
+          "roughness": 0.949999988079071,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.6200000047683716,
+            0.6000000238418579,
+            0.5299999713897705,
+            1.0
+          ],
+          "base": [
+            0.6200000047683716,
+            0.6000000238418579,
+            0.5299999713897705,
+            1.0
+          ],
+          "roughness": 0.7200000286102295,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.3199999928474426,
+            0.3100000023841858,
+            0.27000001072883606,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.9200000166893005,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.17000000178813934,
+            0.23000000417232513,
+            0.09000000357627869,
+            1.0
+          ],
+          "base": [
+            0.17000000178813934,
+            0.23000000417232513,
+            0.09000000357627869,
+            1.0
+          ],
+          "roughness": 0.8799999952316284,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 525121,
+      "polygons": 1030750
+    },
+    "B63 | VISUAL | canteiro OSM 1321718836": {
+      "geometry_sha256": "9aa3691457cb8b235cca889003f51cf324129a2d05b89e7f20b3ceea9d125d26",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.07500000298023224,
+            0.15000000596046448,
+            0.041999999433755875,
+            1.0
+          ],
+          "base": [
+            0.07500000298023224,
+            0.15000000596046448,
+            0.041999999433755875,
+            1.0
+          ],
+          "roughness": 0.949999988079071,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 206,
+      "polygons": 404
+    },
+    "B68 | VISUAL | encontro terrestre | 609043801": {
+      "geometry_sha256": "c3be8bc0c5fc6630977948be7677aa727aed4c645aaaffcb7219ae1f40b4dab5",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.38999998569488525,
+            0.3700000047683716,
+            0.3199999928474426,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.5,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 90,
+      "polygons": 140
+    },
+    "B57 | PIER VISUAL | 1426173140": {
+      "geometry_sha256": "fb518d50641e84e9e6153781a88a7b6d568af4ab7b0856bbb0cb07ea11fe2d3b",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.38999998569488525,
+            0.3700000047683716,
+            0.3199999928474426,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.5,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 14,
+      "polygons": 9
+    },
+    "B68 | WALKABLE CANDIDATE | encontro terrestre | 609043801": {
+      "geometry_sha256": "2816ab337815aed6213cfb39e9b576ea937b82f784136e6f4ee7ad3f8008d0a0",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.38999998569488525,
+            0.3700000047683716,
+            0.3199999928474426,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.5,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 45,
+      "polygons": 52
+    },
+    "B63 | NAV | 1426173325": {
+      "geometry_sha256": "8ce3be36f9b74cd57b914441a88274acaf984f348d0075c273764a5b1a6ce8f4",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [],
+      "type": "CURVE",
+      "vertices": null,
+      "polygons": null
+    },
+    "B63 | NAV | 1426173327": {
+      "geometry_sha256": "63b41e094afe2a4788458a3e9a7272caefc4b51280a2f7b4c9a9359689244f9b",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [],
+      "type": "CURVE",
+      "vertices": null,
+      "polygons": null
+    },
+    "B63 | VISUAL | canteiro OSM 565958078": {
+      "geometry_sha256": "718ea95db95f067d7e04ce3e02ab43fef3ef8464640863a457a8859d5a7e04d1",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.07500000298023224,
+            0.15000000596046448,
+            0.041999999433755875,
+            1.0
+          ],
+          "base": [
+            0.07500000298023224,
+            0.15000000596046448,
+            0.041999999433755875,
+            1.0
+          ],
+          "roughness": 0.949999988079071,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 20,
+      "polygons": 17
+    },
+    "B63 | VISUAL | canteiro OSM 285592034": {
+      "geometry_sha256": "b325969aaa0cb7fa825761de9a3f8180dcb16e5045befa856f2d49db43e4c95b",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.07500000298023224,
+            0.15000000596046448,
+            0.041999999433755875,
+            1.0
+          ],
+          "base": [
+            0.07500000298023224,
+            0.15000000596046448,
+            0.041999999433755875,
+            1.0
+          ],
+          "roughness": 0.949999988079071,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 1468,
+      "polygons": 2914
+    },
+    "B67 | COLLISION CANDIDATE | PIER | 609043801": {
+      "geometry_sha256": "b8a41f461e864d5d868ab84ad2593cee37bc02e6d51f2c1f7694961d35af85d3",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.38999998569488525,
+            0.3700000047683716,
+            0.3199999928474426,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.5,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 16,
+      "polygons": 14
+    },
+    "B63 | VISUAL | canteiro OSM 1321718838": {
+      "geometry_sha256": "27af51bba58d17543cb3bb4073c63dd0b696b003135437552651d73714dc4672",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.07500000298023224,
+            0.15000000596046448,
+            0.041999999433755875,
+            1.0
+          ],
+          "base": [
+            0.07500000298023224,
+            0.15000000596046448,
+            0.041999999433755875,
+            1.0
+          ],
+          "roughness": 0.949999988079071,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 48,
+      "polygons": 88
+    },
+    "B56 | COLLISION | PIER | 1426173139": {
+      "geometry_sha256": "d1ca18530d4d7d663ca47fe24b0a67cd3be41efea8bd5f3cb1fd152c85b9327f",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.33000001311302185,
+            0.36000001430511475,
+            0.3799999952316284,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.5,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 5,
+      "polygons": 1
+    },
+    "B63 | VISUAL | meios-fios das vias existentes": {
+      "geometry_sha256": "fa654d0ec6355e7965eb0c41db8176593ebfd509571e8a88b1bfd5e5f4e820a8",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.47999998927116394,
+            0.46000000834465027,
+            0.4099999964237213,
+            1.0
+          ],
+          "base": [
+            0.47999998927116394,
+            0.46000000834465027,
+            0.4099999964237213,
+            1.0
+          ],
+          "roughness": 0.8600000143051147,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 26685,
+      "polygons": 25662
+    },
+    "B67 | SOURCE AXIS WIDTH UNKNOWN | 1321555661": {
+      "geometry_sha256": "b4722a61cd6e110e83f89e998dee663557cbd909a588c5b581232b657fd0f28a",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [],
+      "type": "CURVE",
+      "vertices": null,
+      "polygons": null
+    },
+    "B67 | SOURCE AXIS WIDTH UNKNOWN | 1426173324": {
+      "geometry_sha256": "c503491dd819ebe5f152f6154396d433fbc9b9131550617e7fdb8b3524593b97",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [],
+      "type": "CURVE",
+      "vertices": null,
+      "polygons": null
+    },
+    "B67 | COLLISION CANDIDATE | PIER | 609043799": {
+      "geometry_sha256": "0f6413ee92d84b2154636b92d83ea2562a905256936e0542e5fd96e0b561d959",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.38999998569488525,
+            0.3700000047683716,
+            0.3199999928474426,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.5,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 4,
+      "polygons": 2
+    },
+    "BAÍA DE TODOS-OS-SANTOS | superfície e recorte costeiro": {
+      "geometry_sha256": "efa0c69bbacfb617da5e1440747a7ca2d284007b5113dca645264043dc2e8156",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.009999999776482582,
+            0.10999999940395355,
+            0.15000000596046448,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.1599999964237213,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 123,
+      "polygons": 120
+    },
+    "B63 | NAV | 1426173326": {
+      "geometry_sha256": "bf87d97a3aa8df42e0cfe404afc72a5a5746ea413d40ff39efb78c679fa99759",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [],
+      "type": "CURVE",
+      "vertices": null,
+      "polygons": null
+    },
+    "B67 | WALKABLE CANDIDATE | 609043801": {
+      "geometry_sha256": "b8a41f461e864d5d868ab84ad2593cee37bc02e6d51f2c1f7694961d35af85d3",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.38999998569488525,
+            0.3700000047683716,
+            0.3199999928474426,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.5,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 16,
+      "polygons": 14
+    },
+    "B57 | PIER VISUAL | 1426173139": {
+      "geometry_sha256": "7e7bee5e3874ddf02373743e56c05c54115584e0979287818e69cbe30b40c65a",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.38999998569488525,
+            0.3700000047683716,
+            0.3199999928474426,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.5,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 10,
+      "polygons": 7
+    },
+    "B67 | SOURCE AXIS WIDTH UNKNOWN | 1321717133": {
+      "geometry_sha256": "2ff987e54719b982105f5f24825f08d9d989967845f7dc4788157f42186ef07f",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [],
+      "type": "CURVE",
+      "vertices": null,
+      "polygons": null
+    },
+    "B68 | COLLISION CANDIDATE | encontro terrestre | 609043801": {
+      "geometry_sha256": "c3be8bc0c5fc6630977948be7677aa727aed4c645aaaffcb7219ae1f40b4dab5",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.38999998569488525,
+            0.3700000047683716,
+            0.3199999928474426,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.5,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 90,
+      "polygons": 140
+    },
+    "B67 | REFERENCE PIER | 609043801": {
+      "geometry_sha256": "b8a41f461e864d5d868ab84ad2593cee37bc02e6d51f2c1f7694961d35af85d3",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.38999998569488525,
+            0.3700000047683716,
+            0.3199999928474426,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.5,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 16,
+      "polygons": 14
+    },
+    "B63 | VISUAL | canteiro OSM 1232803924": {
+      "geometry_sha256": "b22f5952a79a6a7c2d5b0eb189ebd099a76539a5fc1f09de9333f7b50038220a",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.07500000298023224,
+            0.15000000596046448,
+            0.041999999433755875,
+            1.0
+          ],
+          "base": [
+            0.07500000298023224,
+            0.15000000596046448,
+            0.041999999433755875,
+            1.0
+          ],
+          "roughness": 0.949999988079071,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 330,
+      "polygons": 651
+    },
+    "B67 | SOURCE AXIS WIDTH UNKNOWN | 217677378": {
+      "geometry_sha256": "9096e17f470f9d6c3de8f84dbc4a0f223999b0bf2e71e9c6fe889dba08490903",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [],
+      "type": "CURVE",
+      "vertices": null,
+      "polygons": null
+    },
+    "B68 | COLLISION CANDIDATE | encontro terrestre | 609043799": {
+      "geometry_sha256": "f3395ef7e2ed1e05a2c19545062c8f8083fda763e865c672648aed228377b988",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.38999998569488525,
+            0.3700000047683716,
+            0.3199999928474426,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.5,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 170,
+      "polygons": 283
+    },
+    "B56 | COLLISION | PIER | 1426173140": {
+      "geometry_sha256": "0ae864b8a2ce595522444e5da7374e55a1551c872f365145ec69657258b3b8b2",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.33000001311302185,
+            0.36000001430511475,
+            0.3799999952316284,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.5,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 7,
+      "polygons": 1
+    },
+    "B63 | VISUAL | canteiro OSM 1321519023": {
+      "geometry_sha256": "55396c24d675038c861401cacc59b1ce33e0edcf6049d0f2119a8241c383533e",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.07500000298023224,
+            0.15000000596046448,
+            0.041999999433755875,
+            1.0
+          ],
+          "base": [
+            0.07500000298023224,
+            0.15000000596046448,
+            0.041999999433755875,
+            1.0
+          ],
+          "roughness": 0.949999988079071,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 64,
+      "polygons": 120
+    },
+    "B68 | WALKABLE CANDIDATE | encontro terrestre | 609043799": {
+      "geometry_sha256": "8e750ffea2b6e587ee274b51446b1e1a942468e0aadf62fdcae0807327f40a91",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.38999998569488525,
+            0.3700000047683716,
+            0.3199999928474426,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.5,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 85,
+      "polygons": 115
+    },
+    "CAIS | contenção costeira alinhada à linha de costa": {
+      "geometry_sha256": "d2e9e4cb1fb5aa61c22e39e7f03d62fb6d1ee8286da7d8ea5c7a6d90e61bc940",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.38999998569488525,
+            0.3700000047683716,
+            0.3199999928474426,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.5,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 2602,
+      "polygons": 1271
+    },
+    "B63 | VISUAL | piso contínuo até o cais": {
+      "geometry_sha256": "b3f016938ea7b82956ffaec6d7bb982de053f54d558452ceaa85f7c13eb6ef67",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.5199999809265137,
+            0.49000000953674316,
+            0.4300000071525574,
+            1.0
+          ],
+          "base": [
+            0.5199999809265137,
+            0.49000000953674316,
+            0.4300000071525574,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.12999999523162842,
+            0.14000000059604645,
+            0.15000000596046448,
+            1.0
+          ],
+          "base": [
+            0.12999999523162842,
+            0.14000000059604645,
+            0.15000000596046448,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.3100000023841858,
+            0.28999999165534973,
+            0.2549999952316284,
+            1.0
+          ],
+          "base": [
+            0.3100000023841858,
+            0.28999999165534973,
+            0.2549999952316284,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 1654,
+      "polygons": 2827
+    },
+    "B63 | VISUAL | canteiro OSM 1320939604": {
+      "geometry_sha256": "79d36580dd66f35a0a566f19b0162050f714c37d4522bf07ef89f1b05efbfdd4",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.07500000298023224,
+            0.15000000596046448,
+            0.041999999433755875,
+            1.0
+          ],
+          "base": [
+            0.07500000298023224,
+            0.15000000596046448,
+            0.041999999433755875,
+            1.0
+          ],
+          "roughness": 0.949999988079071,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 260,
+      "polygons": 486
+    },
+    "B67 | REFERENCE PIER | 609043799": {
+      "geometry_sha256": "0f6413ee92d84b2154636b92d83ea2562a905256936e0542e5fd96e0b561d959",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.38999998569488525,
+            0.3700000047683716,
+            0.3199999928474426,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.5,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 4,
+      "polygons": 2
+    },
+    "B63 | VISUAL | canteiro OSM 1321718837": {
+      "geometry_sha256": "0e6fa95ada33580c1a4fce6aad3d26699710673d576fba811d20fd110d51970b",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.07500000298023224,
+            0.15000000596046448,
+            0.041999999433755875,
+            1.0
+          ],
+          "base": [
+            0.07500000298023224,
+            0.15000000596046448,
+            0.041999999433755875,
+            1.0
+          ],
+          "roughness": 0.949999988079071,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 44,
+      "polygons": 80
+    },
+    "B67 | PIER VISUAL | 609043799": {
+      "geometry_sha256": "5729e0fa6e25a9ad3e1c114f1429dfeae04e3f4fe06c23072338ed1ee587823c",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.38999998569488525,
+            0.3700000047683716,
+            0.3199999928474426,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.5,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 8,
+      "polygons": 12
+    },
+    "B68 | VISUAL | encontro terrestre | 609043799": {
+      "geometry_sha256": "f3395ef7e2ed1e05a2c19545062c8f8083fda763e865c672648aed228377b988",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.38999998569488525,
+            0.3700000047683716,
+            0.3199999928474426,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.5,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 170,
+      "polygons": 283
+    },
+    "B67 | PIER VISUAL | 609043801": {
+      "geometry_sha256": "ef1b514263b23057a42bc484734f9c604ebd81b73a1e1b133f5f5d5f61ff0906",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.38999998569488525,
+            0.3700000047683716,
+            0.3199999928474426,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.5,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 32,
+      "polygons": 60
+    },
+    "B63 | VISUAL | canteiro OSM 1265894224": {
+      "geometry_sha256": "a735a8f58f2020dcd87229c7d743b308ee5efa98b0184718fe46a3bc52471065",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.07500000298023224,
+            0.15000000596046448,
+            0.041999999433755875,
+            1.0
+          ],
+          "base": [
+            0.07500000298023224,
+            0.15000000596046448,
+            0.041999999433755875,
+            1.0
+          ],
+          "roughness": 0.949999988079071,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 240,
+      "polygons": 454
+    },
+    "B64 | COLLISION | cais e borda marítima": {
+      "geometry_sha256": "d2e9e4cb1fb5aa61c22e39e7f03d62fb6d1ee8286da7d8ea5c7a6d90e61bc940",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.38999998569488525,
+            0.3700000047683716,
+            0.3199999928474426,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.5,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 2602,
+      "polygons": 1271
+    }
+  },
+  "protected_changes": [],
+  "modified_after": {
+    "geometry_sha256": "de1e88544be94e6691da09e73d6a52ef5dc200e9437a49a8cf6f1594bb0002c1",
+    "transform": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "materials": [
+      {
+        "diffuse": [
+          0.3799999952316284,
+          0.4300000071525574,
+          0.30000001192092896,
+          1.0
+        ],
+        "base": [
+          0.3799999952316284,
+          0.4300000071525574,
+          0.30000001192092896,
+          1.0
+        ],
+        "roughness": 0.8999999761581421,
+        "metallic": 0.0
+      },
+      {
+        "diffuse": [
+          0.3199999928474426,
+          0.30000001192092896,
+          0.23999999463558197,
+          1.0
+        ],
+        "base": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
+          1.0
+        ],
+        "roughness": 0.5,
+        "metallic": 0.0
+      },
+      {
+        "diffuse": [
+          0.3199999928474426,
+          0.3100000023841858,
+          0.27000001072883606,
+          1.0
+        ],
+        "base": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
+          1.0
+        ],
+        "roughness": 0.9200000166893005,
+        "metallic": 0.0
+      },
+      {
+        "diffuse": [
+          0.12999999523162842,
+          0.14000000059604645,
+          0.15000000596046448,
+          1.0
+        ],
+        "base": [
+          0.12999999523162842,
+          0.14000000059604645,
+          0.15000000596046448,
+          1.0
+        ],
+        "roughness": 0.8999999761581421,
+        "metallic": 0.0
+      },
+      {
+        "diffuse": [
+          0.3100000023841858,
+          0.28999999165534973,
+          0.2549999952316284,
+          1.0
+        ],
+        "base": [
+          0.3100000023841858,
+          0.28999999165534973,
+          0.2549999952316284,
+          1.0
+        ],
+        "roughness": 0.8999999761581421,
+        "metallic": 0.0
+      },
+      {
+        "diffuse": [
+          0.6800000071525574,
+          0.6399999856948853,
+          0.550000011920929,
+          1.0
+        ],
+        "base": [
+          0.6800000071525574,
+          0.6399999856948853,
+          0.550000011920929,
+          1.0
+        ],
+        "roughness": 0.8999999761581421,
+        "metallic": 0.0
+      }
+    ],
+    "type": "MESH",
+    "vertices": 150480,
+    "polygons": 149188
+  },
+  "collision_after": {
+    "geometry_sha256": "de1e88544be94e6691da09e73d6a52ef5dc200e9437a49a8cf6f1594bb0002c1",
+    "transform": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "materials": [
+      {
+        "diffuse": [
+          0.3799999952316284,
+          0.4300000071525574,
+          0.30000001192092896,
+          1.0
+        ],
+        "base": [
+          0.3799999952316284,
+          0.4300000071525574,
+          0.30000001192092896,
+          1.0
+        ],
+        "roughness": 0.8999999761581421,
+        "metallic": 0.0
+      },
+      {
+        "diffuse": [
+          0.3199999928474426,
+          0.30000001192092896,
+          0.23999999463558197,
+          1.0
+        ],
+        "base": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
+          1.0
+        ],
+        "roughness": 0.5,
+        "metallic": 0.0
+      },
+      {
+        "diffuse": [
+          0.3199999928474426,
+          0.3100000023841858,
+          0.27000001072883606,
+          1.0
+        ],
+        "base": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
+          1.0
+        ],
+        "roughness": 0.9200000166893005,
+        "metallic": 0.0
+      },
+      {
+        "diffuse": [
+          0.12999999523162842,
+          0.14000000059604645,
+          0.15000000596046448,
+          1.0
+        ],
+        "base": [
+          0.12999999523162842,
+          0.14000000059604645,
+          0.15000000596046448,
+          1.0
+        ],
+        "roughness": 0.8999999761581421,
+        "metallic": 0.0
+      },
+      {
+        "diffuse": [
+          0.3100000023841858,
+          0.28999999165534973,
+          0.2549999952316284,
+          1.0
+        ],
+        "base": [
+          0.3100000023841858,
+          0.28999999165534973,
+          0.2549999952316284,
+          1.0
+        ],
+        "roughness": 0.8999999761581421,
+        "metallic": 0.0
+      },
+      {
+        "diffuse": [
+          0.6800000071525574,
+          0.6399999856948853,
+          0.550000011920929,
+          1.0
+        ],
+        "base": [
+          0.6800000071525574,
+          0.6399999856948853,
+          0.550000011920929,
+          1.0
+        ],
+        "roughness": 0.8999999761581421,
+        "metallic": 0.0
+      }
+    ],
+    "type": "MESH",
+    "vertices": 150480,
+    "polygons": 149188
+  },
+  "locked_roads_sidewalks_preserved": true,
+  "xy_changed": false,
+  "topology_changed": false,
+  "source_dem_changed": false,
+  "source_reopened": true,
+  "approved": false,
+  "geographic_fit_verified": false,
+  "source_core_degenerate_triangles_pending": 94,
+  "runtime_exported": false,
+  "pending": [
+    "Georreferenciamento e datum ainda não validados",
+    "Larguras reais, bordas serrilhadas do pavimento e acabamento fora desta faixa",
+    "Altimetria original Aleph ausente; ajuste não é levantamento da encosta",
+    "Travessia física na engine e tráfego não validados"
+  ],
+  "validation_evidence": "docs/reports/blender/terrain_tangent_r30b73_validation.json"
+}

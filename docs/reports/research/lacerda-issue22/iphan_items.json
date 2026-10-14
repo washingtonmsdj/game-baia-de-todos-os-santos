@@ -1,0 +1,22 @@
+[
+  {
+    "id": "iphan-9698",
+    "requested_url": "https://acervodigital.iphan.gov.br/xmlui/handle/123456789/9698",
+    "retrieved_at": "2026-10-06T12:41:12.909735+00:00",
+    "status": "retrieved_html",
+    "raw_file": "world-reference/mvp-centro-lacerda/research-20261006-issue22/iphan-9698.html",
+    "sha256": "f10ac721013fdd0aa4ba761461b7dc33806bb2fe6f3f0d4727cc40e156fbe949",
+    "links": [],
+    "metadata_excerpt": ""
+  },
+  {
+    "id": "iphan-9697",
+    "requested_url": "https://acervodigital.iphan.gov.br/xmlui/handle/123456789/9697",
+    "retrieved_at": "2026-10-06T12:41:13.112911+00:00",
+    "status": "retrieved_html",
+    "raw_file": "world-reference/mvp-centro-lacerda/research-20261006-issue22/iphan-9697.html",
+    "sha256": "17677222f605fcacbc8394796eb76af87a071c53bd11bc12fb47356179b344af",
+    "links": [],
+    "metadata_excerpt": ""
+  }
+]

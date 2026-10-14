@@ -1,0 +1,147 @@
+{
+  "source": {
+    "file": "blender/salvador_lacerda_r30b79_contrato_colisao_slice.blend",
+    "sha256": "777d1748ddcf594cda267590172983743bb75cc11153e1db030f173ef7dde14f"
+  },
+  "witnesses": [
+    {
+      "segment": 2,
+      "t": 0.5,
+      "foot": [
+        -49.199999999999996,
+        49.8,
+        7.3784990310668945
+      ],
+      "obstacles": [
+        "FUNCIONAL | 3 piso"
+      ],
+      "maximum_penetration": 0.027499198913574385,
+      "scope": "LACERDA_VERTICAL_INTERFACE",
+      "correction_type_candidate": "ground-following on existing surfaces, no architectural rescale"
+    },
+    {
+      "segment": 3,
+      "t": 0.5,
+      "foot": [
+        -49.599999999999994,
+        50.2,
+        7.378498792648315
+      ],
+      "obstacles": [
+        "FUNCIONAL | 3 soleira inferior",
+        "FUNCIONAL | soleira inferior"
+      ],
+      "maximum_penetration": 0.051501035690307784,
+      "scope": "LACERDA_VERTICAL_INTERFACE",
+      "correction_type_candidate": "ground-following on existing surfaces, no architectural rescale"
+    },
+    {
+      "segment": 42,
+      "t": 0.5,
+      "foot": [
+        -63.199999999999996,
+        65.8,
+        7.255668640136719
+      ],
+      "obstacles": [
+        "B63 | VISUAL | meios-fios das vias existentes"
+      ],
+      "maximum_penetration": 0.11401450857091355,
+      "scope": "CAIRU_MARKET_EXTERNAL",
+      "correction_type_candidate": "ground-following on existing surfaces, no architectural rescale"
+    },
+    {
+      "segment": 43,
+      "t": 0.25,
+      "foot": [
+        -63.49999999999999,
+        66.1,
+        7.255668640136719
+      ],
+      "obstacles": [
+        "B63 | VISUAL | meios-fios das vias existentes"
+      ],
+      "maximum_penetration": 0.0026113067019449265,
+      "scope": "CAIRU_MARKET_EXTERNAL",
+      "correction_type_candidate": "ground-following on existing surfaces, no architectural rescale"
+    },
+    {
+      "segment": 56,
+      "t": 0.875,
+      "foot": [
+        -68.95,
+        71.55,
+        7.255668640136719
+      ],
+      "obstacles": [
+        "B63 | VISUAL | meios-fios das vias existentes"
+      ],
+      "maximum_penetration": 0.05447967942971407,
+      "scope": "CAIRU_MARKET_EXTERNAL",
+      "correction_type_candidate": "ground-following on existing surfaces, no architectural rescale"
+    },
+    {
+      "segment": 57,
+      "t": 0.5,
+      "foot": [
+        -69.19999999999999,
+        71.8,
+        7.255668640136719
+      ],
+      "obstacles": [
+        "B63 | VISUAL | meios-fios das vias existentes"
+      ],
+      "maximum_penetration": 0.1141573205915078,
+      "scope": "CAIRU_MARKET_EXTERNAL",
+      "correction_type_candidate": "ground-following on existing surfaces, no architectural rescale"
+    },
+    {
+      "segment": 100,
+      "t": 0.5,
+      "foot": [
+        -77.0,
+        89.0,
+        7.255668640136719
+      ],
+      "obstacles": [
+        "B63 | VISUAL | meios-fios das vias existentes"
+      ],
+      "maximum_penetration": 0.04297368110983679,
+      "scope": "CAIRU_MARKET_EXTERNAL",
+      "correction_type_candidate": "ground-following on existing surfaces, no architectural rescale"
+    },
+    {
+      "segment": 101,
+      "t": 0.5,
+      "foot": [
+        -77.0,
+        89.4,
+        7.255668640136719
+      ],
+      "obstacles": [
+        "B63 | VISUAL | meios-fios das vias existentes"
+      ],
+      "maximum_penetration": 0.1200059614238865,
+      "scope": "CAIRU_MARKET_EXTERNAL",
+      "correction_type_candidate": "ground-following on existing surfaces, no architectural rescale"
+    },
+    {
+      "segment": 102,
+      "t": 0.25,
+      "foot": [
+        -77.0,
+        89.69999999999999,
+        7.255668640136719
+      ],
+      "obstacles": [
+        "B63 | VISUAL | meios-fios das vias existentes"
+      ],
+      "maximum_penetration": 0.036298836899821385,
+      "scope": "CAIRU_MARKET_EXTERNAL",
+      "correction_type_candidate": "ground-following on existing surfaces, no architectural rescale"
+    }
+  ],
+  "vertical_interface_witnesses": 2,
+  "external_witnesses": 7,
+  "vertical_movement_enabled": false
+}

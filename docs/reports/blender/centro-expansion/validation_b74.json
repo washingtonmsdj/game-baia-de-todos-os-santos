@@ -1,0 +1,57 @@
+{
+  "source": {
+    "file": "blender/salvador_lacerda_r30b74_expansao_lapa_tororo_fonte_nova.blend",
+    "sha256": "1b4c16b9831a38bff93e3fb9c03c87bdfaf3e48f5a00cf03e0945b7f6d9b220a",
+    "revision": "R30B.74"
+  },
+  "source_reopened": true,
+  "load_post_completed": true,
+  "saved_arrays_exact": true,
+  "protected_changes": [],
+  "target_bindings": [
+    {
+      "object": "B74 | center-lapa | referencia",
+      "location_id": "center-lapa",
+      "osm_id": 257113955,
+      "reference_only": true
+    },
+    {
+      "object": "B74 | arena-fonte-nova | referencia",
+      "location_id": "arena-fonte-nova",
+      "osm_id": 3346613,
+      "reference_only": true
+    },
+    {
+      "object": "B74 | dique-do-tororo | referencia",
+      "location_id": "dique-do-tororo",
+      "osm_id": 15601931,
+      "reference_only": true
+    }
+  ],
+  "terrain_topology": {
+    "vertices": 92609,
+    "triangles": 181899,
+    "finite": true,
+    "duplicate_vertices": 0,
+    "degenerate_triangles_after_float32": 0,
+    "flipped_xy_triangles": 0,
+    "edges_more_than_two_faces": 0,
+    "open_edges": 3319,
+    "open_edges_off_expected_boundary_over_5mm": 0,
+    "max_boundary_distance_blender_units": 4.88872739512497e-05,
+    "terrain_area_projected_scene_units2": 3221888.0,
+    "expected_area_projected_scene_units2": 3221888.1926144725,
+    "classification": "candidate_mesh_QA_not_city_approval"
+  },
+  "driver_camera_exists": true,
+  "local_geometry_checks_passed": true,
+  "city_approval": false,
+  "production_ready": false,
+  "pending": [
+    "Altimetria absoluta e resolução nativa",
+    "Vias finais, pavimento, faixas e larguras reais",
+    "106 amostras com grade acima do critério candidato",
+    "Colisão volumétrica e física do veículo",
+    "Acessos aos locais e Hero assets"
+  ]
+}

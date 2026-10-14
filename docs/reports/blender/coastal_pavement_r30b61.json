@@ -1,0 +1,50 @@
+{
+  "schema": "boas/coastal-pavement-b61-v1",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b60_plataformas_costeiras.blend",
+    "revision": "R30B.60",
+    "sha256": "7d505667494e74456b9dfea601f3ad702e0f05262e430f5cd60801589c0f9970",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b59_encosta_transicao_continua.blend",
+    "evidence": "docs/reports/blender/coastal_roads_r30b60.json",
+    "notes": "Plataformas locais de vias costeiras candidatas; conserva XY/larguras/núcleo; visual=colisão; circulação não aprovada."
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b61_pavimento_integrado.blend",
+    "revision": "R30B.61",
+    "sha256": "8772c954377ae755b87174cae39b44958dbcea278d8dbaa026a26d5ad66027b4"
+  },
+  "classification": "ERROR",
+  "reason": "Pavimento integrado à malha física para eliminar interpenetração de chapas.",
+  "terrain": "B61 | GAMEPLAY TERRAIN HQ | pavimento integrado",
+  "collision": "B61 | COLLISION | terreno e pavimento integrado",
+  "vertices": 150480,
+  "faces": 149136,
+  "pavement_osm_face_counts": {
+    "1075624454": 7622,
+    "154743329": 833,
+    "456471269": 327,
+    "978527848": 2496,
+    "1004133493": 2556,
+    "1321544428": 506,
+    "1004133494": 639
+  },
+  "superseded_road_skins": [
+    "B60 | ROAD VISUAL | 154743329 | run 0",
+    "B60 | ROAD VISUAL | 456471269 | run 0",
+    "B60 | ROAD VISUAL | 978527848 | run 0",
+    "B60 | ROAD VISUAL | 1004133493 | run 0",
+    "B60 | ROAD VISUAL | 1004133494 | run 0",
+    "B60 | ROAD VISUAL | 1075624454 | run 0",
+    "B60 | ROAD VISUAL | 1321544428 | run 0"
+  ],
+  "protected_changes": [],
+  "visual_collision_identical": true,
+  "runtime_exported": false,
+  "approved": false,
+  "pending": [
+    "Lacuna até o cais",
+    "Reabertura, apoios e aparência",
+    "Navegação e travessia na engine"
+  ]
+}

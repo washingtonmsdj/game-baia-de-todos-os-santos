@@ -53,6 +53,7 @@ def main() -> int:
     parser.add_argument("--dem-osm-minimum-margin-m", type=float, default=20.0)
     parser.add_argument("--allow-insufficient-dem-coverage", action="store_true", help="diagnóstico somente; não transforma falta de cobertura em dado válido")
     parser.add_argument("--allow-weak-fit", action="store_true")
+    parser.add_argument("--geographic-ssot", type=Path, help="Contrato compartilhado: recusar transformação regional divergente")
     args = parser.parse_args()
 
     root = Path(__file__).resolve().parents[2]
@@ -176,6 +177,8 @@ def main() -> int:
     ]
     if args.allow_weak_fit:
         command.append("--allow-weak-fit")
+    if args.geographic_ssot:
+        command.extend(["--geographic-ssot", str(args.geographic_ssot.resolve())])
     run(command, "Geração da referência estrutural Blender")
 
     # Expandir a área também exige preservar semântica de trânsito e ônibus.

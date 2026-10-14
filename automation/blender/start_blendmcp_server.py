@@ -7,6 +7,13 @@ from pathlib import Path
 import bpy
 
 PORT = int(os.environ.get("BOAS_BLENDMCP_PORT", "9877"))
+if os.environ.get('BOAS_RECOVERY_SOLID_VIEW') == '1':
+    # Recuperação explícita: alterar somente apresentação, sem tocar malhas.
+    for window in bpy.context.window_manager.windows:
+        if window.screen:
+            for area in window.screen.areas:
+                if area.type == 'VIEW_3D':
+                    area.spaces.active.shading.type = 'SOLID'
 addon_dir = Path(os.environ["APPDATA"]) / "Blender Foundation" / "Blender" / "5.2" / "scripts" / "addons"
 if str(addon_dir) not in sys.path:
     sys.path.append(str(addon_dir))

@@ -1,0 +1,126 @@
+{
+  "schema": "boas/waterfront-piers-b67-v1",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b66_cais_normais_corrigidas.blend",
+    "revision": "R30B.66",
+    "sha256": "1c64173cc11b4c086084e55a6d0a6e399a1a67a1715babc160517221d45f0bf8",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b65_piso_orla_sem_residuos.blend",
+    "evidence": "docs/reports/blender/coastal_orientation_r30b66.json",
+    "notes": "Normais do cais voltadas à água e resíduos numéricos do piso removidos; sem alterar pistas, costa ou píeres; passarela e dimensões reais pendentes."
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b67_pieres_e_dominio_oceanico.blend",
+    "revision": "R30B.67",
+    "sha256": "e0fcda84e28adaf3161da7458195471511b00c2ef9e70fd42f6edc555188b412"
+  },
+  "source_check": "docs/reports/blender/coastal_osm_source_check.json",
+  "same_feature_controls": [
+    {
+      "osm_id": 1321682676,
+      "points": 2,
+      "max_xy_difference_blender_units": 0.0
+    },
+    {
+      "osm_id": 1321682677,
+      "points": 2,
+      "max_xy_difference_blender_units": 0.0
+    },
+    {
+      "osm_id": 1426173139,
+      "points": 6,
+      "max_xy_difference_blender_units": 0.0
+    },
+    {
+      "osm_id": 1426173140,
+      "points": 8,
+      "max_xy_difference_blender_units": 0.0
+    },
+    {
+      "osm_id": 1426173324,
+      "points": 2,
+      "max_xy_difference_blender_units": 0.0
+    },
+    {
+      "osm_id": 1426173327,
+      "points": 2,
+      "max_xy_difference_blender_units": 0.0
+    }
+  ],
+  "new_closed_piers": [
+    {
+      "osm_id": 609043799,
+      "visual": "B67 | PIER VISUAL | 609043799",
+      "reference": "B67 | REFERENCE PIER | 609043799",
+      "surface": "B67 | WALKABLE CANDIDATE | 609043799",
+      "collision": "B67 | COLLISION CANDIDATE | PIER | 609043799",
+      "deck_z_candidate_m": 2.9742279052734375,
+      "land_height_spread": 2.4814300537109375,
+      "connection_approved": false,
+      "foundation_verified": false,
+      "xy_footprint_changed": false
+    },
+    {
+      "osm_id": 609043801,
+      "visual": "B67 | PIER VISUAL | 609043801",
+      "reference": "B67 | REFERENCE PIER | 609043801",
+      "surface": "B67 | WALKABLE CANDIDATE | 609043801",
+      "collision": "B67 | COLLISION CANDIDATE | PIER | 609043801",
+      "deck_z_candidate_m": 4.5861053466796875,
+      "land_height_spread": 0.139373779296875,
+      "connection_approved": false,
+      "foundation_verified": false,
+      "xy_footprint_changed": false
+    }
+  ],
+  "new_reference_axes": [
+    {
+      "osm_id": 1321555661,
+      "name": "B67 | SOURCE AXIS WIDTH UNKNOWN | 1321555661",
+      "width_m": null,
+      "deck_z_m": null
+    },
+    {
+      "osm_id": 1321717133,
+      "name": "B67 | SOURCE AXIS WIDTH UNKNOWN | 1321717133",
+      "width_m": null,
+      "deck_z_m": null
+    },
+    {
+      "osm_id": 217677378,
+      "name": "B67 | SOURCE AXIS WIDTH UNKNOWN | 217677378",
+      "width_m": null,
+      "deck_z_m": null
+    },
+    {
+      "osm_id": 1426173324,
+      "name": "B67 | SOURCE AXIS WIDTH UNKNOWN | 1426173324",
+      "width_m": null,
+      "deck_z_m": null
+    }
+  ],
+  "water_level_m_preserved": 0.35,
+  "legacy_pier_freeboard_candidate_m": 6.9056648254394535,
+  "absolute_water_datum_verified": false,
+  "water_volume_nonmanifold_edges": 0,
+  "volume_range_m": [
+    -16.0,
+    0.35
+  ],
+  "volume_is_bathymetry": false,
+  "shoreline_segments": 119,
+  "shoreline_chains": 1,
+  "artificial_boundary_edges_excluded": 3,
+  "foam_source_updated": true,
+  "protected_changes": [],
+  "terrain_changed": false,
+  "road_width_changed": false,
+  "runtime_exported": false,
+  "real_fidelity_approved": false,
+  "pending": [
+    "Altimetria/maré dos píeres antigos e novos sem levantamento",
+    "Ligação dos novos decks com a margem e apoios/fundações não aprovados",
+    "Eixos de píer/quebra-mar e passarelas sem largura permanecem referência",
+    "Fidelidade arquitetônica e percursos de gameplay continuam pendentes"
+  ]
+}

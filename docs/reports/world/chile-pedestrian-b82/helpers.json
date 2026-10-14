@@ -1,0 +1,1974 @@
+{
+  "source": "B82 historical scene read-only",
+  "roi": [
+    -358.96155136823654,
+    -374.7753558601253,
+    135.28762909118086,
+    91.96414384199306
+  ],
+  "scene_changed": false,
+  "alerts": [
+    {
+      "issue_id": "mvp-centro-lacerda/way-1075624454/nodes-344369510-1672367631/scene_binding_missing",
+      "osm_way_id": 1075624454,
+      "name": "Avenida Lafayete Coutinho",
+      "classification": "MISSING_BINDING",
+      "binding_present": false,
+      "partial_helper": false,
+      "unresolved_nodes": null,
+      "node_checks": [
+        {
+          "node_id": "344369510",
+          "source_node_present": true,
+          "xy": [
+            -349.14948583208025,
+            -248.5916650313884
+          ],
+          "visual": null,
+          "collider": null,
+          "difference": null
+        },
+        {
+          "node_id": "1672367631",
+          "source_node_present": true,
+          "xy": [
+            -274.0031733987853,
+            -151.02880754391663
+          ],
+          "visual": {
+            "z": 7.240806579589844,
+            "normal_z": 0.9987741112709045
+          },
+          "collider": {
+            "z": 7.2398834228515625,
+            "normal_z": 0.9986463189125061
+          },
+          "difference": 0.00092315673828125
+        }
+      ],
+      "equivalent_bound_meshes": [
+        {
+          "object": "B51 | ROAD | 1075624454 | Avenida Lafayete Coutinho",
+          "role": null,
+          "reference_only": false,
+          "hide_render": true,
+          "collections": [
+            "38.3 GAMEPLAY | ROAD DRIVEABLE"
+          ],
+          "node_hits": [
+            {
+              "z": 9.024238586425781,
+              "normal_z": 0.9736361503601074
+            },
+            {
+              "z": 7.173583984375,
+              "normal_z": 0.9993987679481506
+            }
+          ]
+        },
+        {
+          "object": "B57 | ROAD VISUAL | 1075624454 | run 0",
+          "role": null,
+          "reference_only": false,
+          "hide_render": true,
+          "collections": [
+            "39 GAMEPLAY | B57 HQ"
+          ],
+          "node_hits": [
+            {
+              "z": 8.852409362792969,
+              "normal_z": -0.9999625086784363
+            },
+            {
+              "z": 12.107963562011719,
+              "normal_z": -0.9976351261138916
+            }
+          ]
+        },
+        {
+          "object": "B58 | ROAD VISUAL | 1075624454 | run 0",
+          "role": null,
+          "reference_only": false,
+          "hide_render": true,
+          "collections": [
+            "39.1 GAMEPLAY | B58 COSTURA"
+          ],
+          "node_hits": [
+            {
+              "z": 8.852409362792969,
+              "normal_z": -0.9999625086784363
+            },
+            null
+          ]
+        },
+        {
+          "object": "B59 | ROAD VISUAL | 1075624454 | run 0",
+          "role": null,
+          "reference_only": false,
+          "hide_render": true,
+          "collections": [
+            "39.2 GAMEPLAY | B59 ENCOSTA"
+          ],
+          "node_hits": [
+            {
+              "z": 9.762420654296875,
+              "normal_z": -0.9851844310760498
+            },
+            null
+          ]
+        },
+        {
+          "object": "B60 | ROAD VISUAL | 1075624454 | run 0",
+          "role": null,
+          "reference_only": false,
+          "hide_render": true,
+          "collections": [
+            "39.3 GAMEPLAY | B60 VIAS COSTEIRAS"
+          ],
+          "node_hits": [
+            {
+              "z": 9.688064575195312,
+              "normal_z": -0.9955692291259766
+            },
+            null
+          ]
+        }
+      ],
+      "classification_scope": "node supports only; not clearance, complete segment or permission",
+      "historical_generator": "automation/blender/r30a7_road_graph.py#create_way",
+      "missing_surface_is_proven_error": false,
+      "scene_change_authorized": false
+    },
+    {
+      "issue_id": "mvp-centro-lacerda/way-1075624458/nodes-7550296907-619722483/unresolved_endpoint_binding",
+      "osm_way_id": 1075624458,
+      "name": "Praça Castro Alves",
+      "classification": "SOURCE_NODE_PRESENT_SURFACE_VALID",
+      "binding_present": true,
+      "partial_helper": true,
+      "unresolved_nodes": 1,
+      "node_checks": [
+        {
+          "node_id": "7550296907",
+          "source_node_present": true,
+          "xy": [
+            -226.28110302658752,
+            -263.3970377354417
+          ],
+          "visual": {
+            "z": 55.288047790527344,
+            "normal_z": 0.9956091642379761
+          },
+          "collider": {
+            "z": 55.287986755371094,
+            "normal_z": 0.9955686330795288
+          },
+          "difference": 6.103515625e-05
+        },
+        {
+          "node_id": "619722483",
+          "source_node_present": true,
+          "xy": [
+            -222.1293885265477,
+            -282.56320933881216
+          ],
+          "visual": {
+            "z": 57.70003890991211,
+            "normal_z": 0.9698094725608826
+          },
+          "collider": {
+            "z": 57.70036315917969,
+            "normal_z": 0.970406711101532
+          },
+          "difference": 0.000324249267578125
+        }
+      ],
+      "equivalent_bound_meshes": [],
+      "classification_scope": "node supports only; not clearance, complete segment or permission",
+      "historical_generator": "automation/blender/r30a7_road_graph.py#create_way",
+      "missing_surface_is_proven_error": false,
+      "scene_change_authorized": false
+    },
+    {
+      "issue_id": "mvp-centro-lacerda/way-154743329/nodes-4527284526-1672367636/unresolved_endpoint_binding",
+      "osm_way_id": 154743329,
+      "name": "Rua da Conceição da Praia",
+      "classification": "VALID_PARTIAL_HELPER",
+      "binding_present": true,
+      "partial_helper": true,
+      "unresolved_nodes": 1,
+      "node_checks": [
+        {
+          "node_id": "4527284526",
+          "source_node_present": true,
+          "xy": [
+            -296.67210311535746,
+            -199.4410952120088
+          ],
+          "visual": null,
+          "collider": null,
+          "difference": null
+        },
+        {
+          "node_id": "1672367636",
+          "source_node_present": true,
+          "xy": [
+            -267.0124314245768,
+            -159.5799720119685
+          ],
+          "visual": {
+            "z": 7.255668640136719,
+            "normal_z": 1.0
+          },
+          "collider": {
+            "z": 7.255668640136719,
+            "normal_z": 1.0
+          },
+          "difference": 0.0
+        }
+      ],
+      "equivalent_bound_meshes": [
+        {
+          "object": "B51 | ROAD | 154743329 | Rua da Conceição da Praia",
+          "role": null,
+          "reference_only": false,
+          "hide_render": true,
+          "collections": [
+            "38.3 GAMEPLAY | ROAD DRIVEABLE"
+          ],
+          "node_hits": [
+            {
+              "z": 14.240921020507812,
+              "normal_z": 0.9877581000328064
+            },
+            {
+              "z": 7.273689270019531,
+              "normal_z": 1.0
+            }
+          ]
+        },
+        {
+          "object": "B57 | ROAD VISUAL | 154743329 | run 0",
+          "role": null,
+          "reference_only": false,
+          "hide_render": true,
+          "collections": [
+            "39 GAMEPLAY | B57 HQ"
+          ],
+          "node_hits": [
+            {
+              "z": 9.483413696289062,
+              "normal_z": -0.975128173828125
+            },
+            {
+              "z": 12.560249328613281,
+              "normal_z": -0.9974177479743958
+            }
+          ]
+        },
+        {
+          "object": "B58 | ROAD VISUAL | 154743329 | run 0",
+          "role": null,
+          "reference_only": false,
+          "hide_render": true,
+          "collections": [
+            "39.1 GAMEPLAY | B58 COSTURA"
+          ],
+          "node_hits": [
+            {
+              "z": 9.483413696289062,
+              "normal_z": -0.975128173828125
+            },
+            null
+          ]
+        },
+        {
+          "object": "B59 | ROAD VISUAL | 154743329 | run 0",
+          "role": null,
+          "reference_only": false,
+          "hide_render": true,
+          "collections": [
+            "39.2 GAMEPLAY | B59 ENCOSTA"
+          ],
+          "node_hits": [
+            {
+              "z": 8.832611083984375,
+              "normal_z": -0.9304085373878479
+            },
+            null
+          ]
+        },
+        {
+          "object": "B60 | ROAD VISUAL | 154743329 | run 0",
+          "role": null,
+          "reference_only": false,
+          "hide_render": true,
+          "collections": [
+            "39.3 GAMEPLAY | B60 VIAS COSTEIRAS"
+          ],
+          "node_hits": [
+            {
+              "z": 8.830581665039062,
+              "normal_z": -0.999723494052887
+            },
+            null
+          ]
+        }
+      ],
+      "classification_scope": "node supports only; not clearance, complete segment or permission",
+      "historical_generator": "automation/blender/r30a7_road_graph.py#create_way",
+      "missing_surface_is_proven_error": false,
+      "scene_change_authorized": false
+    },
+    {
+      "issue_id": "mvp-centro-lacerda/way-421206045/nodes-5424026035-7520527645/unresolved_endpoint_binding",
+      "osm_way_id": 421206045,
+      "name": "Ladeira da Conceição da Praia",
+      "classification": "NEEDS_REVIEW",
+      "binding_present": true,
+      "partial_helper": true,
+      "unresolved_nodes": 1,
+      "node_checks": [
+        {
+          "node_id": "5424026035",
+          "source_node_present": true,
+          "xy": [
+            -177.79677897319198,
+            -174.5659238214139
+          ],
+          "visual": {
+            "z": 26.73613739013672,
+            "normal_z": 0.9826025366783142
+          },
+          "collider": {
+            "z": 26.73613739013672,
+            "normal_z": 0.9826025366783142
+          },
+          "difference": 0.0
+        },
+        {
+          "node_id": "7520527645",
+          "source_node_present": true,
+          "xy": [
+            -148.4208546411246,
+            -150.1541886627674
+          ],
+          "visual": {
+            "z": 55.823143005371094,
+            "normal_z": 0.9978771805763245
+          },
+          "collider": {
+            "z": 55.82189178466797,
+            "normal_z": 0.9978589415550232
+          },
+          "difference": 0.001251220703125
+        }
+      ],
+      "equivalent_bound_meshes": [],
+      "classification_scope": "node supports only; not clearance, complete segment or permission",
+      "historical_generator": "automation/blender/r30a7_road_graph.py#create_way",
+      "missing_surface_is_proven_error": false,
+      "scene_change_authorized": false,
+      "pre_layer_review_classification": "SOURCE_NODE_PRESENT_SURFACE_VALID",
+      "layer_review": "Highest-column hit may be Montanha instead of lower Conceição pavement; B38 ADAPT_LOCAL remains protected.",
+      "recorded_local_adaptation": {
+        "osm_way_id": 421206045,
+        "osm_node_id": 7520527645,
+        "before": [
+          -148.4208526611328,
+          -150.15419006347656,
+          56.002235412597656
+        ],
+        "after": [
+          -150.03884887695312,
+          -150.0146484375,
+          19.810096740722656
+        ],
+        "visual_clearance_m": 0.18,
+        "source_reference_unchanged": true,
+        "reason": "Fit XY candidato atingia Montanha; binding local ao asfalto inferior da mesma via autoral por OSM ID e ordem dos nós. Referência OSM preservada."
+      }
+    },
+    {
+      "issue_id": "mvp-centro-lacerda/way-421206045/nodes-619722483-7550296909/unresolved_endpoint_binding",
+      "osm_way_id": 421206045,
+      "name": "Ladeira da Conceição da Praia",
+      "classification": "NEEDS_REVIEW",
+      "binding_present": true,
+      "partial_helper": true,
+      "unresolved_nodes": 1,
+      "node_checks": [
+        {
+          "node_id": "619722483",
+          "source_node_present": true,
+          "xy": [
+            -222.1293885265477,
+            -282.56320933881216
+          ],
+          "visual": {
+            "z": 57.70003890991211,
+            "normal_z": 0.9698094725608826
+          },
+          "collider": {
+            "z": 57.70036315917969,
+            "normal_z": 0.970406711101532
+          },
+          "difference": 0.000324249267578125
+        },
+        {
+          "node_id": "7550296909",
+          "source_node_present": true,
+          "xy": [
+            -236.1496537211351,
+            -272.6314609623514
+          ],
+          "visual": {
+            "z": 51.213706970214844,
+            "normal_z": 0.9557347893714905
+          },
+          "collider": {
+            "z": 51.212379455566406,
+            "normal_z": 0.9558519124984741
+          },
+          "difference": 0.0013275146484375
+        }
+      ],
+      "equivalent_bound_meshes": [],
+      "classification_scope": "node supports only; not clearance, complete segment or permission",
+      "historical_generator": "automation/blender/r30a7_road_graph.py#create_way",
+      "missing_surface_is_proven_error": false,
+      "scene_change_authorized": false,
+      "pre_layer_review_classification": "SOURCE_NODE_PRESENT_SURFACE_VALID",
+      "layer_review": "Highest-column hit may be Montanha instead of lower Conceição pavement; B38 ADAPT_LOCAL remains protected.",
+      "recorded_local_adaptation": {
+        "osm_way_id": 421206045,
+        "osm_node_id": 7520527645,
+        "before": [
+          -148.4208526611328,
+          -150.15419006347656,
+          56.002235412597656
+        ],
+        "after": [
+          -150.03884887695312,
+          -150.0146484375,
+          19.810096740722656
+        ],
+        "visual_clearance_m": 0.18,
+        "source_reference_unchanged": true,
+        "reason": "Fit XY candidato atingia Montanha; binding local ao asfalto inferior da mesma via autoral por OSM ID e ordem dos nós. Referência OSM preservada."
+      }
+    },
+    {
+      "issue_id": "mvp-centro-lacerda/way-421206045/nodes-7520527645-4527180952/unresolved_endpoint_binding",
+      "osm_way_id": 421206045,
+      "name": "Ladeira da Conceição da Praia",
+      "classification": "NEEDS_REVIEW",
+      "binding_present": true,
+      "partial_helper": true,
+      "unresolved_nodes": 1,
+      "node_checks": [
+        {
+          "node_id": "7520527645",
+          "source_node_present": true,
+          "xy": [
+            -148.4208546411246,
+            -150.1541886627674
+          ],
+          "visual": {
+            "z": 55.823143005371094,
+            "normal_z": 0.9978771805763245
+          },
+          "collider": {
+            "z": 55.82189178466797,
+            "normal_z": 0.9978589415550232
+          },
+          "difference": 0.001251220703125
+        },
+        {
+          "node_id": "4527180952",
+          "source_node_present": true,
+          "xy": [
+            -141.40394542645663,
+            -129.30236118100584
+          ],
+          "visual": {
+            "z": 15.200279235839844,
+            "normal_z": 0.9812092781066895
+          },
+          "collider": {
+            "z": 15.200630187988281,
+            "normal_z": 0.9813888669013977
+          },
+          "difference": 0.0003509521484375
+        }
+      ],
+      "equivalent_bound_meshes": [],
+      "classification_scope": "node supports only; not clearance, complete segment or permission",
+      "historical_generator": "automation/blender/r30a7_road_graph.py#create_way",
+      "missing_surface_is_proven_error": false,
+      "scene_change_authorized": false,
+      "pre_layer_review_classification": "SOURCE_NODE_PRESENT_SURFACE_VALID",
+      "layer_review": "Highest-column hit may be Montanha instead of lower Conceição pavement; B38 ADAPT_LOCAL remains protected.",
+      "recorded_local_adaptation": {
+        "osm_way_id": 421206045,
+        "osm_node_id": 7520527645,
+        "before": [
+          -148.4208526611328,
+          -150.15419006347656,
+          56.002235412597656
+        ],
+        "after": [
+          -150.03884887695312,
+          -150.0146484375,
+          19.810096740722656
+        ],
+        "visual_clearance_m": 0.18,
+        "source_reference_unchanged": true,
+        "reason": "Fit XY candidato atingia Montanha; binding local ao asfalto inferior da mesma via autoral por OSM ID e ordem dos nós. Referência OSM preservada."
+      }
+    },
+    {
+      "issue_id": "mvp-centro-lacerda/way-456471269/nodes-4527284526-1672367659/unresolved_endpoint_binding",
+      "osm_way_id": 456471269,
+      "name": "Rua Manoel Vitórino",
+      "classification": "VALID_PARTIAL_HELPER",
+      "binding_present": true,
+      "partial_helper": true,
+      "unresolved_nodes": 1,
+      "node_checks": [
+        {
+          "node_id": "4527284526",
+          "source_node_present": true,
+          "xy": [
+            -296.67210311535746,
+            -199.4410952120088
+          ],
+          "visual": null,
+          "collider": null,
+          "difference": null
+        },
+        {
+          "node_id": "1672367659",
+          "source_node_present": true,
+          "xy": [
+            -227.34823036426678,
+            -163.9930316649843
+          ],
+          "visual": {
+            "z": 7.255668640136719,
+            "normal_z": 1.0
+          },
+          "collider": {
+            "z": 7.256111145019531,
+            "normal_z": 0.9999998807907104
+          },
+          "difference": 0.0004425048828125
+        }
+      ],
+      "equivalent_bound_meshes": [
+        {
+          "object": "B51 | ROAD | 456471269 | Rua Manoel Vitórino",
+          "role": null,
+          "reference_only": false,
+          "hide_render": true,
+          "collections": [
+            "38.3 GAMEPLAY | ROAD DRIVEABLE"
+          ],
+          "node_hits": [
+            {
+              "z": 14.240921020507812,
+              "normal_z": 0.987758457660675
+            },
+            null
+          ]
+        },
+        {
+          "object": "B57 | ROAD VISUAL | 456471269 | run 0",
+          "role": null,
+          "reference_only": false,
+          "hide_render": true,
+          "collections": [
+            "39 GAMEPLAY | B57 HQ"
+          ],
+          "node_hits": [
+            {
+              "z": 9.519760131835938,
+              "normal_z": -0.9959810376167297
+            },
+            null
+          ]
+        },
+        {
+          "object": "B58 | ROAD VISUAL | 456471269 | run 0",
+          "role": null,
+          "reference_only": false,
+          "hide_render": true,
+          "collections": [
+            "39.1 GAMEPLAY | B58 COSTURA"
+          ],
+          "node_hits": [
+            {
+              "z": 9.519760131835938,
+              "normal_z": -0.9959810376167297
+            },
+            null
+          ]
+        },
+        {
+          "object": "B59 | ROAD VISUAL | 456471269 | run 0",
+          "role": null,
+          "reference_only": false,
+          "hide_render": true,
+          "collections": [
+            "39.2 GAMEPLAY | B59 ENCOSTA"
+          ],
+          "node_hits": [
+            {
+              "z": 8.832603454589844,
+              "normal_z": -0.9650064706802368
+            },
+            null
+          ]
+        },
+        {
+          "object": "B60 | ROAD VISUAL | 456471269 | run 0",
+          "role": null,
+          "reference_only": false,
+          "hide_render": true,
+          "collections": [
+            "39.3 GAMEPLAY | B60 VIAS COSTEIRAS"
+          ],
+          "node_hits": [
+            {
+              "z": 8.830581665039062,
+              "normal_z": -0.9997758269309998
+            },
+            null
+          ]
+        }
+      ],
+      "classification_scope": "node supports only; not clearance, complete segment or permission",
+      "historical_generator": "automation/blender/r30a7_road_graph.py#create_way",
+      "missing_surface_is_proven_error": false,
+      "scene_change_authorized": false
+    },
+    {
+      "issue_id": "mvp-centro-lacerda/way-562005412/nodes-7550296987-7550296995/unresolved_endpoint_binding",
+      "osm_way_id": 562005412,
+      "name": "Avenida Sete de Setembro",
+      "classification": "VALID_PARTIAL_HELPER",
+      "binding_present": true,
+      "partial_helper": true,
+      "unresolved_nodes": 3,
+      "node_checks": [
+        {
+          "node_id": "7550296987",
+          "source_node_present": true,
+          "xy": [
+            -178.09592610457912,
+            -304.4026398092974
+          ],
+          "visual": null,
+          "collider": null,
+          "difference": null
+        },
+        {
+          "node_id": "7550296995",
+          "source_node_present": true,
+          "xy": [
+            -171.93609641911462,
+            -287.9166299223434
+          ],
+          "visual": null,
+          "collider": null,
+          "difference": null
+        }
+      ],
+      "equivalent_bound_meshes": [],
+      "classification_scope": "node supports only; not clearance, complete segment or permission",
+      "historical_generator": "automation/blender/r30a7_road_graph.py#create_way",
+      "missing_surface_is_proven_error": false,
+      "scene_change_authorized": false
+    },
+    {
+      "issue_id": "mvp-centro-lacerda/way-562005412/nodes-7550296995-12249294286/unresolved_endpoint_binding",
+      "osm_way_id": 562005412,
+      "name": "Avenida Sete de Setembro",
+      "classification": "VALID_PARTIAL_HELPER",
+      "binding_present": true,
+      "partial_helper": true,
+      "unresolved_nodes": 3,
+      "node_checks": [
+        {
+          "node_id": "7550296995",
+          "source_node_present": true,
+          "xy": [
+            -171.93609641911462,
+            -287.9166299223434
+          ],
+          "visual": null,
+          "collider": null,
+          "difference": null
+        },
+        {
+          "node_id": "12249294286",
+          "source_node_present": true,
+          "xy": [
+            -155.29669691901654,
+            -255.20339254871942
+          ],
+          "visual": {
+            "z": 64.15776062011719,
+            "normal_z": 0.9975178241729736
+          },
+          "collider": {
+            "z": 64.15786743164062,
+            "normal_z": 0.9975161552429199
+          },
+          "difference": 0.0001068115234375
+        }
+      ],
+      "equivalent_bound_meshes": [],
+      "classification_scope": "node supports only; not clearance, complete segment or permission",
+      "historical_generator": "automation/blender/r30a7_road_graph.py#create_way",
+      "missing_surface_is_proven_error": false,
+      "scene_change_authorized": false
+    },
+    {
+      "issue_id": "mvp-centro-lacerda/way-656636750/nodes-7550296995-6150846219/unresolved_endpoint_binding",
+      "osm_way_id": 656636750,
+      "name": "Rua do Curriachito",
+      "classification": "VALID_PARTIAL_HELPER",
+      "binding_present": true,
+      "partial_helper": true,
+      "unresolved_nodes": 1,
+      "node_checks": [
+        {
+          "node_id": "7550296995",
+          "source_node_present": true,
+          "xy": [
+            -171.93609641911462,
+            -287.9166299223434
+          ],
+          "visual": null,
+          "collider": null,
+          "difference": null
+        },
+        {
+          "node_id": "6150846219",
+          "source_node_present": true,
+          "xy": [
+            -81.72189940605313,
+            -273.06813470995985
+          ],
+          "visual": {
+            "z": 63.41141891479492,
+            "normal_z": 0.9770846962928772
+          },
+          "collider": {
+            "z": 63.41025161743164,
+            "normal_z": 0.9772211313247681
+          },
+          "difference": 0.00116729736328125
+        }
+      ],
+      "equivalent_bound_meshes": [],
+      "classification_scope": "node supports only; not clearance, complete segment or permission",
+      "historical_generator": "automation/blender/r30a7_road_graph.py#create_way",
+      "missing_surface_is_proven_error": false,
+      "scene_change_authorized": false
+    },
+    {
+      "issue_id": "mvp-centro-lacerda/way-807410410/nodes-7550296910-7550296914/scene_binding_missing",
+      "osm_way_id": 807410410,
+      "name": null,
+      "classification": "MISSING_BINDING",
+      "binding_present": false,
+      "partial_helper": false,
+      "unresolved_nodes": null,
+      "node_checks": [
+        {
+          "node_id": "7550296910",
+          "source_node_present": true,
+          "xy": [
+            -250.98615744523704,
+            -306.12213330855593
+          ],
+          "visual": null,
+          "collider": null,
+          "difference": null
+        },
+        {
+          "node_id": "7550296914",
+          "source_node_present": true,
+          "xy": [
+            -255.68226726166904,
+            -304.03435085644014
+          ],
+          "visual": null,
+          "collider": null,
+          "difference": null
+        }
+      ],
+      "equivalent_bound_meshes": [],
+      "classification_scope": "node supports only; not clearance, complete segment or permission",
+      "historical_generator": "automation/blender/r30a7_road_graph.py#create_way",
+      "missing_surface_is_proven_error": false,
+      "scene_change_authorized": false
+    },
+    {
+      "issue_id": "mvp-centro-lacerda/way-807410410/nodes-7550296912-7550296908/scene_binding_missing",
+      "osm_way_id": 807410410,
+      "name": null,
+      "classification": "MISSING_BINDING",
+      "binding_present": false,
+      "partial_helper": false,
+      "unresolved_nodes": null,
+      "node_checks": [
+        {
+          "node_id": "7550296912",
+          "source_node_present": true,
+          "xy": [
+            -255.84761831304058,
+            -271.3948026916478
+          ],
+          "visual": {
+            "z": 47.152427673339844,
+            "normal_z": 0.9567289352416992
+          },
+          "collider": {
+            "z": 47.151344299316406,
+            "normal_z": 0.954490602016449
+          },
+          "difference": 0.0010833740234375
+        },
+        {
+          "node_id": "7550296908",
+          "source_node_present": true,
+          "xy": [
+            -238.947217436973,
+            -285.19707615557127
+          ],
+          "visual": null,
+          "collider": null,
+          "difference": null
+        }
+      ],
+      "equivalent_bound_meshes": [],
+      "classification_scope": "node supports only; not clearance, complete segment or permission",
+      "historical_generator": "automation/blender/r30a7_road_graph.py#create_way",
+      "missing_surface_is_proven_error": false,
+      "scene_change_authorized": false
+    },
+    {
+      "issue_id": "mvp-centro-lacerda/way-807410410/nodes-7550296913-7550296912/scene_binding_missing",
+      "osm_way_id": 807410410,
+      "name": null,
+      "classification": "MISSING_BINDING",
+      "binding_present": false,
+      "partial_helper": false,
+      "unresolved_nodes": null,
+      "node_checks": [
+        {
+          "node_id": "7550296913",
+          "source_node_present": true,
+          "xy": [
+            -259.5100138117559,
+            -284.9017015781719
+          ],
+          "visual": null,
+          "collider": null,
+          "difference": null
+        },
+        {
+          "node_id": "7550296912",
+          "source_node_present": true,
+          "xy": [
+            -255.84761831304058,
+            -271.3948026916478
+          ],
+          "visual": {
+            "z": 47.152427673339844,
+            "normal_z": 0.9567289352416992
+          },
+          "collider": {
+            "z": 47.151344299316406,
+            "normal_z": 0.954490602016449
+          },
+          "difference": 0.0010833740234375
+        }
+      ],
+      "equivalent_bound_meshes": [],
+      "classification_scope": "node supports only; not clearance, complete segment or permission",
+      "historical_generator": "automation/blender/r30a7_road_graph.py#create_way",
+      "missing_surface_is_proven_error": false,
+      "scene_change_authorized": false
+    },
+    {
+      "issue_id": "mvp-centro-lacerda/way-807410410/nodes-7550296914-7550296913/scene_binding_missing",
+      "osm_way_id": 807410410,
+      "name": null,
+      "classification": "MISSING_BINDING",
+      "binding_present": false,
+      "partial_helper": false,
+      "unresolved_nodes": null,
+      "node_checks": [
+        {
+          "node_id": "7550296914",
+          "source_node_present": true,
+          "xy": [
+            -255.68226726166904,
+            -304.03435085644014
+          ],
+          "visual": null,
+          "collider": null,
+          "difference": null
+        },
+        {
+          "node_id": "7550296913",
+          "source_node_present": true,
+          "xy": [
+            -259.5100138117559,
+            -284.9017015781719
+          ],
+          "visual": null,
+          "collider": null,
+          "difference": null
+        }
+      ],
+      "equivalent_bound_meshes": [],
+      "classification_scope": "node supports only; not clearance, complete segment or permission",
+      "historical_generator": "automation/blender/r30a7_road_graph.py#create_way",
+      "missing_surface_is_proven_error": false,
+      "scene_change_authorized": false
+    },
+    {
+      "issue_id": "mvp-centro-lacerda/way-807410410/nodes-7550296919-7550296910/scene_binding_missing",
+      "osm_way_id": 807410410,
+      "name": null,
+      "classification": "MISSING_BINDING",
+      "binding_present": false,
+      "partial_helper": false,
+      "unresolved_nodes": null,
+      "node_checks": [
+        {
+          "node_id": "7550296919",
+          "source_node_present": true,
+          "xy": [
+            -240.03411392588168,
+            -305.09007850685157
+          ],
+          "visual": null,
+          "collider": null,
+          "difference": null
+        },
+        {
+          "node_id": "7550296910",
+          "source_node_present": true,
+          "xy": [
+            -250.98615744523704,
+            -306.12213330855593
+          ],
+          "visual": null,
+          "collider": null,
+          "difference": null
+        }
+      ],
+      "equivalent_bound_meshes": [],
+      "classification_scope": "node supports only; not clearance, complete segment or permission",
+      "historical_generator": "automation/blender/r30a7_road_graph.py#create_way",
+      "missing_surface_is_proven_error": false,
+      "scene_change_authorized": false
+    },
+    {
+      "issue_id": "mvp-centro-lacerda/way-807410424/nodes-7550296993-7550296994/unresolved_endpoint_binding",
+      "osm_way_id": 807410424,
+      "name": "Avenida Carlos Gomes",
+      "classification": "VALID_PARTIAL_HELPER",
+      "binding_present": true,
+      "partial_helper": true,
+      "unresolved_nodes": 2,
+      "node_checks": [
+        {
+          "node_id": "7550296993",
+          "source_node_present": true,
+          "xy": [
+            -178.00652748998255,
+            -276.7617433476262
+          ],
+          "visual": {
+            "z": 59.91693115234375,
+            "normal_z": 0.9821880459785461
+          },
+          "collider": {
+            "z": 59.91811752319336,
+            "normal_z": 0.9822261333465576
+          },
+          "difference": 0.001186370849609375
+        },
+        {
+          "node_id": "7550296994",
+          "source_node_present": true,
+          "xy": [
+            -182.3463686639443,
+            -286.95422828849405
+          ],
+          "visual": null,
+          "collider": null,
+          "difference": null
+        }
+      ],
+      "equivalent_bound_meshes": [],
+      "classification_scope": "node supports only; not clearance, complete segment or permission",
+      "historical_generator": "automation/blender/r30a7_road_graph.py#create_way",
+      "missing_surface_is_proven_error": false,
+      "scene_change_authorized": false
+    },
+    {
+      "issue_id": "mvp-centro-lacerda/way-978527848/nodes-1672367622-5424001594/scene_binding_missing",
+      "osm_way_id": 978527848,
+      "name": "Avenida Lafayete Coutinho",
+      "classification": "MISSING_BINDING",
+      "binding_present": false,
+      "partial_helper": false,
+      "unresolved_nodes": null,
+      "node_checks": [
+        {
+          "node_id": "1672367622",
+          "source_node_present": true,
+          "xy": [
+            -268.6939136525616,
+            -131.59407404111698
+          ],
+          "visual": {
+            "z": 7.255668640136719,
+            "normal_z": 1.0
+          },
+          "collider": {
+            "z": 7.255668640136719,
+            "normal_z": 1.0
+          },
+          "difference": 0.0
+        },
+        {
+          "node_id": "5424001594",
+          "source_node_present": true,
+          "xy": [
+            -308.0915210461244,
+            -179.54812202765606
+          ],
+          "visual": null,
+          "collider": null,
+          "difference": null
+        }
+      ],
+      "equivalent_bound_meshes": [
+        {
+          "object": "B51 | ROAD | 978527848 | Avenida Lafayete Coutinho",
+          "role": null,
+          "reference_only": false,
+          "hide_render": true,
+          "collections": [
+            "38.3 GAMEPLAY | ROAD DRIVEABLE"
+          ],
+          "node_hits": [
+            {
+              "z": 7.2736663818359375,
+              "normal_z": 1.0
+            },
+            {
+              "z": 11.642906188964844,
+              "normal_z": 0.9885042309761047
+            }
+          ]
+        },
+        {
+          "object": "B57 | ROAD VISUAL | 978527848 | run 0",
+          "role": null,
+          "reference_only": false,
+          "hide_render": true,
+          "collections": [
+            "39 GAMEPLAY | B57 HQ"
+          ],
+          "node_hits": [
+            {
+              "z": 10.415481567382812,
+              "normal_z": -0.9966335296630859
+            },
+            {
+              "z": 10.894615173339844,
+              "normal_z": -0.9993792176246643
+            }
+          ]
+        },
+        {
+          "object": "B58 | ROAD VISUAL | 978527848 | run 0",
+          "role": null,
+          "reference_only": false,
+          "hide_render": true,
+          "collections": [
+            "39.1 GAMEPLAY | B58 COSTURA"
+          ],
+          "node_hits": [
+            null,
+            {
+              "z": 10.894615173339844,
+              "normal_z": -0.9993792176246643
+            }
+          ]
+        },
+        {
+          "object": "B59 | ROAD VISUAL | 978527848 | run 0",
+          "role": null,
+          "reference_only": false,
+          "hide_render": true,
+          "collections": [
+            "39.2 GAMEPLAY | B59 ENCOSTA"
+          ],
+          "node_hits": [
+            null,
+            {
+              "z": 10.920097351074219,
+              "normal_z": -0.9974024891853333
+            }
+          ]
+        },
+        {
+          "object": "B60 | ROAD VISUAL | 978527848 | run 0",
+          "role": null,
+          "reference_only": false,
+          "hide_render": true,
+          "collections": [
+            "39.3 GAMEPLAY | B60 VIAS COSTEIRAS"
+          ],
+          "node_hits": [
+            null,
+            {
+              "z": 10.902275085449219,
+              "normal_z": -0.9990354776382446
+            }
+          ]
+        }
+      ],
+      "classification_scope": "node supports only; not clearance, complete segment or permission",
+      "historical_generator": "automation/blender/r30a7_road_graph.py#create_way",
+      "missing_surface_is_proven_error": false,
+      "scene_change_authorized": false
+    }
+  ],
+  "counts": {
+    "MISSING_BINDING": 7,
+    "SOURCE_NODE_PRESENT_SURFACE_VALID": 1,
+    "VALID_PARTIAL_HELPER": 6,
+    "NEEDS_REVIEW": 3
+  },
+  "physics_objects": [
+    {
+      "name": "R30A5 | COLLISION | terrain proxy",
+      "role": "GROUND",
+      "first": 0,
+      "count": 57821
+    },
+    {
+      "name": "B79 | COLLISION | CALIBRADO | marquise baixa",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 57821,
+      "count": 44
+    },
+    {
+      "name": "B79 | COLLISION | CASCA | parede lateral",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 57865,
+      "count": 108
+    },
+    {
+      "name": "B79 | COLLISION | CASCA | parede lateral.001",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 57973,
+      "count": 24
+    },
+    {
+      "name": "B79 | COLLISION | SALA DE MÁQUINAS | piso",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 57997,
+      "count": 12
+    },
+    {
+      "name": "B79 | COLLISION | SALA DE MÁQUINAS | polia 1",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58009,
+      "count": 27
+    },
+    {
+      "name": "B79 | COLLISION | SALA DE MÁQUINAS | polia 2",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58036,
+      "count": 27
+    },
+    {
+      "name": "B79 | COLLISION | SALA DE MÁQUINAS | polia 3",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58063,
+      "count": 27
+    },
+    {
+      "name": "B79 | COLLISION | SALA DE MÁQUINAS | polia 4",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58090,
+      "count": 15
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | vidro lateral",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58105,
+      "count": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | montante lateral.003",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58113,
+      "count": 12
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | travessa lateral",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58125,
+      "count": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | travessa lateral.001",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58133,
+      "count": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | travessa lateral.002",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58141,
+      "count": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | travessa lateral.003",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58149,
+      "count": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | vidro lateral.001",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58157,
+      "count": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | travessa lateral.004",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58165,
+      "count": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | travessa lateral.005",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58173,
+      "count": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | travessa lateral.006",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58181,
+      "count": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | travessa lateral.007",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58189,
+      "count": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | vidro frontal",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58197,
+      "count": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | travessa frontal",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58205,
+      "count": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | travessa frontal.001",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58213,
+      "count": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | travessa frontal.002",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58221,
+      "count": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | travessa frontal.003",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58229,
+      "count": 8
+    },
+    {
+      "name": "B79 | COLLISION | OSM | 1263035779",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58237,
+      "count": 4
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 3 pilar estação upper -1",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58241,
+      "count": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 3 pilar estação upper 1",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58253,
+      "count": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 3 verga estação upper",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58265,
+      "count": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 3 chamada upper",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58277,
+      "count": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 3 botão chamada upper",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58289,
+      "count": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 3 pilar estação lower -1",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58301,
+      "count": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 3 pilar estação lower 1",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58313,
+      "count": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 3 verga estação lower",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58325,
+      "count": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 3 chamada lower",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58337,
+      "count": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 3 botão chamada lower",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58349,
+      "count": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 3 guia -1",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58361,
+      "count": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 3 guia 1",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58373,
+      "count": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 piso",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58385,
+      "count": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 teto",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58397,
+      "count": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 iluminação",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58409,
+      "count": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 montante janela -1 -1",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58421,
+      "count": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 montante janela -1 1",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58433,
+      "count": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 janela fumê -1",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58445,
+      "count": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 peitoril janela -1",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58457,
+      "count": 188
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 corrimão -1",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 58645,
+      "count": 428
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 batente -1 -1",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 59073,
+      "count": 188
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 verga -1",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 59261,
+      "count": 10
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 janela fumê 1",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 59271,
+      "count": 8
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 peitoril janela 1",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 59279,
+      "count": 32
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 corrimão 1",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 59311,
+      "count": 48
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 batente 1 -1",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 59359,
+      "count": 188
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 verga 1",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 59547,
+      "count": 10
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 pilar estação upper -1",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 59557,
+      "count": 10
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 pilar estação lower -1",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 59567,
+      "count": 10
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 guia -1",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 59577,
+      "count": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 luminária de serviço",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 59589,
+      "count": 10
+    },
+    {
+      "name": "B79 | COLLISION | REFINO 2025 | varanda lateral 1 | laje",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 59599,
+      "count": 24
+    },
+    {
+      "name": "B79 | COLLISION | REFINO 2025 | varanda lateral 1 | corrimao",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 59623,
+      "count": 24
+    },
+    {
+      "name": "B79 | COLLISION | REFINO 2025 | varanda lateral 2 | laje",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 59647,
+      "count": 24
+    },
+    {
+      "name": "B79 | COLLISION | REFINO 2025 | varanda lateral 2 | corrimao",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 59671,
+      "count": 24
+    },
+    {
+      "name": "B79 | COLLISION | LAC R30B | Galeria | fundo friso GALERIA | vidro frontal",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 59695,
+      "count": 24
+    },
+    {
+      "name": "B79 | COLLISION | LAC R30B | Galeria | fundo friso GALERIA | vidro lateral",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 59719,
+      "count": 24
+    },
+    {
+      "name": "B79 | COLLISION | LAC R30B | Galeria | fundo friso GALERIA | vidro lateral.001",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 59743,
+      "count": 24
+    },
+    {
+      "name": "B79 | COLLISION | LAC R30B | Galeria | frisos cruzetados",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 59767,
+      "count": 390
+    },
+    {
+      "name": "B79 | COLLISION | LAC R30B06 | fundo verde travessia 3178050253",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 60157,
+      "count": 10
+    },
+    {
+      "name": "B79 | COLLISION | LAC R30B07 | galeria | consolo inclinado",
+      "role": "OBSTACLE_CANDIDATE",
+      "first": 60167,
+      "count": 32
+    }
+  ],
+  "obstacles": [
+    {
+      "name": "B79 | COLLISION | CALIBRADO | marquise baixa",
+      "source": "CALIBRADO | marquise baixa",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 44
+    },
+    {
+      "name": "B79 | COLLISION | CASCA | parede lateral",
+      "source": "CASCA | parede lateral",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 108
+    },
+    {
+      "name": "B79 | COLLISION | CASCA | parede lateral.001",
+      "source": "CASCA | parede lateral.001",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 24
+    },
+    {
+      "name": "B79 | COLLISION | SALA DE MÁQUINAS | piso",
+      "source": "SALA DE MÁQUINAS | piso",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 12
+    },
+    {
+      "name": "B79 | COLLISION | SALA DE MÁQUINAS | polia 1",
+      "source": "SALA DE MÁQUINAS | polia 1",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 27
+    },
+    {
+      "name": "B79 | COLLISION | SALA DE MÁQUINAS | polia 2",
+      "source": "SALA DE MÁQUINAS | polia 2",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 27
+    },
+    {
+      "name": "B79 | COLLISION | SALA DE MÁQUINAS | polia 3",
+      "source": "SALA DE MÁQUINAS | polia 3",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 27
+    },
+    {
+      "name": "B79 | COLLISION | SALA DE MÁQUINAS | polia 4",
+      "source": "SALA DE MÁQUINAS | polia 4",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 15
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | vidro lateral",
+      "source": "GALERIA | vidro lateral",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | montante lateral.003",
+      "source": "GALERIA | montante lateral.003",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 12
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | travessa lateral",
+      "source": "GALERIA | travessa lateral",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | travessa lateral.001",
+      "source": "GALERIA | travessa lateral.001",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | travessa lateral.002",
+      "source": "GALERIA | travessa lateral.002",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | travessa lateral.003",
+      "source": "GALERIA | travessa lateral.003",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | vidro lateral.001",
+      "source": "GALERIA | vidro lateral.001",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | travessa lateral.004",
+      "source": "GALERIA | travessa lateral.004",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | travessa lateral.005",
+      "source": "GALERIA | travessa lateral.005",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | travessa lateral.006",
+      "source": "GALERIA | travessa lateral.006",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | travessa lateral.007",
+      "source": "GALERIA | travessa lateral.007",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | vidro frontal",
+      "source": "GALERIA | vidro frontal",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | travessa frontal",
+      "source": "GALERIA | travessa frontal",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | travessa frontal.001",
+      "source": "GALERIA | travessa frontal.001",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | travessa frontal.002",
+      "source": "GALERIA | travessa frontal.002",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 8
+    },
+    {
+      "name": "B79 | COLLISION | GALERIA | travessa frontal.003",
+      "source": "GALERIA | travessa frontal.003",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 8
+    },
+    {
+      "name": "B79 | COLLISION | OSM | 1263035779",
+      "source": "OSM | 1263035779",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 4
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 3 pilar estação upper -1",
+      "source": "FUNCIONAL | 3 pilar estação upper -1",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 3 pilar estação upper 1",
+      "source": "FUNCIONAL | 3 pilar estação upper 1",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 3 verga estação upper",
+      "source": "FUNCIONAL | 3 verga estação upper",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 3 chamada upper",
+      "source": "FUNCIONAL | 3 chamada upper",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 3 botão chamada upper",
+      "source": "FUNCIONAL | 3 botão chamada upper",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 3 pilar estação lower -1",
+      "source": "FUNCIONAL | 3 pilar estação lower -1",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 3 pilar estação lower 1",
+      "source": "FUNCIONAL | 3 pilar estação lower 1",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 3 verga estação lower",
+      "source": "FUNCIONAL | 3 verga estação lower",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 3 chamada lower",
+      "source": "FUNCIONAL | 3 chamada lower",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 3 botão chamada lower",
+      "source": "FUNCIONAL | 3 botão chamada lower",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 3 guia -1",
+      "source": "FUNCIONAL | 3 guia -1",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 3 guia 1",
+      "source": "FUNCIONAL | 3 guia 1",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 piso",
+      "source": "FUNCIONAL | 4 piso",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 teto",
+      "source": "FUNCIONAL | 4 teto",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 iluminação",
+      "source": "FUNCIONAL | 4 iluminação",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 montante janela -1 -1",
+      "source": "FUNCIONAL | 4 montante janela -1 -1",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 montante janela -1 1",
+      "source": "FUNCIONAL | 4 montante janela -1 1",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 janela fumê -1",
+      "source": "FUNCIONAL | 4 janela fumê -1",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 peitoril janela -1",
+      "source": "FUNCIONAL | 4 peitoril janela -1",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 188
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 corrimão -1",
+      "source": "FUNCIONAL | 4 corrimão -1",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 428
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 batente -1 -1",
+      "source": "FUNCIONAL | 4 batente -1 -1",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 188
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 verga -1",
+      "source": "FUNCIONAL | 4 verga -1",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 10
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 janela fumê 1",
+      "source": "FUNCIONAL | 4 janela fumê 1",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 8
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 peitoril janela 1",
+      "source": "FUNCIONAL | 4 peitoril janela 1",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 32
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 corrimão 1",
+      "source": "FUNCIONAL | 4 corrimão 1",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 48
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 batente 1 -1",
+      "source": "FUNCIONAL | 4 batente 1 -1",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 188
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 verga 1",
+      "source": "FUNCIONAL | 4 verga 1",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 10
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 pilar estação upper -1",
+      "source": "FUNCIONAL | 4 pilar estação upper -1",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 10
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 pilar estação lower -1",
+      "source": "FUNCIONAL | 4 pilar estação lower -1",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 10
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 guia -1",
+      "source": "FUNCIONAL | 4 guia -1",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 12
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 4 luminária de serviço",
+      "source": "FUNCIONAL | 4 luminária de serviço",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 10
+    },
+    {
+      "name": "B79 | COLLISION | REFINO 2025 | varanda lateral 1 | laje",
+      "source": "REFINO 2025 | varanda lateral 1 | laje",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 24
+    },
+    {
+      "name": "B79 | COLLISION | REFINO 2025 | varanda lateral 1 | corrimao",
+      "source": "REFINO 2025 | varanda lateral 1 | corrimao",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 24
+    },
+    {
+      "name": "B79 | COLLISION | REFINO 2025 | varanda lateral 2 | laje",
+      "source": "REFINO 2025 | varanda lateral 2 | laje",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 24
+    },
+    {
+      "name": "B79 | COLLISION | REFINO 2025 | varanda lateral 2 | corrimao",
+      "source": "REFINO 2025 | varanda lateral 2 | corrimao",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 24
+    },
+    {
+      "name": "B79 | COLLISION | LAC R30B | Galeria | fundo friso GALERIA | vidro frontal",
+      "source": "LAC R30B | Galeria | fundo friso GALERIA | vidro frontal",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 24
+    },
+    {
+      "name": "B79 | COLLISION | LAC R30B | Galeria | fundo friso GALERIA | vidro lateral",
+      "source": "LAC R30B | Galeria | fundo friso GALERIA | vidro lateral",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 24
+    },
+    {
+      "name": "B79 | COLLISION | LAC R30B | Galeria | fundo friso GALERIA | vidro lateral.001",
+      "source": "LAC R30B | Galeria | fundo friso GALERIA | vidro lateral.001",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 24
+    },
+    {
+      "name": "B79 | COLLISION | LAC R30B | Galeria | frisos cruzetados",
+      "source": "LAC R30B | Galeria | frisos cruzetados",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 390
+    },
+    {
+      "name": "B79 | COLLISION | LAC R30B06 | fundo verde travessia 3178050253",
+      "source": "LAC R30B06 | fundo verde travessia 3178050253",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 10
+    },
+    {
+      "name": "B79 | COLLISION | LAC R30B07 | galeria | consolo inclinado",
+      "source": "LAC R30B07 | galeria | consolo inclinado",
+      "role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+      "triangles": 32
+    }
+  ],
+  "physical_scope": "Existing contract ground + bound external candidate obstacles; unclassified visual meshes not certified",
+  "physics_file": "artifacts/chile-pedestrian-b82/physics.npz",
+  "unknown_width_and_direction_block_geometry": false,
+  "layer_review_evidence": "docs/reports/blender/conceicao_binding_r30b38.json",
+  "source_blend_sha256": "9a8c89520df6b86eaebc9000792c4ad077c5c20a0e77e1aec7ec647a15b3a49a",
+  "physics_sha256": "76a359cb01a23ce25e3b0119455dda2e619c6622e5211661948dd3f96b967923",
+  "geographic_ssot": "world/geographic-reference.json"
+}

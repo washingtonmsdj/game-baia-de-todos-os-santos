@@ -1,0 +1,2674 @@
+{
+  "schema": "boas/coastal-city-seam-b72-v1",
+  "source": {
+    "file": "blender/salvador_lacerda_r30b71_encontro_norte_cais.blend",
+    "revision": "R30B.71",
+    "sha256": "b851703b3e47571469f30bd5c32c1e0fe01fa7e476f2776976e7b222dd4ed989",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b70_juncao_terreno_cais.blend",
+    "evidence": "docs/reports/blender/north_junction_r30b71.json",
+    "notes": "Encontro norte do piso/cais vinculado ao núcleo existente; XY/vias/núcleo/água preservados; altura absoluta não verificada.",
+    "source_reopened": true,
+    "validation_evidence": "docs/reports/blender/north_junction_r30b71_validation.json",
+    "local_geometry_checks_passed": true
+  },
+  "physical_boundary_xy": {
+    "x": -285.70343017578125,
+    "y": -281.2629241938703
+  },
+  "objects": [
+    {
+      "object": "MVP | terreno corrigido | colisão estática",
+      "bounds": [
+        [
+          -285.70343017578125,
+          -285.2629089355469,
+          4.255668640136719
+        ],
+        [
+          542.2965698242188,
+          621.7371215820312,
+          70.2554931640625
+        ]
+      ],
+      "attributes": [
+        "boas_r34_barranco",
+        "boas_r35_solo_encosta",
+        ".select_vert",
+        ".select_edge",
+        ".select_poly",
+        "sharp_face",
+        "material_index",
+        "position",
+        ".edge_verts",
+        ".corner_vert",
+        ".corner_edge"
+      ],
+      "materials": [
+        "GAL R34 | encosta localizada | MVP | terreno contínuo",
+        "MVP | percurso pedonal",
+        "MVP | asfalto da ladeira",
+        "CAIRU | pedra portuguesa clara",
+        "VIAS | passeio mineral claro",
+        "VIAS | pavimento de pedra Rua Chile",
+        "RELEVO | contenção entre vias",
+        "ENTORNO LAC | pedra portuguesa calcada",
+        "ENV R35 | terreno e rocha junto ao apoio",
+        "RIO R36 | solo e vegetação baixa"
+      ],
+      "hidden": false,
+      "collections": [
+        "19 MVP | terreno DEM e acessos corrigidos",
+        "32.1 GAMEPLAY | TERRAIN",
+        "32.2 GAMEPLAY | COLLISION SOURCE"
+      ]
+    },
+    {
+      "object": "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+      "bounds": [
+        [
+          -551.0,
+          -510.0,
+          -2.463484764099121
+        ],
+        [
+          -260.75,
+          -12.0,
+          66.88790130615234
+        ]
+      ],
+      "attributes": [
+        "boas_surface_role",
+        "boas_osm_way_id",
+        ".select_vert",
+        ".select_edge",
+        ".select_poly",
+        "material_index",
+        "position",
+        ".edge_verts",
+        ".corner_vert",
+        ".corner_edge"
+      ],
+      "materials": [
+        "GAL R34 | encosta localizada | MVP | terreno contínuo",
+        "Terreno | solo encosta",
+        "ENV R35 | terreno e rocha junto ao apoio",
+        "MVP | asfalto da ladeira",
+        "VIAS | pavimento de pedra Rua Chile",
+        "MVP | percurso pedonal"
+      ],
+      "hidden": false,
+      "collections": [
+        "39.5 GAMEPLAY | B62 COSTURA LIMPA"
+      ]
+    },
+    {
+      "object": "B63 | VISUAL | piso contínuo até o cais",
+      "bounds": [
+        [
+          -388.4596862792969,
+          -94.84332275390625,
+          1.6340771913528442
+        ],
+        [
+          -285.70343017578125,
+          39.402835845947266,
+          8.671253204345703
+        ]
+      ],
+      "attributes": [
+        ".select_vert",
+        ".select_edge",
+        ".select_poly",
+        "sharp_face",
+        "position",
+        ".edge_verts",
+        ".corner_vert",
+        ".corner_edge"
+      ],
+      "materials": [
+        "VIAS | passeio mineral claro"
+      ],
+      "hidden": false,
+      "collections": [
+        "39.6 GAMEPLAY | B63 ORLA E BORDAS"
+      ]
+    }
+  ],
+  "crossings": [
+    {
+      "osm_id": 48848298,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua da Fonte do Gravats",
+        "oneway": "yes"
+      },
+      "source_width_m": null,
+      "crossing_xy": [
+        399.7264182270834,
+        -281.2629241938703
+      ],
+      "boundary_axis": "y",
+      "tangent": [
+        -0.8464177978273423,
+        -0.5325194001359127
+      ],
+      "normal": [
+        0.5325194001359127,
+        -0.8464177978273423
+      ],
+      "probes": [
+        {
+          "offset_along_axis_m": -5,
+          "xy": [
+            403.9585072162201,
+            -278.6003271931907
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 49.826416015625,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -2,
+          "xy": [
+            401.4192538227381,
+            -280.1978853935984
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 49.930206298828125,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -0.25,
+          "xy": [
+            399.93802267654024,
+            -281.1297943438363
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 50.00392150878906,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 0.25,
+          "xy": [
+            399.51481377762656,
+            -281.39605404390426
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": 2,
+          "xy": [
+            398.0335826314287,
+            -282.3279629941421
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": 5,
+          "xy": [
+            395.4943292379467,
+            -283.92552119454984
+          ],
+          "surfaces": []
+        }
+      ]
+    },
+    {
+      "osm_id": 48848318,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Tingui",
+        "oneway": "yes",
+        "surface": "paved"
+      },
+      "source_width_m": null,
+      "crossing_xy": [
+        464.9073137721807,
+        -281.2629241938703
+      ],
+      "boundary_axis": "y",
+      "tangent": [
+        0.14131336754955173,
+        -0.989964914606475
+      ],
+      "normal": [
+        0.989964914606475,
+        0.14131336754955173
+      ],
+      "probes": [
+        {
+          "offset_along_axis_m": -5,
+          "xy": [
+            464.20074693443297,
+            -276.3130996208379
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 49.576446533203125,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -2,
+          "xy": [
+            464.6246870370816,
+            -279.2829943646573
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 49.74176788330078,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -0.25,
+          "xy": [
+            464.8719854302933,
+            -281.0154329652187
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 49.83576202392578,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 0.25,
+          "xy": [
+            464.9426421140681,
+            -281.5104154225219
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": 2,
+          "xy": [
+            465.1899405072798,
+            -283.2428540230832
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": 5,
+          "xy": [
+            465.61388060992846,
+            -286.2127487669027
+          ],
+          "surfaces": []
+        }
+      ]
+    },
+    {
+      "osm_id": 145041517,
+      "tags": {
+        "highway": "residential",
+        "name": "Ladeira da Palma"
+      },
+      "source_width_m": null,
+      "crossing_xy": [
+        188.79167544200115,
+        -281.2629241938703
+      ],
+      "boundary_axis": "y",
+      "tangent": [
+        0.17648854577176165,
+        0.9843026938962265
+      ],
+      "normal": [
+        -0.9843026938962265,
+        0.17648854577176165
+      ],
+      "probes": [
+        {
+          "offset_along_axis_m": -5,
+          "xy": [
+            187.90923271314233,
+            -286.1844376633514
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": -2,
+          "xy": [
+            188.43869835045763,
+            -283.23152958166276
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": -0.25,
+          "xy": [
+            188.7475533055582,
+            -281.50899986734436
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": 0.25,
+          "xy": [
+            188.8357975784441,
+            -281.0168485203962
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 61.92101287841797,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 2,
+          "xy": [
+            189.14465253354467,
+            -279.2943188060778
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 61.804603576660156,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 5,
+          "xy": [
+            189.67411817085997,
+            -276.34141072438916
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 61.591148376464844,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "osm_id": 145041525,
+      "tags": {
+        "highway": "residential",
+        "lanes": "2",
+        "name": "Rua do Gravatá",
+        "oneway": "yes"
+      },
+      "source_width_m": null,
+      "crossing_xy": [
+        368.5034872836477,
+        -281.2629241938703
+      ],
+      "boundary_axis": "y",
+      "tangent": [
+        0.5079383930033579,
+        -0.861393399622476
+      ],
+      "normal": [
+        0.861393399622476,
+        0.5079383930033579
+      ],
+      "probes": [
+        {
+          "offset_along_axis_m": -5,
+          "xy": [
+            365.9637953186309,
+            -276.9559571957579
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 51.94776916503906,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -2,
+          "xy": [
+            367.48761049764096,
+            -279.54013739462533
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 52.14369201660156,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -0.25,
+          "xy": [
+            368.3765026853969,
+            -281.04757584396464
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 52.25691223144531,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 0.25,
+          "xy": [
+            368.63047188189853,
+            -281.4782725437759
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": 2,
+          "xy": [
+            369.51936406965444,
+            -282.9857109931152
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": 5,
+          "xy": [
+            371.0431792486645,
+            -285.56989119198266
+          ],
+          "surfaces": []
+        }
+      ]
+    },
+    {
+      "osm_id": 145218124,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "60",
+        "name": "Avenida José Joaquim Seabra",
+        "oneway": "no",
+        "sidewalk": "both",
+        "wheelchair": "limited"
+      },
+      "source_width_m": null,
+      "crossing_xy": [
+        117.02544726965019,
+        -281.2629241938703
+      ],
+      "boundary_axis": "y",
+      "tangent": [
+        -0.7010460746438474,
+        -0.7131159802069037
+      ],
+      "normal": [
+        0.7131159802069037,
+        -0.7010460746438474
+      ],
+      "probes": [
+        {
+          "offset_along_axis_m": -5,
+          "xy": [
+            120.53067764286942,
+            -277.69734429283574
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 63.74390411376953,
+              "material": 1,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -2,
+          "xy": [
+            118.42753941893788,
+            -279.83669223345646
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 63.652381896972656,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -0.25,
+          "xy": [
+            117.20070878831115,
+            -281.0846451988186
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 63.636253356933594,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 0.25,
+          "xy": [
+            116.85018575098923,
+            -281.441203188922
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": 2,
+          "xy": [
+            115.62335512036249,
+            -282.6891561542841
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": 5,
+          "xy": [
+            113.52021689643095,
+            -284.8285040949048
+          ],
+          "surfaces": []
+        }
+      ]
+    },
+    {
+      "osm_id": 145218127,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Visconde de Itaparica",
+        "surface": "paved"
+      },
+      "source_width_m": null,
+      "crossing_xy": [
+        -5.677683295439191,
+        -281.2629241938703
+      ],
+      "boundary_axis": "y",
+      "tangent": [
+        0.6256956338685504,
+        0.7800672879680526
+      ],
+      "normal": [
+        -0.7800672879680526,
+        0.6256956338685504
+      ],
+      "probes": [
+        {
+          "offset_along_axis_m": -5,
+          "xy": [
+            -8.806161464781944,
+            -285.16326063371054
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": -2,
+          "xy": [
+            -6.929074563176292,
+            -282.8230587698064
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": -0.25,
+          "xy": [
+            -5.834107203906329,
+            -281.4579410158623
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": 0.25,
+          "xy": [
+            -5.521259386972054,
+            -281.0679073718783
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 62.42500305175781,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 2,
+          "xy": [
+            -4.4262920277020905,
+            -279.7027896179342
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 62.74146270751953,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 5,
+          "xy": [
+            -2.5492051260964392,
+            -277.36258775403
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 63.305145263671875,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "osm_id": 145218778,
+      "tags": {
+        "highway": "service"
+      },
+      "source_width_m": null,
+      "crossing_xy": [
+        43.81861449665935,
+        -281.2629241938703
+      ],
+      "boundary_axis": "y",
+      "tangent": [
+        -0.6462722351667937,
+        0.7631069374946846
+      ],
+      "normal": [
+        -0.7631069374946846,
+        -0.6462722351667937
+      ],
+      "probes": [
+        {
+          "offset_along_axis_m": -5,
+          "xy": [
+            47.04997567249332,
+            -285.0784588813437
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": -2,
+          "xy": [
+            45.11115896699294,
+            -282.78913806885964
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": -0.25,
+          "xy": [
+            43.98018255545105,
+            -281.45370092824396
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": 0.25,
+          "xy": [
+            43.65704643786765,
+            -281.0721474594966
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 61.410850524902344,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 2,
+          "xy": [
+            42.52607002632576,
+            -279.7367103188809
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 61.850555419921875,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 5,
+          "xy": [
+            40.58725332082538,
+            -277.44738950639686
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 62.682952880859375,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "osm_id": 145218778,
+      "tags": {
+        "highway": "service"
+      },
+      "source_width_m": null,
+      "crossing_xy": [
+        60.22495105376094,
+        -281.2629241938703
+      ],
+      "boundary_axis": "y",
+      "tangent": [
+        0.6386800680033186,
+        -0.7694723976435257
+      ],
+      "normal": [
+        0.7694723976435257,
+        0.6386800680033186
+      ],
+      "probes": [
+        {
+          "offset_along_axis_m": -5,
+          "xy": [
+            57.031550713744345,
+            -277.41556220565263
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 62.2509765625,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -2,
+          "xy": [
+            58.947590917754304,
+            -279.7239793985832
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 61.815696716308594,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -0.25,
+          "xy": [
+            60.06528103676011,
+            -281.0705560944594
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 61.64222717285156,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 0.25,
+          "xy": [
+            60.38462107076177,
+            -281.45529229328116
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": 2,
+          "xy": [
+            61.502311189767575,
+            -282.80186898915736
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": 5,
+          "xy": [
+            63.418351393777534,
+            -285.1102861820879
+          ],
+          "surfaces": []
+        }
+      ]
+    },
+    {
+      "osm_id": 145218789,
+      "tags": {
+        "highway": "service",
+        "name": "Rua Rodrigo Silva"
+      },
+      "source_width_m": null,
+      "crossing_xy": [
+        95.92046276665664,
+        -281.2629241938703
+      ],
+      "boundary_axis": "y",
+      "tangent": [
+        0.25973814183317034,
+        -0.965679086279211
+      ],
+      "normal": [
+        0.965679086279211,
+        0.25973814183317034
+      ],
+      "probes": [
+        {
+          "offset_along_axis_m": -5,
+          "xy": [
+            94.62177205749079,
+            -276.4345287624742
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 63.748870849609375,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -2,
+          "xy": [
+            95.4009864829903,
+            -279.33156602131186
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 63.436859130859375,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -0.25,
+          "xy": [
+            95.85552823119835,
+            -281.0215044223005
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 63.265037536621094,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 0.25,
+          "xy": [
+            95.98539730211493,
+            -281.50434396544006
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": 2,
+          "xy": [
+            96.43993905032298,
+            -283.1942823664287
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": 5,
+          "xy": [
+            97.2191534758225,
+            -286.09131962526635
+          ],
+          "surfaces": []
+        }
+      ]
+    },
+    {
+      "osm_id": 154743329,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Rua da Conceição da Praia",
+        "oneway": "yes",
+        "surface": "sett"
+      },
+      "source_width_m": null,
+      "crossing_xy": [
+        -285.70343017578125,
+        -184.69974446666996
+      ],
+      "boundary_axis": "x",
+      "tangent": [
+        0.5969535149593754,
+        0.8022758259960516
+      ],
+      "normal": [
+        -0.8022758259960516,
+        0.5969535149593754
+      ],
+      "probes": [
+        {
+          "offset_along_axis_m": -5,
+          "xy": [
+            -288.6881977505781,
+            -188.71112359665022
+          ],
+          "surfaces": [
+            {
+              "object": "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+              "z": 7.5736083984375,
+              "material": 4,
+              "way_id": 154743329,
+              "surface_role": 1
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -2,
+          "xy": [
+            -286.8973372057,
+            -186.30429611866205
+          ],
+          "surfaces": [
+            {
+              "object": "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+              "z": 7.365264892578125,
+              "material": 4,
+              "way_id": 154743329,
+              "surface_role": 1
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -0.25,
+          "xy": [
+            -285.8526685545211,
+            -184.90031342316897
+          ],
+          "surfaces": [
+            {
+              "object": "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+              "z": 7.2623291015625,
+              "material": 4,
+              "way_id": 154743329,
+              "surface_role": 1
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 0.25,
+          "xy": [
+            -285.5541917970414,
+            -184.49917551017094
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 7.2556610107421875,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 2,
+          "xy": [
+            -284.5095231458625,
+            -183.09519281467786
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 7.25567626953125,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 5,
+          "xy": [
+            -282.7186626009844,
+            -180.68836533668969
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 7.25567626953125,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "osm_id": 421206045,
+      "tags": {
+        "highway": "residential",
+        "name": "Ladeira da Conceição da Praia",
+        "oneway": "yes"
+      },
+      "source_width_m": null,
+      "crossing_xy": [
+        -223.9649507930944,
+        -281.2629241938703
+      ],
+      "boundary_axis": "y",
+      "tangent": [
+        -0.8160045173097928,
+        0.578045523925246
+      ],
+      "normal": [
+        -0.578045523925246,
+        -0.8160045173097928
+      ],
+      "probes": [
+        {
+          "offset_along_axis_m": -5,
+          "xy": [
+            -219.88492820654542,
+            -284.1531518134965
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 57.82464599609375,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -2,
+          "xy": [
+            -222.33294175847482,
+            -282.4190152417208
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 57.68663024902344,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -0.25,
+          "xy": [
+            -223.76094966376695,
+            -281.4074355748516
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 57.58845520019531,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 0.25,
+          "xy": [
+            -224.16895192242185,
+            -281.11841281288895
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 57.55669403076172,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 2,
+          "xy": [
+            -225.596959827714,
+            -280.10683314601977
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 57.43451690673828,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 5,
+          "xy": [
+            -228.04497337964338,
+            -278.37269657424406
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 57.062774658203125,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "osm_id": 456471269,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Manoel Vitórino"
+      },
+      "source_width_m": null,
+      "crossing_xy": [
+        -285.70343017578125,
+        -193.83237486851777
+      ],
+      "boundary_axis": "x",
+      "tangent": [
+        0.8903521104984238,
+        0.4552725769591249
+      ],
+      "normal": [
+        -0.4552725769591249,
+        0.8903521104984238
+      ],
+      "probes": [
+        {
+          "offset_along_axis_m": -5,
+          "xy": [
+            -290.1551907282734,
+            -196.1087377533134
+          ],
+          "surfaces": [
+            {
+              "object": "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+              "z": 8.120452880859375,
+              "material": 3,
+              "way_id": 456471269,
+              "surface_role": 1
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -2,
+          "xy": [
+            -287.4841343967781,
+            -194.74292002243604
+          ],
+          "surfaces": [
+            {
+              "object": "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+              "z": 7.661102294921875,
+              "material": 3,
+              "way_id": 456471269,
+              "surface_role": 1
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -0.25,
+          "xy": [
+            -285.9260182034059,
+            -193.94619301275756
+          ],
+          "surfaces": [
+            {
+              "object": "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+              "z": 7.3282470703125,
+              "material": 3,
+              "way_id": 456471269,
+              "surface_role": 1
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 0.25,
+          "xy": [
+            -285.4808421481566,
+            -193.718556724278
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 7.2556610107421875,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 2,
+          "xy": [
+            -283.9227259547844,
+            -192.9218297145995
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 7.2556610107421875,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 5,
+          "xy": [
+            -281.2516696232891,
+            -191.55601198372216
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 7.2556610107421875,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "osm_id": 531109209,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Rua do Carro",
+        "oneway": "yes"
+      },
+      "source_width_m": null,
+      "crossing_xy": [
+        499.1301799499411,
+        -281.2629241938703
+      ],
+      "boundary_axis": "y",
+      "tangent": [
+        0.3681601522268222,
+        -0.9297623902440467
+      ],
+      "normal": [
+        0.9297623902440467,
+        0.3681601522268222
+      ],
+      "probes": [
+        {
+          "offset_along_axis_m": -5,
+          "xy": [
+            497.289379188807,
+            -276.61411224265004
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 51.76067352294922,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -2,
+          "xy": [
+            498.39385964548745,
+            -279.4033994133822
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 51.892860412597656,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -0.25,
+          "xy": [
+            499.0381399118844,
+            -281.03048359630924
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 51.96697998046875,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 0.25,
+          "xy": [
+            499.22221998799785,
+            -281.4953647914313
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": 2,
+          "xy": [
+            499.8665002543948,
+            -283.12244897435835
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": 5,
+          "xy": [
+            500.97098071107524,
+            -285.9117361450905
+          ],
+          "surfaces": []
+        }
+      ]
+    },
+    {
+      "osm_id": 562005412,
+      "tags": {
+        "bicycle:conditional": "yes @ (su 07:00-16:00)",
+        "cycleway:right": "lane",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Avenida Sete de Setembro",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "surface": "sett"
+      },
+      "source_width_m": null,
+      "crossing_xy": [
+        -168.55172737891007,
+        -281.2629241938703
+      ],
+      "boundary_axis": "y",
+      "tangent": [
+        0.4533668253392666,
+        0.8913240273221601
+      ],
+      "normal": [
+        -0.8913240273221601,
+        0.4533668253392666
+      ],
+      "probes": [
+        {
+          "offset_along_axis_m": -5,
+          "xy": [
+            -170.8185615056064,
+            -285.7195443304811
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": -2,
+          "xy": [
+            -169.45846102958862,
+            -283.0455722485146
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": -0.25,
+          "xy": [
+            -168.66506908524488,
+            -281.4857552007008
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": 0.25,
+          "xy": [
+            -168.43838567257527,
+            -281.04009318703976
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 59.98082733154297,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 2,
+          "xy": [
+            -167.64499372823153,
+            -279.48027613922596
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 60.33898162841797,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 5,
+          "xy": [
+            -166.28489325221375,
+            -276.80630405725947
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 61.01634216308594,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "osm_id": 656636750,
+      "tags": {
+        "highway": "service",
+        "name": "Rua do Curriachito"
+      },
+      "source_width_m": null,
+      "crossing_xy": [
+        -131.5105374065893,
+        -281.2629241938703
+      ],
+      "boundary_axis": "y",
+      "tangent": [
+        0.986723948697451,
+        0.16240643172888897
+      ],
+      "normal": [
+        -0.16240643172888897,
+        0.986723948697451
+      ],
+      "probes": [
+        {
+          "offset_along_axis_m": -5,
+          "xy": [
+            -136.44415715007653,
+            -282.07495635251473
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": -2,
+          "xy": [
+            -133.48398530398418,
+            -281.58773705732807
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": -0.25,
+          "xy": [
+            -131.75721839376365,
+            -281.3035258018025
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": 0.25,
+          "xy": [
+            -131.26385641941494,
+            -281.22232258593806
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 61.68193054199219,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 2,
+          "xy": [
+            -129.5370895091944,
+            -280.9381113304125
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 61.72496032714844,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 5,
+          "xy": [
+            -126.57691766310204,
+            -280.4508920352258
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 61.781982421875,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "osm_id": 807410410,
+      "tags": {
+        "highway": "service",
+        "lit": "yes"
+      },
+      "source_width_m": null,
+      "crossing_xy": [
+        -258.52335936020086,
+        -281.2629241938703
+      ],
+      "boundary_axis": "y",
+      "tangent": [
+        0.2617001997948808,
+        0.9651492140738236
+      ],
+      "normal": [
+        -0.9651492140738236,
+        0.2617001997948808
+      ],
+      "probes": [
+        {
+          "offset_along_axis_m": -5,
+          "xy": [
+            -259.83186035917527,
+            -286.0886702642394
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": -2,
+          "xy": [
+            -259.04675975979063,
+            -283.1932226220179
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": -0.25,
+          "xy": [
+            -258.5887844101496,
+            -281.5042114973887
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": 0.25,
+          "xy": [
+            -258.45793431025214,
+            -281.02163689035183
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 49.02954864501953,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 2,
+          "xy": [
+            -257.9999589606111,
+            -279.33262576572264
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 48.70252227783203,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 5,
+          "xy": [
+            -257.21485836122645,
+            -276.43717812350116
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 48.12928771972656,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "osm_id": 807410410,
+      "tags": {
+        "highway": "service",
+        "lit": "yes"
+      },
+      "source_width_m": null,
+      "crossing_xy": [
+        -243.7644488469942,
+        -281.2629241938703
+      ],
+      "boundary_axis": "y",
+      "tangent": [
+        0.7745258540103952,
+        -0.6325422527147637
+      ],
+      "normal": [
+        0.6325422527147637,
+        0.7745258540103952
+      ],
+      "probes": [
+        {
+          "offset_along_axis_m": -5,
+          "xy": [
+            -247.6370781170462,
+            -278.10021293029644
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 51.27684783935547,
+              "material": 1,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -2,
+          "xy": [
+            -245.313500555015,
+            -279.99783968844076
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 51.94635772705078,
+              "material": 1,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -0.25,
+          "xy": [
+            -243.95808031049683,
+            -281.1047886306916
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 52.30870056152344,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 0.25,
+          "xy": [
+            -243.5708173834916,
+            -281.42105975704897
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": 2,
+          "xy": [
+            -242.21539713897343,
+            -282.5280086992998
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": 5,
+          "xy": [
+            -239.89181957694223,
+            -284.4256354574441
+          ],
+          "surfaces": []
+        }
+      ]
+    },
+    {
+      "osm_id": 807410424,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Avenida Carlos Gomes",
+        "oneway": "yes",
+        "surface": "sett"
+      },
+      "source_width_m": null,
+      "crossing_xy": [
+        -179.92307777985866,
+        -281.2629241938703
+      ],
+      "boundary_axis": "y",
+      "tangent": [
+        -0.3917549069566304,
+        -0.9200696130594695
+      ],
+      "normal": [
+        0.9200696130594695,
+        -0.3917549069566304
+      ],
+      "probes": [
+        {
+          "offset_along_axis_m": -5,
+          "xy": [
+            -177.9643032450755,
+            -276.66257612857294
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 59.93638610839844,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -2,
+          "xy": [
+            -179.1395679659454,
+            -279.42278496775134
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 59.42859649658203,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -0.25,
+          "xy": [
+            -179.8251390531195,
+            -281.0329067906054
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 59.14964294433594,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 0.25,
+          "xy": [
+            -180.02101650659782,
+            -281.49294159713514
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": 2,
+          "xy": [
+            -180.70658759377193,
+            -283.1030634199892
+          ],
+          "surfaces": []
+        },
+        {
+          "offset_along_axis_m": 5,
+          "xy": [
+            -181.8818523146418,
+            -285.8632722591676
+          ],
+          "surfaces": []
+        }
+      ]
+    },
+    {
+      "osm_id": 978527848,
+      "tags": {
+        "alt_name": "Avenida Contorno",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Avenida Lafayete Coutinho",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "source_width_m": null,
+      "crossing_xy": [
+        -285.70343017578125,
+        -152.2977468158139
+      ],
+      "boundary_axis": "x",
+      "tangent": [
+        -0.6348046734460594,
+        -0.7726726516261863
+      ],
+      "normal": [
+        0.7726726516261863,
+        -0.6348046734460594
+      ],
+      "probes": [
+        {
+          "offset_along_axis_m": -5,
+          "xy": [
+            -282.52940680855096,
+            -148.43438355768296
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 6.804168701171875,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -2,
+          "xy": [
+            -284.4338208288891,
+            -150.75240151256153
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 6.7369537353515625,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -0.25,
+          "xy": [
+            -285.54472900741973,
+            -152.10457865290735
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 6.723602294921875,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 0.25,
+          "xy": [
+            -285.86213134414277,
+            -152.49091497872044
+          ],
+          "surfaces": [
+            {
+              "object": "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+              "z": 6.7413177490234375,
+              "material": 3,
+              "way_id": 978527848,
+              "surface_role": 1
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 2,
+          "xy": [
+            -286.9730395226734,
+            -153.84309211906626
+          ],
+          "surfaces": [
+            {
+              "object": "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+              "z": 6.91790771484375,
+              "material": 3,
+              "way_id": 978527848,
+              "surface_role": 1
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 5,
+          "xy": [
+            -288.87745354301154,
+            -156.16111007394483
+          ],
+          "surfaces": [
+            {
+              "object": "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+              "z": 7.3042755126953125,
+              "material": 3,
+              "way_id": 978527848,
+              "surface_role": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "osm_id": 1004133492,
+      "tags": {
+        "access": "private",
+        "highway": "service"
+      },
+      "source_width_m": null,
+      "crossing_xy": [
+        -285.70343017578125,
+        7.002454208647556
+      ],
+      "boundary_axis": "x",
+      "tangent": [
+        0.7819043410648115,
+        -0.6233984291157645
+      ],
+      "normal": [
+        0.6233984291157645,
+        0.7819043410648115
+      ],
+      "probes": [
+        {
+          "offset_along_axis_m": -5,
+          "xy": [
+            -289.6129518811053,
+            10.11944635422638
+          ],
+          "surfaces": [
+            {
+              "object": "B63 | VISUAL | piso contínuo até o cais",
+              "z": 7.154144287109375,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -2,
+          "xy": [
+            -287.26723885791085,
+            8.249251066879085
+          ],
+          "surfaces": [
+            {
+              "object": "B63 | VISUAL | piso contínuo até o cais",
+              "z": 6.993408203125,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -0.25,
+          "xy": [
+            -285.89890626104744,
+            7.158303815926497
+          ],
+          "surfaces": [
+            {
+              "object": "B63 | VISUAL | piso contínuo até o cais",
+              "z": 6.8991851806640625,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 0.25,
+          "xy": [
+            -285.50795409051506,
+            6.8466046013686155
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 6.8861236572265625,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 2,
+          "xy": [
+            -284.13962149365165,
+            5.755657350416027
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 6.8986358642578125,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 5,
+          "xy": [
+            -281.7939084704572,
+            3.8854620630687338
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 6.935028076171875,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "osm_id": 1004133493,
+      "tags": {
+        "access": "private",
+        "highway": "service"
+      },
+      "source_width_m": null,
+      "crossing_xy": [
+        -285.70343017578125,
+        -92.47495190180621
+      ],
+      "boundary_axis": "x",
+      "tangent": [
+        -0.5981791618028196,
+        -0.8013623964130563
+      ],
+      "normal": [
+        0.8013623964130563,
+        -0.5981791618028196
+      ],
+      "probes": [
+        {
+          "offset_along_axis_m": -5,
+          "xy": [
+            -282.71253436676716,
+            -88.46813991974092
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 7.3846282958984375,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -2,
+          "xy": [
+            -284.5070718521756,
+            -90.8722271089801
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 7.3394775390625,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -0.25,
+          "xy": [
+            -285.55388538533055,
+            -92.27461130270294
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 7.31866455078125,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 0.25,
+          "xy": [
+            -285.85297496623195,
+            -92.67529250090948
+          ],
+          "surfaces": [
+            {
+              "object": "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+              "z": 7.3112945556640625,
+              "material": 3,
+              "way_id": 1004133493,
+              "surface_role": 1
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 2,
+          "xy": [
+            -286.8997884993869,
+            -94.07767669463232
+          ],
+          "surfaces": [
+            {
+              "object": "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+              "z": 7.3024139404296875,
+              "material": 3,
+              "way_id": 1004133493,
+              "surface_role": 1
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 5,
+          "xy": [
+            -288.69432598479534,
+            -96.4817638838715
+          ],
+          "surfaces": [
+            {
+              "object": "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+              "z": 7.312255859375,
+              "material": 3,
+              "way_id": 1004133493,
+              "surface_role": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "osm_id": 1004133494,
+      "tags": {
+        "access": "private",
+        "highway": "service",
+        "service": "parking_aisle"
+      },
+      "source_width_m": null,
+      "crossing_xy": [
+        -285.70343017578125,
+        -119.36752082036983
+      ],
+      "boundary_axis": "x",
+      "tangent": [
+        -0.5879402028935462,
+        -0.8089043934986976
+      ],
+      "normal": [
+        0.8089043934986976,
+        -0.5879402028935462
+      ],
+      "probes": [
+        {
+          "offset_along_axis_m": -5,
+          "xy": [
+            -282.7637291613135,
+            -115.32299885287634
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 7.17047119140625,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -2,
+          "xy": [
+            -284.52754976999415,
+            -117.74971203337243
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 7.080596923828125,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -0.25,
+          "xy": [
+            -285.55644512505785,
+            -119.16529472199515
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 7.015716552734375,
+              "material": 0,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 0.25,
+          "xy": [
+            -285.85041522650465,
+            -119.56974691874451
+          ],
+          "surfaces": [
+            {
+              "object": "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+              "z": 7.00201416015625,
+              "material": 3,
+              "way_id": 1004133494,
+              "surface_role": 1
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 2,
+          "xy": [
+            -286.87931058156835,
+            -120.98532960736723
+          ],
+          "surfaces": [
+            {
+              "object": "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+              "z": 7.0372314453125,
+              "material": 3,
+              "way_id": 1004133494,
+              "surface_role": 1
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 5,
+          "xy": [
+            -288.643131190249,
+            -123.41204278786333
+          ],
+          "surfaces": [
+            {
+              "object": "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+              "z": 7.1375885009765625,
+              "material": 3,
+              "way_id": 1004133494,
+              "surface_role": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "osm_id": 1075624454,
+      "tags": {
+        "alt_name": "Avenida Contorno",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Avenida Lafayete Coutinho",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "source_width_m": null,
+      "crossing_xy": [
+        -285.70343017578125,
+        -166.21931320597645
+      ],
+      "boundary_axis": "x",
+      "tangent": [
+        0.6102103949863223,
+        0.7922394043789015
+      ],
+      "normal": [
+        -0.7922394043789015,
+        0.6102103949863223
+      ],
+      "probes": [
+        {
+          "offset_along_axis_m": -5,
+          "xy": [
+            -288.7544821507129,
+            -170.18051022787097
+          ],
+          "surfaces": [
+            {
+              "object": "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+              "z": 7.596771240234375,
+              "material": 3,
+              "way_id": 1075624454,
+              "surface_role": 1
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -2,
+          "xy": [
+            -286.9238509657539,
+            -167.80379201473426
+          ],
+          "surfaces": [
+            {
+              "object": "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+              "z": 7.309539794921875,
+              "material": 3,
+              "way_id": 1075624454,
+              "surface_role": 1
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -0.25,
+          "xy": [
+            -285.85598277452783,
+            -166.41737305707116
+          ],
+          "surfaces": [
+            {
+              "object": "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+              "z": 7.195465087890625,
+              "material": 3,
+              "way_id": 1075624454,
+              "surface_role": 1
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 0.25,
+          "xy": [
+            -285.55087757703467,
+            -166.02125335488174
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 7.1804656982421875,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 2,
+          "xy": [
+            -284.4830093858086,
+            -164.63483439721864
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 7.1543121337890625,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 5,
+          "xy": [
+            -282.6523782008496,
+            -162.25811618408193
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 7.1153564453125,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "osm_id": 1075624458,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Praça Castro Alves",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "source_width_m": null,
+      "crossing_xy": [
+        -222.41105211603013,
+        -281.2629241938703
+      ],
+      "boundary_axis": "y",
+      "tangent": [
+        0.2117067830187372,
+        -0.9773332277293437
+      ],
+      "normal": [
+        0.9773332277293437,
+        0.2117067830187372
+      ],
+      "probes": [
+        {
+          "offset_along_axis_m": -5,
+          "xy": [
+            -223.4695860311238,
+            -276.37625805522356
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 56.36772918701172,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -2,
+          "xy": [
+            -222.83446568206762,
+            -279.3082577384116
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 57.01359558105469,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": -0.25,
+          "xy": [
+            -222.4639788117848,
+            -281.01859088693794
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 57.37782287597656,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 0.25,
+          "xy": [
+            -222.35812542027546,
+            -281.5072575008026
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 57.48094177246094,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 2,
+          "xy": [
+            -221.98763854999265,
+            -283.21759064932894
+          ],
+          "surfaces": [
+            {
+              "object": "MVP | terreno corrigido | colisão estática",
+              "z": 57.8336181640625,
+              "material": 2,
+              "way_id": null,
+              "surface_role": null
+            }
+          ]
+        },
+        {
+          "offset_along_axis_m": 5,
+          "xy": [
+            -221.35251820093646,
+            -286.149590332517
+          ],
+          "surfaces": []
+        }
+      ]
+    }
+  ],
+  "geometry_changed": false,
+  "geographic_fit_status": "candidate_only",
+  "geographic_fit_summary": {
+    "anchor_count": 1012,
+    "meters_per_blender_unit": 1.0307434894737246,
+    "rotation_epsg3857_to_blender_deg": -0.05099045551313879,
+    "rms_residual_blender_units": 4.168632432324549,
+    "max_residual_blender_units": 13.825936217326461
+  }
+}

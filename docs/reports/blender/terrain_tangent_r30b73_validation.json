@@ -1,0 +1,87 @@
+{
+  "source": {
+    "file": "blender/salvador_lacerda_r30b73_tangente_encosta_costura.blend",
+    "revision": "R30B.73",
+    "sha256": "d49f9b35e00b292acdbd33028b58f8eaa52d71e9ba9fd232ba679190227e1f0b"
+  },
+  "source_reopened": true,
+  "reopen_proof": {
+    "file": "blender/salvador_lacerda_r30b73_tangente_encosta_costura.blend",
+    "sha256": "d49f9b35e00b292acdbd33028b58f8eaa52d71e9ba9fd232ba679190227e1f0b",
+    "source_mode": "validation",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "load_post_completed": true,
+    "timestamp_utc": "2026-10-05T04:18:56.619902+00:00"
+  },
+  "protected_changes": [],
+  "coordinates_match_candidate": true,
+  "xy_and_topology_preserved": true,
+  "collision_matches_visual": true,
+  "locked_roads_sidewalks_preserved": true,
+  "road_profiles_unchanged": true,
+  "road_support_profiles": [
+    {
+      "osm_way_id": 154743329,
+      "name": "Rua da Conceição da Praia",
+      "max_grade": 0.16203134258718507,
+      "max_crossfall": 0.037740071614583336,
+      "missing_supports": 0
+    },
+    {
+      "osm_way_id": 456471269,
+      "name": "Rua Manoel Vitórino",
+      "max_grade": 0.16154237096579385,
+      "max_crossfall": 0.03768458510890152,
+      "missing_supports": 0
+    },
+    {
+      "osm_way_id": 562660148,
+      "name": "Avenida Lafayete Coutinho",
+      "max_grade": 0.029746826055744958,
+      "max_crossfall": 0.0284738251657197,
+      "missing_supports": 0
+    },
+    {
+      "osm_way_id": 978527848,
+      "name": "Avenida Lafayete Coutinho",
+      "max_grade": 0.183812123435972,
+      "max_crossfall": 0.05228678385416667,
+      "missing_supports": 0
+    },
+    {
+      "osm_way_id": 1004133492,
+      "name": "",
+      "max_grade": 0.05453827691756394,
+      "max_crossfall": 0.04691384055397727,
+      "missing_supports": 0
+    },
+    {
+      "osm_way_id": 1004133493,
+      "name": "",
+      "max_grade": 0.1720396121163967,
+      "max_crossfall": 0.03783254912405303,
+      "missing_supports": 0
+    },
+    {
+      "osm_way_id": 1004133494,
+      "name": "",
+      "max_grade": 0.051178308558778,
+      "max_crossfall": 0.03260756983901515,
+      "missing_supports": 0
+    },
+    {
+      "osm_way_id": 1075624454,
+      "name": "Avenida Lafayete Coutinho",
+      "max_grade": 0.1962071038361172,
+      "max_crossfall": 0.039959531841856064,
+      "missing_supports": 0
+    }
+  ],
+  "degenerate_triangles_hq": 0,
+  "degenerate_triangles_core_pending": 94,
+  "local_geometry_checks_passed": true,
+  "geographic_fit_verified": false,
+  "full_city_approved": false,
+  "runtime_exported": false,
+  "physics_vehicle_validation": false
+}

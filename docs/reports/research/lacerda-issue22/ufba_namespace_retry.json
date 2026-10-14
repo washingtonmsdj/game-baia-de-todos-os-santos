@@ -1,0 +1,11 @@
+{
+  "requested_url": "https://repositorio.ufba.br/ri/bitstream/ri/24863/1/O%20concreto%20armado%20nas%20edifica%C3%A7%C3%B5es%20de%20Salvador%20no%20per%C3%ADodo%20entre%20guerras%20%281919-1938%29.pdf",
+  "retrieved_at": "2026-10-06T12:30:42.921047+00:00",
+  "http_status": "404",
+  "error": "",
+  "tls_verification_disabled": false,
+  "status": "non_pdf_response",
+  "raw_file": "world-reference/mvp-centro-lacerda/research-20261006-issue22/ufba-namespace-retry.html",
+  "sha256": "1eca4b2fdfa3dde377ce7b91a8b265668952cbfeb4228cf52ce7a798a350689c",
+  "bytes": 17442
+}

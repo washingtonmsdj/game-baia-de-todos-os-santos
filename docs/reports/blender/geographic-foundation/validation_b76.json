@@ -1,0 +1,23 @@
+{
+  "source": {
+    "file": "blender/salvador_lacerda_r30b76_fundacao_geografica.blend",
+    "revision": "R30B.76",
+    "status": "geographic_foundation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b75_passeios_larguras_osm.blend",
+    "sha256": "8312775096a6f0fd0de5114885ffe2403ad9e367f38a8b40556433ad2dd79a60",
+    "evidence": "docs/reports/blender/geographic-foundation/application_b76.json",
+    "source_reopened": false,
+    "production_ready": false,
+    "notes": "Contrato geográfico único e Campo da Pólvora real; geometrias anteriores preservadas. Datum e topografia ainda candidatos; autoria/produção mantidas."
+  },
+  "source_reopened": true,
+  "preserved_objects": 6068,
+  "differences": [],
+  "added_objects": [
+    "B76 | Campo da Polvora | footprint OSM"
+  ],
+  "scene_objects": 6069,
+  "ssot_hash_matches": true,
+  "scope": "Malha/curvas/materiais/transforms/hierarquia; constraints usam snapshot reduzido. Sem física, navegação ou prova de datum absoluto.",
+  "production_ready": false
+}

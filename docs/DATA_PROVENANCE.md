@@ -16,6 +16,10 @@ A ausência dessas respostas deve ser tratada como bloqueio para distribuição,
 
 ## Classes de uso
 
+A partir da B77, `world/provenance-policy.json` centraliza as classes de release e a correspondência com as classes históricas abaixo. `world/data-provenance.json` indexa fontes territoriais e derivados sem substituir catálogos de mídia. Autorizado nesta etapa usar Aleph, satélite e Street View amplamente como referência de desenvolvimento isolada (`DEV_REFERENCE_ONLY`); isso não aprova empacotamento nem produção derivativa para release. A licença MIT do Aleph não se transfere aos dados coletados.
+
+O gate `tools/references/audit_release_provenance.py` exige manifesto `boas/release-content-v1`, recursos, arquivos com hashes e `inventory_complete: true`. Dependências de materiais/texturas precisam ser declaradas pelo exportador. Não existe aprovação por ausência de dados nem inspeção automática do binário glTF nesta fundação.
+
 ### `PRODUCAO_APROVADA`
 
 A fonte possui licença/termos compatíveis com o uso pretendido e as obrigações estão registradas.

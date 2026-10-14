@@ -1,0 +1,30 @@
+{
+  "source": {
+    "file": "blender/salvador_lacerda_r30b75_passeios_larguras_osm.blend",
+    "sha256": "e1fcd8446aef5bee1fbd6d2cd787ba511c5bf38d2a3b959a6b4c113db9a8829a",
+    "revision": "R30B.75"
+  },
+  "source_reopened": true,
+  "load_post_completed": true,
+  "saved_partitions_exact": true,
+  "orphan_vertices": 0,
+  "faces_covered_exactly_once": true,
+  "protected_changes": [],
+  "walkway_count": 29,
+  "topology": {
+    "internal_open_edges": 0,
+    "edges_more_than_two_faces": 0,
+    "degenerate_triangles": 0,
+    "xy_area_difference": 0.0005137622356414795,
+    "omitted_numeric_area": 3.950419227900822e-06,
+    "new_vertices_numeric_welded": 0,
+    "max_numeric_weld_scene": 0.0,
+    "collapsed_numeric_triangles_removed": 0,
+    "collinear_junction_edge_splits": 22
+  },
+  "driver_camera_preserved": true,
+  "motor_roads_built": false,
+  "new_physics_test": false,
+  "walkability_approved": false,
+  "production_ready": false
+}

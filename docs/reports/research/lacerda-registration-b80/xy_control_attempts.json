@@ -1,0 +1,154 @@
+{
+  "schema": "boas/drawing-control-attempts-v1",
+  "controls": [
+    {
+      "control_id": "XY-12-1",
+      "drawing_id": "sucop-2023-12",
+      "drawing_point": [
+        831.6,
+        1013.2
+      ],
+      "drawing_point_frame": "PDF points, origem superior esquerda; não é coordenada métrica",
+      "vector_curve_index": 437,
+      "vector_vertex_index": 0,
+      "scene_object": null,
+      "scene_point": null,
+      "source": "source:lacerda-issue22-sucop-12",
+      "confidence": "unmatched",
+      "residual": null,
+      "reason": "Quina do contorno vetorial da região da torre: a B80 contém plataformas retangulares e elementos de fases diferentes, sem vínculo físico suficiente com esta quina. Não escolher vértice por proximidade ou pelo nome.",
+      "accepted_for_registration": false
+    },
+    {
+      "control_id": "XY-12-2",
+      "drawing_id": "sucop-2023-12",
+      "drawing_point": [
+        816.9599999999999,
+        1062.6399999999999
+      ],
+      "drawing_point_frame": "PDF points, origem superior esquerda; não é coordenada métrica",
+      "vector_curve_index": 437,
+      "vector_vertex_index": 1,
+      "scene_object": null,
+      "scene_point": null,
+      "source": "source:lacerda-issue22-sucop-12",
+      "confidence": "unmatched",
+      "residual": null,
+      "reason": "Quina do contorno vetorial da região da torre: a B80 contém plataformas retangulares e elementos de fases diferentes, sem vínculo físico suficiente com esta quina. Não escolher vértice por proximidade ou pelo nome.",
+      "accepted_for_registration": false
+    },
+    {
+      "control_id": "XY-12-3",
+      "drawing_id": "sucop-2023-12",
+      "drawing_point": [
+        977.04,
+        1057.24
+      ],
+      "drawing_point_frame": "PDF points, origem superior esquerda; não é coordenada métrica",
+      "vector_curve_index": 437,
+      "vector_vertex_index": 3,
+      "scene_object": null,
+      "scene_point": null,
+      "source": "source:lacerda-issue22-sucop-12",
+      "confidence": "unmatched",
+      "residual": null,
+      "reason": "Quina do contorno vetorial da região da torre: a B80 contém plataformas retangulares e elementos de fases diferentes, sem vínculo físico suficiente com esta quina. Não escolher vértice por proximidade ou pelo nome.",
+      "accepted_for_registration": false
+    },
+    {
+      "control_id": "XY-17-1",
+      "drawing_id": "sucop-2023-17",
+      "drawing_point": [
+        829.3199999999999,
+        1012.0
+      ],
+      "drawing_point_frame": "PDF points, origem superior esquerda; não é coordenada métrica",
+      "vector_curve_index": 1682,
+      "vector_vertex_index": 5,
+      "scene_object": null,
+      "scene_point": null,
+      "source": "source:lacerda-issue22-sucop-17",
+      "confidence": "unmatched",
+      "residual": null,
+      "reason": "Quina do contorno vetorial da região da torre: a B80 contém plataformas retangulares e elementos de fases diferentes, sem vínculo físico suficiente com esta quina. Não escolher vértice por proximidade ou pelo nome.",
+      "accepted_for_registration": false
+    },
+    {
+      "control_id": "XY-17-2",
+      "drawing_id": "sucop-2023-17",
+      "drawing_point": [
+        816.48,
+        1055.56
+      ],
+      "drawing_point_frame": "PDF points, origem superior esquerda; não é coordenada métrica",
+      "vector_curve_index": 1682,
+      "vector_vertex_index": 6,
+      "scene_object": null,
+      "scene_point": null,
+      "source": "source:lacerda-issue22-sucop-17",
+      "confidence": "unmatched",
+      "residual": null,
+      "reason": "Quina do contorno vetorial da região da torre: a B80 contém plataformas retangulares e elementos de fases diferentes, sem vínculo físico suficiente com esta quina. Não escolher vértice por proximidade ou pelo nome.",
+      "accepted_for_registration": false
+    },
+    {
+      "control_id": "XY-17-3",
+      "drawing_id": "sucop-2023-17",
+      "drawing_point": [
+        941.64,
+        1093.24
+      ],
+      "drawing_point_frame": "PDF points, origem superior esquerda; não é coordenada métrica",
+      "vector_curve_index": 1682,
+      "vector_vertex_index": 14,
+      "scene_object": null,
+      "scene_point": null,
+      "source": "source:lacerda-issue22-sucop-17",
+      "confidence": "unmatched",
+      "residual": null,
+      "reason": "Quina do contorno vetorial da região da torre: a B80 contém plataformas retangulares e elementos de fases diferentes, sem vínculo físico suficiente com esta quina. Não escolher vértice por proximidade ou pelo nome.",
+      "accepted_for_registration": false
+    },
+    {
+      "control_id": "XY-13-1",
+      "drawing_id": "sucop-2023-13",
+      "drawing_point": null,
+      "scene_object": null,
+      "scene_point": null,
+      "source": "source:lacerda-issue22-sucop-13",
+      "confidence": "unmatched",
+      "residual": null,
+      "reason": "encontro cobertura/torre: candidato buscado, sem identificação inequívoca dos mesmos pontos na cena; nenhum registro independente foi ajustado para encaixar a cobertura.",
+      "accepted_for_registration": false
+    },
+    {
+      "control_id": "XY-13-2",
+      "drawing_id": "sucop-2023-13",
+      "drawing_point": null,
+      "scene_object": null,
+      "scene_point": null,
+      "source": "source:lacerda-issue22-sucop-13",
+      "confidence": "unmatched",
+      "residual": null,
+      "reason": "quina estrutural da cobertura: candidato buscado, sem identificação inequívoca dos mesmos pontos na cena; nenhum registro independente foi ajustado para encaixar a cobertura.",
+      "accepted_for_registration": false
+    },
+    {
+      "control_id": "XY-13-3",
+      "drawing_id": "sucop-2023-13",
+      "drawing_point": null,
+      "scene_object": null,
+      "scene_point": null,
+      "source": "source:lacerda-issue22-sucop-13",
+      "confidence": "unmatched",
+      "residual": null,
+      "reason": "limite permanente do saguão: candidato buscado, sem identificação inequívoca dos mesmos pontos na cena; nenhum registro independente foi ajustado para encaixar a cobertura.",
+      "accepted_for_registration": false
+    }
+  ],
+  "transform_to_ssot": null,
+  "physical_dimensions_from_pixels": false,
+  "scale_from_titleblock": false,
+  "status": "UNRESOLVED",
+  "note": "Pontos vetoriais extraídos são candidatos documentais, não controles físicos já aceitos. Não bastam três pontos na mesma curva para provar a associação com a B80."
+}

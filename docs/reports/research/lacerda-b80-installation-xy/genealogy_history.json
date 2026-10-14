@@ -1,0 +1,659 @@
+{
+  "status": "STILL_UNRESOLVED",
+  "decision": "NO_SCENE_CHANGE",
+  "reports": [
+    {
+      "path": "docs/reports/blender/r30a/georef_hints.json",
+      "sha256": "2289ffb0f17cfd3cf39006346cf45796c7342ff4d057b3b882b13948c1bf34ca",
+      "blend_file": "salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r27.blend",
+      "generated_at": "2026-09-28T03:43:44.656429+00:00",
+      "properties": {
+        "mvp_terrain_source": "Aleph DEM EPSG:3857 + OSM (praça, escarpa, ladeira, caminhos do Elevador)",
+        "mvp_terrain_method": "DEM em metros; praça 70 m, saída baixa 11 m e Mercado 10.9 m compatibilizados localmente",
+        "terrain_surface_revision": "v1: vias e terreno compartilham vértices; sem fitas sobrepostas",
+        "lower_terminal_r21": "Cota do passeio 7.406, terreno local 7.256; aproximação do MVP, não levantamento oficial"
+      },
+      "objects": [
+        {
+          "name": "CALIBRADO | passarela piso 28.71 x 6.00m",
+          "type": "MESH",
+          "osm_ids": [],
+          "properties": {
+            "navigation_source": "Rendered structural floor"
+          },
+          "location_world": [
+            -35.429844,
+            39.066471,
+            69.550003
+          ],
+          "bounds_world": {
+            "min": [
+              -47.950706,
+              8.698017,
+              69.100006
+            ],
+            "max": [
+              -3.344909,
+              51.076889,
+              70.0
+            ],
+            "center": [
+              -25.647808,
+              29.887453,
+              69.550003
+            ],
+            "size": [
+              44.605797,
+              42.378872,
+              0.899994
+            ]
+          },
+          "collections": [
+            "08 ELEVADOR E TERRENO | dimensoes calibradas"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/reports/blender/r30a/structural_scene_audit_before.json",
+      "sha256": "8812351bd5c772c14248071a6a80bc1f7b634db7c2fdacee3803f0f9ca3b63f2",
+      "blend_file": "salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a_preflight.blend",
+      "generated_at": null,
+      "properties": {},
+      "objects": [
+        {
+          "name": "CALIBRADO | passarela cobertura 28.71 x 6.00m",
+          "type": "MESH",
+          "categories": [
+            "terrain"
+          ],
+          "osm_ids": [],
+          "collections": [
+            "08 ELEVADOR E TERRENO | dimensoes calibradas"
+          ],
+          "location": [
+            -35.42984390258789,
+            39.066471099853516,
+            74.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "nonuniform_scale": false,
+          "bounds": {
+            "min": [
+              -47.950706481933594,
+              8.698017120361328,
+              73.82499694824219
+            ],
+            "max": [
+              -3.344909429550171,
+              51.07688903808594,
+              74.17500305175781
+            ]
+          },
+          "geometry": {
+            "vertices": 8,
+            "edges": 12,
+            "polygons": 6
+          },
+          "modifiers": [],
+          "hide_render": false
+        },
+        {
+          "name": "CALIBRADO | passarela piso 28.71 x 6.00m",
+          "type": "MESH",
+          "categories": [
+            "terrain"
+          ],
+          "osm_ids": [],
+          "collections": [
+            "08 ELEVADOR E TERRENO | dimensoes calibradas"
+          ],
+          "location": [
+            -35.42984390258789,
+            39.066471099853516,
+            69.55000305175781
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "nonuniform_scale": false,
+          "bounds": {
+            "min": [
+              -47.950706481933594,
+              8.698017120361328,
+              69.10000610351562
+            ],
+            "max": [
+              -3.344909429550171,
+              51.07688903808594,
+              70.0
+            ]
+          },
+          "geometry": {
+            "vertices": 8,
+            "edges": 12,
+            "polygons": 6
+          },
+          "modifiers": [],
+          "hide_render": false
+        },
+        {
+          "name": "ESTAÇÃO INFERIOR | cobertura",
+          "type": "MESH",
+          "categories": [
+            "buildings"
+          ],
+          "osm_ids": [],
+          "collections": [
+            "11 ELEVADOR LACERDA | interior jogavel"
+          ],
+          "location": [
+            -50.400856018066406,
+            53.11458969116211,
+            11.791000366210938
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "nonuniform_scale": false,
+          "bounds": {
+            "min": [
+              -56.242549896240234,
+              47.167701721191406,
+              11.666000366210938
+            ],
+            "max": [
+              -44.55916213989258,
+              59.06147766113281,
+              11.916000366210938
+            ]
+          },
+          "geometry": {
+            "vertices": 8,
+            "edges": 12,
+            "polygons": 6
+          },
+          "modifiers": [],
+          "hide_render": false
+        },
+        {
+          "name": "ESTAÇÃO INFERIOR | plataforma",
+          "type": "MESH",
+          "categories": [
+            "buildings"
+          ],
+          "osm_ids": [],
+          "collections": [
+            "11 ELEVADOR LACERDA | interior jogavel"
+          ],
+          "location": [
+            -50.400856018066406,
+            53.11458969116211,
+            7.210999965667725
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "nonuniform_scale": false,
+          "bounds": {
+            "min": [
+              -56.242549896240234,
+              47.167701721191406,
+              7.071000099182129
+            ],
+            "max": [
+              -44.55916213989258,
+              59.06147766113281,
+              7.35099983215332
+            ]
+          },
+          "geometry": {
+            "vertices": 8,
+            "edges": 12,
+            "polygons": 6
+          },
+          "modifiers": [],
+          "hide_render": false
+        },
+        {
+          "name": "FUNCIONAL | 3 soleira inferior",
+          "type": "MESH",
+          "categories": [
+            "buildings"
+          ],
+          "osm_ids": [],
+          "collections": [
+            "30 LACERDA | sistema funcional"
+          ],
+          "location": [
+            0.0,
+            0.0,
+            -3.7090001106262207
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "nonuniform_scale": false,
+          "bounds": {
+            "min": [
+              -50.06086349487305,
+              49.66914749145508,
+              7.405999660491943
+            ],
+            "max": [
+              -49.192386627197266,
+              50.58168029785156,
+              7.429999828338623
+            ]
+          },
+          "geometry": {
+            "vertices": 8,
+            "edges": 12,
+            "polygons": 6
+          },
+          "modifiers": [],
+          "hide_render": false
+        },
+        {
+          "name": "FUNCIONAL | soleira inferior",
+          "type": "MESH",
+          "categories": [
+            "buildings"
+          ],
+          "osm_ids": [],
+          "collections": [
+            "30 LACERDA | sistema funcional"
+          ],
+          "location": [
+            0.0,
+            0.0,
+            -3.7090001106262207
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "nonuniform_scale": false,
+          "bounds": {
+            "min": [
+              -53.212867736816406,
+              48.72962188720703,
+              7.265998363494873
+            ],
+            "max": [
+              -46.05746841430664,
+              56.06258773803711,
+              7.4059977531433105
+            ]
+          },
+          "geometry": {
+            "vertices": 8,
+            "edges": 12,
+            "polygons": 6
+          },
+          "modifiers": [],
+          "hide_render": false
+        },
+        {
+          "name": "INFERIOR | piso do saguão",
+          "type": "MESH",
+          "categories": [
+            "buildings"
+          ],
+          "osm_ids": [],
+          "collections": [
+            "11 ELEVADOR LACERDA | interior jogavel"
+          ],
+          "location": [
+            -53.60945129394531,
+            56.125389099121094,
+            7.280999660491943
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "nonuniform_scale": false,
+          "bounds": {
+            "min": [
+              -60.307838439941406,
+              49.39553451538086,
+              7.155999660491943
+            ],
+            "max": [
+              -46.91106414794922,
+              62.85524368286133,
+              7.405999660491943
+            ]
+          },
+          "geometry": {
+            "vertices": 8,
+            "edges": 12,
+            "polygons": 6
+          },
+          "modifiers": [],
+          "hide_render": false
+        }
+      ]
+    },
+    {
+      "path": "docs/reports/blender/r30a1/structural_scene_audit_before.json",
+      "sha256": "83c5a6c48c26cab2ce210397e19eadc99eaff5fa3949aa1614c71d2fa5f1d6be",
+      "blend_file": "salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a_structure_ref.blend",
+      "generated_at": null,
+      "properties": {},
+      "objects": [
+        {
+          "name": "CALIBRADO | passarela cobertura 28.71 x 6.00m",
+          "type": "MESH",
+          "categories": [
+            "terrain"
+          ],
+          "osm_ids": [],
+          "collections": [
+            "08 ELEVADOR E TERRENO | dimensoes calibradas"
+          ],
+          "location": [
+            -35.42984390258789,
+            39.066471099853516,
+            74.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "nonuniform_scale": false,
+          "bounds": {
+            "min": [
+              -47.950706481933594,
+              8.698017120361328,
+              73.82499694824219
+            ],
+            "max": [
+              -3.344909429550171,
+              51.07688903808594,
+              74.17500305175781
+            ]
+          },
+          "geometry": {
+            "vertices": 8,
+            "edges": 12,
+            "polygons": 6
+          },
+          "modifiers": [],
+          "hide_render": false
+        },
+        {
+          "name": "CALIBRADO | passarela piso 28.71 x 6.00m",
+          "type": "MESH",
+          "categories": [
+            "terrain"
+          ],
+          "osm_ids": [],
+          "collections": [
+            "08 ELEVADOR E TERRENO | dimensoes calibradas"
+          ],
+          "location": [
+            -35.42984390258789,
+            39.066471099853516,
+            69.55000305175781
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "nonuniform_scale": false,
+          "bounds": {
+            "min": [
+              -47.950706481933594,
+              8.698017120361328,
+              69.10000610351562
+            ],
+            "max": [
+              -3.344909429550171,
+              51.07688903808594,
+              70.0
+            ]
+          },
+          "geometry": {
+            "vertices": 8,
+            "edges": 12,
+            "polygons": 6
+          },
+          "modifiers": [],
+          "hide_render": false
+        },
+        {
+          "name": "ESTAÇÃO INFERIOR | cobertura",
+          "type": "MESH",
+          "categories": [
+            "buildings"
+          ],
+          "osm_ids": [],
+          "collections": [
+            "11 ELEVADOR LACERDA | interior jogavel"
+          ],
+          "location": [
+            -50.400856018066406,
+            53.11458969116211,
+            11.791000366210938
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "nonuniform_scale": false,
+          "bounds": {
+            "min": [
+              -56.242549896240234,
+              47.167701721191406,
+              11.666000366210938
+            ],
+            "max": [
+              -44.55916213989258,
+              59.06147766113281,
+              11.916000366210938
+            ]
+          },
+          "geometry": {
+            "vertices": 8,
+            "edges": 12,
+            "polygons": 6
+          },
+          "modifiers": [],
+          "hide_render": false
+        },
+        {
+          "name": "ESTAÇÃO INFERIOR | plataforma",
+          "type": "MESH",
+          "categories": [
+            "buildings"
+          ],
+          "osm_ids": [],
+          "collections": [
+            "11 ELEVADOR LACERDA | interior jogavel"
+          ],
+          "location": [
+            -50.400856018066406,
+            53.11458969116211,
+            7.210999965667725
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "nonuniform_scale": false,
+          "bounds": {
+            "min": [
+              -56.242549896240234,
+              47.167701721191406,
+              7.071000099182129
+            ],
+            "max": [
+              -44.55916213989258,
+              59.06147766113281,
+              7.35099983215332
+            ]
+          },
+          "geometry": {
+            "vertices": 8,
+            "edges": 12,
+            "polygons": 6
+          },
+          "modifiers": [],
+          "hide_render": false
+        },
+        {
+          "name": "FUNCIONAL | 3 soleira inferior",
+          "type": "MESH",
+          "categories": [
+            "buildings"
+          ],
+          "osm_ids": [],
+          "collections": [
+            "30 LACERDA | sistema funcional"
+          ],
+          "location": [
+            0.0,
+            0.0,
+            -3.7090001106262207
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "nonuniform_scale": false,
+          "bounds": {
+            "min": [
+              -50.06086349487305,
+              49.66914749145508,
+              7.405999660491943
+            ],
+            "max": [
+              -49.192386627197266,
+              50.58168029785156,
+              7.429999828338623
+            ]
+          },
+          "geometry": {
+            "vertices": 8,
+            "edges": 12,
+            "polygons": 6
+          },
+          "modifiers": [],
+          "hide_render": false
+        },
+        {
+          "name": "FUNCIONAL | soleira inferior",
+          "type": "MESH",
+          "categories": [
+            "buildings"
+          ],
+          "osm_ids": [],
+          "collections": [
+            "30 LACERDA | sistema funcional"
+          ],
+          "location": [
+            0.0,
+            0.0,
+            -3.7090001106262207
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "nonuniform_scale": false,
+          "bounds": {
+            "min": [
+              -53.212867736816406,
+              48.72962188720703,
+              7.265998363494873
+            ],
+            "max": [
+              -46.05746841430664,
+              56.06258773803711,
+              7.4059977531433105
+            ]
+          },
+          "geometry": {
+            "vertices": 8,
+            "edges": 12,
+            "polygons": 6
+          },
+          "modifiers": [],
+          "hide_render": false
+        },
+        {
+          "name": "INFERIOR | piso do saguão",
+          "type": "MESH",
+          "categories": [
+            "buildings"
+          ],
+          "osm_ids": [],
+          "collections": [
+            "11 ELEVADOR LACERDA | interior jogavel"
+          ],
+          "location": [
+            -53.60945129394531,
+            56.125389099121094,
+            7.280999660491943
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "nonuniform_scale": false,
+          "bounds": {
+            "min": [
+              -60.307838439941406,
+              49.39553451538086,
+              7.155999660491943
+            ],
+            "max": [
+              -46.91106414794922,
+              62.85524368286133,
+              7.405999660491943
+            ]
+          },
+          "geometry": {
+            "vertices": 8,
+            "edges": 12,
+            "polygons": 6
+          },
+          "modifiers": [],
+          "hide_render": false
+        }
+      ]
+    }
+  ],
+  "git_pickaxe": {
+    "3.709": "23c516612e75f4ef96529c7facc243fb94e9649c 2026-10-04 08:47:18 -0300 Registra vias B40, revisão de percursos e lanternas Rondesp V25\n\ndocs/reports/blender/rondesp_network_audit_b38.json\ndocs/reports/blender/rondesp_network_current.json\ndocs/reports/blender/rondesp_turn_audit.json\ne4ac6c8e979ae9f4adfa6c5fcdba5d270bdbfe86 2026-10-02 19:22:15 -0300 Consolida revisões Blender até B38 e pipeline do MVP\n\ndocs/reports/blender/cidade_baixa_building_before.json\ndocs/reports/blender/terrain_vehicle_audit_r30b23.json\ndocs/reports/blender/terrain_vehicle_audit_r30b24.json\ndocs/reports/blender/terrain_vehicle_audit_r30b25.json\ndocs/reports/blender/terrain_vehicle_audit_r30b29.json\nd631b431b04db5b67d817988c99e655a4808d658 2026-09-28 08:04:09 -0300 R30A.1 corrige diagnóstico e versiona cena Blender via LFS\n\ndocs/reports/blender/r30a1/structural_scene_audit_after.json\ndocs/reports/blender/r30a1/structural_scene_audit_before.json\ndocs/reports/blender/r30a1/terrain_samples.json\nb2a9e7c2ad3d9e2ce024a6c1cc7a96aadae96a26 2026-09-28 00:48:45 -0300 R30A registra pre-flight estrutural bloqueado\n\ndocs/reports/blender/r30a/georef_hints.json\ndocs/reports/blender/r30a/structural_scene_audit_after.json\ndocs/reports/blender/r30a/structural_scene_audit_before.json\ndocs/reports/blender/r30a/terrain_samples.json\n",
+    "28.71": "23c516612e75f4ef96529c7facc243fb94e9649c 2026-10-04 08:47:18 -0300 Registra vias B40, revisão de percursos e lanternas Rondesp V25\n\ndocs/reports/blender/road_width_scene_b39.json\ndocs/reports/blender/rondesp_network_audit_b38.json\ndocs/reports/blender/rondesp_network_current.json\ndocs/reports/blender/rondesp_turn_audit.json\ne4ac6c8e979ae9f4adfa6c5fcdba5d270bdbfe86 2026-10-02 19:22:15 -0300 Consolida revisões Blender até B38 e pipeline do MVP\n\ndocs/reports/blender/cidade_baixa_building_before.json\ndocs/reports/blender/terrain_vehicle_audit_r30b23.json\ndocs/reports/blender/terrain_vehicle_audit_r30b24.json\ndocs/reports/blender/terrain_vehicle_audit_r30b25.json\ndocs/reports/blender/terrain_vehicle_audit_r30b29.json\nb03387a044e0d2e24679ce0ce2aae1cff94be7e4 2026-09-28 15:21:45 -0300 R30A.7 adiciona grafo logico de vias e cruzamentos\n\ndocs/reports/blender/r30a7/road_graph.json\nd631b431b04db5b67d817988c99e655a4808d658 2026-09-28 08:04:09 -0300 R30A.1 corrige diagnóstico e versiona cena Blender via LFS\n\ndocs/reports/blender/r30a1/scene_reference_alignment.json\ndocs/reports/blender/r30a1/structural_scene_audit_after.json\ndocs/reports/blender/r30a1/structural_scene_audit_before.json\na19b4fdc48c2defb3d026289700e694f19197a2b 2026-09-28 07:03:39 -0300 R30A executa diagnóstico estrutural e registra bloqueios\n\ndocs/reports/blender/r30a/scene_reference_alignment.json\ndocs/reports/blender/r30a/terrain_vertical_fit.json\nb2a9e7c2ad3d9e2ce024a6c1cc7a96aadae96a26 2026-09-28 00:48:45 -0300 R30A registra pre-flight estrutural bloqueado\n\ndocs/reports/blender/r30a/georef_hints.json\ndocs/reports/blender/r30a/structural_scene_audit_after.json\ndocs/reports/blender/r30a/structural_scene_audit_before.json\ndocs/reports/blender/r30a/terrain_samples.json\n",
+    "lower_terminal_r21": "b2a9e7c2ad3d9e2ce024a6c1cc7a96aadae96a26 2026-09-28 00:48:45 -0300 R30A registra pre-flight estrutural bloqueado\n\ndocs/reports/blender/r30a/georef_hints.json\n",
+    "55.539": "23c516612e75f4ef96529c7facc243fb94e9649c 2026-10-04 08:47:18 -0300 Registra vias B40, revisão de percursos e lanternas Rondesp V25\n\ndocs/reports/blender/rondesp_network_audit_b38.json\ndocs/reports/blender/rondesp_network_current.json\ne4ac6c8e979ae9f4adfa6c5fcdba5d270bdbfe86 2026-10-02 19:22:15 -0300 Consolida revisões Blender até B38 e pipeline do MVP\n\nautomation/blender/refine_lacerda_r30b08_support.py\nd631b431b04db5b67d817988c99e655a4808d658 2026-09-28 08:04:09 -0300 R30A.1 corrige diagnóstico e versiona cena Blender via LFS\n\ndocs/reports/blender/r30a1/scene_reference_alignment.json\na19b4fdc48c2defb3d026289700e694f19197a2b 2026-09-28 07:03:39 -0300 R30A executa diagnóstico estrutural e registra bloqueios\n\ndocs/reports/blender/r30a/scene_reference_alignment.json\nb2a9e7c2ad3d9e2ce024a6c1cc7a96aadae96a26 2026-09-28 00:48:45 -0300 R30A registra pre-flight estrutural bloqueado\n\ndocs/reports/blender/r30a/georef_hints.json\n"
+  },
+  "first_introducing_revision": null,
+  "semantic_hint": "lower_terminal_r21 registra cota aproximada do MVP 7.406, não levantamento oficial; isso não prova que R21 introduziu o transform",
+  "note": "Primeira ocorrência em relatório/commit não equivale à operação que criou o offset ou deformou a passarela. Não executar scripts históricos."
+}

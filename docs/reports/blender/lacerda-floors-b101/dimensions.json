@@ -1,0 +1,329 @@
+{
+  "schema": "boas/lacerda-structural-dimensions-v1",
+  "revision": "R30B.101",
+  "source_file": "blender/salvador_lacerda_r30b101_pavimentos_estruturais.blend",
+  "parent_ssot": "world/geographic-reference.json",
+  "architectural_frame": "docs/reports/blender/lacerda-corridor/scene_b78.json",
+  "relative_levels": [
+    {
+      "object": "INFERIOR | piso do saguão",
+      "source": "SUCOP23/18/19/20 níveis relativos impressos",
+      "offset_m": -59.01,
+      "measured_offset_m": -59.010000228881836,
+      "residual_m": -2.2888183792701966e-07,
+      "kind": "PRINTED_RELATIVE_LEVEL"
+    },
+    {
+      "object": "INFERIOR | cobertura do saguão",
+      "source": "SUCOP23/18/19/20 níveis relativos impressos",
+      "offset_m": -53.17,
+      "measured_offset_m": -53.170000076293945,
+      "residual_m": -7.629394360719743e-08,
+      "kind": "PRINTED_RELATIVE_LEVEL"
+    },
+    {
+      "object": "SUPERIOR | piso saguão",
+      "source": "SUCOP23/18/19/20 níveis relativos impressos",
+      "offset_m": 0.0,
+      "measured_offset_m": 0.0,
+      "residual_m": 0.0,
+      "kind": "PRINTED_RELATIVE_LEVEL"
+    },
+    {
+      "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+      "source": "SUCOP23 níveis; camada de acabamento da ponte−0,03 herdada/candidata",
+      "offset_m": -0.03,
+      "measured_offset_m": -0.029998779296875,
+      "residual_m": 1.2207031249988898e-06,
+      "kind": "LEGACY_FINISH_THICKNESS_CANDIDATE"
+    },
+    {
+      "object": "SUPERIOR | cobertura saguão",
+      "source": "SUCOP23/18/19/20 níveis relativos impressos",
+      "offset_m": 4.0,
+      "measured_offset_m": 3.9999923706054688,
+      "residual_m": -7.62939453125e-06,
+      "kind": "PRINTED_RELATIVE_LEVEL"
+    },
+    {
+      "object": "CALIBRADO | passarela cobertura 28.71 x 6.00m",
+      "source": "SUCOP23/18/19/20 níveis relativos impressos",
+      "offset_m": 4.0,
+      "measured_offset_m": 4.0,
+      "residual_m": 0.0,
+      "kind": "PRINTED_RELATIVE_LEVEL"
+    },
+    {
+      "object": "TORRE | teto galeria",
+      "source": "SUCOP23/18/19/20 níveis relativos impressos",
+      "offset_m": 4.0,
+      "measured_offset_m": 4.0,
+      "residual_m": 0.0,
+      "kind": "PRINTED_RELATIVE_LEVEL"
+    },
+    {
+      "object": "B99 | cidade alta | laje subsolo 01 área documentada",
+      "source": "SUCOP23/18/19/20 níveis relativos impressos",
+      "offset_m": -4.97,
+      "measured_offset_m": -4.970001220703125,
+      "residual_m": -1.22070312524869e-06,
+      "kind": "PRINTED_RELATIVE_LEVEL"
+    },
+    {
+      "object": "B100 | cidade alta | laje administrativa 01",
+      "source": "SUCOP23/18/19/20 níveis relativos impressos",
+      "offset_m": 4.94,
+      "measured_offset_m": 4.94000244140625,
+      "residual_m": 2.4414062496092015e-06,
+      "kind": "PRINTED_RELATIVE_LEVEL"
+    },
+    {
+      "object": "B100 | cidade alta | laje administrativa 02",
+      "source": "SUCOP23/18/19/20 níveis relativos impressos",
+      "offset_m": 9.42,
+      "measured_offset_m": 9.419998168945312,
+      "residual_m": -1.8310546874289457e-06,
+      "kind": "PRINTED_RELATIVE_LEVEL"
+    },
+    {
+      "object": "SUPERIOR | cobertura corpo elevado",
+      "source": "SUCOP23/18/19/20 níveis relativos impressos",
+      "offset_m": 14.0,
+      "measured_offset_m": 14.0,
+      "residual_m": 0.0,
+      "kind": "PRINTED_RELATIVE_LEVEL"
+    },
+    {
+      "object": "TORRE | capeamento tecnico",
+      "source": "SUCOP23/18/19/20 níveis relativos impressos",
+      "offset_m": 14.0,
+      "measured_offset_m": 14.0,
+      "residual_m": 0.0,
+      "kind": "PRINTED_RELATIVE_LEVEL"
+    },
+    {
+      "object": "B100 | cidade alta | platibanda contorno completo",
+      "source": "SUCOP23/18/19/20 níveis relativos impressos",
+      "offset_m": 15.4,
+      "measured_offset_m": 15.400001525878906,
+      "residual_m": 1.5258789058947286e-06,
+      "kind": "PRINTED_RELATIVE_LEVEL"
+    },
+    {
+      "object": "B101 | cidade alta | laje subsolo 02 subestação",
+      "printed_level_offset_m": -9.74,
+      "scene_level_offset_m": -9.740001678466797,
+      "contour_max_residual_m": 4.76837158203125e-07,
+      "section_candidate_m": 0.25,
+      "area_document_contour_m2": 80.90728746392006
+    },
+    {
+      "object": "B101 | cidade alta | piso sala técnica norte subsolo 03",
+      "printed_level_offset_m": -19.85,
+      "scene_level_offset_m": -19.849998474121094,
+      "contour_max_residual_m": 9.5367431640625e-07,
+      "section_candidate_m": 0.25,
+      "area_document_contour_m2": 14.128776572151157
+    },
+    {
+      "object": "B101 | cidade alta | piso sala técnica sul subsolo 03",
+      "printed_level_offset_m": -19.85,
+      "scene_level_offset_m": -19.849998474121094,
+      "contour_max_residual_m": 1.3486991523486091e-06,
+      "section_candidate_m": 0.25,
+      "area_document_contour_m2": 14.237319316129721
+    }
+  ],
+  "document_contours": [
+    {
+      "part": "new_core",
+      "scene_object": "CASCA | parede lateral",
+      "drawing_id": "sucop-2023-17",
+      "source_type": "DOCUMENT_VECTOR_CONTOUR_SCALED_BY_PRINTED_CONTROLS",
+      "contour_residual_m": 9.513976587506594e-06,
+      "bounds_in_architecture_m": [
+        [
+          -50.497535705566406,
+          -44.92477035522461
+        ],
+        [
+          -0.3873937129974365,
+          7.820919513702393
+        ],
+        [
+          16.9530086517334,
+          83.92301177978516
+        ]
+      ],
+      "edges_document_m": [
+        1.2025909247873816,
+        0.1788380683888963,
+        0.8680306507220059,
+        0.1827972395809766,
+        1.1925549155913069,
+        0.2111079146744939,
+        0.1949683230310305,
+        1.1925549155913062,
+        0.23906076334555204,
+        0.3415545385698684,
+        0.350687182649952,
+        1.260763077219198,
+        0.2442553954365046,
+        0.22902271302623228,
+        1.2016892703109507,
+        0.24209930494616932,
+        0.24514131475527257,
+        0.3406529672164198,
+        1.2608150597816747,
+        0.3677119721329135,
+        0.23206234159067413,
+        1.1886084030167658,
+        0.1888740510791351,
+        0.1788380683888922,
+        1.1925549155913135,
+        0.16487443680954264,
+        0.8797818703981904,
+        0.16487443680954073,
+        1.195599021160669,
+        0.2089475721732031,
+        0.19191910834529174,
+        1.2016892703109496,
+        0.2953258311285969,
+        0.3677119721329108,
+        0.3598402285410227,
+        1.205634779965198,
+        0.3607217967925609,
+        0.2612688992019603,
+        0.2843856244855683,
+        1.1925549155913053,
+        0.2983658677594317,
+        0.24209930494616225,
+        0.34675487458875626,
+        1.2047354035891982,
+        0.34459638619158334,
+        0.30140869499129985,
+        0.2913730814227258,
+        1.1955990211606662,
+        0.2019540858713475,
+        0.23116991639250292
+      ],
+      "not_an_installed_shaft_or_cabin_dimension": true
+    },
+    {
+      "part": "bridge",
+      "scene_object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+      "drawing_id": "sucop-2023-17",
+      "source_type": "DOCUMENT_VECTOR_CONTOUR_SCALED_BY_PRINTED_CONTROLS",
+      "contour_residual_m": 5.347365077839823e-06,
+      "bounds_in_architecture_m": [
+        [
+          -43.7340087890625,
+          -19.76319122314453
+        ],
+        [
+          -2.924509048461914,
+          5.953805446624756
+        ],
+        [
+          69.1300048828125,
+          70.09300994873047
+        ]
+      ],
+      "edges_document_m": [
+        22.323391167348543,
+        6.163563639938846,
+        24.14778743886913,
+        6.2161451589076036
+      ],
+      "not_an_installed_shaft_or_cabin_dimension": true
+    },
+    {
+      "part": "new_gallery",
+      "scene_object": "TORRE | teto galeria",
+      "drawing_id": "sucop-2023-17",
+      "source_type": "DOCUMENT_VECTOR_CONTOUR_SCALED_BY_PRINTED_CONTROLS",
+      "contour_residual_m": 4.592770755729378e-06,
+      "bounds_in_architecture_m": [
+        [
+          -53.25691604614258,
+          -41.968505859375
+        ],
+        [
+          -2.8133702278137207,
+          10.208793640136719
+        ],
+        [
+          73.87300872802734,
+          74.12300872802734
+        ]
+      ],
+      "edges_document_m": [
+        7.019715759636811,
+        2.3106804833364496,
+        1.3937275593714626,
+        6.2161451589076036,
+        1.0295474932914979,
+        1.041538428533171,
+        1.62257010565696,
+        0.4879015268632801,
+        7.025881555639892,
+        2.008301004147116,
+        1.1485512302422964,
+        3.2984686027891543,
+        3.832590803700063,
+        0.907270728936898,
+        2.1615081077827853
+      ],
+      "not_an_installed_shaft_or_cabin_dimension": true
+    },
+    {
+      "part": "upper_floor",
+      "scene_object": "SUPERIOR | piso saguão",
+      "drawing_id": "sucop-2023-17",
+      "source_type": "DOCUMENT_VECTOR_CONTOUR_SCALED_BY_PRINTED_CONTROLS",
+      "contour_residual_m": 8.272101618812295e-07,
+      "bounds_in_architecture_m": [
+        [
+          -19.81081771850586,
+          6.458959579467773
+        ],
+        [
+          -9.840450286865234,
+          9.840450286865234
+        ],
+        [
+          69.79300689697266,
+          70.12300872802734
+        ]
+      ],
+      "edges_document_m": [
+        20.789101615762675,
+        1.9020424420103614,
+        5.480676552437202,
+        4.45370443313243,
+        14.954048024747673,
+        0.35246529392846426,
+        3.8263124250792737,
+        1.7909047367176054,
+        20.643034917377904,
+        15.988023695982577
+      ],
+      "not_an_installed_shaft_or_cabin_dimension": true
+    }
+  ],
+  "upper_body_controls": "docs/reports/blender/lacerda-upper-body-b100/controls.json",
+  "basement_controls": "docs/reports/blender/lacerda-structure-b99/controls.json",
+  "floor_controls": "docs/reports/blender/lacerda-floors-b101/controls.json",
+  "relative_dimension_pass": "PASS_FOR_LISTED_CONTROLS",
+  "complete_model_certified": false,
+  "physical_connections_of_subsolo03": "NEEDS_REVIEW",
+  "unknown_dimensions": [
+    "espessura estrutural as-built",
+    "pequenos rebaixos das salas técnicas",
+    "altura/teto das salas antigas",
+    "instalação dos quatro ascensores",
+    "datum/implantação absoluta",
+    "escada executada e circulação completa"
+  ],
+  "production_ready": false
+}

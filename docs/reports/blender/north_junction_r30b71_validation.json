@@ -1,0 +1,49 @@
+{
+  "schema": "boas/north-junction-b71-validation-v1",
+  "source": {
+    "file": "blender/salvador_lacerda_r30b71_encontro_norte_cais.blend",
+    "revision": "R30B.71",
+    "sha256": "b851703b3e47571469f30bd5c32c1e0fe01fa7e476f2776976e7b222dd4ed989"
+  },
+  "source_reopened": true,
+  "local_geometry_checks_passed": true,
+  "protected_changes": [],
+  "mesh_qa": [
+    {
+      "object": "B63 | VISUAL | piso contínuo até o cais",
+      "degenerate_triangles": 0,
+      "edges_more_than_two_faces": 0,
+      "boundary_edges": 481,
+      "finite": true,
+      "visual_collision_identical": true,
+      "xy_changed": false,
+      "topology_changed": false
+    },
+    {
+      "object": "CAIS | contenção costeira alinhada à linha de costa",
+      "degenerate_triangles": 0,
+      "edges_more_than_two_faces": 0,
+      "boundary_edges": 2642,
+      "finite": true,
+      "visual_collision_identical": true,
+      "xy_changed": false,
+      "topology_changed": false
+    }
+  ],
+  "floor": {
+    "triangles": 2827,
+    "above_200percent": 0,
+    "maximum_grade": 0.6385466691880737,
+    "p95_grade": 0.21817931422640874,
+    "below_nominal_water": 0
+  },
+  "north_bindings": 23,
+  "north_max_height_difference_m": 3.812274815828687e-07,
+  "core_corner_distance_m": 3.0517578125e-05,
+  "quay_bottom_preserved": true,
+  "real_altimetry_verified": false,
+  "gameplay_approved": false,
+  "runtime_exported": false,
+  "visual_evidence": "artifacts/waterfront/b71-encontro-norte.png",
+  "visual_review": "local_corner_continuous_regional_paving_material_and_geometry_finish_pending"
+}

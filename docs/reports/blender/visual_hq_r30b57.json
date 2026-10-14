@@ -1,0 +1,132 @@
+{
+  "schema": "boas/visual-hq-r30b57-v1",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b56_pieres_gameplay.blend",
+    "revision": "R30B.56",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b55_gameplay_costeiro.blend",
+    "evidence": "docs/reports/blender/pier_gameplay_r30b56_audit.json",
+    "sha256": "456700b06ee738630f27a42e8245097347bf96da5ec2bc1953a66f3223d897fd",
+    "notes": "Integra gameplay pedonal nos 2 píeres com footprint OSM e 4 footways reais; colisão idêntica à superfície walkable; píeres lineares seguem apenas referência por largura desconhecida."
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b57_visual_hq_gameplay.blend",
+    "revision": "R30B.57",
+    "sha256": "d78ad217cdb030eab94d0ef36b3fe996f853ad7e6c495176846721f9888cb480"
+  },
+  "terrain_visual": "B57 | GAMEPLAY TERRAIN HQ | Aleph 0.75m",
+  "terrain_collision": "B57 | COLLISION | terrain HQ 0.75m",
+  "grid_step_m": 0.75,
+  "vertices": 147701,
+  "faces": 146463,
+  "visual_collision_identical": true,
+  "materials": [
+    "GAL R34 | encosta localizada | MVP | terreno contínuo",
+    "Terreno | solo encosta",
+    "ENV R35 | terreno e rocha junto ao apoio"
+  ],
+  "road_visual_objects": [
+    {
+      "osm_way_id": 154743329,
+      "name": "Rua da Conceição da Praia",
+      "object": "B57 | ROAD VISUAL | 154743329 | run 0",
+      "role": "road_driveable",
+      "vertices": 134,
+      "faces": 66
+    },
+    {
+      "osm_way_id": 456471269,
+      "name": "Rua Manoel Vitórino",
+      "object": "B57 | ROAD VISUAL | 456471269 | run 0",
+      "role": "road_driveable",
+      "vertices": 94,
+      "faces": 46
+    },
+    {
+      "osm_way_id": 562660148,
+      "name": "Avenida Lafayete Coutinho",
+      "object": "B57 | ROAD VISUAL | 562660148 | run 0",
+      "role": "road_driveable",
+      "vertices": 38,
+      "faces": 18
+    },
+    {
+      "osm_way_id": 978527848,
+      "name": "Avenida Lafayete Coutinho",
+      "object": "B57 | ROAD VISUAL | 978527848 | run 0",
+      "role": "road_driveable",
+      "vertices": 150,
+      "faces": 74
+    },
+    {
+      "osm_way_id": 1004133492,
+      "name": "",
+      "object": "B57 | ROAD VISUAL | 1004133492 | run 0",
+      "role": "road_driveable",
+      "vertices": 28,
+      "faces": 13
+    },
+    {
+      "osm_way_id": 1004133493,
+      "name": "",
+      "object": "B57 | ROAD VISUAL | 1004133493 | run 0",
+      "role": "road_driveable",
+      "vertices": 318,
+      "faces": 158
+    },
+    {
+      "osm_way_id": 1004133494,
+      "name": "",
+      "object": "B57 | ROAD VISUAL | 1004133494 | run 0",
+      "role": "road_driveable",
+      "vertices": 154,
+      "faces": 76
+    },
+    {
+      "osm_way_id": 1075624454,
+      "name": "Avenida Lafayete Coutinho",
+      "object": "B57 | ROAD VISUAL | 1075624454 | run 0",
+      "role": "road_driveable",
+      "vertices": 320,
+      "faces": 159
+    },
+    {
+      "osm_way_id": 1321544428,
+      "name": "",
+      "object": "B57 | ROAD VISUAL | 1321544428 | run 0",
+      "role": "walkable",
+      "vertices": 164,
+      "faces": 81
+    }
+  ],
+  "road_visual_count": 9,
+  "pier_visuals": [
+    {
+      "osm_id": 1426173139,
+      "object": "B57 | PIER VISUAL | 1426173139",
+      "vertices": 10,
+      "faces": 7
+    },
+    {
+      "osm_id": 1426173140,
+      "object": "B57 | PIER VISUAL | 1426173140",
+      "vertices": 14,
+      "faces": 9
+    }
+  ],
+  "source_gameplay_surface_hidden": true,
+  "source_graphs_hidden_from_art": true,
+  "reference_piers_hidden_from_art": true,
+  "protected_changes": [],
+  "water_changed": false,
+  "official_ground_changed": false,
+  "quay_changed": false,
+  "runtime_exported": false,
+  "approved": false,
+  "pending": [
+    "Reabrir B57 e auditar grade/crossfall/suporte/colisão na malha HQ",
+    "Auditar costura HQ com terreno oficial",
+    "Revisar visualmente materiais, estradas e píeres no viewport",
+    "Somente depois promover runtime/streaming"
+  ]
+}

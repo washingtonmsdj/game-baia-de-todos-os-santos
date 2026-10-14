@@ -1,0 +1,38 @@
+[
+  {
+    "q": [
+      -405.3909606933594,
+      -156.38340759277344
+    ],
+    "contains": {
+      "MVP | terreno corrigido | colis\u00e3o est\u00e1tica": [],
+      "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa": [],
+      "B63 | VISUAL | piso cont\u00ednuo at\u00e9 o cais": [],
+      "BA\u00cdA DE TODOS-OS-SANTOS | superf\u00edcie e recorte costeiro": []
+    }
+  },
+  {
+    "q": [
+      -405.6872863769531,
+      -156.7382049560547
+    ],
+    "contains": {
+      "MVP | terreno corrigido | colis\u00e3o est\u00e1tica": [],
+      "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa": [],
+      "B63 | VISUAL | piso cont\u00ednuo at\u00e9 o cais": [],
+      "BA\u00cdA DE TODOS-OS-SANTOS | superf\u00edcie e recorte costeiro": []
+    }
+  },
+  {
+    "q": [
+      -406.2798767089844,
+      -157.44781494140625
+    ],
+    "contains": {
+      "MVP | terreno corrigido | colis\u00e3o est\u00e1tica": [],
+      "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa": [],
+      "B63 | VISUAL | piso cont\u00ednuo at\u00e9 o cais": [],
+      "BA\u00cdA DE TODOS-OS-SANTOS | superf\u00edcie e recorte costeiro": []
+    }
+  }
+]

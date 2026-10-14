@@ -1,0 +1,69 @@
+{
+  "schema": "boas/slice-engine-adapter-v1",
+  "slice_profile": "world/areas/mvp-centro-lacerda/corridor-slice.json",
+  "source": {
+    "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+    "revision": "R30B.80",
+    "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+  },
+  "ssot": "world/geographic-reference.json",
+  "ssot_sha256": "1d9da0962d456cb38ed3df0da797208e499a8465f82e9836c14bb337df2385e7",
+  "coordinate_conversion": {
+    "from": "Blender X,Y,Z",
+    "to": "runtime X,Z,-Y",
+    "apply_once": true,
+    "negative_world_scale": false,
+    "physical_units_status": "candidate"
+  },
+  "status": "upper_ground_candidate_shaft_blocked",
+  "release_ready": false,
+  "geometry_gate": "docs/reports/blender/lacerda-controller-b80/triage_b80.json",
+  "controller_gate": "tools/world/elevator_controller.py",
+  "collision_export": {
+    "bindings_pointer": "corridor-slice.json#/collision_bindings",
+    "preserve_source_id": true,
+    "require_two_sided_triangle_patches": true,
+    "forbidden_shafts": "queries_only_not_solid_not_walkable",
+    "dynamic_parent_motion": "follow source frame/transform, no duplicated animation tracks",
+    "missing_collider": "block certification; never fallback to whole visual mesh"
+  },
+  "sensors_required": [
+    "stationary cabin floor level and platform support",
+    "free width of both landing and cabin leaves, not visual door-open boolean",
+    "capsule sweep and sill/ground support",
+    "empty portal before closing",
+    "all doors closed and validated cabin travel before departure",
+    "known crossing and traffic permission"
+  ],
+  "production_export": {
+    "wrapper": "automation/blender/export_active_world.py",
+    "requires_explicit_source_promotion": true,
+    "current_production_remains": "R30B.30",
+    "do_not_export_candidate_by_overriding_guard": true,
+    "explicit_user_instruction": "Não exportar B79/B80 para produção"
+  },
+  "engine_required_tests": [
+    "capsule gravity/slide/step with actual collider layers",
+    "contact skin and continuous collision at doors/sills",
+    "moving platform carry and ceiling contacts",
+    "door anti-crush and closing interlock",
+    "missing cabin fall prevention",
+    "vehicle crossing permission and NPC navigation",
+    "measured dimensions and solid containment/positive shaft clearance"
+  ],
+  "pending_collider_sources": [
+    {
+      "source": "LAC R30B07 | torre | laminas venezianas",
+      "triangles": 5148,
+      "reason": "requires dedicated simplification; no whole visual duplicate"
+    },
+    {
+      "source": "LAC R30B20 | torre | laminas venezianas opostas",
+      "triangles": 5148,
+      "reason": "requires dedicated simplification; no whole visual duplicate"
+    }
+  ],
+  "baseline_route_status": "upper body surface sweep candidate clear, supports/physical dimensions pending; lower blocked",
+  "service_protocol": "tools/world/elevator_controller.py#ElevatorService; temporal phases, never pedestrian shaft edge",
+  "independent_reference_gate": "upper_reference_verified must be true, unknown blocks"
+}

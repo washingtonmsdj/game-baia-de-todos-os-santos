@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "reopened": true,
+  "pid": 11304,
+  "checks": [
+    {
+      "object": "LAC R30B08 | apoio oposto | corpo estrutural afunilado",
+      "persisted": true,
+      "degenerate": 0
+    },
+    {
+      "object": "LAC R30B08 | apoio oposto | capitel sob passarela",
+      "persisted": true,
+      "degenerate": 0
+    },
+    {
+      "object": "LAC R30B08 | apoio oposto | ressalto transversal",
+      "persisted": true,
+      "degenerate": 0
+    },
+    {
+      "object": "LAC R35 | Caixilhos verticais do apoio",
+      "persisted": true,
+      "degenerate": 0
+    },
+    {
+      "object": "LAC R35 | Vidros da faixa vertical do apoio",
+      "persisted": true,
+      "degenerate": 0
+    },
+    {
+      "object": "LAC R35 | Pilastras e faixa sob os vãos",
+      "persisted": true,
+      "degenerate": 0
+    }
+  ],
+  "route_checks": {
+    "upper": {
+      "samples": 1947,
+      "new_mesh_penetrations": []
+    },
+    "lower": {
+      "samples": 3206,
+      "new_mesh_penetrations": []
+    }
+  },
+  "scope": "Somente seis malhas B85 contra rotas candidatas históricas; não valida poço ou percurso inteiro",
+  "ssot_preserved": true,
+  "b84_preserved": true,
+  "low_city_tower_unchanged": true,
+  "bridge_unchanged": true,
+  "production_ready": false
+}

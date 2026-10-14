@@ -1,0 +1,23 @@
+{
+  "pid": 11304,
+  "file": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\blender\\salvador_lacerda_r30b83_encontro_superior_consolidado.blend",
+  "scene": "SALVADOR | ESBOCO OFICIAL",
+  "historical_objects": 6298,
+  "proxy_objects": 70,
+  "colliders": [
+    {
+      "name": "B83 | COLLISION | SUPERIOR | posterior lateral",
+      "historical_visible": false,
+      "proxy_visible": false,
+      "hide_render": true
+    },
+    {
+      "name": "B83 | COLLISION | SUPERIOR | posterior lateral.001",
+      "historical_visible": false,
+      "proxy_visible": false,
+      "hide_render": true
+    }
+  ],
+  "ground_visible": true,
+  "geometry_changed": false
+}

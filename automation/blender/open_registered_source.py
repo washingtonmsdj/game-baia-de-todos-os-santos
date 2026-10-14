@@ -7,8 +7,9 @@ root=Path(__file__).resolve().parents[2]
 mode=globals().get('BOAS_SOURCE_MODE','authoring')
 if mode=='authoring':
     entry=json.loads((root/'world/areas/mvp-centro-lacerda/blender-revisions.json').read_text(encoding='utf8'))['authoring_source']
-elif mode=='validation':
-    entry=json.loads((root/'world/areas/mvp-centro-lacerda/blender-revisions.json').read_text(encoding='utf8')).get('validation_source')
+elif mode in ('validation','gameplay_proxy'):
+    key='validation_source' if mode=='validation' else 'gameplay_proxy_source'
+    entry=json.loads((root/'world/areas/mvp-centro-lacerda/blender-revisions.json').read_text(encoding='utf8')).get(key)
     if not entry:raise RuntimeError('Nenhuma fonte de validação registrada')
 else:
     entry=json.loads((root/'world/areas/mvp-centro-lacerda/production.json').read_text(encoding='utf8'))['world_source']

@@ -1,0 +1,13 @@
+{
+  "source": "blender/salvador_lacerda_r30b92_ponte_estrutural_consolidada.blend",
+  "backup": "blender/salvador_lacerda_r30b92_ponte_estrutural_consolidada.blend1",
+  "objects_compared": 542,
+  "geometry_differences": [],
+  "official_source_validated": true,
+  "scope": "Assinaturas de geometria/transform/material; backup automático anterior ao checkpoint final, não revisão oficial.",
+  "backup_sha256": "bad73e6c5e114862c4da284f943b91bf7339fb29aca82100f520e9d0db342112",
+  "source_sha256": "8ea3ce94c86aca60e15dc2dab42e2100436ecc6e2bf05347732f137306e41514",
+  "bytes_removed": 112210972,
+  "operation": "REMOVE_ONLY_REDUNDANT_AUTOMATIC_BACKUP",
+  "reason": "Checkpoint automático anterior ao B92 final validado. Geometria/transform/material dos 542 componentes idênticos; não é alegação de identidade binária ou comparação de todos os metadados. Revisões oficiais e recuperação B95 preservadas."
+}

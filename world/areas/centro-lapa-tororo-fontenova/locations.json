@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "area_id": "centro-lapa-tororo-fontenova",
+  "locations": [
+    {
+      "location_id": "center-lapa",
+      "name": "Shopping Center Lapa",
+      "category": "hero_building",
+      "fidelity_class": "A",
+      "priority": 2,
+      "model_status": "proxy",
+      "reference_status": "partial",
+      "osm": {
+        "type": "way",
+        "id": 257113955,
+        "verified": true,
+        "source_capture_id": "osm-mapzen-20261005T045222Z"
+      },
+      "position_wgs84": null,
+      "blender_binding": {
+        "custom_property": "boas_location_id",
+        "value": "center-lapa",
+        "status": "candidate",
+        "object": "B74 | center-lapa | referencia"
+      },
+      "required_views": [
+        "map",
+        "street_context",
+        "access",
+        "panorama"
+      ],
+      "production_rules": {
+        "geometry_must_be_realigned": false,
+        "manual_review_required": true,
+        "notes": [
+          "Binding é estrutural candidato; sem Hero aprovado ou acessos inventados."
+        ],
+        "current_stage": "STRUCTURAL_GREYBOX",
+        "detailed_architecture_allowed": false
+      },
+      "notes": [
+        "Polígono OSM confirmado pelo ID e semântica. Nenhuma fotografia adquirida nesta etapa."
+      ]
+    },
+    {
+      "location_id": "arena-fonte-nova",
+      "name": "Arena Fonte Nova",
+      "category": "hero_building",
+      "fidelity_class": "A",
+      "priority": 4,
+      "model_status": "proxy",
+      "reference_status": "partial",
+      "osm": {
+        "type": "relation",
+        "id": 3346613,
+        "verified": true,
+        "source_capture_id": "osm-mapzen-20261005T045222Z"
+      },
+      "position_wgs84": null,
+      "blender_binding": {
+        "custom_property": "boas_location_id",
+        "value": "arena-fonte-nova",
+        "status": "candidate",
+        "object": "B74 | arena-fonte-nova | referencia"
+      },
+      "required_views": [
+        "map",
+        "street_context",
+        "access",
+        "panorama"
+      ],
+      "production_rules": {
+        "geometry_must_be_realigned": false,
+        "manual_review_required": true,
+        "notes": [
+          "Binding é estrutural candidato; sem Hero aprovado ou acessos inventados."
+        ],
+        "current_stage": "STRUCTURAL_GREYBOX",
+        "detailed_architecture_allowed": false
+      },
+      "notes": [
+        "Polígono OSM confirmado pelo ID e semântica. Nenhuma fotografia adquirida nesta etapa."
+      ]
+    },
+    {
+      "location_id": "dique-do-tororo",
+      "name": "Dique do Tororó",
+      "category": "waterfront",
+      "fidelity_class": "A",
+      "priority": 3,
+      "model_status": "proxy",
+      "reference_status": "partial",
+      "osm": {
+        "type": "relation",
+        "id": 15601931,
+        "verified": true,
+        "source_capture_id": "osm-mapzen-20261005T045222Z"
+      },
+      "position_wgs84": null,
+      "blender_binding": {
+        "custom_property": "boas_location_id",
+        "value": "dique-do-tororo",
+        "status": "candidate",
+        "object": "B74 | dique-do-tororo | referencia"
+      },
+      "required_views": [
+        "map",
+        "street_context",
+        "access",
+        "panorama"
+      ],
+      "production_rules": {
+        "geometry_must_be_realigned": false,
+        "manual_review_required": true,
+        "notes": [
+          "Binding é estrutural candidato; sem Hero aprovado ou acessos inventados."
+        ],
+        "current_stage": "STRUCTURAL_GREYBOX",
+        "detailed_architecture_allowed": false
+      },
+      "notes": [
+        "Polígono OSM confirmado pelo ID e semântica. Nenhuma fotografia adquirida nesta etapa."
+      ]
+    },
+    {
+      "location_id": "campo-da-polvora",
+      "name": "Largo do Campo da Pólvora",
+      "category": "square",
+      "fidelity_class": "A",
+      "priority": 2,
+      "model_status": "proxy",
+      "reference_status": "partial",
+      "osm": {
+        "type": "way",
+        "id": 257336400,
+        "verified": true,
+        "source_capture_id": "osm-mapzen-20261005T045222Z"
+      },
+      "position_wgs84": null,
+      "blender_binding": {
+        "custom_property": "boas_location_id",
+        "value": "campo-da-polvora",
+        "status": "candidate",
+        "object": "B76 | Campo da Polvora | footprint OSM"
+      },
+      "required_views": [
+        "map"
+      ],
+      "production_rules": {
+        "geometry_must_be_realigned": false,
+        "manual_review_required": true,
+        "notes": [
+          "Contorno real; Z candidato amostrado da superfície existente. Sem detalhe arquitetônico."
+        ],
+        "current_stage": "STRUCTURAL_GREYBOX",
+        "detailed_architecture_allowed": false
+      }
+    }
+  ]
+}

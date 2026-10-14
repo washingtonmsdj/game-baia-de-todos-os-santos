@@ -1,0 +1,4405 @@
+{
+  "revision": "R30B.92",
+  "file": "blender/salvador_lacerda_r30b92_ponte_estrutural_consolidada.blend",
+  "sha256": "8ea3ce94c86aca60e15dc2dab42e2100436ecc6e2bf05347732f137306e41514",
+  "pid": 16912,
+  "scene": "SALVADOR | ESBOCO OFICIAL",
+  "reopened": true,
+  "objects_checked": 542,
+  "visible_objects_checked": 387,
+  "mesh_checks": [
+    {
+      "object": "CASCA | parede lateral",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "CASCA | parede lateral.001",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "CASCA | fachada poço",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "CASCA | fachada poço.002",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "TORRE | nervura vertical",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "TORRE | nervura vertical.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "TORRE | nervura vertical.002",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "TORRE | nervura vertical.003",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "TORRE | nervura vertical.004",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "TORRE | nervura vertical.005",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "TORRE | nervura vertical.006",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "TORRE | nervura vertical.007",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "TORRE | nervura vertical.008",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "TORRE | nervura vertical.009",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "ESTAÇÃO SUPERIOR | plataforma",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "ESTAÇÃO SUPERIOR | cobertura",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "ESTAÇÃO SUPERIOR | guarda-corpo",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "ESTAÇÃO SUPERIOR | guarda-corpo.001",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "SUPERIOR | guarda-corpo acesso passarela",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "SUPERIOR | guarda-corpo acesso passarela.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | montante interno",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | montante interno.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | montante interno.002",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | montante interno.003",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | montante interno.004",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | montante interno.005",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | montante interno.006",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | montante interno.007",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | montante interno.008",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | montante interno.009",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | montante interno.010",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | montante interno.011",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | peitoril interno",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | peitoril interno.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "INFERIOR | piso do saguão",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "INFERIOR | cobertura do saguão",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "INFERIOR | parede lateral",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "INFERIOR | parede lateral.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "INFERIOR | pilar fachada",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "INFERIOR | pilar fachada.001",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "INFERIOR | pilar fachada.002",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "INFERIOR | pilar fachada.003",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "INFERIOR | verga fachada",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "SUPERIOR | piso saguão",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "SUPERIOR | cobertura saguão",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "SUPERIOR | parede lateral saguão",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "SUPERIOR | parede lateral saguão.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | pilar térreo",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | pilar térreo.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | pilar térreo.002",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | pilar térreo.003",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | pilar térreo.004",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | pilar térreo.005",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | persiana lateral",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.002",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.003",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.004",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.005",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.006",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.007",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.008",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.009",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.010",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.011",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.012",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.013",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.014",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.015",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.016",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.017",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.018",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.019",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.020",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.021",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | bandeira térreo",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.002",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.003",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.004",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | folha aberta",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | folha aberta.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | bandeira térreo.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.005",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.006",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.007",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.008",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.009",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | folha aberta.002",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | folha aberta.003",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | bandeira térreo.002",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.010",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.011",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.012",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.013",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.014",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | folha aberta.004",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | folha aberta.005",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | bandeira térreo.003",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.015",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.016",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.017",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.018",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.019",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | folha aberta.006",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | folha aberta.007",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | bandeira térreo.004",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.020",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.021",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.022",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.023",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.024",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "SUPERIOR | posterior sobre passarela",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | corpo elevado",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | janela",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | montante janela",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | montante janela.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | montante janela.002",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | travessa janela",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | travessa janela.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | travessa janela.002",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | moldura superior",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | moldura inferior",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | janela.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | montante janela.003",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | montante janela.004",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | montante janela.005",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | travessa janela.003",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | travessa janela.004",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | travessa janela.005",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | moldura superior.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | moldura inferior.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | janela.002",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | montante janela.006",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | montante janela.007",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | montante janela.008",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | travessa janela.006",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | travessa janela.007",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | travessa janela.008",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | moldura superior.002",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | moldura inferior.002",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | janela.003",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | montante janela.009",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | montante janela.010",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | montante janela.011",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | travessa janela.009",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | travessa janela.010",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | travessa janela.011",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | moldura superior.003",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | moldura inferior.003",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | janela.004",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | montante janela.012",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | montante janela.013",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | montante janela.014",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | travessa janela.012",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | travessa janela.013",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | travessa janela.014",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | moldura superior.004",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | moldura inferior.004",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | janela.005",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | montante janela.015",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | montante janela.016",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | montante janela.017",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | travessa janela.015",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | travessa janela.016",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | travessa janela.017",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | moldura superior.005",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | moldura inferior.005",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | relevo quadrado",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | rebaixo quadrado",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | relevo quadrado.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | rebaixo quadrado.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | relevo quadrado.002",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | rebaixo quadrado.002",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | faixa Lacerda",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | platibanda",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | cornija",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "FACHADA SUPERIOR | medalhão",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "SUPERIOR | lateral corpo elevado",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "SUPERIOR | lateral corpo elevado.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "SUPERIOR | cobertura corpo elevado",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "SUPERIOR | antena",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | vidro",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | caixilho",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | caixilho.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | caixilho.002",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | caixilho.003",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | caixilho.004",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | caixilho.005",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | caixilho.006",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | caixilho.007",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | caixilho.008",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | travessa alta",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | travessa baixa",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | vidro.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | caixilho.013",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | caixilho.014",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | caixilho.015",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | caixilho.016",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | caixilho.017",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | caixilho.018",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | caixilho.019",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | caixilho.020",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | caixilho.021",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | travessa alta.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | travessa baixa.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | viga inferior",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | viga inferior.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | viga inferior.002",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | viga inferior.003",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | viga inferior.004",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA EXTERNA | viga inferior.005",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "TORRE | cornija galeria",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "TORRE | teto galeria",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | vidro lateral",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | montante lateral",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | montante lateral.001",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | montante lateral.002",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | montante lateral.003",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | montante lateral.004",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | montante lateral.005",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | montante lateral.006",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | travessa lateral",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | travessa lateral.001",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | travessa lateral.002",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | travessa lateral.003",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | vidro lateral.001",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | montante lateral.007",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | montante lateral.008",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | montante lateral.009",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | montante lateral.010",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | montante lateral.011",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | montante lateral.012",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | montante lateral.013",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | travessa lateral.004",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | travessa lateral.005",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | travessa lateral.006",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | travessa lateral.007",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | vidro frontal",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | montante frontal",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | montante frontal.001",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | montante frontal.002",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | montante frontal.003",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | montante frontal.004",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | montante frontal.005",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | montante frontal.006",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | montante frontal.007",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | travessa frontal",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | travessa frontal.001",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | travessa frontal.002",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "GALERIA | travessa frontal.003",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "TORRE | corpo tecnico superior",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 50
+    },
+    {
+      "object": "TORRE | capeamento tecnico",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "TORRE | ressalto tecnico",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "TORRE | ressalto tecnico.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "TORRE | ressalto tecnico.002",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "TORRE | ressalto tecnico.003",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "TORRE | ressalto tecnico.004",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "TORRE | ressalto tecnico.005",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "TORRE | ressalto tecnico.006",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "TORRE | ressalto tecnico.007",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "TORRE | haste",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | cornija longitudinal",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | cornija longitudinal.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | cornija longitudinal.002",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | travessa intermediaria",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | travessa intermediaria.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | subdivisao janela",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | subdivisao janela.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | subdivisao janela.002",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | subdivisao janela.003",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | subdivisao janela.004",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | subdivisao janela.005",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | subdivisao janela.006",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | subdivisao janela.007",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | subdivisao janela.008",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | cornija longitudinal.003",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | cornija longitudinal.004",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | cornija longitudinal.005",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | travessa intermediaria.002",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | travessa intermediaria.003",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | subdivisao janela.012",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | subdivisao janela.013",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | subdivisao janela.014",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | subdivisao janela.015",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | subdivisao janela.016",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | subdivisao janela.017",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | subdivisao janela.018",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | subdivisao janela.019",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | subdivisao janela.020",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "PASSARELA | cobertura impermeabilizada",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | janela lateral",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | ombreira lateral",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | ombreira lateral.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | verga peitoril",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | verga peitoril.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | montante lateral",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | travessa lateral",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | travessa lateral.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | janela lateral.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | ombreira lateral.002",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | ombreira lateral.003",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | verga peitoril.002",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | verga peitoril.003",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | montante lateral.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | travessa lateral.002",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | travessa lateral.003",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | janela lateral.002",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | ombreira lateral.004",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | ombreira lateral.005",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | verga peitoril.004",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | verga peitoril.005",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | montante lateral.002",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | travessa lateral.004",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | travessa lateral.005",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | janela lateral.003",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | ombreira lateral.006",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | ombreira lateral.007",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | verga peitoril.006",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | verga peitoril.007",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | montante lateral.003",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | travessa lateral.006",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | travessa lateral.007",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | janela lateral.004",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | ombreira lateral.008",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | ombreira lateral.009",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | verga peitoril.008",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | verga peitoril.009",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | montante lateral.004",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | travessa lateral.008",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | travessa lateral.009",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | janela lateral.005",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | ombreira lateral.010",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | ombreira lateral.011",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | verga peitoril.010",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | verga peitoril.011",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | montante lateral.005",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | travessa lateral.010",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | travessa lateral.011",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | cornija lateral",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | platibanda lateral",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | janela lateral.006",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | ombreira lateral.012",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | ombreira lateral.013",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | verga peitoril.012",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | verga peitoril.013",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | montante lateral.006",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | travessa lateral.012",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | travessa lateral.013",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | janela lateral.007",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | ombreira lateral.014",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | ombreira lateral.015",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | verga peitoril.014",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | verga peitoril.015",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | montante lateral.007",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | travessa lateral.014",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | travessa lateral.015",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | janela lateral.008",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | ombreira lateral.016",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | ombreira lateral.017",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | verga peitoril.016",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | verga peitoril.017",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | montante lateral.008",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | travessa lateral.016",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | travessa lateral.017",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | janela lateral.009",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | ombreira lateral.018",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | ombreira lateral.019",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | verga peitoril.018",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | verga peitoril.019",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | montante lateral.009",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | travessa lateral.018",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | travessa lateral.019",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | janela lateral.010",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | ombreira lateral.020",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | ombreira lateral.021",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | verga peitoril.020",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | verga peitoril.021",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | montante lateral.010",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | travessa lateral.020",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | travessa lateral.021",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | janela lateral.011",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | ombreira lateral.022",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | ombreira lateral.023",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | verga peitoril.022",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | verga peitoril.023",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | montante lateral.011",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | travessa lateral.022",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | travessa lateral.023",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | cornija lateral.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | platibanda lateral.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | cobertura",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | parede posterior alta",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | janela posterior",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | janela posterior.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | janela posterior.002",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | janela posterior.003",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | janela posterior.004",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "EDIFICIO | janela posterior.005",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B | Galeria | fundo friso GALERIA | vidro frontal",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B | Galeria | fundo friso GALERIA | vidro lateral",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B | Galeria | fundo friso GALERIA | vidro lateral.001",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B | Galeria | frisos cruzetados",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B | Passarela | chanfros das aberturas",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B | Passarela | piso paginado visual",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B02 | Lambril marmore | SUPERIOR | posterior lateral",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B02 | Rodape escuro | SUPERIOR | posterior lateral",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B02 | Lambril marmore | SUPERIOR | posterior lateral.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B02 | Rodape escuro | SUPERIOR | posterior lateral.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B02 | Friso losangos | PASSARELA EXTERNA | vidro",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B02 | Friso losangos | PASSARELA EXTERNA | vidro.001",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B03 | Cidade Alta | degrau central do coroamento",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B03 | Cidade Alta | degrau intermediario esquerdo",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B03 | Cidade Alta | degrau intermediario direito",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B07 | torre | fundos recuados",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B07 | torre | laminas venezianas",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B07 | corpo tecnico | fundos venezianas",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B07 | corpo tecnico | laminas",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B07 | galeria | consolo inclinado",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B07 | continuidade torre acima estacao",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B08 | apoio oposto | corpo estrutural afunilado",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B08 | apoio oposto | capitel sob passarela",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B08 | passarela | intradorso continuo",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B08 | passarela | sombra central do intradorso",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B08 | passarela | viga longitudinal inferior 1.26",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B08 | passarela | viga longitudinal inferior 7.23",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B08 | apoio oposto | ressalto transversal",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R35 | Caixilhos verticais do apoio",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R35 | Vidros da faixa vertical do apoio",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R35 | Pilastras e faixa sob os vãos",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B20 | torre | fundos recuados opostos",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "LAC R30B20 | torre | laminas venezianas opostas",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B77 | COLLISION | INFERIOR | piso do saguão",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B77 | COLLISION | SUPERIOR | piso saguão",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B77 | COLLISION | TORRE | cornija galeria",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B80 | COLLISION | passarela piso visual",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | CASCA | parede lateral",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | CASCA | parede lateral.001",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | CASCA | fachada poço",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | CASCA | fachada poço.002",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | TORRE | nervura vertical",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 48,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | TORRE | nervura vertical.001",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 48,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | TORRE | nervura vertical.002",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 48,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | TORRE | nervura vertical.005",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 48,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | TORRE | nervura vertical.006",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 48,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | TORRE | nervura vertical.007",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 48,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | ESTAÇÃO SUPERIOR | plataforma",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 8,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | SUPERIOR | guarda-corpo acesso passarela",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 4,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | SUPERIOR | guarda-corpo acesso passarela.001",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 6,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | PASSARELA | montante interno",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | PASSARELA | montante interno.004",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 4,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | PASSARELA | montante interno.009",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 8,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | PASSARELA | peitoril interno",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | PASSARELA | peitoril interno.001",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 16,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | INFERIOR | cobertura do saguão",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | INFERIOR | parede lateral",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 10
+    },
+    {
+      "object": "B79 | COLLISION | INFERIOR | parede lateral.001",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 6
+    },
+    {
+      "object": "B79 | COLLISION | FACHADA SUPERIOR | folha aberta.004",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 8,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | PASSARELA EXTERNA | vidro",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | PASSARELA EXTERNA | caixilho",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | PASSARELA EXTERNA | travessa alta",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | PASSARELA EXTERNA | travessa baixa",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | PASSARELA EXTERNA | vidro.001",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 10,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | PASSARELA EXTERNA | caixilho.019",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 6,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | PASSARELA EXTERNA | caixilho.021",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 4,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | PASSARELA EXTERNA | travessa baixa.001",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 4,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | PASSARELA EXTERNA | viga inferior",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 8,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | PASSARELA EXTERNA | viga inferior.003",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 8,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | TORRE | teto galeria",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | GALERIA | vidro lateral",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 8,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | GALERIA | montante lateral.003",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | GALERIA | travessa lateral",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 8,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | GALERIA | travessa lateral.001",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 8,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | GALERIA | travessa lateral.002",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 8,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | GALERIA | travessa lateral.003",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 8,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | GALERIA | vidro lateral.001",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 8,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | GALERIA | travessa lateral.004",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 8,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | GALERIA | travessa lateral.005",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 8,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | GALERIA | travessa lateral.006",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 8,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | GALERIA | travessa lateral.007",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 8,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | GALERIA | vidro frontal",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 8,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | GALERIA | travessa frontal",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 8,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | GALERIA | travessa frontal.001",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 8,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | GALERIA | travessa frontal.002",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 8,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | GALERIA | travessa frontal.003",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 8,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | PASSARELA | cornija longitudinal",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | PASSARELA | cornija longitudinal.001",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | PASSARELA | cornija longitudinal.002",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 27,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | PASSARELA | travessa intermediaria",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | PASSARELA | travessa intermediaria.001",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | PASSARELA | travessa intermediaria.002",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 4,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | LAC R30B | Galeria | fundo friso GALERIA | vidro frontal",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 24,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | LAC R30B | Galeria | fundo friso GALERIA | vidro lateral",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 24,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | LAC R30B | Galeria | fundo friso GALERIA | vidro lateral.001",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 24,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | LAC R30B | Galeria | frisos cruzetados",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 70,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | LAC R30B | Passarela | chanfros das aberturas",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | LAC R30B02 | Friso losangos | PASSARELA EXTERNA | vidro",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 38,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | LAC R30B02 | Friso losangos | PASSARELA EXTERNA | vidro.001",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 339,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | LAC R30B07 | torre | fundos recuados",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | LAC R30B07 | galeria | consolo inclinado",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | LAC R30B07 | continuidade torre acima estacao",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 4,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | LAC R30B08 | passarela | intradorso continuo",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 9,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | LAC R30B08 | passarela | sombra central do intradorso",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 9,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | LAC R30B08 | passarela | viga longitudinal inferior 1.26",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B79 | COLLISION | LAC R30B20 | torre | fundos recuados opostos",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "COLLISION R35 | Laje do saguão superior",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B83 | COLLISION | SUPERIOR | posterior lateral",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B83 | COLLISION | SUPERIOR | posterior lateral.001",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B87 | COLLISION | SUPERIOR | parede lateral saguão",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B87 | COLLISION | SUPERIOR | parede lateral saguão.001",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B88 | galeria nova | peitoril estrutural",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B88 | galeria nova | limite envidraçado",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B88 | galeria nova | verga estrutural",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B88 | cidade alta | alas estruturais sob edifício",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "B91 | galeria nova | consolo estrutural documentado",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "CALIBRADO | montante passarela",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "CALIBRADO | montante passarela.001",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "CALIBRADO | montante passarela.002",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "CALIBRADO | montante passarela.003",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "CALIBRADO | montante passarela.004",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "CALIBRADO | montante passarela.005",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "CALIBRADO | montante passarela.006",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "CALIBRADO | montante passarela.007",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "CALIBRADO | montante passarela.008",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "CALIBRADO | montante passarela.009",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "CALIBRADO | montante passarela.010",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "CALIBRADO | montante passarela.011",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "CALIBRADO | montante passarela.012",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "CALIBRADO | montante passarela.013",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "CALIBRADO | montante passarela.014",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "CALIBRADO | montante passarela.015",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "CALIBRADO | montante passarela.016",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "CALIBRADO | montante passarela.017",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "CALIBRADO | passarela viga lateral",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "CALIBRADO | passarela viga lateral.001",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "CALIBRADO | passarela cobertura 28.71 x 6.00m",
+      "visible": true,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    },
+    {
+      "object": "CALIBRADO | piso superior torre",
+      "visible": false,
+      "degenerate_faces": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "duplicate_face_groups": 0
+    }
+  ],
+  "bridge_floor_bounds": [
+    [
+      -43.7340087890625,
+      -19.76319122314453
+    ],
+    [
+      -2.924509048461914,
+      5.953805446624756
+    ],
+    [
+      69.1300048828125,
+      70.09300994873047
+    ]
+  ],
+  "bridge_roof_bounds": [
+    [
+      -43.7340087890625,
+      -19.76319122314453
+    ],
+    [
+      -2.924509048461914,
+      5.953805446624756
+    ],
+    [
+      73.87300872802734,
+      74.12300872802734
+    ]
+  ],
+  "bridge_roof_above_walkable_m": 4.0,
+  "structural_contacts": [
+    {
+      "relationship": "laje / piso",
+      "gap_m": 0.0
+    },
+    {
+      "relationship": "laje / intradorso",
+      "gap_m": 0.0
+    },
+    {
+      "relationship": "núcleo / capeamento",
+      "gap_m": 0.0
+    },
+    {
+      "relationship": "consolo / galeria",
+      "gap_m": 0.0
+    }
+  ],
+  "legacy_bridge_objects_preserved": 20,
+  "legacy_upper_platform_preserved": true,
+  "proxy_metadata_b90_restored": true,
+  "ssot_preserved": true,
+  "B91_integrity_preserved": true,
+  "LACERDA_VERTICAL": "BLOCKED_EXTERNAL_EVIDENCE",
+  "movement_enabled": false,
+  "historic_witnesses": 27,
+  "production_ready": false,
+  "scope": "Malha visível auditada, contatos definidos e ponte documental; implantação absoluta, layout, CCD e controller continuam não aprovados"
+}

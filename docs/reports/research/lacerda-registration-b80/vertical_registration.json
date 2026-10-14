@@ -1,0 +1,334 @@
+{
+  "schema": "boas/drawing-registration-v1",
+  "parent_ssot": "world/geographic-reference.json",
+  "ssot_sha256": "1d9da0962d456cb38ed3df0da797208e499a8465f82e9836c14bb337df2385e7",
+  "scene_source": {
+    "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+    "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+  },
+  "decision": "NO_SCENE_CHANGE",
+  "status": "PARTIAL_DIAGNOSTIC_NOT_REGISTERED",
+  "selected_sheets": [
+    {
+      "drawing_id": "sucop-2023-17",
+      "resource_id": "source:lacerda-issue22-sucop-17",
+      "role": "primary_xy_upper",
+      "reason": "Acesso superior, limites da passarela e contorno esquemático da torre",
+      "registration_approved": false
+    },
+    {
+      "drawing_id": "sucop-2023-12",
+      "resource_id": "source:lacerda-issue22-sucop-12",
+      "role": "primary_xy_lower",
+      "reason": "Desembarque inferior, saguão, túnel e torre",
+      "registration_approved": false
+    },
+    {
+      "drawing_id": "sucop-2023-13",
+      "resource_id": "source:lacerda-issue22-sucop-13",
+      "role": "primary_xy_lower_roof",
+      "reason": "Cobertura inferior e relação com torre; duas aberturas de iluminação",
+      "registration_approved": false
+    },
+    {
+      "drawing_id": "sucop-2023-23",
+      "resource_id": "source:lacerda-issue22-sucop-23",
+      "role": "primary_z",
+      "reason": "Cortes AA/BB e cotas dos acessos, cobertura inferior e passarela",
+      "registration_approved": false
+    },
+    {
+      "drawing_id": "sucop-2023-21",
+      "resource_id": "source:lacerda-issue22-sucop-21",
+      "role": "primary_z_crosscheck",
+      "reason": "Cortes construtivos AA/BB; existente/proposto",
+      "registration_approved": false
+    },
+    {
+      "drawing_id": "sucop-2023-24",
+      "resource_id": "source:lacerda-issue22-sucop-24",
+      "role": "secondary_z",
+      "reason": "CC/DD, estrutura do acesso superior; escala de carimbo conflitante",
+      "registration_approved": false
+    },
+    {
+      "drawing_id": "sucop-2023-03",
+      "resource_id": "source:lacerda-issue22-sucop-03",
+      "role": "context_only",
+      "reason": "Construção/demolição inferior; não duplicar controles da 12",
+      "registration_approved": false
+    },
+    {
+      "drawing_id": "sucop-2023-04",
+      "resource_id": "source:lacerda-issue22-sucop-04",
+      "role": "context_only",
+      "reason": "Construção/demolição da cobertura; não duplicar controles da 13",
+      "registration_approved": false
+    },
+    {
+      "drawing_id": "sucop-2023-08",
+      "resource_id": "source:lacerda-issue22-sucop-08",
+      "role": "context_only",
+      "reason": "Construção/demolição superior; não duplicar controles da 17",
+      "registration_approved": false
+    },
+    {
+      "drawing_id": "sucop-2023-22",
+      "resource_id": "source:lacerda-issue22-sucop-22",
+      "role": "context_only",
+      "reason": "CC/DD construtivos; escala conflitante; não valida perfil longitudinal sozinho",
+      "registration_approved": false
+    },
+    {
+      "drawing_id": "sucop-2023-31",
+      "resource_id": "source:lacerda-issue22-sucop-31",
+      "role": "services_only",
+      "reason": "Instalações/teto inferior não equivalem à laje do poço",
+      "registration_approved": false
+    },
+    {
+      "drawing_id": "sucop-2023-34",
+      "resource_id": "source:lacerda-issue22-sucop-34",
+      "role": "services_only",
+      "reason": "Grelhas/teto superior não equivalem à cabine ou à laje estrutural",
+      "registration_approved": false
+    }
+  ],
+  "controls": [
+    {
+      "control_id": "C21-upper-platform",
+      "drawing_id": "sucop-2023-21",
+      "drawing_point": [
+        null,
+        null,
+        0.0
+      ],
+      "drawing_point_frame": "datum local do projeto, metros; XY não estabelecido",
+      "scene_object": "ESTAÇÃO SUPERIOR | plataforma",
+      "scene_point": [
+        -50.400856018066406,
+        53.11458969116211,
+        70.05999755859375
+      ],
+      "scene_point_frame": "world/geographic-reference.json; unidade nominal 1m não levantada",
+      "source": "source:lacerda-issue22-sucop-21",
+      "confidence": "candidate_correspondence",
+      "residual": {
+        "z_anchored_upper": 0.0,
+        "xy": null
+      },
+      "reason": "Plano superior da mesh medido diretamente; nível impresso no corte. Associação física ainda candidata: nenhuma porta/cabine usada como controle. Falta identificar no desenho o mesmo plano estrutural e estado executado.",
+      "accepted_for_registration": false,
+      "independent_feature": "upper-platform",
+      "roof_plane_ambiguity": null
+    },
+    {
+      "control_id": "C21-bridge-roof",
+      "drawing_id": "sucop-2023-21",
+      "drawing_point": [
+        null,
+        null,
+        4.0
+      ],
+      "drawing_point_frame": "datum local do projeto, metros; XY não estabelecido",
+      "scene_object": "CALIBRADO | passarela cobertura 28.71 x 6.00m",
+      "scene_point": [
+        -25.64780730009079,
+        29.887452840805054,
+        74.17500305175781
+      ],
+      "scene_point_frame": "world/geographic-reference.json; unidade nominal 1m não levantada",
+      "source": "source:lacerda-issue22-sucop-21",
+      "confidence": "candidate_correspondence",
+      "residual": {
+        "z_anchored_upper": 0.1150054931640625,
+        "xy": null
+      },
+      "reason": "Plano superior da mesh medido diretamente; nível impresso no corte. Associação física ainda candidata: nenhuma porta/cabine usada como controle. Falta identificar no desenho o mesmo plano estrutural e estado executado.",
+      "accepted_for_registration": false,
+      "independent_feature": "bridge-roof",
+      "roof_plane_ambiguity": "Cota do desenho e topo/impermeabilização versus centro da mesh precisam de confirmação"
+    },
+    {
+      "control_id": "C21-lower-roof",
+      "drawing_id": "sucop-2023-21",
+      "drawing_point": [
+        null,
+        null,
+        -53.17
+      ],
+      "drawing_point_frame": "datum local do projeto, metros; XY não estabelecido",
+      "scene_object": "ESTAÇÃO INFERIOR | cobertura",
+      "scene_point": [
+        -50.400856018066406,
+        53.11458969116211,
+        11.916000366210938
+      ],
+      "scene_point_frame": "world/geographic-reference.json; unidade nominal 1m não levantada",
+      "source": "source:lacerda-issue22-sucop-21",
+      "confidence": "candidate_correspondence",
+      "residual": {
+        "z_anchored_upper": -4.973997192382811,
+        "xy": null
+      },
+      "reason": "Plano superior da mesh medido diretamente; nível impresso no corte. Associação física ainda candidata: nenhuma porta/cabine usada como controle. Falta identificar no desenho o mesmo plano estrutural e estado executado.",
+      "accepted_for_registration": false,
+      "independent_feature": "lower-roof",
+      "roof_plane_ambiguity": "Cota do desenho e topo/impermeabilização versus centro da mesh precisam de confirmação"
+    },
+    {
+      "control_id": "C21-lower-platform",
+      "drawing_id": "sucop-2023-21",
+      "drawing_point": [
+        null,
+        null,
+        -58.93
+      ],
+      "drawing_point_frame": "datum local do projeto, metros; XY não estabelecido",
+      "scene_object": "ESTAÇÃO INFERIOR | plataforma",
+      "scene_point": [
+        -50.400856018066406,
+        53.11458969116211,
+        7.35099983215332
+      ],
+      "scene_point_frame": "world/geographic-reference.json; unidade nominal 1m não levantada",
+      "source": "source:lacerda-issue22-sucop-21",
+      "confidence": "candidate_correspondence",
+      "residual": {
+        "z_anchored_upper": -3.77899772644043,
+        "xy": null
+      },
+      "reason": "Plano superior da mesh medido diretamente; nível impresso no corte. Associação física ainda candidata: nenhuma porta/cabine usada como controle. Falta identificar no desenho o mesmo plano estrutural e estado executado.",
+      "accepted_for_registration": false,
+      "independent_feature": "lower-platform",
+      "roof_plane_ambiguity": null
+    },
+    {
+      "control_id": "C23-upper-platform",
+      "drawing_id": "sucop-2023-23",
+      "drawing_point": [
+        null,
+        null,
+        0.0
+      ],
+      "drawing_point_frame": "datum local do projeto, metros; XY não estabelecido",
+      "scene_object": "ESTAÇÃO SUPERIOR | plataforma",
+      "scene_point": [
+        -50.400856018066406,
+        53.11458969116211,
+        70.05999755859375
+      ],
+      "scene_point_frame": "world/geographic-reference.json; unidade nominal 1m não levantada",
+      "source": "source:lacerda-issue22-sucop-23",
+      "confidence": "candidate_correspondence",
+      "residual": {
+        "z_anchored_upper": 0.0,
+        "xy": null
+      },
+      "reason": "Plano superior da mesh medido diretamente; nível impresso no corte. Associação física ainda candidata: nenhuma porta/cabine usada como controle. Falta identificar no desenho o mesmo plano estrutural e estado executado.",
+      "accepted_for_registration": false,
+      "independent_feature": "upper-platform",
+      "roof_plane_ambiguity": null
+    },
+    {
+      "control_id": "C23-bridge-roof",
+      "drawing_id": "sucop-2023-23",
+      "drawing_point": [
+        null,
+        null,
+        4.0
+      ],
+      "drawing_point_frame": "datum local do projeto, metros; XY não estabelecido",
+      "scene_object": "CALIBRADO | passarela cobertura 28.71 x 6.00m",
+      "scene_point": [
+        -25.64780730009079,
+        29.887452840805054,
+        74.17500305175781
+      ],
+      "scene_point_frame": "world/geographic-reference.json; unidade nominal 1m não levantada",
+      "source": "source:lacerda-issue22-sucop-23",
+      "confidence": "candidate_correspondence",
+      "residual": {
+        "z_anchored_upper": 0.1150054931640625,
+        "xy": null
+      },
+      "reason": "Plano superior da mesh medido diretamente; nível impresso no corte. Associação física ainda candidata: nenhuma porta/cabine usada como controle. Falta identificar no desenho o mesmo plano estrutural e estado executado.",
+      "accepted_for_registration": false,
+      "independent_feature": "bridge-roof",
+      "roof_plane_ambiguity": "Cota do desenho e topo/impermeabilização versus centro da mesh precisam de confirmação"
+    },
+    {
+      "control_id": "C23-lower-roof",
+      "drawing_id": "sucop-2023-23",
+      "drawing_point": [
+        null,
+        null,
+        -53.17
+      ],
+      "drawing_point_frame": "datum local do projeto, metros; XY não estabelecido",
+      "scene_object": "ESTAÇÃO INFERIOR | cobertura",
+      "scene_point": [
+        -50.400856018066406,
+        53.11458969116211,
+        11.916000366210938
+      ],
+      "scene_point_frame": "world/geographic-reference.json; unidade nominal 1m não levantada",
+      "source": "source:lacerda-issue22-sucop-23",
+      "confidence": "candidate_correspondence",
+      "residual": {
+        "z_anchored_upper": -4.973997192382811,
+        "xy": null
+      },
+      "reason": "Plano superior da mesh medido diretamente; nível impresso no corte. Associação física ainda candidata: nenhuma porta/cabine usada como controle. Falta identificar no desenho o mesmo plano estrutural e estado executado.",
+      "accepted_for_registration": false,
+      "independent_feature": "lower-roof",
+      "roof_plane_ambiguity": "Cota do desenho e topo/impermeabilização versus centro da mesh precisam de confirmação"
+    },
+    {
+      "control_id": "C23-lower-platform",
+      "drawing_id": "sucop-2023-23",
+      "drawing_point": [
+        null,
+        null,
+        -58.93
+      ],
+      "drawing_point_frame": "datum local do projeto, metros; XY não estabelecido",
+      "scene_object": "ESTAÇÃO INFERIOR | plataforma",
+      "scene_point": [
+        -50.400856018066406,
+        53.11458969116211,
+        7.35099983215332
+      ],
+      "scene_point_frame": "world/geographic-reference.json; unidade nominal 1m não levantada",
+      "source": "source:lacerda-issue22-sucop-23",
+      "confidence": "candidate_correspondence",
+      "residual": {
+        "z_anchored_upper": -3.77899772644043,
+        "xy": null
+      },
+      "reason": "Plano superior da mesh medido diretamente; nível impresso no corte. Associação física ainda candidata: nenhuma porta/cabine usada como controle. Falta identificar no desenho o mesmo plano estrutural e estado executado.",
+      "accepted_for_registration": false,
+      "independent_feature": "lower-platform",
+      "roof_plane_ambiguity": null
+    }
+  ],
+  "candidate_Z_only": {
+    "scale_fixed": 1.0,
+    "upper_anchor_offset": 70.05999755859375,
+    "least_squares_offset_diagnostic_only": 67.90050020217896,
+    "rms_candidate_residual": 2.2572650941062484,
+    "residuals": [
+      2.1594973564147892,
+      2.2745028495788517,
+      -2.8144998359680216,
+      -1.6195003700256336
+    ],
+    "unique_physical_level_features": 4,
+    "independent_documents": "21 e 23 pertencem ao mesmo projeto; repetição não acrescenta quatro controles independentes",
+    "accepted_controls": 0,
+    "XY_transform": null,
+    "full_transform": null,
+    "applied": false
+  },
+  "registration_gate": "blocked: faltam >=3 controles físicos não colineares XY com associação inequívoca e calibração por cotas; comparação Z isolada não basta"
+}

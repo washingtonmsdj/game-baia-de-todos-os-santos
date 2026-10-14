@@ -1,0 +1,15 @@
+{
+  "vertices": 92609,
+  "triangles": 181899,
+  "finite": true,
+  "duplicate_vertices": 0,
+  "degenerate_triangles_after_float32": 0,
+  "flipped_xy_triangles": 0,
+  "edges_more_than_two_faces": 0,
+  "open_edges": 3319,
+  "open_edges_off_expected_boundary_over_5mm": 0,
+  "max_boundary_distance_blender_units": 4.88872739512497e-05,
+  "terrain_area_projected_scene_units2": 3221888.0,
+  "expected_area_projected_scene_units2": 3221888.1926144725,
+  "classification": "candidate_mesh_QA_not_city_approval"
+}

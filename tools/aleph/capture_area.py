@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Executa uma captura Aleph limitada a OSM + terreno e registra proveniência.
+"""Executa uma captura Aleph e registra proveniência central.
 
 Exemplo:
     python tools/aleph/capture_area.py \
       --area-id centro-historico \
       --bbox SOUTH WEST NORTH EAST
 
-Por segurança, este wrapper NÃO oferece opções para Satellite ou Street View.
+Imagens são referências de desenvolvimento; nunca são assets aprovados.
 """
 
 from __future__ import annotations
@@ -46,6 +46,8 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
         metavar=("SOUTH", "WEST", "NORTH", "EAST"),
     )
     parser.add_argument("--terrain-zoom", type=int, default=14, choices=range(1, 15))
+    parser.add_argument("--sources", nargs='+', choices=('osm','satellite','streetview'), default=['osm'])
+    parser.add_argument("--reference-purpose", help="Finalidade documentada para capturas de imagens dev")
     parser.add_argument("--captures-root", type=Path, default=Path("world-source"))
     parser.add_argument("--reports-root", type=Path, default=Path("docs/reports/aleph"))
     parser.add_argument("--aleph-bin", default="alephgeo")
@@ -70,7 +72,7 @@ def build_command(args: argparse.Namespace, capture_parent: Path) -> list[str]:
         "--bbox",
         *(format(v, ".10g") for v in args.bbox),
         "--sources",
-        "osm",
+        *getattr(args, 'sources', ['osm']),
         "--terrain-zoom",
         str(args.terrain_zoom),
         "-o",
@@ -111,6 +113,9 @@ def run_capture(command: list[str]) -> dict:
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(sys.argv[1:] if argv is None else argv)
+    if any(source!='osm' for source in args.sources) and not args.reference_purpose:
+        print('Capturas de imagens exigem --reference-purpose para registrar o uso dev.', file=sys.stderr)
+        return 2
     try:
         validate_bbox(args.bbox)
     except ValueError as exc:
@@ -144,7 +149,9 @@ def main(argv: list[str] | None = None) -> int:
         "repository": "Belluxx/Aleph",
         "expected_commit": args.aleph_commit,
         "captured_via_wrapper_at": datetime.now(timezone.utc).isoformat(),
-        "command_sources": ["osm"],
+        "command_sources": args.sources,
+        "reference_purpose": args.reference_purpose,
+        "release_policy": "world/provenance-policy.json",
         "terrain_zoom": args.terrain_zoom,
     }
     summary["capture_result"] = result

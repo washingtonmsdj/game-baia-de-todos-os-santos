@@ -1,0 +1,65 @@
+{
+  "schema": "boas/coastal-floor-b65-v1",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b64_costa_volumes_corrigidos.blend",
+    "revision": "R30B.64",
+    "sha256": "8cfbdb35dd31c9d7491364d9c2f398973a1bb4994ff7739024e1f378f4f2015e",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b63_orla_bordas_canteiros.blend",
+    "evidence": "docs/reports/blender/coastal_volumes_r30b64.json",
+    "notes": "Recorta apenas solo/pedonal sobre água; pavimento protegido; cais apoiado e volumes fechados; sem promoção runtime."
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b65_piso_orla_sem_residuos.blend",
+    "revision": "R30B.65",
+    "sha256": "36ccb3462dcc7c7abe584aa1ea903eab7e5f786eefbe3c4e58954b7e9024a2d7"
+  },
+  "corrections": [
+    {
+      "object": "B63 | VISUAL | piso contínuo até o cais",
+      "before": {
+        "vertices": 1672,
+        "faces": 2774
+      },
+      "after": {
+        "vertices": 1657,
+        "faces": 2831
+      },
+      "removed_residual_faces": 20,
+      "weld_distance_blender_units": 1e-05,
+      "degenerate_after": 0,
+      "collision_synchronized": true,
+      "open_surface_intentional": true
+    },
+    {
+      "object": "CAIS | contenção costeira alinhada à linha de costa",
+      "before": {
+        "vertices": 5084,
+        "faces": 1271
+      },
+      "after": {
+        "vertices": 2602,
+        "faces": 1271
+      },
+      "removed_residual_faces": 0,
+      "weld_distance_blender_units": 1e-05,
+      "degenerate_after": 0,
+      "collision_synchronized": true,
+      "open_surface_intentional": true
+    }
+  ],
+  "protected_changes": [],
+  "road_geometry_preserved": true,
+  "water_and_piers_preserved": true,
+  "real_wall_thickness_m": null,
+  "real_foundation_depth_m": null,
+  "pier_bridge_width_m": null,
+  "real_fidelity_approved": false,
+  "runtime_exported": false,
+  "pending": [
+    "Passarela OSM 1426173327: largura/footprint real ainda sem evidência suficiente; 11 apoios ausentes na B64.",
+    "Dimensões do cais e conferência vertical absoluta",
+    "Detalhamento do terminal e época de representação",
+    "Rede e percursos completos na engine"
+  ]
+}

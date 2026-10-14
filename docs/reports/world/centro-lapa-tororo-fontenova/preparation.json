@@ -1,0 +1,26 @@
+{
+  "area_id": "centro-lapa-tororo-fontenova",
+  "capture_id": "osm-mapzen-20261005T045222Z",
+  "source_summary": "docs/reports/world/centro-lapa-tororo-fontenova/source_summary.json",
+  "pipeline_returncode": 0,
+  "pipeline_log": "artifacts/structural-pipeline/centro-lapa-tororo-fontenova/pipeline.log",
+  "source_scene": "blender/salvador_lacerda_r30b73_tangente_encosta_costura.blend",
+  "scene_merged": false,
+  "world_anchor_verified": false,
+  "vertical_fit_verified": false,
+  "runtime_exported": false,
+  "car_traversal_done": true,
+  "candidate_source": {
+    "file": "blender/salvador_lacerda_r30b74_expansao_lapa_tororo_fonte_nova.blend",
+    "sha256": "1b4c16b9831a38bff93e3fb9c03c87bdfaf3e48f5a00cf03e0945b7f6d9b220a",
+    "revision": "R30B.74"
+  },
+  "candidate_scene_applied": true,
+  "candidate_application_evidence": "docs/reports/blender/centro-expansion/scene_b74.json",
+  "source_reopened": true,
+  "scene_merged_meaning": "Ambiente final não integrado; somente terreno e referências candidatos.",
+  "car_traversal_method": "replay_cinematico_e_sondagem_dos_quatro_apoios",
+  "physical_vehicle_tested": false,
+  "final_roads_built": false,
+  "vehicle_evidence": "docs/reports/blender/centro-expansion/rondesp_ground_probe_b74.json"
+}

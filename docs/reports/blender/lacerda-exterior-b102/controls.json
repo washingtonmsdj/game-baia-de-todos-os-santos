@@ -1,0 +1,653 @@
+{
+  "schema": "boas/lacerda-exterior-v1",
+  "ssot_sha256": "1d9da0962d456cb38ed3df0da797208e499a8465f82e9836c14bb337df2385e7",
+  "frame": "docs/reports/blender/lacerda-corridor/scene_b78.json",
+  "registration_reused": "docs/reports/blender/lacerda-structure-b99/controls.json",
+  "source_ids": [
+    "source:lacerda-issue22-sucop-14",
+    "source:lacerda-issue22-sucop-15",
+    "source:lacerda-issue22-sucop-23"
+  ],
+  "source_hashes": {
+    "14": "acecf782c74c22e8b19fb44b9eba33240ad31b160a57fa15bdfc27784b0547aa",
+    "15": "44f7ab3a1655d5d2f7b3c85ef6f807dfab04659b6e2ad4e508d0f84b8c941a5d",
+    "23": "8d8e57f67dc38ab097fce4d9a4c823866fc8db8cd8a0f56f71ff46b7b81efb5b"
+  },
+  "rooms": [
+    {
+      "id": "norte",
+      "inner_floor_outline": [
+        [
+          -16.803749770752578,
+          4.77892132758864
+        ],
+        [
+          -12.243928490741087,
+          4.686835800346068
+        ],
+        [
+          -12.215350223665808,
+          7.817743726593507
+        ],
+        [
+          -16.743417873593646,
+          7.865374171718974
+        ]
+      ],
+      "floor_object": "B101 | cidade alta | piso sala técnica norte subsolo 03",
+      "bottom_z": 50.27300872802734,
+      "top_z": 60.13300872802734,
+      "vertical_connection": "CANDIDATE_BETWEEN_DOCUMENT_LEVELS_NOT_AS_BUILT",
+      "source": "SUCOP14 salas antigas; SUCOP15 projeções da cobertura; níveis23",
+      "wall_thickness_candidate": 0.25
+    },
+    {
+      "id": "sul",
+      "inner_floor_outline": [
+        [
+          -16.692612065459823,
+          -8.030493048153922
+        ],
+        [
+          -12.193122682607264,
+          -8.03366841116229
+        ],
+        [
+          -12.189947319598904,
+          -4.807499594663916
+        ],
+        [
+          -16.68943670245146,
+          -4.928163388981767
+        ]
+      ],
+      "floor_object": "B101 | cidade alta | piso sala técnica sul subsolo 03",
+      "bottom_z": 50.27300872802734,
+      "top_z": 60.13300872802734,
+      "vertical_connection": "CANDIDATE_BETWEEN_DOCUMENT_LEVELS_NOT_AS_BUILT",
+      "source": "SUCOP14 salas antigas; SUCOP15 projeções da cobertura; níveis23",
+      "wall_thickness_candidate": 0.25
+    }
+  ],
+  "retaining_paths": [
+    {
+      "id": "face posterior",
+      "curve_ids": [
+        518
+      ],
+      "points_pdf": [
+        [
+          2278.3199999999997,
+          1284.88
+        ],
+        [
+          2278.3199999999997,
+          1245.16
+        ],
+        [
+          2234.16,
+          1245.4
+        ],
+        [
+          2234.4,
+          931.84
+        ],
+        [
+          2283.48,
+          931.84
+        ],
+        [
+          2283.8399999999997,
+          891.64
+        ]
+      ],
+      "points_local": [
+        [
+          -11.815254484611891,
+          -5.255225778843313
+        ],
+        [
+          -11.815254484611891,
+          -4.204180623074654
+        ],
+        [
+          -12.98378807169004,
+          -4.210531349091384
+        ],
+        [
+          -12.977437345673291,
+          4.08669219176517
+        ],
+        [
+          -11.678713875252193,
+          4.08669219176517
+        ],
+        [
+          -11.66918778622711,
+          5.150438799567291
+        ]
+      ],
+      "bottom_z": 16.953008728027342,
+      "top_z": 50.27300872802734,
+      "vertical_profile_status": "CANDIDATE_SECTION23_CONTINUITY_NOT_SURVEYED",
+      "wall_thickness_candidate": 0.25
+    },
+    {
+      "id": "ala norte encosta",
+      "curve_ids": [
+        523
+      ],
+      "points_pdf": [
+        [
+          2295.24,
+          891.76
+        ],
+        [
+          2381.04,
+          891.64
+        ],
+        [
+          2381.04,
+          908.6800000000001
+        ],
+        [
+          2399.88,
+          908.6800000000001
+        ],
+        [
+          2399.88,
+          891.64
+        ],
+        [
+          2505.8399999999997,
+          891.64
+        ],
+        [
+          2505.8399999999997,
+          908.6800000000001
+        ],
+        [
+          2522.7599999999998,
+          908.6800000000001
+        ],
+        [
+          2522.7599999999998,
+          892.36
+        ],
+        [
+          2633.4,
+          892.12
+        ],
+        [
+          2633.4,
+          909.76
+        ],
+        [
+          2646.48,
+          909.76
+        ]
+      ],
+      "points_local": [
+        [
+          -11.367528300432475,
+          5.1472634365589265
+        ],
+        [
+          -9.09714374945182,
+          5.150438799567288
+        ],
+        [
+          -9.09714374945182,
+          4.699537252379524
+        ],
+        [
+          -8.598611757138583,
+          4.699537252379524
+        ],
+        [
+          -8.598611757138583,
+          5.150438799567288
+        ],
+        [
+          -5.794766220752701,
+          5.150438799567288
+        ],
+        [
+          -5.794766220752701,
+          4.699537252379524
+        ],
+        [
+          -5.347040036573299,
+          4.699537252379524
+        ],
+        [
+          -5.347040036573299,
+          5.1313866215171
+        ],
+        [
+          -2.4193553428611922,
+          5.13773734753383
+        ],
+        [
+          -2.4193553428611922,
+          4.670958985304245
+        ],
+        [
+          -2.0732407749494586,
+          4.670958985304245
+        ]
+      ],
+      "bottom_z": 16.953008728027342,
+      "top_z": 50.27300872802734,
+      "vertical_profile_status": "CANDIDATE_SECTION23_CONTINUITY_NOT_SURVEYED",
+      "wall_thickness_candidate": 0.25
+    },
+    {
+      "id": "ala sul encosta",
+      "curve_ids": [
+        521
+      ],
+      "points_pdf": [
+        [
+          2245.44,
+          1234.0
+        ],
+        [
+          2289.72,
+          1233.76
+        ],
+        [
+          2289.72,
+          1284.88
+        ],
+        [
+          2378.64,
+          1284.88
+        ],
+        [
+          2378.64,
+          1267.8400000000001
+        ],
+        [
+          2395.68,
+          1267.8400000000001
+        ],
+        [
+          2395.68,
+          1284.88
+        ],
+        [
+          2501.88,
+          1284.52
+        ],
+        [
+          2501.88,
+          1267.48
+        ],
+        [
+          2518.7999999999997,
+          1267.48
+        ],
+        [
+          2518.7999999999997,
+          1284.88
+        ],
+        [
+          2627.16,
+          1284.88
+        ],
+        [
+          2627.2799999999997,
+          1268.32
+        ],
+        [
+          2646.12,
+          1268.44
+        ]
+      ],
+      "points_local": [
+        [
+          -12.685303948903766,
+          -3.908871863296749
+        ],
+        [
+          -11.513594998817254,
+          -3.90252113728002
+        ],
+        [
+          -11.513594998817254,
+          -5.255225778843313
+        ],
+        [
+          -9.160651009619126,
+          -5.255225778843313
+        ],
+        [
+          -9.160651009619126,
+          -4.8043242316555546
+        ],
+        [
+          -8.709749462431361,
+          -4.8043242316555546
+        ],
+        [
+          -8.709749462431361,
+          -5.255225778843313
+        ],
+        [
+          -5.899553200028732,
+          -5.245699689818216
+        ],
+        [
+          -5.899553200028732,
+          -4.794798142630458
+        ],
+        [
+          -5.451827015849341,
+          -4.794798142630458
+        ],
+        [
+          -5.451827015849341,
+          -5.255225778843313
+        ],
+        [
+          -2.584474219296167,
+          -5.255225778843319
+        ],
+        [
+          -2.5812988562878054,
+          -4.817025683689013
+        ],
+        [
+          -2.082766863974568,
+          -4.820201046697381
+        ]
+      ],
+      "bottom_z": 16.953008728027342,
+      "top_z": 50.27300872802734,
+      "vertical_profile_status": "CANDIDATE_SECTION23_CONTINUITY_NOT_SURVEYED",
+      "wall_thickness_candidate": 0.25
+    }
+  ],
+  "archive": [
+    {
+      "object": "PASSARELA R10 | rodapé",
+      "signature": {
+        "geometry_sha256": "9b5056217b82a2e7944bb4ca4f58ffbac6caf2c130e874f5b5652361ce8586f2",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -27.443265914916992
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            27.96566390991211
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            70.20999908447266
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.41999998688697815,
+              0.46000000834465027,
+              0.4699999988079071,
+              1.0
+            ],
+            "base": [
+              0.41999998688697815,
+              0.46000000834465027,
+              0.4699999988079071,
+              1.0
+            ],
+            "roughness": 0.30000001192092896,
+            "metallic": 0.699999988079071
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "reason": "Acabamento R10 com eixo/alcance antigo, fora do contorno documental da ponte B88 e duplicando seus limites atuais",
+      "classification": "ERROR"
+    },
+    {
+      "object": "PASSARELA R10 | rodapé.001",
+      "signature": {
+        "geometry_sha256": "9b5056217b82a2e7944bb4ca4f58ffbac6caf2c130e874f5b5652361ce8586f2",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -23.843992233276367
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            31.801395416259766
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            70.20999908447266
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.41999998688697815,
+              0.46000000834465027,
+              0.4699999988079071,
+              1.0
+            ],
+            "base": [
+              0.41999998688697815,
+              0.46000000834465027,
+              0.4699999988079071,
+              1.0
+            ],
+            "roughness": 0.30000001192092896,
+            "metallic": 0.699999988079071
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "reason": "Acabamento R10 com eixo/alcance antigo, fora do contorno documental da ponte B88 e duplicando seus limites atuais",
+      "classification": "ERROR"
+    },
+    {
+      "object": "PASSARELA R10 | corrimão",
+      "signature": {
+        "geometry_sha256": "a21c610946938177b6b963e7f29f5011e1e3faaf92080e020f703a2cc206a46e",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -27.422739028930664
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            27.98754119873047
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            71.1300048828125
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.41999998688697815,
+              0.46000000834465027,
+              0.4699999988079071,
+              1.0
+            ],
+            "base": [
+              0.41999998688697815,
+              0.46000000834465027,
+              0.4699999988079071,
+              1.0
+            ],
+            "roughness": 0.30000001192092896,
+            "metallic": 0.699999988079071
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "reason": "Acabamento R10 com eixo/alcance antigo, fora do contorno documental da ponte B88 e duplicando seus limites atuais",
+      "classification": "ERROR"
+    },
+    {
+      "object": "PASSARELA R10 | corrimão.001",
+      "signature": {
+        "geometry_sha256": "a21c610946938177b6b963e7f29f5011e1e3faaf92080e020f703a2cc206a46e",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -23.864519119262695
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            31.779518127441406
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            71.1300048828125
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.41999998688697815,
+              0.46000000834465027,
+              0.4699999988079071,
+              1.0
+            ],
+            "base": [
+              0.41999998688697815,
+              0.46000000834465027,
+              0.4699999988079071,
+              1.0
+            ],
+            "roughness": 0.30000001192092896,
+            "metallic": 0.699999988079071
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "reason": "Acabamento R10 com eixo/alcance antigo, fora do contorno documental da ponte B88 e duplicando seus limites atuais",
+      "classification": "ERROR"
+    }
+  ],
+  "inner_core_preserved": "LAC R30B08 | apoio oposto | corpo estrutural afunilado",
+  "not_proven": [
+    "espessuras executadas",
+    "perfil vertical exato das alas técnicas",
+    "encontro absoluto DEM/arquitetura",
+    "dimensões/instalação as-built dos quatro equipamentos"
+  ],
+  "production_ready": false,
+  "outer_central_body": {
+    "object": "B102 | cidade alta | envoltória externa central",
+    "drawing_points_pdf14": [
+      [
+        2077.68,
+        926.08
+      ],
+      [
+        2283.48,
+        926.08
+      ],
+      [
+        2283.48,
+        1284.88
+      ],
+      [
+        2077.68,
+        1284.88
+      ]
+    ],
+    "outline_local": [
+      [
+        -17.124462127685547,
+        -5.255225658416748
+      ],
+      [
+        -11.67871379852295,
+        -5.255225658416748
+      ],
+      [
+        -11.67871379852295,
+        4.239109516143799
+      ],
+      [
+        -17.124462127685547,
+        4.239109516143799
+      ]
+    ],
+    "levels": [
+      16.953008728027342,
+      50.27300872802734
+    ],
+    "thickness_candidate": 0.25,
+    "source_faces": [
+      "14/526",
+      "14/518"
+    ],
+    "classification": "ADAPT_LOCAL_DOCUMENT_MAJOR_ENVELOPE",
+    "not_proven": "Simplificação de pequenos recuos e extrusão abaixo da14; confrontar futuramente levantamento/elevações",
+    "inner_core_separate_and_preserved": true
+  }
+}

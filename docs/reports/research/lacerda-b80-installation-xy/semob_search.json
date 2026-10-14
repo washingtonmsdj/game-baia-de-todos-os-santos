@@ -1,0 +1,91 @@
+{
+  "schema": "boas/public-document-locators-v1",
+  "records": [
+    {
+      "locator_id": "semob-search-process",
+      "requested_url": "https://mobilidade.salvador.ba.gov.br/wp-json/wp/v2/search?search=151228&per_page=100",
+      "process_target": "151228/2023",
+      "contract_target": "SEMOB 008/2023",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "retrieved_at": "2026-10-06T13:36:20.536277+00:00",
+      "technical_installation_document": false,
+      "status_code": 200,
+      "final_url": "https://mobilidade.salvador.ba.gov.br/wp-json/wp/v2/search?search=151228&per_page=100",
+      "content_type": "application/json; charset=UTF-8",
+      "bytes": 2,
+      "raw_file": "world-reference/mvp-centro-lacerda/research-20261006-semob/semob-search-process.html",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "links": []
+    },
+    {
+      "locator_id": "semob-search-otis",
+      "requested_url": "https://mobilidade.salvador.ba.gov.br/wp-json/wp/v2/search?search=Otis&per_page=100",
+      "process_target": "151228/2023",
+      "contract_target": "SEMOB 008/2023",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "retrieved_at": "2026-10-06T13:36:20.557284+00:00",
+      "technical_installation_document": false,
+      "status_code": 200,
+      "final_url": "https://mobilidade.salvador.ba.gov.br/wp-json/wp/v2/search?search=Otis&per_page=100",
+      "content_type": "application/json; charset=UTF-8",
+      "bytes": 1627,
+      "raw_file": "world-reference/mvp-centro-lacerda/research-20261006-semob/semob-search-otis.html",
+      "sha256": "1be8ca372f9d27fd2e7454f3db55692c6f9bcc980c170c878063ae12848bb940",
+      "links": []
+    },
+    {
+      "locator_id": "semob-search-inexigibilidade",
+      "requested_url": "https://mobilidade.salvador.ba.gov.br/wp-json/wp/v2/search?search=inexigibilidade&per_page=100",
+      "process_target": "151228/2023",
+      "contract_target": "SEMOB 008/2023",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "retrieved_at": "2026-10-06T13:36:20.629662+00:00",
+      "technical_installation_document": false,
+      "status_code": 200,
+      "final_url": "https://mobilidade.salvador.ba.gov.br/wp-json/wp/v2/search?search=inexigibilidade&per_page=100",
+      "content_type": "application/json; charset=UTF-8",
+      "bytes": 1009,
+      "raw_file": "world-reference/mvp-centro-lacerda/research-20261006-semob/semob-search-inexigibilidade.html",
+      "sha256": "67f7054d8c614f26739b34d880f4680809d9d53fb20a1e3edd91665883ee79f1",
+      "links": []
+    },
+    {
+      "locator_id": "semob-search-lacerda",
+      "requested_url": "https://mobilidade.salvador.ba.gov.br/wp-json/wp/v2/search?search=Lacerda&per_page=100",
+      "process_target": "151228/2023",
+      "contract_target": "SEMOB 008/2023",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "retrieved_at": "2026-10-06T13:36:20.681824+00:00",
+      "technical_installation_document": false,
+      "status_code": 200,
+      "final_url": "https://mobilidade.salvador.ba.gov.br/wp-json/wp/v2/search?search=Lacerda&per_page=100",
+      "content_type": "application/json; charset=UTF-8",
+      "bytes": 50987,
+      "raw_file": "world-reference/mvp-centro-lacerda/research-20261006-semob/semob-search-lacerda.html",
+      "sha256": "d0aae37ba9ba64aad66421cb620649e96f9eb3300fcb03a9da3f0249ff7d0cbf",
+      "links": []
+    },
+    {
+      "locator_id": "compras-busca",
+      "requested_url": "http://compras.salvador.ba.gov.br/novo/index.php?secao=licitacao_busca",
+      "process_target": "151228/2023",
+      "contract_target": "SEMOB 008/2023",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "retrieved_at": "2026-10-06T13:36:20.693008+00:00",
+      "technical_installation_document": false,
+      "status_code": 503,
+      "final_url": "https://compras.salvador.ba.gov.br:443/novo/index.php?secao=licitacao_busca",
+      "content_type": "text/html",
+      "bytes": 6313,
+      "raw_file": "world-reference/mvp-centro-lacerda/research-20261006-semob/compras-busca.html",
+      "sha256": "781bdf85c95d753be3fe7e7ca851536e0a8b85f152f33d1459dca35d1473519f",
+      "links": [
+        "https://salvadordigital.salvador.ba.gov.br",
+        "https://raw.githubusercontent.com/GESIC-COGEL/portal-vpn/main/assets/logo_cogel.png",
+        "https://raw.githubusercontent.com/GESIC-COGEL/portal-vpn/refs/heads/main/assets/logo_pms.png"
+      ]
+    }
+  ],
+  "outbound_requests_sent": false,
+  "note": "GETs públicos apenas. HTML, erros HTTP e landing pages não são dados dimensionais de instalação. Endereço DOM sondado como candidato, não previamente validado."
+}

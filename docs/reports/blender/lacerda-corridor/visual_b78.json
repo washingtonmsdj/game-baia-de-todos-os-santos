@@ -1,0 +1,27 @@
+{
+  "source": {
+    "file": "blender/salvador_lacerda_r30b78_encontro_saguao_passarela.blend",
+    "revision": "R30B.78",
+    "sha256": "b79ccf20e4bd1e30895348a742f528754a21ac7212f75b9792cf6794c5437ab0"
+  },
+  "reviewed": true,
+  "images": [
+    {
+      "file": "artifacts/lacerda-corridor/junction_before_b78.png",
+      "sha256": "4d673fa7406df65b8329419901e4f4329f72bfb3587d3488c67f52905dfdb8a3"
+    },
+    {
+      "file": "artifacts/lacerda-corridor/junction_after_b78.png",
+      "sha256": "e937a166bcce7024a0c1012781555992a0e25a571cc1dff2a543b20a91df35aa"
+    },
+    {
+      "file": "artifacts/lacerda-corridor/junction_inside_b78.png",
+      "sha256": "81647dbddffaa01e26b8dba74aa5069ecd6c8d01990b4e89a625456be06dfc4f"
+    }
+  ],
+  "observations": [
+    "Vista frontal conferida: aberturas laterais anteriores fechadas.",
+    "Vista interna conferida: paredes e verga encontram as bordas da passarela; passagem central preservada."
+  ],
+  "scope": "Capturas do viewport real; SOLID, não valida iluminação/material PBR ou medidas da construção real."
+}

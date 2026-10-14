@@ -1,0 +1,126 @@
+{
+  "status": "PASS_IMPLEMENTED_PROXY_ONLY",
+  "simulation_frames": 10608,
+  "interlocks": {
+    "status": "PASS_PROXY_ONLY",
+    "cases": [
+      {
+        "case": "closed_door_blocks_entry",
+        "passed": true,
+        "detail": [
+          2.145833333333331,
+          0.0,
+          70.12999786376953
+        ]
+      },
+      {
+        "case": "absent_cabin_shaft_inaccessible",
+        "passed": true,
+        "detail": [
+          2.145833333333331,
+          0.0,
+          70.12999786376953
+        ]
+      },
+      {
+        "case": "occupied_portal_prevents_close",
+        "passed": true,
+        "detail": "Abertura ocupada: fechamento impedido"
+      },
+      {
+        "case": "no_motion_with_open_doors",
+        "passed": true,
+        "detail": 0.9833333333333333
+      },
+      {
+        "case": "no_opening_without_docked_cabin",
+        "passed": true,
+        "detail": "CLOSED"
+      },
+      {
+        "case": "cabin_wall_blocks_player",
+        "passed": true,
+        "detail": [
+          0.0,
+          0.9750000000000005,
+          70.12999786376953
+        ]
+      },
+      {
+        "case": "passenger_carried_continuously",
+        "passed": true,
+        "detail": {
+          "samples": 2100,
+          "maximum_relative_z_error": 5.689893001203927e-16
+        }
+      },
+      {
+        "case": "departure_interlocks",
+        "passed": true,
+        "detail": [
+          {
+            "event": "departure",
+            "time": 37.733333333332475,
+            "door_aperture": 0.0,
+            "carrying": true
+          },
+          {
+            "event": "departure",
+            "time": 123.59999999999427,
+            "door_aperture": 0.0,
+            "carrying": true
+          }
+        ]
+      },
+      {
+        "case": "no_position_teleport",
+        "passed": true,
+        "detail": {
+          "maximum_xy_frame_delta": 0.0416666666666792,
+          "maximum_z_frame_delta": 0.06666666666666998
+        }
+      }
+    ],
+    "historical_gates_resolved": false,
+    "engine_certification": false
+  },
+  "events": [
+    {
+      "event": "departure",
+      "time": 37.733333333332475,
+      "door_aperture": 0.0,
+      "carrying": true
+    },
+    {
+      "event": "arrival",
+      "landing": "lower",
+      "time": 55.23333333333148
+    },
+    {
+      "event": "departure",
+      "time": 123.59999999999427,
+      "door_aperture": 0.0,
+      "carrying": true
+    },
+    {
+      "event": "arrival",
+      "landing": "upper",
+      "time": 141.10000000000443
+    }
+  ],
+  "implemented_endpoint_local": [
+    -69.33086893763439,
+    14.014297508040542,
+    7.2556686407327655
+  ],
+  "implemented_endpoint_world_xy": [
+    -89.28959340415894,
+    106.5613851812668
+  ],
+  "market_entrance_connector": "NOT_IMPLEMENTED_NOT_TESTABLE",
+  "full_city_high_to_market_route": "NOT_APPROVED",
+  "historical_gate": "BLOCKED_EXTERNAL_EVIDENCE",
+  "engine_certified": false,
+  "traffic_scope": "EXCLUSIVE_PEDESTRIAN_PROTOTYPE_NO_MOVING_TRAFFIC",
+  "scene_geometry_changed": false
+}

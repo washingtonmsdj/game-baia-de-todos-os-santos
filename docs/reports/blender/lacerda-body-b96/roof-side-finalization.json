@@ -1,0 +1,18 @@
+{
+  "objects": [
+    "SUPERIOR | lateral corpo elevado",
+    "SUPERIOR | lateral corpo elevado.001"
+  ],
+  "roof_bottom": 83.87300872802734,
+  "removed_obsolete_checkpoint": {
+    "file": "blender/salvador_lacerda_r30b96_encontro_corpo_cobertura.blend1",
+    "sha256": "f3c91e4b1f6bd1baa8984cac4aa9f0e98d46638552b18515e98af42035fd1fc9",
+    "reason": "B96 em andamento, antes da inspeção visual detectar sobreposição das faces exteriores.",
+    "state": "removed_obsolete_in_progress_checkpoint_after_current_validation"
+  },
+  "preserved_next_checkpoint": {
+    "file": "blender/salvador_lacerda_r30b96_encontro_corpo_cobertura.blend1",
+    "sha256": "3cbd7986ab4297e486c1564d493a03ce19383387c5a92f8239db4592de88ad2f",
+    "reason": "B96 em andamento: face posterior finalizada, antes de estender a junta ao topo das laterais."
+  }
+}

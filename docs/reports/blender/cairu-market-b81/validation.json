@@ -1,0 +1,56 @@
+{
+  "source": {
+    "file": "blender/salvador_lacerda_r30b81_cairu_colisao_e_rota_parcial.blend",
+    "revision": "R30B.81",
+    "sha256": "45583e49dde0a4a03d6b8d4a654135bb11644e786acb681dab7da3d68984e4af",
+    "status": "external_partial_route_blocked",
+    "parent_file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+    "production_ready": false,
+    "evidence": "docs/reports/blender/cairu-market-b81/application.json",
+    "notes": "Papéis físicos comprovados e patch de meio-fio fiel, rota OSM parcial. Vertical B80 bloqueada; acesso Mercado e controller não aprovados."
+  },
+  "pid": 10684,
+  "reopened_same_window": true,
+  "objects": 6296,
+  "checked_original_sources": [
+    "LAC R30B06 | fundo verde travessia 3178050253",
+    "INFERIOR | piso do saguão",
+    "INFERIOR R21 | passeio da entrada",
+    "INFERIOR R21 | rebaixo acessível",
+    "B63 | VISUAL | meios-fios das vias existentes"
+  ],
+  "floor_collider_comparison": [
+    {
+      "source": "INFERIOR | piso do saguão",
+      "collider": "B77 | COLLISION | INFERIOR | piso do saguão",
+      "probes": 20,
+      "missing_collider_support": 0,
+      "max_surface_z_residual": 0.0,
+      "status": "coincident_sampled_surfaces"
+    },
+    {
+      "source": "INFERIOR R21 | passeio da entrada",
+      "collider": "B77 | COLLISION | INFERIOR R21 | passeio da entrada",
+      "probes": 20,
+      "missing_collider_support": 0,
+      "max_surface_z_residual": 0.0,
+      "status": "coincident_sampled_surfaces"
+    },
+    {
+      "source": "INFERIOR R21 | rebaixo acessível",
+      "collider": "B77 | COLLISION | INFERIOR R21 | rebaixo acessível",
+      "probes": 6,
+      "missing_collider_support": 0,
+      "max_surface_z_residual": 0.0,
+      "status": "coincident_sampled_surfaces"
+    }
+  ],
+  "curb_triangles_faithful": 1848,
+  "all_derived_triangles_from_source": true,
+  "route_enabled": false,
+  "market_entrance_verified": false,
+  "movement_enabled": false,
+  "LACERDA_VERTICAL": "BLOCKED_EXTERNAL_EVIDENCE",
+  "CAIRU_MARKET_PEDESTRIAN": "PARTIAL_ROUTE_APPLIED_BLOCKED",
+  "production_exported": false
+}

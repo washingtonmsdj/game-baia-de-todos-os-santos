@@ -1,0 +1,117 @@
+{
+  "schema": "boas/manoel-transition-b72-candidate-v1",
+  "source": {
+    "file": "blender/salvador_lacerda_r30b71_encontro_norte_cais.blend",
+    "revision": "R30B.71",
+    "sha256": "b851703b3e47571469f30bd5c32c1e0fe01fa7e476f2776976e7b222dd4ed989",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b70_juncao_terreno_cais.blend",
+    "evidence": "docs/reports/blender/north_junction_r30b71.json",
+    "notes": "Encontro norte do piso/cais vinculado ao núcleo existente; XY/vias/núcleo/água preservados; altura absoluta não verificada.",
+    "source_reopened": true,
+    "validation_evidence": "docs/reports/blender/north_junction_r30b71_validation.json",
+    "local_geometry_checks_passed": true
+  },
+  "osm_way_id": 456471269,
+  "classification": "ADAPT_LOCAL",
+  "source_reference": "artifacts/structural-pipeline/mvp-centro-lacerda/structural_reference.json",
+  "source_width_m": null,
+  "existing_candidate_width_m": 5.2,
+  "width_changed": false,
+  "axis_changed": false,
+  "transition_end_station_m": 14.363962234743887,
+  "profile_flat_station_m": 10.90829446843129,
+  "design_blend_m": 3,
+  "design_slope_easing_m": 1.5,
+  "design_crossfall": null,
+  "profile_direction": "bisector_of_shared_osm_branches",
+  "shared_osm_node_id": 4527284526,
+  "affected_osm_ids": [
+    456471269,
+    154743329
+  ],
+  "controls": {
+    "from": [
+      -296.67210311535746,
+      -199.4410952120088,
+      8.815719604492188
+    ],
+    "to": [
+      -285.70343017578125,
+      -190.16684995830985,
+      7.255668640136719
+    ]
+  },
+  "changed_vertices": 1286,
+  "max_z_change_m": 0.5671479532102852,
+  "other_roads_walkable_locked_vertices": 14976,
+  "other_roads_walkable_max_change_m": 0.0,
+  "profiles": [
+    {
+      "osm_way_id": 154743329,
+      "max_grade_before": 0.14428037291026222,
+      "max_grade_after": 0.16203134258718507,
+      "max_crossfall_before": 0.06920092033617424,
+      "max_crossfall_after": 0.037740071614583336,
+      "missing_supports": 0
+    },
+    {
+      "osm_way_id": 456471269,
+      "max_grade_before": 0.22977904242598535,
+      "max_grade_after": 0.16154237096579385,
+      "max_crossfall_before": 0.12971820253314395,
+      "max_crossfall_after": 0.03768458510890152,
+      "missing_supports": 0
+    },
+    {
+      "osm_way_id": 562660148,
+      "max_grade_before": 0.029746826055744958,
+      "max_grade_after": 0.029746826055744958,
+      "max_crossfall_before": 0.0284738251657197,
+      "max_crossfall_after": 0.0284738251657197,
+      "missing_supports": 0
+    },
+    {
+      "osm_way_id": 978527848,
+      "max_grade_before": 0.183812123435972,
+      "max_grade_after": 0.183812123435972,
+      "max_crossfall_before": 0.05228678385416667,
+      "max_crossfall_after": 0.05228678385416667,
+      "missing_supports": 0
+    },
+    {
+      "osm_way_id": 1004133492,
+      "max_grade_before": 0.05453827691756394,
+      "max_grade_after": 0.05453827691756394,
+      "max_crossfall_before": 0.04691384055397727,
+      "max_crossfall_after": 0.04691384055397727,
+      "missing_supports": 0
+    },
+    {
+      "osm_way_id": 1004133493,
+      "max_grade_before": 0.1720396121163967,
+      "max_grade_after": 0.1720396121163967,
+      "max_crossfall_before": 0.03783254912405303,
+      "max_crossfall_after": 0.03783254912405303,
+      "missing_supports": 0
+    },
+    {
+      "osm_way_id": 1004133494,
+      "max_grade_before": 0.051178308558778,
+      "max_grade_after": 0.051178308558778,
+      "max_crossfall_before": 0.03260756983901515,
+      "max_crossfall_after": 0.03260756983901515,
+      "missing_supports": 0
+    },
+    {
+      "osm_way_id": 1075624454,
+      "max_grade_before": 0.1962071038361172,
+      "max_grade_after": 0.1962071038361172,
+      "max_crossfall_before": 0.039959531841856064,
+      "max_crossfall_after": 0.039959531841856064,
+      "missing_supports": 0
+    }
+  ],
+  "finite": true,
+  "geometry_changed": false
+}

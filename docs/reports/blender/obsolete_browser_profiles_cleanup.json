@@ -1,0 +1,57 @@
+[
+  {
+    "bytes": 120019484.0,
+    "path": "boas-threejs-cdp",
+    "reason": "Perfil temporário de inspeção do jogo; sem processo ativo"
+  },
+  {
+    "bytes": 78468335.0,
+    "path": "chrome-ordax-water-visible",
+    "reason": "Perfil temporário de inspeção do jogo; sem processo ativo"
+  },
+  {
+    "bytes": 26473356.0,
+    "path": "chrome-ordax-water-2",
+    "reason": "Perfil temporário de inspeção do jogo; sem processo ativo"
+  },
+  {
+    "bytes": 26385177.0,
+    "path": "chrome-ordax-water",
+    "reason": "Perfil temporário de inspeção do jogo; sem processo ativo"
+  },
+  {
+    "path": "all-saints-r30a10-chrome",
+    "bytes": 135396728.0,
+    "reason": "Perfil temporário da inspeção R30A10 anterior, sem processo ativo e sem links; fontes preservadas"
+  },
+  {
+    "path": "scoped_dir11084_1594389196",
+    "bytes": 126835012.0,
+    "reason": "Perfil descartável antigo de automação de navegador, sem processo ativo e sem links"
+  },
+  {
+    "path": "playwright_chromiumdev_profile-lGHB5r",
+    "bytes": 17020934.0,
+    "reason": "Perfil descartável antigo de automação de navegador, sem processo ativo e sem links"
+  },
+  {
+    "path": "playwright_chromiumdev_profile-G3Rt9z",
+    "bytes": 7978346.0,
+    "reason": "Perfil descartável antigo de automação de navegador, sem processo ativo e sem links"
+  },
+  {
+    "path": "playwright_chromiumdev_profile-bdZtf5",
+    "bytes": 6898886.0,
+    "reason": "Perfil descartável antigo de automação de navegador, sem processo ativo e sem links"
+  },
+  {
+    "path": "playwright_chromiumdev_profile-CE9uhP",
+    "bytes": 2186722.0,
+    "reason": "Perfil descartável antigo de automação de navegador, sem processo ativo e sem links"
+  },
+  {
+    "path": "playwright_chromiumdev_profile-j5w43h",
+    "bytes": 2053754.0,
+    "reason": "Perfil descartável antigo de automação de navegador, sem processo ativo e sem links"
+  }
+]

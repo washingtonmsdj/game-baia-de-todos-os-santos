@@ -1,0 +1,1879 @@
+{
+  "file": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\blender\\salvador_lacerda_r30b93_estrutura_inferior_documental.blend",
+  "scene": "SALVADOR | ESBOCO OFICIAL",
+  "pid": 16912,
+  "ssot_sha256": "1d9da0962d456cb38ed3df0da797208e499a8465f82e9836c14bb337df2385e7",
+  "surfaces": [
+    {
+      "object": "INFERIOR R21 | passeio da entrada",
+      "bounds": [
+        [
+          -77.9135513305664,
+          -75.9135513305664
+        ],
+        [
+          -4.699998378753662,
+          4.700001239776611
+        ],
+        [
+          7.165999889373779,
+          7.405999660491943
+        ]
+      ],
+      "collections": [
+        "32.4 GAMEPLAY | WALKABLE",
+        "33.3 RUNTIME | WALKABLE",
+        "37.5 NAV | WALKABLE SOURCES",
+        "Scene Collection"
+      ],
+      "properties": {
+        "game_role": "walkable_surface",
+        "ordax_semantic_revision": "R30A.4",
+        "ordax_semantic_layer": "32.4 GAMEPLAY | WALKABLE",
+        "ordax_semantic_note": "Lower Elevador access corridor.",
+        "ordax_semantic_roles": "[\"WALKABLE_SURFACE\"]",
+        "boas_runtime_role": "walkable_surface",
+        "boas_runtime_source_revision": "R30A.4",
+        "boas_export_candidate": true,
+        "boas_navigation_source": true,
+        "boas_navigation_source_revision": "R30A.11",
+        "boas_navigation_source_status": "candidate",
+        "boas_collision_role": "WALKABLE_FLOOR"
+      },
+      "selection_reason": "Nome/limite usados somente para inventário de superfícies, não associação física"
+    },
+    {
+      "object": "INFERIOR R21 | rebaixo acessível",
+      "bounds": [
+        [
+          -80.8612289428711,
+          -76.765869140625
+        ],
+        [
+          -2.0481820106506348,
+          2.0481810569763184
+        ],
+        [
+          7.25600004196167,
+          7.406000137329102
+        ]
+      ],
+      "collections": [
+        "32.4 GAMEPLAY | WALKABLE",
+        "33.3 RUNTIME | WALKABLE",
+        "37.5 NAV | WALKABLE SOURCES",
+        "Scene Collection"
+      ],
+      "properties": {
+        "game_role": "walkable_surface",
+        "ordax_semantic_revision": "R30A.4",
+        "ordax_semantic_layer": "32.4 GAMEPLAY | WALKABLE",
+        "ordax_semantic_note": "Lower Elevador access corridor.",
+        "ordax_semantic_roles": "[\"WALKABLE_SURFACE\"]",
+        "boas_runtime_role": "walkable_surface",
+        "boas_runtime_source_revision": "R30A.4",
+        "boas_export_candidate": true,
+        "boas_navigation_source": true,
+        "boas_navigation_source_revision": "R30A.11",
+        "boas_navigation_source_status": "candidate",
+        "boas_collision_role": "WALKABLE_FLOOR"
+      },
+      "selection_reason": "Nome/limite usados somente para inventário de superfícies, não associação física"
+    },
+    {
+      "object": "CALIBRADO | piso desembarque baixo",
+      "bounds": [
+        [
+          -68.81354522705078,
+          -56.81354522705078
+        ],
+        [
+          -9.999998092651367,
+          -1.9999985694885254
+        ],
+        [
+          7.140999794006348,
+          7.440999984741211
+        ]
+      ],
+      "collections": [
+        "08 ELEVADOR E TERRENO | dimensoes calibradas"
+      ],
+      "properties": {
+        "dimensoes_status": "detalhe proporcional"
+      },
+      "selection_reason": "Nome/limite usados somente para inventário de superfícies, não associação física"
+    },
+    {
+      "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+      "bounds": [
+        [
+          -43.7340087890625,
+          -19.76319122314453
+        ],
+        [
+          -2.924509048461914,
+          5.953805446624756
+        ],
+        [
+          69.1300048828125,
+          70.09300994873047
+        ]
+      ],
+      "collections": [
+        "08 ELEVADOR E TERRENO | dimensoes calibradas"
+      ],
+      "properties": {
+        "dimensoes_status": "Contorno CAD SUCOP17; espessura de montagem candidata, sem cota própria",
+        "game_role": "walkable_surface",
+        "navigation_source": "Rendered structural floor",
+        "boas_generated_revision": "R30B.91",
+        "boas_provenance_ids": "[\"derived:lacerda-structure-mesh-b91\"]",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_role": "ARCHITECTURAL_MODEL_CANDIDATE",
+        "accuracy": "PROJECT_XY_INHERITED_Z_APPROXIMATE",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_STRUCTURE_THICKNESS",
+        "boas_location_id": "elevador-lacerda",
+        "boas_architectural_domain": "BRIDGE",
+        "boas_floor_binding": "LAC R30B | Passarela | piso paginado visual"
+      },
+      "selection_reason": "Nome/limite usados somente para inventário de superfícies, não associação física"
+    },
+    {
+      "object": "ESTAÇÃO INFERIOR | plataforma",
+      "bounds": [
+        [
+          -70.21354675292969,
+          -64.21354675292969
+        ],
+        [
+          -5.340002536773682,
+          5.3399977684021
+        ],
+        [
+          7.071000099182129,
+          7.35099983215332
+        ]
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {},
+      "selection_reason": "Nome/limite usados somente para inventário de superfícies, não associação física"
+    },
+    {
+      "object": "INFERIOR | piso do saguão",
+      "bounds": [
+        [
+          -61.9034309387207,
+          -15.981330871582031
+        ],
+        [
+          -2.7816174030303955,
+          14.57491683959961
+        ],
+        [
+          10.863008499145508,
+          11.113008499145508
+        ]
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "game_role": "walkable_surface",
+        "reference_status": "partial",
+        "boas_collision_role": "WALKABLE_FLOOR",
+        "boas_generated_revision": "R30B.89",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b89\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_architectural_domain": "LOWER_LOBBY",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_z_registration_status": "ARCHITECTURAL_RELATIVE_PROJECT_DATUM_NOT_GEOGRAPHIC_ALTITUDE"
+      },
+      "selection_reason": "Nome/limite usados somente para inventário de superfícies, não associação física"
+    },
+    {
+      "object": "SUPERIOR | piso saguão",
+      "bounds": [
+        [
+          -19.81081771850586,
+          6.458959579467773
+        ],
+        [
+          -9.840450286865234,
+          9.840450286865234
+        ],
+        [
+          69.79300689697266,
+          70.12300872802734
+        ]
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "partial",
+        "game_role": "walkable_surface",
+        "navigation_source": "Rendered structural floor",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_location_id": "elevador-lacerda",
+        "boas_architectural_domain": "UPPER_STATION"
+      },
+      "selection_reason": "Nome/limite usados somente para inventário de superfícies, não associação física"
+    },
+    {
+      "object": "FACHADA SUPERIOR | rebaixo quadrado",
+      "bounds": [
+        [
+          5.785435199737549,
+          5.899609565734863
+        ],
+        [
+          -4.08506965637207,
+          -2.595141649246216
+        ],
+        [
+          77.78965759277344,
+          78.70632934570312
+        ]
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "BUILDING",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_BUILDING"
+      },
+      "selection_reason": "Nome/limite usados somente para inventário de superfícies, não associação física"
+    },
+    {
+      "object": "FACHADA SUPERIOR | rebaixo quadrado.001",
+      "bounds": [
+        [
+          5.785434722900391,
+          5.899609088897705
+        ],
+        [
+          -0.7687790393829346,
+          0.7211486101150513
+        ],
+        [
+          77.78965759277344,
+          78.70632934570312
+        ]
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "BUILDING",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_BUILDING"
+      },
+      "selection_reason": "Nome/limite usados somente para inventário de superfícies, não associação física"
+    },
+    {
+      "object": "FACHADA SUPERIOR | rebaixo quadrado.002",
+      "bounds": [
+        [
+          5.785433292388916,
+          5.8996076583862305
+        ],
+        [
+          2.5475122928619385,
+          4.037440299987793
+        ],
+        [
+          77.78965759277344,
+          78.70632934570312
+        ]
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "BUILDING",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_BUILDING"
+      },
+      "selection_reason": "Nome/limite usados somente para inventário de superfícies, não associação física"
+    },
+    {
+      "object": "PRAÇA | OSM 1263035782",
+      "bounds": [
+        [
+          -28.517446517944336,
+          78.73428344726562
+        ],
+        [
+          -47.31889343261719,
+          60.1118049621582
+        ],
+        [
+          70.0,
+          70.0
+        ]
+      ],
+      "collections": [
+        "15 PRACA ALTA | contorno e acesso"
+      ],
+      "properties": {
+        "origem": "Polígono OSM original, sem translação ou escala",
+        "cota": "70m do projeto; não levantada",
+        "game_role": "walkable_surface",
+        "r35_pavement_status": "Padrão métrico candidato pela fotografia; não é medição do assentamento real",
+        "r35_pavement_geometry_unchanged": true
+      },
+      "selection_reason": "Nome/limite usados somente para inventário de superfícies, não associação física"
+    },
+    {
+      "object": "MVP | terreno corrigido | colisão estática",
+      "bounds": [
+        [
+          -627.895263671875,
+          596.5394287109375
+        ],
+        [
+          -407.7648620605469,
+          820.2211303710938
+        ],
+        [
+          4.255668640136719,
+          70.2554931640625
+        ]
+      ],
+      "collections": [
+        "19 MVP | terreno DEM e acessos corrigidos",
+        "32.1 GAMEPLAY | TERRAIN",
+        "32.2 GAMEPLAY | COLLISION SOURCE"
+      ],
+      "properties": {
+        "game_role": "composite:collision_source+gameplay_terrain",
+        "source": "Aleph DEM + OSM; patamares adaptados aos pisos do esboço",
+        "grid_m": 1.5,
+        "walkable_slope_limit_deg": 32.0,
+        "surface_method": "Crista OSM + DEM filtrado na Cidade Alta + planície baixa; rede conectada com patamares fixos e perfis harmônicos de ligação",
+        "revision": "superficie_integrada_v1",
+        "mercado_support": "OSM 59392558: apoio z10.82, entorno integrado sem laje retangular sobre vias",
+        "cairu_grade": "Patamar z10.82m em compatibilidade com piso Mercado z11; cota inferida, não levantamento",
+        "roads_revision": "Vias 25: passeios materiais integrados; superfícies sett OSM; guias e travessias documentadas",
+        "network_revision": "v6",
+        "accuracy": "Traçado OSM; altimetria filtrada e corrigida para MVP. Patamares 10.82/69.78m compatíveis com a arquitetura existente; não levantamento.",
+        "road_edges_refined": true,
+        "narrow_streets": "Ladeira da Conceição 3m; Montanha 6m: ajustes provisórios de largura para separar patamares; sem medida cadastral.",
+        "ordax_upper_plateau_fix": "v4-correct-transform",
+        "ordax_upper_plateau_plaza_z": 69.985,
+        "ordax_upper_plateau_pref_z": 70.2555,
+        "ordax_upper_plateau_falloff_m": "plaza20,pref20,rio18,camara18",
+        "ordax_upper_plateau_vertices_changed": 7205,
+        "ordax_upper_plateau_regions": "plaza,prefeitura,rio_branco,camara",
+        "ordax_upper_plateau_vertices_changed_v2": 7932,
+        "ordax_upper_plateau_smoothing": "localized-spike-cleanup-v2",
+        "ordax_upper_plateau_smooth_iterations": 10,
+        "ordax_upper_plateau_smooth_changed": 5290,
+        "ordax_upper_plateau_smooth_max_change_m": 3.5421,
+        "ordax_upper_plateau_spikes_before": 169,
+        "ordax_upper_plateau_spikes_after": 48,
+        "ordax_upper_plateau_spike_vertices_changed": 208,
+        "ordax_upper_plateau_transition": "baseline-local/current-matrix smootherstep",
+        "ordax_upper_plateau_vertices_rebuilt": 18130,
+        "ordax_upper_plateau_vertices_rebuilt_v4": 18928,
+        "ordax_semantic_revision": "R30A.4",
+        "ordax_semantic_layer": "32.2 GAMEPLAY | COLLISION SOURCE",
+        "ordax_semantic_note": "Collision source; geometry split intentionally deferred.",
+        "ordax_semantic_status": "composite_legacy_not_geometry_split",
+        "ordax_semantic_roles": "[\"COLLISION_SOURCE\", \"GAMEPLAY_TERRAIN\"]",
+        "r30b09_retaining_faces": 555,
+        "r30b09_note": "Apenas material visual nas faces íngremes junto à Ladeira; topologia, pista e colisão preservadas.",
+        "r30b10_retaining_faces": 1756,
+        "r30b10_note": "Faixa continua delimitada pela borda externa do passeio da Ladeira, sem mudar topologia ou materiais viarios.",
+        "r30b11_seam_faces": 1305,
+        "r30b11_seam_note": "Revestimento de pedra ate o passeio existente; sem alteracao na malha, pista ou colisao.",
+        "r30b12_terrain_reshaped": true,
+        "r30b12_method": "Perfil continuo entre limite externo do passeio existente e primeira cota de 69 m; vertices viarios preservados.",
+        "r30b13_full_ladeira": true,
+        "r30b13_profile": "Perfis de seção da pista existente e primeiro patamar estável da encosta; pista/passeios preservados.",
+        "r30b15_support_recess": "Relevo original restaurado ao redor do apoio; transição suave para contenção junto ao passeio.",
+        "r30b16_smoothing": "Laplace local com base do apoio e vertices viarios fixos; nao altera objetos separados.",
+        "boas_terrain_correction": "ERROR: encontro Montanha/Pau da Bandeira; regularização Z local sobre eixos OSM existentes, XY/materiais/topologia preservados",
+        "boas_boundary_extension_osm_ids": "1075624458,421206045; shared node 619722483",
+        "boas_boundary_extension_classification": "ADAPT_LOCAL",
+        "boas_boundary_extension_method": "Recorte ampliado 4 m; seção e materiais autorais continuados, sem deslocar vértices anteriores ou alterar larguras. Altimetria extrapolada local, não medida.",
+        "boas_boundary_extension_report": "docs/reports/blender/terrain_real_boundary_extension.json",
+        "r34_material_mask": "boas_r34_barranco: material em banda íngreme sob galerias; sem deslocar vértices, estrada ou colisor.",
+        "r34_profile_reason": "Ruptura local de contenção vertical documentada nas fotos; elimina solo na frente das galerias, preservando XY, praça e materiais de circulação.",
+        "r34_profile_classification": "ADAPT_LOCAL",
+        "r34_profile_status": "candidate_photo_geometry; medidas de base/profundidade não levantadas",
+        "r35_profile_reason": "Galerias escavadas sob laje; encosta recomposta entre perfil amostrado da ladeira e face do apoio alinhado. Sem alterar DEM-fonte ou pista.",
+        "r36_profile_correction": "Solo ajustado ao encontro das galerias, escadas internas e terraço, sem limiar Z deixando picos; vias/XY preservados.",
+        "boas_revision": "R30B.72",
+        "boas_coastline_control": "limite superior da água preservada B63",
+        "boas_classification": "ERROR",
+        "boas_source_report": "docs/reports/blender/city_seam_r30b72.json",
+        "boas_gameplay_approved": false,
+        "boas_road_width_status": "ADAPT_GAMEPLAY_NOT_SURVEYED",
+        "boas_road_binding_status": "OSM_IDS_SHARED_REFERENCE_CANDIDATE"
+      },
+      "selection_reason": "Nome/limite usados somente para inventário de superfícies, não associação física"
+    },
+    {
+      "object": "MVP | praça ao acesso alto | caminho OSM 1429934820",
+      "bounds": [
+        [
+          6.676658630371094,
+          19.112457275390625
+        ],
+        [
+          -4.329497814178467,
+          8.026290893554688
+        ],
+        [
+          70.02999877929688,
+          70.02999877929688
+        ]
+      ],
+      "collections": [
+        "19 MVP | terreno DEM e acessos corrigidos",
+        "32.4 GAMEPLAY | WALKABLE",
+        "33.3 RUNTIME | WALKABLE",
+        "37.5 NAV | WALKABLE SOURCES"
+      ],
+      "properties": {
+        "game_role": "walkable_surface",
+        "ordax_semantic_revision": "R30A.4",
+        "ordax_semantic_layer": "32.4 GAMEPLAY | WALKABLE",
+        "ordax_semantic_roles": "[\"WALKABLE_SURFACE\"]",
+        "boas_runtime_role": "walkable_surface",
+        "boas_runtime_source_revision": "R30A.4",
+        "boas_export_candidate": true,
+        "boas_navigation_source": true,
+        "boas_navigation_source_revision": "R30A.11",
+        "boas_navigation_source_status": "candidate"
+      },
+      "selection_reason": "Nome/limite usados somente para inventário de superfícies, não associação física"
+    },
+    {
+      "object": "LAC R30B | Passarela | piso paginado visual",
+      "bounds": [
+        [
+          -45.88140106201172,
+          -16.71305274963379
+        ],
+        [
+          -13.519330978393555,
+          15.73904800415039
+        ],
+        [
+          70.09300994873047,
+          70.12300872802734
+        ]
+      ],
+      "collections": [
+        "HERO | Lacerda | detalhes R30B"
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_detail",
+        "classification": "ADAPT_LOCAL",
+        "note": "Paginação artística; dimensões de placas não levantadas. Collider original preservado.",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "reference_status": "partial",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "BRIDGE",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "BRIDGE"
+      },
+      "selection_reason": "Nome/limite usados somente para inventário de superfícies, não associação física"
+    },
+    {
+      "object": "BAIXA R31 | 1220650754 | Lajes estruturais",
+      "bounds": [
+        [
+          -71.49250793457031,
+          -36.306617736816406
+        ],
+        [
+          13.486335754394531,
+          48.78980255126953
+        ],
+        [
+          10.505661010742188,
+          24.945661544799805
+        ]
+      ],
+      "collections": [
+        "ENVIRONMENT_FINAL | Cidade Baixa R31"
+      ],
+      "properties": {
+        "osm_way_id": "1220650754",
+        "boas_location_candidate": "edificio-baixa-osm-1220650754",
+        "boas_role": "visual_environment",
+        "classification": "ADAPT_LOCAL",
+        "reference_status": "candidate",
+        "reference_media_id": "elevador-lacerda-panorama-783a31279c0d",
+        "height_status": "estimativa fotográfica de pavimentos; não levantamento",
+        "boas_revision": "R30B.31"
+      },
+      "selection_reason": "Nome/limite usados somente para inventário de superfícies, não associação física"
+    },
+    {
+      "object": "BAIXA R31 | 1220650885 | Lajes estruturais",
+      "bounds": [
+        [
+          -68.128173828125,
+          -39.48653030395508
+        ],
+        [
+          38.021305084228516,
+          66.7505111694336
+        ],
+        [
+          10.50567626953125,
+          22.243175506591797
+        ]
+      ],
+      "collections": [
+        "ENVIRONMENT_FINAL | Cidade Baixa R31"
+      ],
+      "properties": {
+        "osm_way_id": "1220650885",
+        "boas_location_candidate": "edificio-baixa-osm-1220650885",
+        "boas_role": "visual_environment",
+        "classification": "ADAPT_LOCAL",
+        "reference_status": "candidate",
+        "reference_media_id": "elevador-lacerda-panorama-783a31279c0d",
+        "height_status": "estimativa fotográfica de pavimentos; não levantamento",
+        "boas_revision": "R30B.31"
+      },
+      "selection_reason": "Nome/limite usados somente para inventário de superfícies, não associação física"
+    },
+    {
+      "object": "GAL R34 | Palácio | balaustrada da praça",
+      "bounds": [
+        [
+          -3.096086025238037,
+          15.228900909423828
+        ],
+        [
+          -26.70205307006836,
+          -8.312726974487305
+        ],
+        [
+          69.85999298095703,
+          71.0199966430664
+        ]
+      ],
+      "collections": [
+        "ENVIRONMENT_FINAL | Galerias Cidade Alta R34"
+      ],
+      "properties": {
+        "boas_revision": "R30B.34",
+        "boas_location_candidate": "praca-tome-de-sousa",
+        "boas_role": "visual_architecture",
+        "reference_status": "partial",
+        "classification": "ADAPT_LOCAL",
+        "dimensions_status": "arquitetura proporcional às fotos sobre controle existente; dimensões não medidas",
+        "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]",
+        "r36_preservation": "Galeria existente restaurada da fonte B35; não deslocar para fechar lacuna. Ligação acrescentada em componentes separados."
+      },
+      "selection_reason": "Nome/limite usados somente para inventário de superfícies, não associação física"
+    },
+    {
+      "object": "GAL R34 | Prefeitura | balaustrada da praça",
+      "bounds": [
+        [
+          -11.912866592407227,
+          18.295520782470703
+        ],
+        [
+          9.277679443359375,
+          39.6744499206543
+        ],
+        [
+          69.85999298095703,
+          71.0199966430664
+        ]
+      ],
+      "collections": [
+        "ENVIRONMENT_FINAL | Galerias Cidade Alta R34"
+      ],
+      "properties": {
+        "boas_revision": "R30B.34",
+        "boas_location_candidate": "praca-tome-de-sousa",
+        "boas_role": "visual_architecture",
+        "reference_status": "partial",
+        "classification": "ADAPT_LOCAL",
+        "dimensions_status": "arquitetura proporcional às fotos sobre controle existente; dimensões não medidas",
+        "reference_media_ids": "[\"palacio-rio-branco-oblique_left-b38e652ae7b9\", \"palacio-rio-branco-front-fd4f224d91eb\", \"palacio-rio-branco-oblique_right-dd043b33f765\", \"palacio-rio-branco-right-5c2fa307341b\", \"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-street_context-2b9a2f5f87f6\", \"palacio-rio-branco-panorama-dad93618de6f\", \"palacio-rio-branco-front-c207e62d3f85\", \"praca-tome-de-sousa-detail-4d38e2ce8834\"]"
+      },
+      "selection_reason": "Nome/limite usados somente para inventário de superfícies, não associação física"
+    },
+    {
+      "object": "GAL R34 | Palácio | Laje de apoio da praça",
+      "bounds": [
+        [
+          -2.9061484336853027,
+          19.23758316040039
+        ],
+        [
+          -28.550655364990234,
+          -6.3565192222595215
+        ],
+        [
+          69.84999084472656,
+          69.98500061035156
+        ]
+      ],
+      "collections": [
+        "ENVIRONMENT_FINAL | Galerias Cidade Alta R34"
+      ],
+      "properties": {
+        "boas_revision": "R30B.35",
+        "boas_location_candidate": "praca-tome-de-sousa",
+        "boas_role": "visual_structure",
+        "classification": "ADAPT_LOCAL",
+        "reference_status": "partial",
+        "top_z_from_previous_ground_m": 69.98500061035156,
+        "base_z_from_existing_caps_m": 69.8499984741211,
+        "depth_candidate_m": 1.3,
+        "reason": "Laje da praça sobre galerias, necessária para separar piso superior e nichos; apoiada na alvenaria e mesma cota da superfície anterior.",
+        "r36_preservation": "Galeria existente restaurada da fonte B35; não deslocar para fechar lacuna. Ligação acrescentada em componentes separados."
+      },
+      "selection_reason": "Nome/limite usados somente para inventário de superfícies, não associação física"
+    },
+    {
+      "object": "GAL R34 | Prefeitura | Laje de apoio da praça",
+      "bounds": [
+        [
+          -11.723308563232422,
+          22.296222686767578
+        ],
+        [
+          7.527144432067871,
+          41.71083450317383
+        ],
+        [
+          69.8499984741211,
+          69.98499298095703
+        ]
+      ],
+      "collections": [
+        "ENVIRONMENT_FINAL | Galerias Cidade Alta R34"
+      ],
+      "properties": {
+        "boas_revision": "R30B.35",
+        "boas_location_candidate": "praca-tome-de-sousa",
+        "boas_role": "visual_structure",
+        "classification": "ADAPT_LOCAL",
+        "reference_status": "partial",
+        "top_z_from_previous_ground_m": 69.98499043782552,
+        "base_z_from_existing_caps_m": 69.8499984741211,
+        "depth_candidate_m": 1.3,
+        "reason": "Laje da praça sobre galerias, necessária para separar piso superior e nichos; apoiada na alvenaria e mesma cota da superfície anterior."
+      },
+      "selection_reason": "Nome/limite usados somente para inventário de superfícies, não associação física"
+    },
+    {
+      "object": "GAL R36 | Ligação terraço | Interiores e pisos",
+      "bounds": [
+        [
+          2.809532642364502,
+          18.0985107421875
+        ],
+        [
+          -40.274803161621094,
+          -24.815345764160156
+        ],
+        [
+          62.93999481201172,
+          68.4616928100586
+        ]
+      ],
+      "collections": [
+        "ENVIRONMENT_FINAL | Ligação galerias terraço R36"
+      ],
+      "properties": {
+        "boas_revision": "R30B.36",
+        "boas_role": "visual_structure",
+        "boas_location_candidate": "praca-tome-de-sousa",
+        "classification": "ADAPT_LOCAL",
+        "reference_status": "partial",
+        "dimensions_status": "candidatas; encontro entre controles geométricos existentes",
+        "arch_count_verified": false,
+        "reference_media_ids": "[\"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-right-5c2fa307341b\"]"
+      },
+      "selection_reason": "Nome/limite usados somente para inventário de superfícies, não associação física"
+    },
+    {
+      "object": "GAL R36 | Ligação terraço | Laje da praça",
+      "bounds": [
+        [
+          1.9283204078674316,
+          18.97972297668457
+        ],
+        [
+          -41.176353454589844,
+          -23.913795471191406
+        ],
+        [
+          69.84999084472656,
+          69.98500061035156
+        ]
+      ],
+      "collections": [
+        "ENVIRONMENT_FINAL | Ligação galerias terraço R36"
+      ],
+      "properties": {
+        "boas_revision": "R30B.36",
+        "boas_role": "visual_structure",
+        "boas_location_candidate": "praca-tome-de-sousa",
+        "classification": "ADAPT_LOCAL",
+        "reference_status": "partial",
+        "dimensions_status": "candidatas; encontro entre controles geométricos existentes",
+        "arch_count_verified": false,
+        "reference_media_ids": "[\"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-right-5c2fa307341b\"]"
+      },
+      "selection_reason": "Nome/limite usados somente para inventário de superfícies, não associação física"
+    },
+    {
+      "object": "B74 | TERRENO | Lapa Tororo Fonte Nova | candidato",
+      "bounds": [
+        [
+          -609.6985473632812,
+          2290.45849609375
+        ],
+        [
+          -1568.198486328125,
+          1372.91064453125
+        ],
+        [
+          15.63772964477539,
+          81.6583023071289
+        ]
+      ],
+      "collections": [
+        "40 | EXPANSAO CENTRO | REFERENCE_TERRAIN"
+      ],
+      "properties": {
+        "boas_revision": "R30B.74",
+        "boas_production_ready": false,
+        "boas_terrain_surface": true,
+        "boas_vertical_absolute_approved": false,
+        "boas_source_summary": "docs/reports/world/centro-lapa-tororo-fontenova/source_summary.json",
+        "boas_classification": "ADAPT_LOCAL",
+        "boas_transition_design_width_m": 120.0,
+        "boas_reference_only": true,
+        "boas_surface_partition_revision": "R30B.75",
+        "boas_walkways_are_embedded_not_raised_overlay": true
+      },
+      "selection_reason": "Nome/limite usados somente para inventário de superfícies, não associação física"
+    }
+  ],
+  "samples": [
+    {
+      "id": "upper_floor_center",
+      "xy": [
+        -1.3924429459560759,
+        -0.43057922393423514
+      ],
+      "reason": "Centro do contorno documental relativo, não anchor geográfico",
+      "hits": [
+        {
+          "object": "SUPERIOR | piso saguão",
+          "world_z": 70.12300872802734,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 37
+        }
+      ]
+    },
+    {
+      "id": "upper_floor_vertex_0",
+      "xy": [
+        -19.81081853967378,
+        7.938407520911359
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": [
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 41.678428649902344,
+          "normal": [
+            -0.527703583240509,
+            0.5000940561294556,
+            0.6866111159324646
+          ],
+          "face": 1025257
+        }
+      ]
+    },
+    {
+      "id": "upper_floor_vertex_1",
+      "xy": [
+        0.9782830760888972,
+        7.938407520911359
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": [
+        {
+          "object": "SUPERIOR | piso saguão",
+          "world_z": 70.12300872802734,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 27
+        },
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 60.252586364746094,
+          "normal": [
+            -0.25770747661590576,
+            0.6812894940376282,
+            0.6851507425308228
+          ],
+          "face": 233928
+        }
+      ]
+    },
+    {
+      "id": "upper_floor_vertex_2",
+      "xy": [
+        0.9782830760888972,
+        9.84044996292172
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": [
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 59.813026428222656,
+          "normal": [
+            -0.4838978350162506,
+            0.4504263997077942,
+            0.7503060102462769
+          ],
+          "face": 1024514
+        }
+      ]
+    },
+    {
+      "id": "upper_floor_vertex_3",
+      "xy": [
+        6.458959628526099,
+        9.84044996292172
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": [
+        {
+          "object": "PRAÇA | OSM 1263035782",
+          "world_z": 69.99999237060547,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 1
+        },
+        {
+          "object": "GAL R34 | Prefeitura | Laje de apoio da praça",
+          "world_z": 69.8499984741211,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 0
+        },
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 62.62998962402344,
+          "normal": [
+            3.3956318929995177e-06,
+            0.0,
+            1.0
+          ],
+          "face": 232624
+        }
+      ]
+    },
+    {
+      "id": "upper_floor_vertex_4",
+      "xy": [
+        6.062039252480531,
+        5.404467840236452
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": [
+        {
+          "object": "SUPERIOR | piso saguão",
+          "world_z": 70.12300872802734,
+          "normal": [
+            -1.8450933003677505e-09,
+            1.7313519506956254e-09,
+            1.0
+          ],
+          "face": 25
+        },
+        {
+          "object": "PRAÇA | OSM 1263035782",
+          "world_z": 69.99999237060547,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 1
+        },
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 69.98500061035156,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 230012
+        }
+      ]
+    },
+    {
+      "id": "upper_floor_vertex_5",
+      "xy": [
+        4.706159247908864,
+        -9.487984668993263
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": [
+        {
+          "object": "SUPERIOR | piso saguão",
+          "world_z": 70.12300872802734,
+          "normal": [
+            5.900243404965977e-09,
+            -5.53652057533327e-09,
+            1.0
+          ],
+          "face": 21
+        },
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 62.51593780517578,
+          "normal": [
+            -0.46609067916870117,
+            0.416174054145813,
+            0.7807424664497375
+          ],
+          "face": 1024417
+        }
+      ]
+    },
+    {
+      "id": "upper_floor_vertex_6",
+      "xy": [
+        4.706159247908864,
+        -9.840449962921728
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": [
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 62.509033203125,
+          "normal": [
+            -0.46609067916870117,
+            0.416174054145813,
+            0.7807424664497375
+          ],
+          "face": 1024417
+        }
+      ]
+    },
+    {
+      "id": "upper_floor_vertex_7",
+      "xy": [
+        0.8798468228295899,
+        -9.840449962921728
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": [
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 59.44518280029297,
+          "normal": [
+            -0.46257734298706055,
+            0.42034679651260376,
+            0.7805964350700378
+          ],
+          "face": 1028895
+        }
+      ]
+    },
+    {
+      "id": "upper_floor_vertex_8",
+      "xy": [
+        0.8798468228295899,
+        -8.049545226204122
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": [
+        {
+          "object": "SUPERIOR | piso saguão",
+          "world_z": 70.12300872802734,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 23
+        },
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 58.884498596191406,
+          "normal": [
+            -0.3162074387073517,
+            0.7591639757156372,
+            0.5689313411712646
+          ],
+          "face": 223409
+        }
+      ]
+    },
+    {
+      "id": "upper_floor_vertex_9",
+      "xy": [
+        -19.763188094548312,
+        -8.049545226204122
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": [
+        {
+          "object": "SUPERIOR | piso saguão",
+          "world_z": 70.12300872802734,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 53
+        },
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 41.39811706542969,
+          "normal": [
+            -0.4367138147354126,
+            0.5081552863121033,
+            0.7423336505889893
+          ],
+          "face": 236507
+        }
+      ]
+    },
+    {
+      "id": "lower_floor_center",
+      "xy": [
+        -43.87271667084713,
+        2.572545409881863
+      ],
+      "reason": "Centro do contorno documental relativo, não anchor geográfico",
+      "hits": [
+        {
+          "object": "INFERIOR | piso do saguão",
+          "world_z": 11.113031387329102,
+          "normal": [
+            8.239400983711676e-08,
+            -7.731480167194604e-08,
+            1.0
+          ],
+          "face": 113
+        }
+      ]
+    },
+    {
+      "id": "lower_floor_vertex_0",
+      "xy": [
+        -57.68019777742934,
+        14.574916208393258
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": [
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 7.2556610107421875,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 272456
+        }
+      ]
+    },
+    {
+      "id": "lower_floor_vertex_1",
+      "xy": [
+        -51.64700806153671,
+        12.82846655379276
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": [
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 7.25567626953125,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 268621
+        }
+      ]
+    },
+    {
+      "id": "lower_floor_vertex_2",
+      "xy": [
+        -51.739093588779276,
+        12.533157794014855
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": [
+        {
+          "object": "INFERIOR | piso do saguão",
+          "world_z": 11.113000869750977,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 7
+        },
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 7.25567626953125,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 267319
+        }
+      ]
+    },
+    {
+      "id": "lower_floor_vertex_3",
+      "xy": [
+        -38.113610919887016,
+        8.487745321358425
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": [
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 31.7991943359375,
+          "normal": [
+            0.005121447611600161,
+            0.09996438026428223,
+            0.9949778318405151
+          ],
+          "face": 257176
+        },
+        {
+          "object": "INFERIOR | piso do saguão",
+          "world_z": 11.113031387329102,
+          "normal": [
+            2.7932271606800896e-08,
+            -2.6210376091739818e-08,
+            1.0
+          ],
+          "face": 135
+        }
+      ]
+    },
+    {
+      "id": "lower_floor_vertex_4",
+      "xy": [
+        -38.599441460166794,
+        5.213946059734582
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": [
+        {
+          "object": "LAC R30B | Passarela | piso paginado visual",
+          "world_z": 70.12300872802734,
+          "normal": [
+            1.7894025177156436e-06,
+            0.0,
+            1.0
+          ],
+          "face": 3
+        },
+        {
+          "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+          "world_z": 70.09300994873047,
+          "normal": [
+            -1.2223991818771651e-09,
+            1.1470440153260597e-09,
+            1.0
+          ],
+          "face": 1
+        },
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 31.46550750732422,
+          "normal": [
+            -0.6120659112930298,
+            0.5947645902633667,
+            0.5211818218231201
+          ],
+          "face": 255891
+        },
+        {
+          "object": "INFERIOR | piso do saguão",
+          "world_z": 11.113016128540039,
+          "normal": [
+            -8.814372876031484e-08,
+            8.271008056226492e-08,
+            1.0
+          ],
+          "face": 95
+        }
+      ]
+    },
+    {
+      "id": "lower_floor_vertex_5",
+      "xy": [
+        -37.71986590684982,
+        4.937689478006865
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": [
+        {
+          "object": "LAC R30B | Passarela | piso paginado visual",
+          "world_z": 70.12301635742188,
+          "normal": [
+            1.7894025177156436e-06,
+            0.0,
+            1.0
+          ],
+          "face": 3
+        },
+        {
+          "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+          "world_z": 70.09300994873047,
+          "normal": [
+            -1.2223991818771651e-09,
+            1.1470440153260597e-09,
+            1.0
+          ],
+          "face": 1
+        },
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 32.086273193359375,
+          "normal": [
+            -0.18462006747722626,
+            0.34345898032188416,
+            0.9208428263664246
+          ],
+          "face": 254611
+        },
+        {
+          "object": "INFERIOR | piso do saguão",
+          "world_z": 11.113016128540039,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 89
+        }
+      ]
+    },
+    {
+      "id": "lower_floor_vertex_6",
+      "xy": [
+        -15.981330751586139,
+        1.9083931680270885
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": [
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 38.41631317138672,
+          "normal": [
+            0.0,
+            0.042525939643383026,
+            0.9990953803062439
+          ],
+          "face": 240420
+        },
+        {
+          "object": "INFERIOR | piso do saguão",
+          "world_z": 11.113016128540039,
+          "normal": [
+            -1.784813896676951e-08,
+            1.674788308037023e-08,
+            1.0
+          ],
+          "face": 83
+        }
+      ]
+    },
+    {
+      "id": "lower_floor_vertex_7",
+      "xy": [
+        -16.80057440774419,
+        -1.562278600115355
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": [
+        {
+          "object": "SUPERIOR | piso saguão",
+          "world_z": 70.12300109863281,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 5
+        },
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 38.81964111328125,
+          "normal": [
+            0.20670123398303986,
+            0.19081932306289673,
+            0.9596158862113953
+          ],
+          "face": 239120
+        },
+        {
+          "object": "INFERIOR | piso do saguão",
+          "world_z": 11.113016128540039,
+          "normal": [
+            1.8132988444108378e-08,
+            -1.7015173270351625e-08,
+            1.0
+          ],
+          "face": 85
+        }
+      ]
+    },
+    {
+      "id": "lower_floor_vertex_8",
+      "xy": [
+        -38.412095042673286,
+        1.486069887914603
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": [
+        {
+          "object": "LAC R30B | Passarela | piso paginado visual",
+          "world_z": 70.12300872802734,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 1
+        },
+        {
+          "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+          "world_z": 70.09300994873047,
+          "normal": [
+            -1.2223991818771651e-09,
+            1.1470440153260597e-09,
+            1.0
+          ],
+          "face": 1
+        },
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 31.477401733398438,
+          "normal": [
+            -0.6284521818161011,
+            0.444087415933609,
+            0.6386190056800842
+          ],
+          "face": 253344
+        }
+      ]
+    },
+    {
+      "id": "lower_floor_vertex_9",
+      "xy": [
+        -39.17418216468077,
+        1.390808997663669
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": [
+        {
+          "object": "LAC R30B | Passarela | piso paginado visual",
+          "world_z": 70.12300109863281,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 1
+        },
+        {
+          "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+          "world_z": 70.09300231933594,
+          "normal": [
+            -1.2223991818771651e-09,
+            1.1470440153260597e-09,
+            1.0
+          ],
+          "face": 1
+        },
+        {
+          "object": "INFERIOR | piso do saguão",
+          "world_z": 11.113000869750977,
+          "normal": [
+            7.009548852465741e-08,
+            -6.577442945854273e-08,
+            1.0
+          ],
+          "face": 111
+        }
+      ]
+    },
+    {
+      "id": "lower_floor_vertex_10",
+      "xy": [
+        -39.95849682774682,
+        -2.7816179953273443
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": []
+    },
+    {
+      "id": "lower_floor_vertex_11",
+      "xy": [
+        -40.22840268345781,
+        -2.5783947627920116
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": []
+    },
+    {
+      "id": "lower_floor_vertex_12",
+      "xy": [
+        -45.337561763916355,
+        -1.7972554627343342
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": [
+        {
+          "object": "INFERIOR | piso do saguão",
+          "world_z": 11.113016128540039,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 103
+        },
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 7.25567626953125,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 255876
+        }
+      ]
+    },
+    {
+      "id": "lower_floor_vertex_13",
+      "xy": [
+        -45.435998017175656,
+        -2.3243657221228506
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": [
+        {
+          "object": "INFERIOR | piso do saguão",
+          "world_z": 11.113016128540039,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 103
+        },
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 7.2556610107421875,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 254597
+        }
+      ]
+    },
+    {
+      "id": "lower_floor_vertex_14",
+      "xy": [
+        -47.12846650063396,
+        -2.3497686261897677
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": [
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 7.2556610107421875,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 255875
+        }
+      ]
+    },
+    {
+      "id": "lower_floor_vertex_15",
+      "xy": [
+        -52.77743729251448,
+        -0.6541247797230969
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": [
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 7.25567626953125,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 260998
+        }
+      ]
+    },
+    {
+      "id": "lower_floor_vertex_16",
+      "xy": [
+        -57.076878805840074,
+        0.00635072601672933
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": [
+        {
+          "object": "INFERIOR | piso do saguão",
+          "world_z": 11.113016128540039,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 1
+        },
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 7.2556610107421875,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 263502
+        }
+      ]
+    },
+    {
+      "id": "lower_floor_vertex_17",
+      "xy": [
+        -57.86754419492285,
+        -0.5461624374387043
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": [
+        {
+          "object": "INFERIOR | piso do saguão",
+          "world_z": 11.113031387329102,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 1
+        },
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 7.2556610107421875,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 263503
+        }
+      ]
+    },
+    {
+      "id": "lower_floor_vertex_18",
+      "xy": [
+        -61.90343057855418,
+        0.10478697927603094
+      ],
+      "reason": "Vértice do contorno documental relativo, sem correspondência absoluta presumida",
+      "hits": [
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 7.2556610107421875,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 266037
+        }
+      ]
+    },
+    {
+      "id": "old_core_center",
+      "xy": [
+        -13.817497270441725,
+        0.366930836522123
+      ],
+      "reason": "Centro do contorno documental relativo, não anchor geográfico",
+      "hits": [
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 38.46110534667969,
+          "normal": [
+            0.18855173885822296,
+            0.032120682299137115,
+            0.9815378785133362
+          ],
+          "face": 237816
+        }
+      ]
+    },
+    {
+      "id": "new_core_center",
+      "xy": [
+        -47.740485966866146,
+        3.7482620023336737
+      ],
+      "reason": "Centro do contorno documental relativo, não anchor geográfico",
+      "hits": [
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 7.2556610107421875,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 259743
+        }
+      ]
+    },
+    {
+      "id": "existing_upper_entry_0",
+      "xy": [
+        5.5,
+        0.0
+      ],
+      "reason": "Linha de entrada existente; candidato para sondagem da praça",
+      "hits": [
+        {
+          "object": "SUPERIOR | piso saguão",
+          "world_z": 70.12300872802734,
+          "normal": [
+            5.900243404965977e-09,
+            -5.53652057533327e-09,
+            1.0
+          ],
+          "face": 21
+        },
+        {
+          "object": "PRAÇA | OSM 1263035782",
+          "world_z": 70.0,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 1
+        },
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 69.98500061035156,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 226047
+        }
+      ]
+    },
+    {
+      "id": "existing_upper_entry_1",
+      "xy": [
+        8.0,
+        0.0
+      ],
+      "reason": "Linha de entrada existente; candidato para sondagem da praça",
+      "hits": [
+        {
+          "object": "PRAÇA | OSM 1263035782",
+          "world_z": 70.0,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 1
+        },
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 69.98500061035156,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 224741
+        }
+      ]
+    },
+    {
+      "id": "existing_upper_entry_2",
+      "xy": [
+        10.0,
+        0.0
+      ],
+      "reason": "Linha de entrada existente; candidato para sondagem da praça",
+      "hits": [
+        {
+          "object": "PRAÇA | OSM 1263035782",
+          "world_z": 70.0,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 2
+        },
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 69.98500061035156,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 223425
+        }
+      ]
+    },
+    {
+      "id": "existing_upper_entry_3",
+      "xy": [
+        12.0,
+        0.0
+      ],
+      "reason": "Linha de entrada existente; candidato para sondagem da praça",
+      "hits": [
+        {
+          "object": "PRAÇA | OSM 1263035782",
+          "world_z": 70.0,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 2
+        },
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 69.98500061035156,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 222109
+        }
+      ]
+    },
+    {
+      "id": "existing_upper_entry_4",
+      "xy": [
+        15.0,
+        0.0
+      ],
+      "reason": "Linha de entrada existente; candidato para sondagem da praça",
+      "hits": [
+        {
+          "object": "PRAÇA | OSM 1263035782",
+          "world_z": 70.0,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 2
+        },
+        {
+          "object": "MVP | terreno corrigido | colisão estática",
+          "world_z": 69.98500061035156,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face": 220824
+        }
+      ]
+    }
+  ],
+  "geometry_changed": false,
+  "registration_accepted": false
+}

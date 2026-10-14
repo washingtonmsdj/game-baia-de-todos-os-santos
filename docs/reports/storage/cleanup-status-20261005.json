@@ -1,0 +1,17 @@
+{
+  "schema": "boas/storage-cleanup-status-v1",
+  "checked_at_utc": "2026-10-05T14:22:32.291056+00:00",
+  "free_c_bytes": 67054108672,
+  "lfs_tmp_file_count": 350,
+  "lfs_tmp_logical_bytes": 9988920509,
+  "sha256_verified_history_files": 95,
+  "minimum_reclaimed_bytes_by_compaction": 3546920564,
+  "deleted_files_by_agent": 0,
+  "status": "Espaço livre suficiente para retomar o trabalho; não ampliar a limpeza sem novos candidatos comprovadamente obsoletos.",
+  "external_change": "A queda do volume em .git/lfs/tmp desde a auditoria anterior não foi causada por exclusão realizada pelo agente. A causa não foi investigada.",
+  "history_reports": [
+    "docs/reports/storage/codex-history-compression-20261005.json",
+    "docs/reports/storage/archived-history-compaction-20261005.json",
+    "docs/reports/storage/lfs-temp-compaction-probe-20261005.json"
+  ]
+}

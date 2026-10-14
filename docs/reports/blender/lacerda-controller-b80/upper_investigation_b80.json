@@ -1,0 +1,304 @@
+{
+  "baseline": "R30B.79",
+  "compared": "R30B.78",
+  "merge_applied": false,
+  "comparison": [
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "same_geometry": false,
+      "same_transform": true,
+      "same_materials": true,
+      "b79_mesh": "b12eb04b491b1ff4877855dc62dfc0ca9df93a8340e3d71e1239bfb1b9e00392",
+      "b78_mesh": "931245c77be9ca0b535889b694bde2dbf0d0fdb8e326359833f1dc3a8328138e",
+      "migration": "NEEDS_REVIEW; no automatic merge; historical bridge width corroborates only overall bridge"
+    },
+    {
+      "object": "LAC R30B02 | Lambril marmore | SUPERIOR | posterior lateral",
+      "same_geometry": false,
+      "same_transform": true,
+      "same_materials": true,
+      "b79_mesh": "b741983571767412f93f414980d22c02877d52eeed516d69ec3c787c4dcd4cac",
+      "b78_mesh": "5dc82fde1bcd88daa5d0bfbe4520512a722028b1a70e833c7ee3e353b89f39cc",
+      "migration": "NEEDS_REVIEW; no automatic merge; historical bridge width corroborates only overall bridge"
+    },
+    {
+      "object": "LAC R30B02 | Rodape escuro | SUPERIOR | posterior lateral",
+      "same_geometry": false,
+      "same_transform": true,
+      "same_materials": true,
+      "b79_mesh": "043cd5df2d2c831877b116df331b12c484ec18eab515619d258575c6300bb224",
+      "b78_mesh": "0fd74ea740341993c003e8ea1435fe1692a8accdf53c616cbc2ce9a0c92892cf",
+      "migration": "NEEDS_REVIEW; no automatic merge; historical bridge width corroborates only overall bridge"
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "same_geometry": false,
+      "same_transform": true,
+      "same_materials": true,
+      "b79_mesh": "b12eb04b491b1ff4877855dc62dfc0ca9df93a8340e3d71e1239bfb1b9e00392",
+      "b78_mesh": "fd581d997dbcf04c0f997313766085d227f4b67f4732f805bd610d90bf48da38",
+      "migration": "NEEDS_REVIEW; no automatic merge; historical bridge width corroborates only overall bridge"
+    },
+    {
+      "object": "LAC R30B02 | Lambril marmore | SUPERIOR | posterior lateral.001",
+      "same_geometry": false,
+      "same_transform": true,
+      "same_materials": true,
+      "b79_mesh": "4bbddc668a366df73cc5c124e005ea8e5e8c10066d7319ccb25807e138f44a53",
+      "b78_mesh": "5e21916063568ad744721b40967e67501802129169f20539a762570bff465538",
+      "migration": "NEEDS_REVIEW; no automatic merge; historical bridge width corroborates only overall bridge"
+    },
+    {
+      "object": "LAC R30B02 | Rodape escuro | SUPERIOR | posterior lateral.001",
+      "same_geometry": false,
+      "same_transform": true,
+      "same_materials": true,
+      "b79_mesh": "97e9a0ec44928356ef75af10308210f2b13dc68cc3682aa7f58eff43c93d59e6",
+      "b78_mesh": "282d2e97ab7eb1368a196a471c2adf2735bfd719db65a25d4c00c4edfd784318",
+      "migration": "NEEDS_REVIEW; no automatic merge; historical bridge width corroborates only overall bridge"
+    },
+    {
+      "object": "SUPERIOR | posterior sobre passarela",
+      "same_geometry": false,
+      "same_transform": true,
+      "same_materials": true,
+      "b79_mesh": "a4b7435050d892e5a7fe1810a4bd3e1322c1220155115ac01933c5a4a6de0324",
+      "b78_mesh": "9852d7b2e39aaf6500ea2b65c9ae1415efa25757d3f555505a1cc1380e5800e9",
+      "migration": "NEEDS_REVIEW; no automatic merge; historical bridge width corroborates only overall bridge"
+    }
+  ],
+  "measurements": [
+    {
+      "object": "SUPERIOR | piso saguão",
+      "bounds": {
+        "min": [
+          -11.76146125793457,
+          -3.4231114387512207,
+          69.79499816894531
+        ],
+        "max": [
+          8.98750114440918,
+          17.667495727539062,
+          70.04499816894531
+        ]
+      },
+      "classification": "candidate_scene_measurement_not_real_dimension",
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento",
+        "game_role": "walkable_surface",
+        "navigation_source": "Rendered structural floor"
+      },
+      "mesh_coordinate_extents_not_world_lengths": [
+        11.0,
+        18.600000381469727,
+        0.25
+      ]
+    },
+    {
+      "object": "NAV | passarela superior",
+      "bounds": {
+        "min": [
+          -47.40986633300781,
+          9.22948169708252,
+          70.04499816894531
+        ],
+        "max": [
+          -3.8857483863830566,
+          50.54542541503906,
+          70.11500549316406
+        ]
+      },
+      "classification": "candidate_scene_measurement_not_real_dimension",
+      "properties": {
+        "gameplay": "navegável; ligação estação superior-torre",
+        "game_role": "walkable_surface"
+      },
+      "mesh_coordinate_extents_not_world_lengths": [
+        54.57131385803223,
+        5.450001955032349,
+        0.07000732421875
+      ]
+    },
+    {
+      "object": "LAC R30B | Passarela | piso paginado visual",
+      "bounds": {
+        "min": [
+          -47.407039642333984,
+          9.232303619384766,
+          70.12300872802734
+        ],
+        "max": [
+          -3.8885765075683594,
+          50.5426025390625,
+          70.12300872802734
+        ]
+      },
+      "classification": "candidate_scene_measurement_not_real_dimension",
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_detail",
+        "classification": "ADAPT_LOCAL",
+        "note": "Paginação artística; dimensões de placas não levantadas. Collider original preservado."
+      },
+      "mesh_coordinate_extents_not_world_lengths": [
+        43.518463134765625,
+        41.310298919677734,
+        0.0
+      ]
+    },
+    {
+      "object": "B77 | COLLISION | NAV | passarela superior",
+      "bounds": {
+        "min": [
+          -47.40986633300781,
+          9.22948169708252,
+          70.11500549316406
+        ],
+        "max": [
+          -3.8857483863830566,
+          50.54542541503906,
+          70.11500549316406
+        ]
+      },
+      "classification": "candidate_scene_measurement_not_real_dimension",
+      "properties": {
+        "boas_role": "COLLISION_WALKABLE_CANDIDATE",
+        "boas_provenance_ids": "[\"derived:lacerda-corridor-b77\"]",
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1",
+        "boas_production_ready": false,
+        "boas_generated_revision": "R30B.77",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "NAV | passarela superior",
+        "boas_source_blend": "blender/salvador_lacerda_r30b76_fundacao_geografica.blend",
+        "boas_source_sha256": "8312775096a6f0fd0de5114885ffe2403ad9e367f38a8b40556433ad2dd79a60"
+      },
+      "mesh_coordinate_extents_not_world_lengths": [
+        43.524117946624756,
+        41.31594371795654,
+        0.0
+      ]
+    },
+    {
+      "object": "FUNCIONAL | 3 soleira superior",
+      "bounds": {
+        "min": [
+          -47.71025466918945,
+          46.942344665527344,
+          70.11500549316406
+        ],
+        "max": [
+          -46.32173538208008,
+          48.409095764160156,
+          70.13899993896484
+        ]
+      },
+      "classification": "candidate_scene_measurement_not_real_dimension",
+      "properties": {},
+      "mesh_coordinate_extents_not_world_lengths": [
+        1.388519287109375,
+        1.4667510986328125,
+        0.02399444580078125
+      ]
+    },
+    {
+      "object": "FUNCIONAL | 3 piso",
+      "bounds": {
+        "min": [
+          -50.44660568237305,
+          46.7712287902832,
+          69.95500183105469
+        ],
+        "max": [
+          -46.19601821899414,
+          51.0299072265625,
+          70.11499786376953
+        ]
+      },
+      "classification": "candidate_scene_measurement_not_real_dimension",
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115,
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      },
+      "mesh_coordinate_extents_not_world_lengths": [
+        4.250587463378906,
+        4.258678436279297,
+        0.15999603271484375
+      ]
+    },
+    {
+      "object": "FUNCIONAL | 3 teto",
+      "bounds": {
+        "min": [
+          -50.44660568237305,
+          46.7712287902832,
+          72.90499877929688
+        ],
+        "max": [
+          -46.19601821899414,
+          51.0299072265625,
+          73.0250015258789
+        ]
+      },
+      "classification": "candidate_scene_measurement_not_real_dimension",
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115,
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      },
+      "mesh_coordinate_extents_not_world_lengths": [
+        4.250587463378906,
+        4.258678436279297,
+        0.12000274658203125
+      ]
+    },
+    {
+      "object": "ESTAÇÃO SUPERIOR | plataforma",
+      "bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          69.77999877929688
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          70.05999755859375
+        ]
+      },
+      "classification": "candidate_scene_measurement_not_real_dimension",
+      "properties": {},
+      "mesh_coordinate_extents_not_world_lengths": [
+        6.0,
+        10.680000305175781,
+        0.2800000011920929
+      ]
+    },
+    {
+      "object": "ESTAÇÃO INFERIOR | cobertura",
+      "bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          11.666000366210938
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          11.916000366210938
+        ]
+      },
+      "classification": "candidate_scene_measurement_not_real_dimension",
+      "properties": {},
+      "mesh_coordinate_extents_not_world_lengths": [
+        6.0,
+        10.680000305175781,
+        0.25
+      ]
+    }
+  ],
+  "B78_scope": "two posterior returns, two lambris, two skirtings and lintel; not cabin/shaft/landing slabs",
+  "B79_sweep_relevance": "B78 leaves all 54 contacts and 27 solid witnesses sources unchanged; posterior gap fix cannot certify cabin travel"
+}

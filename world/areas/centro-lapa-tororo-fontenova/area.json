@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "area_id": "centro-lapa-tororo-fontenova",
+  "name": "Centro: Lapa, Tororó e Fonte Nova",
+  "status": "blockout",
+  "bounds_wgs84": {
+    "south": -12.995,
+    "west": -38.519,
+    "north": -12.966,
+    "east": -38.492
+  },
+  "bounds_kind": "acquisition_window_not_city_boundary",
+  "coordinate_system": {
+    "source_crs": "EPSG:3857 + WGS84/OSM",
+    "world_anchor_status": "candidate",
+    "meters_per_blender_unit": null,
+    "rotation_true_north_deg": null,
+    "shared_transform_reference": "world/geographic-reference.json#/horizontal",
+    "notes": "Seis controles atuais conferidos contra a base. Não promove georreferenciamento absoluto nem altimetria.",
+    "vertical_reference": "world/geographic-reference.json#/vertical"
+  },
+  "source_capture": {
+    "capture_id": "osm-mapzen-20261005T045222Z",
+    "provider": "OpenStreetMap Map API + Mapzen Terrain Tiles",
+    "manifest_sha256": "fde28ee0bd1326f863a358809fe332ae56ea69882457bb2a43ac11ee019131e5",
+    "source_summary": "docs/reports/world/centro-lapa-tororo-fontenova/source_summary.json"
+  },
+  "fidelity_targets": {
+    "roads": "high",
+    "terrain": "high",
+    "coastline": "high",
+    "hero_assets": "high"
+  },
+  "notes": [
+    "Fonte Aleph histórica preservada como ausente; aquisição nova explícita.",
+    "Largura real, alturas e datum ausentes permanecem pendentes."
+  ]
+}

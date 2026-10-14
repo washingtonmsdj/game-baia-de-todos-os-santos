@@ -1,0 +1,127 @@
+{
+  "schema": "boas/urban-edges-b63-v1",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b62_pavimento_costura_limpa.blend",
+    "revision": "R30B.62",
+    "sha256": "39b40bd1a18f02388be3e156ee8ec164532bc78db32cfd2ac1f24b44290dd17d",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b61_pavimento_integrado.blend",
+    "evidence": "docs/reports/blender/coastal_cleanup_r30b62.json",
+    "notes": "Limpeza local da triangulação da costura; pavimento integrado e colisão igual; núcleo e cais preservados."
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b63_orla_bordas_canteiros.blend",
+    "revision": "R30B.63",
+    "sha256": "35a2477cbf79f5d7c5b2ad4dd1956930d9e35b1e5b416b55d3c2c333bea413c9"
+  },
+  "fill": {
+    "vertices": 1570,
+    "faces": 2715,
+    "classification": "ERROR",
+    "source_controls": "cais/limites existentes; sem fit Z global"
+  },
+  "curbs": {
+    "source_boundary_candidates": 5577,
+    "accepted_segments": 5000,
+    "modeled_length_blender_units": 4635.543551519513,
+    "rejected": {
+      "length": 167,
+      "grade": 92,
+      "outside_pedestrian_surface": 318
+    },
+    "design_dimensions_m": {
+      "height": 0.12,
+      "width": 0.18
+    },
+    "real_dimensions_verified": false
+  },
+  "gardens": [
+    {
+      "osm_id": 285592034,
+      "source_area_blender_units2": 1608.8845030937882,
+      "faces": 1448,
+      "object": "B63 | VISUAL | canteiro OSM 285592034"
+    },
+    {
+      "osm_id": 565958078,
+      "source_area_blender_units2": 2859.4671672599015,
+      "faces": 17,
+      "object": "B63 | VISUAL | canteiro OSM 565958078"
+    },
+    {
+      "osm_id": 1232803924,
+      "source_area_blender_units2": 361.10284680098994,
+      "faces": 323,
+      "object": "B63 | VISUAL | canteiro OSM 1232803924"
+    },
+    {
+      "osm_id": 1265894224,
+      "source_area_blender_units2": 226.42016691515892,
+      "faces": 216,
+      "object": "B63 | VISUAL | canteiro OSM 1265894224"
+    },
+    {
+      "osm_id": 1320939604,
+      "source_area_blender_units2": 243.67161296260383,
+      "faces": 228,
+      "object": "B63 | VISUAL | canteiro OSM 1320939604"
+    },
+    {
+      "osm_id": 1321519023,
+      "source_area_blender_units2": 61.754793880541,
+      "faces": 58,
+      "object": "B63 | VISUAL | canteiro OSM 1321519023"
+    },
+    {
+      "osm_id": 1321718836,
+      "source_area_blender_units2": 222.88789663206478,
+      "faces": 200,
+      "object": "B63 | VISUAL | canteiro OSM 1321718836"
+    },
+    {
+      "osm_id": 1321718837,
+      "source_area_blender_units2": 42.2980080525424,
+      "faces": 38,
+      "object": "B63 | VISUAL | canteiro OSM 1321718837"
+    },
+    {
+      "osm_id": 1321718838,
+      "source_area_blender_units2": 43.233252679143106,
+      "faces": 42,
+      "object": "B63 | VISUAL | canteiro OSM 1321718838"
+    }
+  ],
+  "hints": [
+    {
+      "osm_id": 1426173138,
+      "missing_source_nodes_support": 2,
+      "implemented_hint": false
+    },
+    {
+      "osm_id": 1426173325,
+      "missing_source_nodes_support": 0,
+      "implemented_hint": true
+    },
+    {
+      "osm_id": 1426173326,
+      "missing_source_nodes_support": 0,
+      "implemented_hint": true
+    },
+    {
+      "osm_id": 1426173327,
+      "missing_source_nodes_support": 0,
+      "implemented_hint": true
+    }
+  ],
+  "protected_changes": [],
+  "road_width_changed": false,
+  "beach_created": false,
+  "approved": false,
+  "runtime_exported": false,
+  "pending": [
+    "Reabertura e inspeção visual",
+    "Continuidade pedonal e travessias completas",
+    "Física/tráfego e todos os percursos",
+    "Cobertura urbana da expansão ao sul; dados adicionais necessários"
+  ]
+}

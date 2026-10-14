@@ -1,0 +1,995 @@
+{
+  "source": {
+    "file": "blender/salvador_lacerda_r30b81_cairu_colisao_e_rota_parcial.blend",
+    "sha256": "45583e49dde0a4a03d6b8d4a654135bb11644e786acb681dab7da3d68984e4af"
+  },
+  "shape": {
+    "radius": 0.3,
+    "height": 1.8,
+    "skin": 0.015,
+    "maximum_step": 0.25
+  },
+  "gravity": 9.81,
+  "dt": 0.016666666666666666,
+  "steps": [
+    {
+      "point": 1,
+      "position": [
+        -47.13497158724707,
+        54.22827963601314,
+        7.42099775314331
+      ],
+      "previous": [
+        -47.0653197709471,
+        54.15738687920384,
+        7.420997753739357
+      ],
+      "mode": "walk",
+      "support_source": "FUNCIONAL | soleira inferior",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 2,
+      "position": [
+        -47.204623403547046,
+        54.29917239282244,
+        7.42099775314331
+      ],
+      "previous": [
+        -47.13497158724707,
+        54.22827963601314,
+        7.42099775314331
+      ],
+      "mode": "walk",
+      "support_source": "FUNCIONAL | soleira inferior",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 3,
+      "position": [
+        -47.27427521984702,
+        54.37006514963174,
+        7.42099775314331
+      ],
+      "previous": [
+        -47.204623403547046,
+        54.29917239282244,
+        7.42099775314331
+      ],
+      "mode": "walk",
+      "support_source": "FUNCIONAL | soleira inferior",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 4,
+      "position": [
+        -47.343927036146994,
+        54.44095790644105,
+        7.420997753143311
+      ],
+      "previous": [
+        -47.27427521984702,
+        54.37006514963174,
+        7.42099775314331
+      ],
+      "mode": "walk",
+      "support_source": "FUNCIONAL | soleira inferior",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 5,
+      "position": [
+        -47.41357885244697,
+        54.51185066325035,
+        7.42099775314331
+      ],
+      "previous": [
+        -47.343927036146994,
+        54.44095790644105,
+        7.420997753143311
+      ],
+      "mode": "walk",
+      "support_source": "FUNCIONAL | soleira inferior",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 6,
+      "position": [
+        -47.48323066874694,
+        54.58274342005965,
+        7.42099775314331
+      ],
+      "previous": [
+        -47.41357885244697,
+        54.51185066325035,
+        7.42099775314331
+      ],
+      "mode": "walk",
+      "support_source": "FUNCIONAL | soleira inferior",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 7,
+      "position": [
+        -47.55288248504691,
+        54.65363617686895,
+        7.420997753143309
+      ],
+      "previous": [
+        -47.48323066874694,
+        54.58274342005965,
+        7.42099775314331
+      ],
+      "mode": "walk",
+      "support_source": "FUNCIONAL | soleira inferior",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 8,
+      "position": [
+        -47.62253430134688,
+        54.72452893367825,
+        7.42099775314331
+      ],
+      "previous": [
+        -47.55288248504691,
+        54.65363617686895,
+        7.420997753143309
+      ],
+      "mode": "walk",
+      "support_source": "FUNCIONAL | soleira inferior",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 9,
+      "position": [
+        -47.692186117646855,
+        54.79542169048755,
+        7.420997753143309
+      ],
+      "previous": [
+        -47.62253430134688,
+        54.72452893367825,
+        7.42099775314331
+      ],
+      "mode": "walk",
+      "support_source": "FUNCIONAL | soleira inferior",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 10,
+      "position": [
+        -47.76183793394683,
+        54.86631444729686,
+        7.42099775314331
+      ],
+      "previous": [
+        -47.692186117646855,
+        54.79542169048755,
+        7.420997753143309
+      ],
+      "mode": "walk",
+      "support_source": "FUNCIONAL | soleira inferior",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 11,
+      "position": [
+        -47.8314897502468,
+        54.93720720410616,
+        7.42099775314331
+      ],
+      "previous": [
+        -47.76183793394683,
+        54.86631444729686,
+        7.42099775314331
+      ],
+      "mode": "walk",
+      "support_source": "FUNCIONAL | soleira inferior",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 12,
+      "position": [
+        -47.90114156654678,
+        55.00809996091546,
+        7.42099775314331
+      ],
+      "previous": [
+        -47.8314897502468,
+        54.93720720410616,
+        7.42099775314331
+      ],
+      "mode": "walk",
+      "support_source": "FUNCIONAL | soleira inferior",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 13,
+      "position": [
+        -47.97079338284675,
+        55.07899271772476,
+        7.42099775314331
+      ],
+      "previous": [
+        -47.90114156654678,
+        55.00809996091546,
+        7.42099775314331
+      ],
+      "mode": "walk",
+      "support_source": "FUNCIONAL | soleira inferior",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 14,
+      "position": [
+        -48.040445199146724,
+        55.14988547453406,
+        7.420997753143311
+      ],
+      "previous": [
+        -47.97079338284675,
+        55.07899271772476,
+        7.42099775314331
+      ],
+      "mode": "walk",
+      "support_source": "FUNCIONAL | soleira inferior",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 15,
+      "position": [
+        -48.1100970154467,
+        55.22077823134336,
+        7.42099775314331
+      ],
+      "previous": [
+        -48.040445199146724,
+        55.14988547453406,
+        7.420997753143311
+      ],
+      "mode": "walk",
+      "support_source": "FUNCIONAL | soleira inferior",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 16,
+      "position": [
+        -48.17974883174667,
+        55.29167098815266,
+        7.42099775314331
+      ],
+      "previous": [
+        -48.1100970154467,
+        55.22077823134336,
+        7.42099775314331
+      ],
+      "mode": "walk",
+      "support_source": "FUNCIONAL | soleira inferior",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 17,
+      "position": [
+        -48.249400648046645,
+        55.36256374496197,
+        7.42099775314331
+      ],
+      "previous": [
+        -48.17974883174667,
+        55.29167098815266,
+        7.42099775314331
+      ],
+      "mode": "walk",
+      "support_source": "FUNCIONAL | soleira inferior",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 18,
+      "position": [
+        -48.31905246434662,
+        55.43345650177127,
+        7.420999660491944
+      ],
+      "previous": [
+        -48.249400648046645,
+        55.36256374496197,
+        7.42099775314331
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 19,
+      "position": [
+        -48.38870428064659,
+        55.50434925858057,
+        7.420999660491943
+      ],
+      "previous": [
+        -48.31905246434662,
+        55.43345650177127,
+        7.420999660491944
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 20,
+      "position": [
+        -48.45835609694656,
+        55.57524201538987,
+        7.420999660491943
+      ],
+      "previous": [
+        -48.38870428064659,
+        55.50434925858057,
+        7.420999660491943
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 21,
+      "position": [
+        -48.52800791324653,
+        55.64613477219917,
+        7.420999660491942
+      ],
+      "previous": [
+        -48.45835609694656,
+        55.57524201538987,
+        7.420999660491943
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 22,
+      "position": [
+        -48.59765972954651,
+        55.71702752900847,
+        7.420999660491943
+      ],
+      "previous": [
+        -48.52800791324653,
+        55.64613477219917,
+        7.420999660491942
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 23,
+      "position": [
+        -48.66731154584648,
+        55.787920285817776,
+        7.420999660491943
+      ],
+      "previous": [
+        -48.59765972954651,
+        55.71702752900847,
+        7.420999660491943
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 24,
+      "position": [
+        -48.736963362146454,
+        55.85881304262708,
+        7.420999660491943
+      ],
+      "previous": [
+        -48.66731154584648,
+        55.787920285817776,
+        7.420999660491943
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 25,
+      "position": [
+        -48.80661517844643,
+        55.92970579943638,
+        7.420999660491943
+      ],
+      "previous": [
+        -48.736963362146454,
+        55.85881304262708,
+        7.420999660491943
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 26,
+      "position": [
+        -48.8762669947464,
+        56.00059855624568,
+        7.420999660491943
+      ],
+      "previous": [
+        -48.80661517844643,
+        55.92970579943638,
+        7.420999660491943
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 27,
+      "position": [
+        -48.945918811046376,
+        56.07149131305498,
+        7.420999660491942
+      ],
+      "previous": [
+        -48.8762669947464,
+        56.00059855624568,
+        7.420999660491943
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 28,
+      "position": [
+        -49.01557062734635,
+        56.14238406986428,
+        7.420999660491943
+      ],
+      "previous": [
+        -48.945918811046376,
+        56.07149131305498,
+        7.420999660491942
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 29,
+      "position": [
+        -49.08522244364632,
+        56.21327682667358,
+        7.420999660491944
+      ],
+      "previous": [
+        -49.01557062734635,
+        56.14238406986428,
+        7.420999660491943
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 30,
+      "position": [
+        -49.1548742599463,
+        56.284169583482885,
+        7.420999660491944
+      ],
+      "previous": [
+        -49.08522244364632,
+        56.21327682667358,
+        7.420999660491944
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 31,
+      "position": [
+        -49.22452607624627,
+        56.355062340292186,
+        7.420999660491943
+      ],
+      "previous": [
+        -49.1548742599463,
+        56.284169583482885,
+        7.420999660491944
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 32,
+      "position": [
+        -49.294177892546244,
+        56.425955097101486,
+        7.420999660491944
+      ],
+      "previous": [
+        -49.22452607624627,
+        56.355062340292186,
+        7.420999660491943
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 33,
+      "position": [
+        -49.36382970884621,
+        56.496847853910786,
+        7.420999660491944
+      ],
+      "previous": [
+        -49.294177892546244,
+        56.425955097101486,
+        7.420999660491944
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 34,
+      "position": [
+        -49.433481525146185,
+        56.56774061072009,
+        7.420999660491943
+      ],
+      "previous": [
+        -49.36382970884621,
+        56.496847853910786,
+        7.420999660491944
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 35,
+      "position": [
+        -49.50313334144616,
+        56.63863336752939,
+        7.420999660491943
+      ],
+      "previous": [
+        -49.433481525146185,
+        56.56774061072009,
+        7.420999660491943
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 36,
+      "position": [
+        -49.57278515774613,
+        56.709526124338694,
+        7.420999660491943
+      ],
+      "previous": [
+        -49.50313334144616,
+        56.63863336752939,
+        7.420999660491943
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 37,
+      "position": [
+        -49.642436974046106,
+        56.780418881147995,
+        7.420999660491943
+      ],
+      "previous": [
+        -49.57278515774613,
+        56.709526124338694,
+        7.420999660491943
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 38,
+      "position": [
+        -49.71208879034608,
+        56.851311637957295,
+        7.420999660491943
+      ],
+      "previous": [
+        -49.642436974046106,
+        56.780418881147995,
+        7.420999660491943
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 39,
+      "position": [
+        -49.78174060664605,
+        56.922204394766595,
+        7.420999660491943
+      ],
+      "previous": [
+        -49.71208879034608,
+        56.851311637957295,
+        7.420999660491943
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 40,
+      "position": [
+        -49.85139242294603,
+        56.993097151575896,
+        7.420999660491943
+      ],
+      "previous": [
+        -49.78174060664605,
+        56.922204394766595,
+        7.420999660491943
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 41,
+      "position": [
+        -49.921044239246,
+        57.063989908385196,
+        7.420999660491943
+      ],
+      "previous": [
+        -49.85139242294603,
+        56.993097151575896,
+        7.420999660491943
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 42,
+      "position": [
+        -49.990696055545975,
+        57.134882665194496,
+        7.420999660491943
+      ],
+      "previous": [
+        -49.921044239246,
+        57.063989908385196,
+        7.420999660491943
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 43,
+      "position": [
+        -50.06034787184595,
+        57.2057754220038,
+        7.420999660491943
+      ],
+      "previous": [
+        -49.990696055545975,
+        57.134882665194496,
+        7.420999660491943
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 44,
+      "position": [
+        -50.12999968814592,
+        57.276668178813104,
+        7.420999660491942
+      ],
+      "previous": [
+        -50.06034787184595,
+        57.2057754220038,
+        7.420999660491943
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 45,
+      "position": [
+        -50.199651504445896,
+        57.347560935622404,
+        7.420999660491943
+      ],
+      "previous": [
+        -50.12999968814592,
+        57.276668178813104,
+        7.420999660491942
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 46,
+      "position": [
+        -50.26930332074586,
+        57.418453692431704,
+        7.420999660491943
+      ],
+      "previous": [
+        -50.199651504445896,
+        57.347560935622404,
+        7.420999660491943
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 47,
+      "position": [
+        -50.338955137045836,
+        57.489346449241005,
+        7.420999660491943
+      ],
+      "previous": [
+        -50.26930332074586,
+        57.418453692431704,
+        7.420999660491943
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 48,
+      "position": [
+        -50.40860695334581,
+        57.560239206050305,
+        7.420999660491942
+      ],
+      "previous": [
+        -50.338955137045836,
+        57.489346449241005,
+        7.420999660491943
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 49,
+      "position": [
+        -50.478258769645784,
+        57.63113196285961,
+        7.420999660491943
+      ],
+      "previous": [
+        -50.40860695334581,
+        57.560239206050305,
+        7.420999660491942
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    },
+    {
+      "point": 50,
+      "position": [
+        -50.54791058594576,
+        57.70202471966891,
+        7.420999660491943
+      ],
+      "previous": [
+        -50.478258769645784,
+        57.63113196285961,
+        7.420999660491943
+      ],
+      "mode": "walk",
+      "support_source": "INFERIOR | piso do saguão",
+      "support_gap": 0.01499999999999968,
+      "vertical_velocity": 0
+    }
+  ],
+  "stop": {
+    "point": 51,
+    "reason": "BODY_COLLISION_STEP_BLOCKED",
+    "previous_position": [
+      -50.54791058594576,
+      57.70202471966891,
+      7.420999660491943
+    ],
+    "proposed_position": [
+      -50.61756240224573,
+      57.77291747647821,
+      7.420999660491943
+    ],
+    "ccd_attempts": [
+      {
+        "phase": "walk",
+        "from": [
+          -50.54791058594576,
+          57.70202471966891,
+          7.420999660491943
+        ],
+        "to": [
+          -50.61756240224573,
+          57.77291747647821,
+          7.420999660491943
+        ],
+        "clear": false,
+        "witness": {
+          "object": "INFERIOR | guia de fila.001",
+          "triangle_index": 8706,
+          "parameter": 0.75,
+          "position": [
+            -50.60014944817074,
+            57.755194287275884,
+            7.420999660491943
+          ],
+          "penetration": 0.020493961086593404,
+          "classification": "SOLID_PENETRATION"
+        }
+      },
+      {
+        "phase": "step_raise",
+        "from": [
+          -50.54791058594576,
+          57.70202471966891,
+          7.420999660491943
+        ],
+        "to": [
+          -50.54791058594576,
+          57.70202471966891,
+          7.670999660491943
+        ],
+        "clear": true,
+        "witness": null
+      },
+      {
+        "phase": "step_forward",
+        "from": [
+          -50.54791058594576,
+          57.70202471966891,
+          7.670999660491943
+        ],
+        "to": [
+          -50.61756240224573,
+          57.77291747647821,
+          7.670999660491943
+        ],
+        "clear": false,
+        "witness": {
+          "object": "INFERIOR | guia de fila.001",
+          "triangle_index": 8706,
+          "parameter": 0.75,
+          "position": [
+            -50.60014944817074,
+            57.755194287275884,
+            7.670999660491943
+          ],
+          "penetration": 0.020493961086593404,
+          "classification": "SOLID_PENETRATION"
+        }
+      }
+    ],
+    "step_attempt": {
+      "raise": [
+        -50.54791058594576,
+        57.70202471966891,
+        7.670999660491943
+      ],
+      "forward": [
+        -50.61756240224573,
+        57.77291747647821,
+        7.670999660491943
+      ],
+      "drop": [
+        -50.61756240224573,
+        57.77291747647821,
+        7.420999660491943
+      ],
+      "support": [
+        7.405999660491943,
+        "INFERIOR | piso do saguão"
+      ],
+      "maximum_step": 0.25,
+      "strategy": "up/forward/drop; falha interrompe fases seguintes"
+    },
+    "slide_attempt": {
+      "normal_triangle_source": "INFERIOR | guia de fila.001",
+      "horizontal_normal_length": 0.0,
+      "attempted": false
+    },
+    "support_at_previous": [
+      7.405999660491943,
+      "INFERIOR | piso do saguão"
+    ],
+    "support_at_proposal": [
+      7.405999660491943,
+      "INFERIOR | piso do saguão"
+    ],
+    "witness_semantics": "Testemunha detectada por subdivisão, não tempo exato do primeiro contato."
+  },
+  "arrived": false,
+  "movement_enabled": false,
+  "engine_physics_verified": false,
+  "method": "Cápsula com CCD Lipschitz; integração de gravidade, tentativa up/forward/drop e slide pela normal; apoio central real obrigatório. Prova numérica candidata, não substitui adapter de engine.",
+  "traffic_unknown_blocks": true,
+  "market_entrance_verified": false,
+  "LACERDA_VERTICAL": "BLOCKED_EXTERNAL_EVIDENCE",
+  "scope": "INITIAL_CONNECTOR_EXISTING_CANDIDATE_ONLY",
+  "new_connector_created": false
+}

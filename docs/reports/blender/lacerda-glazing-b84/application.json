@@ -1,0 +1,43 @@
+{
+  "revision": "R30B.84",
+  "parent_file": "blender/salvador_lacerda_r30b83_encontro_superior_consolidado.blend",
+  "parent_sha256": "7c4376037dcca58a9367f38d07d75ec8fd2f8f2106a0c68c109dbb5514c70423",
+  "pid": 11304,
+  "scene": "SALVADOR | ESBOCO OFICIAL",
+  "changed_objects": [
+    "SUPERIOR | posterior lateral",
+    "LAC R30B02 | Lambril marmore | SUPERIOR | posterior lateral",
+    "SUPERIOR | posterior lateral.001",
+    "LAC R30B02 | Lambril marmore | SUPERIOR | posterior lateral.001"
+  ],
+  "panels": [
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "glass_z": [
+        71.22500610351562,
+        73.875
+      ],
+      "panes": 27,
+      "pattern": "mesmas travessas horizontais do corredor; subdivisão vertical aproximada",
+      "previous_lambril_top": 71.65850067138672
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "glass_z": [
+        71.22500610351562,
+        73.875
+      ],
+      "panes": 27,
+      "pattern": "mesmas travessas horizontais do corredor; subdivisão vertical aproximada",
+      "previous_lambril_top": 71.65850067138672
+    }
+  ],
+  "colliders_unchanged": true,
+  "collider_reason": "Envelope fechado conservado: vidro físico substitui reboco sem liberar passagem",
+  "dimensions_measured": false,
+  "historical_vertical_gate": "BLOCKED_EXTERNAL_EVIDENCE",
+  "production_ready": false,
+  "ssot_sha256": "1d9da0962d456cb38ed3df0da797208e499a8465f82e9836c14bb337df2385e7",
+  "file": "blender/salvador_lacerda_r30b84_fechamento_envidracado.blend",
+  "sha256": "f5aa780febb22fdba739842046960a539bccba487ccd19199f473513c8fc006e"
+}

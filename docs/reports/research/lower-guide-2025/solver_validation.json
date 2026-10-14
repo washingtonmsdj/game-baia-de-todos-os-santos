@@ -1,0 +1,50 @@
+{
+  "regression_tests": {
+    "command": "python -m unittest discover -s tests -p test_character_slide.py -v",
+    "count": 11,
+    "result": "PASS",
+    "elapsed_seconds": 9.931
+  },
+  "actual_b81_first_slide": {
+    "point": 51,
+    "sample_count": 101,
+    "minimum_distance_to_guide": 0.3538920645067191,
+    "threshold_unchanged": 0.285,
+    "normal": [
+      0.7291861685487839,
+      -0.6843153743685324,
+      -0.0
+    ],
+    "support_gap": 0.015000000000000568,
+    "result": "PASS_LOCAL_ONLY"
+  },
+  "accepted_slides_with_ccd_and_skin_support": 95,
+  "controller_route_approved": false,
+  "files": [
+    {
+      "file": "tools/world/character_slide.py",
+      "sha256": "d019694b02c29d3fb4676ed9386a5fff01227cd7de87658cdf579ee0db3cb47f"
+    },
+    {
+      "file": "tools/world/replay_cairu_controller.py",
+      "sha256": "75b2e60bc65cae445c0e44ded02e25cb19a885fcab6ccc29ed11b9737c1949c9"
+    },
+    {
+      "file": "tests/test_character_slide.py",
+      "sha256": "eebfc0093ad2dcd61beb902b8eccdfa38acf14f133536072c05257c2317b614b"
+    }
+  ],
+  "registry_validation": {
+    "errors": 0,
+    "warnings": 2,
+    "notes": [
+      "bounds WGS84 pendentes",
+      "cais-praca-cairu sem referência suficiente"
+    ]
+  },
+  "provenance_check": {
+    "duplicate_ids": false,
+    "new_dependencies_resolved": true,
+    "new_resources_release_class": "DEV_REFERENCE_ONLY"
+  }
+}

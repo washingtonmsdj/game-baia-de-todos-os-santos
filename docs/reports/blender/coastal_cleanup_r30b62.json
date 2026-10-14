@@ -1,0 +1,27 @@
+{
+  "schema": "boas/coastal-cleanup-b62-v1",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b61_pavimento_integrado.blend",
+    "revision": "R30B.61",
+    "sha256": "8772c954377ae755b87174cae39b44958dbcea278d8dbaa026a26d5ad66027b4",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b60_plataformas_costeiras.blend",
+    "evidence": "docs/reports/blender/coastal_pavement_r30b61.json",
+    "notes": "Pavimento integrado à malha física; refino local 0.375m; núcleo, água e cais preservados."
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b62_pavimento_costura_limpa.blend",
+    "revision": "R30B.62",
+    "sha256": "39b40bd1a18f02388be3e156ee8ec164532bc78db32cfd2ac1f24b44290dd17d"
+  },
+  "retriangulated_polygon_count": 26,
+  "removed_zero_area_triangles": 0,
+  "degenerate_triangles_after": 0,
+  "visual_collision_identical": true,
+  "core_quay_water_unchanged": true,
+  "approved": false,
+  "pending": [
+    "Lacuna até o cais",
+    "Navegação e travessia completa na engine"
+  ]
+}

@@ -1,0 +1,6669 @@
+{
+  "file": "blender/salvador_lacerda_r30b94_fechamentos_passarela_tunel.blend",
+  "scene": "SALVADOR | ESBOCO OFICIAL",
+  "samples": [
+    {
+      "segment": "BRIDGE_NORTH",
+      "fraction": 0.08,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "SUPERIOR | guarda-corpo acesso passarela.001",
+          "distance_m": 0.5919376611709595,
+          "local_hit": [
+            -40.207069396972656,
+            5.645355224609375,
+            70.37300872802734
+          ]
+        },
+        {
+          "object": "PASSARELA | peitoril interno.001",
+          "distance_m": 0.6736562848091125,
+          "local_hit": [
+            -40.21700668334961,
+            5.564242839813232,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_NORTH",
+      "fraction": 0.08,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "LAC R30B02 | Friso losangos | PASSARELA EXTERNA | vidro.001",
+          "distance_m": 0.43870168924331665,
+          "local_hit": [
+            -40.18843078613281,
+            5.7974534034729,
+            70.67301177978516
+          ]
+        },
+        {
+          "object": "SUPERIOR | guarda-corpo acesso passarela.001",
+          "distance_m": 0.5919376611709595,
+          "local_hit": [
+            -40.207069396972656,
+            5.645355224609375,
+            70.67301177978516
+          ]
+        },
+        {
+          "object": "PASSARELA | peitoril interno.001",
+          "distance_m": 0.6736562848091125,
+          "local_hit": [
+            -40.21700668334961,
+            5.564242839813232,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_NORTH",
+      "fraction": 0.08,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | travessa baixa.001",
+          "distance_m": 0.5000033974647522,
+          "local_hit": [
+            -40.19588851928711,
+            5.736606597900391,
+            71.07300567626953
+          ]
+        },
+        {
+          "object": "SUPERIOR | guarda-corpo acesso passarela.001",
+          "distance_m": 0.5919376611709595,
+          "local_hit": [
+            -40.207069396972656,
+            5.645355224609375,
+            71.07300567626953
+          ]
+        },
+        {
+          "object": "PASSARELA | peitoril interno.001",
+          "distance_m": 0.6736562848091125,
+          "local_hit": [
+            -40.21700668334961,
+            5.564242839813232,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_NORTH",
+      "fraction": 0.08,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | vidro.001",
+          "distance_m": 0.5255365967750549,
+          "local_hit": [
+            -40.19899368286133,
+            5.711263179779053,
+            71.92301177978516
+          ]
+        },
+        {
+          "object": "SUPERIOR | guarda-corpo acesso passarela.001",
+          "distance_m": 0.5919381380081177,
+          "local_hit": [
+            -40.207069396972656,
+            5.645354270935059,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_NORTH",
+      "fraction": 0.08,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | vidro.001",
+          "distance_m": 0.5255365967750549,
+          "local_hit": [
+            -40.19899368286133,
+            5.711263179779053,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_NORTH",
+      "fraction": 0.25,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "PASSARELA | peitoril interno.001",
+          "distance_m": 0.6735671758651733,
+          "local_hit": [
+            -36.45018768310547,
+            5.102792739868164,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_NORTH",
+      "fraction": 0.25,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "LAC R30B02 | Friso losangos | PASSARELA EXTERNA | vidro.001",
+          "distance_m": 0.43873971700668335,
+          "local_hit": [
+            -36.421630859375,
+            5.335876941680908,
+            70.67301177978516
+          ]
+        },
+        {
+          "object": "PASSARELA | peitoril interno.001",
+          "distance_m": 0.6735671758651733,
+          "local_hit": [
+            -36.45018768310547,
+            5.102792739868164,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_NORTH",
+      "fraction": 0.25,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | travessa baixa.001",
+          "distance_m": 0.500002920627594,
+          "local_hit": [
+            -36.429080963134766,
+            5.275068283081055,
+            71.07300567626953
+          ]
+        },
+        {
+          "object": "PASSARELA | peitoril interno.001",
+          "distance_m": 0.6735665202140808,
+          "local_hit": [
+            -36.45018768310547,
+            5.102793216705322,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_NORTH",
+      "fraction": 0.25,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | vidro.001",
+          "distance_m": 0.5255232453346252,
+          "local_hit": [
+            -36.43218231201172,
+            5.249737739562988,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_NORTH",
+      "fraction": 0.25,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | vidro.001",
+          "distance_m": 0.5255231857299805,
+          "local_hit": [
+            -36.43218231201172,
+            5.249737739562988,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_NORTH",
+      "fraction": 0.5,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "PASSARELA | peitoril interno.001",
+          "distance_m": 0.6734341979026794,
+          "local_hit": [
+            -30.910751342773438,
+            4.424190521240234,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_NORTH",
+      "fraction": 0.5,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "PASSARELA | peitoril interno.001",
+          "distance_m": 0.6734341979026794,
+          "local_hit": [
+            -30.910751342773438,
+            4.424190521240234,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_NORTH",
+      "fraction": 0.5,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | travessa baixa.001",
+          "distance_m": 0.5000017881393433,
+          "local_hit": [
+            -30.889659881591797,
+            4.5963358879089355,
+            71.07300567626953
+          ]
+        },
+        {
+          "object": "PASSARELA | peitoril interno.001",
+          "distance_m": 0.6734339594841003,
+          "local_hit": [
+            -30.910751342773438,
+            4.424190998077393,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_NORTH",
+      "fraction": 0.5,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | vidro.001",
+          "distance_m": 0.525503933429718,
+          "local_hit": [
+            -30.89276123046875,
+            4.571022987365723,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_NORTH",
+      "fraction": 0.5,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | vidro.001",
+          "distance_m": 0.525503933429718,
+          "local_hit": [
+            -30.89276123046875,
+            4.571022987365723,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_NORTH",
+      "fraction": 0.75,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "PASSARELA | peitoril interno.001",
+          "distance_m": 0.6733016967773438,
+          "local_hit": [
+            -25.371315002441406,
+            3.745588541030884,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_NORTH",
+      "fraction": 0.75,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "PASSARELA | peitoril interno.001",
+          "distance_m": 0.6733014583587646,
+          "local_hit": [
+            -25.371315002441406,
+            3.745588779449463,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_NORTH",
+      "fraction": 0.75,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | travessa baixa.001",
+          "distance_m": 0.5000008940696716,
+          "local_hit": [
+            -25.350238800048828,
+            3.917602777481079,
+            71.07300567626953
+          ]
+        },
+        {
+          "object": "PASSARELA | peitoril interno.001",
+          "distance_m": 0.6733014583587646,
+          "local_hit": [
+            -25.371315002441406,
+            3.745588779449463,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_NORTH",
+      "fraction": 0.75,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | vidro.001",
+          "distance_m": 0.5254839062690735,
+          "local_hit": [
+            -25.353336334228516,
+            3.8923089504241943,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_NORTH",
+      "fraction": 0.75,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | vidro.001",
+          "distance_m": 0.5254839062690735,
+          "local_hit": [
+            -25.353336334228516,
+            3.8923089504241943,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_NORTH",
+      "fraction": 0.92,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "PASSARELA | peitoril interno.001",
+          "distance_m": 0.6732117533683777,
+          "local_hit": [
+            -21.604496002197266,
+            3.2841391563415527,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_NORTH",
+      "fraction": 0.92,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "PASSARELA | peitoril interno.001",
+          "distance_m": 0.6732117533683777,
+          "local_hit": [
+            -21.604496002197266,
+            3.2841391563415527,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_NORTH",
+      "fraction": 0.92,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | travessa baixa.001",
+          "distance_m": 0.5000007748603821,
+          "local_hit": [
+            -21.583431243896484,
+            3.456064462661743,
+            71.07300567626953
+          ]
+        },
+        {
+          "object": "PASSARELA | peitoril interno.001",
+          "distance_m": 0.6732117533683777,
+          "local_hit": [
+            -21.604496002197266,
+            3.2841391563415527,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_NORTH",
+      "fraction": 0.92,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | vidro.001",
+          "distance_m": 0.525471031665802,
+          "local_hit": [
+            -21.586528778076172,
+            3.430783271789551,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_NORTH",
+      "fraction": 0.92,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | vidro.001",
+          "distance_m": 0.525471031665802,
+          "local_hit": [
+            -21.586528778076172,
+            3.430783271789551,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_SOUTH",
+      "fraction": 0.08,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "PASSARELA | peitoril interno",
+          "distance_m": 0.673225998878479,
+          "local_hit": [
+            -21.65991973876953,
+            -2.5191001892089844,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_SOUTH",
+      "fraction": 0.08,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "LAC R30B02 | Friso losangos | PASSARELA EXTERNA | vidro",
+          "distance_m": 0.43886175751686096,
+          "local_hit": [
+            -21.688241958618164,
+            -2.751746892929077,
+            70.67301177978516
+          ]
+        },
+        {
+          "object": "PASSARELA | peitoril interno",
+          "distance_m": 0.673225998878479,
+          "local_hit": [
+            -21.65991973876953,
+            -2.5191001892089844,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_SOUTH",
+      "fraction": 0.08,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "LAC R30B02 | Friso losangos | PASSARELA EXTERNA | vidro",
+          "distance_m": 0.43886274099349976,
+          "local_hit": [
+            -21.688241958618164,
+            -2.7517459392547607,
+            71.07300567626953
+          ]
+        },
+        {
+          "object": "PASSARELA EXTERNA | travessa baixa",
+          "distance_m": 0.49999985098838806,
+          "local_hit": [
+            -21.68085289001465,
+            -2.691056966781616,
+            71.07300567626953
+          ]
+        },
+        {
+          "object": "PASSARELA | peitoril interno",
+          "distance_m": 0.673225998878479,
+          "local_hit": [
+            -21.65991973876953,
+            -2.5191001892089844,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_SOUTH",
+      "fraction": 0.08,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | vidro",
+          "distance_m": 0.5254743695259094,
+          "local_hit": [
+            -21.67777442932129,
+            -2.665769100189209,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_SOUTH",
+      "fraction": 0.08,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | vidro",
+          "distance_m": 0.5254743695259094,
+          "local_hit": [
+            -21.67777442932129,
+            -2.665769100189209,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_SOUTH",
+      "fraction": 0.25,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "PASSARELA | peitoril interno",
+          "distance_m": 0.6733096837997437,
+          "local_hit": [
+            -25.734947204589844,
+            -2.022930145263672,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_SOUTH",
+      "fraction": 0.25,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "PASSARELA | peitoril interno",
+          "distance_m": 0.6733101606369019,
+          "local_hit": [
+            -25.734947204589844,
+            -2.0229296684265137,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_SOUTH",
+      "fraction": 0.25,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | travessa baixa",
+          "distance_m": 0.49999889731407166,
+          "local_hit": [
+            -25.755891799926758,
+            -2.1949708461761475,
+            71.07300567626953
+          ]
+        },
+        {
+          "object": "PASSARELA | peitoril interno",
+          "distance_m": 0.6733101606369019,
+          "local_hit": [
+            -25.734947204589844,
+            -2.0229296684265137,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_SOUTH",
+      "fraction": 0.25,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | vidro",
+          "distance_m": 0.5254868268966675,
+          "local_hit": [
+            -25.752811431884766,
+            -2.1696696281433105,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_SOUTH",
+      "fraction": 0.25,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | vidro",
+          "distance_m": 0.5254868268966675,
+          "local_hit": [
+            -25.752811431884766,
+            -2.1696696281433105,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_SOUTH",
+      "fraction": 0.5,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "PASSARELA | peitoril interno",
+          "distance_m": 0.6734325289726257,
+          "local_hit": [
+            -31.727638244628906,
+            -1.2932685613632202,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_SOUTH",
+      "fraction": 0.5,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "PASSARELA | peitoril interno",
+          "distance_m": 0.6734325289726257,
+          "local_hit": [
+            -31.727638244628906,
+            -1.2932685613632202,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_SOUTH",
+      "fraction": 0.5,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | travessa baixa",
+          "distance_m": 0.49999895691871643,
+          "local_hit": [
+            -31.74859619140625,
+            -1.4654310941696167,
+            71.07300567626953
+          ]
+        },
+        {
+          "object": "PASSARELA | peitoril interno",
+          "distance_m": 0.6734330058097839,
+          "local_hit": [
+            -31.727638244628906,
+            -1.293268084526062,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_SOUTH",
+      "fraction": 0.5,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | vidro",
+          "distance_m": 0.5255044102668762,
+          "local_hit": [
+            -31.745513916015625,
+            -1.440112590789795,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_SOUTH",
+      "fraction": 0.5,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | vidro",
+          "distance_m": 0.5255048871040344,
+          "local_hit": [
+            -31.745513916015625,
+            -1.4401121139526367,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_SOUTH",
+      "fraction": 0.75,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "PASSARELA | peitoril interno",
+          "distance_m": 0.6735557913780212,
+          "local_hit": [
+            -37.72032165527344,
+            -0.5636065602302551,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_SOUTH",
+      "fraction": 0.75,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "LAC R30B02 | Friso losangos | PASSARELA EXTERNA | vidro",
+          "distance_m": 0.43874868750572205,
+          "local_hit": [
+            -37.74869918823242,
+            -0.7966928482055664,
+            70.67301177978516
+          ]
+        },
+        {
+          "object": "PASSARELA | peitoril interno",
+          "distance_m": 0.6735557913780212,
+          "local_hit": [
+            -37.72032165527344,
+            -0.5636065602302551,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_SOUTH",
+      "fraction": 0.75,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | travessa baixa",
+          "distance_m": 0.499998539686203,
+          "local_hit": [
+            -37.74129867553711,
+            -0.7358919382095337,
+            71.07300567626953
+          ]
+        },
+        {
+          "object": "PASSARELA | peitoril interno",
+          "distance_m": 0.6735562682151794,
+          "local_hit": [
+            -37.72032165527344,
+            -0.5636060833930969,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_SOUTH",
+      "fraction": 0.75,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | vidro",
+          "distance_m": 0.5255213975906372,
+          "local_hit": [
+            -37.73821258544922,
+            -0.7105560898780823,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_SOUTH",
+      "fraction": 0.75,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | vidro",
+          "distance_m": 0.5255218744277954,
+          "local_hit": [
+            -37.73821258544922,
+            -0.7105556130409241,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_SOUTH",
+      "fraction": 0.92,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "SUPERIOR | guarda-corpo acesso passarela",
+          "distance_m": 0.5919302701950073,
+          "local_hit": [
+            -41.80522918701172,
+            -0.14854681491851807,
+            70.37300872802734
+          ]
+        },
+        {
+          "object": "PASSARELA | peitoril interno",
+          "distance_m": 0.6736401319503784,
+          "local_hit": [
+            -41.79535675048828,
+            -0.06743580102920532,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_SOUTH",
+      "fraction": 0.92,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "LAC R30B02 | Friso losangos | PASSARELA EXTERNA | vidro",
+          "distance_m": 0.43872109055519104,
+          "local_hit": [
+            -41.82374572753906,
+            -0.30063319206237793,
+            70.67301177978516
+          ]
+        },
+        {
+          "object": "SUPERIOR | guarda-corpo acesso passarela",
+          "distance_m": 0.5919302701950073,
+          "local_hit": [
+            -41.80522918701172,
+            -0.14854681491851807,
+            70.67301177978516
+          ]
+        },
+        {
+          "object": "PASSARELA | peitoril interno",
+          "distance_m": 0.6736401319503784,
+          "local_hit": [
+            -41.79535675048828,
+            -0.06743580102920532,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_SOUTH",
+      "fraction": 0.92,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | travessa baixa",
+          "distance_m": 0.49999821186065674,
+          "local_hit": [
+            -41.816341400146484,
+            -0.2398051619529724,
+            71.07300567626953
+          ]
+        },
+        {
+          "object": "SUPERIOR | guarda-corpo acesso passarela",
+          "distance_m": 0.5919302701950073,
+          "local_hit": [
+            -41.80522918701172,
+            -0.14854681491851807,
+            71.07300567626953
+          ]
+        },
+        {
+          "object": "PASSARELA | peitoril interno",
+          "distance_m": 0.6736401319503784,
+          "local_hit": [
+            -41.79535675048828,
+            -0.06743580102920532,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_SOUTH",
+      "fraction": 0.92,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | vidro",
+          "distance_m": 0.5255342721939087,
+          "local_hit": [
+            -41.813255310058594,
+            -0.21445626020431519,
+            71.92301177978516
+          ]
+        },
+        {
+          "object": "SUPERIOR | guarda-corpo acesso passarela",
+          "distance_m": 0.5919302701950073,
+          "local_hit": [
+            -41.80522918701172,
+            -0.14854681491851807,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "BRIDGE_SOUTH",
+      "fraction": 0.92,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "PASSARELA EXTERNA | vidro",
+          "distance_m": 0.5255342721939087,
+          "local_hit": [
+            -41.813255310058594,
+            -0.21445626020431519,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_0",
+      "fraction": 0.08,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000002980232239,
+          "local_hit": [
+            -50.23371887207031,
+            8.20666217803955,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_0",
+      "fraction": 0.08,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000002980232239,
+          "local_hit": [
+            -50.23371887207031,
+            8.20666217803955,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_0",
+      "fraction": 0.08,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000002980232239,
+          "local_hit": [
+            -50.23371887207031,
+            8.20666217803955,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_0",
+      "fraction": 0.08,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000002980232239,
+          "local_hit": [
+            -50.23371887207031,
+            8.20666217803955,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_0",
+      "fraction": 0.08,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000002980232239,
+          "local_hit": [
+            -50.23371887207031,
+            8.20666217803955,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_0",
+      "fraction": 0.25,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000002980232239,
+          "local_hit": [
+            -50.38162612915039,
+            8.250387191772461,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_0",
+      "fraction": 0.25,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999985098838806,
+          "local_hit": [
+            -50.38162612915039,
+            8.250387191772461,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_0",
+      "fraction": 0.25,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000002980232239,
+          "local_hit": [
+            -50.38162612915039,
+            8.250387191772461,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_0",
+      "fraction": 0.25,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000002980232239,
+          "local_hit": [
+            -50.38162612915039,
+            8.250387191772461,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_0",
+      "fraction": 0.25,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999985098838806,
+          "local_hit": [
+            -50.38162612915039,
+            8.250387191772461,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_0",
+      "fraction": 0.5,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000002980232239,
+          "local_hit": [
+            -50.59913635253906,
+            8.314687728881836,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_0",
+      "fraction": 0.5,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999985098838806,
+          "local_hit": [
+            -50.59913635253906,
+            8.314687728881836,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_0",
+      "fraction": 0.5,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000002980232239,
+          "local_hit": [
+            -50.59913635253906,
+            8.314687728881836,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_0",
+      "fraction": 0.5,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000002980232239,
+          "local_hit": [
+            -50.59913635253906,
+            8.314687728881836,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_0",
+      "fraction": 0.5,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999985098838806,
+          "local_hit": [
+            -50.59913635253906,
+            8.314687728881836,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_0",
+      "fraction": 0.75,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999985098838806,
+          "local_hit": [
+            -50.816650390625,
+            8.378989219665527,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_0",
+      "fraction": 0.75,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999985098838806,
+          "local_hit": [
+            -50.816650390625,
+            8.378989219665527,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_0",
+      "fraction": 0.75,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000002980232239,
+          "local_hit": [
+            -50.816650390625,
+            8.378989219665527,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_0",
+      "fraction": 0.75,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999985098838806,
+          "local_hit": [
+            -50.816650390625,
+            8.378989219665527,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_0",
+      "fraction": 0.75,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999985098838806,
+          "local_hit": [
+            -50.816650390625,
+            8.378989219665527,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_0",
+      "fraction": 0.92,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999889731407166,
+          "local_hit": [
+            -50.964561462402344,
+            8.422715187072754,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_0",
+      "fraction": 0.92,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999889731407166,
+          "local_hit": [
+            -50.964561462402344,
+            8.422715187072754,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_0",
+      "fraction": 0.92,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999889731407166,
+          "local_hit": [
+            -50.964561462402344,
+            8.422715187072754,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_0",
+      "fraction": 0.92,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999889731407166,
+          "local_hit": [
+            -50.964561462402344,
+            8.422715187072754,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_0",
+      "fraction": 0.92,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999889731407166,
+          "local_hit": [
+            -50.964561462402344,
+            8.422715187072754,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_1",
+      "fraction": 0.08,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999919533729553,
+          "local_hit": [
+            -51.137046813964844,
+            8.154459953308105,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_1",
+      "fraction": 0.08,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999919533729553,
+          "local_hit": [
+            -51.137046813964844,
+            8.154459953308105,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_1",
+      "fraction": 0.08,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000030398368835,
+          "local_hit": [
+            -51.13704299926758,
+            8.154458999633789,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_1",
+      "fraction": 0.08,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000030398368835,
+          "local_hit": [
+            -51.13704299926758,
+            8.154458999633789,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_1",
+      "fraction": 0.08,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000030398368835,
+          "local_hit": [
+            -51.13704299926758,
+            8.154458999633789,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_1",
+      "fraction": 0.25,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000029802322388,
+          "local_hit": [
+            -51.35566711425781,
+            7.5406928062438965,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_1",
+      "fraction": 0.25,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000029802322388,
+          "local_hit": [
+            -51.35566711425781,
+            7.5406928062438965,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_1",
+      "fraction": 0.25,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000030398368835,
+          "local_hit": [
+            -51.35566711425781,
+            7.5406928062438965,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_1",
+      "fraction": 0.25,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000030398368835,
+          "local_hit": [
+            -51.35566711425781,
+            7.5406928062438965,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_1",
+      "fraction": 0.25,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000030398368835,
+          "local_hit": [
+            -51.35566711425781,
+            7.5406928062438965,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_1",
+      "fraction": 0.5,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999919533729553,
+          "local_hit": [
+            -51.67717742919922,
+            6.638097286224365,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_1",
+      "fraction": 0.5,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999919533729553,
+          "local_hit": [
+            -51.67717742919922,
+            6.638097286224365,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_1",
+      "fraction": 0.5,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999992549419403,
+          "local_hit": [
+            -51.67717742919922,
+            6.638097286224365,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_1",
+      "fraction": 0.5,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999992549419403,
+          "local_hit": [
+            -51.67717742919922,
+            6.638097286224365,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_1",
+      "fraction": 0.5,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999992549419403,
+          "local_hit": [
+            -51.67717742919922,
+            6.638097286224365,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_1",
+      "fraction": 0.75,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999919533729553,
+          "local_hit": [
+            -51.998680114746094,
+            5.735499858856201,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_1",
+      "fraction": 0.75,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999919533729553,
+          "local_hit": [
+            -51.998680114746094,
+            5.735499858856201,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_1",
+      "fraction": 0.75,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999992549419403,
+          "local_hit": [
+            -51.998680114746094,
+            5.735499858856201,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_1",
+      "fraction": 0.75,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999992549419403,
+          "local_hit": [
+            -51.998680114746094,
+            5.735499858856201,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_1",
+      "fraction": 0.75,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999992549419403,
+          "local_hit": [
+            -51.998680114746094,
+            5.735499858856201,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_1",
+      "fraction": 0.92,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999919533729553,
+          "local_hit": [
+            -52.21730422973633,
+            5.121734142303467,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_1",
+      "fraction": 0.92,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999919533729553,
+          "local_hit": [
+            -52.21730422973633,
+            5.121734142303467,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_1",
+      "fraction": 0.92,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999992549419403,
+          "local_hit": [
+            -52.21730422973633,
+            5.121734142303467,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_1",
+      "fraction": 0.92,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999992549419403,
+          "local_hit": [
+            -52.21730422973633,
+            5.121734142303467,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_1",
+      "fraction": 0.92,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999992549419403,
+          "local_hit": [
+            -52.21730422973633,
+            5.121734142303467,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_2",
+      "fraction": 0.08,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999579787254333,
+          "local_hit": [
+            -52.39512634277344,
+            4.579890727996826,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_2",
+      "fraction": 0.08,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999579787254333,
+          "local_hit": [
+            -52.39512634277344,
+            4.579890727996826,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_2",
+      "fraction": 0.08,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999958574771881,
+          "local_hit": [
+            -52.39512634277344,
+            4.579890727996826,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_2",
+      "fraction": 0.08,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999958574771881,
+          "local_hit": [
+            -52.39512634277344,
+            4.579890727996826,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_2",
+      "fraction": 0.08,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999958574771881,
+          "local_hit": [
+            -52.39512634277344,
+            4.579890727996826,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_2",
+      "fraction": 0.25,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999958574771881,
+          "local_hit": [
+            -52.55437088012695,
+            4.042237758636475,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_2",
+      "fraction": 0.25,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999967217445374,
+          "local_hit": [
+            -52.55436706542969,
+            4.042236804962158,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_2",
+      "fraction": 0.25,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999958574771881,
+          "local_hit": [
+            -52.55437088012695,
+            4.042237758636475,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_2",
+      "fraction": 0.25,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999958574771881,
+          "local_hit": [
+            -52.55437088012695,
+            4.042237758636475,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_2",
+      "fraction": 0.25,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999958574771881,
+          "local_hit": [
+            -52.55437088012695,
+            4.042237758636475,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_2",
+      "fraction": 0.5,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999958574771881,
+          "local_hit": [
+            -52.78855514526367,
+            3.251572847366333,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_2",
+      "fraction": 0.5,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999967217445374,
+          "local_hit": [
+            -52.788551330566406,
+            3.2515718936920166,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_2",
+      "fraction": 0.5,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999958574771881,
+          "local_hit": [
+            -52.78855514526367,
+            3.251572847366333,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_2",
+      "fraction": 0.5,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999958574771881,
+          "local_hit": [
+            -52.78855514526367,
+            3.251572847366333,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_2",
+      "fraction": 0.5,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999958574771881,
+          "local_hit": [
+            -52.78855514526367,
+            3.251572847366333,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_2",
+      "fraction": 0.75,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.500003457069397,
+          "local_hit": [
+            -53.02273178100586,
+            2.4609055519104004,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_2",
+      "fraction": 0.75,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.500003457069397,
+          "local_hit": [
+            -53.02273178100586,
+            2.4609055519104004,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_2",
+      "fraction": 0.75,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999967217445374,
+          "local_hit": [
+            -53.022735595703125,
+            2.460906744003296,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_2",
+      "fraction": 0.75,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999967217445374,
+          "local_hit": [
+            -53.022735595703125,
+            2.460906744003296,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_2",
+      "fraction": 0.75,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999967217445374,
+          "local_hit": [
+            -53.022735595703125,
+            2.460906744003296,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_2",
+      "fraction": 0.92,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.500003457069397,
+          "local_hit": [
+            -53.181976318359375,
+            1.923252820968628,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_2",
+      "fraction": 0.92,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.500003457069397,
+          "local_hit": [
+            -53.181976318359375,
+            1.923252820968628,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_2",
+      "fraction": 0.92,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999967217445374,
+          "local_hit": [
+            -53.18198013305664,
+            1.9232540130615234,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_2",
+      "fraction": 0.92,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999967217445374,
+          "local_hit": [
+            -53.18198013305664,
+            1.9232540130615234,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_2",
+      "fraction": 0.92,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999967217445374,
+          "local_hit": [
+            -53.18198013305664,
+            1.9232540130615234,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_3",
+      "fraction": 0.08,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000003576278687,
+          "local_hit": [
+            -53.179691314697266,
+            1.6204514503479004,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_3",
+      "fraction": 0.08,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000003576278687,
+          "local_hit": [
+            -53.179691314697266,
+            1.6204514503479004,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_3",
+      "fraction": 0.08,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000002384185791,
+          "local_hit": [
+            -53.179691314697266,
+            1.6204514503479004,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_3",
+      "fraction": 0.08,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000002384185791,
+          "local_hit": [
+            -53.179691314697266,
+            1.6204514503479004,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_3",
+      "fraction": 0.08,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000002384185791,
+          "local_hit": [
+            -53.179691314697266,
+            1.6204514503479004,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_3",
+      "fraction": 0.25,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000022053718567,
+          "local_hit": [
+            -53.01559066772461,
+            1.5146501064300537,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_3",
+      "fraction": 0.25,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000041127204895,
+          "local_hit": [
+            -53.01559066772461,
+            1.5146516561508179,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_3",
+      "fraction": 0.25,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000021457672119,
+          "local_hit": [
+            -53.01559066772461,
+            1.5146499872207642,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_3",
+      "fraction": 0.25,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000021457672119,
+          "local_hit": [
+            -53.01559066772461,
+            1.5146499872207642,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_3",
+      "fraction": 0.25,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000021457672119,
+          "local_hit": [
+            -53.01559066772461,
+            1.5146499872207642,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_3",
+      "fraction": 0.5,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999983608722687,
+          "local_hit": [
+            -52.77426528930664,
+            1.3590540885925293,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_3",
+      "fraction": 0.5,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000002980232239,
+          "local_hit": [
+            -52.774261474609375,
+            1.359055757522583,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_3",
+      "fraction": 0.5,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000002384185791,
+          "local_hit": [
+            -52.774261474609375,
+            1.3590556383132935,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_3",
+      "fraction": 0.5,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000002384185791,
+          "local_hit": [
+            -52.774261474609375,
+            1.3590556383132935,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_3",
+      "fraction": 0.5,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000002384185791,
+          "local_hit": [
+            -52.774261474609375,
+            1.3590556383132935,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_3",
+      "fraction": 0.75,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000003576278687,
+          "local_hit": [
+            -52.53293228149414,
+            1.2034629583358765,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_3",
+      "fraction": 0.75,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000003576278687,
+          "local_hit": [
+            -52.53293228149414,
+            1.2034629583358765,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_3",
+      "fraction": 0.75,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999983608722687,
+          "local_hit": [
+            -52.532936096191406,
+            1.2034612894058228,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_3",
+      "fraction": 0.75,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999983608722687,
+          "local_hit": [
+            -52.532936096191406,
+            1.2034612894058228,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_3",
+      "fraction": 0.75,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999983608722687,
+          "local_hit": [
+            -52.532936096191406,
+            1.2034612894058228,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_3",
+      "fraction": 0.92,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000021457672119,
+          "local_hit": [
+            -52.368831634521484,
+            1.0976613759994507,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_3",
+      "fraction": 0.92,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000021457672119,
+          "local_hit": [
+            -52.368831634521484,
+            1.0976613759994507,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_3",
+      "fraction": 0.92,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000020861625671,
+          "local_hit": [
+            -52.368831634521484,
+            1.0976612567901611,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_3",
+      "fraction": 0.92,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000020861625671,
+          "local_hit": [
+            -52.368831634521484,
+            1.0976612567901611,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_3",
+      "fraction": 0.92,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000020861625671,
+          "local_hit": [
+            -52.368831634521484,
+            1.0976612567901611,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_4",
+      "fraction": 0.08,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.500000536441803,
+          "local_hit": [
+            -52.32691955566406,
+            0.8911337852478027,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_4",
+      "fraction": 0.08,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.500000536441803,
+          "local_hit": [
+            -52.32691955566406,
+            0.8911337852478027,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_4",
+      "fraction": 0.08,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000004172325134,
+          "local_hit": [
+            -52.32691955566406,
+            0.8911337852478027,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_4",
+      "fraction": 0.08,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000004172325134,
+          "local_hit": [
+            -52.32691955566406,
+            0.8911337852478027,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_4",
+      "fraction": 0.08,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000004172325134,
+          "local_hit": [
+            -52.32691955566406,
+            0.8911337852478027,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_4",
+      "fraction": 0.25,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999968111515045,
+          "local_hit": [
+            -52.40195083618164,
+            0.5580707788467407,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_4",
+      "fraction": 0.25,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999968111515045,
+          "local_hit": [
+            -52.40195083618164,
+            0.5580707788467407,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_4",
+      "fraction": 0.25,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999675154685974,
+          "local_hit": [
+            -52.40195083618164,
+            0.5580707788467407,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_4",
+      "fraction": 0.25,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999675154685974,
+          "local_hit": [
+            -52.40195083618164,
+            0.5580707788467407,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_4",
+      "fraction": 0.25,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999675154685974,
+          "local_hit": [
+            -52.40195083618164,
+            0.5580707788467407,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_4",
+      "fraction": 0.5,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999968707561493,
+          "local_hit": [
+            -52.51229476928711,
+            0.0682709738612175,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_4",
+      "fraction": 0.5,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999968111515045,
+          "local_hit": [
+            -52.51229476928711,
+            0.06827098876237869,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_4",
+      "fraction": 0.5,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999675154685974,
+          "local_hit": [
+            -52.51229476928711,
+            0.06827100366353989,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_4",
+      "fraction": 0.5,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999675154685974,
+          "local_hit": [
+            -52.51229476928711,
+            0.06827100366353989,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_4",
+      "fraction": 0.5,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999675154685974,
+          "local_hit": [
+            -52.51229476928711,
+            0.06827100366353989,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_4",
+      "fraction": 0.75,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999968707561493,
+          "local_hit": [
+            -52.62263870239258,
+            -0.42152875661849976,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_4",
+      "fraction": 0.75,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999968707561493,
+          "local_hit": [
+            -52.62263870239258,
+            -0.42152875661849976,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_4",
+      "fraction": 0.75,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999678134918213,
+          "local_hit": [
+            -52.62263870239258,
+            -0.42152875661849976,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_4",
+      "fraction": 0.75,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999678134918213,
+          "local_hit": [
+            -52.62263870239258,
+            -0.42152875661849976,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_4",
+      "fraction": 0.75,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999678134918213,
+          "local_hit": [
+            -52.62263870239258,
+            -0.42152875661849976,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_4",
+      "fraction": 0.92,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999696016311646,
+          "local_hit": [
+            -52.697669982910156,
+            -0.7545926570892334,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_4",
+      "fraction": 0.92,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999696016311646,
+          "local_hit": [
+            -52.697669982910156,
+            -0.7545926570892334,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_4",
+      "fraction": 0.92,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999969005584717,
+          "local_hit": [
+            -52.697669982910156,
+            -0.7545926570892334,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_4",
+      "fraction": 0.92,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999969005584717,
+          "local_hit": [
+            -52.697669982910156,
+            -0.7545926570892334,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_4",
+      "fraction": 0.92,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999969005584717,
+          "local_hit": [
+            -52.697669982910156,
+            -0.7545926570892334,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_5",
+      "fraction": 0.08,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000002384185791,
+          "local_hit": [
+            -52.191898345947266,
+            -1.0634922981262207,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_5",
+      "fraction": 0.08,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000002384185791,
+          "local_hit": [
+            -52.191898345947266,
+            -1.0634922981262207,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_5",
+      "fraction": 0.08,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.499998539686203,
+          "local_hit": [
+            -52.191898345947266,
+            -1.0634939670562744,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_5",
+      "fraction": 0.08,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.499998539686203,
+          "local_hit": [
+            -52.191898345947266,
+            -1.0634939670562744,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_5",
+      "fraction": 0.08,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.499998539686203,
+          "local_hit": [
+            -52.191898345947266,
+            -1.0634939670562744,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_5",
+      "fraction": 0.25,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000002980232239,
+          "local_hit": [
+            -51.04209899902344,
+            -1.3868396282196045,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_5",
+      "fraction": 0.25,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000002980232239,
+          "local_hit": [
+            -51.04209899902344,
+            -1.3868396282196045,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_5",
+      "fraction": 0.25,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000002980232239,
+          "local_hit": [
+            -51.04209899902344,
+            -1.3868396282196045,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_5",
+      "fraction": 0.25,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999995231628418,
+          "local_hit": [
+            -51.04209899902344,
+            -1.3868403434753418,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_5",
+      "fraction": 0.25,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.499998539686203,
+          "local_hit": [
+            -51.04209899902344,
+            -1.3868412971496582,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_5",
+      "fraction": 0.5,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000002980232239,
+          "local_hit": [
+            -49.351219177246094,
+            -1.8623502254486084,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_5",
+      "fraction": 0.5,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000002980232239,
+          "local_hit": [
+            -49.351219177246094,
+            -1.8623502254486084,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_5",
+      "fraction": 0.5,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000002980232239,
+          "local_hit": [
+            -49.351219177246094,
+            -1.8623502254486084,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_5",
+      "fraction": 0.5,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000002980232239,
+          "local_hit": [
+            -49.351219177246094,
+            -1.8623502254486084,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_5",
+      "fraction": 0.5,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.499998539686203,
+          "local_hit": [
+            -49.351219177246094,
+            -1.862351894378662,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_5",
+      "fraction": 0.75,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000004172325134,
+          "local_hit": [
+            -47.660343170166016,
+            -2.337860584259033,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_5",
+      "fraction": 0.75,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000004172325134,
+          "local_hit": [
+            -47.660343170166016,
+            -2.337860584259033,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_5",
+      "fraction": 0.75,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000004172325134,
+          "local_hit": [
+            -47.660343170166016,
+            -2.337860584259033,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_5",
+      "fraction": 0.75,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999995231628418,
+          "local_hit": [
+            -47.660343170166016,
+            -2.3378615379333496,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_5",
+      "fraction": 0.75,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999995231628418,
+          "local_hit": [
+            -47.660343170166016,
+            -2.3378615379333496,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_5",
+      "fraction": 0.92,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000004172325134,
+          "local_hit": [
+            -46.51054382324219,
+            -2.661207675933838,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_5",
+      "fraction": 0.92,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000004172325134,
+          "local_hit": [
+            -46.51054382324219,
+            -2.661207675933838,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_5",
+      "fraction": 0.92,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999995231628418,
+          "local_hit": [
+            -46.51054382324219,
+            -2.6612086296081543,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_5",
+      "fraction": 0.92,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999995231628418,
+          "local_hit": [
+            -46.51054382324219,
+            -2.6612086296081543,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_5",
+      "fraction": 0.92,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999995231628418,
+          "local_hit": [
+            -46.51054382324219,
+            -2.6612086296081543,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_6",
+      "fraction": 0.08,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999997913837433,
+          "local_hit": [
+            -45.93694305419922,
+            -2.791779041290283,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_6",
+      "fraction": 0.08,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999997913837433,
+          "local_hit": [
+            -45.93694305419922,
+            -2.791779041290283,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_6",
+      "fraction": 0.08,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999978840351105,
+          "local_hit": [
+            -45.93694305419922,
+            -2.791780710220337,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_6",
+      "fraction": 0.08,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999978840351105,
+          "local_hit": [
+            -45.93694305419922,
+            -2.791780710220337,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_6",
+      "fraction": 0.08,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999978840351105,
+          "local_hit": [
+            -45.93694305419922,
+            -2.791780710220337,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_6",
+      "fraction": 0.25,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999597668647766,
+          "local_hit": [
+            -45.86785125732422,
+            -2.7458982467651367,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_6",
+      "fraction": 0.25,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999406933784485,
+          "local_hit": [
+            -45.86785125732422,
+            -2.7458999156951904,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_6",
+      "fraction": 0.25,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999597668647766,
+          "local_hit": [
+            -45.86785125732422,
+            -2.7458982467651367,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_6",
+      "fraction": 0.25,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999597668647766,
+          "local_hit": [
+            -45.86785125732422,
+            -2.7458982467651367,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_6",
+      "fraction": 0.25,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999953508377075,
+          "local_hit": [
+            -45.86785125732422,
+            -2.745898962020874,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_6",
+      "fraction": 0.5,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999978840351105,
+          "local_hit": [
+            -45.7662353515625,
+            -2.678420305252075,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_6",
+      "fraction": 0.5,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999597668647766,
+          "local_hit": [
+            -45.7662353515625,
+            -2.67842173576355,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_6",
+      "fraction": 0.5,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999978840351105,
+          "local_hit": [
+            -45.7662353515625,
+            -2.678420305252075,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_6",
+      "fraction": 0.5,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999978840351105,
+          "local_hit": [
+            -45.7662353515625,
+            -2.678420305252075,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_6",
+      "fraction": 0.5,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999770522117615,
+          "local_hit": [
+            -45.7662353515625,
+            -2.678420305252075,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_6",
+      "fraction": 0.75,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000016689300537,
+          "local_hit": [
+            -45.66462326049805,
+            -2.610940933227539,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_6",
+      "fraction": 0.75,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000016689300537,
+          "local_hit": [
+            -45.66462326049805,
+            -2.610940933227539,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_6",
+      "fraction": 0.75,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000016689300537,
+          "local_hit": [
+            -45.66462326049805,
+            -2.610940933227539,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_6",
+      "fraction": 0.75,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000016689300537,
+          "local_hit": [
+            -45.66462326049805,
+            -2.610940933227539,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_6",
+      "fraction": 0.75,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000020861625671,
+          "local_hit": [
+            -45.66462326049805,
+            -2.610940456390381,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_6",
+      "fraction": 0.92,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999597668647766,
+          "local_hit": [
+            -45.59552764892578,
+            -2.565061569213867,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_6",
+      "fraction": 0.92,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999597668647766,
+          "local_hit": [
+            -45.59552764892578,
+            -2.565061569213867,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_6",
+      "fraction": 0.92,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999978840351105,
+          "local_hit": [
+            -45.59552764892578,
+            -2.5650601387023926,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_6",
+      "fraction": 0.92,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999978840351105,
+          "local_hit": [
+            -45.59552764892578,
+            -2.5650601387023926,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_6",
+      "fraction": 0.92,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999978840351105,
+          "local_hit": [
+            -45.59552764892578,
+            -2.5650601387023926,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_7",
+      "fraction": 0.08,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000005960464478,
+          "local_hit": [
+            -45.527957916259766,
+            -2.4184837341308594,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_7",
+      "fraction": 0.08,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000005960464478,
+          "local_hit": [
+            -45.527957916259766,
+            -2.4184837341308594,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_7",
+      "fraction": 0.08,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999953508377075,
+          "local_hit": [
+            -45.5279541015625,
+            -2.418484926223755,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_7",
+      "fraction": 0.08,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999953508377075,
+          "local_hit": [
+            -45.5279541015625,
+            -2.418484926223755,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_7",
+      "fraction": 0.08,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999953508377075,
+          "local_hit": [
+            -45.5279541015625,
+            -2.418484926223755,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_7",
+      "fraction": 0.25,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000081658363342,
+          "local_hit": [
+            -45.453468322753906,
+            -2.1528940200805664,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_7",
+      "fraction": 0.25,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000043511390686,
+          "local_hit": [
+            -45.45346450805664,
+            -2.152894973754883,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_7",
+      "fraction": 0.25,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.499999076128006,
+          "local_hit": [
+            -45.45345687866211,
+            -2.1528964042663574,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_7",
+      "fraction": 0.25,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.499999076128006,
+          "local_hit": [
+            -45.45345687866211,
+            -2.1528964042663574,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_7",
+      "fraction": 0.25,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000042915344238,
+          "local_hit": [
+            -45.45346450805664,
+            -2.152894973754883,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_7",
+      "fraction": 0.5,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000043511390686,
+          "local_hit": [
+            -45.34391403198242,
+            -1.7623252868652344,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_7",
+      "fraction": 0.5,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000005960464478,
+          "local_hit": [
+            -45.343910217285156,
+            -1.7623263597488403,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_7",
+      "fraction": 0.5,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.499999076128006,
+          "local_hit": [
+            -45.34390640258789,
+            -1.762326717376709,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_7",
+      "fraction": 0.5,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.499999076128006,
+          "local_hit": [
+            -45.34390640258789,
+            -1.762326717376709,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_7",
+      "fraction": 0.5,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000042915344238,
+          "local_hit": [
+            -45.34391403198242,
+            -1.762325406074524,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_7",
+      "fraction": 0.75,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000005960464478,
+          "local_hit": [
+            -45.23435974121094,
+            -1.371756672859192,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_7",
+      "fraction": 0.75,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000005960464478,
+          "local_hit": [
+            -45.23435974121094,
+            -1.371756672859192,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_7",
+      "fraction": 0.75,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.499999076128006,
+          "local_hit": [
+            -45.23435592651367,
+            -1.3717570304870605,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_7",
+      "fraction": 0.75,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000028610229492,
+          "local_hit": [
+            -45.23435974121094,
+            -1.3717560768127441,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_7",
+      "fraction": 0.75,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000042915344238,
+          "local_hit": [
+            -45.2343635559082,
+            -1.3717557191848755,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_7",
+      "fraction": 0.92,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000043511390686,
+          "local_hit": [
+            -45.15987014770508,
+            -1.106168270111084,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_7",
+      "fraction": 0.92,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000043511390686,
+          "local_hit": [
+            -45.15987014770508,
+            -1.106168270111084,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_7",
+      "fraction": 0.92,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000028610229492,
+          "local_hit": [
+            -45.15986633300781,
+            -1.1061687469482422,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_7",
+      "fraction": 0.92,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000028610229492,
+          "local_hit": [
+            -45.15986633300781,
+            -1.1061687469482422,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_7",
+      "fraction": 0.92,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000042915344238,
+          "local_hit": [
+            -45.15987014770508,
+            -1.1061683893203735,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_8",
+      "fraction": 0.08,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999991059303284,
+          "local_hit": [
+            -45.04148864746094,
+            -0.9806792140007019,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_8",
+      "fraction": 0.08,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999991059303284,
+          "local_hit": [
+            -45.04148864746094,
+            -0.9806792140007019,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_8",
+      "fraction": 0.08,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999985098838806,
+          "local_hit": [
+            -45.04148864746094,
+            -0.9806792736053467,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_8",
+      "fraction": 0.08,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999985098838806,
+          "local_hit": [
+            -45.04148864746094,
+            -0.9806792736053467,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_8",
+      "fraction": 0.08,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999985098838806,
+          "local_hit": [
+            -45.04148864746094,
+            -0.9806792736053467,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_8",
+      "fraction": 0.25,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999997913837433,
+          "local_hit": [
+            -44.86443328857422,
+            -0.97959965467453,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_8",
+      "fraction": 0.25,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999997913837433,
+          "local_hit": [
+            -44.86443328857422,
+            -0.97959965467453,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_8",
+      "fraction": 0.25,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999985098838806,
+          "local_hit": [
+            -44.86443328857422,
+            -0.9795995950698853,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_8",
+      "fraction": 0.25,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999985098838806,
+          "local_hit": [
+            -44.86443328857422,
+            -0.9795995950698853,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_8",
+      "fraction": 0.25,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999985098838806,
+          "local_hit": [
+            -44.86443328857422,
+            -0.9795995950698853,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_8",
+      "fraction": 0.5,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999997913837433,
+          "local_hit": [
+            -44.60405349731445,
+            -0.9780120253562927,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_8",
+      "fraction": 0.5,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999997913837433,
+          "local_hit": [
+            -44.60405349731445,
+            -0.9780120253562927,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_8",
+      "fraction": 0.5,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999985098838806,
+          "local_hit": [
+            -44.60405349731445,
+            -0.978011965751648,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_8",
+      "fraction": 0.5,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999985098838806,
+          "local_hit": [
+            -44.60405349731445,
+            -0.978011965751648,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_8",
+      "fraction": 0.5,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999985098838806,
+          "local_hit": [
+            -44.60405349731445,
+            -0.978011965751648,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_8",
+      "fraction": 0.75,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999991059303284,
+          "local_hit": [
+            -44.34367370605469,
+            -0.9764242768287659,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_8",
+      "fraction": 0.75,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999991059303284,
+          "local_hit": [
+            -44.34367370605469,
+            -0.9764242768287659,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_8",
+      "fraction": 0.75,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999985098838806,
+          "local_hit": [
+            -44.34367370605469,
+            -0.9764243364334106,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_8",
+      "fraction": 0.75,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999985098838806,
+          "local_hit": [
+            -44.34367370605469,
+            -0.9764243364334106,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_8",
+      "fraction": 0.75,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999985098838806,
+          "local_hit": [
+            -44.34367370605469,
+            -0.9764243364334106,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_8",
+      "fraction": 0.92,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999997913837433,
+          "local_hit": [
+            -44.16661834716797,
+            -0.975344717502594,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_8",
+      "fraction": 0.92,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999997913837433,
+          "local_hit": [
+            -44.16661834716797,
+            -0.975344717502594,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_8",
+      "fraction": 0.92,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999985098838806,
+          "local_hit": [
+            -44.16661834716797,
+            -0.9753446578979492,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_8",
+      "fraction": 0.92,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999985098838806,
+          "local_hit": [
+            -44.16661834716797,
+            -0.9753446578979492,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_8",
+      "fraction": 0.92,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999985098838806,
+          "local_hit": [
+            -44.16661834716797,
+            -0.9753446578979492,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_9",
+      "fraction": 0.08,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000007748603821,
+          "local_hit": [
+            -44.05535125732422,
+            -0.8973574638366699,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_9",
+      "fraction": 0.08,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000007748603821,
+          "local_hit": [
+            -44.05535125732422,
+            -0.8973574638366699,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_9",
+      "fraction": 0.08,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000007748603821,
+          "local_hit": [
+            -44.05535125732422,
+            -0.8973574638366699,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_9",
+      "fraction": 0.08,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000007748603821,
+          "local_hit": [
+            -44.05535125732422,
+            -0.8973574638366699,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_9",
+      "fraction": 0.08,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000007748603821,
+          "local_hit": [
+            -44.05535125732422,
+            -0.8973574638366699,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_9",
+      "fraction": 0.25,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000007748603821,
+          "local_hit": [
+            -43.9959716796875,
+            -0.7327147722244263,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_9",
+      "fraction": 0.25,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000007748603821,
+          "local_hit": [
+            -43.9959716796875,
+            -0.7327147722244263,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_9",
+      "fraction": 0.25,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000007748603821,
+          "local_hit": [
+            -43.9959716796875,
+            -0.7327147722244263,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_9",
+      "fraction": 0.25,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000007748603821,
+          "local_hit": [
+            -43.9959716796875,
+            -0.7327147722244263,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_9",
+      "fraction": 0.25,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999693036079407,
+          "local_hit": [
+            -43.995967864990234,
+            -0.7327160835266113,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_9",
+      "fraction": 0.5,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000007748603821,
+          "local_hit": [
+            -43.90864944458008,
+            -0.4905933439731598,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_9",
+      "fraction": 0.5,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000007748603821,
+          "local_hit": [
+            -43.90864944458008,
+            -0.4905933439731598,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_9",
+      "fraction": 0.5,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000007748603821,
+          "local_hit": [
+            -43.90864944458008,
+            -0.4905933439731598,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_9",
+      "fraction": 0.5,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000007748603821,
+          "local_hit": [
+            -43.90864944458008,
+            -0.4905933439731598,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_9",
+      "fraction": 0.5,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999693036079407,
+          "local_hit": [
+            -43.90864562988281,
+            -0.49059465527534485,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_9",
+      "fraction": 0.75,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000007748603821,
+          "local_hit": [
+            -43.821327209472656,
+            -0.24847188591957092,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_9",
+      "fraction": 0.75,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000007748603821,
+          "local_hit": [
+            -43.821327209472656,
+            -0.24847188591957092,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_9",
+      "fraction": 0.75,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000045299530029,
+          "local_hit": [
+            -43.82133102416992,
+            -0.24847061932086945,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_9",
+      "fraction": 0.75,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000007748603821,
+          "local_hit": [
+            -43.821327209472656,
+            -0.24847188591957092,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_9",
+      "fraction": 0.75,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000007748603821,
+          "local_hit": [
+            -43.821327209472656,
+            -0.24847188591957092,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_9",
+      "fraction": 0.92,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000007748603821,
+          "local_hit": [
+            -43.76194763183594,
+            -0.08382931351661682,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_9",
+      "fraction": 0.92,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000007748603821,
+          "local_hit": [
+            -43.76194763183594,
+            -0.08382931351661682,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_9",
+      "fraction": 0.92,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000007748603821,
+          "local_hit": [
+            -43.76194763183594,
+            -0.08382931351661682,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_9",
+      "fraction": 0.92,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000007748603821,
+          "local_hit": [
+            -43.76194763183594,
+            -0.08382931351661682,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_9",
+      "fraction": 0.92,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000007748603821,
+          "local_hit": [
+            -43.76194763183594,
+            -0.08382931351661682,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_11",
+      "fraction": 0.08,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999993145465851,
+          "local_hit": [
+            -42.07951354980469,
+            5.964221000671387,
+            70.37300872802734
+          ]
+        },
+        {
+          "object": "PASSARELA | montante interno.001",
+          "distance_m": 0.7443728446960449,
+          "local_hit": [
+            -42.10234069824219,
+            5.720915794372559,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_11",
+      "fraction": 0.08,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999993145465851,
+          "local_hit": [
+            -42.07951354980469,
+            5.964221000671387,
+            70.67301177978516
+          ]
+        },
+        {
+          "object": "PASSARELA | montante interno.001",
+          "distance_m": 0.7443728446960449,
+          "local_hit": [
+            -42.10234069824219,
+            5.720915794372559,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_11",
+      "fraction": 0.08,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999985098838806,
+          "local_hit": [
+            -42.07951354980469,
+            5.9642205238342285,
+            71.07300567626953
+          ]
+        },
+        {
+          "object": "PASSARELA | montante interno.001",
+          "distance_m": 0.7443777322769165,
+          "local_hit": [
+            -42.10234069824219,
+            5.720911026000977,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_11",
+      "fraction": 0.08,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.49999985098838806,
+          "local_hit": [
+            -42.07951354980469,
+            5.9642205238342285,
+            71.92301177978516
+          ]
+        },
+        {
+          "object": "PASSARELA | montante interno.001",
+          "distance_m": 0.7443777322769165,
+          "local_hit": [
+            -42.10234069824219,
+            5.720911026000977,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_11",
+      "fraction": 0.08,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000001788139343,
+          "local_hit": [
+            -42.07951354980469,
+            5.96422004699707,
+            73.62300872802734
+          ]
+        },
+        {
+          "object": "PASSARELA | montante interno.001",
+          "distance_m": 0.7443777322769165,
+          "local_hit": [
+            -42.10234069824219,
+            5.720911026000977,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_11",
+      "fraction": 0.25,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999993145465851,
+          "local_hit": [
+            -42.31541061401367,
+            5.986353397369385,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_11",
+      "fraction": 0.25,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999995529651642,
+          "local_hit": [
+            -42.31541061401367,
+            5.986353397369385,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_11",
+      "fraction": 0.25,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999997913837433,
+          "local_hit": [
+            -42.31541061401367,
+            5.986352920532227,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_11",
+      "fraction": 0.25,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999997913837433,
+          "local_hit": [
+            -42.31541061401367,
+            5.986352920532227,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_11",
+      "fraction": 0.25,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5,
+          "local_hit": [
+            -42.31541061401367,
+            5.986352920532227,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_11",
+      "fraction": 0.5,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999995529651642,
+          "local_hit": [
+            -42.66231918334961,
+            6.0189008712768555,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_11",
+      "fraction": 0.5,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999997913837433,
+          "local_hit": [
+            -42.66231918334961,
+            6.018900394439697,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_11",
+      "fraction": 0.5,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999995529651642,
+          "local_hit": [
+            -42.66231918334961,
+            6.0189008712768555,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_11",
+      "fraction": 0.5,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999995529651642,
+          "local_hit": [
+            -42.66231918334961,
+            6.0189008712768555,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_11",
+      "fraction": 0.5,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999997913837433,
+          "local_hit": [
+            -42.66231918334961,
+            6.018900394439697,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_11",
+      "fraction": 0.75,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000002384185791,
+          "local_hit": [
+            -43.00922775268555,
+            6.05144739151001,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_11",
+      "fraction": 0.75,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000002384185791,
+          "local_hit": [
+            -43.00922775268555,
+            6.05144739151001,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_11",
+      "fraction": 0.75,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5,
+          "local_hit": [
+            -43.00922775268555,
+            6.051447868347168,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_11",
+      "fraction": 0.75,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000002384185791,
+          "local_hit": [
+            -43.00922775268555,
+            6.05144739151001,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_11",
+      "fraction": 0.75,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000002384185791,
+          "local_hit": [
+            -43.00922775268555,
+            6.05144739151001,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_11",
+      "fraction": 0.92,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000002384185791,
+          "local_hit": [
+            -43.24512481689453,
+            6.073579788208008,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_11",
+      "fraction": 0.92,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000002384185791,
+          "local_hit": [
+            -43.24512481689453,
+            6.073579788208008,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_11",
+      "fraction": 0.92,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000002384185791,
+          "local_hit": [
+            -43.24512481689453,
+            6.073579788208008,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_11",
+      "fraction": 0.92,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000002384185791,
+          "local_hit": [
+            -43.24512481689453,
+            6.073579788208008,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_11",
+      "fraction": 0.92,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000002384185791,
+          "local_hit": [
+            -43.24512481689453,
+            6.073579788208008,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_12",
+      "fraction": 0.08,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000000596046448,
+          "local_hit": [
+            -43.299739837646484,
+            6.260037422180176,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_12",
+      "fraction": 0.08,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000000596046448,
+          "local_hit": [
+            -43.299739837646484,
+            6.260037422180176,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_12",
+      "fraction": 0.08,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000037550926208,
+          "local_hit": [
+            -43.299739837646484,
+            6.26003885269165,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_12",
+      "fraction": 0.08,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000037550926208,
+          "local_hit": [
+            -43.299739837646484,
+            6.26003885269165,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_12",
+      "fraction": 0.08,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000037550926208,
+          "local_hit": [
+            -43.299739837646484,
+            6.26003885269165,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_12",
+      "fraction": 0.25,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000038146972656,
+          "local_hit": [
+            -43.179901123046875,
+            6.634128093719482,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_12",
+      "fraction": 0.25,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000076293945312,
+          "local_hit": [
+            -43.17990493774414,
+            6.634129047393799,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_12",
+      "fraction": 0.25,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000037550926208,
+          "local_hit": [
+            -43.179901123046875,
+            6.634128093719482,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_12",
+      "fraction": 0.25,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000037550926208,
+          "local_hit": [
+            -43.179901123046875,
+            6.634128093719482,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_12",
+      "fraction": 0.25,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000075697898865,
+          "local_hit": [
+            -43.17990493774414,
+            6.634129047393799,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_12",
+      "fraction": 0.5,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999621510505676,
+          "local_hit": [
+            -43.003665924072266,
+            7.184257507324219,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_12",
+      "fraction": 0.5,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000000596046448,
+          "local_hit": [
+            -43.00366973876953,
+            7.184258460998535,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_12",
+      "fraction": 0.5,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999999701976776,
+          "local_hit": [
+            -43.00366973876953,
+            7.184258460998535,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_12",
+      "fraction": 0.5,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999999701976776,
+          "local_hit": [
+            -43.00366973876953,
+            7.184258460998535,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_12",
+      "fraction": 0.5,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000037550926208,
+          "local_hit": [
+            -43.00366973876953,
+            7.18425989151001,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_12",
+      "fraction": 0.75,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000000596046448,
+          "local_hit": [
+            -42.82743835449219,
+            7.7343902587890625,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_12",
+      "fraction": 0.75,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000000596046448,
+          "local_hit": [
+            -42.82743835449219,
+            7.7343902587890625,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_12",
+      "fraction": 0.75,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.499996155500412,
+          "local_hit": [
+            -42.82743453979492,
+            7.734389305114746,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_12",
+      "fraction": 0.75,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999999701976776,
+          "local_hit": [
+            -42.82743835449219,
+            7.7343902587890625,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_12",
+      "fraction": 0.75,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999999701976776,
+          "local_hit": [
+            -42.82743835449219,
+            7.7343902587890625,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_12",
+      "fraction": 0.92,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000000596046448,
+          "local_hit": [
+            -42.70759963989258,
+            8.108479499816895,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_12",
+      "fraction": 0.92,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000000596046448,
+          "local_hit": [
+            -42.70759963989258,
+            8.108479499816895,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_12",
+      "fraction": 0.92,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000037550926208,
+          "local_hit": [
+            -42.70759963989258,
+            8.108480453491211,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_12",
+      "fraction": 0.92,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000037550926208,
+          "local_hit": [
+            -42.70759963989258,
+            8.108480453491211,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_12",
+      "fraction": 0.92,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000037550926208,
+          "local_hit": [
+            -42.70759963989258,
+            8.108480453491211,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_13",
+      "fraction": 0.08,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999919533729553,
+          "local_hit": [
+            -43.19126892089844,
+            8.438464164733887,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_13",
+      "fraction": 0.08,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999919533729553,
+          "local_hit": [
+            -43.19126892089844,
+            8.438464164733887,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_13",
+      "fraction": 0.08,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999997317790985,
+          "local_hit": [
+            -43.19126892089844,
+            8.43846321105957,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_13",
+      "fraction": 0.08,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999997317790985,
+          "local_hit": [
+            -43.19126892089844,
+            8.43846321105957,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_13",
+      "fraction": 0.08,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999997317790985,
+          "local_hit": [
+            -43.19126892089844,
+            8.43846321105957,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_13",
+      "fraction": 0.25,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999919533729553,
+          "local_hit": [
+            -44.33890914916992,
+            8.765589714050293,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_13",
+      "fraction": 0.25,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999871850013733,
+          "local_hit": [
+            -44.33890914916992,
+            8.765589714050293,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_13",
+      "fraction": 0.25,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999987781047821,
+          "local_hit": [
+            -44.33890914916992,
+            8.765589714050293,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_13",
+      "fraction": 0.25,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999987781047821,
+          "local_hit": [
+            -44.33890914916992,
+            8.765589714050293,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_13",
+      "fraction": 0.25,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999987781047821,
+          "local_hit": [
+            -44.33890914916992,
+            8.765589714050293,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_13",
+      "fraction": 0.5,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999919533729553,
+          "local_hit": [
+            -46.026615142822266,
+            9.246657371520996,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_13",
+      "fraction": 0.5,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999871850013733,
+          "local_hit": [
+            -46.026615142822266,
+            9.246657371520996,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_13",
+      "fraction": 0.5,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999997317790985,
+          "local_hit": [
+            -46.026615142822266,
+            9.24665641784668,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_13",
+      "fraction": 0.5,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999997317790985,
+          "local_hit": [
+            -46.026615142822266,
+            9.24665641784668,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_13",
+      "fraction": 0.5,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999997317790985,
+          "local_hit": [
+            -46.026615142822266,
+            9.24665641784668,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_13",
+      "fraction": 0.75,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999967217445374,
+          "local_hit": [
+            -47.71432113647461,
+            9.727724075317383,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_13",
+      "fraction": 0.75,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999967217445374,
+          "local_hit": [
+            -47.71432113647461,
+            9.727724075317383,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_13",
+      "fraction": 0.75,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999997317790985,
+          "local_hit": [
+            -47.71432113647461,
+            9.727724075317383,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_13",
+      "fraction": 0.75,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999997317790985,
+          "local_hit": [
+            -47.71432113647461,
+            9.727724075317383,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_13",
+      "fraction": 0.75,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.4999997317790985,
+          "local_hit": [
+            -47.71432113647461,
+            9.727724075317383,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_13",
+      "fraction": 0.92,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999967217445374,
+          "local_hit": [
+            -48.861961364746094,
+            10.054850578308105,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_13",
+      "fraction": 0.92,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.49999967217445374,
+          "local_hit": [
+            -48.861961364746094,
+            10.054850578308105,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_13",
+      "fraction": 0.92,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000006556510925,
+          "local_hit": [
+            -48.861961364746094,
+            10.054849624633789,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_13",
+      "fraction": 0.92,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000006556510925,
+          "local_hit": [
+            -48.861961364746094,
+            10.054849624633789,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_13",
+      "fraction": 0.92,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000006556510925,
+          "local_hit": [
+            -48.861961364746094,
+            10.054849624633789,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_14",
+      "fraction": 0.08,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000044107437134,
+          "local_hit": [
+            -49.46299362182617,
+            10.046975135803223,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_14",
+      "fraction": 0.08,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000044107437134,
+          "local_hit": [
+            -49.46299362182617,
+            10.046975135803223,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_14",
+      "fraction": 0.08,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000082850456238,
+          "local_hit": [
+            -49.462989807128906,
+            10.04697322845459,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_14",
+      "fraction": 0.08,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000082850456238,
+          "local_hit": [
+            -49.462989807128906,
+            10.04697322845459,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_14",
+      "fraction": 0.08,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000082850456238,
+          "local_hit": [
+            -49.462989807128906,
+            10.04697322845459,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_14",
+      "fraction": 0.25,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000044107437134,
+          "local_hit": [
+            -49.59254455566406,
+            9.70311450958252,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_14",
+      "fraction": 0.25,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000006556510925,
+          "local_hit": [
+            -49.59254837036133,
+            9.703115463256836,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_14",
+      "fraction": 0.25,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000044703483582,
+          "local_hit": [
+            -49.59254455566406,
+            9.70311450958252,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_14",
+      "fraction": 0.25,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000044703483582,
+          "local_hit": [
+            -49.59254455566406,
+            9.70311450958252,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_14",
+      "fraction": 0.25,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000006556510925,
+          "local_hit": [
+            -49.59254837036133,
+            9.703115463256836,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_14",
+      "fraction": 0.5,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000044107437134,
+          "local_hit": [
+            -49.78306579589844,
+            9.19743824005127,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_14",
+      "fraction": 0.5,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.5000006556510925,
+          "local_hit": [
+            -49.7830696105957,
+            9.197439193725586,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_14",
+      "fraction": 0.5,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000044703483582,
+          "local_hit": [
+            -49.78306579589844,
+            9.19743824005127,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_14",
+      "fraction": 0.5,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000044703483582,
+          "local_hit": [
+            -49.78306579589844,
+            9.19743824005127,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_14",
+      "fraction": 0.5,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000006556510925,
+          "local_hit": [
+            -49.7830696105957,
+            9.197439193725586,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_14",
+      "fraction": 0.75,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999968111515045,
+          "local_hit": [
+            -49.973594665527344,
+            8.691763877868652,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_14",
+      "fraction": 0.75,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999968111515045,
+          "local_hit": [
+            -49.973594665527344,
+            8.691763877868652,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_14",
+      "fraction": 0.75,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000044703483582,
+          "local_hit": [
+            -49.97358703613281,
+            8.69176197052002,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_14",
+      "fraction": 0.75,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000006556510925,
+          "local_hit": [
+            -49.97359085083008,
+            8.691762924194336,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_14",
+      "fraction": 0.75,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000006556510925,
+          "local_hit": [
+            -49.97359085083008,
+            8.691762924194336,
+            73.62300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_14",
+      "fraction": 0.92,
+      "height_above_floor": 0.25,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999968111515045,
+          "local_hit": [
+            -50.1031494140625,
+            8.34790325164795,
+            70.37300872802734
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_14",
+      "fraction": 0.92,
+      "height_above_floor": 0.55,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | peitoril estrutural",
+          "distance_m": 0.4999968111515045,
+          "local_hit": [
+            -50.1031494140625,
+            8.34790325164795,
+            70.67301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_14",
+      "fraction": 0.92,
+      "height_above_floor": 0.95,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000006556510925,
+          "local_hit": [
+            -50.103145599365234,
+            8.347902297973633,
+            71.07300567626953
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_14",
+      "fraction": 0.92,
+      "height_above_floor": 1.8,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000006556510925,
+          "local_hit": [
+            -50.103145599365234,
+            8.347902297973633,
+            71.92301177978516
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "NEW_GALLERY_14",
+      "fraction": 0.92,
+      "height_above_floor": 3.5,
+      "hits": [
+        {
+          "object": "B88 | galeria nova | limite envidraçado",
+          "distance_m": 0.5000006556510925,
+          "local_hit": [
+            -50.103145599365234,
+            8.347902297973633,
+            73.62300872802734
+          ]
+        }
+      ]
+    }
+  ],
+  "unclosed": [],
+  "scope": "Limites laterais CAD; ausência de hit é candidato, não bug automaticamente."
+}

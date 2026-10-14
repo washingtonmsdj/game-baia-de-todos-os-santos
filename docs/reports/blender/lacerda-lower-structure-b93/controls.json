@@ -1,0 +1,412 @@
+{
+  "schema": "boas/lacerda-lower-structure-v1",
+  "parent_ssot": "world/geographic-reference.json",
+  "ssot_sha256": "1d9da0962d456cb38ed3df0da797208e499a8465f82e9836c14bb337df2385e7",
+  "drawing_to_architecture": {
+    "origin_pdf": [
+      2932.68,
+      1085.08
+    ],
+    "origin_scene_local": [
+      5.5,
+      0.0
+    ],
+    "measurement_frame": "docs/reports/blender/lacerda-corridor/scene_b78.json",
+    "kind": "DOCUMENT_DERIVED_RELATIVE_ARCHITECTURE",
+    "ssot_registration_accepted": false,
+    "absolute_xy_confidence": "CANDIDATE_EXISTING_UPPER_ACCESS"
+  },
+  "pdf_units_per_m": 37.790954824344766,
+  "source_sha256": {
+    "12": "3a2ab2f97396bb860100e661d303cc640675d68abf3a1cc9c380fe66bbcf079b",
+    "23": "8d8e57f67dc38ab097fce4d9a4c823866fc8db8cd8a0f56f71ff46b7b81efb5b"
+  },
+  "source_ids": [
+    "source:lacerda-issue22-sucop-12",
+    "source:lacerda-issue22-sucop-23"
+  ],
+  "pillars": [
+    {
+      "id": "lower_front_pillar_1",
+      "drawing_id": "sucop-2023-12",
+      "cad_curve_ids": [
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237
+      ],
+      "points_pdf": [
+        [
+          520.32,
+          538.36
+        ],
+        [
+          523.08,
+          528.88
+        ],
+        [
+          523.44,
+          527.56
+        ],
+        [
+          526.8,
+          516.28
+        ],
+        [
+          528.36,
+          511.12
+        ],
+        [
+          545.76,
+          516.28
+        ],
+        [
+          542.4,
+          527.56
+        ],
+        [
+          546.72,
+          528.88
+        ],
+        [
+          543.84,
+          538.36
+        ],
+        [
+          541.92,
+          544.72
+        ]
+      ],
+      "points_local": [
+        [
+          -58.33432255715243,
+          14.466953866108863
+        ],
+        [
+          -58.261289207960054,
+          14.717807543769663
+        ],
+        [
+          -58.25176311893496,
+          14.752736536861674
+        ],
+        [
+          -58.16285295470076,
+          15.05122065964794
+        ],
+        [
+          -58.12157323559201,
+          15.187761269007614
+        ],
+        [
+          -57.66114559937916,
+          15.05122065964794
+        ],
+        [
+          -57.75005576361336,
+          14.752736536861674
+        ],
+        [
+          -57.635742695312246,
+          14.717807543769663
+        ],
+        [
+          -57.711951407512984,
+          14.466953866108863
+        ],
+        [
+          -57.762757215646815,
+          14.298659626665541
+        ]
+      ],
+      "confidence": "PROJECT_VECTOR_DERIVED",
+      "not_proven": [
+        "implantação geográfica absoluta",
+        "execução as-built",
+        "fundação/armadura"
+      ]
+    },
+    {
+      "id": "lower_front_pillar_2",
+      "drawing_id": "sucop-2023-12",
+      "cad_curve_ids": [
+        238,
+        239,
+        240,
+        241
+      ],
+      "points_pdf": [
+        [
+          477.36,
+          683.44
+        ],
+        [
+          487.8,
+          648.28
+        ],
+        [
+          489.72,
+          641.56
+        ],
+        [
+          512.4,
+          648.28
+        ],
+        [
+          501.72,
+          683.44
+        ],
+        [
+          499.8,
+          690.16
+        ]
+      ],
+      "points_local": [
+        [
+          -59.471102514146935,
+          10.627939988996127
+        ],
+        [
+          -59.19484593241923,
+          11.558321350446942
+        ],
+        [
+          -59.1440401242854,
+          11.736141678915356
+        ],
+        [
+          -58.54389651570449,
+          11.558321350446942
+        ],
+        [
+          -58.826503823448945,
+          10.627939988996127
+        ],
+        [
+          -58.877309631582776,
+          10.450119660527715
+        ]
+      ],
+      "confidence": "PROJECT_VECTOR_DERIVED",
+      "not_proven": [
+        "implantação geográfica absoluta",
+        "execução as-built",
+        "fundação/armadura"
+      ]
+    },
+    {
+      "id": "lower_front_pillar_3",
+      "drawing_id": "sucop-2023-12",
+      "cad_curve_ids": [
+        313,
+        346,
+        347,
+        353,
+        354,
+        355
+      ],
+      "points_pdf": [
+        [
+          394.32,
+          964.24
+        ],
+        [
+          404.64,
+          928.96
+        ],
+        [
+          406.68,
+          922.36
+        ],
+        [
+          429.24,
+          928.96
+        ],
+        [
+          418.68,
+          964.24
+        ],
+        [
+          417.72,
+          967.12
+        ],
+        [
+          416.64,
+          970.84
+        ],
+        [
+          404.04,
+          967.12
+        ]
+      ],
+      "points_local": [
+        [
+          -61.6684537159352,
+          3.1975905494230945
+        ],
+        [
+          -61.39537249721586,
+          4.13114727388227
+        ],
+        [
+          -61.34139132607366,
+          4.3057922393423205
+        ],
+        [
+          -60.74442308050112,
+          4.13114727388227
+        ],
+        [
+          -61.02385502523721,
+          3.1975905494230945
+        ],
+        [
+          -61.04925792930413,
+          3.121381837222345
+        ],
+        [
+          -61.07783619637941,
+          3.0229455839630437
+        ],
+        [
+          -61.41124931225768,
+          3.121381837222345
+        ]
+      ],
+      "confidence": "PROJECT_VECTOR_DERIVED",
+      "not_proven": [
+        "implantação geográfica absoluta",
+        "execução as-built",
+        "fundação/armadura"
+      ]
+    },
+    {
+      "id": "lower_front_pillar_4",
+      "drawing_id": "sucop-2023-12",
+      "cad_curve_ids": [
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427
+      ],
+      "points_pdf": [
+        [
+          356.52,
+          1092.64
+        ],
+        [
+          358.56,
+          1085.92
+        ],
+        [
+          362.52,
+          1072.36
+        ],
+        [
+          364.56,
+          1065.4
+        ],
+        [
+          388.08,
+          1072.36
+        ],
+        [
+          383.88,
+          1085.92
+        ],
+        [
+          383.64,
+          1087.0
+        ],
+        [
+          377.4,
+          1085.92
+        ],
+        [
+          375.48,
+          1092.64
+        ],
+        [
+          373.92,
+          1097.8
+        ]
+      ],
+      "points_local": [
+        [
+          -62.668693063570046,
+          -0.2000478695269709
+        ],
+        [
+          -62.61471189242785,
+          -0.022227541058555664
+        ],
+        [
+          -62.50992491315182,
+          0.33658847888664245
+        ],
+        [
+          -62.45594374200962,
+          0.520759533371781
+        ],
+        [
+          -61.833572592370174,
+          0.33658847888664245
+        ],
+        [
+          -61.94471029766292,
+          -0.022227541058555664
+        ],
+        [
+          -61.95106102367966,
+          -0.05080580813383464
+        ],
+        [
+          -62.1161799001146,
+          -0.022227541058555664
+        ],
+        [
+          -62.16698570824845,
+          -0.2000478695269709
+        ],
+        [
+          -62.208265427357176,
+          -0.33658847888664245
+        ]
+      ],
+      "confidence": "PROJECT_VECTOR_DERIVED",
+      "not_proven": [
+        "implantação geográfica absoluta",
+        "execução as-built",
+        "fundação/armadura"
+      ]
+    }
+  ],
+  "levels": {
+    "upper_datum_preserved": 70.12300872802734,
+    "hall_floor_offset_printed": -59.01,
+    "roof_offset_printed": -53.17,
+    "hall_floor_world": 11.113008728027346,
+    "roof_world": 16.953008728027342,
+    "roof_above_hall_floor": 5.839999999999996,
+    "previous_roof_above_floor": 5.76,
+    "architectural_roof_delta": 0.08,
+    "roof_thickness_inherited_candidate": 0.25,
+    "shaft_landing_offset_NOT_USED": -58.93
+  },
+  "evidence": {
+    "floor": "Prancha12: SAGUÃO 265,56m² / -59,01",
+    "roof": "Prancha23: -53,17 COBERTURA CIDADE BAIXA; diferença piso/cobertura 5,84m",
+    "pillars": "Quatro massas pretas na linha frontal da planta12; contornos recuperados da união exata de hatchs PDF",
+    "roof_thickness": "Espessura herdada candidata, sem cota confirmada nesta rodada"
+  },
+  "scope": "Arquitetura relativa; não altera datum do poço, terreno ou GAMEPLAY_PROXY",
+  "production_ready": false,
+  "ssot_registration_accepted": false
+}

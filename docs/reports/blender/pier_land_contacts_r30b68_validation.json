@@ -1,0 +1,174 @@
+{
+  "schema": "boas/pier-land-contacts-b68-validation-v1",
+  "source": {
+    "file": "blender/salvador_lacerda_r30b68_encontros_terrestres_pieres.blend",
+    "revision": "R30B.68",
+    "sha256": "83f68da029f879898aa5f85ccb7f135fdb2ebefd1fcb536df2878d95f411ed5c",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b67_pieres_e_dominio_oceanico.blend",
+    "evidence": "docs/reports/blender/pier_land_contacts_r30b68.json",
+    "notes": "Fecha apenas lacunas terrestres nos dois encontros reais, sem deslocar terreno, costa, píeres ou mar. Desníveis e altimetria continuam pendentes."
+  },
+  "source_reopened": true,
+  "protected_changes": [],
+  "contacts": [
+    {
+      "osm_id": 609043799,
+      "solid_qa": {
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "finite": true,
+        "volume": 7.242911930115298
+      },
+      "visual_collision_identical": true,
+      "coverage_samples": 8000,
+      "terrestrial_missing_before": 1914,
+      "terrestrial_missing_after": 24,
+      "missing_examples": [
+        [
+          -405.3909606933594,
+          -156.38340759277344
+        ],
+        [
+          -405.6872863769531,
+          -156.7382049560547
+        ],
+        [
+          -406.2798767089844,
+          -157.44781494140625
+        ],
+        [
+          -406.2645263671875,
+          -157.46063232421875
+        ],
+        [
+          -406.7539978027344,
+          -158.01548767089844
+        ],
+        [
+          -406.91644287109375,
+          -158.24119567871094
+        ],
+        [
+          -407.03497314453125,
+          -158.38311767578125
+        ],
+        [
+          -407.0196228027344,
+          -158.39593505859375
+        ],
+        [
+          -407.0042724609375,
+          -158.40875244140625
+        ],
+        [
+          -407.0788879394531,
+          -158.46688842773438
+        ],
+        [
+          -407.1688537597656,
+          -158.51222229003906
+        ],
+        [
+          -407.3466491699219,
+          -158.72509765625
+        ],
+        [
+          -407.80535888671875,
+          -159.30560302734375
+        ],
+        [
+          -407.7900085449219,
+          -159.31842041015625
+        ],
+        [
+          -407.774658203125,
+          -159.33123779296875
+        ]
+      ],
+      "max_deck_land_difference_m": 1.477365493774414
+    },
+    {
+      "osm_id": 609043801,
+      "solid_qa": {
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "finite": true,
+        "volume": 13.04465083937086
+      },
+      "visual_collision_identical": true,
+      "coverage_samples": 8000,
+      "terrestrial_missing_before": 1843,
+      "terrestrial_missing_after": 21,
+      "missing_examples": [
+        [
+          -434.85113525390625,
+          -195.16073608398438
+        ],
+        [
+          -434.83575439453125,
+          -195.17352294921875
+        ],
+        [
+          -434.8204040527344,
+          -195.1863250732422
+        ],
+        [
+          -434.91510009765625,
+          -195.20632934570312
+        ],
+        [
+          -434.89971923828125,
+          -195.21913146972656
+        ],
+        [
+          -434.88433837890625,
+          -195.23191833496094
+        ],
+        [
+          -434.8689880371094,
+          -195.24472045898438
+        ],
+        [
+          -434.96368408203125,
+          -195.26470947265625
+        ],
+        [
+          -434.94830322265625,
+          -195.2775115966797
+        ],
+        [
+          -434.93292236328125,
+          -195.29029846191406
+        ],
+        [
+          -434.99688720703125,
+          -195.33587646484375
+        ],
+        [
+          -434.98150634765625,
+          -195.34866333007812
+        ],
+        [
+          -435.04547119140625,
+          -195.39425659179688
+        ],
+        [
+          -435.09405517578125,
+          -195.45263671875
+        ],
+        [
+          -437.7816467285156,
+          -198.6508331298828
+        ]
+      ],
+      "max_deck_land_difference_m": 0.04769134521484375
+    }
+  ],
+  "local_geometry_checks_passed": true,
+  "sampled_gap_coverage_passed": false,
+  "visual_review": "pending_black_capture",
+  "gameplay_approved": false
+}

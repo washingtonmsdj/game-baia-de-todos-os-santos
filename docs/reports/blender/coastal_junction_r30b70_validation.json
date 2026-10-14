@@ -1,0 +1,58 @@
+{
+  "schema": "boas/coastal-junction-b70-validation-v1",
+  "source": {
+    "file": "blender/salvador_lacerda_r30b70_juncao_terreno_cais.blend",
+    "revision": "R30B.70",
+    "sha256": "2838e38a4347cd307d6e25eddf152fd38d7bde40747b4adb7c672a5e75093c64"
+  },
+  "source_reopened": true,
+  "local_geometry_checks_passed": true,
+  "protected_changes": [],
+  "mesh_qa": [
+    {
+      "object": "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+      "vertices": 150480,
+      "polygons": 149188,
+      "degenerate_triangles": 0,
+      "finite": true,
+      "boundary_edges": 2516,
+      "edges_with_more_than_two_faces": 0,
+      "xy_max_change_m": 0,
+      "visual_collision_identical": true
+    },
+    {
+      "object": "B63 | VISUAL | piso contínuo até o cais",
+      "vertices": 1654,
+      "polygons": 2827,
+      "degenerate_triangles": 0,
+      "finite": true,
+      "boundary_edges": 481,
+      "edges_with_more_than_two_faces": 0,
+      "xy_max_change_m": 0,
+      "visual_collision_identical": true
+    }
+  ],
+  "boundary_bindings": 206,
+  "boundary_max_height_difference_m": 0.0,
+  "locked_road_walkable_vertices": 16240,
+  "locked_vertices_max_change_m": 0,
+  "floor": {
+    "triangles": 2827,
+    "grade_over_200percent": 2,
+    "grade_max": 2.594879456055208,
+    "grade_p95": 0.23351618066685687,
+    "vertices_below_nominal_water": 0
+  },
+  "visual_review": "partial_region_review_remaining_diagonal_transition_and_unfinished_roads",
+  "visual_evidence": "artifacts/waterfront/b70-juncao-cais.png",
+  "absolute_altimetry_verified": false,
+  "gameplay_approved": false,
+  "approved": false,
+  "runtime_exported": false,
+  "pending": [
+    "Dois triângulos no encontro norte do piso/cais/núcleo; alturas 7,2557 versus ~9,0563 requerem revisão",
+    "Altimetria absoluta cais/água e fonte Aleph original ausente no caminho registrado",
+    "Inclinações do terreno adjacente e travessia real de personagem/carro não aprovadas",
+    "Acabamento e conexões viárias do restante da região"
+  ]
+}

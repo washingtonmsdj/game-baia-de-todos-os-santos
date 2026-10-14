@@ -1,0 +1,261 @@
+{
+  "geographic_ssot": "world/geographic-reference.json",
+  "rows": [
+    {
+      "osm_id": 395865976,
+      "reference_max_xy_residual": 0.0,
+      "B76_explicit_id_objects": [
+        {
+          "name": "OSM 395865976.001",
+          "type": "CURVE",
+          "collections": [
+            "02 ENTORNO | OSM e patamares"
+          ],
+          "bounds": {
+            "min": [
+              -72.6614761352539,
+              64.05059814453125,
+              10.118000030517578
+            ],
+            "max": [
+              -56.86081314086914,
+              89.5152816772461,
+              12.118000030517578
+            ]
+          },
+          "osm_ids": [
+            395865976
+          ]
+        }
+      ],
+      "current_final_surface_alignment": "NEEDS_REVIEW",
+      "reason": "Vínculo por ID comprovado no inventário B76. Bounding box/curva de referência não comprovam pavimento final B80; exportação volumétrica B80 exclui curvas."
+    },
+    {
+      "osm_id": 46348179,
+      "reference_max_xy_residual": 0.0,
+      "B76_explicit_id_objects": [
+        {
+          "name": "Avenida Lafayete Coutinho.006",
+          "type": "CURVE",
+          "collections": [
+            "02 ENTORNO | OSM e patamares"
+          ],
+          "bounds": {
+            "min": [
+              -220.99693298339844,
+              -72.9760513305664,
+              10.118000030517578
+            ],
+            "max": [
+              -70.6614761352539,
+              89.5152816772461,
+              12.118000030517578
+            ]
+          },
+          "osm_ids": [
+            46348179
+          ]
+        },
+        {
+          "name": "VIAS | travessia OSM 592378620",
+          "type": "MESH",
+          "collections": [
+            "25 VIAS | passeios e travessias OSM",
+            "32.5 GAMEPLAY | PEDESTRIAN CROSSINGS",
+            "33.4 RUNTIME | CROSSINGS"
+          ],
+          "bounds": {
+            "min": [
+              -75.71700286865234,
+              84.57855224609375,
+              7.267661094665527
+            ],
+            "max": [
+              -67.92012786865234,
+              92.67627716064453,
+              7.267691612243652
+            ]
+          },
+          "osm_ids": [
+            46348179,
+            592378620
+          ]
+        }
+      ],
+      "current_final_surface_alignment": "NEEDS_REVIEW",
+      "reason": "Vínculo por ID comprovado no inventário B76. Bounding box/curva de referência não comprovam pavimento final B80; exportação volumétrica B80 exclui curvas."
+    },
+    {
+      "osm_id": 978525930,
+      "reference_max_xy_residual": 0.0,
+      "B76_explicit_id_objects": [
+        {
+          "name": "Praça Visconde de Cayru.003",
+          "type": "CURVE",
+          "collections": [
+            "02 ENTORNO | OSM e patamares"
+          ],
+          "bounds": {
+            "min": [
+              -118.1971664428711,
+              32.709041595458984,
+              10.118000030517578
+            ],
+            "max": [
+              -64.35787200927734,
+              82.94384002685547,
+              12.118000030517578
+            ]
+          },
+          "osm_ids": [
+            978525930
+          ]
+        }
+      ],
+      "current_final_surface_alignment": "NEEDS_REVIEW",
+      "reason": "Vínculo por ID comprovado no inventário B76. Bounding box/curva de referência não comprovam pavimento final B80; exportação volumétrica B80 exclui curvas."
+    },
+    {
+      "osm_id": 1004133497,
+      "reference_max_xy_residual": 0.0,
+      "B76_explicit_id_objects": [
+        {
+          "name": "Rua da Conceição da Praia.005",
+          "type": "CURVE",
+          "collections": [
+            "02 ENTORNO | OSM e patamares"
+          ],
+          "bounds": {
+            "min": [
+              -117.31835174560547,
+              13.293431282043457,
+              10.118000030517578
+            ],
+            "max": [
+              -16.42442512512207,
+              133.8116455078125,
+              12.118000030517578
+            ]
+          },
+          "osm_ids": [
+            1004133497
+          ]
+        },
+        {
+          "name": "VIAS | travessia OSM 3178050253",
+          "type": "MESH",
+          "collections": [
+            "25 VIAS | passeios e travessias OSM",
+            "32.5 GAMEPLAY | PEDESTRIAN CROSSINGS",
+            "33.4 RUNTIME | CROSSINGS"
+          ],
+          "bounds": {
+            "min": [
+              -62.42295455932617,
+              61.48794174194336,
+              7.267645835876465
+            ],
+            "max": [
+              -55.942474365234375,
+              68.20845031738281,
+              7.267706871032715
+            ]
+          },
+          "osm_ids": [
+            1004133497,
+            3178050253
+          ]
+        }
+      ],
+      "current_final_surface_alignment": "NEEDS_REVIEW",
+      "reason": "Vínculo por ID comprovado no inventário B76. Bounding box/curva de referência não comprovam pavimento final B80; exportação volumétrica B80 exclui curvas."
+    },
+    {
+      "osm_id": 312006925,
+      "reference_max_xy_residual": 0.0,
+      "B76_explicit_id_objects": [
+        {
+          "name": "MVP | saída baixa | caminho OSM 312006925",
+          "type": "MESH",
+          "collections": [
+            "19 MVP | terreno DEM e acessos corrigidos",
+            "32.4 GAMEPLAY | WALKABLE",
+            "33.3 RUNTIME | WALKABLE",
+            "37.5 NAV | WALKABLE SOURCES"
+          ],
+          "bounds": {
+            "min": [
+              -60.09701919555664,
+              53.20231246948242,
+              7.411999702453613
+            ],
+            "max": [
+              -47.61077880859375,
+              65.77188873291016,
+              7.411999702453613
+            ]
+          },
+          "osm_ids": [
+            312006925
+          ]
+        },
+        {
+          "name": "OSM 312006925.001",
+          "type": "CURVE",
+          "collections": [
+            "02 ENTORNO | OSM e patamares"
+          ],
+          "bounds": {
+            "min": [
+              -60.325504302978516,
+              53.02075958251953,
+              10.118000030517578
+            ],
+            "max": [
+              -47.39997863769531,
+              66.05059814453125,
+              12.118000030517578
+            ]
+          },
+          "osm_ids": [
+            312006925
+          ]
+        }
+      ],
+      "current_final_surface_alignment": "NEEDS_REVIEW",
+      "reason": "Vínculo por ID comprovado no inventário B76. Bounding box/curva de referência não comprovam pavimento final B80; exportação volumétrica B80 exclui curvas."
+    },
+    {
+      "osm_id": 1423065746,
+      "reference_max_xy_residual": 0.0,
+      "B76_explicit_id_objects": [
+        {
+          "name": "OSM 1423065746.001",
+          "type": "CURVE",
+          "collections": [
+            "02 ENTORNO | OSM e patamares"
+          ],
+          "bounds": {
+            "min": [
+              -91.865234375,
+              87.5152816772461,
+              10.118000030517578
+            ],
+            "max": [
+              -70.6614761352539,
+              116.78563690185547,
+              12.118000030517578
+            ]
+          },
+          "osm_ids": [
+            1423065746
+          ]
+        }
+      ],
+      "current_final_surface_alignment": "NEEDS_REVIEW",
+      "reason": "Vínculo por ID comprovado no inventário B76. Bounding box/curva de referência não comprovam pavimento final B80; exportação volumétrica B80 exclui curvas."
+    }
+  ],
+  "scene_source_revision": "B76; não apresentar como reexportação B80"
+}

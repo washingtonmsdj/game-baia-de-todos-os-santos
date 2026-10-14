@@ -1,0 +1,53 @@
+{
+  "recovery_files_preserved": true,
+  "date": "2026-10-04",
+  "total_bytes": 273171272.0,
+  "official_preserved": [
+    {
+      "bytes": 54683590,
+      "file": "blender/salvador_lacerda_r30b56_pieres_gameplay.blend",
+      "sha256": "456700b06ee738630f27a42e8245097347bf96da5ec2bc1953a66f3223d897fd"
+    },
+    {
+      "bytes": 62960920,
+      "file": "blender/salvador_lacerda_r30b57_visual_hq_gameplay.blend",
+      "sha256": "d78ad217cdb030eab94d0ef36b3fe996f853ad7e6c495176846721f9888cb480"
+    },
+    {
+      "bytes": 104101193,
+      "file": "blender/salvador_lacerda_r30b62_pavimento_costura_limpa.blend",
+      "sha256": "39b40bd1a18f02388be3e156ee8ec164532bc78db32cfd2ac1f24b44290dd17d"
+    },
+    {
+      "bytes": 104617666,
+      "file": "blender/salvador_lacerda_r30b67_pieres_e_dominio_oceanico.blend",
+      "sha256": "e0fcda84e28adaf3161da7458195471511b00c2ef9e70fd42f6edc555188b412"
+    }
+  ],
+  "files": [
+    {
+      "reason": "Autosave antigo de B56/B57/B62, substituído por cadeia salva até B67; fontes oficiais e recoveries manuais preservados",
+      "bytes": 54665113,
+      "path": "%LOCALAPPDATA%/Temp/salvador_lacerda_r30b56_pieres_gameplay_22916_autosave.blend",
+      "sha256": "3d7d07c43ea873f477e974ba90b1268a44a43426444a0181340646388ccc591c"
+    },
+    {
+      "reason": "Autosave antigo de B56/B57/B62, substituído por cadeia salva até B67; fontes oficiais e recoveries manuais preservados",
+      "bytes": 62942295,
+      "path": "%LOCALAPPDATA%/Temp/salvador_lacerda_r30b57_visual_hq_gameplay_22916_autosave.blend",
+      "sha256": "31d6d9b514455d9824bf0b2602a525f68694992f47f5156b7a1e2695959c8e92"
+    },
+    {
+      "reason": "Autosave antigo de B56/B57/B62, substituído por cadeia salva até B67; fontes oficiais e recoveries manuais preservados",
+      "bytes": 104077087,
+      "path": "%LOCALAPPDATA%/Temp/salvador_lacerda_r30b62_pavimento_costura_limpa_22916_autosave.blend",
+      "sha256": "7541ebd307860ad4d97c17c5716c0972b38b17d38e91b91ba733db125861f787"
+    },
+    {
+      "bytes": 51486777,
+      "path": "%LOCALAPPDATA%/Temp/salvador_lacerda_r30b40_fluxos_e_colisao_19576_autosave.blend",
+      "sha256": "dcb15f91513038d907372c76edbdef7b292432e398dd05fd748a1dbd0644f031",
+      "reason": "Autosave de sessão encerrada 19576; fontes oficiais B40/B67 e recoveries manuais preservados"
+    }
+  ]
+}

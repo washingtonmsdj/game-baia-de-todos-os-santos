@@ -1,0 +1,20 @@
+{
+  "schema": "boas/blender-authoring-recovery-v1",
+  "date": "2026-10-07",
+  "user_confirmed_frozen_window": true,
+  "user_authorized_restart": true,
+  "terminated_pid": 11304,
+  "new_pid": 16912,
+  "port": 9876,
+  "requested_source": "blender/salvador_lacerda_r30b85_apoio_encosta_proporcoes.blend",
+  "requested_source_sha256_verified": "c1d5e4b8aad618e0ebcdca77accf700febf49c0b8d4861809d9034c20453a7c8",
+  "simultaneous_second_instance": false,
+  "source_load_confirmed": true,
+  "mcp_adoption_completed": true,
+  "last_connection_result": "SUCCESS",
+  "geometry_application_enabled": false,
+  "b86_saved": true,
+  "stdout": "artifacts/blendmcp-fallback/recovery-20261007T030118.stdout.log",
+  "stderr": "artifacts/blendmcp-fallback/recovery-20261007T030118.stderr.log",
+  "note": "B85 recuperada/adotada antes da aplicação; B86 e B87 salvas/reabertas na única janela PID 16912."
+}

@@ -1,0 +1,145 @@
+{
+  "revision": "R30B.87",
+  "pid": 16912,
+  "reopened": true,
+  "mesh_checks": [
+    {
+      "object": "B77 | COLLISION | NAV | passarela superior",
+      "persisted": true,
+      "degenerate": 0,
+      "nonmanifold_edges": 4
+    },
+    {
+      "object": "B77 | COLLISION | SUPERIOR | piso saguão",
+      "persisted": true,
+      "degenerate": 0,
+      "nonmanifold_edges": 10
+    },
+    {
+      "object": "COLLISION R35 | Laje do saguão superior",
+      "persisted": true,
+      "degenerate": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "LAC R30B03 | Cidade Alta | peitoril lateral 0 SUPERIOR | parede lateral saguão",
+      "persisted": true,
+      "degenerate": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "LAC R30B03 | Cidade Alta | peitoril lateral 0 SUPERIOR | parede lateral saguão.001",
+      "persisted": true,
+      "degenerate": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "LAC R30B03 | Cidade Alta | peitoril lateral 1 SUPERIOR | parede lateral saguão",
+      "persisted": true,
+      "degenerate": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "LAC R30B03 | Cidade Alta | peitoril lateral 1 SUPERIOR | parede lateral saguão.001",
+      "persisted": true,
+      "degenerate": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "LAC R30B03 | Cidade Alta | peitoril lateral 2 SUPERIOR | parede lateral saguão",
+      "persisted": true,
+      "degenerate": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "LAC R30B03 | Cidade Alta | peitoril lateral 2 SUPERIOR | parede lateral saguão.001",
+      "persisted": true,
+      "degenerate": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "NAV | passarela superior",
+      "persisted": true,
+      "degenerate": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "SUPERIOR | parede lateral saguão",
+      "persisted": true,
+      "degenerate": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "SUPERIOR | parede lateral saguão.001",
+      "persisted": true,
+      "degenerate": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "SUPERIOR | piso saguão",
+      "persisted": true,
+      "degenerate": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "B87 | COLLISION | SUPERIOR | parede lateral saguão",
+      "persisted": true,
+      "degenerate": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "B87 | COLLISION | SUPERIOR | parede lateral saguão.001",
+      "persisted": true,
+      "degenerate": 0,
+      "nonmanifold_edges": 0
+    }
+  ],
+  "junction": [
+    {
+      "y": -1.0,
+      "samples": 81,
+      "missing_support": [],
+      "first_block": null,
+      "ccd_checks": 80,
+      "ccd_clear": true,
+      "ccd_evaluations": 80,
+      "maximum_base_delta": 0.0,
+      "status": "LOCAL_CLEAR"
+    },
+    {
+      "y": 0.0,
+      "samples": 81,
+      "missing_support": [],
+      "first_block": null,
+      "ccd_checks": 80,
+      "ccd_clear": true,
+      "ccd_evaluations": 80,
+      "maximum_base_delta": 6.350467430138451e-06,
+      "status": "LOCAL_CLEAR"
+    },
+    {
+      "y": 1.0,
+      "samples": 81,
+      "missing_support": [],
+      "first_block": null,
+      "ccd_checks": 80,
+      "ccd_clear": true,
+      "ccd_evaluations": 80,
+      "maximum_base_delta": 0.0,
+      "status": "LOCAL_CLEAR"
+    }
+  ],
+  "shape": {
+    "radius": 0.3,
+    "height": 1.8,
+    "skin": 0.015,
+    "maximum_step": 0.25
+  },
+  "scope": "Apoio esférico estático e CCD Lipschitz local de 4 m no encontro ponte/saguão; não é controller/poço/percurso inteiro.",
+  "ssot_preserved": true,
+  "parent_preserved": true,
+  "collider_bindings_unique": true,
+  "full_route_approved": false,
+  "engine_verified": false,
+  "production_ready": false
+}

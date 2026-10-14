@@ -1,0 +1,3260 @@
+{
+  "schema": "boas/data-provenance-v1",
+  "policy": "world/provenance-policy.json",
+  "geographic_ssot": "world/geographic-reference.json",
+  "media_catalogs": "world/**/media-manifest.json",
+  "resources": [
+    {
+      "resource_id": "source:terrarium-centro-20261005",
+      "provider": "Mapzen Terrain Tiles / AWS Open Data",
+      "dataset": "Terrarium PNG zoom 14; composição nativa/datum pendentes",
+      "capture_id": "osm-mapzen-20261005T045222Z",
+      "capture_date": "2026-10-05",
+      "bounds": {
+        "south": -12.995,
+        "west": -38.519,
+        "north": -12.966,
+        "east": -38.492
+      },
+      "raw_files": [
+        {
+          "path": "world-reference/centro-lapa-tororo-fontenova/source/osm-mapzen-20261005T045222Z/terrain-14-6438-8787.png",
+          "sha256": "41e2dc477c76802a17f6eb6c17be191129d0744db7e63f06409c7e2ab4a52c76"
+        },
+        {
+          "path": "world-reference/centro-lapa-tororo-fontenova/source/osm-mapzen-20261005T045222Z/terrain-14-6439-8787.png",
+          "sha256": "8893a6588d96de49a761ffee856bd9a831c4f360d6e6feaeabd73b22b4afd88c"
+        },
+        {
+          "path": "world-reference/centro-lapa-tororo-fontenova/source/osm-mapzen-20261005T045222Z/terrain-14-6440-8787.png",
+          "sha256": "fdd80bf30ffe59461f0c78ca251b88147b95074320209819c096c93dd6c7b5a0"
+        },
+        {
+          "path": "world-reference/centro-lapa-tororo-fontenova/source/osm-mapzen-20261005T045222Z/terrain-14-6438-8788.png",
+          "sha256": "25b3b61b7e1450eb17c95147cac35cae5749dccdc05bd48b6aacdcda551b94fd"
+        },
+        {
+          "path": "world-reference/centro-lapa-tororo-fontenova/source/osm-mapzen-20261005T045222Z/terrain-14-6439-8788.png",
+          "sha256": "4fc5b3b48ccff9d84226c0f9829231752480ecbdb13fe30b54bf7f2a9f5212b6"
+        },
+        {
+          "path": "world-reference/centro-lapa-tororo-fontenova/source/osm-mapzen-20261005T045222Z/terrain-14-6440-8788.png",
+          "sha256": "f6a69d9b48a9d10773f6396e3e42ffa667feb281315831a69c01859f522b272e"
+        }
+      ],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "purpose": "Fonte efetiva do terreno greybox B74/B75; não confundir com GeoTIFF candidato",
+      "dependencies": [],
+      "evidence": "docs/reports/world/centro-lapa-tororo-fontenova/source_summary.json",
+      "kind": "survey"
+    },
+    {
+      "resource_id": "source:osm-centro-20261005",
+      "provider": "OpenStreetMap contributors / Map API",
+      "dataset": "OSM XML",
+      "capture_id": "osm-mapzen-20261005T045222Z",
+      "capture_date": "2026-10-05",
+      "bounds": {
+        "south": -12.995,
+        "west": -38.519,
+        "north": -12.966,
+        "east": -38.492
+      },
+      "raw_files": [
+        {
+          "path": "world-reference/centro-lapa-tororo-fontenova/source/osm-mapzen-20261005T045222Z/map.osm",
+          "sha256": "1a9f7f634d83f76fc82582eeacbb9943cfa88b7448ff407f143ccf665f5c7dad"
+        }
+      ],
+      "usage_class": "PRODUCAO_COM_ATRIBUICAO",
+      "attribution": "© OpenStreetMap contributors — https://www.openstreetmap.org/copyright",
+      "purpose": "Geografia de referência, footprints, vias e metadados",
+      "dependencies": [],
+      "evidence": "docs/reports/world/centro-lapa-tororo-fontenova/source_summary.json",
+      "kind": "survey"
+    },
+    {
+      "resource_id": "source:aleph-geotiff-20261005",
+      "provider": "AWS elevation-tiles-prod via Aleph",
+      "dataset": "GeoTIFF Float32; composição nativa/datum ainda desconhecidos",
+      "capture_id": "aleph-geotiff-20261005T150330Z",
+      "capture_date": "2026-10-05",
+      "bounds": {
+        "south": -12.995,
+        "west": -38.519,
+        "north": -12.966,
+        "east": -38.492
+      },
+      "raw_files": [
+        {
+          "path": "world-reference/centro-lapa-tororo-fontenova/source/aleph-geotiff-20261005T150330Z/terrain.tif",
+          "sha256": "5ef0498285f7b255dd0570181447ae3f0e49a1827afaef4c86422bcfcca5e981"
+        }
+      ],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "purpose": "Auditoria vertical, sem aplicação global",
+      "dependencies": [],
+      "evidence": "docs/reports/aleph/centro-lapa-tororo-fontenova/source_summary.json",
+      "kind": "survey"
+    },
+    {
+      "resource_id": "source:legacy-dem-mvp",
+      "provider": "AWS elevation via Aleph histórico, segundo registro existente",
+      "dataset": "DEM histórico do MVP; arquivo original ausente",
+      "capture_id": "aleph-20260924T205631Z-aqqo7pkx",
+      "capture_date": null,
+      "bounds": null,
+      "raw_files": [],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "purpose": "Proveniência herdada do terreno do núcleo; revisão necessária antes de release",
+      "dependencies": [],
+      "evidence": "docs/reports/aleph/mvp-centro-lacerda/source_summary.json",
+      "kind": "survey"
+    },
+    {
+      "resource_id": "source:legacy-lacerda-authoring",
+      "provider": "Bay of All Saints — autoria histórica do núcleo",
+      "dataset": "Cena Blender B76; referências por asset ainda parciais",
+      "capture_date": null,
+      "bounds": null,
+      "raw_files": [],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "purpose": "Identificar legado sem presumir licença final dos assets",
+      "dependencies": [],
+      "evidence": "docs/GEOGRAPHIC_FOUNDATION_B76.md",
+      "kind": "authoring"
+    },
+    {
+      "resource_id": "derived:lacerda-corridor-b77",
+      "provider": "Bay of All Saints — derivação determinística",
+      "dataset": "Colisões e percurso medidos na geometria B76",
+      "capture_date": "2026-10-05",
+      "bounds": null,
+      "raw_files": [],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "purpose": "Primeira vertical slice candidata; não certifica release nem levantamento",
+      "dependencies": [
+        "source:legacy-dem-mvp",
+        "source:legacy-lacerda-authoring"
+      ],
+      "kind": "derived",
+      "derived_objects": [
+        "B77 | COLLISION | INFERIOR | piso do saguão",
+        "B77 | COLLISION | SUPERIOR | piso saguão",
+        "B77 | COLLISION | NAV | passarela superior",
+        "B77 | COLLISION | CALIBRADO | piso superior torre",
+        "B77 | COLLISION | CALIBRADO | piso desembarque baixo",
+        "B77 | COLLISION | FUNCIONAL | soleira inferior",
+        "B77 | COLLISION | INFERIOR R21 | passeio da entrada",
+        "B77 | COLLISION | INFERIOR R21 | rebaixo acessível",
+        "B77 | COLLISION | TÉRREO | laje",
+        "B77 | COLLISION | PRAÇA | OSM 1263035782",
+        "B77 | COLLISION | FUNCIONAL | 3 soleira superior",
+        "B77 | COLLISION | FUNCIONAL | 3 soleira inferior",
+        "B77 | COLLISION | TORRE | cornija galeria",
+        "B77 | COLLISION | FUNCIONAL | 3 piso",
+        "B77 | REFERENCE | seção vertical cabine 3",
+        "B77 | NAV QA | superior",
+        "B77 | NAV QA | inferior",
+        "B77 | QA | personagem",
+        "B77 | COLLISION | ESTAÇÃO INFERIOR | plataforma",
+        "FUNCIONAL | 3 batente -1 -1",
+        "FUNCIONAL | 3 batente -1 1",
+        "FUNCIONAL | 3 batente 1 -1",
+        "FUNCIONAL | 3 batente 1 1",
+        "FUNCIONAL | 3 botoeira",
+        "FUNCIONAL | 3 botão",
+        "FUNCIONAL | 3 comando interno 1.23",
+        "FUNCIONAL | 3 comando interno 1.49",
+        "FUNCIONAL | 3 corrimão -1",
+        "FUNCIONAL | 3 corrimão 1",
+        "FUNCIONAL | 3 corrimão posterior",
+        "FUNCIONAL | 3 iluminação",
+        "FUNCIONAL | 3 interfone",
+        "FUNCIONAL | 3 janela fumê -1",
+        "FUNCIONAL | 3 janela fumê 1",
+        "FUNCIONAL | 3 lateral inferior -1",
+        "FUNCIONAL | 3 lateral inferior 1",
+        "FUNCIONAL | 3 lateral superior -1",
+        "FUNCIONAL | 3 lateral superior 1",
+        "FUNCIONAL | 3 luminária de serviço",
+        "FUNCIONAL | 3 montante janela -1 -1",
+        "FUNCIONAL | 3 montante janela -1 1",
+        "FUNCIONAL | 3 montante janela 1 -1",
+        "FUNCIONAL | 3 montante janela 1 1",
+        "FUNCIONAL | 3 painel de destinos",
+        "FUNCIONAL | 3 peitoril janela -1",
+        "FUNCIONAL | 3 peitoril janela 1",
+        "FUNCIONAL | 3 piso",
+        "FUNCIONAL | 3 porta cabine -1 -1",
+        "FUNCIONAL | 3 porta cabine -1 1",
+        "FUNCIONAL | 3 porta cabine 1 -1",
+        "FUNCIONAL | 3 porta cabine 1 1",
+        "FUNCIONAL | 3 porta estação lower -1",
+        "FUNCIONAL | 3 porta estação lower 1",
+        "FUNCIONAL | 3 porta estação upper -1",
+        "FUNCIONAL | 3 porta estação upper 1",
+        "FUNCIONAL | 3 teto",
+        "FUNCIONAL | 3 verga -1",
+        "FUNCIONAL | 3 verga 1",
+        "LAC R30B07 | galeria | consolo inclinado"
+      ],
+      "evidence": "docs/reports/blender/lacerda-corridor/",
+      "source_scene": {
+        "file": "blender/salvador_lacerda_r30b76_fundacao_geografica.blend",
+        "revision": "R30B.76",
+        "status": "geographic_foundation_candidate",
+        "parent_file": "blender/salvador_lacerda_r30b75_passeios_larguras_osm.blend",
+        "sha256": "8312775096a6f0fd0de5114885ffe2403ad9e367f38a8b40556433ad2dd79a60",
+        "evidence": "docs/reports/blender/geographic-foundation/application_b76.json",
+        "source_reopened": true,
+        "production_ready": false,
+        "notes": "Contrato geográfico único e Campo da Pólvora real; geometrias anteriores preservadas. Datum e topografia ainda candidatos; autoria/produção mantidas.",
+        "validation_evidence": "docs/reports/blender/geographic-foundation/validation_b76.json"
+      },
+      "derived_route_bounds": {
+        "coordinate_reference": "world/geographic-reference.json",
+        "minimum": [
+          -127.0,
+          -3.5999999999999996,
+          7.255668640136719
+        ],
+        "maximum": [
+          14.600000000000009,
+          154.4,
+          70.125
+        ]
+      }
+    },
+    {
+      "resource_id": "source:aleph-dev-20261005T160157Z-lacerda-cairu",
+      "provider": "Google via Aleph pinado",
+      "dataset": "satellite",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "capture_id": "aleph-dev-20261005T160157Z-lacerda-cairu",
+      "capture_date": "2026-10-05T16:01:58.181702+00:00",
+      "bounds": [
+        -12.974883244902822,
+        -38.514912128448486,
+        -12.972719068355985,
+        -38.512691259384155
+      ],
+      "coordinates": {
+        "lat": -12.9738,
+        "lon": -38.5138
+      },
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/aleph-dev/aleph-dev-20261005T160157Z-lacerda-cairu/aleph-20261005T160158Z-3s2gmuwo/satellite.png",
+          "sha256": "b1049a1f2fbb445f3cac88bef5cb50b32caf73d8dba830804b39cfa697b08365"
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/aleph-dev/aleph-dev-20261005T160157Z-lacerda-cairu/aleph-20261005T160158Z-3s2gmuwo/satellite.tif",
+          "sha256": "f8a2fceffcfdff80a20e8ff76ee30eb695daa01c15e08d330279018d3008b18d"
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/aleph-dev/aleph-dev-20261005T160157Z-lacerda-cairu/aleph-20261005T160158Z-3s2gmuwo/satellite/patches/satellite_z18_r0001_c0001_x103026_y140600.jpg",
+          "sha256": "2b3dab9743b4afa26c58298eaa2449e67660015e12100ff8150175c25cde2fdf"
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/aleph-dev/aleph-dev-20261005T160157Z-lacerda-cairu/aleph-20261005T160158Z-3s2gmuwo/satellite/patches/satellite_z18_r0001_c0002_x103027_y140600.jpg",
+          "sha256": "96ce2f9eb3cfe48ffafb399715a504a25ddca328c3e0ee91843fbe28f00a1b95"
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/aleph-dev/aleph-dev-20261005T160157Z-lacerda-cairu/aleph-20261005T160158Z-3s2gmuwo/satellite/patches/satellite_z18_r0002_c0001_x103026_y140601.jpg",
+          "sha256": "e381e88c926d3b6c0cccc0f48539af5317c7753ab4095925f9c5e3baf6740b78"
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/aleph-dev/aleph-dev-20261005T160157Z-lacerda-cairu/aleph-20261005T160158Z-3s2gmuwo/satellite/patches/satellite_z18_r0002_c0002_x103027_y140601.jpg",
+          "sha256": "891c8729a8fec41e6731ae7a32798e52160b42942c72bf41bab5630c0082d380"
+        }
+      ],
+      "dependencies": [],
+      "purpose": "Conferir acessos, alturas relativas e obstáculos do corredor; sem textura final ou reconstrução automática",
+      "kind": "raw_reference",
+      "evidence": "docs/reports/aleph/mvp-centro-lacerda/development/aleph-dev-20261005T160157Z-lacerda-cairu.json",
+      "derived_objects": []
+    },
+    {
+      "resource_id": "source:aleph-dev-20261005T160403Z-lacerda-alto",
+      "provider": "Google via Aleph pinado",
+      "dataset": "streetview",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "capture_id": "aleph-dev-20261005T160403Z-lacerda-alto",
+      "capture_date": "2026-10-05T16:04:04.142434+00:00",
+      "bounds": null,
+      "coordinates": {
+        "lat": -12.97462,
+        "lon": -38.51298
+      },
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/aleph-dev/aleph-dev-20261005T160403Z-lacerda-alto/aleph-streetview-h5n4dzxy/001.jpg",
+          "sha256": "031e644eea0abb4a686f382c9fcbc834f1db271d583b0d601b69b775209006c8"
+        }
+      ],
+      "dependencies": [],
+      "purpose": "Conferir acessos, alturas relativas e obstáculos do corredor; sem textura final ou reconstrução automática",
+      "kind": "raw_reference",
+      "evidence": "docs/reports/aleph/mvp-centro-lacerda/development/aleph-dev-20261005T160403Z-lacerda-alto.json",
+      "derived_objects": []
+    },
+    {
+      "resource_id": "source:aleph-dev-20261005T161025Z-lacerda-baixo",
+      "provider": "Google via Aleph pinado",
+      "dataset": "streetview",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "capture_id": "aleph-dev-20261005T161025Z-lacerda-baixo",
+      "capture_date": "2026-10-05T16:10:25.095019+00:00",
+      "bounds": null,
+      "coordinates": {
+        "lat": -12.97401,
+        "lon": -38.5133
+      },
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/aleph-dev/aleph-dev-20261005T161025Z-lacerda-baixo/aleph-streetview-w2g6j219/001.jpg",
+          "sha256": "89553410524b46e3c6e2920fe6092fc3053cbf4fd2dff7ff23b20c01275447c2"
+        }
+      ],
+      "dependencies": [],
+      "purpose": "Conferir acessos, alturas relativas e obstáculos do corredor; sem textura final ou reconstrução automática",
+      "kind": "raw_reference",
+      "evidence": "docs/reports/aleph/mvp-centro-lacerda/development/aleph-dev-20261005T161025Z-lacerda-baixo.json",
+      "derived_objects": []
+    },
+    {
+      "resource_id": "source:aleph-dev-20261005T161513Z-lacerda-baixo-acesso",
+      "provider": "Google via Aleph pinado",
+      "dataset": "streetview",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "capture_id": "aleph-dev-20261005T161513Z-lacerda-baixo-acesso",
+      "capture_date": "2026-10-05T16:15:13.909389+00:00",
+      "bounds": null,
+      "coordinates": {
+        "lat": -12.97401,
+        "lon": -38.5133
+      },
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/aleph-dev/aleph-dev-20261005T161513Z-lacerda-baixo-acesso/aleph-streetview-o_t1yg8m/001.jpg",
+          "sha256": "57c217d21ab6b32a2477ec351e86824069ff1d2cc2871638efd6f5f34a9d33b9"
+        }
+      ],
+      "dependencies": [],
+      "purpose": "Conferir acessos, alturas relativas e obstáculos do corredor; sem textura final ou reconstrução automática",
+      "kind": "raw_reference",
+      "evidence": "docs/reports/aleph/mvp-centro-lacerda/development/aleph-dev-20261005T161513Z-lacerda-baixo-acesso.json",
+      "derived_objects": []
+    },
+    {
+      "resource_id": "source:aleph-dev-20261005T161840Z-lacerda-alto-acesso",
+      "provider": "Google via Aleph pinado",
+      "dataset": "streetview",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "capture_id": "aleph-dev-20261005T161840Z-lacerda-alto-acesso",
+      "capture_date": "2026-10-05T16:18:40.357824+00:00",
+      "bounds": null,
+      "coordinates": {
+        "lat": -12.97462,
+        "lon": -38.51298
+      },
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/aleph-dev/aleph-dev-20261005T161840Z-lacerda-alto-acesso/aleph-streetview-jkrb_pdj/001.jpg",
+          "sha256": "df44440a8f85c4e05a0e46ffdd5875e3594029ac0df420cd058b2e7e749e5a43"
+        }
+      ],
+      "dependencies": [],
+      "purpose": "Conferir acessos, alturas relativas e obstáculos do corredor; sem textura final ou reconstrução automática",
+      "kind": "raw_reference",
+      "evidence": "docs/reports/aleph/mvp-centro-lacerda/development/aleph-dev-20261005T161840Z-lacerda-alto-acesso.json",
+      "derived_objects": []
+    },
+    {
+      "resource_id": "derived:lacerda-junction-b78",
+      "provider": "Bay of All Saints — autoria local",
+      "dataset": "Correção determinística de encaixe da B77B",
+      "kind": "derived_geometry",
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "capture_date": null,
+      "raw_files": [],
+      "dependencies": [
+        "derived:lacerda-corridor-b77"
+      ],
+      "source_scene": {
+        "file": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "revision": "R30B.77B",
+        "sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "status": "corridor_slice_candidate",
+        "parent_file": "blender/salvador_lacerda_r30b77_corredor_lacerda_cairu.blend",
+        "production_ready": false,
+        "source_reopened": true,
+        "evidence": "docs/reports/blender/lacerda-corridor/scene_b77.json",
+        "notes": "Corredor candidato com colisões separadas, recorte local do consolo e demonstração do elevador. Datum/física na engine/volume varrido completo pendentes.",
+        "validation_evidence": "docs/reports/blender/lacerda-corridor/validation_b77.json"
+      },
+      "coordinate_reference": "world/geographic-reference.json",
+      "measurement_frame": [
+        [
+          0.7292261719703674,
+          0.6842727661132812,
+          0.0,
+          -1.3869800567626953
+        ],
+        [
+          -0.6842727661132812,
+          0.7292261719703674,
+          0.0,
+          7.1221923828125
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounds": null,
+      "purpose": "Corrigir aberturas laterais indevidas entre saguão e passarela; paredes e colisores separados",
+      "derived_objects": [
+        "SUPERIOR | posterior lateral",
+        "LAC R30B02 | Lambril marmore | SUPERIOR | posterior lateral",
+        "LAC R30B02 | Rodape escuro | SUPERIOR | posterior lateral",
+        "SUPERIOR | posterior lateral.001",
+        "LAC R30B02 | Lambril marmore | SUPERIOR | posterior lateral.001",
+        "LAC R30B02 | Rodape escuro | SUPERIOR | posterior lateral.001",
+        "SUPERIOR | posterior sobre passarela",
+        "B78 | COLLISION | SUPERIOR | posterior lateral",
+        "B78 | COLLISION | SUPERIOR | posterior lateral.001"
+      ],
+      "reference_media_ids": [
+        "elevador-lacerda-front-1e24e0731977",
+        "praca-tome-de-sousa-panorama-6ab5f847ddb9"
+      ],
+      "reference_use": "Contexto de desenvolvimento; fotografias não determinam dimensões nem viram textura",
+      "evidence": "docs/reports/blender/lacerda-corridor/scene_b78.json"
+    },
+    {
+      "resource_id": "source:aleph-dev-20261006T035717Z-b79-acesso-superior",
+      "provider": "Google via Aleph pinado",
+      "dataset": "streetview",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "capture_id": "aleph-dev-20261006T035717Z-b79-acesso-superior",
+      "capture_date": "2026-10-06T03:57:17.246079+00:00",
+      "bounds": null,
+      "coordinates": {
+        "lat": -12.97474722537931,
+        "lon": -38.5125715966727
+      },
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/aleph-dev/aleph-dev-20261006T035717Z-b79-acesso-superior/aleph-streetview-2anztpu5/001.jpg",
+          "sha256": "5d9975c6deeed00c7d8defd0a0da770f2cee19b69f15f6713da38983736025cc"
+        }
+      ],
+      "dependencies": [],
+      "purpose": "Conferir acessos, alturas relativas e obstáculos do corredor; sem textura final ou reconstrução automática",
+      "kind": "raw_reference",
+      "evidence": "docs/reports/aleph/mvp-centro-lacerda/development/aleph-dev-20261006T035717Z-b79-acesso-superior.json",
+      "derived_objects": []
+    },
+    {
+      "resource_id": "source:aleph-dev-20261006T035910Z-b79-cairu-mercado",
+      "provider": "Google via Aleph pinado",
+      "dataset": "streetview",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "capture_id": "aleph-dev-20261006T035910Z-b79-cairu-mercado",
+      "capture_date": "2026-10-06T03:59:10.374374+00:00",
+      "bounds": null,
+      "coordinates": {
+        "lat": -12.97365,
+        "lon": -38.51358
+      },
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/aleph-dev/aleph-dev-20261006T035910Z-b79-cairu-mercado/aleph-streetview-mfootw7h/001.jpg",
+          "sha256": "f860fa02e008bb6dae74c2cb5000c6d5194f315263821c2a3246529cf81e66c5"
+        }
+      ],
+      "dependencies": [],
+      "purpose": "Conferir acessos, alturas relativas e obstáculos do corredor; sem textura final ou reconstrução automática",
+      "kind": "raw_reference",
+      "evidence": "docs/reports/aleph/mvp-centro-lacerda/development/aleph-dev-20261006T035910Z-b79-cairu-mercado.json",
+      "derived_objects": []
+    },
+    {
+      "resource_id": "derived:lacerda-controller-b79",
+      "provider": "Bay of All Saints / derivação de autoria existente",
+      "dataset": "Colisores locais e contrato de navegação da B77B",
+      "capture_id": "R30B.79",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "raw_files": [],
+      "dependencies": [
+        "derived:lacerda-corridor-b77"
+      ],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "purpose": "Pré-validação da slice; não física aprovada",
+      "kind": "derived_geometry",
+      "source_file": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+      "source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+      "derived_objects": [
+        "B79 | COLLISION | CALIBRADO | marquise baixa",
+        "B79 | COLLISION | CALIBRADO | passarela cobertura 28.71 x 6.00m",
+        "B79 | COLLISION | CALIBRADO | passarela viga lateral",
+        "B79 | COLLISION | CALIBRADO | passarela viga lateral.001",
+        "B79 | COLLISION | CALIBRADO | montante passarela",
+        "B79 | COLLISION | CALIBRADO | montante passarela.009",
+        "B79 | COLLISION | CALIBRADO | montante passarela.013",
+        "B79 | COLLISION | CALIBRADO | montante passarela.015",
+        "B79 | COLLISION | TÉRREO | fundo das bancas",
+        "B79 | COLLISION | CASCA | parede lateral",
+        "B79 | COLLISION | CASCA | parede lateral.001",
+        "B79 | COLLISION | CASCA | fachada poço",
+        "B79 | COLLISION | CASCA | fachada poço.002",
+        "B79 | COLLISION | TORRE | nervura vertical",
+        "B79 | COLLISION | TORRE | nervura vertical.001",
+        "B79 | COLLISION | TORRE | nervura vertical.002",
+        "B79 | COLLISION | TORRE | nervura vertical.005",
+        "B79 | COLLISION | TORRE | nervura vertical.006",
+        "B79 | COLLISION | TORRE | nervura vertical.007",
+        "B79 | COLLISION | ESTAÇÃO INFERIOR | cobertura",
+        "B79 | COLLISION | ESTAÇÃO SUPERIOR | plataforma",
+        "B79 | COLLISION | SUPERIOR | guarda-corpo acesso passarela",
+        "B79 | COLLISION | SUPERIOR | guarda-corpo acesso passarela.001",
+        "B79 | COLLISION | PASSARELA | montante interno",
+        "B79 | COLLISION | PASSARELA | montante interno.004",
+        "B79 | COLLISION | PASSARELA | montante interno.009",
+        "B79 | COLLISION | PASSARELA | montante interno.013",
+        "B79 | COLLISION | PASSARELA | montante interno.015",
+        "B79 | COLLISION | PASSARELA | montante interno.017",
+        "B79 | COLLISION | PASSARELA | peitoril interno",
+        "B79 | COLLISION | PASSARELA | peitoril interno.001",
+        "B79 | COLLISION | INFERIOR | cobertura do saguão",
+        "B79 | COLLISION | INFERIOR | parede lateral",
+        "B79 | COLLISION | INFERIOR | parede lateral.001",
+        "B79 | COLLISION | FACHADA SUPERIOR | folha aberta.004",
+        "B79 | COLLISION | INFERIOR | catraca.001",
+        "B79 | COLLISION | INFERIOR | braço catraca.001",
+        "B79 | COLLISION | INFERIOR | catraca.002",
+        "B79 | COLLISION | INFERIOR | braço catraca.002",
+        "B79 | COLLISION | SUPERIOR | catraca.002",
+        "B79 | COLLISION | SUPERIOR | braço catraca.002",
+        "B79 | COLLISION | SUPERIOR | catraca.003",
+        "B79 | COLLISION | SUPERIOR | braço catraca.003",
+        "B79 | COLLISION | SUPERIOR | guia de fila.001",
+        "B79 | COLLISION | PASSARELA EXTERNA | vidro",
+        "B79 | COLLISION | PASSARELA EXTERNA | caixilho",
+        "B79 | COLLISION | PASSARELA EXTERNA | travessa alta",
+        "B79 | COLLISION | PASSARELA EXTERNA | travessa baixa",
+        "B79 | COLLISION | PASSARELA EXTERNA | vidro.001",
+        "B79 | COLLISION | PASSARELA EXTERNA | caixilho.019",
+        "B79 | COLLISION | PASSARELA EXTERNA | caixilho.021",
+        "B79 | COLLISION | PASSARELA EXTERNA | caixilho.023",
+        "B79 | COLLISION | PASSARELA EXTERNA | caixilho.024",
+        "B79 | COLLISION | PASSARELA EXTERNA | travessa baixa.001",
+        "B79 | COLLISION | PASSARELA EXTERNA | viga inferior",
+        "B79 | COLLISION | PASSARELA EXTERNA | viga inferior.003",
+        "B79 | COLLISION | SALA DE MÁQUINAS | piso",
+        "B79 | COLLISION | SALA DE MÁQUINAS | polia 1",
+        "B79 | COLLISION | SALA DE MÁQUINAS | polia 2",
+        "B79 | COLLISION | SALA DE MÁQUINAS | polia 3",
+        "B79 | COLLISION | SALA DE MÁQUINAS | polia 4",
+        "B79 | COLLISION | TORRE | teto galeria",
+        "B79 | COLLISION | GALERIA | vidro lateral",
+        "B79 | COLLISION | GALERIA | montante lateral.003",
+        "B79 | COLLISION | GALERIA | travessa lateral",
+        "B79 | COLLISION | GALERIA | travessa lateral.001",
+        "B79 | COLLISION | GALERIA | travessa lateral.002",
+        "B79 | COLLISION | GALERIA | travessa lateral.003",
+        "B79 | COLLISION | GALERIA | vidro lateral.001",
+        "B79 | COLLISION | GALERIA | travessa lateral.004",
+        "B79 | COLLISION | GALERIA | travessa lateral.005",
+        "B79 | COLLISION | GALERIA | travessa lateral.006",
+        "B79 | COLLISION | GALERIA | travessa lateral.007",
+        "B79 | COLLISION | GALERIA | vidro frontal",
+        "B79 | COLLISION | GALERIA | travessa frontal",
+        "B79 | COLLISION | GALERIA | travessa frontal.001",
+        "B79 | COLLISION | GALERIA | travessa frontal.002",
+        "B79 | COLLISION | GALERIA | travessa frontal.003",
+        "B79 | COLLISION | PASSARELA | cornija longitudinal",
+        "B79 | COLLISION | PASSARELA | cornija longitudinal.001",
+        "B79 | COLLISION | PASSARELA | cornija longitudinal.002",
+        "B79 | COLLISION | PASSARELA | travessa intermediaria",
+        "B79 | COLLISION | PASSARELA | travessa intermediaria.001",
+        "B79 | COLLISION | PASSARELA | travessa intermediaria.002",
+        "B79 | COLLISION | PASSARELA | subdivisao janela.021",
+        "B79 | COLLISION | MERCADO | pilar entre vãos.049",
+        "B79 | COLLISION | MERCADO | pilar entre vãos.050",
+        "B79 | COLLISION | OSM | 1263035779",
+        "B79 | COLLISION | CAIRU | gola árvore.003",
+        "B79 | COLLISION | CAIRU | terra árvore.003",
+        "B79 | COLLISION | CAIRU | gola árvore.004",
+        "B79 | COLLISION | CAIRU | terra árvore.004",
+        "B79 | COLLISION | PASSARELA R10 | rodapé",
+        "B79 | COLLISION | PASSARELA R10 | corrimão",
+        "B79 | COLLISION | PASSARELA R10 | rodapé.001",
+        "B79 | COLLISION | PASSARELA R10 | corrimão.001",
+        "B79 | COLLISION | FUNCIONAL | vestíbulo superior",
+        "B79 | COLLISION | FUNCIONAL | 3 teto",
+        "B79 | COLLISION | FUNCIONAL | 3 iluminação",
+        "B79 | COLLISION | FUNCIONAL | 3 lateral inferior -1",
+        "B79 | COLLISION | FUNCIONAL | 3 lateral superior -1",
+        "B79 | COLLISION | FUNCIONAL | 3 montante janela -1 -1",
+        "B79 | COLLISION | FUNCIONAL | 3 montante janela -1 1",
+        "B79 | COLLISION | FUNCIONAL | 3 janela fumê -1",
+        "B79 | COLLISION | FUNCIONAL | 3 peitoril janela -1",
+        "B79 | COLLISION | FUNCIONAL | 3 corrimão -1",
+        "B79 | COLLISION | FUNCIONAL | 3 batente -1 -1",
+        "B79 | COLLISION | FUNCIONAL | 3 porta cabine -1 -1",
+        "B79 | COLLISION | FUNCIONAL | 3 batente -1 1",
+        "B79 | COLLISION | FUNCIONAL | 3 porta cabine -1 1",
+        "B79 | COLLISION | FUNCIONAL | 3 verga -1",
+        "B79 | COLLISION | FUNCIONAL | 3 lateral inferior 1",
+        "B79 | COLLISION | FUNCIONAL | 3 lateral superior 1",
+        "B79 | COLLISION | FUNCIONAL | 3 montante janela 1 -1",
+        "B79 | COLLISION | FUNCIONAL | 3 montante janela 1 1",
+        "B79 | COLLISION | FUNCIONAL | 3 janela fumê 1",
+        "B79 | COLLISION | FUNCIONAL | 3 peitoril janela 1",
+        "B79 | COLLISION | FUNCIONAL | 3 corrimão 1",
+        "B79 | COLLISION | FUNCIONAL | 3 batente 1 -1",
+        "B79 | COLLISION | FUNCIONAL | 3 porta cabine 1 -1",
+        "B79 | COLLISION | FUNCIONAL | 3 batente 1 1",
+        "B79 | COLLISION | FUNCIONAL | 3 porta cabine 1 1",
+        "B79 | COLLISION | FUNCIONAL | 3 verga 1",
+        "B79 | COLLISION | FUNCIONAL | 3 botoeira",
+        "B79 | COLLISION | FUNCIONAL | 3 botão",
+        "B79 | COLLISION | FUNCIONAL | 3 porta estação upper -1",
+        "B79 | COLLISION | FUNCIONAL | 3 pilar estação upper -1",
+        "B79 | COLLISION | FUNCIONAL | 3 porta estação upper 1",
+        "B79 | COLLISION | FUNCIONAL | 3 pilar estação upper 1",
+        "B79 | COLLISION | FUNCIONAL | 3 verga estação upper",
+        "B79 | COLLISION | FUNCIONAL | 3 chamada upper",
+        "B79 | COLLISION | FUNCIONAL | 3 botão chamada upper",
+        "B79 | COLLISION | FUNCIONAL | 3 porta estação lower -1",
+        "B79 | COLLISION | FUNCIONAL | 3 pilar estação lower -1",
+        "B79 | COLLISION | FUNCIONAL | 3 porta estação lower 1",
+        "B79 | COLLISION | FUNCIONAL | 3 pilar estação lower 1",
+        "B79 | COLLISION | FUNCIONAL | 3 verga estação lower",
+        "B79 | COLLISION | FUNCIONAL | 3 chamada lower",
+        "B79 | COLLISION | FUNCIONAL | 3 botão chamada lower",
+        "B79 | COLLISION | FUNCIONAL | 3 guia -1",
+        "B79 | COLLISION | FUNCIONAL | 3 guia 1",
+        "B79 | COLLISION | FUNCIONAL | 4 piso",
+        "B79 | COLLISION | FUNCIONAL | 4 teto",
+        "B79 | COLLISION | FUNCIONAL | 4 iluminação",
+        "B79 | COLLISION | FUNCIONAL | 4 lateral inferior -1",
+        "B79 | COLLISION | FUNCIONAL | 4 lateral superior -1",
+        "B79 | COLLISION | FUNCIONAL | 4 montante janela -1 -1",
+        "B79 | COLLISION | FUNCIONAL | 4 montante janela -1 1",
+        "B79 | COLLISION | FUNCIONAL | 4 janela fumê -1",
+        "B79 | COLLISION | FUNCIONAL | 4 peitoril janela -1",
+        "B79 | COLLISION | FUNCIONAL | 4 corrimão -1",
+        "B79 | COLLISION | FUNCIONAL | 4 batente -1 -1",
+        "B79 | COLLISION | FUNCIONAL | 4 porta cabine -1 -1",
+        "B79 | COLLISION | FUNCIONAL | 4 verga -1",
+        "B79 | COLLISION | FUNCIONAL | 4 lateral inferior 1",
+        "B79 | COLLISION | FUNCIONAL | 4 lateral superior 1",
+        "B79 | COLLISION | FUNCIONAL | 4 janela fumê 1",
+        "B79 | COLLISION | FUNCIONAL | 4 peitoril janela 1",
+        "B79 | COLLISION | FUNCIONAL | 4 corrimão 1",
+        "B79 | COLLISION | FUNCIONAL | 4 batente 1 -1",
+        "B79 | COLLISION | FUNCIONAL | 4 porta cabine 1 -1",
+        "B79 | COLLISION | FUNCIONAL | 4 verga 1",
+        "B79 | COLLISION | FUNCIONAL | 4 pilar estação upper -1",
+        "B79 | COLLISION | FUNCIONAL | 4 pilar estação lower -1",
+        "B79 | COLLISION | FUNCIONAL | 4 guia -1",
+        "B79 | COLLISION | FUNCIONAL | 3 painel de destinos",
+        "B79 | COLLISION | FUNCIONAL | 3 comando interno 1.49",
+        "B79 | COLLISION | FUNCIONAL | 3 comando interno 1.23",
+        "B79 | COLLISION | FUNCIONAL | 3 interfone",
+        "B79 | COLLISION | FUNCIONAL | 3 luminária de serviço",
+        "B79 | COLLISION | FUNCIONAL | 3 indicador superior",
+        "B79 | COLLISION | FUNCIONAL | 3 indicador inferior",
+        "B79 | COLLISION | FUNCIONAL | 4 luminária de serviço",
+        "B79 | COLLISION | REFINO 2025 | varanda lateral 1 | laje",
+        "B79 | COLLISION | REFINO 2025 | varanda lateral 1 | corrimao",
+        "B79 | COLLISION | REFINO 2025 | varanda lateral 2 | laje",
+        "B79 | COLLISION | REFINO 2025 | varanda lateral 2 | corrimao",
+        "B79 | COLLISION | LAC R30B | Galeria | fundo friso GALERIA | vidro frontal",
+        "B79 | COLLISION | LAC R30B | Galeria | fundo friso GALERIA | vidro lateral",
+        "B79 | COLLISION | LAC R30B | Galeria | fundo friso GALERIA | vidro lateral.001",
+        "B79 | COLLISION | LAC R30B | Galeria | frisos cruzetados",
+        "B79 | COLLISION | LAC R30B | Passarela | chanfros das aberturas",
+        "B79 | COLLISION | LAC R30B02 | Rodape escuro | INFERIOR | parede lateral",
+        "B79 | COLLISION | LAC R30B02 | Rodape escuro | INFERIOR | parede lateral.001",
+        "B79 | COLLISION | LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 -1",
+        "B79 | COLLISION | LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 1",
+        "B79 | COLLISION | LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine 1 -1",
+        "B79 | COLLISION | LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine 1 1",
+        "B79 | COLLISION | LAC R30B02 | Vedacao | FUNCIONAL | 3 porta estação lower -1",
+        "B79 | COLLISION | LAC R30B02 | Vedacao | FUNCIONAL | 3 porta estação lower 1",
+        "B79 | COLLISION | LAC R30B02 | Vedacao | FUNCIONAL | 3 porta estação upper -1",
+        "B79 | COLLISION | LAC R30B02 | Vedacao | FUNCIONAL | 3 porta estação upper 1",
+        "B79 | COLLISION | LAC R30B02 | Friso losangos | PASSARELA EXTERNA | vidro",
+        "B79 | COLLISION | LAC R30B02 | Friso losangos | PASSARELA EXTERNA | vidro.001",
+        "B79 | COLLISION | LAC R30B03 | Cidade Baixa | retorno portal FACHADA INFERIOR | porta.0015.574602298736572",
+        "B79 | COLLISION | LAC R30B06 | fundo verde travessia 3178050253",
+        "B79 | COLLISION | LAC R30B07 | torre | fundos recuados",
+        "B79 | COLLISION | LAC R30B07 | galeria | consolo inclinado",
+        "B79 | COLLISION | LAC R30B07 | continuidade torre acima estacao",
+        "B79 | COLLISION | LAC R30B08 | passarela | intradorso continuo",
+        "B79 | COLLISION | LAC R30B08 | passarela | sombra central do intradorso",
+        "B79 | COLLISION | LAC R30B08 | passarela | viga longitudinal inferior 1.26",
+        "B79 | COLLISION | LAC R30B20 | torre | fundos recuados opostos",
+        "B79 | TRIGGER | poço proibido sem cabine"
+      ],
+      "derived_files": [
+        "blender/salvador_lacerda_r30b79_contrato_colisao_slice.blend"
+      ],
+      "evidence": "docs/LACERDA_CORRIDOR_B79.md",
+      "production_ready": false
+    },
+    {
+      "resource_id": "source:aleph-dev-20261006T052006Z-b80-superior-frente",
+      "provider": "Google via Aleph pinado",
+      "dataset": "streetview",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "capture_id": "aleph-dev-20261006T052006Z-b80-superior-frente",
+      "capture_date": "2026-10-06T05:20:06.977834+00:00",
+      "bounds": null,
+      "coordinates": {
+        "lat": -12.97474722537931,
+        "lon": -38.5125715966727,
+        "pano_id": "ir28L-q1iuxEluDdGVLe5Q",
+        "imagery_date": "2024-12"
+      },
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/aleph-dev/aleph-dev-20261006T052006Z-b80-superior-frente/aleph-streetview-2p44i_7e/001.jpg",
+          "sha256": "46f13e57c2263fa9d408bce5b8bf26c5a3fde858066cb3c78d70c581f7d20b84"
+        }
+      ],
+      "dependencies": [],
+      "purpose": "Conferir acessos, alturas relativas e obstáculos do corredor; sem textura final ou reconstrução automática",
+      "kind": "raw_reference",
+      "evidence": "docs/reports/aleph/mvp-centro-lacerda/development/aleph-dev-20261006T052006Z-b80-superior-frente.json",
+      "derived_objects": [],
+      "requested_coordinate": {
+        "lat": -12.97474722537931,
+        "lon": -38.5125715966727
+      },
+      "returned_coordinates": [
+        {
+          "lat": -12.97474722537931,
+          "lon": -38.5125715966727,
+          "pano_id": "ir28L-q1iuxEluDdGVLe5Q",
+          "imagery_date": "2024-12"
+        }
+      ]
+    },
+    {
+      "resource_id": "source:aleph-dev-20261006T052140Z-b80-superior-retorno",
+      "provider": "Google via Aleph pinado",
+      "dataset": "streetview",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "capture_id": "aleph-dev-20261006T052140Z-b80-superior-retorno",
+      "capture_date": "2026-10-06T05:21:40.467056+00:00",
+      "bounds": null,
+      "coordinates": {
+        "lat": -12.97481841012411,
+        "lon": -38.51263485351883,
+        "pano_id": "4BnnW6RzLuHSwdf4Z_Gj5Q",
+        "imagery_date": "2024-12"
+      },
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/aleph-dev/aleph-dev-20261006T052140Z-b80-superior-retorno/aleph-streetview-frqmgeov/001.jpg",
+          "sha256": "2b84edcd4148dec5d8283213e0d22d5f78af787bf46e7fc36bc5b98163519501"
+        }
+      ],
+      "dependencies": [],
+      "purpose": "Conferir acessos, alturas relativas e obstáculos do corredor; sem textura final ou reconstrução automática",
+      "kind": "raw_reference",
+      "evidence": "docs/reports/aleph/mvp-centro-lacerda/development/aleph-dev-20261006T052140Z-b80-superior-retorno.json",
+      "derived_objects": [],
+      "requested_coordinate": {
+        "lat": -12.97467,
+        "lon": -38.51287
+      },
+      "returned_coordinates": [
+        {
+          "lat": -12.97481841012411,
+          "lon": -38.51263485351883,
+          "pano_id": "4BnnW6RzLuHSwdf4Z_Gj5Q",
+          "imagery_date": "2024-12"
+        }
+      ]
+    },
+    {
+      "resource_id": "source:aleph-dev-20261006T052246Z-b80-superior-portais",
+      "provider": "Google via Aleph pinado",
+      "dataset": "streetview",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "capture_id": "aleph-dev-20261006T052246Z-b80-superior-portais",
+      "capture_date": "2026-10-06T05:22:46.128557+00:00",
+      "bounds": null,
+      "coordinates": {
+        "lat": -12.97474722537931,
+        "lon": -38.5125715966727,
+        "pano_id": "ir28L-q1iuxEluDdGVLe5Q",
+        "imagery_date": "2024-12"
+      },
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/aleph-dev/aleph-dev-20261006T052246Z-b80-superior-portais/aleph-streetview-sao2zm8s/001.jpg",
+          "sha256": "a160d75e3a5a3217ae320e9f085366a19443760dbdb20f34c90e25e1ddb1c8b5"
+        }
+      ],
+      "dependencies": [],
+      "purpose": "Conferir acessos, alturas relativas e obstáculos do corredor; sem textura final ou reconstrução automática",
+      "kind": "raw_reference",
+      "evidence": "docs/reports/aleph/mvp-centro-lacerda/development/aleph-dev-20261006T052246Z-b80-superior-portais.json",
+      "derived_objects": [],
+      "requested_coordinate": {
+        "lat": -12.97474722537931,
+        "lon": -38.5125715966727
+      },
+      "returned_coordinates": [
+        {
+          "lat": -12.97474722537931,
+          "lon": -38.5125715966727,
+          "pano_id": "ir28L-q1iuxEluDdGVLe5Q",
+          "imagery_date": "2024-12"
+        }
+      ]
+    },
+    {
+      "resource_id": "source:aleph-dev-20261006T052412Z-b80-entrada-alta-candidato",
+      "provider": "Google via Aleph pinado",
+      "dataset": "streetview",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "capture_id": "aleph-dev-20261006T052412Z-b80-entrada-alta-candidato",
+      "capture_date": "2026-10-06T05:24:12.880793+00:00",
+      "bounds": null,
+      "coordinates": {
+        "lat": -12.97430258870593,
+        "lon": -38.51316319413632,
+        "pano_id": "U1Xhvf18_Y8hQrf1f7E99w",
+        "imagery_date": "2024-05"
+      },
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/aleph-dev/aleph-dev-20261006T052412Z-b80-entrada-alta-candidato/aleph-streetview-hv3ggfhh/001.jpg",
+          "sha256": "2acc0987cff11fe1f92f51559986e2bddc2ae85da239946d0c218dd95bb19110"
+        }
+      ],
+      "dependencies": [],
+      "purpose": "Conferir acessos, alturas relativas e obstáculos do corredor; sem textura final ou reconstrução automática",
+      "kind": "raw_reference",
+      "evidence": "docs/reports/aleph/mvp-centro-lacerda/development/aleph-dev-20261006T052412Z-b80-entrada-alta-candidato.json",
+      "derived_objects": [],
+      "requested_coordinate": {
+        "lat": -12.97443,
+        "lon": -38.51298
+      },
+      "returned_coordinates": [
+        {
+          "lat": -12.97430258870593,
+          "lon": -38.51316319413632,
+          "pano_id": "U1Xhvf18_Y8hQrf1f7E99w",
+          "imagery_date": "2024-05"
+        }
+      ]
+    },
+    {
+      "resource_id": "derived:upper-ground-b80",
+      "provider": "Bay of All Saints / geometrias visuais da B79",
+      "dataset": "Piso superior/collider e rota com cápsula",
+      "capture_id": "R30B.80",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "raw_files": [],
+      "dependencies": [
+        "derived:lacerda-controller-b79"
+      ],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "purpose": "Corrigir derivação física e ground-following, sem promover arquitetura/engine",
+      "kind": "derived_geometry",
+      "source_file": "blender/salvador_lacerda_r30b79_contrato_colisao_slice.blend",
+      "source_sha256": "777d1748ddcf594cda267590172983743bb75cc11153e1db030f173ef7dde14f",
+      "derived_objects": [
+        "B80 | COLLISION | passarela piso visual",
+        "B80 | NAV | superior ground-following candidato"
+      ],
+      "derived_files": [
+        "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend"
+      ],
+      "evidence": "docs/LACERDA_CORRIDOR_B80.md",
+      "production_ready": false
+    },
+    {
+      "resource_id": "source:upper-historical-document-b80",
+      "provider": "Repositório UFBA",
+      "dataset": "O concreto armado nas edificações de Salvador no período entre guerras (1919-1938); p.183",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "raw_files": [],
+      "source_url": "https://repositorio.ufba.br/handle/ri/24863",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "purpose": "Pesquisa independente do passadiço histórico; texto indexado, PDF integral indisponível, sem medidas novas aplicadas à cena",
+      "kind": "document_reference",
+      "dependencies": [],
+      "derived_objects": [],
+      "evidence": "world/areas/mvp-centro-lacerda/upper-boarding-evidence-b80.json"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-03",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_03_CB CONSTRUTIVA_R00.pdf",
+      "capture_id": "lacerda-issue22-20261006",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-03.pdf",
+          "sha256": "ee4b2aa81f1c40a7976e8ab71c7a4036e3e64eca0af4189524f198c92a80598f"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1oc3psNtZV7-IaoA2i9uJKcNaH0s5RBzi",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "document_date": "2023-07-10",
+      "sheet": 3,
+      "revision": "R00",
+      "scale": {
+        "date": "2023-07-10",
+        "scale_titleblock": "1:75",
+        "inspected": true
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Investigação independente B80; nenhuma geometria derivada nesta rodada",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/research/lacerda-issue22/witness_triage.json",
+      "kind": "document_reference"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-04",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_04_COBERTURA CB CONSTRUTIVA_R00.pdf",
+      "capture_id": "lacerda-issue22-20261006",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-04.pdf",
+          "sha256": "8d22af862061aeb4983e55f1ba09b89d793750db465c791127332ab07e69467e"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=14KmWP1G6QtnTuysU_5DEht8uIFiE7upU",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "document_date": "2023-07-10",
+      "sheet": 4,
+      "revision": "R00",
+      "scale": {
+        "date": "2023-07-10",
+        "scale_titleblock": "1:75",
+        "inspected": true
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Investigação independente B80; nenhuma geometria derivada nesta rodada",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/research/lacerda-issue22/witness_triage.json",
+      "kind": "document_reference"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-08",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_08_CA CONSTRUTIVA_R00.pdf",
+      "capture_id": "lacerda-issue22-20261006",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-08.pdf",
+          "sha256": "3bc24ab4512427bf44f52dd5f3ea8910a84108ec6535c689ed65addccb46f846"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1H73uJvAp_dh9xD02mWPUZmwA_Y_rBkUQ",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "document_date": "2023-07-10",
+      "sheet": 8,
+      "revision": "R00",
+      "scale": {
+        "date": "2023-07-10",
+        "scale_titleblock": "1:75",
+        "inspected": true
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Investigação independente B80; nenhuma geometria derivada nesta rodada",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/research/lacerda-issue22/witness_triage.json",
+      "kind": "document_reference"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-12",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_12_CIDADE BAIXA_R00.pdf",
+      "capture_id": "lacerda-issue22-20261006",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-12.pdf",
+          "sha256": "3a2ab2f97396bb860100e661d303cc640675d68abf3a1cc9c380fe66bbcf079b"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1qXVs_TIPHHpBiejVSc52INouqh4sC398",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "document_date": "2023-07-10",
+      "sheet": 12,
+      "revision": "R00",
+      "scale": {
+        "date": "2023-07-10",
+        "scale_titleblock": "1:75",
+        "inspected": true
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Investigação independente B80; nenhuma geometria derivada nesta rodada",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/research/lacerda-issue22/witness_triage.json",
+      "kind": "document_reference"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-13",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_13_COBERTURA CB_R00.pdf",
+      "capture_id": "lacerda-issue22-20261006",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-13.pdf",
+          "sha256": "7ed331549f3ee613b24865506d8c503f407f54ff658bdb1b2d9cf6230263b90d"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1-4KMiVvlW8EHVV8X32Gh1w6xFWxOrKYh",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "document_date": "2023-07-10",
+      "sheet": 13,
+      "revision": "R00",
+      "scale": {
+        "date": "2023-07-10",
+        "scale_titleblock": "1:75",
+        "inspected": true
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Investigação independente B80; nenhuma geometria derivada nesta rodada",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/research/lacerda-issue22/witness_triage.json",
+      "kind": "document_reference"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-17",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_17_CIDADE ALTA_R00.pdf",
+      "capture_id": "lacerda-issue22-20261006",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-17.pdf",
+          "sha256": "02d02b37b61b9a44ca931a00811e196e104322a6f0f89fc4bfb04f70d7783dd1"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1_-J00RDTZgQZLzLRFTGOyY43vFrjtuyb",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "document_date": "2023-07-10",
+      "sheet": 17,
+      "revision": "R00",
+      "scale": {
+        "date": "2023-07-10",
+        "scale_titleblock": "1:75",
+        "inspected": true
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Investigação independente B80; nenhuma geometria derivada nesta rodada",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/research/lacerda-issue22/witness_triage.json",
+      "kind": "document_reference"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-21",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_21_CORTES CONSTRUTIVOS_R00.pdf",
+      "capture_id": "lacerda-issue22-20261006",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-21.pdf",
+          "sha256": "6bfb999dc13bd3cc952b18b3c9295a1ce4b36c18c076709e7c2671c9ad35f1bf"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1CbK-R2e39ysEEdpDYhL_psLP4nVUCrjy",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "document_date": "2023-06-30",
+      "sheet": 21,
+      "revision": "R00",
+      "scale": {
+        "date": "2023-06-30",
+        "scale_titleblock": "1:100",
+        "inspected": true
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Investigação independente B80; nenhuma geometria derivada nesta rodada",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/research/lacerda-issue22/witness_triage.json",
+      "kind": "document_reference"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-22",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_22_CORTES CONSTRUTIVOS_R00.pdf",
+      "capture_id": "lacerda-issue22-20261006",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-22.pdf",
+          "sha256": "9098b2607b526ab4007402743cbccdf280c39e591aea1c1966645ea77070fd25"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1jsLAQXoMa7OvC3HsLU8jc_NfPJ26ayi6",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "document_date": "2023-06-30",
+      "sheet": 22,
+      "revision": "R00",
+      "scale": {
+        "date": "2023-06-30",
+        "scale_titleblock": "1:50",
+        "scale_cut_labels": "1:100",
+        "scale_conflict": true,
+        "inspected": true
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Investigação independente B80; nenhuma geometria derivada nesta rodada",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/research/lacerda-issue22/witness_triage.json",
+      "kind": "document_reference"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-23",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_23_CORTES_R00.pdf",
+      "capture_id": "lacerda-issue22-20261006",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-23.pdf",
+          "sha256": "8d8e57f67dc38ab097fce4d9a4c823866fc8db8cd8a0f56f71ff46b7b81efb5b"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1QrZsg6GS7EVQyvZahh3bVCPO2KIEHtP_",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "document_date": "2023-06-30",
+      "sheet": 23,
+      "revision": "R00",
+      "scale": {
+        "date": "2023-06-30",
+        "scale_titleblock": "1:100",
+        "inspected": true
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Investigação independente B80; nenhuma geometria derivada nesta rodada",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/research/lacerda-issue22/witness_triage.json",
+      "kind": "document_reference"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-24",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_24_CORTES_R00.pdf",
+      "capture_id": "lacerda-issue22-20261006",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-24.pdf",
+          "sha256": "1b7e6255f5529090de4457c514e685f973709e5da993f08b404dfbfe1cbf1c6a"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1gBMqlT7Q8yPT_NzKdwOSEYiz8IMsj5ig",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "document_date": "2023-06-30",
+      "sheet": 24,
+      "revision": "R00",
+      "scale": {
+        "date": "2023-06-30",
+        "scale_titleblock": "1:50",
+        "scale_cut_labels": "1:100",
+        "scale_conflict": true,
+        "inspected": true
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Investigação independente B80; nenhuma geometria derivada nesta rodada",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/research/lacerda-issue22/witness_triage.json",
+      "kind": "document_reference"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-31",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_31_CB TETO_R00.pdf",
+      "capture_id": "lacerda-issue22-20261006",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-31.pdf",
+          "sha256": "7e24379f5457ebefde2788664ec7e1a700797a0b18debe0754a15582d1da6a12"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1Iay266ZmzgFHrCFAE6MExhfBJGwFy72N",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "document_date": "2023-07-19",
+      "sheet": 31,
+      "revision": "R00",
+      "scale": {
+        "date": "2023-07-19",
+        "scale_titleblock": "1:75",
+        "inspected": true
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Investigação independente B80; nenhuma geometria derivada nesta rodada",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/research/lacerda-issue22/witness_triage.json",
+      "kind": "document_reference"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-34",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_34_CA TETO_R00.pdf",
+      "capture_id": "lacerda-issue22-20261006",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-34.pdf",
+          "sha256": "0c41f8a8b2d2005699f9050fccf889bc60cfb5f5cf4f8618d95c77a041c02afa"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1jKoBVm2_VVctr_boQ3cxyxnxYArQ6B-1",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "document_date": "2023-07-19",
+      "sheet": 34,
+      "revision": "R00",
+      "scale": {
+        "date": "2023-07-19",
+        "scale_titleblock": "1:75",
+        "inspected": true
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Investigação independente B80; nenhuma geometria derivada nesta rodada",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/research/lacerda-issue22/witness_triage.json",
+      "kind": "document_reference"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-edital",
+      "provider": "Prefeitura de Salvador / SUCOP",
+      "author": "Prefeitura de Salvador / SUCOP",
+      "dataset": "sucop-concorrencia-24-2023",
+      "capture_date": "2026-10-06",
+      "document_date": "2023-10",
+      "bounds": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-concorrencia-24-2023.pdf",
+          "sha256": "8116dddb885d394a21668d444dd5da7a2c27f8a60fc33f62efe772098279fef4"
+        }
+      ],
+      "source_url": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "evidence_class": "OFFICIAL_TEXT",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Contexto documental e descoberta de pranchas; não autoriza medida fotográfica",
+      "derived_objects": [],
+      "dependencies": [],
+      "kind": "document_reference",
+      "evidence": "docs/reports/research/lacerda-issue22/acquisition.json"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sbqp-2025",
+      "provider": "Nivaldo Vieira de Andrade Junior",
+      "author": "Nivaldo Vieira de Andrade Junior",
+      "dataset": "sbqp-2025-restoration",
+      "capture_date": "2026-10-06",
+      "document_date": "2025",
+      "bounds": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sbqp-2025-restoration.pdf",
+          "sha256": "2f13acf4f4a30afc672e24c014857cd8644aa5d5041aac8366f1ed26fd986f23"
+        }
+      ],
+      "source_url": "https://eventos.antac.org.br/index.php/sbqp/article/download/8233/6115",
+      "evidence_class": "ACADEMIC_SECONDARY",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Contexto documental e descoberta de pranchas; não autoriza medida fotográfica",
+      "derived_objects": [],
+      "dependencies": [],
+      "kind": "document_reference",
+      "evidence": "docs/reports/research/lacerda-issue22/acquisition.json"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-specifications",
+      "provider": "SUCOP / A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_Caderno de Especificações_R00.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "capture_date": "2026-10-06",
+      "document_date": "2023-08",
+      "revision": "R00",
+      "pages": 11,
+      "bounds": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-specifications.pdf",
+          "sha256": "033806e525de9b2b926e04584ba1f389e7441c41127817080c5f745eceaba6e9"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1dHoszctHSVBQlff027puX9-asZa_xpKH",
+      "evidence_class": "OFFICIAL_TEXT",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Memorial do projeto e especificações; investigação sem derivar objetos",
+      "derived_objects": [],
+      "dependencies": [],
+      "kind": "document_reference",
+      "evidence": "docs/reports/research/lacerda-issue22/memorial_acquisition.json"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-memorial",
+      "provider": "SUCOP / A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_Memorial Justificativo_R00.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "capture_date": "2026-10-06",
+      "document_date": "2023-09",
+      "revision": "R00",
+      "pages": 36,
+      "bounds": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-memorial.pdf",
+          "sha256": "603b33e8af68519d7a7b7129b693b4b3bb78042eb75cd2475f251ae14e3707ee"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1I_IZA-cDUoTqtDpbpC8-rwovxQ3KTy_H",
+      "evidence_class": "OFFICIAL_TEXT",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Memorial do projeto e especificações; investigação sem derivar objetos",
+      "derived_objects": [],
+      "dependencies": [],
+      "kind": "document_reference",
+      "evidence": "docs/reports/research/lacerda-issue22/memorial_acquisition.json"
+    },
+    {
+      "resource_id": "derived:lacerda-registration-b80-20261006",
+      "provider": "Bay of All Saints / diagnóstico read-only B80 + SUCOP 2023",
+      "dataset": "Registro arquitetônico parcial; transformação não aprovada",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [],
+      "derived_objects": [],
+      "dependencies": [
+        "source:lacerda-issue22-sucop-12",
+        "source:lacerda-issue22-sucop-13",
+        "source:lacerda-issue22-sucop-17",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sucop-24"
+      ],
+      "inputs": [
+        {
+          "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+          "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+        },
+        {
+          "file": "world/geographic-reference.json",
+          "sha256": "1d9da0962d456cb38ed3df0da797208e499a8465f82e9836c14bb337df2385e7"
+        }
+      ],
+      "purpose": "Investigar níveis e correspondências das 27 testemunhas, sem produzir geometria ou promover fonte temporária",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "kind": "document_reference",
+      "evidence": "docs/research/LACERDA_B80_CONTROLLED_REGISTRATION_2026-10-06.md",
+      "derived_reports": [
+        "docs/reports/research/lacerda-registration-b80/scene_controls_readonly.json",
+        "docs/reports/research/lacerda-registration-b80/vertical_registration.json",
+        "docs/reports/research/lacerda-registration-b80/xy_control_attempts.json",
+        "docs/reports/research/lacerda-registration-b80/vertical_decomposition.json",
+        "docs/reports/research/lacerda-registration-b80/witness_reclassification.json"
+      ]
+    },
+    {
+      "resource_id": "source:lacerda-semob-locators-20261006",
+      "provider": "Prefeitura de Salvador / SEMOB e portais municipais",
+      "dataset": "Investigação pública de processo 151228/2023, contrato 008/2023 e inexigibilidade 013/2023",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "coordinates": null,
+      "process": "151228/2023",
+      "contract": "SEMOB 008/2023",
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-semob/semob.html",
+          "sha256": "380b7dad7eaacf91f03a2673e93489cf18a24c461459925cbe664ddfc2a854af",
+          "url": "https://mobilidade.salvador.ba.gov.br/",
+          "final_url": "https://mobilidade.salvador.ba.gov.br/",
+          "status_code": 200
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-semob/transparencia.html",
+          "sha256": "fd714776911e1e5474d485946bea02f6f69960317d3fb8533dbc4f464fedc261",
+          "url": "https://transparencia.salvador.ba.gov.br/",
+          "final_url": "https://transparencia.salvador.ba.gov.br/",
+          "status_code": 200
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-semob/transparencia-antigo.html",
+          "sha256": "221c41cf7457e40de79f161afd00082fd4870de9456796aaa8bd813c8639f735",
+          "url": "https://antigotransparencia.salvador.ba.gov.br/",
+          "final_url": "https://antigotransparencia.salvador.ba.gov.br/Modulos/covid19.aspx",
+          "status_code": 200
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-semob/semob-licitacao.html",
+          "sha256": "be3f98c9c6e48a8f83c1742b8bb65a822c8c94da0c2d66bd63d8537ba980f2d3",
+          "url": "https://mobilidade.salvador.ba.gov.br/licitacao",
+          "final_url": "https://mobilidade.salvador.ba.gov.br/licitacao/",
+          "status_code": 200
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-semob/semob-transparencia.html",
+          "sha256": "57734eb46488646fecc08c1c4908024e67a0f453866b7e4acd9d04cf9c39632f",
+          "url": "https://mobilidade.salvador.ba.gov.br/transparencia",
+          "final_url": "https://mobilidade.salvador.ba.gov.br/transparencia/",
+          "status_code": 200
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-semob/transparencia-env.html",
+          "sha256": "649404c6c59528ee6970c026c80d4be40c3d7b405ddeaa5d79f32cf17a8b7e0e",
+          "url": "https://transparencia.salvador.ba.gov.br/env.js",
+          "final_url": "https://transparencia.salvador.ba.gov.br/env.js",
+          "status_code": 200
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-semob/transparencia-app.html",
+          "sha256": "01e84d7029cd4e16a4af506bbc8736012c7bed6b90b6c9647bd17e5180a28c25",
+          "url": "https://transparencia.salvador.ba.gov.br/static/js/main.bfb54192.chunk.js",
+          "final_url": "https://transparencia.salvador.ba.gov.br/static/js/main.bfb54192.chunk.js",
+          "status_code": 200
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-semob/transparencia-antigo-contratos.html",
+          "sha256": "d34eba89482092e2e6ce039339ee9db77865e3522e43c663b09c24ca44bfe5b6",
+          "url": "https://antigotransparencia.salvador.ba.gov.br/Modulos/LicitacaoContratos.aspx",
+          "final_url": "https://antigotransparencia.salvador.ba.gov.br/Modulos/LicitacaoContratos.aspx",
+          "status_code": 200
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-semob/semob-search-process.html",
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "url": "https://mobilidade.salvador.ba.gov.br/wp-json/wp/v2/search?search=151228&per_page=100",
+          "final_url": "https://mobilidade.salvador.ba.gov.br/wp-json/wp/v2/search?search=151228&per_page=100",
+          "status_code": 200
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-semob/semob-search-otis.html",
+          "sha256": "1be8ca372f9d27fd2e7454f3db55692c6f9bcc980c170c878063ae12848bb940",
+          "url": "https://mobilidade.salvador.ba.gov.br/wp-json/wp/v2/search?search=Otis&per_page=100",
+          "final_url": "https://mobilidade.salvador.ba.gov.br/wp-json/wp/v2/search?search=Otis&per_page=100",
+          "status_code": 200
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-semob/semob-search-inexigibilidade.html",
+          "sha256": "67f7054d8c614f26739b34d880f4680809d9d53fb20a1e3edd91665883ee79f1",
+          "url": "https://mobilidade.salvador.ba.gov.br/wp-json/wp/v2/search?search=inexigibilidade&per_page=100",
+          "final_url": "https://mobilidade.salvador.ba.gov.br/wp-json/wp/v2/search?search=inexigibilidade&per_page=100",
+          "status_code": 200
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-semob/semob-search-lacerda.html",
+          "sha256": "d0aae37ba9ba64aad66421cb620649e96f9eb3300fcb03a9da3f0249ff7d0cbf",
+          "url": "https://mobilidade.salvador.ba.gov.br/wp-json/wp/v2/search?search=Lacerda&per_page=100",
+          "final_url": "https://mobilidade.salvador.ba.gov.br/wp-json/wp/v2/search?search=Lacerda&per_page=100",
+          "status_code": 200
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-semob/compras-busca.html",
+          "sha256": "781bdf85c95d753be3fe7e7ca851536e0a8b85f152f33d1459dca35d1473519f",
+          "url": "http://compras.salvador.ba.gov.br/novo/index.php?secao=licitacao_busca",
+          "final_url": "https://compras.salvador.ba.gov.br:443/novo/index.php?secao=licitacao_busca",
+          "status_code": 503
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-semob/semob-aquisicoes.html",
+          "sha256": "f4fa129195f8489fc4551cac3a30cf81bb4335afb89dc3752f746e2256e8f106",
+          "url": "https://mobilidade.salvador.ba.gov.br/aquisicoes/",
+          "final_url": "https://mobilidade.salvador.ba.gov.br/aquisicoes/",
+          "status_code": 200
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-semob/semob-aquisicoes-api.html",
+          "sha256": "2665912a87a2b035278b77bf309b2705c9684992a8bd23a67c20de061f7c3735",
+          "url": "https://mobilidade.salvador.ba.gov.br/wp-json/wp/v2/posts/1169",
+          "final_url": "https://mobilidade.salvador.ba.gov.br/wp-json/wp/v2/posts/1169",
+          "status_code": 200
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-semob/semob-search-contract.html",
+          "sha256": "fef1ebf1eb8df67a3e15f50847bf553bc0d2c1de490945aece2422abd57bac55",
+          "url": "https://mobilidade.salvador.ba.gov.br/wp-json/wp/v2/search?search=008%2F2023&per_page=100",
+          "final_url": "https://mobilidade.salvador.ba.gov.br/wp-json/wp/v2/search?search=008%2F2023&per_page=100",
+          "status_code": 500
+        }
+      ],
+      "derived_objects": [],
+      "purpose": "Localizar anexos da instalação atual; nenhum documento dimensional recuperado",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "dependencies": [],
+      "kind": "document_reference",
+      "evidence": "docs/reports/research/lacerda-b80-installation-xy/source_summary.json"
+    },
+    {
+      "resource_id": "derived:lacerda-b80-installation-xy-20261006",
+      "provider": "Bay of All Saints / diagnóstico read-only",
+      "dataset": "Genealogia de snapshots e controles documentais sem registro aprovado",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "raw_files": [],
+      "inputs": [
+        {
+          "file": "blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a_structure_ref.blend",
+          "sha256": "acf5f5bba00ded0fc912116db02de7fca26c43bb8dbf67a10ac5cb8a3c319a30"
+        },
+        {
+          "file": "blender/salvador_lacerda_r30b01_refinamento.blend",
+          "sha256": "ac9f5b16b18c2e017ca45aef5dbe4bfafc9ec3d1844b9e311b4e7f1fec2dd6e3"
+        },
+        {
+          "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+          "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+        }
+      ],
+      "derived_objects": [],
+      "purpose": "Rastrear transform inferior e passarela; comparar controles 12/13/17/23 sem alterar SSOT/cena",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "dependencies": [
+        "source:lacerda-semob-locators-20261006",
+        "source:lacerda-issue22-sucop-12",
+        "source:lacerda-issue22-sucop-13",
+        "source:lacerda-issue22-sucop-17",
+        "source:lacerda-issue22-sucop-23"
+      ],
+      "kind": "document_reference",
+      "evidence": "docs/research/LACERDA_B80_INSTALLATION_XY_GENEALOGY_2026-10-06.md"
+    },
+    {
+      "resource_id": "derived:cairu-market-validation-20261006",
+      "provider": "Bay of All Saints / dados OSM catalogados e B80 preservada",
+      "dataset": "Triagem externa, vínculo por nodes OSM, ground-following e collision roles candidatos",
+      "capture_id": "B80-external-validation-20261006",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "raw_files": [],
+      "dependencies": [
+        "source:osm-centro-20261005",
+        "derived:upper-ground-b80"
+      ],
+      "usage_class": "DEV_REFERENCE_ONLY",
+      "purpose": "Pré-validação pedonal externa; não habilitar movimento ou exportar para produção",
+      "kind": "document_reference",
+      "source_file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+      "source_sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4",
+      "derived_objects": [],
+      "derived_files": [
+        "world/areas/mvp-centro-lacerda/cairu-market-pedestrian.json",
+        "docs/LACERDA_EXTERNAL_PEDESTRIAN_2026-10-06.md"
+      ],
+      "evidence": "docs/reports/world/cairu-market-pedestrian/closure_and_controller_gate.json",
+      "production_ready": false,
+      "coordinates": "XY derivado de world/geographic-reference.json; Z das faces locais B80, não altitude certificada",
+      "scene_geometry_changed": false
+    },
+    {
+      "resource_id": "derived:cairu-external-b81",
+      "provider": "Bay of All Saints / B80 e OSM catalogado",
+      "dataset": "Collision roles, patch fiel de meios-fios e guia OSM parcial desabilitada",
+      "capture_id": "R30B.81",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "raw_files": [],
+      "dependencies": [
+        "derived:cairu-market-validation-20261006",
+        "source:osm-centro-20261005"
+      ],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "purpose": "Preparação física externa; conexão Mercado, controller e tráfego bloqueados",
+      "kind": "derived_geometry",
+      "source_file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+      "source_sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4",
+      "derived_objects": [
+        "B81 | COLLISION | meios-fios Cairu fonte preservada",
+        "B81 | NAV | Cairu OSM parcial bloqueada"
+      ],
+      "derived_files": [
+        "blender/salvador_lacerda_r30b81_cairu_colisao_e_rota_parcial.blend"
+      ],
+      "evidence": "docs/reports/blender/cairu-market-b81/application.json",
+      "production_ready": false
+    },
+    {
+      "resource_id": "derived:lacerda-lower-connector-audit-20261006",
+      "provider": "Bay of All Saints / B81 e referências catalogadas",
+      "dataset": "Auditoria guia de fila e replay inicial; sem alteração geométrica",
+      "capture_id": "lower-lobby-connector-20261006",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "raw_files": [],
+      "dependencies": [
+        "derived:cairu-external-b81",
+        "source:osm-centro-20261005",
+        "source:lacerda-issue22-sucop-12"
+      ],
+      "media_dependencies": [
+        "elevador-lacerda-front-2d9b4031ff6a",
+        "elevador-lacerda-detail-6e9796b71968"
+      ],
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Caracterizar bloqueio externo; existência real da guia/conector UNRESOLVED",
+      "kind": "development_audit",
+      "source_file": "blender/salvador_lacerda_r30b81_cairu_colisao_e_rota_parcial.blend",
+      "source_sha256": "45583e49dde0a4a03d6b8d4a654135bb11644e786acb681dab7da3d68984e4af",
+      "derived_objects": [],
+      "derived_files": [
+        "docs/LACERDA_LOWER_LOBBY_CONNECTOR_2026-10-06.md",
+        "docs/reports/research/lower-lobby-connector/decision.json",
+        "docs/reports/research/lower-lobby-connector/controller_trace.json"
+      ],
+      "evidence": "docs/reports/research/lower-lobby-connector/decision.json",
+      "production_ready": false
+    },
+    {
+      "resource_id": "source:lacerda-farol-frames-20261006",
+      "provider": "Farol Viagem / YouTube",
+      "dataset": "Screenshots nativos de quadros selecionados; captura do vídeo desconhecida",
+      "capture_id": "lower-guide-2025-review-20261006",
+      "capture_date": null,
+      "acquisition_date": "2026-10-06",
+      "bounds": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-lower-guide-20261006/b896lscqBws-010.png",
+          "sha256": "fdc8414d438b56ef6a7d45940c31f819597a07f8b017ba60d7991e799865817b",
+          "source_url": "https://www.youtube.com/watch?v=b896lscqBws&t=10s",
+          "author": "Farol Viagem (@FarolViagem)",
+          "publication_date": "2025-07-15",
+          "capture_date": null,
+          "license": null
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-lower-guide-20261006/b896lscqBws-020.png",
+          "sha256": "396c59b9d6e0aa8985eb6fb081c0b7e754d04e658b6c11ca0a0db6c8a44e760a",
+          "source_url": "https://www.youtube.com/watch?v=b896lscqBws&t=20s",
+          "author": "Farol Viagem (@FarolViagem)",
+          "publication_date": "2025-07-15",
+          "capture_date": null,
+          "license": null
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-lower-guide-20261006/b896lscqBws-038.png",
+          "sha256": "47e46c50c5ca8bd3a1c18cd1bc305676815219c0b44e35fc74e317f3e2cb6098",
+          "source_url": "https://www.youtube.com/watch?v=b896lscqBws&t=38s",
+          "author": "Farol Viagem (@FarolViagem)",
+          "publication_date": "2025-07-15",
+          "capture_date": null,
+          "license": null
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-lower-guide-20261006/b896lscqBws-060.png",
+          "sha256": "c25cf2c5453afe40ef648a02da6efbc18ac89627f4593c0f6b52ab039eb0b1b4",
+          "source_url": "https://www.youtube.com/watch?v=b896lscqBws&t=60s",
+          "author": "Farol Viagem (@FarolViagem)",
+          "publication_date": "2025-07-15",
+          "capture_date": null,
+          "license": null
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-lower-guide-20261006/b896lscqBws-083.png",
+          "sha256": "85eddb173de7731601b13c3a74934479f59c61ee8488f64fbca330a83e365802",
+          "source_url": "https://www.youtube.com/watch?v=b896lscqBws&t=83s",
+          "author": "Farol Viagem (@FarolViagem)",
+          "publication_date": "2025-07-15",
+          "capture_date": null,
+          "license": null
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-lower-guide-20261006/0VC78CYx0X0-071.png",
+          "sha256": "e193c438b9c13253b8fa74bcccda45fc5d2324d2043194eee2bade1f6bc868d1",
+          "source_url": "https://www.youtube.com/watch?v=0VC78CYx0X0&t=71s",
+          "author": "Farol Viagem (@FarolViagem)",
+          "publication_date": "2025-03-14",
+          "capture_date": null,
+          "license": null
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-lower-guide-20261006/0VC78CYx0X0-142.png",
+          "sha256": "c7261efb66589ee999c30390763ed9eb7c14cedf4b197876ea28850ff5626d5a",
+          "source_url": "https://www.youtube.com/watch?v=0VC78CYx0X0&t=142s",
+          "author": "Farol Viagem (@FarolViagem)",
+          "publication_date": "2025-03-14",
+          "capture_date": null,
+          "license": null
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-lower-guide-20261006/0VC78CYx0X0-214.png",
+          "sha256": "5952ef4d67b0dbab0aba3d69225d4c946a2df5ae536d31bc6f243e9e42ddf678",
+          "source_url": "https://www.youtube.com/watch?v=0VC78CYx0X0&t=214s",
+          "author": "Farol Viagem (@FarolViagem)",
+          "publication_date": "2025-03-14",
+          "capture_date": null,
+          "license": null
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-lower-guide-20261006/0VC78CYx0X0-106.png",
+          "sha256": "fae06df89ae503d74319fbf3916fa0a9bcb6d6763c981367ad944b2b67c6a068",
+          "source_url": "https://www.youtube.com/watch?v=0VC78CYx0X0",
+          "author": "Farol Viagem (@FarolViagem)",
+          "publication_date": "2025-03-14",
+          "capture_date": null,
+          "license": null
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-lower-guide-20261006/0VC78CYx0X0-106-ready.png",
+          "sha256": "455169202e82cd4d92e60a36739221bcf9e8d69197502ca5800997380a1771dd",
+          "source_url": "https://www.youtube.com/watch?v=0VC78CYx0X0",
+          "author": "Farol Viagem (@FarolViagem)",
+          "publication_date": "2025-03-14",
+          "capture_date": null,
+          "license": null
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-lower-guide-20261006/0VC78CYx0X0-126.png",
+          "sha256": "fc3519d2431bba60698efb41d53593e157cd00cab1870b84b131ff7a4764ba44",
+          "source_url": "https://www.youtube.com/watch?v=0VC78CYx0X0",
+          "author": "Farol Viagem (@FarolViagem)",
+          "publication_date": "2025-03-14",
+          "capture_date": null,
+          "license": null
+        },
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-lower-guide-20261006/0VC78CYx0X0-121-ready.png",
+          "sha256": "d750c4d1443bdce4dfeea19a43fe132c6ab2d3fcad438041b48510f285a8fe11",
+          "source_url": "https://www.youtube.com/watch?v=0VC78CYx0X0",
+          "author": "Farol Viagem (@FarolViagem)",
+          "publication_date": "2025-03-14",
+          "capture_date": null,
+          "license": null
+        }
+      ],
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Comparação visual dos gradis e abertura inferior; não distribuir nem usar como textura final",
+      "dependencies": [],
+      "kind": "development_reference",
+      "evidence": "docs/reports/research/lower-guide-2025/visual_evidence.json",
+      "production_ready": false
+    },
+    {
+      "resource_id": "derived:lacerda-lower-guide-2025-review",
+      "provider": "Bay of All Saints / Commons e Farol Viagem",
+      "dataset": "Revisão visual e diagnóstico de slide, sem mudança de cena",
+      "capture_id": "lower-guide-2025-review-20261006",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "raw_files": [],
+      "dependencies": [
+        "derived:lacerda-lower-connector-audit-20261006",
+        "derived:cairu-external-b81",
+        "source:lacerda-farol-frames-20261006",
+        "media:elevador-lacerda-access-9b3a4c8a1601",
+        "media:elevador-lacerda-detail-d940f8160804",
+        "media:elevador-lacerda-detail-ded7c75d401c",
+        "media:elevador-lacerda-detail-814f0e72ca47",
+        "media:elevador-lacerda-detail-8d8389091761"
+      ],
+      "media_dependencies": [
+        "elevador-lacerda-access-9b3a4c8a1601",
+        "elevador-lacerda-detail-d940f8160804",
+        "elevador-lacerda-detail-ded7c75d401c",
+        "elevador-lacerda-detail-814f0e72ca47",
+        "elevador-lacerda-detail-8d8389091761"
+      ],
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Caracterizar guia/conector; STILL_UNRESOLVED, nenhuma B82",
+      "kind": "development_audit",
+      "source_file": "blender/salvador_lacerda_r30b81_cairu_colisao_e_rota_parcial.blend",
+      "source_sha256": "45583e49dde0a4a03d6b8d4a654135bb11644e786acb681dab7da3d68984e4af",
+      "derived_objects": [],
+      "derived_files": [
+        "docs/LACERDA_LOWER_GUIDE_VISUAL_EVIDENCE_2026-10-06.md",
+        "docs/reports/research/lower-guide-2025/visual_evidence.json",
+        "docs/reports/research/lower-guide-2025/decision.json",
+        "docs/reports/research/lower-guide-2025/controller_slide_final.json",
+        "docs/reports/research/lower-guide-2025/solver_validation.json"
+      ],
+      "evidence": "docs/reports/research/lower-guide-2025/decision.json",
+      "production_ready": false
+    },
+    {
+      "resource_id": "derived:lacerda-gameplay-proxy-b82",
+      "provider": "Bay of All Saints / aproximação de gameplay autorizada",
+      "dataset": "B82 camada GAMEPLAY_PROXY; controller Blender neutro de engine",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "raw_files": [
+        {
+          "path": "blender/salvador_lacerda_r30b82_gameplay_proxy.blend",
+          "sha256": "9a8c89520df6b86eaebc9000792c4ad077c5c20a0e77e1aec7ec647a15b3a49a"
+        }
+      ],
+      "derived_objects": [
+        "B82 | upper_walkway",
+        "B82 | upper_lobby",
+        "B82 | tome_forecourt",
+        "B82 | lower_lobby",
+        "B82 | osm_path_0",
+        "B82 | osm_path_1",
+        "B82 | osm_path_2",
+        "B82 | osm_path_3",
+        "B82 | osm_path_4",
+        "B82 | osm_path_5",
+        "B82 | osm_joint_0",
+        "B82 | osm_joint_1",
+        "B82 | osm_joint_2",
+        "B82 | osm_joint_3",
+        "B82 | osm_joint_4",
+        "B82 | osm_joint_5",
+        "B82 | osm_joint_6",
+        "B82 | path_guard_0_-1",
+        "B82 | path_guard_0_1",
+        "B82 | path_guard_1_-1",
+        "B82 | path_guard_1_1",
+        "B82 | path_guard_2_-1",
+        "B82 | path_guard_2_1",
+        "B82 | path_guard_3_-1",
+        "B82 | path_guard_3_1",
+        "B82 | path_guard_4_-1",
+        "B82 | path_guard_4_1",
+        "B82 | path_guard_5_-1",
+        "B82 | path_guard_5_1",
+        "B82 | upper_guard_-1",
+        "B82 | upper_guard_1",
+        "B82 | upper_lobby_side_-1",
+        "B82 | upper_lobby_side_1",
+        "B82 | upper_entry_wall_-9.0",
+        "B82 | upper_entry_wall_5.97055194",
+        "B82 | upper_lobby_back",
+        "B82 | upper_lobby_back2",
+        "B82 | forecourt_guard_-1",
+        "B82 | forecourt_guard_1",
+        "B82 | forecourt_end",
+        "B82 | queue_proxy_1",
+        "B82 | queue_proxy_2",
+        "B82 | ticket_island_proxy",
+        "B82 | lower_lobby_side_-1",
+        "B82 | lower_lobby_side_1",
+        "B82 | lower_exit_wall_-5.5",
+        "B82 | lower_exit_wall_6.76101972117281",
+        "B82 | shaft_side_-1",
+        "B82 | shaft_side_1",
+        "B82 | portal_jamb_upper_-1.18",
+        "B82 | portal_jamb_upper_1.18",
+        "B82 | shaft_end_upper_7.1059996604919435",
+        "B82 | shaft_end_upper_72.61499786376953",
+        "B82 | portal_jamb_lower_-1.18",
+        "B82 | portal_jamb_lower_1.18",
+        "B82 | shaft_end_lower_7.1059996604919435",
+        "B82 | shaft_end_lower_9.905999660491943",
+        "B82 | cabin_floor",
+        "B82 | cabin_wall_-1",
+        "B82 | cabin_wall_1",
+        "B82 | cabin_roof",
+        "B82 | landing_upper_-1",
+        "B82 | cabin_door_upper_-1",
+        "B82 | landing_upper_1",
+        "B82 | cabin_door_upper_1",
+        "B82 | landing_lower_-1",
+        "B82 | cabin_door_lower_-1",
+        "B82 | landing_lower_1",
+        "B82 | cabin_door_lower_1",
+        "B82 | personagem proxy"
+      ],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "release_status": "REPLACE_BEFORE_RELEASE",
+      "status": "GAMEPLAY_PROXY",
+      "accuracy": "APPROXIMATE",
+      "replacement_required": true,
+      "purpose": "Percurso funcional reversível Tomé–elevador–Cairu; não certifica arquitetura nem produção",
+      "dependencies": [
+        "derived:cairu-external-b81",
+        "derived:lacerda-lower-guide-2025-review"
+      ],
+      "evidence": "docs/LACERDA_GAMEPLAY_PROXY_B82_2026-10-06.md",
+      "kind": "gameplay_proxy"
+    },
+    {
+      "resource_id": "derived:territorial-resumption-20261006",
+      "provider": "Bay of All Saints / Aleph e OSM catalogados",
+      "dataset": "Triagem estrutural existente, prioridade Centro–Lapa–Dique–Fonte",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "raw_files": [],
+      "derived_files": [
+        "docs/reports/world/territorial-resumption/priority_audit.json"
+      ],
+      "usage_class": "REFERENCIA_INTERNA",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "purpose": "Retomada da fila existente sem aplicar correções automáticas",
+      "dependencies": [
+        "source:osm-centro-20261005",
+        "source:terrarium-centro-20261005"
+      ],
+      "kind": "audit",
+      "evidence": "docs/reports/world/territorial-resumption/priority_audit.json"
+    },
+    {
+      "resource_id": "derived:centro-structural-triage-b82",
+      "provider": "Bay of All Saints / inventário MCP B82 + OSM/Aleph catalogados",
+      "dataset": "714 alertas históricos B41 reconciliados com SSOT e inventário read-only B82",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "raw_files": [],
+      "derived_files": [
+        "docs/reports/world/centro-structural-triage/triage.json",
+        "docs/reports/world/centro-structural-triage/scene_b82.json",
+        "docs/reports/world/centro-structural-triage/source_footprint_candidates.json",
+        "docs/reports/world/centro-structural-triage/duplicate_candidates.json"
+      ],
+      "usage_class": "REFERENCIA_INTERNA",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "purpose": "Triagem estrutural por causa/subárea, sem alterar geografia ou liberar gameplay",
+      "dependencies": [
+        "source:osm-centro-20261005",
+        "derived:lacerda-gameplay-proxy-b82"
+      ],
+      "kind": "audit",
+      "evidence": "docs/CENTRO_STRUCTURAL_TRIAGE_B82_2026-10-06.md"
+    },
+    {
+      "resource_id": "derived:chile-pedestrian-review-b82",
+      "provider": "Bay of All Saints / sessão Blender B82 + OSM/Aleph e genealogia B38",
+      "dataset": "17 alertas/10 ways; exportação física read-only, diagnóstico de binding e sweeps numéricos candidatos",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "raw_files": [],
+      "derived_files": [
+        "docs/reports/world/chile-pedestrian-b82/helpers.json",
+        "docs/reports/world/chile-pedestrian-b82/way421206045_diagnosis.json",
+        "artifacts/chile-pedestrian-b82/physics.npz",
+        "docs/reports/world/chile-pedestrian-b82/sweeps.json",
+        "docs/reports/world/chile-pedestrian-b82/contact_diagnosis.json",
+        "docs/reports/world/chile-pedestrian-b82/support_math.json",
+        "docs/reports/world/chile-pedestrian-b82/preservation.json"
+      ],
+      "usage_class": "REFERENCIA_INTERNA",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "purpose": "Auditoria do corredor Chile–Tomé sem promoção de física ou alteração de arquitetura",
+      "dependencies": [
+        "derived:centro-structural-triage-b82",
+        "source:osm-centro-20261005"
+      ],
+      "kind": "audit",
+      "evidence": "docs/CHILE_PEDESTRIAN_STRUCTURE_B82_2026-10-06.md"
+    },
+    {
+      "resource_id": "derived:lacerda-current-route-playtest-20261006",
+      "provider": "Bay of All Saints / controller B82 e captura GPU da janela Blender",
+      "dataset": "Teste Tomé–Cairu ida/volta; Mercado não implementado",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "raw_files": [],
+      "derived_files": [
+        "docs/reports/blender/lacerda-current-playtest/numeric.json",
+        "docs/reports/blender/lacerda-current-playtest/live.json",
+        "artifacts/lacerda-live-diagnostic/playtest-spawn.png",
+        "artifacts/lacerda-live-diagnostic/playtest-upper_cabin.png",
+        "artifacts/lacerda-live-diagnostic/playtest-descending.png",
+        "artifacts/lacerda-live-diagnostic/playtest-lower_docked.png",
+        "artifacts/lacerda-live-diagnostic/playtest-cairu.png",
+        "artifacts/lacerda-live-diagnostic/playtest-upper_return.png"
+      ],
+      "usage_class": "REFERENCIA_INTERNA",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "purpose": "QA do protótipo separado, não aprovação de arquitetura/engine",
+      "dependencies": [
+        "derived:lacerda-gameplay-proxy-b82"
+      ],
+      "kind": "audit",
+      "evidence": "docs/LACERDA_CURRENT_ROUTE_PLAYTEST_2026-10-06.md"
+    },
+    {
+      "resource_id": "derived:lacerda-consolidation-b83",
+      "provider": "Bay of All Saints / geometria autoral B78 registrada e B82 preservada",
+      "dataset": "Migração limitada do encontro saguão–passarela; sete malhas e dois colisores derivados",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "raw_files": [],
+      "derived_files": [
+        "blender/salvador_lacerda_r30b83_encontro_superior_consolidado.blend",
+        "docs/reports/blender/lacerda-consolidation-b83/application.json",
+        "docs/reports/blender/lacerda-consolidation-b83/validation.json",
+        "docs/reports/blender/lacerda-consolidation-b83/cabin_sweep_b83.json",
+        "docs/reports/blender/lacerda-consolidation-b83/character_sweep_b83.json",
+        "docs/reports/blender/lacerda-consolidation-b83/ccd_comparison.json"
+      ],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "release_status": "REPLACE_BEFORE_RELEASE",
+      "purpose": "Correção de continuidade entre componentes atuais, dimensões reais não certificadas",
+      "dependencies": [
+        "derived:lacerda-junction-b78",
+        "derived:lacerda-gameplay-proxy-b82"
+      ],
+      "kind": "geometry",
+      "evidence": "docs/LACERDA_CONSOLIDATION_B83_2026-10-06.md"
+    },
+    {
+      "resource_id": "source:lacerda-upper-glazing-photo-20261006",
+      "provider": "Usuário / autoria da fotografia desconhecida",
+      "dataset": "Foto exterior do fechamento envidraçado do Elevador Lacerda",
+      "capture_date": null,
+      "bounds": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/elevador-lacerda/fechamento-envidracado-a75dce21824f.png",
+          "sha256": "a75dce21824f50b16180ecf94aaecda2988494f3a2d13ca7cd97898ac257be2d"
+        }
+      ],
+      "derived_files": [],
+      "usage_class": "REFERENCIA_INTERNA",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "purpose": "Comparação do padrão de vidro/esquadria, sem medição por perspectiva",
+      "dependencies": [],
+      "kind": "reference",
+      "media_id": "elevador-lacerda-detail-a75dce21824f"
+    },
+    {
+      "resource_id": "derived:lacerda-upper-glazing-b84",
+      "provider": "Bay of All Saints / malha autoral e referência enviada",
+      "dataset": "Dois retornos envidraçados com lambris reconciliados",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "raw_files": [],
+      "derived_files": [
+        "blender/salvador_lacerda_r30b84_fechamento_envidracado.blend",
+        "docs/reports/blender/lacerda-glazing-b84/application.json",
+        "docs/reports/blender/lacerda-glazing-b84/validation.json"
+      ],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "release_status": "REPLACE_BEFORE_RELEASE",
+      "purpose": "Restituir faixa envidraçada visível; proporções e subdivisão aproximadas, sem certificado arquitetônico",
+      "dependencies": [
+        "source:lacerda-upper-glazing-photo-20261006",
+        "derived:lacerda-consolidation-b83"
+      ],
+      "kind": "geometry",
+      "evidence": "docs/LACERDA_UPPER_GLAZING_B84_2026-10-06.md"
+    },
+    {
+      "resource_id": "source:lacerda-exterior-proportions-photo-a74f3bf499b0",
+      "provider": "Usuário / autoria da fotografia desconhecida",
+      "dataset": "Vista exterior 1 do conjunto Elevador Lacerda",
+      "capture_date": null,
+      "bounds": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/elevador-lacerda/estrutura-encosta-a74f3bf499b0.png",
+          "sha256": "a74f3bf499b094ac44902bed231855229c7f4feb2af660ca192bb723c73ee1cc"
+        }
+      ],
+      "derived_files": [],
+      "usage_class": "REFERENCIA_INTERNA",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "purpose": "Comparação qualitativa dos volumes e limites permanentes; não textura final ou levantamento físico",
+      "dependencies": [],
+      "kind": "reference",
+      "media_id": "elevador-lacerda-detail-a74f3bf499b0"
+    },
+    {
+      "resource_id": "source:lacerda-exterior-proportions-photo-c1c35ca9d191",
+      "provider": "Usuário / autoria da fotografia desconhecida",
+      "dataset": "Vista exterior 2 do conjunto Elevador Lacerda",
+      "capture_date": null,
+      "bounds": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/elevador-lacerda/estrutura-encosta-c1c35ca9d191.png",
+          "sha256": "c1c35ca9d19118a628587fbb48cde39b13f015844da9dd2f034fb58f30515b92"
+        }
+      ],
+      "derived_files": [],
+      "usage_class": "REFERENCIA_INTERNA",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "purpose": "Comparação qualitativa dos volumes e limites permanentes; não textura final ou levantamento físico",
+      "dependencies": [],
+      "kind": "reference",
+      "media_id": "elevador-lacerda-detail-c1c35ca9d191"
+    },
+    {
+      "resource_id": "derived:lacerda-encosta-support-b85",
+      "provider": "Bay of All Saints / adequação local autoral",
+      "dataset": "Compatibilização lateral do apoio e dependências com corpo superior existente",
+      "capture_date": "2026-10-07",
+      "bounds": null,
+      "raw_files": [],
+      "derived_files": [
+        "blender/salvador_lacerda_r30b85_apoio_encosta_proporcoes.blend",
+        "docs/reports/blender/lacerda-proportions-b85/application.json",
+        "docs/reports/blender/lacerda-proportions-b85/validation.json"
+      ],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "release_status": "REPLACE_BEFORE_RELEASE",
+      "purpose": "Melhorar relação estrutural reconhecível; não certificar medidas nem reposicionar torres para obter o vão histórico",
+      "dependencies": [
+        "source:lacerda-exterior-proportions-photo-a74f3bf499b0",
+        "source:lacerda-exterior-proportions-photo-c1c35ca9d191",
+        "source:lacerda-issue22-sucop-17",
+        "source:lacerda-issue22-sucop-23",
+        "derived:lacerda-upper-glazing-b84"
+      ],
+      "kind": "geometry",
+      "evidence": "docs/LACERDA_EXTERNAL_PROPORTIONS_B85_2026-10-07.md"
+    },
+    {
+      "resource_id": "source:lacerda-exterior-photo-be2a63741943",
+      "provider": "Usuário / autoria desconhecida",
+      "dataset": "Exterior do Elevador Lacerda",
+      "capture_date": null,
+      "bounds": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/elevador-lacerda/conjunto-torres-be2a63741943.png",
+          "sha256": "be2a637419436430952bd6a36cc95c7d7e944f195da8c06e85423d6deaa2ec56"
+        }
+      ],
+      "derived_files": [],
+      "usage_class": "REFERENCIA_INTERNA",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "purpose": "Comparação qualitativa com SUCOP 12/17/23",
+      "dependencies": [],
+      "kind": "reference",
+      "media_id": "elevador-lacerda-detail-be2a63741943"
+    },
+    {
+      "resource_id": "source:lacerda-exterior-photo-a163983e9d46",
+      "provider": "Usuário / autoria desconhecida",
+      "dataset": "Exterior do Elevador Lacerda",
+      "capture_date": null,
+      "bounds": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/elevador-lacerda/conjunto-torres-a163983e9d46.png",
+          "sha256": "a163983e9d4664156a189e4b8ad7daf48b472d3972fc63c9afa34cac9695295c"
+        }
+      ],
+      "derived_files": [],
+      "usage_class": "REFERENCIA_INTERNA",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "purpose": "Comparação qualitativa com SUCOP 12/17/23",
+      "dependencies": [],
+      "kind": "reference",
+      "media_id": "elevador-lacerda-detail-a163983e9d46"
+    },
+    {
+      "resource_id": "source:lacerda-exterior-photo-139fa6c8d4d1",
+      "provider": "Usuário / autoria desconhecida",
+      "dataset": "Exterior do Elevador Lacerda",
+      "capture_date": null,
+      "bounds": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/elevador-lacerda/conjunto-torres-139fa6c8d4d1.png",
+          "sha256": "139fa6c8d4d1df0ec326c7ebc74e85a08db7412460ec8a55794bcae722192adc"
+        }
+      ],
+      "derived_files": [],
+      "usage_class": "REFERENCIA_INTERNA",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "purpose": "Comparação qualitativa com SUCOP 12/17/23",
+      "dependencies": [],
+      "kind": "reference",
+      "media_id": "elevador-lacerda-detail-139fa6c8d4d1"
+    },
+    {
+      "resource_id": "source:lacerda-exterior-photo-c0c9a0dc3fc7",
+      "provider": "Usuário / autoria desconhecida",
+      "dataset": "Exterior do Elevador Lacerda",
+      "capture_date": null,
+      "bounds": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/elevador-lacerda/conjunto-torres-c0c9a0dc3fc7.png",
+          "sha256": "c0c9a0dc3fc75627d6d4ef1e87b0155e2025bdede3bfc2cf3cd1fe4ee530cbfa"
+        }
+      ],
+      "derived_files": [],
+      "usage_class": "REFERENCIA_INTERNA",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "purpose": "Comparação qualitativa com SUCOP 12/17/23",
+      "dependencies": [],
+      "kind": "reference",
+      "media_id": "elevador-lacerda-detail-c0c9a0dc3fc7"
+    },
+    {
+      "resource_id": "derived:lacerda-upper-layout-b86",
+      "provider": "Bay of All Saints / modelagem autoral derivada",
+      "dataset": "Conjunto superior com contorno da prancha SUCOP 17",
+      "capture_date": "2026-10-07",
+      "bounds": null,
+      "raw_files": [],
+      "derived_files": [
+        "docs/reports/blender/lacerda-layout-b86/layout_source.json",
+        "docs/reports/blender/lacerda-layout-b86/application-control.json",
+        "blender/salvador_lacerda_r30b86_saguao_superior_planta.blend",
+        "docs/reports/blender/lacerda-layout-b86/application.json"
+      ],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "release_status": "REPLACE_BEFORE_RELEASE",
+      "purpose": "Corrigir proporção estrutural superior, mantendo implantação e instalação candidatas",
+      "dependencies": [
+        "source:lacerda-issue22-sucop-17",
+        "derived:lacerda-encosta-support-b85"
+      ],
+      "kind": "geometry",
+      "generation_status": "APPLIED_REOPENED_LOCAL_QA_ONLY"
+    },
+    {
+      "resource_id": "derived:lacerda-upper-finish-b87",
+      "provider": "Bay of All Saints / modelagem autoral",
+      "dataset": "Pisos e fechamento superior da planta/fotos",
+      "capture_date": "2026-10-07",
+      "bounds": null,
+      "raw_files": [],
+      "derived_files": [
+        "blender/salvador_lacerda_r30b87_pisos_e_fechamentos_superiores.blend",
+        "docs/reports/blender/lacerda-finish-b87/application.json"
+      ],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "release_status": "REPLACE_BEFORE_RELEASE",
+      "purpose": "Continuidade de acabamento e fechamento envidraçado superior; não certifica instalação",
+      "dependencies": [
+        "derived:lacerda-upper-layout-b86",
+        "derived:lacerda-upper-glazing-b84",
+        "source:lacerda-issue22-sucop-17",
+        "source:lacerda-exterior-photo-139fa6c8d4d1"
+      ],
+      "kind": "geometry",
+      "generation_status": "APPLIED_REOPENED_LOCAL_QA_ONLY"
+    },
+    {
+      "resource_id": "derived:lacerda-massing-b88",
+      "provider": "Bay of All Saints / modelagem autoral derivada SUCOP",
+      "dataset": "Estrutura relativa/cotas documentais do Elevador Lacerda",
+      "capture_date": "2026-10-07",
+      "bounds": null,
+      "raw_files": [],
+      "derived_files": [
+        "blender/salvador_lacerda_r30b88_estrutura_arquitetonica_plantas.blend",
+        "docs/reports/blender/lacerda-massing-b88/application.json"
+      ],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "release_status": "REPLACE_BEFORE_RELEASE",
+      "purpose": "Modelagem estrutural do conjunto, sem certificar implantação, layout ou instalação atual",
+      "dependencies": [
+        "derived:lacerda-upper-layout-b86",
+        "source:lacerda-issue22-sucop-12",
+        "source:lacerda-issue22-sucop-17",
+        "source:lacerda-issue22-sucop-23"
+      ],
+      "kind": "geometry",
+      "generation_status": "APPLIED_DOCUMENT_RELATIVE_QA",
+      "accuracy": "PROJECT_REFERENCE_DERIVED_PARTIAL",
+      "replacement_required": true
+    },
+    {
+      "resource_id": "derived:lacerda-massing-b89",
+      "provider": "Bay of All Saints / modelagem autoral derivada SUCOP",
+      "dataset": "Estrutura relativa/cotas documentais do Elevador Lacerda",
+      "capture_date": "2026-10-07",
+      "bounds": null,
+      "raw_files": [],
+      "derived_files": [
+        "blender/salvador_lacerda_r30b89_conjunto_arquitetonico_niveis.blend",
+        "docs/reports/blender/lacerda-massing-b89/application.json"
+      ],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "release_status": "REPLACE_BEFORE_RELEASE",
+      "purpose": "Modelagem estrutural do conjunto, sem certificar implantação, layout ou instalação atual",
+      "dependencies": [
+        "derived:lacerda-massing-b88",
+        "source:lacerda-issue22-sucop-12",
+        "source:lacerda-issue22-sucop-23"
+      ],
+      "kind": "geometry",
+      "generation_status": "APPLIED_DOCUMENT_RELATIVE_QA",
+      "accuracy": "PROJECT_REFERENCE_DERIVED_PARTIAL",
+      "replacement_required": true
+    },
+    {
+      "resource_id": "derived:lacerda-massing-b90",
+      "provider": "Bay of All Saints / modelagem autoral derivada SUCOP",
+      "dataset": "Estrutura relativa/cotas documentais do Elevador Lacerda",
+      "capture_date": "2026-10-07",
+      "bounds": null,
+      "raw_files": [],
+      "derived_files": [
+        "blender/salvador_lacerda_r30b90_cotas_exteriores_consolidadas.blend",
+        "docs/reports/blender/lacerda-massing-b90/application.json"
+      ],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "release_status": "REPLACE_BEFORE_RELEASE",
+      "purpose": "Modelagem estrutural do conjunto, sem certificar implantação, layout ou instalação atual",
+      "dependencies": [
+        "derived:lacerda-massing-b89",
+        "source:lacerda-issue22-sucop-23"
+      ],
+      "kind": "geometry",
+      "generation_status": "APPLIED_DOCUMENT_RELATIVE_QA",
+      "accuracy": "PROJECT_REFERENCE_DERIVED_PARTIAL",
+      "replacement_required": true
+    },
+    {
+      "resource_id": "derived:lacerda-structure-mesh-b91",
+      "provider": "Bay of All Saints / modelagem autoral derivada SUCOP",
+      "dataset": "Correção de malhas e encontros da estrutura exterior Lacerda B91",
+      "capture_date": "2026-10-07",
+      "bounds": null,
+      "raw_files": [],
+      "derived_files": [
+        "blender/salvador_lacerda_r30b91_integridade_malha_e_apoios.blend",
+        "docs/LACERDA_MESH_STRUCTURE_B91_2026-10-07.md",
+        "docs/reports/blender/lacerda-mesh-b91/application.json",
+        "docs/reports/blender/lacerda-mesh-b91/validation.json"
+      ],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "release_status": "REPLACE_BEFORE_RELEASE",
+      "purpose": "Arquitetura candidata exterior; espessuras/perfil sem cota e implantação/as-built pendentes",
+      "dependencies": [
+        "derived:lacerda-massing-b90",
+        "source:lacerda-issue22-sucop-17",
+        "source:lacerda-issue22-sucop-23"
+      ],
+      "kind": "geometry",
+      "generation_status": "APPLIED_LIVE_REOPENED_LOCAL_MESH_QA",
+      "accuracy": "DOCUMENT_CONTOURS_WITH_DECLARED_APPROXIMATE_STRUCTURE",
+      "replacement_required": true
+    },
+    {
+      "resource_id": "derived:lacerda-bridge-b92",
+      "provider": "Bay of All Saints / modelagem autoral derivada SUCOP",
+      "dataset": "Consolidação dos componentes estruturais da passarela Lacerda",
+      "capture_date": "2026-10-07",
+      "bounds": null,
+      "raw_files": [],
+      "derived_files": [
+        "blender/salvador_lacerda_r30b92_ponte_estrutural_consolidada.blend",
+        "docs/LACERDA_STRUCTURE_B92_2026-10-07.md",
+        "docs/reports/blender/lacerda-bridge-b92/application.json",
+        "docs/reports/blender/lacerda-bridge-b92/validation.json"
+      ],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "release_status": "REPLACE_BEFORE_RELEASE",
+      "purpose": "Completar seleção estrutural da ponte; não certifica implantação, interiores ou instalação atual",
+      "dependencies": [
+        "derived:lacerda-structure-mesh-b91",
+        "source:lacerda-issue22-sucop-17",
+        "source:lacerda-issue22-sucop-23"
+      ],
+      "kind": "geometry",
+      "accuracy": "DOCUMENT_CONTOURS_WITH_DECLARED_APPROXIMATE_THICKNESS",
+      "replacement_required": true
+    },
+    {
+      "resource_id": "derived:lacerda-lower-structure-b93",
+      "provider": "Bay of All Saints / modelagem autoral derivada SUCOP",
+      "dataset": "Cotas e quatro apoios frontais da estrutura inferior Lacerda",
+      "capture_date": "2026-10-07",
+      "bounds": null,
+      "raw_files": [],
+      "derived_files": [
+        "blender/salvador_lacerda_r30b93_estrutura_inferior_documental.blend",
+        "docs/LACERDA_LOWER_STRUCTURE_B93_2026-10-07.md",
+        "docs/reports/blender/lacerda-lower-structure-b93/controls.json",
+        "docs/reports/blender/lacerda-lower-structure-b93/application.json",
+        "docs/reports/blender/lacerda-lower-structure-b93/validation.json"
+      ],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "release_status": "REPLACE_BEFORE_RELEASE",
+      "purpose": "Arquitetura relativa documental; sem certificação de implantação, as-built, interiores ou controller",
+      "dependencies": [
+        "derived:lacerda-bridge-b92",
+        "source:lacerda-issue22-sucop-12",
+        "source:lacerda-issue22-sucop-23"
+      ],
+      "kind": "geometry",
+      "accuracy": "DOCUMENT_RELATIVE_LEVELS_VECTOR_CONTOURS_INHERITED_THICKNESS",
+      "replacement_required": true
+    },
+    {
+      "resource_id": "derived:lacerda-corridor-closure-b94",
+      "provider": "Bay of All Saints / modelagem autoral derivada SUCOP",
+      "dataset": "Fechamentos laterais superiores e encontro do túnel com a torre existente",
+      "capture_date": "2026-10-07",
+      "bounds": null,
+      "raw_files": [],
+      "derived_files": [
+        "blender/salvador_lacerda_r30b94_fechamentos_passarela_tunel.blend",
+        "docs/LACERDA_CORRIDOR_CLOSURE_B94_2026-10-07.md",
+        "docs/reports/blender/lacerda-closure-b94/mutation-journal.json",
+        "docs/reports/blender/lacerda-closure-b94/application.json",
+        "docs/reports/blender/lacerda-closure-b94/validation.json"
+      ],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "release_status": "REPLACE_BEFORE_RELEASE",
+      "purpose": "Fechamentos arquitetônicos relativos, sem certificação de implantação, as-built, poço ou controller",
+      "dependencies": [
+        "derived:lacerda-lower-structure-b93",
+        "source:lacerda-issue22-sucop-12",
+        "source:lacerda-issue22-sucop-17"
+      ],
+      "kind": "geometry",
+      "accuracy": "DOCUMENT_CONTOURS_LOCAL_JUNCTION_INHERITED_THICKNESS",
+      "replacement_required": true
+    },
+    {
+      "resource_id": "derived:lacerda-upper-enclosure-b95",
+      "provider": "Bay of All Saints / modelagem autoral derivada SUCOP",
+      "dataset": "Limites das circulações superiores e portal da ponte",
+      "capture_date": "2026-10-07",
+      "bounds": null,
+      "raw_files": [],
+      "derived_files": [
+        "blender/salvador_lacerda_r30b95_limites_circulacoes_superiores.blend",
+        "docs/LACERDA_UPPER_ENCLOSURE_B95_2026-10-07.md",
+        "docs/reports/blender/lacerda-enclosure-b95/mutation-journal.json",
+        "docs/reports/blender/lacerda-enclosure-b95/application.json",
+        "docs/reports/blender/lacerda-enclosure-b95/validation.json"
+      ],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "release_status": "REPLACE_BEFORE_RELEASE",
+      "purpose": "Reconciliação arquitetônica relativa; não certifica implantação, instalação, guarda de acessos ou controller",
+      "dependencies": [
+        "derived:lacerda-corridor-closure-b94",
+        "source:lacerda-issue22-sucop-17"
+      ],
+      "kind": "geometry",
+      "accuracy": "DOCUMENT_CONTOURS_INHERITED_THICKNESS",
+      "replacement_required": true
+    },
+    {
+      "resource_id": "derived:lacerda-upper-body-b96",
+      "provider": "Bay of All Saints / reconciliação autoral derivada SUCOP",
+      "dataset": "Encontros posteriores e laterais do corpo superior/cobertura",
+      "capture_date": "2026-10-07",
+      "bounds": null,
+      "raw_files": [],
+      "derived_files": [
+        "blender/salvador_lacerda_r30b96_encontro_corpo_cobertura.blend",
+        "docs/LACERDA_BODY_JOINTS_B96_2026-10-07.md",
+        "docs/reports/blender/lacerda-body-b96/application.json",
+        "docs/reports/blender/lacerda-body-b96/validation.json"
+      ],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "release_status": "REPLACE_BEFORE_RELEASE",
+      "purpose": "Coerência do envelope candidato e cotas verticais relativas; sem certificação as-built, implantação ou controller",
+      "dependencies": [
+        "derived:lacerda-upper-enclosure-b95",
+        "source:lacerda-issue22-sucop-17",
+        "source:lacerda-issue22-sucop-23"
+      ],
+      "kind": "geometry",
+      "accuracy": "DOCUMENT_RELATIVE_LEVELS_CANDIDATE_UPPER_ENVELOPE",
+      "replacement_required": true
+    },
+    {
+      "resource_id": "derived:lacerda-upper-vestibules-b97",
+      "provider": "Bay of All Saints / modelagem candidata derivada SUCOP",
+      "dataset": "Limites relativos dos vestíbulos superiores da prancha17",
+      "capture_date": "2026-10-07",
+      "bounds": null,
+      "raw_files": [],
+      "derived_files": [
+        "blender/salvador_lacerda_r30b97_limites_vestibulos_superiores.blend",
+        "docs/LACERDA_UPPER_VESTIBULES_B97_2026-10-07.md",
+        "docs/reports/blender/lacerda-vestibules-b97/application.json",
+        "docs/reports/blender/lacerda-vestibules-b97/validation.json"
+      ],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "release_status": "REPLACE_BEFORE_RELEASE",
+      "purpose": "Modelagem das bordas com aberturas preservadas; seção aproximada explicitamente separada de dados documentais",
+      "dependencies": [
+        "derived:lacerda-upper-body-b96",
+        "source:lacerda-issue22-sucop-17"
+      ],
+      "kind": "geometry",
+      "status": "GAMEPLAY_PROXY",
+      "accuracy": "APPROXIMATE",
+      "replacement_required": true
+    },
+    {
+      "resource_id": "derived:lacerda-upper-completion-b98",
+      "provider": "Bay of All Saints / modelagem derivada SUCOP2023",
+      "dataset": "Frente térrea oblíqua, apoios e vãos da planta17 / níveis23",
+      "capture_date": "2026-10-07",
+      "bounds": null,
+      "raw_files": [],
+      "derived_files": [
+        "blender/salvador_lacerda_r30b98_frente_superior_reconciliada.blend",
+        "docs/LACERDA_SUPERIOR_COMPLETION_B98_2026-10-07.md",
+        "docs/reports/blender/lacerda-completion-b98/controls.json",
+        "docs/reports/blender/lacerda-completion-b98/application.json",
+        "docs/reports/blender/lacerda-completion-b98/validation.json"
+      ],
+      "derived_objects": [
+        "B98 | frente superior | apoio 1",
+        "B98 | frente superior | apoio 2",
+        "B98 | frente superior | apoio 3",
+        "B98 | frente superior | apoio 4",
+        "B98 | frente superior | verga 1",
+        "B98 | frente superior | fechamento rolo 1",
+        "B98 | frente superior | verga 2",
+        "B98 | frente superior | verga 3",
+        "B98 | frente superior | fechamento rolo 3"
+      ],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "release_status": "REPLACE_BEFORE_RELEASE",
+      "purpose": "Reconciliação estrutural relativa da frente superior; não certifica implantação/instalação/controller",
+      "dependencies": [
+        "derived:lacerda-upper-vestibules-b97",
+        "source:lacerda-issue22-sucop-17",
+        "source:lacerda-issue22-sucop-23"
+      ],
+      "kind": "geometry",
+      "accuracy": "DOCUMENT_RELATIVE_CONTOURS_CANDIDATE_HEIGHT",
+      "replacement_required": true
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-14",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_14_SUBSOLO 03_R00.pdf",
+      "capture_id": "lacerda-basements-b99",
+      "capture_date": "2026-10-08",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-14.pdf",
+          "sha256": "acecf782c74c22e8b19fb44b9eba33240ad31b160a57fa15bdfc27784b0547aa",
+          "bytes": 164848,
+          "url": "https://drive.google.com/uc?export=download&id=1tQS7L_owcqVkc2-l6KDF0Mi4Nt0a10ZT"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1tQS7L_owcqVkc2-l6KDF0Mi4Nt0a10ZT",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto / A+P Arquitetos Associados",
+      "document_date": null,
+      "sheet": 14,
+      "revision": "R00",
+      "scale": {
+        "inspected": false,
+        "scale_titleblock": null
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Referência arquitetônica exterior/subsolos. Projeto2023 R00, não as-built ou instalação da cabine.",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/blender/lacerda-structure-b99/drawings-acquisition.json",
+      "kind": "document_reference",
+      "derived_files": [
+        "docs/reports/blender/lacerda-structure-b99/drawings-acquisition.json"
+      ],
+      "retrieved_at": "2026-10-08T03:00:24.004122+00:00"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-15",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_15_SUBSOLO 02_R00.pdf",
+      "capture_id": "lacerda-basements-b99",
+      "capture_date": "2026-10-08",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-15.pdf",
+          "sha256": "44f7ab3a1655d5d2f7b3c85ef6f807dfab04659b6e2ad4e508d0f84b8c941a5d",
+          "bytes": 183260,
+          "url": "https://drive.google.com/uc?export=download&id=1pKAGe41GIwy57ZVq0kWfwL0Y9t05piG9"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1pKAGe41GIwy57ZVq0kWfwL0Y9t05piG9",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto / A+P Arquitetos Associados",
+      "document_date": null,
+      "sheet": 15,
+      "revision": "R00",
+      "scale": {
+        "inspected": false,
+        "scale_titleblock": null
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Referência arquitetônica exterior/subsolos. Projeto2023 R00, não as-built ou instalação da cabine.",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/blender/lacerda-structure-b99/drawings-acquisition.json",
+      "kind": "document_reference",
+      "derived_files": [
+        "docs/reports/blender/lacerda-structure-b99/drawings-acquisition.json"
+      ],
+      "retrieved_at": "2026-10-08T03:00:24.121124+00:00"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-16",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_16_SUBSOLO 01_R00.pdf",
+      "capture_id": "lacerda-basements-b99",
+      "capture_date": "2026-10-08",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-16.pdf",
+          "sha256": "72a7f34e0e51d0fc7d814660a3a6769414f4cd219fd5c28e8c2e7e10d8cae4e7",
+          "bytes": 200106,
+          "url": "https://drive.google.com/uc?export=download&id=1QNznkrAy0Jp83EfzHPdabAvzZ2vihpdo"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1QNznkrAy0Jp83EfzHPdabAvzZ2vihpdo",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto / A+P Arquitetos Associados",
+      "document_date": null,
+      "sheet": 16,
+      "revision": "R00",
+      "scale": {
+        "inspected": false,
+        "scale_titleblock": null
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Referência arquitetônica exterior/subsolos. Projeto2023 R00, não as-built ou instalação da cabine.",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/blender/lacerda-structure-b99/drawings-acquisition.json",
+      "kind": "document_reference",
+      "derived_files": [
+        "docs/reports/blender/lacerda-structure-b99/drawings-acquisition.json"
+      ],
+      "retrieved_at": "2026-10-08T03:00:24.147125+00:00"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-18",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_18_1º ANDAR_R00.pdf",
+      "capture_id": "lacerda-basements-b99",
+      "capture_date": "2026-10-08",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-18.pdf",
+          "sha256": "4ac8bae39a675f02c3e7e2c9ec1cb67dc0e592d8f5d74c52c8f9a4c01d500251",
+          "bytes": 191634,
+          "url": "https://drive.google.com/uc?export=download&id=1o9LeTYhtV9qprEZYcEnccpid5UXGPwlw"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1o9LeTYhtV9qprEZYcEnccpid5UXGPwlw",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto / A+P Arquitetos Associados",
+      "document_date": null,
+      "sheet": 18,
+      "revision": "R00",
+      "scale": {
+        "inspected": false,
+        "scale_titleblock": null
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Referência arquitetônica exterior/subsolos. Projeto2023 R00, não as-built ou instalação da cabine.",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/blender/lacerda-structure-b99/drawings-acquisition.json",
+      "kind": "document_reference",
+      "derived_files": [
+        "docs/reports/blender/lacerda-structure-b99/drawings-acquisition.json"
+      ],
+      "retrieved_at": "2026-10-08T03:00:24.448122+00:00"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-19",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_19_2º ANDAR_R00.pdf",
+      "capture_id": "lacerda-basements-b99",
+      "capture_date": "2026-10-08",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-19.pdf",
+          "sha256": "320f3956014c813d6fc8d3fde4d753bbe74027ae62b5c3da9ad3ce02d960b1b1",
+          "bytes": 159913,
+          "url": "https://drive.google.com/uc?export=download&id=1w-h2cCPpDD_VwuXJbGNGzXqJbx0WWt9A"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1w-h2cCPpDD_VwuXJbGNGzXqJbx0WWt9A",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto / A+P Arquitetos Associados",
+      "document_date": null,
+      "sheet": 19,
+      "revision": "R00",
+      "scale": {
+        "inspected": false,
+        "scale_titleblock": null
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Referência arquitetônica exterior/subsolos. Projeto2023 R00, não as-built ou instalação da cabine.",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/blender/lacerda-structure-b99/drawings-acquisition.json",
+      "kind": "document_reference",
+      "derived_files": [
+        "docs/reports/blender/lacerda-structure-b99/drawings-acquisition.json"
+      ],
+      "retrieved_at": "2026-10-08T03:00:24.501124+00:00"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-20",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_20_COBERTURA_R00.pdf",
+      "capture_id": "lacerda-basements-b99",
+      "capture_date": "2026-10-08",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-20.pdf",
+          "sha256": "2e488bb972ecba9732197fa805f1a77d0867f1e7a41f85de612f6cf7294f1eaf",
+          "bytes": 128168,
+          "url": "https://drive.google.com/uc?export=download&id=1DcYGGJlPakUZAmZJMqwoNHeeCrm1Hd6r"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1DcYGGJlPakUZAmZJMqwoNHeeCrm1Hd6r",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto / A+P Arquitetos Associados",
+      "document_date": null,
+      "sheet": 20,
+      "revision": "R00",
+      "scale": {
+        "inspected": false,
+        "scale_titleblock": null
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Referência arquitetônica exterior/subsolos. Projeto2023 R00, não as-built ou instalação da cabine.",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/blender/lacerda-structure-b99/drawings-acquisition.json",
+      "kind": "document_reference",
+      "derived_files": [
+        "docs/reports/blender/lacerda-structure-b99/drawings-acquisition.json"
+      ],
+      "retrieved_at": "2026-10-08T03:00:24.564122+00:00"
+    },
+    {
+      "resource_id": "derived:lacerda-basement-envelope-b99",
+      "provider": "Bay of All Saints / modelagem derivada SUCOP2023",
+      "dataset": "Contorno do subsolo16 / conferência15 / níveis23",
+      "capture_date": "2026-10-08",
+      "bounds": {
+        "frame": "B88_DOCUMENT_RELATIVE_NOT_ABSOLUTE_SSOT",
+        "x": [
+          -18.31184439113541,
+          -2.000930983193941
+        ],
+        "y": [
+          -5.521301955630671,
+          5.432198101174975
+        ]
+      },
+      "raw_files": [],
+      "derived_files": [
+        "blender/salvador_lacerda_r30b99_subsolos_corpo_cidade_alta.blend",
+        "docs/LACERDA_BASEMENT_STRUCTURE_B99_2026-10-08.md",
+        "docs/reports/blender/lacerda-structure-b99/controls.json",
+        "docs/reports/blender/lacerda-structure-b99/application.json",
+        "docs/reports/blender/lacerda-structure-b99/validation.json"
+      ],
+      "derived_objects": [
+        "B99 | cidade alta | envoltória subsolos 15 16",
+        "B99 | cidade alta | laje subsolo 01 área documentada"
+      ],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "release_status": "REPLACE_BEFORE_RELEASE",
+      "purpose": "Envoltória estrutural candidata; preserva núcleo/SSOT e bloqueio histórico",
+      "dependencies": [
+        "source:lacerda-issue22-sucop-15",
+        "source:lacerda-issue22-sucop-16",
+        "source:lacerda-issue22-sucop-17",
+        "source:lacerda-issue22-sucop-23"
+      ],
+      "kind": "geometry",
+      "accuracy": "DOCUMENT_RELATIVE_CONTOUR_APPROXIMATE_SECTION_AND_LOWER_EXTRUSION",
+      "replacement_required": true
+    },
+    {
+      "resource_id": "derived:lacerda-upper-body-b100",
+      "provider": "Bay of All Saints / modelagem derivada SUCOP2023",
+      "dataset": "Corpo19, pavimentos18/19, cobertura20, níveis23; esquadrias legadas candidatas",
+      "capture_date": "2026-10-08",
+      "bounds": null,
+      "raw_files": [],
+      "derived_files": [
+        "blender/salvador_lacerda_r30b100_corpo_superior_cobertura.blend",
+        "docs/LACERDA_UPPER_BODY_B100_2026-10-08.md",
+        "docs/reports/blender/lacerda-upper-body-b100/controls.json",
+        "docs/reports/blender/lacerda-upper-body-b100/application.json",
+        "docs/reports/blender/lacerda-upper-body-b100/validation.json"
+      ],
+      "derived_objects": [
+        "FACHADA SUPERIOR | janela",
+        "FACHADA SUPERIOR | montante janela",
+        "FACHADA SUPERIOR | montante janela.001",
+        "FACHADA SUPERIOR | montante janela.002",
+        "FACHADA SUPERIOR | travessa janela",
+        "FACHADA SUPERIOR | travessa janela.001",
+        "FACHADA SUPERIOR | travessa janela.002",
+        "FACHADA SUPERIOR | moldura superior",
+        "FACHADA SUPERIOR | moldura inferior",
+        "FACHADA SUPERIOR | janela.001",
+        "FACHADA SUPERIOR | montante janela.003",
+        "FACHADA SUPERIOR | montante janela.004",
+        "FACHADA SUPERIOR | montante janela.005",
+        "FACHADA SUPERIOR | travessa janela.003",
+        "FACHADA SUPERIOR | travessa janela.004",
+        "FACHADA SUPERIOR | travessa janela.005",
+        "FACHADA SUPERIOR | moldura superior.001",
+        "FACHADA SUPERIOR | moldura inferior.001",
+        "FACHADA SUPERIOR | janela.002",
+        "FACHADA SUPERIOR | montante janela.006",
+        "FACHADA SUPERIOR | montante janela.007",
+        "FACHADA SUPERIOR | montante janela.008",
+        "FACHADA SUPERIOR | travessa janela.006",
+        "FACHADA SUPERIOR | travessa janela.007",
+        "FACHADA SUPERIOR | travessa janela.008",
+        "FACHADA SUPERIOR | moldura superior.002",
+        "FACHADA SUPERIOR | moldura inferior.002",
+        "FACHADA SUPERIOR | janela.003",
+        "FACHADA SUPERIOR | montante janela.009",
+        "FACHADA SUPERIOR | montante janela.010",
+        "FACHADA SUPERIOR | montante janela.011",
+        "FACHADA SUPERIOR | travessa janela.009",
+        "FACHADA SUPERIOR | travessa janela.010",
+        "FACHADA SUPERIOR | travessa janela.011",
+        "FACHADA SUPERIOR | moldura superior.003",
+        "FACHADA SUPERIOR | moldura inferior.003",
+        "FACHADA SUPERIOR | janela.004",
+        "FACHADA SUPERIOR | montante janela.012",
+        "FACHADA SUPERIOR | montante janela.013",
+        "FACHADA SUPERIOR | montante janela.014",
+        "FACHADA SUPERIOR | travessa janela.012",
+        "FACHADA SUPERIOR | travessa janela.013",
+        "FACHADA SUPERIOR | travessa janela.014",
+        "FACHADA SUPERIOR | moldura superior.004",
+        "FACHADA SUPERIOR | moldura inferior.004",
+        "FACHADA SUPERIOR | janela.005",
+        "FACHADA SUPERIOR | montante janela.015",
+        "FACHADA SUPERIOR | montante janela.016",
+        "FACHADA SUPERIOR | montante janela.017",
+        "FACHADA SUPERIOR | travessa janela.015",
+        "FACHADA SUPERIOR | travessa janela.016",
+        "FACHADA SUPERIOR | travessa janela.017",
+        "FACHADA SUPERIOR | moldura superior.005",
+        "FACHADA SUPERIOR | moldura inferior.005",
+        "FACHADA SUPERIOR | relevo quadrado",
+        "FACHADA SUPERIOR | rebaixo quadrado",
+        "FACHADA SUPERIOR | relevo quadrado.001",
+        "FACHADA SUPERIOR | rebaixo quadrado.001",
+        "FACHADA SUPERIOR | relevo quadrado.002",
+        "FACHADA SUPERIOR | rebaixo quadrado.002",
+        "FACHADA SUPERIOR | faixa Lacerda",
+        "FACHADA SUPERIOR | medalhão",
+        "EDIFICIO | janela lateral.006",
+        "EDIFICIO | ombreira lateral.012",
+        "EDIFICIO | ombreira lateral.013",
+        "EDIFICIO | verga peitoril.012",
+        "EDIFICIO | verga peitoril.013",
+        "EDIFICIO | montante lateral.006",
+        "EDIFICIO | travessa lateral.012",
+        "EDIFICIO | travessa lateral.013",
+        "EDIFICIO | janela lateral.007",
+        "EDIFICIO | ombreira lateral.014",
+        "EDIFICIO | ombreira lateral.015",
+        "EDIFICIO | verga peitoril.014",
+        "EDIFICIO | verga peitoril.015",
+        "EDIFICIO | montante lateral.007",
+        "EDIFICIO | travessa lateral.014",
+        "EDIFICIO | travessa lateral.015",
+        "EDIFICIO | janela lateral.008",
+        "EDIFICIO | ombreira lateral.016",
+        "EDIFICIO | ombreira lateral.017",
+        "EDIFICIO | verga peitoril.016",
+        "EDIFICIO | verga peitoril.017",
+        "EDIFICIO | montante lateral.008",
+        "EDIFICIO | travessa lateral.016",
+        "EDIFICIO | travessa lateral.017",
+        "EDIFICIO | janela lateral.009",
+        "EDIFICIO | ombreira lateral.018",
+        "EDIFICIO | ombreira lateral.019",
+        "EDIFICIO | verga peitoril.018",
+        "EDIFICIO | verga peitoril.019",
+        "EDIFICIO | montante lateral.009",
+        "EDIFICIO | travessa lateral.018",
+        "EDIFICIO | travessa lateral.019",
+        "EDIFICIO | janela lateral.010",
+        "EDIFICIO | ombreira lateral.020",
+        "EDIFICIO | ombreira lateral.021",
+        "EDIFICIO | verga peitoril.020",
+        "EDIFICIO | verga peitoril.021",
+        "EDIFICIO | montante lateral.010",
+        "EDIFICIO | travessa lateral.020",
+        "EDIFICIO | travessa lateral.021",
+        "EDIFICIO | janela lateral.011",
+        "EDIFICIO | ombreira lateral.022",
+        "EDIFICIO | ombreira lateral.023",
+        "EDIFICIO | verga peitoril.022",
+        "EDIFICIO | verga peitoril.023",
+        "EDIFICIO | montante lateral.011",
+        "EDIFICIO | travessa lateral.022",
+        "EDIFICIO | travessa lateral.023",
+        "EDIFICIO | janela lateral",
+        "EDIFICIO | ombreira lateral",
+        "EDIFICIO | ombreira lateral.001",
+        "EDIFICIO | verga peitoril",
+        "EDIFICIO | verga peitoril.001",
+        "EDIFICIO | montante lateral",
+        "EDIFICIO | travessa lateral",
+        "EDIFICIO | travessa lateral.001",
+        "EDIFICIO | janela lateral.001",
+        "EDIFICIO | ombreira lateral.002",
+        "EDIFICIO | ombreira lateral.003",
+        "EDIFICIO | verga peitoril.002",
+        "EDIFICIO | verga peitoril.003",
+        "EDIFICIO | montante lateral.001",
+        "EDIFICIO | travessa lateral.002",
+        "EDIFICIO | travessa lateral.003",
+        "EDIFICIO | janela lateral.002",
+        "EDIFICIO | ombreira lateral.004",
+        "EDIFICIO | ombreira lateral.005",
+        "EDIFICIO | verga peitoril.004",
+        "EDIFICIO | verga peitoril.005",
+        "EDIFICIO | montante lateral.002",
+        "EDIFICIO | travessa lateral.004",
+        "EDIFICIO | travessa lateral.005",
+        "EDIFICIO | janela lateral.003",
+        "EDIFICIO | ombreira lateral.006",
+        "EDIFICIO | ombreira lateral.007",
+        "EDIFICIO | verga peitoril.006",
+        "EDIFICIO | verga peitoril.007",
+        "EDIFICIO | montante lateral.003",
+        "EDIFICIO | travessa lateral.006",
+        "EDIFICIO | travessa lateral.007",
+        "EDIFICIO | janela lateral.004",
+        "EDIFICIO | ombreira lateral.008",
+        "EDIFICIO | ombreira lateral.009",
+        "EDIFICIO | verga peitoril.008",
+        "EDIFICIO | verga peitoril.009",
+        "EDIFICIO | montante lateral.004",
+        "EDIFICIO | travessa lateral.008",
+        "EDIFICIO | travessa lateral.009",
+        "EDIFICIO | janela lateral.005",
+        "EDIFICIO | ombreira lateral.010",
+        "EDIFICIO | ombreira lateral.011",
+        "EDIFICIO | verga peitoril.010",
+        "EDIFICIO | verga peitoril.011",
+        "EDIFICIO | montante lateral.005",
+        "EDIFICIO | travessa lateral.010",
+        "EDIFICIO | travessa lateral.011",
+        "SUPERIOR | cobertura corpo elevado",
+        "B100 | cidade alta | corpo superior contínuo",
+        "B100 | cidade alta | platibanda contorno completo",
+        "B100 | cidade alta | laje administrativa 01",
+        "B100 | cidade alta | laje administrativa 02"
+      ],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "release_status": "REPLACE_BEFORE_RELEASE",
+      "purpose": "Reconstrução estrutural relativa do corpo superior/cobertura; não instalação ou implantação certificada",
+      "dependencies": [
+        "source:lacerda-issue22-sucop-18",
+        "source:lacerda-issue22-sucop-19",
+        "source:lacerda-issue22-sucop-20",
+        "source:lacerda-issue22-sucop-23",
+        "derived:lacerda-basement-envelope-b99"
+      ],
+      "kind": "geometry",
+      "accuracy": "DOCUMENT_RELATIVE_MAJOR_CONTOUR_LEGACY_WINDOW_LAYOUT_CANDIDATE_SECTION",
+      "replacement_required": true
+    },
+    {
+      "resource_id": "derived:lacerda-structural-floors-b101",
+      "provider": "Bay of All Saints / modelagem derivada SUCOP2023",
+      "dataset": "Pisos14/15, níveis23 e registro relativo B99; manifesto dimensional da estrutura existente",
+      "capture_date": "2026-10-08",
+      "bounds": null,
+      "raw_files": [],
+      "derived_files": [
+        "blender/salvador_lacerda_r30b101_pavimentos_estruturais.blend",
+        "docs/LACERDA_STRUCTURAL_DIMENSIONS_B101_2026-10-08.md",
+        "docs/reports/blender/lacerda-floors-b101/controls.json",
+        "docs/reports/blender/lacerda-floors-b101/dimensions.json",
+        "docs/reports/blender/lacerda-floors-b101/application.json",
+        "docs/reports/blender/lacerda-floors-b101/validation.json"
+      ],
+      "derived_objects": [
+        "B101 | cidade alta | laje subsolo 02 subestação",
+        "B101 | cidade alta | piso sala técnica norte subsolo 03",
+        "B101 | cidade alta | piso sala técnica sul subsolo 03"
+      ],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "release_status": "REPLACE_BEFORE_RELEASE",
+      "purpose": "Modelagem dos pisos documentais e controle dimensional relativo; não engenharia civil/as-built ou instalação",
+      "dependencies": [
+        "source:lacerda-issue22-sucop-14",
+        "source:lacerda-issue22-sucop-15",
+        "source:lacerda-issue22-sucop-23",
+        "derived:lacerda-basement-envelope-b99"
+      ],
+      "kind": "geometry",
+      "accuracy": "DOCUMENT_RELATIVE_LEVELS_AND_MAJOR_FLOOR_CONTOURS_APPROXIMATE_SECTION",
+      "replacement_required": true
+    },
+    {
+      "resource_id": "derived:lacerda-exterior-four-lifts-b102",
+      "provider": "Bay of All Saints / SUCOP2023 e controller próprio",
+      "dataset": "Envoltória exterior14/15/23, núcleo17, escavação local e quatro equipamentos provisórios",
+      "capture_date": "2026-10-08",
+      "bounds": null,
+      "raw_files": [],
+      "derived_files": [
+        "blender/salvador_lacerda_r30b102_corpo_encosta_quatro_elevadores.blend",
+        "docs/LACERDA_EXTERIOR_FOUR_LIFTS_B102_2026-10-08.md",
+        "world/areas/mvp-centro-lacerda/lacerda-four-lifts.json",
+        "docs/reports/blender/lacerda-exterior-b102/controls.json",
+        "docs/reports/blender/lacerda-exterior-b102/application.json",
+        "docs/reports/blender/lacerda-exterior-b102/excavation.json",
+        "docs/reports/blender/lacerda-exterior-b102/terrain-seam-repair.json",
+        "docs/reports/blender/lacerda-exterior-b102/terrain-seam.json",
+        "docs/reports/blender/lacerda-exterior-b102/validation.json",
+        "docs/reports/blender/lacerda-exterior-b102/live-proof.json"
+      ],
+      "derived_objects": [
+        "B102 | cidade alta | corpo sala técnica norte",
+        "B102 | cidade alta | cobertura sala técnica norte",
+        "B102 | cidade alta | corpo sala técnica sul",
+        "B102 | cidade alta | cobertura sala técnica sul",
+        "B102 | cidade alta | contenção face posterior",
+        "B102 | cidade alta | contenção ala norte encosta",
+        "B102 | cidade alta | contenção ala sul encosta",
+        "B102 | lacerda-01 | piso",
+        "B102 | lacerda-01 | teto",
+        "B102 | lacerda-01 | lateral -1",
+        "B102 | lacerda-01 | lateral 1",
+        "B102 | lacerda-01 | jamba -1 -1",
+        "B102 | lacerda-01 | jamba -1 1",
+        "B102 | lacerda-01 | porta cabine -1 -1",
+        "B102 | lacerda-01 | porta cabine -1 1",
+        "B102 | lacerda-01 | fundo",
+        "B102 | lacerda-01 | porta estação upper -1",
+        "B102 | lacerda-01 | porta estação upper 1",
+        "B102 | lacerda-01 | porta estação lower -1",
+        "B102 | lacerda-01 | porta estação lower 1",
+        "B102 | lacerda-02 | piso",
+        "B102 | lacerda-02 | teto",
+        "B102 | lacerda-02 | lateral -1",
+        "B102 | lacerda-02 | lateral 1",
+        "B102 | lacerda-02 | jamba -1 -1",
+        "B102 | lacerda-02 | jamba -1 1",
+        "B102 | lacerda-02 | porta cabine -1 -1",
+        "B102 | lacerda-02 | porta cabine -1 1",
+        "B102 | lacerda-02 | fundo",
+        "B102 | lacerda-02 | porta estação upper -1",
+        "B102 | lacerda-02 | porta estação upper 1",
+        "B102 | lacerda-02 | porta estação lower -1",
+        "B102 | lacerda-02 | porta estação lower 1",
+        "B102 | lacerda-03 | piso",
+        "B102 | lacerda-03 | teto",
+        "B102 | lacerda-03 | lateral -1",
+        "B102 | lacerda-03 | lateral 1",
+        "B102 | lacerda-03 | jamba -1 -1",
+        "B102 | lacerda-03 | jamba -1 1",
+        "B102 | lacerda-03 | porta cabine -1 -1",
+        "B102 | lacerda-03 | porta cabine -1 1",
+        "B102 | lacerda-03 | jamba 1 -1",
+        "B102 | lacerda-03 | jamba 1 1",
+        "B102 | lacerda-03 | porta cabine 1 -1",
+        "B102 | lacerda-03 | porta cabine 1 1",
+        "B102 | lacerda-03 | porta estação upper -1",
+        "B102 | lacerda-03 | porta estação upper 1",
+        "B102 | lacerda-03 | porta estação lower -1",
+        "B102 | lacerda-03 | porta estação lower 1",
+        "B102 | lacerda-04 | piso",
+        "B102 | lacerda-04 | teto",
+        "B102 | lacerda-04 | lateral -1",
+        "B102 | lacerda-04 | lateral 1",
+        "B102 | lacerda-04 | jamba -1 -1",
+        "B102 | lacerda-04 | jamba -1 1",
+        "B102 | lacerda-04 | porta cabine -1 -1",
+        "B102 | lacerda-04 | porta cabine -1 1",
+        "B102 | lacerda-04 | jamba 1 -1",
+        "B102 | lacerda-04 | jamba 1 1",
+        "B102 | lacerda-04 | porta cabine 1 -1",
+        "B102 | lacerda-04 | porta cabine 1 1",
+        "B102 | lacerda-04 | porta estação upper -1",
+        "B102 | lacerda-04 | porta estação upper 1",
+        "B102 | lacerda-04 | porta estação lower -1",
+        "B102 | lacerda-04 | porta estação lower 1",
+        "B102 | cidade alta | envoltória externa central",
+        "MVP | terreno corrigido | colisão estática"
+      ],
+      "usage_class": "PENDENTE_VERIFICACAO",
+      "release_status": "REPLACE_BEFORE_RELEASE",
+      "purpose": "Estrutura exterior candidata e equipamentos GAMEPLAY_PROXY; não instalação certificada/produção",
+      "dependencies": [
+        "source:lacerda-issue22-sucop-14",
+        "source:lacerda-issue22-sucop-15",
+        "source:lacerda-issue22-sucop-17",
+        "source:lacerda-issue22-sucop-23",
+        "derived:lacerda-structural-floors-b101"
+      ],
+      "kind": "geometry_and_controller",
+      "accuracy": "DOCUMENT_RELATIVE_CONTOURS_APPROXIMATE_SECTIONS_AND_GAMEPLAY_EQUIPMENT",
+      "replacement_required": true
+    }
+  ],
+  "note": "Índice de proveniência; catálogos e resumos referenciados não são substituídos. IDs não conhecidos continuam bloqueando release."
+}

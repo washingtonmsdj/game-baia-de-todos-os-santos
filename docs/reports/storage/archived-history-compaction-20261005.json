@@ -1,0 +1,17 @@
+{
+  "schema": "boas/archived-history-compaction-v1",
+  "date": "2026-10-05",
+  "method": "Windows WOF LZX",
+  "deleted_files": 0,
+  "sha256_verified_files_in_pass": 58,
+  "logical_bytes_current": 1030708703,
+  "physical_bytes_current": 275855689,
+  "physical_before_all_files": null,
+  "verified_example": {
+    "file": "archived_sessions/rollout-2026-09-08T11-08-26-01a08159-4614-7282-b702-e5d8b2b77b0c.jsonl",
+    "physical_before_bytes": 210486659,
+    "physical_after_bytes": 51834880,
+    "sha256_before_equals_after": true,
+    "sha256": "fd9281805cc20261106299ec9b51d3fcea5e3de977e3997f4a12118a3e1f897d"
+  }
+}

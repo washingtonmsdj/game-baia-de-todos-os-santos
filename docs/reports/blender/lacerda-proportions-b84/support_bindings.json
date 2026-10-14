@@ -1,0 +1,69 @@
+{
+  "pid": 11304,
+  "bindings": [
+    {
+      "object": "LAC R30B08 | apoio oposto | corpo estrutural afunilado",
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_architecture",
+        "classification": "ERROR",
+        "reference_status": "partial",
+        "reference_note": "Fotografia fornecida pelo usuario: apoio largo oposto a torre; dimensoes ajustadas ao terreno existente.",
+        "ground_sample_min_z": 21.0,
+        "ground_sample_max_z": 68.85,
+        "design_note": "Local original preservado, com corpo parcialmente engastado na encosta e face exposta.",
+        "r30b14_placement": "Lado livre da Ladeira, apoio sob a passarela, base Cidade Baixa.",
+        "r30b15_placement": "Implantação original do apoio, mantida; encosta recortada em torno dele.",
+        "boas_revision": "R30B.35",
+        "r35_alignment_control": "EDIFICIO | parede posterior alta / SUPERIOR | piso saguão",
+        "r35_correction_reason": "Apoio anterior inteiramente fora do intervalo do saguão. Face alinhada à parede superior e capitel sob a laje; terreno será refeito ao redor.",
+        "r35_window_evidence": "elevador-lacerda-detail-2ab9cfcbccc1; faixa envidraçada vertical observada sob a passarela",
+        "r35_window_status": "Proporção fotográfica candidata; medidas reais não levantadas",
+        "r35_shaft_profile": "Face marítima alinhada; face de encosta escalonada conforme silhueta das fotografias. Dimensões candidatas."
+      },
+      "visible": true,
+      "collection": [
+        "HERO | Lacerda | apoio oposto R30B08"
+      ]
+    },
+    {
+      "object": "LAC R30B08 | apoio oposto | capitel sob passarela",
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_architecture",
+        "classification": "ERROR",
+        "reference_status": "partial",
+        "reference_note": "Fotografia fornecida pelo usuario: apoio largo oposto a torre; dimensoes ajustadas ao terreno existente.",
+        "r30b14_placement": "Lado livre da Ladeira, apoio sob a passarela, base Cidade Baixa.",
+        "r30b15_placement": "Implantação original do apoio, mantida; encosta recortada em torno dele.",
+        "boas_revision": "R30B.35",
+        "r35_alignment_control": "EDIFICIO | parede posterior alta / SUPERIOR | piso saguão",
+        "r35_correction_reason": "Apoio anterior inteiramente fora do intervalo do saguão. Face alinhada à parede superior e capitel sob a laje; terreno será refeito ao redor."
+      },
+      "visible": true,
+      "collection": [
+        "HERO | Lacerda | apoio oposto R30B08"
+      ]
+    },
+    {
+      "object": "LAC R30B08 | apoio oposto | ressalto transversal",
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_architecture",
+        "classification": "ERROR",
+        "reference_status": "partial",
+        "reference_note": "Fotografia fornecida pelo usuario: apoio largo oposto a torre; dimensoes ajustadas ao terreno existente.",
+        "r30b14_placement": "Lado livre da Ladeira, apoio sob a passarela, base Cidade Baixa.",
+        "r30b15_placement": "Implantação original do apoio, mantida; encosta recortada em torno dele.",
+        "boas_revision": "R30B.35",
+        "r35_alignment_control": "EDIFICIO | parede posterior alta / SUPERIOR | piso saguão",
+        "r35_correction_reason": "Apoio anterior inteiramente fora do intervalo do saguão. Face alinhada à parede superior e capitel sob a laje; terreno será refeito ao redor."
+      },
+      "visible": true,
+      "collection": [
+        "HERO | Lacerda | apoio oposto R30B08"
+      ]
+    }
+  ],
+  "scene_changed": false
+}

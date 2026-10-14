@@ -1,0 +1,158 @@
+{
+  "schema": "boas/lacerda-upper-layout-derived-v1",
+  "source": "source:lacerda-issue22-sucop-17",
+  "drawing_sha256": "02d02b37b61b9a44ca931a00811e196e104322a6f0f89fc4bfb04f70d7783dd1",
+  "scale_pdf_units_per_m": 37.790954824344766,
+  "scale_controls": [
+    {
+      "cota_m": 5.2,
+      "pdf_span": [
+        1986.24,
+        2182.68
+      ],
+      "residual_m": -0.001930755307244958
+    },
+    {
+      "cota_m": 1.99,
+      "pdf_span": [
+        2182.56,
+        2257.8
+      ],
+      "residual_m": 0.0009526062445757155
+    },
+    {
+      "cota_m": 2.2,
+      "pdf_span": [
+        2257.8,
+        2341.08
+      ],
+      "residual_m": 0.0037019278049870152
+    }
+  ],
+  "outline_pdf": [
+    [
+      1976.16,
+      785.08
+    ],
+    [
+      2761.8,
+      785.08
+    ],
+    [
+      2761.8,
+      713.2
+    ],
+    [
+      2968.92,
+      713.2
+    ],
+    [
+      2953.92,
+      880.84
+    ],
+    [
+      2902.68,
+      1443.64
+    ],
+    [
+      2902.68,
+      1456.96
+    ],
+    [
+      2758.08,
+      1456.96
+    ],
+    [
+      2758.08,
+      1389.28
+    ],
+    [
+      1977.96,
+      1389.28
+    ]
+  ],
+  "outline_local": [
+    [
+      -19.81081853967378,
+      7.938407520911359
+    ],
+    [
+      0.9782830760888972,
+      7.938407520911359
+    ],
+    [
+      0.9782830760888972,
+      9.84044996292172
+    ],
+    [
+      6.458959628526099,
+      9.84044996292172
+    ],
+    [
+      6.062039252480531,
+      5.404467840236452
+    ],
+    [
+      4.706159247908864,
+      -9.487984668993263
+    ],
+    [
+      4.706159247908864,
+      -9.840449962921728
+    ],
+    [
+      0.8798468228295899,
+      -9.840449962921728
+    ],
+    [
+      0.8798468228295899,
+      -8.049545226204122
+    ],
+    [
+      -19.763188094548312,
+      -8.049545226204122
+    ]
+  ],
+  "main_station_x": [
+    -19.81081853967378,
+    5.5
+  ],
+  "main_station_y": [
+    -8.049545226204122,
+    7.938407520911359
+  ],
+  "bridge_opening_y": [
+    -2.9245093307037453,
+    3.238870268531835
+  ],
+  "upper_building_x": [
+    -10.198994713354303,
+    5.5
+  ],
+  "upper_building_y": [
+    -5.502904093495757,
+    5.455273648370287
+  ],
+  "old_tower_envelope_center": [
+    -14.32537894272403,
+    0.1571804689140404
+  ],
+  "old_tower_envelope_center_status": "CANDIDATE_PROJECT_REGION_CENTER_NOT_INSTALLED_SHAFT_SECTION",
+  "placement": {
+    "status": "CANDIDATE_EXISTING_UPPER_ACCESS_ANCHOR",
+    "drawing_anchor": [
+      2932.68,
+      1085.08
+    ],
+    "scene_anchor_local": [
+      5.5,
+      0.0
+    ],
+    "physical_scene_control_count": 0,
+    "ssot_registration_accepted": false,
+    "reason": "Forma arquitetônica derivada; implantação das torres e distância do mapa ainda não reconciliadas."
+  },
+  "z_status": "EXISTING_CANDIDATE_PRESERVED",
+  "installed_elevator_dimensions_known": false,
+  "production_ready": false
+}

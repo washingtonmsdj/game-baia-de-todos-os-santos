@@ -1,0 +1,1343 @@
+{
+  "schema": "boas/lacerda-upper-body-v1",
+  "parent_ssot": "world/geographic-reference.json",
+  "ssot_sha256": "1d9da0962d456cb38ed3df0da797208e499a8465f82e9836c14bb337df2385e7",
+  "registration_reused_from": "docs/reports/blender/lacerda-structure-b99/controls.json",
+  "absolute_ssot_registration_accepted": false,
+  "body_contour_local": [
+    [
+      -12.739285120045938,
+      2.84830061850299
+    ],
+    [
+      -16.197255436154936,
+      2.8451252554946254
+    ],
+    [
+      -16.1909047101382,
+      -2.7530397282520593
+    ],
+    [
+      -12.742460483054312,
+      -2.7720919063022533
+    ],
+    [
+      -12.898053270464164,
+      -5.410818566253185
+    ],
+    [
+      5.0999042609460705,
+      -5.32190840201898
+    ],
+    [
+      6.125546512647812,
+      5.544183812604489
+    ],
+    [
+      -12.929806900547817,
+      5.407643203244814
+    ]
+  ],
+  "body_contour_pdf19": [
+    [
+      2236.2,
+      880.72
+    ],
+    [
+      2956.3199999999997,
+      875.5600000000001
+    ],
+    [
+      2917.56,
+      1286.2
+    ],
+    [
+      2237.4,
+      1289.56
+    ],
+    [
+      2243.2799999999997,
+      1189.8400000000001
+    ],
+    [
+      2112.96,
+      1189.12
+    ],
+    [
+      2112.72,
+      977.5600000000001
+    ],
+    [
+      2243.4,
+      977.44
+    ]
+  ],
+  "body_corner_sources": [
+    "594/10.x+594/4.y",
+    "573 NE pier envelope",
+    "570 SE pier envelope",
+    "566/10.x+566/6.y",
+    "566/15",
+    "566/16",
+    "595/2",
+    "595/1"
+  ],
+  "roof_contour_local": [
+    [
+      -13.107679866350587,
+      2.960655342150139
+    ],
+    [
+      -16.489583117886514,
+      2.9858717730564543
+    ],
+    [
+      -16.482894404550795,
+      -3.104726686662823
+    ],
+    [
+      -13.069236558295955,
+      -3.1235903673796876
+    ],
+    [
+      -13.05639899693189,
+      -5.568720572934023
+    ],
+    [
+      4.9772300546627575,
+      -5.472455766509701
+    ],
+    [
+      6.097571494724556,
+      5.495765043082449
+    ],
+    [
+      -13.098292310442531,
+      5.466121179348626
+    ]
+  ],
+  "roof_control": "20/321",
+  "parapet_inner_local": [
+    [
+      -16.26093464640344,
+      2.754073338675686
+    ],
+    [
+      -16.2542714648582,
+      -2.876078391261055
+    ],
+    [
+      -12.840613618603356,
+      -2.8949420719779253
+    ],
+    [
+      -12.827776233320613,
+      -5.336896782844107
+    ],
+    [
+      4.767634727389917,
+      -5.243831770329211
+    ],
+    [
+      5.843544773608019,
+      5.263939844342029
+    ],
+    [
+      -12.869644015040752,
+      5.23749823965602
+    ],
+    [
+      -12.879031394867525,
+      2.72885690776938
+    ]
+  ],
+  "parapet_control": "20/326",
+  "corners": {
+    "NW": [
+      -12.929806900547817,
+      5.407643203244814
+    ],
+    "NE": [
+      6.125546512647812,
+      5.544183812604489
+    ],
+    "SE": [
+      5.0999042609460705,
+      -5.32190840201898
+    ],
+    "SW": [
+      -12.898053270464164,
+      -5.410818566253185
+    ]
+  },
+  "archive": [
+    "FACHADA SUPERIOR | corpo elevado",
+    "SUPERIOR | lateral corpo elevado",
+    "SUPERIOR | lateral corpo elevado.001",
+    "EDIFICIO | parede posterior alta",
+    "EDIFICIO | cornija lateral",
+    "EDIFICIO | platibanda lateral",
+    "EDIFICIO | cornija lateral.001",
+    "EDIFICIO | platibanda lateral.001",
+    "EDIFICIO | janela posterior",
+    "EDIFICIO | janela posterior.001",
+    "EDIFICIO | janela posterior.002",
+    "EDIFICIO | janela posterior.003",
+    "EDIFICIO | janela posterior.004",
+    "EDIFICIO | janela posterior.005",
+    "LAC R30B03 | Cidade Alta | degrau central do coroamento",
+    "LAC R30B03 | Cidade Alta | degrau intermediario esquerdo",
+    "LAC R30B03 | Cidade Alta | degrau intermediario direito",
+    "FACHADA SUPERIOR | platibanda",
+    "FACHADA SUPERIOR | cornija"
+  ],
+  "facade_transforms": {
+    "FRONT": {
+      "rotation": [
+        [
+          0.9955748469057176,
+          0.09397193308992237
+        ],
+        [
+          -0.09397193308992237,
+          0.9955748469057176
+        ]
+      ],
+      "translation": [
+        0.08246817388604022,
+        0.6570561633461813
+      ],
+      "old_anchor": [
+        5.557085990905762,
+        -0.023813724517822266
+      ],
+      "new_anchor": [
+        5.612725386796941,
+        0.11113770529275424
+      ],
+      "rotation_deg": -5.39215120583381,
+      "objects": [
+        "FACHADA SUPERIOR | janela",
+        "FACHADA SUPERIOR | montante janela",
+        "FACHADA SUPERIOR | montante janela.001",
+        "FACHADA SUPERIOR | montante janela.002",
+        "FACHADA SUPERIOR | travessa janela",
+        "FACHADA SUPERIOR | travessa janela.001",
+        "FACHADA SUPERIOR | travessa janela.002",
+        "FACHADA SUPERIOR | moldura superior",
+        "FACHADA SUPERIOR | moldura inferior",
+        "FACHADA SUPERIOR | janela.001",
+        "FACHADA SUPERIOR | montante janela.003",
+        "FACHADA SUPERIOR | montante janela.004",
+        "FACHADA SUPERIOR | montante janela.005",
+        "FACHADA SUPERIOR | travessa janela.003",
+        "FACHADA SUPERIOR | travessa janela.004",
+        "FACHADA SUPERIOR | travessa janela.005",
+        "FACHADA SUPERIOR | moldura superior.001",
+        "FACHADA SUPERIOR | moldura inferior.001",
+        "FACHADA SUPERIOR | janela.002",
+        "FACHADA SUPERIOR | montante janela.006",
+        "FACHADA SUPERIOR | montante janela.007",
+        "FACHADA SUPERIOR | montante janela.008",
+        "FACHADA SUPERIOR | travessa janela.006",
+        "FACHADA SUPERIOR | travessa janela.007",
+        "FACHADA SUPERIOR | travessa janela.008",
+        "FACHADA SUPERIOR | moldura superior.002",
+        "FACHADA SUPERIOR | moldura inferior.002",
+        "FACHADA SUPERIOR | janela.003",
+        "FACHADA SUPERIOR | montante janela.009",
+        "FACHADA SUPERIOR | montante janela.010",
+        "FACHADA SUPERIOR | montante janela.011",
+        "FACHADA SUPERIOR | travessa janela.009",
+        "FACHADA SUPERIOR | travessa janela.010",
+        "FACHADA SUPERIOR | travessa janela.011",
+        "FACHADA SUPERIOR | moldura superior.003",
+        "FACHADA SUPERIOR | moldura inferior.003",
+        "FACHADA SUPERIOR | janela.004",
+        "FACHADA SUPERIOR | montante janela.012",
+        "FACHADA SUPERIOR | montante janela.013",
+        "FACHADA SUPERIOR | montante janela.014",
+        "FACHADA SUPERIOR | travessa janela.012",
+        "FACHADA SUPERIOR | travessa janela.013",
+        "FACHADA SUPERIOR | travessa janela.014",
+        "FACHADA SUPERIOR | moldura superior.004",
+        "FACHADA SUPERIOR | moldura inferior.004",
+        "FACHADA SUPERIOR | janela.005",
+        "FACHADA SUPERIOR | montante janela.015",
+        "FACHADA SUPERIOR | montante janela.016",
+        "FACHADA SUPERIOR | montante janela.017",
+        "FACHADA SUPERIOR | travessa janela.015",
+        "FACHADA SUPERIOR | travessa janela.016",
+        "FACHADA SUPERIOR | travessa janela.017",
+        "FACHADA SUPERIOR | moldura superior.005",
+        "FACHADA SUPERIOR | moldura inferior.005",
+        "FACHADA SUPERIOR | relevo quadrado",
+        "FACHADA SUPERIOR | rebaixo quadrado",
+        "FACHADA SUPERIOR | relevo quadrado.001",
+        "FACHADA SUPERIOR | rebaixo quadrado.001",
+        "FACHADA SUPERIOR | relevo quadrado.002",
+        "FACHADA SUPERIOR | rebaixo quadrado.002",
+        "FACHADA SUPERIOR | faixa Lacerda",
+        "FACHADA SUPERIOR | medalhão"
+      ]
+    },
+    "NORTH": {
+      "rotation": [
+        [
+          0.9999743289910249,
+          -0.007165288476356257
+        ],
+        [
+          0.007165288476356257,
+          0.9999743289910249
+        ]
+      ],
+      "translation": [
+        0.6656377540027023,
+        -0.07051349054395928
+      ],
+      "old_anchor": [
+        5.499999523162842,
+        5.5754313468933105
+      ],
+      "new_anchor": [
+        6.125546512647812,
+        5.544183812604489
+      ],
+      "rotation_deg": 0.410544301723768,
+      "objects": [
+        "EDIFICIO | janela lateral.006",
+        "EDIFICIO | ombreira lateral.012",
+        "EDIFICIO | ombreira lateral.013",
+        "EDIFICIO | verga peitoril.012",
+        "EDIFICIO | verga peitoril.013",
+        "EDIFICIO | montante lateral.006",
+        "EDIFICIO | travessa lateral.012",
+        "EDIFICIO | travessa lateral.013",
+        "EDIFICIO | janela lateral.007",
+        "EDIFICIO | ombreira lateral.014",
+        "EDIFICIO | ombreira lateral.015",
+        "EDIFICIO | verga peitoril.014",
+        "EDIFICIO | verga peitoril.015",
+        "EDIFICIO | montante lateral.007",
+        "EDIFICIO | travessa lateral.014",
+        "EDIFICIO | travessa lateral.015",
+        "EDIFICIO | janela lateral.008",
+        "EDIFICIO | ombreira lateral.016",
+        "EDIFICIO | ombreira lateral.017",
+        "EDIFICIO | verga peitoril.016",
+        "EDIFICIO | verga peitoril.017",
+        "EDIFICIO | montante lateral.008",
+        "EDIFICIO | travessa lateral.016",
+        "EDIFICIO | travessa lateral.017",
+        "EDIFICIO | janela lateral.009",
+        "EDIFICIO | ombreira lateral.018",
+        "EDIFICIO | ombreira lateral.019",
+        "EDIFICIO | verga peitoril.018",
+        "EDIFICIO | verga peitoril.019",
+        "EDIFICIO | montante lateral.009",
+        "EDIFICIO | travessa lateral.018",
+        "EDIFICIO | travessa lateral.019",
+        "EDIFICIO | janela lateral.010",
+        "EDIFICIO | ombreira lateral.020",
+        "EDIFICIO | ombreira lateral.021",
+        "EDIFICIO | verga peitoril.020",
+        "EDIFICIO | verga peitoril.021",
+        "EDIFICIO | montante lateral.010",
+        "EDIFICIO | travessa lateral.020",
+        "EDIFICIO | travessa lateral.021",
+        "EDIFICIO | janela lateral.011",
+        "EDIFICIO | ombreira lateral.022",
+        "EDIFICIO | ombreira lateral.023",
+        "EDIFICIO | verga peitoril.022",
+        "EDIFICIO | verga peitoril.023",
+        "EDIFICIO | montante lateral.011",
+        "EDIFICIO | travessa lateral.022",
+        "EDIFICIO | travessa lateral.023"
+      ]
+    },
+    "SOUTH": {
+      "rotation": [
+        [
+          0.9999877983535991,
+          -0.004939953838020438
+        ],
+        [
+          0.004939953838020438,
+          0.9999877983535991
+        ]
+      ],
+      "translation": [
+        -0.42780676006598206,
+        0.2739125117015293
+      ],
+      "old_anchor": [
+        5.500000476837158,
+        -5.623059272766113
+      ],
+      "new_anchor": [
+        5.0999042609460705,
+        -5.32190840201898
+      ],
+      "rotation_deg": 0.28303965709223133,
+      "objects": [
+        "EDIFICIO | janela lateral",
+        "EDIFICIO | ombreira lateral",
+        "EDIFICIO | ombreira lateral.001",
+        "EDIFICIO | verga peitoril",
+        "EDIFICIO | verga peitoril.001",
+        "EDIFICIO | montante lateral",
+        "EDIFICIO | travessa lateral",
+        "EDIFICIO | travessa lateral.001",
+        "EDIFICIO | janela lateral.001",
+        "EDIFICIO | ombreira lateral.002",
+        "EDIFICIO | ombreira lateral.003",
+        "EDIFICIO | verga peitoril.002",
+        "EDIFICIO | verga peitoril.003",
+        "EDIFICIO | montante lateral.001",
+        "EDIFICIO | travessa lateral.002",
+        "EDIFICIO | travessa lateral.003",
+        "EDIFICIO | janela lateral.002",
+        "EDIFICIO | ombreira lateral.004",
+        "EDIFICIO | ombreira lateral.005",
+        "EDIFICIO | verga peitoril.004",
+        "EDIFICIO | verga peitoril.005",
+        "EDIFICIO | montante lateral.002",
+        "EDIFICIO | travessa lateral.004",
+        "EDIFICIO | travessa lateral.005",
+        "EDIFICIO | janela lateral.003",
+        "EDIFICIO | ombreira lateral.006",
+        "EDIFICIO | ombreira lateral.007",
+        "EDIFICIO | verga peitoril.006",
+        "EDIFICIO | verga peitoril.007",
+        "EDIFICIO | montante lateral.003",
+        "EDIFICIO | travessa lateral.006",
+        "EDIFICIO | travessa lateral.007",
+        "EDIFICIO | janela lateral.004",
+        "EDIFICIO | ombreira lateral.008",
+        "EDIFICIO | ombreira lateral.009",
+        "EDIFICIO | verga peitoril.008",
+        "EDIFICIO | verga peitoril.009",
+        "EDIFICIO | montante lateral.004",
+        "EDIFICIO | travessa lateral.008",
+        "EDIFICIO | travessa lateral.009",
+        "EDIFICIO | janela lateral.005",
+        "EDIFICIO | ombreira lateral.010",
+        "EDIFICIO | ombreira lateral.011",
+        "EDIFICIO | verga peitoril.010",
+        "EDIFICIO | verga peitoril.011",
+        "EDIFICIO | montante lateral.005",
+        "EDIFICIO | travessa lateral.010",
+        "EDIFICIO | travessa lateral.011"
+      ]
+    }
+  },
+  "windows": [
+    {
+      "object": "FACHADA SUPERIOR | janela",
+      "facade": "FRONT",
+      "vertices_local_after": [
+        [
+          5.199464414734901,
+          -4.267092953084768,
+          75.18550872802734
+        ],
+        [
+          5.199464414734901,
+          -4.267092953084768,
+          77.7271728515625
+        ],
+        [
+          5.402706784112414,
+          -2.1138650250804636,
+          75.18550872802734
+        ],
+        [
+          5.402706784112414,
+          -2.1138650250804636,
+          77.7271728515625
+        ],
+        [
+          5.34155165419271,
+          -4.280504513853666,
+          75.18550872802734
+        ],
+        [
+          5.34155165419271,
+          -4.280504513853666,
+          77.7271728515625
+        ],
+        [
+          5.544794023570223,
+          -2.12727658584936,
+          75.18550872802734
+        ],
+        [
+          5.544794023570223,
+          -2.12727658584936,
+          77.7271728515625
+        ]
+      ],
+      "z_shift": 0.0,
+      "opening_margin_candidate": 0.025
+    },
+    {
+      "object": "FACHADA SUPERIOR | janela.001",
+      "facade": "FRONT",
+      "vertices_local_after": [
+        [
+          5.511101264127081,
+          -0.9654769393077025,
+          75.18550872802734
+        ],
+        [
+          5.511101264127081,
+          -0.9654769393077025,
+          77.7271728515625
+        ],
+        [
+          5.71434361109994,
+          1.1877507513330618,
+          75.18550872802734
+        ],
+        [
+          5.71434361109994,
+          1.1877507513330618,
+          77.7271728515625
+        ],
+        [
+          5.6531885035848894,
+          -0.9788885000765992,
+          75.18550872802734
+        ],
+        [
+          5.6531885035848894,
+          -0.9788885000765992,
+          77.7271728515625
+        ],
+        [
+          5.856430850557748,
+          1.1743391905641654,
+          75.18550872802734
+        ],
+        [
+          5.856430850557748,
+          1.1743391905641654,
+          77.7271728515625
+        ]
+      ],
+      "z_shift": 0.0,
+      "opening_margin_candidate": 0.025
+    },
+    {
+      "object": "FACHADA SUPERIOR | janela.002",
+      "facade": "FRONT",
+      "vertices_local_after": [
+        [
+          5.822738180733226,
+          2.3361397865599844,
+          75.18550872802734
+        ],
+        [
+          5.822738180733226,
+          2.3361397865599844,
+          77.7271728515625
+        ],
+        [
+          6.025980527706085,
+          4.489367477200749,
+          75.18550872802734
+        ],
+        [
+          6.025980527706085,
+          4.489367477200749,
+          77.7271728515625
+        ],
+        [
+          5.964825420191034,
+          2.322728225791088,
+          75.18550872802734
+        ],
+        [
+          5.964825420191034,
+          2.322728225791088,
+          77.7271728515625
+        ],
+        [
+          6.168067767163893,
+          4.475955916431852,
+          75.18550872802734
+        ],
+        [
+          6.168067767163893,
+          4.475955916431852,
+          77.7271728515625
+        ]
+      ],
+      "z_shift": 0.0,
+      "opening_margin_candidate": 0.025
+    },
+    {
+      "object": "FACHADA SUPERIOR | janela.003",
+      "facade": "FRONT",
+      "vertices_local_after": [
+        [
+          5.199464414734901,
+          -4.267092953084768,
+          79.66551127115885
+        ],
+        [
+          5.199464414734901,
+          -4.267092953084768,
+          82.20718302408854
+        ],
+        [
+          5.402706784112414,
+          -2.1138650250804636,
+          79.66551127115885
+        ],
+        [
+          5.402706784112414,
+          -2.1138650250804636,
+          82.20718302408854
+        ],
+        [
+          5.34155165419271,
+          -4.280504513853666,
+          79.66551127115885
+        ],
+        [
+          5.34155165419271,
+          -4.280504513853666,
+          82.20718302408854
+        ],
+        [
+          5.544794023570223,
+          -2.12727658584936,
+          79.66551127115885
+        ],
+        [
+          5.544794023570223,
+          -2.12727658584936,
+          82.20718302408854
+        ]
+      ],
+      "z_shift": 0.8966666666666661,
+      "opening_margin_candidate": 0.025
+    },
+    {
+      "object": "FACHADA SUPERIOR | janela.004",
+      "facade": "FRONT",
+      "vertices_local_after": [
+        [
+          5.511101264127081,
+          -0.9654769393077025,
+          79.66551127115885
+        ],
+        [
+          5.511101264127081,
+          -0.9654769393077025,
+          82.20718302408854
+        ],
+        [
+          5.71434361109994,
+          1.1877507513330618,
+          79.66551127115885
+        ],
+        [
+          5.71434361109994,
+          1.1877507513330618,
+          82.20718302408854
+        ],
+        [
+          5.6531885035848894,
+          -0.9788885000765992,
+          79.66551127115885
+        ],
+        [
+          5.6531885035848894,
+          -0.9788885000765992,
+          82.20718302408854
+        ],
+        [
+          5.856430850557748,
+          1.1743391905641654,
+          79.66551127115885
+        ],
+        [
+          5.856430850557748,
+          1.1743391905641654,
+          82.20718302408854
+        ]
+      ],
+      "z_shift": 0.8966666666666661,
+      "opening_margin_candidate": 0.025
+    },
+    {
+      "object": "FACHADA SUPERIOR | janela.005",
+      "facade": "FRONT",
+      "vertices_local_after": [
+        [
+          5.822738180733226,
+          2.3361397865599844,
+          79.66551127115885
+        ],
+        [
+          5.822738180733226,
+          2.3361397865599844,
+          82.20718302408854
+        ],
+        [
+          6.025980527706085,
+          4.489367477200749,
+          79.66551127115885
+        ],
+        [
+          6.025980527706085,
+          4.489367477200749,
+          82.20718302408854
+        ],
+        [
+          5.964825420191034,
+          2.322728225791088,
+          79.66551127115885
+        ],
+        [
+          5.964825420191034,
+          2.322728225791088,
+          82.20718302408854
+        ],
+        [
+          6.168067767163893,
+          4.475955916431852,
+          79.66551127115885
+        ],
+        [
+          6.168067767163893,
+          4.475955916431852,
+          82.20718302408854
+        ]
+      ],
+      "z_shift": 0.8966666666666661,
+      "opening_margin_candidate": 0.025
+    },
+    {
+      "object": "EDIFICIO | janela lateral.006",
+      "facade": "NORTH",
+      "vertices_local_after": [
+        [
+          -7.896082677392512,
+          5.434101792546401,
+          75.33134460449219
+        ],
+        [
+          -5.541299995776799,
+          5.450975876608386,
+          75.33134460449219
+        ],
+        [
+          -5.5419160413335,
+          5.537482434090399,
+          75.33134460449219
+        ],
+        [
+          -7.89670062341553,
+          5.5206073827118765,
+          75.33134460449219
+        ],
+        [
+          -7.896082677392512,
+          5.434101792546401,
+          77.58134460449219
+        ],
+        [
+          -5.541299995776799,
+          5.450975876608386,
+          77.58134460449219
+        ],
+        [
+          -5.5419160413335,
+          5.537482434090399,
+          77.58134460449219
+        ],
+        [
+          -7.89670062341553,
+          5.5206073827118765,
+          77.58134460449219
+        ]
+      ],
+      "z_shift": 0.0,
+      "opening_margin_candidate": 0.025
+    },
+    {
+      "object": "EDIFICIO | janela lateral.007",
+      "facade": "NORTH",
+      "vertices_local_after": [
+        [
+          -7.896082677392512,
+          5.434101792546401,
+          79.81133951822916
+        ],
+        [
+          -5.541299995776799,
+          5.450975876608386,
+          79.81133951822916
+        ],
+        [
+          -5.5419160413335,
+          5.537482434090399,
+          79.81133951822916
+        ],
+        [
+          -7.89670062341553,
+          5.5206073827118765,
+          79.81133951822916
+        ],
+        [
+          -7.896082677392512,
+          5.434101792546401,
+          82.06133951822916
+        ],
+        [
+          -5.541299995776799,
+          5.450975876608386,
+          82.06133951822916
+        ],
+        [
+          -5.5419160413335,
+          5.537482434090399,
+          82.06133951822916
+        ],
+        [
+          -7.89670062341553,
+          5.5206073827118765,
+          82.06133951822916
+        ]
+      ],
+      "z_shift": 0.8966666666666661,
+      "opening_margin_candidate": 0.025
+    },
+    {
+      "object": "EDIFICIO | janela lateral.008",
+      "facade": "NORTH",
+      "vertices_local_after": [
+        [
+          -2.901076533393586,
+          5.469890510218868,
+          75.33134460449219
+        ],
+        [
+          -0.5462900371785344,
+          5.48676462161426,
+          75.33134460449219
+        ],
+        [
+          -0.5469137597673732,
+          5.573277799978301,
+          75.33134460449219
+        ],
+        [
+          -2.901699288665887,
+          5.556401788116594,
+          75.33134460449219
+        ],
+        [
+          -2.901076533393586,
+          5.469890510218868,
+          77.58134460449219
+        ],
+        [
+          -0.5462900371785344,
+          5.48676462161426,
+          77.58134460449219
+        ],
+        [
+          -0.5469137597673732,
+          5.573277799978301,
+          77.58134460449219
+        ],
+        [
+          -2.901699288665887,
+          5.556401788116594,
+          77.58134460449219
+        ]
+      ],
+      "z_shift": 0.0,
+      "opening_margin_candidate": 0.025
+    },
+    {
+      "object": "EDIFICIO | janela lateral.009",
+      "facade": "NORTH",
+      "vertices_local_after": [
+        [
+          -2.901076533393586,
+          5.469890510218868,
+          79.81133951822916
+        ],
+        [
+          -0.5462900371785344,
+          5.48676462161426,
+          79.81133951822916
+        ],
+        [
+          -0.5469137597673732,
+          5.573277799978301,
+          79.81133951822916
+        ],
+        [
+          -2.901699288665887,
+          5.556401788116594,
+          79.81133951822916
+        ],
+        [
+          -2.901076533393586,
+          5.469890510218868,
+          82.06133951822916
+        ],
+        [
+          -0.5462900371785344,
+          5.48676462161426,
+          82.06133951822916
+        ],
+        [
+          -0.5469137597673732,
+          5.573277799978301,
+          82.06133951822916
+        ],
+        [
+          -2.901699288665887,
+          5.556401788116594,
+          82.06133951822916
+        ]
+      ],
+      "z_shift": 0.8966666666666661,
+      "opening_margin_candidate": 0.025
+    },
+    {
+      "object": "EDIFICIO | janela lateral.010",
+      "facade": "NORTH",
+      "vertices_local_after": [
+        [
+          2.0939314974049545,
+          5.505682102507543,
+          75.33134460449219
+        ],
+        [
+          4.448715139503854,
+          5.522555239753045,
+          75.33134460449219
+        ],
+        [
+          4.448095238347705,
+          5.609067491800659,
+          75.33134460449219
+        ],
+        [
+          2.093310663099026,
+          5.592191486772302,
+          75.33134460449219
+        ],
+        [
+          2.0939314974049545,
+          5.505682102507543,
+          77.58134460449219
+        ],
+        [
+          4.448715139503854,
+          5.522555239753045,
+          77.58134460449219
+        ],
+        [
+          4.448095238347705,
+          5.609067491800659,
+          77.58134460449219
+        ],
+        [
+          2.093310663099026,
+          5.592191486772302,
+          77.58134460449219
+        ]
+      ],
+      "z_shift": 0.0,
+      "opening_margin_candidate": 0.025
+    },
+    {
+      "object": "EDIFICIO | janela lateral.011",
+      "facade": "NORTH",
+      "vertices_local_after": [
+        [
+          2.0939314974049545,
+          5.505682102507543,
+          79.81133951822916
+        ],
+        [
+          4.448715139503854,
+          5.522555239753045,
+          79.81133951822916
+        ],
+        [
+          4.448095238347705,
+          5.609067491800659,
+          79.81133951822916
+        ],
+        [
+          2.093310663099026,
+          5.592191486772302,
+          79.81133951822916
+        ],
+        [
+          2.0939314974049545,
+          5.505682102507543,
+          82.06133951822916
+        ],
+        [
+          4.448715139503854,
+          5.522555239753045,
+          82.06133951822916
+        ],
+        [
+          4.448095238347705,
+          5.609067491800659,
+          82.06133951822916
+        ],
+        [
+          2.093310663099026,
+          5.592191486772302,
+          82.06133951822916
+        ]
+      ],
+      "z_shift": 0.8966666666666661,
+      "opening_margin_candidate": 0.025
+    },
+    {
+      "object": "EDIFICIO | janela lateral",
+      "facade": "SOUTH",
+      "vertices_local_after": [
+        [
+          -8.921599927630352,
+          -5.468072913215467,
+          75.33134460449219
+        ],
+        [
+          -6.566783613619873,
+          -5.456440087387611,
+          75.33134460449219
+        ],
+        [
+          -6.567214791640022,
+          -5.369929549877661,
+          75.33134460449219
+        ],
+        [
+          -8.922031115072715,
+          -5.381560468380157,
+          75.33134460449219
+        ],
+        [
+          -8.921599927630352,
+          -5.468072913215467,
+          77.58134460449219
+        ],
+        [
+          -6.566783613619873,
+          -5.456440087387611,
+          77.58134460449219
+        ],
+        [
+          -6.567214791640022,
+          -5.369929549877661,
+          77.58134460449219
+        ],
+        [
+          -8.922031115072715,
+          -5.381560468380157,
+          77.58134460449219
+        ]
+      ],
+      "z_shift": 0.0,
+      "opening_margin_candidate": 0.025
+    },
+    {
+      "object": "EDIFICIO | janela lateral.001",
+      "facade": "SOUTH",
+      "vertices_local_after": [
+        [
+          -8.921599927630352,
+          -5.468072913215467,
+          79.81133951822916
+        ],
+        [
+          -6.566783613619873,
+          -5.456440087387611,
+          79.81133951822916
+        ],
+        [
+          -6.567214791640022,
+          -5.369929549877661,
+          79.81133951822916
+        ],
+        [
+          -8.922031115072715,
+          -5.381560468380157,
+          79.81133951822916
+        ],
+        [
+          -8.921599927630352,
+          -5.468072913215467,
+          82.06133951822916
+        ],
+        [
+          -6.566783613619873,
+          -5.456440087387611,
+          82.06133951822916
+        ],
+        [
+          -6.567214791640022,
+          -5.369929549877661,
+          82.06133951822916
+        ],
+        [
+          -8.922031115072715,
+          -5.381560468380157,
+          82.06133951822916
+        ]
+      ],
+      "z_shift": 0.8966666666666661,
+      "opening_margin_candidate": 0.025
+    },
+    {
+      "object": "EDIFICIO | janela lateral.002",
+      "facade": "SOUTH",
+      "vertices_local_after": [
+        [
+          -3.926524615530404,
+          -5.443397170671573,
+          75.33134460449219
+        ],
+        [
+          -1.5717111530857517,
+          -5.431766266302398,
+          75.33134460449219
+        ],
+        [
+          -1.5721423216836865,
+          -5.3452576361178075,
+          75.33134460449219
+        ],
+        [
+          -3.9269577008759127,
+          -5.356886642583837,
+          75.33134460449219
+        ],
+        [
+          -3.926524615530404,
+          -5.443397170671573,
+          77.58134460449219
+        ],
+        [
+          -1.5717111530857517,
+          -5.431766266302398,
+          77.58134460449219
+        ],
+        [
+          -1.5721423216836865,
+          -5.3452576361178075,
+          77.58134460449219
+        ],
+        [
+          -3.9269577008759127,
+          -5.356886642583837,
+          77.58134460449219
+        ]
+      ],
+      "z_shift": 0.0,
+      "opening_margin_candidate": 0.025
+    },
+    {
+      "object": "EDIFICIO | janela lateral.003",
+      "facade": "SOUTH",
+      "vertices_local_after": [
+        [
+          -3.926524615530404,
+          -5.443397170671573,
+          79.81133951822916
+        ],
+        [
+          -1.5717111530857517,
+          -5.431766266302398,
+          79.81133951822916
+        ],
+        [
+          -1.5721423216836865,
+          -5.3452576361178075,
+          79.81133951822916
+        ],
+        [
+          -3.9269577008759127,
+          -5.356886642583837,
+          79.81133951822916
+        ],
+        [
+          -3.926524615530404,
+          -5.443397170671573,
+          82.06133951822916
+        ],
+        [
+          -1.5717111530857517,
+          -5.431766266302398,
+          82.06133951822916
+        ],
+        [
+          -1.5721423216836865,
+          -5.3452576361178075,
+          82.06133951822916
+        ],
+        [
+          -3.9269577008759127,
+          -5.356886642583837,
+          82.06133951822916
+        ]
+      ],
+      "z_shift": 0.8966666666666661,
+      "opening_margin_candidate": 0.025
+    },
+    {
+      "object": "EDIFICIO | janela lateral.004",
+      "facade": "SOUTH",
+      "vertices_local_after": [
+        [
+          1.0685440303529974,
+          -5.418723368430788,
+          75.33134460449219
+        ],
+        [
+          3.423362246977728,
+          -5.407089579518036,
+          75.33134460449219
+        ],
+        [
+          3.4229348788971925,
+          -5.320578069500979,
+          75.33134460449219
+        ],
+        [
+          1.0681166622724616,
+          -5.33221185841373,
+          75.33134460449219
+        ],
+        [
+          1.0685440303529974,
+          -5.418723368430788,
+          77.58134460449219
+        ],
+        [
+          3.423362246977728,
+          -5.407089579518036,
+          77.58134460449219
+        ],
+        [
+          3.4229348788971925,
+          -5.320578069500979,
+          77.58134460449219
+        ],
+        [
+          1.0681166622724616,
+          -5.33221185841373,
+          77.58134460449219
+        ]
+      ],
+      "z_shift": 0.0,
+      "opening_margin_candidate": 0.025
+    },
+    {
+      "object": "EDIFICIO | janela lateral.005",
+      "facade": "SOUTH",
+      "vertices_local_after": [
+        [
+          1.0685440303529974,
+          -5.418723368430788,
+          79.81133951822916
+        ],
+        [
+          3.423362246977728,
+          -5.407089579518036,
+          79.81133951822916
+        ],
+        [
+          3.4229348788971925,
+          -5.320578069500979,
+          79.81133951822916
+        ],
+        [
+          1.0681166622724616,
+          -5.33221185841373,
+          79.81133951822916
+        ],
+        [
+          1.0685440303529974,
+          -5.418723368430788,
+          82.06133951822916
+        ],
+        [
+          3.423362246977728,
+          -5.407089579518036,
+          82.06133951822916
+        ],
+        [
+          3.4229348788971925,
+          -5.320578069500979,
+          82.06133951822916
+        ],
+        [
+          1.0681166622724616,
+          -5.33221185841373,
+          82.06133951822916
+        ]
+      ],
+      "z_shift": 0.8966666666666661,
+      "opening_margin_candidate": 0.025
+    }
+  ],
+  "levels": {
+    "body_bottom": 74.12300872802734,
+    "floor1": 75.06300872802734,
+    "floor2": 79.54300872802735,
+    "roof_bottom": 83.87300872802734,
+    "roof_top": 84.12300872802734,
+    "parapet_top": 85.52300872802735,
+    "slab_thickness_candidate": 0.25
+  },
+  "second_window_row_shift": 0.8966666666666661,
+  "wall_thickness_candidate": 0.3,
+  "floor_admin_boundary": [
+    [
+      -9.894137524852225,
+      4.011922278218815
+    ],
+    [
+      -9.880939525039327,
+      -4.933445553989455
+    ]
+  ],
+  "source_ids": [
+    "source:lacerda-issue22-sucop-18",
+    "source:lacerda-issue22-sucop-19",
+    "source:lacerda-issue22-sucop-20",
+    "source:lacerda-issue22-sucop-23"
+  ],
+  "source_sha256": {
+    "18": "4ac8bae39a675f02c3e7e2c9ec1cb67dc0e592d8f5d74c52c8f9a4c01d500251",
+    "19": "320f3956014c813d6fc8d3fde4d753bbe74027ae62b5c3da9ad3ce02d960b1b1",
+    "20": "2e488bb972ecba9732197fa805f1a77d0867f1e7a41f85de612f6cf7294f1eaf",
+    "23": "8d8e57f67dc38ab097fce4d9a4c823866fc8db8cd8a0f56f71ff46b7b81efb5b"
+  },
+  "accuracy": "DOCUMENT_RELATIVE_MAJOR_CONTOUR_LEGACY_WINDOW_LAYOUT_CANDIDATE_SECTION",
+  "simplifications": [
+    "Pequenos rebaixos dos pilares/jambas omitidos no envelope massing",
+    "Janelas legadas conservam forma e largura, com migração rígida de fachada; layout/cotas de peitoril candidatos",
+    "Segunda fileira acompanha diferença documental de níveis4,48m, sem esticar caixilhos",
+    "Lajes somente nas salas administrativas, excluindo ala técnica, caixa de elevadores e escada",
+    "Espessura de parede0,30 e laje0,25 herdada/candidata; não seção certificada"
+  ],
+  "production_ready": false
+}

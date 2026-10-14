@@ -1,0 +1,13 @@
+{
+  "schema": "boas/lfs-temp-compaction-probe-v1",
+  "date": "2026-10-05",
+  "file": ".git/lfs/tmp/3739201904",
+  "method": "Windows WOF LZX",
+  "deleted_files": 0,
+  "physical_before_bytes": 100238336,
+  "physical_after_bytes": 92336128,
+  "reclaimed_bytes": 7902208,
+  "sha256_same": true,
+  "sha256": "6882ad3b7e47059e21b5858a14751f6fccfcdd61d035944723c1d82b08a1bc1e",
+  "decision": "Compactação de amostra recuperou somente 7,88%; não ampliada para dezenas de GB. Exclusão de temporários permanece bloqueada pela revisão automática."
+}

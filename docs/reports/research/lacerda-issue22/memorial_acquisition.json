@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1dHoszctHSVBQlff027puX9-asZa_xpKH",
+    "name": "2301_RREL_PE_Caderno de Especificações_R00.pdf",
+    "parent_id": "1Slmn_rtmJFKedzYa2J4M1gAyYev6BQ74",
+    "is_folder": false,
+    "source_url": "https://drive.google.com/drive/folders/1Slmn_rtmJFKedzYa2J4M1gAyYev6BQ74",
+    "status": "pdf_recovered",
+    "release_status": "DEV_REFERENCE_ONLY",
+    "requested_url": "https://drive.google.com/uc?export=download&id=1dHoszctHSVBQlff027puX9-asZa_xpKH",
+    "retrieved_at": "2026-10-06T12:32:18.842166+00:00",
+    "evidence_class": "OFFICIAL_TEXT",
+    "raw_file": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-specifications.pdf",
+    "sha256": "033806e525de9b2b926e04584ba1f389e7441c41127817080c5f745eceaba6e9",
+    "pages": 11
+  },
+  {
+    "id": "1I_IZA-cDUoTqtDpbpC8-rwovxQ3KTy_H",
+    "name": "2301_RREL_PE_Memorial Justificativo_R00.pdf",
+    "parent_id": "1Slmn_rtmJFKedzYa2J4M1gAyYev6BQ74",
+    "is_folder": false,
+    "source_url": "https://drive.google.com/drive/folders/1Slmn_rtmJFKedzYa2J4M1gAyYev6BQ74",
+    "status": "pdf_recovered",
+    "release_status": "DEV_REFERENCE_ONLY",
+    "requested_url": "https://drive.google.com/uc?export=download&id=1I_IZA-cDUoTqtDpbpC8-rwovxQ3KTy_H",
+    "retrieved_at": "2026-10-06T12:32:19.165783+00:00",
+    "evidence_class": "OFFICIAL_TEXT",
+    "raw_file": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-memorial.pdf",
+    "sha256": "603b33e8af68519d7a7b7129b693b4b3bb78042eb75cd2475f251ae14e3707ee",
+    "pages": 36
+  }
+]

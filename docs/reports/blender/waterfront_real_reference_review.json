@@ -1,0 +1,28 @@
+{
+  "schema": "boas/waterfront-real-reference-review-v1",
+  "review_date": "2026-10-04",
+  "area_id": "mvp-centro-lacerda",
+  "media_reviewed": [
+    "cais-praca-cairu-street-context-6f026986b483",
+    "cais-praca-cairu-waterfront-context-e8ff600587df",
+    "mercado-modelo-roof-c81220c814b5"
+  ],
+  "observed": [
+    "Cais vertical e pavimentado, terminal, estacionamento e guarda-corpo nas vistas de 2022/2024.",
+    "Píeres estreitos sobre água; não preencher marina como terra.",
+    "Forte São Marcelo separado da costa pela água; acesso náutico, sem ponte rodoviária."
+  ],
+  "real_dimensions_from_photos": null,
+  "representation_year": null,
+  "production_approved": false,
+  "manifest_recovery": {
+    "original_entries_preserved": 35,
+    "new_entries": 3,
+    "cause": "Falta de espaço; original restaurado do Git, novas referências com hash conferido."
+  },
+  "source_urls": [
+    "https://commons.wikimedia.org/wiki/File:Mercado_Modelo_-_Salvador_-_20220806152921.JPG",
+    "https://commons.wikimedia.org/wiki/File:Salvador_-_BA_(Sep_2024)_0371.jpg",
+    "https://commons.wikimedia.org/wiki/File:Salvador_-_BA_(Sep_2024)_0575.jpg"
+  ]
+}

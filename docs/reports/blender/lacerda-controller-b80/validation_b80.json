@@ -1,0 +1,36 @@
+{
+  "source": {
+    "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+    "revision": "R30B.80",
+    "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+  },
+  "reopened": true,
+  "original_objects_preserved": 6292,
+  "objects_after": 6294,
+  "unauthorized_changes": [],
+  "floor_collider_max_vertex_distance_to_visual": 0.0,
+  "protected_sources": [
+    {
+      "revision": "R30B.76",
+      "sha256": "8312775096a6f0fd0de5114885ffe2403ad9e367f38a8b40556433ad2dd79a60"
+    },
+    {
+      "revision": "R30B.77B",
+      "sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8"
+    },
+    {
+      "revision": "R30B.78",
+      "sha256": "b79ccf20e4bd1e30895348a742f528754a21ac7212f75b9792cf6794c5437ab0"
+    },
+    {
+      "revision": "R30B.79",
+      "sha256": "777d1748ddcf594cda267590172983743bb75cc11153e1db030f173ef7dde14f"
+    }
+  ],
+  "B78_merged": false,
+  "architecture_changed": false,
+  "ssot_preserved": true,
+  "physics_approved": false,
+  "movement_controller_enabled": false,
+  "status": "preservation_and_floor_binding_passed; upper_support_and_shaft_pending"
+}

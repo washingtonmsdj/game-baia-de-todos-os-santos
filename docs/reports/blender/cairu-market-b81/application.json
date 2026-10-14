@@ -1,0 +1,42 @@
+{
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+    "revision": "R30B.80",
+    "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4",
+    "status": "upper_ground_candidate_shaft_blocked",
+    "parent_file": "blender/salvador_lacerda_r30b79_contrato_colisao_slice.blend",
+    "evidence": "docs/reports/blender/lacerda-controller-b80/scene_b80.json",
+    "notes": "Piso/collider e ground-following superior; nenhuma arquitetura alterada ou merge B78. Sweep/engine seguem bloqueados. Não exportar para produção."
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b81_cairu_colisao_e_rota_parcial.blend",
+    "revision": "R30B.81",
+    "sha256": "45583e49dde0a4a03d6b8d4a654135bb11644e786acb681dab7da3d68984e4af",
+    "status": "external_partial_route_blocked",
+    "parent_file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+    "production_ready": false,
+    "evidence": "docs/reports/blender/cairu-market-b81/application.json",
+    "notes": "Papéis físicos comprovados e patch de meio-fio fiel, rota OSM parcial. Vertical B80 bloqueada; acesso Mercado e controller não aprovados."
+  },
+  "pid": 10684,
+  "objects_before": 6294,
+  "objects_after": 6296,
+  "added_objects": [
+    "B81 | COLLISION | meios-fios Cairu fonte preservada",
+    "B81 | NAV | Cairu OSM parcial bloqueada"
+  ],
+  "modified_metadata_only": [
+    "LAC R30B06 | fundo verde travessia 3178050253",
+    "INFERIOR | piso do saguão",
+    "INFERIOR R21 | passeio da entrada",
+    "INFERIOR R21 | rebaixo acessível",
+    "B63 | VISUAL | meios-fios das vias existentes"
+  ],
+  "original_geometry_transform_material_changed": [],
+  "curb_patch_triangles": 1848,
+  "LACERDA_VERTICAL": "BLOCKED_EXTERNAL_EVIDENCE",
+  "CAIRU_MARKET_PEDESTRIAN": "PARTIAL_ROUTE_APPLIED_BLOCKED",
+  "movement_enabled": false,
+  "production_exported": false,
+  "ssot_sha256": "1d9da0962d456cb38ed3df0da797208e499a8465f82e9836c14bb337df2385e7"
+}

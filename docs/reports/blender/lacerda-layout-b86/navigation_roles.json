@@ -1,0 +1,15 @@
+[
+  {
+    "name": "NAV | passarela superior",
+    "type": "MESH",
+    "display_type": "TEXTURED",
+    "hide_render": false,
+    "collections": [
+      "11 ELEVADOR LACERDA | interior jogavel"
+    ],
+    "properties": {
+      "gameplay": "navegável; ligação estação superior-torre",
+      "game_role": "walkable_surface"
+    }
+  }
+]

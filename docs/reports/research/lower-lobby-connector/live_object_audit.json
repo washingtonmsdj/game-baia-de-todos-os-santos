@@ -1,0 +1,303 @@
+{
+  "file": "blender/salvador_lacerda_r30b81_cairu_colisao_e_rota_parcial.blend",
+  "pid": 10684,
+  "dirty": false,
+  "objects": [
+    {
+      "object": "INFERIOR | piso do saguão",
+      "type": "MESH",
+      "location": [
+        -53.60945129394531,
+        56.125389099121094,
+        7.280999660491943
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -0.7536059617996216
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        8.800000190734863,
+        10.199999809265137,
+        0.25
+      ],
+      "matrix_world": [
+        [
+          0.7292261719703674,
+          0.6842727661132812,
+          0.0,
+          -53.60945129394531
+        ],
+        [
+          -0.6842727661132812,
+          0.7292261719703674,
+          0.0,
+          56.125389099121094
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.280999660491943
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "game_role": "walkable_surface",
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento",
+        "boas_collision_role": "WALKABLE_FLOOR"
+      },
+      "materials": [
+        {
+          "name": "R22 granito interior",
+          "diffuse": [
+            0.4300000071525574,
+            0.4300000071525574,
+            0.4099999964237213,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.4000000059604645
+        }
+      ],
+      "mesh": {
+        "vertices": 8,
+        "polygons": 6
+      },
+      "parent": null,
+      "modifiers": []
+    },
+    {
+      "object": "INFERIOR | guia de fila",
+      "type": "MESH",
+      "location": [
+        -56.74262237548828,
+        54.54007339477539,
+        7.840999126434326
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -0.7536059617996216
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        4.0,
+        0.07999999821186066,
+        1.100000023841858
+      ],
+      "matrix_world": [
+        [
+          0.7292261719703674,
+          0.6842727661132812,
+          0.0,
+          -56.74262237548828
+        ],
+        [
+          -0.6842727661132812,
+          0.7292261719703674,
+          0.0,
+          54.54007339477539
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.840999126434326
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "game_role": "static_collision",
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      },
+      "materials": [
+        {
+          "name": "LAC R30B | inox escovado",
+          "diffuse": [
+            0.47999998927116394,
+            0.5,
+            0.5199999809265137,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.4000000059604645
+        }
+      ],
+      "mesh": {
+        "vertices": 8,
+        "polygons": 6
+      },
+      "parent": null,
+      "modifiers": []
+    },
+    {
+      "object": "INFERIOR | guia de fila.001",
+      "type": "MESH",
+      "location": [
+        -52.22642517089844,
+        59.352962493896484,
+        7.840999126434326
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -0.7536059617996216
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        4.0,
+        0.07999999821186066,
+        1.100000023841858
+      ],
+      "matrix_world": [
+        [
+          0.7292261719703674,
+          0.6842727661132812,
+          0.0,
+          -52.22642517089844
+        ],
+        [
+          -0.6842727661132812,
+          0.7292261719703674,
+          0.0,
+          59.352962493896484
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.840999126434326
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "game_role": "static_collision",
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      },
+      "materials": [
+        {
+          "name": "LAC R30B | inox escovado",
+          "diffuse": [
+            0.47999998927116394,
+            0.5,
+            0.5199999809265137,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.4000000059604645
+        }
+      ],
+      "mesh": {
+        "vertices": 8,
+        "polygons": 6
+      },
+      "parent": null,
+      "modifiers": []
+    },
+    {
+      "object": "B81 | NAV | Cairu OSM parcial bloqueada",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        42.22427749633789,
+        61.90476989746094,
+        0.1503310203552246
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "collections": [
+        "37.1 NAV | PEDESTRIAN PATHS"
+      ],
+      "properties": {
+        "boas_role": "NAVIGATION_HINT_CANDIDATE",
+        "boas_production_ready": false,
+        "boas_provenance_ids": "[\"derived:cairu-external-b81\"]",
+        "boas_route_enabled": false,
+        "boas_osm_control_nodes": "[736745764, 3178050253, 3986605269, 3986605270, 5917201014, 592378620, 13078289038, 12229090827]",
+        "boas_terminus_node": "12229090827",
+        "boas_market_entrance_verified": false
+      },
+      "materials": [],
+      "mesh": null,
+      "parent": null,
+      "modifiers": []
+    }
+  ],
+  "scene_changed": false
+}

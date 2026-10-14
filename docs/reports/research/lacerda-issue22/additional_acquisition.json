@@ -1,0 +1,43 @@
+[
+  {
+    "id": "sucop-annexes-drive",
+    "requested_url": "https://drive.google.com/drive/folders/1gayuTpUYkNcUjoGd5CxWlj58MuWDI1Ju?usp=sharing",
+    "retrieved_at": "2026-10-06T12:19:38.147556+00:00",
+    "release_status": "DEV_REFERENCE_ONLY",
+    "http_status": 200,
+    "final_url": "https://drive.google.com/drive/folders/1gayuTpUYkNcUjoGd5CxWlj58MuWDI1Ju?usp=sharing",
+    "status": "retrieved_html",
+    "raw_file": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-annexes-drive.html",
+    "sha256": "31a60bde689cf0476b14304ee448073de5ebff3a913217ea58a59edfc3eadd69"
+  },
+  {
+    "id": "iphan-archive-lacerda",
+    "requested_url": "https://acervodigital.iphan.gov.br/xmlui/discover?query=Elevador%20Lacerda",
+    "retrieved_at": "2026-10-06T12:19:38.149555+00:00",
+    "release_status": "DEV_REFERENCE_ONLY",
+    "http_status": 200,
+    "final_url": "https://acervodigital.iphan.gov.br/xmlui/discover?query=Elevador%20Lacerda",
+    "status": "retrieved_html",
+    "raw_file": "world-reference/mvp-centro-lacerda/research-20261006-issue22/iphan-archive-lacerda.html",
+    "sha256": "b7fc9833e1058849cceafdf24b481d71143e345d3cdf095abc2513efc715ff97"
+  },
+  {
+    "id": "iphan-search-volume",
+    "requested_url": "https://www.gov.br/iphan/search?SearchableText=pareceres_conselho_consultivo_patrimonio_cultural_vol2.pdf",
+    "retrieved_at": "2026-10-06T12:19:38.149555+00:00",
+    "release_status": "DEV_REFERENCE_ONLY",
+    "http_status": 200,
+    "final_url": "https://www.gov.br/iphan/search?SearchableText=pareceres_conselho_consultivo_patrimonio_cultural_vol2.pdf",
+    "status": "retrieved_html",
+    "raw_file": "world-reference/mvp-centro-lacerda/research-20261006-issue22/iphan-search-volume.html",
+    "sha256": "bb9a39d4fd4e0572f2da982e45978e3acfe8470d1557df35c64a21d3baa2e2ca"
+  },
+  {
+    "id": "otis-modernization-2023",
+    "requested_url": "https://otisinvestors.com/news/news-details/2023/Otis-selected-to-modernize-Elevador-Lacerda/default.aspx",
+    "retrieved_at": "2026-10-06T12:19:39.559144+00:00",
+    "release_status": "DEV_REFERENCE_ONLY",
+    "status": "unavailable",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

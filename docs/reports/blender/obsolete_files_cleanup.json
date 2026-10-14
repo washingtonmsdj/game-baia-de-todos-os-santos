@@ -1,0 +1,81 @@
+{
+  "deleted": [
+    {
+      "path": "artifacts/terrain-vehicle/r30b23_vehicle_test.blend",
+      "bytes": 43940261,
+      "reason": "Cena derivada de teste anterior; revisões oficiais e teste posterior B30 preservados."
+    },
+    {
+      "path": "artifacts/terrain-vehicle/r30b24_vehicle_test.blend",
+      "bytes": 43809444,
+      "reason": "Cena derivada de teste anterior; revisões oficiais e teste posterior B30 preservados."
+    },
+    {
+      "path": "artifacts/terrain-vehicle/r30b25_vehicle_test.blend",
+      "bytes": 43875871,
+      "reason": "Cena derivada de teste anterior; revisões oficiais e teste posterior B30 preservados."
+    },
+    {
+      "path": "artifacts/terrain-vehicle/r30b29_vehicle_test.blend",
+      "bytes": 43892745,
+      "reason": "Cena derivada de teste anterior; revisões oficiais e teste posterior B30 preservados."
+    }
+  ],
+  "deleted_regenerable": [
+    {
+      "path": "artifacts/waterfront/urban_core_b62.npz",
+      "bytes": 20181073
+    },
+    {
+      "path": "artifacts/waterfront/urban_hq_b62.npz",
+      "bytes": 4022445
+    }
+  ],
+  "regeneration_script": "automation/blender/export_urban_boundaries_b62.py",
+  "official_revisions_removed": false,
+  "recovery_copies_removed": false,
+  "browser_cleanup": "docs/reports/blender/obsolete_browser_profiles_cleanup.json",
+  "free_disk_bytes_observed": 1980059648,
+  "regeneration_source": {
+    "file": "blender/salvador_lacerda_r30b62_pavimento_costura_limpa.blend",
+    "sha256": "39b40bd1a18f02388be3e156ee8ec164532bc78db32cfd2ac1f24b44290dd17d"
+  },
+  "deleted_rejected_experiments": [
+    {
+      "path": "blender/salvador_lacerda_mvp_r30c1_urban_slice.blend",
+      "bytes": 41777304,
+      "sha256": "324300cbc9ed201623462b14985af410010d81160b0b22d2d8f3ab4cff91f04d",
+      "reason": "Experimento R30C rejeitado no catálogo; não era fonte ativa nem arquivo versionado."
+    },
+    {
+      "path": "blender/salvador_lacerda_mvp_r30c2_urban_slice.blend",
+      "bytes": 41837504,
+      "sha256": "dc94c4e1d9ae10986f10ba91f31ca1773edb982618f5340a6a96ab8667a410d1",
+      "reason": "Experimento R30C rejeitado no catálogo; não era fonte ativa nem arquivo versionado."
+    },
+    {
+      "path": "blender/salvador_lacerda_mvp_r30c3_terrain_partition.blend",
+      "bytes": 63951287,
+      "sha256": "d4d0a00993de709d33151b7f77a80eb99b8856ac78c17019c7ca35685c85cc84",
+      "reason": "Experimento R30C rejeitado no catálogo; não era fonte ativa nem arquivo versionado."
+    },
+    {
+      "path": "blender/salvador_lacerda_mvp_r30c4_terrain_continuity.blend",
+      "bytes": 63549366,
+      "sha256": "9fdfb46831b343a932269c27c3dc1179bade207d24667fdcbd6631633aa478d7",
+      "reason": "Experimento R30C rejeitado no catálogo; não era fonte ativa nem arquivo versionado."
+    },
+    {
+      "path": "blender/salvador_lacerda_mvp_r30c5_terrain_world_coordinates.blend",
+      "bytes": 63616180,
+      "sha256": "0bbfcb2b2ff91320a459173112d33dbc259b4402e06240d3af3abb62032dc0fa",
+      "reason": "Experimento R30C rejeitado no catálogo; não era fonte ativa nem arquivo versionado."
+    }
+  ],
+  "deleted_one_off_inventory_script": {
+    "path": "automation/blender/inspect_obsolete_files.py",
+    "bytes": 620,
+    "reason": "Inventário temporário concluído e substituído pelo relatório de limpeza."
+  },
+  "free_disk_bytes_observed_after_rejected_cleanup": 249004032
+}

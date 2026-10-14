@@ -1,0 +1,453 @@
+{
+  "active_release_preserved": "439becb587301610f215",
+  "deleted_releases": [
+    {
+      "id": "71f73ae8783ed5c52654",
+      "bytes": 46399012.0,
+      "files": [
+        {
+          "name": "city-cell--1--1.glb",
+          "sha256": "DAD5587B347B987C93873CBDBF9B8A0C55F8EC35BD03FA3714B0282139F64944",
+          "bytes": 3411600
+        },
+        {
+          "name": "city-cell--1--2.glb",
+          "sha256": "ECE6DE6142A5EFF336369274EE0EBC978C7EC93C36B85CF711140169F6EF8A36",
+          "bytes": 479328
+        },
+        {
+          "name": "city-cell--1-0.glb",
+          "sha256": "CEA22F48CA9E2E95058A5E91433DD3DC234B5C8B7152C505C271A8D914000E42",
+          "bytes": 713932
+        },
+        {
+          "name": "city-cell--1-1.glb",
+          "sha256": "CEAC7BF8BABC11A88727F1F8CC63FA7D3BDADC077AEF1BF86A5BC085946B464E",
+          "bytes": 433636
+        },
+        {
+          "name": "city-cell--2--1.glb",
+          "sha256": "267EEAE35C3A8977024BCCA85F77B2014ED267CB672616C0E895FCD49842B21E",
+          "bytes": 426748
+        },
+        {
+          "name": "city-cell--2--2.glb",
+          "sha256": "AD26F5DBBA2B60B57C99A1AB6010A01706FF4BB6F36C715BDB05162ADD1212FE",
+          "bytes": 451596
+        },
+        {
+          "name": "city-cell--2--3.glb",
+          "sha256": "234EC285A3C2E700D651D35C034C264DE7AB197BE24FA1747754BE49E9F2F07A",
+          "bytes": 435376
+        },
+        {
+          "name": "city-cell--2-0.glb",
+          "sha256": "7BF58925251E20792C1CB0733E0636E51680C52D710CF3CE449B31ADCCA5A4EE",
+          "bytes": 428112
+        },
+        {
+          "name": "city-cell--3--2.glb",
+          "sha256": "B330E2093B61D12B3933477BA3F2B0E2C8ED137F821D3C3ED76AA03B5A7D0806",
+          "bytes": 907324
+        },
+        {
+          "name": "city-cell--3--3.glb",
+          "sha256": "5431E568F58D74878D87D8D84BB95F189C747030A248589617253FF9A52AB78F",
+          "bytes": 504508
+        },
+        {
+          "name": "city-cell-0--1.glb",
+          "sha256": "77C7F70CC31FE84BC90A35125C9DCE66BA11D6FA3EB13DE793F8454647E1DB94",
+          "bytes": 1052236
+        },
+        {
+          "name": "city-cell-0--2.glb",
+          "sha256": "B75038F6D6A25F371A9E829BC28C4041786920876F772E976BDCCD9A4928E12C",
+          "bytes": 533064
+        },
+        {
+          "name": "city-cell-0--3.glb",
+          "sha256": "7476E2592615654555A6B100FC66726667E38A9B3D225BB2E71A190F0532B11C",
+          "bytes": 439656
+        },
+        {
+          "name": "city-cell-0-0.glb",
+          "sha256": "3BB010EBF1A49260CB35F22B9EAFC9840222D69DE984C9DC22A4413B6F32E0A6",
+          "bytes": 895528
+        },
+        {
+          "name": "city-cell-0-1.glb",
+          "sha256": "870A612B487E047F2CCCA687A175AA2E7E98E87189B098862E7ABFD07D584E46",
+          "bytes": 436464
+        },
+        {
+          "name": "city-cell-1--1.glb",
+          "sha256": "BCF134F14E3ED2A61BFDB197FA82854C6AD39E8B56F84EE08BE1E59DB638058F",
+          "bytes": 760940
+        },
+        {
+          "name": "city-cell-1--2.glb",
+          "sha256": "1C5B4C84FEDBC6A463129078C2D06C731E8D3C0B0D7C1C7EA3AC653DD2807EF8",
+          "bytes": 647920
+        },
+        {
+          "name": "city-cell-1--3.glb",
+          "sha256": "832153B1085CFD450A9E011E3B4F74D0C3E8573F227D3EB70615FBBEB420B56D",
+          "bytes": 455356
+        },
+        {
+          "name": "city-cell-1-0.glb",
+          "sha256": "887A8AE21F62E31E7F7D45A5FA3B78FE5DDCF4052621468D89C971A78F2BCD1E",
+          "bytes": 599020
+        },
+        {
+          "name": "city-cell-1-1.glb",
+          "sha256": "CB9E2094C66C9D198AE3C3459365C75B833FAB6580ABF6B1109267AF14C3E337",
+          "bytes": 430440
+        },
+        {
+          "name": "city-cell-2--1.glb",
+          "sha256": "0997E8CB65612B1A78771BA2D52827DA307C1E4BF361354421A4E62A1169583E",
+          "bytes": 447632
+        },
+        {
+          "name": "city-cell-2--2.glb",
+          "sha256": "F20EED605087E062F24B1AB506526D43DD22DF869B24CEFC89788BB107D40E6E",
+          "bytes": 453588
+        },
+        {
+          "name": "city-cell-2--3.glb",
+          "sha256": "4F44672A68B9BC9461F164B0E0CBD665E51028CE65A17D3BF7BABA909F04AEEA",
+          "bytes": 432860
+        },
+        {
+          "name": "city-cell-2-0.glb",
+          "sha256": "B7B065EF7AE376D5D4F2B194F8DBD8E0678EB80E21D11FDBD7F4525F69F1CF95",
+          "bytes": 426676
+        },
+        {
+          "name": "city-core.glb",
+          "sha256": "00BEAC2CD642D5C8ADB8A3A9ACBDDF85F138C1D144266CBC259C54B72217FE23",
+          "bytes": 30195472
+        }
+      ],
+      "reason": "Pacote derivado antigo de prévia fora do ponteiro ativo; fontes Blender oficiais e pacote ativo preservados"
+    },
+    {
+      "id": "a0e224c68fe741ed9192",
+      "bytes": 66641894.0,
+      "files": [
+        {
+          "name": "city-cell--1--1.glb",
+          "sha256": "DAD5587B347B987C93873CBDBF9B8A0C55F8EC35BD03FA3714B0282139F64944",
+          "bytes": 3411600
+        },
+        {
+          "name": "city-cell--1--2.glb",
+          "sha256": "ECE6DE6142A5EFF336369274EE0EBC978C7EC93C36B85CF711140169F6EF8A36",
+          "bytes": 479328
+        },
+        {
+          "name": "city-cell--1-0.glb",
+          "sha256": "CEA22F48CA9E2E95058A5E91433DD3DC234B5C8B7152C505C271A8D914000E42",
+          "bytes": 713932
+        },
+        {
+          "name": "city-cell--1-1.glb",
+          "sha256": "CEAC7BF8BABC11A88727F1F8CC63FA7D3BDADC077AEF1BF86A5BC085946B464E",
+          "bytes": 433636
+        },
+        {
+          "name": "city-cell--2--1.glb",
+          "sha256": "267EEAE35C3A8977024BCCA85F77B2014ED267CB672616C0E895FCD49842B21E",
+          "bytes": 426748
+        },
+        {
+          "name": "city-cell--2--2.glb",
+          "sha256": "AD26F5DBBA2B60B57C99A1AB6010A01706FF4BB6F36C715BDB05162ADD1212FE",
+          "bytes": 451596
+        },
+        {
+          "name": "city-cell--2--3.glb",
+          "sha256": "234EC285A3C2E700D651D35C034C264DE7AB197BE24FA1747754BE49E9F2F07A",
+          "bytes": 435376
+        },
+        {
+          "name": "city-cell--2-0.glb",
+          "sha256": "7BF58925251E20792C1CB0733E0636E51680C52D710CF3CE449B31ADCCA5A4EE",
+          "bytes": 428112
+        },
+        {
+          "name": "city-cell--3--2.glb",
+          "sha256": "B330E2093B61D12B3933477BA3F2B0E2C8ED137F821D3C3ED76AA03B5A7D0806",
+          "bytes": 907324
+        },
+        {
+          "name": "city-cell--3--3.glb",
+          "sha256": "5431E568F58D74878D87D8D84BB95F189C747030A248589617253FF9A52AB78F",
+          "bytes": 504508
+        },
+        {
+          "name": "city-cell-0--1.glb",
+          "sha256": "77C7F70CC31FE84BC90A35125C9DCE66BA11D6FA3EB13DE793F8454647E1DB94",
+          "bytes": 1052236
+        },
+        {
+          "name": "city-cell-0--2.glb",
+          "sha256": "B75038F6D6A25F371A9E829BC28C4041786920876F772E976BDCCD9A4928E12C",
+          "bytes": 533064
+        },
+        {
+          "name": "city-cell-0--3.glb",
+          "sha256": "7476E2592615654555A6B100FC66726667E38A9B3D225BB2E71A190F0532B11C",
+          "bytes": 439656
+        },
+        {
+          "name": "city-cell-0-0.glb",
+          "sha256": "3BB010EBF1A49260CB35F22B9EAFC9840222D69DE984C9DC22A4413B6F32E0A6",
+          "bytes": 895528
+        },
+        {
+          "name": "city-cell-0-1.glb",
+          "sha256": "870A612B487E047F2CCCA687A175AA2E7E98E87189B098862E7ABFD07D584E46",
+          "bytes": 436464
+        },
+        {
+          "name": "city-cell-1--1.glb",
+          "sha256": "BCF134F14E3ED2A61BFDB197FA82854C6AD39E8B56F84EE08BE1E59DB638058F",
+          "bytes": 760940
+        },
+        {
+          "name": "city-cell-1--2.glb",
+          "sha256": "1C5B4C84FEDBC6A463129078C2D06C731E8D3C0B0D7C1C7EA3AC653DD2807EF8",
+          "bytes": 647920
+        },
+        {
+          "name": "city-cell-1--3.glb",
+          "sha256": "832153B1085CFD450A9E011E3B4F74D0C3E8573F227D3EB70615FBBEB420B56D",
+          "bytes": 455356
+        },
+        {
+          "name": "city-cell-1-0.glb",
+          "sha256": "887A8AE21F62E31E7F7D45A5FA3B78FE5DDCF4052621468D89C971A78F2BCD1E",
+          "bytes": 599020
+        },
+        {
+          "name": "city-cell-1-1.glb",
+          "sha256": "CB9E2094C66C9D198AE3C3459365C75B833FAB6580ABF6B1109267AF14C3E337",
+          "bytes": 430440
+        },
+        {
+          "name": "city-cell-2--1.glb",
+          "sha256": "0997E8CB65612B1A78771BA2D52827DA307C1E4BF361354421A4E62A1169583E",
+          "bytes": 447632
+        },
+        {
+          "name": "city-cell-2--2.glb",
+          "sha256": "F20EED605087E062F24B1AB506526D43DD22DF869B24CEFC89788BB107D40E6E",
+          "bytes": 453588
+        },
+        {
+          "name": "city-cell-2--3.glb",
+          "sha256": "4F44672A68B9BC9461F164B0E0CBD665E51028CE65A17D3BF7BABA909F04AEEA",
+          "bytes": 432860
+        },
+        {
+          "name": "city-cell-2-0.glb",
+          "sha256": "B7B065EF7AE376D5D4F2B194F8DBD8E0678EB80E21D11FDBD7F4525F69F1CF95",
+          "bytes": 426676
+        },
+        {
+          "name": "city-core.glb",
+          "sha256": "00BEAC2CD642D5C8ADB8A3A9ACBDDF85F138C1D144266CBC259C54B72217FE23",
+          "bytes": 30195472
+        },
+        {
+          "name": "foundation.json",
+          "sha256": "F7A5222CA3F58F47064975612867B6F8F227C3ADBF221B171AC71EFDFF317343",
+          "bytes": 296272
+        },
+        {
+          "name": "manifest.json",
+          "sha256": "DCBB1BEC1C5556682A60A3031D491F5088F74B235A4BAFCE282A90A7EBC7BC63",
+          "bytes": 24448
+        },
+        {
+          "name": "roads.json",
+          "sha256": "5DA6660088EBCBF067ADFCB768DAD4776334D8BEE5CE6AA7ECEF4FFE826BDF7B",
+          "bytes": 536452
+        },
+        {
+          "name": "surfaces.json",
+          "sha256": "24C454D909F2635FBC4A554487762405F076E809A8A759D88AC90932BAFDC682",
+          "bytes": 14719162
+        },
+        {
+          "name": "vehicle.glb",
+          "sha256": "F3F9BE5E2B6DF944677348EAD51F4A96D4607933F594DCFFF60BA45A752A7EB7",
+          "bytes": 4666548
+        }
+      ],
+      "reason": "Pacote derivado antigo de prévia fora do ponteiro ativo; fontes Blender oficiais e pacote ativo preservados"
+    },
+    {
+      "id": "c9db8f1ef0d1997999be",
+      "bytes": 66642262.0,
+      "files": [
+        {
+          "name": "city-cell--1--1.glb",
+          "sha256": "DAD5587B347B987C93873CBDBF9B8A0C55F8EC35BD03FA3714B0282139F64944",
+          "bytes": 3411600
+        },
+        {
+          "name": "city-cell--1--2.glb",
+          "sha256": "ECE6DE6142A5EFF336369274EE0EBC978C7EC93C36B85CF711140169F6EF8A36",
+          "bytes": 479328
+        },
+        {
+          "name": "city-cell--1-0.glb",
+          "sha256": "CEA22F48CA9E2E95058A5E91433DD3DC234B5C8B7152C505C271A8D914000E42",
+          "bytes": 713932
+        },
+        {
+          "name": "city-cell--1-1.glb",
+          "sha256": "CEAC7BF8BABC11A88727F1F8CC63FA7D3BDADC077AEF1BF86A5BC085946B464E",
+          "bytes": 433636
+        },
+        {
+          "name": "city-cell--2--1.glb",
+          "sha256": "267EEAE35C3A8977024BCCA85F77B2014ED267CB672616C0E895FCD49842B21E",
+          "bytes": 426748
+        },
+        {
+          "name": "city-cell--2--2.glb",
+          "sha256": "AD26F5DBBA2B60B57C99A1AB6010A01706FF4BB6F36C715BDB05162ADD1212FE",
+          "bytes": 451596
+        },
+        {
+          "name": "city-cell--2--3.glb",
+          "sha256": "234EC285A3C2E700D651D35C034C264DE7AB197BE24FA1747754BE49E9F2F07A",
+          "bytes": 435376
+        },
+        {
+          "name": "city-cell--2-0.glb",
+          "sha256": "7BF58925251E20792C1CB0733E0636E51680C52D710CF3CE449B31ADCCA5A4EE",
+          "bytes": 428112
+        },
+        {
+          "name": "city-cell--3--2.glb",
+          "sha256": "B330E2093B61D12B3933477BA3F2B0E2C8ED137F821D3C3ED76AA03B5A7D0806",
+          "bytes": 907324
+        },
+        {
+          "name": "city-cell--3--3.glb",
+          "sha256": "5431E568F58D74878D87D8D84BB95F189C747030A248589617253FF9A52AB78F",
+          "bytes": 504508
+        },
+        {
+          "name": "city-cell-0--1.glb",
+          "sha256": "77C7F70CC31FE84BC90A35125C9DCE66BA11D6FA3EB13DE793F8454647E1DB94",
+          "bytes": 1052236
+        },
+        {
+          "name": "city-cell-0--2.glb",
+          "sha256": "B75038F6D6A25F371A9E829BC28C4041786920876F772E976BDCCD9A4928E12C",
+          "bytes": 533064
+        },
+        {
+          "name": "city-cell-0--3.glb",
+          "sha256": "7476E2592615654555A6B100FC66726667E38A9B3D225BB2E71A190F0532B11C",
+          "bytes": 439656
+        },
+        {
+          "name": "city-cell-0-0.glb",
+          "sha256": "3BB010EBF1A49260CB35F22B9EAFC9840222D69DE984C9DC22A4413B6F32E0A6",
+          "bytes": 895528
+        },
+        {
+          "name": "city-cell-0-1.glb",
+          "sha256": "870A612B487E047F2CCCA687A175AA2E7E98E87189B098862E7ABFD07D584E46",
+          "bytes": 436464
+        },
+        {
+          "name": "city-cell-1--1.glb",
+          "sha256": "BCF134F14E3ED2A61BFDB197FA82854C6AD39E8B56F84EE08BE1E59DB638058F",
+          "bytes": 760940
+        },
+        {
+          "name": "city-cell-1--2.glb",
+          "sha256": "1C5B4C84FEDBC6A463129078C2D06C731E8D3C0B0D7C1C7EA3AC653DD2807EF8",
+          "bytes": 647920
+        },
+        {
+          "name": "city-cell-1--3.glb",
+          "sha256": "832153B1085CFD450A9E011E3B4F74D0C3E8573F227D3EB70615FBBEB420B56D",
+          "bytes": 455356
+        },
+        {
+          "name": "city-cell-1-0.glb",
+          "sha256": "887A8AE21F62E31E7F7D45A5FA3B78FE5DDCF4052621468D89C971A78F2BCD1E",
+          "bytes": 599020
+        },
+        {
+          "name": "city-cell-1-1.glb",
+          "sha256": "CB9E2094C66C9D198AE3C3459365C75B833FAB6580ABF6B1109267AF14C3E337",
+          "bytes": 430440
+        },
+        {
+          "name": "city-cell-2--1.glb",
+          "sha256": "0997E8CB65612B1A78771BA2D52827DA307C1E4BF361354421A4E62A1169583E",
+          "bytes": 447632
+        },
+        {
+          "name": "city-cell-2--2.glb",
+          "sha256": "F20EED605087E062F24B1AB506526D43DD22DF869B24CEFC89788BB107D40E6E",
+          "bytes": 453588
+        },
+        {
+          "name": "city-cell-2--3.glb",
+          "sha256": "4F44672A68B9BC9461F164B0E0CBD665E51028CE65A17D3BF7BABA909F04AEEA",
+          "bytes": 432860
+        },
+        {
+          "name": "city-cell-2-0.glb",
+          "sha256": "B7B065EF7AE376D5D4F2B194F8DBD8E0678EB80E21D11FDBD7F4525F69F1CF95",
+          "bytes": 426676
+        },
+        {
+          "name": "city-core.glb",
+          "sha256": "00BEAC2CD642D5C8ADB8A3A9ACBDDF85F138C1D144266CBC259C54B72217FE23",
+          "bytes": 30195472
+        },
+        {
+          "name": "foundation.json",
+          "sha256": "F7A5222CA3F58F47064975612867B6F8F227C3ADBF221B171AC71EFDFF317343",
+          "bytes": 296272
+        },
+        {
+          "name": "manifest.json",
+          "sha256": "BC55549250D45D50F5546B51EDEB7C8C0A70B5BB4E90D7A9CE248DC3A0300FE9",
+          "bytes": 24816
+        },
+        {
+          "name": "roads.json",
+          "sha256": "5DA6660088EBCBF067ADFCB768DAD4776334D8BEE5CE6AA7ECEF4FFE826BDF7B",
+          "bytes": 536452
+        },
+        {
+          "name": "surfaces.json",
+          "sha256": "24C454D909F2635FBC4A554487762405F076E809A8A759D88AC90932BAFDC682",
+          "bytes": 14719162
+        },
+        {
+          "name": "vehicle.glb",
+          "sha256": "F3F9BE5E2B6DF944677348EAD51F4A96D4607933F594DCFFF60BA45A752A7EB7",
+          "bytes": 4666548
+        }
+      ],
+      "reason": "Pacote derivado antigo de prévia fora do ponteiro ativo; fontes Blender oficiais e pacote ativo preservados"
+    }
+  ],
+  "regeneration": "automation/blender/export_active_world.py e pipeline de empacotamento de produção; consultar production.json antes de regenerar",
+  "official_revisions_removed": false
+}

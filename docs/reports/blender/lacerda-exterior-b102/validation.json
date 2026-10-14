@@ -1,0 +1,528 @@
+{
+  "revision": "R30B.102",
+  "file": "blender/salvador_lacerda_r30b102_corpo_encosta_quatro_elevadores.blend",
+  "mesh_checks": [
+    {
+      "object": "B102 | cidade alta | corpo sala técnica norte",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | cidade alta | cobertura sala técnica norte",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | cidade alta | corpo sala técnica sul",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | cidade alta | cobertura sala técnica sul",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | cidade alta | contenção face posterior",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | cidade alta | contenção ala norte encosta",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | cidade alta | contenção ala sul encosta",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-01 | piso",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-01 | teto",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-01 | lateral -1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-01 | lateral 1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-01 | jamba -1 -1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-01 | jamba -1 1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-01 | porta cabine -1 -1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-01 | porta cabine -1 1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-01 | fundo",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-01 | porta estação upper -1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-01 | porta estação upper 1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-01 | porta estação lower -1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-01 | porta estação lower 1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-02 | piso",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-02 | teto",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-02 | lateral -1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-02 | lateral 1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-02 | jamba -1 -1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-02 | jamba -1 1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-02 | porta cabine -1 -1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-02 | porta cabine -1 1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-02 | fundo",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-02 | porta estação upper -1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-02 | porta estação upper 1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-02 | porta estação lower -1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-02 | porta estação lower 1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-03 | piso",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-03 | teto",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-03 | lateral -1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-03 | lateral 1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-03 | jamba -1 -1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-03 | jamba -1 1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-03 | porta cabine -1 -1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-03 | porta cabine -1 1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-03 | jamba 1 -1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-03 | jamba 1 1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-03 | porta cabine 1 -1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-03 | porta cabine 1 1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-03 | porta estação upper -1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-03 | porta estação upper 1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-03 | porta estação lower -1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-03 | porta estação lower 1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-04 | piso",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-04 | teto",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-04 | lateral -1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-04 | lateral 1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-04 | jamba -1 -1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-04 | jamba -1 1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-04 | porta cabine -1 -1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-04 | porta cabine -1 1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-04 | jamba 1 -1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-04 | jamba 1 1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-04 | porta cabine 1 -1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-04 | porta cabine 1 1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-04 | porta estação upper -1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-04 | porta estação upper 1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-04 | porta estação lower -1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | lacerda-04 | porta estação lower 1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    },
+    {
+      "object": "B102 | cidade alta | envoltória externa central",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "inconsistent_edges": 0
+    }
+  ],
+  "preserved_components": 5086,
+  "equipment": [
+    {
+      "id": "lacerda-01",
+      "tower": "CIDADE_ALTA",
+      "status": "CABIN_VOLUME_CCD_CLEAR",
+      "movement_enabled": true,
+      "triangles_narrow_phase": 0,
+      "solid_hits": {},
+      "contacts": {},
+      "controller": {
+        "id": "lacerda-01",
+        "status": "STATE_MACHINE_AND_RIDER_TRANSPORT_PASSED",
+        "samples": 2820,
+        "max_step_m": 0.05,
+        "interlocks": [
+          "closed_doors_during_motion",
+          "landing_requires_car",
+          "portal_sensor_blocks_close",
+          "unknown_ccd_blocks_departure"
+        ],
+        "not_a_full_pedestrian_route_test": true
+      },
+      "method": "SAT triangle vs exact swept cabin OBB; fixed orientation, monotonic vertical segment, full enclosure rather than center rays",
+      "not_proven": [
+        "soleiras/portal pedonal",
+        "rota completa de personagem",
+        "dimensões instaladas",
+        "folgas regulamentares"
+      ]
+    },
+    {
+      "id": "lacerda-02",
+      "tower": "CIDADE_ALTA",
+      "status": "CABIN_VOLUME_CCD_CLEAR",
+      "movement_enabled": true,
+      "triangles_narrow_phase": 0,
+      "solid_hits": {},
+      "contacts": {},
+      "controller": {
+        "id": "lacerda-02",
+        "status": "STATE_MACHINE_AND_RIDER_TRANSPORT_PASSED",
+        "samples": 2820,
+        "max_step_m": 0.05,
+        "interlocks": [
+          "closed_doors_during_motion",
+          "landing_requires_car",
+          "portal_sensor_blocks_close",
+          "unknown_ccd_blocks_departure"
+        ],
+        "not_a_full_pedestrian_route_test": true
+      },
+      "method": "SAT triangle vs exact swept cabin OBB; fixed orientation, monotonic vertical segment, full enclosure rather than center rays",
+      "not_proven": [
+        "soleiras/portal pedonal",
+        "rota completa de personagem",
+        "dimensões instaladas",
+        "folgas regulamentares"
+      ]
+    },
+    {
+      "id": "lacerda-03",
+      "tower": "CIDADE_BAIXA",
+      "status": "CABIN_VOLUME_CCD_CLEAR",
+      "movement_enabled": true,
+      "triangles_narrow_phase": 0,
+      "solid_hits": {},
+      "contacts": {},
+      "controller": {
+        "id": "lacerda-03",
+        "status": "STATE_MACHINE_AND_RIDER_TRANSPORT_PASSED",
+        "samples": 2820,
+        "max_step_m": 0.05,
+        "interlocks": [
+          "closed_doors_during_motion",
+          "landing_requires_car",
+          "portal_sensor_blocks_close",
+          "unknown_ccd_blocks_departure"
+        ],
+        "not_a_full_pedestrian_route_test": true
+      },
+      "method": "SAT triangle vs exact swept cabin OBB; fixed orientation, monotonic vertical segment, full enclosure rather than center rays",
+      "not_proven": [
+        "soleiras/portal pedonal",
+        "rota completa de personagem",
+        "dimensões instaladas",
+        "folgas regulamentares"
+      ]
+    },
+    {
+      "id": "lacerda-04",
+      "tower": "CIDADE_BAIXA",
+      "status": "CABIN_VOLUME_CCD_CLEAR",
+      "movement_enabled": true,
+      "triangles_narrow_phase": 1,
+      "solid_hits": {},
+      "contacts": {},
+      "controller": {
+        "id": "lacerda-04",
+        "status": "STATE_MACHINE_AND_RIDER_TRANSPORT_PASSED",
+        "samples": 2820,
+        "max_step_m": 0.05,
+        "interlocks": [
+          "closed_doors_during_motion",
+          "landing_requires_car",
+          "portal_sensor_blocks_close",
+          "unknown_ccd_blocks_departure"
+        ],
+        "not_a_full_pedestrian_route_test": true
+      },
+      "method": "SAT triangle vs exact swept cabin OBB; fixed orientation, monotonic vertical segment, full enclosure rather than center rays",
+      "not_proven": [
+        "soleiras/portal pedonal",
+        "rota completa de personagem",
+        "dimensões instaladas",
+        "folgas regulamentares"
+      ]
+    }
+  ],
+  "historical_movement_enabled": false,
+  "LACERDA_VERTICAL": "BLOCKED_EXTERNAL_EVIDENCE",
+  "production_ready": false,
+  "scene_is_visible_session": true,
+  "reopened": true,
+  "pedestrian_route": "NOT_VALIDATED_FOR_FOUR_LIFTS",
+  "source_sha256": "ada6128d6a4b50629b8b6a430f77312dd566d921e5aff477d7f8ed3adaa9db54"
+}

@@ -1,0 +1,1262 @@
+{
+  "schema": "boas/cabin-continuous-sweep-v1",
+  "source": {
+    "file": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+    "sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8"
+  },
+  "motion": {
+    "translation": [
+      0.0,
+      0.0,
+      -62.70900011062622
+    ],
+    "parameter": [
+      0,
+      1
+    ]
+  },
+  "method": "CCD SAT triângulo–triângulo contínuo; 17 eixos incluindo coplanaridade, tolerância 1e-7 unidade; todos os componentes móveis visíveis e portas de estação reais",
+  "components": [
+    {
+      "object": "FUNCIONAL | 3 piso",
+      "triangles": 12,
+      "obstacles_contacted": 5
+    },
+    {
+      "object": "FUNCIONAL | 3 teto",
+      "triangles": 12,
+      "obstacles_contacted": 3
+    },
+    {
+      "object": "FUNCIONAL | 3 iluminação",
+      "triangles": 12,
+      "obstacles_contacted": 0
+    },
+    {
+      "object": "FUNCIONAL | 3 lateral inferior -1",
+      "triangles": 12,
+      "obstacles_contacted": 3
+    },
+    {
+      "object": "FUNCIONAL | 3 lateral superior -1",
+      "triangles": 12,
+      "obstacles_contacted": 3
+    },
+    {
+      "object": "FUNCIONAL | 3 montante janela -1 -1",
+      "triangles": 12,
+      "obstacles_contacted": 3
+    },
+    {
+      "object": "FUNCIONAL | 3 montante janela -1 1",
+      "triangles": 12,
+      "obstacles_contacted": 1
+    },
+    {
+      "object": "FUNCIONAL | 3 janela fumê -1",
+      "triangles": 12,
+      "obstacles_contacted": 0
+    },
+    {
+      "object": "FUNCIONAL | 3 peitoril janela -1",
+      "triangles": 188,
+      "obstacles_contacted": 0
+    },
+    {
+      "object": "FUNCIONAL | 3 corrimão -1",
+      "triangles": 428,
+      "obstacles_contacted": 0
+    },
+    {
+      "object": "FUNCIONAL | 3 batente -1 -1",
+      "triangles": 188,
+      "obstacles_contacted": 2
+    },
+    {
+      "object": "FUNCIONAL | 3 porta cabine -1 -1",
+      "triangles": 108,
+      "obstacles_contacted": 3
+    },
+    {
+      "object": "FUNCIONAL | 3 batente -1 1",
+      "triangles": 188,
+      "obstacles_contacted": 3
+    },
+    {
+      "object": "FUNCIONAL | 3 porta cabine -1 1",
+      "triangles": 108,
+      "obstacles_contacted": 3
+    },
+    {
+      "object": "FUNCIONAL | 3 verga -1",
+      "triangles": 12,
+      "obstacles_contacted": 2
+    },
+    {
+      "object": "FUNCIONAL | 3 lateral inferior 1",
+      "triangles": 12,
+      "obstacles_contacted": 3
+    },
+    {
+      "object": "FUNCIONAL | 3 lateral superior 1",
+      "triangles": 12,
+      "obstacles_contacted": 3
+    },
+    {
+      "object": "FUNCIONAL | 3 montante janela 1 -1",
+      "triangles": 12,
+      "obstacles_contacted": 3
+    },
+    {
+      "object": "FUNCIONAL | 3 montante janela 1 1",
+      "triangles": 12,
+      "obstacles_contacted": 1
+    },
+    {
+      "object": "FUNCIONAL | 3 janela fumê 1",
+      "triangles": 12,
+      "obstacles_contacted": 0
+    },
+    {
+      "object": "FUNCIONAL | 3 peitoril janela 1",
+      "triangles": 188,
+      "obstacles_contacted": 0
+    },
+    {
+      "object": "FUNCIONAL | 3 corrimão 1",
+      "triangles": 428,
+      "obstacles_contacted": 0
+    },
+    {
+      "object": "FUNCIONAL | 3 batente 1 -1",
+      "triangles": 188,
+      "obstacles_contacted": 1
+    },
+    {
+      "object": "FUNCIONAL | 3 porta cabine 1 -1",
+      "triangles": 108,
+      "obstacles_contacted": 1
+    },
+    {
+      "object": "FUNCIONAL | 3 batente 1 1",
+      "triangles": 188,
+      "obstacles_contacted": 1
+    },
+    {
+      "object": "FUNCIONAL | 3 porta cabine 1 1",
+      "triangles": 108,
+      "obstacles_contacted": 1
+    },
+    {
+      "object": "FUNCIONAL | 3 verga 1",
+      "triangles": 12,
+      "obstacles_contacted": 1
+    },
+    {
+      "object": "FUNCIONAL | 3 botoeira",
+      "triangles": 12,
+      "obstacles_contacted": 0
+    },
+    {
+      "object": "FUNCIONAL | 3 botão",
+      "triangles": 12,
+      "obstacles_contacted": 0
+    },
+    {
+      "object": "FUNCIONAL | 3 painel de destinos",
+      "triangles": 12,
+      "obstacles_contacted": 0
+    },
+    {
+      "object": "FUNCIONAL | 3 comando interno 1.49",
+      "triangles": 12,
+      "obstacles_contacted": 0
+    },
+    {
+      "object": "FUNCIONAL | 3 comando interno 1.23",
+      "triangles": 12,
+      "obstacles_contacted": 0
+    },
+    {
+      "object": "FUNCIONAL | 3 interfone",
+      "triangles": 12,
+      "obstacles_contacted": 0
+    },
+    {
+      "object": "FUNCIONAL | 3 luminária de serviço",
+      "triangles": 12,
+      "obstacles_contacted": 0
+    },
+    {
+      "object": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 -1",
+      "triangles": 108,
+      "obstacles_contacted": 3
+    },
+    {
+      "object": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 1",
+      "triangles": 108,
+      "obstacles_contacted": 3
+    },
+    {
+      "object": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine 1 -1",
+      "triangles": 108,
+      "obstacles_contacted": 1
+    },
+    {
+      "object": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine 1 1",
+      "triangles": 108,
+      "obstacles_contacted": 1
+    }
+  ],
+  "outer_extent_upper": {
+    "min": [
+      -50.44660568237305,
+      46.7712287902832,
+      69.95500183105469
+    ],
+    "max": [
+      -46.19601821899414,
+      51.0299072265625,
+      73.0250015258789
+    ]
+  },
+  "triangle_pairs_tested": 904535,
+  "contacts": [
+    {
+      "cabin_component": "FUNCIONAL | 3 piso",
+      "obstacle": "ESTAÇÃO INFERIOR | plataforma",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.9983256277162827,
+      "t_last": 1.0,
+      "cabin_floor_z_first": 7.510995964868165,
+      "surface_contact_pairs": 12,
+      "target_triangle_examples": [
+        3,
+        10
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 piso",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.9255290510525757,
+      "t_last": 0.9320671274370111,
+      "cabin_floor_z_first": 12.075996498925782,
+      "surface_contact_pairs": 36,
+      "target_triangle_examples": [
+        0,
+        3,
+        10,
+        11
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 piso",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.0,
+      "t_last": 0.005342122883185466,
+      "cabin_floor_z_first": 70.11499786376953,
+      "surface_contact_pairs": 33,
+      "target_triangle_examples": [
+        0,
+        3,
+        10,
+        11
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 piso",
+      "obstacle": "MVP | terreno corrigido | colisão estática",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.9998458431853291,
+      "t_last": 1.0,
+      "cabin_floor_z_first": 7.415664772851564,
+      "surface_contact_pairs": 54,
+      "target_triangle_examples": [
+        7977,
+        7978,
+        7980,
+        8201,
+        8202,
+        8203,
+        8204,
+        8205,
+        8206,
+        8208,
+        8433,
+        8435
+      ],
+      "obstacle_complete_mesh": false,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 piso",
+      "obstacle": "LAC R30B07 | galeria | consolo inclinado",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.0008770703579829732,
+      "t_last": 0.04648457175819948,
+      "cabin_floor_z_first": 70.05999765859374,
+      "surface_contact_pairs": 218,
+      "target_triangle_examples": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 teto",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.9725716915513564,
+      "t_last": 0.9784720080279276,
+      "cabin_floor_z_first": 9.125999550683595,
+      "surface_contact_pairs": 36,
+      "target_triangle_examples": [
+        0,
+        3,
+        10,
+        11
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 teto",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.045368306234897716,
+      "t_last": 0.051747003474101896,
+      "cabin_floor_z_first": 67.2699967430664,
+      "surface_contact_pairs": 36,
+      "target_triangle_examples": [
+        0,
+        3,
+        10,
+        11
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 teto",
+      "obstacle": "LAC R30B07 | galeria | consolo inclinado",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.04791971085676366,
+      "t_last": 0.09288945234911591,
+      "cabin_floor_z_first": 67.11000071035156,
+      "surface_contact_pairs": 218,
+      "target_triangle_examples": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 lateral inferior -1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.9280804556744416,
+      "t_last": 0.9422729892514142,
+      "cabin_floor_z_first": 11.916000466210939,
+      "surface_contact_pairs": 36,
+      "target_triangle_examples": [
+        0,
+        3,
+        10,
+        11
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 lateral inferior -1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.0008770703579829732,
+      "t_last": 0.015547984697588526,
+      "cabin_floor_z_first": 70.05999765859374,
+      "surface_contact_pairs": 36,
+      "target_triangle_examples": [
+        0,
+        3,
+        10,
+        11
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 lateral inferior -1",
+      "obstacle": "LAC R30B07 | galeria | consolo inclinado",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.0034284749798489176,
+      "t_last": 0.05669043357260254,
+      "cabin_floor_z_first": 69.9000016258789,
+      "surface_contact_pairs": 148,
+      "target_triangle_examples": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        24
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 lateral superior -1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.9634820920709202,
+      "t_last": 0.9773557456939607,
+      "cabin_floor_z_first": 9.695999245507814,
+      "surface_contact_pairs": 36,
+      "target_triangle_examples": [
+        0,
+        3,
+        10,
+        11
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 lateral superior -1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.036278706754461564,
+      "t_last": 0.05063074114013499,
+      "cabin_floor_z_first": 67.83999643789062,
+      "surface_contact_pairs": 36,
+      "target_triangle_examples": [
+        0,
+        3,
+        10,
+        11
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 lateral superior -1",
+      "obstacle": "LAC R30B07 | galeria | consolo inclinado",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.03883011137632751,
+      "t_last": 0.09177319001514901,
+      "cabin_floor_z_first": 67.68000040517578,
+      "surface_contact_pairs": 148,
+      "target_triangle_examples": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        24
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 montante janela -1 -1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.9382863174888447,
+      "t_last": 0.9690634069300896,
+      "cabin_floor_z_first": 11.276001076562501,
+      "surface_contact_pairs": 36,
+      "target_triangle_examples": [
+        0,
+        3,
+        10,
+        11
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 montante janela -1 -1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.011082932172386036,
+      "t_last": 0.04233840237626397,
+      "cabin_floor_z_first": 69.4199982689453,
+      "surface_contact_pairs": 36,
+      "target_triangle_examples": [
+        0,
+        3,
+        10,
+        11
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 montante janela -1 -1",
+      "obstacle": "LAC R30B07 | galeria | consolo inclinado",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.01363433679425198,
+      "t_last": 0.083480851251278,
+      "cabin_floor_z_first": 69.26000223623046,
+      "surface_contact_pairs": 88,
+      "target_triangle_examples": [
+        0,
+        3,
+        7,
+        8,
+        9,
+        11,
+        12,
+        28,
+        29,
+        30,
+        31
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 montante janela -1 1",
+      "obstacle": "LAC R30B07 | galeria | consolo inclinado",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.01363433679425198,
+      "t_last": 0.083480851251278,
+      "cabin_floor_z_first": 69.26000223623046,
+      "surface_contact_pairs": 92,
+      "target_triangle_examples": [
+        1,
+        2,
+        6,
+        7,
+        9,
+        10,
+        24,
+        25,
+        30,
+        31
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 batente -1 -1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.9280804556744416,
+      "t_last": 0.9767178641226267,
+      "cabin_floor_z_first": 11.916000466210939,
+      "surface_contact_pairs": 284,
+      "target_triangle_examples": [
+        0,
+        3,
+        10,
+        11
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 batente -1 -1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.0008770703579829732,
+      "t_last": 0.04999285956880109,
+      "cabin_floor_z_first": 70.05999765859374,
+      "surface_contact_pairs": 284,
+      "target_triangle_examples": [
+        0,
+        3,
+        10,
+        11
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 porta cabine -1 -1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.9280804556744416,
+      "t_last": 0.9687445269761575,
+      "cabin_floor_z_first": 11.916000466210939,
+      "surface_contact_pairs": 216,
+      "target_triangle_examples": [
+        0,
+        3
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 porta cabine -1 -1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.0008770703579829732,
+      "t_last": 0.04201952242233185,
+      "cabin_floor_z_first": 70.05999765859374,
+      "surface_contact_pairs": 216,
+      "target_triangle_examples": [
+        0,
+        3
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 porta cabine -1 -1",
+      "obstacle": "LAC R30B07 | galeria | consolo inclinado",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.0034284749798489176,
+      "t_last": 0.08316197129734587,
+      "cabin_floor_z_first": 69.9000016258789,
+      "surface_contact_pairs": 180,
+      "target_triangle_examples": [
+        3,
+        12,
+        28,
+        29
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 batente -1 1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.9280804556744416,
+      "t_last": 0.9767178641226267,
+      "cabin_floor_z_first": 11.916000466210939,
+      "surface_contact_pairs": 284,
+      "target_triangle_examples": [
+        0,
+        3,
+        10,
+        11
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 batente -1 1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.0008770703579829732,
+      "t_last": 0.04999285956880109,
+      "cabin_floor_z_first": 70.05999765859374,
+      "surface_contact_pairs": 284,
+      "target_triangle_examples": [
+        0,
+        3,
+        10,
+        11
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 batente -1 1",
+      "obstacle": "LAC R30B07 | galeria | consolo inclinado",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.0037154210262978224,
+      "t_last": 0.09084836239736645,
+      "cabin_floor_z_first": 69.88200752622039,
+      "surface_contact_pairs": 44,
+      "target_triangle_examples": [
+        3,
+        12,
+        28,
+        29
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 porta cabine -1 1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.9280804556744416,
+      "t_last": 0.9687445269761575,
+      "cabin_floor_z_first": 11.916000466210939,
+      "surface_contact_pairs": 216,
+      "target_triangle_examples": [
+        0,
+        3
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 porta cabine -1 1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.0008770703579829732,
+      "t_last": 0.04201952242233185,
+      "cabin_floor_z_first": 70.05999765859374,
+      "surface_contact_pairs": 216,
+      "target_triangle_examples": [
+        0,
+        3
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 porta cabine -1 1",
+      "obstacle": "LAC R30B07 | galeria | consolo inclinado",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.0034284749798489176,
+      "t_last": 0.08316197129734587,
+      "cabin_floor_z_first": 69.9000016258789,
+      "surface_contact_pairs": 180,
+      "target_triangle_examples": [
+        3,
+        12,
+        28,
+        29
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 verga -1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.9657146167388541,
+      "t_last": 0.9767178641226267,
+      "cabin_floor_z_first": 9.555999855859376,
+      "surface_contact_pairs": 36,
+      "target_triangle_examples": [
+        0,
+        3,
+        10,
+        11
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 verga -1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.03851123142239538,
+      "t_last": 0.04999285956880109,
+      "cabin_floor_z_first": 67.69999704824218,
+      "surface_contact_pairs": 36,
+      "target_triangle_examples": [
+        0,
+        3,
+        10,
+        11
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 lateral inferior 1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.9280804556744416,
+      "t_last": 0.9422729892514142,
+      "cabin_floor_z_first": 11.916000466210939,
+      "surface_contact_pairs": 36,
+      "target_triangle_examples": [
+        0,
+        3,
+        10,
+        11
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 lateral inferior 1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.0008770703579829732,
+      "t_last": 0.015547984697588526,
+      "cabin_floor_z_first": 70.05999765859374,
+      "surface_contact_pairs": 36,
+      "target_triangle_examples": [
+        0,
+        3,
+        10,
+        11
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 lateral inferior 1",
+      "obstacle": "LAC R30B07 | galeria | consolo inclinado",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.0034284749798489176,
+      "t_last": 0.05669043357260254,
+      "cabin_floor_z_first": 69.9000016258789,
+      "surface_contact_pairs": 134,
+      "target_triangle_examples": [
+        2,
+        3,
+        4,
+        5,
+        10,
+        12,
+        13,
+        14,
+        15,
+        24,
+        25,
+        26
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 lateral superior 1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.9634820920709202,
+      "t_last": 0.9773557456939607,
+      "cabin_floor_z_first": 9.695999245507814,
+      "surface_contact_pairs": 36,
+      "target_triangle_examples": [
+        0,
+        3,
+        10,
+        11
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 lateral superior 1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.036278706754461564,
+      "t_last": 0.05063074114013499,
+      "cabin_floor_z_first": 67.83999643789062,
+      "surface_contact_pairs": 36,
+      "target_triangle_examples": [
+        0,
+        3,
+        10,
+        11
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 lateral superior 1",
+      "obstacle": "LAC R30B07 | galeria | consolo inclinado",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.03883011137632751,
+      "t_last": 0.09177319001514901,
+      "cabin_floor_z_first": 67.68000040517578,
+      "surface_contact_pairs": 134,
+      "target_triangle_examples": [
+        2,
+        3,
+        4,
+        5,
+        10,
+        12,
+        13,
+        14,
+        15,
+        24,
+        25,
+        26
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 montante janela 1 -1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.9382863174888447,
+      "t_last": 0.9690634069300896,
+      "cabin_floor_z_first": 11.276001076562501,
+      "surface_contact_pairs": 36,
+      "target_triangle_examples": [
+        0,
+        3,
+        10,
+        11
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 montante janela 1 -1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.011082932172386036,
+      "t_last": 0.04233840237626397,
+      "cabin_floor_z_first": 69.4199982689453,
+      "surface_contact_pairs": 36,
+      "target_triangle_examples": [
+        0,
+        3,
+        10,
+        11
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 montante janela 1 -1",
+      "obstacle": "LAC R30B07 | galeria | consolo inclinado",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.01363433679425198,
+      "t_last": 0.083480851251278,
+      "cabin_floor_z_first": 69.26000223623046,
+      "surface_contact_pairs": 86,
+      "target_triangle_examples": [
+        3,
+        4,
+        5,
+        12,
+        14,
+        26,
+        27,
+        28,
+        29
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 montante janela 1 1",
+      "obstacle": "LAC R30B07 | galeria | consolo inclinado",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.01363433679425198,
+      "t_last": 0.083480851251278,
+      "cabin_floor_z_first": 69.26000223623046,
+      "surface_contact_pairs": 80,
+      "target_triangle_examples": [
+        2,
+        4,
+        10,
+        13,
+        14,
+        15,
+        24,
+        25,
+        26,
+        27
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 batente 1 -1",
+      "obstacle": "LAC R30B07 | galeria | consolo inclinado",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.00371539009479756,
+      "t_last": 0.09084839332886564,
+      "cabin_floor_z_first": 69.88200946590385,
+      "surface_contact_pairs": 68,
+      "target_triangle_examples": [
+        2,
+        10,
+        24,
+        25
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 porta cabine 1 -1",
+      "obstacle": "LAC R30B07 | galeria | consolo inclinado",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.0034284749798489176,
+      "t_last": 0.08316197129734587,
+      "cabin_floor_z_first": 69.9000016258789,
+      "surface_contact_pairs": 180,
+      "target_triangle_examples": [
+        2,
+        10,
+        24,
+        25
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 batente 1 1",
+      "obstacle": "LAC R30B07 | galeria | consolo inclinado",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.003715403285232126,
+      "t_last": 0.09084838007143037,
+      "cabin_floor_z_first": 69.88200863874489,
+      "surface_contact_pairs": 44,
+      "target_triangle_examples": [
+        2,
+        10,
+        24,
+        25
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 porta cabine 1 1",
+      "obstacle": "LAC R30B07 | galeria | consolo inclinado",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.0034284749798489176,
+      "t_last": 0.08316197129734587,
+      "cabin_floor_z_first": 69.9000016258789,
+      "surface_contact_pairs": 180,
+      "target_triangle_examples": [
+        2,
+        10,
+        24,
+        25
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "FUNCIONAL | 3 verga 1",
+      "obstacle": "LAC R30B07 | galeria | consolo inclinado",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.04106263604426132,
+      "t_last": 0.09113530844381511,
+      "cabin_floor_z_first": 67.54000101552734,
+      "surface_contact_pairs": 36,
+      "target_triangle_examples": [
+        2,
+        10,
+        24,
+        25
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 -1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.9281442073325341,
+      "t_last": 0.9686807753180651,
+      "cabin_floor_z_first": 11.912002663476564,
+      "surface_contact_pairs": 216,
+      "target_triangle_examples": [
+        0,
+        3
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 -1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.0009408220160754703,
+      "t_last": 0.04195577076423935,
+      "cabin_floor_z_first": 70.05599985585937,
+      "surface_contact_pairs": 216,
+      "target_triangle_examples": [
+        0,
+        3
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 -1",
+      "obstacle": "LAC R30B07 | galeria | consolo inclinado",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.0034922266379414147,
+      "t_last": 0.08309821963925337,
+      "cabin_floor_z_first": 69.89600382314453,
+      "surface_contact_pairs": 216,
+      "target_triangle_examples": [
+        3,
+        12
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.9281442073325341,
+      "t_last": 0.9686807753180651,
+      "cabin_floor_z_first": 11.912002663476564,
+      "surface_contact_pairs": 216,
+      "target_triangle_examples": [
+        0,
+        3
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.0009408220160754703,
+      "t_last": 0.04195577076423935,
+      "cabin_floor_z_first": 70.05599985585937,
+      "surface_contact_pairs": 216,
+      "target_triangle_examples": [
+        0,
+        3
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 1",
+      "obstacle": "LAC R30B07 | galeria | consolo inclinado",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.0034922266379414147,
+      "t_last": 0.08309821963925337,
+      "cabin_floor_z_first": 69.89600382314453,
+      "surface_contact_pairs": 216,
+      "target_triangle_examples": [
+        3,
+        12
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine 1 -1",
+      "obstacle": "LAC R30B07 | galeria | consolo inclinado",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.0034922266379414147,
+      "t_last": 0.08309821963925337,
+      "cabin_floor_z_first": 69.89600382314453,
+      "surface_contact_pairs": 216,
+      "target_triangle_examples": [
+        2,
+        10
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    },
+    {
+      "cabin_component": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine 1 1",
+      "obstacle": "LAC R30B07 | galeria | consolo inclinado",
+      "classification": "NEEDS_REVIEW",
+      "detection": "continuous_triangle_surface_contact",
+      "t_first": 0.0034922266379414147,
+      "t_last": 0.08309821963925337,
+      "cabin_floor_z_first": 69.89600382314453,
+      "surface_contact_pairs": 216,
+      "target_triangle_examples": [
+        2,
+        10
+      ],
+      "obstacle_complete_mesh": true,
+      "note": "CCD contínuo de triângulos sob translação; contato pode ser tangência ou interseção. Não alterar arquitetura automaticamente."
+    }
+  ],
+  "status": "blocked",
+  "release_ready": false,
+  "physical_dimensions_verified": false,
+  "positive_clearance_certified": false,
+  "solid_containment_certified": false,
+  "pending": [
+    "Folga física mínima do poço não conhecida; não pode ser aprovada por ausência de contato.",
+    "Teste de contenção de sólidos e geometria não visível do poço não certificados; CCD cobre superfícies exportadas.",
+    "Contrapesos e mecanismos não acrescentados: faltam evidências reais."
+  ]
+}

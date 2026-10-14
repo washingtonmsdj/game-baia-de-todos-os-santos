@@ -1,0 +1,70 @@
+{
+  "schema": "boas/coastal-sculpt-b59-v1",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b58_costura_encosta_gameplay.blend",
+    "revision": "R30B.58",
+    "sha256": "44f07912366549288cc455f61eb503ee68ad25dbf184910f37ef54acc99a6845",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b57_visual_hq_gameplay.blend",
+    "evidence": "docs/reports/blender/coastal_seam_r30b58.json",
+    "notes": "Remove duplicação HQ no núcleo preservado e ancora costura física; visual/colisão correspondentes; não promove runtime."
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b59_encosta_transicao_continua.blend",
+    "revision": "R30B.59",
+    "sha256": "8fa5037fed7c41a3495e48ffab095813362ddfb3bc3a0e7c11330c91016bd003"
+  },
+  "classification": "ADAPT_LOCAL",
+  "collar_max_width_m": 75,
+  "relaxation_max_m": 2,
+  "changed_vertices": 128808,
+  "max_local_vertical_change_m": 21.099689483642578,
+  "visual_collision_identical": true,
+  "road_surfaces": [
+    {
+      "object": "B59 | ROAD VISUAL | 154743329 | run 0",
+      "vertices": 530,
+      "support_missing": 0
+    },
+    {
+      "object": "B59 | ROAD VISUAL | 456471269 | run 0",
+      "vertices": 330,
+      "support_missing": 0
+    },
+    {
+      "object": "B59 | ROAD VISUAL | 978527848 | run 0",
+      "vertices": 970,
+      "support_missing": 0
+    },
+    {
+      "object": "B59 | ROAD VISUAL | 1004133493 | run 0",
+      "vertices": 2290,
+      "support_missing": 0
+    },
+    {
+      "object": "B59 | ROAD VISUAL | 1004133494 | run 0",
+      "vertices": 650,
+      "support_missing": 0
+    },
+    {
+      "object": "B59 | ROAD VISUAL | 1075624454 | run 0",
+      "vertices": 2870,
+      "support_missing": 0
+    },
+    {
+      "object": "B59 | ROAD VISUAL | 1321544428 | run 0",
+      "vertices": 770,
+      "support_missing": 0
+    }
+  ],
+  "protected_changes": [],
+  "source_dem_modified": false,
+  "source_xy_changed": false,
+  "runtime_exported": false,
+  "approved": false,
+  "pending": [
+    "Auditar continuidade física e declividade das vias candidatas",
+    "Fechar lacuna histórica até o cais",
+    "Validar reabertura e aparência"
+  ]
+}

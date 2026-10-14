@@ -1,0 +1,69 @@
+{
+  "scene_changed": false,
+  "photos": [
+    {
+      "resource_id": "source:lacerda-exterior-photo-be2a63741943",
+      "sha256": "be2a637419436430952bd6a36cc95c7d7e944f195da8c06e85423d6deaa2ec56",
+      "logical_path": "mvp-centro-lacerda/elevador-lacerda/conjunto-torres-be2a63741943.png"
+    },
+    {
+      "resource_id": "source:lacerda-exterior-photo-a163983e9d46",
+      "sha256": "a163983e9d4664156a189e4b8ad7daf48b472d3972fc63c9afa34cac9695295c",
+      "logical_path": "mvp-centro-lacerda/elevador-lacerda/conjunto-torres-a163983e9d46.png"
+    },
+    {
+      "resource_id": "source:lacerda-exterior-photo-139fa6c8d4d1",
+      "sha256": "139fa6c8d4d1df0ec326c7ebc74e85a08db7412460ec8a55794bcae722192adc",
+      "logical_path": "mvp-centro-lacerda/elevador-lacerda/conjunto-torres-139fa6c8d4d1.png"
+    },
+    {
+      "resource_id": "source:lacerda-exterior-photo-c0c9a0dc3fc7",
+      "sha256": "c0c9a0dc3fc75627d6d4ef1e87b0155e2025bdede3bfc2cf3cd1fe4ee530cbfa",
+      "logical_path": "mvp-centro-lacerda/elevador-lacerda/conjunto-torres-c0c9a0dc3fc7.png"
+    }
+  ],
+  "drawing": "source:lacerda-issue22-sucop-17",
+  "documentary_orientation": {
+    "status": "CANDIDATE_SEGMENT_COMPARISON_NOT_REGISTERED_TO_SCENE",
+    "shaft_curve_index": 1682,
+    "shaft_segment": [
+      [
+        896.52,
+        1086.88
+      ],
+      [
+        939.7199999999999,
+        1099.72
+      ]
+    ],
+    "longitudinal_curve_index": 1780,
+    "longitudinal_segment": [
+      [
+        1976.8799999999999,
+        1047.1599999999999
+      ],
+      [
+        1095.72,
+        940.36
+      ]
+    ],
+    "acute_difference_degrees": 9.642358054422136,
+    "note": "Não é rotação autorizada da torre: conferir correspondência física e encontro da passarela."
+  },
+  "printed_dimensions_m": [
+    5.2,
+    1.99,
+    2.2
+  ],
+  "printed_area_m2": {
+    "upper_salon": 117.5,
+    "upper_exit_circulation": 86.61,
+    "upper_entry_circulation": 61.93,
+    "lower_lobby": 265.56,
+    "lower_tunnel_circulation": 90.99
+  },
+  "accepted_drawing_to_ssot_transform": null,
+  "all_architectural_dimensions_known": false,
+  "full_model_correction_completed": false,
+  "production_ready": false
+}

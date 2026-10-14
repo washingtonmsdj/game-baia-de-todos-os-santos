@@ -1,0 +1,583 @@
+{
+  "source": "world-reference/centro-lapa-tororo-fontenova/source/osm-mapzen-20261005T045222Z/map.osm",
+  "source_sha256": "1a9f7f634d83f76fc82582eeacbb9943cfa88b7448ff407f143ccf665f5c7dad",
+  "parent_ssot": "world/geographic-reference.json",
+  "ssot_sha256": "1d9da0962d456cb38ed3df0da797208e499a8465f82e9836c14bb337df2385e7",
+  "ways": [
+    {
+      "osm_id": 395865976,
+      "tags": {
+        "bicycle": "yes",
+        "footway": "crossing",
+        "highway": "footway",
+        "lit": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        3178050253,
+        3986605269,
+        3986605270,
+        5917201014,
+        592378620
+      ],
+      "nodes": [
+        {
+          "id": 3178050253,
+          "wgs84": [
+            -12.9739531,
+            -38.5134715
+          ],
+          "blender_xy": [
+            -57.93100311374292,
+            65.21665694145486
+          ],
+          "tags": {
+            "crossing": "uncontrolled",
+            "highway": "crossing"
+          }
+        },
+        {
+          "id": 3986605269,
+          "wgs84": [
+            -12.9739213,
+            -38.5135109
+          ],
+          "blender_xy": [
+            -62.183034122921526,
+            68.74478599056602
+          ],
+          "tags": {}
+        },
+        {
+          "id": 3986605270,
+          "wgs84": [
+            -12.9738723,
+            -38.513458
+          ],
+          "blender_xy": [
+            -56.465044792275876,
+            74.17029078979976
+          ],
+          "tags": {}
+        },
+        {
+          "id": 5917201014,
+          "wgs84": [
+            -12.9738004,
+            -38.5135271
+          ],
+          "blender_xy": [
+            -63.92069616867229,
+            82.14548881817609
+          ],
+          "tags": {
+            "crossing": "traffic_signals",
+            "highway": "crossing",
+            "traffic_signals": "signal"
+          }
+        },
+        {
+          "id": 592378620,
+          "wgs84": [
+            -12.973741,
+            -38.5135852
+          ],
+          "blender_xy": [
+            -70.1895895190537,
+            88.73427379410714
+          ],
+          "tags": {
+            "crossing": "traffic_signals",
+            "highway": "crossing",
+            "traffic_signals": "signal"
+          }
+        }
+      ],
+      "topological_connections": [
+        {
+          "way": 46348179,
+          "shared_nodes": [
+            592378620
+          ],
+          "tags": {
+            "alt_name": "Avenida Contorno",
+            "highway": "primary",
+            "lanes": "3",
+            "lit": "yes",
+            "name": "Avenida Lafayete Coutinho",
+            "oneway": "yes",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "way": 285595135,
+          "shared_nodes": [
+            5917201014
+          ],
+          "tags": {
+            "alt_name": "Praça Cairu",
+            "highway": "primary",
+            "lanes": "2",
+            "lit": "yes",
+            "maxspeed": "30",
+            "name": "Praça Visconde de Cayru",
+            "oneway": "yes",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "way": 312006925,
+          "shared_nodes": [
+            3178050253
+          ],
+          "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes"
+          }
+        },
+        {
+          "way": 978525930,
+          "shared_nodes": [
+            5917201014
+          ],
+          "tags": {
+            "alt_name": "Praça Cairu",
+            "highway": "primary",
+            "lanes": "3",
+            "lit": "yes",
+            "maxspeed": "30",
+            "name": "Praça Visconde de Cayru",
+            "oneway": "yes",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "way": 1004133491,
+          "shared_nodes": [
+            592378620
+          ],
+          "tags": {
+            "alt_name": "Avenida Contorno",
+            "highway": "primary",
+            "lanes": "3",
+            "lit": "yes",
+            "maxspeed": "30",
+            "name": "Avenida Lafayete Coutinho",
+            "oneway": "yes",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "way": 1004133497,
+          "shared_nodes": [
+            3178050253
+          ],
+          "tags": {
+            "highway": "tertiary",
+            "lanes": "1",
+            "lit": "yes",
+            "maxspeed": "30",
+            "name": "Rua da Conceição da Praia",
+            "oneway": "yes",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "way": 1423065746,
+          "shared_nodes": [
+            592378620
+          ],
+          "tags": {
+            "highway": "footway",
+            "lit": "yes"
+          }
+        }
+      ]
+    },
+    {
+      "osm_id": 46348179,
+      "tags": {
+        "alt_name": "Avenida Contorno",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "name": "Avenida Lafayete Coutinho",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        592378620,
+        3940312599,
+        1672367592,
+        5423989354,
+        619723494,
+        7550297061
+      ],
+      "nodes": [
+        {
+          "id": 592378620,
+          "wgs84": [
+            -12.973741,
+            -38.5135852
+          ],
+          "blender_xy": [
+            -70.1895895190537,
+            88.73427379410714
+          ],
+          "tags": {
+            "crossing": "traffic_signals",
+            "highway": "crossing",
+            "traffic_signals": "signal"
+          }
+        },
+        {
+          "id": 3940312599,
+          "wgs84": [
+            -12.9738982,
+            -38.5137601
+          ],
+          "blender_xy": [
+            -89.09415018744767,
+            71.32887266553007
+          ],
+          "tags": {}
+        },
+        {
+          "id": 1672367592,
+          "wgs84": [
+            -12.974172,
+            -38.5140605
+          ],
+          "blender_xy": [
+            -121.56410783808678,
+            41.01292575779371
+          ],
+          "tags": {}
+        },
+        {
+          "id": 5423989354,
+          "wgs84": [
+            -12.9743082,
+            -38.5142236
+          ],
+          "blender_xy": [
+            -139.1922069923021,
+            25.933759621810168
+          ],
+          "tags": {
+            "highway": "traffic_signals",
+            "traffic_signals": "signal",
+            "traffic_signals:direction": "forward"
+          }
+        },
+        {
+          "id": 619723494,
+          "wgs84": [
+            -12.9744075,
+            -38.5143142
+          ],
+          "blender_xy": [
+            -148.98672642884776,
+            14.93719182885252
+          ],
+          "tags": {}
+        },
+        {
+          "id": 7550297061,
+          "wgs84": [
+            -12.9751917,
+            -38.5149524
+          ],
+          "blender_xy": [
+            -217.98914743307978,
+            -71.91337709035724
+          ],
+          "tags": {}
+        }
+      ]
+    },
+    {
+      "osm_id": 978525930,
+      "tags": {
+        "alt_name": "Praça Cairu",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Praça Visconde de Cayru",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        5423989361,
+        8243832355,
+        5917201014
+      ],
+      "nodes": [
+        {
+          "id": 5423989361,
+          "wgs84": [
+            -12.9742364,
+            -38.5140049
+          ],
+          "blender_xy": [
+            -115.56570559740067,
+            33.8702271473594
+          ],
+          "tags": {}
+        },
+        {
+          "id": 8243832355,
+          "wgs84": [
+            -12.9738888,
+            -38.5136254
+          ],
+          "blender_xy": [
+            -74.54573414754122,
+            72.35771259642206
+          ],
+          "tags": {
+            "bus": "yes",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "id": 5917201014,
+          "wgs84": [
+            -12.9738004,
+            -38.5135271
+          ],
+          "blender_xy": [
+            -63.92069616867229,
+            82.14548881817609
+          ],
+          "tags": {
+            "crossing": "traffic_signals",
+            "highway": "crossing",
+            "traffic_signals": "signal"
+          }
+        }
+      ]
+    },
+    {
+      "osm_id": 1004133497,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rua da Conceição da Praia",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        1584993400,
+        3178050253,
+        7519736193,
+        7519736192,
+        1672367563,
+        1672367530,
+        1672367515,
+        1586482157
+      ],
+      "nodes": [
+        {
+          "id": 1584993400,
+          "wgs84": [
+            -12.9744119,
+            -38.5139968
+          ],
+          "blender_xy": [
+            -114.70822220109403,
+            14.41903948248364
+          ],
+          "tags": {}
+        },
+        {
+          "id": 3178050253,
+          "wgs84": [
+            -12.9739531,
+            -38.5134715
+          ],
+          "blender_xy": [
+            -57.93100311374292,
+            65.21665694145486
+          ],
+          "tags": {
+            "crossing": "uncontrolled",
+            "highway": "crossing"
+          }
+        },
+        {
+          "id": 7519736193,
+          "wgs84": [
+            -12.9736663,
+            -38.5131441
+          ],
+          "blender_xy": [
+            -22.54378554178402,
+            96.97074933373369
+          ],
+          "tags": {}
+        },
+        {
+          "id": 7519736192,
+          "wgs84": [
+            -12.9736204,
+            -38.5131179
+          ],
+          "blender_xy": [
+            -19.709679953288287,
+            102.05524730286561
+          ],
+          "tags": {}
+        },
+        {
+          "id": 1672367563,
+          "wgs84": [
+            -12.9735015,
+            -38.5130853
+          ],
+          "blender_xy": [
+            -16.177179530262947,
+            115.2295872035902
+          ],
+          "tags": {}
+        },
+        {
+          "id": 1672367530,
+          "wgs84": [
+            -12.9734385,
+            -38.5130954
+          ],
+          "blender_xy": [
+            -17.26175740128383,
+            122.21273212786764
+          ],
+          "tags": {}
+        },
+        {
+          "id": 1672367515,
+          "wgs84": [
+            -12.973379,
+            -38.5131168
+          ],
+          "blender_xy": [
+            -19.567071166820824,
+            128.8090629526414
+          ],
+          "tags": {}
+        },
+        {
+          "id": 1586482157,
+          "wgs84": [
+            -12.9733406,
+            -38.5131399
+          ],
+          "blender_xy": [
+            -22.05806465819478,
+            133.0670827019494
+          ],
+          "tags": {}
+        }
+      ]
+    },
+    {
+      "osm_id": 312006925,
+      "tags": {
+        "bicycle": "yes",
+        "highway": "footway",
+        "lit": "yes"
+      },
+      "node_refs": [
+        3178050253,
+        736745764
+      ],
+      "nodes": [
+        {
+          "id": 3178050253,
+          "wgs84": [
+            -12.9739531,
+            -38.5134715
+          ],
+          "blender_xy": [
+            -57.93100311374292,
+            65.21665694145486
+          ],
+          "tags": {
+            "crossing": "uncontrolled",
+            "highway": "crossing"
+          }
+        },
+        {
+          "id": 736745764,
+          "wgs84": [
+            -12.9740528,
+            -38.5133708
+          ],
+          "blender_xy": [
+            -47.0653197709471,
+            54.15738687920384
+          ],
+          "tags": {}
+        }
+      ]
+    },
+    {
+      "osm_id": 1423065746,
+      "tags": {
+        "highway": "footway",
+        "lit": "yes"
+      },
+      "node_refs": [
+        12229090827,
+        13078289038,
+        592378620
+      ],
+      "nodes": [
+        {
+          "id": 12229090827,
+          "wgs84": [
+            -12.9734945,
+            -38.513676
+          ],
+          "blender_xy": [
+            -79.97160189878196,
+            116.06215898296796
+          ],
+          "tags": {}
+        },
+        {
+          "id": 13078289038,
+          "wgs84": [
+            -12.9735803,
+            -38.5137622
+          ],
+          "blender_xy": [
+            -89.28959340415895,
+            106.56138518126681
+          ],
+          "tags": {}
+        },
+        {
+          "id": 592378620,
+          "wgs84": [
+            -12.973741,
+            -38.5135852
+          ],
+          "blender_xy": [
+            -70.1895895190537,
+            88.73427379410714
+          ],
+          "tags": {
+            "crossing": "traffic_signals",
+            "highway": "crossing",
+            "traffic_signals": "signal"
+          }
+        }
+      ]
+    }
+  ],
+  "rule": "Conexão por node ID compartilhado, nunca proximidade. Isso não mede soleira, rampa ou confirma fase atual da sinalização."
+}

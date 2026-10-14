@@ -1,0 +1,55 @@
+{
+  "schema": "bay-of-all-saints/dem-audit-v2",
+  "source": {
+    "path": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\world-reference\\centro-lapa-tororo-fontenova\\source\\aleph-geotiff-20261005T150330Z\\terrain.tif",
+    "filename": "terrain.tif",
+    "size_bytes": 3078741,
+    "sha256": "5ef0498285f7b255dd0570181447ae3f0e49a1827afaef4c86422bcfcca5e981"
+  },
+  "metadata": {
+    "backend": "rasterio",
+    "driver": "GTiff",
+    "width": 1536,
+    "height": 1024,
+    "band_count": 1,
+    "dtype": [
+      "float32"
+    ],
+    "crs": "EPSG:3857",
+    "nodata": [
+      -3.4028234663852886e+38
+    ],
+    "bounds": {
+      "left": -4290257.523590373,
+      "bottom": -1460252.9883600066,
+      "right": -4282919.568874996,
+      "top": -1455361.0185497552
+    },
+    "pixel_size": {
+      "x": 4.777314267823516,
+      "y": 4.777314267823516
+    },
+    "transform": [
+      4.777314267823516,
+      0.0,
+      -4290257.523590373,
+      0.0,
+      -4.777314267823516,
+      -1455361.0185497552
+    ],
+    "vertical_statistics": null
+  },
+  "projected_extent": {
+    "width_m_projected": 7337.95471537672,
+    "height_m_projected": 4891.969810251379,
+    "area_m2_projected": 35897052.93661467
+  },
+  "statistics_requested": false,
+  "warnings": [],
+  "notes": [
+    "Nenhuma elevação foi corrigida, suavizada ou reamostrada.",
+    "EPSG:3857 mede o raster em coordenadas projetadas; métricas horizontais servem para QA estrutural e não substituem levantamento local.",
+    "O terrain.tif histórico do Aleph é composto a partir dos Mapzen/Tilezen Terrain Tiles no bucket público elevation-tiles-prod.",
+    "A origem/licença dos dados de elevação subjacentes deve permanecer registrada separadamente da licença do software Aleph."
+  ]
+}

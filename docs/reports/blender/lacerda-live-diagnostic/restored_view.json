@@ -1,0 +1,112 @@
+{
+  "pid": 11304,
+  "file": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\blender\\salvador_lacerda_r30b82_gameplay_proxy.blend",
+  "active_scene": "SALVADOR | ESBOCO OFICIAL",
+  "before": [
+    {
+      "object": "CALIBRADO | piso desembarque baixo",
+      "proxy_visible": false,
+      "historical_visible": true
+    },
+    {
+      "object": "CALIBRADO | marquise baixa",
+      "proxy_visible": false,
+      "historical_visible": true
+    },
+    {
+      "object": "CALIBRADO | piso superior torre",
+      "proxy_visible": false,
+      "historical_visible": true
+    },
+    {
+      "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+      "proxy_visible": false,
+      "historical_visible": true
+    },
+    {
+      "object": "INFERIOR | piso do saguão",
+      "proxy_visible": false,
+      "historical_visible": true
+    },
+    {
+      "object": "SUPERIOR | piso saguão",
+      "proxy_visible": false,
+      "historical_visible": true
+    },
+    {
+      "object": "MVP | terreno corrigido | colisão estática",
+      "proxy_visible": false,
+      "historical_visible": true
+    },
+    {
+      "object": "FUNCIONAL | 3 piso",
+      "proxy_visible": false,
+      "historical_visible": true
+    },
+    {
+      "object": "FUNCIONAL | 4 piso",
+      "proxy_visible": false,
+      "historical_visible": true
+    },
+    {
+      "object": "LAC R30B | Passarela | piso paginado visual",
+      "proxy_visible": false,
+      "historical_visible": true
+    },
+    {
+      "object": "B74 | TERRENO | Lapa Tororo Fonte Nova | candidato",
+      "proxy_visible": false,
+      "historical_visible": true
+    }
+  ],
+  "after": [
+    {
+      "object": "CALIBRADO | piso desembarque baixo",
+      "visible": true
+    },
+    {
+      "object": "CALIBRADO | marquise baixa",
+      "visible": true
+    },
+    {
+      "object": "CALIBRADO | piso superior torre",
+      "visible": true
+    },
+    {
+      "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+      "visible": true
+    },
+    {
+      "object": "INFERIOR | piso do saguão",
+      "visible": true
+    },
+    {
+      "object": "SUPERIOR | piso saguão",
+      "visible": true
+    },
+    {
+      "object": "MVP | terreno corrigido | colisão estática",
+      "visible": true
+    },
+    {
+      "object": "FUNCIONAL | 3 piso",
+      "visible": true
+    },
+    {
+      "object": "FUNCIONAL | 4 piso",
+      "visible": true
+    },
+    {
+      "object": "LAC R30B | Passarela | piso paginado visual",
+      "visible": true
+    },
+    {
+      "object": "B74 | TERRENO | Lapa Tororo Fonte Nova | candidato",
+      "visible": true
+    }
+  ],
+  "geometry_changed": false,
+  "saved": false,
+  "proxy_preserved": true,
+  "controller_stopped_for_model_review": true
+}

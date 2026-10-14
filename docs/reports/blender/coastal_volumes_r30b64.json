@@ -1,0 +1,111 @@
+{
+  "schema": "boas/coastal-volumes-b64-v1",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b63_orla_bordas_canteiros.blend",
+    "revision": "R30B.63",
+    "sha256": "35a2477cbf79f5d7c5b2ad4dd1956930d9e35b1e5b416b55d3c2c333bea413c9",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b62_pavimento_costura_limpa.blend",
+    "evidence": "docs/reports/blender/urban_edges_r30b63.json",
+    "notes": "Fecha lacuna junto ao cais; meios-fios no limite pista/passeio; canteiros candidatos OSM, sem mudar larguras/fontes ou runtime."
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b64_costa_volumes_corrigidos.blend",
+    "revision": "R30B.64",
+    "sha256": "8cfbdb35dd31c9d7491364d9c2f398973a1bb4994ff7739024e1f378f4f2015e"
+  },
+  "core": {
+    "object": "MVP | terreno corrigido | colisão estática",
+    "faces_before": 1088637,
+    "removed_seaward_faces": 59453,
+    "removed_degenerate": 30,
+    "cuts": 3259,
+    "faces_after": 1030750,
+    "road_faces_preserved": 266281
+  },
+  "fill": {
+    "object": "B63 | VISUAL | piso contínuo até o cais",
+    "faces_before": 2715,
+    "removed_seaward_faces": 59,
+    "removed_degenerate": 6,
+    "cuts": 475,
+    "faces_after": 2774,
+    "road_faces_preserved": null
+  },
+  "curbs": {
+    "closed_segments": 4996,
+    "nonmanifold_edges": 0,
+    "original_segments": 5000
+  },
+  "gardens": [
+    {
+      "osm_id": 285592034,
+      "coverage_ratio": 1.0111615075792684,
+      "retained": true,
+      "nonmanifold_edges": 0
+    },
+    {
+      "osm_id": 565958078,
+      "coverage_ratio": 0.04133100762806998,
+      "retained": false
+    },
+    {
+      "osm_id": 1232803924,
+      "coverage_ratio": 1.8776147626494217,
+      "retained": true,
+      "nonmanifold_edges": 0
+    },
+    {
+      "osm_id": 1265894224,
+      "coverage_ratio": 1.0131703554770346,
+      "retained": true,
+      "nonmanifold_edges": 0
+    },
+    {
+      "osm_id": 1320939604,
+      "coverage_ratio": 0.9504424421974996,
+      "retained": true,
+      "nonmanifold_edges": 0
+    },
+    {
+      "osm_id": 1321519023,
+      "coverage_ratio": 0.9999993726610086,
+      "retained": true,
+      "nonmanifold_edges": 0
+    },
+    {
+      "osm_id": 1321718836,
+      "coverage_ratio": 0.9999999391401061,
+      "retained": true,
+      "nonmanifold_edges": 0
+    },
+    {
+      "osm_id": 1321718837,
+      "coverage_ratio": 0.9999989382443891,
+      "retained": true,
+      "nonmanifold_edges": 0
+    },
+    {
+      "osm_id": 1321718838,
+      "coverage_ratio": 0.9999998653387764,
+      "retained": true,
+      "nonmanifold_edges": 0
+    }
+  ],
+  "quay": {
+    "supported_segments": 1271,
+    "unsupported_outside_land_segments": 1033,
+    "modeled_length_blender_units": 1234.2920606753346,
+    "real_thickness_verified": false,
+    "same_object_identity": true
+  },
+  "protected_changes": [],
+  "approved": false,
+  "runtime_exported": false,
+  "pending": [
+    "Reabertura, vista de rua e apoios nas interfaces",
+    "Navegação/píeres com nós sem apoio",
+    "Expansão sul sem dados urbanos completos",
+    "Percursos completos e tráfego na engine"
+  ]
+}

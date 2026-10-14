@@ -1,0 +1,9 @@
+{
+  "schema": "boas/storage-cleanup-b72-v1",
+  "path": "%LOCALAPPDATA%/Ordax/DevAgent/unity-installers/UnitySetup64-6000.6.2f1.exe",
+  "bytes": 3859176200,
+  "last_write": "2026-09-20T22:59:25.1773433-03:00",
+  "reason": "Instalador antigo em cache; nenhuma instalacao ativa; download recuperavel",
+  "scene_changed": false,
+  "official_blends_preserved": true
+}

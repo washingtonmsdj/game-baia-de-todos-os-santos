@@ -1,0 +1,349 @@
+{
+  "status": "STILL_UNRESOLVED",
+  "origin_semantic_context_found": true,
+  "creation_operation_found": false,
+  "first_introducing_revision": null,
+  "first_preserved_snapshot": "blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a_structure_ref.blend",
+  "earlier_report_scene": "R27; metadado lower_terminal_r21",
+  "semantic_context": "Cota inferior 7.406 e terreno 7.256 são aproximações do MVP, não levantamento oficial. Não é prova de introdução na R21.",
+  "shared_exact_world_offset_by_snapshot": [
+    {
+      "file": "blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a_structure_ref.blend",
+      "count": 54
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b01_refinamento.blend",
+      "count": 54
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+      "count": 56
+    }
+  ],
+  "B80_groups": {
+    "FUNCIONAL | 3": 9,
+    "FUNCIONAL | 4": 44,
+    "FUNCIONAL | soleira": 1,
+    "B79 | COLLISION": 2
+  },
+  "new_shared_objects": [
+    "B79 | COLLISION | FUNCIONAL | 3 porta estação lower -1",
+    "B79 | COLLISION | FUNCIONAL | 3 porta estação lower 1"
+  ],
+  "direct_dependencies": [
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 3 porta estação lower -1",
+      "parent": "FUNCIONAL | 3 porta estação lower -1",
+      "constraints": []
+    },
+    {
+      "name": "B79 | COLLISION | FUNCIONAL | 3 porta estação lower 1",
+      "parent": "FUNCIONAL | 3 porta estação lower 1",
+      "constraints": []
+    },
+    {
+      "name": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta estação lower -1",
+      "parent": "FUNCIONAL | 3 porta estação lower -1",
+      "constraints": []
+    },
+    {
+      "name": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta estação lower 1",
+      "parent": "FUNCIONAL | 3 porta estação lower 1",
+      "constraints": []
+    },
+    {
+      "name": "LAC R30B02 | Vedacao | FUNCIONAL | 4 porta cabine -1 -1",
+      "parent": "FUNCIONAL | 4 porta cabine -1 -1",
+      "constraints": []
+    },
+    {
+      "name": "LAC R30B02 | Vedacao | FUNCIONAL | 4 porta cabine -1 1",
+      "parent": "FUNCIONAL | 4 porta cabine -1 1",
+      "constraints": []
+    },
+    {
+      "name": "LAC R30B02 | Vedacao | FUNCIONAL | 4 porta cabine 1 -1",
+      "parent": "FUNCIONAL | 4 porta cabine 1 -1",
+      "constraints": []
+    },
+    {
+      "name": "LAC R30B02 | Vedacao | FUNCIONAL | 4 porta cabine 1 1",
+      "parent": "FUNCIONAL | 4 porta cabine 1 1",
+      "constraints": []
+    },
+    {
+      "name": "LAC R30B02 | Vedacao | FUNCIONAL | 4 porta estação lower -1",
+      "parent": "FUNCIONAL | 4 porta estação lower -1",
+      "constraints": []
+    },
+    {
+      "name": "LAC R30B02 | Vedacao | FUNCIONAL | 4 porta estação lower 1",
+      "parent": "FUNCIONAL | 4 porta estação lower 1",
+      "constraints": []
+    }
+  ],
+  "not_exact_transform_but_lower_level_consumers": [
+    {
+      "name": "ESTAÇÃO INFERIOR | plataforma",
+      "location": [
+        -50.400856018066406,
+        53.11458969116211,
+        7.210999965667725
+      ],
+      "matrix_world": [
+        [
+          0.7292261719703674,
+          0.6842727661132812,
+          0.0,
+          -50.400856018066406
+        ],
+        [
+          -0.6842727661132812,
+          0.7292261719703674,
+          0.0,
+          53.11458969116211
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.210999965667725
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds_local": {
+        "min": [
+          -3.0,
+          -5.340000152587891,
+          -0.14000000059604645
+        ],
+        "max": [
+          3.0,
+          5.340000152587891,
+          0.14000000059604645
+        ]
+      },
+      "bounds_world": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          7.071000099182129
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          7.35099983215332
+        ]
+      },
+      "properties": {},
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "hidden_object": false,
+      "hidden_render": false,
+      "vertices": 8
+    },
+    {
+      "name": "ESTAÇÃO INFERIOR | cobertura",
+      "location": [
+        -50.400856018066406,
+        53.11458969116211,
+        11.791000366210938
+      ],
+      "matrix_world": [
+        [
+          0.7292261719703674,
+          0.6842727661132812,
+          0.0,
+          -50.400856018066406
+        ],
+        [
+          -0.6842727661132812,
+          0.7292261719703674,
+          0.0,
+          53.11458969116211
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          11.791000366210938
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds_local": {
+        "min": [
+          -3.0,
+          -5.340000152587891,
+          -0.125
+        ],
+        "max": [
+          3.0,
+          5.340000152587891,
+          0.125
+        ]
+      },
+      "bounds_world": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          11.666000366210938
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          11.916000366210938
+        ]
+      },
+      "properties": {},
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "hidden_object": false,
+      "hidden_render": false,
+      "vertices": 8
+    },
+    {
+      "name": "INFERIOR | piso do saguão",
+      "location": [
+        -53.60945129394531,
+        56.125389099121094,
+        7.280999660491943
+      ],
+      "matrix_world": [
+        [
+          0.7292261719703674,
+          0.6842727661132812,
+          0.0,
+          -53.60945129394531
+        ],
+        [
+          -0.6842727661132812,
+          0.7292261719703674,
+          0.0,
+          56.125389099121094
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.280999660491943
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds_local": {
+        "min": [
+          -4.400000095367432,
+          -5.099999904632568,
+          -0.125
+        ],
+        "max": [
+          4.400000095367432,
+          5.099999904632568,
+          0.125
+        ]
+      },
+      "bounds_world": {
+        "min": [
+          -60.307838439941406,
+          49.39553451538086,
+          7.155999660491943
+        ],
+        "max": [
+          -46.91106414794922,
+          62.85524368286133,
+          7.405999660491943
+        ]
+      },
+      "properties": {
+        "game_role": "walkable_surface",
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      },
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "hidden_object": false,
+      "hidden_render": false,
+      "vertices": 8
+    }
+  ],
+  "consumer_scripts": [
+    "automation/blender/derive_lacerda_walkability_b77.py:15-16",
+    "automation/blender/model_lacerda_corridor_b77.py",
+    "automation/blender/export_slice_collision_b79.py",
+    "automation/blender/correct_corridor_doors_b77.py",
+    "automation/blender/refine_lacerda_r30b03_exterior.py:35"
+  ],
+  "bridge_by_snapshot": [
+    {
+      "file": "blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a_structure_ref.blend",
+      "local_min_x": -14.355003356933594,
+      "local_max_x": 41.18354034423828,
+      "longitudinal_extent": 55.538543701171875,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b01_refinamento.blend",
+      "local_min_x": -14.355003356933594,
+      "local_max_x": 41.18354034423828,
+      "longitudinal_extent": 55.538543701171875,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": null
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+      "local_min_x": -14.355003356933594,
+      "local_max_x": 41.18354034423828,
+      "longitudinal_extent": 55.538543701171875,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": null
+    }
+  ],
+  "correction_authorized": false
+}

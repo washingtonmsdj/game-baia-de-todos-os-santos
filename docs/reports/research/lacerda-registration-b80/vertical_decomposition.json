@@ -1,0 +1,132 @@
+{
+  "schema": "boas/architectural-diagnostic-v1",
+  "unit_status": {
+    "system": "METRIC",
+    "scale_length": 1.0
+  },
+  "physical_scale_survey_verified": false,
+  "travel_CCD": 62.70900011062622,
+  "historical_travel": 59.0,
+  "project_access_difference": 58.93,
+  "difference_CCD_project": 3.779000110626221,
+  "lower_sill": {
+    "object": "FUNCIONAL | 3 soleira inferior",
+    "local_bottom": 11.114999771118164,
+    "world_bottom": 7.405999660491943,
+    "matrix_world": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        -3.7090001106262207
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "parent_chain": [],
+    "translation_z": -3.7090001106262207
+  },
+  "upper_sill": {
+    "world_bottom": 70.11500549316406,
+    "matrix_world": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "parent_chain": []
+  },
+  "decomposition": {
+    "upper_minus_untranslated_lower_mesh": 59.0000057220459,
+    "lower_transform_contribution": 3.7090001106262207,
+    "historical_minus_2023": 0.07000000000000028,
+    "nominal_sum": 3.779000110626221,
+    "float_geometry_roundoff": 5.7220458984375e-06
+  },
+  "architecture_platform_difference": 62.70899772644043,
+  "lower_floor_roof_distance_top_to_top": 4.565000534057617,
+  "documented_lower_floor_roof_distance": 5.76,
+  "roof_minus_floor_distance_residual_candidate": -1.1949994659423826,
+  "origin_vs_transform": "Offset Z uniforme de datum cancela na diferença entre acessos. A contribuição -3,709 é local à soleira inferior, sem parent, e já aparece no inventário anterior B77. Não é escala Z global nem evidência de que deve ser desfeita.",
+  "historical_trace": "docs/reports/blender/lacerda-corridor/inventory_before_b77.json",
+  "first_introducing_revision": null,
+  "original_transform_intent": null,
+  "bridge_geometry": {
+    "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+    "actual_local_extents": [
+      55.538543701171875,
+      6.000001668930054,
+      0.899993896484375
+    ],
+    "object_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "parent_chain": [],
+    "matrix_world": [
+      [
+        0.7292261719703674,
+        0.6842727661132812,
+        0.0,
+        -35.42984390258789
+      ],
+      [
+        -0.6842727661132812,
+        0.7292261719703674,
+        0.0,
+        39.066471099853516
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        69.55000305175781
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "warning": "Nome mantém 28.71 mas extensão real no eixo longitudinal é ~55.54; não usar nome ou dimensão publicada como controle aceito. Não autoriza encurtar passarela sem registro."
+  },
+  "correction_authorized": false
+}

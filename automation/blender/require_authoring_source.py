@@ -9,8 +9,9 @@ if registered['mcp_port']!=BOAS_MCP_PORT or registered['pid']!=os.getpid():raise
 if not BOAS_SOURCE_OPERATION:
     if BOAS_SOURCE_MODE=='authoring':
         entry=json.loads((root/'world/areas/mvp-centro-lacerda/blender-revisions.json').read_text(encoding='utf8'))['authoring_source']
-    elif BOAS_SOURCE_MODE=='validation':
-        entry=json.loads((root/'world/areas/mvp-centro-lacerda/blender-revisions.json').read_text(encoding='utf8')).get('validation_source')
+    elif BOAS_SOURCE_MODE in ('validation','gameplay_proxy'):
+        key='validation_source' if BOAS_SOURCE_MODE=='validation' else 'gameplay_proxy_source'
+        entry=json.loads((root/'world/areas/mvp-centro-lacerda/blender-revisions.json').read_text(encoding='utf8')).get(key)
         if not entry:raise RuntimeError('Nenhuma fonte de validação registrada; não editar candidato não promovido.')
     else:
         entry=json.loads((root/'world/areas/mvp-centro-lacerda/production.json').read_text(encoding='utf8'))['world_source']

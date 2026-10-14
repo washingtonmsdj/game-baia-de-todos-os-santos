@@ -1,0 +1,6407 @@
+{
+  "file": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\blender\\salvador_lacerda_r30b96_encontro_corpo_cobertura.blend",
+  "pid": 16912,
+  "dirty": false,
+  "rows": [
+    {
+      "object": "SUPERIOR | piso saguão",
+      "bounds": [
+        [
+          -19.81081771850586,
+          6.458959579467773
+        ],
+        [
+          -9.840450286865234,
+          9.840450286865234
+        ],
+        [
+          69.79300689697266,
+          70.12300872802734
+        ]
+      ],
+      "materials": [
+        "R22 granito interior"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "ae915354f9e238fc89a7f4273b86b8ed9cf827b7e8dd3823d334a7fabc5b16dd",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -1.3869800567626953
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            7.1221923828125
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            69.91999816894531
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.4300000071525574,
+              0.4300000071525574,
+              0.4099999964237213,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.44999998807907104,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 60,
+        "polygons": 90
+      },
+      "properties": {
+        "reference_status": "partial",
+        "game_role": "walkable_surface",
+        "navigation_source": "Rendered structural floor",
+        "boas_generated_revision": "R30B.94",
+        "boas_provenance_ids": "[\"derived:lacerda-corridor-closure-b94\"]",
+        "accuracy": "DOCUMENT_CONTOURS_LOCAL_JUNCTION_INHERITED_THICKNESS",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_location_id": "elevador-lacerda",
+        "boas_architectural_domain": "UPPER_STATION",
+        "boas_role": "ARCHITECTURAL_MODEL_CANDIDATE"
+      }
+    },
+    {
+      "object": "SUPERIOR | cobertura saguão",
+      "bounds": [
+        [
+          -19.81081771850586,
+          6.458959579467773
+        ],
+        [
+          -9.840450286865234,
+          9.840450286865234
+        ],
+        [
+          73.87300109863281,
+          74.12300109863281
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "51e58bf5182128badca5dd4543a5439532f0ce7ea478a7a3f894899c5e446351",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -1.3869800567626953
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            7.1221923828125
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            75.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 24,
+        "polygons": 32
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.94",
+        "boas_provenance_ids": "[\"derived:lacerda-corridor-closure-b94\"]",
+        "accuracy": "DOCUMENT_CONTOURS_LOCAL_JUNCTION_INHERITED_THICKNESS",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION",
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "ARCHITECTURAL_MODEL_CANDIDATE"
+      }
+    },
+    {
+      "object": "SUPERIOR | parede lateral saguão",
+      "bounds": [
+        [
+          -19.763916015625,
+          0.8798466920852661
+        ],
+        [
+          -8.049543380737305,
+          -7.805495262145996
+        ],
+        [
+          70.0284194946289,
+          73.87310791015625
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino",
+        "LAC R30B | vidro incolor transparente",
+        "LAC R30B | esquadria clara acetinada"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "1deeda98ea9e5fd32c87fe80534564dd024e8864570fdfbf65cccbe7e9419443",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -7.648075103759766
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            0.44977378845214844
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            72.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          },
+          {
+            "diffuse": [
+              0.2199999988079071,
+              0.3100000023841858,
+              0.33000001311302185,
+              0.3199999928474426
+            ],
+            "base": [
+              0.2199999988079071,
+              0.3100000023841858,
+              0.33000001311302185,
+              1.0
+            ],
+            "roughness": 0.1599999964237213,
+            "metallic": 0.0
+          },
+          {
+            "diffuse": [
+              0.7200000286102295,
+              0.7400000095367432,
+              0.7200000286102295,
+              1.0
+            ],
+            "base": [
+              0.7200000286102295,
+              0.7400000095367432,
+              0.7200000286102295,
+              1.0
+            ],
+            "roughness": 0.30000001192092896,
+            "metallic": 0.44999998807907104
+          }
+        ],
+        "type": "MESH",
+        "vertices": 1048,
+        "polygons": 786
+      },
+      "properties": {
+        "game_role": "static_collision",
+        "reference_status": "partial",
+        "classification": "ADAPT_LOCAL",
+        "revision_note": "Aberturas de varanda; dimensões adaptadas à implantação existente, sem levantamento cadastral.",
+        "boas_generated_revision": "R30B.95",
+        "boas_provenance_ids": "[\"derived:lacerda-upper-enclosure-b95\"]",
+        "accuracy": "DOCUMENT_CONTOURS_INHERITED_THICKNESS",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_location_id": "elevador-lacerda",
+        "boas_architectural_domain": "UPPER_STATION",
+        "boas_role": "ARCHITECTURAL_MODEL_CANDIDATE"
+      }
+    },
+    {
+      "object": "SUPERIOR | parede lateral saguão.001",
+      "bounds": [
+        [
+          -19.81081771850586,
+          0.9782830476760864
+        ],
+        [
+          7.714623928070068,
+          7.938410758972168
+        ],
+        [
+          70.0284194946289,
+          73.87310791015625
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino",
+        "LAC R30B | vidro incolor transparente",
+        "LAC R30B | esquadria clara acetinada"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "e5c6a92a3ddf9be2dd6929e91d845512cda64cf42adcb1a24b828bb9cffaf0f0",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            4.874114990234375
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            13.794610977172852
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            72.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          },
+          {
+            "diffuse": [
+              0.2199999988079071,
+              0.3100000023841858,
+              0.33000001311302185,
+              0.3199999928474426
+            ],
+            "base": [
+              0.2199999988079071,
+              0.3100000023841858,
+              0.33000001311302185,
+              1.0
+            ],
+            "roughness": 0.1599999964237213,
+            "metallic": 0.0
+          },
+          {
+            "diffuse": [
+              0.7200000286102295,
+              0.7400000095367432,
+              0.7200000286102295,
+              1.0
+            ],
+            "base": [
+              0.7200000286102295,
+              0.7400000095367432,
+              0.7200000286102295,
+              1.0
+            ],
+            "roughness": 0.30000001192092896,
+            "metallic": 0.44999998807907104
+          }
+        ],
+        "type": "MESH",
+        "vertices": 1048,
+        "polygons": 786
+      },
+      "properties": {
+        "game_role": "static_collision",
+        "reference_status": "partial",
+        "classification": "ADAPT_LOCAL",
+        "revision_note": "Aberturas de varanda; dimensões adaptadas à implantação existente, sem levantamento cadastral.",
+        "boas_generated_revision": "R30B.95",
+        "boas_provenance_ids": "[\"derived:lacerda-upper-enclosure-b95\"]",
+        "accuracy": "DOCUMENT_CONTOURS_INHERITED_THICKNESS",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_location_id": "elevador-lacerda",
+        "boas_architectural_domain": "UPPER_STATION",
+        "boas_role": "ARCHITECTURAL_MODEL_CANDIDATE"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | pilar térreo",
+      "bounds": [
+        [
+          5.040655612945557,
+          6.097143650054932
+        ],
+        [
+          -8.301726341247559,
+          -7.797357082366943
+        ],
+        [
+          70.0284194946289,
+          73.87310791015625
+        ]
+      ],
+      "materials": [
+        "LAC R30B23 | pedra castanha pilares altos"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "a018a59da1a6e90095fbd2ae7e41d32917bf6fe8c9b93bd3f38b2109961bcfe2",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -3.7180957794189453
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -3.4436378479003906
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            72.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.23999999463558197,
+              0.20000000298023224,
+              0.1599999964237213,
+              1.0
+            ],
+            "base": [
+              0.23999999463558197,
+              0.20000000298023224,
+              0.1599999964237213,
+              1.0
+            ],
+            "roughness": 0.6299999952316284,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | pilar térreo.001",
+      "bounds": [
+        [
+          5.040492057800293,
+          6.097356796264648
+        ],
+        [
+          -5.275517463684082,
+          -4.771148681640625
+        ],
+        [
+          70.0284194946289,
+          73.87310791015625
+        ]
+      ],
+      "materials": [
+        "LAC R30B23 | pedra castanha pilares altos"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "f813595f1d7ac96f08a5c18c1075fd8cbb6b47fc761ed827d0f3167572b522fb",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -1.1726016998291016
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -0.7309169769287109
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            72.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.23999999463558197,
+              0.20000000298023224,
+              0.1599999964237213,
+              1.0
+            ],
+            "base": [
+              0.23999999463558197,
+              0.20000000298023224,
+              0.1599999964237213,
+              1.0
+            ],
+            "roughness": 0.6299999952316284,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | pilar térreo.002",
+      "bounds": [
+        [
+          5.040314674377441,
+          6.097594738006592
+        ],
+        [
+          -2.071906089782715,
+          -1.4350236654281616
+        ],
+        [
+          70.0284194946289,
+          73.87310791015625
+        ]
+      ],
+      "materials": [
+        "LAC R30B23 | pedra castanha pilares altos"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "4ee9c61e197ffb52246e020e7e4ac9f0fa8b6b166adaba15e09af693530e0941",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            1.372894287109375
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            1.9818038940429688
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            72.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.23999999463558197,
+              0.20000000298023224,
+              0.1599999964237213,
+              1.0
+            ],
+            "base": [
+              0.23999999463558197,
+              0.20000000298023224,
+              0.1599999964237213,
+              1.0
+            ],
+            "roughness": 0.6299999952316284,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | pilar térreo.003",
+      "bounds": [
+        [
+          5.040102958679199,
+          6.0978593826293945
+        ],
+        [
+          1.7493902444839478,
+          2.386272668838501
+        ],
+        [
+          70.0284194946289,
+          73.87310791015625
+        ]
+      ],
+      "materials": [
+        "LAC R30B23 | pedra castanha pilares altos"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "7fd852f55f00255b628d17eb82e65b804930582ec079025b0780fed0621bcdb6",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            3.9183883666992188
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            4.694526672363281
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            72.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.23999999463558197,
+              0.20000000298023224,
+              0.1599999964237213,
+              1.0
+            ],
+            "base": [
+              0.23999999463558197,
+              0.20000000298023224,
+              0.1599999964237213,
+              1.0
+            ],
+            "roughness": 0.6299999952316284,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | pilar térreo.004",
+      "bounds": [
+        [
+          5.039942264556885,
+          6.098073482513428
+        ],
+        [
+          4.932197570800781,
+          5.394691467285156
+        ],
+        [
+          70.0284194946289,
+          73.87310791015625
+        ]
+      ],
+      "materials": [
+        "LAC R30B23 | pedra castanha pilares altos"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "1eceab06195de324d09509099604fde86830578513949c584278c80c5cb6fede",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            6.463883399963379
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            7.407247543334961
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            72.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.23999999463558197,
+              0.20000000298023224,
+              0.1599999964237213,
+              1.0
+            ],
+            "base": [
+              0.23999999463558197,
+              0.20000000298023224,
+              0.1599999964237213,
+              1.0
+            ],
+            "roughness": 0.6299999952316284,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | pilar térreo.005",
+      "bounds": [
+        [
+          5.039793014526367,
+          6.098269939422607
+        ],
+        [
+          7.707161903381348,
+          8.169656753540039
+        ],
+        [
+          70.0284194946289,
+          73.87310791015625
+        ]
+      ],
+      "materials": [
+        "LAC R30B23 | pedra castanha pilares altos"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "345ad7126666dde914251ee7a4d93d59a2f6b8ef7d497027c3d802bfcd532347",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            9.009378433227539
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            10.11996841430664
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            72.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.23999999463558197,
+              0.20000000298023224,
+              0.1599999964237213,
+              1.0
+            ],
+            "base": [
+              0.23999999463558197,
+              0.20000000298023224,
+              0.1599999964237213,
+              1.0
+            ],
+            "roughness": 0.6299999952316284,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | persiana lateral",
+      "bounds": [
+        [
+          5.568893909454346,
+          5.844600677490234
+        ],
+        [
+          -7.756685733795166,
+          -5.316192626953125
+        ],
+        [
+          70.0284194946289,
+          72.87348175048828
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "16e6b05a8ac1431189959a967c9ac2dfdfb21a248bb133663a8dbba691768598",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.4015979766845703
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -2.1283321380615234
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            71.8499984741211
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana",
+      "bounds": [
+        [
+          5.821541786193848,
+          5.959477424621582
+        ],
+        [
+          -7.740416049957275,
+          -5.332463264465332
+        ],
+        [
+          70.16490936279297,
+          70.19950866699219
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "5d4f5b87458fb788281c2e71304a9788281c6fcdaf9814afa98f2ccaf6b18bbe",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.3432579040527344
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -2.183076858520508
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            70.19999694824219
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.001",
+      "bounds": [
+        [
+          5.821541786193848,
+          5.959477424621582
+        ],
+        [
+          -7.740416049957275,
+          -5.332463264465332
+        ],
+        [
+          70.2879409790039,
+          70.32254028320312
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "cd374e41499c61a655980ea8a6e7b11028881437977564cec4596cb139a8e3e9",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.3432579040527344
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -2.183076858520508
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            70.36000061035156
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.002",
+      "bounds": [
+        [
+          5.821541786193848,
+          5.959477424621582
+        ],
+        [
+          -7.740416049957275,
+          -5.332463264465332
+        ],
+        [
+          70.41097259521484,
+          70.44557189941406
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "5d6319206ec846107bc3e63c3f0cc2601988dd2e4842d203fa208eb126335b1f",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.3432579040527344
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -2.183076858520508
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            70.52000427246094
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.003",
+      "bounds": [
+        [
+          5.821541786193848,
+          5.959477424621582
+        ],
+        [
+          -7.740416049957275,
+          -5.332463264465332
+        ],
+        [
+          70.53399658203125,
+          70.568603515625
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "05bb612e9f67c6d71fdf09f6a67651d202d2adeb6d57dd9f8a9aa4eadf5986a9",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.3432579040527344
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -2.183076858520508
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            70.68000030517578
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.004",
+      "bounds": [
+        [
+          5.821541786193848,
+          5.959477424621582
+        ],
+        [
+          -7.740416049957275,
+          -5.332463264465332
+        ],
+        [
+          70.65702819824219,
+          70.6916275024414
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "a95f2a0196fd7619840c630951c7d14382da49ce09aa80df84d0661250938b26",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.3432579040527344
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -2.183076858520508
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            70.83999633789062
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.005",
+      "bounds": [
+        [
+          5.821541786193848,
+          5.959477424621582
+        ],
+        [
+          -7.740416049957275,
+          -5.332463264465332
+        ],
+        [
+          70.78005981445312,
+          70.81465911865234
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "f3a96629da8e301dfc88e6b3682d3a7cdb29c58a317e0716112e7e57a2a7e052",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.3432579040527344
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -2.183076858520508
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            71.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.006",
+      "bounds": [
+        [
+          5.821541786193848,
+          5.959477424621582
+        ],
+        [
+          -7.740416049957275,
+          -5.332463264465332
+        ],
+        [
+          70.90309143066406,
+          70.93769073486328
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "702fcf9a389a93115c450ca0e8adc8c4596bdb8dc06624a77418071bbc00b739",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.3432579040527344
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -2.183076858520508
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            71.16000366210938
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.007",
+      "bounds": [
+        [
+          5.821541786193848,
+          5.959477424621582
+        ],
+        [
+          -7.740416049957275,
+          -5.332463264465332
+        ],
+        [
+          71.02610778808594,
+          71.06070709228516
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "a394464dc808f07b52000704d6588319a7f6e1d135f4fb6491b3530a553f2ff8",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.3432579040527344
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -2.183076858520508
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            71.31999969482422
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.008",
+      "bounds": [
+        [
+          5.821541786193848,
+          5.959477424621582
+        ],
+        [
+          -7.740416049957275,
+          -5.332463264465332
+        ],
+        [
+          71.1491470336914,
+          71.18374633789062
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "3639691ff6b8346d9c3a6fe8c86762cabfc3800624b6a8b4cdee9adca165e787",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.3432579040527344
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -2.183076858520508
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            71.47999572753906
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.009",
+      "bounds": [
+        [
+          5.821541786193848,
+          5.959477424621582
+        ],
+        [
+          -7.740416049957275,
+          -5.332463264465332
+        ],
+        [
+          71.27217864990234,
+          71.30677795410156
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "498331279e25f9a5ee1abab975755850e95f031a589a294b6052132a37ede1e7",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.3432579040527344
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -2.183076858520508
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            71.63999938964844
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.010",
+      "bounds": [
+        [
+          5.821541786193848,
+          5.959477424621582
+        ],
+        [
+          -7.740416049957275,
+          -5.332463264465332
+        ],
+        [
+          71.39521026611328,
+          71.4298095703125
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "a02afc5092394a8eecc90acd36feb3fef64803adb37c299e9805f4ebf1f9c2dd",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.3432579040527344
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -2.183076858520508
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            71.80000305175781
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.011",
+      "bounds": [
+        [
+          5.821541786193848,
+          5.959477424621582
+        ],
+        [
+          -7.740416049957275,
+          -5.332463264465332
+        ],
+        [
+          71.51823425292969,
+          71.55284118652344
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "6a24137b801f2a81704409c0dd1154e0ba641ad2af4466c8d386799e031b3c4c",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.3432579040527344
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -2.183076858520508
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            71.95999908447266
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.012",
+      "bounds": [
+        [
+          5.821541786193848,
+          5.959477424621582
+        ],
+        [
+          -7.740416049957275,
+          -5.332463264465332
+        ],
+        [
+          71.64126586914062,
+          71.67586517333984
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "04c836c5f9dde06d783e8ddcd8d2a8cc0882f1858b4df355b23a67eab1524e9e",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.3432579040527344
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -2.183076858520508
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            72.1199951171875
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.013",
+      "bounds": [
+        [
+          5.821541786193848,
+          5.959477424621582
+        ],
+        [
+          -7.740416049957275,
+          -5.332463264465332
+        ],
+        [
+          71.76429748535156,
+          71.79889678955078
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "a47d7aa930306dbf2886b65c13b77c312a48ab59d4c98e6d84a5be0897488f44",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.3432579040527344
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -2.183076858520508
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            72.27999877929688
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.014",
+      "bounds": [
+        [
+          5.821541786193848,
+          5.959477424621582
+        ],
+        [
+          -7.740416049957275,
+          -5.332463264465332
+        ],
+        [
+          71.8873291015625,
+          71.92192840576172
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "7e8485786126010aa79fa6364fa485d5453a68df370ca6084358c047d9e112ad",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.3432579040527344
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -2.183076858520508
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            72.44000244140625
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.015",
+      "bounds": [
+        [
+          5.821541786193848,
+          5.959477424621582
+        ],
+        [
+          -7.740416049957275,
+          -5.332463264465332
+        ],
+        [
+          72.01034545898438,
+          72.0449447631836
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "abd604046a29862422abb4a1ed56981a2dd0e6bdb4f0e6da57f33ae0408bf932",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.3432579040527344
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -2.183076858520508
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            72.5999984741211
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.016",
+      "bounds": [
+        [
+          5.821541786193848,
+          5.959477424621582
+        ],
+        [
+          -7.740416049957275,
+          -5.332463264465332
+        ],
+        [
+          72.13338470458984,
+          72.16798400878906
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "32b8c409985c95a34ebfa25ecc1adcdb2f3b1abec97e6d1527bec17e75809874",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.3432579040527344
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -2.183076858520508
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            72.75999450683594
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.017",
+      "bounds": [
+        [
+          5.821541786193848,
+          5.959477424621582
+        ],
+        [
+          -7.740416049957275,
+          -5.332463264465332
+        ],
+        [
+          72.25641632080078,
+          72.291015625
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "1df18630a8b1183be5f0a3bfa8841f6424a58b3ec3a7320be6f9d475394b36f4",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.3432579040527344
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -2.183076858520508
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            72.91999816894531
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.018",
+      "bounds": [
+        [
+          5.821541786193848,
+          5.959477424621582
+        ],
+        [
+          -7.740416049957275,
+          -5.332463264465332
+        ],
+        [
+          72.37944793701172,
+          72.41404724121094
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "b9bbd7e6d8b8e3eb75848d4300110b241eb3042c2ce83302ff0889f033ec37bb",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.3432579040527344
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -2.183076858520508
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            73.08000183105469
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.019",
+      "bounds": [
+        [
+          5.821541786193848,
+          5.959477424621582
+        ],
+        [
+          -7.740416049957275,
+          -5.332463264465332
+        ],
+        [
+          72.50247955322266,
+          72.53707885742188
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "4095398ba2d0dea09181c1c3a732cdd2301c0ea63a8410b962dfd86e29cfd9ed",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.3432579040527344
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -2.183076858520508
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            73.24000549316406
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.020",
+      "bounds": [
+        [
+          5.821541786193848,
+          5.959477424621582
+        ],
+        [
+          -7.740416049957275,
+          -5.332463264465332
+        ],
+        [
+          72.62550354003906,
+          72.66011047363281
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "b3cf51d941d2e5ef59f0f747ecb0244ef214cd05f3a525f0aaa56af547d37da5",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.3432579040527344
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -2.183076858520508
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            73.4000015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | lâmina persiana.021",
+      "bounds": [
+        [
+          5.821541786193848,
+          5.959477424621582
+        ],
+        [
+          -7.740416049957275,
+          -5.332463264465332
+        ],
+        [
+          72.74853515625,
+          72.78313446044922
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "f0ab1ac150837c8057bc74c472e20a6d25bac0ed87a827db11e511e53a5c6c94",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.3432579040527344
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -2.183076858520508
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            73.55999755859375
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | bandeira térreo",
+      "bounds": [
+        [
+          5.637798309326172,
+          5.867578029632568
+        ],
+        [
+          -7.756686687469482,
+          -5.316192626953125
+        ],
+        [
+          72.94269561767578,
+          73.49633026123047
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "5c40ae829c7062c18d5928af6f4aef4da2091a760ee17afc2b479f983853fa4a",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.387012481689453
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -2.142019271850586
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira",
+      "bounds": [
+        [
+          5.84453010559082,
+          6.0282816886901855
+        ],
+        [
+          -7.290957927703857,
+          -7.246215343475342
+        ],
+        [
+          72.95807647705078,
+          73.48094177246094
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "7244f792274ef6dd4f8d1a62c2a2f648e43e26585a70f5c3de335a3c2da34932",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.944517135620117
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -2.8530654907226562
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.001",
+      "bounds": [
+        [
+          5.844542980194092,
+          6.028302192687988
+        ],
+        [
+          -6.9248833656311035,
+          -6.880140781402588
+        ],
+        [
+          72.95807647705078,
+          73.48094177246094
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "53aabecc6208f4cb61e9061bf85ae724d36ee2e6482bf375876a3dd3f80fb422",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.636594772338867
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -2.5249128341674805
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.002",
+      "bounds": [
+        [
+          5.844555377960205,
+          6.028322696685791
+        ],
+        [
+          -6.558809280395508,
+          -6.514066696166992
+        ],
+        [
+          72.95807647705078,
+          73.48094177246094
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "0b1d417e406800a6e947e70b20e7800398996191cc1bf3970f6d96d3a6d107be",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.328672409057617
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -2.1967601776123047
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.003",
+      "bounds": [
+        [
+          5.844573497772217,
+          6.028348922729492
+        ],
+        [
+          -6.192733287811279,
+          -6.147990703582764
+        ],
+        [
+          72.95807647705078,
+          73.48094177246094
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "c6a1fb201f4231422eedb6a1bdee6fb8f4d0b65efc22c0498c58bd7be965df40",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -2.0207481384277344
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -1.8686084747314453
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.004",
+      "bounds": [
+        [
+          5.844587326049805,
+          6.028370380401611
+        ],
+        [
+          -5.826660633087158,
+          -5.781918048858643
+        ],
+        [
+          72.95807647705078,
+          73.48094177246094
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "edb5d06892248edb673c322e3c94d858bad18f05dabcf3c33fd8f074e444a049",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -1.7128257751464844
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -1.540456771850586
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | folha aberta",
+      "bounds": [
+        [
+          2.5705909729003906,
+          5.44256067276001
+        ],
+        [
+          -4.7101359367370605,
+          -4.645056247711182
+        ],
+        [
+          70.0284194946289,
+          72.7197036743164
+        ]
+      ],
+      "materials": [
+        "LAC R30B21 | vidro bandeiras acesso"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "f02af8c5cbd10ba6a85661ea15007b12f21e5314b8002c6b35e1675c0028a54d",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -1.3776588439941406
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            0.04430961608886719
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            71.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.2199999988079071,
+              0.28999999165534973,
+              0.27000001072883606,
+              0.47999998927116394
+            ],
+            "base": [
+              0.2199999988079071,
+              0.28999999165534973,
+              0.27000001072883606,
+              1.0
+            ],
+            "roughness": 0.18000000715255737,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | folha aberta.001",
+      "bounds": [
+        [
+          2.569727897644043,
+          5.442543029785156
+        ],
+        [
+          -2.231128692626953,
+          -2.1489503383636475
+        ],
+        [
+          70.0284194946289,
+          72.7197036743164
+        ]
+      ],
+      "materials": [
+        "LAC R30B21 | vidro bandeiras acesso"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "5db2e38cf82b0a9ec00cb5b443c48d06596e5f2e65847e8eb40f3db9c5979d22",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            0.5862026214599609
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            2.137187957763672
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            71.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.2199999988079071,
+              0.28999999165534973,
+              0.27000001072883606,
+              0.47999998927116394
+            ],
+            "base": [
+              0.2199999988079071,
+              0.28999999165534973,
+              0.27000001072883606,
+              1.0
+            ],
+            "roughness": 0.18000000715255737,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | bandeira térreo.001",
+      "bounds": [
+        [
+          5.637847423553467,
+          5.8677167892456055
+        ],
+        [
+          -4.730472564697266,
+          -2.123267650604248
+        ],
+        [
+          72.94269561767578,
+          73.49633026123047
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "8f3c66ff9749edff45c92b5e7fe2377fe602ada851bf8614c027d5ac301c78b2",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            0.15848350524902344
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            0.5707035064697266
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.005",
+      "bounds": [
+        [
+          5.844649791717529,
+          6.028466701507568
+        ],
+        [
+          -4.264745712280273,
+          -4.220003128051758
+        ],
+        [
+          72.95807647705078,
+          73.48094177246094
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "87707e5d6cbc68e0b35fa80094ad8ac82bb235da511a57227d0c02cdeaa8e479",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -0.39902305603027344
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            -0.14034271240234375
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.006",
+      "bounds": [
+        [
+          5.844663619995117,
+          6.028488636016846
+        ],
+        [
+          -3.898671865463257,
+          -3.853929281234741
+        ],
+        [
+          72.95807647705078,
+          73.48094177246094
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "47d5650d57a100cda3e890ddbd1fc09ca44ee43958e47f8aa8f69a99bbe73d82",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -0.09110069274902344
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            0.18780899047851562
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.007",
+      "bounds": [
+        [
+          5.844681739807129,
+          6.028514385223389
+        ],
+        [
+          -3.5325963497161865,
+          -3.48785400390625
+        ],
+        [
+          72.95807647705078,
+          73.48094177246094
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "5342619e61fef27e5a339964ce7599165f8d0a3faf53f2ef55a00cfee21b7d1d",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            0.21682357788085938
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            0.515960693359375
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.008",
+      "bounds": [
+        [
+          5.844695568084717,
+          6.028536319732666
+        ],
+        [
+          -3.16652250289917,
+          -3.1217803955078125
+        ],
+        [
+          72.95807647705078,
+          73.48094177246094
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "ec922b50e53f9c3b21ae2b92a7c78ee432e01cdc92eb38e73dd378df11c1f5c1",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            0.5247459411621094
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            0.8441123962402344
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.009",
+      "bounds": [
+        [
+          5.844711780548096,
+          6.028561592102051
+        ],
+        [
+          -2.767854928970337,
+          -2.711357355117798
+        ],
+        [
+          72.95807647705078,
+          73.48094177246094
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "507ab150e091781705b6a5f28dcff897bcf25f5d53702e2e5ad361a13a5577d7",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            0.8326683044433594
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            1.1722640991210938
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | folha aberta.002",
+      "bounds": [
+        [
+          2.5694265365600586,
+          5.4425368309021
+        ],
+        [
+          -1.3579826354980469,
+          -1.2758042812347412
+        ],
+        [
+          70.0284194946289,
+          72.7197036743164
+        ]
+      ],
+      "materials": [
+        "LAC R30B21 | vidro bandeiras acesso"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "e55da0e588a9d5107b129b91f49174f7ccdd2e15ee794a7ebb6d3b925a72bb28",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            1.1678352355957031
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            2.757030487060547
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            71.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.2199999988079071,
+              0.28999999165534973,
+              0.27000001072883606,
+              0.47999998927116394
+            ],
+            "base": [
+              0.2199999988079071,
+              0.28999999165534973,
+              0.27000001072883606,
+              1.0
+            ],
+            "roughness": 0.18000000715255737,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | folha aberta.003",
+      "bounds": [
+        [
+          2.568408489227295,
+          5.442517280578613
+        ],
+        [
+          1.5901685953140259,
+          1.6723469495773315
+        ],
+        [
+          70.0284194946289,
+          72.7197036743164
+        ]
+      ],
+      "materials": [
+        "LAC R30B21 | vidro bandeiras acesso"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "25ee6e881b57dd2be504de1cdcca58c5f54f9288e387445e8b89f30b3223f89a",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            3.1316986083984375
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            4.849910736083984
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            71.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.2199999988079071,
+              0.28999999165534973,
+              0.27000001072883606,
+              0.47999998927116394
+            ],
+            "base": [
+              0.2199999988079071,
+              0.28999999165534973,
+              0.27000001072883606,
+              1.0
+            ],
+            "roughness": 0.18000000715255737,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | bandeira térreo.002",
+      "bounds": [
+        [
+          5.637901782989502,
+          5.867882251739502
+        ],
+        [
+          -1.3836628198623657,
+          1.6980270147323608
+        ],
+        [
+          72.94269561767578,
+          73.49633026123047
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "fa7a446655a2f47ac0bb37ef16942469b840a0d389bd2bd60cbc5551cf063d12",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            2.703977584838867
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            3.2834243774414062
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.010",
+      "bounds": [
+        [
+          5.844793796539307,
+          6.028687000274658
+        ],
+        [
+          -0.7955722212791443,
+          -0.7390745878219604
+        ],
+        [
+          72.95807647705078,
+          73.48094177246094
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "ff406555c7c36835d5945216e5984fd67be92868a46dce4da5a1974453bc4b7c",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            2.146472930908203
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            2.572378158569336
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.011",
+      "bounds": [
+        [
+          5.844811916351318,
+          6.028714656829834
+        ],
+        [
+          -0.33331894874572754,
+          -0.2768213152885437
+        ],
+        [
+          72.95807647705078,
+          73.48094177246094
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "75f39e70bdbaa6bdf2bc7130677f45547d916c4f6bf25bc38e7fb563a3bef44f",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            2.454395294189453
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            2.9005298614501953
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.012",
+      "bounds": [
+        [
+          5.844829559326172,
+          6.02874231338501
+        ],
+        [
+          0.1289336085319519,
+          0.18543124198913574
+        ],
+        [
+          72.95807647705078,
+          73.48094177246094
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "b8348c9a166db182c7bcf0ec7407e4972f98b9636f61662c513e57234a20c68e",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            2.762317657470703
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            3.2286815643310547
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.013",
+      "bounds": [
+        [
+          5.844848155975342,
+          6.028770923614502
+        ],
+        [
+          0.5911874771118164,
+          0.6476851105690002
+        ],
+        [
+          72.95807647705078,
+          73.48094177246094
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "dcef4f1ea6f4ef7675bf9ceea9777e1d9c87d817f5083de866bc13c5c60b0904",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            3.070240020751953
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            3.556833267211914
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.014",
+      "bounds": [
+        [
+          5.844866752624512,
+          6.028800010681152
+        ],
+        [
+          1.0534400939941406,
+          1.1099376678466797
+        ],
+        [
+          72.95807647705078,
+          73.48094177246094
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "346e32f2cfa2bb4e75d21be423125819b370dd6953702e5141161632cc487247",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            3.378162384033203
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            3.8849849700927734
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | folha aberta.004",
+      "bounds": [
+        [
+          2.568105936050415,
+          5.44251012802124
+        ],
+        [
+          2.4633138179779053,
+          2.545492172241211
+        ],
+        [
+          70.0284194946289,
+          72.7197036743164
+        ]
+      ],
+      "materials": [
+        "LAC R30B21 | vidro bandeiras acesso"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "082e2d919888f3444f56a1a0c0d1c79cceb08cd5afbef11837cf141775725e2d",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            3.7133302688598633
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            5.469753265380859
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            71.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.2199999988079071,
+              0.28999999165534973,
+              0.27000001072883606,
+              0.47999998927116394
+            ],
+            "base": [
+              0.2199999988079071,
+              0.28999999165534973,
+              0.27000001072883606,
+              1.0
+            ],
+            "roughness": 0.18000000715255737,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | folha aberta.005",
+      "bounds": [
+        [
+          2.567301034927368,
+          5.442493915557861
+        ],
+        [
+          4.816573143005371,
+          4.87624979019165
+        ],
+        [
+          70.0284194946289,
+          72.7197036743164
+        ]
+      ],
+      "materials": [
+        "LAC R30B21 | vidro bandeiras acesso"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "6262dbcbd8828b58b2e93db99d016f666ce10b6566030963e292a855d2d131df",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            5.677192687988281
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            7.562631607055664
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            71.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.2199999988079071,
+              0.28999999165534973,
+              0.27000001072883606,
+              0.47999998927116394
+            ],
+            "base": [
+              0.2199999988079071,
+              0.28999999165534973,
+              0.27000001072883606,
+              1.0
+            ],
+            "roughness": 0.18000000715255737,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | bandeira térreo.003",
+      "bounds": [
+        [
+          5.637966156005859,
+          5.868022918701172
+        ],
+        [
+          2.4376325607299805,
+          4.894898414611816
+        ],
+        [
+          72.94269561767578,
+          73.49633026123047
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "e7174e19d7a821b836a25a3c26ebbea793ab93ac71c6caa4b19e033d32586d3e",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            5.249472618103027
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            5.996145248413086
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.015",
+      "bounds": [
+        [
+          5.844949245452881,
+          6.028924942016602
+        ],
+        [
+          3.025722026824951,
+          3.0822196006774902
+        ],
+        [
+          72.95807647705078,
+          73.48094177246094
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "55cc06d34c2633f77cc995b30debd42082f0d82aaf551230741c528c90eb2f6a",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            4.691967010498047
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            5.285099029541016
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.016",
+      "bounds": [
+        [
+          5.844964027404785,
+          6.028947353363037
+        ],
+        [
+          3.419766664505005,
+          3.46079421043396
+        ],
+        [
+          72.95807647705078,
+          73.48094177246094
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "c5f9f3468c3cfff1c34ec08b2d694db22d28328eb845595262ec697be2a4693e",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            4.999889373779297
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            5.613250732421875
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.017",
+      "bounds": [
+        [
+          5.8449788093566895,
+          6.0289692878723145
+        ],
+        [
+          3.755448818206787,
+          3.796476364135742
+        ],
+        [
+          72.95807647705078,
+          73.48094177246094
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "c4d9f1302bd73510d6ef8b2d53080827f07a0ac211e842bcf62c0bb16ff4d72f",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            5.307812690734863
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            5.941402435302734
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.018",
+      "bounds": [
+        [
+          5.844991683959961,
+          6.028989315032959
+        ],
+        [
+          4.091127395629883,
+          4.132155418395996
+        ],
+        [
+          72.95807647705078,
+          73.48094177246094
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "46bc9a7a1043f94b1d02593ade7a27e2cbd6e2378a434858e422959f4a9b1403",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            5.615735054016113
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            6.269554138183594
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.019",
+      "bounds": [
+        [
+          5.845005035400391,
+          6.02901029586792
+        ],
+        [
+          4.426809787750244,
+          4.467837810516357
+        ],
+        [
+          72.95807647705078,
+          73.48094177246094
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "c4522e0e20e92098858b06c198bfda0fd8d23df23e5e573f2314722a684a54eb",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            5.923657417297363
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            6.597705841064453
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | folha aberta.006",
+      "bounds": [
+        [
+          2.5670831203460693,
+          5.442491054534912
+        ],
+        [
+          5.450637340545654,
+          5.510313987731934
+        ],
+        [
+          70.0284194946289,
+          72.7197036743164
+        ]
+      ],
+      "materials": [
+        "LAC R30B21 | vidro bandeiras acesso"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "63cbb7eb9e41fe45f2fb1568341402039a117287a15b440555278aa0ee7cd741",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            6.258825302124023
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            8.182474136352539
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            71.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.2199999988079071,
+              0.28999999165534973,
+              0.27000001072883606,
+              0.47999998927116394
+            ],
+            "base": [
+              0.2199999988079071,
+              0.28999999165534973,
+              0.27000001072883606,
+              1.0
+            ],
+            "roughness": 0.18000000715255737,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | folha aberta.007",
+      "bounds": [
+        [
+          2.566344976425171,
+          5.442477703094482
+        ],
+        [
+          7.5915374755859375,
+          7.651214122772217
+        ],
+        [
+          70.0284194946289,
+          72.7197036743164
+        ]
+      ],
+      "materials": [
+        "LAC R30B21 | vidro bandeiras acesso"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "8eb3c4c3e49655c2b600801276f7042b1cadc0d77c7a0f3a6d200b2458f52f09",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            8.222687721252441
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            10.275352478027344
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            71.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.2199999988079071,
+              0.28999999165534973,
+              0.27000001072883606,
+              0.47999998927116394
+            ],
+            "base": [
+              0.2199999988079071,
+              0.28999999165534973,
+              0.27000001072883606,
+              1.0
+            ],
+            "roughness": 0.18000000715255737,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | bandeira térreo.004",
+      "bounds": [
+        [
+          5.638011455535889,
+          5.868139743804932
+        ],
+        [
+          5.431989669799805,
+          7.669864177703857
+        ],
+        [
+          72.94269561767578,
+          73.49633026123047
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "783f3b51c292ce90b6b7eba37f469d4fd89bf41e9e13928e06c34c1b57827bb1",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            7.7949676513671875
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            8.708868026733398
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.020",
+      "bounds": [
+        [
+          5.845063209533691,
+          6.029099464416504
+        ],
+        [
+          5.859050273895264,
+          5.900078296661377
+        ],
+        [
+          72.95807647705078,
+          73.48094177246094
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "679053f2c8dfd960dc46349cb74112a800acb512e474ef300ccb8f8e67928286",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            7.237461090087891
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            7.997819900512695
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.021",
+      "bounds": [
+        [
+          5.845077037811279,
+          6.029119968414307
+        ],
+        [
+          6.194729328155518,
+          6.235757350921631
+        ],
+        [
+          72.95807647705078,
+          73.48094177246094
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "4c9e0307e2a3fcbf56bbdf6d71fade5b5529bfd76130aec244f001887d53e6ac",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            7.545383453369141
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            8.325971603393555
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.022",
+      "bounds": [
+        [
+          5.8450927734375,
+          6.029143333435059
+        ],
+        [
+          6.530412673950195,
+          6.571440696716309
+        ],
+        [
+          72.95807647705078,
+          73.48094177246094
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "613d4bbf032660f5d1ffbc4c3a07c923ff9eb07d586a1554b8b4bb426aba67da",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            7.853307723999023
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            8.654123306274414
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.023",
+      "bounds": [
+        [
+          5.845106601715088,
+          6.0291643142700195
+        ],
+        [
+          6.86609411239624,
+          6.9071221351623535
+        ],
+        [
+          72.95807647705078,
+          73.48094177246094
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "fd51636caa8ec3d1fc714c98d7212166d0490ff8aa3c6a79bcd1fbf12238aa67",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            8.161230087280273
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            8.982275009155273
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | grade bandeira.024",
+      "bounds": [
+        [
+          5.845115661621094,
+          6.029180526733398
+        ],
+        [
+          7.201775074005127,
+          7.24280309677124
+        ],
+        [
+          72.95807647705078,
+          73.48094177246094
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "e37d1c63c5b6eb5415864e1aec0e2a6cdbca1929aeebef08ec9ae8870a62b423",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            8.469152450561523
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            9.310428619384766
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            74.1500015258789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.08500000089406967,
+              0.10000000149011612,
+              0.10499999672174454,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.41999998688697815,
+            "metallic": 0.3499999940395355
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.88",
+        "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_STATION"
+      }
+    },
+    {
+      "object": "FACHADA SUPERIOR | corpo elevado",
+      "bounds": [
+        [
+          4.872039318084717,
+          5.557085990905762
+        ],
+        [
+          -5.502902507781982,
+          5.455275058746338
+        ],
+        [
+          74.12300872802734,
+          84.12300872802734
+        ]
+      ],
+      "materials": [
+        "LAC R30B23 | reboco bege fachada alta"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "00d4df15ed28151468107812e9e187cee6ab884416162fefaad770841ada8d52",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            2.4779186248779297
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            3.4955482482910156
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            81.19999694824219
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.5699999928474426,
+              0.46000000834465027,
+              0.3400000035762787,
+              1.0
+            ],
+            "base": [
+              0.5699999928474426,
+              0.46000000834465027,
+              0.3400000035762787,
+              1.0
+            ],
+            "roughness": 0.8299999833106995,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 57,
+        "polygons": 42
+      },
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda",
+        "boas_generated_revision": "R30B.91",
+        "boas_provenance_ids": "[\"derived:lacerda-structure-mesh-b91\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "BUILDING",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_BUILDING"
+      }
+    },
+    {
+      "object": "SUPERIOR | lateral corpo elevado",
+      "bounds": [
+        [
+          -10.198993682861328,
+          5.500000476837158
+        ],
+        [
+          -5.623059272766113,
+          -5.382748603820801
+        ],
+        [
+          74.12300872802734,
+          83.87300872802734
+        ]
+      ],
+      "materials": [
+        "LAC R30B23 | reboco bege fachada alta"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "19be45e7ef35274840f2b4bac09851a4225f262a811b4c5afe091b5a91c2c11e",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -5.287334442138672
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            2.9656028747558594
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            81.19999694824219
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.5699999928474426,
+              0.46000000834465027,
+              0.3400000035762787,
+              1.0
+            ],
+            "base": [
+              0.5699999928474426,
+              0.46000000834465027,
+              0.3400000035762787,
+              1.0
+            ],
+            "roughness": 0.8299999833106995,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 61,
+        "polygons": 42
+      },
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.96",
+        "boas_provenance_ids": "[\"derived:lacerda-upper-body-b96\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "BUILDING",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_BUILDING",
+        "boas_joint_type": "BUTT_CONTACT_AT_ROOF",
+        "boas_joint_level": 83.87300872802734
+      }
+    },
+    {
+      "object": "SUPERIOR | lateral corpo elevado.001",
+      "bounds": [
+        [
+          -10.198996543884277,
+          5.499999523162842
+        ],
+        [
+          5.33512020111084,
+          5.5754313468933105
+        ],
+        [
+          74.12300872802734,
+          83.87300872802734
+        ]
+      ],
+      "materials": [
+        "LAC R30B23 | reboco bege fachada alta"
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "signature": {
+        "geometry_sha256": "e50c8042277de0f1e1cfd96339965c5335d58996c9760c62da9848119dc3baf7",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            2.5133743286132812
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            11.27878189086914
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            81.19999694824219
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.5699999928474426,
+              0.46000000834465027,
+              0.3400000035762787,
+              1.0
+            ],
+            "base": [
+              0.5699999928474426,
+              0.46000000834465027,
+              0.3400000035762787,
+              1.0
+            ],
+            "roughness": 0.8299999833106995,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 61,
+        "polygons": 42
+      },
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.96",
+        "boas_provenance_ids": "[\"derived:lacerda-upper-body-b96\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": true,
+        "boas_production_ready": false,
+        "boas_layout_domain": "BUILDING",
+        "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+        "boas_architectural_domain": "UPPER_BUILDING",
+        "boas_joint_type": "BUTT_CONTACT_AT_ROOF",
+        "boas_joint_level": 83.87300872802734
+      }
+    },
+    {
+      "object": "ENTORNO LAC | Praca | pilaretes",
+      "bounds": [
+        [
+          -27.06831932067871,
+          36.438209533691406
+        ],
+        [
+          -26.68416976928711,
+          37.19493865966797
+        ],
+        [
+          70.0,
+          71.20999908447266
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "collections": [
+        "ENVIRONMENT_FINAL | entorno Lacerda R30B04"
+      ],
+      "signature": {
+        "geometry_sha256": "9538b25831a7ff5a46a86c3f96a608c70f5433d8d70091b5513648ebb651b8ff",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 288,
+        "polygons": 216
+      },
+      "properties": {
+        "boas_role": "visual_environment",
+        "classification": "ADAPT_LOCAL",
+        "reference_status": "partial",
+        "boas_location_id": "praca-tome-de-sousa"
+      }
+    }
+  ]
+}

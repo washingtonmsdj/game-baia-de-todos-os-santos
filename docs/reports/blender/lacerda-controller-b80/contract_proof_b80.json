@@ -1,0 +1,24 @@
+{
+  "schema": "boas/controller-contract-proof-v1",
+  "landing_state_cases": 81,
+  "closed_door_blocked": true,
+  "absent_cabin_blocked": true,
+  "unknown_state_blocked": true,
+  "failed_cabin_sweep_blocks_service": true,
+  "occupied_portal_blocks_closing": true,
+  "planner_respects_gate": true,
+  "analytic_geometry_cases": 4,
+  "synthetic_temporal_service_sequence_passed": true,
+  "upper_reference_gate_checks": [
+    {
+      "upper_reference_verified": false,
+      "route_blocked": true
+    },
+    {
+      "upper_reference_verified": null,
+      "route_blocked": true
+    }
+  ],
+  "actual_engine_verified": false,
+  "actual_trip_approved": false
+}

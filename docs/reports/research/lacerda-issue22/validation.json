@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "branch": "research/lacerda-evidence-2026-10-06",
+  "protected_revisions": 5,
+  "canonical_reports_unchanged": true,
+  "witnesses_traceable": 27,
+  "resources_hashed_and_excluded_from_git": 16,
+  "python_syntax_checked": 6,
+  "engine_physics_tested": false,
+  "CCD_repeated": false,
+  "scene_modified": false
+}

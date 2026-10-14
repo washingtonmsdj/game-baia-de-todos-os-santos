@@ -1,0 +1,183 @@
+{
+  "schema": "boas/centro-expansion-candidate-v1",
+  "source_scene": "blender/salvador_lacerda_r30b73_tangente_encosta_costura.blend",
+  "xy_controls": [
+    {
+      "osm_id": 1221368586,
+      "objects": [
+        "OSM | 1221368586"
+      ],
+      "source_xy": [
+        -268.6777183697559,
+        -202.62765336595476
+      ],
+      "live_xy": [
+        -266.2592315673828,
+        -200.55271911621094
+      ],
+      "residual_blender_units": 3.186601725037617,
+      "cached_center_difference": 4.479538050018484e-07,
+      "classification": "KEEP_REAL_REFERENCE"
+    },
+    {
+      "osm_id": 1221004639,
+      "objects": [
+        "Bar de Neuzão.001"
+      ],
+      "source_xy": [
+        541.8201637472957,
+        416.30593453277834
+      ],
+      "live_xy": [
+        546.5856018066406,
+        417.29737854003906
+      ],
+      "residual_blender_units": 4.867479955478602,
+      "cached_center_difference": 4.989507887513017e-07,
+      "classification": "KEEP_REAL_REFERENCE"
+    },
+    {
+      "osm_id": 1224899708,
+      "objects": [
+        "OSM 1224899708.001"
+      ],
+      "source_xy": [
+        207.13159171538427,
+        -285.77343025640585
+      ],
+      "live_xy": [
+        208.24142456054688,
+        -285.5865173339844
+      ],
+      "residual_blender_units": 1.1254622982445244,
+      "cached_center_difference": 5.519643061597143e-07,
+      "classification": "KEEP_REAL_REFERENCE"
+    },
+    {
+      "osm_id": 683637007,
+      "objects": [
+        "OSM 683637007.001"
+      ],
+      "source_xy": [
+        180.71081934450194,
+        636.4882965846919
+      ],
+      "live_xy": [
+        180.10845947265625,
+        635.80322265625
+      ],
+      "residual_blender_units": 0.9122300711118392,
+      "cached_center_difference": 5.844381789940969e-07,
+      "classification": "KEEP_REAL_REFERENCE"
+    },
+    {
+      "osm_id": 1219378790,
+      "objects": [
+        "Clube do Samba.001",
+        "OSM | Clube do Samba"
+      ],
+      "source_xy": [
+        283.3633297518827,
+        145.9006073847413
+      ],
+      "live_xy": [
+        283.38404846191406,
+        145.85073471069336
+      ],
+      "residual_blender_units": 0.05400507903944177,
+      "cached_center_difference": 2.1410800105464655e-07,
+      "classification": "KEEP_REAL_REFERENCE"
+    },
+    {
+      "osm_id": 402383814,
+      "objects": [
+        "Palácio do Rio Branco.002"
+      ],
+      "source_xy": [
+        -6.391549082938582,
+        -49.9011589367874
+      ],
+      "live_xy": [
+        -7.345166206359863,
+        -52.051544189453125
+      ],
+      "residual_blender_units": 2.352348263536785,
+      "cached_center_difference": 2.8013725184972577e-07,
+      "classification": "KEEP_REAL_REFERENCE"
+    }
+  ],
+  "relative_alignment_checked": true,
+  "absolute_georeference_verified": false,
+  "existing_projected_boundary_review": [
+    {
+      "object": "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+      "classification": "NEEDS_REVIEW",
+      "reason": "Ring Self-intersection[-285.703430175781 -281.262908935547]",
+      "projected_area_delta": 0.0,
+      "repair_scope": "Somente máscara XY derivada; mesh 3D e coordenadas fonte preservadas"
+    }
+  ],
+  "terrain_vertices": 92609,
+  "terrain_triangles": 181899,
+  "spacing_design_m": 6.0,
+  "native_resolution_verified": false,
+  "interpolation": "bilinear, original Terrarium values preserved",
+  "source_dem_changed": false,
+  "global_z_scale_or_offset_applied": false,
+  "local_transition": {
+    "classification": "ADAPT_LOCAL",
+    "width_design_m": 120.0,
+    "reason": "Continuidade com os anéis reais das duas superfícies existentes; não é calibração altimétrica absoluta",
+    "max_abs_delta_z": 15.679545931143238,
+    "affected_vertices": 8276
+  },
+  "traces": 7952,
+  "road_widths_invented": false,
+  "roads_final_built": false,
+  "targets": [
+    {
+      "id": 257113955,
+      "location_id": "center-lapa",
+      "inner_rings": 0
+    },
+    {
+      "id": 3346613,
+      "location_id": "arena-fonte-nova",
+      "inner_rings": 1
+    },
+    {
+      "id": 15601931,
+      "location_id": "dique-do-tororo",
+      "inner_rings": 0
+    }
+  ],
+  "routes": [
+    {
+      "location_id": "center-lapa",
+      "status": "reference_route_not_driveable_approval",
+      "widths_verified": false,
+      "length_blender_units": 3005.418062779293
+    },
+    {
+      "location_id": "arena-fonte-nova",
+      "status": "reference_route_not_driveable_approval",
+      "widths_verified": false,
+      "length_blender_units": 2092.7365457853743
+    },
+    {
+      "location_id": "dique-do-tororo",
+      "status": "reference_route_not_driveable_approval",
+      "widths_verified": false,
+      "length_blender_units": 4849.539282995938
+    }
+  ],
+  "geometry_finite": true,
+  "degenerate_triangles": 0,
+  "production_ready": false,
+  "rejected_preapplication_domain": {
+    "classification": "ERROR",
+    "applied": false,
+    "reason": "Recorte inicial abrangia ausência costeira; descartado antes da mutação. Recorte aplicado limitado à expansão terrestre sul/leste.",
+    "source_dem_changed": false
+  }
+}

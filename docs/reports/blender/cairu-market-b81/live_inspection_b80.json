@@ -1,0 +1,571 @@
+{
+  "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+  "pid": 10684,
+  "objects": 6294,
+  "dirty": false,
+  "frame": 65024,
+  "SSOT": "world/geographic-reference.json",
+  "sources": [
+    {
+      "object": "INFERIOR | piso do saguão",
+      "properties": {
+        "game_role": "walkable_surface",
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      },
+      "parent": null,
+      "bounds": {
+        "min": [
+          -60.307838439941406,
+          49.39553451538086,
+          7.155999660491943
+        ],
+        "max": [
+          -46.91106414794922,
+          62.85524368286133,
+          7.405999660491943
+        ]
+      },
+      "triangles": 12
+    },
+    {
+      "object": "INFERIOR R21 | passeio da entrada",
+      "properties": {
+        "game_role": "walkable_surface",
+        "ordax_semantic_revision": "R30A.4",
+        "ordax_semantic_layer": "32.4 GAMEPLAY | WALKABLE",
+        "ordax_semantic_note": "Lower Elevador access corridor.",
+        "ordax_semantic_roles": "[\"WALKABLE_SURFACE\"]",
+        "boas_runtime_role": "walkable_surface",
+        "boas_runtime_source_revision": "R30A.4",
+        "boas_export_candidate": true,
+        "boas_navigation_source": true,
+        "boas_navigation_source_revision": "R30A.11",
+        "boas_navigation_source_status": "candidate"
+      },
+      "parent": null,
+      "bounds": {
+        "min": [
+          -61.41965866088867,
+          55.64039993286133,
+          7.165999889373779
+        ],
+        "max": [
+          -53.5290412902832,
+          63.86367416381836,
+          7.405999660491943
+        ]
+      },
+      "triangles": 12
+    },
+    {
+      "object": "INFERIOR R21 | rebaixo acessível",
+      "properties": {
+        "game_role": "walkable_surface",
+        "ordax_semantic_revision": "R30A.4",
+        "ordax_semantic_layer": "32.4 GAMEPLAY | WALKABLE",
+        "ordax_semantic_note": "Lower Elevador access corridor.",
+        "ordax_semantic_roles": "[\"WALKABLE_SURFACE\"]",
+        "boas_runtime_role": "walkable_surface",
+        "boas_runtime_source_revision": "R30A.4",
+        "boas_export_candidate": true,
+        "boas_navigation_source": true,
+        "boas_navigation_source_revision": "R30A.11",
+        "boas_navigation_source_status": "candidate"
+      },
+      "parent": null,
+      "bounds": {
+        "min": [
+          -60.303096771240234,
+          59.59769821166992,
+          7.25600004196167
+        ],
+        "max": [
+          -57.41666030883789,
+          62.50661087036133,
+          7.406000137329102
+        ]
+      },
+      "triangles": 2
+    },
+    {
+      "object": "B63 | VISUAL | meios-fios das vias existentes",
+      "properties": {
+        "boas_revision": "R30B.64",
+        "boas_runtime_role": "environment_final",
+        "boas_gameplay_approved": false,
+        "boas_real_dimensions_verified": false,
+        "boas_classification": "ADAPT_LOCAL",
+        "boas_design_width_m": 0.18,
+        "boas_design_height_m": 0.12,
+        "boas_source_controls": "arestas pista/passeio na malha preservada; dimensões de desenho candidatas",
+        "boas_collision_partner": "B63 | COLLISION | meios-fios das vias existentes"
+      },
+      "parent": null,
+      "bounds": {
+        "min": [
+          -239.20343017578125,
+          -252.3878936767578,
+          7.255645751953125
+        ],
+        "max": [
+          519.302490234375,
+          594.0255126953125,
+          70.21204376220703
+        ]
+      },
+      "triangles": 52006
+    },
+    {
+      "object": "MVP | terreno corrigido | colisão estática",
+      "properties": {
+        "game_role": "composite:collision_source+gameplay_terrain",
+        "source": "Aleph DEM + OSM; patamares adaptados aos pisos do esboço",
+        "grid_m": 1.5,
+        "walkable_slope_limit_deg": 32.0,
+        "surface_method": "Crista OSM + DEM filtrado na Cidade Alta + planície baixa; rede conectada com patamares fixos e perfis harmônicos de ligação",
+        "revision": "superficie_integrada_v1",
+        "mercado_support": "OSM 59392558: apoio z10.82, entorno integrado sem laje retangular sobre vias",
+        "cairu_grade": "Patamar z10.82m em compatibilidade com piso Mercado z11; cota inferida, não levantamento",
+        "roads_revision": "Vias 25: passeios materiais integrados; superfícies sett OSM; guias e travessias documentadas",
+        "network_revision": "v6",
+        "accuracy": "Traçado OSM; altimetria filtrada e corrigida para MVP. Patamares 10.82/69.78m compatíveis com a arquitetura existente; não levantamento.",
+        "road_edges_refined": true,
+        "narrow_streets": "Ladeira da Conceição 3m; Montanha 6m: ajustes provisórios de largura para separar patamares; sem medida cadastral.",
+        "ordax_upper_plateau_fix": "v4-correct-transform",
+        "ordax_upper_plateau_plaza_z": 69.985,
+        "ordax_upper_plateau_pref_z": 70.2555,
+        "ordax_upper_plateau_falloff_m": "plaza20,pref20,rio18,camara18",
+        "ordax_upper_plateau_vertices_changed": 7205,
+        "ordax_upper_plateau_regions": "plaza,prefeitura,rio_branco,camara",
+        "ordax_upper_plateau_vertices_changed_v2": 7932,
+        "ordax_upper_plateau_smoothing": "localized-spike-cleanup-v2",
+        "ordax_upper_plateau_smooth_iterations": 10,
+        "ordax_upper_plateau_smooth_changed": 5290,
+        "ordax_upper_plateau_smooth_max_change_m": 3.5421,
+        "ordax_upper_plateau_spikes_before": 169,
+        "ordax_upper_plateau_spikes_after": 48,
+        "ordax_upper_plateau_spike_vertices_changed": 208,
+        "ordax_upper_plateau_transition": "baseline-local/current-matrix smootherstep",
+        "ordax_upper_plateau_vertices_rebuilt": 18130,
+        "ordax_upper_plateau_vertices_rebuilt_v4": 18928,
+        "ordax_semantic_revision": "R30A.4",
+        "ordax_semantic_layer": "32.2 GAMEPLAY | COLLISION SOURCE",
+        "ordax_semantic_note": "Collision source; geometry split intentionally deferred.",
+        "ordax_semantic_status": "composite_legacy_not_geometry_split",
+        "ordax_semantic_roles": "[\"COLLISION_SOURCE\", \"GAMEPLAY_TERRAIN\"]",
+        "r30b09_retaining_faces": 555,
+        "r30b09_note": "Apenas material visual nas faces íngremes junto à Ladeira; topologia, pista e colisão preservadas.",
+        "r30b10_retaining_faces": 1756,
+        "r30b10_note": "Faixa continua delimitada pela borda externa do passeio da Ladeira, sem mudar topologia ou materiais viarios.",
+        "r30b11_seam_faces": 1305,
+        "r30b11_seam_note": "Revestimento de pedra ate o passeio existente; sem alteracao na malha, pista ou colisao.",
+        "r30b12_terrain_reshaped": true,
+        "r30b12_method": "Perfil continuo entre limite externo do passeio existente e primeira cota de 69 m; vertices viarios preservados.",
+        "r30b13_full_ladeira": true,
+        "r30b13_profile": "Perfis de seção da pista existente e primeiro patamar estável da encosta; pista/passeios preservados.",
+        "r30b15_support_recess": "Relevo original restaurado ao redor do apoio; transição suave para contenção junto ao passeio.",
+        "r30b16_smoothing": "Laplace local com base do apoio e vertices viarios fixos; nao altera objetos separados.",
+        "boas_terrain_correction": "ERROR: encontro Montanha/Pau da Bandeira; regularização Z local sobre eixos OSM existentes, XY/materiais/topologia preservados",
+        "boas_boundary_extension_osm_ids": "1075624458,421206045; shared node 619722483",
+        "boas_boundary_extension_classification": "ADAPT_LOCAL",
+        "boas_boundary_extension_method": "Recorte ampliado 4 m; seção e materiais autorais continuados, sem deslocar vértices anteriores ou alterar larguras. Altimetria extrapolada local, não medida.",
+        "boas_boundary_extension_report": "docs/reports/blender/terrain_real_boundary_extension.json",
+        "r34_material_mask": "boas_r34_barranco: material em banda íngreme sob galerias; sem deslocar vértices, estrada ou colisor.",
+        "r34_profile_reason": "Ruptura local de contenção vertical documentada nas fotos; elimina solo na frente das galerias, preservando XY, praça e materiais de circulação.",
+        "r34_profile_classification": "ADAPT_LOCAL",
+        "r34_profile_status": "candidate_photo_geometry; medidas de base/profundidade não levantadas",
+        "r35_profile_reason": "Galerias escavadas sob laje; encosta recomposta entre perfil amostrado da ladeira e face do apoio alinhado. Sem alterar DEM-fonte ou pista.",
+        "r36_profile_correction": "Solo ajustado ao encontro das galerias, escadas internas e terraço, sem limiar Z deixando picos; vias/XY preservados.",
+        "boas_revision": "R30B.72",
+        "boas_coastline_control": "limite superior da água preservada B63",
+        "boas_classification": "ERROR",
+        "boas_source_report": "docs/reports/blender/city_seam_r30b72.json",
+        "boas_gameplay_approved": false,
+        "boas_road_width_status": "ADAPT_GAMEPLAY_NOT_SURVEYED",
+        "boas_road_binding_status": "OSM_IDS_SHARED_REFERENCE_CANDIDATE"
+      },
+      "parent": null,
+      "bounds": {
+        "min": [
+          -285.70343017578125,
+          -285.2629089355469,
+          4.255668640136719
+        ],
+        "max": [
+          542.2965698242188,
+          621.7371215820312,
+          70.2554931640625
+        ]
+      },
+      "triangles": 1046150
+    },
+    {
+      "object": "LAC R30B06 | fundo verde travessia 3178050253",
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_environment",
+        "reference_status": "partial",
+        "osm_node_id": "3178050253",
+        "classification": "KEEP_REAL_REFERENCE",
+        "source_media_id": "elevador-lacerda-front-2d9b4031ff6a",
+        "surface_separation_m": 0.003
+      },
+      "parent": null,
+      "bounds": {
+        "min": [
+          -62.422950744628906,
+          61.48794174194336,
+          7.264646053314209
+        ],
+        "max": [
+          -55.94247055053711,
+          68.20845031738281,
+          7.264646053314209
+        ]
+      },
+      "triangles": 11
+    }
+  ],
+  "six_witnesses": [
+    {
+      "segment": 40,
+      "t": 0.5,
+      "foot": [
+        -61.00613268288102,
+        67.76825027161561,
+        7.3286141231656075
+      ],
+      "obstacles": [
+        "B63 | VISUAL | meios-fios das vias existentes"
+      ],
+      "maximum_penetration": 0.003537735944134701,
+      "source_object": "B63 | VISUAL | meios-fios das vias existentes",
+      "surface_triangle": 42592,
+      "surface_vertices": [
+        [
+          -60.71107482910156,
+          68.25558471679688,
+          7.355668544769287
+        ],
+        [
+          -60.71873092651367,
+          68.27406311035156,
+          7.375668525695801
+        ],
+        [
+          -62.18869400024414,
+          66.80506134033203,
+          7.375668525695801
+        ]
+      ],
+      "capsule_distance": 0.2964622640558653,
+      "role": "CURB_STEP_PHYSICAL",
+      "action": "step_solver_candidate; não remover collider; bloquear se apoio/clearance falhar",
+      "maximum_step_candidate": 0.25,
+      "live_source_confirmed": true,
+      "collider_binding": "fonte visual usada na pré-validação; reconciliação derivada pendente"
+    },
+    {
+      "segment": 41,
+      "t": 0.5,
+      "foot": [
+        -61.08206180804493,
+        67.83125257606402,
+        7.368110334359175
+      ],
+      "obstacles": [
+        "B63 | VISUAL | meios-fios das vias existentes"
+      ],
+      "maximum_penetration": 0.0021716758150306936,
+      "source_object": "B63 | VISUAL | meios-fios das vias existentes",
+      "surface_triangle": 42595,
+      "surface_vertices": [
+        [
+          -60.71873092651367,
+          68.27406311035156,
+          7.375668525695801
+        ],
+        [
+          -62.31536865234375,
+          66.86466979980469,
+          7.375676155090332
+        ],
+        [
+          -62.18869400024414,
+          66.80506134033203,
+          7.375668525695801
+        ]
+      ],
+      "capsule_distance": 0.2978283241849693,
+      "role": "CURB_STEP_PHYSICAL",
+      "action": "step_solver_candidate; não remover collider; bloquear se apoio/clearance falhar",
+      "maximum_step_candidate": 0.25,
+      "live_source_confirmed": true,
+      "collider_binding": "fonte visual usada na pré-validação; reconciliação derivada pendente"
+    },
+    {
+      "segment": 44,
+      "t": 0.5,
+      "foot": [
+        -61.30984918353663,
+        68.02025948940926,
+        7.352628393098712
+      ],
+      "obstacles": [
+        "B63 | VISUAL | meios-fios das vias existentes"
+      ],
+      "maximum_penetration": 0.0026394361566172697,
+      "source_object": "B63 | VISUAL | meios-fios das vias existentes",
+      "surface_triangle": 42594,
+      "surface_vertices": [
+        [
+          -60.71873092651367,
+          68.27406311035156,
+          7.375668525695801
+        ],
+        [
+          -60.77230453491211,
+          68.40340423583984,
+          7.375676155090332
+        ],
+        [
+          -62.31536865234375,
+          66.86466979980469,
+          7.375676155090332
+        ]
+      ],
+      "capsule_distance": 0.2973605638433827,
+      "role": "CURB_STEP_PHYSICAL",
+      "action": "step_solver_candidate; não remover collider; bloquear se apoio/clearance falhar",
+      "maximum_step_candidate": 0.25,
+      "live_source_confirmed": true,
+      "collider_binding": "fonte visual usada na pré-validação; reconciliação derivada pendente"
+    },
+    {
+      "segment": 205,
+      "t": 0.5,
+      "foot": [
+        -61.24343953805722,
+        79.2816677079864,
+        7.343902967870235
+      ],
+      "obstacles": [
+        "B63 | VISUAL | meios-fios das vias existentes"
+      ],
+      "maximum_penetration": 0.0030339755385340728,
+      "source_object": "B63 | VISUAL | meios-fios das vias existentes",
+      "surface_triangle": 18414,
+      "surface_vertices": [
+        [
+          -62.166465759277344,
+          78.7218017578125,
+          7.375668525695801
+        ],
+        [
+          -62.03712463378906,
+          78.66822052001953,
+          7.375676155090332
+        ],
+        [
+          -60.63454055786133,
+          80.07080841064453,
+          7.375676155090332
+        ]
+      ],
+      "capsule_distance": 0.2969660244614659,
+      "role": "CURB_STEP_PHYSICAL",
+      "action": "step_solver_candidate; não remover collider; bloquear se apoio/clearance falhar",
+      "maximum_step_candidate": 0.25,
+      "live_source_confirmed": true,
+      "collider_binding": "fonte visual usada na pré-validação; reconciliação derivada pendente"
+    },
+    {
+      "segment": 208,
+      "t": 0.5,
+      "foot": [
+        -61.44677548468621,
+        79.49917310876032,
+        7.37074742182504
+      ],
+      "obstacles": [
+        "B63 | VISUAL | meios-fios das vias existentes"
+      ],
+      "maximum_penetration": 0.0021154256461073384,
+      "source_object": "B63 | VISUAL | meios-fios das vias existentes",
+      "surface_triangle": 18412,
+      "surface_vertices": [
+        [
+          -62.18494415283203,
+          78.72945404052734,
+          7.355668544769287
+        ],
+        [
+          -62.166465759277344,
+          78.7218017578125,
+          7.375668525695801
+        ],
+        [
+          -60.688114166259766,
+          80.20014953613281,
+          7.375668525695801
+        ]
+      ],
+      "capsule_distance": 0.29788457435389265,
+      "role": "CURB_STEP_PHYSICAL",
+      "action": "step_solver_candidate; não remover collider; bloquear se apoio/clearance falhar",
+      "maximum_step_candidate": 0.25,
+      "live_source_confirmed": true,
+      "collider_binding": "fonte visual usada na pré-validação; reconciliação derivada pendente"
+    },
+    {
+      "segment": 209,
+      "t": 0.5,
+      "foot": [
+        -61.51455413356254,
+        79.57167490901827,
+        7.337288862094283
+      ],
+      "obstacles": [
+        "B63 | VISUAL | meios-fios das vias existentes"
+      ],
+      "maximum_penetration": 0.0032847041799179966,
+      "source_object": "B63 | VISUAL | meios-fios das vias existentes",
+      "surface_triangle": 18412,
+      "surface_vertices": [
+        [
+          -62.18494415283203,
+          78.72945404052734,
+          7.355668544769287
+        ],
+        [
+          -62.166465759277344,
+          78.7218017578125,
+          7.375668525695801
+        ],
+        [
+          -60.688114166259766,
+          80.20014953613281,
+          7.375668525695801
+        ]
+      ],
+      "capsule_distance": 0.296715295820082,
+      "role": "CURB_STEP_PHYSICAL",
+      "action": "step_solver_candidate; não remover collider; bloquear se apoio/clearance falhar",
+      "maximum_step_candidate": 0.25,
+      "live_source_confirmed": true,
+      "collider_binding": "fonte visual usada na pré-validação; reconciliação derivada pendente"
+    }
+  ],
+  "route_controls": [
+    {
+      "id": 736745764,
+      "wgs84": [
+        -12.9740528,
+        -38.5133708
+      ],
+      "blender_xy": [
+        -47.0653197709471,
+        54.15738687920384
+      ],
+      "tags": {}
+    },
+    {
+      "id": 3178050253,
+      "wgs84": [
+        -12.9739531,
+        -38.5134715
+      ],
+      "blender_xy": [
+        -57.93100311374292,
+        65.21665694145486
+      ],
+      "tags": {
+        "crossing": "uncontrolled",
+        "highway": "crossing"
+      }
+    },
+    {
+      "id": 3986605269,
+      "wgs84": [
+        -12.9739213,
+        -38.5135109
+      ],
+      "blender_xy": [
+        -62.183034122921526,
+        68.74478599056602
+      ],
+      "tags": {}
+    },
+    {
+      "id": 3986605270,
+      "wgs84": [
+        -12.9738723,
+        -38.513458
+      ],
+      "blender_xy": [
+        -56.465044792275876,
+        74.17029078979976
+      ],
+      "tags": {}
+    },
+    {
+      "id": 5917201014,
+      "wgs84": [
+        -12.9738004,
+        -38.5135271
+      ],
+      "blender_xy": [
+        -63.92069616867229,
+        82.14548881817609
+      ],
+      "tags": {
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "traffic_signals": "signal"
+      }
+    },
+    {
+      "id": 592378620,
+      "wgs84": [
+        -12.973741,
+        -38.5135852
+      ],
+      "blender_xy": [
+        -70.1895895190537,
+        88.73427379410714
+      ],
+      "tags": {
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "traffic_signals": "signal"
+      }
+    },
+    {
+      "id": 13078289038,
+      "wgs84": [
+        -12.9735803,
+        -38.5137622
+      ],
+      "blender_xy": [
+        -89.28959340415895,
+        106.56138518126681
+      ],
+      "tags": {}
+    },
+    {
+      "id": 12229090827,
+      "wgs84": [
+        -12.9734945,
+        -38.513676
+      ],
+      "blender_xy": [
+        -79.97160189878196,
+        116.06215898296796
+      ],
+      "tags": {}
+    }
+  ],
+  "market_entrance_verified": false,
+  "terminus": "node/12229090827; não declarar entrada Mercado",
+  "scene_changed": false
+}

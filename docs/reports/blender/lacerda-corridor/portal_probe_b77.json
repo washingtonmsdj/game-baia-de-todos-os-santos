@@ -1,0 +1,1607 @@
+{
+  "schema": "boas/lacerda-walkability-candidate-v1",
+  "character_design": {
+    "radius": 0.3,
+    "height": 1.8,
+    "maximum_step": 0.25,
+    "grid_spacing": 0.4,
+    "contact_tolerance": 0.015,
+    "boarding_capsule_contact_max_drop": 0.03,
+    "boarding_contact_radius": 0.45
+  },
+  "elevator": {
+    "id": 3,
+    "source": "FUNCIONAL | 3 piso",
+    "upper_z": 70.11499786376953,
+    "lower_z": 7.4059977531433105,
+    "travel_design_units": 62.70900011062622,
+    "source_dimensions_status": "aproximação existente, sem datum/levantamento certificado",
+    "door_state_for_audit": "open; navegação deve ser bloqueada quando fechada"
+  },
+  "routes": {},
+  "collision_sources": [
+    "MVP | terreno corrigido | colisão estática",
+    "INFERIOR | piso do saguão",
+    "SUPERIOR | piso saguão",
+    "CALIBRADO | passarela piso 28.71 x 6.00m",
+    "CALIBRADO | piso superior torre",
+    "CALIBRADO | piso desembarque baixo",
+    "FUNCIONAL | soleira inferior",
+    "INFERIOR R21 | passeio da entrada",
+    "INFERIOR R21 | rebaixo acessível",
+    "TÉRREO | laje",
+    "LAC R30B | Passarela | piso paginado visual",
+    "PRAÇA | OSM 1263035782",
+    "FUNCIONAL | 3 soleira superior",
+    "FUNCIONAL | 3 soleira inferior",
+    "TORRE | cornija galeria",
+    "ESTAÇÃO INFERIOR | plataforma"
+  ],
+  "method": "A* no chão existente; cápsula por nove esferas, laterais e meio de segmento. Embarque permite contato geométrico da semiesfera inferior nas bordas reais, com quatro apoios laterais e descida máxima 3 cm; não gera superfície no vão. Estado inferior usa translação vertical medida da cabine existente. Sem física/sweep contínuo/validação de maré ou datum absoluto.",
+  "lower_route_reused_same_b76": false,
+  "portal_probes": [
+    {
+      "xy": [
+        -47.045169830322266,
+        47.703086853027344
+      ],
+      "support": [
+        70.13899993896484,
+        "FUNCIONAL | 3 soleira superior"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -47.09834289550781,
+        47.75298309326172
+      ],
+      "support": [
+        70.125,
+        "TORRE | cornija galeria"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -47.15151596069336,
+        47.80287551879883
+      ],
+      "support": [
+        70.12381512910892,
+        "TORRE | cornija galeria"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -47.204689025878906,
+        47.8527717590332
+      ],
+      "support": [
+        70.10870383030294,
+        "TORRE | cornija galeria"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -47.25785827636719,
+        47.90266799926758
+      ],
+      "support": [
+        70.11499786376953,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -47.311031341552734,
+        47.95256042480469
+      ],
+      "support": [
+        70.11499786376953,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -47.36420440673828,
+        48.00245666503906
+      ],
+      "support": [
+        70.11499786376953,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -47.41737747192383,
+        48.05235290527344
+      ],
+      "support": [
+        70.11499786376953,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -47.470550537109375,
+        48.10224533081055
+      ],
+      "support": [
+        70.11499786376953,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -47.52372360229492,
+        48.15214157104492
+      ],
+      "support": [
+        70.11499786376953,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -47.57689666748047,
+        48.2020378112793
+      ],
+      "support": [
+        70.11499786376953,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -47.630069732666016,
+        48.251930236816406
+      ],
+      "support": [
+        70.11499786376953,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -47.68324279785156,
+        48.30182647705078
+      ],
+      "support": [
+        70.11499786376953,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -47.736412048339844,
+        48.351722717285156
+      ],
+      "support": [
+        70.11499786376953,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -47.78958511352539,
+        48.401615142822266
+      ],
+      "support": [
+        70.11499786376953,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -47.84275817871094,
+        48.45151138305664
+      ],
+      "support": [
+        70.11499786376953,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -47.895931243896484,
+        48.501407623291016
+      ],
+      "support": [
+        70.11499786376953,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -47.94910430908203,
+        48.551300048828125
+      ],
+      "support": [
+        70.11499786376953,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -48.00227737426758,
+        48.6011962890625
+      ],
+      "support": [
+        70.11499786376953,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -48.055450439453125,
+        48.651092529296875
+      ],
+      "support": [
+        70.11499786376953,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -48.108619689941406,
+        48.700984954833984
+      ],
+      "support": [
+        70.11499786376953,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -48.16179275512695,
+        48.75088119506836
+      ],
+      "support": [
+        70.11499786376953,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -48.2149658203125,
+        48.800777435302734
+      ],
+      "support": [
+        70.11499786376953,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -48.26813888549805,
+        48.850669860839844
+      ],
+      "support": [
+        70.11499786376953,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -48.321311950683594,
+        48.90056610107422
+      ],
+      "support": [
+        70.11499786376953,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    }
+  ],
+  "lower_portal_probes": [
+    {
+      "xy": [
+        -49.59745407104492,
+        50.098045349121094
+      ],
+      "support": [
+        7.429999828338623,
+        "FUNCIONAL | 3 soleira inferior"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -49.544281005859375,
+        50.04814910888672
+      ],
+      "support": [
+        7.35099983215332,
+        "ESTAÇÃO INFERIOR | plataforma"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -49.49110794067383,
+        49.99825668334961
+      ],
+      "support": [
+        7.35099983215332,
+        "ESTAÇÃO INFERIOR | plataforma"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -49.43793487548828,
+        49.948360443115234
+      ],
+      "support": [
+        7.35099983215332,
+        "ESTAÇÃO INFERIOR | plataforma"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -49.384765625,
+        49.89846420288086
+      ],
+      "support": [
+        7.405998229980469,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -49.33159255981445,
+        49.84857177734375
+      ],
+      "support": [
+        7.405998229980469,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -49.278419494628906,
+        49.798675537109375
+      ],
+      "support": [
+        7.405998229980469,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -49.22524642944336,
+        49.748779296875
+      ],
+      "support": [
+        7.405998229980469,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -49.17207336425781,
+        49.69888687133789
+      ],
+      "support": [
+        7.405998229980469,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -49.118900299072266,
+        49.648990631103516
+      ],
+      "support": [
+        7.405998229980469,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -49.06572723388672,
+        49.59909439086914
+      ],
+      "support": [
+        7.405998229980469,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -49.01255416870117,
+        49.54920196533203
+      ],
+      "support": [
+        7.405998229980469,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -48.959381103515625,
+        49.499305725097656
+      ],
+      "support": [
+        7.405998229980469,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -48.906211853027344,
+        49.44940948486328
+      ],
+      "support": [
+        7.405998229980469,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -48.8530387878418,
+        49.39951705932617
+      ],
+      "support": [
+        7.405998229980469,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -48.79986572265625,
+        49.3496208190918
+      ],
+      "support": [
+        7.405998229980469,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -48.7466926574707,
+        49.29972457885742
+      ],
+      "support": [
+        7.405998229980469,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -48.693519592285156,
+        49.24983215332031
+      ],
+      "support": [
+        7.405998229980469,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -48.64034652709961,
+        49.19993591308594
+      ],
+      "support": [
+        7.405998229980469,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -48.58717346191406,
+        49.15003967285156
+      ],
+      "support": [
+        7.405998229980469,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -48.53400421142578,
+        49.10014724731445
+      ],
+      "support": [
+        7.405998229980469,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -48.480831146240234,
+        49.05025100708008
+      ],
+      "support": [
+        7.405998229980469,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -48.42765808105469,
+        49.0003547668457
+      ],
+      "support": [
+        7.405998229980469,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -48.37448501586914,
+        48.950462341308594
+      ],
+      "support": [
+        7.405998229980469,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    },
+    {
+      "xy": [
+        -48.321311950683594,
+        48.90056610107422
+      ],
+      "support": [
+        7.405998229980469,
+        "FUNCIONAL | 3 piso"
+      ],
+      "blocker": null
+    }
+  ],
+  "shaft_character_sweep": [
+    {
+      "z": 70.11499786376953,
+      "blocker": null
+    },
+    {
+      "z": 69.86516120994233,
+      "blocker": null
+    },
+    {
+      "z": 69.61532455611514,
+      "blocker": null
+    },
+    {
+      "z": 69.36548790228794,
+      "blocker": null
+    },
+    {
+      "z": 69.11565124846075,
+      "blocker": null
+    },
+    {
+      "z": 68.86581459463355,
+      "blocker": null
+    },
+    {
+      "z": 68.61597794080636,
+      "blocker": null
+    },
+    {
+      "z": 68.36614128697916,
+      "blocker": null
+    },
+    {
+      "z": 68.11630463315197,
+      "blocker": null
+    },
+    {
+      "z": 67.86646797932477,
+      "blocker": null
+    },
+    {
+      "z": 67.61663132549756,
+      "blocker": null
+    },
+    {
+      "z": 67.36679467167038,
+      "blocker": null
+    },
+    {
+      "z": 67.11695801784317,
+      "blocker": null
+    },
+    {
+      "z": 66.86712136401599,
+      "blocker": null
+    },
+    {
+      "z": 66.61728471018878,
+      "blocker": null
+    },
+    {
+      "z": 66.3674480563616,
+      "blocker": null
+    },
+    {
+      "z": 66.1176114025344,
+      "blocker": null
+    },
+    {
+      "z": 65.86777474870719,
+      "blocker": null
+    },
+    {
+      "z": 65.61793809488,
+      "blocker": null
+    },
+    {
+      "z": 65.3681014410528,
+      "blocker": null
+    },
+    {
+      "z": 65.11826478722561,
+      "blocker": null
+    },
+    {
+      "z": 64.86842813339841,
+      "blocker": null
+    },
+    {
+      "z": 64.61859147957122,
+      "blocker": null
+    },
+    {
+      "z": 64.36875482574402,
+      "blocker": null
+    },
+    {
+      "z": 64.11891817191682,
+      "blocker": null
+    },
+    {
+      "z": 63.86908151808963,
+      "blocker": null
+    },
+    {
+      "z": 63.619244864262434,
+      "blocker": null
+    },
+    {
+      "z": 63.36940821043524,
+      "blocker": null
+    },
+    {
+      "z": 63.11957155660804,
+      "blocker": null
+    },
+    {
+      "z": 62.86973490278084,
+      "blocker": null
+    },
+    {
+      "z": 62.619898248953646,
+      "blocker": null
+    },
+    {
+      "z": 62.37006159512645,
+      "blocker": null
+    },
+    {
+      "z": 62.120224941299256,
+      "blocker": null
+    },
+    {
+      "z": 61.87038828747206,
+      "blocker": null
+    },
+    {
+      "z": 61.620551633644865,
+      "blocker": null
+    },
+    {
+      "z": 61.37071497981767,
+      "blocker": null
+    },
+    {
+      "z": 61.120878325990475,
+      "blocker": null
+    },
+    {
+      "z": 60.87104167216327,
+      "blocker": null
+    },
+    {
+      "z": 60.62120501833608,
+      "blocker": null
+    },
+    {
+      "z": 60.37136836450888,
+      "blocker": null
+    },
+    {
+      "z": 60.12153171068169,
+      "blocker": null
+    },
+    {
+      "z": 59.87169505685449,
+      "blocker": null
+    },
+    {
+      "z": 59.621858403027296,
+      "blocker": null
+    },
+    {
+      "z": 59.3720217492001,
+      "blocker": null
+    },
+    {
+      "z": 59.1221850953729,
+      "blocker": null
+    },
+    {
+      "z": 58.87234844154571,
+      "blocker": null
+    },
+    {
+      "z": 58.62251178771851,
+      "blocker": null
+    },
+    {
+      "z": 58.37267513389131,
+      "blocker": null
+    },
+    {
+      "z": 58.12283848006412,
+      "blocker": null
+    },
+    {
+      "z": 57.87300182623692,
+      "blocker": null
+    },
+    {
+      "z": 57.62316517240973,
+      "blocker": null
+    },
+    {
+      "z": 57.37332851858253,
+      "blocker": null
+    },
+    {
+      "z": 57.12349186475534,
+      "blocker": null
+    },
+    {
+      "z": 56.873655210928135,
+      "blocker": null
+    },
+    {
+      "z": 56.62381855710094,
+      "blocker": null
+    },
+    {
+      "z": 56.373981903273744,
+      "blocker": null
+    },
+    {
+      "z": 56.12414524944655,
+      "blocker": null
+    },
+    {
+      "z": 55.874308595619354,
+      "blocker": null
+    },
+    {
+      "z": 55.62447194179216,
+      "blocker": null
+    },
+    {
+      "z": 55.37463528796496,
+      "blocker": null
+    },
+    {
+      "z": 55.12479863413776,
+      "blocker": null
+    },
+    {
+      "z": 54.87496198031057,
+      "blocker": null
+    },
+    {
+      "z": 54.62512532648337,
+      "blocker": null
+    },
+    {
+      "z": 54.375288672656175,
+      "blocker": null
+    },
+    {
+      "z": 54.12545201882898,
+      "blocker": null
+    },
+    {
+      "z": 53.875615365001785,
+      "blocker": null
+    },
+    {
+      "z": 53.62577871117459,
+      "blocker": null
+    },
+    {
+      "z": 53.37594205734739,
+      "blocker": null
+    },
+    {
+      "z": 53.1261054035202,
+      "blocker": null
+    },
+    {
+      "z": 52.876268749693,
+      "blocker": null
+    },
+    {
+      "z": 52.62643209586581,
+      "blocker": null
+    },
+    {
+      "z": 52.37659544203861,
+      "blocker": null
+    },
+    {
+      "z": 52.12675878821141,
+      "blocker": null
+    },
+    {
+      "z": 51.876922134384216,
+      "blocker": null
+    },
+    {
+      "z": 51.62708548055702,
+      "blocker": null
+    },
+    {
+      "z": 51.377248826729826,
+      "blocker": null
+    },
+    {
+      "z": 51.12741217290262,
+      "blocker": null
+    },
+    {
+      "z": 50.877575519075435,
+      "blocker": null
+    },
+    {
+      "z": 50.62773886524823,
+      "blocker": null
+    },
+    {
+      "z": 50.37790221142104,
+      "blocker": null
+    },
+    {
+      "z": 50.12806555759384,
+      "blocker": null
+    },
+    {
+      "z": 49.87822890376665,
+      "blocker": null
+    },
+    {
+      "z": 49.62839224993945,
+      "blocker": null
+    },
+    {
+      "z": 49.37855559611225,
+      "blocker": null
+    },
+    {
+      "z": 49.12871894228506,
+      "blocker": null
+    },
+    {
+      "z": 48.87888228845786,
+      "blocker": null
+    },
+    {
+      "z": 48.62904563463067,
+      "blocker": null
+    },
+    {
+      "z": 48.37920898080347,
+      "blocker": null
+    },
+    {
+      "z": 48.129372326976274,
+      "blocker": null
+    },
+    {
+      "z": 47.87953567314908,
+      "blocker": null
+    },
+    {
+      "z": 47.62969901932188,
+      "blocker": null
+    },
+    {
+      "z": 47.37986236549469,
+      "blocker": null
+    },
+    {
+      "z": 47.130025711667486,
+      "blocker": null
+    },
+    {
+      "z": 46.8801890578403,
+      "blocker": null
+    },
+    {
+      "z": 46.630352404013095,
+      "blocker": null
+    },
+    {
+      "z": 46.38051575018591,
+      "blocker": null
+    },
+    {
+      "z": 46.130679096358705,
+      "blocker": null
+    },
+    {
+      "z": 45.88084244253151,
+      "blocker": null
+    },
+    {
+      "z": 45.631005788704314,
+      "blocker": null
+    },
+    {
+      "z": 45.38116913487712,
+      "blocker": null
+    },
+    {
+      "z": 45.131332481049924,
+      "blocker": null
+    },
+    {
+      "z": 44.88149582722272,
+      "blocker": null
+    },
+    {
+      "z": 44.63165917339553,
+      "blocker": null
+    },
+    {
+      "z": 44.38182251956833,
+      "blocker": null
+    },
+    {
+      "z": 44.131985865741136,
+      "blocker": null
+    },
+    {
+      "z": 43.88214921191394,
+      "blocker": null
+    },
+    {
+      "z": 43.632312558086745,
+      "blocker": null
+    },
+    {
+      "z": 43.38247590425955,
+      "blocker": null
+    },
+    {
+      "z": 43.13263925043235,
+      "blocker": null
+    },
+    {
+      "z": 42.88280259660516,
+      "blocker": null
+    },
+    {
+      "z": 42.63296594277796,
+      "blocker": null
+    },
+    {
+      "z": 42.38312928895077,
+      "blocker": null
+    },
+    {
+      "z": 42.13329263512357,
+      "blocker": null
+    },
+    {
+      "z": 41.88345598129637,
+      "blocker": null
+    },
+    {
+      "z": 41.63361932746918,
+      "blocker": null
+    },
+    {
+      "z": 41.38378267364198,
+      "blocker": null
+    },
+    {
+      "z": 41.133946019814786,
+      "blocker": null
+    },
+    {
+      "z": 40.884109365987584,
+      "blocker": null
+    },
+    {
+      "z": 40.634272712160396,
+      "blocker": null
+    },
+    {
+      "z": 40.38443605833319,
+      "blocker": null
+    },
+    {
+      "z": 40.134599404506,
+      "blocker": null
+    },
+    {
+      "z": 39.8847627506788,
+      "blocker": null
+    },
+    {
+      "z": 39.63492609685161,
+      "blocker": null
+    },
+    {
+      "z": 39.38508944302441,
+      "blocker": null
+    },
+    {
+      "z": 39.13525278919721,
+      "blocker": null
+    },
+    {
+      "z": 38.88541613537002,
+      "blocker": null
+    },
+    {
+      "z": 38.63557948154282,
+      "blocker": null
+    },
+    {
+      "z": 38.38574282771563,
+      "blocker": null
+    },
+    {
+      "z": 38.13590617388843,
+      "blocker": null
+    },
+    {
+      "z": 37.886069520061234,
+      "blocker": null
+    },
+    {
+      "z": 37.63623286623404,
+      "blocker": null
+    },
+    {
+      "z": 37.386396212406844,
+      "blocker": null
+    },
+    {
+      "z": 37.13655955857965,
+      "blocker": null
+    },
+    {
+      "z": 36.88672290475245,
+      "blocker": null
+    },
+    {
+      "z": 36.63688625092525,
+      "blocker": null
+    },
+    {
+      "z": 36.387049597098056,
+      "blocker": null
+    },
+    {
+      "z": 36.13721294327086,
+      "blocker": null
+    },
+    {
+      "z": 35.887376289443665,
+      "blocker": null
+    },
+    {
+      "z": 35.63753963561647,
+      "blocker": null
+    },
+    {
+      "z": 35.387702981789275,
+      "blocker": null
+    },
+    {
+      "z": 35.13786632796208,
+      "blocker": null
+    },
+    {
+      "z": 34.888029674134884,
+      "blocker": null
+    },
+    {
+      "z": 34.63819302030768,
+      "blocker": null
+    },
+    {
+      "z": 34.38835636648049,
+      "blocker": null
+    },
+    {
+      "z": 34.13851971265329,
+      "blocker": null
+    },
+    {
+      "z": 33.888683058826096,
+      "blocker": null
+    },
+    {
+      "z": 33.6388464049989,
+      "blocker": null
+    },
+    {
+      "z": 33.389009751171706,
+      "blocker": null
+    },
+    {
+      "z": 33.13917309734451,
+      "blocker": null
+    },
+    {
+      "z": 32.889336443517315,
+      "blocker": null
+    },
+    {
+      "z": 32.63949978969011,
+      "blocker": null
+    },
+    {
+      "z": 32.38966313586292,
+      "blocker": null
+    },
+    {
+      "z": 32.13982648203572,
+      "blocker": null
+    },
+    {
+      "z": 31.889989828208527,
+      "blocker": null
+    },
+    {
+      "z": 31.640153174381332,
+      "blocker": null
+    },
+    {
+      "z": 31.390316520554137,
+      "blocker": null
+    },
+    {
+      "z": 31.140479866726942,
+      "blocker": null
+    },
+    {
+      "z": 30.890643212899747,
+      "blocker": null
+    },
+    {
+      "z": 30.640806559072544,
+      "blocker": null
+    },
+    {
+      "z": 30.39096990524535,
+      "blocker": null
+    },
+    {
+      "z": 30.141133251418154,
+      "blocker": null
+    },
+    {
+      "z": 29.89129659759096,
+      "blocker": null
+    },
+    {
+      "z": 29.641459943763763,
+      "blocker": null
+    },
+    {
+      "z": 29.391623289936568,
+      "blocker": null
+    },
+    {
+      "z": 29.141786636109373,
+      "blocker": null
+    },
+    {
+      "z": 28.891949982282178,
+      "blocker": null
+    },
+    {
+      "z": 28.642113328454975,
+      "blocker": null
+    },
+    {
+      "z": 28.39227667462778,
+      "blocker": null
+    },
+    {
+      "z": 28.142440020800585,
+      "blocker": null
+    },
+    {
+      "z": 27.89260336697339,
+      "blocker": null
+    },
+    {
+      "z": 27.642766713146194,
+      "blocker": null
+    },
+    {
+      "z": 27.392930059319,
+      "blocker": null
+    },
+    {
+      "z": 27.143093405491804,
+      "blocker": null
+    },
+    {
+      "z": 26.89325675166461,
+      "blocker": null
+    },
+    {
+      "z": 26.643420097837414,
+      "blocker": null
+    },
+    {
+      "z": 26.39358344401021,
+      "blocker": null
+    },
+    {
+      "z": 26.143746790183016,
+      "blocker": null
+    },
+    {
+      "z": 25.89391013635582,
+      "blocker": null
+    },
+    {
+      "z": 25.644073482528626,
+      "blocker": null
+    },
+    {
+      "z": 25.39423682870143,
+      "blocker": null
+    },
+    {
+      "z": 25.144400174874235,
+      "blocker": null
+    },
+    {
+      "z": 24.89456352104704,
+      "blocker": null
+    },
+    {
+      "z": 24.644726867219845,
+      "blocker": null
+    },
+    {
+      "z": 24.394890213392642,
+      "blocker": null
+    },
+    {
+      "z": 24.145053559565447,
+      "blocker": null
+    },
+    {
+      "z": 23.895216905738252,
+      "blocker": null
+    },
+    {
+      "z": 23.645380251911057,
+      "blocker": null
+    },
+    {
+      "z": 23.39554359808386,
+      "blocker": null
+    },
+    {
+      "z": 23.145706944256666,
+      "blocker": null
+    },
+    {
+      "z": 22.89587029042947,
+      "blocker": null
+    },
+    {
+      "z": 22.646033636602276,
+      "blocker": null
+    },
+    {
+      "z": 22.396196982775074,
+      "blocker": null
+    },
+    {
+      "z": 22.14636032894788,
+      "blocker": null
+    },
+    {
+      "z": 21.896523675120683,
+      "blocker": null
+    },
+    {
+      "z": 21.646687021293488,
+      "blocker": null
+    },
+    {
+      "z": 21.396850367466293,
+      "blocker": null
+    },
+    {
+      "z": 21.147013713639097,
+      "blocker": null
+    },
+    {
+      "z": 20.897177059811902,
+      "blocker": null
+    },
+    {
+      "z": 20.647340405984707,
+      "blocker": null
+    },
+    {
+      "z": 20.397503752157505,
+      "blocker": null
+    },
+    {
+      "z": 20.14766709833031,
+      "blocker": null
+    },
+    {
+      "z": 19.897830444503114,
+      "blocker": null
+    },
+    {
+      "z": 19.64799379067592,
+      "blocker": null
+    },
+    {
+      "z": 19.398157136848724,
+      "blocker": null
+    },
+    {
+      "z": 19.14832048302153,
+      "blocker": null
+    },
+    {
+      "z": 18.898483829194333,
+      "blocker": null
+    },
+    {
+      "z": 18.648647175367138,
+      "blocker": null
+    },
+    {
+      "z": 18.398810521539936,
+      "blocker": null
+    },
+    {
+      "z": 18.14897386771274,
+      "blocker": null
+    },
+    {
+      "z": 17.899137213885545,
+      "blocker": null
+    },
+    {
+      "z": 17.64930056005835,
+      "blocker": null
+    },
+    {
+      "z": 17.399463906231155,
+      "blocker": null
+    },
+    {
+      "z": 17.14962725240396,
+      "blocker": null
+    },
+    {
+      "z": 16.899790598576764,
+      "blocker": null
+    },
+    {
+      "z": 16.64995394474957,
+      "blocker": null
+    },
+    {
+      "z": 16.400117290922367,
+      "blocker": null
+    },
+    {
+      "z": 16.15028063709517,
+      "blocker": null
+    },
+    {
+      "z": 15.900443983267976,
+      "blocker": null
+    },
+    {
+      "z": 15.650607329440781,
+      "blocker": null
+    },
+    {
+      "z": 15.400770675613586,
+      "blocker": null
+    },
+    {
+      "z": 15.15093402178639,
+      "blocker": null
+    },
+    {
+      "z": 14.901097367959196,
+      "blocker": null
+    },
+    {
+      "z": 14.651260714132,
+      "blocker": null
+    },
+    {
+      "z": 14.401424060304798,
+      "blocker": null
+    },
+    {
+      "z": 14.151587406477603,
+      "blocker": null
+    },
+    {
+      "z": 13.901750752650408,
+      "blocker": null
+    },
+    {
+      "z": 13.651914098823212,
+      "blocker": null
+    },
+    {
+      "z": 13.402077444996017,
+      "blocker": null
+    },
+    {
+      "z": 13.152240791168822,
+      "blocker": null
+    },
+    {
+      "z": 12.902404137341627,
+      "blocker": null
+    },
+    {
+      "z": 12.652567483514432,
+      "blocker": null
+    },
+    {
+      "z": 12.40273082968723,
+      "blocker": null
+    },
+    {
+      "z": 12.152894175860034,
+      "blocker": null
+    },
+    {
+      "z": 11.903057522032839,
+      "blocker": null
+    },
+    {
+      "z": 11.653220868205644,
+      "blocker": null
+    },
+    {
+      "z": 11.403384214378448,
+      "blocker": null
+    },
+    {
+      "z": 11.153547560551253,
+      "blocker": null
+    },
+    {
+      "z": 10.903710906724058,
+      "blocker": null
+    },
+    {
+      "z": 10.653874252896863,
+      "blocker": null
+    },
+    {
+      "z": 10.40403759906966,
+      "blocker": null
+    },
+    {
+      "z": 10.154200945242465,
+      "blocker": null
+    },
+    {
+      "z": 9.90436429141527,
+      "blocker": null
+    },
+    {
+      "z": 9.654527637588075,
+      "blocker": null
+    },
+    {
+      "z": 9.40469098376088,
+      "blocker": null
+    },
+    {
+      "z": 9.154854329933684,
+      "blocker": null
+    },
+    {
+      "z": 8.905017676106489,
+      "blocker": null
+    },
+    {
+      "z": 8.655181022279294,
+      "blocker": null
+    },
+    {
+      "z": 8.405344368452091,
+      "blocker": null
+    },
+    {
+      "z": 8.155507714624896,
+      "blocker": null
+    },
+    {
+      "z": 7.905671060797701,
+      "blocker": null
+    },
+    {
+      "z": 7.655834406970506,
+      "blocker": null
+    },
+    {
+      "z": 7.4059977531433105,
+      "blocker": null
+    }
+  ],
+  "shaft_character_blocked": 0
+}

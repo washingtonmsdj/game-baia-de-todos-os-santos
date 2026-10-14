@@ -107,6 +107,8 @@ A lógica de grade/tiles e os GeoJSONs podem ajudar a:
 
 ### 5. Imagens de satélite do Google
 
+B77: uso ampliado **como referência de desenvolvimento**, autorizado pelo usuário, com classificação central `DEV_REFERENCE_ONLY`. A política de produção abaixo permanece. Capturas pontuais e seus metadados ficam separáveis do conteúdo final; não aplicar como textura final nem presumir aprovação derivativa.
+
 **Uso de produção:** NÃO, por padrão.
 
 A implementação analisada do Aleph baixa tiles de satélite de endpoint do Google. O próprio Aleph declara uso de APIs não documentadas. Os termos atuais do Google Maps restringem scraping/download em massa e criação de conteúdo derivado do conteúdo do Google Maps.
@@ -121,6 +123,8 @@ Portanto, no Bay of All Saints:
 Se uma fonte de imagem aérea com licença apropriada for adotada depois, ela deve entrar no registro de proveniência separadamente.
 
 ### 6. Street View do Google
+
+B77: permitido consultar amplamente como referência de desenvolvimento isolada. O wrapper pinado registra panorama/consulta/hashes e indisponibilidade; selecionar acesso por evidência da vista, não apenas proximidade XY, pois Salvador tem níveis sobrepostos.
 
 **Uso de produção:** NÃO, por padrão.
 

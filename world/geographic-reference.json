@@ -1,0 +1,70 @@
+{
+  "schema": "boas/geographic-reference-v1",
+  "ssot_id": "salvador-geographic-reference-v1",
+  "status": "relative_consistent_absolute_candidate",
+  "horizontal": {
+    "source_crs": "EPSG:3857",
+    "wgs84_origin_order": "latitude_longitude",
+    "transform": {
+      "scale_blender_units_per_meter": 0.9701734817753527,
+      "meters_per_blender_unit": 1.0307434894737246,
+      "rotation_epsg3857_to_blender_deg": -0.05099045551313879,
+      "translation_blender": [
+        4160622.9992154283,
+        1409669.6244045058
+      ],
+      "blender_origin_epsg3857": [
+        -4287240.264256618,
+        -1456823.7992721552
+      ],
+      "blender_origin_wgs84": [
+        -12.974541080934225,
+        -38.51293456074336
+      ],
+      "true_north_blender_vector": [
+        0.0008899512183204103,
+        0.9999996039933361
+      ],
+      "true_north_angle_from_blender_x_deg": 89.94900954448686
+    },
+    "confidence": "candidate",
+    "fit_evidence": "artifacts/structural-pipeline/centro-lapa-tororo-fontenova/georef_fit.json",
+    "note": "Uma transformação para núcleo e expansão. Escala EPSG:3857 não equivale diretamente a distância no solo; unidade nominal da cena é um metro."
+  },
+  "vertical": {
+    "reference": "existing_scene_local_z",
+    "absolute_datum": null,
+    "absolute_datum_verified": false,
+    "candidate_dem_to_scene": {
+      "scale_z_blender_units_per_dem_meter": 0.9765113677655543,
+      "dem_meters_per_blender_z_unit": 1.024053618841317,
+      "z_offset_blender_units": -3.249092039440118,
+      "rms_residual_blender_units": 1.6279955763891554,
+      "median_abs_residual_blender_units": 0.7219317759155999,
+      "max_abs_residual_blender_units": 4.342594762424048,
+      "robust_cutoff_blender_units": 4.3061841414643345,
+      "robust_mad_blender_units": 0.7261203530055873,
+      "forced_minimum_subset": false
+    },
+    "candidate_evidence": "docs/reports/blender/geographic-foundation/vertical_fit_aleph.json",
+    "candidate_applied_to_scene": false,
+    "existing_expansion_recipe": "tools/world/build_centro_expansion_candidate.py",
+    "note": "Preservar Z do núcleo. B74/B75 continuam na derivação Terrarium registrada; GeoTIFF Aleph é candidato de auditoria, não substituição silenciosa."
+  },
+  "units": {
+    "blender_unit_nominal_meters": 1,
+    "physical_scale_survey_verified": false
+  },
+  "sources": {
+    "osm": "docs/reports/world/centro-lapa-tororo-fontenova/source_summary.json",
+    "aleph_candidate": "docs/reports/aleph/centro-lapa-tororo-fontenova/source_summary.json",
+    "historical_aleph_recovered": false
+  },
+  "gates": {
+    "independent_regional_fit_allowed": false,
+    "automatic_global_z_adjustment_allowed": false,
+    "missing_height_or_width": null,
+    "runtime_promotion": false,
+    "next_priority": "Validar continuidade vertical do núcleo Tomé de Souza/Lacerda/Cairu; resolver perfil de margem do Dique antes de aprovar expansão."
+  }
+}

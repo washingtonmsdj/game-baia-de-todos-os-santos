@@ -1,0 +1,14 @@
+[
+  {
+    "media_id": "elevador-lacerda-detail-a74f3bf499b0",
+    "resource_id": "source:lacerda-exterior-proportions-photo-a74f3bf499b0",
+    "sha256": "a74f3bf499b094ac44902bed231855229c7f4feb2af660ca192bb723c73ee1cc",
+    "file": "world-reference/mvp-centro-lacerda/elevador-lacerda/estrutura-encosta-a74f3bf499b0.png"
+  },
+  {
+    "media_id": "elevador-lacerda-detail-c1c35ca9d191",
+    "resource_id": "source:lacerda-exterior-proportions-photo-c1c35ca9d191",
+    "sha256": "c1c35ca9d19118a628587fbb48cde39b13f015844da9dd2f034fb58f30515b92",
+    "file": "world-reference/mvp-centro-lacerda/elevador-lacerda/estrutura-encosta-c1c35ca9d191.png"
+  }
+]

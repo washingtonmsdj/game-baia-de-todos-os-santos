@@ -1,0 +1,99 @@
+{
+  "scope": "Somente corpos de cache f_hex anteriores a 2026-10-05; cookies, historico, perfis e indices preservados",
+  "deleted_bytes": 1295105840,
+  "schema": "boas/storage-cleanup-b73-v1",
+  "free_after": 1270030336,
+  "profiles": [
+    {
+      "profile": "Default",
+      "bytes": 160571552,
+      "files": 615
+    },
+    {
+      "profile": "Profile 1",
+      "bytes": 218099800,
+      "files": 801
+    },
+    {
+      "profile": "Profile 10",
+      "bytes": 80934461,
+      "files": 350
+    },
+    {
+      "profile": "Profile 11",
+      "bytes": 187586437,
+      "files": 1129
+    },
+    {
+      "profile": "Profile 12",
+      "bytes": 24791253,
+      "files": 173
+    },
+    {
+      "profile": "Profile 13",
+      "bytes": 39605574,
+      "files": 280
+    },
+    {
+      "profile": "Profile 14",
+      "bytes": 32271558,
+      "files": 221
+    },
+    {
+      "profile": "Profile 16",
+      "bytes": 83031142,
+      "files": 577
+    },
+    {
+      "profile": "Profile 17",
+      "bytes": 191341091,
+      "files": 881
+    },
+    {
+      "profile": "Profile 18",
+      "bytes": 24714418,
+      "files": 272
+    },
+    {
+      "profile": "Profile 19",
+      "bytes": 16430227,
+      "files": 118
+    },
+    {
+      "profile": "Profile 3",
+      "bytes": 11351910,
+      "files": 92
+    },
+    {
+      "profile": "Profile 4",
+      "bytes": 69933898,
+      "files": 328
+    },
+    {
+      "profile": "Profile 5",
+      "bytes": 24319981,
+      "files": 143
+    },
+    {
+      "profile": "Profile 6",
+      "bytes": 29851546,
+      "files": 173
+    },
+    {
+      "profile": "Profile 7",
+      "bytes": 28692317,
+      "files": 171
+    },
+    {
+      "profile": "Profile 8",
+      "bytes": 47844165,
+      "files": 275
+    },
+    {
+      "profile": "Profile 9",
+      "bytes": 23734510,
+      "files": 120
+    }
+  ],
+  "root": "%LOCALAPPDATA%/Google/Chrome/User Data"
+}

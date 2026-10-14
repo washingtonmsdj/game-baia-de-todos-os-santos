@@ -1,0 +1,1633 @@
+{
+  "schema": "boas/road-corrections-v1",
+  "area_id": "centro-lapa-tororo-fontenova",
+  "cycle": "2026-10-05-B74",
+  "source": {
+    "file": "blender/salvador_lacerda_r30b74_expansao_lapa_tororo_fonte_nova.blend",
+    "sha256": "1b4c16b9831a38bff93e3fb9c03c87bdfaf3e48f5a00cf03e0945b7f6d9b220a",
+    "revision": "R30B.74"
+  },
+  "issues": [
+    {
+      "issue_id": "B74-grade-001",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 231091547,
+      "xy": [
+        -14.355635087357236,
+        -89.89960552281084
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-002",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 231091547,
+      "xy": [
+        -13.692720740031945,
+        -89.1639143024211
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-003",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 231091547,
+      "xy": [
+        -13.02980639270665,
+        -88.42822308203135
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-004",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 231091547,
+      "xy": [
+        -12.366892045381356,
+        -87.6925318616416
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-005",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 231091547,
+      "xy": [
+        -11.703977698056061,
+        -86.95684064125186
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-006",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 231091546,
+      "xy": [
+        59.39516529680954,
+        -4.2568595977189645
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-007",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 231091546,
+      "xy": [
+        59.98485984175156,
+        -5.045007795747369
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-008",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 231091546,
+      "xy": [
+        60.57455438669357,
+        -5.833155993775775
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-009",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 231091546,
+      "xy": [
+        61.16424893163558,
+        -6.62130419180418
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-010",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 231091546,
+      "xy": [
+        61.7539434765776,
+        -7.409452389832586
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-011",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 808215598,
+      "xy": [
+        255.2541597807339,
+        -1377.1922004976016
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-012",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 808215598,
+      "xy": [
+        254.35187328915652,
+        -1376.7877274737325
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-013",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 808215598,
+      "xy": [
+        253.44958679757914,
+        -1376.3832544498637
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-014",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 808215598,
+      "xy": [
+        252.54730030600177,
+        -1375.9787814259946
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-015",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 808215598,
+      "xy": [
+        251.6450138144244,
+        -1375.5743084021256
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-016",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 808215598,
+      "xy": [
+        250.74272732284703,
+        -1375.1698353782565
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-017",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 808215598,
+      "xy": [
+        249.8404408312697,
+        -1374.7653623543877
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-018",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 808215598,
+      "xy": [
+        248.93815433969232,
+        -1374.3608893305186
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-019",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 808215598,
+      "xy": [
+        248.03586784811495,
+        -1373.9564163066495
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-020",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 808215598,
+      "xy": [
+        247.13358135653758,
+        -1373.5519432827805
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-021",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 808215598,
+      "xy": [
+        246.2312948649602,
+        -1373.1474702589117
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-022",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 808215598,
+      "xy": [
+        245.32900837338283,
+        -1372.7429972350426
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-023",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 808215598,
+      "xy": [
+        244.4267218818055,
+        -1372.3385242111735
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-024",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 808215598,
+      "xy": [
+        243.52443539022812,
+        -1371.9340511873045
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-025",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 808215598,
+      "xy": [
+        242.62214889865075,
+        -1371.5295781634356
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-026",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 808215598,
+      "xy": [
+        241.71986240707338,
+        -1371.1251051395666
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-027",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 808215598,
+      "xy": [
+        240.84741261121675,
+        -1370.6974490481414
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-028",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 808215598,
+      "xy": [
+        239.97496281536013,
+        -1370.2697929567164
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-029",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 808215598,
+      "xy": [
+        239.1025130195035,
+        -1369.8421368652912
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-030",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 808215598,
+      "xy": [
+        238.2300632236469,
+        -1369.4144807738662
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-031",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 808215598,
+      "xy": [
+        237.35761342779028,
+        -1368.986824682441
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-032",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        72.4244639086537,
+        -965.8893486072775
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-033",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        72.3495787922293,
+        -966.820276011979
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-034",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        72.27469367580488,
+        -967.7512034166804
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-035",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        72.19980855938047,
+        -968.6821308213819
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-036",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        72.12492344295606,
+        -969.6130582260832
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-037",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        72.05003832653165,
+        -970.5439856307847
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-038",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        71.97515321010724,
+        -971.4749130354861
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-039",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        71.90026809368283,
+        -972.4058404401876
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-040",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        71.5584876390307,
+        -973.3175306559008
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-041",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        71.21670718437859,
+        -974.2292208716141
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-042",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        70.87492672972647,
+        -975.1409110873273
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-043",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        70.53314627507436,
+        -976.0526013030404
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-044",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        70.19136582042223,
+        -976.9642915187536
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-045",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        69.84958536577012,
+        -977.8759817344669
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-046",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        69.507804911118,
+        -978.7876719501801
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-047",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        68.86814564466476,
+        -979.5333760138989
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-048",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        68.22848637821153,
+        -980.2790800776178
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-049",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        67.58882711175829,
+        -981.0247841413366
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-050",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        66.94916784530506,
+        -981.7704882050554
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-051",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        66.30950857885182,
+        -982.5161922687743
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-052",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        65.66984931239858,
+        -983.261896332493
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-053",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        65.03818020124787,
+        -983.9864966472544
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-054",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        64.40651109009715,
+        -984.7110969620159
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-055",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        63.774841978946434,
+        -985.4356972767772
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-056",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        63.14317286779572,
+        -986.1602975915386
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-057",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        62.511503756645006,
+        -986.8848979062999
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-058",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        61.879834645494284,
+        -987.6094982210614
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-059",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        -7.930105446671535,
+        -1053.4754893733354
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-060",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        -8.602906449631389,
+        -1052.7433931251123
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-061",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        -9.275707452591242,
+        -1052.0112968768892
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-062",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        -9.948508455551096,
+        -1051.2792006286659
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-063",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        -10.62130945851095,
+        -1050.5471043804428
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-064",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        -11.294110461470805,
+        -1049.8150081322196
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-065",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        -11.966911464430659,
+        -1049.0829118839963
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-066",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        -12.639712467390511,
+        -1048.3508156357732
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-067",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        -13.312513470350366,
+        -1047.61871938755
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-068",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        -13.985314473310218,
+        -1046.886623139327
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-069",
+      "status": "pending",
+      "location_id": "center-lapa",
+      "osm_way_id": 257113957,
+      "xy": [
+        -14.658115476270073,
+        -1046.1545268911036
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-070",
+      "status": "pending",
+      "location_id": "arena-fonte-nova",
+      "osm_way_id": 231091547,
+      "xy": [
+        -14.355635087357236,
+        -89.89960552281084
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-071",
+      "status": "pending",
+      "location_id": "arena-fonte-nova",
+      "osm_way_id": 231091547,
+      "xy": [
+        -13.692720740031945,
+        -89.1639143024211
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-072",
+      "status": "pending",
+      "location_id": "arena-fonte-nova",
+      "osm_way_id": 231091547,
+      "xy": [
+        -13.02980639270665,
+        -88.42822308203135
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-073",
+      "status": "pending",
+      "location_id": "arena-fonte-nova",
+      "osm_way_id": 231091547,
+      "xy": [
+        -12.366892045381356,
+        -87.6925318616416
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-074",
+      "status": "pending",
+      "location_id": "arena-fonte-nova",
+      "osm_way_id": 231091547,
+      "xy": [
+        -11.703977698056061,
+        -86.95684064125186
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-075",
+      "status": "pending",
+      "location_id": "arena-fonte-nova",
+      "osm_way_id": 231091546,
+      "xy": [
+        59.39516529680954,
+        -4.2568595977189645
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-076",
+      "status": "pending",
+      "location_id": "arena-fonte-nova",
+      "osm_way_id": 231091546,
+      "xy": [
+        59.98485984175156,
+        -5.045007795747369
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-077",
+      "status": "pending",
+      "location_id": "arena-fonte-nova",
+      "osm_way_id": 231091546,
+      "xy": [
+        60.57455438669357,
+        -5.833155993775775
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-078",
+      "status": "pending",
+      "location_id": "arena-fonte-nova",
+      "osm_way_id": 231091546,
+      "xy": [
+        61.16424893163558,
+        -6.62130419180418
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-079",
+      "status": "pending",
+      "location_id": "arena-fonte-nova",
+      "osm_way_id": 231091546,
+      "xy": [
+        61.7539434765776,
+        -7.409452389832586
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-080",
+      "status": "pending",
+      "location_id": "arena-fonte-nova",
+      "osm_way_id": 396044997,
+      "xy": [
+        930.2456814151639,
+        -310.82421421990944
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-081",
+      "status": "pending",
+      "location_id": "arena-fonte-nova",
+      "osm_way_id": 396044997,
+      "xy": [
+        931.1806651206376,
+        -310.4880224862912
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-082",
+      "status": "pending",
+      "location_id": "arena-fonte-nova",
+      "osm_way_id": 396044997,
+      "xy": [
+        932.1156488261115,
+        -310.151830752673
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-083",
+      "status": "pending",
+      "location_id": "arena-fonte-nova",
+      "osm_way_id": 136028743,
+      "xy": [
+        1067.0400992449693,
+        -526.6238106747501
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-084",
+      "status": "pending",
+      "location_id": "arena-fonte-nova",
+      "osm_way_id": 136028743,
+      "xy": [
+        1066.510723641902,
+        -527.4639042422764
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-085",
+      "status": "pending",
+      "location_id": "arena-fonte-nova",
+      "osm_way_id": 136028743,
+      "xy": [
+        1065.9813480388348,
+        -528.3039978098026
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-086",
+      "status": "pending",
+      "location_id": "arena-fonte-nova",
+      "osm_way_id": 136028743,
+      "xy": [
+        1065.4519724357676,
+        -529.1440913773289
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-087",
+      "status": "pending",
+      "location_id": "arena-fonte-nova",
+      "osm_way_id": 136028743,
+      "xy": [
+        1064.9225968327005,
+        -529.9841849448552
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-088",
+      "status": "pending",
+      "location_id": "arena-fonte-nova",
+      "osm_way_id": 136028743,
+      "xy": [
+        1064.3932212296334,
+        -530.8242785123814
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-089",
+      "status": "pending",
+      "location_id": "arena-fonte-nova",
+      "osm_way_id": 136028743,
+      "xy": [
+        1063.8638456265662,
+        -531.6643720799077
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-090",
+      "status": "pending",
+      "location_id": "arena-fonte-nova",
+      "osm_way_id": 136028743,
+      "xy": [
+        1054.3350847713575,
+        -546.7860562953804
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-091",
+      "status": "pending",
+      "location_id": "dique-do-tororo",
+      "osm_way_id": 231091547,
+      "xy": [
+        -14.355635087357236,
+        -89.89960552281084
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-092",
+      "status": "pending",
+      "location_id": "dique-do-tororo",
+      "osm_way_id": 231091547,
+      "xy": [
+        -13.692720740031945,
+        -89.1639143024211
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-093",
+      "status": "pending",
+      "location_id": "dique-do-tororo",
+      "osm_way_id": 231091547,
+      "xy": [
+        -13.02980639270665,
+        -88.42822308203135
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-094",
+      "status": "pending",
+      "location_id": "dique-do-tororo",
+      "osm_way_id": 231091547,
+      "xy": [
+        -12.366892045381356,
+        -87.6925318616416
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-095",
+      "status": "pending",
+      "location_id": "dique-do-tororo",
+      "osm_way_id": 231091547,
+      "xy": [
+        -11.703977698056061,
+        -86.95684064125186
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-096",
+      "status": "pending",
+      "location_id": "dique-do-tororo",
+      "osm_way_id": 231091546,
+      "xy": [
+        59.39516529680954,
+        -4.2568595977189645
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-097",
+      "status": "pending",
+      "location_id": "dique-do-tororo",
+      "osm_way_id": 231091546,
+      "xy": [
+        59.98485984175156,
+        -5.045007795747369
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-098",
+      "status": "pending",
+      "location_id": "dique-do-tororo",
+      "osm_way_id": 231091546,
+      "xy": [
+        60.57455438669357,
+        -5.833155993775775
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-099",
+      "status": "pending",
+      "location_id": "dique-do-tororo",
+      "osm_way_id": 231091546,
+      "xy": [
+        61.16424893163558,
+        -6.62130419180418
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-100",
+      "status": "pending",
+      "location_id": "dique-do-tororo",
+      "osm_way_id": 231091546,
+      "xy": [
+        61.7539434765776,
+        -7.409452389832586
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-101",
+      "status": "pending",
+      "location_id": "dique-do-tororo",
+      "osm_way_id": 1076037133,
+      "xy": [
+        570.5340088504987,
+        -1080.327914020978
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-102",
+      "status": "pending",
+      "location_id": "dique-do-tororo",
+      "osm_way_id": 1076037133,
+      "xy": [
+        570.2577585744439,
+        -1081.2854505557334
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-103",
+      "status": "pending",
+      "location_id": "dique-do-tororo",
+      "osm_way_id": 1076037133,
+      "xy": [
+        569.7052580223341,
+        -1083.2005236252444
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-104",
+      "status": "pending",
+      "location_id": "dique-do-tororo",
+      "osm_way_id": 31221696,
+      "xy": [
+        1000.8937959982762,
+        -1789.8083632420435
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-105",
+      "status": "pending",
+      "location_id": "dique-do-tororo",
+      "osm_way_id": 31221696,
+      "xy": [
+        1001.8607107415326,
+        -1790.0485693889393
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B74-grade-106",
+      "status": "pending",
+      "location_id": "dique-do-tororo",
+      "osm_way_id": 31221696,
+      "xy": [
+        1002.8276254847889,
+        -1790.2887755358352
+      ],
+      "flags": [
+        "grade_over_candidate_30pct"
+      ],
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "issue_id": "B75-walkway-377676435",
+      "status": "pending",
+      "osm_way_id": 377676435,
+      "classification": "NEEDS_REVIEW",
+      "reason": "Conflito XY com footprint explícito",
+      "evidence": "docs/reports/blender/centro-expansion/walkways_b75_derivation.json",
+      "building_overlaps": [
+        {
+          "osm_id": 379738663,
+          "area_scene_squared": 1.0579662349026915
+        },
+        {
+          "osm_id": 379743170,
+          "area_scene_squared": 0.5728570964726636
+        },
+        {
+          "osm_id": 379743041,
+          "area_scene_squared": 0.9793741037983625
+        }
+      ]
+    },
+    {
+      "issue_id": "B75-walkway-378056846",
+      "status": "pending",
+      "osm_way_id": 378056846,
+      "classification": "NEEDS_REVIEW",
+      "reason": "Conflito XY com footprint explícito",
+      "evidence": "docs/reports/blender/centro-expansion/walkways_b75_derivation.json",
+      "building_overlaps": [
+        {
+          "osm_id": 1154415852,
+          "area_scene_squared": 0.5659519392120638
+        }
+      ]
+    },
+    {
+      "issue_id": "B75-walkway-378368538",
+      "status": "pending",
+      "osm_way_id": 378368538,
+      "classification": "NEEDS_REVIEW",
+      "reason": "Travessia depende do pavimento viário ainda ausente",
+      "evidence": "docs/reports/blender/centro-expansion/walkways_b75_derivation.json"
+    },
+    {
+      "issue_id": "B75-walkway-808215577",
+      "status": "pending",
+      "osm_way_id": 808215577,
+      "classification": "NEEDS_REVIEW",
+      "reason": "Conflito XY com footprint explícito",
+      "evidence": "docs/reports/blender/centro-expansion/walkways_b75_derivation.json",
+      "building_overlaps": [
+        {
+          "osm_id": 382104396,
+          "area_scene_squared": 5.169701404352732
+        },
+        {
+          "osm_id": 382104397,
+          "area_scene_squared": 18.088873849258484
+        }
+      ]
+    },
+    {
+      "issue_id": "B75-walkway-981854227",
+      "status": "pending",
+      "osm_way_id": 981854227,
+      "classification": "NEEDS_REVIEW",
+      "reason": "Ligação de escada exige perfil próprio",
+      "evidence": "docs/reports/blender/centro-expansion/walkways_b75_derivation.json"
+    },
+    {
+      "issue_id": "B75-walkway-1154902421",
+      "status": "pending",
+      "osm_way_id": 1154902421,
+      "classification": "NEEDS_REVIEW",
+      "reason": "Travessia depende do pavimento viário ainda ausente",
+      "evidence": "docs/reports/blender/centro-expansion/walkways_b75_derivation.json"
+    },
+    {
+      "issue_id": "B75-dique-shore-height",
+      "status": "pending",
+      "osm_relation_id": 15601931,
+      "classification": "SOURCE_LIMITATION",
+      "reason": "Borda do terreno e água candidata sem perfil coerente/fechamento da margem; delta Z máximo 23,9923 unidades, altimetria absoluta não verificada.",
+      "evidence": "docs/reports/blender/centro-expansion/dique_shore_height_b75.json"
+    }
+  ],
+  "threshold": {
+    "grade": 0.3,
+    "status": "candidate_review_criterion_not_legal_or_vehicle_limit"
+  },
+  "evidence": "docs/reports/blender/centro-expansion/rondesp_ground_probe_b74.json",
+  "production_ready": false,
+  "pending": [
+    "Altimetria absoluta e resolução nativa",
+    "Vias finais, pavimento, faixas e larguras reais",
+    "106 amostras com grade acima do critério candidato",
+    "Colisão volumétrica e física do veículo",
+    "Acessos aos locais e Hero assets"
+  ],
+  "dynamic_physics_tested": false,
+  "widths_verified": false,
+  "pavement_built": false,
+  "latest_modeling_cycle": "R30B.75",
+  "validation_source": {
+    "file": "blender/salvador_lacerda_r30b75_passeios_larguras_osm.blend",
+    "sha256": "e1fcd8446aef5bee1fbd6d2cd787ba511c5bf38d2a3b959a6b4c113db9a8829a",
+    "revision": "R30B.75"
+  },
+  "walkways": {
+    "status": "candidate",
+    "count": 29,
+    "axis_length_blender": 4437.28803890266,
+    "source_widths": "explicit_osm_tags_not_survey",
+    "roads_built": false,
+    "evidence": "docs/reports/blender/centro-expansion/walkways_b75_derivation.json"
+  },
+  "development_order": [
+    {
+      "order": 1,
+      "region": "Centro Histórico"
+    },
+    {
+      "order": 2,
+      "region": "Lapa / Campo da Pólvora"
+    },
+    {
+      "order": 3,
+      "region": "Dique do Tororó"
+    },
+    {
+      "order": 4,
+      "region": "Arena Fonte Nova"
+    }
+  ],
+  "current_focus": "STRUCTURAL_GREYBOX_CENTRO_FIRST",
+  "lacerda_fidelity_blocks_expansion": false,
+  "resumption_evidence": "docs/reports/world/territorial-resumption/priority_audit.json"
+}

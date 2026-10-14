@@ -1,0 +1,191 @@
+{
+  "source": {
+    "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+    "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+  },
+  "cases": [
+    {
+      "state": "closed_upper",
+      "landing": "upper",
+      "measurements": {
+        "cabin_present": true,
+        "cabin_stationary": true,
+        "landing_aperture": 0,
+        "cabin_aperture": 0,
+        "sill_delta": 0,
+        "capsule_clear": true,
+        "landing_supported": true
+      },
+      "geometry_candidate": false,
+      "reference_verified": null,
+      "boarding_allowed": false,
+      "complete_route_available": false,
+      "sill_delta_status": "zero apenas entre alvos animados; relação real soleira/piso e apoio contínuo exigem referência/engine"
+    },
+    {
+      "state": "closed_upper",
+      "landing": "lower",
+      "measurements": {
+        "cabin_present": false,
+        "cabin_stationary": true,
+        "landing_aperture": 0,
+        "cabin_aperture": 0,
+        "sill_delta": null,
+        "capsule_clear": false,
+        "landing_supported": true
+      },
+      "geometry_candidate": false,
+      "reference_verified": null,
+      "boarding_allowed": false,
+      "complete_route_available": false,
+      "sill_delta_status": "zero apenas entre alvos animados; relação real soleira/piso e apoio contínuo exigem referência/engine"
+    },
+    {
+      "state": "open_upper",
+      "landing": "upper",
+      "measurements": {
+        "cabin_present": true,
+        "cabin_stationary": true,
+        "landing_aperture": 1.8200070649693778,
+        "cabin_aperture": 1.8199947587283702,
+        "sill_delta": 0,
+        "capsule_clear": true,
+        "landing_supported": true
+      },
+      "geometry_candidate": true,
+      "reference_verified": null,
+      "boarding_allowed": false,
+      "complete_route_available": false,
+      "sill_delta_status": "zero apenas entre alvos animados; relação real soleira/piso e apoio contínuo exigem referência/engine"
+    },
+    {
+      "state": "open_upper",
+      "landing": "lower",
+      "measurements": {
+        "cabin_present": false,
+        "cabin_stationary": true,
+        "landing_aperture": 0,
+        "cabin_aperture": 0,
+        "sill_delta": null,
+        "capsule_clear": false,
+        "landing_supported": true
+      },
+      "geometry_candidate": false,
+      "reference_verified": null,
+      "boarding_allowed": false,
+      "complete_route_available": false,
+      "sill_delta_status": "zero apenas entre alvos animados; relação real soleira/piso e apoio contínuo exigem referência/engine"
+    },
+    {
+      "state": "moving_closed",
+      "landing": "upper",
+      "measurements": {
+        "cabin_present": false,
+        "cabin_stationary": false,
+        "landing_aperture": 0,
+        "cabin_aperture": 0,
+        "sill_delta": null,
+        "capsule_clear": true,
+        "landing_supported": true
+      },
+      "geometry_candidate": false,
+      "reference_verified": null,
+      "boarding_allowed": false,
+      "complete_route_available": false,
+      "sill_delta_status": "zero apenas entre alvos animados; relação real soleira/piso e apoio contínuo exigem referência/engine"
+    },
+    {
+      "state": "moving_closed",
+      "landing": "lower",
+      "measurements": {
+        "cabin_present": false,
+        "cabin_stationary": false,
+        "landing_aperture": 0,
+        "cabin_aperture": 0,
+        "sill_delta": null,
+        "capsule_clear": false,
+        "landing_supported": true
+      },
+      "geometry_candidate": false,
+      "reference_verified": null,
+      "boarding_allowed": false,
+      "complete_route_available": false,
+      "sill_delta_status": "zero apenas entre alvos animados; relação real soleira/piso e apoio contínuo exigem referência/engine"
+    },
+    {
+      "state": "closed_lower",
+      "landing": "upper",
+      "measurements": {
+        "cabin_present": false,
+        "cabin_stationary": true,
+        "landing_aperture": 0,
+        "cabin_aperture": 0,
+        "sill_delta": null,
+        "capsule_clear": true,
+        "landing_supported": true
+      },
+      "geometry_candidate": false,
+      "reference_verified": null,
+      "boarding_allowed": false,
+      "complete_route_available": false,
+      "sill_delta_status": "zero apenas entre alvos animados; relação real soleira/piso e apoio contínuo exigem referência/engine"
+    },
+    {
+      "state": "closed_lower",
+      "landing": "lower",
+      "measurements": {
+        "cabin_present": true,
+        "cabin_stationary": true,
+        "landing_aperture": 0,
+        "cabin_aperture": 0,
+        "sill_delta": 0,
+        "capsule_clear": false,
+        "landing_supported": true
+      },
+      "geometry_candidate": false,
+      "reference_verified": null,
+      "boarding_allowed": false,
+      "complete_route_available": false,
+      "sill_delta_status": "zero apenas entre alvos animados; relação real soleira/piso e apoio contínuo exigem referência/engine"
+    },
+    {
+      "state": "open_lower",
+      "landing": "upper",
+      "measurements": {
+        "cabin_present": false,
+        "cabin_stationary": true,
+        "landing_aperture": 0,
+        "cabin_aperture": 0,
+        "sill_delta": null,
+        "capsule_clear": true,
+        "landing_supported": true
+      },
+      "geometry_candidate": false,
+      "reference_verified": null,
+      "boarding_allowed": false,
+      "complete_route_available": false,
+      "sill_delta_status": "zero apenas entre alvos animados; relação real soleira/piso e apoio contínuo exigem referência/engine"
+    },
+    {
+      "state": "open_lower",
+      "landing": "lower",
+      "measurements": {
+        "cabin_present": true,
+        "cabin_stationary": true,
+        "landing_aperture": 1.8200019492304733,
+        "cabin_aperture": 1.8200006395023465,
+        "sill_delta": 0,
+        "capsule_clear": false,
+        "landing_supported": true
+      },
+      "geometry_candidate": false,
+      "reference_verified": null,
+      "boarding_allowed": false,
+      "complete_route_available": false,
+      "sill_delta_status": "zero apenas entre alvos animados; relação real soleira/piso e apoio contínuo exigem referência/engine"
+    }
+  ],
+  "all_actual_states_fail_closed": true,
+  "engine_verified": false,
+  "trip_approved": false
+}

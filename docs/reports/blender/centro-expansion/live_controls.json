@@ -1,0 +1,125 @@
+{
+  "source_file": "blender/salvador_lacerda_r30b73_tangente_encosta_costura.blend",
+  "controls": [
+    {
+      "osm_id": 1221368586,
+      "objects": [
+        "OSM | 1221368586"
+      ],
+      "source_xy": [
+        -268.6777183697559,
+        -202.62765336595476
+      ],
+      "live_xy": [
+        -266.2592315673828,
+        -200.55271911621094
+      ],
+      "residual_blender_units": 3.186601725037617,
+      "cached_center_difference": 4.479538050018484e-07,
+      "classification": "KEEP_REAL_REFERENCE"
+    },
+    {
+      "osm_id": 1221004639,
+      "objects": [
+        "Bar de Neuzão.001"
+      ],
+      "source_xy": [
+        541.8201637472957,
+        416.30593453277834
+      ],
+      "live_xy": [
+        546.5856018066406,
+        417.29737854003906
+      ],
+      "residual_blender_units": 4.867479955478602,
+      "cached_center_difference": 4.989507887513017e-07,
+      "classification": "KEEP_REAL_REFERENCE"
+    },
+    {
+      "osm_id": 1224899708,
+      "objects": [
+        "OSM 1224899708.001"
+      ],
+      "source_xy": [
+        207.13159171538427,
+        -285.77343025640585
+      ],
+      "live_xy": [
+        208.24142456054688,
+        -285.5865173339844
+      ],
+      "residual_blender_units": 1.1254622982445244,
+      "cached_center_difference": 5.519643061597143e-07,
+      "classification": "KEEP_REAL_REFERENCE"
+    },
+    {
+      "osm_id": 683637007,
+      "objects": [
+        "OSM 683637007.001"
+      ],
+      "source_xy": [
+        180.71081934450194,
+        636.4882965846919
+      ],
+      "live_xy": [
+        180.10845947265625,
+        635.80322265625
+      ],
+      "residual_blender_units": 0.9122300711118392,
+      "cached_center_difference": 5.844381789940969e-07,
+      "classification": "KEEP_REAL_REFERENCE"
+    },
+    {
+      "osm_id": 1219378790,
+      "objects": [
+        "Clube do Samba.001",
+        "OSM | Clube do Samba"
+      ],
+      "source_xy": [
+        283.3633297518827,
+        145.9006073847413
+      ],
+      "live_xy": [
+        283.38404846191406,
+        145.85073471069336
+      ],
+      "residual_blender_units": 0.05400507903944177,
+      "cached_center_difference": 2.1410800105464655e-07,
+      "classification": "KEEP_REAL_REFERENCE"
+    },
+    {
+      "osm_id": 402383814,
+      "objects": [
+        "Palácio do Rio Branco.002"
+      ],
+      "source_xy": [
+        -6.391549082938582,
+        -49.9011589367874
+      ],
+      "live_xy": [
+        -7.345166206359863,
+        -52.051544189453125
+      ],
+      "residual_blender_units": 2.352348263536785,
+      "cached_center_difference": 2.8013725184972577e-07,
+      "classification": "KEEP_REAL_REFERENCE"
+    }
+  ],
+  "xy_extent_blender_units": [
+    828.0,
+    907.0
+  ],
+  "units": 1.0,
+  "boundary_counts": {
+    "east": 607,
+    "south": 25
+  },
+  "boundary_bounds": [
+    -285.70343017578125,
+    -285.2629089355469,
+    542.2965698242188,
+    621.7371215820312
+  ],
+  "absolute_georeference_verified": false,
+  "geometry_changed": false
+}

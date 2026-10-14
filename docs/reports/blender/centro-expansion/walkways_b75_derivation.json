@@ -1,0 +1,906 @@
+{
+  "schema": "boas/centro-walkways-b75-derivation-v1",
+  "source": {
+    "file": "blender/salvador_lacerda_r30b74_expansao_lapa_tororo_fonte_nova.blend",
+    "sha256": "1b4c16b9831a38bff93e3fb9c03c87bdfaf3e48f5a00cf03e0945b7f6d9b220a",
+    "revision": "R30B.74",
+    "parent_file": "blender/salvador_lacerda_r30b73_tangente_encosta_costura.blend",
+    "status": "validation_candidate",
+    "evidence": "docs/reports/blender/centro-expansion/scene_b74.json",
+    "notes": "Expansão candidata de terreno e referências OSM; vias finais/larguras/altimetria pendentes. Não aprovada para produção.",
+    "source_reopened": true,
+    "local_geometry_checks_passed": true,
+    "validation_evidence": "docs/reports/blender/centro-expansion/validation_b74.json"
+  },
+  "source_capture_id": "osm-mapzen-20261005T045222Z",
+  "source_reference": "artifacts/structural-pipeline/centro-lapa-tororo-fontenova/structural_reference.json",
+  "features": [
+    {
+      "osm_id": 379731741,
+      "osm_type": "way",
+      "node_refs": [
+        4240621906,
+        3830603337
+      ],
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "concrete",
+        "wheelchair": "no",
+        "width": "1.5"
+      },
+      "width_m_tagged": 1.5,
+      "width_blender_candidate": 1.4934239713478559,
+      "blender_units_per_ground_meter_candidate": 0.9956159808985705,
+      "length_blender": 56.19348851016259,
+      "material_index": 1
+    },
+    {
+      "osm_id": 561051296,
+      "osm_type": "way",
+      "node_refs": [
+        3810608150,
+        7557634398,
+        3810608149,
+        3810608148,
+        4560043966,
+        7557634394,
+        3810608146,
+        3810608145,
+        3810608144,
+        3810608143,
+        10740612214,
+        3810608142,
+        3810608141
+      ],
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "lit": "yes",
+        "surface": "concrete",
+        "wheelchair": "no",
+        "width": "1.5"
+      },
+      "width_m_tagged": 1.5,
+      "width_blender_candidate": 1.4934248443779485,
+      "blender_units_per_ground_meter_candidate": 0.9956165629186324,
+      "length_blender": 211.53691633414593,
+      "material_index": 1
+    },
+    {
+      "osm_id": 378055750,
+      "osm_type": "way",
+      "node_refs": [
+        4240255620,
+        4240255619,
+        4240255618,
+        7557410744,
+        4240255614,
+        4240255612,
+        7557634517,
+        3814709761,
+        4240255602,
+        3814710434
+      ],
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "paved",
+        "width": "1.5"
+      },
+      "width_m_tagged": 1.5,
+      "width_blender_candidate": 1.4934593532331668,
+      "blender_units_per_ground_meter_candidate": 0.9956395688221112,
+      "length_blender": 199.2761886195836,
+      "material_index": 2
+    },
+    {
+      "osm_id": 378055907,
+      "osm_type": "way",
+      "node_refs": [
+        3814710434,
+        3814710435,
+        3814710436,
+        3814710437,
+        3814710438,
+        3814710439,
+        3814710440,
+        3814710441,
+        7557410730,
+        7557410729,
+        3814710442,
+        3814710443,
+        3814710444,
+        3814713185,
+        3814710445,
+        3814710446,
+        4240255598,
+        3814711614
+      ],
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "lit": "yes",
+        "surface": "paved",
+        "wheelchair": "yes",
+        "width": "1.5"
+      },
+      "width_m_tagged": 1.5,
+      "width_blender_candidate": 1.4934518027032917,
+      "blender_units_per_ground_meter_candidate": 0.9956345351355278,
+      "length_blender": 248.3909526986606,
+      "material_index": 2
+    },
+    {
+      "osm_id": 378055982,
+      "osm_type": "way",
+      "node_refs": [
+        3814711614,
+        3814713184,
+        3814711615,
+        7557410728,
+        3814713183,
+        7272438577,
+        3814711616,
+        4240255597,
+        3814712638
+      ],
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "paved",
+        "wheelchair": "yes",
+        "width": "1.5"
+      },
+      "width_m_tagged": 1.5,
+      "width_blender_candidate": 1.4934520508815046,
+      "blender_units_per_ground_meter_candidate": 0.9956347005876697,
+      "length_blender": 72.63644169969876,
+      "material_index": 2
+    },
+    {
+      "osm_id": 378056006,
+      "osm_type": "way",
+      "node_refs": [
+        3814712638,
+        3814712639,
+        3814712640,
+        3814712641,
+        4240255596
+      ],
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "lit": "yes",
+        "surface": "paved",
+        "wheelchair": "yes",
+        "width": "1.5"
+      },
+      "width_m_tagged": 1.5,
+      "width_blender_candidate": 1.4934503546336133,
+      "blender_units_per_ground_meter_candidate": 0.9956335697557422,
+      "length_blender": 59.811797989933694,
+      "material_index": 2
+    },
+    {
+      "osm_id": 378056192,
+      "osm_type": "way",
+      "node_refs": [
+        4240255596,
+        3814712959,
+        3814713182,
+        3814712960,
+        3814713181,
+        3814713179,
+        3814713180,
+        7271726492,
+        4240255594
+      ],
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "paved",
+        "wheelchair": "no",
+        "width": "1.5"
+      },
+      "width_m_tagged": 1.5,
+      "width_blender_candidate": 1.4934473673509863,
+      "blender_units_per_ground_meter_candidate": 0.9956315782339908,
+      "length_blender": 69.43744718036243,
+      "material_index": 2
+    },
+    {
+      "osm_id": 378056234,
+      "osm_type": "way",
+      "node_refs": [
+        4240255594,
+        3814704590,
+        7431195543,
+        4240255593
+      ],
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "paved",
+        "width": "1.5"
+      },
+      "width_m_tagged": 1.5,
+      "width_blender_candidate": 1.4934437780879148,
+      "blender_units_per_ground_meter_candidate": 0.9956291853919432,
+      "length_blender": 64.34850249692325,
+      "material_index": 2
+    },
+    {
+      "osm_id": 378056414,
+      "osm_type": "way",
+      "node_refs": [
+        4240255593,
+        3814709350,
+        7557633115,
+        3814709353,
+        4240255592,
+        3814714815
+      ],
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "paved",
+        "width": "1.5"
+      },
+      "width_m_tagged": 1.5,
+      "width_blender_candidate": 1.4934387433738103,
+      "blender_units_per_ground_meter_candidate": 0.9956258289158736,
+      "length_blender": 121.54750432455194,
+      "material_index": 2
+    },
+    {
+      "osm_id": 378056528,
+      "osm_type": "way",
+      "node_refs": [
+        3814714815,
+        7557410712,
+        4240255591,
+        3814716034
+      ],
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "paved",
+        "wheelchair": "no",
+        "width": "1.5"
+      },
+      "width_m_tagged": 1.5,
+      "width_blender_candidate": 1.4934325736675045,
+      "blender_units_per_ground_meter_candidate": 0.9956217157783362,
+      "length_blender": 106.39492607128008,
+      "material_index": 2
+    },
+    {
+      "osm_id": 378056659,
+      "osm_type": "way",
+      "node_refs": [
+        3814716034,
+        2892446612
+      ],
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "lit": "yes",
+        "surface": "paved",
+        "wheelchair": "yes",
+        "width": "1.5"
+      },
+      "width_m_tagged": 1.5,
+      "width_blender_candidate": 1.4934296792627972,
+      "blender_units_per_ground_meter_candidate": 0.9956197861751982,
+      "length_blender": 6.785271265479417,
+      "material_index": 2
+    },
+    {
+      "osm_id": 378056865,
+      "osm_type": "way",
+      "node_refs": [
+        1743596765,
+        3814717842,
+        3814717843,
+        3814717844,
+        3814717845,
+        3814717846,
+        3814717847,
+        3814717848,
+        7557410743,
+        3814717849,
+        3814717850,
+        3814717851,
+        3814717852,
+        10736397527,
+        3814717853,
+        7557410742,
+        3814717854,
+        3814717855,
+        7557410741,
+        3814717856,
+        3814717857,
+        10736397525,
+        3814717858,
+        3814717859,
+        3814716678,
+        3814716677,
+        3814717860,
+        3814716676,
+        3814717861,
+        7431195545,
+        3814717863,
+        3814717864,
+        3814717865,
+        7557410738,
+        10736275574,
+        7557410737,
+        3814717866,
+        3814717867,
+        7557410736,
+        7557410735,
+        3814717868,
+        3814717869,
+        10736397529,
+        3814717870,
+        3814717871,
+        4240255590,
+        3814715955
+      ],
+      "tags": {
+        "highway": "footway",
+        "surface": "paved",
+        "width": "1.5"
+      },
+      "width_m_tagged": 1.5,
+      "width_blender_candidate": 1.493444745285157,
+      "blender_units_per_ground_meter_candidate": 0.9956298301901046,
+      "length_blender": 782.7713235614964,
+      "material_index": 2
+    },
+    {
+      "osm_id": 378056897,
+      "osm_type": "way",
+      "node_refs": [
+        3814715955,
+        7557410733,
+        7557410734,
+        3814715956
+      ],
+      "tags": {
+        "highway": "footway",
+        "surface": "paved",
+        "width": "1.5"
+      },
+      "width_m_tagged": 1.5,
+      "width_blender_candidate": 1.4934272258872563,
+      "blender_units_per_ground_meter_candidate": 0.9956181505915042,
+      "length_blender": 22.06174512627065,
+      "material_index": 2
+    },
+    {
+      "osm_id": 378056898,
+      "osm_type": "way",
+      "node_refs": [
+        3814715956,
+        3814716675,
+        2820451650
+      ],
+      "tags": {
+        "highway": "footway",
+        "surface": "paved",
+        "width": "1.5"
+      },
+      "width_m_tagged": 1.5,
+      "width_blender_candidate": 1.493426580536221,
+      "blender_units_per_ground_meter_candidate": 0.9956177203574806,
+      "length_blender": 17.81541662435686,
+      "material_index": 2
+    },
+    {
+      "osm_id": 377761789,
+      "osm_type": "way",
+      "node_refs": [
+        7557410593,
+        7557410592,
+        7557410617,
+        619740890
+      ],
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "lit": "yes",
+        "wheelchair": "no",
+        "width": "1.5"
+      },
+      "width_m_tagged": 1.5,
+      "width_blender_candidate": 1.4934550528778963,
+      "blender_units_per_ground_meter_candidate": 0.9956367019185974,
+      "length_blender": 42.60457747014057,
+      "material_index": 4
+    },
+    {
+      "osm_id": 377762826,
+      "osm_type": "way",
+      "node_refs": [
+        7557410610,
+        7557410593,
+        3811549360,
+        3811549361,
+        3811549362,
+        3811549363,
+        7557410625,
+        3811549364,
+        7557410629,
+        3811558581
+      ],
+      "tags": {
+        "highway": "footway",
+        "lit": "yes",
+        "wheelchair": "no",
+        "width": "1.5"
+      },
+      "width_m_tagged": 1.5,
+      "width_blender_candidate": 1.4934533645024248,
+      "blender_units_per_ground_meter_candidate": 0.9956355763349499,
+      "length_blender": 158.58478144738888,
+      "material_index": 4
+    },
+    {
+      "osm_id": 377764033,
+      "osm_type": "way",
+      "node_refs": [
+        3811558581,
+        3811558582,
+        3811558583
+      ],
+      "tags": {
+        "highway": "footway",
+        "wheelchair": "no",
+        "width": "1.0"
+      },
+      "width_m_tagged": 1.0,
+      "width_blender_candidate": 0.9956322231417153,
+      "blender_units_per_ground_meter_candidate": 0.9956322231417153,
+      "length_blender": 51.9043175954776,
+      "material_index": 4
+    },
+    {
+      "osm_id": 377764303,
+      "osm_type": "way",
+      "node_refs": [
+        3811558583,
+        3811562342,
+        7557410589,
+        3817805059
+      ],
+      "tags": {
+        "highway": "footway",
+        "wheelchair": "no",
+        "width": "1.0"
+      },
+      "width_m_tagged": 1.0,
+      "width_blender_candidate": 0.9956303304130537,
+      "blender_units_per_ground_meter_candidate": 0.9956303304130537,
+      "length_blender": 53.262101925696705,
+      "material_index": 4
+    },
+    {
+      "osm_id": 378355518,
+      "osm_type": "way",
+      "node_refs": [
+        7557182201,
+        7557182185,
+        7557410664,
+        7557410665,
+        7557410666,
+        7557410667,
+        7557410668,
+        7557410669,
+        7557410670,
+        3817684157,
+        7557410671,
+        3817684159,
+        3817684160,
+        7557410672,
+        7557410673,
+        3817684161,
+        7557410674,
+        3817684162,
+        7557410675,
+        3817684163
+      ],
+      "tags": {
+        "highway": "footway",
+        "lit": "yes",
+        "wheelchair": "limited",
+        "width": "1.5"
+      },
+      "width_m_tagged": 1.5,
+      "width_blender_candidate": 1.493466128296086,
+      "blender_units_per_ground_meter_candidate": 0.9956440855307239,
+      "length_blender": 366.47092601493836,
+      "material_index": 4
+    },
+    {
+      "osm_id": 378365805,
+      "osm_type": "way",
+      "node_refs": [
+        3817684163,
+        3817782242,
+        3817782243,
+        7557410679,
+        7557410678,
+        7557410677,
+        7557410681,
+        3817782244,
+        7557410682,
+        3817782245,
+        3817782246
+      ],
+      "tags": {
+        "highway": "footway",
+        "lit": "yes",
+        "wheelchair": "limited",
+        "width": "1.5"
+      },
+      "width_m_tagged": 1.5,
+      "width_blender_candidate": 1.4934530961033654,
+      "blender_units_per_ground_meter_candidate": 0.9956353974022436,
+      "length_blender": 211.96080140730473,
+      "material_index": 4
+    },
+    {
+      "osm_id": 378366577,
+      "osm_type": "way",
+      "node_refs": [
+        3817782246,
+        3817797714,
+        3817797715,
+        3817797716,
+        7557410683,
+        3817797717,
+        3817797718,
+        3817797719,
+        3817797720,
+        3817797721
+      ],
+      "tags": {
+        "highway": "footway",
+        "lit": "yes",
+        "wheelchair": "limited",
+        "width": "2.0"
+      },
+      "width_m_tagged": 2.0,
+      "width_blender_candidate": 1.9912594319204997,
+      "blender_units_per_ground_meter_candidate": 0.9956297159602499,
+      "length_blender": 153.3827988309639,
+      "material_index": 4
+    },
+    {
+      "osm_id": 378367358,
+      "osm_type": "way",
+      "node_refs": [
+        3817805059,
+        7557410588,
+        7557410587,
+        7557410586,
+        3817805060,
+        13476470432,
+        7557410585,
+        3817805061,
+        3817805062,
+        3817805063,
+        3817805064,
+        3817805065,
+        3817805066
+      ],
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "lit": "yes",
+        "wheelchair": "limited",
+        "width": "1.5"
+      },
+      "width_m_tagged": 1.5,
+      "width_blender_candidate": 1.4934425683990955,
+      "blender_units_per_ground_meter_candidate": 0.9956283789327304,
+      "length_blender": 183.16411421233062,
+      "material_index": 4
+    },
+    {
+      "osm_id": 378368081,
+      "osm_type": "way",
+      "node_refs": [
+        3817797721,
+        7557410684,
+        3817810662,
+        3817810663,
+        7557410685,
+        3817810664,
+        3817810665,
+        7557410686,
+        3817810666,
+        7557410687,
+        7557410688,
+        3817810667,
+        3817810668,
+        10737057657,
+        3817810669
+      ],
+      "tags": {
+        "highway": "footway",
+        "lit": "yes",
+        "wheelchair": "limited",
+        "width": "2.0"
+      },
+      "width_m_tagged": 2.0,
+      "width_blender_candidate": 1.9912540083952035,
+      "blender_units_per_ground_meter_candidate": 0.9956270041976018,
+      "length_blender": 283.41478718164217,
+      "material_index": 4
+    },
+    {
+      "osm_id": 378368293,
+      "osm_type": "way",
+      "node_refs": [
+        3817805066,
+        3817815158,
+        7557404584,
+        3817815159,
+        7557404583,
+        7431258291,
+        3817815160
+      ],
+      "tags": {
+        "highway": "footway",
+        "lit": "yes",
+        "wheelchair": "limited",
+        "width": "1.5"
+      },
+      "width_m_tagged": 1.5,
+      "width_blender_candidate": 1.493440515114571,
+      "blender_units_per_ground_meter_candidate": 0.9956270100763807,
+      "length_blender": 112.83438895089424,
+      "material_index": 4
+    },
+    {
+      "osm_id": 378368732,
+      "osm_type": "way",
+      "node_refs": [
+        3817810669,
+        7557410706,
+        3817818883,
+        7557410707,
+        7557410708,
+        3817818884,
+        5357291699,
+        3817818885,
+        4529047393,
+        3817818886,
+        5357291697,
+        7557410703,
+        2820451650
+      ],
+      "tags": {
+        "highway": "footway",
+        "lit": "yes",
+        "wheelchair": "limited",
+        "width": "2.0"
+      },
+      "width_m_tagged": 2.0,
+      "width_blender_candidate": 1.9912390223304466,
+      "blender_units_per_ground_meter_candidate": 0.9956195111652233,
+      "length_blender": 219.41468063191863,
+      "material_index": 4
+    },
+    {
+      "osm_id": 379748164,
+      "osm_type": "way",
+      "node_refs": [
+        3830778567,
+        3830778568,
+        3830778569
+      ],
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "lit": "yes",
+        "wheelchair": "limited",
+        "width": "1.5"
+      },
+      "width_m_tagged": 1.5,
+      "width_blender_candidate": 1.4934191421604115,
+      "blender_units_per_ground_meter_candidate": 0.9956127614402743,
+      "length_blender": 31.35402949366766,
+      "material_index": 4
+    },
+    {
+      "osm_id": 379989912,
+      "osm_type": "way",
+      "node_refs": [
+        3833388433,
+        3833388437
+      ],
+      "tags": {
+        "highway": "footway",
+        "lit": "yes",
+        "wheelchair": "no",
+        "width": "2.0"
+      },
+      "width_m_tagged": 2.0,
+      "width_blender_candidate": 1.9912321672849207,
+      "blender_units_per_ground_meter_candidate": 0.9956160836424603,
+      "length_blender": 65.21187241678129,
+      "material_index": 4
+    },
+    {
+      "osm_id": 794514818,
+      "osm_type": "way",
+      "node_refs": [
+        3817816776,
+        3817816777,
+        3817816778,
+        3817816779,
+        3817816780,
+        3817816781,
+        3817816782
+      ],
+      "tags": {
+        "highway": "footway",
+        "lit": "yes",
+        "wheelchair": "limited",
+        "width": "1.5"
+      },
+      "width_m_tagged": 1.5,
+      "width_blender_candidate": 1.4934317345772503,
+      "blender_units_per_ground_meter_candidate": 0.9956211563848336,
+      "length_blender": 242.29489351440935,
+      "material_index": 4
+    },
+    {
+      "osm_id": 1327593155,
+      "osm_type": "way",
+      "node_refs": [
+        7557182140,
+        7557410643,
+        7557410644,
+        7557410645,
+        7557410646,
+        7557410647,
+        7557410648,
+        7557410649,
+        7557182182,
+        7557410651,
+        7557182191
+      ],
+      "tags": {
+        "highway": "footway",
+        "lit": "yes",
+        "wheelchair": "limited",
+        "width": "1.5"
+      },
+      "width_m_tagged": 1.5,
+      "width_blender_candidate": 1.493473447284712,
+      "blender_units_per_ground_meter_candidate": 0.9956489648564747,
+      "length_blender": 222.4210453061992,
+      "material_index": 4
+    }
+  ],
+  "excluded": [
+    {
+      "osm_id": 377676435,
+      "classification": "NEEDS_REVIEW",
+      "reasons": [
+        "Conflito XY com footprint explícito"
+      ],
+      "building_overlaps": [
+        {
+          "osm_id": 379738663,
+          "area_scene_squared": 1.0579662349026915
+        },
+        {
+          "osm_id": 379743170,
+          "area_scene_squared": 0.5728570964726636
+        },
+        {
+          "osm_id": 379743041,
+          "area_scene_squared": 0.9793741037983625
+        }
+      ]
+    },
+    {
+      "osm_id": 378056846,
+      "classification": "NEEDS_REVIEW",
+      "reasons": [
+        "Conflito XY com footprint explícito"
+      ],
+      "building_overlaps": [
+        {
+          "osm_id": 1154415852,
+          "area_scene_squared": 0.5659519392120638
+        }
+      ]
+    },
+    {
+      "osm_id": 378368538,
+      "classification": "NEEDS_REVIEW",
+      "reasons": [
+        "Travessia depende do pavimento viário ainda ausente"
+      ]
+    },
+    {
+      "osm_id": 808215577,
+      "classification": "NEEDS_REVIEW",
+      "reasons": [
+        "Conflito XY com footprint explícito"
+      ],
+      "building_overlaps": [
+        {
+          "osm_id": 382104396,
+          "area_scene_squared": 5.169701404352732
+        },
+        {
+          "osm_id": 382104397,
+          "area_scene_squared": 18.088873849258484
+        }
+      ]
+    },
+    {
+      "osm_id": 981854227,
+      "classification": "NEEDS_REVIEW",
+      "reasons": [
+        "Ligação de escada exige perfil próprio"
+      ]
+    },
+    {
+      "osm_id": 1154902421,
+      "classification": "NEEDS_REVIEW",
+      "reasons": [
+        "Travessia depende do pavimento viário ainda ausente"
+      ]
+    }
+  ],
+  "walkway_count": 29,
+  "axis_length_blender": 4437.28803890266,
+  "walkway_area_scene_squared": 6931.116515493783,
+  "original_vertices": 92609,
+  "vertices": 96950,
+  "triangles": 190581,
+  "original_vertex_coordinates_exact": true,
+  "original_surface_preserved_by_planar_subdivision": true,
+  "raised_overlay_created": false,
+  "dem_source_edited": false,
+  "width_conversion": "Fit EPSG:3857 candidato / cos(latitude); width OSM em metros no chão. Precisão absoluta do fit/larguras não certificada.",
+  "edge_design": "Eixos originais; término plano e curvas locais de buffer. Bordas derivadas, não levantamento de meio-fio.",
+  "material_semantics": [
+    "terrain",
+    "concrete_tag",
+    "paved_tag_unspecified_finish",
+    "asphalt_tag",
+    "surface_pending"
+  ],
+  "topology": {
+    "internal_open_edges": 0,
+    "edges_more_than_two_faces": 0,
+    "degenerate_triangles": 0,
+    "xy_area_difference": 0.0005137622356414795,
+    "omitted_numeric_area": 3.950419227900822e-06,
+    "new_vertices_numeric_welded": 0,
+    "max_numeric_weld_scene": 0.0,
+    "collapsed_numeric_triangles_removed": 0,
+    "collinear_junction_edge_splits": 22
+  },
+  "mesh_file": "artifacts/structural-pipeline/centro-lapa-tororo-fontenova/walkways_b75.npz",
+  "mesh_sha256": "89014434a06f68f8611424ba469e28d31e612f71915e9b80293fbe5e269fb2a1",
+  "classification": "ADAPT_LOCAL",
+  "walkability_approved": false,
+  "motor_roads_built": false,
+  "production_ready": false,
+  "surface_preservation": {
+    "max_inserted_z_error_from_original_triangle_plane": 4.8693036660552025e-06,
+    "max_per_original_triangle_xy_area_difference": 0.0002659149467945099,
+    "per_triangle_xy_area_tolerance_scene_squared": 0.001
+  }
+}

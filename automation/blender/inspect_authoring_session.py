@@ -1,3 +1,3 @@
 """Inspeção mínima da janela indicada; não modifica nem salva cena."""
 import bpy,json,os
-print(json.dumps({'file':bpy.data.filepath,'scene':bpy.context.scene.name,'unsaved_changes':bpy.data.is_dirty,'pid':os.getpid(),'render_running':bpy.app.is_job_running('RENDER')}))
+print(json.dumps({'file':bpy.data.filepath,'scene':bpy.context.scene.name,'unsaved_changes':bpy.data.is_dirty,'pid':os.getpid(),'render_running':bpy.app.is_job_running('RENDER'),'default_blank_scene':not bpy.data.filepath and sorted(o.name for o in bpy.data.objects)==['Camera','Cube','Light']}))

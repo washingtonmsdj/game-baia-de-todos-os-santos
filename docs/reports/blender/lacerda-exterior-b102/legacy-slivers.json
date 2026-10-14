@@ -1,0 +1,322 @@
+[
+  {
+    "object": "PASSARELA | travessa intermediaria",
+    "bounds": [
+      [
+        -43.787452697753906,
+        -19.72022819519043
+      ],
+      [
+        -13.58427619934082,
+        10.619186401367188
+      ],
+      [
+        71.56500244140625,
+        71.63500213623047
+      ]
+    ],
+    "properties": {
+      "referencia": "fotografias do usuário; detalhes proporcionais, sem levantamento",
+      "boas_generated_revision": "R30B.88",
+      "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+      "reference_status": "partial",
+      "accuracy": "PROJECT_REFERENCE_DERIVED",
+      "replacement_required": true,
+      "boas_production_ready": false,
+      "boas_layout_domain": "BRIDGE",
+      "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+      "boas_architectural_domain": "BRIDGE"
+    },
+    "collections": [
+      "12 LACERDA | exterior fotografico"
+    ]
+  },
+  {
+    "object": "PASSARELA | travessa intermediaria.001",
+    "bounds": [
+      [
+        -43.787452697753906,
+        -19.72022819519043
+      ],
+      [
+        -13.58427619934082,
+        10.619186401367188
+      ],
+      [
+        72.71499633789062,
+        72.78500366210938
+      ]
+    ],
+    "properties": {
+      "referencia": "fotografias do usuário; detalhes proporcionais, sem levantamento",
+      "boas_generated_revision": "R30B.88",
+      "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+      "reference_status": "partial",
+      "accuracy": "PROJECT_REFERENCE_DERIVED",
+      "replacement_required": true,
+      "boas_production_ready": false,
+      "boas_layout_domain": "BRIDGE",
+      "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+      "boas_architectural_domain": "BRIDGE"
+    },
+    "collections": [
+      "12 LACERDA | exterior fotografico"
+    ]
+  },
+  {
+    "object": "PASSARELA | travessa intermediaria.002",
+    "bounds": [
+      [
+        -42.01606369018555,
+        -19.75174331665039
+      ],
+      [
+        -6.5972580909729,
+        15.794113159179688
+      ],
+      [
+        71.56500244140625,
+        71.63500213623047
+      ]
+    ],
+    "properties": {
+      "referencia": "fotografias do usuário; detalhes proporcionais, sem levantamento",
+      "boas_generated_revision": "R30B.88",
+      "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+      "reference_status": "partial",
+      "accuracy": "PROJECT_REFERENCE_DERIVED",
+      "replacement_required": true,
+      "boas_production_ready": false,
+      "boas_layout_domain": "BRIDGE",
+      "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+      "boas_architectural_domain": "BRIDGE"
+    },
+    "collections": [
+      "12 LACERDA | exterior fotografico"
+    ]
+  },
+  {
+    "object": "PASSARELA | travessa intermediaria.003",
+    "bounds": [
+      [
+        -42.01606369018555,
+        -19.75174331665039
+      ],
+      [
+        -6.5972580909729,
+        15.794113159179688
+      ],
+      [
+        72.71499633789062,
+        72.78500366210938
+      ]
+    ],
+    "properties": {
+      "referencia": "fotografias do usuário; detalhes proporcionais, sem levantamento",
+      "boas_generated_revision": "R30B.88",
+      "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+      "reference_status": "partial",
+      "accuracy": "PROJECT_REFERENCE_DERIVED",
+      "replacement_required": true,
+      "boas_production_ready": false,
+      "boas_layout_domain": "BRIDGE",
+      "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+      "boas_architectural_domain": "BRIDGE"
+    },
+    "collections": [
+      "12 LACERDA | exterior fotografico"
+    ]
+  },
+  {
+    "object": "PASSARELA | cobertura impermeabilizada",
+    "bounds": [
+      [
+        -45.80564880371094,
+        -16.790552139282227
+      ],
+      [
+        -13.427604675292969,
+        15.67807388305664
+      ],
+      [
+        74.16999816894531,
+        74.29000091552734
+      ]
+    ],
+    "properties": {
+      "referencia": "fotografias do usuário; detalhes proporcionais, sem levantamento",
+      "boas_generated_revision": "R30B.88",
+      "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+      "reference_status": "partial",
+      "accuracy": "PROJECT_REFERENCE_DERIVED",
+      "replacement_required": true,
+      "boas_production_ready": false,
+      "boas_layout_domain": "BRIDGE",
+      "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+      "boas_architectural_domain": "BRIDGE"
+    },
+    "collections": [
+      "12 LACERDA | exterior fotografico"
+    ]
+  },
+  {
+    "object": "PRAÇA | OSM 1263035782",
+    "bounds": [
+      [
+        -28.517446517944336,
+        78.73428344726562
+      ],
+      [
+        -47.31889343261719,
+        60.1118049621582
+      ],
+      [
+        70.0,
+        70.0
+      ]
+    ],
+    "properties": {
+      "origem": "Polígono OSM original, sem translação ou escala",
+      "cota": "70m do projeto; não levantada",
+      "game_role": "walkable_surface",
+      "r35_pavement_status": "Padrão métrico candidato pela fotografia; não é medição do assentamento real",
+      "r35_pavement_geometry_unchanged": true
+    },
+    "collections": [
+      "15 PRACA ALTA | contorno e acesso"
+    ]
+  },
+  {
+    "object": "MVP | praça ao acesso alto | caminho OSM 1429934820",
+    "bounds": [
+      [
+        6.676658630371094,
+        19.112457275390625
+      ],
+      [
+        -4.329497814178467,
+        8.026290893554688
+      ],
+      [
+        70.02999877929688,
+        70.02999877929688
+      ]
+    ],
+    "properties": {
+      "game_role": "walkable_surface",
+      "ordax_semantic_revision": "R30A.4",
+      "ordax_semantic_layer": "32.4 GAMEPLAY | WALKABLE",
+      "ordax_semantic_roles": "[\"WALKABLE_SURFACE\"]",
+      "boas_runtime_role": "walkable_surface",
+      "boas_runtime_source_revision": "R30A.4",
+      "boas_export_candidate": true,
+      "boas_navigation_source": true,
+      "boas_navigation_source_revision": "R30A.11",
+      "boas_navigation_source_status": "candidate"
+    },
+    "collections": [
+      "19 MVP | terreno DEM e acessos corrigidos",
+      "32.4 GAMEPLAY | WALKABLE",
+      "33.3 RUNTIME | WALKABLE",
+      "37.5 NAV | WALKABLE SOURCES"
+    ]
+  },
+  {
+    "object": "LAC R30B | Passarela | piso paginado visual",
+    "bounds": [
+      [
+        -45.88140106201172,
+        -16.71305274963379
+      ],
+      [
+        -13.519330978393555,
+        15.73904800415039
+      ],
+      [
+        70.09300994873047,
+        70.12300872802734
+      ]
+    ],
+    "properties": {
+      "boas_location_id": "elevador-lacerda",
+      "boas_role": "visual_detail",
+      "classification": "ADAPT_LOCAL",
+      "note": "Paginação artística; dimensões de placas não levantadas. Collider original preservado.",
+      "boas_generated_revision": "R30B.88",
+      "boas_provenance_ids": "[\"derived:lacerda-massing-b88\"]",
+      "reference_status": "partial",
+      "accuracy": "PROJECT_REFERENCE_DERIVED",
+      "replacement_required": true,
+      "boas_production_ready": false,
+      "boas_layout_domain": "BRIDGE",
+      "boas_pending_gate": "ABSOLUTE_SSOT_PLACEMENT_AND_INSTALLED_ELEVATORS",
+      "boas_architectural_domain": "BRIDGE"
+    },
+    "collections": [
+      "HERO | Lacerda | detalhes R30B"
+    ]
+  },
+  {
+    "object": "GAL R34 | Palácio | Laje de apoio da praça",
+    "bounds": [
+      [
+        -2.9061484336853027,
+        19.23758316040039
+      ],
+      [
+        -28.550655364990234,
+        -6.3565192222595215
+      ],
+      [
+        69.84999084472656,
+        69.98500061035156
+      ]
+    ],
+    "properties": {
+      "boas_revision": "R30B.35",
+      "boas_location_candidate": "praca-tome-de-sousa",
+      "boas_role": "visual_structure",
+      "classification": "ADAPT_LOCAL",
+      "reference_status": "partial",
+      "top_z_from_previous_ground_m": 69.98500061035156,
+      "base_z_from_existing_caps_m": 69.8499984741211,
+      "depth_candidate_m": 1.3,
+      "reason": "Laje da praça sobre galerias, necessária para separar piso superior e nichos; apoiada na alvenaria e mesma cota da superfície anterior.",
+      "r36_preservation": "Galeria existente restaurada da fonte B35; não deslocar para fechar lacuna. Ligação acrescentada em componentes separados."
+    },
+    "collections": [
+      "ENVIRONMENT_FINAL | Galerias Cidade Alta R34"
+    ]
+  },
+  {
+    "object": "GAL R34 | Prefeitura | Laje de apoio da praça",
+    "bounds": [
+      [
+        -11.723308563232422,
+        22.296222686767578
+      ],
+      [
+        7.527144432067871,
+        41.71083450317383
+      ],
+      [
+        69.8499984741211,
+        69.98499298095703
+      ]
+    ],
+    "properties": {
+      "boas_revision": "R30B.35",
+      "boas_location_candidate": "praca-tome-de-sousa",
+      "boas_role": "visual_structure",
+      "classification": "ADAPT_LOCAL",
+      "reference_status": "partial",
+      "top_z_from_previous_ground_m": 69.98499043782552,
+      "base_z_from_existing_caps_m": 69.8499984741211,
+      "depth_candidate_m": 1.3,
+      "reason": "Laje da praça sobre galerias, necessária para separar piso superior e nichos; apoiada na alvenaria e mesma cota da superfície anterior."
+    },
+    "collections": [
+      "ENVIRONMENT_FINAL | Galerias Cidade Alta R34"
+    ]
+  }
+]

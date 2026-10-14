@@ -1,0 +1,19 @@
+{
+  "schema": "boas/dique-shore-height-review-v1",
+  "source_revision": "R30B.75",
+  "osm_relation_id": 15601931,
+  "shore_boundary_edges": 663,
+  "water_z_candidate": 20.79568051441751,
+  "shore_z_min": 20.672487258911133,
+  "shore_z_max": 44.787967681884766,
+  "shore_minus_water_min": -0.12319374084472656,
+  "shore_minus_water_max": 23.992286682128906,
+  "shore_minus_water_median": 9.250741958618164,
+  "classification": "SOURCE_LIMITATION",
+  "status": "pending",
+  "water_altitude_verified": false,
+  "dem_native_resolution_verified": false,
+  "issue": "Terreno é superfície aberta com borda do lago elevada acima da água plana candidata. A revisão oblíqua expõe intervalo sem margem volumétrica. Resolver perfil hidrológico/altimetria e margem; não elevar mar/água globalmente nem criar muro fictício para esconder diferença.",
+  "evidence": "artifacts/centro-expansion/render-dique-passeios-b75.png",
+  "geometry_changed": false
+}

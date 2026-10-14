@@ -1,0 +1,123 @@
+{
+  "status": "PASS_LIVE_BLENDER_PROXY_ONLY",
+  "pid": 11304,
+  "fixed_dt": 0.016666666666666666,
+  "display_acceleration": 10,
+  "physics_scope": "B82 proxy OBB/floors only; not collision against full historical visual geometry",
+  "market_entrance_connector": "NOT_IMPLEMENTED_NOT_TESTABLE",
+  "engine_certified": false,
+  "geometry_changed": false,
+  "saved": false,
+  "phase": "return_to_spawn",
+  "simulation_frames": 10675,
+  "mode": "OPEN",
+  "wall_seconds": 66.528827800008,
+  "maximum_live_player_pose_error": 0.0,
+  "maximum_passenger_relative_z_error": 5.689893001203927e-16,
+  "events": [
+    {
+      "event": "departure",
+      "time": 37.733333333332475,
+      "door_aperture": 0.0,
+      "carrying": true
+    },
+    {
+      "event": "arrival",
+      "landing": "lower",
+      "time": 55.23333333333148
+    },
+    {
+      "event": "departure",
+      "time": 123.59999999999427,
+      "door_aperture": 0.0,
+      "carrying": true
+    },
+    {
+      "event": "arrival",
+      "landing": "upper",
+      "time": 141.10000000000443
+    }
+  ],
+  "milestones": [
+    {
+      "tag": "spawn",
+      "frame": 1,
+      "position": [
+        88.0,
+        4.77055194,
+        70.12999786376953
+      ],
+      "car_z": 70.11499786376953,
+      "mode": "CLOSED",
+      "screenshot": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\artifacts\\lacerda-live-diagnostic\\playtest-spawn.png",
+      "capture_error": null
+    },
+    {
+      "tag": "upper_cabin",
+      "frame": 2206,
+      "position": [
+        0.01954040564389389,
+        8.118461168533659e-11,
+        70.12999786376953
+      ],
+      "car_z": 70.11499786376953,
+      "mode": "OPEN",
+      "screenshot": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\artifacts\\lacerda-live-diagnostic\\playtest-upper_cabin.png",
+      "capture_error": null
+    },
+    {
+      "tag": "descending",
+      "frame": 2608,
+      "position": [
+        0.01954040564389389,
+        8.118461168533659e-11,
+        51.363331197102355
+      ],
+      "car_z": 51.348331197102354,
+      "mode": "TRAVELLING",
+      "screenshot": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\artifacts\\lacerda-live-diagnostic\\playtest-descending.png",
+      "capture_error": null
+    },
+    {
+      "tag": "lower_docked",
+      "frame": 3378,
+      "position": [
+        0.01954040564389389,
+        8.118461168533659e-11,
+        7.420999660491943
+      ],
+      "car_z": 7.405999660491943,
+      "mode": "OPEN",
+      "screenshot": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\artifacts\\lacerda-live-diagnostic\\playtest-lower_docked.png",
+      "capture_error": null
+    },
+    {
+      "tag": "cairu",
+      "frame": 5370,
+      "position": [
+        -69.31690529144221,
+        14.014334332780432,
+        7.270668640732765
+      ],
+      "car_z": 7.405999660491943,
+      "mode": "OPEN",
+      "screenshot": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\artifacts\\lacerda-live-diagnostic\\playtest-cairu.png",
+      "capture_error": null
+    },
+    {
+      "tag": "upper_return",
+      "frame": 10675,
+      "position": [
+        87.98037129027118,
+        4.770551761143294,
+        70.12999786376953
+      ],
+      "car_z": 70.11499786376953,
+      "mode": "OPEN",
+      "screenshot": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\artifacts\\lacerda-live-diagnostic\\playtest-upper_return.png",
+      "capture_error": null
+    }
+  ],
+  "market_route_approved": false,
+  "error": null
+}

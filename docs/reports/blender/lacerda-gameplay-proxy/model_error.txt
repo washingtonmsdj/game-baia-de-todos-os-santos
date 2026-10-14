@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\Users\TONECOS\Documents\github\game-baia-de-todos-os-santos\automation\blender\finalize_lacerda_gameplay_proxy_b82.py", line 44, in <module>
+    if ob.hide_get(view_layer=layer)!=hide:ob.hide_set(hide,view_layer=layer)
+                                           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Error: Object 'IMPLANTACAO OSM | ortogonal' cannot be hidden because it is not in View Layer 'ViewLayer'!
+

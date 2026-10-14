@@ -1,0 +1,171 @@
+{
+  "source": {
+    "file": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+    "sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8"
+  },
+  "cases": [
+    {
+      "state": "closed_upper",
+      "landing": "upper",
+      "measurements": {
+        "cabin_present": true,
+        "cabin_stationary": true,
+        "landing_aperture": 0,
+        "cabin_aperture": 0,
+        "sill_delta": 0,
+        "capsule_clear": false,
+        "landing_supported": true
+      },
+      "boarding_allowed": false,
+      "complete_route_available": false,
+      "sill_delta_status": "zero apenas entre alvos animados; soleira real exige CCD/engine, cápsula reprova"
+    },
+    {
+      "state": "closed_upper",
+      "landing": "lower",
+      "measurements": {
+        "cabin_present": false,
+        "cabin_stationary": true,
+        "landing_aperture": 0,
+        "cabin_aperture": 0,
+        "sill_delta": null,
+        "capsule_clear": false,
+        "landing_supported": true
+      },
+      "boarding_allowed": false,
+      "complete_route_available": false,
+      "sill_delta_status": "zero apenas entre alvos animados; soleira real exige CCD/engine, cápsula reprova"
+    },
+    {
+      "state": "open_upper",
+      "landing": "upper",
+      "measurements": {
+        "cabin_present": true,
+        "cabin_stationary": true,
+        "landing_aperture": 1.8200070649693778,
+        "cabin_aperture": 1.8199947587283702,
+        "sill_delta": 0,
+        "capsule_clear": false,
+        "landing_supported": true
+      },
+      "boarding_allowed": false,
+      "complete_route_available": false,
+      "sill_delta_status": "zero apenas entre alvos animados; soleira real exige CCD/engine, cápsula reprova"
+    },
+    {
+      "state": "open_upper",
+      "landing": "lower",
+      "measurements": {
+        "cabin_present": false,
+        "cabin_stationary": true,
+        "landing_aperture": 0,
+        "cabin_aperture": 0,
+        "sill_delta": null,
+        "capsule_clear": false,
+        "landing_supported": true
+      },
+      "boarding_allowed": false,
+      "complete_route_available": false,
+      "sill_delta_status": "zero apenas entre alvos animados; soleira real exige CCD/engine, cápsula reprova"
+    },
+    {
+      "state": "moving_closed",
+      "landing": "upper",
+      "measurements": {
+        "cabin_present": false,
+        "cabin_stationary": false,
+        "landing_aperture": 0,
+        "cabin_aperture": 0,
+        "sill_delta": null,
+        "capsule_clear": false,
+        "landing_supported": true
+      },
+      "boarding_allowed": false,
+      "complete_route_available": false,
+      "sill_delta_status": "zero apenas entre alvos animados; soleira real exige CCD/engine, cápsula reprova"
+    },
+    {
+      "state": "moving_closed",
+      "landing": "lower",
+      "measurements": {
+        "cabin_present": false,
+        "cabin_stationary": false,
+        "landing_aperture": 0,
+        "cabin_aperture": 0,
+        "sill_delta": null,
+        "capsule_clear": false,
+        "landing_supported": true
+      },
+      "boarding_allowed": false,
+      "complete_route_available": false,
+      "sill_delta_status": "zero apenas entre alvos animados; soleira real exige CCD/engine, cápsula reprova"
+    },
+    {
+      "state": "closed_lower",
+      "landing": "upper",
+      "measurements": {
+        "cabin_present": false,
+        "cabin_stationary": true,
+        "landing_aperture": 0,
+        "cabin_aperture": 0,
+        "sill_delta": null,
+        "capsule_clear": false,
+        "landing_supported": true
+      },
+      "boarding_allowed": false,
+      "complete_route_available": false,
+      "sill_delta_status": "zero apenas entre alvos animados; soleira real exige CCD/engine, cápsula reprova"
+    },
+    {
+      "state": "closed_lower",
+      "landing": "lower",
+      "measurements": {
+        "cabin_present": true,
+        "cabin_stationary": true,
+        "landing_aperture": 0,
+        "cabin_aperture": 0,
+        "sill_delta": 0,
+        "capsule_clear": false,
+        "landing_supported": true
+      },
+      "boarding_allowed": false,
+      "complete_route_available": false,
+      "sill_delta_status": "zero apenas entre alvos animados; soleira real exige CCD/engine, cápsula reprova"
+    },
+    {
+      "state": "open_lower",
+      "landing": "upper",
+      "measurements": {
+        "cabin_present": false,
+        "cabin_stationary": true,
+        "landing_aperture": 0,
+        "cabin_aperture": 0,
+        "sill_delta": null,
+        "capsule_clear": false,
+        "landing_supported": true
+      },
+      "boarding_allowed": false,
+      "complete_route_available": false,
+      "sill_delta_status": "zero apenas entre alvos animados; soleira real exige CCD/engine, cápsula reprova"
+    },
+    {
+      "state": "open_lower",
+      "landing": "lower",
+      "measurements": {
+        "cabin_present": true,
+        "cabin_stationary": true,
+        "landing_aperture": 1.8200019492304733,
+        "cabin_aperture": 1.8200006395023465,
+        "sill_delta": 0,
+        "capsule_clear": false,
+        "landing_supported": true
+      },
+      "boarding_allowed": false,
+      "complete_route_available": false,
+      "sill_delta_status": "zero apenas entre alvos animados; soleira real exige CCD/engine, cápsula reprova"
+    }
+  ],
+  "all_actual_states_fail_closed": true,
+  "engine_verified": false,
+  "trip_approved": false
+}

@@ -1,0 +1,8 @@
+{
+  "source": "blender/salvador_lacerda_r30b92_ponte_estrutural_consolidada.blend",
+  "backup": "blender/salvador_lacerda_r30b92_ponte_estrutural_consolidada.blend1",
+  "objects_compared": 542,
+  "geometry_differences": [],
+  "official_source_validated": true,
+  "scope": "Assinaturas de geometria/transform/material; backup automático anterior ao checkpoint final, não revisão oficial."
+}

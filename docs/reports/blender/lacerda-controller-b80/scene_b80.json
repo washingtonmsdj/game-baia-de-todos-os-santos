@@ -1,0 +1,44 @@
+{
+  "revision": "R30B.80",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b79_contrato_colisao_slice.blend",
+    "revision": "R30B.79",
+    "sha256": "777d1748ddcf594cda267590172983743bb75cc11153e1db030f173ef7dde14f",
+    "status": "controller_candidate_blocked",
+    "parent_file": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+    "evidence": "docs/reports/blender/lacerda-controller/scene_b79.json",
+    "notes": "B77B preservada; colisores locais, estados e auditoria volumétrica. Interferências abertas, sem aprovação de engine; B78 não incorporada nesta revisão."
+  },
+  "baseline_frame": 31978,
+  "objects_before": 6292,
+  "objects_after": 6294,
+  "added_objects": [
+    "B80 | COLLISION | passarela piso visual",
+    "B80 | NAV | superior ground-following candidato"
+  ],
+  "changed_original_objects": [],
+  "superseded_binding": {
+    "object": "B77 | COLLISION | NAV | passarela superior",
+    "source": "NAV | passarela superior",
+    "triangles": 2,
+    "vertices": 4,
+    "moving": false,
+    "role": "WALKABLE_FLOOR",
+    "enabled": false,
+    "status": "superseded_floor_plane",
+    "replaced_by": "B80 | COLLISION | passarela piso visual"
+  },
+  "new_floor_source": "LAC R30B | Passarela | piso paginado visual",
+  "new_floor_triangles": 660,
+  "architecture_changed": false,
+  "B78_merge_applied": false,
+  "terrain_changed": false,
+  "ssot_sha256": "1d9da0962d456cb38ed3df0da797208e499a8465f82e9836c14bb337df2385e7",
+  "engine_verified": false,
+  "movement_enabled": false,
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+    "revision": "R30B.80",
+    "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+  }
+}

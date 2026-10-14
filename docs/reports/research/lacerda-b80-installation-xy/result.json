@@ -1,0 +1,15 @@
+{
+  "decision": "NO_SCENE_CHANGE",
+  "ORIGIN_OF_3_709_FOUND": false,
+  "SEMOB_INSTALLATION_DATA_FOUND": false,
+  "XY_REGISTRATION_ACCEPTED": false,
+  "status": "STILL_UNRESOLVED",
+  "origin_context_partial": true,
+  "B81_created": false,
+  "CCD_repeated": false,
+  "production_exported": false,
+  "witnesses": {
+    "UNRESOLVED": 27
+  },
+  "note": "Origem semântica parcial, sem operação/revisão introdutora comprovada; nenhum dado de instalação dimensional nem correspondência XY aceita"
+}

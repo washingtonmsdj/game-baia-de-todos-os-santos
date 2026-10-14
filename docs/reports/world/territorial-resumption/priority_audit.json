@@ -1,0 +1,1625 @@
+{
+  "schema": "boas/territorial-resumption-v1",
+  "geographic_ssot": "world/geographic-reference.json",
+  "ssot_sha256": "1d9da0962d456cb38ed3df0da797208e499a8465f82e9836c14bb337df2385e7",
+  "new_acquisition": false,
+  "existing_aleph_osm_sources_reused": true,
+  "geometry_changed": false,
+  "stages": [
+    {
+      "order": 1,
+      "region": "Centro Histórico",
+      "area": "mvp-centro-lacerda",
+      "locations": [],
+      "phase": "STRUCTURAL_GREYBOX",
+      "blocked_by_lacerda_fidelity": false,
+      "existing_pending_alerts": 714,
+      "existing_way_targets": [
+        {
+          "osm_way_id": 103595139,
+          "source_feature_found": true,
+          "name": "Ladeira da Misericórdia",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 145041517,
+          "source_feature_found": true,
+          "name": "Ladeira da Palma",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 231091546,
+          "source_feature_found": true,
+          "name": "Ladeira da Praça",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 231091547,
+          "source_feature_found": true,
+          "name": "Rua Chile",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 231091551,
+          "source_feature_found": true,
+          "name": "Rua José Gonçalves",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 397449211,
+          "source_feature_found": true,
+          "name": "Travessa Professor Antônio Borja",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 48846625,
+          "source_feature_found": true,
+          "name": "Ladeira da Montanha",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 563740405,
+          "source_feature_found": true,
+          "name": "Avenida da França",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 803899198,
+          "source_feature_found": true,
+          "name": "Rua da Misericórdia",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 1004133492,
+          "source_feature_found": true,
+          "name": null,
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 1004133493,
+          "source_feature_found": true,
+          "name": null,
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 1004133494,
+          "source_feature_found": true,
+          "name": null,
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 1075624443,
+          "source_feature_found": true,
+          "name": "Caminho Novo do Taboão",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 1075624454,
+          "source_feature_found": true,
+          "name": "Avenida Lafayete Coutinho",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 1075624458,
+          "source_feature_found": true,
+          "name": "Praça Castro Alves",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 1150035141,
+          "source_feature_found": true,
+          "name": "Terminal Turístico Náutico da Bahia",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 1150035142,
+          "source_feature_found": true,
+          "name": null,
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 120479885,
+          "source_feature_found": true,
+          "name": "Rua das Laranjeiras",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 122790586,
+          "source_feature_found": true,
+          "name": "Ladeira do Carmo",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 136796565,
+          "source_feature_found": true,
+          "name": "Baixa dos Sapateiros",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 145041525,
+          "source_feature_found": true,
+          "name": "Rua do Gravatá",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 145042862,
+          "source_feature_found": true,
+          "name": "Ladeira de Santana",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 145218124,
+          "source_feature_found": true,
+          "name": "Avenida José Joaquim Seabra",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 145218126,
+          "source_feature_found": true,
+          "name": null,
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 145218127,
+          "source_feature_found": true,
+          "name": "Rua Visconde de Itaparica",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 145218778,
+          "source_feature_found": true,
+          "name": null,
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 145218785,
+          "source_feature_found": true,
+          "name": "Avenida Estados Unidos",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 145218788,
+          "source_feature_found": true,
+          "name": "Rua Conselheiro Dantas",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 145218789,
+          "source_feature_found": true,
+          "name": "Rua Rodrigo Silva",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 154743329,
+          "source_feature_found": true,
+          "name": "Rua da Conceição da Praia",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 158089951,
+          "source_feature_found": true,
+          "name": "Rua da Ajuda",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 180507770,
+          "source_feature_found": true,
+          "name": "Ladeira da Praça",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 201205887,
+          "source_feature_found": true,
+          "name": "Rua Conselheiro Lafayette",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 231091556,
+          "source_feature_found": true,
+          "name": "Rua do Tira Chapéu",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 233718279,
+          "source_feature_found": true,
+          "name": "Rua Santa Isabel",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 285592029,
+          "source_feature_found": true,
+          "name": "Ladeira da Ordem Terceira de São Francisco",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 30968017,
+          "source_feature_found": true,
+          "name": "Rua Chile",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 381095254,
+          "source_feature_found": true,
+          "name": "Rua Barão do Desterro",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 395865971,
+          "source_feature_found": true,
+          "name": "Rua dos Ourives",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 395867308,
+          "source_feature_found": true,
+          "name": "Rua do Passo",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 395867311,
+          "source_feature_found": true,
+          "name": "Ladeira do Ferrão",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 395867312,
+          "source_feature_found": true,
+          "name": "Rua Gregório de Matos",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 395867313,
+          "source_feature_found": true,
+          "name": "Rua Frei Vicente",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 395867314,
+          "source_feature_found": true,
+          "name": "Rua João de Deus",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 421206045,
+          "source_feature_found": true,
+          "name": "Ladeira da Conceição da Praia",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 456471269,
+          "source_feature_found": true,
+          "name": "Rua Manoel Vitórino",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 48846615,
+          "source_feature_found": true,
+          "name": "Rua da Polônia",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 48846617,
+          "source_feature_found": true,
+          "name": "Rua Rodrigues Alves",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 48848241,
+          "source_feature_found": true,
+          "name": "Rua das Flores",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 48848243,
+          "source_feature_found": true,
+          "name": "Rua do Passo",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 48848250,
+          "source_feature_found": true,
+          "name": "Avenida José Joaquim Seabra",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 48848284,
+          "source_feature_found": true,
+          "name": "Rua do Açouguinho",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 48848298,
+          "source_feature_found": true,
+          "name": "Rua da Fonte do Gravats",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 48848299,
+          "source_feature_found": true,
+          "name": "Ladeira de Santana",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 48848318,
+          "source_feature_found": true,
+          "name": "Rua Tingui",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 530127468,
+          "source_feature_found": true,
+          "name": "Ladeira do Pelourinho",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 530127469,
+          "source_feature_found": true,
+          "name": "Rua Gregório de Matos",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 530127470,
+          "source_feature_found": true,
+          "name": "Rua das Portas do Carmo",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 531109208,
+          "source_feature_found": true,
+          "name": "Ladeira de Santana",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 531109209,
+          "source_feature_found": true,
+          "name": "Rua do Carro",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 531301942,
+          "source_feature_found": true,
+          "name": "Rua do Bispo",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 562005412,
+          "source_feature_found": true,
+          "name": "Avenida Sete de Setembro",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 562637613,
+          "source_feature_found": true,
+          "name": "Avenida Estados Unidos",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 562643098,
+          "source_feature_found": true,
+          "name": "Avenida Jequitaia",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 562646007,
+          "source_feature_found": true,
+          "name": "Avenida da França",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 562646008,
+          "source_feature_found": true,
+          "name": "Rua da Espanha",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 562769531,
+          "source_feature_found": true,
+          "name": "Rua Torquato Bahia",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 562769535,
+          "source_feature_found": true,
+          "name": "Praça Marechal Deodoro",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 562778533,
+          "source_feature_found": true,
+          "name": "Travessa Campos Sales",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 578704834,
+          "source_feature_found": true,
+          "name": "Ladeira do Pelourinho",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 59392607,
+          "source_feature_found": true,
+          "name": null,
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 656636750,
+          "source_feature_found": true,
+          "name": "Rua do Curriachito",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 656636751,
+          "source_feature_found": true,
+          "name": "Beco do Seminário",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 656636752,
+          "source_feature_found": true,
+          "name": "Rua Frei Vicente",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 778284292,
+          "source_feature_found": true,
+          "name": null,
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 804043430,
+          "source_feature_found": true,
+          "name": null,
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 804043431,
+          "source_feature_found": true,
+          "name": null,
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 804043433,
+          "source_feature_found": true,
+          "name": null,
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 804043435,
+          "source_feature_found": true,
+          "name": null,
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 804405604,
+          "source_feature_found": true,
+          "name": null,
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 804405605,
+          "source_feature_found": true,
+          "name": null,
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 804405606,
+          "source_feature_found": true,
+          "name": "Rua da Oração",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 807410400,
+          "source_feature_found": true,
+          "name": null,
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 807410403,
+          "source_feature_found": true,
+          "name": null,
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 807410410,
+          "source_feature_found": true,
+          "name": null,
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 807410424,
+          "source_feature_found": true,
+          "name": "Avenida Carlos Gomes",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 807410430,
+          "source_feature_found": true,
+          "name": "Travessa Professor Antônio Borja",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 807410431,
+          "source_feature_found": true,
+          "name": "Travessa Professor Antônio Borja",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 807410432,
+          "source_feature_found": true,
+          "name": "Rua do Carro",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 823499871,
+          "source_feature_found": true,
+          "name": null,
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 8505042,
+          "source_feature_found": true,
+          "name": "Rua do Tijolo",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 85523435,
+          "source_feature_found": true,
+          "name": "Rua da Ordem Terceira",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 888185711,
+          "source_feature_found": true,
+          "name": "Avenida José Joaquim Seabra",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 899208999,
+          "source_feature_found": true,
+          "name": "Rua do Taboão",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 973459386,
+          "source_feature_found": true,
+          "name": null,
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 978481515,
+          "source_feature_found": true,
+          "name": "Ladeira da Montanha",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 978527848,
+          "source_feature_found": true,
+          "name": "Avenida Lafayete Coutinho",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 978572576,
+          "source_feature_found": true,
+          "name": "Rua Frei Vicente",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 1004133491,
+          "source_feature_found": true,
+          "name": "Avenida Lafayete Coutinho",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 1004133497,
+          "source_feature_found": true,
+          "name": "Rua da Conceição da Praia",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 1075624439,
+          "source_feature_found": true,
+          "name": "Ladeira da Montanha",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 1084734849,
+          "source_feature_found": true,
+          "name": "Avenida Jequitaia",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 1247051187,
+          "source_feature_found": true,
+          "name": "Rua Saldanha da Gama",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 1266629200,
+          "source_feature_found": true,
+          "name": "Rua Visconde do Rosário",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 1266629201,
+          "source_feature_found": true,
+          "name": "Rua Portugal",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 1319367902,
+          "source_feature_found": true,
+          "name": "Rua do Taboão",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 136796564,
+          "source_feature_found": true,
+          "name": "Rua da Oração",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 145218130,
+          "source_feature_found": true,
+          "name": "Rua do Tijolo",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 145218787,
+          "source_feature_found": true,
+          "name": "Rua da Bélgica",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 145218792,
+          "source_feature_found": true,
+          "name": "Rua da Holanda",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 154743326,
+          "source_feature_found": true,
+          "name": "Rua do Corpo Santo",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 154743330,
+          "source_feature_found": true,
+          "name": "Rua Visconde do Rosário",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 154743335,
+          "source_feature_found": true,
+          "name": "Rua da Bélgica",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 154743338,
+          "source_feature_found": true,
+          "name": "Rua do Corpo Santo",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 231091548,
+          "source_feature_found": true,
+          "name": "Rua Guedes de Brito",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 231091549,
+          "source_feature_found": true,
+          "name": "Rua Guedes de Brito",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 231091550,
+          "source_feature_found": true,
+          "name": "Rua Guedes de Brito",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 231091553,
+          "source_feature_found": true,
+          "name": "Rua da Ajuda",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 231091554,
+          "source_feature_found": true,
+          "name": "Rua das Vassouras",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 231091555,
+          "source_feature_found": true,
+          "name": "Rua do Pau da Bandeira",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 231091558,
+          "source_feature_found": true,
+          "name": "Rua das Vassouras",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 231092209,
+          "source_feature_found": true,
+          "name": "Rua Saldanha da Gama",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 231092210,
+          "source_feature_found": true,
+          "name": "Rua do Tijolo",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 231092211,
+          "source_feature_found": true,
+          "name": "Rua do Tijolo",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 231092212,
+          "source_feature_found": true,
+          "name": "Travessa do Tijolo",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 258560240,
+          "source_feature_found": true,
+          "name": "Rua Chile",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 285595135,
+          "source_feature_found": true,
+          "name": "Praça Visconde de Cayru",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 30968024,
+          "source_feature_found": true,
+          "name": "Rua do Tira Chapéu",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 312006926,
+          "source_feature_found": true,
+          "name": "Rua Conde D'Eu",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 395865968,
+          "source_feature_found": true,
+          "name": "Rua da Holanda",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 395865969,
+          "source_feature_found": true,
+          "name": "Rua da Polônia",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 395865970,
+          "source_feature_found": true,
+          "name": "Praça Riachuelo",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 395865972,
+          "source_feature_found": true,
+          "name": "Rua Miguel Calmon",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 395865974,
+          "source_feature_found": true,
+          "name": "Rua da Conceição da Praia",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 396045001,
+          "source_feature_found": true,
+          "name": "Rua Visconde de Itaparica",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 396045003,
+          "source_feature_found": true,
+          "name": "Rua Ruy Barbosa",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 438907172,
+          "source_feature_found": true,
+          "name": "Praça Riachuelo",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 439251067,
+          "source_feature_found": true,
+          "name": "Rua da Bélgica",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 46348179,
+          "source_feature_found": true,
+          "name": "Avenida Lafayete Coutinho",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 48486871,
+          "source_feature_found": true,
+          "name": "Rua Alvares Cabral",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 48846533,
+          "source_feature_found": true,
+          "name": "Rua Ruy Barbosa",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 48846608,
+          "source_feature_found": true,
+          "name": "Rua da Argentina",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 48846634,
+          "source_feature_found": true,
+          "name": null,
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 48846636,
+          "source_feature_found": true,
+          "name": "Praça Condé dos Arcos",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 48846640,
+          "source_feature_found": true,
+          "name": "Beco do Frazão",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 48846642,
+          "source_feature_found": true,
+          "name": "Caminho Novo do Taboão",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 48846645,
+          "source_feature_found": true,
+          "name": "Rua do Julião",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 48848251,
+          "source_feature_found": true,
+          "name": "Rua Leovigildo de Carvalho",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 48849048,
+          "source_feature_found": true,
+          "name": "Rua do Tesouro",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 48849200,
+          "source_feature_found": true,
+          "name": "Rua Frederico de Castro Rabelo",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 531301943,
+          "source_feature_found": true,
+          "name": "Rua Três de Maio",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 561997874,
+          "source_feature_found": true,
+          "name": "Rua de São Francisco",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 561997875,
+          "source_feature_found": true,
+          "name": "Ladeira da Praça",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 561997876,
+          "source_feature_found": true,
+          "name": "Rua do Tesouro",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 562627119,
+          "source_feature_found": true,
+          "name": "Rua da Bélgica",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 562627120,
+          "source_feature_found": true,
+          "name": "Rua Pinto Martins",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 562627121,
+          "source_feature_found": true,
+          "name": "Rua Miguel Calmon",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 562631833,
+          "source_feature_found": true,
+          "name": "Rua dos Algibebes",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 562631834,
+          "source_feature_found": true,
+          "name": "Rua dos Ourives",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 562631838,
+          "source_feature_found": true,
+          "name": "Rua do Corpo Santo",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 562636051,
+          "source_feature_found": true,
+          "name": "Rua Miguel Calmon",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 562637607,
+          "source_feature_found": true,
+          "name": "Rua Santos Dumont",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 562637609,
+          "source_feature_found": true,
+          "name": "Rua Lauro Müler",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 562637612,
+          "source_feature_found": true,
+          "name": "Rua da Grécia",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 562638716,
+          "source_feature_found": true,
+          "name": "Rua Portugal",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 562638717,
+          "source_feature_found": true,
+          "name": "Rua Pinto Martins",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 562660148,
+          "source_feature_found": true,
+          "name": "Avenida Lafayete Coutinho",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 562769532,
+          "source_feature_found": true,
+          "name": "Rua da Holanda",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 741297294,
+          "source_feature_found": true,
+          "name": null,
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 755361481,
+          "source_feature_found": true,
+          "name": "Rua Saldanha da Gama",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 755361482,
+          "source_feature_found": true,
+          "name": "Ladeira da Praça",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 755361483,
+          "source_feature_found": true,
+          "name": "Rua Saldanha da Gama",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 778032828,
+          "source_feature_found": true,
+          "name": "Rua do Julião",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 803899193,
+          "source_feature_found": true,
+          "name": "Rua da Ajuda",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 803899194,
+          "source_feature_found": true,
+          "name": "Praça Ramos Queiroz",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 803899195,
+          "source_feature_found": true,
+          "name": "Largo do Pelourinho",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 804043432,
+          "source_feature_found": true,
+          "name": null,
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 804043434,
+          "source_feature_found": true,
+          "name": null,
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 804043448,
+          "source_feature_found": true,
+          "name": "Rua da Holanda",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 804043460,
+          "source_feature_found": true,
+          "name": "Praça da Inglaterra",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 807410401,
+          "source_feature_found": true,
+          "name": "Rua do Tira Chapéu",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 85523434,
+          "source_feature_found": true,
+          "name": "Largo Terreiro de Jesus",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 85524300,
+          "source_feature_found": true,
+          "name": "Rua da Bélgica",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 899200573,
+          "source_feature_found": true,
+          "name": "Rua do Bispo",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 978525930,
+          "source_feature_found": true,
+          "name": "Praça Visconde de Cayru",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 978527849,
+          "source_feature_found": true,
+          "name": "Avenida Lafayete Coutinho",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 987002818,
+          "source_feature_found": true,
+          "name": "Avenida da França",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        }
+      ],
+      "landmark_controls": [],
+      "first_issue_ids": [
+        "mvp-centro-lacerda/way-103595139/nodes-5436479155-11298494892/center_support_missing",
+        "mvp-centro-lacerda/way-103595139/nodes-5436479155-11298494892/wheel_support_missing",
+        "mvp-centro-lacerda/way-145041517/nodes-1585109324-3940257553/wheel_support_missing",
+        "mvp-centro-lacerda/way-231091546/nodes-4007759713-13304581715/center_support_missing",
+        "mvp-centro-lacerda/way-231091547/nodes-13304581716-13348016139/center_support_missing",
+        "mvp-centro-lacerda/way-231091551/nodes-1703474618-4007759718/center_support_missing",
+        "mvp-centro-lacerda/way-397449211/nodes-7550297016-5155859979/wheel_support_missing",
+        "mvp-centro-lacerda/way-48846625/nodes-619723456-7260777074/collision_support_missing",
+        "mvp-centro-lacerda/way-48846625/nodes-7260777074-3940257662/collision_support_missing",
+        "mvp-centro-lacerda/way-563740405/nodes-5423912750-7520527495/wheel_support_missing",
+        "mvp-centro-lacerda/way-803899198/nodes-5436479156-1703384768/vertical_discontinuity",
+        "mvp-centro-lacerda/node-10698263583/turn-way-1150035141-seg-8--way-1150035142-seg-0/steering_radius_review"
+      ],
+      "work_order": [
+        "XY / SSOT",
+        "relevo e apoio",
+        "vias e cruzamentos",
+        "calçadas / quadras",
+        "footprints / massing",
+        "marcos simples"
+      ],
+      "known_limits": [
+        "Triagem herdada não comprova bug; conferir objeto/camada antes de corrigir.",
+        "Não alterar datum, DEM-fonte ou terreno global por redução de RMS."
+      ]
+    },
+    {
+      "order": 2,
+      "region": "Lapa / Campo da Pólvora",
+      "area": "centro-lapa-tororo-fontenova",
+      "locations": [
+        "center-lapa",
+        "campo-da-polvora"
+      ],
+      "phase": "STRUCTURAL_GREYBOX",
+      "blocked_by_lacerda_fidelity": false,
+      "existing_pending_alerts": 69,
+      "existing_way_targets": [
+        {
+          "osm_way_id": 231091547,
+          "source_feature_found": true,
+          "name": "Rua Chile",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 231091546,
+          "source_feature_found": true,
+          "name": "Ladeira da Praça",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 808215598,
+          "source_feature_found": true,
+          "name": "Rua Mesquita do Tororó",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 257113957,
+          "source_feature_found": true,
+          "name": null,
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        }
+      ],
+      "landmark_controls": [
+        {
+          "location_id": "center-lapa",
+          "osm": {
+            "type": "way",
+            "id": 257113955,
+            "verified": true,
+            "source_capture_id": "osm-mapzen-20261005T045222Z"
+          },
+          "source_found": true,
+          "closed": true,
+          "missing_node_ref_count": 0,
+          "height_certified": false,
+          "detailed_architecture_allowed": false
+        },
+        {
+          "location_id": "campo-da-polvora",
+          "osm": {
+            "type": "way",
+            "id": 257336400,
+            "verified": true,
+            "source_capture_id": "osm-mapzen-20261005T045222Z"
+          },
+          "source_found": false,
+          "closed": null,
+          "missing_node_ref_count": null,
+          "height_certified": false,
+          "detailed_architecture_allowed": false
+        }
+      ],
+      "first_issue_ids": [
+        "B74-grade-001",
+        "B74-grade-002",
+        "B74-grade-003",
+        "B74-grade-004",
+        "B74-grade-005",
+        "B74-grade-006",
+        "B74-grade-007",
+        "B74-grade-008",
+        "B74-grade-009",
+        "B74-grade-010",
+        "B74-grade-011",
+        "B74-grade-012"
+      ],
+      "work_order": [
+        "XY / SSOT",
+        "relevo e apoio",
+        "vias e cruzamentos",
+        "calçadas / quadras",
+        "footprints / massing",
+        "marcos simples"
+      ],
+      "known_limits": [
+        "Triagem herdada não comprova bug; conferir objeto/camada antes de corrigir.",
+        "Não alterar datum, DEM-fonte ou terreno global por redução de RMS."
+      ]
+    },
+    {
+      "order": 3,
+      "region": "Dique do Tororó",
+      "area": "centro-lapa-tororo-fontenova",
+      "locations": [
+        "dique-do-tororo"
+      ],
+      "phase": "STRUCTURAL_GREYBOX",
+      "blocked_by_lacerda_fidelity": false,
+      "existing_pending_alerts": 16,
+      "existing_way_targets": [
+        {
+          "osm_way_id": 231091547,
+          "source_feature_found": true,
+          "name": "Rua Chile",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 231091546,
+          "source_feature_found": true,
+          "name": "Ladeira da Praça",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 1076037133,
+          "source_feature_found": true,
+          "name": "Avenida Presidente Costa e Silva",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 31221696,
+          "source_feature_found": true,
+          "name": "Avenida Vasco da Gama",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        }
+      ],
+      "landmark_controls": [
+        {
+          "location_id": "dique-do-tororo",
+          "osm": {
+            "type": "relation",
+            "id": 15601931,
+            "verified": true,
+            "source_capture_id": "osm-mapzen-20261005T045222Z"
+          },
+          "source_found": true,
+          "closed": true,
+          "missing_node_ref_count": 0,
+          "height_certified": false,
+          "detailed_architecture_allowed": false
+        }
+      ],
+      "first_issue_ids": [
+        "B74-grade-091",
+        "B74-grade-092",
+        "B74-grade-093",
+        "B74-grade-094",
+        "B74-grade-095",
+        "B74-grade-096",
+        "B74-grade-097",
+        "B74-grade-098",
+        "B74-grade-099",
+        "B74-grade-100",
+        "B74-grade-101",
+        "B74-grade-102"
+      ],
+      "work_order": [
+        "XY / SSOT",
+        "relevo e apoio",
+        "vias e cruzamentos",
+        "calçadas / quadras",
+        "footprints / massing",
+        "marcos simples"
+      ],
+      "known_limits": [
+        "Triagem herdada não comprova bug; conferir objeto/camada antes de corrigir.",
+        "Não alterar datum, DEM-fonte ou terreno global por redução de RMS."
+      ]
+    },
+    {
+      "order": 4,
+      "region": "Arena Fonte Nova",
+      "area": "centro-lapa-tororo-fontenova",
+      "locations": [
+        "arena-fonte-nova"
+      ],
+      "phase": "STRUCTURAL_GREYBOX",
+      "blocked_by_lacerda_fidelity": false,
+      "existing_pending_alerts": 21,
+      "existing_way_targets": [
+        {
+          "osm_way_id": 231091547,
+          "source_feature_found": true,
+          "name": "Rua Chile",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 231091546,
+          "source_feature_found": true,
+          "name": "Ladeira da Praça",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 396044997,
+          "source_feature_found": true,
+          "name": "Ladeira da Fonte das Pedras",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        },
+        {
+          "osm_way_id": 136028743,
+          "source_feature_found": true,
+          "name": "Acesso Avenida Presidente Costa e Silva",
+          "classification": "NEEDS_REVIEW",
+          "automatic_correction_allowed": false
+        }
+      ],
+      "landmark_controls": [
+        {
+          "location_id": "arena-fonte-nova",
+          "osm": {
+            "type": "relation",
+            "id": 3346613,
+            "verified": true,
+            "source_capture_id": "osm-mapzen-20261005T045222Z"
+          },
+          "source_found": true,
+          "closed": true,
+          "missing_node_ref_count": 0,
+          "height_certified": false,
+          "detailed_architecture_allowed": false
+        }
+      ],
+      "first_issue_ids": [
+        "B74-grade-070",
+        "B74-grade-071",
+        "B74-grade-072",
+        "B74-grade-073",
+        "B74-grade-074",
+        "B74-grade-075",
+        "B74-grade-076",
+        "B74-grade-077",
+        "B74-grade-078",
+        "B74-grade-079",
+        "B74-grade-080",
+        "B74-grade-081"
+      ],
+      "work_order": [
+        "XY / SSOT",
+        "relevo e apoio",
+        "vias e cruzamentos",
+        "calçadas / quadras",
+        "footprints / massing",
+        "marcos simples"
+      ],
+      "known_limits": [
+        "Triagem herdada não comprova bug; conferir objeto/camada antes de corrigir.",
+        "Não alterar datum, DEM-fonte ou terreno global por redução de RMS."
+      ]
+    }
+  ],
+  "map_status": "GREYBOX",
+  "historical_lacerda_status": "FROZEN_BY_USER",
+  "dique_shore_issue_preserved": true,
+  "production_ready": false
+}

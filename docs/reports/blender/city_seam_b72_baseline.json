@@ -1,0 +1,20 @@
+{
+  "file": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\blender\\salvador_lacerda_r30b71_encontro_norte_cais.blend",
+  "rows": [
+    {
+      "object": "MVP | terreno corrigido | colisão estática",
+      "degenerate_triangles": 94,
+      "edges_more_than_two_faces": 0
+    },
+    {
+      "object": "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+      "degenerate_triangles": 0,
+      "edges_more_than_two_faces": 0
+    },
+    {
+      "object": "B63 | VISUAL | piso contínuo até o cais",
+      "degenerate_triangles": 0,
+      "edges_more_than_two_faces": 0
+    }
+  ]
+}

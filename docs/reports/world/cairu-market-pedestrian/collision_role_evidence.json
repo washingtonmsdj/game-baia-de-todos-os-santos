@@ -1,0 +1,15 @@
+{
+  "object": "LAC R30B06 | fundo verde travessia 3178050253",
+  "physical_role": "render_only_paint",
+  "osm_node_id": "3178050253",
+  "source_media_id": "elevador-lacerda-front-2d9b4031ff6a",
+  "creator": "automation/blender/refine_lacerda_r30b06_public_space.py",
+  "creator_sha256": "ec0e220d43fee1fc780b5636433ca2f03b4079a542c33e97fad1801c18f2a9af",
+  "geometry_planar": true,
+  "render_offset": 0.003,
+  "geometry_changed": false,
+  "live_collision_binding_applied": false,
+  "reason": "Script cria pintura sem volume, não laje. A malha continua visual; colisão é fornecida pelo chão existente.",
+  "sweep_status": "blocked",
+  "remaining_penetrations": 6
+}

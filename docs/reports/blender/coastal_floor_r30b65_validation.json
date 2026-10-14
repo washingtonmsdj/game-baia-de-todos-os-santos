@@ -1,0 +1,130 @@
+{
+  "schema": "boas/coastal-floor-b65-validation-v1",
+  "source": {
+    "file": "blender/salvador_lacerda_r30b65_piso_orla_sem_residuos.blend",
+    "revision": "R30B.65",
+    "sha256": "36ccb3462dcc7c7abe584aa1ea903eab7e5f786eefbe3c4e58954b7e9024a2d7",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b64_costa_volumes_corrigidos.blend",
+    "evidence": "docs/reports/blender/coastal_floor_r30b65.json",
+    "notes": "Limpa somente piso novo e solda a face visível do cais; costa/terreno/pistas/píeres preservados. Fidelidade e passarela pendentes."
+  },
+  "reopened": true,
+  "geometry": [
+    {
+      "object": "CAIS | contenção costeira alinhada à linha de costa",
+      "degenerate": 0,
+      "boundary_edges": 2642,
+      "nonmanifold_edges": 2642,
+      "collision_equal": true,
+      "floor_faces_over_water": 0,
+      "wrong_outward_faces": 678,
+      "uncertain_outward_faces": 0
+    },
+    {
+      "object": "B63 | VISUAL | piso contínuo até o cais",
+      "degenerate": 0,
+      "boundary_edges": 485,
+      "nonmanifold_edges": 485,
+      "collision_equal": true,
+      "floor_faces_over_water": 4,
+      "wrong_outward_faces": 0,
+      "uncertain_outward_faces": 0
+    },
+    {
+      "object": "B63 | VISUAL | meios-fios das vias existentes",
+      "degenerate": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "collision_equal": true,
+      "floor_faces_over_water": 0,
+      "wrong_outward_faces": 0,
+      "uncertain_outward_faces": 0
+    },
+    {
+      "object": "B63 | VISUAL | canteiro OSM 285592034",
+      "degenerate": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "collision_equal": true,
+      "floor_faces_over_water": 0,
+      "wrong_outward_faces": 0,
+      "uncertain_outward_faces": 0
+    },
+    {
+      "object": "B63 | VISUAL | canteiro OSM 1232803924",
+      "degenerate": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "collision_equal": true,
+      "floor_faces_over_water": 0,
+      "wrong_outward_faces": 0,
+      "uncertain_outward_faces": 0
+    },
+    {
+      "object": "B63 | VISUAL | canteiro OSM 1265894224",
+      "degenerate": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "collision_equal": true,
+      "floor_faces_over_water": 0,
+      "wrong_outward_faces": 0,
+      "uncertain_outward_faces": 0
+    },
+    {
+      "object": "B63 | VISUAL | canteiro OSM 1320939604",
+      "degenerate": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "collision_equal": true,
+      "floor_faces_over_water": 0,
+      "wrong_outward_faces": 0,
+      "uncertain_outward_faces": 0
+    },
+    {
+      "object": "B63 | VISUAL | canteiro OSM 1321519023",
+      "degenerate": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "collision_equal": true,
+      "floor_faces_over_water": 0,
+      "wrong_outward_faces": 0,
+      "uncertain_outward_faces": 0
+    },
+    {
+      "object": "B63 | VISUAL | canteiro OSM 1321718836",
+      "degenerate": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "collision_equal": true,
+      "floor_faces_over_water": 0,
+      "wrong_outward_faces": 0,
+      "uncertain_outward_faces": 0
+    },
+    {
+      "object": "B63 | VISUAL | canteiro OSM 1321718837",
+      "degenerate": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "collision_equal": true,
+      "floor_faces_over_water": 0,
+      "wrong_outward_faces": 0,
+      "uncertain_outward_faces": 0
+    },
+    {
+      "object": "B63 | VISUAL | canteiro OSM 1321718838",
+      "degenerate": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "collision_equal": true,
+      "floor_faces_over_water": 0,
+      "wrong_outward_faces": 0,
+      "uncertain_outward_faces": 0
+    }
+  ],
+  "all_generated_visible_meshes_checked": true,
+  "local_geometry_checks_passed": false,
+  "real_fidelity_approved": false,
+  "pending_bridge_osm_id": 1426173327,
+  "source_reference_review": "docs/reports/blender/waterfront_real_reference_review.json"
+}

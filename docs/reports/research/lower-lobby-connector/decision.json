@@ -1,0 +1,473 @@
+{
+  "decision": "NO_SCENE_CHANGE",
+  "new_revision": null,
+  "object_classification": "UNRESOLVED",
+  "LACERDA_VERTICAL": "BLOCKED_EXTERNAL_EVIDENCE",
+  "LOWER_LOBBY_TO_OSM": "UNRESOLVED_BLOCKED",
+  "OSM_CROSSING": "TOPOLOGY_CONFIRMED_NOT_ADVANCED",
+  "MARKET_ENTRANCE_CONNECTOR": "UNRESOLVED_NOT_ADVANCED",
+  "TRAFFIC_PERMISSION": null,
+  "movement_enabled": false,
+  "partial_osm_route_enabled": false,
+  "facts_scene_only": {
+    "object": "INFERIOR | guia de fila.001",
+    "type": "MESH",
+    "location": [
+      -52.22642517089844,
+      59.352962493896484,
+      7.840999126434326
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      -0.7536059617996216
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "dimensions": [
+      4.0,
+      0.07999999821186066,
+      1.100000023841858
+    ],
+    "matrix_world": [
+      [
+        0.7292261719703674,
+        0.6842727661132812,
+        0.0,
+        -52.22642517089844
+      ],
+      [
+        -0.6842727661132812,
+        0.7292261719703674,
+        0.0,
+        59.352962493896484
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        7.840999126434326
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "collections": [
+      "11 ELEVADOR LACERDA | interior jogavel"
+    ],
+    "properties": {
+      "game_role": "static_collision",
+      "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+    },
+    "materials": [
+      {
+        "name": "LAC R30B | inox escovado",
+        "diffuse": [
+          0.47999998927116394,
+          0.5,
+          0.5199999809265137,
+          1.0
+        ],
+        "metallic": 0.0,
+        "roughness": 0.4000000059604645
+      }
+    ],
+    "mesh": {
+      "vertices": 8,
+      "polygons": 6
+    },
+    "parent": null,
+    "modifiers": []
+  },
+  "historical_evidence": {
+    "source": "docs/reports/blender/r30a/structural_scene_audit_before.json",
+    "objects": [
+      {
+        "name": "INFERIOR | guia de fila.001",
+        "type": "MESH",
+        "categories": [
+          "buildings"
+        ],
+        "osm_ids": [],
+        "collections": [
+          "11 ELEVADOR LACERDA | interior jogavel"
+        ],
+        "location": [
+          -52.22642517089844,
+          59.352962493896484,
+          7.840999126434326
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "nonuniform_scale": false,
+        "bounds": {
+          "min": [
+            -53.712249755859375,
+            57.95524978637695,
+            7.290998935699463
+          ],
+          "max": [
+            -50.7406005859375,
+            60.750675201416016,
+            8.390998840332031
+          ]
+        },
+        "geometry": {
+          "vertices": 8,
+          "edges": 12,
+          "polygons": 6
+        },
+        "modifiers": [],
+        "hide_render": false
+      }
+    ]
+  },
+  "history_limitations": [
+    "Mesma caixa e bounds já registrados na auditoria R30A.",
+    "Summaries R27/R30A são agregados; falta de match não prova ausência.",
+    "Busca literal em automation/blender e git log -S não recuperou script/commit de criação. Não é prova de inexistência.",
+    "Sem evidência identificando mobiliário real permanente, temporário ou obsoleto."
+  ],
+  "reference_reviews": [
+    {
+      "media_id": "elevador-lacerda-detail-6e9796b71968",
+      "file": "world-reference/mvp-centro-lacerda/aleph-streetview/r30b09/baixo-sul-lateral-up/aleph-streetview-o7tcx5u7/001.jpg",
+      "sha256": "6e9796b71968e4da8681164aa517d142be5eeeae5f1b79f55801f4ce9fad4276",
+      "source": {
+        "source_name": "Aleph pinado Belluxx/Aleph@d24c615; Google Street View",
+        "license_status": "restricted",
+        "license": "Uso restrito; não distribuir",
+        "source_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=wA8-hCpzRKmCN5ATf0hBdQ&cb_client=maps_sv.tactile&w=1024&h=576&yaw=160.0&pitch=-24.0&thumbfov=80",
+        "notes": ""
+      },
+      "capture": {
+        "date": "2026-09-29",
+        "lat": -12.97393401457646,
+        "lon": -38.51345253700028,
+        "heading_deg": 160.0,
+        "notes": ""
+      },
+      "observation": "Street View julho/2024: marquise/andaimes; entrada recortada. Não comprova guia nem ausência; obras são transitórias.",
+      "physical_correspondence_accepted": false
+    },
+    {
+      "media_id": "elevador-lacerda-front-2d9b4031ff6a",
+      "file": "world-reference/mvp-centro-lacerda/elevador-lacerda/elevador-lacerda-salvador-20250721125819.jpg",
+      "sha256": "2d9b4031ff6aeef36fdd3fbec559ee38ecd84bad9cc6526ecc68aae1d3eb32d5",
+      "source": {
+        "source_name": "Wikimedia Commons — Sintegrity",
+        "license_status": "verified",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Elevador_Lacerda_-_Salvador_-_20250721125819.jpg",
+        "notes": ""
+      },
+      "capture": {
+        "date": "2025-07-21",
+        "lat": null,
+        "lon": null,
+        "heading_deg": null,
+        "notes": ""
+      },
+      "observation": "Exterior 2025: ENTRADA/BILHETES e pavimento visíveis; interior escuro/oculto. Não comprova guia nem passagem interna.",
+      "physical_correspondence_accepted": false
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-12",
+      "source_url": "https://drive.google.com/uc?export=download&id=1qXVs_TIPHHpBiejVSc52INouqh4sC398",
+      "file": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-12.pdf",
+      "sha256": "3a2ab2f97396bb860100e661d303cc640675d68abf3a1cc9c380fe66bbcf079b",
+      "observation": "Planta inferior 2023 mostra saguão/túnel/torre e aberturas; registro XY aceito inexistente. Não associa inequivocamente esta guia à cena.",
+      "physical_correspondence_accepted": false
+    }
+  ],
+  "first_blocked_move": {
+    "point": 51,
+    "reason": "BODY_COLLISION_STEP_BLOCKED",
+    "previous_position": [
+      -50.54791058594576,
+      57.70202471966891,
+      7.420999660491943
+    ],
+    "proposed_position": [
+      -50.61756240224573,
+      57.77291747647821,
+      7.420999660491943
+    ],
+    "ccd_attempts": [
+      {
+        "phase": "walk",
+        "from": [
+          -50.54791058594576,
+          57.70202471966891,
+          7.420999660491943
+        ],
+        "to": [
+          -50.61756240224573,
+          57.77291747647821,
+          7.420999660491943
+        ],
+        "clear": false,
+        "witness": {
+          "object": "INFERIOR | guia de fila.001",
+          "triangle_index": 8706,
+          "parameter": 0.75,
+          "position": [
+            -50.60014944817074,
+            57.755194287275884,
+            7.420999660491943
+          ],
+          "penetration": 0.020493961086593404,
+          "classification": "SOLID_PENETRATION"
+        }
+      },
+      {
+        "phase": "step_raise",
+        "from": [
+          -50.54791058594576,
+          57.70202471966891,
+          7.420999660491943
+        ],
+        "to": [
+          -50.54791058594576,
+          57.70202471966891,
+          7.670999660491943
+        ],
+        "clear": true,
+        "witness": null
+      },
+      {
+        "phase": "step_forward",
+        "from": [
+          -50.54791058594576,
+          57.70202471966891,
+          7.670999660491943
+        ],
+        "to": [
+          -50.61756240224573,
+          57.77291747647821,
+          7.670999660491943
+        ],
+        "clear": false,
+        "witness": {
+          "object": "INFERIOR | guia de fila.001",
+          "triangle_index": 8706,
+          "parameter": 0.75,
+          "position": [
+            -50.60014944817074,
+            57.755194287275884,
+            7.670999660491943
+          ],
+          "penetration": 0.020493961086593404,
+          "classification": "SOLID_PENETRATION"
+        }
+      }
+    ],
+    "step_attempt": {
+      "raise": [
+        -50.54791058594576,
+        57.70202471966891,
+        7.670999660491943
+      ],
+      "forward": [
+        -50.61756240224573,
+        57.77291747647821,
+        7.670999660491943
+      ],
+      "drop": [
+        -50.61756240224573,
+        57.77291747647821,
+        7.420999660491943
+      ],
+      "support": [
+        7.405999660491943,
+        "INFERIOR | piso do saguão"
+      ],
+      "maximum_step": 0.25,
+      "strategy": "up/forward/drop; falha interrompe fases seguintes"
+    },
+    "slide_attempt": {
+      "normal_triangle_source": "INFERIOR | guia de fila.001",
+      "horizontal_normal_length": 0.0,
+      "attempted": false
+    },
+    "support_at_previous": [
+      7.405999660491943,
+      "INFERIOR | piso do saguão"
+    ],
+    "support_at_proposal": [
+      7.405999660491943,
+      "INFERIOR | piso do saguão"
+    ],
+    "witness_semantics": "Testemunha detectada por subdivisão, não tempo exato do primeiro contato."
+  },
+  "controller_source": "docs/reports/research/lower-lobby-connector/controller_trace.json",
+  "controller_limits": [
+    "Replay numérico, não certificação de engine.",
+    "Normal de slide horizontal nula na face horizontal mais próxima; não há avanço lateral executado.",
+    "Testemunha CCD é penetração amostrada adaptativamente, não instante exato do primeiro contato.",
+    "Rota existente 736745764→3178050253 é baseline candidata; nó inicial não comprova saída física do saguão."
+  ],
+  "required_external_evidence": "Vista atual do interior inferior mostrando guia e saída em conjunto, ou levantamento/planta registrada com controles permanentes. Confirmar passagem e piso até o início OSM.",
+  "preservation": [
+    {
+      "file": "blender/salvador_lacerda_r30b76_fundacao_geografica.blend",
+      "expected": "8312775096a6f0fd0de5114885ffe2403ad9e367f38a8b40556433ad2dd79a60",
+      "actual": "8312775096a6f0fd0de5114885ffe2403ad9e367f38a8b40556433ad2dd79a60",
+      "preserved": true
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+      "expected": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+      "actual": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+      "preserved": true
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b78_encontro_saguao_passarela.blend",
+      "expected": "b79ccf20e4bd1e30895348a742f528754a21ac7212f75b9792cf6794c5437ab0",
+      "actual": "b79ccf20e4bd1e30895348a742f528754a21ac7212f75b9792cf6794c5437ab0",
+      "preserved": true
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b79_contrato_colisao_slice.blend",
+      "expected": "777d1748ddcf594cda267590172983743bb75cc11153e1db030f173ef7dde14f",
+      "actual": "777d1748ddcf594cda267590172983743bb75cc11153e1db030f173ef7dde14f",
+      "preserved": true
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+      "expected": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4",
+      "actual": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4",
+      "preserved": true
+    },
+    {
+      "file": "docs/reports/blender/lacerda-controller-b80/actual_states_b80.json",
+      "expected": "a5058c6776de3e1840828cc4f3b5748bc785727e4d3ea4299694d8dae68acfe8",
+      "actual": "a5058c6776de3e1840828cc4f3b5748bc785727e4d3ea4299694d8dae68acfe8",
+      "preserved": true
+    },
+    {
+      "file": "docs/reports/blender/lacerda-controller-b80/cabin_sweep_b80.json",
+      "expected": "ce9fffdf8bff57e0af776bd494d8c46ea5d562f5e99614d76f2ae86a70f46705",
+      "actual": "ce9fffdf8bff57e0af776bd494d8c46ea5d562f5e99614d76f2ae86a70f46705",
+      "preserved": true
+    },
+    {
+      "file": "docs/reports/blender/lacerda-controller-b80/character_sweep_b80.json",
+      "expected": "560608ac605360572bc7bc3beeff781231d520d0fc2c1debd49d946d8488a9dc",
+      "actual": "560608ac605360572bc7bc3beeff781231d520d0fc2c1debd49d946d8488a9dc",
+      "preserved": true
+    },
+    {
+      "file": "docs/reports/blender/lacerda-controller-b80/character_sweep_ground_b80.json",
+      "expected": "21604b9181410c30f28c99615b7f6869f94214b5f643b147bc654e505af17e34",
+      "actual": "21604b9181410c30f28c99615b7f6869f94214b5f643b147bc654e505af17e34",
+      "preserved": true
+    },
+    {
+      "file": "docs/reports/blender/lacerda-controller-b80/comparison_b79_b80.json",
+      "expected": "da070a247eaf301ed8880b4bd18ebcecd102ea555689dc7a3df50fd0f3ba1940",
+      "actual": "da070a247eaf301ed8880b4bd18ebcecd102ea555689dc7a3df50fd0f3ba1940",
+      "preserved": true
+    },
+    {
+      "file": "docs/reports/blender/lacerda-controller-b80/contract_proof_b80.json",
+      "expected": "72c398312ae731d1836df839974be5a229a79a82d4058eb77364c14d5681d3e0",
+      "actual": "72c398312ae731d1836df839974be5a229a79a82d4058eb77364c14d5681d3e0",
+      "preserved": true
+    },
+    {
+      "file": "docs/reports/blender/lacerda-controller-b80/ground_following_b80.json",
+      "expected": "60eeebb93ab491e95cdbdb408860da2243fb56fdcb783e0ce7f49a0ea8275d1c",
+      "actual": "60eeebb93ab491e95cdbdb408860da2243fb56fdcb783e0ce7f49a0ea8275d1c",
+      "preserved": true
+    },
+    {
+      "file": "docs/reports/blender/lacerda-controller-b80/provenance_gate_b80.json",
+      "expected": "f03ba62c899487c9ce89cd210fd0fc699033842bf8a248fcd0491d55cd0aafdf",
+      "actual": "f03ba62c899487c9ce89cd210fd0fc699033842bf8a248fcd0491d55cd0aafdf",
+      "preserved": true
+    },
+    {
+      "file": "docs/reports/blender/lacerda-controller-b80/scene_b80.json",
+      "expected": "6d7d44c13121ae96eb214ac36f2711ea3d2f517440f900e02663d6015a586cbe",
+      "actual": "6d7d44c13121ae96eb214ac36f2711ea3d2f517440f900e02663d6015a586cbe",
+      "preserved": true
+    },
+    {
+      "file": "docs/reports/blender/lacerda-controller-b80/triage_b80.json",
+      "expected": "afcbf49ead1fdb84023b063f209c84f18f35b19304d94b1b0653a1bdc4829b1f",
+      "actual": "afcbf49ead1fdb84023b063f209c84f18f35b19304d94b1b0653a1bdc4829b1f",
+      "preserved": true
+    },
+    {
+      "file": "docs/reports/blender/lacerda-controller-b80/upper_investigation_b80.json",
+      "expected": "8a950fdd4d03627846bbe8a1dbaab12393703fa1b006604d1894c85811d9f303",
+      "actual": "8a950fdd4d03627846bbe8a1dbaab12393703fa1b006604d1894c85811d9f303",
+      "preserved": true
+    },
+    {
+      "file": "docs/reports/blender/lacerda-controller-b80/validation_b80.json",
+      "expected": "07cf66f6bbb6ad8efcfaf75189c2bbd3ba44fc8b01e57a19cd080f2e26a125fe",
+      "actual": "07cf66f6bbb6ad8efcfaf75189c2bbd3ba44fc8b01e57a19cd080f2e26a125fe",
+      "preserved": true
+    },
+    {
+      "file": "docs/reports/blender/lacerda-controller-b80/walkability_candidate_b80.json",
+      "expected": "0f91168737092928e08cdacb8a1278442233cca78b8a1d52b4057db558812f01",
+      "actual": "0f91168737092928e08cdacb8a1278442233cca78b8a1d52b4057db558812f01",
+      "preserved": true
+    },
+    {
+      "file": "docs/LACERDA_CORRIDOR_B80.md",
+      "expected": "dbf8f1c8b51a290311425a1774587079570f372c73855bdda116f8766fcabc48",
+      "actual": "dbf8f1c8b51a290311425a1774587079570f372c73855bdda116f8766fcabc48",
+      "preserved": true
+    },
+    {
+      "file": "world/areas/mvp-centro-lacerda/corridor-slice.json",
+      "expected": "40a863b9f21daf343617c716233e26ed4e77b3739b9e5ae1a684272312b3f482",
+      "actual": "40a863b9f21daf343617c716233e26ed4e77b3739b9e5ae1a684272312b3f482",
+      "preserved": true
+    },
+    {
+      "file": "world/areas/mvp-centro-lacerda/slice-engine-contract-b80.json",
+      "expected": "651541894a9be5f615c57e78042bc2d1672bb7f2486839b42abb3d6a58a1df53",
+      "actual": "651541894a9be5f615c57e78042bc2d1672bb7f2486839b42abb3d6a58a1df53",
+      "preserved": true
+    },
+    {
+      "file": "world/areas/mvp-centro-lacerda/upper-boarding-evidence-b80.json",
+      "expected": "d53af3903ae6d20e919752b1397f6e883408345f3d559afe2814e6f141ac386a",
+      "actual": "d53af3903ae6d20e919752b1397f6e883408345f3d559afe2814e6f141ac386a",
+      "preserved": true
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b81_cairu_colisao_e_rota_parcial.blend",
+      "expected": "45583e49dde0a4a03d6b8d4a654135bb11644e786acb681dab7da3d68984e4af",
+      "actual": "45583e49dde0a4a03d6b8d4a654135bb11644e786acb681dab7da3d68984e4af",
+      "preserved": true
+    },
+    {
+      "file": "world/geographic-reference.json",
+      "expected": "1d9da0962d456cb38ed3df0da797208e499a8465f82e9836c14bb337df2385e7",
+      "actual": "1d9da0962d456cb38ed3df0da797208e499a8465f82e9836c14bb337df2385e7",
+      "preserved": true
+    }
+  ],
+  "pedestrian_contract_sha256": "7ed54cbd6a1cf75e849110931de7baf3ce86165749798f75bbdd4232f380367c",
+  "contract_not_changed": true,
+  "no_new_connector": true,
+  "no_crossing_or_market_test": true,
+  "protected_witnesses": 27,
+  "curb_patch_preserved": true,
+  "paint_render_only_preserved": true
+}

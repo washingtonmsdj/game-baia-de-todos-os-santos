@@ -1,0 +1,128 @@
+{
+  "revision": "R30B.76",
+  "parent": "blender/salvador_lacerda_r30b75_passeios_larguras_osm.blend",
+  "file": "blender/salvador_lacerda_r30b76_fundacao_geografica.blend",
+  "sha256": "8312775096a6f0fd0de5114885ffe2403ad9e367f38a8b40556433ad2dd79a60",
+  "ssot_sha256": "1d9da0962d456cb38ed3df0da797208e499a8465f82e9836c14bb337df2385e7",
+  "classified_existing_collections": [
+    {
+      "collection": "19 MVP | terreno DEM e acessos corrigidos",
+      "detail_level": "WORLD",
+      "existing_role_preserved": null
+    },
+    {
+      "collection": "21 MVP | ruas e calçadas OSM Aleph",
+      "detail_level": "WORLD",
+      "existing_role_preserved": null
+    },
+    {
+      "collection": "24 ORLA | Baía de Todos-os-Santos e cais OSM",
+      "detail_level": "WORLD",
+      "existing_role_preserved": null
+    },
+    {
+      "collection": "26 RELEVO | revisão completa",
+      "detail_level": "WORLD",
+      "existing_role_preserved": null
+    },
+    {
+      "collection": "36 VISUAL | OCEANO R30A8",
+      "detail_level": "WORLD",
+      "existing_role_preserved": null
+    },
+    {
+      "collection": "40 | EXPANSAO CENTRO | REFERENCE_TERRAIN",
+      "detail_level": "WORLD",
+      "existing_role_preserved": "REFERENCE_TERRAIN"
+    },
+    {
+      "collection": "WATER | Dique do Tororo | candidato B74",
+      "detail_level": "WORLD",
+      "existing_role_preserved": "WATER_REFERENCE"
+    },
+    {
+      "collection": "20 MVP | edifícios OSM do Aleph",
+      "detail_level": "CITY_MASSING",
+      "existing_role_preserved": null
+    },
+    {
+      "collection": "32 GAMEPLAY | SEMANTIC LAYERS R30A4",
+      "detail_level": "PLAYABLE_CORE",
+      "existing_role_preserved": null
+    },
+    {
+      "collection": "33 GAMEPLAY | RUNTIME PROXIES R30A5",
+      "detail_level": "PLAYABLE_CORE",
+      "existing_role_preserved": null
+    },
+    {
+      "collection": "34 GAMEPLAY | COLLISION CHUNKS R30A6",
+      "detail_level": "PLAYABLE_CORE",
+      "existing_role_preserved": null
+    },
+    {
+      "collection": "09 CIDADE BAIXA | vias calcadas mercado modelo",
+      "detail_level": "PLAYABLE_CORE",
+      "existing_role_preserved": null
+    },
+    {
+      "collection": "15 PRACA ALTA | contorno e acesso",
+      "detail_level": "PLAYABLE_CORE",
+      "existing_role_preserved": null
+    },
+    {
+      "collection": "23 PRAÇA CAIRU | implantação OSM e mobiliário",
+      "detail_level": "PLAYABLE_CORE",
+      "existing_role_preserved": null
+    },
+    {
+      "collection": "06 PREFEITURA | Palacio Thome de Souza",
+      "detail_level": "HERO_ASSETS",
+      "existing_role_preserved": null
+    },
+    {
+      "collection": "07 PRACA E PALACIO RIO BRANCO | esboco",
+      "detail_level": "HERO_ASSETS",
+      "existing_role_preserved": null
+    },
+    {
+      "collection": "08 ELEVADOR E TERRENO | dimensoes calibradas",
+      "detail_level": "HERO_ASSETS",
+      "existing_role_preserved": null
+    },
+    {
+      "collection": "10 MERCADO MODELO | interior e subsolo",
+      "detail_level": "HERO_ASSETS",
+      "existing_role_preserved": null
+    },
+    {
+      "collection": "11 ELEVADOR LACERDA | interior jogavel",
+      "detail_level": "HERO_ASSETS",
+      "existing_role_preserved": null
+    },
+    {
+      "collection": "12 LACERDA | exterior fotografico",
+      "detail_level": "HERO_ASSETS",
+      "existing_role_preserved": null
+    },
+    {
+      "collection": "17 MERCADO | casca MCP",
+      "detail_level": "HERO_ASSETS",
+      "existing_role_preserved": null
+    },
+    {
+      "collection": "18 FRENTE DO ELEVADOR | Palacio e Camara",
+      "detail_level": "HERO_ASSETS",
+      "existing_role_preserved": null
+    }
+  ],
+  "missing_optional_collection_names": [
+    "37 GAMEPLAY | NAV HINTS R30A9"
+  ],
+  "added_object": "B76 | Campo da Polvora | footprint OSM",
+  "campo_points": 65,
+  "existing_geometry_changed": false,
+  "existing_hierarchy_changed": false,
+  "absolute_geography_verified": false,
+  "runtime_promoted": false
+}

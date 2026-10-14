@@ -1,0 +1,52 @@
+{
+  "schema": "boas/pier-land-contacts-b69-validation-v1",
+  "source": {
+    "file": "blender/salvador_lacerda_r30b69_encontros_sem_frestas.blend",
+    "revision": "R30B.69",
+    "sha256": "30d079046f029b559ffce28d1254bc65a6a3f57f0625245b809deb9c7ad7bfa2",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b68_encontros_terrestres_pieres.blend",
+    "evidence": "docs/reports/blender/pier_land_contacts_r30b69.json",
+    "notes": "Corrige frestas residuais por cortes em coordenadas locais; 16000 probes, sem lacunas terrestres amostradas. Terrenos, costa, mar e decks preservados; alturas e acessibilidade pendentes."
+  },
+  "source_reopened": true,
+  "protected_changes": [],
+  "contacts": [
+    {
+      "osm_id": 609043799,
+      "solid_qa": {
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "finite": true,
+        "volume": 8.261886495903425
+      },
+      "visual_collision_identical": true,
+      "coverage_samples": 8000,
+      "terrestrial_missing_before": 1914,
+      "terrestrial_missing_after": 0,
+      "missing_examples": [],
+      "max_deck_land_difference_m": 1.477365493774414
+    },
+    {
+      "osm_id": 609043801,
+      "solid_qa": {
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "finite": true,
+        "volume": 13.474264716259881
+      },
+      "visual_collision_identical": true,
+      "coverage_samples": 8000,
+      "terrestrial_missing_before": 1843,
+      "terrestrial_missing_after": 0,
+      "missing_examples": [],
+      "max_deck_land_difference_m": 0.04769134521484375
+    }
+  ],
+  "local_geometry_checks_passed": true,
+  "sampled_gap_coverage_passed": true,
+  "visual_review": "pending_black_capture",
+  "gameplay_approved": false
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "boas/codex-history-compaction-v1",
+  "algorithm": "Windows WOF LZX",
+  "deleted_files": 0,
+  "current_conversation_excluded": true,
+  "min_age_hours": 48.0,
+  "files": [],
+  "free_before_bytes": 874094592,
+  "skipped_files": [],
+  "complete": true,
+  "free_after_bytes": 874090496,
+  "reclaimed_bytes": 0,
+  "sha256_verified_files": 0
+}

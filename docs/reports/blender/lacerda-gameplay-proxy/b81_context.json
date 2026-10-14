@@ -1,0 +1,3299 @@
+{
+  "file": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\blender\\salvador_lacerda_r30b81_cairu_colisao_e_rota_parcial.blend",
+  "pid": 10684,
+  "dirty": false,
+  "frame": 65024,
+  "objects": 6296,
+  "root_collections": [
+    {
+      "name": "01 ELEVADOR OFICIAL | esboco original",
+      "objects": 37,
+      "hidden": true
+    },
+    {
+      "name": "02 ENTORNO | OSM e patamares",
+      "objects": 168,
+      "hidden": true
+    },
+    {
+      "name": "03 TERRENO | aproximacao volumetrica pendente de levantamento",
+      "objects": 0,
+      "hidden": true
+    },
+    {
+      "name": "04 MAPA AMPLIADO | referencia fora do recorte",
+      "objects": 1197,
+      "hidden": true
+    },
+    {
+      "name": "05 CAMERAS",
+      "objects": 8,
+      "hidden": false
+    },
+    {
+      "name": "06 PREFEITURA | Palacio Thome de Souza",
+      "objects": 91,
+      "hidden": false
+    },
+    {
+      "name": "07 PRACA E PALACIO RIO BRANCO | esboco",
+      "objects": 4,
+      "hidden": false
+    },
+    {
+      "name": "08 ELEVADOR E TERRENO | dimensoes calibradas",
+      "objects": 55,
+      "hidden": false
+    },
+    {
+      "name": "09 CIDADE BAIXA | vias calcadas mercado modelo",
+      "objects": 34,
+      "hidden": false
+    },
+    {
+      "name": "10 MERCADO MODELO | interior e subsolo",
+      "objects": 189,
+      "hidden": false
+    },
+    {
+      "name": "11 ELEVADOR LACERDA | interior jogavel",
+      "objects": 491,
+      "hidden": false
+    },
+    {
+      "name": "12 LACERDA | exterior fotografico",
+      "objects": 209,
+      "hidden": false
+    },
+    {
+      "name": "13 TERRENO | encaixe dos acessos",
+      "objects": 16,
+      "hidden": true
+    },
+    {
+      "name": "14 IMPLANTACAO | OSM e ladeira",
+      "objects": 7,
+      "hidden": false
+    },
+    {
+      "name": "15 PRACA ALTA | contorno e acesso",
+      "objects": 80,
+      "hidden": false
+    },
+    {
+      "name": "16 ENCOSTA | contencao da praca",
+      "objects": 0,
+      "hidden": false
+    },
+    {
+      "name": "17 MERCADO | casca MCP",
+      "objects": 389,
+      "hidden": false
+    },
+    {
+      "name": "18 FRENTE DO ELEVADOR | Palacio e Camara",
+      "objects": 27,
+      "hidden": false
+    },
+    {
+      "name": "19 MVP | terreno DEM e acessos corrigidos",
+      "objects": 9,
+      "hidden": false
+    },
+    {
+      "name": "20 MVP | edifícios OSM do Aleph",
+      "objects": 945,
+      "hidden": false
+    },
+    {
+      "name": "21 MVP | ruas e calçadas OSM Aleph",
+      "objects": 3,
+      "hidden": false
+    },
+    {
+      "name": "22 MERCADO | geometria corrigida",
+      "objects": 7,
+      "hidden": false
+    },
+    {
+      "name": "23 PRAÇA CAIRU | implantação OSM e mobiliário",
+      "objects": 189,
+      "hidden": false
+    },
+    {
+      "name": "24 ORLA | Baía de Todos-os-Santos e cais OSM",
+      "objects": 4,
+      "hidden": false
+    },
+    {
+      "name": "25 VIAS | passeios e travessias OSM",
+      "objects": 8,
+      "hidden": false
+    },
+    {
+      "name": "26 RELEVO | revisão completa",
+      "objects": 2,
+      "hidden": false
+    },
+    {
+      "name": "27 MAR | Forte São Marcelo",
+      "objects": 17,
+      "hidden": false
+    },
+    {
+      "name": "28 COMÉRCIO | fachadas dos casarões",
+      "objects": 6,
+      "hidden": false
+    },
+    {
+      "name": "29 INTERIORES | Lacerda e Forte",
+      "objects": 151,
+      "hidden": false
+    },
+    {
+      "name": "30 LACERDA | sistema funcional",
+      "objects": 112,
+      "hidden": false
+    },
+    {
+      "name": "31 LACERDA | refinamento referencias 2025",
+      "objects": 40,
+      "hidden": false
+    },
+    {
+      "name": "LEGACY | Mercado Modelo blockout 09",
+      "objects": 42,
+      "hidden": true
+    },
+    {
+      "name": "30 MVP | QA E GUIAS R27",
+      "objects": 8,
+      "hidden": true
+    },
+    {
+      "name": "31 LUZ | PREVIEW R27",
+      "objects": 3,
+      "hidden": false
+    },
+    {
+      "name": "SOURCE_GEOREF | STRUCTURAL_REFERENCE",
+      "objects": 9,
+      "hidden": true
+    },
+    {
+      "name": "32 GAMEPLAY | SEMANTIC LAYERS R30A4",
+      "objects": 28,
+      "hidden": false
+    },
+    {
+      "name": "33 GAMEPLAY | RUNTIME PROXIES R30A5",
+      "objects": 482,
+      "hidden": false
+    },
+    {
+      "name": "34 GAMEPLAY | COLLISION CHUNKS R30A6",
+      "objects": 63,
+      "hidden": true
+    },
+    {
+      "name": "35 GAMEPLAY | ROAD GRAPH R30A7",
+      "objects": 341,
+      "hidden": true
+    },
+    {
+      "name": "36 VISUAL | OCEANO R30A8",
+      "objects": 2,
+      "hidden": false
+    },
+    {
+      "name": "37 GAMEPLAY | NAV HINTS R30A11",
+      "objects": 254,
+      "hidden": false
+    },
+    {
+      "name": "HERO | Lacerda | detalhes R30B",
+      "objects": 28,
+      "hidden": false
+    },
+    {
+      "name": "HERO | Lacerda | acabamentos R30B02",
+      "objects": 26,
+      "hidden": false
+    },
+    {
+      "name": "HERO | Lacerda | fachadas e acessos R30B03",
+      "objects": 20,
+      "hidden": false
+    },
+    {
+      "name": "REVIEW | Lacerda | vistas externas",
+      "objects": 3,
+      "hidden": false
+    },
+    {
+      "name": "ENVIRONMENT_FINAL | entorno Lacerda R30B04",
+      "objects": 1,
+      "hidden": false
+    },
+    {
+      "name": "ENVIRONMENT_FINAL | comercio Lacerda R30B05",
+      "objects": 0,
+      "hidden": false
+    },
+    {
+      "name": "ENVIRONMENT_FINAL | espaco publico Lacerda R30B06",
+      "objects": 1,
+      "hidden": false
+    },
+    {
+      "name": "HERO | Lacerda | torre e entrada R30B07",
+      "objects": 9,
+      "hidden": false
+    },
+    {
+      "name": "HERO | Lacerda | apoio oposto R30B08",
+      "objects": 10,
+      "hidden": false
+    },
+    {
+      "name": "HERO | Lacerda | venezianas opostas R30B20",
+      "objects": 2,
+      "hidden": false
+    },
+    {
+      "name": "ENVIRONMENT_FINAL | Cidade Baixa R31",
+      "objects": 28,
+      "hidden": false
+    },
+    {
+      "name": "REFERENCE | fachadas anteriores R30B05",
+      "objects": 0,
+      "hidden": false
+    },
+    {
+      "name": "HERO | Monumento Mário Cravo R31",
+      "objects": 1,
+      "hidden": false
+    },
+    {
+      "name": "REFERENCE | Substituições regressivas R31",
+      "objects": 23,
+      "hidden": false
+    },
+    {
+      "name": "ENVIRONMENT_FINAL | Comércio B23 preservado",
+      "objects": 38,
+      "hidden": false
+    },
+    {
+      "name": "ENVIRONMENT_FINAL | Cidade Baixa fotografia R33",
+      "objects": 16,
+      "hidden": false
+    },
+    {
+      "name": "HERO | Palácio Rio Branco | fotografia R34",
+      "objects": 41,
+      "hidden": false
+    },
+    {
+      "name": "REFERENCE | Palácio esboço anterior R34",
+      "objects": 48,
+      "hidden": true
+    },
+    {
+      "name": "ENVIRONMENT_FINAL | Galerias Cidade Alta R34",
+      "objects": 17,
+      "hidden": false
+    },
+    {
+      "name": "REFERENCE | Capeamentos substituídos R34",
+      "objects": 16,
+      "hidden": true
+    },
+    {
+      "name": "COLLISION | Galerias Cidade Alta R34",
+      "objects": 5,
+      "hidden": true
+    },
+    {
+      "name": "REFERENCE | Apoio e terreno substituídos R35",
+      "objects": 46,
+      "hidden": true
+    },
+    {
+      "name": "HERO | Palácio Rio Branco | relevos R35",
+      "objects": 19,
+      "hidden": false
+    },
+    {
+      "name": "HERO | Terraços Rio Branco | fotografia R36",
+      "objects": 20,
+      "hidden": false
+    },
+    {
+      "name": "COLLISION | Terraços Rio Branco R36",
+      "objects": 13,
+      "hidden": false
+    },
+    {
+      "name": "ENVIRONMENT_FINAL | Ligação galerias terraço R36",
+      "objects": 7,
+      "hidden": false
+    },
+    {
+      "name": "ENVIRONMENT_FINAL | Fachadas Cidade Baixa R37",
+      "objects": 1,
+      "hidden": false
+    },
+    {
+      "name": "GAMEPLAY | VALIDACAO | Conceicao B38",
+      "objects": 197,
+      "hidden": false
+    },
+    {
+      "name": "QA | RONDESP | percursos e camera B39",
+      "objects": 2,
+      "hidden": false
+    },
+    {
+      "name": "QA B40 | FLUXOS CANDIDATOS",
+      "objects": 1,
+      "hidden": false
+    },
+    {
+      "name": "WATERFRONT | PIERS OSM | B46",
+      "objects": 4,
+      "hidden": false
+    },
+    {
+      "name": "WATERFRONT | COASTLINE OSM | B47",
+      "objects": 1,
+      "hidden": false
+    },
+    {
+      "name": "EXPANSAO | COSTA SUDOESTE | B48",
+      "objects": 1,
+      "hidden": false
+    },
+    {
+      "name": "EXPANSAO | COSTA E FUNDO | B49",
+      "objects": 3,
+      "hidden": false
+    },
+    {
+      "name": "38 GAMEPLAY | EXPANSAO COSTEIRA B51",
+      "objects": 66,
+      "hidden": false
+    },
+    {
+      "name": "GAMEPLAY | PIERS | B56",
+      "objects": 8,
+      "hidden": false
+    },
+    {
+      "name": "39 GAMEPLAY | B57 HQ",
+      "objects": 13,
+      "hidden": false
+    },
+    {
+      "name": "39.1 GAMEPLAY | B58 COSTURA",
+      "objects": 11,
+      "hidden": false
+    },
+    {
+      "name": "39.2 GAMEPLAY | B59 ENCOSTA",
+      "objects": 9,
+      "hidden": false
+    },
+    {
+      "name": "39.3 GAMEPLAY | B60 VIAS COSTEIRAS",
+      "objects": 9,
+      "hidden": false
+    },
+    {
+      "name": "39.4 GAMEPLAY | B61 PAVIMENTO INTEGRADO",
+      "objects": 2,
+      "hidden": false
+    },
+    {
+      "name": "39.5 GAMEPLAY | B62 COSTURA LIMPA",
+      "objects": 2,
+      "hidden": false
+    },
+    {
+      "name": "39.6 GAMEPLAY | B63 ORLA E BORDAS",
+      "objects": 22,
+      "hidden": false
+    },
+    {
+      "name": "39.6 NAVIGATION_HINTS | B63 ORLA",
+      "objects": 3,
+      "hidden": true
+    },
+    {
+      "name": "39.7 GAMEPLAY | B64 COSTA CORRIGIDA",
+      "objects": 1,
+      "hidden": false
+    },
+    {
+      "name": "SOURCE_GEOREF | WATERFRONT OSM B67",
+      "objects": 6,
+      "hidden": false
+    },
+    {
+      "name": "ENVIRONMENT | PIERS CANDIDATES B67",
+      "objects": 2,
+      "hidden": false
+    },
+    {
+      "name": "GAMEPLAY | PIERS CANDIDATES B67",
+      "objects": 4,
+      "hidden": false
+    },
+    {
+      "name": "ENVIRONMENT | COASTAL CONTACTS B68",
+      "objects": 2,
+      "hidden": false
+    },
+    {
+      "name": "GAMEPLAY | COASTAL CONTACTS B68",
+      "objects": 4,
+      "hidden": false
+    },
+    {
+      "name": "40 | EXPANSAO CENTRO | REFERENCE_TERRAIN",
+      "objects": 1,
+      "hidden": false
+    },
+    {
+      "name": "SOURCE_GEOREF | CENTRO LAPA TORORO FONTE NOVA",
+      "objects": 11,
+      "hidden": false
+    },
+    {
+      "name": "WATER | Dique do Tororo | candidato B74",
+      "objects": 1,
+      "hidden": false
+    },
+    {
+      "name": "QA | RONDESP | expansao centro B74",
+      "objects": 2,
+      "hidden": false
+    },
+    {
+      "name": "41 | CENTRO | PASSEIOS CANDIDATOS B75",
+      "objects": 29,
+      "hidden": false
+    }
+  ],
+  "context": [
+    {
+      "name": "INFERIOR R21 | passeio da entrada",
+      "matrix": [
+        [
+          0.7292261719703674,
+          0.6842727661132812,
+          0.0,
+          -57.47434997558594
+        ],
+        [
+          -0.6842727661132812,
+          0.7292261719703674,
+          0.0,
+          59.752037048339844
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.285999774932861
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        2.0,
+        9.399999618530273,
+        0.23999999463558197
+      ],
+      "min": [
+        -61.41965866088867,
+        55.64039993286133,
+        7.165999889373779
+      ],
+      "max": [
+        -53.5290412902832,
+        63.86367416381836,
+        7.405999660491943
+      ],
+      "properties": {
+        "game_role": "walkable_surface",
+        "ordax_semantic_revision": "R30A.4",
+        "ordax_semantic_layer": "32.4 GAMEPLAY | WALKABLE",
+        "ordax_semantic_note": "Lower Elevador access corridor.",
+        "ordax_semantic_roles": "[\"WALKABLE_SURFACE\"]",
+        "boas_runtime_role": "walkable_surface",
+        "boas_runtime_source_revision": "R30A.4",
+        "boas_export_candidate": true,
+        "boas_navigation_source": true,
+        "boas_navigation_source_revision": "R30A.11",
+        "boas_navigation_source_status": "candidate",
+        "boas_collision_role": "WALKABLE_FLOOR"
+      },
+      "collections": [
+        "32.4 GAMEPLAY | WALKABLE",
+        "33.3 RUNTIME | WALKABLE",
+        "37.5 NAV | WALKABLE SOURCES",
+        "Scene Collection"
+      ]
+    },
+    {
+      "name": "CALIBRADO | passarela piso 28.71 x 6.00m",
+      "matrix": [
+        [
+          0.7292261719703674,
+          0.6842727661132812,
+          0.0,
+          -35.42984390258789
+        ],
+        [
+          -0.6842727661132812,
+          0.7292261719703674,
+          0.0,
+          39.066471099853516
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          69.55000305175781
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        55.538543701171875,
+        6.000001907348633,
+        0.899993896484375
+      ],
+      "min": [
+        -47.950706481933594,
+        8.698017120361328,
+        69.10000610351562
+      ],
+      "max": [
+        -3.344909429550171,
+        51.07688903808594,
+        70.0
+      ],
+      "properties": {
+        "dimensoes_status": "medida publicada",
+        "game_role": "walkable_surface",
+        "navigation_source": "Rendered structural floor"
+      },
+      "collections": [
+        "08 ELEVADOR E TERRENO | dimensoes calibradas"
+      ]
+    },
+    {
+      "name": "INFERIOR | piso do saguão",
+      "matrix": [
+        [
+          0.7292261719703674,
+          0.6842727661132812,
+          0.0,
+          -53.60945129394531
+        ],
+        [
+          -0.6842727661132812,
+          0.7292261719703674,
+          0.0,
+          56.125389099121094
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.280999660491943
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        8.800000190734863,
+        10.199999809265137,
+        0.25
+      ],
+      "min": [
+        -60.307838439941406,
+        49.39553451538086,
+        7.155999660491943
+      ],
+      "max": [
+        -46.91106414794922,
+        62.85524368286133,
+        7.405999660491943
+      ],
+      "properties": {
+        "game_role": "walkable_surface",
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento",
+        "boas_collision_role": "WALKABLE_FLOOR"
+      },
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ]
+    },
+    {
+      "name": "SUPERIOR | piso saguão",
+      "matrix": [
+        [
+          0.7292261719703674,
+          0.6842727661132812,
+          0.0,
+          -1.3869800567626953
+        ],
+        [
+          -0.6842727661132812,
+          0.7292261719703674,
+          0.0,
+          7.1221923828125
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          69.91999816894531
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        11.0,
+        18.600000381469727,
+        0.25
+      ],
+      "min": [
+        -11.76146125793457,
+        -3.4231114387512207,
+        69.79499816894531
+      ],
+      "max": [
+        8.98750114440918,
+        17.667495727539062,
+        70.04499816894531
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento",
+        "game_role": "walkable_surface",
+        "navigation_source": "Rendered structural floor"
+      },
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ]
+    },
+    {
+      "name": "INFERIOR | guia de fila",
+      "matrix": [
+        [
+          0.7292261719703674,
+          0.6842727661132812,
+          0.0,
+          -56.74262237548828
+        ],
+        [
+          -0.6842727661132812,
+          0.7292261719703674,
+          0.0,
+          54.54007339477539
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.840999126434326
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        4.0,
+        0.07999999821186066,
+        1.100000023841858
+      ],
+      "min": [
+        -58.22844696044922,
+        53.14236068725586,
+        7.290998935699463
+      ],
+      "max": [
+        -55.256797790527344,
+        55.93778610229492,
+        8.390998840332031
+      ],
+      "properties": {
+        "game_role": "static_collision",
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      },
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ]
+    },
+    {
+      "name": "INFERIOR | guia de fila.001",
+      "matrix": [
+        [
+          0.7292261719703674,
+          0.6842727661132812,
+          0.0,
+          -52.22642517089844
+        ],
+        [
+          -0.6842727661132812,
+          0.7292261719703674,
+          0.0,
+          59.352962493896484
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.840999126434326
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        4.0,
+        0.07999999821186066,
+        1.100000023841858
+      ],
+      "min": [
+        -53.712249755859375,
+        57.95524978637695,
+        7.290998935699463
+      ],
+      "max": [
+        -50.7406005859375,
+        60.750675201416016,
+        8.390998840332031
+      ],
+      "properties": {
+        "game_role": "static_collision",
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      },
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 piso",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        4.250587463378906,
+        4.258678436279297,
+        0.15999603271484375
+      ],
+      "min": [
+        -50.44660568237305,
+        46.7712287902832,
+        69.95500183105469
+      ],
+      "max": [
+        -46.19601821899414,
+        51.0299072265625,
+        70.11499786376953
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115,
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 teto",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        4.250587463378906,
+        4.258678436279297,
+        0.12000274658203125
+      ],
+      "min": [
+        -50.44660568237305,
+        46.7712287902832,
+        72.90499877929688
+      ],
+      "max": [
+        -46.19601821899414,
+        51.0299072265625,
+        73.0250015258789
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115,
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 iluminação",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        2.617218017578125,
+        2.6127243041992188,
+        0.02500152587890625
+      ],
+      "min": [
+        -49.629920959472656,
+        47.59420394897461,
+        72.87249755859375
+      ],
+      "max": [
+        -47.01270294189453,
+        50.20692825317383,
+        72.89749908447266
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 lateral inferior -1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        2.1977691650390625,
+        2.0709991455078125,
+        0.6399993896484375
+      ],
+      "min": [
+        -50.44660568237305,
+        46.7712287902832,
+        70.11499786376953
+      ],
+      "max": [
+        -48.248836517333984,
+        48.842227935791016,
+        70.75499725341797
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115,
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 lateral superior -1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        2.1977691650390625,
+        2.0709991455078125,
+        0.6200027465820312
+      ],
+      "min": [
+        -50.44660568237305,
+        46.7712287902832,
+        72.33499908447266
+      ],
+      "max": [
+        -48.248836517333984,
+        48.842227935791016,
+        72.95500183105469
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 montante janela -1 -1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.3309516906738281,
+        0.3192596435546875,
+        1.6800003051757812
+      ],
+      "min": [
+        -50.44660568237305,
+        48.52296829223633,
+        70.75499725341797
+      ],
+      "max": [
+        -50.11565399169922,
+        48.842227935791016,
+        72.43499755859375
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 montante janela -1 1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.3309516906738281,
+        0.3192596435546875,
+        1.6800003051757812
+      ],
+      "min": [
+        -48.57978820800781,
+        46.7712287902832,
+        70.75499725341797
+      ],
+      "max": [
+        -48.248836517333984,
+        47.09048843383789,
+        72.43499755859375
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 janela fumê -1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        1.6136627197265625,
+        1.5172348022460938,
+        1.5500030517578125
+      ],
+      "min": [
+        -50.1545524597168,
+        47.04811096191406,
+        70.81999969482422
+      ],
+      "max": [
+        -48.540889739990234,
+        48.565345764160156,
+        72.37000274658203
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 peitoril janela -1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        1.71612548828125,
+        1.6163253784179688,
+        0.0800018310546875
+      ],
+      "min": [
+        -50.15788269042969,
+        47.04961395263672,
+        70.91500091552734
+      ],
+      "max": [
+        -48.44175720214844,
+        48.66593933105469,
+        70.99500274658203
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 corrimão -1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        1.6946258544921875,
+        1.593719482421875,
+        0.05500030517578125
+      ],
+      "min": [
+        -50.11292266845703,
+        47.097373962402344,
+        71.0374984741211
+      ],
+      "max": [
+        -48.418296813964844,
+        48.69109344482422,
+        71.09249877929688
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115,
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 batente -1 -1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.44116973876953125,
+        0.460052490234375,
+        2.8000030517578125
+      ],
+      "min": [
+        -50.40446853637695,
+        48.7315788269043,
+        70.11499786376953
+      ],
+      "max": [
+        -49.96329879760742,
+        49.19163131713867,
+        72.91500091552734
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 porta cabine -1 -1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.6676101684570312,
+        0.705596923828125,
+        2.3000030517578125
+      ],
+      "min": [
+        -50.031131744384766,
+        49.215003967285156,
+        70.11499786376953
+      ],
+      "max": [
+        -49.363521575927734,
+        49.92060089111328,
+        72.41500091552734
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin_door",
+        "rest_z": 70.115,
+        "door_side": -1,
+        "door_leaf": -1,
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 batente -1 1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.4411773681640625,
+        0.4600486755371094,
+        2.8000030517578125
+      ],
+      "min": [
+        -48.721160888671875,
+        50.525474548339844,
+        70.11499786376953
+      ],
+      "max": [
+        -48.27998352050781,
+        50.98552322387695,
+        72.91500091552734
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 porta cabine -1 1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.6676025390625,
+        0.7056007385253906,
+        2.3000030517578125
+      ],
+      "min": [
+        -49.40843963623047,
+        49.87860107421875,
+        70.11499786376953
+      ],
+      "max": [
+        -48.74083709716797,
+        50.58420181274414,
+        72.41500091552734
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin_door",
+        "rest_z": 70.115,
+        "door_side": -1,
+        "door_leaf": 1,
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 verga -1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        1.4013137817382812,
+        1.4822235107421875,
+        0.44000244140625
+      ],
+      "min": [
+        -50.042884826660156,
+        49.11743927001953,
+        72.4749984741211
+      ],
+      "max": [
+        -48.641571044921875,
+        50.59966278076172,
+        72.91500091552734
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 lateral inferior 1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        2.1977691650390625,
+        2.0709991455078125,
+        0.6399993896484375
+      ],
+      "min": [
+        -48.3937873840332,
+        48.95890808105469,
+        70.11499786376953
+      ],
+      "max": [
+        -46.19601821899414,
+        51.0299072265625,
+        70.75499725341797
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115,
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 lateral superior 1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        2.1977691650390625,
+        2.0709991455078125,
+        0.6200027465820312
+      ],
+      "min": [
+        -48.3937873840332,
+        48.95890808105469,
+        72.33499908447266
+      ],
+      "max": [
+        -46.19601821899414,
+        51.0299072265625,
+        72.95500183105469
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 montante janela 1 -1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.3309516906738281,
+        0.3192596435546875,
+        1.6800003051757812
+      ],
+      "min": [
+        -48.3937873840332,
+        50.71064758300781,
+        70.75499725341797
+      ],
+      "max": [
+        -48.062835693359375,
+        51.0299072265625,
+        72.43499755859375
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 montante janela 1 1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.3309516906738281,
+        0.3192596435546875,
+        1.6800003051757812
+      ],
+      "min": [
+        -46.52696990966797,
+        48.95890808105469,
+        70.75499725341797
+      ],
+      "max": [
+        -46.19601821899414,
+        49.278167724609375,
+        72.43499755859375
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 janela fumê 1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        1.6136627197265625,
+        1.5172386169433594,
+        1.5500030517578125
+      ],
+      "min": [
+        -48.10173416137695,
+        49.23578643798828,
+        70.81999969482422
+      ],
+      "max": [
+        -46.48807144165039,
+        50.75302505493164,
+        72.37000274658203
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 peitoril janela 1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        1.71612548828125,
+        1.6163330078125,
+        0.0800018310546875
+      ],
+      "min": [
+        -48.20085906982422,
+        49.13519287109375,
+        70.91500091552734
+      ],
+      "max": [
+        -46.48473358154297,
+        50.75152587890625,
+        70.99500274658203
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 corrimão 1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        1.6946334838867188,
+        1.593719482421875,
+        0.05500030517578125
+      ],
+      "min": [
+        -48.22433090209961,
+        49.11003875732422,
+        71.0374984741211
+      ],
+      "max": [
+        -46.52969741821289,
+        50.703758239746094,
+        71.09249877929688
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115,
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 batente 1 -1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.4411773681640625,
+        0.46006011962890625,
+        2.8000030517578125
+      ],
+      "min": [
+        -48.362640380859375,
+        46.81560516357422,
+        70.11499786376953
+      ],
+      "max": [
+        -47.92146301269531,
+        47.275665283203125,
+        72.91500091552734
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 porta cabine 1 -1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.6226896047592163
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.6635942459106445
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.6676025390625,
+        0.705596923828125,
+        2.3000030517578125
+      ],
+      "min": [
+        -48.52447509765625,
+        46.5533332824707,
+        70.11499786376953
+      ],
+      "max": [
+        -47.85687255859375,
+        47.25893020629883,
+        72.41500091552734
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin_door",
+        "rest_z": 70.115,
+        "door_side": 1,
+        "door_leaf": -1,
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 batente 1 1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.44118499755859375,
+        0.4600486755371094,
+        2.8000030517578125
+      ],
+      "min": [
+        -46.6793327331543,
+        48.6095085144043,
+        70.11499786376953
+      ],
+      "max": [
+        -46.2381477355957,
+        49.069557189941406,
+        72.91500091552734
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 porta cabine 1 1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.6226896047592163
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.6635942459106445
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.6676101684570312,
+        0.7056007385253906,
+        2.3000030517578125
+      ],
+      "min": [
+        -46.65641403198242,
+        48.54411697387695,
+        70.11499786376953
+      ],
+      "max": [
+        -45.98880386352539,
+        49.249717712402344,
+        72.41500091552734
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin_door",
+        "rest_z": 70.115,
+        "door_side": 1,
+        "door_leaf": 1,
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 verga 1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        1.4013137817382812,
+        1.4822273254394531,
+        0.44000244140625
+      ],
+      "min": [
+        -48.00105285644531,
+        47.20146942138672,
+        72.4749984741211
+      ],
+      "max": [
+        -46.59973907470703,
+        48.68369674682617,
+        72.91500091552734
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 botoeira",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.2461395263671875,
+        0.23445510864257812,
+        0.55999755859375
+      ],
+      "min": [
+        -47.02833557128906,
+        49.41556930541992,
+        71.13500213623047
+      ],
+      "max": [
+        -46.782196044921875,
+        49.6500244140625,
+        71.69499969482422
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 botão",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.082061767578125,
+        0.0804901123046875,
+        0.07500457763671875
+      ],
+      "min": [
+        -46.970245361328125,
+        49.4670295715332,
+        71.42749786376953
+      ],
+      "max": [
+        -46.88818359375,
+        49.54751968383789,
+        71.50250244140625
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 porta estação upper -1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.6226919889450073
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.6635972261428833
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.6785545349121094,
+        0.7158584594726562,
+        2.3000030517578125
+      ],
+      "min": [
+        -48.318485260009766,
+        46.34976577758789,
+        70.11499786376953
+      ],
+      "max": [
+        -47.639930725097656,
+        47.06562423706055,
+        72.41500091552734
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "landing_door",
+        "landing": "upper",
+        "door_side": 1,
+        "door_leaf": -1
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 porta estação upper 1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.6226906776428223
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.6635958552360535
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.6785430908203125,
+        0.7158737182617188,
+        2.3000030517578125
+      ],
+      "min": [
+        -46.45040512084961,
+        48.340545654296875,
+        70.11499786376953
+      ],
+      "max": [
+        -45.7718620300293,
+        49.056419372558594,
+        72.41500091552734
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "landing_door",
+        "landing": "upper",
+        "door_side": 1,
+        "door_leaf": 1
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 porta estação lower -1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -3.7090001106262207
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.6785430908203125,
+        0.7158584594726562,
+        2.3000030517578125
+      ],
+      "min": [
+        -50.248069763183594,
+        49.40831756591797,
+        7.4059977531433105
+      ],
+      "max": [
+        -49.56952667236328,
+        50.124176025390625,
+        9.706001281738281
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "landing_door",
+        "landing": "lower",
+        "door_side": -1,
+        "door_leaf": -1
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 porta estação lower 1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -3.7090001106262207
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.6785469055175781,
+        0.7158622741699219,
+        2.3000030517578125
+      ],
+      "min": [
+        -49.62538528442383,
+        50.0719108581543,
+        7.4059977531433105
+      ],
+      "max": [
+        -48.94683837890625,
+        50.78777313232422,
+        9.706001281738281
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "landing_door",
+        "landing": "lower",
+        "door_side": -1,
+        "door_leaf": 1
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 painel de destinos",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.3512001037597656,
+        0.33434295654296875,
+        0.720001220703125
+      ],
+      "min": [
+        -46.90221405029297,
+        49.176048278808594,
+        71.07499694824219
+      ],
+      "max": [
+        -46.5510139465332,
+        49.51039123535156,
+        71.79499816894531
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 comando interno 1.49",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.10416030883789062,
+        0.10079574584960938,
+        0.1100006103515625
+      ],
+      "min": [
+        -46.809486389160156,
+        49.260005950927734,
+        71.55000305175781
+      ],
+      "max": [
+        -46.705326080322266,
+        49.360801696777344,
+        71.66000366210938
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 comando interno 1.23",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.10416030883789062,
+        0.10079574584960938,
+        0.1100006103515625
+      ],
+      "min": [
+        -46.809486389160156,
+        49.260005950927734,
+        71.29000091552734
+      ],
+      "max": [
+        -46.705326080322266,
+        49.360801696777344,
+        71.4000015258789
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 interfone",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.16250228881835938,
+        0.1555328369140625,
+        0.12999725341796875
+      ],
+      "min": [
+        -46.84002685546875,
+        49.231178283691406,
+        71.06999969482422
+      ],
+      "max": [
+        -46.67752456665039,
+        49.38671112060547,
+        71.19999694824219
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 corrimão posterior",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        1.5252876281738281,
+        1.6217117309570312,
+        0.05500030517578125
+      ],
+      "min": [
+        -50.075706481933594,
+        49.02032470703125,
+        71.0374984741211
+      ],
+      "max": [
+        -48.550418853759766,
+        50.64203643798828,
+        71.09249877929688
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "FUNCIONAL | 3 luminária de serviço",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.7134933471679688,
+        0.7000083923339844,
+        0.03000640869140625
+      ],
+      "min": [
+        -49.203102111816406,
+        49.04323959350586,
+        72.8699951171875
+      ],
+      "max": [
+        -48.48960876464844,
+        49.743247985839844,
+        72.9000015258789
+      ],
+      "properties": {
+        "elevator_id": 3,
+        "elevator_role": "cabin",
+        "rest_z": 70.115
+      },
+      "collections": [
+        "30 LACERDA | sistema funcional"
+      ]
+    },
+    {
+      "name": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 -1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.014080047607421875,
+        0.01395416259765625,
+        2.2920074462890625
+      ],
+      "min": [
+        -49.42292404174805,
+        49.920684814453125,
+        70.1189956665039
+      ],
+      "max": [
+        -49.408843994140625,
+        49.93463897705078,
+        72.41100311279297
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_detail",
+        "reference_status": "partial",
+        "elevator_id": 3,
+        "elevator_role": "visual_child"
+      },
+      "collections": [
+        "HERO | Lacerda | acabamentos R30B02"
+      ]
+    },
+    {
+      "name": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.014080047607421875,
+        0.01395416259765625,
+        2.2920074462890625
+      ],
+      "min": [
+        -49.42292404174805,
+        49.920684814453125,
+        70.1189956665039
+      ],
+      "max": [
+        -49.408843994140625,
+        49.93463897705078,
+        72.41100311279297
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_detail",
+        "reference_status": "partial",
+        "elevator_id": 3,
+        "elevator_role": "visual_child"
+      },
+      "collections": [
+        "HERO | Lacerda | acabamentos R30B02"
+      ]
+    },
+    {
+      "name": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine 1 -1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.6226896047592163
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.6635942459106445
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.014080047607421875,
+        0.013946533203125,
+        2.2920074462890625
+      ],
+      "min": [
+        -47.85647201538086,
+        47.20290756225586,
+        70.1189956665039
+      ],
+      "max": [
+        -47.84239196777344,
+        47.216854095458984,
+        72.41100311279297
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_detail",
+        "reference_status": "partial",
+        "elevator_id": 3,
+        "elevator_role": "visual_child"
+      },
+      "collections": [
+        "HERO | Lacerda | acabamentos R30B02"
+      ]
+    },
+    {
+      "name": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine 1 1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.6226896047592163
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.6635942459106445
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.014080047607421875,
+        0.013946533203125,
+        2.2920074462890625
+      ],
+      "min": [
+        -46.6110954284668,
+        48.530094146728516,
+        70.1189956665039
+      ],
+      "max": [
+        -46.597015380859375,
+        48.54404067993164,
+        72.41100311279297
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_detail",
+        "reference_status": "partial",
+        "elevator_id": 3,
+        "elevator_role": "visual_child"
+      },
+      "collections": [
+        "HERO | Lacerda | acabamentos R30B02"
+      ]
+    },
+    {
+      "name": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta estação lower -1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.0140838623046875,
+        0.01393890380859375,
+        2.292003631591797
+      ],
+      "min": [
+        -49.6343994140625,
+        50.11913299560547,
+        7.409997940063477
+      ],
+      "max": [
+        -49.62031555175781,
+        50.13307189941406,
+        9.702001571655273
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_detail",
+        "reference_status": "partial",
+        "elevator_id": 3,
+        "elevator_role": "visual_child"
+      },
+      "collections": [
+        "HERO | Lacerda | acabamentos R30B02"
+      ]
+    },
+    {
+      "name": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta estação lower 1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.01407623291015625,
+        0.013946533203125,
+        2.292003631591797
+      ],
+      "min": [
+        -49.6343994140625,
+        50.11912536621094,
+        7.409997940063477
+      ],
+      "max": [
+        -49.620323181152344,
+        50.13307189941406,
+        9.702001571655273
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_detail",
+        "reference_status": "partial",
+        "elevator_id": 3,
+        "elevator_role": "visual_child"
+      },
+      "collections": [
+        "HERO | Lacerda | acabamentos R30B02"
+      ]
+    },
+    {
+      "name": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta estação upper -1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.6226919889450073
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.6635972261428833
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.014080047607421875,
+        0.013946533203125,
+        2.2920074462890625
+      ],
+      "min": [
+        -47.64500045776367,
+        47.00446319580078,
+        70.1189956665039
+      ],
+      "max": [
+        -47.63092041015625,
+        47.018409729003906,
+        72.41100311279297
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_detail",
+        "reference_status": "partial",
+        "elevator_id": 3,
+        "elevator_role": "visual_child"
+      },
+      "collections": [
+        "HERO | Lacerda | acabamentos R30B02"
+      ]
+    },
+    {
+      "name": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta estação upper 1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.6226906776428223
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.6635958552360535
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.014080047607421875,
+        0.013946533203125,
+        2.2920074462890625
+      ],
+      "min": [
+        -46.39961624145508,
+        48.33165740966797,
+        70.1189956665039
+      ],
+      "max": [
+        -46.385536193847656,
+        48.345603942871094,
+        72.41100311279297
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_detail",
+        "reference_status": "partial",
+        "elevator_id": 3,
+        "elevator_role": "visual_child"
+      },
+      "collections": [
+        "HERO | Lacerda | acabamentos R30B02"
+      ]
+    }
+  ]
+}

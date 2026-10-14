@@ -1,0 +1,7018 @@
+{
+  "schema": "boas/corridor-clearance-v1",
+  "character_design": {
+    "radius": 0.3,
+    "height": 1.8,
+    "contact_tolerance": 0.015,
+    "vertical_sphere_samples": 9,
+    "profile_step": 0.5
+  },
+  "method": "Nove esferas sobre eixo vertical da cápsula; nearest BVH de malhas avaliadas visíveis. Triagem estática amostrada, sem sweep contínuo ou física. Guias de NAV/runtime excluídos.",
+  "triangles": 1378193,
+  "profiles": [
+    {
+      "name": "upper",
+      "probes": [
+        {
+          "xy": [
+            12.0,
+            0.0
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 69.98500061035156,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            11.568387096774194,
+            0.2296774193548387
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 69.98499298095703,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "PRAÇA | OSM 1263035782": 0.28499603271484375
+          }
+        },
+        {
+          "xy": [
+            11.136774193548387,
+            0.4593548387096774
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 69.98500061035156,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            10.70516129032258,
+            0.6890322580645161
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 69.9850082397461,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            10.273548387096774,
+            0.9187096774193548
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 69.98500061035156,
+            "normal": [
+              0.0,
+              0.0,
+              0.9999999403953552
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            9.841935483870968,
+            1.1483870967741936
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 69.9850082397461,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            9.410322580645161,
+            1.3780645161290321
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 69.98500061035156,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            8.978709677419355,
+            1.6077419354838711
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 69.98500061035156,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            8.547096774193548,
+            1.8374193548387097
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 69.98500061035156,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            8.115483870967742,
+            2.067096774193548
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 69.9849853515625,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "PRAÇA | OSM 1263035782": 0.2849884033203125
+          }
+        },
+        {
+          "xy": [
+            7.683870967741936,
+            2.296774193548387
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 69.9850082397461,
+            "normal": [
+              0.0,
+              0.0,
+              0.9999999403953552
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            7.25225806451613,
+            2.526451612903226
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 69.9850082397461,
+            "normal": [
+              0.0,
+              0.0,
+              0.9999999403953552
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            6.820645161290322,
+            2.7561290322580643
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 69.98500061035156,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            6.389032258064516,
+            2.9858064516129033
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 69.98500061035156,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            5.95741935483871,
+            3.2154838709677422
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 69.9850082397461,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            5.525806451612904,
+            3.4451612903225803
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 69.98500061035156,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            5.094193548387097,
+            3.6748387096774193
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 69.98500061035156,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            4.662580645161291,
+            3.9045161290322583
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 69.98500061035156,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            4.230967741935484,
+            4.134193548387096
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 69.98500061035156,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            3.7993548387096787,
+            4.363870967741936
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 69.98500061035156,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "FACHADA SUPERIOR | pilar térreo.003": 0.012573865242302418
+          }
+        },
+        {
+          "xy": [
+            3.3677419354838722,
+            4.593548387096774
+          ],
+          "support": {
+            "object": "SUPERIOR | piso saguão",
+            "z": 70.04499053955078,
+            "normal": [
+              2.9831451797690534e-07,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {
+            "FACHADA SUPERIOR | folha aberta.003": 0.014571457169950008
+          }
+        },
+        {
+          "xy": [
+            2.9361290322580658,
+            4.823225806451613
+          ],
+          "support": {
+            "object": "SUPERIOR | piso saguão",
+            "z": 70.04499816894531,
+            "normal": [
+              2.9831451797690534e-07,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {
+            "FACHADA SUPERIOR | folha aberta.003": 0.11328205466270447
+          }
+        },
+        {
+          "xy": [
+            2.5045161290322593,
+            5.052903225806452
+          ],
+          "support": {
+            "object": "SUPERIOR | piso saguão",
+            "z": 70.04499816894531,
+            "normal": [
+              2.9831451797690534e-07,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {
+            "FACHADA SUPERIOR | folha aberta.003": 0.24113623797893524
+          }
+        },
+        {
+          "xy": [
+            2.072903225806453,
+            5.28258064516129
+          ],
+          "support": {
+            "object": "SUPERIOR | piso saguão",
+            "z": 70.04499053955078,
+            "normal": [
+              2.9831451797690534e-07,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            1.6412903225806446,
+            5.5122580645161285
+          ],
+          "support": {
+            "object": "SUPERIOR | piso saguão",
+            "z": 70.04499816894531,
+            "normal": [
+              2.9831451797690534e-07,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            1.209677419354838,
+            5.741935483870968
+          ],
+          "support": {
+            "object": "SUPERIOR | piso saguão",
+            "z": 70.04499053955078,
+            "normal": [
+              2.9831451797690534e-07,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            0.7780645161290316,
+            5.9716129032258065
+          ],
+          "support": {
+            "object": "SUPERIOR | piso saguão",
+            "z": 70.04499053955078,
+            "normal": [
+              2.9831451797690534e-07,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            0.3464516129032269,
+            6.201290322580645
+          ],
+          "support": {
+            "object": "SUPERIOR | piso saguão",
+            "z": 70.04499816894531,
+            "normal": [
+              2.9831451797690534e-07,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -0.08516129032257957,
+            6.4309677419354845
+          ],
+          "support": {
+            "object": "SUPERIOR | piso saguão",
+            "z": 70.04499816894531,
+            "normal": [
+              2.9831451797690534e-07,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -0.516774193548386,
+            6.660645161290322
+          ],
+          "support": {
+            "object": "SUPERIOR | piso saguão",
+            "z": 70.04499816894531,
+            "normal": [
+              2.9831451797690534e-07,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -0.9483870967741925,
+            6.890322580645161
+          ],
+          "support": {
+            "object": "SUPERIOR | piso saguão",
+            "z": 70.04499816894531,
+            "normal": [
+              2.9831451797690534e-07,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -1.379999999999999,
+            7.12
+          ],
+          "support": {
+            "object": "SUPERIOR | piso saguão",
+            "z": 70.04499053955078,
+            "normal": [
+              2.9831451797690534e-07,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        }
+      ],
+      "unsupported": 0,
+      "blocked": 6
+    },
+    {
+      "name": "bridge",
+      "probes": [
+        {
+          "xy": [
+            -1.38,
+            7.12
+          ],
+          "support": {
+            "object": "SUPERIOR | piso saguão",
+            "z": 70.04499053955078,
+            "normal": [
+              2.9831451797690534e-07,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -1.7510569105691056,
+            7.449756097560976
+          ],
+          "support": {
+            "object": "SUPERIOR | piso saguão",
+            "z": 70.04499816894531,
+            "normal": [
+              2.9831451797690534e-07,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -2.1221138211382113,
+            7.779512195121951
+          ],
+          "support": {
+            "object": "SUPERIOR | piso saguão",
+            "z": 70.04499816894531,
+            "normal": [
+              2.9831451797690534e-07,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -2.493170731707317,
+            8.109268292682927
+          ],
+          "support": {
+            "object": "SUPERIOR | piso saguão",
+            "z": 70.04499053955078,
+            "normal": [
+              2.9831451797690534e-07,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -2.864227642276423,
+            8.439024390243903
+          ],
+          "support": {
+            "object": "SUPERIOR | piso saguão",
+            "z": 70.04499816894531,
+            "normal": [
+              2.9831451797690534e-07,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -3.2352845528455285,
+            8.768780487804879
+          ],
+          "support": {
+            "object": "SUPERIOR | piso saguão",
+            "z": 70.04499053955078,
+            "normal": [
+              2.9831451797690534e-07,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -3.6063414634146342,
+            9.098536585365855
+          ],
+          "support": {
+            "object": "SUPERIOR | piso saguão",
+            "z": 70.04499816894531,
+            "normal": [
+              2.9831451797690534e-07,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -3.97739837398374,
+            9.42829268292683
+          ],
+          "support": {
+            "object": "SUPERIOR | piso saguão",
+            "z": 70.04499816894531,
+            "normal": [
+              2.9831451797690534e-07,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -4.348455284552845,
+            9.758048780487805
+          ],
+          "support": {
+            "object": "SUPERIOR | piso saguão",
+            "z": 70.04499816894531,
+            "normal": [
+              2.9831451797690534e-07,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -4.7195121951219505,
+            10.08780487804878
+          ],
+          "support": {
+            "object": "SUPERIOR | piso saguão",
+            "z": 70.04499053955078,
+            "normal": [
+              2.9831451797690534e-07,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -5.090569105691056,
+            10.417560975609756
+          ],
+          "support": {
+            "object": "SUPERIOR | piso saguão",
+            "z": 70.04499053955078,
+            "normal": [
+              2.9831451797690534e-07,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -5.461626016260163,
+            10.747317073170732
+          ],
+          "support": {
+            "object": "SUPERIOR | piso saguão",
+            "z": 70.04500579833984,
+            "normal": [
+              2.9831451797690534e-07,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -5.832682926829269,
+            11.077073170731708
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.18091987073421478
+          }
+        },
+        {
+          "xy": [
+            -6.203739837398374,
+            11.406829268292682
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -6.57479674796748,
+            11.73658536585366
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.00000762939453,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.177001953125
+          }
+        },
+        {
+          "xy": [
+            -6.945853658536586,
+            12.066341463414634
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -7.316910569105691,
+            12.39609756097561
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 69.99999237060547,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.1769866943359375
+          }
+        },
+        {
+          "xy": [
+            -7.687967479674796,
+            12.725853658536586
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -8.059024390243902,
+            13.05560975609756
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.00000762939453,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.177001953125
+          }
+        },
+        {
+          "xy": [
+            -8.430081300813008,
+            13.385365853658538
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -8.801138211382113,
+            13.715121951219512
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -9.17219512195122,
+            14.044878048780488
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -9.543252032520325,
+            14.374634146341464
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -9.91430894308943,
+            14.70439024390244
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 69.99999237060547,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.1769866943359375
+          }
+        },
+        {
+          "xy": [
+            -10.285365853658536,
+            15.034146341463416
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -10.656422764227642,
+            15.36390243902439
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.00000762939453,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.177001953125
+          }
+        },
+        {
+          "xy": [
+            -11.027479674796748,
+            15.693658536585364
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 69.99999237060547,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.1769866943359375
+          }
+        },
+        {
+          "xy": [
+            -11.398536585365854,
+            16.02341463414634
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 69.99999237060547,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.1769866943359375
+          }
+        },
+        {
+          "xy": [
+            -11.76959349593496,
+            16.35317073170732
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -12.140650406504065,
+            16.682926829268293
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -12.51170731707317,
+            17.01268292682927
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -12.882764227642276,
+            17.342439024390245
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 69.99999237060547,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.1769866943359375
+          }
+        },
+        {
+          "xy": [
+            -13.253821138211382,
+            17.67219512195122
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 69.99999237060547,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.1769866943359375
+          }
+        },
+        {
+          "xy": [
+            -13.624878048780488,
+            18.001951219512197
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 69.99999237060547,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.1769866943359375
+          }
+        },
+        {
+          "xy": [
+            -13.995934959349594,
+            18.33170731707317
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 69.99999237060547,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.1769866943359375
+          }
+        },
+        {
+          "xy": [
+            -14.3669918699187,
+            18.66146341463415
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 69.99999237060547,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.1769866943359375
+          }
+        },
+        {
+          "xy": [
+            -14.738048780487805,
+            18.991219512195123
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -15.10910569105691,
+            19.320975609756097
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -15.480162601626017,
+            19.650731707317075
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 69.99999237060547,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.1769866943359375
+          }
+        },
+        {
+          "xy": [
+            -15.851219512195122,
+            19.98048780487805
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -16.222276422764228,
+            20.310243902439026
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -16.593333333333334,
+            20.64
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.00000762939453,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.177001953125
+          }
+        },
+        {
+          "xy": [
+            -16.96439024390244,
+            20.969756097560975
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -17.335447154471545,
+            21.299512195121952
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 69.99999237060547,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.1769866943359375
+          }
+        },
+        {
+          "xy": [
+            -17.70650406504065,
+            21.629268292682926
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -18.077560975609757,
+            21.959024390243904
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 69.99999237060547,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.1769866943359375
+          }
+        },
+        {
+          "xy": [
+            -18.448617886178862,
+            22.28878048780488
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 69.99999237060547,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.1769866943359375
+          }
+        },
+        {
+          "xy": [
+            -18.819674796747965,
+            22.618536585365856
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -19.190731707317074,
+            22.94829268292683
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -19.56178861788618,
+            23.278048780487808
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.00000762939453,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.177001953125
+          }
+        },
+        {
+          "xy": [
+            -19.932845528455285,
+            23.607804878048782
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 69.99999237060547,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.1769866943359375
+          }
+        },
+        {
+          "xy": [
+            -20.303902439024387,
+            23.937560975609756
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -20.674959349593497,
+            24.26731707317073
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -21.046016260162602,
+            24.59707317073171
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 69.99999237060547,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.1769866943359375
+          }
+        },
+        {
+          "xy": [
+            -21.417073170731705,
+            24.926829268292686
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -21.78813008130081,
+            25.25658536585366
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -22.15918699186992,
+            25.586341463414637
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.00000762939453,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.177001953125
+          }
+        },
+        {
+          "xy": [
+            -22.530243902439025,
+            25.91609756097561
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.00000762939453,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.177001953125
+          }
+        },
+        {
+          "xy": [
+            -22.901300813008127,
+            26.245853658536586
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -23.272357723577237,
+            26.575609756097563
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.00000762939453,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.177001953125
+          }
+        },
+        {
+          "xy": [
+            -23.643414634146342,
+            26.90536585365854
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -24.014471544715445,
+            27.235121951219515
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 69.99999237060547,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.1769866943359375
+          }
+        },
+        {
+          "xy": [
+            -24.38552845528455,
+            27.56487804878049
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -24.75658536585366,
+            27.894634146341467
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -25.127642276422762,
+            28.22439024390244
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.00000762939453,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.177001953125
+          }
+        },
+        {
+          "xy": [
+            -25.498699186991868,
+            28.554146341463415
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -25.869756097560977,
+            28.883902439024393
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.00000762939453,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.177001953125
+          }
+        },
+        {
+          "xy": [
+            -26.240813008130083,
+            29.213658536585367
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -26.611869918699185,
+            29.54341463414634
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -26.98292682926829,
+            29.873170731707322
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -27.3539837398374,
+            30.202926829268296
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -27.725040650406502,
+            30.53268292682927
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -28.096097560975608,
+            30.862439024390245
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -28.467154471544717,
+            31.192195121951222
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -28.838211382113823,
+            31.521951219512196
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -29.209268292682925,
+            31.85170731707317
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.00000762939453,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.177001953125
+          }
+        },
+        {
+          "xy": [
+            -29.58032520325203,
+            32.18146341463415
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -29.95138211382114,
+            32.511219512195126
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -30.322439024390242,
+            32.8409756097561
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.00000762939453,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.177001953125
+          }
+        },
+        {
+          "xy": [
+            -30.693495934959348,
+            33.170731707317074
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -31.064552845528453,
+            33.50048780487805
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.00000762939453,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.177001953125
+          }
+        },
+        {
+          "xy": [
+            -31.435609756097563,
+            33.83024390243902
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -31.806666666666665,
+            34.16
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -32.177723577235774,
+            34.48975609756098
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -32.54878048780488,
+            34.81951219512195
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.00001525878906,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17700958251953125
+          }
+        },
+        {
+          "xy": [
+            -32.919837398373986,
+            35.149268292682926
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -33.29089430894309,
+            35.47902439024391
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -33.6619512195122,
+            35.80878048780488
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -34.033008130081306,
+            36.138536585365856
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -34.40406504065041,
+            36.46829268292683
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.00000762939453,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.177001953125
+          }
+        },
+        {
+          "xy": [
+            -34.77512195121952,
+            36.798048780487804
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -35.14617886178862,
+            37.12780487804878
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -35.51723577235773,
+            37.45756097560976
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -35.88829268292684,
+            37.78731707317073
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -36.259349593495934,
+            38.11707317073171
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -36.63040650406504,
+            38.44682926829268
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -37.00146341463415,
+            38.77658536585366
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.00000762939453,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.177001953125
+          }
+        },
+        {
+          "xy": [
+            -37.372520325203254,
+            39.10634146341464
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 69.99999237060547,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.1769866943359375
+          }
+        },
+        {
+          "xy": [
+            -37.743577235772364,
+            39.43609756097561
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -38.114634146341466,
+            39.765853658536585
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 69.99999237060547,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.1769866943359375
+          }
+        },
+        {
+          "xy": [
+            -38.485691056910575,
+            40.09560975609756
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -38.85674796747968,
+            40.42536585365854
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -39.22780487804878,
+            40.75512195121951
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -39.59886178861789,
+            41.08487804878049
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.00000762939453,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.177001953125
+          }
+        },
+        {
+          "xy": [
+            -39.969918699187,
+            41.414634146341456
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.00000762939453,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.177001953125
+          }
+        },
+        {
+          "xy": [
+            -40.3409756097561,
+            41.74439024390244
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -40.71203252032521,
+            42.07414634146342
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 69.99999237060547,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.1769866943359375
+          }
+        },
+        {
+          "xy": [
+            -41.08308943089432,
+            42.403902439024385
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 69.99999237060547,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.1769866943359375
+          }
+        },
+        {
+          "xy": [
+            -41.454146341463414,
+            42.73365853658537
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -41.82520325203252,
+            43.06341463414634
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -42.196260162601625,
+            43.393170731707315
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.00000762939453,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.177001953125
+          }
+        },
+        {
+          "xy": [
+            -42.567317073170734,
+            43.72292682926829
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 69.99999237060547,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.1769866943359375
+          }
+        },
+        {
+          "xy": [
+            -42.938373983739844,
+            44.05268292682927
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.00000762939453,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.177001953125
+          }
+        },
+        {
+          "xy": [
+            -43.309430894308946,
+            44.382439024390244
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.00000762939453,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.177001953125
+          }
+        },
+        {
+          "xy": [
+            -43.680487804878055,
+            44.71219512195122
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -44.05154471544716,
+            45.0419512195122
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -44.42260162601626,
+            45.37170731707317
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -44.79365853658537,
+            45.70146341463415
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "LAC R30B | Passarela | piso paginado visual": 0.17699432373046875
+          }
+        },
+        {
+          "xy": [
+            -45.16471544715448,
+            46.03121951219512
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.00000762939453,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "TORRE | cornija galeria": 0.17501068115234375
+          }
+        },
+        {
+          "xy": [
+            -45.53577235772358,
+            46.360975609756096
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.00000762939453,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "TORRE | cornija galeria": 0.17501068115234375
+          }
+        },
+        {
+          "xy": [
+            -45.90682926829269,
+            46.69073170731708
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.00000762939453,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "TORRE | cornija galeria": 0.17501068115234375
+          }
+        },
+        {
+          "xy": [
+            -46.2778861788618,
+            47.02048780487805
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.0,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "TORRE | cornija galeria": 0.1750030517578125
+          }
+        },
+        {
+          "xy": [
+            -46.648943089430894,
+            47.350243902439026
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.00000762939453,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "TORRE | cornija galeria": 0.17501068115234375
+          }
+        },
+        {
+          "xy": [
+            -47.02,
+            47.68
+          ],
+          "support": {
+            "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+            "z": 70.00000762939453,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "FUNCIONAL | 3 porta estação upper -1": 0.0003831824869848788,
+            "FUNCIONAL | 3 porta estação upper 1": 0.0003831824869848788
+          }
+        }
+      ],
+      "unsupported": 0,
+      "blocked": 112
+    },
+    {
+      "name": "lower_hall",
+      "probes": [
+        {
+          "xy": [
+            -49.63,
+            50.12
+          ],
+          "support": {
+            "object": "FUNCIONAL | soleira inferior",
+            "z": 7.4059906005859375,
+            "normal": [
+              8.528266448593058e-08,
+              0.0,
+              0.9999999403953552
+            ]
+          },
+          "blockers": {
+            "FUNCIONAL | 3 porta estação lower -1": 0.0012441587168723345
+          }
+        },
+        {
+          "xy": [
+            -50.010000000000005,
+            50.4304
+          ],
+          "support": {
+            "object": "FUNCIONAL | soleira inferior",
+            "z": 7.406005859375,
+            "normal": [
+              8.528266448593058e-08,
+              0.0,
+              0.9999999403953552
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -50.39,
+            50.7408
+          ],
+          "support": {
+            "object": "FUNCIONAL | soleira inferior",
+            "z": 7.405975341796875,
+            "normal": [
+              8.528266448593058e-08,
+              0.0,
+              0.9999999403953552
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -50.77,
+            51.0512
+          ],
+          "support": {
+            "object": "FUNCIONAL | soleira inferior",
+            "z": 7.4059906005859375,
+            "normal": [
+              8.528266448593058e-08,
+              0.0,
+              0.9999999403953552
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -51.150000000000006,
+            51.361599999999996
+          ],
+          "support": {
+            "object": "FUNCIONAL | soleira inferior",
+            "z": 7.4059906005859375,
+            "normal": [
+              8.528266448593058e-08,
+              0.0,
+              0.9999999403953552
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -51.53,
+            51.672
+          ],
+          "support": {
+            "object": "FUNCIONAL | soleira inferior",
+            "z": 7.406005859375,
+            "normal": [
+              8.528266448593058e-08,
+              0.0,
+              0.9999999403953552
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -51.910000000000004,
+            51.9824
+          ],
+          "support": {
+            "object": "INFERIOR | piso do saguão",
+            "z": 7.406005859375,
+            "normal": [
+              -4.2498822239167566e-08,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -52.290000000000006,
+            52.2928
+          ],
+          "support": {
+            "object": "INFERIOR | piso do saguão",
+            "z": 7.4059906005859375,
+            "normal": [
+              -4.2498822239167566e-08,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -52.67,
+            52.6032
+          ],
+          "support": {
+            "object": "INFERIOR | piso do saguão",
+            "z": 7.406005859375,
+            "normal": [
+              -4.2498822239167566e-08,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {
+            "CALIBRADO | piso desembarque baixo": 0.2752436697483063
+          }
+        },
+        {
+          "xy": [
+            -53.050000000000004,
+            52.9136
+          ],
+          "support": {
+            "object": "INFERIOR | piso do saguão",
+            "z": 7.4059906005859375,
+            "normal": [
+              -4.2498822239167566e-08,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -53.43,
+            53.224
+          ],
+          "support": {
+            "object": "INFERIOR | piso do saguão",
+            "z": 7.406005859375,
+            "normal": [
+              -4.2498822239167566e-08,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -53.81,
+            53.5344
+          ],
+          "support": {
+            "object": "INFERIOR | piso do saguão",
+            "z": 7.4059906005859375,
+            "normal": [
+              -4.2498822239167566e-08,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -54.190000000000005,
+            53.8448
+          ],
+          "support": {
+            "object": "INFERIOR | piso do saguão",
+            "z": 7.4059906005859375,
+            "normal": [
+              -4.2498822239167566e-08,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {
+            "INFERIOR | catraca": 0.2596776783466339
+          }
+        },
+        {
+          "xy": [
+            -54.57,
+            54.1552
+          ],
+          "support": {
+            "object": "INFERIOR | piso do saguão",
+            "z": 7.406005859375,
+            "normal": [
+              -4.2498822239167566e-08,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {
+            "INFERIOR | catraca": 0.22600780427455902
+          }
+        },
+        {
+          "xy": [
+            -54.95,
+            54.4656
+          ],
+          "support": {
+            "object": "INFERIOR | piso do saguão",
+            "z": 7.406005859375,
+            "normal": [
+              -4.2498822239167566e-08,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {
+            "INFERIOR | catraca": 0.19682464003562927
+          }
+        },
+        {
+          "xy": [
+            -55.330000000000005,
+            54.776
+          ],
+          "support": {
+            "object": "INFERIOR | piso do saguão",
+            "z": 7.4060211181640625,
+            "normal": [
+              -4.2498822239167566e-08,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -55.71,
+            55.0864
+          ],
+          "support": {
+            "object": "INFERIOR | piso do saguão",
+            "z": 7.406005859375,
+            "normal": [
+              -4.2498822239167566e-08,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -56.09,
+            55.3968
+          ],
+          "support": {
+            "object": "INFERIOR | piso do saguão",
+            "z": 7.406005859375,
+            "normal": [
+              -4.2498822239167566e-08,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -56.47,
+            55.7072
+          ],
+          "support": {
+            "object": "INFERIOR | piso do saguão",
+            "z": 7.406005859375,
+            "normal": [
+              -4.2498822239167566e-08,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -56.85,
+            56.0176
+          ],
+          "support": {
+            "object": "INFERIOR | piso do saguão",
+            "z": 7.4059906005859375,
+            "normal": [
+              -4.2498822239167566e-08,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -57.230000000000004,
+            56.328
+          ],
+          "support": {
+            "object": "INFERIOR | piso do saguão",
+            "z": 7.406005859375,
+            "normal": [
+              -4.2498822239167566e-08,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -57.61,
+            56.638400000000004
+          ],
+          "support": {
+            "object": "INFERIOR | piso do saguão",
+            "z": 7.406005859375,
+            "normal": [
+              -4.2498822239167566e-08,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -57.99,
+            56.948800000000006
+          ],
+          "support": {
+            "object": "INFERIOR | piso do saguão",
+            "z": 7.406005859375,
+            "normal": [
+              -4.2498822239167566e-08,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -58.370000000000005,
+            57.2592
+          ],
+          "support": {
+            "object": "INFERIOR | piso do saguão",
+            "z": 7.4059906005859375,
+            "normal": [
+              -4.2498822239167566e-08,
+              0.0,
+              -1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -58.75,
+            57.5696
+          ],
+          "support": {
+            "object": "INFERIOR R21 | passeio da entrada",
+            "z": 7.4060211181640625,
+            "normal": [
+              -5.0727329892197304e-08,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -59.13,
+            57.88
+          ],
+          "support": {
+            "object": "INFERIOR R21 | passeio da entrada",
+            "z": 7.4059906005859375,
+            "normal": [
+              -5.0727329892197304e-08,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        }
+      ],
+      "unsupported": 0,
+      "blocked": 5
+    },
+    {
+      "name": "cairu",
+      "probes": [
+        {
+          "xy": [
+            -59.13,
+            57.88
+          ],
+          "support": {
+            "object": "INFERIOR R21 | passeio da entrada",
+            "z": 7.4059906005859375,
+            "normal": [
+              -5.0727329892197304e-08,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -59.415423728813565,
+            58.288516949152545
+          ],
+          "support": {
+            "object": "INFERIOR R21 | passeio da entrada",
+            "z": 7.4059906005859375,
+            "normal": [
+              -5.0727329892197304e-08,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -59.70084745762712,
+            58.69703389830509
+          ],
+          "support": {
+            "object": "INFERIOR R21 | passeio da entrada",
+            "z": 7.4060211181640625,
+            "normal": [
+              -5.0727329892197304e-08,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -59.98627118644068,
+            59.10555084745763
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "B63 | VISUAL | meios-fios das vias existentes": 0.18000221252441406
+          }
+        },
+        {
+          "xy": [
+            -60.27169491525424,
+            59.51406779661017
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556915283203125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -60.5571186440678,
+            59.92258474576271
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -60.84254237288136,
+            60.331101694915255
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -61.127966101694916,
+            60.7396186440678
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -61.41338983050848,
+            61.14813559322034
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -61.69881355932203,
+            61.55665254237288
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -61.984237288135596,
+            61.96516949152543
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -62.26966101694916,
+            62.37368644067797
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -62.55508474576271,
+            62.782203389830514
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -62.840508474576275,
+            63.190720338983056
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -63.12593220338983,
+            63.5992372881356
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -63.41135593220339,
+            64.00775423728814
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -63.69677966101695,
+            64.41627118644068
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -63.98220338983051,
+            64.82478813559322
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -64.26762711864407,
+            65.23330508474577
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "B63 | VISUAL | meios-fios das vias existentes": 0.20573928952217102
+          }
+        },
+        {
+          "xy": [
+            -64.55305084745763,
+            65.64182203389831
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -64.83847457627118,
+            66.05033898305085
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -65.12389830508475,
+            66.45885593220339
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -65.4093220338983,
+            66.86737288135593
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -65.69474576271186,
+            67.27588983050848
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -65.98016949152543,
+            67.68440677966102
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -66.26559322033899,
+            68.09292372881356
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -66.55101694915254,
+            68.5014406779661
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -66.8364406779661,
+            68.90995762711864
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -67.12186440677966,
+            69.31847457627119
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -67.40728813559322,
+            69.72699152542373
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -67.69271186440677,
+            70.13550847457627
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -67.97813559322034,
+            70.54402542372881
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -68.2635593220339,
+            70.95254237288135
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -68.54898305084745,
+            71.3610593220339
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              0.9999999403953552
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -68.83440677966101,
+            71.76957627118644
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              0.9999999403953552
+            ]
+          },
+          "blockers": {
+            "B63 | VISUAL | meios-fios das vias existentes": 0.19829387962818146
+          }
+        },
+        {
+          "xy": [
+            -69.11983050847458,
+            72.17809322033898
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -69.40525423728813,
+            72.58661016949152
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -69.69067796610169,
+            72.99512711864406
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -69.97610169491526,
+            73.40364406779662
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -70.26152542372881,
+            73.81216101694915
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -70.54694915254237,
+            74.2206779661017
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -70.83237288135594,
+            74.62919491525423
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -71.11779661016949,
+            75.03771186440679
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -71.40322033898305,
+            75.44622881355933
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -71.68864406779662,
+            75.85474576271187
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -71.97406779661017,
+            76.26326271186441
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -72.25949152542373,
+            76.67177966101696
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -72.54491525423728,
+            77.08029661016948
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -72.83033898305085,
+            77.48881355932204
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -73.1157627118644,
+            77.89733050847458
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -73.40118644067796,
+            78.30584745762712
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -73.68661016949153,
+            78.71436440677967
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -73.97203389830509,
+            79.12288135593221
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -74.25745762711864,
+            79.53139830508475
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -74.5428813559322,
+            79.93991525423729
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -74.82830508474576,
+            80.34843220338983
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -75.11372881355932,
+            80.75694915254238
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -75.39915254237289,
+            81.16546610169492
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -75.68457627118644,
+            81.57398305084746
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -75.97,
+            81.9825
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -76.25542372881355,
+            82.39101694915254
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -76.54084745762711,
+            82.79953389830509
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -76.82627118644068,
+            83.20805084745763
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -77.11169491525423,
+            83.61656779661017
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -77.3971186440678,
+            84.02508474576271
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -77.68254237288136,
+            84.43360169491525
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -77.96796610169491,
+            84.8421186440678
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -78.25338983050847,
+            85.25063559322034
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -78.53881355932202,
+            85.65915254237288
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -78.82423728813559,
+            86.06766949152542
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -79.10966101694915,
+            86.47618644067796
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              0.9999999403953552
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -79.39508474576272,
+            86.8847033898305
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              0.9999999403953552
+            ]
+          },
+          "blockers": {
+            "B63 | VISUAL | meios-fios das vias existentes": 0.21956877410411835
+          }
+        },
+        {
+          "xy": [
+            -79.68050847457627,
+            87.29322033898305
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -79.96593220338983,
+            87.70173728813559
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -80.25135593220338,
+            88.11025423728813
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -80.53677966101695,
+            88.51877118644069
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -80.8222033898305,
+            88.92728813559322
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -81.10762711864406,
+            89.33580508474577
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -81.39305084745763,
+            89.7443220338983
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -81.67847457627119,
+            90.15283898305086
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -81.96389830508474,
+            90.56135593220338
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -82.2493220338983,
+            90.96987288135594
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -82.53474576271186,
+            91.37838983050847
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -82.82016949152542,
+            91.78690677966102
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -83.10559322033899,
+            92.19542372881355
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -83.39101694915254,
+            92.60394067796611
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -83.6764406779661,
+            93.01245762711865
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -83.96186440677965,
+            93.42097457627119
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -84.24728813559321,
+            93.82949152542373
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -84.53271186440678,
+            94.23800847457628
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -84.81813559322033,
+            94.64652542372882
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -85.1035593220339,
+            95.05504237288136
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -85.38898305084746,
+            95.46355932203389
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -85.67440677966101,
+            95.87207627118644
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -85.95983050847457,
+            96.28059322033897
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -86.24525423728814,
+            96.68911016949153
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -86.53067796610169,
+            97.09762711864407
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -86.81610169491525,
+            97.50614406779661
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -87.10152542372882,
+            97.91466101694915
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -87.38694915254237,
+            98.3231779661017
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -87.67237288135593,
+            98.73169491525424
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -87.95779661016948,
+            99.14021186440678
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -88.24322033898305,
+            99.54872881355932
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -88.5286440677966,
+            99.95724576271186
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -88.81406779661017,
+            100.3657627118644
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -89.09949152542373,
+            100.77427966101695
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -89.38491525423728,
+            101.18279661016949
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -89.67033898305084,
+            101.59131355932203
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -89.9557627118644,
+            101.99983050847457
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -90.24118644067796,
+            102.40834745762712
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -90.52661016949152,
+            102.81686440677967
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -90.81203389830509,
+            103.2253813559322
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -91.09745762711864,
+            103.63389830508476
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -91.3828813559322,
+            104.04241525423728
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -91.66830508474575,
+            104.45093220338984
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -91.95372881355931,
+            104.85944915254237
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -92.23915254237288,
+            105.26796610169492
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -92.52457627118643,
+            105.67648305084745
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -92.81,
+            106.08500000000001
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -93.09542372881356,
+            106.49351694915254
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -93.38084745762711,
+            106.90203389830509
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -93.66627118644067,
+            107.31055084745762
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -93.95169491525422,
+            107.71906779661018
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -94.23711864406779,
+            108.12758474576272
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -94.52254237288135,
+            108.53610169491526
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -94.80796610169492,
+            108.9446186440678
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -95.09338983050847,
+            109.35313559322034
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -95.37881355932203,
+            109.76165254237289
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -95.66423728813558,
+            110.17016949152543
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -95.94966101694915,
+            110.57868644067796
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -96.2350847457627,
+            110.98720338983051
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -96.52050847457627,
+            111.39572033898304
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -96.80593220338983,
+            111.8042372881356
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -97.09135593220338,
+            112.21275423728812
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -97.37677966101694,
+            112.62127118644068
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -97.6622033898305,
+            113.02978813559322
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -97.94762711864405,
+            113.43830508474576
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -98.23305084745762,
+            113.8468220338983
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -98.51847457627119,
+            114.25533898305085
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -98.80389830508474,
+            114.66385593220339
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -99.0893220338983,
+            115.07237288135593
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -99.37474576271185,
+            115.48088983050847
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -99.66016949152541,
+            115.88940677966102
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -99.94559322033898,
+            116.29792372881356
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -100.23101694915255,
+            116.7064406779661
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -100.5164406779661,
+            117.11495762711864
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -100.80186440677966,
+            117.52347457627118
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -101.08728813559321,
+            117.93199152542373
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -101.37271186440677,
+            118.34050847457627
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -101.65813559322032,
+            118.74902542372882
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -101.94355932203389,
+            119.15754237288135
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556915283203125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -102.22898305084745,
+            119.56605932203391
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -102.51440677966102,
+            119.97457627118644
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -102.79983050847457,
+            120.38309322033899
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -103.08525423728813,
+            120.79161016949152
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -103.37067796610168,
+            121.20012711864408
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556915283203125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -103.65610169491525,
+            121.6086440677966
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -103.9415254237288,
+            122.01716101694916
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -104.22694915254237,
+            122.42567796610169
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -104.51237288135593,
+            122.83419491525424
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -104.79779661016948,
+            123.24271186440677
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -105.08322033898304,
+            123.65122881355933
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -105.3686440677966,
+            124.05974576271186
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -105.65406779661016,
+            124.46826271186441
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -105.93949152542372,
+            124.87677966101694
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -106.22491525423729,
+            125.2852966101695
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -106.51033898305084,
+            125.69381355932202
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -106.7957627118644,
+            126.10233050847458
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -107.08118644067795,
+            126.51084745762711
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -107.36661016949152,
+            126.91936440677966
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -107.65203389830508,
+            127.32788135593222
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -107.93745762711865,
+            127.73639830508475
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -108.2228813559322,
+            128.1449152542373
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -108.50830508474576,
+            128.55343220338983
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -108.79372881355931,
+            128.9619491525424
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -109.07915254237287,
+            129.37046610169492
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -109.36457627118642,
+            129.77898305084747
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -109.64999999999999,
+            130.1875
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -109.93542372881356,
+            130.59601694915256
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.255706787109375,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -110.22084745762712,
+            131.00453389830508
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556915283203125,
+            "normal": [
+              -0.0,
+              0.0,
+              0.9999999403953552
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -110.50627118644067,
+            131.41305084745764
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -110.79169491525423,
+            131.82156779661017
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -111.07711864406778,
+            132.23008474576272
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -111.36254237288135,
+            132.63860169491525
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -111.64796610169492,
+            133.04711864406778
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -111.93338983050846,
+            133.45563559322034
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -112.21881355932203,
+            133.86415254237286
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -112.50423728813558,
+            134.27266949152542
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              0.9999999403953552
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -112.78966101694914,
+            134.68118644067795
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -113.0750847457627,
+            135.0897033898305
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -113.36050847457626,
+            135.49822033898303
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -113.64593220338982,
+            135.9067372881356
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -113.93135593220339,
+            136.31525423728814
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556915283203125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -114.21677966101694,
+            136.72377118644067
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -114.5022033898305,
+            137.13228813559323
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -114.78762711864405,
+            137.54080508474576
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -115.07305084745762,
+            137.9493220338983
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -115.35847457627116,
+            138.35783898305084
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -115.64389830508473,
+            138.7663559322034
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -115.9293220338983,
+            139.17487288135592
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -116.21474576271186,
+            139.58338983050848
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -116.50016949152541,
+            139.991906779661
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -116.78559322033897,
+            140.40042372881356
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -117.07101694915252,
+            140.8089406779661
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -117.35644067796609,
+            141.21745762711865
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -117.64186440677966,
+            141.62597457627118
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -117.92728813559322,
+            142.03449152542373
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -118.21271186440677,
+            142.44300847457626
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -118.49813559322033,
+            142.85152542372882
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -118.78355932203388,
+            143.26004237288134
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -119.06898305084744,
+            143.6685593220339
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -119.354406779661,
+            144.07707627118643
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -119.63983050847456,
+            144.48559322033898
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -119.92525423728813,
+            144.8941101694915
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556915283203125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -120.21067796610168,
+            145.30262711864407
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -120.49610169491524,
+            145.7111440677966
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -120.7815254237288,
+            146.11966101694915
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -121.06694915254236,
+            146.52817796610168
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -121.35237288135592,
+            146.93669491525424
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -121.63779661016949,
+            147.3452118644068
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -121.92322033898304,
+            147.75372881355932
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -122.2086440677966,
+            148.16224576271188
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -122.49406779661015,
+            148.5707627118644
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -122.77949152542371,
+            148.97927966101696
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "MERCADO | pilar entre vãos.052": 0.20367340743541718
+          }
+        },
+        {
+          "xy": [
+            -123.06491525423726,
+            149.3877966101695
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "MERCADO | pilar entre vãos.051": 0.1120009645819664
+          }
+        },
+        {
+          "xy": [
+            -123.35033898305085,
+            149.79631355932204
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "MERCADO | pilar entre vãos.051": 0.020339209586381912
+          }
+        },
+        {
+          "xy": [
+            -123.6357627118644,
+            150.20483050847457
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "MERCADO | pilar entre vãos.051": 0.1765364557504654
+          }
+        },
+        {
+          "xy": [
+            -123.92118644067796,
+            150.61334745762713
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -124.20661016949151,
+            151.02186440677966
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -124.49203389830507,
+            151.4303813559322
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -124.77745762711862,
+            151.83889830508474
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "MERCADO | pilar entre vãos.050": 0.08639028668403625
+          }
+        },
+        {
+          "xy": [
+            -125.06288135593218,
+            152.2474152542373
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "MERCADO | pilar entre vãos.050": 0.1496150642633438
+          }
+        },
+        {
+          "xy": [
+            -125.34830508474576,
+            152.65593220338982
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "MERCADO | pilar entre vãos.049": 0.2412768304347992
+          }
+        },
+        {
+          "xy": [
+            -125.63372881355932,
+            153.06444915254238
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {
+            "ACESSO | fachada Praça Cairu | ombreira D": 0.0024385435972362757
+          }
+        },
+        {
+          "xy": [
+            -125.91915254237287,
+            153.4729661016949
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.2556610107421875,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -126.20457627118643,
+            153.88148305084746
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        },
+        {
+          "xy": [
+            -126.48999999999998,
+            154.29
+          ],
+          "support": {
+            "object": "MVP | terreno corrigido | colisão estática",
+            "z": 7.25567626953125,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "blockers": {}
+        }
+      ],
+      "unsupported": 0,
+      "blocked": 12
+    }
+  ],
+  "geometry_changed": false
+}

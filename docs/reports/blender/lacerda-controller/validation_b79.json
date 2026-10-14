@@ -1,0 +1,34 @@
+{
+  "revision": "R30B.79",
+  "source": {
+    "file": "blender/salvador_lacerda_r30b79_contrato_colisao_slice.blend",
+    "revision": "R30B.79",
+    "sha256": "777d1748ddcf594cda267590172983743bb75cc11153e1db030f173ef7dde14f"
+  },
+  "reopened": true,
+  "open_evidence": "artifacts/blender-sessions/last-open.json",
+  "original_objects_preserved": 6088,
+  "unauthorized_changes": [],
+  "objects_after": 6292,
+  "protected_sources": [
+    {
+      "revision": "R30B.76",
+      "sha256": "8312775096a6f0fd0de5114885ffe2403ad9e367f38a8b40556433ad2dd79a60"
+    },
+    {
+      "revision": "R30B.77B",
+      "sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8"
+    },
+    {
+      "revision": "R30B.78",
+      "sha256": "b79ccf20e4bd1e30895348a742f528754a21ac7212f75b9792cf6794c5437ab0"
+    }
+  ],
+  "dynamic_binding_checks": 225,
+  "dynamic_binding_max_matrix_error": 0.0,
+  "ssot_preserved": true,
+  "visual_geometry_changed": false,
+  "engine_controller_verified": false,
+  "status": "preservation_passed_geometry_blocked",
+  "trip_approved": false
+}

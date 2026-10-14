@@ -1,0 +1,215 @@
+{
+  "file": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\blender\\salvador_lacerda_r30b82_gameplay_proxy.blend",
+  "scene": "BOAS | GAMEPLAY_PROXY B82",
+  "pid": 10684,
+  "dirty": true,
+  "frame": 65024,
+  "historical_changed": [],
+  "historical_missing": [],
+  "static_proxy_errors": [],
+  "proxy_count": 70,
+  "controller": {
+    "finished": false,
+    "mode": "CLOSED",
+    "car_z": 70.11499786376953,
+    "station": "upper",
+    "openness": 0.0,
+    "player": [
+      88.0,
+      4.77055194,
+      70.12999786376953
+    ],
+    "keys": []
+  },
+  "objects": [
+    {
+      "object": "CALIBRADO | passarela piso 28.71 x 6.00m",
+      "location": [
+        -35.42984390258789,
+        39.066471099853516,
+        69.55000305175781
+      ],
+      "visible": false,
+      "hidden": true,
+      "role": null
+    },
+    {
+      "object": "INFERIOR | piso do saguão",
+      "location": [
+        -53.60945129394531,
+        56.125389099121094,
+        7.280999660491943
+      ],
+      "visible": false,
+      "hidden": true,
+      "role": null
+    },
+    {
+      "object": "SUPERIOR | piso saguão",
+      "location": [
+        -1.3869800567626953,
+        7.1221923828125,
+        69.91999816894531
+      ],
+      "visible": false,
+      "hidden": true,
+      "role": null
+    },
+    {
+      "object": "B82 | cabin_floor",
+      "location": [
+        -48.321311950683594,
+        48.90056610107422,
+        70.0250015258789
+      ],
+      "visible": true,
+      "hidden": false,
+      "role": "cabin_floor"
+    },
+    {
+      "object": "B82 | cabin_wall_-1",
+      "location": [
+        -49.251922607421875,
+        47.90882110595703,
+        71.46499633789062
+      ],
+      "visible": true,
+      "hidden": false,
+      "role": "cabin_wall"
+    },
+    {
+      "object": "B82 | cabin_wall_1",
+      "location": [
+        -47.39070129394531,
+        49.89231491088867,
+        71.46499633789062
+      ],
+      "visible": true,
+      "hidden": false,
+      "role": "cabin_wall"
+    },
+    {
+      "object": "B82 | cabin_roof",
+      "location": [
+        -48.321311950683594,
+        48.90056610107422,
+        72.875
+      ],
+      "visible": true,
+      "hidden": false,
+      "role": "cabin_roof"
+    },
+    {
+      "object": "B82 | landing_upper_-1",
+      "location": [
+        -47.31158447265625,
+        47.40455627441406,
+        71.36499786376953
+      ],
+      "visible": true,
+      "hidden": false,
+      "role": "landing_door"
+    },
+    {
+      "object": "B82 | cabin_door_upper_-1",
+      "location": [
+        -47.3553352355957,
+        47.445613861083984,
+        71.36499786376953
+      ],
+      "visible": true,
+      "hidden": false,
+      "role": "cabin_door"
+    },
+    {
+      "object": "B82 | landing_upper_1",
+      "location": [
+        -46.764163970947266,
+        47.987937927246094,
+        71.36499786376953
+      ],
+      "visible": true,
+      "hidden": false,
+      "role": "landing_door"
+    },
+    {
+      "object": "B82 | cabin_door_upper_1",
+      "location": [
+        -46.807918548583984,
+        48.028995513916016,
+        71.36499786376953
+      ],
+      "visible": true,
+      "hidden": false,
+      "role": "cabin_door"
+    },
+    {
+      "object": "B82 | landing_lower_-1",
+      "location": [
+        -49.87845993041992,
+        49.81319808959961,
+        8.656000137329102
+      ],
+      "visible": true,
+      "hidden": false,
+      "role": "landing_door"
+    },
+    {
+      "object": "B82 | cabin_door_lower_-1",
+      "location": [
+        -49.8347053527832,
+        49.77214050292969,
+        71.36499786376953
+      ],
+      "visible": true,
+      "hidden": false,
+      "role": "cabin_door"
+    },
+    {
+      "object": "B82 | landing_lower_1",
+      "location": [
+        -49.33103942871094,
+        50.39657974243164,
+        8.656000137329102
+      ],
+      "visible": true,
+      "hidden": false,
+      "role": "landing_door"
+    },
+    {
+      "object": "B82 | cabin_door_lower_1",
+      "location": [
+        -49.287288665771484,
+        50.35552215576172,
+        71.36499786376953
+      ],
+      "visible": true,
+      "hidden": false,
+      "role": "cabin_door"
+    },
+    {
+      "object": "B82 | personagem proxy",
+      "location": [
+        19.114948272705078,
+        -7.836623191833496,
+        70.12999725341797
+      ],
+      "visible": false,
+      "hidden": true,
+      "role": "player"
+    }
+  ],
+  "scene_changed_by_diagnostic": false,
+  "viewport": {
+    "shading": "SOLID",
+    "perspective": "PERSP",
+    "local_view": false,
+    "view_location": [
+      18.38572120666504,
+      -7.152350425720215,
+      71.75999450683594
+    ],
+    "view_distance": 1.0
+  },
+  "screenshot": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\artifacts\\lacerda-live-diagnostic\\current-viewport.png"
+}

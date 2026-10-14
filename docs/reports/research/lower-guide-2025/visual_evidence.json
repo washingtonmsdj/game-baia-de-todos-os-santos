@@ -1,0 +1,420 @@
+{
+  "schema": "boas/lower-guide-visual-evidence-v1",
+  "review_date": "2026-10-06",
+  "method": "Revisão humana integral de cinco fotografias e quadros selecionados de dois vídeos; não são vídeos integralmente assistidos.",
+  "coordinate_registration_accepted": false,
+  "metric_measurements_from_images": false,
+  "videos": {
+    "b896lscqBws": {
+      "publication_date": "2025-07-15",
+      "duration_seconds": 139,
+      "title": "Salvador Bahia Como é o Elevador Lacerda por Dentro"
+    },
+    "0VC78CYx0X0": {
+      "publication_date": "2025-03-14",
+      "duration_seconds": 714,
+      "title": "Elevador Lacerda por dentro Depois da Reforma A Nova Vista Incrível de Salvador Bahia"
+    }
+  },
+  "evidence": [
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Elevador_Lacerda_-_Salvador_-_20250721125127.jpg",
+      "date": "2025-07-21",
+      "frame/image": "elevador-lacerda-salvador-20250721125127.jpg",
+      "raw_file": "world-reference/mvp-centro-lacerda/elevador-lacerda/elevador-lacerda-salvador-20250721125127.jpg",
+      "sha256": "9b3a4c8a1601c64e0b39a8014d13aa8a3b997b036064b105a55e7b1e960e94bf",
+      "author": "Sintegrity",
+      "license": "CC BY-SA 4.0",
+      "media_id": "elevador-lacerda-access-9b3a4c8a1601",
+      "observed_feature": "Painel envidraçado decorativo LACERDA/Salvador entre colunas de mármore; piso quase ausente.",
+      "confidence": {
+        "visible_feature": "HIGH",
+        "exact_scene_binding": "UNRESOLVED"
+      },
+      "scene_correspondence": null,
+      "allowed_conclusion": "Contexto interior; não mostra guia/saída/conector.",
+      "not_proven": [
+        "Dimensão métrica",
+        "Identidade/posição da guia .001",
+        "Permanência/fixação da guia",
+        "Conexão física registrada até OSM"
+      ],
+      "inspection": "Imagem integral examinada, não apenas título/descrição",
+      "release_status": "DEV_REFERENCE_ONLY"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Elevador_Lacerda_-_Salvador_-_20250721125222.jpg",
+      "date": "2025-07-21",
+      "frame/image": "elevador-lacerda-salvador-20250721125222.jpg",
+      "raw_file": "world-reference/mvp-centro-lacerda/elevador-lacerda/elevador-lacerda-salvador-20250721125222.jpg",
+      "sha256": "d940f816080402d9da6a41667973db5a7e1dc42240916fae34ab6e7703c02282",
+      "author": "Sintegrity",
+      "license": "CC BY-SA 4.0",
+      "media_id": "elevador-lacerda-detail-d940f8160804",
+      "observed_feature": "Placa sobre mármore informa entrega da restauração em fevereiro de 2025.",
+      "confidence": {
+        "visible_feature": "HIGH",
+        "exact_scene_binding": "UNRESOLVED"
+      },
+      "scene_correspondence": null,
+      "allowed_conclusion": "Contexto pós-restauração; não comprova configuração da guia.",
+      "not_proven": [
+        "Dimensão métrica",
+        "Identidade/posição da guia .001",
+        "Permanência/fixação da guia",
+        "Conexão física registrada até OSM"
+      ],
+      "inspection": "Imagem integral examinada, não apenas título/descrição",
+      "release_status": "DEV_REFERENCE_ONLY"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Elevador_Lacerda_-_Salvador_-_20250721125324.jpg",
+      "date": "2025-07-21",
+      "frame/image": "elevador-lacerda-salvador-20250721125324.jpg",
+      "raw_file": "world-reference/mvp-centro-lacerda/elevador-lacerda/elevador-lacerda-salvador-20250721125324.jpg",
+      "sha256": "ded7c75d401c82847b4847acea7eeeedbf2fe9b97362ead9c1c5fca98466e08d",
+      "author": "Sintegrity",
+      "license": "CC BY-SA 4.0",
+      "media_id": "elevador-lacerda-detail-ded7c75d401c",
+      "observed_feature": "Galeria envidraçada superior; vista da Cidade Baixa/escarpa e indicação SAÍDA.",
+      "confidence": {
+        "visible_feature": "HIGH",
+        "exact_scene_binding": "UNRESOLVED"
+      },
+      "scene_correspondence": null,
+      "allowed_conclusion": "Distinguir saída superior da inferior; não usar como conector Cairu.",
+      "not_proven": [
+        "Dimensão métrica",
+        "Identidade/posição da guia .001",
+        "Permanência/fixação da guia",
+        "Conexão física registrada até OSM"
+      ],
+      "inspection": "Imagem integral examinada, não apenas título/descrição",
+      "release_status": "DEV_REFERENCE_ONLY"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Elevador_Lacerda_-_Salvador_-_20250721125657.jpg",
+      "date": "2025-07-21",
+      "frame/image": "elevador-lacerda-salvador-20250721125657.jpg",
+      "raw_file": "world-reference/mvp-centro-lacerda/elevador-lacerda/elevador-lacerda-salvador-20250721125657.jpg",
+      "sha256": "814f0e72ca47c64f4284c0b288fa36f05ba789276f17b9fd7266b3019354ab27",
+      "author": "Sintegrity",
+      "license": "CC BY-SA 4.0",
+      "media_id": "elevador-lacerda-detail-814f0e72ca47",
+      "observed_feature": "Rocha exposta da escarpa, revestimento inferior de mármore e iluminação suspensa.",
+      "confidence": {
+        "visible_feature": "HIGH",
+        "exact_scene_binding": "UNRESOLVED"
+      },
+      "scene_correspondence": null,
+      "allowed_conclusion": "Contexto construtivo; nenhuma associação inequívoca com a guia.",
+      "not_proven": [
+        "Dimensão métrica",
+        "Identidade/posição da guia .001",
+        "Permanência/fixação da guia",
+        "Conexão física registrada até OSM"
+      ],
+      "inspection": "Imagem integral examinada, não apenas título/descrição",
+      "release_status": "DEV_REFERENCE_ONLY"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Elevador_Lacerda_-_Salvador_-_20250721125707.jpg",
+      "date": "2025-07-21",
+      "frame/image": "elevador-lacerda-salvador-20250721125707.jpg",
+      "raw_file": "world-reference/mvp-centro-lacerda/elevador-lacerda/elevador-lacerda-salvador-20250721125707.jpg",
+      "sha256": "8d8389091761e4d515a29a5a11dcd418a1b73a4e234c320bd2437352086efe1a",
+      "author": "Sintegrity",
+      "license": "CC BY-SA 4.0",
+      "media_id": "elevador-lacerda-detail-8d8389091761",
+      "observed_feature": "Saguão inferior com ilha de bilheteria envidraçada, mural à direita e fachada/SAÍDA; pessoa sai à esquerda da ilha; piso externo claro e veículos visíveis.",
+      "confidence": {
+        "visible_feature": "HIGH",
+        "exact_scene_binding": "UNRESOLVED"
+      },
+      "scene_correspondence": null,
+      "allowed_conclusion": "Há passagem junto à bilheteria até abertura externa. Não identifica a guia .001 nem registra o conector no SSOT/OSM.",
+      "not_proven": [
+        "Dimensão métrica",
+        "Identidade/posição da guia .001",
+        "Permanência/fixação da guia",
+        "Conexão física registrada até OSM"
+      ],
+      "inspection": "Imagem integral examinada, não apenas título/descrição",
+      "release_status": "DEV_REFERENCE_ONLY"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=b896lscqBws&t=10s",
+      "date": null,
+      "publication_date": "2025-07-15",
+      "frame/image": "b896lscqBws-010.png",
+      "observed_player_time_seconds": 10,
+      "timestamp_precision": "Posição indicada pelo player; não timecode de frame extraído",
+      "raw_file": "world-reference/mvp-centro-lacerda/research-lower-guide-20261006/b896lscqBws-010.png",
+      "sha256": "fdc8414d438b56ef6a7d45940c31f819597a07f8b017ba60d7991e799865817b",
+      "author": "Farol Viagem (@FarolViagem)",
+      "license": null,
+      "license_status": "NOT_VERIFIED",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "observed_feature": "Corredor abobadado; portas ao fundo, gradis centrais; barreira metálica separada e cones laranja.",
+      "confidence": {
+        "visible_feature": "HIGH",
+        "exact_scene_binding": "UNRESOLVED"
+      },
+      "scene_correspondence": null,
+      "allowed_conclusion": "Gradis e objetos de controle de fila são fisicamente visíveis; não confundir barreira/cones com o gradil.",
+      "not_proven": [
+        "Data da filmagem",
+        "Dimensões métricas",
+        "Identidade/posição/fixação da guia .001",
+        "Conector inferior registrado até OSM"
+      ],
+      "inspection": "Quadro real reproduzido no navegador e screenshot nativo; nenhum vídeo bruto baixado"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=b896lscqBws&t=20s",
+      "date": null,
+      "publication_date": "2025-07-15",
+      "frame/image": "b896lscqBws-020.png",
+      "observed_player_time_seconds": 20,
+      "timestamp_precision": "Posição indicada pelo player; não timecode de frame extraído",
+      "raw_file": "world-reference/mvp-centro-lacerda/research-lower-guide-20261006/b896lscqBws-020.png",
+      "sha256": "396c59b9d6e0aa8985eb6fb081c0b7e754d04e658b6c11ca0a0db6c8a44e760a",
+      "author": "Farol Viagem (@FarolViagem)",
+      "license": null,
+      "license_status": "NOT_VERIFIED",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "observed_feature": "Dois gradis longos paralelos escuros, montantes verticais e corrimão castanho; pessoa circula pela lateral esquerda.",
+      "confidence": {
+        "visible_feature": "HIGH",
+        "exact_scene_binding": "UNRESOLVED"
+      },
+      "scene_correspondence": null,
+      "allowed_conclusion": "Guia física genérica e circulação lateral observadas; correspondência .001 não comprovada.",
+      "not_proven": [
+        "Data da filmagem",
+        "Dimensões métricas",
+        "Identidade/posição/fixação da guia .001",
+        "Conector inferior registrado até OSM"
+      ],
+      "inspection": "Quadro real reproduzido no navegador e screenshot nativo; nenhum vídeo bruto baixado"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=b896lscqBws&t=38s",
+      "date": null,
+      "publication_date": "2025-07-15",
+      "frame/image": "b896lscqBws-038.png",
+      "observed_player_time_seconds": 38,
+      "timestamp_precision": "Posição indicada pelo player; não timecode de frame extraído",
+      "raw_file": "world-reference/mvp-centro-lacerda/research-lower-guide-20261006/b896lscqBws-038.png",
+      "sha256": "47e46c50c5ca8bd3a1c18cd1bc305676815219c0b44e35fc74e317f3e2cb6098",
+      "author": "Farol Viagem (@FarolViagem)",
+      "license": null,
+      "license_status": "NOT_VERIFIED",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "observed_feature": "Corredor com gradil central e pessoa circulando à direita; barreira separada ao fundo.",
+      "confidence": {
+        "visible_feature": "HIGH",
+        "exact_scene_binding": "UNRESOLVED"
+      },
+      "scene_correspondence": null,
+      "allowed_conclusion": "Passagem lateral ao gradil visível nesta vista; não registra percurso até a saída inferior.",
+      "not_proven": [
+        "Data da filmagem",
+        "Dimensões métricas",
+        "Identidade/posição/fixação da guia .001",
+        "Conector inferior registrado até OSM"
+      ],
+      "inspection": "Quadro real reproduzido no navegador e screenshot nativo; nenhum vídeo bruto baixado"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=b896lscqBws&t=60s",
+      "date": null,
+      "publication_date": "2025-07-15",
+      "frame/image": "b896lscqBws-060.png",
+      "observed_player_time_seconds": 60,
+      "timestamp_precision": "Posição indicada pelo player; não timecode de frame extraído",
+      "raw_file": "world-reference/mvp-centro-lacerda/research-lower-guide-20261006/b896lscqBws-060.png",
+      "sha256": "c25cf2c5453afe40ef648a02da6efbc18ac89627f4593c0f6b52ab039eb0b1b4",
+      "author": "Farol Viagem (@FarolViagem)",
+      "license": null,
+      "license_status": "NOT_VERIFIED",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "observed_feature": "Vista a partir de abertura, voltada ao corredor abobadado com gradis/pessoas.",
+      "confidence": {
+        "visible_feature": "HIGH",
+        "exact_scene_binding": "UNRESOLVED"
+      },
+      "scene_correspondence": null,
+      "allowed_conclusion": "Contexto dos gradis; nenhuma conclusão dimensional da cabine/poço.",
+      "not_proven": [
+        "Data da filmagem",
+        "Dimensões métricas",
+        "Identidade/posição/fixação da guia .001",
+        "Conector inferior registrado até OSM"
+      ],
+      "inspection": "Quadro real reproduzido no navegador e screenshot nativo; nenhum vídeo bruto baixado"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=b896lscqBws&t=83s",
+      "date": null,
+      "publication_date": "2025-07-15",
+      "frame/image": "b896lscqBws-083.png",
+      "observed_player_time_seconds": 83,
+      "timestamp_precision": "Posição indicada pelo player; não timecode de frame extraído",
+      "raw_file": "world-reference/mvp-centro-lacerda/research-lower-guide-20261006/b896lscqBws-083.png",
+      "sha256": "85eddb173de7731601b13c3a74934479f59c61ee8488f64fbca330a83e365802",
+      "author": "Farol Viagem (@FarolViagem)",
+      "license": null,
+      "license_status": "NOT_VERIFIED",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "observed_feature": "Galeria envidraçada e saída com espaço externo superior/guarda-corpo.",
+      "confidence": {
+        "visible_feature": "HIGH",
+        "exact_scene_binding": "UNRESOLVED"
+      },
+      "scene_correspondence": null,
+      "allowed_conclusion": "Saída superior; não constitui prova do conector inferior.",
+      "not_proven": [
+        "Data da filmagem",
+        "Dimensões métricas",
+        "Identidade/posição/fixação da guia .001",
+        "Conector inferior registrado até OSM"
+      ],
+      "inspection": "Quadro real reproduzido no navegador e screenshot nativo; nenhum vídeo bruto baixado"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=0VC78CYx0X0&t=71s",
+      "date": null,
+      "publication_date": "2025-03-14",
+      "frame/image": "0VC78CYx0X0-071.png",
+      "observed_player_time_seconds": 71,
+      "timestamp_precision": "Posição indicada pelo player; não timecode de frame extraído",
+      "raw_file": "world-reference/mvp-centro-lacerda/research-lower-guide-20261006/0VC78CYx0X0-071.png",
+      "sha256": "e193c438b9c13253b8fa74bcccda45fc5d2324d2043194eee2bade1f6bc868d1",
+      "author": "Farol Viagem (@FarolViagem)",
+      "license": null,
+      "license_status": "NOT_VERIFIED",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "observed_feature": "Fachada inferior LACERDA, bilheteria ao fundo, pedestres e pavimento externo; pintura verde diante da fachada.",
+      "confidence": {
+        "visible_feature": "HIGH",
+        "exact_scene_binding": "UNRESOLVED"
+      },
+      "scene_correspondence": null,
+      "allowed_conclusion": "Localização contextual inferior; nenhum avanço ou autorização de travessia.",
+      "not_proven": [
+        "Data da filmagem",
+        "Dimensões métricas",
+        "Identidade/posição/fixação da guia .001",
+        "Conector inferior registrado até OSM"
+      ],
+      "inspection": "Quadro real reproduzido no navegador e screenshot nativo; nenhum vídeo bruto baixado"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=0VC78CYx0X0&t=142s",
+      "date": null,
+      "publication_date": "2025-03-14",
+      "frame/image": "0VC78CYx0X0-142.png",
+      "observed_player_time_seconds": 142,
+      "timestamp_precision": "Posição indicada pelo player; não timecode de frame extraído",
+      "raw_file": "world-reference/mvp-centro-lacerda/research-lower-guide-20261006/0VC78CYx0X0-142.png",
+      "sha256": "c7261efb66589ee999c30390763ed9eb7c14cedf4b197876ea28850ff5626d5a",
+      "author": "Farol Viagem (@FarolViagem)",
+      "license": null,
+      "license_status": "NOT_VERIFIED",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "observed_feature": "Saguão inferior, volume central revestido e abertura arqueada lateral; piso parcialmente visível.",
+      "confidence": {
+        "visible_feature": "HIGH",
+        "exact_scene_binding": "UNRESOLVED"
+      },
+      "scene_correspondence": null,
+      "allowed_conclusion": "Relação geral saguão/corredor; não registra a guia no SSOT.",
+      "not_proven": [
+        "Data da filmagem",
+        "Dimensões métricas",
+        "Identidade/posição/fixação da guia .001",
+        "Conector inferior registrado até OSM"
+      ],
+      "inspection": "Quadro real reproduzido no navegador e screenshot nativo; nenhum vídeo bruto baixado"
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=0VC78CYx0X0&t=214s",
+      "date": null,
+      "publication_date": "2025-03-14",
+      "frame/image": "0VC78CYx0X0-214.png",
+      "observed_player_time_seconds": 214,
+      "timestamp_precision": "Posição indicada pelo player; não timecode de frame extraído",
+      "raw_file": "world-reference/mvp-centro-lacerda/research-lower-guide-20261006/0VC78CYx0X0-214.png",
+      "sha256": "5952ef4d67b0dbab0aba3d69225d4c946a2df5ae536d31bc6f243e9e42ddf678",
+      "author": "Farol Viagem (@FarolViagem)",
+      "license": null,
+      "license_status": "NOT_VERIFIED",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "observed_feature": "Fila de pessoas junto ao mármore; corpos ocultam grande parte do piso/gradis.",
+      "confidence": {
+        "visible_feature": "LOW",
+        "exact_scene_binding": "UNRESOLVED"
+      },
+      "scene_correspondence": null,
+      "allowed_conclusion": "Oclusão impede análise conclusiva do conector.",
+      "not_proven": [
+        "Data da filmagem",
+        "Dimensões métricas",
+        "Identidade/posição/fixação da guia .001",
+        "Conector inferior registrado até OSM"
+      ],
+      "inspection": "Quadro real reproduzido no navegador e screenshot nativo; nenhum vídeo bruto baixado"
+    }
+  ],
+  "excluded_captures": [
+    {
+      "raw_file": "world-reference/mvp-centro-lacerda/research-lower-guide-20261006/0VC78CYx0X0-106.png",
+      "sha256": "fae06df89ae503d74319fbf3916fa0a9bcb6d6763c981367ad944b2b67c6a068",
+      "source": "https://www.youtube.com/watch?v=0VC78CYx0X0",
+      "author": "Farol Viagem (@FarolViagem)",
+      "publication_date": "2025-03-14",
+      "date": null,
+      "license": null,
+      "release_status": "DEV_REFERENCE_ONLY",
+      "reason": "Buffering/quadro anterior; horário não utilizável",
+      "used_for_decision": false
+    },
+    {
+      "raw_file": "world-reference/mvp-centro-lacerda/research-lower-guide-20261006/0VC78CYx0X0-106-ready.png",
+      "sha256": "455169202e82cd4d92e60a36739221bcf9e8d69197502ca5800997380a1771dd",
+      "source": "https://www.youtube.com/watch?v=0VC78CYx0X0",
+      "author": "Farol Viagem (@FarolViagem)",
+      "publication_date": "2025-03-14",
+      "date": null,
+      "license": null,
+      "release_status": "DEV_REFERENCE_ONLY",
+      "reason": "Mural visível, mas instante exato não certificado; só contexto",
+      "used_for_decision": false
+    },
+    {
+      "raw_file": "world-reference/mvp-centro-lacerda/research-lower-guide-20261006/0VC78CYx0X0-126.png",
+      "sha256": "fc3519d2431bba60698efb41d53593e157cd00cab1870b84b131ff7a4764ba44",
+      "source": "https://www.youtube.com/watch?v=0VC78CYx0X0",
+      "author": "Farol Viagem (@FarolViagem)",
+      "publication_date": "2025-03-14",
+      "date": null,
+      "license": null,
+      "release_status": "DEV_REFERENCE_ONLY",
+      "reason": "Buffering/quadro anterior; horário não utilizável",
+      "used_for_decision": false
+    },
+    {
+      "raw_file": "world-reference/mvp-centro-lacerda/research-lower-guide-20261006/0VC78CYx0X0-121-ready.png",
+      "sha256": "d750c4d1443bdce4dfeea19a43fe132c6ab2d3fcad438041b48510f285a8fe11",
+      "source": "https://www.youtube.com/watch?v=0VC78CYx0X0",
+      "author": "Farol Viagem (@FarolViagem)",
+      "publication_date": "2025-03-14",
+      "date": null,
+      "license": null,
+      "release_status": "DEV_REFERENCE_ONLY",
+      "reason": "Placa visível, divergência slider/tempo do player; não usar para registro temporal/espacial",
+      "used_for_decision": false
+    }
+  ]
+}

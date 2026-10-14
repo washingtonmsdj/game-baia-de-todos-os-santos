@@ -1,0 +1,142 @@
+{
+  "schema": "boas/coastal-transition-b60-check-v1",
+  "source_reopened": true,
+  "visual_collision_identical": true,
+  "finite": true,
+  "degenerate_triangles": 0,
+  "seam_samples": 395,
+  "seam_missing": 0,
+  "max_seam_error_m": 0.0,
+  "road_surfaces": [
+    {
+      "object": "B60 | ROAD VISUAL | 154743329 | run 0",
+      "vertices": 530,
+      "support_missing": 0,
+      "max_drape_error_m": 3.433227539068051e-07
+    },
+    {
+      "object": "B60 | ROAD VISUAL | 456471269 | run 0",
+      "vertices": 330,
+      "support_missing": 0,
+      "max_drape_error_m": 3.433227539068051e-07
+    },
+    {
+      "object": "B60 | ROAD VISUAL | 978527848 | run 0",
+      "vertices": 970,
+      "support_missing": 0,
+      "max_drape_error_m": 3.433227539068051e-07
+    },
+    {
+      "object": "B60 | ROAD VISUAL | 1004133493 | run 0",
+      "vertices": 2290,
+      "support_missing": 0,
+      "max_drape_error_m": 3.433227539068051e-07
+    },
+    {
+      "object": "B60 | ROAD VISUAL | 1004133494 | run 0",
+      "vertices": 650,
+      "support_missing": 0,
+      "max_drape_error_m": 1.335144042963199e-07
+    },
+    {
+      "object": "B60 | ROAD VISUAL | 1075624454 | run 0",
+      "vertices": 2870,
+      "support_missing": 0,
+      "max_drape_error_m": 3.433227539068051e-07
+    },
+    {
+      "object": "B60 | ROAD VISUAL | 1321544428 | run 0",
+      "vertices": 770,
+      "support_missing": 0,
+      "max_drape_error_m": 3.433227539068051e-07
+    }
+  ],
+  "candidate_wheel_paths": [
+    {
+      "osm_way_id": 154743329,
+      "name": "Rua da Conceição da Praia",
+      "sample_count": 19,
+      "missing_wheel_supports": 0,
+      "max_grade": 0.13807231127075273,
+      "max_crossfall": 0.07019967743844698,
+      "max_collision_difference_m": 0,
+      "traffic_approved": false
+    },
+    {
+      "osm_way_id": 456471269,
+      "name": "Rua Manoel Vitórino",
+      "sample_count": 13,
+      "missing_wheel_supports": 0,
+      "max_grade": 0.17014396730659762,
+      "max_crossfall": 0.1298199277935606,
+      "max_collision_difference_m": 0,
+      "traffic_approved": false
+    },
+    {
+      "osm_way_id": 562660148,
+      "name": "Avenida Lafayete Coutinho",
+      "sample_count": 0,
+      "missing_wheel_supports": 0,
+      "max_grade": null,
+      "max_crossfall": null,
+      "max_collision_difference_m": 0,
+      "traffic_approved": false
+    },
+    {
+      "osm_way_id": 978527848,
+      "name": "Avenida Lafayete Coutinho",
+      "sample_count": 36,
+      "missing_wheel_supports": 0,
+      "max_grade": 0.18300927974266473,
+      "max_crossfall": 0.01777417732007576,
+      "max_collision_difference_m": 0,
+      "traffic_approved": false
+    },
+    {
+      "osm_way_id": 1004133492,
+      "name": "",
+      "sample_count": 0,
+      "missing_wheel_supports": 0,
+      "max_grade": null,
+      "max_crossfall": null,
+      "max_collision_difference_m": 0,
+      "traffic_approved": false
+    },
+    {
+      "osm_way_id": 1004133493,
+      "name": "",
+      "sample_count": 97,
+      "missing_wheel_supports": 0,
+      "max_grade": 0.17093200081778784,
+      "max_crossfall": 0.035529859138257576,
+      "max_collision_difference_m": 0,
+      "traffic_approved": false
+    },
+    {
+      "osm_way_id": 1004133494,
+      "name": "",
+      "sample_count": 27,
+      "missing_wheel_supports": 0,
+      "max_grade": 0.04962966984657172,
+      "max_crossfall": 0.02871426669034091,
+      "max_collision_difference_m": 0,
+      "traffic_approved": false
+    },
+    {
+      "osm_way_id": 1075624454,
+      "name": "Avenida Lafayete Coutinho",
+      "sample_count": 118,
+      "missing_wheel_supports": 0,
+      "max_grade": 0.1959633518211403,
+      "max_crossfall": 0.011411724668560606,
+      "max_collision_difference_m": 0,
+      "traffic_approved": false
+    }
+  ],
+  "source_dem_unchanged": true,
+  "approved": false,
+  "pending": [
+    "Lacuna histórica entre núcleo e cais permanece aberta",
+    "Grade/crossfall e navegação precisam de gate próprio; probes não equivalem à física na engine"
+  ]
+}

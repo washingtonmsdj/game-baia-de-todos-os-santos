@@ -3,13 +3,15 @@
   "area_id": "mvp-centro-lacerda",
   "production_source_reference": "production.json#/world_source",
   "authoring_source": {
-    "file": "blender/salvador_lacerda_r30b41_perfil_misericordia.blend",
-    "revision": "R30B.41",
-    "status": "authoring_candidate",
-    "parent_file": "blender/salvador_lacerda_r30b40_fluxos_e_colisao.blend",
-    "evidence": "docs/reports/blender/misericordia_profile_r30b41.json",
-    "sha256": "5578d54b8c8bdba81216f12745bb3e8a90e38fdec1ae857d17fe5401f38434ef",
-    "notes": "Corrige somente o perfil derivado da Rua da Misericórdia; OSM, XY, largura, pavimento visual, colisor e runtime preservados. Gameplay continua não aprovado."
+    "file": "blender/salvador_lacerda_r30b102_corpo_encosta_quatro_elevadores.blend",
+    "revision": "R30B.102",
+    "parent_file": "blender/salvador_lacerda_r30b101_pavimentos_estruturais.blend",
+    "sha256": "ada6128d6a4b50629b8b6a430f77312dd566d921e5aff477d7f8ed3adaa9db54",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "status": "architectural_candidate_with_four_gameplay_lifts",
+    "production_ready": false,
+    "evidence": "docs/reports/blender/lacerda-exterior-b102/application.json",
+    "notes": "Resíduos R10 arquivados; corpo exterior separado do núcleo; encontro14/23 candidato; quatro equipamentos provisórios com gates individuais; não certificação/produção."
   },
   "authoring_scene": "SALVADOR | ESBOCO OFICIAL",
   "selection_policy": "explicit_pointer_never_filename_mtime_or_open_window",
@@ -22,7 +24,10 @@
       "parent_file": null,
       "evidence": null,
       "sha256": null,
-      "notes": null
+      "notes": null,
+      "local_file_state": "removed_obsolete",
+      "removed_local_sha256": "324300cbc9ed201623462b14985af410010d81160b0b22d2d8f3ab4cff91f04d",
+      "removal_evidence": "docs/reports/blender/obsolete_files_cleanup.json"
     },
     {
       "file": "blender/salvador_lacerda_mvp_r30c2_urban_slice.blend",
@@ -31,7 +36,10 @@
       "parent_file": null,
       "evidence": null,
       "sha256": null,
-      "notes": null
+      "notes": null,
+      "local_file_state": "removed_obsolete",
+      "removed_local_sha256": "dc94c4e1d9ae10986f10ba91f31ca1773edb982618f5340a6a96ab8667a410d1",
+      "removal_evidence": "docs/reports/blender/obsolete_files_cleanup.json"
     },
     {
       "file": "blender/salvador_lacerda_mvp_r30c3_terrain_partition.blend",
@@ -40,7 +48,10 @@
       "parent_file": null,
       "evidence": null,
       "sha256": null,
-      "notes": null
+      "notes": null,
+      "local_file_state": "removed_obsolete",
+      "removed_local_sha256": "d4d0a00993de709d33151b7f77a80eb99b8856ac78c17019c7ca35685c85cc84",
+      "removal_evidence": "docs/reports/blender/obsolete_files_cleanup.json"
     },
     {
       "file": "blender/salvador_lacerda_mvp_r30c4_terrain_continuity.blend",
@@ -49,7 +60,10 @@
       "parent_file": null,
       "evidence": null,
       "sha256": null,
-      "notes": null
+      "notes": null,
+      "local_file_state": "removed_obsolete",
+      "removed_local_sha256": "9fdfb46831b343a932269c27c3dc1179bade207d24667fdcbd6631633aa478d7",
+      "removal_evidence": "docs/reports/blender/obsolete_files_cleanup.json"
     },
     {
       "file": "blender/salvador_lacerda_mvp_r30c5_terrain_world_coordinates.blend",
@@ -58,7 +72,10 @@
       "parent_file": null,
       "evidence": null,
       "sha256": null,
-      "notes": null
+      "notes": null,
+      "local_file_state": "removed_obsolete",
+      "removed_local_sha256": "0bbfcb2b2ff91320a459173112d33dbc259b4402e06240d3af3abb62032dc0fa",
+      "removal_evidence": "docs/reports/blender/obsolete_files_cleanup.json"
     },
     {
       "file": "blender/salvador_lacerda_mvp_terreno_entrada_livre_chatgpt_v1_r30a11_pedestrian_nav.blend",
@@ -630,20 +647,550 @@
     {
       "file": "blender/salvador_lacerda_r30b56_pieres_gameplay.blend",
       "revision": "R30B.56",
-      "status": "validation_candidate",
+      "status": "superseded_validation",
       "parent_file": "blender/salvador_lacerda_r30b55_gameplay_costeiro.blend",
       "evidence": "docs/reports/blender/pier_gameplay_r30b56_audit.json",
       "sha256": "456700b06ee738630f27a42e8245097347bf96da5ec2bc1953a66f3223d897fd",
       "notes": "Integra gameplay pedonal nos 2 píeres com footprint OSM e 4 footways reais; colisão idêntica à superfície walkable; píeres lineares seguem apenas referência por largura desconhecida."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b57_visual_hq_gameplay.blend",
+      "revision": "R30B.57",
+      "sha256": "d78ad217cdb030eab94d0ef36b3fe996f853ad7e6c495176846721f9888cb480",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b56_pieres_gameplay.blend",
+      "evidence": "docs/reports/blender/visual_hq_r30b57.json",
+      "notes": "Superfície HQ e colisão correspondentes; revisão de costura e aparência pendente."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b58_costura_encosta_gameplay.blend",
+      "revision": "R30B.58",
+      "sha256": "44f07912366549288cc455f61eb503ee68ad25dbf184910f37ef54acc99a6845",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b57_visual_hq_gameplay.blend",
+      "evidence": "docs/reports/blender/coastal_seam_r30b58.json",
+      "notes": "Remove duplicação HQ no núcleo preservado e ancora costura física; visual/colisão correspondentes; não promove runtime."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b59_encosta_transicao_continua.blend",
+      "revision": "R30B.59",
+      "sha256": "8fa5037fed7c41a3495e48ffab095813362ddfb3bc3a0e7c11330c91016bd003",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b58_costura_encosta_gameplay.blend",
+      "evidence": "docs/reports/blender/coastal_sculpt_r30b59.json",
+      "notes": "Remodelagem da encosta e costura, visual=colisão; núcleo e cais preservados; gate de circulação pendente."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b60_plataformas_costeiras.blend",
+      "revision": "R30B.60",
+      "sha256": "7d505667494e74456b9dfea601f3ad702e0f05262e430f5cd60801589c0f9970",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b59_encosta_transicao_continua.blend",
+      "evidence": "docs/reports/blender/coastal_roads_r30b60.json",
+      "notes": "Plataformas locais de vias costeiras candidatas; conserva XY/larguras/núcleo; visual=colisão; circulação não aprovada."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b61_pavimento_integrado.blend",
+      "revision": "R30B.61",
+      "sha256": "8772c954377ae755b87174cae39b44958dbcea278d8dbaa026a26d5ad66027b4",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b60_plataformas_costeiras.blend",
+      "evidence": "docs/reports/blender/coastal_pavement_r30b61.json",
+      "notes": "Pavimento integrado à malha física; refino local 0.375m; núcleo, água e cais preservados."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b62_pavimento_costura_limpa.blend",
+      "revision": "R30B.62",
+      "sha256": "39b40bd1a18f02388be3e156ee8ec164532bc78db32cfd2ac1f24b44290dd17d",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b61_pavimento_integrado.blend",
+      "evidence": "docs/reports/blender/coastal_cleanup_r30b62.json",
+      "notes": "Limpeza local da triangulação da costura; pavimento integrado e colisão igual; núcleo e cais preservados."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b63_orla_bordas_canteiros.blend",
+      "revision": "R30B.63",
+      "sha256": "35a2477cbf79f5d7c5b2ad4dd1956930d9e35b1e5b416b55d3c2c333bea413c9",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b62_pavimento_costura_limpa.blend",
+      "evidence": "docs/reports/blender/urban_edges_r30b63.json",
+      "notes": "Fecha lacuna junto ao cais; meios-fios no limite pista/passeio; canteiros candidatos OSM, sem mudar larguras/fontes ou runtime."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b64_costa_volumes_corrigidos.blend",
+      "revision": "R30B.64",
+      "sha256": "8cfbdb35dd31c9d7491364d9c2f398973a1bb4994ff7739024e1f378f4f2015e",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b63_orla_bordas_canteiros.blend",
+      "evidence": "docs/reports/blender/coastal_volumes_r30b64.json",
+      "notes": "Recorta apenas solo/pedonal sobre água; pavimento protegido; cais apoiado e volumes fechados; sem promoção runtime."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b65_piso_orla_sem_residuos.blend",
+      "revision": "R30B.65",
+      "sha256": "36ccb3462dcc7c7abe584aa1ea903eab7e5f786eefbe3c4e58954b7e9024a2d7",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b64_costa_volumes_corrigidos.blend",
+      "evidence": "docs/reports/blender/coastal_floor_r30b65.json",
+      "notes": "Limpa somente piso novo e solda a face visível do cais; costa/terreno/pistas/píeres preservados. Fidelidade e passarela pendentes."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b66_cais_normais_corrigidas.blend",
+      "revision": "R30B.66",
+      "sha256": "1c64173cc11b4c086084e55a6d0a6e399a1a67a1715babc160517221d45f0bf8",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b65_piso_orla_sem_residuos.blend",
+      "evidence": "docs/reports/blender/coastal_orientation_r30b66.json",
+      "notes": "Normais do cais voltadas à água e resíduos numéricos do piso removidos; sem alterar pistas, costa ou píeres; passarela e dimensões reais pendentes."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b67_pieres_e_dominio_oceanico.blend",
+      "revision": "R30B.67",
+      "sha256": "e0fcda84e28adaf3161da7458195471511b00c2ef9e70fd42f6edc555188b412",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b66_cais_normais_corrigidas.blend",
+      "evidence": "docs/reports/blender/waterfront_piers_r30b67.json",
+      "notes": "Dois contornos reais de píeres OSM adicionados; volume/espuma derivados do limite atual da água. Nível marítimo, alturas e conexões dos decks continuam candidatos; sem promoção de runtime.",
+      "source_reopened": true,
+      "validation_evidence": "docs/reports/blender/waterfront_piers_r30b67_validation.json",
+      "local_geometry_checks_passed": true
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b68_encontros_terrestres_pieres.blend",
+      "revision": "R30B.68",
+      "sha256": "83f68da029f879898aa5f85ccb7f135fdb2ebefd1fcb536df2878d95f411ed5c",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b67_pieres_e_dominio_oceanico.blend",
+      "evidence": "docs/reports/blender/pier_land_contacts_r30b68.json",
+      "notes": "Fecha apenas lacunas terrestres nos dois encontros reais, sem deslocar terreno, costa, píeres ou mar. Desníveis e altimetria continuam pendentes."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b69_encontros_sem_frestas.blend",
+      "revision": "R30B.69",
+      "sha256": "30d079046f029b559ffce28d1254bc65a6a3f57f0625245b809deb9c7ad7bfa2",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b68_encontros_terrestres_pieres.blend",
+      "evidence": "docs/reports/blender/pier_land_contacts_r30b69.json",
+      "notes": "Corrige frestas residuais por cortes em coordenadas locais; 16000 probes, sem lacunas terrestres amostradas. Terrenos, costa, mar e decks preservados; alturas e acessibilidade pendentes.",
+      "source_reopened": true,
+      "validation_evidence": "docs/reports/blender/pier_land_contacts_r30b69_validation.json",
+      "local_geometry_checks_passed": true,
+      "sampled_gap_coverage_passed": true
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b70_juncao_terreno_cais.blend",
+      "revision": "R30B.70",
+      "sha256": "2838e38a4347cd307d6e25eddf152fd38d7bde40747b4adb7c672a5e75093c64",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b69_encontros_sem_frestas.blend",
+      "evidence": "docs/reports/blender/coastal_junction_r30b70.json",
+      "notes": "Junção HQ/piso/cais recomposta por controles locais. Vias/XY/água/cais preservados; dois triângulos no extremo norte e datum real pendentes.",
+      "source_reopened": true,
+      "validation_evidence": "docs/reports/blender/coastal_junction_r30b70_validation.json",
+      "local_geometry_checks_passed": true
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b71_encontro_norte_cais.blend",
+      "revision": "R30B.71",
+      "sha256": "b851703b3e47571469f30bd5c32c1e0fe01fa7e476f2776976e7b222dd4ed989",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b70_juncao_terreno_cais.blend",
+      "evidence": "docs/reports/blender/north_junction_r30b71.json",
+      "notes": "Encontro norte do piso/cais vinculado ao núcleo existente; XY/vias/núcleo/água preservados; altura absoluta não verificada.",
+      "source_reopened": true,
+      "validation_evidence": "docs/reports/blender/north_junction_r30b71_validation.json",
+      "local_geometry_checks_passed": true
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b72_costura_viaria_continua.blend",
+      "revision": "R30B.72",
+      "sha256": "bef607e739f3a84e78a5c6e71ef20bc704ed5536d715896beaa9da0ea856db78",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b71_encontro_norte_cais.blend",
+      "evidence": "docs/reports/blender/city_seam_r30b72.json",
+      "notes": "Junção compartilhada Manoel/Conceição e pavimento de oito corredores nas três superfícies, mesmos IDs/XY e larguras candidatas; fidelidade global pendente.",
+      "source_reopened": true,
+      "validation_evidence": "docs/reports/blender/city_seam_r30b72_validation.json",
+      "local_geometry_checks_passed": true
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b73_tangente_encosta_costura.blend",
+      "revision": "R30B.73",
+      "sha256": "d49f9b35e00b292acdbd33028b58f8eaa52d71e9ba9fd232ba679190227e1f0b",
+      "status": "superseded_validation",
+      "parent_file": "blender/salvador_lacerda_r30b72_costura_viaria_continua.blend",
+      "evidence": "docs/reports/blender/terrain_tangent_r30b73.json",
+      "notes": "Tangente local na costura da encosta; mesmas vias/XY e extremos; adaptação 8m não levantada, cidade permanece parcial.",
+      "source_reopened": true,
+      "validation_evidence": "docs/reports/blender/terrain_tangent_r30b73_validation.json",
+      "local_geometry_checks_passed": true
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b74_expansao_lapa_tororo_fonte_nova.blend",
+      "sha256": "1b4c16b9831a38bff93e3fb9c03c87bdfaf3e48f5a00cf03e0945b7f6d9b220a",
+      "revision": "R30B.74",
+      "parent_file": "blender/salvador_lacerda_r30b73_tangente_encosta_costura.blend",
+      "status": "superseded_validation",
+      "evidence": "docs/reports/blender/centro-expansion/scene_b74.json",
+      "notes": "Expansão candidata de terreno e referências OSM; vias finais/larguras/altimetria pendentes. Não aprovada para produção.",
+      "source_reopened": true,
+      "local_geometry_checks_passed": true,
+      "validation_evidence": "docs/reports/blender/centro-expansion/validation_b74.json"
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b75_passeios_larguras_osm.blend",
+      "sha256": "e1fcd8446aef5bee1fbd6d2cd787ba511c5bf38d2a3b959a6b4c113db9a8829a",
+      "revision": "R30B.75",
+      "parent_file": "blender/salvador_lacerda_r30b74_expansao_lapa_tororo_fonte_nova.blend",
+      "status": "validation_candidate",
+      "evidence": "docs/reports/blender/centro-expansion/scene_b75.json",
+      "notes": "Passeios com largura OSM explícita recortados na superfície candidata; ruas finais, altimetria e circulação pendentes.",
+      "source_reopened": true,
+      "local_geometry_checks_passed": true,
+      "validation_evidence": "docs/reports/blender/centro-expansion/validation_b75.json"
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b76_fundacao_geografica.blend",
+      "revision": "R30B.76",
+      "status": "geographic_foundation_candidate",
+      "parent_file": "blender/salvador_lacerda_r30b75_passeios_larguras_osm.blend",
+      "sha256": "8312775096a6f0fd0de5114885ffe2403ad9e367f38a8b40556433ad2dd79a60",
+      "evidence": "docs/reports/blender/geographic-foundation/application_b76.json",
+      "source_reopened": true,
+      "production_ready": false,
+      "notes": "Contrato geográfico único e Campo da Pólvora real; geometrias anteriores preservadas. Datum e topografia ainda candidatos; autoria/produção mantidas.",
+      "validation_evidence": "docs/reports/blender/geographic-foundation/validation_b76.json"
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b77_corredor_lacerda_cairu.blend",
+      "sha256": "067b8b796e4d3791c84a3a616bb639563719c4edb5bb464041fa7095564f78ae",
+      "revision": "R30B.77",
+      "status": "superseded_door_demo",
+      "parent_file": "blender/salvador_lacerda_r30b76_fundacao_geografica.blend",
+      "production_ready": false,
+      "source_reopened": true,
+      "evidence": "docs/reports/blender/lacerda-corridor/scene_b77_initial.json",
+      "notes": "Revisão intermediária preservada; abertura das folhas e rota inferior corrigidas na B77B."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+      "revision": "R30B.77B",
+      "sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+      "status": "corridor_slice_candidate",
+      "parent_file": "blender/salvador_lacerda_r30b77_corredor_lacerda_cairu.blend",
+      "production_ready": false,
+      "source_reopened": true,
+      "evidence": "docs/reports/blender/lacerda-corridor/scene_b77.json",
+      "notes": "Corredor candidato com colisões separadas, recorte local do consolo e demonstração do elevador. Datum/física na engine/volume varrido completo pendentes.",
+      "validation_evidence": "docs/reports/blender/lacerda-corridor/validation_b77.json"
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b78_encontro_saguao_passarela.blend",
+      "revision": "R30B.78",
+      "sha256": "b79ccf20e4bd1e30895348a742f528754a21ac7212f75b9792cf6794c5437ab0",
+      "parent_file": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+      "status": "corridor_slice_candidate",
+      "production_ready": false,
+      "source_reopened": true,
+      "evidence": "docs/reports/blender/lacerda-corridor/scene_b78.json",
+      "notes": "Retornos existentes conciliados com a largura da passarela; sem alteração geográfica. Dimensões reais/engine continuam pendentes.",
+      "validation_evidence": "docs/reports/blender/lacerda-corridor/validation_b78.json"
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b79_contrato_colisao_slice.blend",
+      "revision": "R30B.79",
+      "sha256": "777d1748ddcf594cda267590172983743bb75cc11153e1db030f173ef7dde14f",
+      "status": "controller_candidate_blocked",
+      "parent_file": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+      "evidence": "docs/reports/blender/lacerda-controller/scene_b79.json",
+      "notes": "B77B preservada; colisores locais, estados e auditoria volumétrica. Interferências abertas, sem aprovação de engine; B78 não incorporada nesta revisão."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+      "revision": "R30B.80",
+      "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4",
+      "status": "upper_ground_candidate_shaft_blocked",
+      "parent_file": "blender/salvador_lacerda_r30b79_contrato_colisao_slice.blend",
+      "evidence": "docs/reports/blender/lacerda-controller-b80/scene_b80.json",
+      "notes": "Piso/collider e ground-following superior; nenhuma arquitetura alterada ou merge B78. Sweep/engine seguem bloqueados. Não exportar para produção."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b81_cairu_colisao_e_rota_parcial.blend",
+      "revision": "R30B.81",
+      "sha256": "45583e49dde0a4a03d6b8d4a654135bb11644e786acb681dab7da3d68984e4af",
+      "status": "external_partial_route_blocked",
+      "parent_file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+      "production_ready": false,
+      "evidence": "docs/reports/blender/cairu-market-b81/application.json",
+      "notes": "Papéis físicos comprovados e patch de meio-fio fiel, rota OSM parcial. Vertical B80 bloqueada; acesso Mercado e controller não aprovados."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b82_gameplay_proxy.blend",
+      "revision": "R30B.82",
+      "sha256": "9a8c89520df6b86eaebc9000792c4ad077c5c20a0e77e1aec7ec647a15b3a49a",
+      "parent_file": "blender/salvador_lacerda_r30b81_cairu_colisao_e_rota_parcial.blend",
+      "scene": "BOAS | GAMEPLAY_PROXY B82",
+      "status": "GAMEPLAY_PROXY",
+      "accuracy": "APPROXIMATE",
+      "replacement_required": true,
+      "production_ready": false,
+      "evidence": "docs/reports/blender/lacerda-gameplay-proxy/application_b82.json",
+      "notes": "Protótipo funcional separado; alta fidelidade congelada, B80/B81 não resolvidas."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b83_encontro_superior_consolidado.blend",
+      "sha256": "7c4376037dcca58a9367f38d07d75ec8fd2f8f2106a0c68c109dbb5514c70423",
+      "revision": "R30B.83",
+      "parent_file": "blender/salvador_lacerda_r30b82_gameplay_proxy.blend",
+      "scene": "SALVADOR | ESBOCO OFICIAL",
+      "status": "validation_candidate",
+      "production_ready": false,
+      "evidence": "docs/reports/blender/lacerda-consolidation-b83/application.json",
+      "notes": "Sete malhas do encontro B78 reconciliadas na B82; não resolve gate vertical ou Mercado."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b84_fechamento_envidracado.blend",
+      "sha256": "f5aa780febb22fdba739842046960a539bccba487ccd19199f473513c8fc006e",
+      "revision": "R30B.84",
+      "parent_file": "blender/salvador_lacerda_r30b83_encontro_superior_consolidado.blend",
+      "scene": "SALVADOR | ESBOCO OFICIAL",
+      "status": "validation_candidate",
+      "production_ready": false,
+      "evidence": "docs/reports/blender/lacerda-glazing-b84/application.json",
+      "notes": "Dois retornos envidraçados e lambris reconciliados; não certifica dimensões ou resolve gates históricos."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b85_apoio_encosta_proporcoes.blend",
+      "sha256": "c1d5e4b8aad618e0ebcdca77accf700febf49c0b8d4861809d9034c20453a7c8",
+      "revision": "R30B.85",
+      "parent_file": "blender/salvador_lacerda_r30b84_fechamento_envidracado.blend",
+      "scene": "SALVADOR | ESBOCO OFICIAL",
+      "status": "validation_candidate",
+      "production_ready": false,
+      "evidence": "docs/reports/blender/lacerda-proportions-b85/application.json",
+      "notes": "Adequação local aproximada da largura do apoio e dependências visuais; comprimento da passarela/saguão permanece pendente."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b86_saguao_superior_planta.blend",
+      "revision": "R30B.86",
+      "parent_file": "blender/salvador_lacerda_r30b85_apoio_encosta_proporcoes.blend",
+      "sha256": "5add1823f0d2cebb9c2c3bd33f59b6aead145a7929787dc88137be3ef173fb48",
+      "status": "validation_candidate",
+      "scene": "SALVADOR | ESBOCO OFICIAL",
+      "production_ready": false,
+      "evidence": "docs/reports/blender/lacerda-layout-b86/application.json",
+      "notes": "Conjunto superior derivado da planta; distância/orientação das torres e instalação permanecem pendentes."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b87_pisos_e_fechamentos_superiores.blend",
+      "sha256": "b3435e0dd500bd6a95f28d3511008ad262bb4f9ce6ce483cf4115524346d8a8c",
+      "revision": "R30B.87",
+      "parent_file": "blender/salvador_lacerda_r30b86_saguao_superior_planta.blend",
+      "scene": "SALVADOR | ESBOCO OFICIAL",
+      "status": "validation_candidate",
+      "production_ready": false,
+      "evidence": "docs/reports/blender/lacerda-finish-b87/application.json",
+      "notes": "Pisos e vidro superior reconciliados; dimensões instaladas e implantação das torres pendentes."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b88_estrutura_arquitetonica_plantas.blend",
+      "revision": "R30B.88",
+      "parent_file": "blender/salvador_lacerda_r30b87_pisos_e_fechamentos_superiores.blend",
+      "sha256": "486af56cde56da861fd17b30fc610ff05b8d147f6b44ec3c958ee438993217c8",
+      "scene": "SALVADOR | ESBOCO OFICIAL",
+      "status": "architectural_structure_candidate",
+      "production_ready": false,
+      "evidence": "docs/reports/blender/lacerda-massing-b88/application.json",
+      "notes": "Contornos, orientação e proporções relativos às pranchas 12/17/23; implantação/datum inferior/instalação continuam pendentes."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b89_conjunto_arquitetonico_niveis.blend",
+      "revision": "R30B.89",
+      "parent_file": "blender/salvador_lacerda_r30b88_estrutura_arquitetonica_plantas.blend",
+      "sha256": "b418a1aec04241027451b2e0d515c3998fddfe3bc5f9a57096b4625d962b894c",
+      "scene": "SALVADOR | ESBOCO OFICIAL",
+      "status": "architectural_structure_candidate",
+      "production_ready": false,
+      "evidence": "docs/reports/blender/lacerda-massing-b89/application.json",
+      "notes": "Estrutura relativa SUCOP com níveis e encontro galeria/ponte reconciliados; implantação/datum geográfico e instalação ainda pendentes."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b90_cotas_exteriores_consolidadas.blend",
+      "revision": "R30B.90",
+      "parent_file": "blender/salvador_lacerda_r30b89_conjunto_arquitetonico_niveis.blend",
+      "sha256": "519a5dd85c63edbea53251cf51c3162086d9cbb094654a5a0613e95f08669ea6",
+      "scene": "SALVADOR | ESBOCO OFICIAL",
+      "status": "architectural_structure_candidate",
+      "production_ready": false,
+      "evidence": "docs/reports/blender/lacerda-massing-b90/application.json",
+      "notes": "Envoltória relativa SUCOP, ponte/torres/saguões e níveis exteriores; implantação e as-built ainda pendentes.",
+      "presentation": "FULL_MAP_NO_LOCAL_VIEW"
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b91_integridade_malha_e_apoios.blend",
+      "revision": "R30B.91",
+      "parent_file": "blender/salvador_lacerda_r30b90_cotas_exteriores_consolidadas.blend",
+      "sha256": "b1d8bd448b71c2c65481a507f73fbb696468688cf72b7496b0eb191f4b849c57",
+      "scene": "SALVADOR | ESBOCO OFICIAL",
+      "status": "architectural_structure_candidate",
+      "production_ready": false,
+      "evidence": "docs/reports/blender/lacerda-mesh-b91/application.json",
+      "notes": "Malhas limpas e encontros estruturais reconciliados; consolo aproximado declarado, implantação/as-built pendentes."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b92_ponte_estrutural_consolidada.blend",
+      "sha256": "8ea3ce94c86aca60e15dc2dab42e2100436ecc6e2bf05347732f137306e41514",
+      "revision": "R30B.92",
+      "parent_file": "blender/salvador_lacerda_r30b91_integridade_malha_e_apoios.blend",
+      "scene": "SALVADOR | ESBOCO OFICIAL",
+      "status": "architectural_structure_candidate",
+      "production_ready": false,
+      "evidence": "docs/reports/blender/lacerda-bridge-b92/application.json",
+      "notes": "Completa seleção da ponte: cobertura documental, 20 controles legados preservados fora da camada ativa; QA B91 preservada.",
+      "presentation_checkpoint_before_sha256": "bad73e6c5e114862c4da284f943b91bf7339fb29aca82100f520e9d0db342112"
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b93_estrutura_inferior_documental.blend",
+      "revision": "R30B.93",
+      "parent_file": "blender/salvador_lacerda_r30b92_ponte_estrutural_consolidada.blend",
+      "sha256": "a1a8034893803a440a67c0a4b3b33d880684d309cc909776afe0f2966fc95c7f",
+      "scene": "SALVADOR | ESBOCO OFICIAL",
+      "status": "architectural_structure_candidate",
+      "production_ready": false,
+      "evidence": "docs/reports/blender/lacerda-lower-structure-b93/application.json",
+      "notes": "Cota inferior -53.17 e quatro apoios CAD12; implantação absoluta e instalação não aprovadas."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b94_fechamentos_passarela_tunel.blend",
+      "revision": "R30B.94",
+      "parent_file": "blender/salvador_lacerda_r30b93_estrutura_inferior_documental.blend",
+      "sha256": "f557e11231f3e628d1b8960f81973cd2686dfe3cb8706a82ac7029326adb9ca6",
+      "scene": "SALVADOR | ESBOCO OFICIAL",
+      "status": "architectural_structure_candidate",
+      "production_ready": false,
+      "evidence": "docs/reports/blender/lacerda-closure-b94/application.json",
+      "notes": "Retornos envidraçados e encontro contínuo do túnel; não aprova instalação/implantação/controller."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b95_limites_circulacoes_superiores.blend",
+      "revision": "R30B.95",
+      "parent_file": "blender/salvador_lacerda_r30b94_fechamentos_passarela_tunel.blend",
+      "sha256": "ea284af5adc6bc38c4c774962ef97af03d04a36c1f1a1f87f08d399b3cdfd662",
+      "scene": "SALVADOR | ESBOCO OFICIAL",
+      "status": "architectural_structure_candidate",
+      "production_ready": false,
+      "evidence": "docs/reports/blender/lacerda-enclosure-b95/application.json",
+      "notes": "Limites das circulações superiores conforme planta17; instalação/controller e implantação ainda pendentes."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b96_encontro_corpo_cobertura.blend",
+      "revision": "R30B.96",
+      "parent_file": "blender/salvador_lacerda_r30b95_limites_circulacoes_superiores.blend",
+      "sha256": "6cc7438c0462f6c5e86108d818e43dcfdcd6f4b3adf0dbf300b01013eafd1d1b",
+      "scene": "SALVADOR | ESBOCO OFICIAL",
+      "status": "architectural_structure_candidate",
+      "production_ready": false,
+      "evidence": "docs/reports/blender/lacerda-body-b96/application.json",
+      "notes": "B96 finalizada: juntas posteriores/laterais sob cobertura sem sobreposição exterior; envelopeXY candidato e cotas relativas."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b97_limites_vestibulos_superiores.blend",
+      "revision": "R30B.97",
+      "parent_file": "blender/salvador_lacerda_r30b96_encontro_corpo_cobertura.blend",
+      "sha256": "0454f0cec2d8d65b4f127f635d59a217f4b62bae83d43d5e9769b541581543b5",
+      "scene": "SALVADOR | ESBOCO OFICIAL",
+      "status": "architectural_structure_candidate",
+      "production_ready": false,
+      "evidence": "docs/reports/blender/lacerda-vestibules-b97/application.json",
+      "notes": "Guardas nos vestíbulos conforme limites da planta17; seção aproximada, sem promoção de fidelidade/controller."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b98_frente_superior_reconciliada.blend",
+      "revision": "R30B.98",
+      "parent_file": "blender/salvador_lacerda_r30b97_limites_vestibulos_superiores.blend",
+      "sha256": "64bc2ddfacbfe166f10d4cdffcb6b7e41a70b2ec878dd1b92074246f81b5b2ee",
+      "scene": "SALVADOR | ESBOCO OFICIAL",
+      "status": "architectural_structure_candidate",
+      "production_ready": false,
+      "evidence": "docs/reports/blender/lacerda-completion-b98/application.json",
+      "notes": "Frente oblíqua CAD17/níveis23; seção/abertura/cortinas candidatas, referências anteriores preservadas."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b99_subsolos_corpo_cidade_alta.blend",
+      "revision": "R30B.99",
+      "parent_file": "blender/salvador_lacerda_r30b98_frente_superior_reconciliada.blend",
+      "sha256": "0a623f9f284387ab1ab8104189e16a11ca78c6f46ee9a10ff1680f7d6c873350",
+      "scene": "SALVADOR | ESBOCO OFICIAL",
+      "status": "architectural_structure_candidate",
+      "production_ready": false,
+      "evidence": "docs/reports/blender/lacerda-structure-b99/application.json",
+      "notes": "Subsolos SUCOP15/16, níveis23; contorno relativo, seção e extrapolação vertical candidatas; núcleo preservado."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b100_corpo_superior_cobertura.blend",
+      "revision": "R30B.100",
+      "parent_file": "blender/salvador_lacerda_r30b99_subsolos_corpo_cidade_alta.blend",
+      "sha256": "481d884fc3dc413ee9413c1a1b5259d05245da6a2fb7c273e39106ad69750678",
+      "scene": "SALVADOR | ESBOCO OFICIAL",
+      "status": "architectural_structure_candidate",
+      "production_ready": false,
+      "evidence": "docs/reports/blender/lacerda-upper-body-b100/application.json",
+      "notes": "Contornos18/19/20 e níveis23; alas técnicas e cobertura reconciliadas, janelas rígidas/candidatas, instalação intacta."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b101_pavimentos_estruturais.blend",
+      "revision": "R30B.101",
+      "parent_file": "blender/salvador_lacerda_r30b100_corpo_superior_cobertura.blend",
+      "sha256": "87a66414190b4ced14d7a51fe27a23ce96b7a26f36e342ae73809b2a508aabcd",
+      "scene": "SALVADOR | ESBOCO OFICIAL",
+      "status": "architectural_structure_candidate",
+      "production_ready": false,
+      "evidence": "docs/reports/blender/lacerda-floors-b101/application.json",
+      "notes": "Pisos documentados15/14 nos níveis−9,74/−19,85; contorno relativo e espessura candidata; sem mudança do poço ou instalação."
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b102_corpo_encosta_quatro_elevadores.blend",
+      "revision": "R30B.102",
+      "parent_file": "blender/salvador_lacerda_r30b101_pavimentos_estruturais.blend",
+      "sha256": "ada6128d6a4b50629b8b6a430f77312dd566d921e5aff477d7f8ed3adaa9db54",
+      "scene": "SALVADOR | ESBOCO OFICIAL",
+      "status": "architectural_candidate_with_four_gameplay_lifts",
+      "production_ready": false,
+      "evidence": "docs/reports/blender/lacerda-exterior-b102/application.json",
+      "notes": "Resíduos R10 arquivados; corpo exterior separado do núcleo; encontro14/23 candidato; quatro equipamentos provisórios com gates individuais; não certificação/produção."
     }
   ],
   "validation_source": {
-    "file": "blender/salvador_lacerda_r30b56_pieres_gameplay.blend",
-    "revision": "R30B.56",
-    "status": "validation_candidate",
-    "parent_file": "blender/salvador_lacerda_r30b55_gameplay_costeiro.blend",
-    "evidence": "docs/reports/blender/pier_gameplay_r30b56_audit.json",
-    "sha256": "456700b06ee738630f27a42e8245097347bf96da5ec2bc1953a66f3223d897fd",
-    "notes": "Integra gameplay pedonal nos 2 píeres com footprint OSM e 4 footways reais; colisão idêntica à superfície walkable; píeres lineares seguem apenas referência por largura desconhecida."
-  }
+    "file": "blender/salvador_lacerda_r30b102_corpo_encosta_quatro_elevadores.blend",
+    "revision": "R30B.102",
+    "parent_file": "blender/salvador_lacerda_r30b101_pavimentos_estruturais.blend",
+    "sha256": "ada6128d6a4b50629b8b6a430f77312dd566d921e5aff477d7f8ed3adaa9db54",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "status": "architectural_candidate_with_four_gameplay_lifts",
+    "production_ready": false,
+    "evidence": "docs/reports/blender/lacerda-exterior-b102/application.json",
+    "notes": "Resíduos R10 arquivados; corpo exterior separado do núcleo; encontro14/23 candidato; quatro equipamentos provisórios com gates individuais; não certificação/produção."
+  },
+  "gameplay_proxy_source": {
+    "file": "blender/salvador_lacerda_r30b82_gameplay_proxy.blend",
+    "revision": "R30B.82",
+    "sha256": "9a8c89520df6b86eaebc9000792c4ad077c5c20a0e77e1aec7ec647a15b3a49a",
+    "parent_file": "blender/salvador_lacerda_r30b81_cairu_colisao_e_rota_parcial.blend",
+    "scene": "BOAS | GAMEPLAY_PROXY B82",
+    "status": "GAMEPLAY_PROXY",
+    "accuracy": "APPROXIMATE",
+    "replacement_required": true,
+    "production_ready": false,
+    "evidence": "docs/reports/blender/lacerda-gameplay-proxy/application_b82.json",
+    "notes": "Protótipo funcional separado; alta fidelidade congelada, B80/B81 não resolvidas.",
+    "source_reopened": true
+  },
+  "automatic_backup_cleanup": [
+    {
+      "file": "blender/salvador_lacerda_r30b92_ponte_estrutural_consolidada.blend1",
+      "sha256": "bad73e6c5e114862c4da284f943b91bf7339fb29aca82100f520e9d0db342112",
+      "state": "removed_redundant_automatic_checkpoint",
+      "evidence": "docs/reports/blender/lacerda-body-b96/space-recovery.json"
+    }
+  ]
 }

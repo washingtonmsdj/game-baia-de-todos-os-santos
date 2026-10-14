@@ -1,0 +1,82 @@
+{
+  "cases": [
+    {
+      "case": "recurso permitido com arquivo completo",
+      "expected_pass": true,
+      "actual_pass": true,
+      "codes": []
+    },
+    {
+      "case": "DEV_REFERENCE_ONLY",
+      "expected_pass": false,
+      "actual_pass": false,
+      "codes": [
+        "DEV_REFERENCE_ONLY"
+      ]
+    },
+    {
+      "case": "REPLACE_BEFORE_RELEASE",
+      "expected_pass": false,
+      "actual_pass": false,
+      "codes": [
+        "REPLACE_BEFORE_RELEASE"
+      ]
+    },
+    {
+      "case": "material depende de imagem temporária",
+      "expected_pass": false,
+      "actual_pass": false,
+      "codes": [
+        "DEV_REFERENCE_ONLY"
+      ]
+    },
+    {
+      "case": "asset sem proveniência",
+      "expected_pass": false,
+      "actual_pass": false,
+      "codes": [
+        "UNKNOWN_PROVENANCE"
+      ]
+    },
+    {
+      "case": "atribuição ausente",
+      "expected_pass": false,
+      "actual_pass": false,
+      "codes": [
+        "MISSING_ATTRIBUTION"
+      ]
+    },
+    {
+      "case": "atribuição registrada",
+      "expected_pass": true,
+      "actual_pass": true,
+      "codes": []
+    },
+    {
+      "case": "bruto copiado/renomeado detectado por hash",
+      "expected_pass": false,
+      "actual_pass": false,
+      "codes": [
+        "RAW_SURVEY_PACKAGED"
+      ]
+    },
+    {
+      "case": "pacote vazio",
+      "expected_pass": false,
+      "actual_pass": false,
+      "codes": [
+        "EMPTY_PACKAGE"
+      ]
+    },
+    {
+      "case": "ciclo em dependências",
+      "expected_pass": false,
+      "actual_pass": false,
+      "codes": [
+        "DEPENDENCY_CYCLE"
+      ]
+    }
+  ],
+  "all_expected_outcomes": true,
+  "scope": "Verificações dirigidas; sem pacote real/release executado"
+}

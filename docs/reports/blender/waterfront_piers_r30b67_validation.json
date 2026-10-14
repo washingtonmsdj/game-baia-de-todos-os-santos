@@ -1,0 +1,153 @@
+{
+  "schema": "boas/waterfront-piers-b67-validation-v1",
+  "source": {
+    "file": "blender/salvador_lacerda_r30b67_pieres_e_dominio_oceanico.blend",
+    "revision": "R30B.67",
+    "sha256": "e0fcda84e28adaf3161da7458195471511b00c2ef9e70fd42f6edc555188b412"
+  },
+  "source_reopened": true,
+  "reopen_proof": {
+    "file": "blender/salvador_lacerda_r30b67_pieres_e_dominio_oceanico.blend",
+    "sha256": "e0fcda84e28adaf3161da7458195471511b00c2ef9e70fd42f6edc555188b412",
+    "source_mode": "validation",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "load_post_completed": true,
+    "timestamp_utc": "2026-10-04T23:46:38.266199+00:00"
+  },
+  "water_volume": {
+    "object": "BAÍA | volume de água no limite do recorte",
+    "vertices": 244,
+    "faces": 362,
+    "degenerate_triangles": 0,
+    "finite": true,
+    "nonmanifold_edges": 0,
+    "signed_volume": 24022751.56548423
+  },
+  "volume_footprint_matches_water": true,
+  "water_level_m": 0.35,
+  "volume_range_m": [
+    -16.0,
+    0.3499999940395355
+  ],
+  "volume_is_bathymetry": false,
+  "new_piers": [
+    {
+      "osm_id": 609043799,
+      "geometry": [
+        {
+          "object": "B67 | PIER VISUAL | 609043799",
+          "vertices": 8,
+          "faces": 12,
+          "degenerate_triangles": 0,
+          "finite": true,
+          "nonmanifold_edges": 0,
+          "signed_volume": 79.01737445115074
+        },
+        {
+          "object": "B67 | REFERENCE PIER | 609043799",
+          "vertices": 4,
+          "faces": 2,
+          "degenerate_triangles": 0,
+          "finite": true,
+          "nonmanifold_edges": 4,
+          "signed_volume": 223.82451821976738
+        },
+        {
+          "object": "B67 | WALKABLE CANDIDATE | 609043799",
+          "vertices": 4,
+          "faces": 2,
+          "degenerate_triangles": 0,
+          "finite": true,
+          "nonmanifold_edges": 4,
+          "signed_volume": 223.82451821976738
+        },
+        {
+          "object": "B67 | COLLISION CANDIDATE | PIER | 609043799",
+          "vertices": 4,
+          "faces": 2,
+          "degenerate_triangles": 0,
+          "finite": true,
+          "nonmanifold_edges": 4,
+          "signed_volume": 223.82451821976738
+        }
+      ],
+      "visual_reference_xy_equal": true,
+      "source_xy_max_error_m": 1.5090753131314743e-05,
+      "source_xy_tolerance_m": 0.0001,
+      "surface_collision_equal": true,
+      "deck_z_candidate_m": 2.9742279052734375,
+      "connection_approved": false,
+      "height_surveyed": false
+    },
+    {
+      "osm_id": 609043801,
+      "geometry": [
+        {
+          "object": "B67 | PIER VISUAL | 609043801",
+          "vertices": 32,
+          "faces": 60,
+          "degenerate_triangles": 0,
+          "finite": true,
+          "nonmanifold_edges": 0,
+          "signed_volume": 73.00564829228874
+        },
+        {
+          "object": "B67 | REFERENCE PIER | 609043801",
+          "vertices": 16,
+          "faces": 14,
+          "degenerate_triangles": 0,
+          "finite": true,
+          "nonmanifold_edges": 16,
+          "signed_volume": 318.8682716190752
+        },
+        {
+          "object": "B67 | WALKABLE CANDIDATE | 609043801",
+          "vertices": 16,
+          "faces": 14,
+          "degenerate_triangles": 0,
+          "finite": true,
+          "nonmanifold_edges": 16,
+          "signed_volume": 318.8682716190752
+        },
+        {
+          "object": "B67 | COLLISION CANDIDATE | PIER | 609043801",
+          "vertices": 16,
+          "faces": 14,
+          "degenerate_triangles": 0,
+          "finite": true,
+          "nonmanifold_edges": 16,
+          "signed_volume": 318.8682716190752
+        }
+      ],
+      "visual_reference_xy_equal": true,
+      "source_xy_max_error_m": 1.5108300088065942e-05,
+      "source_xy_tolerance_m": 0.0001,
+      "surface_collision_equal": true,
+      "deck_z_candidate_m": 4.5861053466796875,
+      "connection_approved": false,
+      "height_surveyed": false
+    }
+  ],
+  "foam": [
+    {
+      "object": "R30A8 | FOAM | linha costeira",
+      "coastline_segments": 119,
+      "matches_current_water_boundary_excluding_clip": true
+    },
+    {
+      "object": "R30A8 | FOAM | halo costeiro",
+      "coastline_segments": 119,
+      "matches_current_water_boundary_excluding_clip": true
+    }
+  ],
+  "local_geometry_checks_passed": true,
+  "real_fidelity_approved": false,
+  "runtime_exported": false,
+  "pending": [
+    "Altimetria/maré dos píeres antigos e novos sem levantamento",
+    "Ligação dos novos decks com a margem e apoios/fundações não aprovados",
+    "Eixos de píer/quebra-mar e passarelas sem largura permanecem referência",
+    "Fidelidade arquitetônica e percursos de gameplay continuam pendentes"
+  ],
+  "geometry_changed": false
+}

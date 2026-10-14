@@ -1,0 +1,332 @@
+{
+  "revision": "R30B.77",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b76_fundacao_geografica.blend",
+    "revision": "R30B.76",
+    "status": "geographic_foundation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b75_passeios_larguras_osm.blend",
+    "sha256": "8312775096a6f0fd0de5114885ffe2403ad9e367f38a8b40556433ad2dd79a60",
+    "evidence": "docs/reports/blender/geographic-foundation/application_b76.json",
+    "source_reopened": true,
+    "production_ready": false,
+    "notes": "Contrato geográfico único e Campo da Pólvora real; geometrias anteriores preservadas. Datum e topografia ainda candidatos; autoria/produção mantidas.",
+    "validation_evidence": "docs/reports/blender/geographic-foundation/validation_b76.json"
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b77_corredor_lacerda_cairu.blend",
+    "sha256": "067b8b796e4d3791c84a3a616bb639563719c4edb5bb464041fa7095564f78ae",
+    "revision": "R30B.77"
+  },
+  "baseline_frame": 31978,
+  "added_objects": [
+    "B77 | COLLISION | INFERIOR | piso do saguão",
+    "B77 | COLLISION | SUPERIOR | piso saguão",
+    "B77 | COLLISION | NAV | passarela superior",
+    "B77 | COLLISION | CALIBRADO | piso superior torre",
+    "B77 | COLLISION | CALIBRADO | piso desembarque baixo",
+    "B77 | COLLISION | FUNCIONAL | soleira inferior",
+    "B77 | COLLISION | INFERIOR R21 | passeio da entrada",
+    "B77 | COLLISION | INFERIOR R21 | rebaixo acessível",
+    "B77 | COLLISION | TÉRREO | laje",
+    "B77 | COLLISION | PRAÇA | OSM 1263035782",
+    "B77 | COLLISION | FUNCIONAL | 3 soleira superior",
+    "B77 | COLLISION | FUNCIONAL | 3 soleira inferior",
+    "B77 | COLLISION | TORRE | cornija galeria",
+    "B77 | COLLISION | FUNCIONAL | 3 piso",
+    "B77 | REFERENCE | seção vertical cabine 3",
+    "B77 | NAV QA | superior",
+    "B77 | NAV QA | inferior",
+    "B77 | QA | personagem"
+  ],
+  "collision_bindings": [
+    {
+      "object": "B77 | COLLISION | INFERIOR | piso do saguão",
+      "source": "INFERIOR | piso do saguão",
+      "triangles": 2,
+      "vertices": 4,
+      "moving": false
+    },
+    {
+      "object": "B77 | COLLISION | SUPERIOR | piso saguão",
+      "source": "SUPERIOR | piso saguão",
+      "triangles": 2,
+      "vertices": 4,
+      "moving": false
+    },
+    {
+      "object": "B77 | COLLISION | NAV | passarela superior",
+      "source": "NAV | passarela superior",
+      "triangles": 2,
+      "vertices": 4,
+      "moving": false
+    },
+    {
+      "object": "B77 | COLLISION | CALIBRADO | piso superior torre",
+      "source": "CALIBRADO | piso superior torre",
+      "triangles": 8,
+      "vertices": 8,
+      "moving": false
+    },
+    {
+      "object": "B77 | COLLISION | CALIBRADO | piso desembarque baixo",
+      "source": "CALIBRADO | piso desembarque baixo",
+      "triangles": 6,
+      "vertices": 10,
+      "moving": false
+    },
+    {
+      "object": "B77 | COLLISION | FUNCIONAL | soleira inferior",
+      "source": "FUNCIONAL | soleira inferior",
+      "triangles": 2,
+      "vertices": 4,
+      "moving": false
+    },
+    {
+      "object": "B77 | COLLISION | INFERIOR R21 | passeio da entrada",
+      "source": "INFERIOR R21 | passeio da entrada",
+      "triangles": 2,
+      "vertices": 4,
+      "moving": false
+    },
+    {
+      "object": "B77 | COLLISION | INFERIOR R21 | rebaixo acessível",
+      "source": "INFERIOR R21 | rebaixo acessível",
+      "triangles": 2,
+      "vertices": 4,
+      "moving": false
+    },
+    {
+      "object": "B77 | COLLISION | TÉRREO | laje",
+      "source": "TÉRREO | laje",
+      "triangles": 2,
+      "vertices": 4,
+      "moving": false
+    },
+    {
+      "object": "B77 | COLLISION | PRAÇA | OSM 1263035782",
+      "source": "PRAÇA | OSM 1263035782",
+      "triangles": 4,
+      "vertices": 6,
+      "moving": false
+    },
+    {
+      "object": "B77 | COLLISION | FUNCIONAL | 3 soleira superior",
+      "source": "FUNCIONAL | 3 soleira superior",
+      "triangles": 2,
+      "vertices": 4,
+      "moving": false
+    },
+    {
+      "object": "B77 | COLLISION | FUNCIONAL | 3 soleira inferior",
+      "source": "FUNCIONAL | 3 soleira inferior",
+      "triangles": 2,
+      "vertices": 4,
+      "moving": false
+    },
+    {
+      "object": "B77 | COLLISION | TORRE | cornija galeria",
+      "source": "TORRE | cornija galeria",
+      "triangles": 79,
+      "vertices": 60,
+      "moving": false
+    },
+    {
+      "object": "B77 | COLLISION | FUNCIONAL | 3 piso",
+      "source": "FUNCIONAL | 3 piso",
+      "triangles": 2,
+      "vertices": 4,
+      "moving": true
+    }
+  ],
+  "animated_existing_objects": [
+    "FUNCIONAL | 3 batente -1 -1",
+    "FUNCIONAL | 3 batente -1 1",
+    "FUNCIONAL | 3 batente 1 -1",
+    "FUNCIONAL | 3 batente 1 1",
+    "FUNCIONAL | 3 botoeira",
+    "FUNCIONAL | 3 botão",
+    "FUNCIONAL | 3 comando interno 1.23",
+    "FUNCIONAL | 3 comando interno 1.49",
+    "FUNCIONAL | 3 corrimão -1",
+    "FUNCIONAL | 3 corrimão 1",
+    "FUNCIONAL | 3 corrimão posterior",
+    "FUNCIONAL | 3 iluminação",
+    "FUNCIONAL | 3 interfone",
+    "FUNCIONAL | 3 janela fumê -1",
+    "FUNCIONAL | 3 janela fumê 1",
+    "FUNCIONAL | 3 lateral inferior -1",
+    "FUNCIONAL | 3 lateral inferior 1",
+    "FUNCIONAL | 3 lateral superior -1",
+    "FUNCIONAL | 3 lateral superior 1",
+    "FUNCIONAL | 3 luminária de serviço",
+    "FUNCIONAL | 3 montante janela -1 -1",
+    "FUNCIONAL | 3 montante janela -1 1",
+    "FUNCIONAL | 3 montante janela 1 -1",
+    "FUNCIONAL | 3 montante janela 1 1",
+    "FUNCIONAL | 3 painel de destinos",
+    "FUNCIONAL | 3 peitoril janela -1",
+    "FUNCIONAL | 3 peitoril janela 1",
+    "FUNCIONAL | 3 piso",
+    "FUNCIONAL | 3 porta cabine -1 -1",
+    "FUNCIONAL | 3 porta cabine -1 1",
+    "FUNCIONAL | 3 porta cabine 1 -1",
+    "FUNCIONAL | 3 porta cabine 1 1",
+    "FUNCIONAL | 3 porta estação lower -1",
+    "FUNCIONAL | 3 porta estação lower 1",
+    "FUNCIONAL | 3 porta estação upper -1",
+    "FUNCIONAL | 3 porta estação upper 1",
+    "FUNCIONAL | 3 teto",
+    "FUNCIONAL | 3 verga -1",
+    "FUNCIONAL | 3 verga 1"
+  ],
+  "door_states": [
+    {
+      "group": [
+        "cabin",
+        -1
+      ],
+      "objects": [
+        "FUNCIONAL | 3 porta cabine -1 -1",
+        "FUNCIONAL | 3 porta cabine -1 1"
+      ],
+      "keys": [
+        [
+          65000,
+          0
+        ],
+        [
+          66977,
+          0
+        ],
+        [
+          67001,
+          1
+        ],
+        [
+          69540,
+          1
+        ]
+      ]
+    },
+    {
+      "group": [
+        "cabin",
+        1
+      ],
+      "objects": [
+        "FUNCIONAL | 3 porta cabine 1 -1",
+        "FUNCIONAL | 3 porta cabine 1 1"
+      ],
+      "keys": [
+        [
+          65000,
+          0
+        ],
+        [
+          65024,
+          1
+        ],
+        [
+          66473,
+          1
+        ],
+        [
+          66497,
+          0
+        ],
+        [
+          69540,
+          0
+        ]
+      ]
+    },
+    {
+      "group": [
+        "station",
+        "upper"
+      ],
+      "objects": [
+        "FUNCIONAL | 3 porta estação upper -1",
+        "FUNCIONAL | 3 porta estação upper 1"
+      ],
+      "keys": [
+        [
+          65000,
+          0
+        ],
+        [
+          65024,
+          1
+        ],
+        [
+          66473,
+          1
+        ],
+        [
+          66497,
+          0
+        ],
+        [
+          69540,
+          0
+        ]
+      ]
+    },
+    {
+      "group": [
+        "station",
+        "lower"
+      ],
+      "objects": [
+        "FUNCIONAL | 3 porta estação lower -1",
+        "FUNCIONAL | 3 porta estação lower 1"
+      ],
+      "keys": [
+        [
+          65000,
+          0
+        ],
+        [
+          66977,
+          0
+        ],
+        [
+          67001,
+          1
+        ],
+        [
+          69540,
+          1
+        ]
+      ]
+    }
+  ],
+  "timeline": {
+    "start": 65024,
+    "departure": 66497,
+    "landing": 66977,
+    "walk_out": 67025,
+    "end": 69516,
+    "walking_speed_design_units_per_second": 1.4,
+    "trip_seconds_design": 20
+  },
+  "changed_visibility": [
+    "OSM | 1263035777"
+  ],
+  "hero_assets_relocated": false,
+  "terrain_changed": false,
+  "ssot_sha256": "1d9da0962d456cb38ed3df0da797208e499a8465f82e9836c14bb337df2385e7",
+  "engine_physics_verified": false,
+  "local_correction": {
+    "object": "LAC R30B07 | galeria | consolo inclinado",
+    "modifier": "B77 | abertura da seção existente cabine 3",
+    "cutter": "B77 | REFERENCE | seção vertical cabine 3",
+    "method": "difference da seção XY real da cabine existente, extrudida entre paradas; base mesh e transforms preservados",
+    "reference_dimensions_status": "candidate; dimensões históricas da cabine não levantadas",
+    "shaft_character_blocked_after": 0
+  },
+  "existing_base_meshes_changed": false,
+  "existing_evaluated_meshes_changed": [
+    "LAC R30B07 | galeria | consolo inclinado"
+  ]
+}

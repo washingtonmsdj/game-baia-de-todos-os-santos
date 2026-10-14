@@ -1,0 +1,6430 @@
+{
+  "source": {
+    "file": "blender/salvador_lacerda_r30b79_contrato_colisao_slice.blend",
+    "sha256": "777d1748ddcf594cda267590172983743bb75cc11153e1db030f173ef7dde14f"
+  },
+  "upper_samples": 901,
+  "changed_foot_heights": 900,
+  "max_z_change": 0.1380079761147499,
+  "support_sources": [
+    "CALIBRADO | passarela piso 28.71 x 6.00m",
+    "FUNCIONAL | 3 piso",
+    "FUNCIONAL | 3 soleira superior",
+    "LAC R30B | Passarela | piso paginado visual",
+    "PRAÇA | OSM 1263035782",
+    "SUPERIOR | piso saguão",
+    "TORRE | cornija galeria"
+  ],
+  "missing_or_uncertain_support": [
+    {
+      "point": 142,
+      "reason": "rounded_foot_support_requires_engine",
+      "foot_lift": 0.03868294507265091
+    },
+    {
+      "point": 143,
+      "reason": "rounded_foot_support_requires_engine",
+      "foot_lift": 0.05938334763050079
+    },
+    {
+      "point": 271,
+      "reason": "rounded_foot_support_requires_engine",
+      "foot_lift": 0.050304219126701355
+    },
+    {
+      "point": 273,
+      "reason": "rounded_foot_support_requires_engine",
+      "foot_lift": 0.048831649124622345
+    },
+    {
+      "point": 274,
+      "reason": "rounded_foot_support_requires_engine",
+      "foot_lift": 0.11198175698518753
+    },
+    {
+      "point": 275,
+      "reason": "rounded_foot_support_requires_engine",
+      "foot_lift": 0.13646529614925385
+    },
+    {
+      "point": 330,
+      "reason": "rounded_foot_support_requires_engine",
+      "foot_lift": 0.13800859451293945
+    },
+    {
+      "point": 331,
+      "reason": "rounded_foot_support_requires_engine",
+      "foot_lift": 0.13800793886184692
+    },
+    {
+      "point": 349,
+      "reason": "rounded_foot_support_requires_engine",
+      "foot_lift": 0.1380080059170723
+    },
+    {
+      "point": 427,
+      "reason": "rounded_foot_support_requires_engine",
+      "foot_lift": 0.1380041390657425
+    },
+    {
+      "point": 522,
+      "reason": "rounded_foot_support_requires_engine",
+      "foot_lift": 0.13800602406263351
+    },
+    {
+      "point": 617,
+      "reason": "rounded_foot_support_requires_engine",
+      "foot_lift": 0.13800857216119766
+    },
+    {
+      "point": 618,
+      "reason": "rounded_foot_support_requires_engine",
+      "foot_lift": 0.1380079761147499
+    },
+    {
+      "point": 628,
+      "reason": "rounded_foot_support_requires_engine",
+      "foot_lift": 0.1380075290799141
+    },
+    {
+      "point": 737,
+      "reason": "rounded_foot_support_requires_engine",
+      "foot_lift": 0.13800735026597977
+    },
+    {
+      "point": 883,
+      "reason": "no_real_center_support",
+      "xy": [
+        -47.0,
+        48.0
+      ]
+    },
+    {
+      "point": 884,
+      "reason": "no_real_center_support",
+      "xy": [
+        -47.08,
+        48.0
+      ]
+    },
+    {
+      "point": 885,
+      "reason": "no_real_center_support",
+      "xy": [
+        -47.16,
+        48.0
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "point": 0,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 1,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 2,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 3,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 4,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 5,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 6,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 7,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 8,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 9,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 10,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 11,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 12,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 13,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 14,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 15,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 16,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 17,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 18,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 19,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 20,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 21,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 22,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 23,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 24,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 25,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 26,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 27,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 28,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 29,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 30,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 31,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 32,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 33,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 34,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 35,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 36,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 37,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 38,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 39,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 40,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 41,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 42,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 43,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 44,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 45,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 46,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 47,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 48,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 49,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 50,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 51,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 52,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 53,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 54,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 55,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 56,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 57,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 58,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 59,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 60,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 61,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 62,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 63,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 64,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 65,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 66,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 67,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 68,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 69,
+      "z_before": 70.0,
+      "z_after": 70.01500000059603,
+      "ground_z": 69.99999999999999,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 70,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 71,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 72,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 73,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 74,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 75,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 76,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 77,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 78,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 79,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 80,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 81,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 82,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 83,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 84,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 85,
+      "z_before": 70.0,
+      "z_after": 70.01500000059606,
+      "ground_z": 70.00000000000001,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 86,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 87,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 88,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 89,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 90,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 91,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 92,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 93,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 94,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 95,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 96,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 97,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 98,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 99,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 100,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 101,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 102,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 103,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 104,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 105,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 106,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 107,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 108,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 109,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 110,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 111,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 112,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 113,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 114,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 115,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 116,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 117,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 118,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 119,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 120,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 121,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 122,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 123,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 124,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 125,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 126,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 127,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 128,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 129,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 130,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 131,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 132,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 133,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 134,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 135,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 136,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 137,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 138,
+      "z_before": 70.0,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 139,
+      "z_before": 70.00749969482422,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 140,
+      "z_before": 70.01499938964844,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 141,
+      "z_before": 70.02249908447266,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 142,
+      "z_before": 70.02999877929688,
+      "z_after": 70.03868294507265,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 143,
+      "z_before": 70.0374984741211,
+      "z_after": 70.0593833476305,
+      "ground_z": 70.0,
+      "source": "PRAÇA | OSM 1263035782"
+    },
+    {
+      "point": 144,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 145,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 146,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 147,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 148,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 149,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 150,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 151,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 152,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 153,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 154,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 155,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 156,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 157,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 158,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 159,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954134,
+      "ground_z": 70.0449981689453,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 160,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 161,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 162,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 163,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 164,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954137,
+      "ground_z": 70.04499816894533,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 165,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 166,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 167,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 168,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 169,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 170,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 171,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 172,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 173,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 174,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 175,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954137,
+      "ground_z": 70.04499816894533,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 176,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954137,
+      "ground_z": 70.04499816894533,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 177,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 178,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954137,
+      "ground_z": 70.04499816894533,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 179,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 180,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 181,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 182,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 183,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 184,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 185,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 186,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 187,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 188,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 189,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 190,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 191,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 192,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 193,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 194,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 195,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 196,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 197,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 198,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 199,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 200,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 201,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 202,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 203,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 204,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 205,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 206,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 207,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 208,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 209,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 210,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 211,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 212,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 213,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 214,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 215,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 216,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 217,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 218,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 219,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 220,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 221,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 222,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 223,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 224,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 225,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 226,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 227,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 228,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 229,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 230,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 231,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 232,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 233,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 234,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 235,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 236,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 237,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954134,
+      "ground_z": 70.0449981689453,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 238,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 239,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 240,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 241,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 242,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 243,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 244,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 245,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 246,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 247,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 248,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 249,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 250,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 251,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 252,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 253,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 254,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 255,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 256,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 257,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 258,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 259,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 260,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 261,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 262,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 263,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 264,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954137,
+      "ground_z": 70.04499816894533,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 265,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954134,
+      "ground_z": 70.0449981689453,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 266,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 267,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 268,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 269,
+      "z_before": 70.04499816894531,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 270,
+      "z_before": 70.0374984741211,
+      "z_after": 70.05999816954136,
+      "ground_z": 70.04499816894531,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "point": 271,
+      "z_before": 70.02999877929688,
+      "z_after": 70.0503042191267,
+      "ground_z": 70.0,
+      "source": "CALIBRADO | passarela piso 28.71 x 6.00m"
+    },
+    {
+      "point": 272,
+      "z_before": 70.02249908447266,
+      "z_after": 70.01500000059605,
+      "ground_z": 70.0,
+      "source": "CALIBRADO | passarela piso 28.71 x 6.00m"
+    },
+    {
+      "point": 273,
+      "z_before": 70.01499938964844,
+      "z_after": 70.04883164912462,
+      "ground_z": 70.0,
+      "source": "CALIBRADO | passarela piso 28.71 x 6.00m"
+    },
+    {
+      "point": 274,
+      "z_before": 70.00749969482422,
+      "z_after": 70.11198175698519,
+      "ground_z": 70.0,
+      "source": "CALIBRADO | passarela piso 28.71 x 6.00m"
+    },
+    {
+      "point": 275,
+      "z_before": 70.0,
+      "z_after": 70.13646529614925,
+      "ground_z": 70.0,
+      "source": "CALIBRADO | passarela piso 28.71 x 6.00m"
+    },
+    {
+      "point": 276,
+      "z_before": 70.02050145467122,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 277,
+      "z_before": 70.04100290934245,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 278,
+      "z_before": 70.06150436401367,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 279,
+      "z_before": 70.08200581868489,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 280,
+      "z_before": 70.10250727335612,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 281,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 282,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 283,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 284,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 285,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 286,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 287,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 288,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 289,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 290,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 291,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 292,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 293,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 294,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 295,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 296,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 297,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 298,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 299,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 300,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 301,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 302,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 303,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 304,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 305,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 306,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 307,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 308,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862338,
+      "ground_z": 70.12300872802733,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 309,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 310,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 311,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 312,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 313,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 314,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 315,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 316,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 317,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862338,
+      "ground_z": 70.12300872802733,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 318,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 319,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 320,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 321,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 322,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 323,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 324,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 325,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 326,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 327,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 328,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 329,
+      "z_before": 70.12300872802734,
+      "z_after": 70.1380087286234,
+      "ground_z": 70.12300872802736,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 330,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800859451294,
+      "ground_z": 70.0,
+      "source": "CALIBRADO | passarela piso 28.71 x 6.00m"
+    },
+    {
+      "point": 331,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800793886185,
+      "ground_z": 70.0,
+      "source": "CALIBRADO | passarela piso 28.71 x 6.00m"
+    },
+    {
+      "point": 332,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 333,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 334,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 335,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 336,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 337,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 338,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 339,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862338,
+      "ground_z": 70.12300872802733,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 340,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 341,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 342,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 343,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 344,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 345,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 346,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 347,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 348,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 349,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800800591707,
+      "ground_z": 70.0,
+      "source": "CALIBRADO | passarela piso 28.71 x 6.00m"
+    },
+    {
+      "point": 350,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862338,
+      "ground_z": 70.12300872802733,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 351,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 352,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 353,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 354,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 355,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 356,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 357,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 358,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 359,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 360,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 361,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 362,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 363,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 364,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862338,
+      "ground_z": 70.12300872802733,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 365,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 366,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 367,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 368,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 369,
+      "z_before": 70.12300872802734,
+      "z_after": 70.1380087286234,
+      "ground_z": 70.12300872802736,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 370,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 371,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 372,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 373,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 374,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 375,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 376,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 377,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 378,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 379,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 380,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 381,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 382,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862338,
+      "ground_z": 70.12300872802733,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 383,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 384,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 385,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 386,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 387,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 388,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 389,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 390,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 391,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 392,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 393,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 394,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 395,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 396,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 397,
+      "z_before": 70.12300872802734,
+      "z_after": 70.1380087286234,
+      "ground_z": 70.12300872802736,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 398,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 399,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 400,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 401,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 402,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 403,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 404,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 405,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 406,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 407,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 408,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 409,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 410,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 411,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 412,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 413,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 414,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 415,
+      "z_before": 70.12300872802734,
+      "z_after": 70.1380087286234,
+      "ground_z": 70.12300872802736,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 416,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862338,
+      "ground_z": 70.12300872802733,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 417,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 418,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 419,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 420,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 421,
+      "z_before": 70.12300872802734,
+      "z_after": 70.1380087286234,
+      "ground_z": 70.12300872802736,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 422,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 423,
+      "z_before": 70.12300872802734,
+      "z_after": 70.1380087286234,
+      "ground_z": 70.12300872802736,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 424,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 425,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 426,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 427,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800413906574,
+      "ground_z": 70.0,
+      "source": "CALIBRADO | passarela piso 28.71 x 6.00m"
+    },
+    {
+      "point": 428,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 429,
+      "z_before": 70.12300872802734,
+      "z_after": 70.1380087286234,
+      "ground_z": 70.12300872802736,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 430,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 431,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 432,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 433,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 434,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 435,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 436,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 437,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 438,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 439,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 440,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 441,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 442,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 443,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 444,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 445,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 446,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 447,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 448,
+      "z_before": 70.12300872802734,
+      "z_after": 70.1380087286234,
+      "ground_z": 70.12300872802736,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 449,
+      "z_before": 70.12300872802734,
+      "z_after": 70.1380087286234,
+      "ground_z": 70.12300872802736,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 450,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 451,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 452,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 453,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 454,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 455,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 456,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 457,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 458,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 459,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 460,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 461,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 462,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 463,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 464,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 465,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 466,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 467,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 468,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 469,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 470,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 471,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 472,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 473,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 474,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 475,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 476,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 477,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 478,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 479,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862338,
+      "ground_z": 70.12300872802733,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 480,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 481,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 482,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 483,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 484,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 485,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 486,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 487,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 488,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 489,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 490,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 491,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 492,
+      "z_before": 70.12300872802734,
+      "z_after": 70.1380087286234,
+      "ground_z": 70.12300872802736,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 493,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 494,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 495,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 496,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 497,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 498,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 499,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 500,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 501,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 502,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 503,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 504,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862338,
+      "ground_z": 70.12300872802733,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 505,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 506,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 507,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 508,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 509,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 510,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 511,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 512,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 513,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 514,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 515,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 516,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 517,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 518,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 519,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 520,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 521,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 522,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800602406263,
+      "ground_z": 70.0,
+      "source": "CALIBRADO | passarela piso 28.71 x 6.00m"
+    },
+    {
+      "point": 523,
+      "z_before": 70.12300872802734,
+      "z_after": 70.1380087286234,
+      "ground_z": 70.12300872802736,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 524,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 525,
+      "z_before": 70.12300872802734,
+      "z_after": 70.1380087286234,
+      "ground_z": 70.12300872802736,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 526,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 527,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 528,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 529,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 530,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862338,
+      "ground_z": 70.12300872802733,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 531,
+      "z_before": 70.12300872802734,
+      "z_after": 70.1380087286234,
+      "ground_z": 70.12300872802736,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 532,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 533,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862338,
+      "ground_z": 70.12300872802733,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 534,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 535,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 536,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 537,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 538,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 539,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 540,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 541,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 542,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 543,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 544,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 545,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 546,
+      "z_before": 70.12300872802734,
+      "z_after": 70.1380087286234,
+      "ground_z": 70.12300872802736,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 547,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 548,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 549,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 550,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 551,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 552,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 553,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 554,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 555,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862338,
+      "ground_z": 70.12300872802733,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 556,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 557,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 558,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 559,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 560,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 561,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 562,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 563,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 564,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 565,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 566,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 567,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 568,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 569,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 570,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 571,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 572,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 573,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 574,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 575,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 576,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 577,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 578,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 579,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 580,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 581,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 582,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 583,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 584,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 585,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 586,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 587,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 588,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 589,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 590,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 591,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 592,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 593,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 594,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 595,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 596,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 597,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 598,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 599,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 600,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 601,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 602,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 603,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 604,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 605,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 606,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 607,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 608,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 609,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 610,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 611,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 612,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 613,
+      "z_before": 70.10250727335612,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 614,
+      "z_before": 70.08200581868489,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 615,
+      "z_before": 70.06150436401367,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 616,
+      "z_before": 70.04100290934245,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 617,
+      "z_before": 70.02050145467122,
+      "z_after": 70.1380085721612,
+      "ground_z": 70.0,
+      "source": "CALIBRADO | passarela piso 28.71 x 6.00m"
+    },
+    {
+      "point": 618,
+      "z_before": 70.0,
+      "z_after": 70.13800797611475,
+      "ground_z": 70.0,
+      "source": "CALIBRADO | passarela piso 28.71 x 6.00m"
+    },
+    {
+      "point": 619,
+      "z_before": 70.02050145467122,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 620,
+      "z_before": 70.04100290934245,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 621,
+      "z_before": 70.06150436401367,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 622,
+      "z_before": 70.08200581868489,
+      "z_after": 70.13800872862338,
+      "ground_z": 70.12300872802733,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 623,
+      "z_before": 70.10250727335612,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 624,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 625,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 626,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 627,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 628,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800752907991,
+      "ground_z": 70.0,
+      "source": "CALIBRADO | passarela piso 28.71 x 6.00m"
+    },
+    {
+      "point": 629,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 630,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 631,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 632,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 633,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 634,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 635,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 636,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 637,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 638,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 639,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 640,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 641,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 642,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 643,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 644,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 645,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 646,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 647,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 648,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 649,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 650,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 651,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 652,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 653,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 654,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 655,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 656,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 657,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 658,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 659,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 660,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 661,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 662,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 663,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 664,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 665,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 666,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 667,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 668,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 669,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 670,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 671,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 672,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 673,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 674,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 675,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 676,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 677,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 678,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 679,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 680,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 681,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 682,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 683,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 684,
+      "z_before": 70.12300872802734,
+      "z_after": 70.1380087286234,
+      "ground_z": 70.12300872802736,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 685,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 686,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 687,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 688,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 689,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 690,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 691,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 692,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 693,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 694,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 695,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 696,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 697,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 698,
+      "z_before": 70.12300872802734,
+      "z_after": 70.1380087286234,
+      "ground_z": 70.12300872802736,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 699,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 700,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 701,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 702,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 703,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 704,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 705,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 706,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 707,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 708,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 709,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 710,
+      "z_before": 70.12300872802734,
+      "z_after": 70.1380087286234,
+      "ground_z": 70.12300872802736,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 711,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 712,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 713,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 714,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 715,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 716,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 717,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 718,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862338,
+      "ground_z": 70.12300872802733,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 719,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 720,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 721,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 722,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 723,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 724,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 725,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 726,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 727,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 728,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 729,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 730,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 731,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 732,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 733,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 734,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 735,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 736,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 737,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800735026598,
+      "ground_z": 70.0,
+      "source": "CALIBRADO | passarela piso 28.71 x 6.00m"
+    },
+    {
+      "point": 738,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 739,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 740,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 741,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 742,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 743,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 744,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 745,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862338,
+      "ground_z": 70.12300872802733,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 746,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 747,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 748,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 749,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 750,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 751,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 752,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 753,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 754,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 755,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 756,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 757,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 758,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 759,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 760,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 761,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 762,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 763,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 764,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 765,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 766,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 767,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 768,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 769,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 770,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 771,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 772,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 773,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 774,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 775,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 776,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 777,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 778,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 779,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 780,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 781,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 782,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 783,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 784,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 785,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 786,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 787,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 788,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 789,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 790,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 791,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 792,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 793,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 794,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 795,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 796,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 797,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 798,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 799,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 800,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 801,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 802,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 803,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 804,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 805,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 806,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 807,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 808,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 809,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 810,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 811,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 812,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 813,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 814,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 815,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 816,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 817,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 818,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 819,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 820,
+      "z_before": 70.12300872802734,
+      "z_after": 70.1380087286234,
+      "ground_z": 70.12300872802736,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 821,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 822,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 823,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 824,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 825,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 826,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862338,
+      "ground_z": 70.12300872802733,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 827,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 828,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 829,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 830,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 831,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 832,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 833,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 834,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 835,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 836,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 837,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 838,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 839,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 840,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 841,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 842,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 843,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 844,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 845,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 846,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862338,
+      "ground_z": 70.12300872802733,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 847,
+      "z_before": 70.12300872802734,
+      "z_after": 70.1380087286234,
+      "ground_z": 70.12300872802736,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 848,
+      "z_before": 70.12300872802734,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 849,
+      "z_before": 70.12334060668945,
+      "z_after": 70.13800872862339,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 850,
+      "z_before": 70.12367248535156,
+      "z_after": 70.1384928971529,
+      "ground_z": 70.12300872802734,
+      "source": "LAC R30B | Passarela | piso paginado visual"
+    },
+    {
+      "point": 851,
+      "z_before": 70.12400436401367,
+      "z_after": 70.14000000059605,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 852,
+      "z_before": 70.12433624267578,
+      "z_after": 70.14000000059605,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 853,
+      "z_before": 70.12466812133789,
+      "z_after": 70.14000000059605,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 854,
+      "z_before": 70.125,
+      "z_after": 70.14000000059605,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 855,
+      "z_before": 70.125,
+      "z_after": 70.14000000059605,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 856,
+      "z_before": 70.125,
+      "z_after": 70.14000000059605,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 857,
+      "z_before": 70.125,
+      "z_after": 70.14000000059605,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 858,
+      "z_before": 70.125,
+      "z_after": 70.14000000059605,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 859,
+      "z_before": 70.125,
+      "z_after": 70.14000000059605,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 860,
+      "z_before": 70.125,
+      "z_after": 70.14000000059605,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 861,
+      "z_before": 70.125,
+      "z_after": 70.14000000059605,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 862,
+      "z_before": 70.125,
+      "z_after": 70.14000000059605,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 863,
+      "z_before": 70.125,
+      "z_after": 70.14000000059605,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 864,
+      "z_before": 70.125,
+      "z_after": 70.14000000059605,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 865,
+      "z_before": 70.125,
+      "z_after": 70.14000000059605,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 866,
+      "z_before": 70.125,
+      "z_after": 70.14000000059605,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 867,
+      "z_before": 70.125,
+      "z_after": 70.14000000059605,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 868,
+      "z_before": 70.125,
+      "z_after": 70.14000000059605,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 869,
+      "z_before": 70.125,
+      "z_after": 70.14000000059605,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 870,
+      "z_before": 70.125,
+      "z_after": 70.14000000059605,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 871,
+      "z_before": 70.125,
+      "z_after": 70.14000000059605,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 872,
+      "z_before": 70.125,
+      "z_after": 70.14000000059605,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 873,
+      "z_before": 70.125,
+      "z_after": 70.14000000059605,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 874,
+      "z_before": 70.125,
+      "z_after": 70.14000000059605,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 875,
+      "z_before": 70.125,
+      "z_after": 70.14000000059605,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 876,
+      "z_before": 70.125,
+      "z_after": 70.14000000059605,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 877,
+      "z_before": 70.125,
+      "z_after": 70.14000000059605,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 878,
+      "z_before": 70.125,
+      "z_after": 70.15379145741461,
+      "ground_z": 70.12499999999999,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 879,
+      "z_before": 70.1241256687503,
+      "z_after": 70.15399993956089,
+      "ground_z": 70.13899993896484,
+      "source": "FUNCIONAL | 3 soleira superior"
+    },
+    {
+      "point": 880,
+      "z_before": 70.12325133750059,
+      "z_after": 70.15399993956089,
+      "ground_z": 70.13899993896484,
+      "source": "FUNCIONAL | 3 soleira superior"
+    },
+    {
+      "point": 881,
+      "z_before": 70.1223770062509,
+      "z_after": 70.15311828255653,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 882,
+      "z_before": 70.1215026750012,
+      "z_after": 70.14316938817501,
+      "ground_z": 70.125,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 883,
+      "z_before": 70.12062834375149,
+      "z_after": 70.13583924048191,
+      "ground_z": 70.12062834375149,
+      "source": "TORRE | cornija galeria"
+    },
+    {
+      "point": 884,
+      "z_before": 70.1195022477551,
+      "z_after": 70.12394976008372,
+      "ground_z": 70.1195022477551,
+      "source": "FUNCIONAL | 3 piso"
+    },
+    {
+      "point": 885,
+      "z_before": 70.11837615175871,
+      "z_after": 70.12998268856434,
+      "ground_z": 70.11837615175871,
+      "source": "FUNCIONAL | 3 piso"
+    },
+    {
+      "point": 886,
+      "z_before": 70.11725005576231,
+      "z_after": 70.12999786436558,
+      "ground_z": 70.11499786376953,
+      "source": "FUNCIONAL | 3 piso"
+    },
+    {
+      "point": 887,
+      "z_before": 70.11612395976593,
+      "z_after": 70.12999786436558,
+      "ground_z": 70.11499786376953,
+      "source": "FUNCIONAL | 3 piso"
+    },
+    {
+      "point": 888,
+      "z_before": 70.11499786376953,
+      "z_after": 70.12999786436558,
+      "ground_z": 70.11499786376953,
+      "source": "FUNCIONAL | 3 piso"
+    },
+    {
+      "point": 889,
+      "z_before": 70.11499786376953,
+      "z_after": 70.12999786436558,
+      "ground_z": 70.11499786376953,
+      "source": "FUNCIONAL | 3 piso"
+    },
+    {
+      "point": 890,
+      "z_before": 70.11499786376953,
+      "z_after": 70.12999786436558,
+      "ground_z": 70.11499786376953,
+      "source": "FUNCIONAL | 3 piso"
+    },
+    {
+      "point": 891,
+      "z_before": 70.11499786376953,
+      "z_after": 70.12999786436558,
+      "ground_z": 70.11499786376953,
+      "source": "FUNCIONAL | 3 piso"
+    },
+    {
+      "point": 892,
+      "z_before": 70.11499786376953,
+      "z_after": 70.12999786436558,
+      "ground_z": 70.11499786376953,
+      "source": "FUNCIONAL | 3 piso"
+    },
+    {
+      "point": 893,
+      "z_before": 70.11499786376953,
+      "z_after": 70.12999786436558,
+      "ground_z": 70.11499786376953,
+      "source": "FUNCIONAL | 3 piso"
+    },
+    {
+      "point": 894,
+      "z_before": 70.11499786376953,
+      "z_after": 70.12999786436558,
+      "ground_z": 70.11499786376953,
+      "source": "FUNCIONAL | 3 piso"
+    },
+    {
+      "point": 895,
+      "z_before": 70.11499786376953,
+      "z_after": 70.12999786436558,
+      "ground_z": 70.11499786376953,
+      "source": "FUNCIONAL | 3 piso"
+    },
+    {
+      "point": 896,
+      "z_before": 70.11499786376953,
+      "z_after": 70.12999786436558,
+      "ground_z": 70.11499786376953,
+      "source": "FUNCIONAL | 3 piso"
+    },
+    {
+      "point": 897,
+      "z_before": 70.11499786376953,
+      "z_after": 70.12999786436558,
+      "ground_z": 70.11499786376953,
+      "source": "FUNCIONAL | 3 piso"
+    },
+    {
+      "point": 898,
+      "z_before": 70.11499786376953,
+      "z_after": 70.12999786436558,
+      "ground_z": 70.11499786376953,
+      "source": "FUNCIONAL | 3 piso"
+    },
+    {
+      "point": 899,
+      "z_before": 70.11499786376953,
+      "z_after": 70.12999786436558,
+      "ground_z": 70.11499786376953,
+      "source": "FUNCIONAL | 3 piso"
+    },
+    {
+      "point": 900,
+      "z_before": 70.11499786376953,
+      "z_after": 70.12999786436558,
+      "ground_z": 70.11499786376953,
+      "source": "FUNCIONAL | 3 piso"
+    }
+  ],
+  "architecture_changed": false,
+  "engine_verified": false
+}

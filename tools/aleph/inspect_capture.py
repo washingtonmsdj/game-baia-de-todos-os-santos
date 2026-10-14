@@ -25,28 +25,9 @@ EXPECTED_FORMAT = "aleph-python"
 KNOWN_FORMAT_VERSION = 3
 EARTH_RADIUS_M = 6_371_008.8
 
-POLICIES = {
-    "osm": {
-        "classe_uso": "PRODUCAO_COM_ATRIBUICAO",
-        "licenca": "ODbL (OpenStreetMap); confirmar requisitos do uso concreto",
-        "observacao": "Adequado para vias, footprints, POIs e proxies; manter atribuição e proveniência.",
-    },
-    "terrain": {
-        "classe_uso": "PENDENTE_VERIFICACAO",
-        "licenca": "Origem/licença do dataset de elevação deve ser confirmada por captura",
-        "observacao": "Usar como referência/MVP até a fonte efetiva do DEM ser registrada e aprovada.",
-    },
-    "satellite": {
-        "classe_uso": "PROIBIDO_PRODUCAO",
-        "licenca": "Conteúdo externo; a implementação Aleph analisada usa tiles do Google",
-        "observacao": "Não incorporar como textura nem usar como fonte derivativa automática de produção.",
-    },
-    "streetview": {
-        "classe_uso": "PROIBIDO_PRODUCAO",
-        "licenca": "Conteúdo externo; a implementação Aleph analisada usa Google Street View",
-        "observacao": "Não incorporar ao jogo/assets nem usar como fonte derivativa automática de produção.",
-    },
-}
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+from tools.references.provenance import load_policy
+POLICIES = load_policy()['aleph_sources']
 
 EXPECTED_FILES = {
     "osm": ["map.osm", "terrain.tif"],

@@ -1,0 +1,211 @@
+{
+  "controls": [
+    {
+      "drawing_id": "sucop-2023-17",
+      "control_id": "XY-17-vector-5",
+      "drawing_point": [
+        829.3199999999999,
+        1012.0
+      ],
+      "drawing_frame": "PDF vector points; upper-left origin, not metric SSOT",
+      "drawing_curve": 1682,
+      "drawing_vertex": 5,
+      "drawing_feature": "Quina do contorno estrutural documentado da região da torre; fase e face equivalente na cena pendentes",
+      "scene_object": null,
+      "scene_point": null,
+      "source": "source:lacerda-issue22-sucop-17",
+      "source_sha256": "02d02b37b61b9a44ca931a00811e196e104322a6f0f89fc4bfb04f70d7783dd1",
+      "confidence": "DOCUMENT_POINT_IDENTIFIED_SCENE_MATCH_UNRESOLVED",
+      "residual": null,
+      "reason": "Os encontros documentais não têm correspondência física inequívoca com a malha dos obstáculos. Plataforma/cobertura retangulares não identificam por si só quinas de paredes/torre desenhadas. Não associar vértices de caixa aos encontros apenas por posição, nome ou número de pontos.",
+      "accepted_for_registration": false
+    },
+    {
+      "drawing_id": "sucop-2023-17",
+      "control_id": "XY-17-vector-6",
+      "drawing_point": [
+        816.48,
+        1055.56
+      ],
+      "drawing_frame": "PDF vector points; upper-left origin, not metric SSOT",
+      "drawing_curve": 1682,
+      "drawing_vertex": 6,
+      "drawing_feature": "Quina do contorno estrutural documentado da região da torre; fase e face equivalente na cena pendentes",
+      "scene_object": null,
+      "scene_point": null,
+      "source": "source:lacerda-issue22-sucop-17",
+      "source_sha256": "02d02b37b61b9a44ca931a00811e196e104322a6f0f89fc4bfb04f70d7783dd1",
+      "confidence": "DOCUMENT_POINT_IDENTIFIED_SCENE_MATCH_UNRESOLVED",
+      "residual": null,
+      "reason": "Os encontros documentais não têm correspondência física inequívoca com a malha dos obstáculos. Plataforma/cobertura retangulares não identificam por si só quinas de paredes/torre desenhadas. Não associar vértices de caixa aos encontros apenas por posição, nome ou número de pontos.",
+      "accepted_for_registration": false
+    },
+    {
+      "drawing_id": "sucop-2023-17",
+      "control_id": "XY-17-vector-14",
+      "drawing_point": [
+        941.64,
+        1093.24
+      ],
+      "drawing_frame": "PDF vector points; upper-left origin, not metric SSOT",
+      "drawing_curve": 1682,
+      "drawing_vertex": 14,
+      "drawing_feature": "Quina do contorno estrutural documentado da região da torre; fase e face equivalente na cena pendentes",
+      "scene_object": null,
+      "scene_point": null,
+      "source": "source:lacerda-issue22-sucop-17",
+      "source_sha256": "02d02b37b61b9a44ca931a00811e196e104322a6f0f89fc4bfb04f70d7783dd1",
+      "confidence": "DOCUMENT_POINT_IDENTIFIED_SCENE_MATCH_UNRESOLVED",
+      "residual": null,
+      "reason": "Os encontros documentais não têm correspondência física inequívoca com a malha dos obstáculos. Plataforma/cobertura retangulares não identificam por si só quinas de paredes/torre desenhadas. Não associar vértices de caixa aos encontros apenas por posição, nome ou número de pontos.",
+      "accepted_for_registration": false
+    },
+    {
+      "drawing_id": "sucop-2023-12",
+      "control_id": "XY-12-vector-0",
+      "drawing_point": [
+        831.6,
+        1013.2
+      ],
+      "drawing_frame": "PDF vector points; upper-left origin, not metric SSOT",
+      "drawing_curve": 437,
+      "drawing_vertex": 0,
+      "drawing_feature": "Quina do contorno estrutural documentado da região da torre; fase e face equivalente na cena pendentes",
+      "scene_object": null,
+      "scene_point": null,
+      "source": "source:lacerda-issue22-sucop-12",
+      "source_sha256": "3a2ab2f97396bb860100e661d303cc640675d68abf3a1cc9c380fe66bbcf079b",
+      "confidence": "DOCUMENT_POINT_IDENTIFIED_SCENE_MATCH_UNRESOLVED",
+      "residual": null,
+      "reason": "Os encontros documentais não têm correspondência física inequívoca com a malha dos obstáculos. Plataforma/cobertura retangulares não identificam por si só quinas de paredes/torre desenhadas. Não associar vértices de caixa aos encontros apenas por posição, nome ou número de pontos.",
+      "accepted_for_registration": false
+    },
+    {
+      "drawing_id": "sucop-2023-12",
+      "control_id": "XY-12-vector-1",
+      "drawing_point": [
+        816.9599999999999,
+        1062.6399999999999
+      ],
+      "drawing_frame": "PDF vector points; upper-left origin, not metric SSOT",
+      "drawing_curve": 437,
+      "drawing_vertex": 1,
+      "drawing_feature": "Quina do contorno estrutural documentado da região da torre; fase e face equivalente na cena pendentes",
+      "scene_object": null,
+      "scene_point": null,
+      "source": "source:lacerda-issue22-sucop-12",
+      "source_sha256": "3a2ab2f97396bb860100e661d303cc640675d68abf3a1cc9c380fe66bbcf079b",
+      "confidence": "DOCUMENT_POINT_IDENTIFIED_SCENE_MATCH_UNRESOLVED",
+      "residual": null,
+      "reason": "Os encontros documentais não têm correspondência física inequívoca com a malha dos obstáculos. Plataforma/cobertura retangulares não identificam por si só quinas de paredes/torre desenhadas. Não associar vértices de caixa aos encontros apenas por posição, nome ou número de pontos.",
+      "accepted_for_registration": false
+    },
+    {
+      "drawing_id": "sucop-2023-12",
+      "control_id": "XY-12-vector-3",
+      "drawing_point": [
+        977.04,
+        1057.24
+      ],
+      "drawing_frame": "PDF vector points; upper-left origin, not metric SSOT",
+      "drawing_curve": 437,
+      "drawing_vertex": 3,
+      "drawing_feature": "Quina do contorno estrutural documentado da região da torre; fase e face equivalente na cena pendentes",
+      "scene_object": null,
+      "scene_point": null,
+      "source": "source:lacerda-issue22-sucop-12",
+      "source_sha256": "3a2ab2f97396bb860100e661d303cc640675d68abf3a1cc9c380fe66bbcf079b",
+      "confidence": "DOCUMENT_POINT_IDENTIFIED_SCENE_MATCH_UNRESOLVED",
+      "residual": null,
+      "reason": "Os encontros documentais não têm correspondência física inequívoca com a malha dos obstáculos. Plataforma/cobertura retangulares não identificam por si só quinas de paredes/torre desenhadas. Não associar vértices de caixa aos encontros apenas por posição, nome ou número de pontos.",
+      "accepted_for_registration": false
+    },
+    {
+      "drawing_id": "sucop-2023-13",
+      "control_id": "XY-13-vector-0",
+      "drawing_point": [
+        840.0,
+        1062.52
+      ],
+      "drawing_frame": "PDF vector points; upper-left origin, not metric SSOT",
+      "drawing_curve": 343,
+      "drawing_vertex": 0,
+      "drawing_feature": "Quina do contorno estrutural documentado da região da torre; fase e face equivalente na cena pendentes",
+      "scene_object": null,
+      "scene_point": null,
+      "source": "source:lacerda-issue22-sucop-13",
+      "source_sha256": "7ed331549f3ee613b24865506d8c503f407f54ff658bdb1b2d9cf6230263b90d",
+      "confidence": "DOCUMENT_POINT_IDENTIFIED_SCENE_MATCH_UNRESOLVED",
+      "residual": null,
+      "reason": "Os encontros documentais não têm correspondência física inequívoca com a malha dos obstáculos. Plataforma/cobertura retangulares não identificam por si só quinas de paredes/torre desenhadas. Não associar vértices de caixa aos encontros apenas por posição, nome ou número de pontos.",
+      "accepted_for_registration": false
+    },
+    {
+      "drawing_id": "sucop-2023-13",
+      "control_id": "XY-13-vector-16",
+      "drawing_point": [
+        1019.28,
+        840.0400000000001
+      ],
+      "drawing_frame": "PDF vector points; upper-left origin, not metric SSOT",
+      "drawing_curve": 343,
+      "drawing_vertex": 16,
+      "drawing_feature": "Quina do contorno estrutural documentado da região da torre; fase e face equivalente na cena pendentes",
+      "scene_object": null,
+      "scene_point": null,
+      "source": "source:lacerda-issue22-sucop-13",
+      "source_sha256": "7ed331549f3ee613b24865506d8c503f407f54ff658bdb1b2d9cf6230263b90d",
+      "confidence": "DOCUMENT_POINT_IDENTIFIED_SCENE_MATCH_UNRESOLVED",
+      "residual": null,
+      "reason": "Os encontros documentais não têm correspondência física inequívoca com a malha dos obstáculos. Plataforma/cobertura retangulares não identificam por si só quinas de paredes/torre desenhadas. Não associar vértices de caixa aos encontros apenas por posição, nome ou número de pontos.",
+      "accepted_for_registration": false
+    },
+    {
+      "drawing_id": "sucop-2023-13",
+      "control_id": "XY-13-vector-23",
+      "drawing_point": [
+        917.52,
+        801.4
+      ],
+      "drawing_frame": "PDF vector points; upper-left origin, not metric SSOT",
+      "drawing_curve": 343,
+      "drawing_vertex": 23,
+      "drawing_feature": "Quina do contorno estrutural documentado da região da torre; fase e face equivalente na cena pendentes",
+      "scene_object": null,
+      "scene_point": null,
+      "source": "source:lacerda-issue22-sucop-13",
+      "source_sha256": "7ed331549f3ee613b24865506d8c503f407f54ff658bdb1b2d9cf6230263b90d",
+      "confidence": "DOCUMENT_POINT_IDENTIFIED_SCENE_MATCH_UNRESOLVED",
+      "residual": null,
+      "reason": "Os encontros documentais não têm correspondência física inequívoca com a malha dos obstáculos. Plataforma/cobertura retangulares não identificam por si só quinas de paredes/torre desenhadas. Não associar vértices de caixa aos encontros apenas por posição, nome ou número de pontos.",
+      "accepted_for_registration": false
+    }
+  ],
+  "non_collinearity": [
+    {
+      "drawing_id": "sucop-2023-17",
+      "non_collinear_document_points": true,
+      "area_pdf_points_squared": 2967.8903999999948,
+      "accepted_scene_correspondences": 0
+    },
+    {
+      "drawing_id": "sucop-2023-12",
+      "non_collinear_document_points": true,
+      "area_pdf_points_squared": 3917.649599999988,
+      "accepted_scene_correspondences": 0
+    },
+    {
+      "drawing_id": "sucop-2023-13",
+      "non_collinear_document_points": true,
+      "area_pdf_points_squared": 14783.472000000002,
+      "accepted_scene_correspondences": 0
+    }
+  ],
+  "source_selection": "Pranchas 17/12/13 inspecionadas visualmente; 23 serve de controle vertical do baseline",
+  "parent_ssot": "world/geographic-reference.json",
+  "transform": null,
+  "status": "STILL_UNRESOLVED",
+  "metric_scale_from_pixels": false,
+  "metric_scale_from_titleblock": false,
+  "note": "Nove pontos no desenho não são nove correspondências. Nenhum fit foi calculado com pontos de cena inventados."
+}

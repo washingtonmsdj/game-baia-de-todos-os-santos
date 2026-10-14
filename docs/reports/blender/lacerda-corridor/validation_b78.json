@@ -1,0 +1,374 @@
+{
+  "revision": "R30B.78",
+  "source_reopened": true,
+  "reopen_evidence": {
+    "file": "blender/salvador_lacerda_r30b78_encontro_saguao_passarela.blend",
+    "sha256": "b79ccf20e4bd1e30895348a742f528754a21ac7212f75b9792cf6794c5437ab0",
+    "source_mode": "validation",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "load_post_completed": true,
+    "timestamp_utc": "2026-10-05T18:25:29.656768+00:00"
+  },
+  "object_count": 6090,
+  "preserved_objects": 6088,
+  "changed_meshes": [
+    "SUPERIOR | posterior lateral",
+    "LAC R30B02 | Lambril marmore | SUPERIOR | posterior lateral",
+    "LAC R30B02 | Rodape escuro | SUPERIOR | posterior lateral",
+    "SUPERIOR | posterior lateral.001",
+    "LAC R30B02 | Lambril marmore | SUPERIOR | posterior lateral.001",
+    "LAC R30B02 | Rodape escuro | SUPERIOR | posterior lateral.001",
+    "SUPERIOR | posterior sobre passarela"
+  ],
+  "added_objects": [
+    "B78 | COLLISION | SUPERIOR | posterior lateral",
+    "B78 | COLLISION | SUPERIOR | posterior lateral.001"
+  ],
+  "differences_outside_authorized_change": [],
+  "seams": [
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "wall_inner": -3.0000014305114746,
+      "bridge_edge": -3.000001907348633,
+      "gap_design_units": 4.76837158203125e-07
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "wall_inner": 2.999999523162842,
+      "bridge_edge": 2.999999761581421,
+      "gap_design_units": 2.384185791015625e-07
+    }
+  ],
+  "closed_wall_probes": [
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "y": -4.511111323038737,
+      "z": 70.4,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "y": -4.511111323038737,
+      "z": 71.8,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "y": -4.511111323038737,
+      "z": 73.3,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "y": -4.322222646077474,
+      "z": 70.4,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "y": -4.322222646077474,
+      "z": 71.8,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "y": -4.322222646077474,
+      "z": 73.3,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "y": -4.133333969116211,
+      "z": 70.4,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "y": -4.133333969116211,
+      "z": 71.8,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "y": -4.133333969116211,
+      "z": 73.3,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "y": -3.944445292154948,
+      "z": 70.4,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "y": -3.944445292154948,
+      "z": 71.8,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "y": -3.944445292154948,
+      "z": 73.3,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "y": -3.755556615193685,
+      "z": 70.4,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "y": -3.755556615193685,
+      "z": 71.8,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "y": -3.755556615193685,
+      "z": 73.3,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "y": -3.5666679382324222,
+      "z": 70.4,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "y": -3.5666679382324222,
+      "z": 71.8,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "y": -3.5666679382324222,
+      "z": 73.3,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "y": -3.377779261271159,
+      "z": 70.4,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "y": -3.377779261271159,
+      "z": 71.8,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "y": -3.377779261271159,
+      "z": 73.3,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "y": -3.188890584309896,
+      "z": 70.4,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "y": -3.188890584309896,
+      "z": 71.8,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "y": -3.188890584309896,
+      "z": 73.3,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "y": 3.188888676961263,
+      "z": 70.4,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "y": 3.188888676961263,
+      "z": 71.8,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "y": 3.188888676961263,
+      "z": 73.3,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "y": 3.377777592341105,
+      "z": 70.4,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "y": 3.377777592341105,
+      "z": 71.8,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "y": 3.377777592341105,
+      "z": 73.3,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "y": 3.566666507720947,
+      "z": 70.4,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "y": 3.566666507720947,
+      "z": 71.8,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "y": 3.566666507720947,
+      "z": 73.3,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "y": 3.7555554231007893,
+      "z": 70.4,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "y": 3.7555554231007893,
+      "z": 71.8,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "y": 3.7555554231007893,
+      "z": 73.3,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "y": 3.9444443384806314,
+      "z": 70.4,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "y": 3.9444443384806314,
+      "z": 71.8,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "y": 3.9444443384806314,
+      "z": 73.3,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "y": 4.1333332538604735,
+      "z": 70.4,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "y": 4.1333332538604735,
+      "z": 71.8,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "y": 4.1333332538604735,
+      "z": 73.3,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "y": 4.322222169240316,
+      "z": 70.4,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "y": 4.322222169240316,
+      "z": 71.8,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "y": 4.322222169240316,
+      "z": 73.3,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "y": 4.511111084620158,
+      "z": 70.4,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "y": 4.511111084620158,
+      "z": 71.8,
+      "wall_hit": true
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "y": 4.511111084620158,
+      "z": 73.3,
+      "wall_hit": true
+    }
+  ],
+  "topology": [
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "volume": 9.450002002713518,
+      "nonfinite": 0,
+      "collider_max_vertex_error": 0.0
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "volume": 9.45000700950686,
+      "nonfinite": 0,
+      "collider_max_vertex_error": 0.0
+    }
+  ],
+  "lintel_edges": [
+    -3.000001907348633,
+    2.999999761581421
+  ],
+  "lintel_edge_error": 0.0,
+  "route_sphere_samples": 5508,
+  "route_wall_blockers": [],
+  "door_cases": [
+    {
+      "route": "upper",
+      "frame": 65024,
+      "blocked": []
+    },
+    {
+      "route": "lower",
+      "frame": 67025,
+      "blocked": []
+    }
+  ],
+  "source_before_unchanged": true,
+  "ssot_unchanged": true,
+  "physical_dimensions_verified": false,
+  "engine_physics_verified": false,
+  "passed": true
+}

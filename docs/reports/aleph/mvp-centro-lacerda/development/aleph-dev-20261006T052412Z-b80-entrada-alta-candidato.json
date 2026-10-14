@@ -1,0 +1,145 @@
+{
+  "schema": "boas/aleph-development-reference-v1",
+  "capture_id": "aleph-dev-20261006T052412Z-b80-entrada-alta-candidato",
+  "aleph_commit": "d24c61507481a91a0dd6afac4f97626a4e5ea780",
+  "captured_at": "2026-10-06T05:24:12.880793+00:00",
+  "kind": "streetview",
+  "requested_coordinate": {
+    "lat": -12.97443,
+    "lon": -38.51298
+  },
+  "release_status": "DEV_REFERENCE_ONLY",
+  "code": [
+    {
+      "path": "src/__init__.py",
+      "sha256": "5a86a6fbaf593b0fb03a6a00fca9ac6ab366574054062cd6f57908e9d7dcaea6"
+    },
+    {
+      "path": "src/capture.py",
+      "sha256": "1cbd669428adca2dfcc0550241b8ce7df2155df48580339ce276ed862f91653f"
+    },
+    {
+      "path": "src/cli.py",
+      "sha256": "247316d55172d92205962ad8c550572cb6105c6f0b562fc9c18b8070028b89b9"
+    },
+    {
+      "path": "src/common.py",
+      "sha256": "9fb3aa20b5a9f88e472873075eb07d636df2f0cf1b762163a03782b1219cc8ad"
+    },
+    {
+      "path": "src/dashboard.py",
+      "sha256": "b018bc40ba37efa65d45e7fb447f2d0f812cd100844a6f485bc1bb071d69d8eb"
+    },
+    {
+      "path": "src/dashboard_osm.py",
+      "sha256": "b57292e4bbe3c3a7990364fd1e95363206b156846fcd8965e06f46a6521b4ab3"
+    },
+    {
+      "path": "src/dashboard_tiles.py",
+      "sha256": "20a66543b22eb06c31b196c7a87e64db374fd2d942f9759c456f9ca67b60b6b9"
+    },
+    {
+      "path": "src/geo.py",
+      "sha256": "14890d222ead8265ff5fa5402b81dfeade7f231c0153b2206d8c67e4b35d636b"
+    },
+    {
+      "path": "src/osm.py",
+      "sha256": "eedbaff985812e2683397906976e4168d2cf6ffa4035f005998ab0cddd16b99a"
+    },
+    {
+      "path": "src/pbf.py",
+      "sha256": "5548720baeb363b51842bdfab306d84036e8592fe2e9f4659e7582e4b8e4f856"
+    },
+    {
+      "path": "src/places.py",
+      "sha256": "df6087ad1fa98bb4537d94fbd97d106e8880e4c9d1170ad86784011cffde6c8e"
+    },
+    {
+      "path": "src/quick.py",
+      "sha256": "2d516f5a84b9b5984686a143ab0cdc6355905607ced23b6c09f494d7381886ed"
+    },
+    {
+      "path": "src/routes.py",
+      "sha256": "9e1aae9f771d5635b6e5514c6b5559d5c0cf9fd441d3b04efda5ee28222c1a57"
+    },
+    {
+      "path": "src/satellite.py",
+      "sha256": "90395de180d721c766a3cba33d8177238157121ce69c65ff072e0c831111a536"
+    },
+    {
+      "path": "src/streetview.py",
+      "sha256": "e6d42e65c16b00114c19585b3d35ce0da17f48420e5c9040031e726efbd7e4f8"
+    },
+    {
+      "path": "src/terrain.py",
+      "sha256": "010329313f9aabfd01c61f28042f2931f1d584cad5b5362553756509be7f3bf5"
+    }
+  ],
+  "ssot": "world/geographic-reference.json",
+  "purpose": "Conferir acessos, alturas relativas e obstáculos do corredor; sem textura final ou reconstrução automática",
+  "status": "complete",
+  "images": [
+    {
+      "path": "world-reference/mvp-centro-lacerda/aleph-dev/aleph-dev-20261006T052412Z-b80-entrada-alta-candidato/aleph-streetview-hv3ggfhh/001.jpg",
+      "sha256": "2acc0987cff11fe1f92f51559986e2bddc2ae85da239946d0c218dd95bb19110"
+    }
+  ],
+  "result": {
+    "command": "streetview",
+    "status": "complete",
+    "folder": "world-reference/mvp-centro-lacerda/aleph-dev/aleph-dev-20261006T052412Z-b80-entrada-alta-candidato/aleph-streetview-hv3ggfhh",
+    "photos": [
+      {
+        "pano_id": "U1Xhvf18_Y8hQrf1f7E99w",
+        "lat": -12.97430258870593,
+        "lon": -38.51316319413632,
+        "stop": 1,
+        "requested_location": [
+          -12.97443,
+          -38.51298
+        ],
+        "imagery_date": "2024-05",
+        "heading": 200.0,
+        "pitch": 0,
+        "fov": 85,
+        "path": "world-reference/mvp-centro-lacerda/aleph-dev/aleph-dev-20261006T052412Z-b80-entrada-alta-candidato/aleph-streetview-hv3ggfhh/001.jpg",
+        "source_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=U1Xhvf18_Y8hQrf1f7E99w&cb_client=maps_sv.tactile&w=1024&h=576&yaw=200.0&pitch=0&thumbfov=85",
+        "width": 1024,
+        "height": 576,
+        "distance_m": 24.39
+      }
+    ],
+    "gaps": [],
+    "requested_stops": 1,
+    "saved_stops": 1,
+    "place": null,
+    "source": "Google Street View",
+    "captured_at": "2026-10-06T05:24:13+00:00"
+  },
+  "requests": [
+    {
+      "method": "GET",
+      "url": "https://www.google.com/maps/photometa/ac/v1?pb=%211m1%211smaps_sv.tactile%216m3%211i51513%212i70300%213i17%218b1",
+      "attempt": 0,
+      "error": null
+    },
+    {
+      "method": "GET",
+      "url": "https://www.google.com/maps/photometa/ac/v1?pb=%211m1%211smaps_sv.tactile%216m3%211i51514%212i70300%213i17%218b1",
+      "attempt": 0,
+      "error": null
+    },
+    {
+      "method": "GET",
+      "url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=en&gl=US&pb=%211m1%211smaps_sv.tactile%212m2%211sen%212sUS%213m3%211m2%211e2%212sU1Xhvf18_Y8hQrf1f7E99w%214m6%211e1%211e2%211e3%211e4%212m1%211e1",
+      "attempt": 0,
+      "error": null
+    },
+    {
+      "method": "GET",
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=U1Xhvf18_Y8hQrf1f7E99w&cb_client=maps_sv.tactile&w=1024&h=576&yaw=200.0&pitch=0&thumbfov=85",
+      "attempt": 0,
+      "error": null
+    }
+  ]
+}

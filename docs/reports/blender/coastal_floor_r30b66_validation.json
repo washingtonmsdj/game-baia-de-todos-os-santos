@@ -1,0 +1,131 @@
+{
+  "schema": "boas/coastal-floor-b65-validation-v1",
+  "source": {
+    "file": "blender/salvador_lacerda_r30b66_cais_normais_corrigidas.blend",
+    "revision": "R30B.66",
+    "sha256": "1c64173cc11b4c086084e55a6d0a6e399a1a67a1715babc160517221d45f0bf8",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b65_piso_orla_sem_residuos.blend",
+    "evidence": "docs/reports/blender/coastal_orientation_r30b66.json",
+    "notes": "Normais do cais voltadas à água e resíduos numéricos do piso removidos; sem alterar pistas, costa ou píeres; passarela e dimensões reais pendentes."
+  },
+  "reopened": true,
+  "geometry": [
+    {
+      "object": "CAIS | contenção costeira alinhada à linha de costa",
+      "degenerate": 0,
+      "boundary_edges": 2642,
+      "nonmanifold_edges": 2642,
+      "collision_equal": true,
+      "floor_faces_over_water": 0,
+      "wrong_outward_faces": 0,
+      "uncertain_outward_faces": 0
+    },
+    {
+      "object": "B63 | VISUAL | piso contínuo até o cais",
+      "degenerate": 0,
+      "boundary_edges": 481,
+      "nonmanifold_edges": 481,
+      "collision_equal": true,
+      "floor_faces_over_water": 0,
+      "wrong_outward_faces": 0,
+      "uncertain_outward_faces": 0
+    },
+    {
+      "object": "B63 | VISUAL | meios-fios das vias existentes",
+      "degenerate": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "collision_equal": true,
+      "floor_faces_over_water": 0,
+      "wrong_outward_faces": 0,
+      "uncertain_outward_faces": 0
+    },
+    {
+      "object": "B63 | VISUAL | canteiro OSM 285592034",
+      "degenerate": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "collision_equal": true,
+      "floor_faces_over_water": 0,
+      "wrong_outward_faces": 0,
+      "uncertain_outward_faces": 0
+    },
+    {
+      "object": "B63 | VISUAL | canteiro OSM 1232803924",
+      "degenerate": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "collision_equal": true,
+      "floor_faces_over_water": 0,
+      "wrong_outward_faces": 0,
+      "uncertain_outward_faces": 0
+    },
+    {
+      "object": "B63 | VISUAL | canteiro OSM 1265894224",
+      "degenerate": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "collision_equal": true,
+      "floor_faces_over_water": 0,
+      "wrong_outward_faces": 0,
+      "uncertain_outward_faces": 0
+    },
+    {
+      "object": "B63 | VISUAL | canteiro OSM 1320939604",
+      "degenerate": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "collision_equal": true,
+      "floor_faces_over_water": 0,
+      "wrong_outward_faces": 0,
+      "uncertain_outward_faces": 0
+    },
+    {
+      "object": "B63 | VISUAL | canteiro OSM 1321519023",
+      "degenerate": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "collision_equal": true,
+      "floor_faces_over_water": 0,
+      "wrong_outward_faces": 0,
+      "uncertain_outward_faces": 0
+    },
+    {
+      "object": "B63 | VISUAL | canteiro OSM 1321718836",
+      "degenerate": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "collision_equal": true,
+      "floor_faces_over_water": 0,
+      "wrong_outward_faces": 0,
+      "uncertain_outward_faces": 0
+    },
+    {
+      "object": "B63 | VISUAL | canteiro OSM 1321718837",
+      "degenerate": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "collision_equal": true,
+      "floor_faces_over_water": 0,
+      "wrong_outward_faces": 0,
+      "uncertain_outward_faces": 0
+    },
+    {
+      "object": "B63 | VISUAL | canteiro OSM 1321718838",
+      "degenerate": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "collision_equal": true,
+      "floor_faces_over_water": 0,
+      "wrong_outward_faces": 0,
+      "uncertain_outward_faces": 0
+    }
+  ],
+  "all_generated_visible_meshes_checked": true,
+  "local_geometry_checks_passed": true,
+  "real_fidelity_approved": false,
+  "pending_bridge_osm_id": 1426173327,
+  "source_reference_review": "docs/reports/blender/waterfront_real_reference_review.json",
+  "viewport_evidence": "artifacts/waterfront/b66-orla-review.png"
+}

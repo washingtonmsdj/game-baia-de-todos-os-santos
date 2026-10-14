@@ -1,0 +1,1092 @@
+{
+  "note": "Mesmo hash e transform não prova duplicação indevida: camadas visuais, colisores e referência podem ser legítimas. Assinaturas B82 preservadas; sem exclusões.",
+  "groups": [
+    {
+      "objects": [
+        "PORÃO | parede longitudinal",
+        "COL | parede porão"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {},
+        {}
+      ],
+      "collections": [
+        [
+          "10 MERCADO MODELO | interior e subsolo"
+        ],
+        [
+          "10 MERCADO MODELO | interior e subsolo"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "PORÃO | parede longitudinal.001",
+        "COL | parede porão.001"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {},
+        {}
+      ],
+      "collections": [
+        [
+          "10 MERCADO MODELO | interior e subsolo"
+        ],
+        [
+          "10 MERCADO MODELO | interior e subsolo"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "PRAÇA | OSM 1263035782",
+        "B77 | COLLISION | PRAÇA | OSM 1263035782"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {},
+        {
+          "boas_role": "COLLISION_WALKABLE_CANDIDATE"
+        }
+      ],
+      "collections": [
+        [
+          "15 PRACA ALTA | contorno e acesso"
+        ],
+        [
+          "33.3 RUNTIME | WALKABLE"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "CAIS | contenção costeira alinhada à linha de costa",
+        "B64 | COLLISION | cais e borda marítima"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {},
+        {}
+      ],
+      "collections": [
+        [
+          "24 ORLA | Baía de Todos-os-Santos e cais OSM"
+        ],
+        [
+          "39.7 GAMEPLAY | B64 COSTA CORRIGIDA"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "B79 | COLLISION | LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 -1",
+        "B79 | COLLISION | LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 1"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {
+          "boas_location_id": "elevador-lacerda",
+          "boas_role": "COLLISION_DYNAMIC_DOOR_CANDIDATE"
+        },
+        {
+          "boas_location_id": "elevador-lacerda",
+          "boas_role": "COLLISION_DYNAMIC_DOOR_CANDIDATE"
+        }
+      ],
+      "collections": [
+        [
+          "COLLISION | Lacerda slice B79"
+        ],
+        [
+          "COLLISION | Lacerda slice B79"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 -1",
+        "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 1"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {
+          "boas_location_id": "elevador-lacerda",
+          "boas_role": "visual_detail"
+        },
+        {
+          "boas_location_id": "elevador-lacerda",
+          "boas_role": "visual_detail"
+        }
+      ],
+      "collections": [
+        [
+          "HERO | Lacerda | acabamentos R30B02"
+        ],
+        [
+          "HERO | Lacerda | acabamentos R30B02"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "LAC R30B02 | Vedacao | FUNCIONAL | 4 porta cabine -1 -1",
+        "LAC R30B02 | Vedacao | FUNCIONAL | 4 porta cabine -1 1"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {
+          "boas_location_id": "elevador-lacerda",
+          "boas_role": "visual_detail"
+        },
+        {
+          "boas_location_id": "elevador-lacerda",
+          "boas_role": "visual_detail"
+        }
+      ],
+      "collections": [
+        [
+          "HERO | Lacerda | acabamentos R30B02"
+        ],
+        [
+          "HERO | Lacerda | acabamentos R30B02"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "GAL R34 | Palácio | Laje de apoio da praça",
+        "COLLISION R34 | Palácio | Laje superior"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {
+          "boas_role": "visual_structure"
+        },
+        {
+          "boas_role": "static_collider"
+        }
+      ],
+      "collections": [
+        [
+          "ENVIRONMENT_FINAL | Galerias Cidade Alta R34"
+        ],
+        [
+          "COLLISION | Galerias Cidade Alta R34"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "GAL R34 | Prefeitura | Laje de apoio da praça",
+        "COLLISION R34 | Prefeitura | Laje superior"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {
+          "boas_role": "visual_structure"
+        },
+        {
+          "boas_role": "static_collider"
+        }
+      ],
+      "collections": [
+        [
+          "ENVIRONMENT_FINAL | Galerias Cidade Alta R34"
+        ],
+        [
+          "COLLISION | Galerias Cidade Alta R34"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "RIO R36 | Laje superior da colunata",
+        "COL R36 | Laje superior da colunata"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {
+          "osm_way_id": "402383814",
+          "boas_role": "visual_architecture"
+        },
+        {
+          "boas_role": "static_collider"
+        }
+      ],
+      "collections": [
+        [
+          "HERO | Terraços Rio Branco | fotografia R36"
+        ],
+        [
+          "COLLISION | Terraços Rio Branco R36"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "RIO R36 | Piso interior da colunata",
+        "COL R36 | Piso interior da colunata"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {
+          "osm_way_id": "402383814",
+          "boas_role": "visual_architecture"
+        },
+        {
+          "boas_role": "static_collider"
+        }
+      ],
+      "collections": [
+        [
+          "HERO | Terraços Rio Branco | fotografia R36"
+        ],
+        [
+          "COLLISION | Terraços Rio Branco R36"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "RIO R36 | Parede posterior e retornos",
+        "COL R36 | Parede posterior e retornos"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {
+          "osm_way_id": "402383814",
+          "boas_role": "visual_architecture"
+        },
+        {
+          "boas_role": "static_collider"
+        }
+      ],
+      "collections": [
+        [
+          "HERO | Terraços Rio Branco | fotografia R36"
+        ],
+        [
+          "COLLISION | Terraços Rio Branco R36"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "RIO R36 | Pilares da colunata",
+        "COL R36 | Pilares da colunata"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {
+          "osm_way_id": "402383814",
+          "boas_role": "visual_architecture"
+        },
+        {
+          "boas_role": "static_collider"
+        }
+      ],
+      "collections": [
+        [
+          "HERO | Terraços Rio Branco | fotografia R36"
+        ],
+        [
+          "COLLISION | Terraços Rio Branco R36"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "RIO R36 | Passeio superior curvo",
+        "COL R36 | Passeio superior curvo"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {
+          "osm_way_id": "402383814",
+          "boas_role": "visual_architecture"
+        },
+        {
+          "boas_role": "static_collider"
+        }
+      ],
+      "collections": [
+        [
+          "HERO | Terraços Rio Branco | fotografia R36"
+        ],
+        [
+          "COLLISION | Terraços Rio Branco R36"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "RIO R36 | Passeios dos patamares",
+        "COL R36 | Passeios dos patamares"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {
+          "osm_way_id": "402383814",
+          "boas_role": "visual_architecture"
+        },
+        {
+          "boas_role": "static_collider"
+        }
+      ],
+      "collections": [
+        [
+          "HERO | Terraços Rio Branco | fotografia R36"
+        ],
+        [
+          "COLLISION | Terraços Rio Branco R36"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "RIO R36 | Patamar de acesso ao terraço curvo",
+        "COL R36 | Patamar de acesso ao terraço curvo"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {
+          "boas_role": "visual_structure"
+        },
+        {
+          "boas_role": "static_collider"
+        }
+      ],
+      "collections": [
+        [
+          "HERO | Terraços Rio Branco | fotografia R36"
+        ],
+        [
+          "COLLISION | Terraços Rio Branco R36"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "COL R36 | Ligação terraço | Laje da praça",
+        "GAL R36 | Ligação terraço | Laje da praça"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {
+          "boas_role": "static_collider"
+        },
+        {
+          "boas_role": "visual_structure"
+        }
+      ],
+      "collections": [
+        [
+          "COLLISION | Terraços Rio Branco R36"
+        ],
+        [
+          "ENVIRONMENT_FINAL | Ligação galerias terraço R36"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "PIER OSM | 1426173139 | footprint real",
+        "B56 | WALKABLE PIER | 1426173139",
+        "B56 | COLLISION | PIER | 1426173139"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {
+          "boas_osm_id": 1426173139
+        },
+        {
+          "boas_osm_id": 1426173139
+        },
+        {}
+      ],
+      "collections": [
+        [
+          "WATERFRONT | PIERS OSM | B46"
+        ],
+        [
+          "GAMEPLAY | PIERS | B56"
+        ],
+        [
+          "GAMEPLAY | PIERS | B56"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "PIER OSM | 1426173140 | footprint real",
+        "B56 | WALKABLE PIER | 1426173140",
+        "B56 | COLLISION | PIER | 1426173140"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {
+          "boas_osm_id": 1426173140
+        },
+        {
+          "boas_osm_id": 1426173140
+        },
+        {}
+      ],
+      "collections": [
+        [
+          "WATERFRONT | PIERS OSM | B46"
+        ],
+        [
+          "GAMEPLAY | PIERS | B56"
+        ],
+        [
+          "GAMEPLAY | PIERS | B56"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "EXPANSAO B49 | terra emersa costeira | candidata",
+        "B51 | COLLISION | land"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {},
+        {}
+      ],
+      "collections": [
+        [
+          "38.1 GAMEPLAY | TERRAIN",
+          "EXPANSAO | COSTA E FUNDO | B49"
+        ],
+        [
+          "38.2 GAMEPLAY | TERRAIN COLLISION"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "EXPANSAO B49 | faixa de transicao costeira | candidata",
+        "B51 | COLLISION | shore_transition"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {},
+        {}
+      ],
+      "collections": [
+        [
+          "38.1 GAMEPLAY | TERRAIN",
+          "EXPANSAO | COSTA E FUNDO | B49"
+        ],
+        [
+          "38.2 GAMEPLAY | TERRAIN COLLISION"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "B52 | GAMEPLAY TERRAIN | costa integrada + vias",
+        "B52 | COLLISION | costa integrada + vias"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {},
+        {}
+      ],
+      "collections": [
+        [
+          "38.1 GAMEPLAY | TERRAIN"
+        ],
+        [
+          "38.2 GAMEPLAY | TERRAIN COLLISION"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "B53 | GAMEPLAY TERRAIN | costa + vias | hard boundary",
+        "B53 | COLLISION | costa + vias | hard boundary"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {},
+        {}
+      ],
+      "collections": [
+        [
+          "38.1 GAMEPLAY | TERRAIN"
+        ],
+        [
+          "38.2 GAMEPLAY | TERRAIN COLLISION"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "B54 | GAMEPLAY TERRAIN | costa + vias refinadas",
+        "B54 | COLLISION | costa + vias refinadas"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {},
+        {}
+      ],
+      "collections": [
+        [
+          "38.1 GAMEPLAY | TERRAIN"
+        ],
+        [
+          "38.2 GAMEPLAY | TERRAIN COLLISION"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "B55 | GAMEPLAY TERRAIN | costa + vias refinadas",
+        "B55 | COLLISION | costa + vias refinadas"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {},
+        {}
+      ],
+      "collections": [
+        [
+          "38.1 GAMEPLAY | TERRAIN"
+        ],
+        [
+          "38.2 GAMEPLAY | TERRAIN COLLISION"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "B57 | GAMEPLAY TERRAIN HQ | Aleph 0.75m",
+        "B57 | COLLISION | terrain HQ 0.75m"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {},
+        {}
+      ],
+      "collections": [
+        [
+          "39 GAMEPLAY | B57 HQ"
+        ],
+        [
+          "39 GAMEPLAY | B57 HQ"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "B58 | GAMEPLAY TERRAIN HQ | costura sem sobreposição",
+        "B58 | COLLISION | terreno HQ costurado"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {},
+        {}
+      ],
+      "collections": [
+        [
+          "39.1 GAMEPLAY | B58 COSTURA"
+        ],
+        [
+          "39.1 GAMEPLAY | B58 COSTURA"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "B58 | ROAD VISUAL | 562660148 | run 0",
+        "B58 | ROAD VISUAL | 1004133492 | run 0"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {
+          "boas_osm_way_id": 562660148
+        },
+        {
+          "boas_osm_way_id": 1004133492
+        }
+      ],
+      "collections": [
+        [
+          "39.1 GAMEPLAY | B58 COSTURA"
+        ],
+        [
+          "39.1 GAMEPLAY | B58 COSTURA"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "B59 | GAMEPLAY TERRAIN HQ | encosta contínua",
+        "B59 | COLLISION | terreno encosta contínua"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {},
+        {}
+      ],
+      "collections": [
+        [
+          "39.2 GAMEPLAY | B59 ENCOSTA"
+        ],
+        [
+          "39.2 GAMEPLAY | B59 ENCOSTA"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "B60 | GAMEPLAY TERRAIN HQ | plataformas costeiras",
+        "B60 | COLLISION | plataformas costeiras"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {},
+        {}
+      ],
+      "collections": [
+        [
+          "39.3 GAMEPLAY | B60 VIAS COSTEIRAS"
+        ],
+        [
+          "39.3 GAMEPLAY | B60 VIAS COSTEIRAS"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "B61 | GAMEPLAY TERRAIN HQ | pavimento integrado",
+        "B61 | COLLISION | terreno e pavimento integrado"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {},
+        {}
+      ],
+      "collections": [
+        [
+          "39.4 GAMEPLAY | B61 PAVIMENTO INTEGRADO"
+        ],
+        [
+          "39.4 GAMEPLAY | B61 PAVIMENTO INTEGRADO"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+        "B62 | COLLISION | pavimento e costura limpa"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {},
+        {}
+      ],
+      "collections": [
+        [
+          "39.5 GAMEPLAY | B62 COSTURA LIMPA"
+        ],
+        [
+          "39.5 GAMEPLAY | B62 COSTURA LIMPA"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "B63 | VISUAL | piso contínuo até o cais",
+        "B63 | COLLISION | piso contínuo até o cais"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {
+          "boas_location_id": "cais-praca-cairu"
+        },
+        {}
+      ],
+      "collections": [
+        [
+          "39.6 GAMEPLAY | B63 ORLA E BORDAS"
+        ],
+        [
+          "39.6 GAMEPLAY | B63 ORLA E BORDAS"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "B63 | VISUAL | meios-fios das vias existentes",
+        "B63 | COLLISION | meios-fios das vias existentes"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {},
+        {}
+      ],
+      "collections": [
+        [
+          "39.6 GAMEPLAY | B63 ORLA E BORDAS"
+        ],
+        [
+          "39.6 GAMEPLAY | B63 ORLA E BORDAS"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "B63 | VISUAL | canteiro OSM 285592034",
+        "B63 | COLLISION | canteiro OSM 285592034"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {
+          "boas_osm_id": "285592034"
+        },
+        {}
+      ],
+      "collections": [
+        [
+          "39.6 GAMEPLAY | B63 ORLA E BORDAS"
+        ],
+        [
+          "39.6 GAMEPLAY | B63 ORLA E BORDAS"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "B63 | VISUAL | canteiro OSM 565958078",
+        "B63 | COLLISION | canteiro OSM 565958078"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {
+          "boas_osm_id": "565958078"
+        },
+        {}
+      ],
+      "collections": [
+        [
+          "39.6 GAMEPLAY | B63 ORLA E BORDAS"
+        ],
+        [
+          "39.6 GAMEPLAY | B63 ORLA E BORDAS"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "B63 | VISUAL | canteiro OSM 1232803924",
+        "B63 | COLLISION | canteiro OSM 1232803924"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {
+          "boas_osm_id": "1232803924"
+        },
+        {}
+      ],
+      "collections": [
+        [
+          "39.6 GAMEPLAY | B63 ORLA E BORDAS"
+        ],
+        [
+          "39.6 GAMEPLAY | B63 ORLA E BORDAS"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "B63 | VISUAL | canteiro OSM 1265894224",
+        "B63 | COLLISION | canteiro OSM 1265894224"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {
+          "boas_osm_id": "1265894224"
+        },
+        {}
+      ],
+      "collections": [
+        [
+          "39.6 GAMEPLAY | B63 ORLA E BORDAS"
+        ],
+        [
+          "39.6 GAMEPLAY | B63 ORLA E BORDAS"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "B63 | VISUAL | canteiro OSM 1320939604",
+        "B63 | COLLISION | canteiro OSM 1320939604"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {
+          "boas_osm_id": "1320939604"
+        },
+        {}
+      ],
+      "collections": [
+        [
+          "39.6 GAMEPLAY | B63 ORLA E BORDAS"
+        ],
+        [
+          "39.6 GAMEPLAY | B63 ORLA E BORDAS"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "B63 | VISUAL | canteiro OSM 1321519023",
+        "B63 | COLLISION | canteiro OSM 1321519023"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {
+          "boas_osm_id": "1321519023"
+        },
+        {}
+      ],
+      "collections": [
+        [
+          "39.6 GAMEPLAY | B63 ORLA E BORDAS"
+        ],
+        [
+          "39.6 GAMEPLAY | B63 ORLA E BORDAS"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "B63 | VISUAL | canteiro OSM 1321718836",
+        "B63 | COLLISION | canteiro OSM 1321718836"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {
+          "boas_osm_id": "1321718836"
+        },
+        {}
+      ],
+      "collections": [
+        [
+          "39.6 GAMEPLAY | B63 ORLA E BORDAS"
+        ],
+        [
+          "39.6 GAMEPLAY | B63 ORLA E BORDAS"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "B63 | VISUAL | canteiro OSM 1321718837",
+        "B63 | COLLISION | canteiro OSM 1321718837"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {
+          "boas_osm_id": "1321718837"
+        },
+        {}
+      ],
+      "collections": [
+        [
+          "39.6 GAMEPLAY | B63 ORLA E BORDAS"
+        ],
+        [
+          "39.6 GAMEPLAY | B63 ORLA E BORDAS"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "B63 | VISUAL | canteiro OSM 1321718838",
+        "B63 | COLLISION | canteiro OSM 1321718838"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {
+          "boas_osm_id": "1321718838"
+        },
+        {}
+      ],
+      "collections": [
+        [
+          "39.6 GAMEPLAY | B63 ORLA E BORDAS"
+        ],
+        [
+          "39.6 GAMEPLAY | B63 ORLA E BORDAS"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "B67 | REFERENCE PIER | 609043799",
+        "B67 | WALKABLE CANDIDATE | 609043799",
+        "B67 | COLLISION CANDIDATE | PIER | 609043799"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {
+          "boas_osm_id": 609043799
+        },
+        {
+          "boas_osm_id": 609043799
+        },
+        {
+          "boas_osm_id": 609043799
+        }
+      ],
+      "collections": [
+        [
+          "SOURCE_GEOREF | WATERFRONT OSM B67"
+        ],
+        [
+          "GAMEPLAY | PIERS CANDIDATES B67"
+        ],
+        [
+          "GAMEPLAY | PIERS CANDIDATES B67"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "B68 | VISUAL | encontro terrestre | 609043799",
+        "B68 | COLLISION CANDIDATE | encontro terrestre | 609043799"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {},
+        {}
+      ],
+      "collections": [
+        [
+          "ENVIRONMENT | COASTAL CONTACTS B68"
+        ],
+        [
+          "GAMEPLAY | COASTAL CONTACTS B68"
+        ]
+      ]
+    },
+    {
+      "objects": [
+        "B68 | VISUAL | encontro terrestre | 609043801",
+        "B68 | COLLISION CANDIDATE | encontro terrestre | 609043801"
+      ],
+      "classification": "NEEDS_REVIEW",
+      "geometry_and_world_transform_identical": true,
+      "physical_duplicate_proven": false,
+      "roles": [
+        {},
+        {}
+      ],
+      "collections": [
+        [
+          "ENVIRONMENT | COASTAL CONTACTS B68"
+        ],
+        [
+          "GAMEPLAY | COASTAL CONTACTS B68"
+        ]
+      ]
+    }
+  ]
+}

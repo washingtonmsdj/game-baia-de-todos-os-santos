@@ -1,0 +1,1128 @@
+{
+  "source": {
+    "file": "blender/salvador_lacerda_r30b73_tangente_encosta_costura.blend",
+    "revision": "R30B.73",
+    "sha256": "d49f9b35e00b292acdbd33028b58f8eaa52d71e9ba9fd232ba679190227e1f0b",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b72_costura_viaria_continua.blend",
+    "evidence": "docs/reports/blender/terrain_tangent_r30b73.json",
+    "notes": "Tangente local na costura da encosta; mesmas vias/XY e extremos; adaptação 8m não levantada, cidade permanece parcial.",
+    "source_reopened": true,
+    "validation_evidence": "docs/reports/blender/terrain_tangent_r30b73_validation.json",
+    "local_geometry_checks_passed": true
+  },
+  "objects": [
+    {
+      "name": "OFICIAL | Terminal alto | apoio junto encosta",
+      "bounds": [
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 8,
+      "faces": 6,
+      "hidden": false,
+      "collections": [
+        "01 ELEVADOR OFICIAL | esboco original"
+      ]
+    },
+    {
+      "name": "Largo Quincas Berro D'água.002",
+      "bounds": [
+        421.8208312988281,
+        204.12391662597656,
+        -0.07999999821186066,
+        474.180908203125,
+        279.7175598144531,
+        -0.019999999552965164
+      ],
+      "vertices": 50,
+      "faces": 27,
+      "hidden": false,
+      "collections": [
+        "04 MAPA AMPLIADO | referencia fora do recorte"
+      ]
+    },
+    {
+      "name": "CALIBRADO | terreno Cidade Baixa",
+      "bounds": [
+        -240.19573974609375,
+        -80.31639099121094,
+        -3.0,
+        85.17213439941406,
+        251.134765625,
+        10.850000381469727
+      ],
+      "vertices": 8,
+      "faces": 6,
+      "hidden": false,
+      "collections": [
+        "08 ELEVADOR E TERRENO | dimensoes calibradas"
+      ]
+    },
+    {
+      "name": "CALIBRADO | terreno Encosta 75 graus",
+      "bounds": [
+        -120.10969543457031,
+        -91.1340560913086,
+        -3.0,
+        96.70047760009766,
+        138.4514617919922,
+        69.8499984741211
+      ],
+      "vertices": 8,
+      "faces": 6,
+      "hidden": false,
+      "collections": [
+        "08 ELEVADOR E TERRENO | dimensoes calibradas"
+      ]
+    },
+    {
+      "name": "CALIBRADO | terreno Cidade Alta",
+      "bounds": [
+        -108.58135223388672,
+        -213.97128295898438,
+        -3.0,
+        227.60751342773438,
+        127.63379669189453,
+        69.8499984741211
+      ],
+      "vertices": 8,
+      "faces": 6,
+      "hidden": false,
+      "collections": [
+        "08 ELEVADOR E TERRENO | dimensoes calibradas"
+      ]
+    },
+    {
+      "name": "FACHADA SUPERIOR | relevo quadrado",
+      "bounds": [
+        -0.4069408178329468,
+        -0.08475157618522644,
+        79.32500457763672,
+        1.1517528295516968,
+        1.565197467803955,
+        80.9749984741211
+      ],
+      "vertices": 8,
+      "faces": 6,
+      "hidden": false,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ]
+    },
+    {
+      "name": "FACHADA SUPERIOR | relevo quadrado.001",
+      "bounds": [
+        1.953799843788147,
+        2.431079387664795,
+        79.32500457763672,
+        3.51249361038208,
+        4.081028461456299,
+        80.9749984741211
+      ],
+      "vertices": 8,
+      "faces": 6,
+      "hidden": false,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ]
+    },
+    {
+      "name": "FACHADA SUPERIOR | relevo quadrado.002",
+      "bounds": [
+        4.314540386199951,
+        4.946910381317139,
+        79.32500457763672,
+        5.873234272003174,
+        6.596859455108643,
+        80.9749984741211
+      ],
+      "vertices": 8,
+      "faces": 6,
+      "hidden": false,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ]
+    },
+    {
+      "name": "Encosta | fechamento lateral",
+      "bounds": [
+        -138.765869140625,
+        -76.49405670166016,
+        -3.0,
+        -124.18135070800781,
+        -62.80860137939453,
+        69.8499984741211
+      ],
+      "vertices": 8,
+      "faces": 1,
+      "hidden": false,
+      "collections": [
+        "13 TERRENO | encaixe dos acessos"
+      ]
+    },
+    {
+      "name": "Encosta | fechamento lateral.001",
+      "bounds": [
+        66.51595306396484,
+        142.2738037109375,
+        -3.0,
+        81.10047912597656,
+        155.95925903320312,
+        69.8499984741211
+      ],
+      "vertices": 8,
+      "faces": 1,
+      "hidden": false,
+      "collections": [
+        "13 TERRENO | encaixe dos acessos"
+      ]
+    },
+    {
+      "name": "Encosta | faixa 00",
+      "bounds": [
+        -138.765869140625,
+        -62.80860137939453,
+        10.850000381469727,
+        66.51595306396484,
+        155.95925903320312,
+        17.0
+      ],
+      "vertices": 4,
+      "faces": 1,
+      "hidden": false,
+      "collections": [
+        "13 TERRENO | encaixe dos acessos"
+      ]
+    },
+    {
+      "name": "Encosta | faixa 01",
+      "bounds": [
+        -138.765869140625,
+        -64.86141967773438,
+        17.0,
+        68.70362854003906,
+        155.95925903320312,
+        17.0
+      ],
+      "vertices": 4,
+      "faces": 1,
+      "hidden": false,
+      "collections": [
+        "13 TERRENO | encaixe dos acessos"
+      ]
+    },
+    {
+      "name": "Encosta | faixa 02",
+      "bounds": [
+        -136.5782012939453,
+        -71.70414733886719,
+        17.0,
+        75.99589538574219,
+        153.90643310546875,
+        46.0
+      ],
+      "vertices": 4,
+      "faces": 1,
+      "hidden": false,
+      "collections": [
+        "13 TERRENO | encaixe dos acessos"
+      ]
+    },
+    {
+      "name": "Encosta | faixa 03",
+      "bounds": [
+        -129.2859344482422,
+        -75.1255111694336,
+        46.0,
+        79.64202880859375,
+        147.06370544433594,
+        64.0
+      ],
+      "vertices": 4,
+      "faces": 1,
+      "hidden": false,
+      "collections": [
+        "13 TERRENO | encaixe dos acessos"
+      ]
+    },
+    {
+      "name": "Encosta | faixa 04",
+      "bounds": [
+        -125.63980102539062,
+        -76.49405670166016,
+        64.0,
+        81.10047912597656,
+        143.642333984375,
+        69.8499984741211
+      ],
+      "vertices": 4,
+      "faces": 1,
+      "hidden": false,
+      "collections": [
+        "13 TERRENO | encaixe dos acessos"
+      ]
+    },
+    {
+      "name": "Encosta | coroamento",
+      "bounds": [
+        -124.18135070800781,
+        -76.87040710449219,
+        69.6500015258789,
+        -31.403453826904297,
+        21.951475143432617,
+        69.94999694824219
+      ],
+      "vertices": 8,
+      "faces": 6,
+      "hidden": false,
+      "collections": [
+        "13 TERRENO | encaixe dos acessos"
+      ]
+    },
+    {
+      "name": "Encosta | coroamento.001",
+      "bounds": [
+        -18.11907386779785,
+        36.15964889526367,
+        69.6500015258789,
+        81.50155639648438,
+        142.2738037109375,
+        69.94999694824219
+      ],
+      "vertices": 8,
+      "faces": 6,
+      "hidden": false,
+      "collections": [
+        "13 TERRENO | encaixe dos acessos"
+      ]
+    },
+    {
+      "name": "TERRENO | encaixe na ladeira perfil estimado",
+      "bounds": [
+        -255.79574584960938,
+        -199.331298828125,
+        10.850000381469727,
+        212.0075225830078,
+        265.7747802734375,
+        69.8499984741211
+      ],
+      "vertices": 909,
+      "faces": 800,
+      "hidden": false,
+      "collections": [
+        "14 IMPLANTACAO | OSM e ladeira"
+      ]
+    },
+    {
+      "name": "MVP | terreno corrigido | colisão estática",
+      "bounds": [
+        -285.70343017578125,
+        -285.2629089355469,
+        4.255668640136719,
+        542.2965698242188,
+        621.7371215820312,
+        70.2554931640625
+      ],
+      "vertices": 525121,
+      "faces": 1030750,
+      "hidden": false,
+      "collections": [
+        "19 MVP | terreno DEM e acessos corrigidos",
+        "32.1 GAMEPLAY | TERRAIN",
+        "32.2 GAMEPLAY | COLLISION SOURCE"
+      ]
+    },
+    {
+      "name": "BAÍA DE TODOS-OS-SANTOS | superfície e recorte costeiro",
+      "bounds": [
+        -1350.0,
+        -850.0,
+        0.3499999940395355,
+        29.83144760131836,
+        600.1769409179688,
+        0.3499999940395355
+      ],
+      "vertices": 123,
+      "faces": 120,
+      "hidden": false,
+      "collections": [
+        "24 ORLA | Baía de Todos-os-Santos e cais OSM",
+        "32.7 GAMEPLAY | WATER",
+        "33.6 RUNTIME | WATER"
+      ]
+    },
+    {
+      "name": "BAÍA | volume de água no limite do recorte",
+      "bounds": [
+        -1350.0,
+        -850.0,
+        -16.0,
+        29.83144760131836,
+        600.1769409179688,
+        0.3499999940395355
+      ],
+      "vertices": 244,
+      "faces": 362,
+      "hidden": false,
+      "collections": [
+        "24 ORLA | Baía de Todos-os-Santos e cais OSM",
+        "32.7 GAMEPLAY | WATER",
+        "33.6 RUNTIME | WATER"
+      ]
+    },
+    {
+      "name": "CAIS | contenção costeira alinhada à linha de costa",
+      "bounds": [
+        -388.4596862792969,
+        -94.84332275390625,
+        0.3499999940395355,
+        29.831451416015625,
+        600.1769409179688,
+        8.679433822631836
+      ],
+      "vertices": 2602,
+      "faces": 1271,
+      "hidden": false,
+      "collections": [
+        "24 ORLA | Baía de Todos-os-Santos e cais OSM"
+      ]
+    },
+    {
+      "name": "CAIS | rampa curta até plataforma flutuante",
+      "bounds": [
+        -486.85418701171875,
+        453.88995361328125,
+        0.3499999940395355,
+        -478.368896484375,
+        462.375244140625,
+        1.7999999523162842
+      ],
+      "vertices": 8,
+      "faces": 6,
+      "hidden": false,
+      "collections": [
+        "27 MAR | Forte São Marcelo"
+      ]
+    },
+    {
+      "name": "CAIS | plataforma flutuante de embarque aproximada",
+      "bounds": [
+        -481.9044189453125,
+        447.5260009765625,
+        -0.05000000074505806,
+        -472.00494384765625,
+        457.42547607421875,
+        0.6499999761581421
+      ],
+      "vertices": 8,
+      "faces": 6,
+      "hidden": false,
+      "collections": [
+        "27 MAR | Forte São Marcelo"
+      ]
+    },
+    {
+      "name": "R30A5 | COLLISION | terrain proxy",
+      "bounds": [
+        -285.70416259765625,
+        -285.2629089355469,
+        4.255668640136719,
+        542.2980346679688,
+        621.7388916015625,
+        70.2554931640625
+      ],
+      "vertices": 73598,
+      "faces": 139470,
+      "hidden": false,
+      "collections": [
+        "33.1 RUNTIME | TERRAIN COLLISION"
+      ]
+    },
+    {
+      "name": "LAC R35 | Caixilhos verticais do apoio",
+      "bounds": [
+        -6.990963459014893,
+        9.42904281616211,
+        43.99300003051758,
+        -4.037839412689209,
+        12.56131362915039,
+        64.79500579833984
+      ],
+      "vertices": 72,
+      "faces": 54,
+      "hidden": false,
+      "collections": [
+        "HERO | Lacerda | apoio oposto R30B08"
+      ]
+    },
+    {
+      "name": "TERRENO | Baixo",
+      "bounds": [
+        -216.58592224121094,
+        -56.09962844848633,
+        -3.0,
+        64.65491485595703,
+        230.88693237304688,
+        -0.10000000149011612
+      ],
+      "vertices": 8,
+      "faces": 6,
+      "hidden": true,
+      "collections": [
+        "REFERENCE | Apoio e terreno substituídos R35"
+      ]
+    },
+    {
+      "name": "TERRENO | Encosta",
+      "bounds": [
+        -116.68624877929688,
+        -77.33656311035156,
+        -3.0,
+        87.28492736816406,
+        137.136962890625,
+        39.900001525878906
+      ],
+      "vertices": 8,
+      "faces": 6,
+      "hidden": true,
+      "collections": [
+        "REFERENCE | Apoio e terreno substituídos R35"
+      ]
+    },
+    {
+      "name": "TERRENO | Alto",
+      "bounds": [
+        -94.05622863769531,
+        -171.06307983398438,
+        -3.0,
+        187.15963745117188,
+        115.9000244140625,
+        39.900001525878906
+      ],
+      "vertices": 8,
+      "faces": 6,
+      "hidden": true,
+      "collections": [
+        "REFERENCE | Apoio e terreno substituídos R35"
+      ]
+    },
+    {
+      "name": "TERMINAL | corpo vertical encosta",
+      "bounds": [
+        -8.586333274841309,
+        4.764439582824707,
+        41.849998474121094,
+        0.7077991962432861,
+        14.26984977722168,
+        69.8499984741211
+      ],
+      "vertices": 8,
+      "faces": 6,
+      "hidden": true,
+      "collections": [
+        "REFERENCE | Apoio e terreno substituídos R35"
+      ]
+    },
+    {
+      "name": "RIO R35 | Painéis em relevo do portal",
+      "bounds": [
+        -1.790006399154663,
+        -39.710147857666016,
+        71.43000030517578,
+        6.630176067352295,
+        -32.54534149169922,
+        75.05000305175781
+      ],
+      "vertices": 80,
+      "faces": 60,
+      "hidden": false,
+      "collections": [
+        "HERO | Palácio Rio Branco | relevos R35"
+      ]
+    },
+    {
+      "name": "PIER OSM | 1426173139 | footprint real",
+      "bounds": [
+        -277.8446350097656,
+        330.58331298828125,
+        7.255664825439453,
+        -254.71536254882812,
+        353.0747985839844,
+        7.255664825439453
+      ],
+      "vertices": 5,
+      "faces": 1,
+      "hidden": false,
+      "collections": [
+        "WATERFRONT | PIERS OSM | B46"
+      ]
+    },
+    {
+      "name": "PIER OSM | 1426173140 | footprint real",
+      "bounds": [
+        -351.6195983886719,
+        298.73565673828125,
+        7.255664825439453,
+        -274.93023681640625,
+        345.09295654296875,
+        7.255664825439453
+      ],
+      "vertices": 7,
+      "faces": 1,
+      "hidden": false,
+      "collections": [
+        "WATERFRONT | PIERS OSM | B46"
+      ]
+    },
+    {
+      "name": "EXPANSAO B48 | terreno costeiro DEM relativo | candidato",
+      "bounds": [
+        -540.0,
+        -510.0,
+        -2.463484764099121,
+        -280.0,
+        -10.0,
+        63.594818115234375
+      ],
+      "vertices": 760,
+      "faces": 669,
+      "hidden": false,
+      "collections": [
+        "EXPANSAO | COSTA SUDOESTE | B48"
+      ]
+    },
+    {
+      "name": "B52 | GAMEPLAY TERRAIN | costa integrada + vias",
+      "bounds": [
+        -552.0,
+        -510.0,
+        -2.463484764099121,
+        -262.0,
+        10.0,
+        67.05522918701172
+      ],
+      "vertices": 20708,
+      "faces": 20245,
+      "hidden": false,
+      "collections": [
+        "38.1 GAMEPLAY | TERRAIN"
+      ]
+    },
+    {
+      "name": "B53 | GAMEPLAY TERRAIN | costa + vias | hard boundary",
+      "bounds": [
+        -552.0,
+        -510.0,
+        -2.463484764099121,
+        -262.0,
+        -10.0,
+        67.05522918701172
+      ],
+      "vertices": 19137,
+      "faces": 18684,
+      "hidden": false,
+      "collections": [
+        "38.1 GAMEPLAY | TERRAIN"
+      ]
+    },
+    {
+      "name": "B54 | GAMEPLAY TERRAIN | costa + vias refinadas",
+      "bounds": [
+        -552.0,
+        -510.0,
+        -2.463484764099121,
+        -262.0,
+        -10.0,
+        67.05522918701172
+      ],
+      "vertices": 19137,
+      "faces": 18684,
+      "hidden": false,
+      "collections": [
+        "38.1 GAMEPLAY | TERRAIN"
+      ]
+    },
+    {
+      "name": "B55 | GAMEPLAY TERRAIN | costa + vias refinadas",
+      "bounds": [
+        -552.0,
+        -510.0,
+        -2.463484764099121,
+        -262.0,
+        -10.0,
+        67.05522918701172
+      ],
+      "vertices": 19137,
+      "faces": 18684,
+      "hidden": false,
+      "collections": [
+        "38.1 GAMEPLAY | TERRAIN"
+      ]
+    },
+    {
+      "name": "B56 | WALKABLE PIER | 1426173139",
+      "bounds": [
+        -277.8446350097656,
+        330.58331298828125,
+        7.255664825439453,
+        -254.71536254882812,
+        353.0747985839844,
+        7.255664825439453
+      ],
+      "vertices": 5,
+      "faces": 1,
+      "hidden": false,
+      "collections": [
+        "GAMEPLAY | PIERS | B56"
+      ]
+    },
+    {
+      "name": "B56 | COLLISION | PIER | 1426173139",
+      "bounds": [
+        -277.8446350097656,
+        330.58331298828125,
+        7.255664825439453,
+        -254.71536254882812,
+        353.0747985839844,
+        7.255664825439453
+      ],
+      "vertices": 5,
+      "faces": 1,
+      "hidden": false,
+      "collections": [
+        "GAMEPLAY | PIERS | B56"
+      ]
+    },
+    {
+      "name": "B56 | WALKABLE PIER | 1426173140",
+      "bounds": [
+        -351.6195983886719,
+        298.73565673828125,
+        7.255664825439453,
+        -274.93023681640625,
+        345.09295654296875,
+        7.255664825439453
+      ],
+      "vertices": 7,
+      "faces": 1,
+      "hidden": false,
+      "collections": [
+        "GAMEPLAY | PIERS | B56"
+      ]
+    },
+    {
+      "name": "B56 | COLLISION | PIER | 1426173140",
+      "bounds": [
+        -351.6195983886719,
+        298.73565673828125,
+        7.255664825439453,
+        -274.93023681640625,
+        345.09295654296875,
+        7.255664825439453
+      ],
+      "vertices": 7,
+      "faces": 1,
+      "hidden": false,
+      "collections": [
+        "GAMEPLAY | PIERS | B56"
+      ]
+    },
+    {
+      "name": "B57 | GAMEPLAY TERRAIN HQ | Aleph 0.75m",
+      "bounds": [
+        -552.5,
+        -510.0,
+        -2.463484764099121,
+        -260.75,
+        9.75,
+        67.2650375366211
+      ],
+      "vertices": 147701,
+      "faces": 146463,
+      "hidden": false,
+      "collections": [
+        "39 GAMEPLAY | B57 HQ"
+      ]
+    },
+    {
+      "name": "B57 | COLLISION | terrain HQ 0.75m",
+      "bounds": [
+        -552.5,
+        -510.0,
+        -2.463484764099121,
+        -260.75,
+        9.75,
+        67.2650375366211
+      ],
+      "vertices": 147701,
+      "faces": 146463,
+      "hidden": false,
+      "collections": [
+        "39 GAMEPLAY | B57 HQ"
+      ]
+    },
+    {
+      "name": "B57 | PIER VISUAL | 1426173139",
+      "bounds": [
+        -277.8446350097656,
+        330.58331298828125,
+        6.905664920806885,
+        -254.71536254882812,
+        353.0747985839844,
+        7.255664825439453
+      ],
+      "vertices": 10,
+      "faces": 7,
+      "hidden": false,
+      "collections": [
+        "39 GAMEPLAY | B57 HQ"
+      ]
+    },
+    {
+      "name": "B57 | PIER VISUAL | 1426173140",
+      "bounds": [
+        -351.6195983886719,
+        298.73565673828125,
+        6.905664920806885,
+        -274.93023681640625,
+        345.09295654296875,
+        7.255664825439453
+      ],
+      "vertices": 14,
+      "faces": 9,
+      "hidden": false,
+      "collections": [
+        "39 GAMEPLAY | B57 HQ"
+      ]
+    },
+    {
+      "name": "B58 | GAMEPLAY TERRAIN HQ | costura sem sobreposição",
+      "bounds": [
+        -551.0,
+        -510.0,
+        -2.463484764099121,
+        -260.75,
+        -12.0,
+        67.2650375366211
+      ],
+      "vertices": 135379,
+      "faces": 134172,
+      "hidden": false,
+      "collections": [
+        "39.1 GAMEPLAY | B58 COSTURA"
+      ]
+    },
+    {
+      "name": "B58 | COLLISION | terreno HQ costurado",
+      "bounds": [
+        -551.0,
+        -510.0,
+        -2.463484764099121,
+        -260.75,
+        -12.0,
+        67.2650375366211
+      ],
+      "vertices": 135379,
+      "faces": 134172,
+      "hidden": false,
+      "collections": [
+        "39.1 GAMEPLAY | B58 COSTURA"
+      ]
+    },
+    {
+      "name": "B59 | GAMEPLAY TERRAIN HQ | encosta contínua",
+      "bounds": [
+        -551.0,
+        -510.0,
+        -2.463484764099121,
+        -260.75,
+        -12.0,
+        66.88790130615234
+      ],
+      "vertices": 135379,
+      "faces": 134172,
+      "hidden": false,
+      "collections": [
+        "39.2 GAMEPLAY | B59 ENCOSTA"
+      ]
+    },
+    {
+      "name": "B59 | COLLISION | terreno encosta contínua",
+      "bounds": [
+        -551.0,
+        -510.0,
+        -2.463484764099121,
+        -260.75,
+        -12.0,
+        66.88790130615234
+      ],
+      "vertices": 135379,
+      "faces": 134172,
+      "hidden": false,
+      "collections": [
+        "39.2 GAMEPLAY | B59 ENCOSTA"
+      ]
+    },
+    {
+      "name": "B60 | GAMEPLAY TERRAIN HQ | plataformas costeiras",
+      "bounds": [
+        -551.0,
+        -510.0,
+        -2.463484764099121,
+        -260.75,
+        -12.0,
+        66.88790130615234
+      ],
+      "vertices": 135379,
+      "faces": 134172,
+      "hidden": false,
+      "collections": [
+        "39.3 GAMEPLAY | B60 VIAS COSTEIRAS"
+      ]
+    },
+    {
+      "name": "B61 | GAMEPLAY TERRAIN HQ | pavimento integrado",
+      "bounds": [
+        -551.0,
+        -510.0,
+        -2.463484764099121,
+        -260.75,
+        -12.0,
+        66.88790130615234
+      ],
+      "vertices": 150480,
+      "faces": 149136,
+      "hidden": false,
+      "collections": [
+        "39.4 GAMEPLAY | B61 PAVIMENTO INTEGRADO"
+      ]
+    },
+    {
+      "name": "B61 | COLLISION | terreno e pavimento integrado",
+      "bounds": [
+        -551.0,
+        -510.0,
+        -2.463484764099121,
+        -260.75,
+        -12.0,
+        66.88790130615234
+      ],
+      "vertices": 150480,
+      "faces": 149136,
+      "hidden": false,
+      "collections": [
+        "39.4 GAMEPLAY | B61 PAVIMENTO INTEGRADO"
+      ]
+    },
+    {
+      "name": "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+      "bounds": [
+        -551.0,
+        -510.0,
+        -2.463484764099121,
+        -260.75,
+        -12.0,
+        66.88790130615234
+      ],
+      "vertices": 150480,
+      "faces": 149188,
+      "hidden": false,
+      "collections": [
+        "39.5 GAMEPLAY | B62 COSTURA LIMPA"
+      ]
+    },
+    {
+      "name": "B63 | VISUAL | piso contínuo até o cais",
+      "bounds": [
+        -388.4596862792969,
+        -94.84332275390625,
+        1.6340771913528442,
+        -285.70343017578125,
+        39.402835845947266,
+        8.671253204345703
+      ],
+      "vertices": 1654,
+      "faces": 2827,
+      "hidden": false,
+      "collections": [
+        "39.6 GAMEPLAY | B63 ORLA E BORDAS"
+      ]
+    },
+    {
+      "name": "B63 | COLLISION | piso contínuo até o cais",
+      "bounds": [
+        -388.4596862792969,
+        -94.84332275390625,
+        1.6340771913528442,
+        -285.70343017578125,
+        39.402835845947266,
+        8.671253204345703
+      ],
+      "vertices": 1654,
+      "faces": 2827,
+      "hidden": false,
+      "collections": [
+        "39.6 GAMEPLAY | B63 ORLA E BORDAS"
+      ]
+    },
+    {
+      "name": "B64 | COLLISION | cais e borda marítima",
+      "bounds": [
+        -388.4596862792969,
+        -94.84332275390625,
+        0.3499999940395355,
+        29.831451416015625,
+        600.1769409179688,
+        8.679433822631836
+      ],
+      "vertices": 2602,
+      "faces": 1271,
+      "hidden": false,
+      "collections": [
+        "39.7 GAMEPLAY | B64 COSTA CORRIGIDA"
+      ]
+    },
+    {
+      "name": "B67 | REFERENCE PIER | 609043799",
+      "bounds": [
+        -432.67620849609375,
+        -159.9639129638672,
+        2.9742279052734375,
+        -403.65911865234375,
+        -134.533447265625,
+        2.9742279052734375
+      ],
+      "vertices": 4,
+      "faces": 2,
+      "hidden": true,
+      "collections": [
+        "SOURCE_GEOREF | WATERFRONT OSM B67"
+      ]
+    },
+    {
+      "name": "B67 | REFERENCE PIER | 609043801",
+      "bounds": [
+        -475.9653015136719,
+        -199.78009033203125,
+        4.5861053466796875,
+        -434.8640441894531,
+        -161.138916015625,
+        4.5861053466796875
+      ],
+      "vertices": 16,
+      "faces": 14,
+      "hidden": true,
+      "collections": [
+        "SOURCE_GEOREF | WATERFRONT OSM B67"
+      ]
+    },
+    {
+      "name": "B67 | PIER VISUAL | 609043799",
+      "bounds": [
+        -432.67620849609375,
+        -159.9639129638672,
+        2.624228000640869,
+        -403.65911865234375,
+        -134.533447265625,
+        2.9742279052734375
+      ],
+      "vertices": 8,
+      "faces": 12,
+      "hidden": false,
+      "collections": [
+        "ENVIRONMENT | PIERS CANDIDATES B67"
+      ]
+    },
+    {
+      "name": "B67 | PIER VISUAL | 609043801",
+      "bounds": [
+        -475.9653015136719,
+        -199.78009033203125,
+        4.236105442047119,
+        -434.8640441894531,
+        -161.138916015625,
+        4.5861053466796875
+      ],
+      "vertices": 32,
+      "faces": 60,
+      "hidden": false,
+      "collections": [
+        "ENVIRONMENT | PIERS CANDIDATES B67"
+      ]
+    },
+    {
+      "name": "B67 | COLLISION CANDIDATE | PIER | 609043799",
+      "bounds": [
+        -432.67620849609375,
+        -159.9639129638672,
+        2.9742279052734375,
+        -403.65911865234375,
+        -134.533447265625,
+        2.9742279052734375
+      ],
+      "vertices": 4,
+      "faces": 2,
+      "hidden": true,
+      "collections": [
+        "GAMEPLAY | PIERS CANDIDATES B67"
+      ]
+    },
+    {
+      "name": "B67 | COLLISION CANDIDATE | PIER | 609043801",
+      "bounds": [
+        -475.9653015136719,
+        -199.78009033203125,
+        4.5861053466796875,
+        -434.8640441894531,
+        -161.138916015625,
+        4.5861053466796875
+      ],
+      "vertices": 16,
+      "faces": 14,
+      "hidden": true,
+      "collections": [
+        "GAMEPLAY | PIERS CANDIDATES B67"
+      ]
+    }
+  ],
+  "units": {
+    "system": "METRIC",
+    "scale_length": 1.0,
+    "length_unit": "METERS"
+  },
+  "instance_objects": [
+    {
+      "name": "MARIO CRAVO | Fonte da Rampa do Mercado",
+      "collection": "ASSET | monumento-mario-cravo | R31",
+      "location": [
+        -151.2074737548828,
+        52.877098083496094,
+        7.37066125869751
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -0.7536059617996216
+      ]
+    },
+    {
+      "name": "QA | RONDESP | veiculo na pista",
+      "collection": "QA | RONDESP | biblioteca montada",
+      "location": [
+        152.76995849609375,
+        271.3680114746094,
+        7.253990173339844
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

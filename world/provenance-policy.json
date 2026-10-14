@@ -1,0 +1,25 @@
+{
+  "schema": "boas/provenance-policy-v1",
+  "classes": {
+    "FINAL_ALLOWED": {"package_allowed": true, "attribution_required": false},
+    "FINAL_ALLOWED_WITH_ATTRIBUTION": {"package_allowed": true, "attribution_required": true},
+    "DEV_REFERENCE_ONLY": {"package_allowed": false, "attribution_required": false},
+    "REPLACE_BEFORE_RELEASE": {"package_allowed": false, "attribution_required": false}
+  },
+  "legacy_usage_mapping": {
+    "PRODUCAO_APROVADA": "FINAL_ALLOWED",
+    "PRODUCAO_COM_ATRIBUICAO": "FINAL_ALLOWED_WITH_ATTRIBUTION",
+    "REFERENCIA_INTERNA": "DEV_REFERENCE_ONLY",
+    "TEMPORARIA": "DEV_REFERENCE_ONLY",
+    "PENDENTE_VERIFICACAO": "REPLACE_BEFORE_RELEASE",
+    "PROIBIDO_PRODUCAO": "DEV_REFERENCE_ONLY"
+  },
+  "aleph_sources": {
+    "osm": {"classe_uso": "PRODUCAO_COM_ATRIBUICAO", "licenca": "ODbL; obrigações do uso concreto precisam estar registradas", "observacao": "Geografia de referência; manter atribuição e proveniência."},
+    "terrain": {"classe_uso": "PENDENTE_VERIFICACAO", "licenca": "Dataset efetivo e datum ainda não confirmados", "observacao": "Candidato de levantamento; bloquear distribuição até revisão."},
+    "satellite": {"classe_uso": "REFERENCIA_INTERNA", "licenca": "Termos do provedor externo; sem aprovação para distribuição", "observacao": "Uso de desenvolvimento autorizado; manter fora de assets finais. Derivados dependentes exigem substituição ou validação independente."},
+    "streetview": {"classe_uso": "REFERENCIA_INTERNA", "licenca": "Termos do provedor externo; sem aprovação para distribuição", "observacao": "Uso de desenvolvimento autorizado; manter fora de assets finais. Derivados dependentes exigem substituição ou validação independente."}
+  },
+  "raw_roots": ["world-reference", "world-source"],
+  "note": "Classe de release não certifica licença. Falta de proveniência, dependências não catalogadas e arquivos brutos bloqueiam o gate. Autorização de referências dev registrada nesta rodada; fontes finais não são promovidas automaticamente."
+}

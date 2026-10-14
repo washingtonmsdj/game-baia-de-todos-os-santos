@@ -1,0 +1,115 @@
+{
+  "schema": "boas/coastal-seam-b58-v1",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b57_visual_hq_gameplay.blend",
+    "revision": "R30B.57",
+    "sha256": "d78ad217cdb030eab94d0ef36b3fe996f853ad7e6c495176846721f9888cb480",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b56_pieres_gameplay.blend",
+    "evidence": "docs/reports/blender/visual_hq_r30b57.json",
+    "notes": "Superfície HQ e colisão correspondentes; revisão de costura e aparência pendente."
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b58_costura_encosta_gameplay.blend",
+    "revision": "R30B.58",
+    "sha256": "44f07912366549288cc455f61eb503ee68ad25dbf184910f37ef54acc99a6845"
+  },
+  "classification": "ERROR",
+  "terrain": {
+    "source": "B57 | GAMEPLAY TERRAIN HQ | Aleph 0.75m",
+    "result": "B58 | GAMEPLAY TERRAIN HQ | costura sem sobreposição",
+    "removed_faces": 12476,
+    "split_faces": 12661,
+    "vertices": 135379,
+    "faces": 134172
+  },
+  "roads": [
+    {
+      "source": "B57 | ROAD VISUAL | 154743329 | run 0",
+      "result": "B58 | ROAD VISUAL | 154743329 | run 0",
+      "removed_faces": 39,
+      "split_faces": 41,
+      "vertices": 56,
+      "faces": 27
+    },
+    {
+      "source": "B57 | ROAD VISUAL | 456471269 | run 0",
+      "result": "B58 | ROAD VISUAL | 456471269 | run 0",
+      "removed_faces": 29,
+      "split_faces": 31,
+      "vertices": 36,
+      "faces": 17
+    },
+    {
+      "source": "B57 | ROAD VISUAL | 562660148 | run 0",
+      "result": "B58 | ROAD VISUAL | 562660148 | run 0",
+      "removed_faces": 18,
+      "split_faces": 18,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "source": "B57 | ROAD VISUAL | 978527848 | run 0",
+      "result": "B58 | ROAD VISUAL | 978527848 | run 0",
+      "removed_faces": 25,
+      "split_faces": 27,
+      "vertices": 100,
+      "faces": 49
+    },
+    {
+      "source": "B57 | ROAD VISUAL | 1004133492 | run 0",
+      "result": "B58 | ROAD VISUAL | 1004133492 | run 0",
+      "removed_faces": 13,
+      "split_faces": 13,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "source": "B57 | ROAD VISUAL | 1004133493 | run 0",
+      "result": "B58 | ROAD VISUAL | 1004133493 | run 0",
+      "removed_faces": 43,
+      "split_faces": 45,
+      "vertices": 232,
+      "faces": 115
+    },
+    {
+      "source": "B57 | ROAD VISUAL | 1004133494 | run 0",
+      "result": "B58 | ROAD VISUAL | 1004133494 | run 0",
+      "removed_faces": 43,
+      "split_faces": 45,
+      "vertices": 68,
+      "faces": 33
+    },
+    {
+      "source": "B57 | ROAD VISUAL | 1075624454 | run 0",
+      "result": "B58 | ROAD VISUAL | 1075624454 | run 0",
+      "removed_faces": 15,
+      "split_faces": 17,
+      "vertices": 290,
+      "faces": 144
+    },
+    {
+      "source": "B57 | ROAD VISUAL | 1321544428 | run 0",
+      "result": "B58 | ROAD VISUAL | 1321544428 | run 0",
+      "removed_faces": 42,
+      "split_faces": 44,
+      "vertices": 80,
+      "faces": 39
+    }
+  ],
+  "physical_boundary_xy": {
+    "x": -285.70343017578125,
+    "y": -281.2629241938703
+  },
+  "core_coverage_missing": [],
+  "seam_vertex_max_adjustment_m": 21.18347829744834,
+  "visual_collision_identical": true,
+  "protected_changes": [],
+  "runtime_exported": false,
+  "approved": false,
+  "pending": [
+    "Reabertura e inspeção visual",
+    "Preenchimento de lacunas restantes entre o limite histórico e o cais",
+    "Travessia física na engine ainda não integrada"
+  ]
+}

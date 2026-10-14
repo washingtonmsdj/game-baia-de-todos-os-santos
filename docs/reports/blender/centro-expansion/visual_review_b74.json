@@ -1,0 +1,49 @@
+{
+  "source_file": "blender/salvador_lacerda_r30b74_expansao_lapa_tororo_fonte_nova.blend",
+  "driver_shots": [
+    {
+      "location_id": "center-lapa",
+      "file": "artifacts/centro-expansion/render-motorista-center-lapa-b74.png",
+      "frame": 17092,
+      "osm_way_id": 257113958,
+      "method": "Actual Blender driver camera / Workbench render, no screenshot",
+      "references_overlay": false
+    },
+    {
+      "location_id": "arena-fonte-nova",
+      "file": "artifacts/centro-expansion/render-motorista-arena-fonte-nova-b74.png",
+      "frame": 31732,
+      "osm_way_id": 136028743,
+      "method": "Actual Blender driver camera / Workbench render, no screenshot",
+      "references_overlay": false
+    },
+    {
+      "location_id": "dique-do-tororo",
+      "file": "artifacts/centro-expansion/render-motorista-dique-do-tororo-b74.png",
+      "frame": 58948,
+      "osm_way_id": 981380021,
+      "method": "Actual Blender driver camera / Workbench render, no screenshot",
+      "references_overlay": false
+    }
+  ],
+  "overview": "artifacts/centro-expansion/render-referencia-geral-b74.png",
+  "overview_reference_axes_not_pavement": true,
+  "scene_saved": false,
+  "viewport_capture_valid": false,
+  "viewport_capture_failure": "All screenshot_area captures were 1x1 pixels",
+  "rendered_roads_final": false,
+  "images_inspected": [
+    "artifacts/centro-expansion/render-motorista-center-lapa-b74.png",
+    "artifacts/centro-expansion/render-motorista-arena-fonte-nova-b74.png",
+    "artifacts/centro-expansion/render-motorista-dique-do-tororo-b74.png",
+    "artifacts/centro-expansion/render-referencia-geral-b74.png"
+  ],
+  "review_status": "complete_images_partial_world",
+  "findings": [
+    "Expansão exibe terreno candidato sem pavimento viário final",
+    "Eixos/footprints no overview são referência",
+    "Replays não comprovam circulação física nem largura viária"
+  ],
+  "disk_full_capture_resolved": true,
+  "production_ready": false
+}

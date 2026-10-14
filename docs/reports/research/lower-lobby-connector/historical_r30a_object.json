@@ -1,0 +1,46 @@
+{
+  "source": "docs/reports/blender/r30a/structural_scene_audit_before.json",
+  "objects": [
+    {
+      "name": "INFERIOR | guia de fila.001",
+      "type": "MESH",
+      "categories": [
+        "buildings"
+      ],
+      "osm_ids": [],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "location": [
+        -52.22642517089844,
+        59.352962493896484,
+        7.840999126434326
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "nonuniform_scale": false,
+      "bounds": {
+        "min": [
+          -53.712249755859375,
+          57.95524978637695,
+          7.290998935699463
+        ],
+        "max": [
+          -50.7406005859375,
+          60.750675201416016,
+          8.390998840332031
+        ]
+      },
+      "geometry": {
+        "vertices": 8,
+        "edges": 12,
+        "polygons": 6
+      },
+      "modifiers": [],
+      "hide_render": false
+    }
+  ]
+}

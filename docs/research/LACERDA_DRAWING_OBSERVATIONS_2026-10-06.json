@@ -1,0 +1,39 @@
+{
+  "schema": "boas/documentary-observations-v1",
+  "method": "Leitura humana de pranchas PDF renderizadas e cotas impressas; nenhuma medida obtida escalando pixels.",
+  "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+  "configuration": "Projeto executivo de 2023 R00, disponibilizado nos anexos da Concorrência SUCOP 24/2023; não certificado como as-built de 2025.",
+  "drawing_to_ssot_transform": null,
+  "sheets": {
+    "3": {"date": "2023-07-10", "scale_titleblock": "1:75", "inspected": true},
+    "4": {"date": "2023-07-10", "scale_titleblock": "1:75", "inspected": true},
+    "8": {"date": "2023-07-10", "scale_titleblock": "1:75", "inspected": true},
+    "12": {"date": "2023-07-10", "scale_titleblock": "1:75", "inspected": true},
+    "13": {"date": "2023-07-10", "scale_titleblock": "1:75", "inspected": true},
+    "17": {"date": "2023-07-10", "scale_titleblock": "1:75", "inspected": true},
+    "21": {"date": "2023-06-30", "scale_titleblock": "1:100", "inspected": true},
+    "22": {"date": "2023-06-30", "scale_titleblock": "1:50", "scale_cut_labels": "1:100", "scale_conflict": true, "inspected": true},
+    "23": {"date": "2023-06-30", "scale_titleblock": "1:100", "inspected": true},
+    "24": {"date": "2023-06-30", "scale_titleblock": "1:50", "scale_cut_labels": "1:100", "scale_conflict": true, "inspected": true},
+    "31": {"date": "2023-07-19", "scale_titleblock": "1:75", "inspected": true},
+    "34": {"date": "2023-07-19", "scale_titleblock": "1:75", "inspected": true}
+  },
+  "printed_project_levels": {
+    "upper_access": 0.00,
+    "bridge_roof": 4.00,
+    "lower_roof": -53.17,
+    "lower_access": -58.93,
+    "unit": "m",
+    "datum": "zero local do projeto no acesso superior; vinculação ao datum absoluto SSOT desconhecida",
+    "source_sheets": [3, 4, 8, 12, 13, 17, 21, 23, 24],
+    "evidence_class": "OFFICIAL_DRAWING"
+  },
+  "observations": [
+    {"id": "section-shaft", "sheets": [21, 23], "fact": "Os cortes AA/BB representam continuidade vertical da torre e a relação lateral dos acessos com a torre.", "limit": "Não são desenhos de montagem dos elevadores; não comprovam o envelope da cabine, contrapesos ou o perfil cotado de cada abertura de laje."},
+    {"id": "upper-flows", "sheets": [8, 17], "fact": "O projeto distingue entrada, saída e acesso à torre; a torre aparece esquematicamente hachurada nas plantas.", "limit": "Hachura não deve ser convertida em dimensões internas de cabine/poço. Largura da porta do elevador e gap da soleira permanecem desconhecidos."},
+    {"id": "lower-roof", "sheets": [4, 13, 21, 23], "fact": "Cobertura inferior, torre e abertura de iluminação são elementos distintos no projeto; a cobertura é indicada em -53,17.", "limit": "Ainda falta correspondência verificada entre paredes/aberturas do desenho e vértices da mesh B80."},
+    {"id": "suspended-services", "sheets": [24, 31, 34], "fact": "O projeto distingue laje, instalações suspensas e grelhas/forro. O corte DD indica 3,07 m até a grelha no acesso superior.", "limit": "A cota é do ambiente representado no projeto, não altura livre comprovada da cabine atual."},
+    {"id": "scale-conflict", "sheets": [22, 24], "fact": "Carimbo indica 1:50 e legendas de cortes indicam 1:100.", "limit": "Não extrair dimensões pela escala gráfica sem esclarecer a divergência; cotas impressas permanecem evidência documental."}
+  ],
+  "geometry_change_authorized": false
+}

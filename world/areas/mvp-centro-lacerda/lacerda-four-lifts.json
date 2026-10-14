@@ -1,0 +1,1087 @@
+{
+  "schema": "boas/four-lifts-gameplay-v1",
+  "scene": "SALVADOR | ESBOCO OFICIAL",
+  "status": "GAMEPLAY_PROXY",
+  "historical_gate": "docs/LACERDA_CORRIDOR_B80.md",
+  "ssot": "world/geographic-reference.json",
+  "accuracy": "APPROXIMATE",
+  "replacement_required": true,
+  "production_ready": false,
+  "pedestrian_route_status": "NOT_INTEGRATED_WITH_FOUR_LIFTS",
+  "equipment": [
+    {
+      "id": "lacerda-01",
+      "number": 1,
+      "tower": "CIDADE_ALTA",
+      "center_local": [
+        -14.4,
+        -1.25
+      ],
+      "angle_local": 0.0,
+      "size": [
+        2.0,
+        2.35,
+        2.5
+      ],
+      "upper_side": -1,
+      "lower_side": -1,
+      "upper": 70.12300872802734,
+      "lower": 11.113008728027346,
+      "status": "GAMEPLAY_PROXY",
+      "accuracy": "APPROXIMATE",
+      "replacement_required": true,
+      "production_ready": false,
+      "clearance_status": "CABIN_VOLUME_CCD_CLEAR",
+      "movement_enabled": true,
+      "door_width": 1.2,
+      "parts": [
+        {
+          "object": "B102 | lacerda-01 | piso",
+          "tag": "cabin_floor",
+          "center": [
+            0.0,
+            0,
+            -0.06
+          ],
+          "size": [
+            2.12,
+            2.47,
+            0.12
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-01 | teto",
+          "tag": "cabin_roof",
+          "center": [
+            0.0,
+            0,
+            2.56
+          ],
+          "size": [
+            2.12,
+            2.47,
+            0.12
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-01 | lateral -1",
+          "tag": "cabin_wall",
+          "center": [
+            0.0,
+            -1.205,
+            1.25
+          ],
+          "size": [
+            2.12,
+            0.06,
+            2.5
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-01 | lateral 1",
+          "tag": "cabin_wall",
+          "center": [
+            0.0,
+            1.205,
+            1.25
+          ],
+          "size": [
+            2.12,
+            0.06,
+            2.5
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-01 | jamba -1 -1",
+          "tag": "cabin_wall",
+          "center": [
+            -1.03,
+            -0.925,
+            1.25
+          ],
+          "size": [
+            0.06,
+            0.55,
+            2.5
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-01 | jamba -1 1",
+          "tag": "cabin_wall",
+          "center": [
+            -1.03,
+            0.925,
+            1.25
+          ],
+          "size": [
+            0.06,
+            0.55,
+            2.5
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-01 | porta cabine -1 -1",
+          "tag": "cabin_door",
+          "center": [
+            -1.0,
+            -0.3,
+            1.25
+          ],
+          "size": [
+            0.05,
+            0.6,
+            2.5
+          ],
+          "landing": "-1",
+          "leaf": -1
+        },
+        {
+          "object": "B102 | lacerda-01 | porta cabine -1 1",
+          "tag": "cabin_door",
+          "center": [
+            -1.0,
+            0.3,
+            1.25
+          ],
+          "size": [
+            0.05,
+            0.6,
+            2.5
+          ],
+          "landing": "-1",
+          "leaf": 1
+        },
+        {
+          "object": "B102 | lacerda-01 | fundo",
+          "tag": "cabin_wall",
+          "center": [
+            1.03,
+            0,
+            1.25
+          ],
+          "size": [
+            0.06,
+            2.47,
+            2.5
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-01 | porta estação upper -1",
+          "tag": "landing_door",
+          "center": [
+            -1.12,
+            -0.3,
+            71.37300872802734
+          ],
+          "size": [
+            0.06,
+            0.6,
+            2.5
+          ],
+          "landing": "upper",
+          "leaf": -1
+        },
+        {
+          "object": "B102 | lacerda-01 | porta estação upper 1",
+          "tag": "landing_door",
+          "center": [
+            -1.12,
+            0.3,
+            71.37300872802734
+          ],
+          "size": [
+            0.06,
+            0.6,
+            2.5
+          ],
+          "landing": "upper",
+          "leaf": 1
+        },
+        {
+          "object": "B102 | lacerda-01 | porta estação lower -1",
+          "tag": "landing_door",
+          "center": [
+            -1.12,
+            -0.3,
+            12.363008728027346
+          ],
+          "size": [
+            0.06,
+            0.6,
+            2.5
+          ],
+          "landing": "lower",
+          "leaf": -1
+        },
+        {
+          "object": "B102 | lacerda-01 | porta estação lower 1",
+          "tag": "landing_door",
+          "center": [
+            -1.12,
+            0.3,
+            12.363008728027346
+          ],
+          "size": [
+            0.06,
+            0.6,
+            2.5
+          ],
+          "landing": "lower",
+          "leaf": 1
+        }
+      ],
+      "enclosure_size": [
+        2.12,
+        2.47,
+        2.74
+      ],
+      "candidate_fit_reason": "Cabine provisória ajustada ao espaço livre da envoltória documental existente; não muda arquitetura nem cápsula",
+      "door_leaf_stroke": 0.62,
+      "door_sweep_classification": "PROXY_LEAVES_CONTAINED_WITHIN_CABIN_ENCLOSURE"
+    },
+    {
+      "id": "lacerda-02",
+      "number": 2,
+      "tower": "CIDADE_ALTA",
+      "center_local": [
+        -14.4,
+        1.2999999999999998
+      ],
+      "angle_local": 0.0,
+      "size": [
+        2.0,
+        2.35,
+        2.5
+      ],
+      "upper_side": -1,
+      "lower_side": -1,
+      "upper": 70.12300872802734,
+      "lower": 11.113008728027346,
+      "status": "GAMEPLAY_PROXY",
+      "accuracy": "APPROXIMATE",
+      "replacement_required": true,
+      "production_ready": false,
+      "clearance_status": "CABIN_VOLUME_CCD_CLEAR",
+      "movement_enabled": true,
+      "door_width": 1.2,
+      "parts": [
+        {
+          "object": "B102 | lacerda-02 | piso",
+          "tag": "cabin_floor",
+          "center": [
+            0.0,
+            0,
+            -0.06
+          ],
+          "size": [
+            2.12,
+            2.47,
+            0.12
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-02 | teto",
+          "tag": "cabin_roof",
+          "center": [
+            0.0,
+            0,
+            2.56
+          ],
+          "size": [
+            2.12,
+            2.47,
+            0.12
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-02 | lateral -1",
+          "tag": "cabin_wall",
+          "center": [
+            0.0,
+            -1.205,
+            1.25
+          ],
+          "size": [
+            2.12,
+            0.06,
+            2.5
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-02 | lateral 1",
+          "tag": "cabin_wall",
+          "center": [
+            0.0,
+            1.205,
+            1.25
+          ],
+          "size": [
+            2.12,
+            0.06,
+            2.5
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-02 | jamba -1 -1",
+          "tag": "cabin_wall",
+          "center": [
+            -1.03,
+            -0.925,
+            1.25
+          ],
+          "size": [
+            0.06,
+            0.55,
+            2.5
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-02 | jamba -1 1",
+          "tag": "cabin_wall",
+          "center": [
+            -1.03,
+            0.925,
+            1.25
+          ],
+          "size": [
+            0.06,
+            0.55,
+            2.5
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-02 | porta cabine -1 -1",
+          "tag": "cabin_door",
+          "center": [
+            -1.0,
+            -0.3,
+            1.25
+          ],
+          "size": [
+            0.05,
+            0.6,
+            2.5
+          ],
+          "landing": "-1",
+          "leaf": -1
+        },
+        {
+          "object": "B102 | lacerda-02 | porta cabine -1 1",
+          "tag": "cabin_door",
+          "center": [
+            -1.0,
+            0.3,
+            1.25
+          ],
+          "size": [
+            0.05,
+            0.6,
+            2.5
+          ],
+          "landing": "-1",
+          "leaf": 1
+        },
+        {
+          "object": "B102 | lacerda-02 | fundo",
+          "tag": "cabin_wall",
+          "center": [
+            1.03,
+            0,
+            1.25
+          ],
+          "size": [
+            0.06,
+            2.47,
+            2.5
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-02 | porta estação upper -1",
+          "tag": "landing_door",
+          "center": [
+            -1.12,
+            -0.3,
+            71.37300872802734
+          ],
+          "size": [
+            0.06,
+            0.6,
+            2.5
+          ],
+          "landing": "upper",
+          "leaf": -1
+        },
+        {
+          "object": "B102 | lacerda-02 | porta estação upper 1",
+          "tag": "landing_door",
+          "center": [
+            -1.12,
+            0.3,
+            71.37300872802734
+          ],
+          "size": [
+            0.06,
+            0.6,
+            2.5
+          ],
+          "landing": "upper",
+          "leaf": 1
+        },
+        {
+          "object": "B102 | lacerda-02 | porta estação lower -1",
+          "tag": "landing_door",
+          "center": [
+            -1.12,
+            -0.3,
+            12.363008728027346
+          ],
+          "size": [
+            0.06,
+            0.6,
+            2.5
+          ],
+          "landing": "lower",
+          "leaf": -1
+        },
+        {
+          "object": "B102 | lacerda-02 | porta estação lower 1",
+          "tag": "landing_door",
+          "center": [
+            -1.12,
+            0.3,
+            12.363008728027346
+          ],
+          "size": [
+            0.06,
+            0.6,
+            2.5
+          ],
+          "landing": "lower",
+          "leaf": 1
+        }
+      ],
+      "enclosure_size": [
+        2.12,
+        2.47,
+        2.74
+      ],
+      "candidate_fit_reason": "Cabine provisória ajustada ao espaço livre da envoltória documental existente; não muda arquitetura nem cápsula",
+      "door_leaf_stroke": 0.62,
+      "door_sweep_classification": "PROXY_LEAVES_CONTAINED_WITHIN_CABIN_ENCLOSURE"
+    },
+    {
+      "id": "lacerda-03",
+      "number": 3,
+      "tower": "CIDADE_BAIXA",
+      "center_local": [
+        -48.23870449906524,
+        1.9435783664583854
+      ],
+      "angle_local": -0.28918062238451553,
+      "size": [
+        1.7,
+        2.35,
+        2.5
+      ],
+      "upper_side": 1,
+      "lower_side": -1,
+      "upper": 70.12300872802734,
+      "lower": 11.113008728027346,
+      "status": "GAMEPLAY_PROXY",
+      "accuracy": "APPROXIMATE",
+      "replacement_required": true,
+      "production_ready": false,
+      "clearance_status": "CABIN_VOLUME_CCD_CLEAR",
+      "movement_enabled": true,
+      "door_width": 1.2,
+      "parts": [
+        {
+          "object": "B102 | lacerda-03 | piso",
+          "tag": "cabin_floor",
+          "center": [
+            0.0,
+            0,
+            -0.06
+          ],
+          "size": [
+            1.802,
+            2.47,
+            0.12
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-03 | teto",
+          "tag": "cabin_roof",
+          "center": [
+            0.0,
+            0,
+            2.56
+          ],
+          "size": [
+            1.802,
+            2.47,
+            0.12
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-03 | lateral -1",
+          "tag": "cabin_wall",
+          "center": [
+            0.0,
+            -1.205,
+            1.25
+          ],
+          "size": [
+            1.802,
+            0.06,
+            2.5
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-03 | lateral 1",
+          "tag": "cabin_wall",
+          "center": [
+            0.0,
+            1.205,
+            1.25
+          ],
+          "size": [
+            1.802,
+            0.06,
+            2.5
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-03 | jamba -1 -1",
+          "tag": "cabin_wall",
+          "center": [
+            -0.8755,
+            -0.925,
+            1.25
+          ],
+          "size": [
+            0.051,
+            0.55,
+            2.5
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-03 | jamba -1 1",
+          "tag": "cabin_wall",
+          "center": [
+            -0.8755,
+            0.925,
+            1.25
+          ],
+          "size": [
+            0.051,
+            0.55,
+            2.5
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-03 | porta cabine -1 -1",
+          "tag": "cabin_door",
+          "center": [
+            -0.85,
+            -0.3,
+            1.25
+          ],
+          "size": [
+            0.0425,
+            0.6,
+            2.5
+          ],
+          "landing": "-1",
+          "leaf": -1
+        },
+        {
+          "object": "B102 | lacerda-03 | porta cabine -1 1",
+          "tag": "cabin_door",
+          "center": [
+            -0.85,
+            0.3,
+            1.25
+          ],
+          "size": [
+            0.0425,
+            0.6,
+            2.5
+          ],
+          "landing": "-1",
+          "leaf": 1
+        },
+        {
+          "object": "B102 | lacerda-03 | jamba 1 -1",
+          "tag": "cabin_wall",
+          "center": [
+            0.8755,
+            -0.925,
+            1.25
+          ],
+          "size": [
+            0.051,
+            0.55,
+            2.5
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-03 | jamba 1 1",
+          "tag": "cabin_wall",
+          "center": [
+            0.8755,
+            0.925,
+            1.25
+          ],
+          "size": [
+            0.051,
+            0.55,
+            2.5
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-03 | porta cabine 1 -1",
+          "tag": "cabin_door",
+          "center": [
+            0.85,
+            -0.3,
+            1.25
+          ],
+          "size": [
+            0.0425,
+            0.6,
+            2.5
+          ],
+          "landing": "1",
+          "leaf": -1
+        },
+        {
+          "object": "B102 | lacerda-03 | porta cabine 1 1",
+          "tag": "cabin_door",
+          "center": [
+            0.85,
+            0.3,
+            1.25
+          ],
+          "size": [
+            0.0425,
+            0.6,
+            2.5
+          ],
+          "landing": "1",
+          "leaf": 1
+        },
+        {
+          "object": "B102 | lacerda-03 | porta estação upper -1",
+          "tag": "landing_door",
+          "center": [
+            0.9520000000000001,
+            -0.3,
+            71.37300872802734
+          ],
+          "size": [
+            0.051,
+            0.6,
+            2.5
+          ],
+          "landing": "upper",
+          "leaf": -1
+        },
+        {
+          "object": "B102 | lacerda-03 | porta estação upper 1",
+          "tag": "landing_door",
+          "center": [
+            0.9520000000000001,
+            0.3,
+            71.37300872802734
+          ],
+          "size": [
+            0.051,
+            0.6,
+            2.5
+          ],
+          "landing": "upper",
+          "leaf": 1
+        },
+        {
+          "object": "B102 | lacerda-03 | porta estação lower -1",
+          "tag": "landing_door",
+          "center": [
+            -0.9520000000000001,
+            -0.3,
+            12.363008728027346
+          ],
+          "size": [
+            0.051,
+            0.6,
+            2.5
+          ],
+          "landing": "lower",
+          "leaf": -1
+        },
+        {
+          "object": "B102 | lacerda-03 | porta estação lower 1",
+          "tag": "landing_door",
+          "center": [
+            -0.9520000000000001,
+            0.3,
+            12.363008728027346
+          ],
+          "size": [
+            0.051,
+            0.6,
+            2.5
+          ],
+          "landing": "lower",
+          "leaf": 1
+        }
+      ],
+      "enclosure_size": [
+        1.802,
+        2.47,
+        2.74
+      ],
+      "candidate_fit_reason": "Cabine provisória ajustada ao espaço livre da envoltória documental existente; não muda arquitetura nem cápsula",
+      "door_leaf_stroke": 0.62,
+      "door_sweep_classification": "PROXY_LEAVES_CONTAINED_WITHIN_CABIN_ENCLOSURE"
+    },
+    {
+      "id": "lacerda-04",
+      "number": 4,
+      "tower": "CIDADE_BAIXA",
+      "center_local": [
+        -47.18358672627246,
+        5.4899464361230095
+      ],
+      "angle_local": -0.28918062238451553,
+      "size": [
+        1.7,
+        2.35,
+        2.5
+      ],
+      "upper_side": 1,
+      "lower_side": -1,
+      "upper": 70.12300872802734,
+      "lower": 11.113008728027346,
+      "status": "GAMEPLAY_PROXY",
+      "accuracy": "APPROXIMATE",
+      "replacement_required": true,
+      "production_ready": false,
+      "clearance_status": "CABIN_VOLUME_CCD_CLEAR",
+      "movement_enabled": true,
+      "door_width": 1.2,
+      "parts": [
+        {
+          "object": "B102 | lacerda-04 | piso",
+          "tag": "cabin_floor",
+          "center": [
+            0.0,
+            0,
+            -0.06
+          ],
+          "size": [
+            1.802,
+            2.47,
+            0.12
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-04 | teto",
+          "tag": "cabin_roof",
+          "center": [
+            0.0,
+            0,
+            2.56
+          ],
+          "size": [
+            1.802,
+            2.47,
+            0.12
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-04 | lateral -1",
+          "tag": "cabin_wall",
+          "center": [
+            0.0,
+            -1.205,
+            1.25
+          ],
+          "size": [
+            1.802,
+            0.06,
+            2.5
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-04 | lateral 1",
+          "tag": "cabin_wall",
+          "center": [
+            0.0,
+            1.205,
+            1.25
+          ],
+          "size": [
+            1.802,
+            0.06,
+            2.5
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-04 | jamba -1 -1",
+          "tag": "cabin_wall",
+          "center": [
+            -0.8755,
+            -0.925,
+            1.25
+          ],
+          "size": [
+            0.051,
+            0.55,
+            2.5
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-04 | jamba -1 1",
+          "tag": "cabin_wall",
+          "center": [
+            -0.8755,
+            0.925,
+            1.25
+          ],
+          "size": [
+            0.051,
+            0.55,
+            2.5
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-04 | porta cabine -1 -1",
+          "tag": "cabin_door",
+          "center": [
+            -0.85,
+            -0.3,
+            1.25
+          ],
+          "size": [
+            0.0425,
+            0.6,
+            2.5
+          ],
+          "landing": "-1",
+          "leaf": -1
+        },
+        {
+          "object": "B102 | lacerda-04 | porta cabine -1 1",
+          "tag": "cabin_door",
+          "center": [
+            -0.85,
+            0.3,
+            1.25
+          ],
+          "size": [
+            0.0425,
+            0.6,
+            2.5
+          ],
+          "landing": "-1",
+          "leaf": 1
+        },
+        {
+          "object": "B102 | lacerda-04 | jamba 1 -1",
+          "tag": "cabin_wall",
+          "center": [
+            0.8755,
+            -0.925,
+            1.25
+          ],
+          "size": [
+            0.051,
+            0.55,
+            2.5
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-04 | jamba 1 1",
+          "tag": "cabin_wall",
+          "center": [
+            0.8755,
+            0.925,
+            1.25
+          ],
+          "size": [
+            0.051,
+            0.55,
+            2.5
+          ],
+          "landing": null,
+          "leaf": null
+        },
+        {
+          "object": "B102 | lacerda-04 | porta cabine 1 -1",
+          "tag": "cabin_door",
+          "center": [
+            0.85,
+            -0.3,
+            1.25
+          ],
+          "size": [
+            0.0425,
+            0.6,
+            2.5
+          ],
+          "landing": "1",
+          "leaf": -1
+        },
+        {
+          "object": "B102 | lacerda-04 | porta cabine 1 1",
+          "tag": "cabin_door",
+          "center": [
+            0.85,
+            0.3,
+            1.25
+          ],
+          "size": [
+            0.0425,
+            0.6,
+            2.5
+          ],
+          "landing": "1",
+          "leaf": 1
+        },
+        {
+          "object": "B102 | lacerda-04 | porta estação upper -1",
+          "tag": "landing_door",
+          "center": [
+            0.9520000000000001,
+            -0.3,
+            71.37300872802734
+          ],
+          "size": [
+            0.051,
+            0.6,
+            2.5
+          ],
+          "landing": "upper",
+          "leaf": -1
+        },
+        {
+          "object": "B102 | lacerda-04 | porta estação upper 1",
+          "tag": "landing_door",
+          "center": [
+            0.9520000000000001,
+            0.3,
+            71.37300872802734
+          ],
+          "size": [
+            0.051,
+            0.6,
+            2.5
+          ],
+          "landing": "upper",
+          "leaf": 1
+        },
+        {
+          "object": "B102 | lacerda-04 | porta estação lower -1",
+          "tag": "landing_door",
+          "center": [
+            -0.9520000000000001,
+            -0.3,
+            12.363008728027346
+          ],
+          "size": [
+            0.051,
+            0.6,
+            2.5
+          ],
+          "landing": "lower",
+          "leaf": -1
+        },
+        {
+          "object": "B102 | lacerda-04 | porta estação lower 1",
+          "tag": "landing_door",
+          "center": [
+            -0.9520000000000001,
+            0.3,
+            12.363008728027346
+          ],
+          "size": [
+            0.051,
+            0.6,
+            2.5
+          ],
+          "landing": "lower",
+          "leaf": 1
+        }
+      ],
+      "enclosure_size": [
+        1.802,
+        2.47,
+        2.74
+      ],
+      "candidate_fit_reason": "Cabine provisória ajustada ao espaço livre da envoltória documental existente; não muda arquitetura nem cápsula",
+      "door_leaf_stroke": 0.62,
+      "door_sweep_classification": "PROXY_LEAVES_CONTAINED_WITHIN_CABIN_ENCLOSURE"
+    }
+  ],
+  "validation_report": "docs/reports/blender/lacerda-exterior-b102/validation.json",
+  "door_sweep_note": "Folhas da cabine varrem dentro do volume já submetido ao CCD; portas de estação não constituem aprovação do portal pedonal histórico."
+}

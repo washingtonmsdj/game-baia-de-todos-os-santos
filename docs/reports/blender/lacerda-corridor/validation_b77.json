@@ -1,0 +1,176 @@
+{
+  "revision": "R30B.77B",
+  "source_reopened": true,
+  "reopen_evidence": {
+    "file": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+    "sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+    "source_mode": "validation",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "load_post_completed": true,
+    "timestamp_utc": "2026-10-05T17:35:07.582062+00:00"
+  },
+  "preserved_objects": 6069,
+  "object_count": 6088,
+  "added_count": 19,
+  "differences": [],
+  "ssot_unchanged": true,
+  "b76_file_unchanged": true,
+  "collisions": [
+    {
+      "object": "B77 | COLLISION | INFERIOR | piso do saguão",
+      "source": "INFERIOR | piso do saguão",
+      "triangles": 2,
+      "vertices": 4,
+      "moving": false,
+      "nonfinite": 0,
+      "bad_normals": 0
+    },
+    {
+      "object": "B77 | COLLISION | SUPERIOR | piso saguão",
+      "source": "SUPERIOR | piso saguão",
+      "triangles": 2,
+      "vertices": 4,
+      "moving": false,
+      "nonfinite": 0,
+      "bad_normals": 0
+    },
+    {
+      "object": "B77 | COLLISION | NAV | passarela superior",
+      "source": "NAV | passarela superior",
+      "triangles": 2,
+      "vertices": 4,
+      "moving": false,
+      "nonfinite": 0,
+      "bad_normals": 0
+    },
+    {
+      "object": "B77 | COLLISION | CALIBRADO | piso superior torre",
+      "source": "CALIBRADO | piso superior torre",
+      "triangles": 8,
+      "vertices": 8,
+      "moving": false,
+      "nonfinite": 0,
+      "bad_normals": 0
+    },
+    {
+      "object": "B77 | COLLISION | CALIBRADO | piso desembarque baixo",
+      "source": "CALIBRADO | piso desembarque baixo",
+      "triangles": 6,
+      "vertices": 10,
+      "moving": false,
+      "nonfinite": 0,
+      "bad_normals": 0
+    },
+    {
+      "object": "B77 | COLLISION | FUNCIONAL | soleira inferior",
+      "source": "FUNCIONAL | soleira inferior",
+      "triangles": 2,
+      "vertices": 4,
+      "moving": false,
+      "nonfinite": 0,
+      "bad_normals": 0
+    },
+    {
+      "object": "B77 | COLLISION | INFERIOR R21 | passeio da entrada",
+      "source": "INFERIOR R21 | passeio da entrada",
+      "triangles": 2,
+      "vertices": 4,
+      "moving": false,
+      "nonfinite": 0,
+      "bad_normals": 0
+    },
+    {
+      "object": "B77 | COLLISION | INFERIOR R21 | rebaixo acessível",
+      "source": "INFERIOR R21 | rebaixo acessível",
+      "triangles": 2,
+      "vertices": 4,
+      "moving": false,
+      "nonfinite": 0,
+      "bad_normals": 0
+    },
+    {
+      "object": "B77 | COLLISION | TÉRREO | laje",
+      "source": "TÉRREO | laje",
+      "triangles": 2,
+      "vertices": 4,
+      "moving": false,
+      "nonfinite": 0,
+      "bad_normals": 0
+    },
+    {
+      "object": "B77 | COLLISION | PRAÇA | OSM 1263035782",
+      "source": "PRAÇA | OSM 1263035782",
+      "triangles": 4,
+      "vertices": 6,
+      "moving": false,
+      "nonfinite": 0,
+      "bad_normals": 0
+    },
+    {
+      "object": "B77 | COLLISION | FUNCIONAL | 3 soleira superior",
+      "source": "FUNCIONAL | 3 soleira superior",
+      "triangles": 2,
+      "vertices": 4,
+      "moving": false,
+      "nonfinite": 0,
+      "bad_normals": 0
+    },
+    {
+      "object": "B77 | COLLISION | FUNCIONAL | 3 soleira inferior",
+      "source": "FUNCIONAL | 3 soleira inferior",
+      "triangles": 2,
+      "vertices": 4,
+      "moving": false,
+      "nonfinite": 0,
+      "bad_normals": 0
+    },
+    {
+      "object": "B77 | COLLISION | TORRE | cornija galeria",
+      "source": "TORRE | cornija galeria",
+      "triangles": 79,
+      "vertices": 60,
+      "moving": false,
+      "nonfinite": 0,
+      "bad_normals": 0
+    },
+    {
+      "object": "B77 | COLLISION | FUNCIONAL | 3 piso",
+      "source": "FUNCIONAL | 3 piso",
+      "triangles": 2,
+      "vertices": 4,
+      "moving": true,
+      "nonfinite": 0,
+      "bad_normals": 0
+    },
+    {
+      "object": "B77 | COLLISION | ESTAÇÃO INFERIOR | plataforma",
+      "source": "ESTAÇÃO INFERIOR | plataforma",
+      "triangles": 2,
+      "vertices": 8,
+      "moving": false,
+      "nonfinite": 0,
+      "bad_normals": 0
+    }
+  ],
+  "stops": [
+    {
+      "frame": 65024,
+      "expected_z": 70.11499786376953,
+      "actual_z": 70.11499786376953,
+      "error": 0.0
+    },
+    {
+      "frame": 66977,
+      "expected_z": 7.4059977531433105,
+      "actual_z": 7.405998229980469,
+      "error": 4.76837158203125e-07
+    }
+  ],
+  "shaft_character_blocked": 0,
+  "portal_supported": true,
+  "whole_cabin_swept_volume_verified": false,
+  "engine_physics_verified": false,
+  "absolute_altitude_verified": false,
+  "passed": true,
+  "lower_portal_supported": true
+}

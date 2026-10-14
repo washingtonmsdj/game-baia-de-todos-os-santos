@@ -1,0 +1,45 @@
+{
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b79_contrato_colisao_slice.blend",
+    "revision": "R30B.79",
+    "sha256": "777d1748ddcf594cda267590172983743bb75cc11153e1db030f173ef7dde14f",
+    "status": "controller_candidate_blocked",
+    "parent_file": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+    "evidence": "docs/reports/blender/lacerda-controller/scene_b79.json",
+    "notes": "B77B preservada; colisores locais, estados e auditoria volumétrica. Interferências abertas, sem aprovação de engine; B78 não incorporada nesta revisão."
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+    "revision": "R30B.80",
+    "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+  },
+  "original_objects_preserved": 6292,
+  "added_objects": [
+    "B80 | COLLISION | passarela piso visual",
+    "B80 | NAV | superior ground-following candidato"
+  ],
+  "architecture_changed": false,
+  "B78_merged": false,
+  "ssot_preserved": true,
+  "cabin_contacts_before_after": [
+    54,
+    54
+  ],
+  "solid_witnesses_before_after": [
+    27,
+    27
+  ],
+  "upper_capsule_penetration_segments_before_after": [
+    8,
+    0
+  ],
+  "lower_capsule_penetration_segments_before_after": [
+    9,
+    9
+  ],
+  "upper_uncertain_support_points": 18,
+  "upper_gate_approved": false,
+  "departure_enabled": false,
+  "engine_verified": false,
+  "production_exported": false
+}

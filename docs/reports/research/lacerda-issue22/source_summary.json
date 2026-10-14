@@ -1,0 +1,544 @@
+{
+  "schema": "boas/documentary-source-summary-v1",
+  "resources": [
+    {
+      "resource_id": "source:lacerda-issue22-sucop-03",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_03_CB CONSTRUTIVA_R00.pdf",
+      "capture_id": "lacerda-issue22-20261006",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-03.pdf",
+          "sha256": "ee4b2aa81f1c40a7976e8ab71c7a4036e3e64eca0af4189524f198c92a80598f"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1oc3psNtZV7-IaoA2i9uJKcNaH0s5RBzi",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "document_date": "2023-07-10",
+      "sheet": 3,
+      "revision": "R00",
+      "scale": {
+        "date": "2023-07-10",
+        "scale_titleblock": "1:75",
+        "inspected": true
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Investigação independente B80; nenhuma geometria derivada nesta rodada",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/research/lacerda-issue22/witness_triage.json",
+      "kind": "document_reference"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-04",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_04_COBERTURA CB CONSTRUTIVA_R00.pdf",
+      "capture_id": "lacerda-issue22-20261006",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-04.pdf",
+          "sha256": "8d22af862061aeb4983e55f1ba09b89d793750db465c791127332ab07e69467e"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=14KmWP1G6QtnTuysU_5DEht8uIFiE7upU",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "document_date": "2023-07-10",
+      "sheet": 4,
+      "revision": "R00",
+      "scale": {
+        "date": "2023-07-10",
+        "scale_titleblock": "1:75",
+        "inspected": true
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Investigação independente B80; nenhuma geometria derivada nesta rodada",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/research/lacerda-issue22/witness_triage.json",
+      "kind": "document_reference"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-08",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_08_CA CONSTRUTIVA_R00.pdf",
+      "capture_id": "lacerda-issue22-20261006",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-08.pdf",
+          "sha256": "3bc24ab4512427bf44f52dd5f3ea8910a84108ec6535c689ed65addccb46f846"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1H73uJvAp_dh9xD02mWPUZmwA_Y_rBkUQ",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "document_date": "2023-07-10",
+      "sheet": 8,
+      "revision": "R00",
+      "scale": {
+        "date": "2023-07-10",
+        "scale_titleblock": "1:75",
+        "inspected": true
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Investigação independente B80; nenhuma geometria derivada nesta rodada",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/research/lacerda-issue22/witness_triage.json",
+      "kind": "document_reference"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-12",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_12_CIDADE BAIXA_R00.pdf",
+      "capture_id": "lacerda-issue22-20261006",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-12.pdf",
+          "sha256": "3a2ab2f97396bb860100e661d303cc640675d68abf3a1cc9c380fe66bbcf079b"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1qXVs_TIPHHpBiejVSc52INouqh4sC398",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "document_date": "2023-07-10",
+      "sheet": 12,
+      "revision": "R00",
+      "scale": {
+        "date": "2023-07-10",
+        "scale_titleblock": "1:75",
+        "inspected": true
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Investigação independente B80; nenhuma geometria derivada nesta rodada",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/research/lacerda-issue22/witness_triage.json",
+      "kind": "document_reference"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-13",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_13_COBERTURA CB_R00.pdf",
+      "capture_id": "lacerda-issue22-20261006",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-13.pdf",
+          "sha256": "7ed331549f3ee613b24865506d8c503f407f54ff658bdb1b2d9cf6230263b90d"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1-4KMiVvlW8EHVV8X32Gh1w6xFWxOrKYh",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "document_date": "2023-07-10",
+      "sheet": 13,
+      "revision": "R00",
+      "scale": {
+        "date": "2023-07-10",
+        "scale_titleblock": "1:75",
+        "inspected": true
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Investigação independente B80; nenhuma geometria derivada nesta rodada",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/research/lacerda-issue22/witness_triage.json",
+      "kind": "document_reference"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-17",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_17_CIDADE ALTA_R00.pdf",
+      "capture_id": "lacerda-issue22-20261006",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-17.pdf",
+          "sha256": "02d02b37b61b9a44ca931a00811e196e104322a6f0f89fc4bfb04f70d7783dd1"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1_-J00RDTZgQZLzLRFTGOyY43vFrjtuyb",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "document_date": "2023-07-10",
+      "sheet": 17,
+      "revision": "R00",
+      "scale": {
+        "date": "2023-07-10",
+        "scale_titleblock": "1:75",
+        "inspected": true
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Investigação independente B80; nenhuma geometria derivada nesta rodada",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/research/lacerda-issue22/witness_triage.json",
+      "kind": "document_reference"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-21",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_21_CORTES CONSTRUTIVOS_R00.pdf",
+      "capture_id": "lacerda-issue22-20261006",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-21.pdf",
+          "sha256": "6bfb999dc13bd3cc952b18b3c9295a1ce4b36c18c076709e7c2671c9ad35f1bf"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1CbK-R2e39ysEEdpDYhL_psLP4nVUCrjy",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "document_date": "2023-06-30",
+      "sheet": 21,
+      "revision": "R00",
+      "scale": {
+        "date": "2023-06-30",
+        "scale_titleblock": "1:100",
+        "inspected": true
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Investigação independente B80; nenhuma geometria derivada nesta rodada",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/research/lacerda-issue22/witness_triage.json",
+      "kind": "document_reference"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-22",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_22_CORTES CONSTRUTIVOS_R00.pdf",
+      "capture_id": "lacerda-issue22-20261006",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-22.pdf",
+          "sha256": "9098b2607b526ab4007402743cbccdf280c39e591aea1c1966645ea77070fd25"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1jsLAQXoMa7OvC3HsLU8jc_NfPJ26ayi6",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "document_date": "2023-06-30",
+      "sheet": 22,
+      "revision": "R00",
+      "scale": {
+        "date": "2023-06-30",
+        "scale_titleblock": "1:50",
+        "scale_cut_labels": "1:100",
+        "scale_conflict": true,
+        "inspected": true
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Investigação independente B80; nenhuma geometria derivada nesta rodada",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/research/lacerda-issue22/witness_triage.json",
+      "kind": "document_reference"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-23",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_23_CORTES_R00.pdf",
+      "capture_id": "lacerda-issue22-20261006",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-23.pdf",
+          "sha256": "8d8e57f67dc38ab097fce4d9a4c823866fc8db8cd8a0f56f71ff46b7b81efb5b"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1QrZsg6GS7EVQyvZahh3bVCPO2KIEHtP_",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "document_date": "2023-06-30",
+      "sheet": 23,
+      "revision": "R00",
+      "scale": {
+        "date": "2023-06-30",
+        "scale_titleblock": "1:100",
+        "inspected": true
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Investigação independente B80; nenhuma geometria derivada nesta rodada",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/research/lacerda-issue22/witness_triage.json",
+      "kind": "document_reference"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-24",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_24_CORTES_R00.pdf",
+      "capture_id": "lacerda-issue22-20261006",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-24.pdf",
+          "sha256": "1b7e6255f5529090de4457c514e685f973709e5da993f08b404dfbfe1cbf1c6a"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1gBMqlT7Q8yPT_NzKdwOSEYiz8IMsj5ig",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "document_date": "2023-06-30",
+      "sheet": 24,
+      "revision": "R00",
+      "scale": {
+        "date": "2023-06-30",
+        "scale_titleblock": "1:50",
+        "scale_cut_labels": "1:100",
+        "scale_conflict": true,
+        "inspected": true
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Investigação independente B80; nenhuma geometria derivada nesta rodada",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/research/lacerda-issue22/witness_triage.json",
+      "kind": "document_reference"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-31",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_31_CB TETO_R00.pdf",
+      "capture_id": "lacerda-issue22-20261006",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-31.pdf",
+          "sha256": "7e24379f5457ebefde2788664ec7e1a700797a0b18debe0754a15582d1da6a12"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1Iay266ZmzgFHrCFAE6MExhfBJGwFy72N",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "document_date": "2023-07-19",
+      "sheet": 31,
+      "revision": "R00",
+      "scale": {
+        "date": "2023-07-19",
+        "scale_titleblock": "1:75",
+        "inspected": true
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Investigação independente B80; nenhuma geometria derivada nesta rodada",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/research/lacerda-issue22/witness_triage.json",
+      "kind": "document_reference"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-34",
+      "provider": "Prefeitura de Salvador / SUCOP; A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_34_CA TETO_R00.pdf",
+      "capture_id": "lacerda-issue22-20261006",
+      "capture_date": "2026-10-06",
+      "bounds": null,
+      "coordinates": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-architectural-34.pdf",
+          "sha256": "0c41f8a8b2d2005699f9050fccf889bc60cfb5f5cf4f8618d95c77a041c02afa"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1jKoBVm2_VVctr_boQ3cxyxnxYArQ6B-1",
+      "official_distribution": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "document_date": "2023-07-19",
+      "sheet": 34,
+      "revision": "R00",
+      "scale": {
+        "date": "2023-07-19",
+        "scale_titleblock": "1:75",
+        "inspected": true
+      },
+      "evidence_class": "OFFICIAL_DRAWING",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Investigação independente B80; nenhuma geometria derivada nesta rodada",
+      "derived_objects": [],
+      "dependencies": [],
+      "as_built_verified": false,
+      "license": "Disponibilização pública não comprova autorização de redistribuição; binário fora do Git/release",
+      "evidence": "docs/reports/research/lacerda-issue22/witness_triage.json",
+      "kind": "document_reference"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-edital",
+      "provider": "Prefeitura de Salvador / SUCOP",
+      "author": "Prefeitura de Salvador / SUCOP",
+      "dataset": "sucop-concorrencia-24-2023",
+      "capture_date": "2026-10-06",
+      "document_date": "2023-10",
+      "bounds": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-concorrencia-24-2023.pdf",
+          "sha256": "8116dddb885d394a21668d444dd5da7a2c27f8a60fc33f62efe772098279fef4"
+        }
+      ],
+      "source_url": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "evidence_class": "OFFICIAL_TEXT",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Contexto documental e descoberta de pranchas; não autoriza medida fotográfica",
+      "derived_objects": [],
+      "dependencies": [],
+      "kind": "document_reference",
+      "evidence": "docs/reports/research/lacerda-issue22/acquisition.json"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sbqp-2025",
+      "provider": "Nivaldo Vieira de Andrade Junior",
+      "author": "Nivaldo Vieira de Andrade Junior",
+      "dataset": "sbqp-2025-restoration",
+      "capture_date": "2026-10-06",
+      "document_date": "2025",
+      "bounds": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sbqp-2025-restoration.pdf",
+          "sha256": "2f13acf4f4a30afc672e24c014857cd8644aa5d5041aac8366f1ed26fd986f23"
+        }
+      ],
+      "source_url": "https://eventos.antac.org.br/index.php/sbqp/article/download/8233/6115",
+      "evidence_class": "ACADEMIC_SECONDARY",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Contexto documental e descoberta de pranchas; não autoriza medida fotográfica",
+      "derived_objects": [],
+      "dependencies": [],
+      "kind": "document_reference",
+      "evidence": "docs/reports/research/lacerda-issue22/acquisition.json"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-specifications",
+      "provider": "SUCOP / A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_Caderno de Especificações_R00.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "capture_date": "2026-10-06",
+      "document_date": "2023-08",
+      "revision": "R00",
+      "pages": 11,
+      "bounds": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-specifications.pdf",
+          "sha256": "033806e525de9b2b926e04584ba1f389e7441c41127817080c5f745eceaba6e9"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1dHoszctHSVBQlff027puX9-asZa_xpKH",
+      "evidence_class": "OFFICIAL_TEXT",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Memorial do projeto e especificações; investigação sem derivar objetos",
+      "derived_objects": [],
+      "dependencies": [],
+      "kind": "document_reference",
+      "evidence": "docs/reports/research/lacerda-issue22/memorial_acquisition.json"
+    },
+    {
+      "resource_id": "source:lacerda-issue22-sucop-memorial",
+      "provider": "SUCOP / A+P Arquitetos Associados",
+      "dataset": "2301_RREL_PE_Memorial Justificativo_R00.pdf",
+      "author": "Alexandre Prisco Paraíso Barreto, CAU A33292-5; A+P Arquitetos Associados; colaboradores Gabriela Otremba / Lucas Paes",
+      "capture_date": "2026-10-06",
+      "document_date": "2023-09",
+      "revision": "R00",
+      "pages": 36,
+      "bounds": null,
+      "raw_files": [
+        {
+          "path": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-memorial.pdf",
+          "sha256": "603b33e8af68519d7a7b7129b693b4b3bb78042eb75cd2475f251ae14e3707ee"
+        }
+      ],
+      "source_url": "https://drive.google.com/uc?export=download&id=1I_IZA-cDUoTqtDpbpC8-rwovxQ3KTy_H",
+      "evidence_class": "OFFICIAL_TEXT",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "usage_class": "REFERENCIA_INTERNA",
+      "purpose": "Memorial do projeto e especificações; investigação sem derivar objetos",
+      "derived_objects": [],
+      "dependencies": [],
+      "kind": "document_reference",
+      "evidence": "docs/reports/research/lacerda-issue22/memorial_acquisition.json"
+    }
+  ],
+  "raw_release_allowed": false,
+  "drawing_to_ssot": null,
+  "scene_changed": false
+}

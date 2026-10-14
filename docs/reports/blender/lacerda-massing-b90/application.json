@@ -1,0 +1,614 @@
+{
+  "revision": "R30B.90",
+  "file": "blender/salvador_lacerda_r30b90_cotas_exteriores_consolidadas.blend",
+  "parent_file": "blender/salvador_lacerda_r30b89_conjunto_arquitetonico_niveis.blend",
+  "parent_sha256": "b418a1aec04241027451b2e0d515c3998fddfe3bc5f9a57096b4625d962b894c",
+  "scene": "SALVADOR | ESBOCO OFICIAL",
+  "pid": 16912,
+  "changes": [
+    {
+      "object": "FACHADA SUPERIOR | platibanda",
+      "before": {
+        "geometry_sha256": "26bd432775a9b1f143f0e29beb5be90f0f652c8374fd1ae8b22a6df33e756d09",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            2.4997940063476562
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            3.4750194549560547
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            86.0999984741211
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.5699999928474426,
+              0.46000000834465027,
+              0.3400000035762787,
+              1.0
+            ],
+            "base": [
+              0.5699999928474426,
+              0.46000000834465027,
+              0.3400000035762787,
+              1.0
+            ],
+            "roughness": 0.8299999833106995,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "before_levels": [
+        82.37299346923828,
+        84.03965759277344
+      ],
+      "after_levels": [
+        84.12300872802734,
+        85.52300872802735
+      ],
+      "source": "source:lacerda-issue22-sucop-23",
+      "printed_levels": [
+        14.0,
+        15.4
+      ],
+      "scope": "somente Z de envoltória/cobertura; XY e layout não certificados",
+      "after": {
+        "geometry_sha256": "978d0de85e566cbe69535360758e2cb9c6ff21ac3bda9e9bb34aa117d6bc72b2",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            2.4997940063476562
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            3.4750194549560547
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            86.0999984741211
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.5699999928474426,
+              0.46000000834465027,
+              0.3400000035762787,
+              1.0
+            ],
+            "base": [
+              0.5699999928474426,
+              0.46000000834465027,
+              0.3400000035762787,
+              1.0
+            ],
+            "roughness": 0.8299999833106995,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      }
+    },
+    {
+      "object": "EDIFICIO | platibanda lateral",
+      "before": {
+        "geometry_sha256": "40a32b61e273655b7646d2b37f0f506ce2ba5f925ed1afcd809a26dbcd7e9ec9",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            19.564077377319336
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -18.358041763305664
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "before_levels": [
+        84.08134460449219,
+        84.6646728515625
+      ],
+      "after_levels": [
+        84.12300872802734,
+        85.52300872802735
+      ],
+      "source": "source:lacerda-issue22-sucop-23",
+      "printed_levels": [
+        14.0,
+        15.4
+      ],
+      "scope": "somente Z de envoltória/cobertura; XY e layout não certificados",
+      "after": {
+        "geometry_sha256": "6277eb275992838909322103dd575be62094fbe308520319c7859e85d3043f5b",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            19.564077377319336
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -18.358041763305664
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      }
+    },
+    {
+      "object": "EDIFICIO | platibanda lateral.001",
+      "before": {
+        "geometry_sha256": "d3f12cc0af4c39092f7e9c44173d47c1572677cafb1473e4efc1d3075d2d8e81",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            19.564077377319336
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -18.358041763305664
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "before_levels": [
+        84.08134460449219,
+        84.6646728515625
+      ],
+      "after_levels": [
+        84.12300872802734,
+        85.52300872802735
+      ],
+      "source": "source:lacerda-issue22-sucop-23",
+      "printed_levels": [
+        14.0,
+        15.4
+      ],
+      "scope": "somente Z de envoltória/cobertura; XY e layout não certificados",
+      "after": {
+        "geometry_sha256": "970dd451c6267e2c1c9e48e50922d6db37d5c1f23a003102477cb7f17b9706f9",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            19.564077377319336
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -18.358041763305664
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      }
+    },
+    {
+      "object": "SUPERIOR | cobertura corpo elevado",
+      "before": {
+        "geometry_sha256": "c0516c16e59cf54b31211b4855490609de6be3311f5e4c1641a08b8308cd076e",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -1.3869800567626953
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            7.1221923828125
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            87.19999694824219
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "before_levels": [
+        84.01883697509766,
+        84.2271728515625
+      ],
+      "after_levels": [
+        83.87300872802734,
+        84.12300872802734
+      ],
+      "source": "source:lacerda-issue22-sucop-23",
+      "printed_levels": [
+        null,
+        14.0
+      ],
+      "scope": "somente Z de envoltória/cobertura; XY e layout não certificados",
+      "after": {
+        "geometry_sha256": "03e29535092dd0024d91f212f0ae9566e87ce14c7959621622115846b66be338",
+        "transform": [
+          [
+            0.7292261719703674,
+            0.6842727661132812,
+            0.0,
+            -1.3869800567626953
+          ],
+          [
+            -0.6842727661132812,
+            0.7292261719703674,
+            0.0,
+            7.1221923828125
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            87.19999694824219
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "base": [
+              0.7900000214576721,
+              0.7699999809265137,
+              0.6899999976158142,
+              1.0
+            ],
+            "roughness": 0.7300000190734863,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      }
+    },
+    {
+      "object": "EDIFICIO | cobertura",
+      "before": {
+        "geometry_sha256": "5f6058670eb29c46bba82699377eabef6cce4e7261cbd8bcc21cd6199f2456b5",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            19.564077377319336
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -18.358041763305664
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.28999999165534973,
+              0.30000001192092896,
+              0.2800000011920929,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.7799999713897705,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "before_levels": [
+        84.1896743774414,
+        84.30634307861328
+      ],
+      "after_levels": [
+        84.00300872802734,
+        84.12300872802734
+      ],
+      "source": "source:lacerda-issue22-sucop-23",
+      "printed_levels": [
+        null,
+        14.0
+      ],
+      "scope": "somente Z de envoltória/cobertura; XY e layout não certificados",
+      "after": {
+        "geometry_sha256": "0fd6fa093d8273e45588c26aef1753ca39350db1b4727df1d7d7c9e03717ac00",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            19.564077377319336
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -18.358041763305664
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [
+          {
+            "diffuse": [
+              0.28999999165534973,
+              0.30000001192092896,
+              0.2800000011920929,
+              1.0
+            ],
+            "base": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "roughness": 0.7799999713897705,
+            "metallic": 0.0
+          }
+        ],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      }
+    }
+  ],
+  "ssot_sha256": "1d9da0962d456cb38ed3df0da797208e499a8465f82e9836c14bb337df2385e7",
+  "terrain_preserved": true,
+  "proxy_b82_preserved": true,
+  "production_ready": false,
+  "reopened": true,
+  "LACERDA_VERTICAL": "BLOCKED_EXTERNAL_EVIDENCE",
+  "movement_enabled": false,
+  "historic_witnesses": 27,
+  "source_level_crop": "artifacts/lacerda-proportions/sheet23-levels.png",
+  "sha256": "519a5dd85c63edbea53251cf51c3162086d9cbb094654a5a0613e95f08669ea6",
+  "mesh_and_document_levels_checked": true,
+  "sha256_before_presentation_save": "b02ea754199ebca61808ad2a3f79d0c9409c59ce3a7ec054928f6d54b47b0062",
+  "presentation": {
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "local_view": false,
+    "main_terrain_visible": true,
+    "same_window_pid": 16912,
+    "geometry_changed": false
+  }
+}

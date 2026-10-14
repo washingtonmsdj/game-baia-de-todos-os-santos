@@ -1,0 +1,244 @@
+{
+  "schema": "boas/north-junction-b71-candidate-v1",
+  "source": {
+    "file": "blender/salvador_lacerda_r30b70_juncao_terreno_cais.blend",
+    "revision": "R30B.70",
+    "sha256": "2838e38a4347cd307d6e25eddf152fd38d7bde40747b4adb7c672a5e75093c64",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b69_encontros_sem_frestas.blend",
+    "evidence": "docs/reports/blender/coastal_junction_r30b70.json",
+    "notes": "Junção HQ/piso/cais recomposta por controles locais. Vias/XY/água/cais preservados; dois triângulos no extremo norte e datum real pendentes.",
+    "source_reopened": true,
+    "validation_evidence": "docs/reports/blender/coastal_junction_r30b70_validation.json",
+    "local_geometry_checks_passed": true
+  },
+  "classification": "ADAPT_LOCAL",
+  "binding_error_classification": "ERROR",
+  "control_core_vertex": 525112,
+  "control_xyz": [
+    -285.70343017578125,
+    39.40286636352539,
+    7.255668640136719
+  ],
+  "design_transition_radius_m": 12.0,
+  "real_transition_length_m": null,
+  "real_altimetry_verified": false,
+  "bindings": [
+    {
+      "fill_vertex": 154,
+      "control": "quay_edge",
+      "edge": [
+        2064,
+        2062
+      ],
+      "edge_t": 0.5000013935125289,
+      "distance_xy_m": 1.3125729343056728e-06,
+      "height": 8.066959422241851
+    },
+    {
+      "fill_vertex": 155,
+      "control": "quay_edge",
+      "edge": [
+        2068,
+        2066
+      ],
+      "edge_t": 0.9999816396018999,
+      "distance_xy_m": 2.4767219550941648e-05,
+      "height": 7.789861588080681
+    },
+    {
+      "fill_vertex": 156,
+      "control": "quay_edge",
+      "edge": [
+        2070,
+        2068
+      ],
+      "edge_t": 0.4999894262630885,
+      "distance_xy_m": 1.1070799061313193e-05,
+      "height": 7.535063972956337
+    },
+    {
+      "fill_vertex": 157,
+      "control": "quay_edge",
+      "edge": [
+        2072,
+        2070
+      ],
+      "edge_t": 2.787025057906833e-06,
+      "distance_xy_m": 2.6251458686506984e-06,
+      "height": 7.337196860483033
+    },
+    {
+      "fill_vertex": 158,
+      "control": "quay_edge",
+      "edge": [
+        2076,
+        2074
+      ],
+      "edge_t": 0.5000027870258378,
+      "distance_xy_m": 2.6251531849966925e-06,
+      "height": 7.261676868191541
+    },
+    {
+      "fill_vertex": 159,
+      "control": "core_boundary",
+      "height": 7.255668640136719
+    },
+    {
+      "fill_vertex": 160,
+      "control": "core_boundary",
+      "height": 7.255668640136719
+    },
+    {
+      "fill_vertex": 161,
+      "control": "core_boundary",
+      "height": 7.255668640136719
+    },
+    {
+      "fill_vertex": 162,
+      "control": "core_boundary",
+      "height": 7.255668640136719
+    },
+    {
+      "fill_vertex": 163,
+      "control": "core_boundary",
+      "height": 7.255668640136719
+    },
+    {
+      "fill_vertex": 164,
+      "control": "core_boundary",
+      "height": 7.255668640136719
+    },
+    {
+      "fill_vertex": 165,
+      "control": "core_boundary",
+      "height": 7.255668640136719
+    },
+    {
+      "fill_vertex": 166,
+      "control": "core_boundary",
+      "height": 7.255668640136719
+    },
+    {
+      "fill_vertex": 1541,
+      "control": "core_boundary",
+      "height": 7.255668640136719
+    },
+    {
+      "fill_vertex": 1546,
+      "control": "quay_edge",
+      "edge": [
+        2058,
+        2056
+      ],
+      "edge_t": 0.500011148097112,
+      "distance_xy_m": 1.0500554209257228e-05,
+      "height": 8.52943625764421
+    },
+    {
+      "fill_vertex": 1547,
+      "control": "quay_edge",
+      "edge": [
+        2058,
+        2056
+      ],
+      "edge_t": 0.50002787024278,
+      "distance_xy_m": 2.6251385523160094e-05,
+      "height": 8.529438149096347
+    },
+    {
+      "fill_vertex": 1548,
+      "control": "quay_edge",
+      "edge": [
+        2058,
+        2056
+      ],
+      "edge_t": 0.4999788528118145,
+      "distance_xy_m": 2.2142177395414546e-05,
+      "height": 8.529432604704713
+    },
+    {
+      "fill_vertex": 1549,
+      "control": "quay_edge",
+      "edge": [
+        2060,
+        2058
+      ],
+      "edge_t": 1.3935129188725398e-05,
+      "distance_xy_m": 1.3125765925046169e-05,
+      "height": 8.327823016082732
+    },
+    {
+      "fill_vertex": 1551,
+      "control": "quay_edge",
+      "edge": [
+        2064,
+        2062
+      ],
+      "edge_t": 0.5000264767380501,
+      "distance_xy_m": 2.4938885752172343e-05,
+      "height": 8.066964038897217
+    },
+    {
+      "fill_vertex": 1554,
+      "control": "quay_edge",
+      "edge": [
+        2064,
+        2062
+      ],
+      "edge_t": 0.5000097545877027,
+      "distance_xy_m": 9.188010540300816e-06,
+      "height": 8.066960961126972
+    },
+    {
+      "fill_vertex": 1555,
+      "control": "quay_edge",
+      "edge": [
+        2064,
+        2062
+      ],
+      "edge_t": 0.49997745918140973,
+      "distance_xy_m": 2.0829548946533188e-05,
+      "height": 8.066955017044515
+    },
+    {
+      "fill_vertex": 1556,
+      "control": "quay_edge",
+      "edge": [
+        2066,
+        2064
+      ],
+      "edge_t": 0.7499922133138689,
+      "distance_xy_m": 1.369618636796917e-05,
+      "height": 7.928664077856638
+    },
+    {
+      "fill_vertex": 1557,
+      "control": "quay_edge",
+      "edge": [
+        2054,
+        2052
+      ],
+      "edge_t": 8.36107751323524e-06,
+      "distance_xy_m": 7.875459555027702e-06,
+      "height": 8.657016753978345
+    }
+  ],
+  "floor_before": {
+    "above_200percent": 2,
+    "maximum": 2.594879456055208,
+    "p95": 0.23351618066685687
+  },
+  "floor_after": {
+    "above_200percent": 0,
+    "maximum": 0.6385466691880737,
+    "p95": 0.2181794155212362
+  },
+  "floor_below_nominal_water": 0,
+  "floor_changed_vertices": 380,
+  "quay_changed_vertices": 12,
+  "quay_max_z_change_m": 1.6918257740413187,
+  "floor_max_z_change_m": 1.8006391525268555,
+  "finite": true,
+  "geometry_changed": false
+}

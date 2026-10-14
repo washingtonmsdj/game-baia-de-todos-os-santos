@@ -1,0 +1,152 @@
+{
+  "source": {
+    "file": "blender/salvador_lacerda_r30b72_costura_viaria_continua.blend",
+    "revision": "R30B.72",
+    "sha256": "bef607e739f3a84e78a5c6e71ef20bc704ed5536d715896beaa9da0ea856db78"
+  },
+  "source_reopened": true,
+  "reopen_proof": {
+    "file": "blender/salvador_lacerda_r30b72_costura_viaria_continua.blend",
+    "sha256": "bef607e739f3a84e78a5c6e71ef20bc704ed5536d715896beaa9da0ea856db78",
+    "source_mode": "validation",
+    "scene": "SALVADOR | ESBOCO OFICIAL",
+    "load_post_completed": true,
+    "timestamp_utc": "2026-10-05T03:56:57.002720+00:00"
+  },
+  "protected_changes": [],
+  "coordinates_match_saved_result": true,
+  "xy_and_topology_preserved": true,
+  "collision_pairs_identical": [
+    [
+      "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+      "B62 | COLLISION | pavimento e costura limpa"
+    ],
+    [
+      "B63 | VISUAL | piso contínuo até o cais",
+      "B63 | COLLISION | piso contínuo até o cais"
+    ]
+  ],
+  "locked_other_roads_and_sidewalks_preserved": true,
+  "road_support_profiles": [
+    {
+      "osm_way_id": 154743329,
+      "name": "Rua da Conceição da Praia",
+      "missing_supports": 0,
+      "max_grade": 0.16203134258718507,
+      "max_crossfall": 0.037740071614583336
+    },
+    {
+      "osm_way_id": 456471269,
+      "name": "Rua Manoel Vitórino",
+      "missing_supports": 0,
+      "max_grade": 0.16154237096579385,
+      "max_crossfall": 0.03768458510890152
+    },
+    {
+      "osm_way_id": 562660148,
+      "name": "Avenida Lafayete Coutinho",
+      "missing_supports": 0,
+      "max_grade": 0.029746826055744958,
+      "max_crossfall": 0.0284738251657197
+    },
+    {
+      "osm_way_id": 978527848,
+      "name": "Avenida Lafayete Coutinho",
+      "missing_supports": 0,
+      "max_grade": 0.183812123435972,
+      "max_crossfall": 0.05228678385416667
+    },
+    {
+      "osm_way_id": 1004133492,
+      "name": "",
+      "missing_supports": 0,
+      "max_grade": 0.05453827691756394,
+      "max_crossfall": 0.04691384055397727
+    },
+    {
+      "osm_way_id": 1004133493,
+      "name": "",
+      "missing_supports": 0,
+      "max_grade": 0.1720396121163967,
+      "max_crossfall": 0.03783254912405303
+    },
+    {
+      "osm_way_id": 1004133494,
+      "name": "",
+      "missing_supports": 0,
+      "max_grade": 0.051178308558778,
+      "max_crossfall": 0.03260756983901515
+    },
+    {
+      "osm_way_id": 1075624454,
+      "name": "Avenida Lafayete Coutinho",
+      "missing_supports": 0,
+      "max_grade": 0.1962071038361172,
+      "max_crossfall": 0.039959531841856064
+    }
+  ],
+  "road_surface_coverage": [
+    {
+      "osm_way_id": 154743329,
+      "axis_samples": 113,
+      "different_surface_samples": 0,
+      "different_surface_examples": []
+    },
+    {
+      "osm_way_id": 456471269,
+      "axis_samples": 326,
+      "different_surface_samples": 1,
+      "different_surface_examples": [
+        {
+          "xy": [
+            -296.67210311535746,
+            -199.4410952120088
+          ],
+          "material": "VIAS | pavimento de pedra Rua Chile",
+          "object": "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa"
+        }
+      ]
+    },
+    {
+      "osm_way_id": 562660148,
+      "axis_samples": 489,
+      "different_surface_samples": 0,
+      "different_surface_examples": []
+    },
+    {
+      "osm_way_id": 978527848,
+      "axis_samples": 125,
+      "different_surface_samples": 0,
+      "different_surface_examples": []
+    },
+    {
+      "osm_way_id": 1004133492,
+      "axis_samples": 322,
+      "different_surface_samples": 0,
+      "different_surface_examples": []
+    },
+    {
+      "osm_way_id": 1004133493,
+      "axis_samples": 362,
+      "different_surface_samples": 0,
+      "different_surface_examples": []
+    },
+    {
+      "osm_way_id": 1004133494,
+      "axis_samples": 213,
+      "different_surface_samples": 0,
+      "different_surface_examples": []
+    },
+    {
+      "osm_way_id": 1075624454,
+      "axis_samples": 270,
+      "different_surface_samples": 0,
+      "different_surface_examples": []
+    }
+  ],
+  "preexisting_degenerate_triangles_core": 94,
+  "local_geometry_checks_passed": true,
+  "geographic_fit_verified": false,
+  "full_city_approved": false,
+  "physics_vehicle_validation": false
+}

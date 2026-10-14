@@ -3,6 +3,83 @@
   "area_id": "mvp-centro-lacerda",
   "media": [
     {
+      "media_id": "cais-praca-cairu-street-context-6f026986b483",
+      "location_id": "cais-praca-cairu",
+      "source_type": "licensed_photo",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "street_context",
+      "capture": {
+        "date": "2024-09-21",
+        "lat": -12.972177,
+        "lon": -38.514695,
+        "heading_deg": null,
+        "notes": ""
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/cais-praca-cairu/salvador-ba-sep-2024-0575.jpg",
+        "sha256": "6f026986b4837586ab4c9735da835966b31e4c978d455989de1cf551ae11d748"
+      },
+      "provenance": {
+        "source_name": "Wikimedia Commons — Sturm",
+        "license_status": "verified",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Salvador_-_BA_(Sep_2024)_0575.jpg",
+        "notes": ""
+      },
+      "notes": [
+        "Conferida visualmente em 04/10/2026. Dimensões reais não foram extraídas da fotografia.",
+        "https://creativecommons.org/licenses/by-sa/4.0/"
+      ],
+      "coverage": [
+        {
+          "location_id": "praca-cairu",
+          "view": "street_context",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "media_id": "cais-praca-cairu-waterfront-context-e8ff600587df",
+      "location_id": "cais-praca-cairu",
+      "source_type": "licensed_photo",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "waterfront_context",
+      "capture": {
+        "date": "2024-09-21",
+        "lat": -12.975288,
+        "lon": -38.513763,
+        "heading_deg": null,
+        "notes": ""
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/cais-praca-cairu/salvador-ba-sep-2024-0371.jpg",
+        "sha256": "e8ff600587df75eef067a607a2e1060cac3545218422398d91e6ade8d5ce6cbd"
+      },
+      "provenance": {
+        "source_name": "Wikimedia Commons — Sturm",
+        "license_status": "verified",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Salvador_-_BA_(Sep_2024)_0371.jpg",
+        "notes": ""
+      },
+      "notes": [
+        "Conferida visualmente em 04/10/2026. Dimensões reais não foram extraídas da fotografia.",
+        "https://creativecommons.org/licenses/by-sa/4.0/"
+      ],
+      "coverage": [
+        {
+          "location_id": "baia-agua-mvp",
+          "view": "waterfront_context",
+          "notes": ""
+        },
+        {
+          "location_id": "praca-cairu",
+          "view": "street_context",
+          "notes": ""
+        }
+      ]
+    },
+    {
       "media_id": "elevador-lacerda-access-2c9a186d4d80",
       "location_id": "elevador-lacerda",
       "source_type": "licensed_photo",
@@ -160,6 +237,38 @@
         "Credit: Own work",
         "License URL: https://creativecommons.org/licenses/by-sa/4.0",
         "Commons dimensions: 4000x3000; mime=image/jpeg"
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-detail-8d8389091761",
+      "location_id": "elevador-lacerda",
+      "source_type": "licensed_photo",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "detail",
+      "capture": {
+        "date": "2025-07-21",
+        "lat": null,
+        "lon": null,
+        "heading_deg": null,
+        "notes": ""
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/elevador-lacerda/elevador-lacerda-salvador-20250721125707.jpg",
+        "sha256": "8d8389091761e4d515a29a5a11dcd418a1b73a4e234c320bd2437352086efe1a"
+      },
+      "provenance": {
+        "source_name": "Wikimedia Commons — Sintegrity",
+        "license_status": "verified",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Elevador_Lacerda_-_Salvador_-_20250721125707.jpg",
+        "notes": ""
+      },
+      "notes": [
+        "Commons title: File:Elevador Lacerda - Salvador - 20250721125707.jpg",
+        "Original URL: https://upload.wikimedia.org/wikipedia/commons/9/90/Elevador_Lacerda_-_Salvador_-_20250721125707.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "Credit: Own work",
+        "License URL: https://creativecommons.org/licenses/by-sa/4.0",
+        "Commons dimensions: 3000x4000; mime=image/jpeg"
       ]
     },
     {
@@ -576,6 +685,35 @@
       ]
     },
     {
+      "media_id": "aleph-dev-20261006T052412Z-b80-entrada-alta-candidato",
+      "location_id": "elevador-lacerda",
+      "source_type": "streetview",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "street_context",
+      "capture": {
+        "date": "2024-05",
+        "lat": -12.97430258870593,
+        "lon": -38.51316319413632,
+        "heading_deg": 200.0,
+        "notes": "Posição efetivamente retornada pelo provedor; não a coordenada solicitada."
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/aleph-dev/aleph-dev-20261006T052412Z-b80-entrada-alta-candidato/aleph-streetview-hv3ggfhh/001.jpg",
+        "sha256": "2acc0987cff11fe1f92f51559986e2bddc2ae85da239946d0c218dd95bb19110"
+      },
+      "provenance": {
+        "source_name": "Google Street View via Aleph pinado",
+        "license_status": "pending",
+        "license": "Referência de desenvolvimento; não autorizada para pacote final",
+        "source_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=U1Xhvf18_Y8hQrf1f7E99w&cb_client=maps_sv.tactile&w=1024&h=576&yaw=200.0&pitch=0&thumbfov=85",
+        "notes": "Interior e dimensões do poço não comprovados."
+      },
+      "notes": [
+        "Ladeira da Montanha; consulta XY não retornou embarque superior."
+      ],
+      "coverage": []
+    },
+    {
       "media_id": "elevador-lacerda-street_context-404e6409dbee",
       "location_id": "elevador-lacerda",
       "source_type": "aleph_reference",
@@ -742,6 +880,47 @@
       ],
       "notes": [
         "Corrigir proporções e estrutura; nenhuma licença de textura de produção. Não reproduzir pessoas, obras, veículos ou instalações temporárias."
+      ]
+    },
+    {
+      "media_id": "mercado-modelo-roof-c81220c814b5",
+      "location_id": "mercado-modelo",
+      "source_type": "licensed_photo",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "roof",
+      "capture": {
+        "date": "2022-08-06",
+        "lat": null,
+        "lon": null,
+        "heading_deg": null,
+        "notes": ""
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/mercado-modelo/mercado-modelo-salvador-20220806152921.jpg",
+        "sha256": "c81220c814b501b34a72e80aa8b0ab6085c65e79dac7f616d9adf672560aebf1"
+      },
+      "provenance": {
+        "source_name": "Wikimedia Commons — Túllio F",
+        "license_status": "verified",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Mercado_Modelo_-_Salvador_-_20220806152921.JPG",
+        "notes": ""
+      },
+      "notes": [
+        "Conferida visualmente em 04/10/2026. Dimensões reais não foram extraídas da fotografia.",
+        "https://creativecommons.org/licenses/by-sa/4.0/"
+      ],
+      "coverage": [
+        {
+          "location_id": "baia-agua-mvp",
+          "view": "waterfront_context",
+          "notes": ""
+        },
+        {
+          "location_id": "cais-praca-cairu",
+          "view": "waterfront_context",
+          "notes": ""
+        }
       ]
     },
     {
@@ -1089,6 +1268,35 @@
       ]
     },
     {
+      "media_id": "aleph-dev-20261006T035910Z-b79-cairu-mercado",
+      "location_id": "praca-cairu",
+      "source_type": "streetview",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "street_context",
+      "capture": {
+        "date": "2024-12",
+        "lat": -12.97368065085099,
+        "lon": -38.51352894126326,
+        "heading_deg": 280.0,
+        "notes": "Data parcial do panorama; aquisição 2026-10-06T03:59:10.374374+00:00"
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/aleph-dev/aleph-dev-20261006T035910Z-b79-cairu-mercado/aleph-streetview-mfootw7h/001.jpg",
+        "sha256": "f860fa02e008bb6dae74c2cb5000c6d5194f315263821c2a3246529cf81e66c5"
+      },
+      "provenance": {
+        "source_name": "Google Street View via Aleph pinado",
+        "license_status": "pending",
+        "license": "Somente referência de desenvolvimento; não aprovada para distribuição",
+        "source_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=AicGWjCNQevUDlbLuHbfLw&cb_client=maps_sv.tactile&w=1024&h=576&yaw=280.0&pitch=0&thumbfov=85",
+        "notes": "DEV_REFERENCE_ONLY no índice central; não mede dimensões do poço"
+      },
+      "notes": [
+        "Referência visual conferida; não promovida para textura final."
+      ],
+      "coverage": []
+    },
+    {
       "media_id": "praca-cairu-street_context-680ddd4f07e0",
       "location_id": "praca-cairu",
       "source_type": "aleph_reference",
@@ -1199,6 +1407,122 @@
       ]
     },
     {
+      "media_id": "aleph-dev-20261006T035717Z-b79-acesso-superior",
+      "location_id": "praca-tome-de-sousa",
+      "source_type": "streetview",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "street_context",
+      "capture": {
+        "date": "2024-12",
+        "lat": -12.97474722537931,
+        "lon": -38.5125715966727,
+        "heading_deg": 305.0,
+        "notes": "Data parcial do panorama; aquisição 2026-10-06T03:57:17.246079+00:00"
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/aleph-dev/aleph-dev-20261006T035717Z-b79-acesso-superior/aleph-streetview-2anztpu5/001.jpg",
+        "sha256": "5d9975c6deeed00c7d8defd0a0da770f2cee19b69f15f6713da38983736025cc"
+      },
+      "provenance": {
+        "source_name": "Google Street View via Aleph pinado",
+        "license_status": "pending",
+        "license": "Somente referência de desenvolvimento; não aprovada para distribuição",
+        "source_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ir28L-q1iuxEluDdGVLe5Q&cb_client=maps_sv.tactile&w=1024&h=576&yaw=305.0&pitch=0&thumbfov=85",
+        "notes": "DEV_REFERENCE_ONLY no índice central; não mede dimensões do poço"
+      },
+      "notes": [
+        "Referência visual conferida; não promovida para textura final."
+      ],
+      "coverage": []
+    },
+    {
+      "media_id": "aleph-dev-20261006T052006Z-b80-superior-frente",
+      "location_id": "praca-tome-de-sousa",
+      "source_type": "streetview",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "street_context",
+      "capture": {
+        "date": "2024-12",
+        "lat": -12.97474722537931,
+        "lon": -38.5125715966727,
+        "heading_deg": 265.0,
+        "notes": "Posição efetivamente retornada pelo provedor; não a coordenada solicitada."
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/aleph-dev/aleph-dev-20261006T052006Z-b80-superior-frente/aleph-streetview-2p44i_7e/001.jpg",
+        "sha256": "46f13e57c2263fa9d408bce5b8bf26c5a3fde858066cb3c78d70c581f7d20b84"
+      },
+      "provenance": {
+        "source_name": "Google Street View via Aleph pinado",
+        "license_status": "pending",
+        "license": "Referência de desenvolvimento; não autorizada para pacote final",
+        "source_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ir28L-q1iuxEluDdGVLe5Q&cb_client=maps_sv.tactile&w=1024&h=576&yaw=265.0&pitch=0&thumbfov=85",
+        "notes": "Interior e dimensões do poço não comprovados."
+      },
+      "notes": [
+        "Praça superior com estruturas temporárias/evento; sem interior/soleira cotada."
+      ],
+      "coverage": []
+    },
+    {
+      "media_id": "aleph-dev-20261006T052140Z-b80-superior-retorno",
+      "location_id": "praca-tome-de-sousa",
+      "source_type": "streetview",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "street_context",
+      "capture": {
+        "date": "2024-12",
+        "lat": -12.97481841012411,
+        "lon": -38.51263485351883,
+        "heading_deg": 70.0,
+        "notes": "Posição efetivamente retornada pelo provedor; não a coordenada solicitada."
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/aleph-dev/aleph-dev-20261006T052140Z-b80-superior-retorno/aleph-streetview-frqmgeov/001.jpg",
+        "sha256": "2b84edcd4148dec5d8283213e0d22d5f78af787bf46e7fc36bc5b98163519501"
+      },
+      "provenance": {
+        "source_name": "Google Street View via Aleph pinado",
+        "license_status": "pending",
+        "license": "Referência de desenvolvimento; não autorizada para pacote final",
+        "source_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=4BnnW6RzLuHSwdf4Z_Gj5Q&cb_client=maps_sv.tactile&w=1024&h=576&yaw=70.0&pitch=0&thumbfov=85",
+        "notes": "Interior e dimensões do poço não comprovados."
+      },
+      "notes": [
+        "Praça superior com estruturas temporárias/evento; sem interior/soleira cotada."
+      ],
+      "coverage": []
+    },
+    {
+      "media_id": "aleph-dev-20261006T052246Z-b80-superior-portais",
+      "location_id": "praca-tome-de-sousa",
+      "source_type": "streetview",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "street_context",
+      "capture": {
+        "date": "2024-12",
+        "lat": -12.97474722537931,
+        "lon": -38.5125715966727,
+        "heading_deg": 355.0,
+        "notes": "Posição efetivamente retornada pelo provedor; não a coordenada solicitada."
+      },
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/aleph-dev/aleph-dev-20261006T052246Z-b80-superior-portais/aleph-streetview-sao2zm8s/001.jpg",
+        "sha256": "a160d75e3a5a3217ae320e9f085366a19443760dbdb20f34c90e25e1ddb1c8b5"
+      },
+      "provenance": {
+        "source_name": "Google Street View via Aleph pinado",
+        "license_status": "pending",
+        "license": "Referência de desenvolvimento; não autorizada para pacote final",
+        "source_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ir28L-q1iuxEluDdGVLe5Q&cb_client=maps_sv.tactile&w=1024&h=576&yaw=355.0&pitch=0&thumbfov=85",
+        "notes": "Interior e dimensões do poço não comprovados."
+      },
+      "notes": [
+        "Praça superior com estruturas temporárias/evento; sem interior/soleira cotada."
+      ],
+      "coverage": []
+    },
+    {
       "media_id": "praca-tome-de-sousa-street_context-f73092908227",
       "location_id": "praca-tome-de-sousa",
       "source_type": "aleph_reference",
@@ -1231,6 +1555,161 @@
           "view": "street_context",
           "notes": ""
         }
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-detail-a75dce21824f",
+      "location_id": "elevador-lacerda",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "detail",
+      "capture": null,
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/elevador-lacerda/fechamento-envidracado-a75dce21824f.png",
+        "sha256": "a75dce21824f50b16180ecf94aaecda2988494f3a2d13ca7cd97898ac257be2d"
+      },
+      "provenance": {
+        "source_name": "Fotografia enviada pelo usuário em 06/10/2026",
+        "license_status": "unknown",
+        "license": null,
+        "source_url": null,
+        "notes": "Autor e data da foto desconhecidos. Referência visual de desenvolvimento, não textura final."
+      },
+      "notes": [
+        "Faixa envidraçada e esquadrias claras contornam volumes junto à passarela.",
+        "A foto não comprova medidas, espessuras ou número exato de módulos."
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-detail-a74f3bf499b0",
+      "location_id": "elevador-lacerda",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "detail",
+      "capture": null,
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/elevador-lacerda/estrutura-encosta-a74f3bf499b0.png",
+        "sha256": "a74f3bf499b094ac44902bed231855229c7f4feb2af660ca192bb723c73ee1cc"
+      },
+      "provenance": {
+        "source_name": "Fotografia enviada pelo usuário em 07/10/2026",
+        "license_status": "unknown",
+        "license": null,
+        "source_url": null,
+        "notes": "Autoria e data da captura desconhecidas; referência externa, sem medição métrica pela perspectiva."
+      },
+      "notes": [
+        "Comprova relação visual entre torre junto à encosta, corpo superior e galeria; proporções métricas continuam candidatas."
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-detail-c1c35ca9d191",
+      "location_id": "elevador-lacerda",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "detail",
+      "capture": null,
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/elevador-lacerda/estrutura-encosta-c1c35ca9d191.png",
+        "sha256": "c1c35ca9d19118a628587fbb48cde39b13f015844da9dd2f034fb58f30515b92"
+      },
+      "provenance": {
+        "source_name": "Fotografia enviada pelo usuário em 07/10/2026",
+        "license_status": "unknown",
+        "license": null,
+        "source_url": null,
+        "notes": "Autoria e data da captura desconhecidas; referência externa, sem medição métrica pela perspectiva."
+      },
+      "notes": [
+        "Comprova relação visual entre torre junto à encosta, corpo superior e galeria; proporções métricas continuam candidatas."
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-detail-be2a63741943",
+      "location_id": "elevador-lacerda",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "detail",
+      "capture": null,
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/elevador-lacerda/conjunto-torres-be2a63741943.png",
+        "sha256": "be2a637419436430952bd6a36cc95c7d7e944f195da8c06e85423d6deaa2ec56"
+      },
+      "provenance": {
+        "source_name": "Imagem fornecida pelo usuário em 07/10/2026",
+        "license_status": "unknown",
+        "license": null,
+        "source_url": null,
+        "notes": "Autor e captura desconhecidos; legendas sobrepostas não são evidência dimensional."
+      },
+      "notes": [
+        "Referência qualitativa das duas torres, orientação, passarela e bloco superior; sem medição por perspectiva."
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-detail-a163983e9d46",
+      "location_id": "elevador-lacerda",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "detail",
+      "capture": null,
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/elevador-lacerda/conjunto-torres-a163983e9d46.png",
+        "sha256": "a163983e9d4664156a189e4b8ad7daf48b472d3972fc63c9afa34cac9695295c"
+      },
+      "provenance": {
+        "source_name": "Imagem fornecida pelo usuário em 07/10/2026",
+        "license_status": "unknown",
+        "license": null,
+        "source_url": null,
+        "notes": "Autor e captura desconhecidos; legendas sobrepostas não são evidência dimensional."
+      },
+      "notes": [
+        "Referência qualitativa das duas torres, orientação, passarela e bloco superior; sem medição por perspectiva."
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-detail-139fa6c8d4d1",
+      "location_id": "elevador-lacerda",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "detail",
+      "capture": null,
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/elevador-lacerda/conjunto-torres-139fa6c8d4d1.png",
+        "sha256": "139fa6c8d4d1df0ec326c7ebc74e85a08db7412460ec8a55794bcae722192adc"
+      },
+      "provenance": {
+        "source_name": "Imagem fornecida pelo usuário em 07/10/2026",
+        "license_status": "unknown",
+        "license": null,
+        "source_url": null,
+        "notes": "Autor e captura desconhecidos; legendas sobrepostas não são evidência dimensional."
+      },
+      "notes": [
+        "Referência qualitativa das duas torres, orientação, passarela e bloco superior; sem medição por perspectiva."
+      ]
+    },
+    {
+      "media_id": "elevador-lacerda-detail-c0c9a0dc3fc7",
+      "location_id": "elevador-lacerda",
+      "source_type": "other",
+      "usage_class": "REFERENCIA_INTERNA",
+      "view": "detail",
+      "capture": null,
+      "storage": {
+        "logical_path": "mvp-centro-lacerda/elevador-lacerda/conjunto-torres-c0c9a0dc3fc7.png",
+        "sha256": "c0c9a0dc3fc75627d6d4ef1e87b0155e2025bdede3bfc2cf3cd1fe4ee530cbfa"
+      },
+      "provenance": {
+        "source_name": "Imagem fornecida pelo usuário em 07/10/2026",
+        "license_status": "unknown",
+        "license": null,
+        "source_url": null,
+        "notes": "Autor e captura desconhecidos; legendas sobrepostas não são evidência dimensional."
+      },
+      "notes": [
+        "Referência qualitativa das duas torres, orientação, passarela e bloco superior; sem medição por perspectiva."
       ]
     }
   ]

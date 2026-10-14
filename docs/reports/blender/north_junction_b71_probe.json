@@ -1,0 +1,1007 @@
+{
+  "schema": "boas/north-junction-b71-probe-v1",
+  "source": {
+    "file": "blender/salvador_lacerda_r30b70_juncao_terreno_cais.blend",
+    "revision": "R30B.70",
+    "sha256": "2838e38a4347cd307d6e25eddf152fd38d7bde40747b4adb7c672a5e75093c64",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b69_encontros_sem_frestas.blend",
+    "evidence": "docs/reports/blender/coastal_junction_r30b70.json",
+    "notes": "Junção HQ/piso/cais recomposta por controles locais. Vias/XY/água/cais preservados; dois triângulos no extremo norte e datum real pendentes.",
+    "source_reopened": true,
+    "validation_evidence": "docs/reports/blender/coastal_junction_r30b70_validation.json",
+    "local_geometry_checks_passed": true
+  },
+  "corner_objects": [
+    {
+      "object": "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+      "near_vertices": [],
+      "properties": {
+        "boas_revision": "R30B.70",
+        "boas_runtime_role": "gameplay_terrain_integrated_candidate",
+        "boas_grid_step_m": 0.75,
+        "boas_source_dem": "Aleph terrain.tif",
+        "boas_gameplay_approved": false,
+        "boas_collision_partner": "B62 | COLLISION | pavimento e costura limpa",
+        "boas_pavement_status": "Na geometria do piso; largura candidata de gameplay; limites discretizados em até 0.375m.",
+        "boas_height_status": "ADAPT_LOCAL_CURRENT_QUAY_CONTROL_NOT_SURVEYED",
+        "boas_source_report": "docs/reports/blender/coastal_junction_r30b70.json",
+        "boas_b70_method": "Contato por arestas explícitas; faixa local 2m e transição até 30m para o cais existente; vias/passeios fixos."
+      },
+      "bounds": [
+        [
+          -551.0,
+          -510.0,
+          -2.463484764099121
+        ],
+        [
+          -260.75,
+          -12.0,
+          66.88790130615234
+        ]
+      ]
+    },
+    {
+      "object": "B63 | VISUAL | piso contínuo até o cais",
+      "near_vertices": [
+        {
+          "i": 155,
+          "xyz": [
+            -288.8443298339844,
+            36.09130859375,
+            8.910003662109375
+          ]
+        },
+        {
+          "i": 156,
+          "xyz": [
+            -287.8192138671875,
+            37.172115325927734,
+            8.957754135131836
+          ]
+        },
+        {
+          "i": 157,
+          "xyz": [
+            -286.7940979003906,
+            38.2529182434082,
+            9.00550365447998
+          ]
+        },
+        {
+          "i": 158,
+          "xyz": [
+            -285.76898193359375,
+            39.33372116088867,
+            9.053254127502441
+          ]
+        },
+        {
+          "i": 159,
+          "xyz": [
+            -285.70343017578125,
+            38.4073486328125,
+            7.2556610107421875
+          ]
+        },
+        {
+          "i": 160,
+          "xyz": [
+            -285.70343017578125,
+            36.910152435302734,
+            7.25567626953125
+          ]
+        },
+        {
+          "i": 161,
+          "xyz": [
+            -285.70343017578125,
+            35.4129524230957,
+            7.2556610107421875
+          ]
+        },
+        {
+          "i": 162,
+          "xyz": [
+            -285.70343017578125,
+            33.91575241088867,
+            7.2556610107421875
+          ]
+        },
+        {
+          "i": 1538,
+          "xyz": [
+            -288.4596862792969,
+            35.15667724609375,
+            8.49209213256836
+          ]
+        },
+        {
+          "i": 1539,
+          "xyz": [
+            -286.4596862792969,
+            35.15667724609375,
+            7.649234294891357
+          ]
+        },
+        {
+          "i": 1540,
+          "xyz": [
+            -286.4596862792969,
+            37.15667724609375,
+            8.014211654663086
+          ]
+        },
+        {
+          "i": 1541,
+          "xyz": [
+            -285.70343017578125,
+            39.402835845947266,
+            9.056307792663574
+          ]
+        },
+        {
+          "i": 1556,
+          "xyz": [
+            -289.3569030761719,
+            35.550907135009766,
+            8.886128425598145
+          ]
+        }
+      ],
+      "properties": {
+        "boas_revision": "R30B.70",
+        "boas_runtime_role": "sidewalk_walkable",
+        "boas_gameplay_approved": false,
+        "boas_real_dimensions_verified": false,
+        "boas_classification": "ERROR",
+        "boas_correction_reason": "Piso ausente entre limites existentes; interpolação ancorada no cais e no terreno preservados.",
+        "boas_source_controls": "cais construído R30A8; limite núcleo; limite HQ B62",
+        "boas_location_id": "cais-praca-cairu",
+        "boas_surface_design_status": "ADAPT_LOCAL_CANDIDATE",
+        "boas_collision_partner": "B63 | COLLISION | piso contínuo até o cais",
+        "boas_coastline_control": "limite superior da água preservada B63",
+        "boas_height_status": "ADAPT_LOCAL_CURRENT_QUAY_CONTROL_NOT_SURVEYED",
+        "boas_source_report": "docs/reports/blender/coastal_junction_r30b70.json",
+        "boas_b70_method": "Contato por arestas explícitas; faixa local 2m e transição até 30m para o cais existente; vias/passeios fixos."
+      },
+      "bounds": [
+        [
+          -388.4596862792969,
+          -94.84332275390625,
+          1.6340771913528442
+        ],
+        [
+          -285.70343017578125,
+          39.402835845947266,
+          9.056307792663574
+        ]
+      ]
+    },
+    {
+      "object": "CAIS | contenção costeira alinhada à linha de costa",
+      "near_vertices": [
+        {
+          "i": 2063,
+          "xyz": [
+            -289.52777099609375,
+            35.37077713012695,
+            0.3499999940395355
+          ]
+        },
+        {
+          "i": 2064,
+          "xyz": [
+            -289.52777099609375,
+            35.37077713012695,
+            8.87286376953125
+          ]
+        },
+        {
+          "i": 2065,
+          "xyz": [
+            -288.8443603515625,
+            36.091312408447266,
+            0.3499999940395355
+          ]
+        },
+        {
+          "i": 2066,
+          "xyz": [
+            -288.8443603515625,
+            36.091312408447266,
+            8.904678344726562
+          ]
+        },
+        {
+          "i": 2067,
+          "xyz": [
+            -288.16094970703125,
+            36.81184768676758,
+            0.3499999940395355
+          ]
+        },
+        {
+          "i": 2068,
+          "xyz": [
+            -288.16094970703125,
+            36.81184768676758,
+            8.9365234375
+          ]
+        },
+        {
+          "i": 2069,
+          "xyz": [
+            -287.4775085449219,
+            37.53238296508789,
+            0.3499999940395355
+          ]
+        },
+        {
+          "i": 2070,
+          "xyz": [
+            -287.4775085449219,
+            37.53238296508789,
+            8.948486328125
+          ]
+        },
+        {
+          "i": 2071,
+          "xyz": [
+            -286.7940979003906,
+            38.25292205810547,
+            0.3499999940395355
+          ]
+        },
+        {
+          "i": 2072,
+          "xyz": [
+            -286.7940979003906,
+            38.25292205810547,
+            8.9639892578125
+          ]
+        },
+        {
+          "i": 2073,
+          "xyz": [
+            -286.1106872558594,
+            38.97345733642578,
+            0.3499999940395355
+          ]
+        },
+        {
+          "i": 2074,
+          "xyz": [
+            -286.1106872558594,
+            38.97345733642578,
+            8.959518432617188
+          ]
+        },
+        {
+          "i": 2075,
+          "xyz": [
+            -285.4272766113281,
+            39.693992614746094,
+            0.3499999940395355
+          ]
+        },
+        {
+          "i": 2076,
+          "xyz": [
+            -285.4272766113281,
+            39.693992614746094,
+            7.2556610107421875
+          ]
+        },
+        {
+          "i": 2077,
+          "xyz": [
+            -284.7438659667969,
+            40.41453170776367,
+            0.3499999940395355
+          ]
+        },
+        {
+          "i": 2078,
+          "xyz": [
+            -284.7438659667969,
+            40.41453170776367,
+            7.25567626953125
+          ]
+        },
+        {
+          "i": 2079,
+          "xyz": [
+            -284.0604553222656,
+            41.135066986083984,
+            0.3499999940395355
+          ]
+        },
+        {
+          "i": 2080,
+          "xyz": [
+            -284.0604553222656,
+            41.135066986083984,
+            7.2556915283203125
+          ]
+        },
+        {
+          "i": 2081,
+          "xyz": [
+            -283.3770446777344,
+            41.8556022644043,
+            0.3499999940395355
+          ]
+        },
+        {
+          "i": 2082,
+          "xyz": [
+            -283.3770446777344,
+            41.8556022644043,
+            7.2556610107421875
+          ]
+        }
+      ],
+      "properties": {
+        "source": "Geometria inferida a partir da costa OSM; dimensões verticais aproximadas.",
+        "boas_revision": "R30B.66",
+        "boas_classification": "ERROR",
+        "boas_source_controls": "costa da água B63 preservada + apoio atual do piso",
+        "boas_real_wall_thickness_status": "pending",
+        "boas_real_foundation_status": "pending",
+        "boas_geographic_fidelity_status": "candidate_pending_photo_comparison",
+        "boas_collision_partner": "B64 | COLLISION | cais e borda marítima"
+      },
+      "bounds": [
+        [
+          -388.4596862792969,
+          -94.84332275390625,
+          0.3499999940395355
+        ],
+        [
+          29.831451416015625,
+          600.1769409179688,
+          8.9639892578125
+        ]
+      ]
+    },
+    {
+      "object": "MVP | terreno corrigido | colisão estática",
+      "near_vertices": [
+        {
+          "i": 509296,
+          "xyz": [
+            -282.70343017578125,
+            35.23710250854492,
+            7.255668640136719
+          ]
+        },
+        {
+          "i": 509297,
+          "xyz": [
+            -285.70343017578125,
+            35.23710250854492,
+            7.255668640136719
+          ]
+        },
+        {
+          "i": 510705,
+          "xyz": [
+            -282.70343017578125,
+            41.23710250854492,
+            7.255668640136719
+          ]
+        },
+        {
+          "i": 511128,
+          "xyz": [
+            -282.70343017578125,
+            36.73710250854492,
+            7.255668640136719
+          ]
+        },
+        {
+          "i": 511129,
+          "xyz": [
+            -285.70343017578125,
+            36.73710250854492,
+            7.255668640136719
+          ]
+        },
+        {
+          "i": 514464,
+          "xyz": [
+            -282.70343017578125,
+            38.23710250854492,
+            7.255668640136719
+          ]
+        },
+        {
+          "i": 514465,
+          "xyz": [
+            -285.70343017578125,
+            38.23710250854492,
+            7.255668640136719
+          ]
+        },
+        {
+          "i": 514925,
+          "xyz": [
+            -285.70343017578125,
+            33.73710250854492,
+            7.255668640136719
+          ]
+        },
+        {
+          "i": 516046,
+          "xyz": [
+            -282.70343017578125,
+            39.73710250854492,
+            7.255668640136719
+          ]
+        },
+        {
+          "i": 525111,
+          "xyz": [
+            -285.38641357421875,
+            39.73710250854492,
+            7.255668640136719
+          ]
+        },
+        {
+          "i": 525112,
+          "xyz": [
+            -285.70343017578125,
+            39.40286636352539,
+            7.255668640136719
+          ]
+        },
+        {
+          "i": 525116,
+          "xyz": [
+            -283.96368408203125,
+            41.23710250854492,
+            7.255668640136719
+          ]
+        }
+      ],
+      "properties": {
+        "game_role": "composite:collision_source+gameplay_terrain",
+        "source": "Aleph DEM + OSM; patamares adaptados aos pisos do esboço",
+        "grid_m": 1.5,
+        "walkable_slope_limit_deg": 32.0,
+        "surface_method": "Crista OSM + DEM filtrado na Cidade Alta + planície baixa; rede conectada com patamares fixos e perfis harmônicos de ligação",
+        "revision": "superficie_integrada_v1",
+        "mercado_support": "OSM 59392558: apoio z10.82, entorno integrado sem laje retangular sobre vias",
+        "cairu_grade": "Patamar z10.82m em compatibilidade com piso Mercado z11; cota inferida, não levantamento",
+        "roads_revision": "Vias 25: passeios materiais integrados; superfícies sett OSM; guias e travessias documentadas",
+        "network_revision": "v6",
+        "accuracy": "Traçado OSM; altimetria filtrada e corrigida para MVP. Patamares 10.82/69.78m compatíveis com a arquitetura existente; não levantamento.",
+        "road_edges_refined": true,
+        "narrow_streets": "Ladeira da Conceição 3m; Montanha 6m: ajustes provisórios de largura para separar patamares; sem medida cadastral.",
+        "ordax_upper_plateau_fix": "v4-correct-transform",
+        "ordax_upper_plateau_plaza_z": 69.985,
+        "ordax_upper_plateau_pref_z": 70.2555,
+        "ordax_upper_plateau_falloff_m": "plaza20,pref20,rio18,camara18",
+        "ordax_upper_plateau_vertices_changed": 7205,
+        "ordax_upper_plateau_regions": "plaza,prefeitura,rio_branco,camara",
+        "ordax_upper_plateau_vertices_changed_v2": 7932,
+        "ordax_upper_plateau_smoothing": "localized-spike-cleanup-v2",
+        "ordax_upper_plateau_smooth_iterations": 10,
+        "ordax_upper_plateau_smooth_changed": 5290,
+        "ordax_upper_plateau_smooth_max_change_m": 3.5421,
+        "ordax_upper_plateau_spikes_before": 169,
+        "ordax_upper_plateau_spikes_after": 48,
+        "ordax_upper_plateau_spike_vertices_changed": 208,
+        "ordax_upper_plateau_transition": "baseline-local/current-matrix smootherstep",
+        "ordax_upper_plateau_vertices_rebuilt": 18130,
+        "ordax_upper_plateau_vertices_rebuilt_v4": 18928,
+        "ordax_semantic_revision": "R30A.4",
+        "ordax_semantic_layer": "32.2 GAMEPLAY | COLLISION SOURCE",
+        "ordax_semantic_note": "Collision source; geometry split intentionally deferred.",
+        "ordax_semantic_status": "composite_legacy_not_geometry_split",
+        "ordax_semantic_roles": "[\"COLLISION_SOURCE\", \"GAMEPLAY_TERRAIN\"]",
+        "r30b09_retaining_faces": 555,
+        "r30b09_note": "Apenas material visual nas faces íngremes junto à Ladeira; topologia, pista e colisão preservadas.",
+        "r30b10_retaining_faces": 1756,
+        "r30b10_note": "Faixa continua delimitada pela borda externa do passeio da Ladeira, sem mudar topologia ou materiais viarios.",
+        "r30b11_seam_faces": 1305,
+        "r30b11_seam_note": "Revestimento de pedra ate o passeio existente; sem alteracao na malha, pista ou colisao.",
+        "r30b12_terrain_reshaped": true,
+        "r30b12_method": "Perfil continuo entre limite externo do passeio existente e primeira cota de 69 m; vertices viarios preservados.",
+        "r30b13_full_ladeira": true,
+        "r30b13_profile": "Perfis de seção da pista existente e primeiro patamar estável da encosta; pista/passeios preservados.",
+        "r30b15_support_recess": "Relevo original restaurado ao redor do apoio; transição suave para contenção junto ao passeio.",
+        "r30b16_smoothing": "Laplace local com base do apoio e vertices viarios fixos; nao altera objetos separados.",
+        "boas_terrain_correction": "ERROR: encontro Montanha/Pau da Bandeira; regularização Z local sobre eixos OSM existentes, XY/materiais/topologia preservados",
+        "boas_boundary_extension_osm_ids": "1075624458,421206045; shared node 619722483",
+        "boas_boundary_extension_classification": "ADAPT_LOCAL",
+        "boas_boundary_extension_method": "Recorte ampliado 4 m; seção e materiais autorais continuados, sem deslocar vértices anteriores ou alterar larguras. Altimetria extrapolada local, não medida.",
+        "boas_boundary_extension_report": "docs/reports/blender/terrain_real_boundary_extension.json",
+        "r34_material_mask": "boas_r34_barranco: material em banda íngreme sob galerias; sem deslocar vértices, estrada ou colisor.",
+        "r34_profile_reason": "Ruptura local de contenção vertical documentada nas fotos; elimina solo na frente das galerias, preservando XY, praça e materiais de circulação.",
+        "r34_profile_classification": "ADAPT_LOCAL",
+        "r34_profile_status": "candidate_photo_geometry; medidas de base/profundidade não levantadas",
+        "r35_profile_reason": "Galerias escavadas sob laje; encosta recomposta entre perfil amostrado da ladeira e face do apoio alinhado. Sem alterar DEM-fonte ou pista.",
+        "r36_profile_correction": "Solo ajustado ao encontro das galerias, escadas internas e terraço, sem limiar Z deixando picos; vias/XY preservados.",
+        "boas_revision": "R30B.64",
+        "boas_coastline_control": "limite superior da água preservada B63",
+        "boas_classification": "ERROR"
+      },
+      "bounds": [
+        [
+          -285.70343017578125,
+          -285.2629089355469,
+          4.255668640136719
+        ],
+        [
+          542.2965698242188,
+          621.7371215820312,
+          70.2554931640625
+        ]
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "xy": [
+        -292,
+        34
+      ],
+      "hits": {}
+    },
+    {
+      "xy": [
+        -292,
+        36
+      ],
+      "hits": {}
+    },
+    {
+      "xy": [
+        -292,
+        38.40735
+      ],
+      "hits": {}
+    },
+    {
+      "xy": [
+        -292,
+        39.4
+      ],
+      "hits": {}
+    },
+    {
+      "xy": [
+        -292,
+        40
+      ],
+      "hits": {}
+    },
+    {
+      "xy": [
+        -292,
+        42
+      ],
+      "hits": {}
+    },
+    {
+      "xy": [
+        -292,
+        44
+      ],
+      "hits": {}
+    },
+    {
+      "xy": [
+        -290,
+        34
+      ],
+      "hits": {
+        "B63 | VISUAL | piso contínuo até o cais": {
+          "z": 8.663177490234375,
+          "triangle": 2785
+        }
+      }
+    },
+    {
+      "xy": [
+        -290,
+        36
+      ],
+      "hits": {}
+    },
+    {
+      "xy": [
+        -290,
+        38.40735
+      ],
+      "hits": {}
+    },
+    {
+      "xy": [
+        -290,
+        39.4
+      ],
+      "hits": {}
+    },
+    {
+      "xy": [
+        -290,
+        40
+      ],
+      "hits": {}
+    },
+    {
+      "xy": [
+        -290,
+        42
+      ],
+      "hits": {}
+    },
+    {
+      "xy": [
+        -290,
+        44
+      ],
+      "hits": {}
+    },
+    {
+      "xy": [
+        -288,
+        34
+      ],
+      "hits": {
+        "B63 | VISUAL | piso contínuo até o cais": {
+          "z": 8.134803771972656,
+          "triangle": 2496
+        }
+      }
+    },
+    {
+      "xy": [
+        -288,
+        36
+      ],
+      "hits": {
+        "B63 | VISUAL | piso contínuo até o cais": {
+          "z": 8.606155395507812,
+          "triangle": 2498
+        }
+      }
+    },
+    {
+      "xy": [
+        -288,
+        38.40735
+      ],
+      "hits": {}
+    },
+    {
+      "xy": [
+        -288,
+        39.4
+      ],
+      "hits": {}
+    },
+    {
+      "xy": [
+        -288,
+        40
+      ],
+      "hits": {}
+    },
+    {
+      "xy": [
+        -288,
+        42
+      ],
+      "hits": {}
+    },
+    {
+      "xy": [
+        -288,
+        44
+      ],
+      "hits": {}
+    },
+    {
+      "xy": [
+        -286,
+        34
+      ],
+      "hits": {
+        "B63 | VISUAL | piso contínuo até o cais": {
+          "z": 7.380195617675781,
+          "triangle": 2555
+        }
+      }
+    },
+    {
+      "xy": [
+        -286,
+        36
+      ],
+      "hits": {
+        "B63 | VISUAL | piso contínuo até o cais": {
+          "z": 7.535469055175781,
+          "triangle": 2557
+        }
+      }
+    },
+    {
+      "xy": [
+        -286,
+        38.40735
+      ],
+      "hits": {
+        "B63 | VISUAL | piso contínuo até o cais": {
+          "z": 7.807426452636719,
+          "triangle": 2561
+        }
+      }
+    },
+    {
+      "xy": [
+        -286,
+        39.4
+      ],
+      "hits": {}
+    },
+    {
+      "xy": [
+        -286,
+        40
+      ],
+      "hits": {}
+    },
+    {
+      "xy": [
+        -286,
+        42
+      ],
+      "hits": {}
+    },
+    {
+      "xy": [
+        -286,
+        44
+      ],
+      "hits": {}
+    },
+    {
+      "xy": [
+        -285.70343,
+        34
+      ],
+      "hits": {
+        "MVP | terreno corrigido | colisão estática": {
+          "z": 7.255668640136719,
+          "triangle": 1026633
+        }
+      }
+    },
+    {
+      "xy": [
+        -285.70343,
+        36
+      ],
+      "hits": {
+        "MVP | terreno corrigido | colisão estática": {
+          "z": 7.255668640136719,
+          "triangle": 1030617
+        }
+      }
+    },
+    {
+      "xy": [
+        -285.70343,
+        38.40735
+      ],
+      "hits": {
+        "MVP | terreno corrigido | colisão estática": {
+          "z": 7.25567626953125,
+          "triangle": 1046098
+        }
+      }
+    },
+    {
+      "xy": [
+        -285.70343,
+        39.4
+      ],
+      "hits": {
+        "MVP | terreno corrigido | colisão estática": {
+          "z": 7.255668640136719,
+          "triangle": 1046098
+        }
+      }
+    },
+    {
+      "xy": [
+        -285.70343,
+        40
+      ],
+      "hits": {}
+    },
+    {
+      "xy": [
+        -285.70343,
+        42
+      ],
+      "hits": {}
+    },
+    {
+      "xy": [
+        -285.70343,
+        44
+      ],
+      "hits": {}
+    },
+    {
+      "xy": [
+        -284,
+        34
+      ],
+      "hits": {
+        "MVP | terreno corrigido | colisão estática": {
+          "z": 7.255668640136719,
+          "triangle": 1026633
+        }
+      }
+    },
+    {
+      "xy": [
+        -284,
+        36
+      ],
+      "hits": {
+        "MVP | terreno corrigido | colisão estática": {
+          "z": 7.255668640136719,
+          "triangle": 1030616
+        }
+      }
+    },
+    {
+      "xy": [
+        -284,
+        38.40735
+      ],
+      "hits": {
+        "MVP | terreno corrigido | colisão estática": {
+          "z": 7.255668640136719,
+          "triangle": 1046096
+        }
+      }
+    },
+    {
+      "xy": [
+        -284,
+        39.4
+      ],
+      "hits": {
+        "MVP | terreno corrigido | colisão estática": {
+          "z": 7.255668640136719,
+          "triangle": 1046098
+        }
+      }
+    },
+    {
+      "xy": [
+        -284,
+        40
+      ],
+      "hits": {
+        "MVP | terreno corrigido | colisão estática": {
+          "z": 7.255668640136719,
+          "triangle": 1046100
+        }
+      }
+    },
+    {
+      "xy": [
+        -284,
+        42
+      ],
+      "hits": {}
+    },
+    {
+      "xy": [
+        -284,
+        44
+      ],
+      "hits": {}
+    },
+    {
+      "xy": [
+        -282,
+        34
+      ],
+      "hits": {
+        "MVP | terreno corrigido | colisão estática": {
+          "z": 7.255668640136719,
+          "triangle": 1026631
+        }
+      }
+    },
+    {
+      "xy": [
+        -282,
+        36
+      ],
+      "hits": {
+        "MVP | terreno corrigido | colisão estática": {
+          "z": 7.255668640136719,
+          "triangle": 1030615
+        }
+      }
+    },
+    {
+      "xy": [
+        -282,
+        38.40735
+      ],
+      "hits": {
+        "MVP | terreno corrigido | colisão estática": {
+          "z": 7.255668640136719,
+          "triangle": 1022727
+        }
+      }
+    },
+    {
+      "xy": [
+        -282,
+        39.4
+      ],
+      "hits": {
+        "MVP | terreno corrigido | colisão estática": {
+          "z": 7.255668640136719,
+          "triangle": 1022726
+        }
+      }
+    },
+    {
+      "xy": [
+        -282,
+        40
+      ],
+      "hits": {
+        "MVP | terreno corrigido | colisão estática": {
+          "z": 7.255668640136719,
+          "triangle": 1026647
+        }
+      }
+    },
+    {
+      "xy": [
+        -282,
+        42
+      ],
+      "hits": {
+        "MVP | terreno corrigido | colisão estática": {
+          "z": 7.25567626953125,
+          "triangle": 1046114
+        }
+      }
+    },
+    {
+      "xy": [
+        -282,
+        44
+      ],
+      "hits": {}
+    }
+  ],
+  "reference_type": "dict",
+  "reference_keys": [
+    "schema",
+    "source_structure",
+    "source_structure_schema",
+    "source_fit",
+    "fit_quality",
+    "fit_status",
+    "fit_summary",
+    "features",
+    "notes"
+  ]
+}

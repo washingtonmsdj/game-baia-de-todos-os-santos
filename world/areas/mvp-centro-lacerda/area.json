@@ -14,7 +14,9 @@
     "world_anchor_status": "candidate",
     "meters_per_blender_unit": null,
     "rotation_true_north_deg": null,
-    "notes": "A cena indica alinhamento próximo ao Web Mercator e escala próxima de 1 m/unidade, mas a transformação final deve ser fechada com a captura Aleph original e múltiplos anchors OSM."
+    "notes": "A cena indica alinhamento próximo ao Web Mercator e escala próxima de 1 m/unidade, mas a transformação final deve ser fechada com a captura Aleph original e múltiplos anchors OSM.",
+    "shared_transform_reference": "world/geographic-reference.json#/horizontal",
+    "vertical_reference": "world/geographic-reference.json#/vertical"
   },
   "aleph_capture": {
     "capture_id": "aleph-20260924T205631Z-aqqo7pkx",

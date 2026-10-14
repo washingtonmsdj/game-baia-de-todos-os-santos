@@ -1,0 +1,60 @@
+{
+  "schema": "boas/upper-boarding-evidence-v1",
+  "geographic_ssot": "world/geographic-reference.json",
+  "baseline": "R30B.79",
+  "facts": [
+    {
+      "claim": "Os panoramas identificados de dezembro/2024 mostram equipamentos de obra e estruturas de evento; não comprovam interior.",
+      "source_ids": [
+        "aleph-dev-20261006T052006Z-b80-superior-frente",
+        "aleph-dev-20261006T052140Z-b80-superior-retorno",
+        "aleph-dev-20261006T052246Z-b80-superior-portais"
+      ],
+      "status": "confirmed_visual_observation"
+    },
+    {
+      "claim": "A consulta da entrada alta retornou panorama de maio/2024 na Ladeira da Montanha, a 24,39 m do ponto solicitado; não documenta o embarque superior.",
+      "source_ids": ["aleph-dev-20261006T052412Z-b80-entrada-alta-candidato"],
+      "status": "confirmed_provider_metadata_and_visual_observation"
+    },
+    {
+      "claim": "Fotografia da placa registra restauração em fevereiro de 2025; outras fotos mostram revestimentos/vidros e rocha exposta.",
+      "source_ids": [
+        "elevador-lacerda-detail-d940f8160804",
+        "elevador-lacerda-detail-814f0e72ca47",
+        "elevador-lacerda-access-9b3a4c8a1601"
+      ],
+      "status": "confirmed_visual_observation"
+    }
+  ],
+  "documented_historical_dimension": {
+    "feature": "passadiço",
+    "width_m": 6.0,
+    "length_m": 28.7,
+    "status": "documented_historical_secondary_measurement",
+    "source": "https://repositorio.ufba.br/handle/ri/24863",
+    "locator": "p.183; figuras 123/124, cadastro 2000 Daniel Colina",
+    "verification": "texto indexado consultado; PDF integral indisponível via browser, não inspecionado",
+    "applicability": "Não certifica vão de portas, saguão atual, largura livre, cabine ou folga do poço."
+  },
+  "estimates": [],
+  "candidates": {
+    "upper_access_position": "SSOT/implantação existente; reconciliação interna pendente",
+    "vertical_alignment": "cabine animada 70.1149978638/7.4059977531; cotas locais candidatas, não medidas reais"
+  },
+  "unknown_dimensions": {
+    "upper_clear_access_width": null,
+    "landing_door_width": null,
+    "sill_gap": null,
+    "slab_thickness": null,
+    "slab_position_within_shaft": null,
+    "cabin_width": null,
+    "cabin_depth": null,
+    "cabin_height": null,
+    "shaft_opening": null,
+    "shaft_positive_clearance": null,
+    "physical_landing_alignment": null
+  },
+  "B78_comparison": "docs/reports/blender/lacerda-controller-b80/upper_investigation_b80.json",
+  "decision": "Não migrar B78 nem alterar lajes/cobertura pelo envelope animado. Corrigir apenas derivação de collider/ground-following na malha existente."
+}

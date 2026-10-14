@@ -1,0 +1,1213 @@
+{
+  "schema": "boas/lacerda-basement-contours-v1",
+  "parent_ssot": "world/geographic-reference.json",
+  "ssot_sha256": "1d9da0962d456cb38ed3df0da797208e499a8465f82e9836c14bb337df2385e7",
+  "registration": {
+    "14": {
+      "drawing_id": "sucop-2023-14",
+      "matrix_to_sheet17": [
+        [
+          0.9999999999999996,
+          -2.220446049250313e-16,
+          3.29625216011209e-13
+        ],
+        [
+          2.220446049250313e-16,
+          0.9999999999999996,
+          -1.2000000000001987
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 0.9999999999999996,
+      "rotation_deg": 1.2722218725854073e-14,
+      "controls": [
+        {
+          "drawing_point": [
+            530.4,
+            505.24
+          ],
+          "reference_sheet17_point": [
+            530.4,
+            504.03999999999996
+          ],
+          "feature": "neighbor_permanent_roof_corner_1",
+          "source": "source:lacerda-issue22-sucop-14",
+          "confidence": "DOCUMENT_CROSS_REFERENCE",
+          "residual_m": 7.520770396649218e-15,
+          "scene_registration_accepted": false
+        },
+        {
+          "drawing_point": [
+            1195.56,
+            700.96
+          ],
+          "reference_sheet17_point": [
+            1195.56,
+            699.76
+          ],
+          "feature": "neighbor_permanent_roof_corner_2",
+          "source": "source:lacerda-issue22-sucop-14",
+          "confidence": "DOCUMENT_CROSS_REFERENCE",
+          "residual_m": 1.3453563080060568e-14,
+          "scene_registration_accepted": false
+        },
+        {
+          "drawing_point": [
+            1342.32,
+            203.79999999999995
+          ],
+          "reference_sheet17_point": [
+            1342.32,
+            202.60000000000014
+          ],
+          "feature": "neighbor_permanent_roof_corner_3",
+          "source": "source:lacerda-issue22-sucop-14",
+          "confidence": "DOCUMENT_CROSS_REFERENCE",
+          "residual_m": 1.2851498087328826e-14,
+          "scene_registration_accepted": false
+        }
+      ],
+      "independent_check_point": [
+        1194.96,
+        160.36000000000013
+      ],
+      "independent_check_residual_m": 6.063438940355951e-15,
+      "reason": "Mesmo contorno permanente do imóvel vizinho visível nas folhas; sem cabine/obra/mobiliário/nomes de mesh",
+      "status": "DRAWING_TO_DRAWING_ACCEPTED_NOT_ABSOLUTE_SSOT"
+    },
+    "15": {
+      "drawing_id": "sucop-2023-15",
+      "matrix_to_sheet17": [
+        [
+          0.9999999999999998,
+          -3.552713678800501e-15,
+          2.880000000000909
+        ],
+        [
+          3.552713678800501e-15,
+          0.9999999999999998,
+          5.009326287108706e-13
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 0.9999999999999998,
+      "rotation_deg": 2.0355549961366512e-13,
+      "controls": [
+        {
+          "drawing_point": [
+            527.52,
+            504.03999999999996
+          ],
+          "reference_sheet17_point": [
+            530.4,
+            504.03999999999996
+          ],
+          "feature": "neighbor_permanent_roof_corner_1",
+          "source": "source:lacerda-issue22-sucop-15",
+          "confidence": "DOCUMENT_CROSS_REFERENCE",
+          "residual_m": 6.597734874301565e-14,
+          "scene_registration_accepted": false
+        },
+        {
+          "drawing_point": [
+            1192.68,
+            699.76
+          ],
+          "reference_sheet17_point": [
+            1195.56,
+            699.76
+          ],
+          "feature": "neighbor_permanent_roof_corner_2",
+          "source": "source:lacerda-issue22-sucop-15",
+          "confidence": "DOCUMENT_CROSS_REFERENCE",
+          "residual_m": 1.2748981405396807e-13,
+          "scene_registration_accepted": false
+        },
+        {
+          "drawing_point": [
+            1339.44,
+            202.60000000000014
+          ],
+          "reference_sheet17_point": [
+            1342.32,
+            202.60000000000014
+          ],
+          "feature": "neighbor_permanent_roof_corner_3",
+          "source": "source:lacerda-issue22-sucop-15",
+          "confidence": "DOCUMENT_CROSS_REFERENCE",
+          "residual_m": 1.377615462260929e-13,
+          "scene_registration_accepted": false
+        }
+      ],
+      "independent_check_point": [
+        1192.08,
+        159.16000000000008
+      ],
+      "independent_check_residual_m": 1.2498968320860577e-13,
+      "reason": "Mesmo contorno permanente do imóvel vizinho visível nas folhas; sem cabine/obra/mobiliário/nomes de mesh",
+      "status": "DRAWING_TO_DRAWING_ACCEPTED_NOT_ABSOLUTE_SSOT"
+    },
+    "16": {
+      "drawing_id": "sucop-2023-16",
+      "matrix_to_sheet17": [
+        [
+          1.000023486692001,
+          0.0001037214343294901,
+          -0.7508082785730065
+        ],
+        [
+          -0.0001037214343294901,
+          1.000023486692001,
+          1.4132184820018117
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 1.0000234920709425,
+      "rotation_deg": -0.0059426608373682075,
+      "controls": [
+        {
+          "drawing_point": [
+            531.1009727999999,
+            502.6785688000002
+          ],
+          "reference_sheet17_point": [
+            530.4,
+            504.03999999999996
+          ],
+          "feature": "neighbor_permanent_roof_corner_1",
+          "source": "source:lacerda-issue22-sucop-16",
+          "confidence": "DOCUMENT_CROSS_REFERENCE",
+          "residual_m": 0.00045118332699763445,
+          "scene_registration_accepted": false
+        },
+        {
+          "drawing_point": [
+            1196.184096,
+            698.4656920000001
+          ],
+          "reference_sheet17_point": [
+            1195.56,
+            699.76
+          ],
+          "feature": "neighbor_permanent_roof_corner_2",
+          "source": "source:lacerda-issue22-sucop-16",
+          "confidence": "DOCUMENT_CROSS_REFERENCE",
+          "residual_m": 0.0007537672593155621,
+          "scene_registration_accepted": false
+        },
+        {
+          "drawing_point": [
+            1343.0297807999998,
+            201.30160240000032
+          ],
+          "reference_sheet17_point": [
+            1342.32,
+            202.60000000000014
+          ],
+          "feature": "neighbor_permanent_roof_corner_3",
+          "source": "source:lacerda-issue22-sucop-16",
+          "confidence": "DOCUMENT_CROSS_REFERENCE",
+          "residual_m": 0.0006034106440917335,
+          "scene_registration_accepted": false
+        }
+      ],
+      "independent_check_point": [
+        1195.6349519999999,
+        157.8489112000002
+      ],
+      "independent_check_residual_m": 0.0009601057903085124,
+      "reason": "Mesmo contorno permanente do imóvel vizinho visível nas folhas; sem cabine/obra/mobiliário/nomes de mesh",
+      "status": "DRAWING_TO_DRAWING_ACCEPTED_NOT_ABSOLUTE_SSOT"
+    },
+    "18": {
+      "drawing_id": "sucop-2023-18",
+      "matrix_to_sheet17": [
+        [
+          1.0000414692085362,
+          5.5452341381379e-05,
+          -2.908526877914782
+        ],
+        [
+          -5.5452341381379e-05,
+          1.0000414692085362,
+          0.037431156360169915
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 1.0000414707459535,
+      "rotation_deg": -0.0031770533721265383,
+      "controls": [
+        {
+          "drawing_point": [
+            533.28,
+            504.03999999999996
+          ],
+          "reference_sheet17_point": [
+            530.4,
+            504.03999999999996
+          ],
+          "feature": "neighbor_permanent_roof_corner_1",
+          "source": "source:lacerda-issue22-sucop-18",
+          "confidence": "DOCUMENT_CROSS_REFERENCE",
+          "residual_m": 0.0009508137372106331,
+          "scene_registration_accepted": false
+        },
+        {
+          "drawing_point": [
+            1198.32,
+            699.76
+          ],
+          "reference_sheet17_point": [
+            1195.56,
+            699.76
+          ],
+          "feature": "neighbor_permanent_roof_corner_2",
+          "source": "source:lacerda-issue22-sucop-18",
+          "confidence": "DOCUMENT_CROSS_REFERENCE",
+          "residual_m": 0.0015884797252562256,
+          "scene_registration_accepted": false
+        },
+        {
+          "drawing_point": [
+            1345.2,
+            202.60000000000014
+          ],
+          "reference_sheet17_point": [
+            1342.32,
+            202.60000000000014
+          ],
+          "feature": "neighbor_permanent_roof_corner_3",
+          "source": "source:lacerda-issue22-sucop-18",
+          "confidence": "DOCUMENT_CROSS_REFERENCE",
+          "residual_m": 0.001271489346648134,
+          "scene_registration_accepted": false
+        }
+      ],
+      "independent_check_point": [
+        1197.84,
+        159.16000000000008
+      ],
+      "independent_check_residual_m": 0.000989997815504426,
+      "reason": "Mesmo contorno permanente do imóvel vizinho visível nas folhas; sem cabine/obra/mobiliário/nomes de mesh",
+      "status": "DRAWING_TO_DRAWING_ACCEPTED_NOT_ABSOLUTE_SSOT"
+    },
+    "19": {
+      "drawing_id": "sucop-2023-19",
+      "matrix_to_sheet17": [
+        [
+          1.0000000000000002,
+          -3.574643118976918e-17,
+          -4.587268372346087e-13
+        ],
+        [
+          3.574643118976918e-17,
+          1.0000000000000002,
+          -2.1770678769475608e-13
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 1.0000000000000002,
+      "rotation_deg": 2.0481196398285836e-15,
+      "controls": [
+        {
+          "drawing_point": [
+            530.4,
+            504.03999999999996
+          ],
+          "reference_sheet17_point": [
+            530.4,
+            504.03999999999996
+          ],
+          "feature": "neighbor_permanent_roof_corner_1",
+          "source": "source:lacerda-issue22-sucop-19",
+          "confidence": "DOCUMENT_CROSS_REFERENCE",
+          "residual_m": 9.513105685031803e-15,
+          "scene_registration_accepted": false
+        },
+        {
+          "drawing_point": [
+            1195.56,
+            699.76
+          ],
+          "reference_sheet17_point": [
+            1195.56,
+            699.76
+          ],
+          "feature": "neighbor_permanent_roof_corner_2",
+          "source": "source:lacerda-issue22-sucop-19",
+          "confidence": "DOCUMENT_CROSS_REFERENCE",
+          "residual_m": 6.726781540030284e-15,
+          "scene_registration_accepted": false
+        },
+        {
+          "drawing_point": [
+            1342.32,
+            202.60000000000014
+          ],
+          "reference_sheet17_point": [
+            1342.32,
+            202.60000000000014
+          ],
+          "feature": "neighbor_permanent_roof_corner_3",
+          "source": "source:lacerda-issue22-sucop-19",
+          "confidence": "DOCUMENT_CROSS_REFERENCE",
+          "residual_m": 6.726781540030284e-15,
+          "scene_registration_accepted": false
+        }
+      ],
+      "independent_check_point": [
+        1194.96,
+        159.16000000000008
+      ],
+      "independent_check_residual_m": 7.095080602051858e-15,
+      "reason": "Mesmo contorno permanente do imóvel vizinho visível nas folhas; sem cabine/obra/mobiliário/nomes de mesh",
+      "status": "DRAWING_TO_DRAWING_ACCEPTED_NOT_ABSOLUTE_SSOT"
+    },
+    "20": {
+      "drawing_id": "sucop-2023-20",
+      "matrix_to_sheet17": [
+        [
+          1.0000414692085369,
+          5.5452341382225545e-05,
+          -0.14841242290035822
+        ],
+        [
+          -5.5452341382225545e-05,
+          1.0000414692085369,
+          0.037278107897305596
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 1.0000414707459542,
+      "rotation_deg": -0.0031770533721750373,
+      "controls": [
+        {
+          "drawing_point": [
+            530.52,
+            504.03999999999996
+          ],
+          "reference_sheet17_point": [
+            530.4,
+            504.03999999999996
+          ],
+          "feature": "neighbor_permanent_roof_corner_1",
+          "source": "source:lacerda-issue22-sucop-20",
+          "confidence": "DOCUMENT_CROSS_REFERENCE",
+          "residual_m": 0.0009508137371895714,
+          "scene_registration_accepted": false
+        },
+        {
+          "drawing_point": [
+            1195.56,
+            699.76
+          ],
+          "reference_sheet17_point": [
+            1195.56,
+            699.76
+          ],
+          "feature": "neighbor_permanent_roof_corner_2",
+          "source": "source:lacerda-issue22-sucop-20",
+          "confidence": "DOCUMENT_CROSS_REFERENCE",
+          "residual_m": 0.0015884797252502091,
+          "scene_registration_accepted": false
+        },
+        {
+          "drawing_point": [
+            1342.44,
+            202.60000000000014
+          ],
+          "reference_sheet17_point": [
+            1342.32,
+            202.60000000000014
+          ],
+          "feature": "neighbor_permanent_roof_corner_3",
+          "source": "source:lacerda-issue22-sucop-20",
+          "confidence": "DOCUMENT_CROSS_REFERENCE",
+          "residual_m": 0.001271489346674244,
+          "scene_registration_accepted": false
+        }
+      ],
+      "independent_check_point": [
+        1195.08,
+        159.16000000000008
+      ],
+      "independent_check_residual_m": 0.0009899978155243625,
+      "reason": "Mesmo contorno permanente do imóvel vizinho visível nas folhas; sem cabine/obra/mobiliário/nomes de mesh",
+      "status": "DRAWING_TO_DRAWING_ACCEPTED_NOT_ABSOLUTE_SSOT"
+    }
+  },
+  "source_ids": [
+    "source:lacerda-issue22-sucop-15",
+    "source:lacerda-issue22-sucop-16",
+    "source:lacerda-issue22-sucop-17",
+    "source:lacerda-issue22-sucop-23"
+  ],
+  "source_sha256": {
+    "15": "44f7ab3a1655d5d2f7b3c85ef6f807dfab04659b6e2ad4e508d0f84b8c941a5d",
+    "16": "72a7f34e0e51d0fc7d814660a3a6769414f4cd219fd5c28e8c2e7e10d8cae4e7",
+    "17": "02d02b37b61b9a44ca931a00811e196e104322a6f0f89fc4bfb04f70d7783dd1",
+    "23": "8d8e57f67dc38ab097fce4d9a4c823866fc8db8cd8a0f56f71ff46b7b81efb5b"
+  },
+  "contour_pdf16": [
+    [
+      2226.1269312,
+      879.5126440000001
+    ],
+    [
+      2649.8100959999997,
+      878.6330344000002
+    ],
+    [
+      2646.6988677745126,
+      1292.5238680000002
+    ],
+    [
+      2238.4072944,
+      1292.5238680000002
+    ],
+    [
+      2238.4054656,
+      1265.557276
+    ],
+    [
+      2074.079808,
+      1266.6703528
+    ],
+    [
+      2073.489048,
+      1208.9846008000002
+    ],
+    [
+      2036.3246783999998,
+      1208.3218696000001
+    ],
+    [
+      2036.4924383999999,
+      1169.6152024000003
+    ],
+    [
+      2061.155808,
+      1170.0175240000003
+    ],
+    [
+      2058.4451231999997,
+      1004.3712568000002
+    ],
+    [
+      2040.6968496,
+      1004.9553496000002
+    ],
+    [
+      2033.9251919999997,
+      1004.6872360000002
+    ],
+    [
+      2033.4106367999998,
+      964.8701848000002
+    ],
+    [
+      2047.7413152,
+      965.1835000000002
+    ],
+    [
+      2072.5087535999996,
+      964.6991848000001
+    ],
+    [
+      2072.7230688,
+      906.5975032000001
+    ],
+    [
+      2225.6637119999996,
+      906.5793016000001
+    ]
+  ],
+  "contour_references": [
+    [
+      90,
+      15
+    ],
+    [
+      81,
+      14
+    ],
+    [
+      "DERIVED_EAST_SOUTH",
+      null
+    ],
+    [
+      78,
+      9
+    ],
+    [
+      78,
+      8
+    ],
+    [
+      78,
+      7
+    ],
+    [
+      78,
+      6
+    ],
+    [
+      78,
+      4
+    ],
+    [
+      78,
+      3
+    ],
+    [
+      78,
+      2
+    ],
+    [
+      90,
+      23
+    ],
+    [
+      90,
+      22
+    ],
+    [
+      90,
+      21
+    ],
+    [
+      90,
+      20
+    ],
+    [
+      90,
+      19
+    ],
+    [
+      90,
+      18
+    ],
+    [
+      90,
+      17
+    ],
+    [
+      90,
+      16
+    ]
+  ],
+  "contour_local": [
+    [
+      -13.2124239568694,
+      5.407759044555028
+    ],
+    [
+      -2.000930983193941,
+      5.432198101174975
+    ],
+    [
+      -2.0821242729981133,
+      -5.520181354475923
+    ],
+    [
+      -12.886327678039283,
+      -5.521301955630671
+    ],
+    [
+      -12.886450084487478,
+      -4.807712545368326
+    ],
+    [
+      -17.234829276810107,
+      -4.837617771120053
+    ],
+    [
+      -17.25062028094615,
+      -3.311140183000112
+    ],
+    [
+      -18.234064900969116,
+      -3.2937050050135994
+    ],
+    [
+      -18.229731873930017,
+      -2.2694494954136375
+    ],
+    [
+      -17.57708917926991,
+      -2.2800280301712625
+    ],
+    [
+      -17.64927390035261,
+      2.1032927220218696
+    ],
+    [
+      -18.118926756380972,
+      2.0877877580026754
+    ],
+    [
+      -18.298118959500474,
+      2.0948639891353755
+    ],
+    [
+      -18.31184439113541,
+      3.148500585127494
+    ],
+    [
+      -17.932625407536197,
+      3.1402489767289103
+    ],
+    [
+      -17.27723127985529,
+      3.153132892773389
+    ],
+    [
+      -17.271719541801286,
+      4.690619011222842
+    ],
+    [
+      -13.224607366605351,
+      4.691520424022112
+    ]
+  ],
+  "floor16_pdf": [
+    [
+      2381.5333152,
+      906.1354792000002
+    ],
+    [
+      2380.5416304,
+      1008.9755272000001
+    ],
+    [
+      2348.3972879999997,
+      1008.8338456000002
+    ],
+    [
+      2348.3840688,
+      1023.2476264000002
+    ],
+    [
+      2347.6931712,
+      1023.2469928000002
+    ],
+    [
+      2344.9523904,
+      1023.3567640000001
+    ],
+    [
+      2297.3578559999996,
+      1023.2007976000001
+    ],
+    [
+      2297.2415616,
+      1149.8536216000002
+    ],
+    [
+      2297.160288,
+      1238.4561304000001
+    ],
+    [
+      2291.4909792,
+      1238.4509176000001
+    ],
+    [
+      2291.4939311999997,
+      1282.3155928
+    ],
+    [
+      2506.4895887999996,
+      1282.3021864000002
+    ],
+    [
+      2627.8388496,
+      1282.2930136
+    ],
+    [
+      2628.0554112,
+      1249.706404
+    ],
+    [
+      2628.0551232,
+      1244.4150808000002
+    ],
+    [
+      2641.3188768,
+      1244.5032808
+    ],
+    [
+      2642.6832191999997,
+      1152.7862104
+    ],
+    [
+      2642.6832191999997,
+      1147.4942536
+    ],
+    [
+      2640.7957536,
+      1147.4887240000003
+    ],
+    [
+      2641.5014112,
+      907.2607672000001
+    ],
+    [
+      2634.0851231999995,
+      907.2389656000001
+    ],
+    [
+      2634.0485615999996,
+      889.6263976000001
+    ],
+    [
+      2523.4841232,
+      889.6396024000002
+    ],
+    [
+      2523.4860959999996,
+      906.1328872000001
+    ],
+    [
+      2506.4783424,
+      906.1349176000002
+    ],
+    [
+      2506.4783424,
+      889.1270344000002
+    ],
+    [
+      2400.5964384,
+      889.1270344000002
+    ],
+    [
+      2400.5964384,
+      906.1497640000001
+    ],
+    [
+      2381.5333152,
+      906.1354792000002
+    ]
+  ],
+  "floor16_local": [
+    [
+      -9.099990278945686,
+      4.703692644725992
+    ],
+    [
+      -9.125949966354225,
+      1.9823386405860446
+    ],
+    [
+      -9.976553297471456,
+      1.9859995925512879
+    ],
+    [
+      -9.976863543468449,
+      1.6045823785607336
+    ],
+    [
+      -9.995146063606617,
+      1.6045972486266984
+    ],
+    [
+      -10.067672248747693,
+      1.6016849629649696
+    ],
+    [
+      -11.327118289115223,
+      1.6056815142683838
+    ],
+    [
+      -11.329848056576331,
+      -1.7458032869703313
+    ],
+    [
+      -11.331755537609421,
+      -4.090401316353025
+    ],
+    [
+      -11.481776687388273,
+      -4.090278935386138
+    ],
+    [
+      -11.481578180195335,
+      -5.2510250804312015
+    ],
+    [
+      -5.792367448537442,
+      -5.250080241301868
+    ],
+    [
+      -2.5812257744159286,
+      -5.249504454452212
+    ],
+    [
+      -2.575584563247306,
+      -4.387197652064935
+    ],
+    [
+      -2.575606706916327,
+      -4.247178764730612
+    ],
+    [
+      -2.2246212837753045,
+      -4.249476307525755
+    ],
+    [
+      -2.188769810212576,
+      -1.8224572901854206
+    ],
+    [
+      -2.188784334570385,
+      -1.682421635750184
+    ],
+    [
+      -2.238730426502549,
+      -1.682280491943225
+    ],
+    [
+      -2.220716661344148,
+      4.674628807344776
+    ],
+    [
+      -2.4169663851163596,
+      4.675185366027045
+    ],
+    [
+      -2.4179822170715157,
+      5.141248685956507
+    ],
+    [
+      -5.3437361266304,
+      5.140595804535845
+    ],
+    [
+      -5.343638654801287,
+      4.704150839206381
+    ],
+    [
+      -5.793697483013725,
+      4.704050431150983
+    ],
+    [
+      -5.793744163020854,
+      5.154112694408687
+    ],
+    [
+      -8.595588977681583,
+      5.153822089871081
+    ],
+    [
+      -8.595542256926871,
+      4.703366961475098
+    ]
+  ],
+  "crosscheck15": [
+    {
+      "contour_point_index": 0,
+      "reference16": [
+        90,
+        15
+      ],
+      "reference15_curve": 397,
+      "reference15_vertex": 2,
+      "sheet15_point_local": [
+        -13.228291023334151,
+        4.537593738952718
+      ],
+      "residual_m": 0.8703099579300227,
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "contour_point_index": 1,
+      "reference16": [
+        81,
+        14
+      ],
+      "reference15_curve": 395,
+      "reference15_vertex": 1,
+      "sheet15_point_local": [
+        -2.070065411941145,
+        5.277453319901616
+      ],
+      "residual_m": 0.1694860365031347,
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "contour_point_index": 3,
+      "reference16": [
+        78,
+        9
+      ],
+      "reference15_curve": 339,
+      "reference15_vertex": 1,
+      "sheet15_point_local": [
+        -12.888527181439176,
+        -5.525131634554529
+      ],
+      "residual_m": 0.004416362288805748,
+      "status": "MATCHED_DOCUMENT_CORNER"
+    },
+    {
+      "contour_point_index": 4,
+      "reference16": [
+        78,
+        8
+      ],
+      "reference15_curve": 330,
+      "reference15_vertex": 6,
+      "sheet15_point_local": [
+        -12.888527181439176,
+        -4.810674957672506
+      ],
+      "residual_m": 0.0036180406861604235,
+      "status": "MATCHED_DOCUMENT_CORNER"
+    },
+    {
+      "contour_point_index": 5,
+      "reference16": [
+        78,
+        7
+      ],
+      "reference15_curve": 330,
+      "reference15_vertex": 5,
+      "sheet15_point_local": [
+        -17.235599139890244,
+        -4.839253224747767
+      ],
+      "residual_m": 0.001807594459651347,
+      "status": "MATCHED_DOCUMENT_CORNER"
+    },
+    {
+      "contour_point_index": 6,
+      "reference16": [
+        78,
+        6
+      ],
+      "reference15_curve": 330,
+      "reference15_vertex": 4,
+      "sheet15_point_local": [
+        -17.25147595493205,
+        -3.311903617724421
+      ],
+      "residual_m": 0.001146739093441111,
+      "status": "MATCHED_DOCUMENT_CORNER"
+    },
+    {
+      "contour_point_index": 7,
+      "reference16": [
+        78,
+        4
+      ],
+      "reference15_curve": 330,
+      "reference15_vertex": 2,
+      "sheet15_point_local": [
+        -18.23583848752507,
+        -3.2960268026826007
+      ],
+      "residual_m": 0.0029217039013621133,
+      "status": "MATCHED_DOCUMENT_CORNER"
+    },
+    {
+      "contour_point_index": 8,
+      "reference16": [
+        78,
+        3
+      ],
+      "reference15_curve": 330,
+      "reference15_vertex": 1,
+      "sheet15_point_local": [
+        -18.2326631245167,
+        -2.270384550980853
+      ],
+      "residual_m": 0.0030767773588149536,
+      "status": "MATCHED_DOCUMENT_CORNER"
+    },
+    {
+      "contour_point_index": 9,
+      "reference16": [
+        78,
+        2
+      ],
+      "reference15_curve": 330,
+      "reference15_vertex": 0,
+      "sheet15_point_local": [
+        -17.578538344793603,
+        -2.2830860030143114
+      ],
+      "residual_m": 0.003383973791843101,
+      "status": "MATCHED_DOCUMENT_CORNER"
+    },
+    {
+      "contour_point_index": 10,
+      "reference16": [
+        90,
+        23
+      ],
+      "reference15_curve": 329,
+      "reference15_vertex": 2,
+      "sheet15_point_local": [
+        -17.651571693985968,
+        2.1020903115371286
+      ],
+      "residual_m": 0.0025933851536765955,
+      "status": "MATCHED_DOCUMENT_CORNER"
+    },
+    {
+      "contour_point_index": 11,
+      "reference16": [
+        90,
+        22
+      ],
+      "reference15_curve": 329,
+      "reference15_vertex": 1,
+      "sheet15_point_local": [
+        -18.12152541922393,
+        2.086213496495305
+      ],
+      "residual_m": 0.003038313325670944,
+      "status": "MATCHED_DOCUMENT_CORNER"
+    },
+    {
+      "contour_point_index": 12,
+      "reference16": [
+        90,
+        21
+      ],
+      "reference15_curve": 328,
+      "reference15_vertex": 4,
+      "sheet15_point_local": [
+        -18.299345747692342,
+        2.0925642225120376
+      ],
+      "residual_m": 0.002606517943449941,
+      "status": "MATCHED_DOCUMENT_CORNER"
+    },
+    {
+      "contour_point_index": 13,
+      "reference16": [
+        90,
+        20
+      ],
+      "reference15_curve": 328,
+      "reference15_vertex": 3,
+      "sheet15_point_local": [
+        -18.312047199725797,
+        3.146784741289064
+      ],
+      "residual_m": 0.0017277880084698184,
+      "status": "MATCHED_DOCUMENT_CORNER"
+    },
+    {
+      "contour_point_index": 14,
+      "reference16": [
+        90,
+        19
+      ],
+      "reference15_curve": 328,
+      "reference15_vertex": 2,
+      "sheet15_point_local": [
+        -17.934179001730417,
+        3.13725865226397
+      ],
+      "residual_m": 0.0033698212602355985,
+      "status": "MATCHED_DOCUMENT_CORNER"
+    },
+    {
+      "contour_point_index": 15,
+      "reference16": [
+        90,
+        18
+      ],
+      "reference15_curve": 328,
+      "reference15_vertex": 1,
+      "sheet15_point_local": [
+        -17.28005422200732,
+        3.149960104297423
+      ],
+      "residual_m": 0.004246832832467875,
+      "status": "MATCHED_DOCUMENT_CORNER"
+    },
+    {
+      "contour_point_index": 16,
+      "reference16": [
+        90,
+        17
+      ],
+      "reference15_curve": 328,
+      "reference15_vertex": 0,
+      "sheet15_point_local": [
+        -17.273703495990585,
+        4.686835800345864
+      ],
+      "residual_m": 0.004271856594611484,
+      "status": "MATCHED_DOCUMENT_CORNER"
+    },
+    {
+      "contour_point_index": 17,
+      "reference16": [
+        90,
+        16
+      ],
+      "reference15_curve": 397,
+      "reference15_vertex": 2,
+      "sheet15_point_local": [
+        -13.228291023334151,
+        4.537593738952718
+      ],
+      "residual_m": 0.1539707560004436,
+      "status": "NEEDS_REVIEW"
+    }
+  ],
+  "crosscheck_matched": 14,
+  "levels": {
+    "floor_subsolo02": 60.38300872802734,
+    "floor_subsolo01": 65.15300872802734,
+    "upper_floor_underside": 69.79300872802735,
+    "upper_floor": 70.12300872802734,
+    "printed_offsets": [
+      -9.74,
+      -4.97,
+      0.0
+    ],
+    "wall_height": 9.41,
+    "slab_thickness_candidate": 0.25
+  },
+  "wall_thickness_candidate": 0.15,
+  "accuracy": "DOCUMENT_CONTOUR_SIMPLIFIED_UNIFORM_THICKNESS",
+  "simplifications": [
+    "omitir rebaixos pequenos de janelas/grelhas no envelope",
+    "espessura uniforme0,15m candidata, baseada em um par de faces da16, não espessura levantada de todas as paredes",
+    "corpo vertical usa envelope16 comparado à15; pontos NEEDS_REVIEW não autorizam detalhe métrico",
+    "extensões do muro para a encosta excluídas; não altera terreno/retaining world",
+    "piso apenas na superfície cinza documentada da16; núcleo hachurado não recebe piso nem preenchimento"
+  ],
+  "room14_offset_NOT_MODELED": -19.85,
+  "absolute_ssot_registration_accepted": false,
+  "installed_shaft_dimensions_known": false,
+  "production_ready": false
+}

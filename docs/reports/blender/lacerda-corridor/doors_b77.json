@@ -1,0 +1,18 @@
+{
+  "cases": [
+    {
+      "route": "upper",
+      "frame": 65024,
+      "points": 158,
+      "blocked": []
+    },
+    {
+      "route": "lower",
+      "frame": 67025,
+      "points": 265,
+      "blocked": []
+    }
+  ],
+  "passed": true,
+  "scope": "Portas reais abertas e poses de rota amostradas; não certifica folgas mecânicas/sweep integral ou interlocks da engine"
+}

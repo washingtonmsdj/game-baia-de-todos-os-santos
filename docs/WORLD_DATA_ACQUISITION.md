@@ -54,6 +54,8 @@ O modo `osm` do Aleph inclui:
 
 Por padrão, **não ativar `satellite` nem `streetview`** no pipeline do projeto.
 
+Na rodada B77 o usuário autorizou essas fontes para desenvolvimento. Usar `tools/aleph/acquire_development_references.py` para consultas pontuais pinadas ou `capture_area.py --sources osm satellite streetview --reference-purpose DESCRIÇÃO` para levantamento explícito. Registrar como `DEV_REFERENCE_ONLY` em `world/data-provenance.json`, manter os binários em `world-reference/` e reconciliar coordenadas com `world/geographic-reference.json`. Panorama próximo em XY pode estar em outra altitude: não usar a proximidade para inferir desembarque superior/inferior. Isso não aprova texturas ou assets finais derivados para release.
+
 ## Registro após a captura
 
 Executar:

@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "pid": 11304,
+  "checks": [
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "degenerate": 0,
+      "nonmanifold": 0
+    },
+    {
+      "object": "LAC R30B02 | Lambril marmore | SUPERIOR | posterior lateral",
+      "degenerate": 0,
+      "nonmanifold": 0
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "degenerate": 0,
+      "nonmanifold": 0
+    },
+    {
+      "object": "LAC R30B02 | Lambril marmore | SUPERIOR | posterior lateral.001",
+      "degenerate": 0,
+      "nonmanifold": 0
+    }
+  ],
+  "baseline_objects_checked": 6298,
+  "unexpected_changes": [],
+  "upper_capsule_samples": 1947,
+  "upper_capsule_penetrations": [],
+  "scope": "Quatro malhas alteradas versus percurso superior; não certifica poço ou trajeto completo",
+  "colliders_preserved": true,
+  "ssot_preserved": true,
+  "proxy_preserved": true,
+  "production_ready": false,
+  "reopened": true,
+  "reopened_pid": 11304,
+  "parent_snapshot_preserved": true
+}

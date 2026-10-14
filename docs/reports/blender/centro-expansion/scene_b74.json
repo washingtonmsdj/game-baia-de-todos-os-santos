@@ -1,0 +1,740 @@
+{
+  "schema": "boas/centro-expansion-b74-scene-v1",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b73_tangente_encosta_costura.blend",
+    "revision": "R30B.73",
+    "sha256": "d49f9b35e00b292acdbd33028b58f8eaa52d71e9ba9fd232ba679190227e1f0b",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b72_costura_viaria_continua.blend",
+    "evidence": "docs/reports/blender/terrain_tangent_r30b73.json",
+    "notes": "Tangente local na costura da encosta; mesmas vias/XY e extremos; adaptação 8m não levantada, cidade permanece parcial.",
+    "source_reopened": true,
+    "validation_evidence": "docs/reports/blender/terrain_tangent_r30b73_validation.json",
+    "local_geometry_checks_passed": true
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b74_expansao_lapa_tororo_fonte_nova.blend",
+    "sha256": "1b4c16b9831a38bff93e3fb9c03c87bdfaf3e48f5a00cf03e0945b7f6d9b220a",
+    "revision": "R30B.74"
+  },
+  "derivation": "docs/reports/blender/centro-expansion/candidate_derivation.json",
+  "terrain_object": "B74 | TERRENO | Lapa Tororo Fonte Nova | candidato",
+  "terrain_vertices": 92609,
+  "terrain_triangles": 181899,
+  "reference_traces": 7952,
+  "target_objects": [
+    "B74 | center-lapa | referencia",
+    "B74 | arena-fonte-nova | referencia",
+    "B74 | dique-do-tororo | referencia"
+  ],
+  "preservation_signatures": {
+    "MVP | terreno corrigido | colisão estática": {
+      "geometry_sha256": "5cb3a4c52d80a699034b236142c67c0d0ab8a57c2bd501cd72409a716db2530b",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.2965762615203857
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.7371039390563965
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -3.5643310546875
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.30000001192092896,
+            1.0
+          ],
+          "base": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.30000001192092896,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.6800000071525574,
+            0.6399999856948853,
+            0.550000011920929,
+            1.0
+          ],
+          "base": [
+            0.6800000071525574,
+            0.6399999856948853,
+            0.550000011920929,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.12999999523162842,
+            0.14000000059604645,
+            0.15000000596046448,
+            1.0
+          ],
+          "base": [
+            0.12999999523162842,
+            0.14000000059604645,
+            0.15000000596046448,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.6000000238418579,
+            0.5699999928474426,
+            0.49000000953674316,
+            1.0
+          ],
+          "base": [
+            0.6000000238418579,
+            0.5699999928474426,
+            0.49000000953674316,
+            1.0
+          ],
+          "roughness": 0.8500000238418579,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.5199999809265137,
+            0.49000000953674316,
+            0.4300000071525574,
+            1.0
+          ],
+          "base": [
+            0.5199999809265137,
+            0.49000000953674316,
+            0.4300000071525574,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.3100000023841858,
+            0.28999999165534973,
+            0.2549999952316284,
+            1.0
+          ],
+          "base": [
+            0.3100000023841858,
+            0.28999999165534973,
+            0.2549999952316284,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.3799999952316284,
+            0.3700000047683716,
+            0.33000001311302185,
+            1.0
+          ],
+          "base": [
+            0.3799999952316284,
+            0.3700000047683716,
+            0.33000001311302185,
+            1.0
+          ],
+          "roughness": 0.949999988079071,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.6200000047683716,
+            0.6000000238418579,
+            0.5299999713897705,
+            1.0
+          ],
+          "base": [
+            0.6200000047683716,
+            0.6000000238418579,
+            0.5299999713897705,
+            1.0
+          ],
+          "roughness": 0.7200000286102295,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.3199999928474426,
+            0.3100000023841858,
+            0.27000001072883606,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.9200000166893005,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.17000000178813934,
+            0.23000000417232513,
+            0.09000000357627869,
+            1.0
+          ],
+          "base": [
+            0.17000000178813934,
+            0.23000000417232513,
+            0.09000000357627869,
+            1.0
+          ],
+          "roughness": 0.8799999952316284,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 525121,
+      "polygons": 1030750
+    },
+    "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa": {
+      "geometry_sha256": "de1e88544be94e6691da09e73d6a52ef5dc200e9437a49a8cf6f1594bb0002c1",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.30000001192092896,
+            1.0
+          ],
+          "base": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.30000001192092896,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.3199999928474426,
+            0.30000001192092896,
+            0.23999999463558197,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.5,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.3199999928474426,
+            0.3100000023841858,
+            0.27000001072883606,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.9200000166893005,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.12999999523162842,
+            0.14000000059604645,
+            0.15000000596046448,
+            1.0
+          ],
+          "base": [
+            0.12999999523162842,
+            0.14000000059604645,
+            0.15000000596046448,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.3100000023841858,
+            0.28999999165534973,
+            0.2549999952316284,
+            1.0
+          ],
+          "base": [
+            0.3100000023841858,
+            0.28999999165534973,
+            0.2549999952316284,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        },
+        {
+          "diffuse": [
+            0.6800000071525574,
+            0.6399999856948853,
+            0.550000011920929,
+            1.0
+          ],
+          "base": [
+            0.6800000071525574,
+            0.6399999856948853,
+            0.550000011920929,
+            1.0
+          ],
+          "roughness": 0.8999999761581421,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 150480,
+      "polygons": 149188
+    },
+    "BAÍA DE TODOS-OS-SANTOS | superfície e recorte costeiro": {
+      "geometry_sha256": "efa0c69bbacfb617da5e1440747a7ca2d284007b5113dca645264043dc2e8156",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.009999999776482582,
+            0.10999999940395355,
+            0.15000000596046448,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.1599999964237213,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 123,
+      "polygons": 120
+    },
+    "CAIS | contenção costeira alinhada à linha de costa": {
+      "geometry_sha256": "d2e9e4cb1fb5aa61c22e39e7f03d62fb6d1ee8286da7d8ea5c7a6d90e61bc940",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.38999998569488525,
+            0.3700000047683716,
+            0.3199999928474426,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.5,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 2602,
+      "polygons": 1271
+    },
+    "PIER OSM | 1321682676 | eixo sem largura": {
+      "geometry_sha256": "6fc747806c72ca4ee5cdbbb17393560b1c069d4a6d81e0d9fb1d9533eafc77cf",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.75,
+            0.550000011920929,
+            0.15000000596046448,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.5,
+          "metallic": 0.0
+        }
+      ],
+      "type": "CURVE",
+      "vertices": null,
+      "polygons": null
+    },
+    "PIER OSM | 1321682677 | eixo sem largura": {
+      "geometry_sha256": "c582f6c9d798e7a087419c37784d93a56dedd92ec4cbaa24a9df871c5f8f6626",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.75,
+            0.550000011920929,
+            0.15000000596046448,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.5,
+          "metallic": 0.0
+        }
+      ],
+      "type": "CURVE",
+      "vertices": null,
+      "polygons": null
+    },
+    "PIER OSM | 1426173139 | footprint real": {
+      "geometry_sha256": "d1ca18530d4d7d663ca47fe24b0a67cd3be41efea8bd5f3cb1fd152c85b9327f",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.33000001311302185,
+            0.36000001430511475,
+            0.3799999952316284,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.5,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 5,
+      "polygons": 1
+    },
+    "PIER OSM | 1426173140 | footprint real": {
+      "geometry_sha256": "0ae864b8a2ce595522444e5da7374e55a1551c872f365145ec69657258b3b8b2",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "diffuse": [
+            0.33000001311302185,
+            0.36000001430511475,
+            0.3799999952316284,
+            1.0
+          ],
+          "base": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.5,
+          "metallic": 0.0
+        }
+      ],
+      "type": "MESH",
+      "vertices": 7,
+      "polygons": 1
+    }
+  },
+  "protected_changes": [],
+  "existing_objects_removed": false,
+  "qa": {
+    "schema": "boas/rondesp-centro-b74-reference-probe-v1",
+    "vehicle": {
+      "file": "blender/assets/vehicles/rondesp-pickup/marrom_v25_lanternas_re.blend",
+      "scene": "VIATURA | Rondesp Hilux lanternas e re v25",
+      "sha256": "222c780b735275cebcd0c2e1a68260a898bb78ca3605798b4cff05f07f6f3937",
+      "authoring_mode": "assembled_demo_review",
+      "export_ready": false
+    },
+    "contacts_asset_local": [
+      [
+        -0.7950000166893005,
+        1.6549999713897705,
+        0.0021499991416931152
+      ],
+      [
+        0.7950000166893005,
+        1.6549999713897705,
+        0.0021499991416931152
+      ],
+      [
+        -0.7950000166893005,
+        -1.4299999475479126,
+        0.0021499991416931152
+      ],
+      [
+        0.7950000166893005,
+        -1.4299999475479126,
+        0.0021499991416931152
+      ]
+    ],
+    "routes": [
+      {
+        "location_id": "center-lapa",
+        "start": 1000,
+        "end": 19420,
+        "sampled_poses": 3071,
+        "widths_verified": false,
+        "direct_target_access_verified": false,
+        "closest_target_distance_blender_units": 12.91932673197479,
+        "approval": "pending_pavement_width_obstacles_physics"
+      },
+      {
+        "location_id": "arena-fonte-nova",
+        "start": 19666,
+        "end": 32440,
+        "sampled_poses": 2130,
+        "widths_verified": false,
+        "direct_target_access_verified": false,
+        "closest_target_distance_blender_units": 0.0,
+        "approval": "pending_pavement_width_obstacles_physics"
+      },
+      {
+        "location_id": "dique-do-tororo",
+        "start": 32686,
+        "end": 62512,
+        "sampled_poses": 4972,
+        "widths_verified": false,
+        "direct_target_access_verified": false,
+        "closest_target_distance_blender_units": 10.359153481344743,
+        "approval": "pending_pavement_width_obstacles_physics"
+      }
+    ],
+    "sampled_stations": 10173,
+    "wheel_rays": 40692,
+    "issues": 106,
+    "max_wheel_plane_residual_m": 0.07652282714845171,
+    "max_grade_candidate": 0.41613463965079095,
+    "dynamic_physics_tested": false,
+    "pavement_widths_verified": false,
+    "obstacle_sweep_done": false,
+    "driver_camera": "QA | RONDESP | motorista expansao B74",
+    "overview_frame": 31978,
+    "production_ready": false,
+    "method": "Apoios verticais sobre terreno original e candidato; eixos OSM não equivalem a pavimento/faixas."
+  },
+  "source_reopened": true,
+  "production_ready": false,
+  "roads_final_built": false,
+  "runtime_exported": false,
+  "validation_evidence": "docs/reports/blender/centro-expansion/validation_b74.json",
+  "visual_review_status": "complete_images_partial_world"
+}

@@ -1,0 +1,8 @@
+{
+  "source": "MVP | terreno corrigido | colisão estática",
+  "new_cut_boundary_edges": 58,
+  "suspect_crack_edges": [],
+  "status": "CUT_BOUNDARY_ONLY_NO_NEW_SEAM_CRACK",
+  "method": "Arestas de um único uso contendo vértice novo; limite do núcleo é abertura intencional, demais bordas são suspeitas",
+  "scene_changed": false
+}

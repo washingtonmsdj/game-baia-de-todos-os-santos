@@ -1,0 +1,1084 @@
+{
+  "schema": "boas/lacerda-gameplay-proxy-v1",
+  "status": "GAMEPLAY_PROXY",
+  "accuracy": "APPROXIMATE",
+  "replacement_required": true,
+  "production_ready": false,
+  "historical_gate": "docs/LACERDA_CORRIDOR_B80.md",
+  "guide_gate": "docs/LACERDA_LOWER_GUIDE_VISUAL_EVIDENCE_2026-10-06.md",
+  "geographic_ssot": "world/geographic-reference.json",
+  "geographic_ssot_sha256": "1d9da0962d456cb38ed3df0da797208e499a8465f82e9836c14bb337df2385e7",
+  "source_file": "blender/salvador_lacerda_r30b81_cairu_colisao_e_rota_parcial.blend",
+  "scene_file": "blender/salvador_lacerda_r30b82_gameplay_proxy.blend",
+  "scene_name": "BOAS | GAMEPLAY_PROXY B82",
+  "local_frame": {
+    "origin_xy": [
+      -48.321311950683594,
+      48.90056800842285
+    ],
+    "angle": -0.7536059503636807,
+    "source": "B81: centro malha piso cabine 3 e orientação piso inferior; frame derivado, não outro SSOT"
+  },
+  "levels": {
+    "upper": 70.11499786376953,
+    "lower": 7.405999660491943
+  },
+  "cabin": {
+    "length": 3.4,
+    "width": 2.6,
+    "height": 2.7,
+    "door_width": 1.6
+  },
+  "spawn": [
+    88.0,
+    4.77055194,
+    70.11499786376953
+  ],
+  "upper_route": [
+    [
+      88.0,
+      4.77055194
+    ],
+    [
+      83.0,
+      4.77055194
+    ],
+    [
+      78.0,
+      4.77055194
+    ],
+    [
+      70.0,
+      0.0
+    ],
+    [
+      63.0,
+      0.0
+    ],
+    [
+      2.5,
+      0.0
+    ]
+  ],
+  "lower_route": [
+    [
+      -3.0,
+      0.0
+    ],
+    [
+      -3.0,
+      4.692851078449858
+    ],
+    [
+      -2.68119558243153,
+      4.692851078449858,
+      7.405999660491943
+    ],
+    [
+      -18.17229334959282,
+      5.32246904512694,
+      7.405999660491943
+    ],
+    [
+      -23.687188191034444,
+      4.985724070347771,
+      7.2556686407327655
+    ],
+    [
+      -23.230005903089058,
+      12.85480843051795,
+      7.2556686407327655
+    ],
+    [
+      -34.12407267670324,
+      13.568832358838913,
+      7.2556686407327655
+    ],
+    [
+      -43.20403976927662,
+      14.083913804141984,
+      7.255668640732765
+    ],
+    [
+      -69.33086893763439,
+      14.014297508040542,
+      7.2556686407327655
+    ]
+  ],
+  "floors": [
+    {
+      "id": "upper_walkway",
+      "center": [
+        33.0,
+        0.0,
+        70.11499786376953
+      ],
+      "size": [
+        63.0,
+        6.0
+      ],
+      "angle": 0.0,
+      "slope": 0.0,
+      "source": "CALIBRADO | passarela piso 28.71 x 6.00m"
+    },
+    {
+      "id": "upper_lobby",
+      "center": [
+        74.0,
+        0.0,
+        70.11499786376953
+      ],
+      "size": [
+        20.0,
+        18.0
+      ],
+      "angle": 0.0,
+      "slope": 0.0,
+      "source": "SUPERIOR | piso saguão"
+    },
+    {
+      "id": "tome_forecourt",
+      "center": [
+        88.0,
+        4.77055194,
+        70.11499786376953
+      ],
+      "size": [
+        8.0,
+        4.0
+      ],
+      "angle": 0.0,
+      "slope": 0.0,
+      "source": null
+    },
+    {
+      "id": "lower_lobby",
+      "center": [
+        -7.95,
+        1.5,
+        7.405999660491943
+      ],
+      "size": [
+        12.5,
+        14.0
+      ],
+      "angle": 0.0,
+      "slope": 0.0,
+      "source": "INFERIOR | piso do saguão"
+    },
+    {
+      "id": "osm_path_0",
+      "center": [
+        -10.426744466012176,
+        5.0076600617884,
+        7.405999660491943
+      ],
+      "size": [
+        16.503887538798523,
+        3.0
+      ],
+      "angle": 3.100971154335056,
+      "slope": 0.0,
+      "source": "OSM nodes 736745764/3178050253"
+    },
+    {
+      "id": "osm_path_1",
+      "center": [
+        -20.929740770313632,
+        5.154096557737356,
+        7.330834150612354
+      ],
+      "size": [
+        6.525166268104377,
+        3.0
+      ],
+      "angle": -3.0806073752730874,
+      "slope": -0.027208415541629435,
+      "source": "OSM nodes 3178050253/3986605269"
+    },
+    {
+      "id": "osm_path_2",
+      "center": [
+        -23.45859704706175,
+        8.92026625043286,
+        7.2556686407327655
+      ],
+      "size": [
+        8.882353982909287,
+        3.0
+      ],
+      "angle": 1.5127630272135524,
+      "slope": 0.0,
+      "source": "OSM nodes 3986605269/3986605270"
+    },
+    {
+      "id": "osm_path_3",
+      "center": [
+        -28.67703928989615,
+        13.211820394678432,
+        7.2556686407327655
+      ],
+      "size": [
+        11.917441139670938,
+        3.0
+      ],
+      "angle": 3.0761438058444353,
+      "slope": 0.0,
+      "source": "OSM nodes 3986605270/5917201014"
+    },
+    {
+      "id": "osm_path_4",
+      "center": [
+        -38.66405622298993,
+        13.826373081490448,
+        7.255668640732765
+      ],
+      "size": [
+        10.094564931733178,
+        3.0
+      ],
+      "angle": 3.084926148389717,
+      "slope": -9.766035278950529e-17,
+      "source": "OSM nodes 5917201014/592378620"
+    },
+    {
+      "id": "osm_path_5",
+      "center": [
+        -56.267454353455506,
+        14.049105656091264,
+        7.255668640732765
+      ],
+      "size": [
+        27.126921916315236,
+        3.0
+      ],
+      "angle": -3.1389281078502873,
+      "slope": 3.399475921981811e-17,
+      "source": "OSM nodes 592378620/13078289038"
+    },
+    {
+      "id": "osm_joint_0",
+      "center": [
+        -2.68119558243153,
+        4.692851078449858,
+        7.405999660491943
+      ],
+      "size": [
+        3.0,
+        3.0
+      ],
+      "angle": 0.0,
+      "slope": 0.0,
+      "source": null
+    },
+    {
+      "id": "osm_joint_1",
+      "center": [
+        -18.17229334959282,
+        5.32246904512694,
+        7.405999660491943
+      ],
+      "size": [
+        3.0,
+        3.0
+      ],
+      "angle": 0.0,
+      "slope": 0.0,
+      "source": null
+    },
+    {
+      "id": "osm_joint_2",
+      "center": [
+        -23.687188191034444,
+        4.985724070347771,
+        7.2556686407327655
+      ],
+      "size": [
+        3.0,
+        3.0
+      ],
+      "angle": 0.0,
+      "slope": 0.0,
+      "source": null
+    },
+    {
+      "id": "osm_joint_3",
+      "center": [
+        -23.230005903089058,
+        12.85480843051795,
+        7.2556686407327655
+      ],
+      "size": [
+        3.0,
+        3.0
+      ],
+      "angle": 0.0,
+      "slope": 0.0,
+      "source": null
+    },
+    {
+      "id": "osm_joint_4",
+      "center": [
+        -34.12407267670324,
+        13.568832358838913,
+        7.2556686407327655
+      ],
+      "size": [
+        3.0,
+        3.0
+      ],
+      "angle": 0.0,
+      "slope": 0.0,
+      "source": null
+    },
+    {
+      "id": "osm_joint_5",
+      "center": [
+        -43.20403976927662,
+        14.083913804141984,
+        7.255668640732765
+      ],
+      "size": [
+        3.0,
+        3.0
+      ],
+      "angle": 0.0,
+      "slope": 0.0,
+      "source": null
+    },
+    {
+      "id": "osm_joint_6",
+      "center": [
+        -69.33086893763439,
+        14.014297508040542,
+        7.2556686407327655
+      ],
+      "size": [
+        3.0,
+        3.0
+      ],
+      "angle": 0.0,
+      "slope": 0.0,
+      "source": null
+    }
+  ],
+  "obstacles": [
+    {
+      "id": "path_guard_0_-1",
+      "center": [
+        -10.362986250196348,
+        6.576364906530069,
+        7.955999660491943
+      ],
+      "size": [
+        12.503887538798523,
+        0.12,
+        1.1
+      ],
+      "angle": 3.100971154335056,
+      "source": null
+    },
+    {
+      "id": "path_guard_0_1",
+      "center": [
+        -10.490502681828003,
+        3.4389552170467312,
+        7.955999660491943
+      ],
+      "size": [
+        12.503887538798523,
+        0.12,
+        1.1
+      ],
+      "angle": 3.100971154335056,
+      "source": null
+    },
+    {
+      "id": "path_guard_1_-1",
+      "center": [
+        -21.025428317936463,
+        6.721177887225372,
+        7.880834150612354
+      ],
+      "size": [
+        2.5251662681043774,
+        0.12,
+        1.1
+      ],
+      "angle": -3.0806073752730874,
+      "source": null
+    },
+    {
+      "id": "path_guard_1_1",
+      "center": [
+        -20.8340532226908,
+        3.5870152282493395,
+        7.880834150612354
+      ],
+      "size": [
+        2.5251662681043774,
+        0.12,
+        1.1
+      ],
+      "angle": -3.0806073752730874,
+      "source": null
+    },
+    {
+      "id": "path_guard_2_-1",
+      "center": [
+        -21.89124007828638,
+        8.829205103771525,
+        7.805668640732765
+      ],
+      "size": [
+        4.882353982909287,
+        0.12,
+        1.1
+      ],
+      "angle": 1.5127630272135524,
+      "source": null
+    },
+    {
+      "id": "path_guard_2_1",
+      "center": [
+        -25.025954015837122,
+        9.011327397094195,
+        7.805668640732765
+      ],
+      "size": [
+        4.882353982909287,
+        0.12,
+        1.1
+      ],
+      "angle": 1.5127630272135524,
+      "source": null
+    },
+    {
+      "id": "path_guard_3_-1",
+      "center": [
+        -28.574357942397015,
+        14.778459006763478,
+        7.805668640732765
+      ],
+      "size": [
+        7.917441139670938,
+        0.12,
+        1.1
+      ],
+      "angle": 3.0761438058444353,
+      "source": null
+    },
+    {
+      "id": "path_guard_3_1",
+      "center": [
+        -28.779720637395286,
+        11.645181782593385,
+        7.805668640732765
+      ],
+      "size": [
+        7.917441139670938,
+        0.12,
+        1.1
+      ],
+      "angle": 3.0761438058444353,
+      "source": null
+    },
+    {
+      "id": "path_guard_4_-1",
+      "center": [
+        -38.57513741541683,
+        15.393853048080063,
+        7.8056686407327645
+      ],
+      "size": [
+        6.094564931733178,
+        0.12,
+        1.1
+      ],
+      "angle": 3.084926148389717,
+      "source": null
+    },
+    {
+      "id": "path_guard_4_1",
+      "center": [
+        -38.75297503056302,
+        12.258893114900834,
+        7.8056686407327645
+      ],
+      "size": [
+        6.094564931733178,
+        0.12,
+        1.1
+      ],
+      "angle": 3.084926148389717,
+      "source": null
+    },
+    {
+      "id": "path_guard_5_-1",
+      "center": [
+        -56.271637685316385,
+        15.619100082748423,
+        7.8056686407327645
+      ],
+      "size": [
+        23.126921916315236,
+        0.12,
+        1.1
+      ],
+      "angle": -3.1389281078502873,
+      "source": null
+    },
+    {
+      "id": "path_guard_5_1",
+      "center": [
+        -56.263271021594626,
+        12.479111229434105,
+        7.8056686407327645
+      ],
+      "size": [
+        23.126921916315236,
+        0.12,
+        1.1
+      ],
+      "angle": -3.1389281078502873,
+      "source": null
+    },
+    {
+      "id": "upper_guard_-1",
+      "center": [
+        33,
+        -3.06,
+        70.66499786376953
+      ],
+      "size": [
+        63,
+        0.12,
+        1.1
+      ],
+      "angle": 0.0,
+      "source": null
+    },
+    {
+      "id": "upper_guard_1",
+      "center": [
+        33,
+        3.06,
+        70.66499786376953
+      ],
+      "size": [
+        63,
+        0.12,
+        1.1
+      ],
+      "angle": 0.0,
+      "source": null
+    },
+    {
+      "id": "upper_lobby_side_-1",
+      "center": [
+        74,
+        -9.06,
+        71.46499786376953
+      ],
+      "size": [
+        20,
+        0.12,
+        2.7
+      ],
+      "angle": 0.0,
+      "source": null
+    },
+    {
+      "id": "upper_lobby_side_1",
+      "center": [
+        74,
+        9.06,
+        71.46499786376953
+      ],
+      "size": [
+        20,
+        0.12,
+        2.7
+      ],
+      "angle": 0.0,
+      "source": null
+    },
+    {
+      "id": "upper_entry_wall_-9.0",
+      "center": [
+        84.06,
+        -2.71472403,
+        71.46499786376953
+      ],
+      "size": [
+        0.12,
+        12.57055194,
+        2.7
+      ],
+      "angle": 0.0,
+      "source": null
+    },
+    {
+      "id": "upper_entry_wall_5.97055194",
+      "center": [
+        84.06,
+        7.48527597,
+        71.46499786376953
+      ],
+      "size": [
+        0.12,
+        3.02944806,
+        2.7
+      ],
+      "angle": 0.0,
+      "source": null
+    },
+    {
+      "id": "upper_lobby_back",
+      "center": [
+        64.0,
+        -6.0,
+        71.46499786376953
+      ],
+      "size": [
+        0.12,
+        6.0,
+        2.7
+      ],
+      "angle": 0.0,
+      "source": null
+    },
+    {
+      "id": "upper_lobby_back2",
+      "center": [
+        64.0,
+        6.0,
+        71.46499786376953
+      ],
+      "size": [
+        0.12,
+        6.0,
+        2.7
+      ],
+      "angle": 0.0,
+      "source": null
+    },
+    {
+      "id": "forecourt_guard_-1",
+      "center": [
+        88,
+        2.7105519399999998,
+        70.66499786376953
+      ],
+      "size": [
+        8,
+        0.12,
+        1.1
+      ],
+      "angle": 0.0,
+      "source": null
+    },
+    {
+      "id": "forecourt_guard_1",
+      "center": [
+        88,
+        6.830551939999999,
+        70.66499786376953
+      ],
+      "size": [
+        8,
+        0.12,
+        1.1
+      ],
+      "angle": 0.0,
+      "source": null
+    },
+    {
+      "id": "forecourt_end",
+      "center": [
+        92.06,
+        4.77055194,
+        70.66499786376953
+      ],
+      "size": [
+        0.12,
+        4.0,
+        1.1
+      ],
+      "angle": 0.0,
+      "source": null
+    },
+    {
+      "id": "queue_proxy_1",
+      "center": [
+        -10.0,
+        -1.65,
+        7.955999660491943
+      ],
+      "size": [
+        4.0,
+        0.08,
+        1.1
+      ],
+      "angle": 0.0,
+      "source": "INFERIOR | guia de fila"
+    },
+    {
+      "id": "queue_proxy_2",
+      "center": [
+        -10.0,
+        2.0,
+        7.955999660491943
+      ],
+      "size": [
+        4.0,
+        0.08,
+        1.1
+      ],
+      "angle": 0.0,
+      "source": "INFERIOR | guia de fila.001"
+    },
+    {
+      "id": "ticket_island_proxy",
+      "center": [
+        -6.5,
+        0,
+        8.055999660491944
+      ],
+      "size": [
+        2.2,
+        2.0,
+        1.3
+      ],
+      "angle": 0.0,
+      "source": "Foto Commons 20250721125707; aproximação de gameplay"
+    },
+    {
+      "id": "lower_lobby_side_-1",
+      "center": [
+        -7.95,
+        -5.56,
+        8.755999660491943
+      ],
+      "size": [
+        12.5,
+        0.12,
+        2.7
+      ],
+      "angle": 0.0,
+      "source": null
+    },
+    {
+      "id": "lower_lobby_side_1",
+      "center": [
+        -7.95,
+        8.559999999999999,
+        8.755999660491943
+      ],
+      "size": [
+        12.5,
+        0.12,
+        2.7
+      ],
+      "angle": 0.0,
+      "source": null
+    },
+    {
+      "id": "lower_exit_wall_-5.5",
+      "center": [
+        -14.26,
+        -0.9694901394135951,
+        8.755999660491943
+      ],
+      "size": [
+        0.12,
+        9.06101972117281,
+        2.7
+      ],
+      "angle": 0.0,
+      "source": null
+    },
+    {
+      "id": "lower_exit_wall_6.76101972117281",
+      "center": [
+        -14.26,
+        7.630509860586405,
+        8.755999660491943
+      ],
+      "size": [
+        0.12,
+        1.7389802788271904,
+        2.7
+      ],
+      "angle": 0.0,
+      "source": null
+    },
+    {
+      "id": "shaft_side_-1",
+      "center": [
+        0,
+        -1.62,
+        40.160498762130736
+      ],
+      "size": [
+        3.8,
+        0.2,
+        65.70899820327759
+      ],
+      "angle": 0.0,
+      "source": null
+    },
+    {
+      "id": "shaft_side_1",
+      "center": [
+        0,
+        1.62,
+        40.160498762130736
+      ],
+      "size": [
+        3.8,
+        0.2,
+        65.70899820327759
+      ],
+      "angle": 0.0,
+      "source": null
+    },
+    {
+      "id": "portal_jamb_upper_-1.18",
+      "center": [
+        1.82,
+        -1.18,
+        71.46499786376953
+      ],
+      "size": [
+        0.24,
+        0.76,
+        2.7
+      ],
+      "angle": 0.0,
+      "source": null
+    },
+    {
+      "id": "portal_jamb_upper_1.18",
+      "center": [
+        1.82,
+        1.18,
+        71.46499786376953
+      ],
+      "size": [
+        0.24,
+        0.76,
+        2.7
+      ],
+      "angle": 0.0,
+      "source": null
+    },
+    {
+      "id": "shaft_end_upper_7.1059996604919435",
+      "center": [
+        1.9,
+        0,
+        38.61049876213074
+      ],
+      "size": [
+        0.2,
+        3.4,
+        63.008998203277585
+      ],
+      "angle": 0.0,
+      "source": null
+    },
+    {
+      "id": "shaft_end_upper_72.61499786376953",
+      "center": [
+        1.9,
+        0,
+        72.86499786376953
+      ],
+      "size": [
+        0.2,
+        3.4,
+        0.5
+      ],
+      "angle": 0.0,
+      "source": null
+    },
+    {
+      "id": "portal_jamb_lower_-1.18",
+      "center": [
+        -1.82,
+        -1.18,
+        8.755999660491943
+      ],
+      "size": [
+        0.24,
+        0.76,
+        2.7
+      ],
+      "angle": 0.0,
+      "source": null
+    },
+    {
+      "id": "portal_jamb_lower_1.18",
+      "center": [
+        -1.82,
+        1.18,
+        8.755999660491943
+      ],
+      "size": [
+        0.24,
+        0.76,
+        2.7
+      ],
+      "angle": 0.0,
+      "source": null
+    },
+    {
+      "id": "shaft_end_lower_7.1059996604919435",
+      "center": [
+        -1.9,
+        0,
+        7.255999660491943
+      ],
+      "size": [
+        0.2,
+        3.4,
+        0.2999999999999998
+      ],
+      "angle": 0.0,
+      "source": null
+    },
+    {
+      "id": "shaft_end_lower_9.905999660491943",
+      "center": [
+        -1.9,
+        0,
+        41.51049876213074
+      ],
+      "size": [
+        0.2,
+        3.4,
+        63.20899820327759
+      ],
+      "angle": 0.0,
+      "source": null
+    }
+  ],
+  "osm_control_nodes": [
+    {
+      "id": 736745764,
+      "wgs84": [
+        -12.9740528,
+        -38.5133708
+      ],
+      "blender_xy": [
+        -47.0653197709471,
+        54.15738687920384
+      ],
+      "tags": {}
+    },
+    {
+      "id": 3178050253,
+      "wgs84": [
+        -12.9739531,
+        -38.5134715
+      ],
+      "blender_xy": [
+        -57.93100311374292,
+        65.21665694145486
+      ],
+      "tags": {
+        "crossing": "uncontrolled",
+        "highway": "crossing"
+      }
+    },
+    {
+      "id": 3986605269,
+      "wgs84": [
+        -12.9739213,
+        -38.5135109
+      ],
+      "blender_xy": [
+        -62.183034122921526,
+        68.74478599056602
+      ],
+      "tags": {}
+    },
+    {
+      "id": 3986605270,
+      "wgs84": [
+        -12.9738723,
+        -38.513458
+      ],
+      "blender_xy": [
+        -56.465044792275876,
+        74.17029078979976
+      ],
+      "tags": {}
+    },
+    {
+      "id": 5917201014,
+      "wgs84": [
+        -12.9738004,
+        -38.5135271
+      ],
+      "blender_xy": [
+        -63.92069616867229,
+        82.14548881817609
+      ],
+      "tags": {
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "traffic_signals": "signal"
+      }
+    },
+    {
+      "id": 592378620,
+      "wgs84": [
+        -12.973741,
+        -38.5135852
+      ],
+      "blender_xy": [
+        -70.1895895190537,
+        88.73427379410714
+      ],
+      "tags": {
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "traffic_signals": "signal"
+      }
+    },
+    {
+      "id": 13078289038,
+      "wgs84": [
+        -12.9735803,
+        -38.5137622
+      ],
+      "blender_xy": [
+        -89.28959340415895,
+        106.56138518126681
+      ],
+      "tags": {}
+    }
+  ],
+  "topology_source": "docs/reports/blender/cairu-market-b81/route_candidate.json",
+  "proxy_traffic_policy": "EXCLUSIVE_PEDESTRIAN_PROTOTYPE_NO_MOVING_TRAFFIC",
+  "historical_traffic_permission": null,
+  "historical_movement_enabled": false,
+  "gameplay_movement_enabled": true,
+  "notes": [
+    "Larguras, cabine, posição das guias, conector interno e soleiras são adaptações provisórias, não medidas reais.",
+    "Níveis locais preservados; sem corrigir divergência vertical histórica.",
+    "Via isolada para pedestres neste protótipo; não representa sinal verde real.",
+    "Sem referência temporária usada como textura; geometria substituível."
+  ],
+  "presentation": {
+    "model_review_scene": "SALVADOR | ESBOCO OFICIAL",
+    "keep_context_visible": [
+      "MVP | terreno corrigido | colisão estática",
+      "B74 | TERRENO | Lapa Tororo Fonte Nova | candidato"
+    ],
+    "reason": "Malhas integrais de terreno não podem ser ocultadas por overlap AABB local com o percurso proxy. Exceção de apresentação; não altera colisão nem certifica gameplay.",
+    "evidence": "docs/reports/blender/lacerda-live-diagnostic/ground_visibility_patch.json"
+  }
+}

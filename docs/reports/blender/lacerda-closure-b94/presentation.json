@@ -1,0 +1,12 @@
+{
+  "file": "blender/salvador_lacerda_r30b94_fechamentos_passarela_tunel.blend",
+  "scene": "SALVADOR | ESBOCO OFICIAL",
+  "local_view": false,
+  "terrain_visible": true,
+  "unsaved_changes": false,
+  "snapshots": [
+    "artifacts/lacerda-live-diagnostic/b94-upper-junction.png",
+    "artifacts/lacerda-live-diagnostic/b94-tunnel-junction.png",
+    "artifacts/lacerda-live-diagnostic/b94-map.png"
+  ]
+}

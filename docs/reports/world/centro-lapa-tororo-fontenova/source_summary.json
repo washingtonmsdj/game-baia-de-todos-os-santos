@@ -1,0 +1,433 @@
+{
+  "schema": "boas/explicit-osm-mapzen-capture-v1",
+  "area_id": "centro-lapa-tororo-fontenova",
+  "capture_id": "osm-mapzen-20261005T045222Z",
+  "acquired_at_utc": "2026-10-05T04:53:08.598558+00:00",
+  "requested_bounds_wgs84": {
+    "south": -12.995,
+    "west": -38.519,
+    "north": -12.966,
+    "east": -38.492
+  },
+  "osm": {
+    "provider": "OpenStreetMap contributors / Map API",
+    "endpoint": "https://api.openstreetmap.org/api/0.6/map",
+    "query": "Quatro janelas Map API; relações de fora da área podem ser parciais",
+    "license": "ODbL-1.0",
+    "license_url": "https://www.openstreetmap.org/copyright",
+    "sha256": "1a9f7f634d83f76fc82582eeacbb9943cfa88b7448ff407f143ccf665f5c7dad",
+    "bytes": 21264582,
+    "nodes": 76052,
+    "ways": 17544,
+    "relations": 101,
+    "fallback_failures": [],
+    "composition_parts": [
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-38.519,-12.995,-38.5055,-12.9805",
+        "sha256": "3e2b68fbf4fa900e19ef3bd82dec596d2819ee3136081c700140fb1a22e8cbc8",
+        "file": "map-part-0.osm"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-38.519,-12.9805,-38.5055,-12.966",
+        "sha256": "7a851871ab21700ae926f521e9d36293b8cec2fc4181dd2aef6ae3d2957e5e88",
+        "file": "map-part-1.osm"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-38.5055,-12.995,-38.492,-12.9805",
+        "sha256": "4633713c1104b12ec82dbcfd16e17109a3b50cf16acbf0b3747e2c6aeb4e5d8a",
+        "file": "map-part-2.osm"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-38.5055,-12.9805,-38.492,-12.966",
+        "sha256": "5aedc22ed9576bf85d42dd515f62bb6c725c0dce0fcb11dde847baf28bb92f68",
+        "file": "map-part-3.osm"
+      }
+    ],
+    "relations_may_be_partial": true
+  },
+  "terrain": {
+    "provider": "Mapzen Terrain Tiles / AWS Open Data",
+    "source_registry": "https://registry.opendata.aws/terrain-tiles/",
+    "attribution": "https://github.com/tilezen/joerd/blob/master/docs/attribution.md",
+    "encoding": "Terrarium PNG",
+    "zoom": 14,
+    "crs": "EPSG:3857",
+    "pixel_size_projected_m": 9.554628535647032,
+    "vertical_datum_verified": false,
+    "native_source_resolution_verified": false,
+    "minimum_m": -1895.4453125,
+    "maximum_m": 105.296875,
+    "tiles": [
+      {
+        "x": 6438,
+        "y": 8787,
+        "z": 14,
+        "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/14/6438/8787.png",
+        "file": "terrain-14-6438-8787.png",
+        "sha256": "41e2dc477c76802a17f6eb6c17be191129d0744db7e63f06409c7e2ab4a52c76",
+        "imagery_sources": null
+      },
+      {
+        "x": 6439,
+        "y": 8787,
+        "z": 14,
+        "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/14/6439/8787.png",
+        "file": "terrain-14-6439-8787.png",
+        "sha256": "8893a6588d96de49a761ffee856bd9a831c4f360d6e6feaeabd73b22b4afd88c",
+        "imagery_sources": null
+      },
+      {
+        "x": 6440,
+        "y": 8787,
+        "z": 14,
+        "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/14/6440/8787.png",
+        "file": "terrain-14-6440-8787.png",
+        "sha256": "fdd80bf30ffe59461f0c78ca251b88147b95074320209819c096c93dd6c7b5a0",
+        "imagery_sources": null
+      },
+      {
+        "x": 6438,
+        "y": 8788,
+        "z": 14,
+        "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/14/6438/8788.png",
+        "file": "terrain-14-6438-8788.png",
+        "sha256": "25b3b61b7e1450eb17c95147cac35cae5749dccdc05bd48b6aacdcda551b94fd",
+        "imagery_sources": null
+      },
+      {
+        "x": 6439,
+        "y": 8788,
+        "z": 14,
+        "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/14/6439/8788.png",
+        "file": "terrain-14-6439-8788.png",
+        "sha256": "4fc5b3b48ccff9d84226c0f9829231752480ecbdb13fe30b54bf7f2a9f5212b6",
+        "imagery_sources": null
+      },
+      {
+        "x": 6440,
+        "y": 8788,
+        "z": 14,
+        "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/14/6440/8788.png",
+        "file": "terrain-14-6440-8788.png",
+        "sha256": "f6a69d9b48a9d10773f6396e3e42ffa667feb281315831a69c01859f522b272e",
+        "imagery_sources": null
+      }
+    ],
+    "derived_geotiff": {
+      "file": "terrain.tif",
+      "sha256": "bf00deb1f1a9cdd04811e227eab9f6db63da2c94e07e857dcb08e6d44b6c013a",
+      "conversion": "Terrarium decode; same values/extent; no vertical adjustment",
+      "raw_tiles_preserved": true
+    }
+  },
+  "landmarks": [
+    {
+      "osm_type": "way",
+      "osm_id": 30967783,
+      "tags": {
+        "cycleway:left": "lane",
+        "highway": "tertiary",
+        "name": "Avenida Vale do Tororó",
+        "oneway": "yes",
+        "sidewalk": "right"
+      }
+    },
+    {
+      "osm_type": "way",
+      "osm_id": 48848353,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Amparo do Tororó",
+        "oneway": "yes"
+      }
+    },
+    {
+      "osm_type": "way",
+      "osm_id": 48848366,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Futuro do Tororó"
+      }
+    },
+    {
+      "osm_type": "way",
+      "osm_id": 48848368,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Amparo do Tororó",
+        "oneway": "yes"
+      }
+    },
+    {
+      "osm_type": "way",
+      "osm_id": 48849175,
+      "tags": {
+        "highway": "service",
+        "name": "Avenida Vale do Tororó"
+      }
+    },
+    {
+      "osm_type": "way",
+      "osm_id": 145042855,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Fonte Nova do Desterro",
+        "oneway": "yes"
+      }
+    },
+    {
+      "osm_type": "way",
+      "osm_id": 145216330,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Capelinha do Tororó",
+        "note": "There's a difference between IBGE data (Rua Capelinha do Tororó) and OSM data (Rua Capelila do Tororó)."
+      }
+    },
+    {
+      "osm_type": "way",
+      "osm_id": 145216332,
+      "tags": {
+        "highway": "residential",
+        "name": "Largo da Capelinha do Tororó"
+      }
+    },
+    {
+      "osm_type": "way",
+      "osm_id": 257113955,
+      "tags": {
+        "addr:city": "Salvador",
+        "addr:housenumber": "155",
+        "addr:postcode": "40070-045",
+        "addr:street": "Rua Portão da Piedade",
+        "addr:suburb": "Barris",
+        "building": "retail",
+        "contact:instagram": "https://www.instagram.com/centerlapassa",
+        "name": "Shopping Center Lapa",
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-19:30; Su 11:00-19:00",
+        "shop": "mall",
+        "website": "http://www.shoppinglapa.com.br",
+        "wikidata": "Q63874181",
+        "wikimedia_commons": "Category:Shopping Center Lapa"
+      }
+    },
+    {
+      "osm_type": "way",
+      "osm_id": 257126975,
+      "tags": {
+        "cycleway:left": "lane",
+        "highway": "tertiary",
+        "name": "Avenida Vale do Tororó",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "osm_type": "way",
+      "osm_id": 285471994,
+      "tags": {
+        "access": "private",
+        "amenity": "parking",
+        "building": "garages",
+        "building:levels": "2",
+        "capacity": "1000",
+        "fee": "yes",
+        "name": "Edifício Garagem Arena Fonte Nova",
+        "operator": "Itaipava Arena Fonte Nova",
+        "parking": "multi-storey",
+        "short_name": "EDG",
+        "surface": "paved"
+      }
+    },
+    {
+      "osm_type": "way",
+      "osm_id": 285541420,
+      "tags": {
+        "access": "private",
+        "amenity": "parking",
+        "capacity": "300",
+        "fee": "yes",
+        "name": "Estacionamento Especial Arena Fonte Nova",
+        "operator": "Itaipava Arena Fonte Nova",
+        "parking": "surface",
+        "surface": "paved"
+      }
+    },
+    {
+      "osm_type": "way",
+      "osm_id": 378365275,
+      "tags": {
+        "building": "commercial",
+        "building:levels": "1",
+        "name": "Sede do bloco Apaxes do Tororó"
+      }
+    },
+    {
+      "osm_type": "way",
+      "osm_id": 390875479,
+      "tags": {
+        "cycleway:left": "lane",
+        "highway": "tertiary",
+        "name": "Avenida Vale do Tororó",
+        "oneway": "yes"
+      }
+    },
+    {
+      "osm_type": "way",
+      "osm_id": 570126114,
+      "tags": {
+        "highway": "service",
+        "name": "Avenida Vale do Tororó",
+        "oneway": "yes"
+      }
+    },
+    {
+      "osm_type": "way",
+      "osm_id": 570126117,
+      "tags": {
+        "bridge": "yes",
+        "highway": "tertiary",
+        "layer": "1",
+        "name": "Avenida Vale do Tororó",
+        "oneway": "yes"
+      }
+    },
+    {
+      "osm_type": "way",
+      "osm_id": 662248350,
+      "tags": {
+        "cycleway:left": "lane",
+        "highway": "service",
+        "name": "Avenida Vale do Tororó",
+        "oneway": "yes"
+      }
+    },
+    {
+      "osm_type": "way",
+      "osm_id": 778901022,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Avenida Vale do Tororó",
+        "oneway": "yes"
+      }
+    },
+    {
+      "osm_type": "way",
+      "osm_id": 778901023,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Avenida Vale do Tororó",
+        "oneway": "yes"
+      }
+    },
+    {
+      "osm_type": "way",
+      "osm_id": 778926047,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Fonte Nova do Desterro"
+      }
+    },
+    {
+      "osm_type": "way",
+      "osm_id": 791949109,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Amparo do Tororó",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "osm_type": "way",
+      "osm_id": 791949113,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Amparo do Tororó",
+        "oneway": "yes"
+      }
+    },
+    {
+      "osm_type": "way",
+      "osm_id": 808215598,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Mesquita do Tororó"
+      }
+    },
+    {
+      "osm_type": "way",
+      "osm_id": 978572577,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Fonte Nova do Desterro"
+      }
+    },
+    {
+      "osm_type": "way",
+      "osm_id": 1076037126,
+      "tags": {
+        "highway": "residential",
+        "name": "Rua Fonte Nova do Desterro",
+        "oneway": "yes"
+      }
+    },
+    {
+      "osm_type": "relation",
+      "osm_id": 3346613,
+      "tags": {
+        "2016olympicgames": "venue",
+        "alt_name": "Arena Fonte Nova",
+        "building": "stadium",
+        "height": "20",
+        "leisure": "stadium",
+        "loc_name": "Fonte Nova",
+        "name": "Casa de Apostas Arena Fonte Nova",
+        "note": "Não realinhar com a imagem do Bing porque existe um deslocamento/distorção causado pela imagem de satélite",
+        "old_name": "Itaipava Arena Fonte Nova",
+        "sport": "soccer",
+        "type": "multipolygon",
+        "website": "https://www.itaipavaarenafontenova.com.br/",
+        "wheelchair": "limited",
+        "wikidata": "Q6499360",
+        "wikipedia": "pt:Arena Fonte Nova"
+      }
+    },
+    {
+      "osm_type": "relation",
+      "osm_id": 14324506,
+      "tags": {
+        "admin_level": "10",
+        "boundary": "administrative",
+        "name": "Tororó",
+        "type": "boundary",
+        "wikidata": "Q72362955",
+        "wikipedia": "pt:Tororó (Salvador)"
+      }
+    },
+    {
+      "osm_type": "relation",
+      "osm_id": 15601931,
+      "tags": {
+        "layer": "1",
+        "name": "Dique do Tororó",
+        "natural": "water",
+        "type": "multipolygon",
+        "water": "reservoir",
+        "wikidata": "Q3029318",
+        "wikipedia": "pt:Dique do Tororó"
+      }
+    }
+  ],
+  "scene_merged": false,
+  "aleph_original_capture_replaced": false,
+  "capture_folder": "world-reference/centro-lapa-tororo-fontenova/source/osm-mapzen-20261005T045222Z",
+  "source_files_ignored_root": "world-reference/",
+  "manifest_sha256": "fde28ee0bd1326f863a358809fe332ae56ea69882457bb2a43ac11ee019131e5",
+  "bounds_wgs84": {
+    "south": -12.995,
+    "west": -38.519,
+    "north": -12.966,
+    "east": -38.492
+  },
+  "bounds_kind": "acquisition_window"
+}

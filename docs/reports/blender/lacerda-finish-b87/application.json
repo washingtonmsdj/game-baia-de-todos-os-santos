@@ -1,0 +1,2129 @@
+{
+  "revision": "R30B.87",
+  "pid": 16912,
+  "scene": "SALVADOR | ESBOCO OFICIAL",
+  "file": "blender/salvador_lacerda_r30b87_pisos_e_fechamentos_superiores.blend",
+  "parent_file": "blender/salvador_lacerda_r30b86_saguao_superior_planta.blend",
+  "parent_sha256": "5add1823f0d2cebb9c2c3bd33f59b6aead145a7929787dc88137be3ef173fb48",
+  "changes": [
+    {
+      "object": "B77 | COLLISION | NAV | passarela superior",
+      "before": {
+        "signature": {
+          "geometry_sha256": "d535d26d25484dbf7a8add10f3c6cefbfcd41da82646fb8919d6a787800d158a",
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "materials": [],
+          "type": "MESH",
+          "vertices": 4,
+          "polygons": 2
+        },
+        "bounds": [
+          [
+            -60.554935455322266,
+            -5.983620643615723
+          ],
+          [
+            -2.7250008583068848,
+            2.7250027656555176
+          ],
+          [
+            70.11500549316406,
+            70.11500549316406
+          ]
+        ],
+        "properties": {
+          "boas_role": "COLLISION_WALKABLE_CANDIDATE",
+          "boas_provenance_ids": "[\"derived:lacerda-corridor-b77\"]",
+          "boas_geographic_ssot_id": "salvador-geographic-reference-v1",
+          "boas_production_ready": "False",
+          "boas_generated_revision": "R30B.77",
+          "boas_collision_profile_id": "lacerda-corridor-b77",
+          "boas_derived_from_object": "NAV | passarela superior",
+          "boas_source_blend": "blender/salvador_lacerda_r30b76_fundacao_geografica.blend",
+          "boas_source_sha256": "8312775096a6f0fd0de5114885ffe2403ad9e367f38a8b40556433ad2dd79a60"
+        },
+        "visible": false,
+        "hide_render": true
+      },
+      "after": {
+        "signature": {
+          "geometry_sha256": "d535d26d25484dbf7a8add10f3c6cefbfcd41da82646fb8919d6a787800d158a",
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "materials": [],
+          "type": "MESH",
+          "vertices": 4,
+          "polygons": 2
+        },
+        "bounds": [
+          [
+            -60.554935455322266,
+            -5.983620643615723
+          ],
+          [
+            -2.7250008583068848,
+            2.7250027656555176
+          ],
+          [
+            70.11500549316406,
+            70.11500549316406
+          ]
+        ],
+        "visible": false,
+        "hide_render": true
+      }
+    },
+    {
+      "object": "B77 | COLLISION | SUPERIOR | piso saguão",
+      "before": {
+        "signature": {
+          "geometry_sha256": "2490675b0fc5760b10a305a8819f644c9fc13c46dc3b9219ecfc032f51c32d82",
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "materials": [],
+          "type": "MESH",
+          "vertices": 10,
+          "polygons": 8
+        },
+        "bounds": [
+          [
+            -19.810819625854492,
+            6.458959579467773
+          ],
+          [
+            -9.840450286865234,
+            9.840450286865234
+          ],
+          [
+            70.04499816894531,
+            70.04499816894531
+          ]
+        ],
+        "properties": {
+          "boas_role": "COLLISION_WALKABLE_CANDIDATE",
+          "boas_provenance_ids": "[\"derived:lacerda-upper-layout-b86\"]",
+          "boas_geographic_ssot_id": "salvador-geographic-reference-v1",
+          "boas_production_ready": "False",
+          "boas_generated_revision": "R30B.86",
+          "boas_collision_profile_id": "lacerda-corridor-b77",
+          "boas_derived_from_object": "SUPERIOR | piso saguão",
+          "boas_source_blend": "blender/salvador_lacerda_r30b76_fundacao_geografica.blend",
+          "boas_source_sha256": "8312775096a6f0fd0de5114885ffe2403ad9e367f38a8b40556433ad2dd79a60",
+          "reference_status": "partial",
+          "accuracy": "PROJECT_REFERENCE_DERIVED",
+          "replacement_required": "True",
+          "boas_layout_domain": "STATION",
+          "boas_pending_gate": "ARCHITECTURAL_SSOT_REGISTRATION_AND_INSTALLED_ELEVATORS"
+        },
+        "visible": false,
+        "hide_render": true
+      },
+      "after": {
+        "signature": {
+          "geometry_sha256": "23881c600c40ac5cf7e789fab76091b51f997adbcb7a99642c00815dc77775e0",
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "materials": [],
+          "type": "MESH",
+          "vertices": 10,
+          "polygons": 8
+        },
+        "bounds": [
+          [
+            -19.810821533203125,
+            6.458959579467773
+          ],
+          [
+            -9.840450286865234,
+            9.840450286865234
+          ],
+          [
+            70.12300872802734,
+            70.12300872802734
+          ]
+        ],
+        "visible": false,
+        "hide_render": true
+      }
+    },
+    {
+      "object": "COLLISION R35 | Laje do saguão superior",
+      "before": {
+        "signature": {
+          "geometry_sha256": "d740d6fd7264365c383f4c87b963c1247f0ab2146bb17a92500040fa9f37354c",
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "materials": [
+            {
+              "diffuse": [
+                0.4300000071525574,
+                0.4300000071525574,
+                0.4099999964237213,
+                1.0
+              ],
+              "base": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+              ],
+              "roughness": 0.44999998807907104,
+              "metallic": 0.0
+            }
+          ],
+          "type": "MESH",
+          "vertices": 20,
+          "polygons": 26
+        },
+        "bounds": [
+          [
+            -19.810819625854492,
+            6.458959579467773
+          ],
+          [
+            -9.840450286865234,
+            9.840450286865234
+          ],
+          [
+            69.79499816894531,
+            70.04499816894531
+          ]
+        ],
+        "properties": {
+          "boas_role": "static_collider",
+          "boas_location_id": "elevador-lacerda",
+          "boas_revision": "R30B.35",
+          "source_object": "SUPERIOR | piso saguão",
+          "boas_generated_revision": "R30B.86",
+          "boas_provenance_ids": "[\"derived:lacerda-upper-layout-b86\"]",
+          "reference_status": "partial",
+          "accuracy": "PROJECT_REFERENCE_DERIVED",
+          "replacement_required": "True",
+          "boas_production_ready": "False",
+          "boas_layout_domain": "STATION",
+          "boas_pending_gate": "ARCHITECTURAL_SSOT_REGISTRATION_AND_INSTALLED_ELEVATORS"
+        },
+        "visible": false,
+        "hide_render": true
+      },
+      "after": {
+        "signature": {
+          "geometry_sha256": "32a9f877d7011ec950fe285894099b9d5c665c8a632988d9d0800aee54dfad1a",
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "materials": [
+            {
+              "diffuse": [
+                0.4300000071525574,
+                0.4300000071525574,
+                0.4099999964237213,
+                1.0
+              ],
+              "base": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+              ],
+              "roughness": 0.44999998807907104,
+              "metallic": 0.0
+            }
+          ],
+          "type": "MESH",
+          "vertices": 20,
+          "polygons": 26
+        },
+        "bounds": [
+          [
+            -19.810821533203125,
+            6.458959579467773
+          ],
+          [
+            -9.840450286865234,
+            9.840450286865234
+          ],
+          [
+            69.79499816894531,
+            70.12300872802734
+          ]
+        ],
+        "visible": false,
+        "hide_render": true
+      }
+    },
+    {
+      "object": "LAC R30B03 | Cidade Alta | peitoril lateral 0 SUPERIOR | parede lateral saguão",
+      "before": {
+        "signature": {
+          "geometry_sha256": "04d6eb034da7f3e87aae9f0e160c6b0cfe6d36815b0e0ad5b6876fa4084ac0e4",
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "materials": [
+            {
+              "diffuse": [
+                0.699999988079071,
+                0.7200000286102295,
+                0.7099999785423279,
+                1.0
+              ],
+              "base": [
+                0.699999988079071,
+                0.7200000286102295,
+                0.7099999785423279,
+                1.0
+              ],
+              "roughness": 0.2800000011920929,
+              "metallic": 0.0
+            }
+          ],
+          "type": "MESH",
+          "vertices": 8,
+          "polygons": 6
+        },
+        "bounds": [
+          [
+            -18.47782325744629,
+            -11.250210762023926
+          ],
+          [
+            -8.07394790649414,
+            -7.781087398529053
+          ],
+          [
+            71.25999450683594,
+            71.36000061035156
+          ]
+        ],
+        "properties": {
+          "boas_location_id": "elevador-lacerda",
+          "boas_role": "visual_architecture",
+          "reference_status": "partial",
+          "boas_generated_revision": "R30B.86",
+          "boas_provenance_ids": "[\"derived:lacerda-upper-layout-b86\"]",
+          "accuracy": "PROJECT_REFERENCE_DERIVED",
+          "replacement_required": "True",
+          "boas_production_ready": "False",
+          "boas_layout_domain": "STATION",
+          "boas_pending_gate": "ARCHITECTURAL_SSOT_REGISTRATION_AND_INSTALLED_ELEVATORS"
+        },
+        "visible": true,
+        "hide_render": false
+      },
+      "after": {
+        "signature": {
+          "geometry_sha256": "04d6eb034da7f3e87aae9f0e160c6b0cfe6d36815b0e0ad5b6876fa4084ac0e4",
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "materials": [
+            {
+              "diffuse": [
+                0.699999988079071,
+                0.7200000286102295,
+                0.7099999785423279,
+                1.0
+              ],
+              "base": [
+                0.699999988079071,
+                0.7200000286102295,
+                0.7099999785423279,
+                1.0
+              ],
+              "roughness": 0.2800000011920929,
+              "metallic": 0.0
+            }
+          ],
+          "type": "MESH",
+          "vertices": 8,
+          "polygons": 6
+        },
+        "bounds": [
+          [
+            -18.47782325744629,
+            -11.250210762023926
+          ],
+          [
+            -8.07394790649414,
+            -7.781087398529053
+          ],
+          [
+            71.25999450683594,
+            71.36000061035156
+          ]
+        ],
+        "visible": false,
+        "hide_render": true
+      }
+    },
+    {
+      "object": "LAC R30B03 | Cidade Alta | peitoril lateral 0 SUPERIOR | parede lateral saguão.001",
+      "before": {
+        "signature": {
+          "geometry_sha256": "6585d54ceebabbda06bbdf3d03768b174bd3c8e8d0e15e363788895064430282",
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "materials": [
+            {
+              "diffuse": [
+                0.699999988079071,
+                0.7200000286102295,
+                0.7099999785423279,
+                1.0
+              ],
+              "base": [
+                0.699999988079071,
+                0.7200000286102295,
+                0.7099999785423279,
+                1.0
+              ],
+              "roughness": 0.2800000011920929,
+              "metallic": 0.0
+            }
+          ],
+          "type": "MESH",
+          "vertices": 8,
+          "polygons": 6
+        },
+        "bounds": [
+          [
+            -18.522335052490234,
+            -11.281353950500488
+          ],
+          [
+            7.692241668701172,
+            7.960788249969482
+          ],
+          [
+            71.25999450683594,
+            71.36000061035156
+          ]
+        ],
+        "properties": {
+          "boas_location_id": "elevador-lacerda",
+          "boas_role": "visual_architecture",
+          "reference_status": "partial",
+          "boas_generated_revision": "R30B.86",
+          "boas_provenance_ids": "[\"derived:lacerda-upper-layout-b86\"]",
+          "accuracy": "PROJECT_REFERENCE_DERIVED",
+          "replacement_required": "True",
+          "boas_production_ready": "False",
+          "boas_layout_domain": "STATION",
+          "boas_pending_gate": "ARCHITECTURAL_SSOT_REGISTRATION_AND_INSTALLED_ELEVATORS"
+        },
+        "visible": true,
+        "hide_render": false
+      },
+      "after": {
+        "signature": {
+          "geometry_sha256": "6585d54ceebabbda06bbdf3d03768b174bd3c8e8d0e15e363788895064430282",
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "materials": [
+            {
+              "diffuse": [
+                0.699999988079071,
+                0.7200000286102295,
+                0.7099999785423279,
+                1.0
+              ],
+              "base": [
+                0.699999988079071,
+                0.7200000286102295,
+                0.7099999785423279,
+                1.0
+              ],
+              "roughness": 0.2800000011920929,
+              "metallic": 0.0
+            }
+          ],
+          "type": "MESH",
+          "vertices": 8,
+          "polygons": 6
+        },
+        "bounds": [
+          [
+            -18.522335052490234,
+            -11.281353950500488
+          ],
+          [
+            7.692241668701172,
+            7.960788249969482
+          ],
+          [
+            71.25999450683594,
+            71.36000061035156
+          ]
+        ],
+        "visible": false,
+        "hide_render": true
+      }
+    },
+    {
+      "object": "LAC R30B03 | Cidade Alta | peitoril lateral 1 SUPERIOR | parede lateral saguão",
+      "before": {
+        "signature": {
+          "geometry_sha256": "065879ba0369f44bfb5c17f7d4a32921b46e9106987f68163ca1cf5b49244841",
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "materials": [
+            {
+              "diffuse": [
+                0.699999988079071,
+                0.7200000286102295,
+                0.7099999785423279,
+                1.0
+              ],
+              "base": [
+                0.699999988079071,
+                0.7200000286102295,
+                0.7099999785423279,
+                1.0
+              ],
+              "roughness": 0.2800000011920929,
+              "metallic": 0.0
+            }
+          ],
+          "type": "MESH",
+          "vertices": 8,
+          "polygons": 6
+        },
+        "bounds": [
+          [
+            -10.745511054992676,
+            -3.518167734146118
+          ],
+          [
+            -8.073948860168457,
+            -7.781089782714844
+          ],
+          [
+            71.25999450683594,
+            71.36000061035156
+          ]
+        ],
+        "properties": {
+          "boas_location_id": "elevador-lacerda",
+          "boas_role": "visual_architecture",
+          "reference_status": "partial",
+          "boas_generated_revision": "R30B.86",
+          "boas_provenance_ids": "[\"derived:lacerda-upper-layout-b86\"]",
+          "accuracy": "PROJECT_REFERENCE_DERIVED",
+          "replacement_required": "True",
+          "boas_production_ready": "False",
+          "boas_layout_domain": "STATION",
+          "boas_pending_gate": "ARCHITECTURAL_SSOT_REGISTRATION_AND_INSTALLED_ELEVATORS"
+        },
+        "visible": true,
+        "hide_render": false
+      },
+      "after": {
+        "signature": {
+          "geometry_sha256": "065879ba0369f44bfb5c17f7d4a32921b46e9106987f68163ca1cf5b49244841",
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "materials": [
+            {
+              "diffuse": [
+                0.699999988079071,
+                0.7200000286102295,
+                0.7099999785423279,
+                1.0
+              ],
+              "base": [
+                0.699999988079071,
+                0.7200000286102295,
+                0.7099999785423279,
+                1.0
+              ],
+              "roughness": 0.2800000011920929,
+              "metallic": 0.0
+            }
+          ],
+          "type": "MESH",
+          "vertices": 8,
+          "polygons": 6
+        },
+        "bounds": [
+          [
+            -10.745511054992676,
+            -3.518167734146118
+          ],
+          [
+            -8.073948860168457,
+            -7.781089782714844
+          ],
+          [
+            71.25999450683594,
+            71.36000061035156
+          ]
+        ],
+        "visible": false,
+        "hide_render": true
+      }
+    },
+    {
+      "object": "LAC R30B03 | Cidade Alta | peitoril lateral 1 SUPERIOR | parede lateral saguão.001",
+      "before": {
+        "signature": {
+          "geometry_sha256": "ff5b233fbadcabe5a47aba090f75755c3bcb9a70f13ccd15f29f87aed599618e",
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "materials": [
+            {
+              "diffuse": [
+                0.699999988079071,
+                0.7200000286102295,
+                0.7099999785423279,
+                1.0
+              ],
+              "base": [
+                0.699999988079071,
+                0.7200000286102295,
+                0.7099999785423279,
+                1.0
+              ],
+              "roughness": 0.2800000011920929,
+              "metallic": 0.0
+            }
+          ],
+          "type": "MESH",
+          "vertices": 8,
+          "polygons": 6
+        },
+        "bounds": [
+          [
+            -10.775667190551758,
+            -3.5349342823028564
+          ],
+          [
+            7.692241191864014,
+            7.960785865783691
+          ],
+          [
+            71.25999450683594,
+            71.36000061035156
+          ]
+        ],
+        "properties": {
+          "boas_location_id": "elevador-lacerda",
+          "boas_role": "visual_architecture",
+          "reference_status": "partial",
+          "boas_generated_revision": "R30B.86",
+          "boas_provenance_ids": "[\"derived:lacerda-upper-layout-b86\"]",
+          "accuracy": "PROJECT_REFERENCE_DERIVED",
+          "replacement_required": "True",
+          "boas_production_ready": "False",
+          "boas_layout_domain": "STATION",
+          "boas_pending_gate": "ARCHITECTURAL_SSOT_REGISTRATION_AND_INSTALLED_ELEVATORS"
+        },
+        "visible": true,
+        "hide_render": false
+      },
+      "after": {
+        "signature": {
+          "geometry_sha256": "ff5b233fbadcabe5a47aba090f75755c3bcb9a70f13ccd15f29f87aed599618e",
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "materials": [
+            {
+              "diffuse": [
+                0.699999988079071,
+                0.7200000286102295,
+                0.7099999785423279,
+                1.0
+              ],
+              "base": [
+                0.699999988079071,
+                0.7200000286102295,
+                0.7099999785423279,
+                1.0
+              ],
+              "roughness": 0.2800000011920929,
+              "metallic": 0.0
+            }
+          ],
+          "type": "MESH",
+          "vertices": 8,
+          "polygons": 6
+        },
+        "bounds": [
+          [
+            -10.775667190551758,
+            -3.5349342823028564
+          ],
+          [
+            7.692241191864014,
+            7.960785865783691
+          ],
+          [
+            71.25999450683594,
+            71.36000061035156
+          ]
+        ],
+        "visible": false,
+        "hide_render": true
+      }
+    },
+    {
+      "object": "LAC R30B03 | Cidade Alta | peitoril lateral 2 SUPERIOR | parede lateral saguão",
+      "before": {
+        "signature": {
+          "geometry_sha256": "33ef59560dc89577a88933d08871ea3c6f469909748d7a5172feb01bcf60d8e1",
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "materials": [
+            {
+              "diffuse": [
+                0.699999988079071,
+                0.7200000286102295,
+                0.7099999785423279,
+                1.0
+              ],
+              "base": [
+                0.699999988079071,
+                0.7200000286102295,
+                0.7099999785423279,
+                1.0
+              ],
+              "roughness": 0.2800000011920929,
+              "metallic": 0.0
+            }
+          ],
+          "type": "MESH",
+          "vertices": 8,
+          "polygons": 6
+        },
+        "bounds": [
+          [
+            -3.0131962299346924,
+            4.213879585266113
+          ],
+          [
+            -8.073948860168457,
+            -7.781089782714844
+          ],
+          [
+            71.25999450683594,
+            71.36000061035156
+          ]
+        ],
+        "properties": {
+          "boas_location_id": "elevador-lacerda",
+          "boas_role": "visual_architecture",
+          "reference_status": "partial",
+          "boas_generated_revision": "R30B.86",
+          "boas_provenance_ids": "[\"derived:lacerda-upper-layout-b86\"]",
+          "accuracy": "PROJECT_REFERENCE_DERIVED",
+          "replacement_required": "True",
+          "boas_production_ready": "False",
+          "boas_layout_domain": "STATION",
+          "boas_pending_gate": "ARCHITECTURAL_SSOT_REGISTRATION_AND_INSTALLED_ELEVATORS"
+        },
+        "visible": true,
+        "hide_render": false
+      },
+      "after": {
+        "signature": {
+          "geometry_sha256": "33ef59560dc89577a88933d08871ea3c6f469909748d7a5172feb01bcf60d8e1",
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "materials": [
+            {
+              "diffuse": [
+                0.699999988079071,
+                0.7200000286102295,
+                0.7099999785423279,
+                1.0
+              ],
+              "base": [
+                0.699999988079071,
+                0.7200000286102295,
+                0.7099999785423279,
+                1.0
+              ],
+              "roughness": 0.2800000011920929,
+              "metallic": 0.0
+            }
+          ],
+          "type": "MESH",
+          "vertices": 8,
+          "polygons": 6
+        },
+        "bounds": [
+          [
+            -3.0131962299346924,
+            4.213879585266113
+          ],
+          [
+            -8.073948860168457,
+            -7.781089782714844
+          ],
+          [
+            71.25999450683594,
+            71.36000061035156
+          ]
+        ],
+        "visible": false,
+        "hide_render": true
+      }
+    },
+    {
+      "object": "LAC R30B03 | Cidade Alta | peitoril lateral 2 SUPERIOR | parede lateral saguão.001",
+      "before": {
+        "signature": {
+          "geometry_sha256": "82f26247834344cec81763daa23822a90b01fc8ac973d45f2f3a229399e37d69",
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "materials": [
+            {
+              "diffuse": [
+                0.699999988079071,
+                0.7200000286102295,
+                0.7099999785423279,
+                1.0
+              ],
+              "base": [
+                0.699999988079071,
+                0.7200000286102295,
+                0.7099999785423279,
+                1.0
+              ],
+              "roughness": 0.2800000011920929,
+              "metallic": 0.0
+            }
+          ],
+          "type": "MESH",
+          "vertices": 8,
+          "polygons": 6
+        },
+        "bounds": [
+          [
+            -3.0290021896362305,
+            4.21148681640625
+          ],
+          [
+            7.6922407150268555,
+            7.960786819458008
+          ],
+          [
+            71.25999450683594,
+            71.36000061035156
+          ]
+        ],
+        "properties": {
+          "boas_location_id": "elevador-lacerda",
+          "boas_role": "visual_architecture",
+          "reference_status": "partial",
+          "boas_generated_revision": "R30B.86",
+          "boas_provenance_ids": "[\"derived:lacerda-upper-layout-b86\"]",
+          "accuracy": "PROJECT_REFERENCE_DERIVED",
+          "replacement_required": "True",
+          "boas_production_ready": "False",
+          "boas_layout_domain": "STATION",
+          "boas_pending_gate": "ARCHITECTURAL_SSOT_REGISTRATION_AND_INSTALLED_ELEVATORS"
+        },
+        "visible": true,
+        "hide_render": false
+      },
+      "after": {
+        "signature": {
+          "geometry_sha256": "82f26247834344cec81763daa23822a90b01fc8ac973d45f2f3a229399e37d69",
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "materials": [
+            {
+              "diffuse": [
+                0.699999988079071,
+                0.7200000286102295,
+                0.7099999785423279,
+                1.0
+              ],
+              "base": [
+                0.699999988079071,
+                0.7200000286102295,
+                0.7099999785423279,
+                1.0
+              ],
+              "roughness": 0.2800000011920929,
+              "metallic": 0.0
+            }
+          ],
+          "type": "MESH",
+          "vertices": 8,
+          "polygons": 6
+        },
+        "bounds": [
+          [
+            -3.0290021896362305,
+            4.21148681640625
+          ],
+          [
+            7.6922407150268555,
+            7.960786819458008
+          ],
+          [
+            71.25999450683594,
+            71.36000061035156
+          ]
+        ],
+        "visible": false,
+        "hide_render": true
+      }
+    },
+    {
+      "object": "NAV | passarela superior",
+      "before": {
+        "signature": {
+          "geometry_sha256": "5e0ff86bd3c206da8d075b79fdb1c3448c12843b1a8c6c8a01a948ca2be0abbc",
+          "transform": [
+            [
+              0.7292261719703674,
+              0.6842727661132812,
+              0.0,
+              -35.42984390258789
+            ],
+            [
+              -0.6842727661132812,
+              0.7292261719703674,
+              0.0,
+              39.066471099853516
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              70.08000183105469
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "materials": [
+            {
+              "diffuse": [
+                0.5199999809265137,
+                0.49000000953674316,
+                0.4300000071525574,
+                1.0
+              ],
+              "base": [
+                0.5199999809265137,
+                0.49000000953674316,
+                0.4300000071525574,
+                1.0
+              ],
+              "roughness": 0.3799999952316284,
+              "metallic": 0.0
+            }
+          ],
+          "type": "MESH",
+          "vertices": 8,
+          "polygons": 6
+        },
+        "bounds": [
+          [
+            -60.55493927001953,
+            -5.983623504638672
+          ],
+          [
+            -2.7250008583068848,
+            2.725001096725464
+          ],
+          [
+            70.04499816894531,
+            70.11500549316406
+          ]
+        ],
+        "properties": {
+          "gameplay": "navegável; ligação estação superior-torre",
+          "game_role": "walkable_surface"
+        },
+        "visible": true,
+        "hide_render": false
+      },
+      "after": {
+        "signature": {
+          "geometry_sha256": "5e0ff86bd3c206da8d075b79fdb1c3448c12843b1a8c6c8a01a948ca2be0abbc",
+          "transform": [
+            [
+              0.7292261719703674,
+              0.6842727661132812,
+              0.0,
+              -35.42984390258789
+            ],
+            [
+              -0.6842727661132812,
+              0.7292261719703674,
+              0.0,
+              39.066471099853516
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              70.08000183105469
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "materials": [
+            {
+              "diffuse": [
+                0.5199999809265137,
+                0.49000000953674316,
+                0.4300000071525574,
+                1.0
+              ],
+              "base": [
+                0.5199999809265137,
+                0.49000000953674316,
+                0.4300000071525574,
+                1.0
+              ],
+              "roughness": 0.3799999952316284,
+              "metallic": 0.0
+            }
+          ],
+          "type": "MESH",
+          "vertices": 8,
+          "polygons": 6
+        },
+        "bounds": [
+          [
+            -60.55493927001953,
+            -5.983623504638672
+          ],
+          [
+            -2.7250008583068848,
+            2.725001096725464
+          ],
+          [
+            70.04499816894531,
+            70.11500549316406
+          ]
+        ],
+        "visible": false,
+        "hide_render": true
+      }
+    },
+    {
+      "object": "SUPERIOR | parede lateral saguão",
+      "before": {
+        "signature": {
+          "geometry_sha256": "3b12ee088ff30d2ae0ad576e83b3e6a9b3088d7a7f2449aaaa371e5cfe79d884",
+          "transform": [
+            [
+              0.7292261719703674,
+              0.6842727661132812,
+              0.0,
+              -7.648075103759766
+            ],
+            [
+              -0.6842727661132812,
+              0.7292261719703674,
+              0.0,
+              0.44977378845214844
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              72.5
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "materials": [
+            {
+              "diffuse": [
+                0.7900000214576721,
+                0.7699999809265137,
+                0.6899999976158142,
+                1.0
+              ],
+              "base": [
+                0.7900000214576721,
+                0.7699999809265137,
+                0.6899999976158142,
+                1.0
+              ],
+              "roughness": 0.7300000190734863,
+              "metallic": 0.0
+            }
+          ],
+          "type": "MESH",
+          "vertices": 32,
+          "polygons": 24
+        },
+        "bounds": [
+          [
+            -19.763916015625,
+            5.5
+          ],
+          [
+            -8.049543380737305,
+            -7.805495262145996
+          ],
+          [
+            70.0,
+            75.0
+          ]
+        ],
+        "properties": {
+          "game_role": "static_collision",
+          "reference_status": "partial",
+          "classification": "ADAPT_LOCAL",
+          "revision_note": "Aberturas de varanda; dimensões adaptadas à implantação existente, sem levantamento cadastral.",
+          "boas_generated_revision": "R30B.86",
+          "boas_provenance_ids": "[\"derived:lacerda-upper-layout-b86\"]",
+          "accuracy": "PROJECT_REFERENCE_DERIVED",
+          "replacement_required": "True",
+          "boas_production_ready": "False",
+          "boas_layout_domain": "STATION",
+          "boas_pending_gate": "ARCHITECTURAL_SSOT_REGISTRATION_AND_INSTALLED_ELEVATORS"
+        },
+        "visible": true,
+        "hide_render": false
+      },
+      "after": {
+        "signature": {
+          "geometry_sha256": "7187ff3d4c231896247e2c7d1a1c7c08d28afc6b83ed00f5c240948d9f64ebc4",
+          "transform": [
+            [
+              0.7292261719703674,
+              0.6842727661132812,
+              0.0,
+              -7.648075103759766
+            ],
+            [
+              -0.6842727661132812,
+              0.7292261719703674,
+              0.0,
+              0.44977378845214844
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              72.5
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "materials": [
+            {
+              "diffuse": [
+                0.7900000214576721,
+                0.7699999809265137,
+                0.6899999976158142,
+                1.0
+              ],
+              "base": [
+                0.7900000214576721,
+                0.7699999809265137,
+                0.6899999976158142,
+                1.0
+              ],
+              "roughness": 0.7300000190734863,
+              "metallic": 0.0
+            },
+            {
+              "diffuse": [
+                0.2199999988079071,
+                0.3100000023841858,
+                0.33000001311302185,
+                0.3199999928474426
+              ],
+              "base": [
+                0.2199999988079071,
+                0.3100000023841858,
+                0.33000001311302185,
+                1.0
+              ],
+              "roughness": 0.1599999964237213,
+              "metallic": 0.0
+            },
+            {
+              "diffuse": [
+                0.7200000286102295,
+                0.7400000095367432,
+                0.7200000286102295,
+                1.0
+              ],
+              "base": [
+                0.7200000286102295,
+                0.7400000095367432,
+                0.7200000286102295,
+                1.0
+              ],
+              "roughness": 0.30000001192092896,
+              "metallic": 0.44999998807907104
+            }
+          ],
+          "type": "MESH",
+          "vertices": 1256,
+          "polygons": 942
+        },
+        "bounds": [
+          [
+            -19.763916015625,
+            5.5
+          ],
+          [
+            -8.049543380737305,
+            -7.805495262145996
+          ],
+          [
+            70.0,
+            75.0
+          ]
+        ],
+        "visible": true,
+        "hide_render": false
+      }
+    },
+    {
+      "object": "SUPERIOR | parede lateral saguão.001",
+      "before": {
+        "signature": {
+          "geometry_sha256": "c33af839f4ff2fb88c346690939a2037e821215cb738d16bc5672c234ffaf09e",
+          "transform": [
+            [
+              0.7292261719703674,
+              0.6842727661132812,
+              0.0,
+              4.874114990234375
+            ],
+            [
+              -0.6842727661132812,
+              0.7292261719703674,
+              0.0,
+              13.794610977172852
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              72.5
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "materials": [
+            {
+              "diffuse": [
+                0.7900000214576721,
+                0.7699999809265137,
+                0.6899999976158142,
+                1.0
+              ],
+              "base": [
+                0.7900000214576721,
+                0.7699999809265137,
+                0.6899999976158142,
+                1.0
+              ],
+              "roughness": 0.7300000190734863,
+              "metallic": 0.0
+            }
+          ],
+          "type": "MESH",
+          "vertices": 40,
+          "polygons": 24
+        },
+        "bounds": [
+          [
+            -19.81081771850586,
+            5.5
+          ],
+          [
+            7.714621067047119,
+            7.938407897949219
+          ],
+          [
+            70.0,
+            75.0
+          ]
+        ],
+        "properties": {
+          "game_role": "static_collision",
+          "reference_status": "partial",
+          "classification": "ADAPT_LOCAL",
+          "revision_note": "Aberturas de varanda; dimensões adaptadas à implantação existente, sem levantamento cadastral.",
+          "boas_generated_revision": "R30B.86",
+          "boas_provenance_ids": "[\"derived:lacerda-upper-layout-b86\"]",
+          "accuracy": "PROJECT_REFERENCE_DERIVED",
+          "replacement_required": "True",
+          "boas_production_ready": "False",
+          "boas_layout_domain": "STATION",
+          "boas_pending_gate": "ARCHITECTURAL_SSOT_REGISTRATION_AND_INSTALLED_ELEVATORS"
+        },
+        "visible": true,
+        "hide_render": false
+      },
+      "after": {
+        "signature": {
+          "geometry_sha256": "80ab8fd806b6227df97b803bf0df0730001647d88be699f10315d9d240d7fd7c",
+          "transform": [
+            [
+              0.7292261719703674,
+              0.6842727661132812,
+              0.0,
+              4.874114990234375
+            ],
+            [
+              -0.6842727661132812,
+              0.7292261719703674,
+              0.0,
+              13.794610977172852
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              72.5
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "materials": [
+            {
+              "diffuse": [
+                0.7900000214576721,
+                0.7699999809265137,
+                0.6899999976158142,
+                1.0
+              ],
+              "base": [
+                0.7900000214576721,
+                0.7699999809265137,
+                0.6899999976158142,
+                1.0
+              ],
+              "roughness": 0.7300000190734863,
+              "metallic": 0.0
+            },
+            {
+              "diffuse": [
+                0.2199999988079071,
+                0.3100000023841858,
+                0.33000001311302185,
+                0.3199999928474426
+              ],
+              "base": [
+                0.2199999988079071,
+                0.3100000023841858,
+                0.33000001311302185,
+                1.0
+              ],
+              "roughness": 0.1599999964237213,
+              "metallic": 0.0
+            },
+            {
+              "diffuse": [
+                0.7200000286102295,
+                0.7400000095367432,
+                0.7200000286102295,
+                1.0
+              ],
+              "base": [
+                0.7200000286102295,
+                0.7400000095367432,
+                0.7200000286102295,
+                1.0
+              ],
+              "roughness": 0.30000001192092896,
+              "metallic": 0.44999998807907104
+            }
+          ],
+          "type": "MESH",
+          "vertices": 1256,
+          "polygons": 942
+        },
+        "bounds": [
+          [
+            -19.81081771850586,
+            5.5
+          ],
+          [
+            7.7146220207214355,
+            7.938408851623535
+          ],
+          [
+            70.0,
+            75.0
+          ]
+        ],
+        "visible": true,
+        "hide_render": false
+      }
+    },
+    {
+      "object": "SUPERIOR | piso saguão",
+      "before": {
+        "signature": {
+          "geometry_sha256": "7d272f6bc3b282855e76d2a2f174449c26dfe6701e0d84bb016222ea04e1f1b6",
+          "transform": [
+            [
+              0.7292261719703674,
+              0.6842727661132812,
+              0.0,
+              -1.3869800567626953
+            ],
+            [
+              -0.6842727661132812,
+              0.7292261719703674,
+              0.0,
+              7.1221923828125
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              69.91999816894531
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "materials": [
+            {
+              "diffuse": [
+                0.4300000071525574,
+                0.4300000071525574,
+                0.4099999964237213,
+                1.0
+              ],
+              "base": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+              ],
+              "roughness": 0.44999998807907104,
+              "metallic": 0.0
+            }
+          ],
+          "type": "MESH",
+          "vertices": 20,
+          "polygons": 26
+        },
+        "bounds": [
+          [
+            -19.81081771850586,
+            6.458959579467773
+          ],
+          [
+            -9.840450286865234,
+            9.840450286865234
+          ],
+          [
+            69.79499816894531,
+            70.04499816894531
+          ]
+        ],
+        "properties": {
+          "reference_status": "partial",
+          "game_role": "walkable_surface",
+          "navigation_source": "Rendered structural floor",
+          "boas_generated_revision": "R30B.86",
+          "boas_provenance_ids": "[\"derived:lacerda-upper-layout-b86\"]",
+          "accuracy": "PROJECT_REFERENCE_DERIVED",
+          "replacement_required": "True",
+          "boas_production_ready": "False",
+          "boas_layout_domain": "STATION",
+          "boas_pending_gate": "ARCHITECTURAL_SSOT_REGISTRATION_AND_INSTALLED_ELEVATORS"
+        },
+        "visible": true,
+        "hide_render": false
+      },
+      "after": {
+        "signature": {
+          "geometry_sha256": "318dca418d216417cd463c5ce0fc256dee34c37a1b5382001b2590879e32a55e",
+          "transform": [
+            [
+              0.7292261719703674,
+              0.6842727661132812,
+              0.0,
+              -1.3869800567626953
+            ],
+            [
+              -0.6842727661132812,
+              0.7292261719703674,
+              0.0,
+              7.1221923828125
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              69.91999816894531
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "materials": [
+            {
+              "diffuse": [
+                0.4300000071525574,
+                0.4300000071525574,
+                0.4099999964237213,
+                1.0
+              ],
+              "base": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+              ],
+              "roughness": 0.44999998807907104,
+              "metallic": 0.0
+            }
+          ],
+          "type": "MESH",
+          "vertices": 20,
+          "polygons": 26
+        },
+        "bounds": [
+          [
+            -19.81081771850586,
+            6.458959579467773
+          ],
+          [
+            -9.840450286865234,
+            9.840450286865234
+          ],
+          [
+            69.79499816894531,
+            70.12300872802734
+          ]
+        ],
+        "visible": true,
+        "hide_render": false
+      }
+    }
+  ],
+  "added_colliders": [
+    {
+      "object": "B87 | COLLISION | SUPERIOR | parede lateral saguão",
+      "source": "SUPERIOR | parede lateral saguão",
+      "signature": {
+        "geometry_sha256": "d84bea395ca7205dd6ebc1a7ff24d229c141aff0b04b1cd8cd5f8fb463595b04",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "bounds": [
+        [
+          -19.763916015625,
+          5.500000476837158
+        ],
+        [
+          -8.049543380737305,
+          -7.805494785308838
+        ],
+        [
+          70.0,
+          75.0
+        ]
+      ]
+    },
+    {
+      "object": "B87 | COLLISION | SUPERIOR | parede lateral saguão.001",
+      "source": "SUPERIOR | parede lateral saguão.001",
+      "signature": {
+        "geometry_sha256": "e01e47f8afa05f73db5fd0c5736ed1ca4335520b6b41f635ebbf6f9bc467ff03",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [],
+        "type": "MESH",
+        "vertices": 8,
+        "polygons": 6
+      },
+      "bounds": [
+        [
+          -19.810819625854492,
+          5.500000476837158
+        ],
+        [
+          7.714620113372803,
+          7.938408851623535
+        ],
+        [
+          70.0,
+          75.0
+        ]
+      ]
+    }
+  ],
+  "glazing": [
+    {
+      "object": "SUPERIOR | parede lateral saguão",
+      "vertical_bays": 37,
+      "glass_panes": 111,
+      "glass_z": [
+        71.22500610351562,
+        73.875
+      ],
+      "collider": "B87 | COLLISION | SUPERIOR | parede lateral saguão",
+      "pattern": "Mesmas travessas e materiais da passarela; subdivisão vertical aproximada",
+      "printed_dimension": false
+    },
+    {
+      "object": "SUPERIOR | parede lateral saguão.001",
+      "vertical_bays": 37,
+      "glass_panes": 111,
+      "glass_z": [
+        71.22500610351562,
+        73.875
+      ],
+      "collider": "B87 | COLLISION | SUPERIOR | parede lateral saguão.001",
+      "pattern": "Mesmas travessas e materiais da passarela; subdivisão vertical aproximada",
+      "printed_dimension": false
+    }
+  ],
+  "floor_level": {
+    "before": 70.04499816894531,
+    "after": 70.12300872802734,
+    "delta": 0.07801055908203125,
+    "source": "LAC R30B | Passarela | piso paginado visual",
+    "independent_evidence": "Prancha SUCOP 17: acesso torre, circulações e salão no nível 0,00; datum global permanece candidato."
+  },
+  "obsolete_nav_evidence": {
+    "binding": {
+      "object": "B77 | COLLISION | NAV | passarela superior",
+      "source": "NAV | passarela superior",
+      "triangles": 2,
+      "vertices": 4,
+      "moving": false,
+      "role": "WALKABLE_FLOOR",
+      "enabled": false,
+      "status": "superseded_floor_plane",
+      "replaced_by": "B80 | COLLISION | passarela piso visual"
+    },
+    "source_history": "automation/blender/reconcile_upper_ground_b80.py"
+  },
+  "ssot_sha256": "1d9da0962d456cb38ed3df0da797208e499a8465f82e9836c14bb337df2385e7",
+  "terrain_preserved": true,
+  "proxy_b82_preserved": true,
+  "protected_objects": 6285,
+  "historic_vertical_gate": "BLOCKED_EXTERNAL_EVIDENCE",
+  "historic_witnesses": 27,
+  "movement_enabled": false,
+  "production_ready": false,
+  "reopened": true,
+  "sha256": "b3435e0dd500bd6a95f28d3511008ad262bb4f9ce6ce483cf4115524346d8a8c"
+}

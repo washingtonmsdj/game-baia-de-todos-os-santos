@@ -1,0 +1,27 @@
+{
+  "schema": "boas/coastal-orientation-b66-v1",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b65_piso_orla_sem_residuos.blend",
+    "revision": "R30B.65",
+    "sha256": "36ccb3462dcc7c7abe584aa1ea903eab7e5f786eefbe3c4e58954b7e9024a2d7",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b64_costa_volumes_corrigidos.blend",
+    "evidence": "docs/reports/blender/coastal_floor_r30b65.json",
+    "notes": "Limpa somente piso novo e solda a face visível do cais; costa/terreno/pistas/píeres preservados. Fidelidade e passarela pendentes."
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b66_cais_normais_corrigidas.blend",
+    "revision": "R30B.66",
+    "sha256": "1c64173cc11b4c086084e55a6d0a6e399a1a67a1715babc160517221d45f0bf8"
+  },
+  "removed_numeric_floor_faces": 4,
+  "removed_numeric_area_blender_units2": 5.8088917285203934e-05,
+  "quay_faces_reversed_seaward": 678,
+  "wrong_outward_faces_after": 0,
+  "wet_floor_centroids_after": 0,
+  "collision_synchronized": true,
+  "protected_changes": [],
+  "road_width_changed": false,
+  "runtime_exported": false,
+  "real_fidelity_approved": false
+}

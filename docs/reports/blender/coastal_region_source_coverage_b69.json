@@ -1,0 +1,1161 @@
+{
+  "schema": "boas/coastal-region-source-coverage-v1",
+  "source": {
+    "file": "blender/salvador_lacerda_r30b69_encontros_sem_frestas.blend",
+    "revision": "R30B.69",
+    "sha256": "30d079046f029b559ffce28d1254bc65a6a3f57f0625245b809deb9c7ad7bfa2",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b68_encontros_terrestres_pieres.blend",
+    "evidence": "docs/reports/blender/pier_land_contacts_r30b69.json",
+    "notes": "Corrige frestas residuais por cortes em coordenadas locais; 16000 probes, sem lacunas terrestres amostradas. Terrenos, costa, mar e decks preservados; alturas e acessibilidade pendentes."
+  },
+  "xy_fit_quality": "candidate",
+  "source_capture": "aleph-20260924T205631Z-aqqo7pkx",
+  "aleph_inputs": [
+    {
+      "kind": "terrain.tif",
+      "expected_sha256": "674fe65e08c761f879f1fa02a5560a62c9e836c09e1dfacb2aa805e9def15ca7",
+      "available": false,
+      "hash_matches": false
+    },
+    {
+      "kind": "map.osm",
+      "expected_sha256": "a96cd5ae5faf4dbb5d84ae120d545ab67f72be51b3330bcb2b23313169a48112",
+      "available": false,
+      "hash_matches": false
+    }
+  ],
+  "coastline_source_features": [
+    {
+      "osm_id": 291006881,
+      "bounds": [
+        24.53609953261912,
+        937.2206468484364,
+        601.7080342124682,
+        2436.726980581414
+      ],
+      "source_nodes": 62
+    },
+    {
+      "osm_id": 354138561,
+      "bounds": [
+        -1089.6910113720223,
+        -354.8296856805682,
+        -728.3326961582061,
+        -94.77637665299699
+      ],
+      "source_nodes": 155
+    },
+    {
+      "osm_id": 609043796,
+      "bounds": [
+        -385.7420963649638,
+        -180.65212291292846,
+        -94.77637665299699,
+        121.23901729215868
+      ],
+      "source_nodes": 30
+    },
+    {
+      "osm_id": 609043797,
+      "bounds": [
+        -271.8114113523625,
+        31.300240708515048,
+        63.4639545280952,
+        601.7080342124682
+      ],
+      "source_nodes": 42
+    }
+  ],
+  "roads": [
+    {
+      "osm_id": 30968017,
+      "name": "Rua Chile",
+      "highway": "secondary",
+      "source_width_m": null,
+      "bounds": [
+        20.070772042963654,
+        58.21577620692551,
+        -50.846075928770006,
+        -2.680563201662153
+      ],
+      "samples": {
+        "road_material_present": 8
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 46348179,
+      "name": "Avenida Lafayete Coutinho",
+      "highway": "primary",
+      "source_width_m": null,
+      "bounds": [
+        -217.98914743307978,
+        -70.1895895190537,
+        -71.91337709035724,
+        88.73427379410714
+      ],
+      "samples": {
+        "road_material_present": 25
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 48846608,
+      "name": "Rua da Argentina",
+      "highway": "residential",
+      "source_width_m": null,
+      "bounds": [
+        34.09772453550249,
+        126.57006948534399,
+        423.81294776313007,
+        517.1006117307115
+      ],
+      "samples": {
+        "road_material_present": 4
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 48846625,
+      "name": "Ladeira da Montanha",
+      "highway": "tertiary",
+      "source_width_m": null,
+      "bounds": [
+        -169.42958488408476,
+        114.94635644135997,
+        -177.65442852349952,
+        189.87753862235695
+      ],
+      "samples": {
+        "road_material_present": 33
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 48846634,
+      "name": null,
+      "highway": "service",
+      "source_width_m": null,
+      "bounds": [
+        -265.1515568527393,
+        -148.98672642884776,
+        1.8741241139359772,
+        71.54038046859205
+      ],
+      "samples": {
+        "road_material_present": 21
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 48849200,
+      "name": "Rua Frederico de Castro Rabelo",
+      "highway": "residential",
+      "source_width_m": null,
+      "bounds": [
+        21.953633277677,
+        59.256054618395865,
+        219.67330942628905,
+        256.6675676603336
+      ],
+      "samples": {
+        "road_material_present": 6
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 59392607,
+      "name": null,
+      "highway": "service",
+      "source_width_m": null,
+      "bounds": [
+        -221.51136657129973,
+        -204.9472424564883,
+        68.76101077115163,
+        84.22523375181481
+      ],
+      "samples": {
+        "road_material_present": 3
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 85524300,
+      "name": "Rua da Bélgica",
+      "highway": "primary",
+      "source_width_m": null,
+      "bounds": [
+        -93.56630951492116,
+        -44.32923987880349,
+        155.3966089070309,
+        203.70602362579666
+      ],
+      "samples": {
+        "road_material_present": 9
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 145218785,
+      "name": "Avenida Estados Unidos",
+      "highway": "secondary",
+      "source_width_m": null,
+      "bounds": [
+        -141.75062881503254,
+        -86.02758063748479,
+        257.8107057570014,
+        313.3522284247447
+      ],
+      "samples": {
+        "road_material_present": 8
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 145218787,
+      "name": "Rua da Bélgica",
+      "highway": "primary",
+      "source_width_m": null,
+      "bounds": [
+        -204.37953715771437,
+        -45.065133958589286,
+        129.44131013494916,
+        306.19835589267313
+      ],
+      "samples": {
+        "road_material_present": 28
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 154743326,
+      "name": "Rua do Corpo Santo",
+      "highway": "residential",
+      "source_width_m": null,
+      "bounds": [
+        27.44920134311542,
+        152.84014187334105,
+        145.65743457665667,
+        271.2800816674717
+      ],
+      "samples": {
+        "road_material_present": 5
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 154743330,
+      "name": "Rua Visconde do Rosário",
+      "highway": "residential",
+      "source_width_m": null,
+      "bounds": [
+        -31.381232662592083,
+        3.6985557698644698,
+        168.12126087374054,
+        202.69756189617328
+      ],
+      "samples": {
+        "road_material_present": 5
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 154743335,
+      "name": "Rua da Bélgica",
+      "highway": "tertiary",
+      "source_width_m": null,
+      "bounds": [
+        -44.32923987880349,
+        -22.05806465819478,
+        133.0670827019494,
+        155.3966089070309
+      ],
+      "samples": {
+        "road_material_present": 4
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 154743338,
+      "name": "Rua do Corpo Santo",
+      "highway": "residential",
+      "source_width_m": null,
+      "bounds": [
+        -16.177179530262947,
+        27.44920134311542,
+        114.78358417423442,
+        145.65743457665667
+      ],
+      "samples": {
+        "road_material_present": 8
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 158089951,
+      "name": "Rua da Ajuda",
+      "highway": "secondary",
+      "source_width_m": null,
+      "bounds": [
+        -39.65187809057534,
+        89.17470036214218,
+        -183.27814819687046,
+        -44.10267955670133
+      ],
+      "samples": {
+        "road_material_present": 5
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 231091547,
+      "name": "Rua Chile",
+      "highway": "secondary",
+      "source_width_m": null,
+      "bounds": [
+        -115.52988996496424,
+        20.070772042963654,
+        -204.99970163265243,
+        -50.846075928770006
+      ],
+      "samples": {
+        "road_material_present": 10
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 231091555,
+      "name": "Rua do Pau da Bandeira",
+      "highway": "residential",
+      "source_width_m": null,
+      "bounds": [
+        -169.42958488408476,
+        -23.46418996108696,
+        -177.65442852349952,
+        -73.7765980202239
+      ],
+      "samples": {
+        "road_material_present": 11
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 231091556,
+      "name": "Rua do Tira Chapéu",
+      "highway": "residential",
+      "source_width_m": null,
+      "bounds": [
+        20.070772042963654,
+        80.39574593864381,
+        -127.49374286551028,
+        -50.846075928770006
+      ],
+      "samples": {
+        "road_material_present": 7
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 231091558,
+      "name": "Rua das Vassouras",
+      "highway": "residential",
+      "source_width_m": null,
+      "bounds": [
+        -23.46418996108696,
+        12.557834313251078,
+        -131.5118867070414,
+        -99.90459207515232
+      ],
+      "samples": {
+        "road_material_present": 2
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 285595135,
+      "name": "Praça Visconde de Cayru",
+      "highway": "primary",
+      "source_width_m": null,
+      "bounds": [
+        -63.92069616867229,
+        -37.75174538465217,
+        82.14548881817609,
+        155.3966089070309
+      ],
+      "samples": {
+        "road_material_present": 13
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 395865972,
+      "name": "Rua Miguel Calmon",
+      "highway": "primary",
+      "source_width_m": null,
+      "bounds": [
+        -93.56630951492116,
+        -35.745414200704545,
+        203.70602362579666,
+        262.23813564982265
+      ],
+      "samples": {
+        "road_material_present": 9
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 395865974,
+      "name": "Rua da Conceição da Praia",
+      "highway": "tertiary",
+      "source_width_m": null,
+      "bounds": [
+        -262.5912606716156,
+        -114.70822220109403,
+        -155.08423461578786,
+        14.41903948248364
+      ],
+      "samples": {
+        "road_material_present": 19
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 421206045,
+      "name": "Ladeira da Conceição da Praia",
+      "highway": "residential",
+      "source_width_m": null,
+      "bounds": [
+        -246.32339221425354,
+        -141.40394542645663,
+        -282.56320933881216,
+        -83.38479644898325
+      ],
+      "samples": {
+        "road_material_present": 5
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 439251067,
+      "name": "Rua da Bélgica",
+      "highway": "primary",
+      "source_width_m": null,
+      "bounds": [
+        -142.10126622999087,
+        -93.56630951492116,
+        203.70602362579666,
+        257.8107057570014
+      ],
+      "samples": {
+        "road_material_present": 9
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 456471269,
+      "name": "Rua Manoel Vitórino",
+      "highway": "residential",
+      "source_width_m": null,
+      "bounds": [
+        -296.67210311535746,
+        -170.0119497864507,
+        -199.4410952120088,
+        -103.90809846599586
+      ],
+      "samples": {
+        "road_material_present": 1
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 562627119,
+      "name": "Rua da Bélgica",
+      "highway": "primary",
+      "source_width_m": null,
+      "bounds": [
+        -186.447206269484,
+        -141.75062881503254,
+        257.8107057570014,
+        299.0672708163038
+      ],
+      "samples": {
+        "road_material_present": 9
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 562627121,
+      "name": "Rua Miguel Calmon",
+      "highway": "primary",
+      "source_width_m": null,
+      "bounds": [
+        48.47199867898598,
+        190.37812308548018,
+        346.72457048273645,
+        486.8388305113185
+      ],
+      "samples": {
+        "road_material_present": 2
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 562636051,
+      "name": "Rua Miguel Calmon",
+      "highway": "primary",
+      "source_width_m": null,
+      "bounds": [
+        -35.745414200704545,
+        48.47199867898598,
+        262.23813564982265,
+        346.72457048273645
+      ],
+      "samples": {
+        "road_material_present": 14
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 562637607,
+      "name": "Rua Santos Dumont",
+      "highway": "tertiary",
+      "source_width_m": null,
+      "bounds": [
+        -22.05806465819478,
+        127.17479406716302,
+        133.0670827019494,
+        290.2433589408174
+      ],
+      "samples": {
+        "road_material_present": 13
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 562637609,
+      "name": "Rua Lauro Müler",
+      "highway": "residential",
+      "source_width_m": null,
+      "bounds": [
+        51.466159088071436,
+        91.89985626516864,
+        251.16367857367732,
+        288.9475569482893
+      ],
+      "samples": {
+        "road_material_present": 1
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 562637612,
+      "name": "Rua da Grécia",
+      "highway": "residential",
+      "source_width_m": null,
+      "bounds": [
+        -86.02758063748479,
+        -35.745414200704545,
+        262.23813564982265,
+        313.3522284247447
+      ],
+      "samples": {
+        "road_material_present": 8
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 562637613,
+      "name": "Avenida Estados Unidos",
+      "highway": "secondary",
+      "source_width_m": null,
+      "bounds": [
+        -86.02758063748479,
+        251.82645923038945,
+        313.3522284247447,
+        653.090291767614
+      ],
+      "samples": {
+        "road_material_present": 22
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 562638716,
+      "name": "Rua Portugal",
+      "highway": "residential",
+      "source_width_m": null,
+      "bounds": [
+        21.953633277677,
+        83.04185377061367,
+        256.6675676603336,
+        321.6578992486466
+      ],
+      "samples": {
+        "road_material_present": 6
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 562638717,
+      "name": "Rua Pinto Martins",
+      "highway": "tertiary",
+      "source_width_m": null,
+      "bounds": [
+        48.47199867898598,
+        83.04185377061367,
+        321.6578992486466,
+        346.72457048273645
+      ],
+      "samples": {
+        "road_material_present": 2
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 562646007,
+      "name": "Avenida da França",
+      "highway": "primary",
+      "source_width_m": null,
+      "bounds": [
+        -186.447206269484,
+        380.6209099222906,
+        299.0672708163038,
+        926.0609118579887
+      ],
+      "samples": {
+        "road_material_present": 38
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 562660148,
+      "name": "Avenida Lafayete Coutinho",
+      "highway": "primary",
+      "source_width_m": null,
+      "bounds": [
+        -274.0031733987853,
+        -115.56570559740067,
+        -151.02880754391663,
+        33.8702271473594
+      ],
+      "samples": {
+        "road_material_present": 20
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 563740405,
+      "name": "Avenida da França",
+      "highway": "primary",
+      "source_width_m": null,
+      "bounds": [
+        -204.37953715771437,
+        128.71112760994583,
+        306.19835589267313,
+        633.1181618070696
+      ],
+      "samples": {
+        "road_material_present": 39
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 778284292,
+      "name": null,
+      "highway": "service",
+      "source_width_m": null,
+      "bounds": [
+        -233.55299405334517,
+        624.73097498063,
+        327.25936959823593,
+        1447.1373864004854
+      ],
+      "samples": {
+        "road_material_present": 41,
+        "ground_without_road_material": 1
+      },
+      "examples": [
+        {
+          "xy": [
+            55.81029331858123,
+            619.4845922367316
+          ],
+          "status": "ground_without_road_material",
+          "support": {
+            "z": 6.865997314453125,
+            "object": "MVP | terreno corrigido | colisão estática",
+            "role": 0,
+            "material": 0
+          }
+        }
+      ],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 804043431,
+      "name": null,
+      "highway": "service",
+      "source_width_m": null,
+      "bounds": [
+        -94.63506405288354,
+        -3.802085774950683,
+        434.77111136727035,
+        513.8760370991658
+      ],
+      "samples": {
+        "road_material_present": 15
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 804043432,
+      "name": null,
+      "highway": "service",
+      "source_width_m": null,
+      "bounds": [
+        -3.802085774950683,
+        50.05115593923256,
+        513.8760370991658,
+        567.8228064717259
+      ],
+      "samples": {
+        "road_material_present": 8
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 804043434,
+      "name": null,
+      "highway": "service",
+      "source_width_m": null,
+      "bounds": [
+        -26.621068959124386,
+        -21.28006103122607,
+        485.45345588587224,
+        491.0217126607895
+      ],
+      "samples": {
+        "road_material_present": 2
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 804043435,
+      "name": null,
+      "highway": "service",
+      "source_width_m": null,
+      "bounds": [
+        50.05115593923256,
+        114.44211870897561,
+        567.8228064717259,
+        618.9752480029128
+      ],
+      "samples": {
+        "road_material_present": 1
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 804043460,
+      "name": "Praça da Inglaterra",
+      "highway": "tertiary",
+      "source_width_m": null,
+      "bounds": [
+        -7.455674479715526,
+        48.47199867898598,
+        346.72457048273645,
+        388.91086294665
+      ],
+      "samples": {
+        "road_material_present": 8
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 978525930,
+      "name": "Praça Visconde de Cayru",
+      "highway": "primary",
+      "source_width_m": null,
+      "bounds": [
+        -115.56570559740067,
+        -63.92069616867229,
+        33.8702271473594,
+        82.14548881817609
+      ],
+      "samples": {
+        "road_material_present": 8
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 978527849,
+      "name": "Avenida Lafayete Coutinho",
+      "highway": "primary",
+      "source_width_m": null,
+      "bounds": [
+        -268.6939136525616,
+        -217.98914743307978,
+        -131.59407404111698,
+        -71.91337709035724
+      ],
+      "samples": {
+        "road_material_present": 5
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 987002818,
+      "name": "Avenida da França",
+      "highway": "service",
+      "source_width_m": null,
+      "bounds": [
+        -222.33279755478725,
+        -204.37953715771437,
+        289.81185911549255,
+        306.19835589267313
+      ],
+      "samples": {
+        "road_material_present": 6
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 1004133491,
+      "name": "Avenida Lafayete Coutinho",
+      "highway": "primary",
+      "source_width_m": null,
+      "bounds": [
+        -70.1895895190537,
+        -45.065133958589286,
+        88.73427379410714,
+        129.44131013494916
+      ],
+      "samples": {
+        "road_material_present": 7
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 1004133492,
+      "name": null,
+      "highway": "service",
+      "source_width_m": null,
+      "bounds": [
+        -290.9766744663939,
+        -178.8745850995183,
+        -23.866042068693787,
+        46.32828550343402
+      ],
+      "samples": {
+        "ground_without_road_material": 1,
+        "road_material_present": 18
+      },
+      "examples": [
+        {
+          "xy": [
+            -287.4071316595655,
+            8.360785110387951
+          ],
+          "status": "ground_without_road_material",
+          "support": {
+            "z": 6.986083984375,
+            "object": "B63 | VISUAL | piso contínuo até o cais",
+            "role": null,
+            "material": 0
+          }
+        }
+      ],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 1004133493,
+      "name": null,
+      "highway": "service",
+      "source_width_m": null,
+      "bounds": [
+        -331.60208265157416,
+        -233.81147903529927,
+        -165.15302659152076,
+        -23.866042068693787
+      ],
+      "samples": {
+        "road_material_present": 10,
+        "ground_without_road_material": 3
+      },
+      "examples": [
+        {
+          "xy": [
+            -275.3838367474265,
+            -78.70267030000687
+          ],
+          "status": "ground_without_road_material",
+          "support": {
+            "z": 7.3271636962890625,
+            "object": "MVP | terreno corrigido | colisão estática",
+            "role": 0,
+            "material": 0
+          }
+        },
+        {
+          "xy": [
+            -280.2149724095128,
+            -85.13975335815921
+          ],
+          "status": "ground_without_road_material",
+          "support": {
+            "z": 7.4131927490234375,
+            "object": "MVP | terreno corrigido | colisão estática",
+            "role": 0,
+            "material": 0
+          }
+        },
+        {
+          "xy": [
+            -285.26886772480793,
+            -91.89278182745329
+          ],
+          "status": "ground_without_road_material",
+          "support": {
+            "z": 7.324981689453125,
+            "object": "MVP | terreno corrigido | colisão estática",
+            "role": 0,
+            "material": 0
+          }
+        }
+      ],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 1004133494,
+      "name": null,
+      "highway": "service",
+      "source_width_m": null,
+      "bounds": [
+        -303.73716011457145,
+        -246.7871322701685,
+        -126.07746549323201,
+        -56.17287959647365
+      ],
+      "samples": {
+        "road_material_present": 7,
+        "ground_without_road_material": 1
+      },
+      "examples": [
+        {
+          "xy": [
+            -276.8950411581027,
+            -107.24869557083002
+          ],
+          "status": "ground_without_road_material",
+          "support": {
+            "z": 7.2556610107421875,
+            "object": "MVP | terreno corrigido | colisão estática",
+            "role": 0,
+            "material": 0
+          }
+        }
+      ],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 1004133497,
+      "name": "Rua da Conceição da Praia",
+      "highway": "tertiary",
+      "source_width_m": null,
+      "bounds": [
+        -114.70822220109403,
+        -16.177179530262947,
+        14.41903948248364,
+        133.0670827019494
+      ],
+      "samples": {
+        "road_material_present": 19
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 1150035141,
+      "name": "Terminal Turístico Náutico da Bahia",
+      "highway": "service",
+      "source_width_m": null,
+      "bounds": [
+        -232.20048032328486,
+        -222.33279755478725,
+        269.41727914335206,
+        289.81185911549255
+      ],
+      "samples": {
+        "road_material_present": 9
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 1150035142,
+      "name": null,
+      "highway": "service",
+      "source_width_m": null,
+      "bounds": [
+        -237.19644318614155,
+        -193.32259267009795,
+        230.93654314987361,
+        274.36463779304177
+      ],
+      "samples": {
+        "road_material_present": 7
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 1266629200,
+      "name": "Rua Visconde do Rosário",
+      "highway": "residential",
+      "source_width_m": null,
+      "bounds": [
+        8.133465379010886,
+        27.44920134311542,
+        145.65743457665667,
+        163.78393690194935
+      ],
+      "samples": {
+        "road_material_present": 3
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    },
+    {
+      "osm_id": 1266629201,
+      "name": "Rua Portugal",
+      "highway": "residential",
+      "source_width_m": null,
+      "bounds": [
+        -31.381232662592083,
+        21.953633277677,
+        202.69756189617328,
+        256.6675676603336
+      ],
+      "samples": {
+        "road_material_present": 8
+      },
+      "examples": [],
+      "classification": "NEEDS_REVIEW",
+      "approved": false
+    }
+  ],
+  "totals": {
+    "road_material_present": 614,
+    "ground_without_road_material": 6
+  },
+  "terrain_scope": "x -560..60; y -110..620, Blender XY",
+  "limitations": [
+    "Sondagem do eixo a cada <=10m; não prova largura, faixa, quatro rodas ou tráfego",
+    "Material legado pode estar incorreto; falta material não equivale a ausência de via real",
+    "Costa atual e altimetria absoluta ainda não aprovadas",
+    "Não suavizar escarpa nem mover eixos apenas para melhorar métricas"
+  ],
+  "geometry_changed": false,
+  "approved": false
+}

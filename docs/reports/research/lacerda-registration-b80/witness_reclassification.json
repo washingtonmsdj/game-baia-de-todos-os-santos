@@ -1,0 +1,1570 @@
+{
+  "schema": "boas/registered-witness-triage-v1",
+  "allowed_classes": [
+    "ARCHITECTURE_CONFIRMED_WRONG",
+    "CABIN_CANDIDATE_WRONG",
+    "BOTH_POSSIBLE",
+    "CONTACT_ONLY",
+    "UNRESOLVED"
+  ],
+  "witnesses": [
+    {
+      "witness_id": "B80-W01",
+      "group": "lower-platform",
+      "component": "FUNCIONAL | 3 piso",
+      "obstacle": "ESTAÇÃO INFERIOR | plataforma",
+      "t_witness": 0.9984093463304686,
+      "floor_z_scene_units": 7.505746054281921,
+      "surface_contact_interval": {
+        "first": 0.9983256277162827,
+        "last": 1.0
+      },
+      "interval_note": "Intervalo de contato de superfícies do par; não afirmar penetração sólida em todo o intervalo.",
+      "intersection_type": "strict_vertex_inside_watertight_convex_solid",
+      "scene_detection_classification": "ERROR",
+      "independent_correction_classification": "NEEDS_REVIEW",
+      "scene_source": {
+        "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+        "revision": "R30B.80",
+        "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+      },
+      "geometry_export": "artifacts/lacerda-controller/geometry_b80.json",
+      "obstacle_bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          7.071000099182129
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          7.35099983215332
+        ]
+      },
+      "complete_mesh": true,
+      "object_provenance_properties": {},
+      "source_binding_verified": false,
+      "independent_evidence": [
+        "source:lacerda-issue22-sucop-03",
+        "source:lacerda-issue22-sucop-12",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sbqp-2025",
+        "source:lacerda-issue22-sucop-memorial"
+      ],
+      "justification": "Penetração comprovada na geometria candidata B80. Projeto oficial sustenta relações de acesso/torre/laje, mas não há registro desenho→SSOT por controles nem desenho das cabines atuais. O nome da mesh não prova correspondência arquitetônica. Não é possível atribuir o conflito exclusivamente à laje ou à cabine/posição candidata.",
+      "authorized_correction": null,
+      "next_evidence": "Registrar pranchas com controles independentes, esclarecer estado executado e obter plano de montagem/levantamento cabine–poço–soleiras.",
+      "registration_classification": "UNRESOLVED",
+      "registration_evidence": [
+        "vertical_registration.json",
+        "xy_control_attempts.json",
+        "vertical_decomposition.json"
+      ],
+      "registered_physical_correspondence": false,
+      "reason_after_registration_attempt": "Os controles Z permitem diagnóstico de deslocamento, mas XY e perfil estrutural não foram registrados com três correspondências físicas verificadas; arquitetura e cabine continuam hipóteses sem atribuição exclusiva."
+    },
+    {
+      "witness_id": "B80-W02",
+      "group": "lower-roof",
+      "component": "FUNCIONAL | 3 piso",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "t_witness": 0.9258559548717974,
+      "floor_z_scene_units": 12.055496687290045,
+      "surface_contact_interval": {
+        "first": 0.9255290510525757,
+        "last": 0.9320671274370111
+      },
+      "interval_note": "Intervalo de contato de superfícies do par; não afirmar penetração sólida em todo o intervalo.",
+      "intersection_type": "strict_vertex_inside_watertight_convex_solid",
+      "scene_detection_classification": "ERROR",
+      "independent_correction_classification": "NEEDS_REVIEW",
+      "scene_source": {
+        "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+        "revision": "R30B.80",
+        "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+      },
+      "geometry_export": "artifacts/lacerda-controller/geometry_b80.json",
+      "obstacle_bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          11.666000366210938
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          11.916000366210938
+        ]
+      },
+      "complete_mesh": true,
+      "object_provenance_properties": {},
+      "source_binding_verified": false,
+      "independent_evidence": [
+        "source:lacerda-issue22-sucop-04",
+        "source:lacerda-issue22-sucop-13",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sucop-31",
+        "source:lacerda-issue22-sbqp-2025",
+        "source:lacerda-issue22-sucop-memorial"
+      ],
+      "justification": "Penetração comprovada na geometria candidata B80. Projeto oficial sustenta relações de acesso/torre/laje, mas não há registro desenho→SSOT por controles nem desenho das cabines atuais. O nome da mesh não prova correspondência arquitetônica. Não é possível atribuir o conflito exclusivamente à laje ou à cabine/posição candidata.",
+      "authorized_correction": null,
+      "next_evidence": "Registrar pranchas com controles independentes, esclarecer estado executado e obter plano de montagem/levantamento cabine–poço–soleiras.",
+      "registration_classification": "UNRESOLVED",
+      "registration_evidence": [
+        "vertical_registration.json",
+        "xy_control_attempts.json",
+        "vertical_decomposition.json"
+      ],
+      "registered_physical_correspondence": false,
+      "reason_after_registration_attempt": "Os controles Z permitem diagnóstico de deslocamento, mas XY e perfil estrutural não foram registrados com três correspondências físicas verificadas; arquitetura e cabine continuam hipóteses sem atribuição exclusiva."
+    },
+    {
+      "witness_id": "B80-W03",
+      "group": "upper-platform",
+      "component": "FUNCIONAL | 3 piso",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "t_witness": 0.0002671061441592733,
+      "floor_z_scene_units": 70.0982479045459,
+      "surface_contact_interval": {
+        "first": 0.0,
+        "last": 0.005342122883185466
+      },
+      "interval_note": "Intervalo de contato de superfícies do par; não afirmar penetração sólida em todo o intervalo.",
+      "intersection_type": "strict_vertex_inside_watertight_convex_solid",
+      "scene_detection_classification": "ERROR",
+      "independent_correction_classification": "NEEDS_REVIEW",
+      "scene_source": {
+        "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+        "revision": "R30B.80",
+        "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+      },
+      "geometry_export": "artifacts/lacerda-controller/geometry_b80.json",
+      "obstacle_bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          69.77999877929688
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          70.05999755859375
+        ]
+      },
+      "complete_mesh": true,
+      "object_provenance_properties": {},
+      "source_binding_verified": false,
+      "independent_evidence": [
+        "source:lacerda-issue22-sucop-08",
+        "source:lacerda-issue22-sucop-17",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sucop-24",
+        "source:lacerda-issue22-sucop-34",
+        "source:lacerda-issue22-sbqp-2025",
+        "source:lacerda-issue22-sucop-memorial"
+      ],
+      "justification": "Penetração comprovada na geometria candidata B80. Projeto oficial sustenta relações de acesso/torre/laje, mas não há registro desenho→SSOT por controles nem desenho das cabines atuais. O nome da mesh não prova correspondência arquitetônica. Não é possível atribuir o conflito exclusivamente à laje ou à cabine/posição candidata.",
+      "authorized_correction": null,
+      "next_evidence": "Registrar pranchas com controles independentes, esclarecer estado executado e obter plano de montagem/levantamento cabine–poço–soleiras.",
+      "registration_classification": "UNRESOLVED",
+      "registration_evidence": [
+        "vertical_registration.json",
+        "xy_control_attempts.json",
+        "vertical_decomposition.json"
+      ],
+      "registered_physical_correspondence": false,
+      "reason_after_registration_attempt": "Os controles Z permitem diagnóstico de deslocamento, mas XY e perfil estrutural não foram registrados com três correspondências físicas verificadas; arquitetura e cabine continuam hipóteses sem atribuição exclusiva."
+    },
+    {
+      "witness_id": "B80-W04",
+      "group": "lower-roof",
+      "component": "FUNCIONAL | 3 teto",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "t_witness": 0.9728667073751849,
+      "floor_z_scene_units": 9.107499403354495,
+      "surface_contact_interval": {
+        "first": 0.9725716915513564,
+        "last": 0.9784720080279276
+      },
+      "interval_note": "Intervalo de contato de superfícies do par; não afirmar penetração sólida em todo o intervalo.",
+      "intersection_type": "strict_vertex_inside_watertight_convex_solid",
+      "scene_detection_classification": "ERROR",
+      "independent_correction_classification": "NEEDS_REVIEW",
+      "scene_source": {
+        "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+        "revision": "R30B.80",
+        "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+      },
+      "geometry_export": "artifacts/lacerda-controller/geometry_b80.json",
+      "obstacle_bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          11.666000366210938
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          11.916000366210938
+        ]
+      },
+      "complete_mesh": true,
+      "object_provenance_properties": {},
+      "source_binding_verified": false,
+      "independent_evidence": [
+        "source:lacerda-issue22-sucop-04",
+        "source:lacerda-issue22-sucop-13",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sucop-31",
+        "source:lacerda-issue22-sbqp-2025",
+        "source:lacerda-issue22-sucop-memorial"
+      ],
+      "justification": "Penetração comprovada na geometria candidata B80. Projeto oficial sustenta relações de acesso/torre/laje, mas não há registro desenho→SSOT por controles nem desenho das cabines atuais. O nome da mesh não prova correspondência arquitetônica. Não é possível atribuir o conflito exclusivamente à laje ou à cabine/posição candidata.",
+      "authorized_correction": null,
+      "next_evidence": "Registrar pranchas com controles independentes, esclarecer estado executado e obter plano de montagem/levantamento cabine–poço–soleiras.",
+      "registration_classification": "UNRESOLVED",
+      "registration_evidence": [
+        "vertical_registration.json",
+        "xy_control_attempts.json",
+        "vertical_decomposition.json"
+      ],
+      "registered_physical_correspondence": false,
+      "reason_after_registration_attempt": "Os controles Z permitem diagnóstico de deslocamento, mas XY e perfil estrutural não foram registrados com três correspondências físicas verificadas; arquitetura e cabine continuam hipóteses sem atribuição exclusiva."
+    },
+    {
+      "witness_id": "B80-W05",
+      "group": "upper-platform",
+      "component": "FUNCIONAL | 3 teto",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "t_witness": 0.04568724109685793,
+      "floor_z_scene_units": 67.24999665677247,
+      "surface_contact_interval": {
+        "first": 0.045368306234897716,
+        "last": 0.051747003474101896
+      },
+      "interval_note": "Intervalo de contato de superfícies do par; não afirmar penetração sólida em todo o intervalo.",
+      "intersection_type": "strict_vertex_inside_watertight_convex_solid",
+      "scene_detection_classification": "ERROR",
+      "independent_correction_classification": "NEEDS_REVIEW",
+      "scene_source": {
+        "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+        "revision": "R30B.80",
+        "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+      },
+      "geometry_export": "artifacts/lacerda-controller/geometry_b80.json",
+      "obstacle_bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          69.77999877929688
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          70.05999755859375
+        ]
+      },
+      "complete_mesh": true,
+      "object_provenance_properties": {},
+      "source_binding_verified": false,
+      "independent_evidence": [
+        "source:lacerda-issue22-sucop-08",
+        "source:lacerda-issue22-sucop-17",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sucop-24",
+        "source:lacerda-issue22-sucop-34",
+        "source:lacerda-issue22-sbqp-2025",
+        "source:lacerda-issue22-sucop-memorial"
+      ],
+      "justification": "Penetração comprovada na geometria candidata B80. Projeto oficial sustenta relações de acesso/torre/laje, mas não há registro desenho→SSOT por controles nem desenho das cabines atuais. O nome da mesh não prova correspondência arquitetônica. Não é possível atribuir o conflito exclusivamente à laje ou à cabine/posição candidata.",
+      "authorized_correction": null,
+      "next_evidence": "Registrar pranchas com controles independentes, esclarecer estado executado e obter plano de montagem/levantamento cabine–poço–soleiras.",
+      "registration_classification": "UNRESOLVED",
+      "registration_evidence": [
+        "vertical_registration.json",
+        "xy_control_attempts.json",
+        "vertical_decomposition.json"
+      ],
+      "registered_physical_correspondence": false,
+      "reason_after_registration_attempt": "Os controles Z permitem diagnóstico de deslocamento, mas XY e perfil estrutural não foram registrados com três correspondências físicas verificadas; arquitetura e cabine continuam hipóteses sem atribuição exclusiva."
+    },
+    {
+      "witness_id": "B80-W06",
+      "group": "lower-roof",
+      "component": "FUNCIONAL | 3 lateral inferior -1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "t_witness": 0.9287900823532903,
+      "floor_z_scene_units": 11.871500486728515,
+      "surface_contact_interval": {
+        "first": 0.9280804556744416,
+        "last": 0.9422729892514142
+      },
+      "interval_note": "Intervalo de contato de superfícies do par; não afirmar penetração sólida em todo o intervalo.",
+      "intersection_type": "strict_vertex_inside_watertight_convex_solid",
+      "scene_detection_classification": "ERROR",
+      "independent_correction_classification": "NEEDS_REVIEW",
+      "scene_source": {
+        "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+        "revision": "R30B.80",
+        "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+      },
+      "geometry_export": "artifacts/lacerda-controller/geometry_b80.json",
+      "obstacle_bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          11.666000366210938
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          11.916000366210938
+        ]
+      },
+      "complete_mesh": true,
+      "object_provenance_properties": {},
+      "source_binding_verified": false,
+      "independent_evidence": [
+        "source:lacerda-issue22-sucop-04",
+        "source:lacerda-issue22-sucop-13",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sucop-31",
+        "source:lacerda-issue22-sbqp-2025",
+        "source:lacerda-issue22-sucop-memorial"
+      ],
+      "justification": "Penetração comprovada na geometria candidata B80. Projeto oficial sustenta relações de acesso/torre/laje, mas não há registro desenho→SSOT por controles nem desenho das cabines atuais. O nome da mesh não prova correspondência arquitetônica. Não é possível atribuir o conflito exclusivamente à laje ou à cabine/posição candidata.",
+      "authorized_correction": null,
+      "next_evidence": "Registrar pranchas com controles independentes, esclarecer estado executado e obter plano de montagem/levantamento cabine–poço–soleiras.",
+      "registration_classification": "UNRESOLVED",
+      "registration_evidence": [
+        "vertical_registration.json",
+        "xy_control_attempts.json",
+        "vertical_decomposition.json"
+      ],
+      "registered_physical_correspondence": false,
+      "reason_after_registration_attempt": "Os controles Z permitem diagnóstico de deslocamento, mas XY e perfil estrutural não foram registrados com três correspondências físicas verificadas; arquitetura e cabine continuam hipóteses sem atribuição exclusiva."
+    },
+    {
+      "witness_id": "B80-W07",
+      "group": "upper-platform",
+      "component": "FUNCIONAL | 3 lateral inferior -1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "t_witness": 0.001610616074963251,
+      "floor_z_scene_units": 70.01399774014648,
+      "surface_contact_interval": {
+        "first": 0.0008770703579829732,
+        "last": 0.015547984697588526
+      },
+      "interval_note": "Intervalo de contato de superfícies do par; não afirmar penetração sólida em todo o intervalo.",
+      "intersection_type": "strict_vertex_inside_watertight_convex_solid",
+      "scene_detection_classification": "ERROR",
+      "independent_correction_classification": "NEEDS_REVIEW",
+      "scene_source": {
+        "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+        "revision": "R30B.80",
+        "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+      },
+      "geometry_export": "artifacts/lacerda-controller/geometry_b80.json",
+      "obstacle_bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          69.77999877929688
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          70.05999755859375
+        ]
+      },
+      "complete_mesh": true,
+      "object_provenance_properties": {},
+      "source_binding_verified": false,
+      "independent_evidence": [
+        "source:lacerda-issue22-sucop-08",
+        "source:lacerda-issue22-sucop-17",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sucop-24",
+        "source:lacerda-issue22-sucop-34",
+        "source:lacerda-issue22-sbqp-2025",
+        "source:lacerda-issue22-sucop-memorial"
+      ],
+      "justification": "Penetração comprovada na geometria candidata B80. Projeto oficial sustenta relações de acesso/torre/laje, mas não há registro desenho→SSOT por controles nem desenho das cabines atuais. O nome da mesh não prova correspondência arquitetônica. Não é possível atribuir o conflito exclusivamente à laje ou à cabine/posição candidata.",
+      "authorized_correction": null,
+      "next_evidence": "Registrar pranchas com controles independentes, esclarecer estado executado e obter plano de montagem/levantamento cabine–poço–soleiras.",
+      "registration_classification": "UNRESOLVED",
+      "registration_evidence": [
+        "vertical_registration.json",
+        "xy_control_attempts.json",
+        "vertical_decomposition.json"
+      ],
+      "registered_physical_correspondence": false,
+      "reason_after_registration_attempt": "Os controles Z permitem diagnóstico de deslocamento, mas XY e perfil estrutural não foram registrados com três correspondências físicas verificadas; arquitetura e cabine continuam hipóteses sem atribuição exclusiva."
+    },
+    {
+      "witness_id": "B80-W08",
+      "group": "lower-roof",
+      "component": "FUNCIONAL | 3 lateral superior -1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "t_witness": 0.9641757747520722,
+      "floor_z_scene_units": 9.652499098178716,
+      "surface_contact_interval": {
+        "first": 0.9634820920709202,
+        "last": 0.9773557456939607
+      },
+      "interval_note": "Intervalo de contato de superfícies do par; não afirmar penetração sólida em todo o intervalo.",
+      "intersection_type": "strict_vertex_inside_watertight_convex_solid",
+      "scene_detection_classification": "ERROR",
+      "independent_correction_classification": "NEEDS_REVIEW",
+      "scene_source": {
+        "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+        "revision": "R30B.80",
+        "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+      },
+      "geometry_export": "artifacts/lacerda-controller/geometry_b80.json",
+      "obstacle_bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          11.666000366210938
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          11.916000366210938
+        ]
+      },
+      "complete_mesh": true,
+      "object_provenance_properties": {},
+      "source_binding_verified": false,
+      "independent_evidence": [
+        "source:lacerda-issue22-sucop-04",
+        "source:lacerda-issue22-sucop-13",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sucop-31",
+        "source:lacerda-issue22-sbqp-2025",
+        "source:lacerda-issue22-sucop-memorial"
+      ],
+      "justification": "Penetração comprovada na geometria candidata B80. Projeto oficial sustenta relações de acesso/torre/laje, mas não há registro desenho→SSOT por controles nem desenho das cabines atuais. O nome da mesh não prova correspondência arquitetônica. Não é possível atribuir o conflito exclusivamente à laje ou à cabine/posição candidata.",
+      "authorized_correction": null,
+      "next_evidence": "Registrar pranchas com controles independentes, esclarecer estado executado e obter plano de montagem/levantamento cabine–poço–soleiras.",
+      "registration_classification": "UNRESOLVED",
+      "registration_evidence": [
+        "vertical_registration.json",
+        "xy_control_attempts.json",
+        "vertical_decomposition.json"
+      ],
+      "registered_physical_correspondence": false,
+      "reason_after_registration_attempt": "Os controles Z permitem diagnóstico de deslocamento, mas XY e perfil estrutural não foram registrados com três correspondências físicas verificadas; arquitetura e cabine continuam hipóteses sem atribuição exclusiva."
+    },
+    {
+      "witness_id": "B80-W09",
+      "group": "upper-platform",
+      "component": "FUNCIONAL | 3 lateral superior -1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "t_witness": 0.036996308473745236,
+      "floor_z_scene_units": 67.79499635159668,
+      "surface_contact_interval": {
+        "first": 0.036278706754461564,
+        "last": 0.05063074114013499
+      },
+      "interval_note": "Intervalo de contato de superfícies do par; não afirmar penetração sólida em todo o intervalo.",
+      "intersection_type": "strict_vertex_inside_watertight_convex_solid",
+      "scene_detection_classification": "ERROR",
+      "independent_correction_classification": "NEEDS_REVIEW",
+      "scene_source": {
+        "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+        "revision": "R30B.80",
+        "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+      },
+      "geometry_export": "artifacts/lacerda-controller/geometry_b80.json",
+      "obstacle_bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          69.77999877929688
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          70.05999755859375
+        ]
+      },
+      "complete_mesh": true,
+      "object_provenance_properties": {},
+      "source_binding_verified": false,
+      "independent_evidence": [
+        "source:lacerda-issue22-sucop-08",
+        "source:lacerda-issue22-sucop-17",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sucop-24",
+        "source:lacerda-issue22-sucop-34",
+        "source:lacerda-issue22-sbqp-2025",
+        "source:lacerda-issue22-sucop-memorial"
+      ],
+      "justification": "Penetração comprovada na geometria candidata B80. Projeto oficial sustenta relações de acesso/torre/laje, mas não há registro desenho→SSOT por controles nem desenho das cabines atuais. O nome da mesh não prova correspondência arquitetônica. Não é possível atribuir o conflito exclusivamente à laje ou à cabine/posição candidata.",
+      "authorized_correction": null,
+      "next_evidence": "Registrar pranchas com controles independentes, esclarecer estado executado e obter plano de montagem/levantamento cabine–poço–soleiras.",
+      "registration_classification": "UNRESOLVED",
+      "registration_evidence": [
+        "vertical_registration.json",
+        "xy_control_attempts.json",
+        "vertical_decomposition.json"
+      ],
+      "registered_physical_correspondence": false,
+      "reason_after_registration_attempt": "Os controles Z permitem diagnóstico de deslocamento, mas XY e perfil estrutural não foram registrados com três correspondências físicas verificadas; arquitetura e cabine continuam hipóteses sem atribuição exclusiva."
+    },
+    {
+      "witness_id": "B80-W10",
+      "group": "lower-roof",
+      "component": "FUNCIONAL | 3 montante janela -1 -1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "t_witness": 0.939825171960907,
+      "floor_z_scene_units": 11.17950105130371,
+      "surface_contact_interval": {
+        "first": 0.9382863174888447,
+        "last": 0.9690634069300896
+      },
+      "interval_note": "Intervalo de contato de superfícies do par; não afirmar penetração sólida em todo o intervalo.",
+      "intersection_type": "strict_vertex_inside_watertight_convex_solid",
+      "scene_detection_classification": "ERROR",
+      "independent_correction_classification": "NEEDS_REVIEW",
+      "scene_source": {
+        "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+        "revision": "R30B.80",
+        "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+      },
+      "geometry_export": "artifacts/lacerda-controller/geometry_b80.json",
+      "obstacle_bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          11.666000366210938
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          11.916000366210938
+        ]
+      },
+      "complete_mesh": true,
+      "object_provenance_properties": {},
+      "source_binding_verified": false,
+      "independent_evidence": [
+        "source:lacerda-issue22-sucop-04",
+        "source:lacerda-issue22-sucop-13",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sucop-31",
+        "source:lacerda-issue22-sbqp-2025",
+        "source:lacerda-issue22-sucop-memorial"
+      ],
+      "justification": "Penetração comprovada na geometria candidata B80. Projeto oficial sustenta relações de acesso/torre/laje, mas não há registro desenho→SSOT por controles nem desenho das cabines atuais. O nome da mesh não prova correspondência arquitetônica. Não é possível atribuir o conflito exclusivamente à laje ou à cabine/posição candidata.",
+      "authorized_correction": null,
+      "next_evidence": "Registrar pranchas com controles independentes, esclarecer estado executado e obter plano de montagem/levantamento cabine–poço–soleiras.",
+      "registration_classification": "UNRESOLVED",
+      "registration_evidence": [
+        "vertical_registration.json",
+        "xy_control_attempts.json",
+        "vertical_decomposition.json"
+      ],
+      "registered_physical_correspondence": false,
+      "reason_after_registration_attempt": "Os controles Z permitem diagnóstico de deslocamento, mas XY e perfil estrutural não foram registrados com três correspondências físicas verificadas; arquitetura e cabine continuam hipóteses sem atribuição exclusiva."
+    },
+    {
+      "witness_id": "B80-W11",
+      "group": "upper-platform",
+      "component": "FUNCIONAL | 3 montante janela -1 -1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "t_witness": 0.012645705682579934,
+      "floor_z_scene_units": 69.32199830472167,
+      "surface_contact_interval": {
+        "first": 0.011082932172386036,
+        "last": 0.04233840237626397
+      },
+      "interval_note": "Intervalo de contato de superfícies do par; não afirmar penetração sólida em todo o intervalo.",
+      "intersection_type": "strict_vertex_inside_watertight_convex_solid",
+      "scene_detection_classification": "ERROR",
+      "independent_correction_classification": "NEEDS_REVIEW",
+      "scene_source": {
+        "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+        "revision": "R30B.80",
+        "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+      },
+      "geometry_export": "artifacts/lacerda-controller/geometry_b80.json",
+      "obstacle_bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          69.77999877929688
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          70.05999755859375
+        ]
+      },
+      "complete_mesh": true,
+      "object_provenance_properties": {},
+      "source_binding_verified": false,
+      "independent_evidence": [
+        "source:lacerda-issue22-sucop-08",
+        "source:lacerda-issue22-sucop-17",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sucop-24",
+        "source:lacerda-issue22-sucop-34",
+        "source:lacerda-issue22-sbqp-2025",
+        "source:lacerda-issue22-sucop-memorial"
+      ],
+      "justification": "Penetração comprovada na geometria candidata B80. Projeto oficial sustenta relações de acesso/torre/laje, mas não há registro desenho→SSOT por controles nem desenho das cabines atuais. O nome da mesh não prova correspondência arquitetônica. Não é possível atribuir o conflito exclusivamente à laje ou à cabine/posição candidata.",
+      "authorized_correction": null,
+      "next_evidence": "Registrar pranchas com controles independentes, esclarecer estado executado e obter plano de montagem/levantamento cabine–poço–soleiras.",
+      "registration_classification": "UNRESOLVED",
+      "registration_evidence": [
+        "vertical_registration.json",
+        "xy_control_attempts.json",
+        "vertical_decomposition.json"
+      ],
+      "registered_physical_correspondence": false,
+      "reason_after_registration_attempt": "Os controles Z permitem diagnóstico de deslocamento, mas XY e perfil estrutural não foram registrados com três correspondências físicas verificadas; arquitetura e cabine continuam hipóteses sem atribuição exclusiva."
+    },
+    {
+      "witness_id": "B80-W12",
+      "group": "lower-roof",
+      "component": "FUNCIONAL | 3 porta cabine -1 -1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "t_witness": 0.9301136592395274,
+      "floor_z_scene_units": 11.788500303623053,
+      "surface_contact_interval": {
+        "first": 0.9280804556744416,
+        "last": 0.9687445269761575
+      },
+      "interval_note": "Intervalo de contato de superfícies do par; não afirmar penetração sólida em todo o intervalo.",
+      "intersection_type": "strict_vertex_inside_watertight_convex_solid",
+      "scene_detection_classification": "ERROR",
+      "independent_correction_classification": "NEEDS_REVIEW",
+      "scene_source": {
+        "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+        "revision": "R30B.80",
+        "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+      },
+      "geometry_export": "artifacts/lacerda-controller/geometry_b80.json",
+      "obstacle_bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          11.666000366210938
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          11.916000366210938
+        ]
+      },
+      "complete_mesh": true,
+      "object_provenance_properties": {},
+      "source_binding_verified": false,
+      "independent_evidence": [
+        "source:lacerda-issue22-sucop-04",
+        "source:lacerda-issue22-sucop-13",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sucop-31",
+        "source:lacerda-issue22-sbqp-2025",
+        "source:lacerda-issue22-sucop-memorial"
+      ],
+      "justification": "Penetração comprovada na geometria candidata B80. Projeto oficial sustenta relações de acesso/torre/laje, mas não há registro desenho→SSOT por controles nem desenho das cabines atuais. O nome da mesh não prova correspondência arquitetônica. Não é possível atribuir o conflito exclusivamente à laje ou à cabine/posição candidata.",
+      "authorized_correction": null,
+      "next_evidence": "Registrar pranchas com controles independentes, esclarecer estado executado e obter plano de montagem/levantamento cabine–poço–soleiras.",
+      "registration_classification": "UNRESOLVED",
+      "registration_evidence": [
+        "vertical_registration.json",
+        "xy_control_attempts.json",
+        "vertical_decomposition.json"
+      ],
+      "registered_physical_correspondence": false,
+      "reason_after_registration_attempt": "Os controles Z permitem diagnóstico de deslocamento, mas XY e perfil estrutural não foram registrados com três correspondências físicas verificadas; arquitetura e cabine continuam hipóteses sem atribuição exclusiva."
+    },
+    {
+      "witness_id": "B80-W13",
+      "group": "upper-platform",
+      "component": "FUNCIONAL | 3 porta cabine -1 -1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "t_witness": 0.002934192961200417,
+      "floor_z_scene_units": 69.93099755704101,
+      "surface_contact_interval": {
+        "first": 0.0008770703579829732,
+        "last": 0.04201952242233185
+      },
+      "interval_note": "Intervalo de contato de superfícies do par; não afirmar penetração sólida em todo o intervalo.",
+      "intersection_type": "strict_vertex_inside_watertight_convex_solid",
+      "scene_detection_classification": "ERROR",
+      "independent_correction_classification": "NEEDS_REVIEW",
+      "scene_source": {
+        "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+        "revision": "R30B.80",
+        "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+      },
+      "geometry_export": "artifacts/lacerda-controller/geometry_b80.json",
+      "obstacle_bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          69.77999877929688
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          70.05999755859375
+        ]
+      },
+      "complete_mesh": true,
+      "object_provenance_properties": {},
+      "source_binding_verified": false,
+      "independent_evidence": [
+        "source:lacerda-issue22-sucop-08",
+        "source:lacerda-issue22-sucop-17",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sucop-24",
+        "source:lacerda-issue22-sucop-34",
+        "source:lacerda-issue22-sbqp-2025",
+        "source:lacerda-issue22-sucop-memorial"
+      ],
+      "justification": "Penetração comprovada na geometria candidata B80. Projeto oficial sustenta relações de acesso/torre/laje, mas não há registro desenho→SSOT por controles nem desenho das cabines atuais. O nome da mesh não prova correspondência arquitetônica. Não é possível atribuir o conflito exclusivamente à laje ou à cabine/posição candidata.",
+      "authorized_correction": null,
+      "next_evidence": "Registrar pranchas com controles independentes, esclarecer estado executado e obter plano de montagem/levantamento cabine–poço–soleiras.",
+      "registration_classification": "UNRESOLVED",
+      "registration_evidence": [
+        "vertical_registration.json",
+        "xy_control_attempts.json",
+        "vertical_decomposition.json"
+      ],
+      "registered_physical_correspondence": false,
+      "reason_after_registration_attempt": "Os controles Z permitem diagnóstico de deslocamento, mas XY e perfil estrutural não foram registrados com três correspondências físicas verificadas; arquitetura e cabine continuam hipóteses sem atribuição exclusiva."
+    },
+    {
+      "witness_id": "B80-W14",
+      "group": "lower-roof",
+      "component": "FUNCIONAL | 3 porta cabine -1 1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "t_witness": 0.9301136592395274,
+      "floor_z_scene_units": 11.788500303623053,
+      "surface_contact_interval": {
+        "first": 0.9280804556744416,
+        "last": 0.9687445269761575
+      },
+      "interval_note": "Intervalo de contato de superfícies do par; não afirmar penetração sólida em todo o intervalo.",
+      "intersection_type": "strict_vertex_inside_watertight_convex_solid",
+      "scene_detection_classification": "ERROR",
+      "independent_correction_classification": "NEEDS_REVIEW",
+      "scene_source": {
+        "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+        "revision": "R30B.80",
+        "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+      },
+      "geometry_export": "artifacts/lacerda-controller/geometry_b80.json",
+      "obstacle_bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          11.666000366210938
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          11.916000366210938
+        ]
+      },
+      "complete_mesh": true,
+      "object_provenance_properties": {},
+      "source_binding_verified": false,
+      "independent_evidence": [
+        "source:lacerda-issue22-sucop-04",
+        "source:lacerda-issue22-sucop-13",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sucop-31",
+        "source:lacerda-issue22-sbqp-2025",
+        "source:lacerda-issue22-sucop-memorial"
+      ],
+      "justification": "Penetração comprovada na geometria candidata B80. Projeto oficial sustenta relações de acesso/torre/laje, mas não há registro desenho→SSOT por controles nem desenho das cabines atuais. O nome da mesh não prova correspondência arquitetônica. Não é possível atribuir o conflito exclusivamente à laje ou à cabine/posição candidata.",
+      "authorized_correction": null,
+      "next_evidence": "Registrar pranchas com controles independentes, esclarecer estado executado e obter plano de montagem/levantamento cabine–poço–soleiras.",
+      "registration_classification": "UNRESOLVED",
+      "registration_evidence": [
+        "vertical_registration.json",
+        "xy_control_attempts.json",
+        "vertical_decomposition.json"
+      ],
+      "registered_physical_correspondence": false,
+      "reason_after_registration_attempt": "Os controles Z permitem diagnóstico de deslocamento, mas XY e perfil estrutural não foram registrados com três correspondências físicas verificadas; arquitetura e cabine continuam hipóteses sem atribuição exclusiva."
+    },
+    {
+      "witness_id": "B80-W15",
+      "group": "upper-platform",
+      "component": "FUNCIONAL | 3 porta cabine -1 1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "t_witness": 0.002934192961200417,
+      "floor_z_scene_units": 69.93099755704101,
+      "surface_contact_interval": {
+        "first": 0.0008770703579829732,
+        "last": 0.04201952242233185
+      },
+      "interval_note": "Intervalo de contato de superfícies do par; não afirmar penetração sólida em todo o intervalo.",
+      "intersection_type": "strict_vertex_inside_watertight_convex_solid",
+      "scene_detection_classification": "ERROR",
+      "independent_correction_classification": "NEEDS_REVIEW",
+      "scene_source": {
+        "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+        "revision": "R30B.80",
+        "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+      },
+      "geometry_export": "artifacts/lacerda-controller/geometry_b80.json",
+      "obstacle_bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          69.77999877929688
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          70.05999755859375
+        ]
+      },
+      "complete_mesh": true,
+      "object_provenance_properties": {},
+      "source_binding_verified": false,
+      "independent_evidence": [
+        "source:lacerda-issue22-sucop-08",
+        "source:lacerda-issue22-sucop-17",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sucop-24",
+        "source:lacerda-issue22-sucop-34",
+        "source:lacerda-issue22-sbqp-2025",
+        "source:lacerda-issue22-sucop-memorial"
+      ],
+      "justification": "Penetração comprovada na geometria candidata B80. Projeto oficial sustenta relações de acesso/torre/laje, mas não há registro desenho→SSOT por controles nem desenho das cabines atuais. O nome da mesh não prova correspondência arquitetônica. Não é possível atribuir o conflito exclusivamente à laje ou à cabine/posição candidata.",
+      "authorized_correction": null,
+      "next_evidence": "Registrar pranchas com controles independentes, esclarecer estado executado e obter plano de montagem/levantamento cabine–poço–soleiras.",
+      "registration_classification": "UNRESOLVED",
+      "registration_evidence": [
+        "vertical_registration.json",
+        "xy_control_attempts.json",
+        "vertical_decomposition.json"
+      ],
+      "registered_physical_correspondence": false,
+      "reason_after_registration_attempt": "Os controles Z permitem diagnóstico de deslocamento, mas XY e perfil estrutural não foram registrados com três correspondências físicas verificadas; arquitetura e cabine continuam hipóteses sem atribuição exclusiva."
+    },
+    {
+      "witness_id": "B80-W16",
+      "group": "lower-roof",
+      "component": "FUNCIONAL | 3 verga -1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "t_witness": 0.9662647791080426,
+      "floor_z_scene_units": 9.521499723789063,
+      "surface_contact_interval": {
+        "first": 0.9657146167388541,
+        "last": 0.9767178641226267
+      },
+      "interval_note": "Intervalo de contato de superfícies do par; não afirmar penetração sólida em todo o intervalo.",
+      "intersection_type": "strict_vertex_inside_watertight_convex_solid",
+      "scene_detection_classification": "ERROR",
+      "independent_correction_classification": "NEEDS_REVIEW",
+      "scene_source": {
+        "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+        "revision": "R30B.80",
+        "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+      },
+      "geometry_export": "artifacts/lacerda-controller/geometry_b80.json",
+      "obstacle_bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          11.666000366210938
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          11.916000366210938
+        ]
+      },
+      "complete_mesh": true,
+      "object_provenance_properties": {},
+      "source_binding_verified": false,
+      "independent_evidence": [
+        "source:lacerda-issue22-sucop-04",
+        "source:lacerda-issue22-sucop-13",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sucop-31",
+        "source:lacerda-issue22-sbqp-2025",
+        "source:lacerda-issue22-sucop-memorial"
+      ],
+      "justification": "Penetração comprovada na geometria candidata B80. Projeto oficial sustenta relações de acesso/torre/laje, mas não há registro desenho→SSOT por controles nem desenho das cabines atuais. O nome da mesh não prova correspondência arquitetônica. Não é possível atribuir o conflito exclusivamente à laje ou à cabine/posição candidata.",
+      "authorized_correction": null,
+      "next_evidence": "Registrar pranchas com controles independentes, esclarecer estado executado e obter plano de montagem/levantamento cabine–poço–soleiras.",
+      "registration_classification": "UNRESOLVED",
+      "registration_evidence": [
+        "vertical_registration.json",
+        "xy_control_attempts.json",
+        "vertical_decomposition.json"
+      ],
+      "registered_physical_correspondence": false,
+      "reason_after_registration_attempt": "Os controles Z permitem diagnóstico de deslocamento, mas XY e perfil estrutural não foram registrados com três correspondências físicas verificadas; arquitetura e cabine continuam hipóteses sem atribuição exclusiva."
+    },
+    {
+      "witness_id": "B80-W17",
+      "group": "upper-platform",
+      "component": "FUNCIONAL | 3 verga -1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "t_witness": 0.03908531282971567,
+      "floor_z_scene_units": 67.66399697720703,
+      "surface_contact_interval": {
+        "first": 0.03851123142239538,
+        "last": 0.04999285956880109
+      },
+      "interval_note": "Intervalo de contato de superfícies do par; não afirmar penetração sólida em todo o intervalo.",
+      "intersection_type": "strict_vertex_inside_watertight_convex_solid",
+      "scene_detection_classification": "ERROR",
+      "independent_correction_classification": "NEEDS_REVIEW",
+      "scene_source": {
+        "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+        "revision": "R30B.80",
+        "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+      },
+      "geometry_export": "artifacts/lacerda-controller/geometry_b80.json",
+      "obstacle_bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          69.77999877929688
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          70.05999755859375
+        ]
+      },
+      "complete_mesh": true,
+      "object_provenance_properties": {},
+      "source_binding_verified": false,
+      "independent_evidence": [
+        "source:lacerda-issue22-sucop-08",
+        "source:lacerda-issue22-sucop-17",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sucop-24",
+        "source:lacerda-issue22-sucop-34",
+        "source:lacerda-issue22-sbqp-2025",
+        "source:lacerda-issue22-sucop-memorial"
+      ],
+      "justification": "Penetração comprovada na geometria candidata B80. Projeto oficial sustenta relações de acesso/torre/laje, mas não há registro desenho→SSOT por controles nem desenho das cabines atuais. O nome da mesh não prova correspondência arquitetônica. Não é possível atribuir o conflito exclusivamente à laje ou à cabine/posição candidata.",
+      "authorized_correction": null,
+      "next_evidence": "Registrar pranchas com controles independentes, esclarecer estado executado e obter plano de montagem/levantamento cabine–poço–soleiras.",
+      "registration_classification": "UNRESOLVED",
+      "registration_evidence": [
+        "vertical_registration.json",
+        "xy_control_attempts.json",
+        "vertical_decomposition.json"
+      ],
+      "registered_physical_correspondence": false,
+      "reason_after_registration_attempt": "Os controles Z permitem diagnóstico de deslocamento, mas XY e perfil estrutural não foram registrados com três correspondências físicas verificadas; arquitetura e cabine continuam hipóteses sem atribuição exclusiva."
+    },
+    {
+      "witness_id": "B80-W18",
+      "group": "lower-roof",
+      "component": "FUNCIONAL | 3 lateral inferior 1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "t_witness": 0.9287900823532903,
+      "floor_z_scene_units": 11.871500486728515,
+      "surface_contact_interval": {
+        "first": 0.9280804556744416,
+        "last": 0.9422729892514142
+      },
+      "interval_note": "Intervalo de contato de superfícies do par; não afirmar penetração sólida em todo o intervalo.",
+      "intersection_type": "strict_vertex_inside_watertight_convex_solid",
+      "scene_detection_classification": "ERROR",
+      "independent_correction_classification": "NEEDS_REVIEW",
+      "scene_source": {
+        "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+        "revision": "R30B.80",
+        "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+      },
+      "geometry_export": "artifacts/lacerda-controller/geometry_b80.json",
+      "obstacle_bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          11.666000366210938
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          11.916000366210938
+        ]
+      },
+      "complete_mesh": true,
+      "object_provenance_properties": {},
+      "source_binding_verified": false,
+      "independent_evidence": [
+        "source:lacerda-issue22-sucop-04",
+        "source:lacerda-issue22-sucop-13",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sucop-31",
+        "source:lacerda-issue22-sbqp-2025",
+        "source:lacerda-issue22-sucop-memorial"
+      ],
+      "justification": "Penetração comprovada na geometria candidata B80. Projeto oficial sustenta relações de acesso/torre/laje, mas não há registro desenho→SSOT por controles nem desenho das cabines atuais. O nome da mesh não prova correspondência arquitetônica. Não é possível atribuir o conflito exclusivamente à laje ou à cabine/posição candidata.",
+      "authorized_correction": null,
+      "next_evidence": "Registrar pranchas com controles independentes, esclarecer estado executado e obter plano de montagem/levantamento cabine–poço–soleiras.",
+      "registration_classification": "UNRESOLVED",
+      "registration_evidence": [
+        "vertical_registration.json",
+        "xy_control_attempts.json",
+        "vertical_decomposition.json"
+      ],
+      "registered_physical_correspondence": false,
+      "reason_after_registration_attempt": "Os controles Z permitem diagnóstico de deslocamento, mas XY e perfil estrutural não foram registrados com três correspondências físicas verificadas; arquitetura e cabine continuam hipóteses sem atribuição exclusiva."
+    },
+    {
+      "witness_id": "B80-W19",
+      "group": "upper-platform",
+      "component": "FUNCIONAL | 3 lateral inferior 1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "t_witness": 0.001610616074963251,
+      "floor_z_scene_units": 70.01399774014648,
+      "surface_contact_interval": {
+        "first": 0.0008770703579829732,
+        "last": 0.015547984697588526
+      },
+      "interval_note": "Intervalo de contato de superfícies do par; não afirmar penetração sólida em todo o intervalo.",
+      "intersection_type": "strict_vertex_inside_watertight_convex_solid",
+      "scene_detection_classification": "ERROR",
+      "independent_correction_classification": "NEEDS_REVIEW",
+      "scene_source": {
+        "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+        "revision": "R30B.80",
+        "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+      },
+      "geometry_export": "artifacts/lacerda-controller/geometry_b80.json",
+      "obstacle_bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          69.77999877929688
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          70.05999755859375
+        ]
+      },
+      "complete_mesh": true,
+      "object_provenance_properties": {},
+      "source_binding_verified": false,
+      "independent_evidence": [
+        "source:lacerda-issue22-sucop-08",
+        "source:lacerda-issue22-sucop-17",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sucop-24",
+        "source:lacerda-issue22-sucop-34",
+        "source:lacerda-issue22-sbqp-2025",
+        "source:lacerda-issue22-sucop-memorial"
+      ],
+      "justification": "Penetração comprovada na geometria candidata B80. Projeto oficial sustenta relações de acesso/torre/laje, mas não há registro desenho→SSOT por controles nem desenho das cabines atuais. O nome da mesh não prova correspondência arquitetônica. Não é possível atribuir o conflito exclusivamente à laje ou à cabine/posição candidata.",
+      "authorized_correction": null,
+      "next_evidence": "Registrar pranchas com controles independentes, esclarecer estado executado e obter plano de montagem/levantamento cabine–poço–soleiras.",
+      "registration_classification": "UNRESOLVED",
+      "registration_evidence": [
+        "vertical_registration.json",
+        "xy_control_attempts.json",
+        "vertical_decomposition.json"
+      ],
+      "registered_physical_correspondence": false,
+      "reason_after_registration_attempt": "Os controles Z permitem diagnóstico de deslocamento, mas XY e perfil estrutural não foram registrados com três correspondências físicas verificadas; arquitetura e cabine continuam hipóteses sem atribuição exclusiva."
+    },
+    {
+      "witness_id": "B80-W20",
+      "group": "lower-roof",
+      "component": "FUNCIONAL | 3 lateral superior 1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "t_witness": 0.9641757747520722,
+      "floor_z_scene_units": 9.652499098178716,
+      "surface_contact_interval": {
+        "first": 0.9634820920709202,
+        "last": 0.9773557456939607
+      },
+      "interval_note": "Intervalo de contato de superfícies do par; não afirmar penetração sólida em todo o intervalo.",
+      "intersection_type": "strict_vertex_inside_watertight_convex_solid",
+      "scene_detection_classification": "ERROR",
+      "independent_correction_classification": "NEEDS_REVIEW",
+      "scene_source": {
+        "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+        "revision": "R30B.80",
+        "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+      },
+      "geometry_export": "artifacts/lacerda-controller/geometry_b80.json",
+      "obstacle_bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          11.666000366210938
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          11.916000366210938
+        ]
+      },
+      "complete_mesh": true,
+      "object_provenance_properties": {},
+      "source_binding_verified": false,
+      "independent_evidence": [
+        "source:lacerda-issue22-sucop-04",
+        "source:lacerda-issue22-sucop-13",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sucop-31",
+        "source:lacerda-issue22-sbqp-2025",
+        "source:lacerda-issue22-sucop-memorial"
+      ],
+      "justification": "Penetração comprovada na geometria candidata B80. Projeto oficial sustenta relações de acesso/torre/laje, mas não há registro desenho→SSOT por controles nem desenho das cabines atuais. O nome da mesh não prova correspondência arquitetônica. Não é possível atribuir o conflito exclusivamente à laje ou à cabine/posição candidata.",
+      "authorized_correction": null,
+      "next_evidence": "Registrar pranchas com controles independentes, esclarecer estado executado e obter plano de montagem/levantamento cabine–poço–soleiras.",
+      "registration_classification": "UNRESOLVED",
+      "registration_evidence": [
+        "vertical_registration.json",
+        "xy_control_attempts.json",
+        "vertical_decomposition.json"
+      ],
+      "registered_physical_correspondence": false,
+      "reason_after_registration_attempt": "Os controles Z permitem diagnóstico de deslocamento, mas XY e perfil estrutural não foram registrados com três correspondências físicas verificadas; arquitetura e cabine continuam hipóteses sem atribuição exclusiva."
+    },
+    {
+      "witness_id": "B80-W21",
+      "group": "upper-platform",
+      "component": "FUNCIONAL | 3 lateral superior 1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "t_witness": 0.036996308473745236,
+      "floor_z_scene_units": 67.79499635159668,
+      "surface_contact_interval": {
+        "first": 0.036278706754461564,
+        "last": 0.05063074114013499
+      },
+      "interval_note": "Intervalo de contato de superfícies do par; não afirmar penetração sólida em todo o intervalo.",
+      "intersection_type": "strict_vertex_inside_watertight_convex_solid",
+      "scene_detection_classification": "ERROR",
+      "independent_correction_classification": "NEEDS_REVIEW",
+      "scene_source": {
+        "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+        "revision": "R30B.80",
+        "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+      },
+      "geometry_export": "artifacts/lacerda-controller/geometry_b80.json",
+      "obstacle_bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          69.77999877929688
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          70.05999755859375
+        ]
+      },
+      "complete_mesh": true,
+      "object_provenance_properties": {},
+      "source_binding_verified": false,
+      "independent_evidence": [
+        "source:lacerda-issue22-sucop-08",
+        "source:lacerda-issue22-sucop-17",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sucop-24",
+        "source:lacerda-issue22-sucop-34",
+        "source:lacerda-issue22-sbqp-2025",
+        "source:lacerda-issue22-sucop-memorial"
+      ],
+      "justification": "Penetração comprovada na geometria candidata B80. Projeto oficial sustenta relações de acesso/torre/laje, mas não há registro desenho→SSOT por controles nem desenho das cabines atuais. O nome da mesh não prova correspondência arquitetônica. Não é possível atribuir o conflito exclusivamente à laje ou à cabine/posição candidata.",
+      "authorized_correction": null,
+      "next_evidence": "Registrar pranchas com controles independentes, esclarecer estado executado e obter plano de montagem/levantamento cabine–poço–soleiras.",
+      "registration_classification": "UNRESOLVED",
+      "registration_evidence": [
+        "vertical_registration.json",
+        "xy_control_attempts.json",
+        "vertical_decomposition.json"
+      ],
+      "registered_physical_correspondence": false,
+      "reason_after_registration_attempt": "Os controles Z permitem diagnóstico de deslocamento, mas XY e perfil estrutural não foram registrados com três correspondências físicas verificadas; arquitetura e cabine continuam hipóteses sem atribuição exclusiva."
+    },
+    {
+      "witness_id": "B80-W22",
+      "group": "lower-roof",
+      "component": "FUNCIONAL | 3 montante janela 1 -1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "t_witness": 0.939825171960907,
+      "floor_z_scene_units": 11.17950105130371,
+      "surface_contact_interval": {
+        "first": 0.9382863174888447,
+        "last": 0.9690634069300896
+      },
+      "interval_note": "Intervalo de contato de superfícies do par; não afirmar penetração sólida em todo o intervalo.",
+      "intersection_type": "strict_vertex_inside_watertight_convex_solid",
+      "scene_detection_classification": "ERROR",
+      "independent_correction_classification": "NEEDS_REVIEW",
+      "scene_source": {
+        "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+        "revision": "R30B.80",
+        "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+      },
+      "geometry_export": "artifacts/lacerda-controller/geometry_b80.json",
+      "obstacle_bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          11.666000366210938
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          11.916000366210938
+        ]
+      },
+      "complete_mesh": true,
+      "object_provenance_properties": {},
+      "source_binding_verified": false,
+      "independent_evidence": [
+        "source:lacerda-issue22-sucop-04",
+        "source:lacerda-issue22-sucop-13",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sucop-31",
+        "source:lacerda-issue22-sbqp-2025",
+        "source:lacerda-issue22-sucop-memorial"
+      ],
+      "justification": "Penetração comprovada na geometria candidata B80. Projeto oficial sustenta relações de acesso/torre/laje, mas não há registro desenho→SSOT por controles nem desenho das cabines atuais. O nome da mesh não prova correspondência arquitetônica. Não é possível atribuir o conflito exclusivamente à laje ou à cabine/posição candidata.",
+      "authorized_correction": null,
+      "next_evidence": "Registrar pranchas com controles independentes, esclarecer estado executado e obter plano de montagem/levantamento cabine–poço–soleiras.",
+      "registration_classification": "UNRESOLVED",
+      "registration_evidence": [
+        "vertical_registration.json",
+        "xy_control_attempts.json",
+        "vertical_decomposition.json"
+      ],
+      "registered_physical_correspondence": false,
+      "reason_after_registration_attempt": "Os controles Z permitem diagnóstico de deslocamento, mas XY e perfil estrutural não foram registrados com três correspondências físicas verificadas; arquitetura e cabine continuam hipóteses sem atribuição exclusiva."
+    },
+    {
+      "witness_id": "B80-W23",
+      "group": "upper-platform",
+      "component": "FUNCIONAL | 3 montante janela 1 -1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "t_witness": 0.012645705682579934,
+      "floor_z_scene_units": 69.32199830472167,
+      "surface_contact_interval": {
+        "first": 0.011082932172386036,
+        "last": 0.04233840237626397
+      },
+      "interval_note": "Intervalo de contato de superfícies do par; não afirmar penetração sólida em todo o intervalo.",
+      "intersection_type": "strict_vertex_inside_watertight_convex_solid",
+      "scene_detection_classification": "ERROR",
+      "independent_correction_classification": "NEEDS_REVIEW",
+      "scene_source": {
+        "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+        "revision": "R30B.80",
+        "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+      },
+      "geometry_export": "artifacts/lacerda-controller/geometry_b80.json",
+      "obstacle_bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          69.77999877929688
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          70.05999755859375
+        ]
+      },
+      "complete_mesh": true,
+      "object_provenance_properties": {},
+      "source_binding_verified": false,
+      "independent_evidence": [
+        "source:lacerda-issue22-sucop-08",
+        "source:lacerda-issue22-sucop-17",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sucop-24",
+        "source:lacerda-issue22-sucop-34",
+        "source:lacerda-issue22-sbqp-2025",
+        "source:lacerda-issue22-sucop-memorial"
+      ],
+      "justification": "Penetração comprovada na geometria candidata B80. Projeto oficial sustenta relações de acesso/torre/laje, mas não há registro desenho→SSOT por controles nem desenho das cabines atuais. O nome da mesh não prova correspondência arquitetônica. Não é possível atribuir o conflito exclusivamente à laje ou à cabine/posição candidata.",
+      "authorized_correction": null,
+      "next_evidence": "Registrar pranchas com controles independentes, esclarecer estado executado e obter plano de montagem/levantamento cabine–poço–soleiras.",
+      "registration_classification": "UNRESOLVED",
+      "registration_evidence": [
+        "vertical_registration.json",
+        "xy_control_attempts.json",
+        "vertical_decomposition.json"
+      ],
+      "registered_physical_correspondence": false,
+      "reason_after_registration_attempt": "Os controles Z permitem diagnóstico de deslocamento, mas XY e perfil estrutural não foram registrados com três correspondências físicas verificadas; arquitetura e cabine continuam hipóteses sem atribuição exclusiva."
+    },
+    {
+      "witness_id": "B80-W24",
+      "group": "lower-roof",
+      "component": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 -1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "t_witness": 0.9301710357318107,
+      "floor_z_scene_units": 11.784902281162111,
+      "surface_contact_interval": {
+        "first": 0.9281442073325341,
+        "last": 0.9686807753180651
+      },
+      "interval_note": "Intervalo de contato de superfícies do par; não afirmar penetração sólida em todo o intervalo.",
+      "intersection_type": "strict_vertex_inside_watertight_convex_solid",
+      "scene_detection_classification": "ERROR",
+      "independent_correction_classification": "NEEDS_REVIEW",
+      "scene_source": {
+        "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+        "revision": "R30B.80",
+        "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+      },
+      "geometry_export": "artifacts/lacerda-controller/geometry_b80.json",
+      "obstacle_bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          11.666000366210938
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          11.916000366210938
+        ]
+      },
+      "complete_mesh": true,
+      "object_provenance_properties": {},
+      "source_binding_verified": false,
+      "independent_evidence": [
+        "source:lacerda-issue22-sucop-04",
+        "source:lacerda-issue22-sucop-13",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sucop-31",
+        "source:lacerda-issue22-sbqp-2025",
+        "source:lacerda-issue22-sucop-memorial"
+      ],
+      "justification": "Penetração comprovada na geometria candidata B80. Projeto oficial sustenta relações de acesso/torre/laje, mas não há registro desenho→SSOT por controles nem desenho das cabines atuais. O nome da mesh não prova correspondência arquitetônica. Não é possível atribuir o conflito exclusivamente à laje ou à cabine/posição candidata.",
+      "authorized_correction": null,
+      "next_evidence": "Registrar pranchas com controles independentes, esclarecer estado executado e obter plano de montagem/levantamento cabine–poço–soleiras.",
+      "registration_classification": "UNRESOLVED",
+      "registration_evidence": [
+        "vertical_registration.json",
+        "xy_control_attempts.json",
+        "vertical_decomposition.json"
+      ],
+      "registered_physical_correspondence": false,
+      "reason_after_registration_attempt": "Os controles Z permitem diagnóstico de deslocamento, mas XY e perfil estrutural não foram registrados com três correspondências físicas verificadas; arquitetura e cabine continuam hipóteses sem atribuição exclusiva."
+    },
+    {
+      "witness_id": "B80-W25",
+      "group": "upper-platform",
+      "component": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 -1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "t_witness": 0.0029915694534836646,
+      "floor_z_scene_units": 69.92739953458008,
+      "surface_contact_interval": {
+        "first": 0.0009408220160754703,
+        "last": 0.04195577076423935
+      },
+      "interval_note": "Intervalo de contato de superfícies do par; não afirmar penetração sólida em todo o intervalo.",
+      "intersection_type": "strict_vertex_inside_watertight_convex_solid",
+      "scene_detection_classification": "ERROR",
+      "independent_correction_classification": "NEEDS_REVIEW",
+      "scene_source": {
+        "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+        "revision": "R30B.80",
+        "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+      },
+      "geometry_export": "artifacts/lacerda-controller/geometry_b80.json",
+      "obstacle_bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          69.77999877929688
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          70.05999755859375
+        ]
+      },
+      "complete_mesh": true,
+      "object_provenance_properties": {},
+      "source_binding_verified": false,
+      "independent_evidence": [
+        "source:lacerda-issue22-sucop-08",
+        "source:lacerda-issue22-sucop-17",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sucop-24",
+        "source:lacerda-issue22-sucop-34",
+        "source:lacerda-issue22-sbqp-2025",
+        "source:lacerda-issue22-sucop-memorial"
+      ],
+      "justification": "Penetração comprovada na geometria candidata B80. Projeto oficial sustenta relações de acesso/torre/laje, mas não há registro desenho→SSOT por controles nem desenho das cabines atuais. O nome da mesh não prova correspondência arquitetônica. Não é possível atribuir o conflito exclusivamente à laje ou à cabine/posição candidata.",
+      "authorized_correction": null,
+      "next_evidence": "Registrar pranchas com controles independentes, esclarecer estado executado e obter plano de montagem/levantamento cabine–poço–soleiras.",
+      "registration_classification": "UNRESOLVED",
+      "registration_evidence": [
+        "vertical_registration.json",
+        "xy_control_attempts.json",
+        "vertical_decomposition.json"
+      ],
+      "registered_physical_correspondence": false,
+      "reason_after_registration_attempt": "Os controles Z permitem diagnóstico de deslocamento, mas XY e perfil estrutural não foram registrados com três correspondências físicas verificadas; arquitetura e cabine continuam hipóteses sem atribuição exclusiva."
+    },
+    {
+      "witness_id": "B80-W26",
+      "group": "lower-roof",
+      "component": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "t_witness": 0.9301710357318107,
+      "floor_z_scene_units": 11.784902281162111,
+      "surface_contact_interval": {
+        "first": 0.9281442073325341,
+        "last": 0.9686807753180651
+      },
+      "interval_note": "Intervalo de contato de superfícies do par; não afirmar penetração sólida em todo o intervalo.",
+      "intersection_type": "strict_vertex_inside_watertight_convex_solid",
+      "scene_detection_classification": "ERROR",
+      "independent_correction_classification": "NEEDS_REVIEW",
+      "scene_source": {
+        "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+        "revision": "R30B.80",
+        "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+      },
+      "geometry_export": "artifacts/lacerda-controller/geometry_b80.json",
+      "obstacle_bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          11.666000366210938
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          11.916000366210938
+        ]
+      },
+      "complete_mesh": true,
+      "object_provenance_properties": {},
+      "source_binding_verified": false,
+      "independent_evidence": [
+        "source:lacerda-issue22-sucop-04",
+        "source:lacerda-issue22-sucop-13",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sucop-31",
+        "source:lacerda-issue22-sbqp-2025",
+        "source:lacerda-issue22-sucop-memorial"
+      ],
+      "justification": "Penetração comprovada na geometria candidata B80. Projeto oficial sustenta relações de acesso/torre/laje, mas não há registro desenho→SSOT por controles nem desenho das cabines atuais. O nome da mesh não prova correspondência arquitetônica. Não é possível atribuir o conflito exclusivamente à laje ou à cabine/posição candidata.",
+      "authorized_correction": null,
+      "next_evidence": "Registrar pranchas com controles independentes, esclarecer estado executado e obter plano de montagem/levantamento cabine–poço–soleiras.",
+      "registration_classification": "UNRESOLVED",
+      "registration_evidence": [
+        "vertical_registration.json",
+        "xy_control_attempts.json",
+        "vertical_decomposition.json"
+      ],
+      "registered_physical_correspondence": false,
+      "reason_after_registration_attempt": "Os controles Z permitem diagnóstico de deslocamento, mas XY e perfil estrutural não foram registrados com três correspondências físicas verificadas; arquitetura e cabine continuam hipóteses sem atribuição exclusiva."
+    },
+    {
+      "witness_id": "B80-W27",
+      "group": "upper-platform",
+      "component": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "t_witness": 0.0029915694534836646,
+      "floor_z_scene_units": 69.92739953458008,
+      "surface_contact_interval": {
+        "first": 0.0009408220160754703,
+        "last": 0.04195577076423935
+      },
+      "interval_note": "Intervalo de contato de superfícies do par; não afirmar penetração sólida em todo o intervalo.",
+      "intersection_type": "strict_vertex_inside_watertight_convex_solid",
+      "scene_detection_classification": "ERROR",
+      "independent_correction_classification": "NEEDS_REVIEW",
+      "scene_source": {
+        "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+        "revision": "R30B.80",
+        "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4"
+      },
+      "geometry_export": "artifacts/lacerda-controller/geometry_b80.json",
+      "obstacle_bounds": {
+        "min": [
+          -56.242549896240234,
+          47.167701721191406,
+          69.77999877929688
+        ],
+        "max": [
+          -44.55916213989258,
+          59.06147766113281,
+          70.05999755859375
+        ]
+      },
+      "complete_mesh": true,
+      "object_provenance_properties": {},
+      "source_binding_verified": false,
+      "independent_evidence": [
+        "source:lacerda-issue22-sucop-08",
+        "source:lacerda-issue22-sucop-17",
+        "source:lacerda-issue22-sucop-21",
+        "source:lacerda-issue22-sucop-23",
+        "source:lacerda-issue22-sucop-24",
+        "source:lacerda-issue22-sucop-34",
+        "source:lacerda-issue22-sbqp-2025",
+        "source:lacerda-issue22-sucop-memorial"
+      ],
+      "justification": "Penetração comprovada na geometria candidata B80. Projeto oficial sustenta relações de acesso/torre/laje, mas não há registro desenho→SSOT por controles nem desenho das cabines atuais. O nome da mesh não prova correspondência arquitetônica. Não é possível atribuir o conflito exclusivamente à laje ou à cabine/posição candidata.",
+      "authorized_correction": null,
+      "next_evidence": "Registrar pranchas com controles independentes, esclarecer estado executado e obter plano de montagem/levantamento cabine–poço–soleiras.",
+      "registration_classification": "UNRESOLVED",
+      "registration_evidence": [
+        "vertical_registration.json",
+        "xy_control_attempts.json",
+        "vertical_decomposition.json"
+      ],
+      "registered_physical_correspondence": false,
+      "reason_after_registration_attempt": "Os controles Z permitem diagnóstico de deslocamento, mas XY e perfil estrutural não foram registrados com três correspondências físicas verificadas; arquitetura e cabine continuam hipóteses sem atribuição exclusiva."
+    }
+  ],
+  "counts": {
+    "UNRESOLVED": 27
+  },
+  "contact_only_solid_witnesses": 0,
+  "movement_enabled": false,
+  "decision": "NO_SCENE_CHANGE",
+  "note": "UNRESOLVED não apaga o ERROR geométrico original; CONTACT_ONLY não foi usado para penetrações sólidas. Os outros 27 pares superficiais continuam no baseline para triagem, sem promoção automática."
+}

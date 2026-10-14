@@ -1,0 +1,99 @@
+{
+  "schema": "boas/coastal-transition-b61-check-v1",
+  "source_reopened": true,
+  "visual_collision_identical": true,
+  "finite": true,
+  "degenerate_triangles": 26,
+  "seam_samples": 499,
+  "seam_missing": 0,
+  "max_seam_error_m": 0.00012969970703125,
+  "road_surfaces": [],
+  "candidate_wheel_paths": [
+    {
+      "osm_way_id": 154743329,
+      "name": "Rua da Conceição da Praia",
+      "sample_count": 19,
+      "missing_wheel_supports": 0,
+      "max_grade": 0.13814141268883853,
+      "max_crossfall": 0.06920092033617424,
+      "max_collision_difference_m": 0,
+      "traffic_approved": false
+    },
+    {
+      "osm_way_id": 456471269,
+      "name": "Rua Manoel Vitórino",
+      "sample_count": 13,
+      "missing_wheel_supports": 0,
+      "max_grade": 0.1699070405710615,
+      "max_crossfall": 0.12971820253314395,
+      "max_collision_difference_m": 0,
+      "traffic_approved": false
+    },
+    {
+      "osm_way_id": 562660148,
+      "name": "Avenida Lafayete Coutinho",
+      "sample_count": 0,
+      "missing_wheel_supports": 0,
+      "max_grade": null,
+      "max_crossfall": null,
+      "max_collision_difference_m": 0,
+      "traffic_approved": false
+    },
+    {
+      "osm_way_id": 978527848,
+      "name": "Avenida Lafayete Coutinho",
+      "sample_count": 36,
+      "missing_wheel_supports": 0,
+      "max_grade": 0.1830944723824095,
+      "max_crossfall": 0.017764929569128788,
+      "max_collision_difference_m": 0,
+      "traffic_approved": false
+    },
+    {
+      "osm_way_id": 1004133492,
+      "name": "",
+      "sample_count": 0,
+      "missing_wheel_supports": 0,
+      "max_grade": null,
+      "max_crossfall": null,
+      "max_collision_difference_m": 0,
+      "traffic_approved": false
+    },
+    {
+      "osm_way_id": 1004133493,
+      "name": "",
+      "sample_count": 97,
+      "missing_wheel_supports": 0,
+      "max_grade": 0.17093968937485954,
+      "max_crossfall": 0.03632516571969697,
+      "max_collision_difference_m": 0,
+      "traffic_approved": false
+    },
+    {
+      "osm_way_id": 1004133494,
+      "name": "",
+      "sample_count": 27,
+      "missing_wheel_supports": 0,
+      "max_grade": 0.047963868438134265,
+      "max_crossfall": 0.031248150449810608,
+      "max_collision_difference_m": 0,
+      "traffic_approved": false
+    },
+    {
+      "osm_way_id": 1075624454,
+      "name": "Avenida Lafayete Coutinho",
+      "sample_count": 118,
+      "missing_wheel_supports": 0,
+      "max_grade": 0.19594798756916482,
+      "max_crossfall": 0.009885845762310606,
+      "max_collision_difference_m": 0,
+      "traffic_approved": false
+    }
+  ],
+  "source_dem_unchanged": true,
+  "approved": false,
+  "pending": [
+    "Lacuna histórica entre núcleo e cais permanece aberta",
+    "Grade/crossfall e navegação precisam de gate próprio; probes não equivalem à física na engine"
+  ]
+}

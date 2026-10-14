@@ -1,0 +1,5283 @@
+{
+  "schema": "boas/coast-reference-b64-inspection-v1",
+  "file": "blender/salvador_lacerda_r30b64_costa_volumes_corrigidos.blend",
+  "reopened": true,
+  "wet_surfaces": [
+    {
+      "name": "MVP | terreno corrigido | colisão estática",
+      "faces_over_water_by_material": {}
+    },
+    {
+      "name": "B62 | GAMEPLAY TERRAIN HQ | pavimento e costura limpa",
+      "faces_over_water_by_material": {}
+    },
+    {
+      "name": "B63 | VISUAL | piso contínuo até o cais",
+      "faces_over_water_by_material": {
+        "0": 2
+      }
+    }
+  ],
+  "generated_geometry": [
+    {
+      "name": "CAIS | contenção costeira alinhada à linha de costa",
+      "visible": true,
+      "degenerate": 0,
+      "nonmanifold_edges": 5084,
+      "collision_matches_vertices_and_faces_count": true
+    },
+    {
+      "name": "B63 | VISUAL | piso contínuo até o cais",
+      "visible": true,
+      "degenerate": 9,
+      "nonmanifold_edges": 495,
+      "collision_matches_vertices_and_faces_count": true
+    },
+    {
+      "name": "B63 | VISUAL | meios-fios das vias existentes",
+      "visible": true,
+      "degenerate": 0,
+      "nonmanifold_edges": 0,
+      "collision_matches_vertices_and_faces_count": true
+    },
+    {
+      "name": "B63 | VISUAL | canteiro OSM 285592034",
+      "visible": true,
+      "degenerate": 0,
+      "nonmanifold_edges": 0,
+      "collision_matches_vertices_and_faces_count": true
+    },
+    {
+      "name": "B63 | VISUAL | canteiro OSM 565958078",
+      "visible": false,
+      "degenerate": 0,
+      "nonmanifold_edges": 21,
+      "collision_matches_vertices_and_faces_count": true
+    },
+    {
+      "name": "B63 | VISUAL | canteiro OSM 1232803924",
+      "visible": true,
+      "degenerate": 0,
+      "nonmanifold_edges": 0,
+      "collision_matches_vertices_and_faces_count": true
+    },
+    {
+      "name": "B63 | VISUAL | canteiro OSM 1265894224",
+      "visible": true,
+      "degenerate": 0,
+      "nonmanifold_edges": 0,
+      "collision_matches_vertices_and_faces_count": true
+    },
+    {
+      "name": "B63 | VISUAL | canteiro OSM 1320939604",
+      "visible": true,
+      "degenerate": 0,
+      "nonmanifold_edges": 0,
+      "collision_matches_vertices_and_faces_count": true
+    },
+    {
+      "name": "B63 | VISUAL | canteiro OSM 1321519023",
+      "visible": true,
+      "degenerate": 0,
+      "nonmanifold_edges": 0,
+      "collision_matches_vertices_and_faces_count": true
+    },
+    {
+      "name": "B63 | VISUAL | canteiro OSM 1321718836",
+      "visible": true,
+      "degenerate": 0,
+      "nonmanifold_edges": 0,
+      "collision_matches_vertices_and_faces_count": true
+    },
+    {
+      "name": "B63 | VISUAL | canteiro OSM 1321718837",
+      "visible": true,
+      "degenerate": 0,
+      "nonmanifold_edges": 0,
+      "collision_matches_vertices_and_faces_count": true
+    },
+    {
+      "name": "B63 | VISUAL | canteiro OSM 1321718838",
+      "visible": true,
+      "degenerate": 0,
+      "nonmanifold_edges": 0,
+      "collision_matches_vertices_and_faces_count": true
+    }
+  ],
+  "pier_approaches": [
+    {
+      "osm_id": 1426173138,
+      "tags": {
+        "highway": "footway"
+      },
+      "samples": 105,
+      "missing_support": 0,
+      "missing_examples": [],
+      "z_range": [
+        7.255645751953125,
+        7.2556915283203125
+      ],
+      "details": [
+        {
+          "xy": [
+            -349.6757393851876,
+            300.8084526157472
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -348.99023505887175,
+            301.5276476284208
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -348.3047307325559,
+            302.24684264109436
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -347.61922640624005,
+            302.96603765376796
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -346.9337220799242,
+            303.68523266644155
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -346.24821775360834,
+            304.4044276791151
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -345.5627134272925,
+            305.1236226917887
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -344.87720910097664,
+            305.8428177044623
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -344.1917047746608,
+            306.5620127171358
+          ],
+          "support": [
+            7.25567626953125,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -343.50620044834494,
+            307.2812077298094
+          ],
+          "support": [
+            7.25567626953125,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -342.82069612202906,
+            308.000402742483
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -342.13519179571324,
+            308.71959775515654
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -341.44968746939736,
+            309.43879276783014
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -340.76418314308154,
+            310.15798778050373
+          ],
+          "support": [
+            7.25567626953125,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -340.07867881676566,
+            310.87718279317727
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -339.39317449044984,
+            311.59637780585086
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -338.70767016413396,
+            312.3155728185244
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -338.02216583781814,
+            313.034767831198
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -337.33666151150226,
+            313.7539628438716
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -336.65115718518643,
+            314.47315785654513
+          ],
+          "support": [
+            7.25567626953125,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -335.96565285887056,
+            315.1923528692187
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -335.2801485325547,
+            315.9115478818923
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -334.59464420623885,
+            316.63074289456586
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -333.909139879923,
+            317.34993790723945
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -333.22363555360715,
+            318.06913291991305
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -332.5381312272913,
+            318.7883279325866
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -331.85262690097545,
+            319.5075229452602
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -331.1671225746596,
+            320.2267179579338
+          ],
+          "support": [
+            7.25567626953125,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -330.48161824834375,
+            320.9459129706073
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -329.79611392202787,
+            321.6651079832809
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -329.110609595712,
+            322.3843029959545
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -328.42510526939617,
+            323.10349800862804
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -327.7396009430803,
+            323.82269302130163
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -327.05409661676447,
+            324.5418880339752
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -326.3685922904486,
+            325.26108304664876
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -325.68308796413277,
+            325.98027805932236
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -324.9975836378169,
+            326.69947307199595
+          ],
+          "support": [
+            7.25567626953125,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -324.31207931150107,
+            327.4186680846695
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -323.6265749851852,
+            328.1378630973431
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -322.9410706588693,
+            328.8570581100167
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -322.2555663325535,
+            329.5762531226902
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -321.5700620062376,
+            330.2954481353638
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -320.8845576799218,
+            331.0146431480374
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -320.1990533536059,
+            331.73383816071095
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -319.5135490272901,
+            332.45303317338454
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -318.8280447009742,
+            333.1722281860581
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -318.1425403746584,
+            333.8914231987317
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -317.4570360483425,
+            334.61061821140527
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -316.7715317220267,
+            335.32981322407886
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -316.0860273957108,
+            336.0490082367524
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -315.4005230693949,
+            336.768203249426
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -314.7150187430791,
+            337.48739826209953
+          ],
+          "support": [
+            7.255645751953125,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -314.0295144167632,
+            338.2065932747731
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -313.3440100904474,
+            338.9257882874467
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -312.6585057641315,
+            339.64498330012026
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -311.9730014378157,
+            340.36417831279385
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -311.2874971114998,
+            341.08337332546745
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -310.60199278518394,
+            341.802568338141
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -309.9164884588681,
+            342.5217633508146
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -309.1992404806289,
+            341.8448420040993
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -308.4819925023897,
+            341.16792065738406
+          ],
+          "support": [
+            7.25567626953125,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -307.76474452415044,
+            340.49099931066877
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -307.04749654591126,
+            339.8140779639535
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -306.330248567672,
+            339.1371566172382
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -305.6130005894328,
+            338.46023527052296
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -304.8957526111936,
+            337.78331392380767
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -304.17850463295434,
+            337.1063925770924
+          ],
+          "support": [
+            7.255645751953125,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -303.4612566547151,
+            336.4294712303771
+          ],
+          "support": [
+            7.25567626953125,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -302.7440086764759,
+            335.75254988366186
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -302.02676069823667,
+            335.07562853694657
+          ],
+          "support": [
+            7.25567626953125,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -301.3095127199975,
+            334.3987071902313
+          ],
+          "support": [
+            7.25567626953125,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -300.59226474175824,
+            333.721785843516
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -299.875016763519,
+            333.04486449680076
+          ],
+          "support": [
+            7.25567626953125,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -299.1577687852798,
+            332.36794315008547
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -298.44052080704057,
+            331.6910218033702
+          ],
+          "support": [
+            7.25567626953125,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -297.7232728288013,
+            331.0141004566549
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -297.00602485056214,
+            330.33717910993965
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -296.2887768723229,
+            329.66025776322437
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -295.5715288940837,
+            328.9833364165091
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -294.85428091584447,
+            328.3064150697938
+          ],
+          "support": [
+            7.25567626953125,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -294.1370329376052,
+            327.62949372307855
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -293.41978495936604,
+            326.95257237636326
+          ],
+          "support": [
+            7.255645751953125,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -292.7025369811268,
+            326.275651029648
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -291.9852890028876,
+            325.5987296829327
+          ],
+          "support": [
+            7.25567626953125,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -291.26804102464837,
+            324.92180833621745
+          ],
+          "support": [
+            7.25567626953125,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -290.5507930464091,
+            324.24488698950216
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -289.83354506816994,
+            323.5679656427869
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -289.1162970899307,
+            322.8910442960716
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -288.3990491116915,
+            322.21412294935635
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -287.68180113345227,
+            321.53720160264106
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -286.964553155213,
+            320.8602802559258
+          ],
+          "support": [
+            7.255645751953125,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -286.24730517697384,
+            320.1833589092105
+          ],
+          "support": [
+            7.25567626953125,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -285.5300571987346,
+            319.50643756249525
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -284.81280922049535,
+            318.82951621577996
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -284.09556124225617,
+            318.15259486906467
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -283.3783132640169,
+            317.4756735223494
+          ],
+          "support": [
+            7.255645751953125,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -282.66106528577774,
+            316.79875217563415
+          ],
+          "support": [
+            7.25567626953125,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -281.9438173075385,
+            316.12183082891886
+          ],
+          "support": [
+            7.25567626953125,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -281.22656932929925,
+            315.44490948220357
+          ],
+          "support": [
+            7.255645751953125,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -280.50932135106007,
+            314.7679881354883
+          ],
+          "support": [
+            7.25567626953125,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -279.7920733728208,
+            314.09106678877305
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -279.0748253945816,
+            313.41414544205776
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -278.3575774163424,
+            312.73722409534247
+          ],
+          "support": [
+            7.2556915283203125,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -277.64032943810315,
+            312.06030274862724
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -276.92308145986397,
+            311.38338140191195
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        }
+      ]
+    },
+    {
+      "osm_id": 1426173325,
+      "tags": {
+        "highway": "footway"
+      },
+      "samples": 27,
+      "missing_support": 0,
+      "missing_examples": [],
+      "z_range": [
+        7.255645751953125,
+        7.25567626953125
+      ],
+      "details": [
+        {
+          "xy": [
+            -275.2524319845252,
+            350.4926475638058
+          ],
+          "support": [
+            7.25567626953125,
+            "B56 | COLLISION | PIER | 1426173139"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -274.54104491535367,
+            349.8094000490037
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173139"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -273.82965784618216,
+            349.12615253420165
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173139"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -273.11827077701065,
+            348.44290501939963
+          ],
+          "support": [
+            7.255645751953125,
+            "B56 | COLLISION | PIER | 1426173139"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -272.40688370783914,
+            347.75965750459756
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173139"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -271.6954966386677,
+            347.0764099897955
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173139"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -270.9841095694962,
+            346.3931624749934
+          ],
+          "support": [
+            7.25567626953125,
+            "B56 | COLLISION | PIER | 1426173139"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -270.2727225003247,
+            345.7099149601913
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173139"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -269.56133543115317,
+            345.02666744538925
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173139"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -268.84994836198166,
+            344.34341993058723
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173139"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -268.13856129281015,
+            343.66017241578515
+          ],
+          "support": [
+            7.25567626953125,
+            "B56 | COLLISION | PIER | 1426173139"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -267.42717422363864,
+            342.9769249009831
+          ],
+          "support": [
+            7.25567626953125,
+            "B56 | COLLISION | PIER | 1426173139"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -266.71578715446714,
+            342.293677386181
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173139"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -266.00440008529563,
+            341.6104298713789
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173139"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -265.2930130161242,
+            340.9271823565769
+          ],
+          "support": [
+            7.255645751953125,
+            "B56 | COLLISION | PIER | 1426173139"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -264.58162594695267,
+            340.24393484177483
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173139"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -263.87023887778116,
+            339.56068732697275
+          ],
+          "support": [
+            7.255645751953125,
+            "B56 | COLLISION | PIER | 1426173139"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -263.15885180860965,
+            338.8774398121707
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173139"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -262.44746473943815,
+            338.1941922973686
+          ],
+          "support": [
+            7.255645751953125,
+            "B56 | COLLISION | PIER | 1426173139"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -261.73607767026664,
+            337.5109447825666
+          ],
+          "support": [
+            7.25567626953125,
+            "B56 | COLLISION | PIER | 1426173139"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -261.02469060109513,
+            336.8276972677645
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173139"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -260.3133035319236,
+            336.14444975296243
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173139"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -259.6019164627521,
+            335.46120223816035
+          ],
+          "support": [
+            7.255645751953125,
+            "B56 | COLLISION | PIER | 1426173139"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -258.89052939358066,
+            334.7779547233583
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173139"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -258.17914232440916,
+            334.0947072085562
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173139"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -257.46775525523765,
+            333.4114596937542
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173139"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -256.75636818606614,
+            332.7282121789521
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173139"
+          ],
+          "over_water": true
+        }
+      ]
+    },
+    {
+      "osm_id": 1426173326,
+      "tags": {
+        "highway": "footway"
+      },
+      "samples": 27,
+      "missing_support": 0,
+      "missing_examples": [],
+      "z_range": [
+        7.2556610107421875,
+        7.25567626953125
+      ],
+      "details": [
+        {
+          "xy": [
+            -266.6653837147169,
+            303.19494821550325
+          ],
+          "support": [
+            7.2556610107421875,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        },
+        {
+          "xy": [
+            -265.9315482325231,
+            302.56627254684764
+          ],
+          "support": [
+            7.25567626953125,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        },
+        {
+          "xy": [
+            -265.19771275032934,
+            301.9375968781921
+          ],
+          "support": [
+            7.25567626953125,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        },
+        {
+          "xy": [
+            -264.46387726813555,
+            301.3089212095365
+          ],
+          "support": [
+            7.25567626953125,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        },
+        {
+          "xy": [
+            -263.73004178594175,
+            300.6802455408809
+          ],
+          "support": [
+            7.2556610107421875,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        },
+        {
+          "xy": [
+            -262.996206303748,
+            300.05156987222534
+          ],
+          "support": [
+            7.2556610107421875,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        },
+        {
+          "xy": [
+            -262.2623708215542,
+            299.42289420356974
+          ],
+          "support": [
+            7.25567626953125,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        },
+        {
+          "xy": [
+            -261.47806384733747,
+            300.0306919468456
+          ],
+          "support": [
+            7.2556610107421875,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        },
+        {
+          "xy": [
+            -260.69375687312066,
+            300.63848969012145
+          ],
+          "support": [
+            7.2556610107421875,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        },
+        {
+          "xy": [
+            -259.9094498989039,
+            301.2462874333973
+          ],
+          "support": [
+            7.2556610107421875,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        },
+        {
+          "xy": [
+            -259.12514292468717,
+            301.85408517667315
+          ],
+          "support": [
+            7.2556610107421875,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        },
+        {
+          "xy": [
+            -258.3408359504704,
+            302.461882919949
+          ],
+          "support": [
+            7.25567626953125,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        },
+        {
+          "xy": [
+            -257.5565289762536,
+            303.06968066322486
+          ],
+          "support": [
+            7.2556610107421875,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        },
+        {
+          "xy": [
+            -256.77222200203687,
+            303.6774784065007
+          ],
+          "support": [
+            7.2556610107421875,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        },
+        {
+          "xy": [
+            -255.9879150278201,
+            304.28527614977656
+          ],
+          "support": [
+            7.25567626953125,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        },
+        {
+          "xy": [
+            -255.20360805360335,
+            304.8930738930524
+          ],
+          "support": [
+            7.2556610107421875,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        },
+        {
+          "xy": [
+            -254.41930107938657,
+            305.50087163632827
+          ],
+          "support": [
+            7.25567626953125,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        },
+        {
+          "xy": [
+            -253.63499410516982,
+            306.10866937960407
+          ],
+          "support": [
+            7.25567626953125,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        },
+        {
+          "xy": [
+            -252.85068713095305,
+            306.7164671228799
+          ],
+          "support": [
+            7.25567626953125,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        },
+        {
+          "xy": [
+            -252.0663801567363,
+            307.3242648661558
+          ],
+          "support": [
+            7.2556610107421875,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        },
+        {
+          "xy": [
+            -251.28207318251953,
+            307.9320626094316
+          ],
+          "support": [
+            7.2556610107421875,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        },
+        {
+          "xy": [
+            -250.49776620830275,
+            308.5398603527075
+          ],
+          "support": [
+            7.2556610107421875,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        },
+        {
+          "xy": [
+            -249.713459234086,
+            309.14765809598333
+          ],
+          "support": [
+            7.2556610107421875,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        },
+        {
+          "xy": [
+            -248.92915225986923,
+            309.7554558392592
+          ],
+          "support": [
+            7.2556610107421875,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        },
+        {
+          "xy": [
+            -248.14484528565248,
+            310.36325358253504
+          ],
+          "support": [
+            7.2556610107421875,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        },
+        {
+          "xy": [
+            -247.3605383114357,
+            310.9710513258109
+          ],
+          "support": [
+            7.2556610107421875,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        },
+        {
+          "xy": [
+            -246.57623133721896,
+            311.57884906908674
+          ],
+          "support": [
+            7.25567626953125,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        }
+      ]
+    },
+    {
+      "osm_id": 1426173327,
+      "tags": {
+        "bridge": "yes",
+        "highway": "footway",
+        "layer": "1"
+      },
+      "samples": 13,
+      "missing_support": 11,
+      "missing_examples": [
+        [
+          -275.4719527303241,
+          310.12865145214334
+        ],
+        [
+          -274.7380719790235,
+          309.55084284909
+        ],
+        [
+          -274.0041912277229,
+          308.97303424603666
+        ],
+        [
+          -273.2703104764223,
+          308.3952256429833
+        ],
+        [
+          -272.5364297251217,
+          307.81741703993
+        ],
+        [
+          -271.8025489738211,
+          307.2396084368766
+        ],
+        [
+          -271.0686682225205,
+          306.6617998338233
+        ],
+        [
+          -270.3347874712199,
+          306.0839912307699
+        ]
+      ],
+      "z_range": [
+        7.2556610107421875,
+        7.25567626953125
+      ],
+      "details": [
+        {
+          "xy": [
+            -276.2058334816247,
+            310.70646005519666
+          ],
+          "support": [
+            7.2556610107421875,
+            "B56 | COLLISION | PIER | 1426173140"
+          ],
+          "over_water": true
+        },
+        {
+          "xy": [
+            -275.4719527303241,
+            310.12865145214334
+          ],
+          "support": null,
+          "over_water": true
+        },
+        {
+          "xy": [
+            -274.7380719790235,
+            309.55084284909
+          ],
+          "support": null,
+          "over_water": true
+        },
+        {
+          "xy": [
+            -274.0041912277229,
+            308.97303424603666
+          ],
+          "support": null,
+          "over_water": true
+        },
+        {
+          "xy": [
+            -273.2703104764223,
+            308.3952256429833
+          ],
+          "support": null,
+          "over_water": true
+        },
+        {
+          "xy": [
+            -272.5364297251217,
+            307.81741703993
+          ],
+          "support": null,
+          "over_water": true
+        },
+        {
+          "xy": [
+            -271.8025489738211,
+            307.2396084368766
+          ],
+          "support": null,
+          "over_water": true
+        },
+        {
+          "xy": [
+            -271.0686682225205,
+            306.6617998338233
+          ],
+          "support": null,
+          "over_water": true
+        },
+        {
+          "xy": [
+            -270.3347874712199,
+            306.0839912307699
+          ],
+          "support": null,
+          "over_water": true
+        },
+        {
+          "xy": [
+            -269.6009067199193,
+            305.5061826277166
+          ],
+          "support": null,
+          "over_water": true
+        },
+        {
+          "xy": [
+            -268.8670259686187,
+            304.92837402466324
+          ],
+          "support": null,
+          "over_water": true
+        },
+        {
+          "xy": [
+            -268.1331452173181,
+            304.35056542160993
+          ],
+          "support": null,
+          "over_water": true
+        },
+        {
+          "xy": [
+            -267.3992644660175,
+            303.77275681855656
+          ],
+          "support": [
+            7.25567626953125,
+            "MVP | terreno corrigido | colisão estática"
+          ],
+          "over_water": false
+        }
+      ]
+    }
+  ],
+  "coast_objects": [
+    {
+      "name": "OFICIAL | Terminal alto | apoio junto encosta",
+      "visible": false,
+      "bbox": [
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "origem": "Lacerda | ESBOCO volumetrico",
+        "implantacao": "eixo torre / terminal superior alinhado aos footprints OSM"
+      }
+    },
+    {
+      "name": "OFICIAL | Terminal alto | piso de entrada",
+      "visible": false,
+      "bbox": [
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "origem": "Lacerda | ESBOCO volumetrico",
+        "implantacao": "eixo torre / terminal superior alinhado aos footprints OSM"
+      }
+    },
+    {
+      "name": "OFICIAL | Terminal alto | galeria piso",
+      "visible": false,
+      "bbox": [
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "origem": "Lacerda | ESBOCO volumetrico",
+        "implantacao": "eixo torre / terminal superior alinhado aos footprints OSM"
+      }
+    },
+    {
+      "name": "OFICIAL | Terminal alto | galeria cobertura",
+      "visible": false,
+      "bbox": [
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "origem": "Lacerda | ESBOCO volumetrico",
+        "implantacao": "eixo torre / terminal superior alinhado aos footprints OSM"
+      }
+    },
+    {
+      "name": "Praça Cairu.002",
+      "visible": false,
+      "bbox": [
+        [
+          -247.46807861328125,
+          25.920671463012695,
+          -0.07999999821186066
+        ],
+        [
+          -54.02006149291992,
+          303.55841064453125,
+          -0.019999999552965164
+        ]
+      ],
+      "properties": {
+        "osm_id": "154743324",
+        "Z_status": "patamares do esboco; nao altimetria medida"
+      }
+    },
+    {
+      "name": "Terminal de Cruzeiros.001",
+      "visible": false,
+      "bbox": [
+        [
+          -41.781734466552734,
+          495.5240478515625,
+          0.0
+        ],
+        [
+          71.10814666748047,
+          605.4130859375,
+          25.0
+        ]
+      ],
+      "properties": {
+        "osm_id": "498177958",
+        "fonte": "https://www.openstreetmap.org/way/498177958",
+        "altura_status": "height OSM",
+        "osm_tags": "{\"addr:city\": \"Salvador\", \"addr:housenumber\": \"1551\", \"addr:postcode\": \"40010-000\", \"addr:street\": \"Avenida da França\", \"addr:suburb\": \"Comércio\", \"building\": \"yes\", \"building:levels\": \"3\", \"height\": \"25\", \"name\": \"Terminal de Cruzeiros\", \"phone\": \"+55 71 3320-1299\"}",
+        "Z_status": "patamares do esboco; nao altimetria medida"
+      }
+    },
+    {
+      "name": "ACESSO | fachada Praça Cairu | ombreira E",
+      "visible": true,
+      "bbox": [
+        [
+          -127.83149719238281,
+          155.0589141845703,
+          7.2556610107421875
+        ],
+        [
+          -127.2830810546875,
+          155.6117706298828,
+          11.755661010742188
+        ]
+      ],
+      "properties": {
+        "status_fidelidade": "esboço tipológico; footprint e escala exterior derivados do OSM; interior sem planta cadastral publicada"
+      }
+    },
+    {
+      "name": "ACESSO | fachada Praça Cairu | ombreira D",
+      "visible": true,
+      "bbox": [
+        [
+          -125.70085906982422,
+          152.96881103515625,
+          7.2556610107421875
+        ],
+        [
+          -125.1524429321289,
+          153.52166748046875,
+          11.755661010742188
+        ]
+      ],
+      "properties": {
+        "status_fidelidade": "esboço tipológico; footprint e escala exterior derivados do OSM; interior sem planta cadastral publicada"
+      }
+    },
+    {
+      "name": "ACESSO | fachada Praça Cairu | verga",
+      "visible": true,
+      "bbox": [
+        [
+          -127.83148956298828,
+          152.9688262939453,
+          11.755661010742188
+        ],
+        [
+          -125.1524429321289,
+          155.6117706298828,
+          12.11566162109375
+        ]
+      ],
+      "properties": {
+        "status_fidelidade": "esboço tipológico; footprint e escala exterior derivados do OSM; interior sem planta cadastral publicada"
+      }
+    },
+    {
+      "name": "ACESSO | ligação praça terminal a validar",
+      "visible": false,
+      "bbox": [
+        [
+          -23.30405044555664,
+          -3.252213478088379,
+          70.0
+        ],
+        [
+          9.331670761108398,
+          28.498537063598633,
+          70.0
+        ]
+      ],
+      "properties": {
+        "precisao": "Ligação geométrica provisória, não contorno cadastral",
+        "distancia_centro_entrada_borda_OSM_m": "26.63905615340267"
+      }
+    },
+    {
+      "name": "OSM | Terminal de Cruzeiros",
+      "visible": true,
+      "bbox": [
+        [
+          -41.77487564086914,
+          495.1197204589844,
+          7.055630683898926
+        ],
+        [
+          71.09647369384766,
+          604.9190673828125,
+          32.255645751953125
+        ]
+      ],
+      "properties": {
+        "osm_way_id": "498177958",
+        "osm_name": "Terminal de Cruzeiros",
+        "height_source": "OSM height",
+        "game_role": "static_building_blockout",
+        "terrain_registration": "Rigid Z registration from perimeter, spacing <= 0.4 m; 0.20 m embedment",
+        "terrain_registration_delta": "-3.5643617630004885"
+      }
+    },
+    {
+      "name": "CAIRU | árvore OSM 9264985822",
+      "visible": true,
+      "bbox": [
+        [
+          -122.32198333740234,
+          123.64112091064453,
+          7.240660667419434
+        ],
+        [
+          -121.86197662353516,
+          124.10112762451172,
+          11.84066104888916
+        ]
+      ],
+      "properties": {
+        "osm_node_id": "9264985822"
+      }
+    },
+    {
+      "name": "CAIRU | copa",
+      "visible": true,
+      "bbox": [
+        [
+          -124.56472778320312,
+          121.47112274169922,
+          9.94066047668457
+        ],
+        [
+          -119.61923217773438,
+          126.27112579345703,
+          15.74066162109375
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | gola árvore",
+      "visible": true,
+      "bbox": [
+        [
+          -123.14198303222656,
+          122.82112121582031,
+          7.240661144256592
+        ],
+        [
+          -121.04197692871094,
+          124.92112731933594,
+          7.330661296844482
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | terra árvore",
+      "visible": true,
+      "bbox": [
+        [
+          -122.96198272705078,
+          123.0011215209961,
+          7.3296613693237305
+        ],
+        [
+          -121.22197723388672,
+          124.74112701416016,
+          7.34166145324707
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | árvore OSM 9264985823",
+      "visible": true,
+      "bbox": [
+        [
+          -100.6372299194336,
+          132.99281311035156,
+          7.240660667419434
+        ],
+        [
+          -100.1772232055664,
+          133.4528045654297,
+          11.84066104888916
+        ]
+      ],
+      "properties": {
+        "osm_node_id": "9264985823"
+      }
+    },
+    {
+      "name": "CAIRU | copa.001",
+      "visible": true,
+      "bbox": [
+        [
+          -102.87997436523438,
+          130.82281494140625,
+          9.94066047668457
+        ],
+        [
+          -97.93447875976562,
+          135.622802734375,
+          15.74066162109375
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | gola árvore.001",
+      "visible": true,
+      "bbox": [
+        [
+          -101.45722961425781,
+          132.1728057861328,
+          7.240661144256592
+        ],
+        [
+          -99.35722351074219,
+          134.27281188964844,
+          7.330661296844482
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | terra árvore.001",
+      "visible": true,
+      "bbox": [
+        [
+          -101.27722930908203,
+          132.35281372070312,
+          7.3296613693237305
+        ],
+        [
+          -99.53722381591797,
+          134.09280395507812,
+          7.34166145324707
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | árvore OSM 9264985824",
+      "visible": true,
+      "bbox": [
+        [
+          -83.73635864257812,
+          132.59486389160156,
+          7.240660667419434
+        ],
+        [
+          -83.27635192871094,
+          133.0548553466797,
+          11.84066104888916
+        ]
+      ],
+      "properties": {
+        "osm_node_id": "9264985824"
+      }
+    },
+    {
+      "name": "CAIRU | copa.002",
+      "visible": true,
+      "bbox": [
+        [
+          -85.9791030883789,
+          130.42486572265625,
+          9.94066047668457
+        ],
+        [
+          -81.03360748291016,
+          135.224853515625,
+          15.74066162109375
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | gola árvore.002",
+      "visible": true,
+      "bbox": [
+        [
+          -84.55635833740234,
+          131.7748565673828,
+          7.240661144256592
+        ],
+        [
+          -82.45635223388672,
+          133.87486267089844,
+          7.330661296844482
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | terra árvore.002",
+      "visible": true,
+      "bbox": [
+        [
+          -84.37635803222656,
+          131.95486450195312,
+          7.3296613693237305
+        ],
+        [
+          -82.6363525390625,
+          133.69485473632812,
+          7.34166145324707
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | árvore OSM 9264985825",
+      "visible": true,
+      "bbox": [
+        [
+          -78.89824676513672,
+          104.92669677734375,
+          7.240660667419434
+        ],
+        [
+          -78.43824005126953,
+          105.38670349121094,
+          11.84066104888916
+        ]
+      ],
+      "properties": {
+        "osm_node_id": "9264985825"
+      }
+    },
+    {
+      "name": "CAIRU | copa.003",
+      "visible": true,
+      "bbox": [
+        [
+          -81.1409912109375,
+          102.75669860839844,
+          9.94066047668457
+        ],
+        [
+          -76.19549560546875,
+          107.55670166015625,
+          15.74066162109375
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | gola árvore.003",
+      "visible": true,
+      "bbox": [
+        [
+          -79.71824645996094,
+          104.10669708251953,
+          7.240661144256592
+        ],
+        [
+          -77.61824035644531,
+          106.20670318603516,
+          7.330661296844482
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | terra árvore.003",
+      "visible": true,
+      "bbox": [
+        [
+          -79.53824615478516,
+          104.28669738769531,
+          7.329660415649414
+        ],
+        [
+          -77.7982406616211,
+          106.02670288085938,
+          7.341660499572754
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | árvore OSM 9264985826",
+      "visible": true,
+      "bbox": [
+        [
+          -89.19280242919922,
+          110.19945526123047,
+          7.240660667419434
+        ],
+        [
+          -88.73279571533203,
+          110.65946197509766,
+          11.84066104888916
+        ]
+      ],
+      "properties": {
+        "osm_node_id": "9264985826"
+      }
+    },
+    {
+      "name": "CAIRU | copa.004",
+      "visible": true,
+      "bbox": [
+        [
+          -91.435546875,
+          108.02945709228516,
+          9.94066047668457
+        ],
+        [
+          -86.49005126953125,
+          112.82946014404297,
+          15.74066162109375
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | gola árvore.004",
+      "visible": true,
+      "bbox": [
+        [
+          -90.01280212402344,
+          109.37945556640625,
+          7.240661144256592
+        ],
+        [
+          -87.91279602050781,
+          111.47946166992188,
+          7.330661296844482
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | terra árvore.004",
+      "visible": true,
+      "bbox": [
+        [
+          -89.83280181884766,
+          109.55945587158203,
+          7.3296613693237305
+        ],
+        [
+          -88.0927963256836,
+          111.2994613647461,
+          7.34166145324707
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | árvore OSM 9264985834",
+      "visible": true,
+      "bbox": [
+        [
+          -133.8748779296875,
+          93.0878677368164,
+          7.240660667419434
+        ],
+        [
+          -133.41488647460938,
+          93.5478744506836,
+          11.84066104888916
+        ]
+      ],
+      "properties": {
+        "osm_node_id": "9264985834"
+      }
+    },
+    {
+      "name": "CAIRU | copa.005",
+      "visible": true,
+      "bbox": [
+        [
+          -136.1176300048828,
+          90.9178695678711,
+          9.94066047668457
+        ],
+        [
+          -131.17213439941406,
+          95.7178726196289,
+          15.74066162109375
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | gola árvore.005",
+      "visible": true,
+      "bbox": [
+        [
+          -134.69488525390625,
+          92.26786804199219,
+          7.240661144256592
+        ],
+        [
+          -132.59487915039062,
+          94.36787414550781,
+          7.330661296844482
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | terra árvore.005",
+      "visible": true,
+      "bbox": [
+        [
+          -134.51487731933594,
+          92.44786834716797,
+          7.3296613693237305
+        ],
+        [
+          -132.77488708496094,
+          94.18787384033203,
+          7.34166145324707
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | árvore OSM 9264985835",
+      "visible": true,
+      "bbox": [
+        [
+          -139.36386108398438,
+          150.57972717285156,
+          7.240660667419434
+        ],
+        [
+          -138.90386962890625,
+          151.0397186279297,
+          11.84066104888916
+        ]
+      ],
+      "properties": {
+        "osm_node_id": "9264985835"
+      }
+    },
+    {
+      "name": "CAIRU | copa.006",
+      "visible": true,
+      "bbox": [
+        [
+          -141.6066131591797,
+          148.40972900390625,
+          9.94066047668457
+        ],
+        [
+          -136.66111755371094,
+          153.209716796875,
+          15.74066162109375
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | gola árvore.006",
+      "visible": true,
+      "bbox": [
+        [
+          -140.18386840820312,
+          149.7597198486328,
+          7.240661144256592
+        ],
+        [
+          -138.0838623046875,
+          151.85972595214844,
+          7.330661296844482
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | terra árvore.006",
+      "visible": true,
+      "bbox": [
+        [
+          -140.0038604736328,
+          149.93972778320312,
+          7.3296613693237305
+        ],
+        [
+          -138.2638702392578,
+          151.67971801757812,
+          7.34166145324707
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | árvore OSM 12221362568",
+      "visible": true,
+      "bbox": [
+        [
+          -92.88105773925781,
+          137.61338806152344,
+          7.240660667419434
+        ],
+        [
+          -92.42105102539062,
+          138.07337951660156,
+          11.84066104888916
+        ]
+      ],
+      "properties": {
+        "osm_node_id": "12221362568"
+      }
+    },
+    {
+      "name": "CAIRU | copa.007",
+      "visible": true,
+      "bbox": [
+        [
+          -95.1238021850586,
+          135.44338989257812,
+          9.94066047668457
+        ],
+        [
+          -90.17830657958984,
+          140.24337768554688,
+          15.74066162109375
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | gola árvore.007",
+      "visible": true,
+      "bbox": [
+        [
+          -93.70105743408203,
+          136.7933807373047,
+          7.240661144256592
+        ],
+        [
+          -91.6010513305664,
+          138.8933868408203,
+          7.330661296844482
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | terra árvore.007",
+      "visible": true,
+      "bbox": [
+        [
+          -93.52105712890625,
+          136.973388671875,
+          7.3296613693237305
+        ],
+        [
+          -91.78105163574219,
+          138.71337890625,
+          7.34166145324707
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | árvore OSM 12228717274",
+      "visible": true,
+      "bbox": [
+        [
+          -146.16543579101562,
+          152.2046661376953,
+          7.240660667419434
+        ],
+        [
+          -145.7054443359375,
+          152.66465759277344,
+          11.84066104888916
+        ]
+      ],
+      "properties": {
+        "osm_node_id": "12228717274"
+      }
+    },
+    {
+      "name": "CAIRU | copa.008",
+      "visible": true,
+      "bbox": [
+        [
+          -148.40818786621094,
+          150.03466796875,
+          9.94066047668457
+        ],
+        [
+          -143.4626922607422,
+          154.83465576171875,
+          15.74066162109375
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | gola árvore.008",
+      "visible": true,
+      "bbox": [
+        [
+          -146.98544311523438,
+          151.38465881347656,
+          7.240661144256592
+        ],
+        [
+          -144.88543701171875,
+          153.4846649169922,
+          7.330661296844482
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | terra árvore.008",
+      "visible": true,
+      "bbox": [
+        [
+          -146.80543518066406,
+          151.56466674804688,
+          7.3296613693237305
+        ],
+        [
+          -145.06544494628906,
+          153.30465698242188,
+          7.34166145324707
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | abrigo pilar",
+      "visible": true,
+      "bbox": [
+        [
+          -71.29441833496094,
+          67.0987548828125,
+          7.255614280700684
+        ],
+        [
+          -71.16441345214844,
+          67.228759765625,
+          9.755668640136719
+        ]
+      ],
+      "properties": {
+        "classification": "ERROR",
+        "revision_fix": "R30B06: alturas do abrigo recompostas sobre terreno existente",
+        "previous_world_z_range": "<bpy id property array [2]>",
+        "ground_world_z": "7.255668640136719"
+      }
+    },
+    {
+      "name": "CAIRU | abrigo pilar.001",
+      "visible": true,
+      "bbox": [
+        [
+          -68.273193359375,
+          64.18119049072266,
+          7.255551338195801
+        ],
+        [
+          -68.1431884765625,
+          64.31119537353516,
+          9.755668640136719
+        ]
+      ],
+      "properties": {
+        "classification": "ERROR",
+        "revision_fix": "R30B06: alturas do abrigo recompostas sobre terreno existente",
+        "previous_world_z_range": "<bpy id property array [2]>",
+        "ground_world_z": "7.255668640136719"
+      }
+    },
+    {
+      "name": "CAIRU | abrigo cobertura OSM",
+      "visible": true,
+      "bbox": [
+        [
+          -72.17707824707031,
+          63.28496551513672,
+          9.755668640136719
+        ],
+        [
+          -67.26052856445312,
+          68.125,
+          9.905669212341309
+        ]
+      ],
+      "properties": {
+        "classification": "ERROR",
+        "revision_fix": "R30B06: alturas do abrigo recompostas sobre terreno existente",
+        "previous_world_z_range": "<bpy id property array [2]>",
+        "ground_world_z": "7.255668640136719"
+      }
+    },
+    {
+      "name": "CAIRU | banco do abrigo OSM apoio",
+      "visible": true,
+      "bbox": [
+        [
+          -70.44610595703125,
+          65.9625244140625,
+          7.255669116973877
+        ],
+        [
+          -69.9985580444336,
+          66.41993713378906,
+          7.695668697357178
+        ]
+      ],
+      "properties": {
+        "classification": "ERROR",
+        "revision_fix": "R30B06: alturas do abrigo recompostas sobre terreno existente",
+        "previous_world_z_range": "<bpy id property array [2]>",
+        "ground_world_z": "7.255668640136719"
+      }
+    },
+    {
+      "name": "CAIRU | banco do abrigo OSM apoio.001",
+      "visible": true,
+      "bbox": [
+        [
+          -69.43903350830078,
+          64.98999786376953,
+          7.255669116973877
+        ],
+        [
+          -68.99149322509766,
+          65.4474105834961,
+          7.695668697357178
+        ]
+      ],
+      "properties": {
+        "classification": "ERROR",
+        "revision_fix": "R30B06: alturas do abrigo recompostas sobre terreno existente",
+        "previous_world_z_range": "<bpy id property array [2]>",
+        "ground_world_z": "7.255668640136719"
+      }
+    },
+    {
+      "name": "CAIRU | banco do abrigo OSM assento",
+      "visible": true,
+      "bbox": [
+        [
+          -70.59320831298828,
+          64.84722900390625,
+          7.695668697357178
+        ],
+        [
+          -68.84439849853516,
+          66.5627212524414,
+          7.755668640136719
+        ]
+      ],
+      "properties": {
+        "classification": "ERROR",
+        "revision_fix": "R30B06: alturas do abrigo recompostas sobre terreno existente",
+        "previous_world_z_range": "<bpy id property array [2]>",
+        "ground_world_z": "7.255668640136719"
+      }
+    },
+    {
+      "name": "CAIRU | banco do abrigo OSM encosto",
+      "visible": true,
+      "bbox": [
+        [
+          -70.27019500732422,
+          65.18171691894531,
+          7.775669097900391
+        ],
+        [
+          -68.83397674560547,
+          66.57351684570312,
+          8.305668830871582
+        ]
+      ],
+      "properties": {
+        "classification": "ERROR",
+        "revision_fix": "R30B06: alturas do abrigo recompostas sobre terreno existente",
+        "previous_world_z_range": "<bpy id property array [2]>",
+        "ground_world_z": "7.255668640136719"
+      }
+    },
+    {
+      "name": "CAIRU | ponto ônibus 571288579",
+      "visible": true,
+      "bbox": [
+        [
+          -56.334228515625,
+          80.31758117675781,
+          7.2556610107421875
+        ],
+        [
+          -56.244232177734375,
+          80.40757751464844,
+          9.855661392211914
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | placa ônibus",
+      "visible": true,
+      "bbox": [
+        [
+          -56.529232025146484,
+          80.32257843017578,
+          9.46566104888916
+        ],
+        [
+          -56.04922866821289,
+          80.40258026123047,
+          9.945660591125488
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | ponto ônibus 8243832354",
+      "visible": true,
+      "bbox": [
+        [
+          -69.76380157470703,
+          65.65998077392578,
+          7.2556610107421875
+        ],
+        [
+          -69.6738052368164,
+          65.7499771118164,
+          9.855661392211914
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | placa ônibus.001",
+      "visible": true,
+      "bbox": [
+        [
+          -69.95880126953125,
+          65.66497802734375,
+          9.46566104888916
+        ],
+        [
+          -69.47880554199219,
+          65.74497985839844,
+          9.945660591125488
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | travessia OSM",
+      "visible": false,
+      "bbox": [
+        [
+          -60.955570220947266,
+          63.82746505737305,
+          10.835991859436035
+        ],
+        [
+          -58.40968704223633,
+          66.77102661132812,
+          10.836007118225098
+        ]
+      ],
+      "properties": {
+        "status": "Substituída pela revisão 25; preservada para recuperação"
+      }
+    },
+    {
+      "name": "CAIRU | travessia OSM.001",
+      "visible": false,
+      "bbox": [
+        [
+          -61.689292907714844,
+          64.43091583251953,
+          10.836007118225098
+        ],
+        [
+          -59.143409729003906,
+          67.37447357177734,
+          10.836007118225098
+        ]
+      ],
+      "properties": {
+        "status": "Substituída pela revisão 25; preservada para recuperação"
+      }
+    },
+    {
+      "name": "CAIRU | travessia OSM.002",
+      "visible": false,
+      "bbox": [
+        [
+          -62.42301559448242,
+          65.03436279296875,
+          10.835991859436035
+        ],
+        [
+          -59.877132415771484,
+          67.97792053222656,
+          10.836007118225098
+        ]
+      ],
+      "properties": {
+        "status": "Substituída pela revisão 25; preservada para recuperação"
+      }
+    },
+    {
+      "name": "CAIRU | travessia OSM.003",
+      "visible": false,
+      "bbox": [
+        [
+          -63.15673828125,
+          65.63780975341797,
+          10.836007118225098
+        ],
+        [
+          -60.61085510253906,
+          68.58137512207031,
+          10.836007118225098
+        ]
+      ],
+      "properties": {
+        "status": "Substituída pela revisão 25; preservada para recuperação"
+      }
+    },
+    {
+      "name": "CAIRU | travessia OSM.004",
+      "visible": false,
+      "bbox": [
+        [
+          -64.14816284179688,
+          77.76425170898438,
+          10.835991859436035
+        ],
+        [
+          -61.33163833618164,
+          80.4607925415039,
+          10.83602237701416
+        ]
+      ],
+      "properties": {
+        "status": "Substituída pela revisão 25; preservada para recuperação"
+      }
+    },
+    {
+      "name": "CAIRU | travessia OSM.005",
+      "visible": false,
+      "bbox": [
+        [
+          -64.79998016357422,
+          78.45536804199219,
+          10.835991859436035
+        ],
+        [
+          -61.98345184326172,
+          81.15190887451172,
+          10.836007118225098
+        ]
+      ],
+      "properties": {
+        "status": "Substituída pela revisão 25; preservada para recuperação"
+      }
+    },
+    {
+      "name": "CAIRU | travessia OSM.006",
+      "visible": false,
+      "bbox": [
+        [
+          -65.45178985595703,
+          79.146484375,
+          10.835991859436035
+        ],
+        [
+          -62.63526153564453,
+          81.84302520751953,
+          10.836007118225098
+        ]
+      ],
+      "properties": {
+        "status": "Substituída pela revisão 25; preservada para recuperação"
+      }
+    },
+    {
+      "name": "CAIRU | travessia OSM.007",
+      "visible": false,
+      "bbox": [
+        [
+          -66.10359954833984,
+          79.83760070800781,
+          10.835991859436035
+        ],
+        [
+          -63.28707504272461,
+          82.53414154052734,
+          10.836007118225098
+        ]
+      ],
+      "properties": {
+        "status": "Substituída pela revisão 25; preservada para recuperação"
+      }
+    },
+    {
+      "name": "CAIRU | travessia OSM.008",
+      "visible": false,
+      "bbox": [
+        [
+          -67.07563018798828,
+          80.8620834350586,
+          10.835991859436035
+        ],
+        [
+          -64.2765121459961,
+          83.57723999023438,
+          10.836007118225098
+        ]
+      ],
+      "properties": {
+        "status": "Substituída pela revisão 25; preservada para recuperação"
+      }
+    },
+    {
+      "name": "CAIRU | travessia OSM.009",
+      "visible": false,
+      "bbox": [
+        [
+          -67.73348999023438,
+          81.54743957519531,
+          10.836007118225098
+        ],
+        [
+          -64.93437194824219,
+          84.26260375976562,
+          10.836007118225098
+        ]
+      ],
+      "properties": {
+        "status": "Substituída pela revisão 25; preservada para recuperação"
+      }
+    },
+    {
+      "name": "CAIRU | travessia OSM.010",
+      "visible": false,
+      "bbox": [
+        [
+          -68.39134979248047,
+          82.23280334472656,
+          10.835991859436035
+        ],
+        [
+          -65.59223175048828,
+          84.94796752929688,
+          10.836007118225098
+        ]
+      ],
+      "properties": {
+        "status": "Substituída pela revisão 25; preservada para recuperação"
+      }
+    },
+    {
+      "name": "CAIRU | travessia OSM.011",
+      "visible": false,
+      "bbox": [
+        [
+          -69.04920959472656,
+          82.91816711425781,
+          10.835991859436035
+        ],
+        [
+          -66.25008392333984,
+          85.6333236694336,
+          10.836007118225098
+        ]
+      ],
+      "properties": {
+        "status": "Substituída pela revisão 25; preservada para recuperação"
+      }
+    },
+    {
+      "name": "CAIRU | travessia OSM.012",
+      "visible": false,
+      "bbox": [
+        [
+          -69.70706176757812,
+          83.60353088378906,
+          10.835991859436035
+        ],
+        [
+          -66.90794372558594,
+          86.31868743896484,
+          10.836007118225098
+        ]
+      ],
+      "properties": {
+        "status": "Substituída pela revisão 25; preservada para recuperação"
+      }
+    },
+    {
+      "name": "CAIRU | travessia OSM.013",
+      "visible": false,
+      "bbox": [
+        [
+          -70.36492156982422,
+          84.28889465332031,
+          10.835991859436035
+        ],
+        [
+          -67.56580352783203,
+          87.0040512084961,
+          10.836007118225098
+        ]
+      ],
+      "properties": {
+        "status": "Substituída pela revisão 25; preservada para recuperação"
+      }
+    },
+    {
+      "name": "CAIRU | travessia OSM.014",
+      "visible": false,
+      "bbox": [
+        [
+          -71.02278137207031,
+          84.97425842285156,
+          10.835991859436035
+        ],
+        [
+          -68.22366333007812,
+          87.68941497802734,
+          10.836007118225098
+        ]
+      ],
+      "properties": {
+        "status": "Substituída pela revisão 25; preservada para recuperação"
+      }
+    },
+    {
+      "name": "CAIRU | travessia OSM.015",
+      "visible": false,
+      "bbox": [
+        [
+          -71.6806411743164,
+          85.65962219238281,
+          10.835991859436035
+        ],
+        [
+          -68.88152313232422,
+          88.3747787475586,
+          10.836007118225098
+        ]
+      ],
+      "properties": {
+        "status": "Substituída pela revisão 25; preservada para recuperação"
+      }
+    },
+    {
+      "name": "CAIRU | travessia OSM.016",
+      "visible": false,
+      "bbox": [
+        [
+          -72.3385009765625,
+          86.34498596191406,
+          10.835991859436035
+        ],
+        [
+          -69.53938293457031,
+          89.06014251708984,
+          10.836007118225098
+        ]
+      ],
+      "properties": {
+        "status": "Substituída pela revisão 25; preservada para recuperação"
+      }
+    },
+    {
+      "name": "CAIRU | Visconde | pedestal",
+      "visible": true,
+      "bbox": [
+        [
+          -64.7239761352539,
+          117.8616714477539,
+          7.240661144256592
+        ],
+        [
+          -58.723976135253906,
+          123.8616714477539,
+          7.490661144256592
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | Visconde | pedestal.001",
+      "visible": true,
+      "bbox": [
+        [
+          -64.073974609375,
+          118.51167297363281,
+          7.490661144256592
+        ],
+        [
+          -59.37397766113281,
+          123.211669921875,
+          7.840661525726318
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | Visconde | pedestal.002",
+      "visible": true,
+      "bbox": [
+        [
+          -63.42397689819336,
+          119.16167449951172,
+          7.84066104888916
+        ],
+        [
+          -60.02397537231445,
+          122.5616683959961,
+          8.34066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | Visconde | pedestal.003",
+      "visible": true,
+      "bbox": [
+        [
+          -62.973976135253906,
+          119.6116714477539,
+          8.34066104888916
+        ],
+        [
+          -60.473976135253906,
+          122.1116714477539,
+          11.84066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | Visconde | pedestal.004",
+      "visible": true,
+      "bbox": [
+        [
+          -63.17397689819336,
+          119.41167449951172,
+          11.84066104888916
+        ],
+        [
+          -60.27397537231445,
+          122.3116683959961,
+          12.09066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | Visconde | figura sentada",
+      "visible": true,
+      "bbox": [
+        [
+          -62.17397689819336,
+          120.5616683959961,
+          12.115660667419434
+        ],
+        [
+          -61.27397537231445,
+          121.16167449951172,
+          13.66565990447998
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | Visconde | cabeça",
+      "visible": true,
+      "bbox": [
+        [
+          -62.028316497802734,
+          120.5616683959961,
+          13.510660171508789
+        ],
+        [
+          -61.41963577270508,
+          121.16167449951172,
+          14.270660400390625
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | Visconde | pernas",
+      "visible": true,
+      "bbox": [
+        [
+          -62.163978576660156,
+          120.13667297363281,
+          12.058828353881836
+        ],
+        [
+          -61.88397979736328,
+          120.78666687011719,
+          12.70882797241211
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | Visconde | pernas.001",
+      "visible": true,
+      "bbox": [
+        [
+          -61.5639762878418,
+          120.13667297363281,
+          12.131673812866211
+        ],
+        [
+          -61.28397750854492,
+          120.78666687011719,
+          12.781673431396484
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento",
+      "visible": true,
+      "bbox": [
+        [
+          -57.24897766113281,
+          120.836669921875,
+          7.240661144256592
+        ],
+        [
+          -57.198974609375,
+          120.88667297363281,
+          8.34066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.001",
+      "visible": true,
+      "bbox": [
+        [
+          -57.317344665527344,
+          121.61808776855469,
+          7.240661144256592
+        ],
+        [
+          -57.26734161376953,
+          121.6680908203125,
+          8.34066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.002",
+      "visible": true,
+      "bbox": [
+        [
+          -57.520362854003906,
+          122.37576293945312,
+          7.240661144256592
+        ],
+        [
+          -57.470359802246094,
+          122.42576599121094,
+          8.34066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.003",
+      "visible": true,
+      "bbox": [
+        [
+          -57.851863861083984,
+          123.086669921875,
+          7.240661144256592
+        ],
+        [
+          -57.80186080932617,
+          123.13667297363281,
+          8.34066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.004",
+      "visible": true,
+      "bbox": [
+        [
+          -58.301780700683594,
+          123.72921752929688,
+          7.240661144256592
+        ],
+        [
+          -58.25177764892578,
+          123.77922058105469,
+          8.34066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.005",
+      "visible": true,
+      "bbox": [
+        [
+          -58.8564338684082,
+          124.28387451171875,
+          7.240661144256592
+        ],
+        [
+          -58.80643081665039,
+          124.33387756347656,
+          8.34066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.006",
+      "visible": true,
+      "bbox": [
+        [
+          -59.49897766113281,
+          124.7337875366211,
+          7.240661144256592
+        ],
+        [
+          -59.448974609375,
+          124.7837905883789,
+          8.34066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.007",
+      "visible": true,
+      "bbox": [
+        [
+          -60.20988845825195,
+          125.0652847290039,
+          7.240661144256592
+        ],
+        [
+          -60.15988540649414,
+          125.11528778076172,
+          8.34066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.008",
+      "visible": true,
+      "bbox": [
+        [
+          -60.96756362915039,
+          125.26830291748047,
+          7.240661144256592
+        ],
+        [
+          -60.91756057739258,
+          125.31830596923828,
+          8.34066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.009",
+      "visible": true,
+      "bbox": [
+        [
+          -61.74897766113281,
+          125.336669921875,
+          7.240661144256592
+        ],
+        [
+          -61.698974609375,
+          125.38667297363281,
+          8.34066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.010",
+      "visible": true,
+      "bbox": [
+        [
+          -62.5303955078125,
+          125.26830291748047,
+          7.240661144256592
+        ],
+        [
+          -62.48039245605469,
+          125.31830596923828,
+          8.34066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.011",
+      "visible": true,
+      "bbox": [
+        [
+          -63.28807067871094,
+          125.0652847290039,
+          7.240645885467529
+        ],
+        [
+          -63.238067626953125,
+          125.11528778076172,
+          8.340645790100098
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.012",
+      "visible": true,
+      "bbox": [
+        [
+          -63.99897766113281,
+          124.7337875366211,
+          7.240676403045654
+        ],
+        [
+          -63.948974609375,
+          124.7837905883789,
+          8.340676307678223
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.013",
+      "visible": true,
+      "bbox": [
+        [
+          -64.64152526855469,
+          124.28387451171875,
+          7.240661144256592
+        ],
+        [
+          -64.59152221679688,
+          124.33387756347656,
+          8.34066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.014",
+      "visible": true,
+      "bbox": [
+        [
+          -65.19618225097656,
+          123.72921752929688,
+          7.240661144256592
+        ],
+        [
+          -65.14617919921875,
+          123.77922058105469,
+          8.34066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.015",
+      "visible": true,
+      "bbox": [
+        [
+          -65.6460952758789,
+          123.086669921875,
+          7.240676403045654
+        ],
+        [
+          -65.5960922241211,
+          123.13667297363281,
+          8.340676307678223
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.016",
+      "visible": true,
+      "bbox": [
+        [
+          -65.97759246826172,
+          122.37576293945312,
+          7.240645885467529
+        ],
+        [
+          -65.9275894165039,
+          122.42576599121094,
+          8.340645790100098
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.017",
+      "visible": true,
+      "bbox": [
+        [
+          -66.18061065673828,
+          121.61808776855469,
+          7.240661144256592
+        ],
+        [
+          -66.13060760498047,
+          121.6680908203125,
+          8.34066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.018",
+      "visible": true,
+      "bbox": [
+        [
+          -66.24897766113281,
+          120.836669921875,
+          7.240645885467529
+        ],
+        [
+          -66.198974609375,
+          120.88667297363281,
+          8.340645790100098
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.019",
+      "visible": true,
+      "bbox": [
+        [
+          -66.18061065673828,
+          120.05525207519531,
+          7.240645885467529
+        ],
+        [
+          -66.13060760498047,
+          120.10525512695312,
+          8.340645790100098
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.020",
+      "visible": true,
+      "bbox": [
+        [
+          -65.97759246826172,
+          119.29757690429688,
+          7.240661144256592
+        ],
+        [
+          -65.9275894165039,
+          119.34757995605469,
+          8.34066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.021",
+      "visible": true,
+      "bbox": [
+        [
+          -65.6460952758789,
+          118.586669921875,
+          7.240645885467529
+        ],
+        [
+          -65.5960922241211,
+          118.63667297363281,
+          8.340645790100098
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.022",
+      "visible": true,
+      "bbox": [
+        [
+          -65.19618225097656,
+          117.94412994384766,
+          7.240661144256592
+        ],
+        [
+          -65.14617919921875,
+          117.99413299560547,
+          8.34066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.023",
+      "visible": true,
+      "bbox": [
+        [
+          -64.64152526855469,
+          117.38947296142578,
+          7.240676403045654
+        ],
+        [
+          -64.59152221679688,
+          117.4394760131836,
+          8.340676307678223
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.024",
+      "visible": true,
+      "bbox": [
+        [
+          -63.99897766113281,
+          116.93955993652344,
+          7.240661144256592
+        ],
+        [
+          -63.948974609375,
+          116.98956298828125,
+          8.34066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.025",
+      "visible": true,
+      "bbox": [
+        [
+          -63.28807067871094,
+          116.6080551147461,
+          7.240661144256592
+        ],
+        [
+          -63.238067626953125,
+          116.6580581665039,
+          8.34066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.026",
+      "visible": true,
+      "bbox": [
+        [
+          -62.5303955078125,
+          116.40503692626953,
+          7.240661144256592
+        ],
+        [
+          -62.48039245605469,
+          116.45503997802734,
+          8.34066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.027",
+      "visible": true,
+      "bbox": [
+        [
+          -61.74897766113281,
+          116.336669921875,
+          7.240661144256592
+        ],
+        [
+          -61.698974609375,
+          116.38667297363281,
+          8.34066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.028",
+      "visible": true,
+      "bbox": [
+        [
+          -60.96756362915039,
+          116.40503692626953,
+          7.240661144256592
+        ],
+        [
+          -60.91756057739258,
+          116.45503997802734,
+          8.34066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.029",
+      "visible": true,
+      "bbox": [
+        [
+          -60.20988845825195,
+          116.6080551147461,
+          7.240676403045654
+        ],
+        [
+          -60.15988540649414,
+          116.6580581665039,
+          8.340676307678223
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.030",
+      "visible": true,
+      "bbox": [
+        [
+          -59.49897766113281,
+          116.93955993652344,
+          7.240645885467529
+        ],
+        [
+          -59.448974609375,
+          116.98956298828125,
+          8.340645790100098
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.031",
+      "visible": true,
+      "bbox": [
+        [
+          -58.8564338684082,
+          117.38947296142578,
+          7.240661144256592
+        ],
+        [
+          -58.80643081665039,
+          117.4394760131836,
+          8.34066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.032",
+      "visible": true,
+      "bbox": [
+        [
+          -58.301780700683594,
+          117.94412994384766,
+          7.240661144256592
+        ],
+        [
+          -58.25177764892578,
+          117.99413299560547,
+          8.34066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.033",
+      "visible": true,
+      "bbox": [
+        [
+          -57.851863861083984,
+          118.586669921875,
+          7.240661144256592
+        ],
+        [
+          -57.80186080932617,
+          118.63667297363281,
+          8.34066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.034",
+      "visible": true,
+      "bbox": [
+        [
+          -57.520362854003906,
+          119.29757690429688,
+          7.240661144256592
+        ],
+        [
+          -57.470359802246094,
+          119.34757995605469,
+          8.34066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | grade monumento.035",
+      "visible": true,
+      "bbox": [
+        [
+          -57.317344665527344,
+          120.05525207519531,
+          7.240661144256592
+        ],
+        [
+          -57.26734161376953,
+          120.10525512695312,
+          8.34066104888916
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | Maria Felipa | base",
+      "visible": true,
+      "bbox": [
+        [
+          -166.14028930664062,
+          152.61216735839844,
+          7.24066162109375
+        ],
+        [
+          -164.24029541015625,
+          154.5121612548828,
+          7.440661430358887
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | Maria Felipa | coluna",
+      "visible": true,
+      "bbox": [
+        [
+          -165.74029541015625,
+          153.0121612548828,
+          7.34066104888916
+        ],
+        [
+          -164.64028930664062,
+          154.11216735839844,
+          9.740660667419434
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | Maria Felipa | cabeça esquemática",
+      "visible": true,
+      "bbox": [
+        [
+          -165.51365661621094,
+          153.23216247558594,
+          9.44066047668457
+        ],
+        [
+          -164.86692810058594,
+          153.8921661376953,
+          10.340660095214844
+        ]
+      ],
+      "properties": {}
+    },
+    {
+      "name": "CAIRU | bacia da fonte OSM",
+      "visible": true,
+      "bbox": [
+        [
+          -161.6074676513672,
+          42.47710418701172,
+          7.240661144256592
+        ],
+        [
+          -140.80747985839844,
+          63.27709197998047,
+          7.640661239624023
+        ]
+      ],
+      "properties": {
+        "boas_reference_media_id": "elevador-lacerda-panorama-783a31279c0d",
+        "boas_placement_status": "Centro e raio da bacia existente preservados; identificação/fit geográfico candidato."
+      }
+    },
+    {
+      "name": "CAIRU | fundo da bacia",
+      "visible": true,
+      "bbox": [
+        [
+          -161.1074676513672,
+          42.97709655761719,
+          7.476661205291748
+        ],
+        [
+          -141.30747985839844,
+          62.777099609375,
+          7.4946608543396
+        ]
+      ],
+      "properties": {
+        "boas_revision": "R30B.33",
+        "reference_media_id": "elevador-lacerda-panorama-783a31279c0d"
+      }
+    },
+    {
+      "name": "CAIS | contenção costeira alinhada à linha de costa",
+      "visible": true,
+      "bbox": [
+        [
+          -388.4596862792969,
+          -94.84332275390625,
+          0.3499999940395355
+        ],
+        [
+          29.831451416015625,
+          600.1769409179688,
+          8.9639892578125
+        ]
+      ],
+      "properties": {
+        "source": "Geometria inferida a partir da costa OSM; dimensões verticais aproximadas.",
+        "boas_revision": "R30B.64",
+        "boas_classification": "ERROR",
+        "boas_source_controls": "costa da água B63 preservada + apoio atual do piso",
+        "boas_real_wall_thickness_status": "pending",
+        "boas_real_foundation_status": "pending",
+        "boas_geographic_fidelity_status": "candidate_pending_photo_comparison",
+        "boas_collision_partner": "B64 | COLLISION | cais e borda marítima"
+      }
+    },
+    {
+      "name": "CAIS | rampa curta até plataforma flutuante",
+      "visible": true,
+      "bbox": [
+        [
+          -486.85418701171875,
+          453.88995361328125,
+          0.3499999940395355
+        ],
+        [
+          -478.368896484375,
+          462.375244140625,
+          1.7999999523162842
+        ]
+      ],
+      "properties": {
+        "blockout": "True",
+        "dimensions_status": "estimativa para MVP"
+      }
+    },
+    {
+      "name": "CAIS | plataforma flutuante de embarque aproximada",
+      "visible": true,
+      "bbox": [
+        [
+          -481.9044189453125,
+          447.5260009765625,
+          -0.05000000074505806
+        ],
+        [
+          -472.00494384765625,
+          457.42547607421875,
+          0.6499999761581421
+        ]
+      ],
+      "properties": {
+        "blockout": "True",
+        "dimensions_status": "estimativa para MVP"
+      }
+    },
+    {
+      "name": "LAC R35 | Caixilhos verticais do apoio",
+      "visible": true,
+      "bbox": [
+        [
+          -6.990963459014893,
+          9.42904281616211,
+          43.99300003051758
+        ],
+        [
+          -4.037839412689209,
+          12.56131362915039,
+          64.79500579833984
+        ]
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_revision": "R30B.35",
+        "boas_role": "visual_architecture",
+        "classification": "ADAPT_LOCAL",
+        "reference_status": "partial",
+        "reference_media_id": "elevador-lacerda-detail-2ab9cfcbccc1",
+        "real_measurements": "None"
+      }
+    },
+    {
+      "name": "TERMINAL | corpo vertical encosta",
+      "visible": false,
+      "bbox": [
+        [
+          -8.586333274841309,
+          4.764439582824707,
+          41.849998474121094
+        ],
+        [
+          0.7077991962432861,
+          14.26984977722168,
+          69.8499984741211
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | pilastra apoio",
+      "visible": false,
+      "bbox": [
+        [
+          -8.77088451385498,
+          7.674847602844238,
+          41.849998474121094
+        ],
+        [
+          -8.205484390258789,
+          8.240245819091797,
+          69.8499984741211
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | pilastra apoio.001",
+      "visible": false,
+      "bbox": [
+        [
+          -2.95456600189209,
+          13.873270034790039,
+          41.849998474121094
+        ],
+        [
+          -2.3891661167144775,
+          14.438669204711914,
+          69.8499984741211
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | grelha vertical",
+      "visible": false,
+      "bbox": [
+        [
+          -7.873464584350586,
+          8.587603569030762,
+          58.20000076293945
+        ],
+        [
+          -7.089346408843994,
+          9.414875984191895,
+          66.19999694824219
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha",
+      "visible": false,
+      "bbox": [
+        [
+          -7.928155899047852,
+          8.63208293914795,
+          58.5625
+        ],
+        [
+          -7.13674783706665,
+          9.466195106506348,
+          58.63750076293945
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.001",
+      "visible": false,
+      "bbox": [
+        [
+          -7.928155899047852,
+          8.63208293914795,
+          59.212501525878906
+        ],
+        [
+          -7.13674783706665,
+          9.466195106506348,
+          59.287498474121094
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.002",
+      "visible": false,
+      "bbox": [
+        [
+          -7.928155899047852,
+          8.63208293914795,
+          59.86249923706055
+        ],
+        [
+          -7.13674783706665,
+          9.466195106506348,
+          59.9375
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.003",
+      "visible": false,
+      "bbox": [
+        [
+          -7.928155899047852,
+          8.63208293914795,
+          60.51250076293945
+        ],
+        [
+          -7.13674783706665,
+          9.466195106506348,
+          60.587501525878906
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.004",
+      "visible": false,
+      "bbox": [
+        [
+          -7.928155899047852,
+          8.63208293914795,
+          61.162498474121094
+        ],
+        [
+          -7.13674783706665,
+          9.466195106506348,
+          61.23749923706055
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.005",
+      "visible": false,
+      "bbox": [
+        [
+          -7.928155899047852,
+          8.63208293914795,
+          61.8125
+        ],
+        [
+          -7.13674783706665,
+          9.466195106506348,
+          61.88750076293945
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.006",
+      "visible": false,
+      "bbox": [
+        [
+          -7.928155899047852,
+          8.63208293914795,
+          62.462501525878906
+        ],
+        [
+          -7.13674783706665,
+          9.466195106506348,
+          62.537498474121094
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.007",
+      "visible": false,
+      "bbox": [
+        [
+          -7.928155899047852,
+          8.63208293914795,
+          63.11249923706055
+        ],
+        [
+          -7.13674783706665,
+          9.466195106506348,
+          63.1875
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.008",
+      "visible": false,
+      "bbox": [
+        [
+          -7.928155899047852,
+          8.63208293914795,
+          63.76250076293945
+        ],
+        [
+          -7.13674783706665,
+          9.466195106506348,
+          63.837501525878906
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.009",
+      "visible": false,
+      "bbox": [
+        [
+          -7.928155899047852,
+          8.63208293914795,
+          64.4124984741211
+        ],
+        [
+          -7.13674783706665,
+          9.466195106506348,
+          64.48750305175781
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.010",
+      "visible": false,
+      "bbox": [
+        [
+          -7.928155899047852,
+          8.63208293914795,
+          65.0625
+        ],
+        [
+          -7.13674783706665,
+          9.466195106506348,
+          65.13749694824219
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.011",
+      "visible": false,
+      "bbox": [
+        [
+          -7.928155899047852,
+          8.63208293914795,
+          65.7125015258789
+        ],
+        [
+          -7.13674783706665,
+          9.466195106506348,
+          65.7874984741211
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | grelha vertical.001",
+      "visible": false,
+      "bbox": [
+        [
+          -5.95750093460083,
+          10.629437446594238,
+          58.20000076293945
+        ],
+        [
+          -5.173382759094238,
+          11.456708908081055,
+          66.19999694824219
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.012",
+      "visible": false,
+      "bbox": [
+        [
+          -6.012192249298096,
+          10.673916816711426,
+          58.5625
+        ],
+        [
+          -5.2207841873168945,
+          11.508028030395508,
+          58.63750076293945
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.013",
+      "visible": false,
+      "bbox": [
+        [
+          -6.012192249298096,
+          10.673916816711426,
+          59.212501525878906
+        ],
+        [
+          -5.2207841873168945,
+          11.508028030395508,
+          59.287498474121094
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.014",
+      "visible": false,
+      "bbox": [
+        [
+          -6.012192249298096,
+          10.673916816711426,
+          59.86249923706055
+        ],
+        [
+          -5.2207841873168945,
+          11.508028030395508,
+          59.9375
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.015",
+      "visible": false,
+      "bbox": [
+        [
+          -6.012192249298096,
+          10.673916816711426,
+          60.51250076293945
+        ],
+        [
+          -5.2207841873168945,
+          11.508028030395508,
+          60.587501525878906
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.016",
+      "visible": false,
+      "bbox": [
+        [
+          -6.012192249298096,
+          10.673916816711426,
+          61.162498474121094
+        ],
+        [
+          -5.2207841873168945,
+          11.508028030395508,
+          61.23749923706055
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.017",
+      "visible": false,
+      "bbox": [
+        [
+          -6.012192249298096,
+          10.673916816711426,
+          61.8125
+        ],
+        [
+          -5.2207841873168945,
+          11.508028030395508,
+          61.88750076293945
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.018",
+      "visible": false,
+      "bbox": [
+        [
+          -6.012192249298096,
+          10.673916816711426,
+          62.462501525878906
+        ],
+        [
+          -5.2207841873168945,
+          11.508028030395508,
+          62.537498474121094
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.019",
+      "visible": false,
+      "bbox": [
+        [
+          -6.012192249298096,
+          10.673916816711426,
+          63.11249923706055
+        ],
+        [
+          -5.2207841873168945,
+          11.508028030395508,
+          63.1875
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.020",
+      "visible": false,
+      "bbox": [
+        [
+          -6.012192249298096,
+          10.673916816711426,
+          63.76250076293945
+        ],
+        [
+          -5.2207841873168945,
+          11.508028030395508,
+          63.837501525878906
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.021",
+      "visible": false,
+      "bbox": [
+        [
+          -6.012192249298096,
+          10.673916816711426,
+          64.4124984741211
+        ],
+        [
+          -5.2207841873168945,
+          11.508028030395508,
+          64.48750305175781
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.022",
+      "visible": false,
+      "bbox": [
+        [
+          -6.012192249298096,
+          10.673916816711426,
+          65.0625
+        ],
+        [
+          -5.2207841873168945,
+          11.508028030395508,
+          65.13749694824219
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.023",
+      "visible": false,
+      "bbox": [
+        [
+          -6.012192249298096,
+          10.673916816711426,
+          65.7125015258789
+        ],
+        [
+          -5.2207841873168945,
+          11.508028030395508,
+          65.7874984741211
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | grelha vertical.002",
+      "visible": false,
+      "bbox": [
+        [
+          -4.041537284851074,
+          12.671270370483398,
+          58.20000076293945
+        ],
+        [
+          -3.2574188709259033,
+          13.498542785644531,
+          66.19999694824219
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.024",
+      "visible": false,
+      "bbox": [
+        [
+          -4.09622859954834,
+          12.715749740600586,
+          58.5625
+        ],
+        [
+          -3.3048202991485596,
+          13.549861907958984,
+          58.63750076293945
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.025",
+      "visible": false,
+      "bbox": [
+        [
+          -4.09622859954834,
+          12.715749740600586,
+          59.212501525878906
+        ],
+        [
+          -3.3048202991485596,
+          13.549861907958984,
+          59.287498474121094
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.026",
+      "visible": false,
+      "bbox": [
+        [
+          -4.09622859954834,
+          12.715749740600586,
+          59.86249923706055
+        ],
+        [
+          -3.3048202991485596,
+          13.549861907958984,
+          59.9375
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.027",
+      "visible": false,
+      "bbox": [
+        [
+          -4.09622859954834,
+          12.715749740600586,
+          60.51250076293945
+        ],
+        [
+          -3.3048202991485596,
+          13.549861907958984,
+          60.587501525878906
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.028",
+      "visible": false,
+      "bbox": [
+        [
+          -4.09622859954834,
+          12.715749740600586,
+          61.162498474121094
+        ],
+        [
+          -3.3048202991485596,
+          13.549861907958984,
+          61.23749923706055
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.029",
+      "visible": false,
+      "bbox": [
+        [
+          -4.09622859954834,
+          12.715749740600586,
+          61.8125
+        ],
+        [
+          -3.3048202991485596,
+          13.549861907958984,
+          61.88750076293945
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.030",
+      "visible": false,
+      "bbox": [
+        [
+          -4.09622859954834,
+          12.715749740600586,
+          62.462501525878906
+        ],
+        [
+          -3.3048202991485596,
+          13.549861907958984,
+          62.537498474121094
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.031",
+      "visible": false,
+      "bbox": [
+        [
+          -4.09622859954834,
+          12.715749740600586,
+          63.11249923706055
+        ],
+        [
+          -3.3048202991485596,
+          13.549861907958984,
+          63.1875
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.032",
+      "visible": false,
+      "bbox": [
+        [
+          -4.09622859954834,
+          12.715749740600586,
+          63.76250076293945
+        ],
+        [
+          -3.3048202991485596,
+          13.549861907958984,
+          63.837501525878906
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.033",
+      "visible": false,
+      "bbox": [
+        [
+          -4.09622859954834,
+          12.715749740600586,
+          64.4124984741211
+        ],
+        [
+          -3.3048202991485596,
+          13.549861907958984,
+          64.48750305175781
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.034",
+      "visible": false,
+      "bbox": [
+        [
+          -4.09622859954834,
+          12.715749740600586,
+          65.0625
+        ],
+        [
+          -3.3048202991485596,
+          13.549861907958984,
+          65.13749694824219
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "TERMINAL | lamela grelha.035",
+      "visible": false,
+      "bbox": [
+        [
+          -4.09622859954834,
+          12.715749740600586,
+          65.7125015258789
+        ],
+        [
+          -3.3048202991485596,
+          13.549861907958984,
+          65.7874984741211
+        ]
+      ],
+      "properties": {
+        "boas_archive_reason": "Geometria legada sobreposta: substituída por apoio R35, terreno autoral corrigido ou balaustradas R34. Preservada para recuperação."
+      }
+    },
+    {
+      "name": "B63 | VISUAL | piso contínuo até o cais",
+      "visible": true,
+      "bbox": [
+        [
+          -388.4596862792969,
+          -94.84332275390625,
+          -0.58892822265625
+        ],
+        [
+          -285.70343017578125,
+          39.402835845947266,
+          9.056307792663574
+        ]
+      ],
+      "properties": {
+        "boas_revision": "R30B.64",
+        "boas_runtime_role": "sidewalk_walkable",
+        "boas_gameplay_approved": "False",
+        "boas_real_dimensions_verified": "False",
+        "boas_classification": "ERROR",
+        "boas_correction_reason": "Piso ausente entre limites existentes; interpolação ancorada no cais e no terreno preservados.",
+        "boas_source_controls": "cais construído R30A8; limite núcleo; limite HQ B62",
+        "boas_location_id": "cais-praca-cairu",
+        "boas_surface_design_status": "ADAPT_LOCAL_CANDIDATE",
+        "boas_collision_partner": "B63 | COLLISION | piso contínuo até o cais",
+        "boas_coastline_control": "limite superior da água preservada B63"
+      }
+    },
+    {
+      "name": "B63 | COLLISION | piso contínuo até o cais",
+      "visible": false,
+      "bbox": [
+        [
+          -388.4596862792969,
+          -94.84332275390625,
+          -0.58892822265625
+        ],
+        [
+          -285.70343017578125,
+          39.402835845947266,
+          9.056307792663574
+        ]
+      ],
+      "properties": {
+        "boas_runtime_role": "terrain_collision",
+        "boas_source_surface": "B63 | VISUAL | piso contínuo até o cais",
+        "boas_geometry_identical_to_visual": "True",
+        "boas_gameplay_approved": "False",
+        "boas_revision": "R30B.64"
+      }
+    },
+    {
+      "name": "B64 | COLLISION | cais e borda marítima",
+      "visible": false,
+      "bbox": [
+        [
+          -388.4596862792969,
+          -94.84332275390625,
+          0.3499999940395355
+        ],
+        [
+          29.831451416015625,
+          600.1769409179688,
+          8.9639892578125
+        ]
+      ],
+      "properties": {
+        "boas_runtime_role": "coastal_wall_collision",
+        "boas_source_surface": "CAIS | contenção costeira alinhada à linha de costa",
+        "boas_gameplay_approved": "False"
+      }
+    }
+  ],
+  "real_fidelity_approved": false
+}

@@ -1,0 +1,107 @@
+{
+  "schema": "boas/aleph-dem-candidate-v1",
+  "capture_id": "aleph-geotiff-20261005T150330Z",
+  "capture_complete": true,
+  "method": "Aleph terrain.validate/merge do commit pinado; aquisição de terrain GeoTIFF apenas, OSM atual preservado",
+  "aleph_commit": "d24c61507481a91a0dd6afac4f97626a4e5ea780",
+  "aleph_code": [
+    {
+      "file": "common.py",
+      "url": "https://raw.githubusercontent.com/Belluxx/Aleph/d24c61507481a91a0dd6afac4f97626a4e5ea780/src/common.py",
+      "sha256": "9fb3aa20b5a9f88e472873075eb07d636df2f0cf1b762163a03782b1219cc8ad"
+    },
+    {
+      "file": "geo.py",
+      "url": "https://raw.githubusercontent.com/Belluxx/Aleph/d24c61507481a91a0dd6afac4f97626a4e5ea780/src/geo.py",
+      "sha256": "14890d222ead8265ff5fa5402b81dfeade7f231c0153b2206d8c67e4b35d636b"
+    },
+    {
+      "file": "terrain.py",
+      "url": "https://raw.githubusercontent.com/Belluxx/Aleph/d24c61507481a91a0dd6afac4f97626a4e5ea780/src/terrain.py",
+      "sha256": "010329313f9aabfd01c61f28042f2931f1d584cad5b5362553756509be7f3bf5"
+    }
+  ],
+  "tiles": [
+    {
+      "zoom": 14,
+      "x": 6438,
+      "y": 8787,
+      "filename": "terrain_z14_x6438_y8787.tif",
+      "source_url": "https://elevation-tiles-prod.s3.amazonaws.com/geotiff/14/6438/8787.tif",
+      "sha256": "26b7d564526d2c177577fae0eb16ea28081dbffb4178434d7bb171de280f84ba"
+    },
+    {
+      "zoom": 14,
+      "x": 6439,
+      "y": 8787,
+      "filename": "terrain_z14_x6439_y8787.tif",
+      "source_url": "https://elevation-tiles-prod.s3.amazonaws.com/geotiff/14/6439/8787.tif",
+      "sha256": "9d1376177a75d731844ed5684e00ad64e715bacf097ea138714bf2387f789ca4"
+    },
+    {
+      "zoom": 14,
+      "x": 6440,
+      "y": 8787,
+      "filename": "terrain_z14_x6440_y8787.tif",
+      "source_url": "https://elevation-tiles-prod.s3.amazonaws.com/geotiff/14/6440/8787.tif",
+      "sha256": "d28e7e0a616103493a5592d05ca4017deca04151ab993cfc2d17faad9af87b0c"
+    },
+    {
+      "zoom": 14,
+      "x": 6438,
+      "y": 8788,
+      "filename": "terrain_z14_x6438_y8788.tif",
+      "source_url": "https://elevation-tiles-prod.s3.amazonaws.com/geotiff/14/6438/8788.tif",
+      "sha256": "d57330507aeb46825388df47db4358e121bab103a49b774df899a79c748e1bdf"
+    },
+    {
+      "zoom": 14,
+      "x": 6439,
+      "y": 8788,
+      "filename": "terrain_z14_x6439_y8788.tif",
+      "source_url": "https://elevation-tiles-prod.s3.amazonaws.com/geotiff/14/6439/8788.tif",
+      "sha256": "608bf7add739c1c5c015cc7982ee0926695b003db130af89ae80bcefbc370f96"
+    },
+    {
+      "zoom": 14,
+      "x": 6440,
+      "y": 8788,
+      "filename": "terrain_z14_x6440_y8788.tif",
+      "source_url": "https://elevation-tiles-prod.s3.amazonaws.com/geotiff/14/6440/8788.tif",
+      "sha256": "def99294447ca8d1baf482a28f340b5d5037b45a4bec2708b36ca5d36425e251"
+    }
+  ],
+  "capture_folder": "world-reference/centro-lapa-tororo-fontenova/source/aleph-geotiff-20261005T150330Z",
+  "dem_file": "world-reference/centro-lapa-tororo-fontenova/source/aleph-geotiff-20261005T150330Z/terrain.tif",
+  "dem_sha256": "5ef0498285f7b255dd0570181447ae3f0e49a1827afaef4c86422bcfcca5e981",
+  "metadata": {
+    "shape": [
+      1024,
+      1536
+    ],
+    "crs": "EPSG:3857",
+    "pixel_projected_m": [
+      4.777314267823516,
+      4.777314267823516
+    ],
+    "nodata": -3.4028234663852886e+38,
+    "min_m": -1155.539306640625,
+    "max_m": 105.73259735107422
+  },
+  "comparison_to_existing_terrarium": {
+    "samples": 5037,
+    "median_abs_delta_m": 0.38028717041015625,
+    "p95_abs_delta_m": 14.393603897094724,
+    "max_abs_delta_m": 24.188559532165527,
+    "coarse_pixel_projected_m": 9.554628535647032,
+    "fine_pixel_projected_m": 4.777314267823516
+  },
+  "vertical_datum_verified": false,
+  "native_source_resolution_verified": false,
+  "scene_source_replaced": false,
+  "historical_capture_recovered": false,
+  "decision": "GeoTIFF Float32 sem quantização Terrarium e com pixel menor adotado para auditoria candidata; não substituir geometria/altimetria sem fechar o fit vertical e a margem do Dique.",
+  "usage_class": "PENDENTE_VERIFICACAO",
+  "source_registry": "https://registry.opendata.aws/terrain-tiles/",
+  "attribution": "https://github.com/tilezen/joerd/blob/master/docs/attribution.md"
+}

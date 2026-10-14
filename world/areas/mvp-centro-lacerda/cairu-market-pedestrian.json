@@ -1,0 +1,167 @@
+{
+  "schema": "boas/corridor-external-validation-v1",
+  "extends": "world/areas/mvp-centro-lacerda/corridor-slice.json",
+  "geographic_ssot": "world/geographic-reference.json",
+  "baseline": "B80",
+  "scene_revision_applied": "R30B.81",
+  "LACERDA_VERTICAL": "BLOCKED_EXTERNAL_EVIDENCE",
+  "investigation_conclusion": "STILL_UNRESOLVED",
+  "movement_enabled": false,
+  "CAIRU_MARKET_PEDESTRIAN": "PARTIAL_ROUTE_APPLIED_BLOCKED",
+  "EXPANDED_MAP": "GREYBOX",
+  "external_block": {
+    "process": "SEMOB 151228/2023",
+    "contract": "008/2023",
+    "inexigibility": "013/2023",
+    "required": [
+      "Projeto Básico",
+      "proposta comercial",
+      "desenhos de instalação/montagem",
+      "levantamento físico equivalente do conjunto executado"
+    ],
+    "must_resolve": [
+      "W/D/H cabine",
+      "abertura e posição de portas",
+      "soleiras/gap",
+      "seção útil e folgas do poço",
+      "níveis de parada e datum/offsets"
+    ],
+    "maintenance_contract_is_not_installation": "004/2023 / 20952/2023",
+    "generic_searches_this_round": 0,
+    "witness_count": 27,
+    "witness_classification": "UNRESOLVED",
+    "reopen_only_on": "nova evidência independente aplicável à instalação atual"
+  },
+  "crossing_binding": {
+    "source": "source:osm-centro-20261005",
+    "way_id": 395865976,
+    "evidence": "docs/reports/world/cairu-market-pedestrian/osm_crossing_binding.json",
+    "road_intersections": [
+      {
+        "road": 1004133497,
+        "shared_node": 3178050253,
+        "traffic_type": "uncontrolled"
+      },
+      {
+        "road": 978525930,
+        "shared_node": 5917201014,
+        "traffic_type": "traffic_signals"
+      },
+      {
+        "road": 46348179,
+        "shared_node": 592378620,
+        "traffic_type": "traffic_signals"
+      }
+    ],
+    "approach_ways": [
+      312006925,
+      1423065746
+    ],
+    "topology_confirmed": true,
+    "final_pavement_alignment_verified": false,
+    "OSM_does_not_prove": [
+      "largura livre",
+      "rampa/degrau",
+      "cota",
+      "fase semafórica",
+      "entrada atual do Mercado",
+      "estado atual de obras"
+    ]
+  },
+  "controller": {
+    "implementation": "tools/world/elevator_controller.py",
+    "reuse_edges_from": "corridor-slice.json#/controller/edges",
+    "default_permissions": {
+      "upper_reference_verified": null,
+      "cabin_sweep": false,
+      "service_contract_approved": false,
+      "source_crossing": true,
+      "traffic_permission": null,
+      "lower_capsule_clear": false,
+      "mercado_capsule_clear": false,
+      "lower_boarding": false,
+      "upper_boarding": false
+    },
+    "traffic_rule": "Todos os três conflitos precisam de permissão atual explícita. Tag traffic_signals não significa sinal verde; uncontrolled exige avaliação de veículos.",
+    "ground_following_candidate": "docs/reports/blender/cairu-market-b81/route_candidate.json",
+    "engine_adapter_required": [
+      "gravity/slide/step solver",
+      "support gap <= 0.03",
+      "capsule CCD and closed-shaft guard",
+      "traffic/vehicle sensing",
+      "visual-ground vs simplified collider equivalence"
+    ],
+    "no_teleport_or_elevator_bypass": true,
+    "numerical_replay": "docs/reports/blender/cairu-market-b81/controller_replay_b81.json"
+  },
+  "collider_plan": {
+    "applied": true,
+    "collision_role_evidence": "docs/reports/world/cairu-market-pedestrian/collision_role_evidence.json",
+    "render_only_candidate": [
+      "LAC R30B06 | fundo verde travessia 3178050253"
+    ],
+    "curbs_remain_physical": true,
+    "layers": [
+      "walkable_ground",
+      "curb_step_or_obstacle",
+      "wall_obstacle",
+      "shaft_forbidden",
+      "dynamic_door"
+    ],
+    "rule": "Derivar superfícies caminháveis e obstáculos necessários de faces visuais existentes; manter source object/hash, SSOT e provenance. Não copiar toda arquitetura nem transformar referência OSM em collider final.",
+    "requires_live_B80_inspection": true,
+    "disable_old_binding_only_after_equivalence_validation": true,
+    "live_inspection_completed": true
+  },
+  "production_ready": false,
+  "production_exported": false,
+  "collision_bindings": [
+    {
+      "object": "B77 | COLLISION | INFERIOR | piso do saguão",
+      "source": "INFERIOR | piso do saguão",
+      "triangles": 2,
+      "vertices": 4,
+      "moving": false,
+      "role": "WALKABLE_FLOOR"
+    },
+    {
+      "object": "B77 | COLLISION | INFERIOR R21 | passeio da entrada",
+      "source": "INFERIOR R21 | passeio da entrada",
+      "triangles": 2,
+      "vertices": 4,
+      "moving": false,
+      "role": "WALKABLE_FLOOR"
+    },
+    {
+      "object": "B77 | COLLISION | INFERIOR R21 | rebaixo acessível",
+      "source": "INFERIOR R21 | rebaixo acessível",
+      "triangles": 2,
+      "vertices": 4,
+      "moving": false,
+      "role": "WALKABLE_FLOOR"
+    },
+    {
+      "object": "B81 | COLLISION | meios-fios Cairu fonte preservada",
+      "source": "B63 | VISUAL | meios-fios das vias existentes",
+      "role": "PHYSICAL_CURB_STEP",
+      "moving": false,
+      "enabled": true,
+      "status": "candidate",
+      "representation": "source triangles in bounded external ROI; no vertex displacement",
+      "triangles": 1848,
+      "source_geometry_sha256": "fa654d0ec6355e7965eb0c41db8176593ebfd509571e8a88b1bfd5e5f4e820a8"
+    }
+  ],
+  "collision_role_overrides": [
+    {
+      "object": "LAC R30B06 | fundo verde travessia 3178050253",
+      "role": "RENDER_ONLY",
+      "collision_enabled": false,
+      "evidence": "docs/reports/world/cairu-market-pedestrian/collision_role_evidence.json"
+    }
+  ],
+  "scene_route_object": "B81 | NAV | Cairu OSM parcial bloqueada",
+  "route_evidence": "docs/reports/blender/cairu-market-b81/route_candidate.json",
+  "validation": "docs/reports/blender/cairu-market-b81/validation.json",
+  "post_application_sweep": "docs/reports/blender/cairu-market-b81/character_sweep_post_application_b81.json"
+}

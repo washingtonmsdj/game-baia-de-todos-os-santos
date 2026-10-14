@@ -1,0 +1,2183 @@
+{
+  "worst_remaining_triangles": [
+    {
+      "triangle": 2561,
+      "indices": [
+        158,
+        157,
+        159
+      ],
+      "points": [
+        [
+          -285.76898193359375,
+          39.33372116088867,
+          9.053254127502441
+        ],
+        [
+          -286.7940979003906,
+          38.2529182434082,
+          9.00550365447998
+        ],
+        [
+          -285.70343017578125,
+          38.4073486328125,
+          7.2556610107421875
+        ]
+      ],
+      "boundary_flags": [
+        true,
+        true,
+        true
+      ],
+      "grade": 2.5948475621445546
+    },
+    {
+      "triangle": 2613,
+      "indices": [
+        158,
+        159,
+        1541
+      ],
+      "points": [
+        [
+          -285.76898193359375,
+          39.33372116088867,
+          9.053254127502441
+        ],
+        [
+          -285.70343017578125,
+          38.4073486328125,
+          7.2556610107421875
+        ],
+        [
+          -285.70343017578125,
+          39.402835845947266,
+          9.056307792663574
+        ]
+      ],
+      "boundary_flags": [
+        true,
+        true,
+        true
+      ],
+      "grade": 2.594879456055208
+    }
+  ],
+  "schema": "boas/coastal-junction-b70-probe-v1",
+  "source": {
+    "file": "blender/salvador_lacerda_r30b69_encontros_sem_frestas.blend",
+    "revision": "R30B.69",
+    "sha256": "30d079046f029b559ffce28d1254bc65a6a3f57f0625245b809deb9c7ad7bfa2",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b68_encontros_terrestres_pieres.blend",
+    "evidence": "docs/reports/blender/pier_land_contacts_r30b69.json",
+    "notes": "Corrige frestas residuais por cortes em coordenadas locais; 16000 probes, sem lacunas terrestres amostradas. Terrenos, costa, mar e decks preservados; alturas e acessibilidade pendentes.",
+    "source_reopened": true,
+    "validation_evidence": "docs/reports/blender/pier_land_contacts_r30b69_validation.json",
+    "local_geometry_checks_passed": true,
+    "sampled_gap_coverage_passed": true
+  },
+  "classification": "ADAPT_LOCAL",
+  "method": "local_2m_quay_contact_plus_fade_to_30m; roads/walkable_vertices_locked; interior_floor_parameterized",
+  "real_collar_width_m": null,
+  "design_collar_limit_m": 30,
+  "design_quay_contact_band_m": 2,
+  "quay_control_edges": 309,
+  "hq_changed_vertices": 3529,
+  "hq_max_z_change_m": 7.590040981769562,
+  "road_locked_vertices": 16240,
+  "road_locked_max_change_m": 0.0,
+  "boundary_binding": [
+    {
+      "fill_vertex": 194,
+      "hq_edge": [
+        129924,
+        130018
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 7.0010223388671875
+    },
+    {
+      "fill_vertex": 195,
+      "hq_edge": [
+        130572,
+        130661
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.449702784570704
+    },
+    {
+      "fill_vertex": 196,
+      "hq_edge": [
+        130572,
+        130661
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.324822202641977
+    },
+    {
+      "fill_vertex": 197,
+      "hq_edge": [
+        130660,
+        130661
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.219572746994383
+    },
+    {
+      "fill_vertex": 198,
+      "hq_edge": [
+        130660,
+        130750
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.0844965134500555
+    },
+    {
+      "fill_vertex": 199,
+      "hq_edge": [
+        130924,
+        130925
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 5.307355536035145
+    },
+    {
+      "fill_vertex": 200,
+      "hq_edge": [
+        130924,
+        130925
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 5.473193126822389
+    },
+    {
+      "fill_vertex": 201,
+      "hq_edge": [
+        130924,
+        131011
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 5.124571554380452
+    },
+    {
+      "fill_vertex": 202,
+      "hq_edge": [
+        131180,
+        131263
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 4.374422269702647
+    },
+    {
+      "fill_vertex": 203,
+      "hq_edge": [
+        131180,
+        131263
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 4.167451605592976
+    },
+    {
+      "fill_vertex": 204,
+      "hq_edge": [
+        131508,
+        131509
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 3.0785735572879385
+    },
+    {
+      "fill_vertex": 205,
+      "hq_edge": [
+        131508,
+        131509
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 3.2251111763087423
+    },
+    {
+      "fill_vertex": 206,
+      "hq_edge": [
+        131508,
+        131589
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.9092049244004974
+    },
+    {
+      "fill_vertex": 207,
+      "hq_edge": [
+        131588,
+        131589
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.7688271387969423
+    },
+    {
+      "fill_vertex": 208,
+      "hq_edge": [
+        131588,
+        131668
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.6101755479664286
+    },
+    {
+      "fill_vertex": 209,
+      "hq_edge": [
+        131668,
+        131746
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.447647242227289
+    },
+    {
+      "fill_vertex": 210,
+      "hq_edge": [
+        131900,
+        131901
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 1.999221482044122
+    },
+    {
+      "fill_vertex": 211,
+      "hq_edge": [
+        131900,
+        131901
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.048933032521947
+    },
+    {
+      "fill_vertex": 212,
+      "hq_edge": [
+        131900,
+        131977
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 1.925539043818211
+    },
+    {
+      "fill_vertex": 213,
+      "hq_edge": [
+        131976,
+        131977
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 1.8832297082561233
+    },
+    {
+      "fill_vertex": 214,
+      "hq_edge": [
+        131976,
+        132052
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 1.814870232902005
+    },
+    {
+      "fill_vertex": 215,
+      "hq_edge": [
+        132484,
+        132485
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 1.9943732809609742
+    },
+    {
+      "fill_vertex": 216,
+      "hq_edge": [
+        132484,
+        132485
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 1.9745226283239645
+    },
+    {
+      "fill_vertex": 217,
+      "hq_edge": [
+        132484,
+        132554
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.0354377905678516
+    },
+    {
+      "fill_vertex": 218,
+      "hq_edge": [
+        132756,
+        132757
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.1057661117316107
+    },
+    {
+      "fill_vertex": 219,
+      "hq_edge": [
+        132756,
+        132757
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.098172027999837
+    },
+    {
+      "fill_vertex": 220,
+      "hq_edge": [
+        132756,
+        132823
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.1401277665963074
+    },
+    {
+      "fill_vertex": 221,
+      "hq_edge": [
+        132952,
+        133015
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.353204430596165
+    },
+    {
+      "fill_vertex": 222,
+      "hq_edge": [
+        132952,
+        133015
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.4030318714297363
+    },
+    {
+      "fill_vertex": 223,
+      "hq_edge": [
+        133200,
+        133201
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.8249783515930176
+    },
+    {
+      "fill_vertex": 224,
+      "hq_edge": [
+        133200,
+        133201
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.768274227208845
+    },
+    {
+      "fill_vertex": 225,
+      "hq_edge": [
+        133200,
+        133261
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.8630883146636363
+    },
+    {
+      "fill_vertex": 226,
+      "hq_edge": [
+        133260,
+        133261
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.9258663654327393
+    },
+    {
+      "fill_vertex": 227,
+      "hq_edge": [
+        133260,
+        133320
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.9626899861881584
+    },
+    {
+      "fill_vertex": 228,
+      "hq_edge": [
+        133320,
+        133378
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.995136965729986
+    },
+    {
+      "fill_vertex": 229,
+      "hq_edge": [
+        133492,
+        133493
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 3.2966333112007447
+    },
+    {
+      "fill_vertex": 230,
+      "hq_edge": [
+        133492,
+        133493
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 3.234497751323045
+    },
+    {
+      "fill_vertex": 231,
+      "hq_edge": [
+        133492,
+        133549
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 3.349110308247911
+    },
+    {
+      "fill_vertex": 232,
+      "hq_edge": [
+        133548,
+        133549
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 3.4002311155438836
+    },
+    {
+      "fill_vertex": 233,
+      "hq_edge": [
+        133548,
+        133604
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 3.4624659684368972
+    },
+    {
+      "fill_vertex": 234,
+      "hq_edge": [
+        133964,
+        133965
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 4.537539150201697
+    },
+    {
+      "fill_vertex": 235,
+      "hq_edge": [
+        133964,
+        133965
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 4.505590027259957
+    },
+    {
+      "fill_vertex": 236,
+      "hq_edge": [
+        133964,
+        134013
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 4.653107094253835
+    },
+    {
+      "fill_vertex": 237,
+      "hq_edge": [
+        134152,
+        134153
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 5.173975976473816
+    },
+    {
+      "fill_vertex": 238,
+      "hq_edge": [
+        134152,
+        134153
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 5.12841007460098
+    },
+    {
+      "fill_vertex": 239,
+      "hq_edge": [
+        134152,
+        134198
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 5.317713871027397
+    },
+    {
+      "fill_vertex": 240,
+      "hq_edge": [
+        134368,
+        134369
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 5.863542729401036
+    },
+    {
+      "fill_vertex": 241,
+      "hq_edge": [
+        134368,
+        134369
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 5.861182141263276
+    },
+    {
+      "fill_vertex": 242,
+      "hq_edge": [
+        134368,
+        134410
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 5.972839432054913
+    },
+    {
+      "fill_vertex": 243,
+      "hq_edge": [
+        134488,
+        134489
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.1561559000996295
+    },
+    {
+      "fill_vertex": 244,
+      "hq_edge": [
+        134488,
+        134489
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.1696647651943115
+    },
+    {
+      "fill_vertex": 245,
+      "hq_edge": [
+        134488,
+        134527
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.236982109689958
+    },
+    {
+      "fill_vertex": 246,
+      "hq_edge": [
+        134600,
+        134601
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.327941822426865
+    },
+    {
+      "fill_vertex": 247,
+      "hq_edge": [
+        134600,
+        134601
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.355634514027415
+    },
+    {
+      "fill_vertex": 248,
+      "hq_edge": [
+        134600,
+        134637
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.394370967432653
+    },
+    {
+      "fill_vertex": 249,
+      "hq_edge": [
+        134636,
+        134637
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.366274410456535
+    },
+    {
+      "fill_vertex": 250,
+      "hq_edge": [
+        134636,
+        134672
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.427351625491333
+    },
+    {
+      "fill_vertex": 251,
+      "hq_edge": [
+        134892,
+        134893
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.497948058195643
+    },
+    {
+      "fill_vertex": 252,
+      "hq_edge": [
+        134892,
+        134893
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.535565088561071
+    },
+    {
+      "fill_vertex": 253,
+      "hq_edge": [
+        134892,
+        134921
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.530241313072075
+    },
+    {
+      "fill_vertex": 254,
+      "hq_edge": [
+        135000,
+        135001
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.542303249081624
+    },
+    {
+      "fill_vertex": 255,
+      "hq_edge": [
+        135000,
+        135001
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.573826626252379
+    },
+    {
+      "fill_vertex": 256,
+      "hq_edge": [
+        135000,
+        135026
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.579961699492246
+    },
+    {
+      "fill_vertex": 257,
+      "hq_edge": [
+        135116,
+        135117
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.551267365156939
+    },
+    {
+      "fill_vertex": 258,
+      "hq_edge": [
+        135116,
+        135117
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.5903008332172375
+    },
+    {
+      "fill_vertex": 259,
+      "hq_edge": [
+        135116,
+        135138
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.576216455689851
+    },
+    {
+      "fill_vertex": 260,
+      "hq_edge": [
+        135176,
+        135177
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.483400979854305
+    },
+    {
+      "fill_vertex": 261,
+      "hq_edge": [
+        135176,
+        135177
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.529080814893859
+    },
+    {
+      "fill_vertex": 262,
+      "hq_edge": [
+        135176,
+        135195
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.496296910748592
+    },
+    {
+      "fill_vertex": 263,
+      "hq_edge": [
+        135212,
+        135228
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.458351077891339
+    },
+    {
+      "fill_vertex": 264,
+      "hq_edge": [
+        135212,
+        135228
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.46998513469213
+    },
+    {
+      "fill_vertex": 265,
+      "hq_edge": [
+        135272,
+        135273
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.294109928132775
+    },
+    {
+      "fill_vertex": 266,
+      "hq_edge": [
+        135272,
+        135273
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.342065082092224
+    },
+    {
+      "fill_vertex": 267,
+      "hq_edge": [
+        135272,
+        135286
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.2846543124397165
+    },
+    {
+      "fill_vertex": 268,
+      "hq_edge": [
+        135308,
+        135309
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.180232749927276
+    },
+    {
+      "fill_vertex": 269,
+      "hq_edge": [
+        135308,
+        135309
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.218428321210972
+    },
+    {
+      "fill_vertex": 270,
+      "hq_edge": [
+        135308,
+        135320
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.173306612169203
+    },
+    {
+      "fill_vertex": 271,
+      "hq_edge": [
+        135376,
+        135377
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 7.003392321025478
+    },
+    {
+      "fill_vertex": 272,
+      "hq_edge": [
+        130205,
+        130206
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.973874040134661
+    },
+    {
+      "fill_vertex": 273,
+      "hq_edge": [
+        130205,
+        130206
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.99599728472451
+    },
+    {
+      "fill_vertex": 274,
+      "hq_edge": [
+        130205,
+        130299
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.939802374139059
+    },
+    {
+      "fill_vertex": 275,
+      "hq_edge": [
+        130481,
+        130482
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.5589347172666175
+    },
+    {
+      "fill_vertex": 276,
+      "hq_edge": [
+        130481,
+        130482
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.657092180876947
+    },
+    {
+      "fill_vertex": 277,
+      "hq_edge": [
+        130749,
+        130750
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 5.9551699902460244
+    },
+    {
+      "fill_vertex": 278,
+      "hq_edge": [
+        130749,
+        130838
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 5.797514860660896
+    },
+    {
+      "fill_vertex": 279,
+      "hq_edge": [
+        130837,
+        130838
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 5.644625215021735
+    },
+    {
+      "fill_vertex": 280,
+      "hq_edge": [
+        131345,
+        131346
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 3.670169635771369
+    },
+    {
+      "fill_vertex": 281,
+      "hq_edge": [
+        131345,
+        131346
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 3.773731970962229
+    },
+    {
+      "fill_vertex": 282,
+      "hq_edge": [
+        131345,
+        131428
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 3.524585719893323
+    },
+    {
+      "fill_vertex": 283,
+      "hq_edge": [
+        131745,
+        131746
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.3388343388524966
+    },
+    {
+      "fill_vertex": 284,
+      "hq_edge": [
+        131745,
+        131824
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.2137003765393537
+    },
+    {
+      "fill_vertex": 285,
+      "hq_edge": [
+        132621,
+        132622
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.0524904267990878
+    },
+    {
+      "fill_vertex": 286,
+      "hq_edge": [
+        132621,
+        132622
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.0682686376086123
+    },
+    {
+      "fill_vertex": 287,
+      "hq_edge": [
+        132621,
+        132690
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.079453693448686
+    },
+    {
+      "fill_vertex": 288,
+      "hq_edge": [
+        132689,
+        132690
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.0706568488467014
+    },
+    {
+      "fill_vertex": 289,
+      "hq_edge": [
+        133077,
+        133078
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.6016655816457988
+    },
+    {
+      "fill_vertex": 290,
+      "hq_edge": [
+        133077,
+        133078
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.5300978161811907
+    },
+    {
+      "fill_vertex": 291,
+      "hq_edge": [
+        133077,
+        133140
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.6606631697478007
+    },
+    {
+      "fill_vertex": 292,
+      "hq_edge": [
+        133377,
+        133378
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 3.0601141452789307
+    },
+    {
+      "fill_vertex": 293,
+      "hq_edge": [
+        133377,
+        133436
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 3.1093378723273157
+    },
+    {
+      "fill_vertex": 294,
+      "hq_edge": [
+        133657,
+        133658
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 3.6724720783531026
+    },
+    {
+      "fill_vertex": 295,
+      "hq_edge": [
+        133657,
+        133658
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 3.6008692825472934
+    },
+    {
+      "fill_vertex": 296,
+      "hq_edge": [
+        133657,
+        133711
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 3.7777216589988134
+    },
+    {
+      "fill_vertex": 297,
+      "hq_edge": [
+        133865,
+        133866
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 4.262981688597454
+    },
+    {
+      "fill_vertex": 298,
+      "hq_edge": [
+        133865,
+        133866
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 4.2252366671804396
+    },
+    {
+      "fill_vertex": 299,
+      "hq_edge": [
+        133865,
+        133916
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 4.367983322130498
+    },
+    {
+      "fill_vertex": 300,
+      "hq_edge": [
+        134013,
+        134060
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 4.7730508005068755
+    },
+    {
+      "fill_vertex": 301,
+      "hq_edge": [
+        134197,
+        134198
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 5.355476398892677
+    },
+    {
+      "fill_vertex": 302,
+      "hq_edge": [
+        134197,
+        134242
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 5.490613287243495
+    },
+    {
+      "fill_vertex": 303,
+      "hq_edge": [
+        134241,
+        134242
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 5.513546859742553
+    },
+    {
+      "fill_vertex": 304,
+      "hq_edge": [
+        134241,
+        134285
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 5.635146696783757
+    },
+    {
+      "fill_vertex": 305,
+      "hq_edge": [
+        134285,
+        134327
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 5.747789458091297
+    },
+    {
+      "fill_vertex": 306,
+      "hq_edge": [
+        134409,
+        134410
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 5.974318063201031
+    },
+    {
+      "fill_vertex": 307,
+      "hq_edge": [
+        134409,
+        134450
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.079159114726789
+    },
+    {
+      "fill_vertex": 308,
+      "hq_edge": [
+        134449,
+        134450
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.075306170195815
+    },
+    {
+      "fill_vertex": 309,
+      "hq_edge": [
+        134705,
+        134706
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.419860855595017
+    },
+    {
+      "fill_vertex": 310,
+      "hq_edge": [
+        134705,
+        134706
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.451626803403993
+    },
+    {
+      "fill_vertex": 311,
+      "hq_edge": [
+        134705,
+        134739
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.46716382115228
+    },
+    {
+      "fill_vertex": 312,
+      "hq_edge": [
+        134833,
+        134834
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.491997880615232
+    },
+    {
+      "fill_vertex": 313,
+      "hq_edge": [
+        134833,
+        134834
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.525883329557797
+    },
+    {
+      "fill_vertex": 314,
+      "hq_edge": [
+        134833,
+        134864
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.532585061594702
+    },
+    {
+      "fill_vertex": 315,
+      "hq_edge": [
+        134921,
+        134948
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.566395850544108
+    },
+    {
+      "fill_vertex": 316,
+      "hq_edge": [
+        135025,
+        135026
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.546716693813923
+    },
+    {
+      "fill_vertex": 317,
+      "hq_edge": [
+        135025,
+        135050
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.580782811315701
+    },
+    {
+      "fill_vertex": 318,
+      "hq_edge": [
+        135049,
+        135050
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.54408359720541
+    },
+    {
+      "fill_vertex": 319,
+      "hq_edge": [
+        135049,
+        135073
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.571026739111617
+    },
+    {
+      "fill_vertex": 320,
+      "hq_edge": [
+        135073,
+        135095
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.600841508317929
+    },
+    {
+      "fill_vertex": 321,
+      "hq_edge": [
+        135137,
+        135138
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.5351870572479305
+    },
+    {
+      "fill_vertex": 322,
+      "hq_edge": [
+        135137,
+        135158
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.556335159564744
+    },
+    {
+      "fill_vertex": 323,
+      "hq_edge": [
+        135157,
+        135158
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.512511973217286
+    },
+    {
+      "fill_vertex": 324,
+      "hq_edge": [
+        135285,
+        135286
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.239959373067845
+    },
+    {
+      "fill_vertex": 325,
+      "hq_edge": [
+        135285,
+        135298
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.228192149540382
+    },
+    {
+      "fill_vertex": 326,
+      "hq_edge": [
+        135329,
+        135330
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.092708692001503
+    },
+    {
+      "fill_vertex": 327,
+      "hq_edge": [
+        135329,
+        135330
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.131233198171606
+    },
+    {
+      "fill_vertex": 328,
+      "hq_edge": [
+        135329,
+        135339
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.085460065929176
+    },
+    {
+      "fill_vertex": 329,
+      "hq_edge": [
+        135365,
+        135366
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.015139493076541
+    },
+    {
+      "fill_vertex": 330,
+      "hq_edge": [
+        135365,
+        135366
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 5.934596351456452
+    },
+    {
+      "fill_vertex": 331,
+      "hq_edge": [
+        135365,
+        135371
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.025969892771351
+    },
+    {
+      "fill_vertex": 332,
+      "hq_edge": [
+        135377,
+        135378
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.654933217562041
+    },
+    {
+      "fill_vertex": 333,
+      "hq_edge": [
+        130018,
+        130112
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 7.0010223388671875
+    },
+    {
+      "fill_vertex": 334,
+      "hq_edge": [
+        130298,
+        130299
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.887062411383786
+    },
+    {
+      "fill_vertex": 335,
+      "hq_edge": [
+        130298,
+        130391
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.825190142524725
+    },
+    {
+      "fill_vertex": 336,
+      "hq_edge": [
+        130390,
+        130391
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.744708826362831
+    },
+    {
+      "fill_vertex": 337,
+      "hq_edge": [
+        131010,
+        131011
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 4.948086875311196
+    },
+    {
+      "fill_vertex": 338,
+      "hq_edge": [
+        131010,
+        131096
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 4.756790033947205
+    },
+    {
+      "fill_vertex": 339,
+      "hq_edge": [
+        131262,
+        131263
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 3.982510915772256
+    },
+    {
+      "fill_vertex": 340,
+      "hq_edge": [
+        132126,
+        132199
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 1.7249026043699296
+    },
+    {
+      "fill_vertex": 341,
+      "hq_edge": [
+        132126,
+        132199
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 1.6620016884516091
+    },
+    {
+      "fill_vertex": 342,
+      "hq_edge": [
+        132198,
+        132199
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 1.6512089726338117
+    },
+    {
+      "fill_vertex": 343,
+      "hq_edge": [
+        132198,
+        132272
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 1.6340772022352248
+    },
+    {
+      "fill_vertex": 344,
+      "hq_edge": [
+        132414,
+        132415
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 1.9037639637560357
+    },
+    {
+      "fill_vertex": 345,
+      "hq_edge": [
+        132414,
+        132415
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 1.8571638957159085
+    },
+    {
+      "fill_vertex": 346,
+      "hq_edge": [
+        132822,
+        132823
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.1750084531476808
+    },
+    {
+      "fill_vertex": 347,
+      "hq_edge": [
+        132822,
+        132888
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.2232201860474423
+    },
+    {
+      "fill_vertex": 348,
+      "hq_edge": [
+        133014,
+        133015
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.4645665140011763
+    },
+    {
+      "fill_vertex": 349,
+      "hq_edge": [
+        133762,
+        133763
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 3.9464870055403414
+    },
+    {
+      "fill_vertex": 350,
+      "hq_edge": [
+        133762,
+        133763
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 3.8815863925591447
+    },
+    {
+      "fill_vertex": 351,
+      "hq_edge": [
+        133762,
+        133815
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 4.061477129064154
+    },
+    {
+      "fill_vertex": 352,
+      "hq_edge": [
+        133814,
+        133815
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 4.116476615315184
+    },
+    {
+      "fill_vertex": 353,
+      "hq_edge": [
+        134106,
+        134107
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 4.9864749344585615
+    },
+    {
+      "fill_vertex": 354,
+      "hq_edge": [
+        134106,
+        134107
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 4.942515503105332
+    },
+    {
+      "fill_vertex": 355,
+      "hq_edge": [
+        134326,
+        134327
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 5.750819225210118
+    },
+    {
+      "fill_vertex": 356,
+      "hq_edge": [
+        134770,
+        134771
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.475994453565547
+    },
+    {
+      "fill_vertex": 357,
+      "hq_edge": [
+        134770,
+        134771
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.510502484745087
+    },
+    {
+      "fill_vertex": 358,
+      "hq_edge": [
+        134770,
+        134803
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.5182247206264945
+    },
+    {
+      "fill_vertex": 359,
+      "hq_edge": [
+        134802,
+        134803
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.4843989517106415
+    },
+    {
+      "fill_vertex": 360,
+      "hq_edge": [
+        134974,
+        134975
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.535339234969127
+    },
+    {
+      "fill_vertex": 361,
+      "hq_edge": [
+        134974,
+        134975
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.568095705384214
+    },
+    {
+      "fill_vertex": 362,
+      "hq_edge": [
+        135094,
+        135095
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.563038480358992
+    },
+    {
+      "fill_vertex": 363,
+      "hq_edge": [
+        135194,
+        135195
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.45013888206592
+    },
+    {
+      "fill_vertex": 364,
+      "hq_edge": [
+        135258,
+        135259
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.3427267113274315
+    },
+    {
+      "fill_vertex": 365,
+      "hq_edge": [
+        135258,
+        135259
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.391650621289694
+    },
+    {
+      "fill_vertex": 366,
+      "hq_edge": [
+        135338,
+        135339
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.044598429864258
+    },
+    {
+      "fill_vertex": 367,
+      "hq_edge": [
+        135338,
+        135347
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.0268437249152775
+    },
+    {
+      "fill_vertex": 368,
+      "hq_edge": [
+        135346,
+        135347
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 5.99033200238383
+    },
+    {
+      "fill_vertex": 369,
+      "hq_edge": [
+        135346,
+        135354
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 5.963392519720787
+    },
+    {
+      "fill_vertex": 370,
+      "hq_edge": [
+        135354,
+        135360
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 5.939982318296597
+    },
+    {
+      "fill_vertex": 371,
+      "hq_edge": [
+        135370,
+        135371
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.238029952359797
+    },
+    {
+      "fill_vertex": 372,
+      "hq_edge": [
+        135370,
+        135375
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.266648905827776
+    },
+    {
+      "fill_vertex": 373,
+      "hq_edge": [
+        135374,
+        135375
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.642236746442879
+    },
+    {
+      "fill_vertex": 374,
+      "hq_edge": [
+        130111,
+        130112
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 7.0010223388671875
+    },
+    {
+      "fill_vertex": 375,
+      "hq_edge": [
+        131095,
+        131096
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 4.572067230823275
+    },
+    {
+      "fill_vertex": 376,
+      "hq_edge": [
+        131427,
+        131428
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 3.394664512505779
+    },
+    {
+      "fill_vertex": 377,
+      "hq_edge": [
+        131823,
+        131824
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.141772377130207
+    },
+    {
+      "fill_vertex": 378,
+      "hq_edge": [
+        132051,
+        132052
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 1.7788947159425161
+    },
+    {
+      "fill_vertex": 379,
+      "hq_edge": [
+        132271,
+        132272
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 1.671085852373749
+    },
+    {
+      "fill_vertex": 380,
+      "hq_edge": [
+        132271,
+        132344
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 1.6965442227308467
+    },
+    {
+      "fill_vertex": 381,
+      "hq_edge": [
+        132343,
+        132344
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 1.763385859286379
+    },
+    {
+      "fill_vertex": 382,
+      "hq_edge": [
+        132887,
+        132888
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.2890671606156774
+    },
+    {
+      "fill_vertex": 383,
+      "hq_edge": [
+        133139,
+        133140
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 2.7226726618157406
+    },
+    {
+      "fill_vertex": 384,
+      "hq_edge": [
+        133435,
+        133436
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 3.1841530799865723
+    },
+    {
+      "fill_vertex": 385,
+      "hq_edge": [
+        133603,
+        133604
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 3.51940806005668
+    },
+    {
+      "fill_vertex": 386,
+      "hq_edge": [
+        133915,
+        133916
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 4.398356070870698
+    },
+    {
+      "fill_vertex": 387,
+      "hq_edge": [
+        134059,
+        134060
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 4.810027433817418
+    },
+    {
+      "fill_vertex": 388,
+      "hq_edge": [
+        134527,
+        134564
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.3117639382450115
+    },
+    {
+      "fill_vertex": 389,
+      "hq_edge": [
+        134563,
+        134564
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.285246931182826
+    },
+    {
+      "fill_vertex": 390,
+      "hq_edge": [
+        134671,
+        134672
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.398032740631717
+    },
+    {
+      "fill_vertex": 391,
+      "hq_edge": [
+        134863,
+        134864
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.4974725074578945
+    },
+    {
+      "fill_vertex": 392,
+      "hq_edge": [
+        134947,
+        134948
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.530987244664162
+    },
+    {
+      "fill_vertex": 393,
+      "hq_edge": [
+        135227,
+        135228
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.4253071091818
+    },
+    {
+      "fill_vertex": 394,
+      "hq_edge": [
+        135227,
+        135244
+      ],
+      "edge_t": 1.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.434322506956237
+    },
+    {
+      "fill_vertex": 395,
+      "hq_edge": [
+        135243,
+        135244
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.387442972785507
+    },
+    {
+      "fill_vertex": 396,
+      "hq_edge": [
+        135319,
+        135320
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 6.136592799995832
+    },
+    {
+      "fill_vertex": 397,
+      "hq_edge": [
+        135359,
+        135360
+      ],
+      "edge_t": 0.0,
+      "xy_distance_m": 0.0,
+      "height_candidate": 5.943362185667403
+    },
+    {
+      "fill_vertex": 1542,
+      "hq_edge": [
+        129924,
+        130018
+      ],
+      "edge_t": 0.542236328125,
+      "xy_distance_m": 0.0,
+      "height_candidate": 7.0010223388671875
+    },
+    {
+      "fill_vertex": 1647,
+      "hq_edge": [
+        129924,
+        130018
+      ],
+      "edge_t": 0.662506103515625,
+      "xy_distance_m": 0.0,
+      "height_candidate": 7.0010223388671875
+    }
+  ],
+  "boundary_changed_vertices": 202,
+  "floor_below_water_before": 19,
+  "floor_below_water_after": 0,
+  "hq_before": {
+    "faces": 6950,
+    "grade_over_200percent": 0,
+    "grade_max": 0.8322286129774799,
+    "grade_p95": 0.2622938941793355
+  },
+  "hq_after": {
+    "faces": 6950,
+    "grade_over_200percent": 0,
+    "grade_max": 0.7889135974507352,
+    "grade_p95": 0.36287231095974193
+  },
+  "floor_before": {
+    "faces": 2827,
+    "grade_over_200percent": 126,
+    "grade_max": 25.4181723913851,
+    "grade_p95": 1.4286692215635417
+  },
+  "floor_after": {
+    "faces": 2827,
+    "grade_over_200percent": 2,
+    "grade_max": 2.594879456055208,
+    "grade_p95": 0.23351633528919552
+  },
+  "finite": true,
+  "quay_and_source_xy_changed": false,
+  "source_changed": false,
+  "real_altimetry_verified": false
+}

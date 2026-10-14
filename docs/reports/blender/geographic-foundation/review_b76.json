@@ -1,0 +1,122 @@
+{
+  "schema": "boas/geographic-foundation-review-v1",
+  "revision": "R30B.76",
+  "ssot": "world/geographic-reference.json",
+  "status": "relative_xy_consolidated_vertical_pending",
+  "source": {
+    "file": "blender/salvador_lacerda_r30b76_fundacao_geografica.blend",
+    "revision": "R30B.76",
+    "status": "geographic_foundation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b75_passeios_larguras_osm.blend",
+    "sha256": "8312775096a6f0fd0de5114885ffe2403ad9e367f38a8b40556433ad2dd79a60",
+    "evidence": "docs/reports/blender/geographic-foundation/application_b76.json",
+    "source_reopened": false,
+    "production_ready": false,
+    "notes": "Contrato geográfico único e Campo da Pólvora real; geometrias anteriores preservadas. Datum e topografia ainda candidatos; autoria/produção mantidas."
+  },
+  "preserved_objects": 6068,
+  "regions": [
+    {
+      "region": "Lacerda, Prefeitura, Palácio Rio Branco, Tomé de Souza, Cidade Alta/Baixa, Cairu, Mercado Modelo",
+      "status": "existing_core_preserved",
+      "geometry_changed": false
+    },
+    {
+      "region": "Centro Histórico → Lapa",
+      "status": "terrain_and_osm_reference_candidate",
+      "roads_finished": false
+    },
+    {
+      "region": "Center Lapa",
+      "status": "real_footprint_reference",
+      "osm_type": "way",
+      "osm_id": 257113955,
+      "height_verified": false
+    },
+    {
+      "region": "Campo da Pólvora",
+      "status": "real_park_outline_reference",
+      "osm_type": "way",
+      "osm_id": 257336400,
+      "z": "sampled_candidate_ground"
+    },
+    {
+      "region": "Dique do Tororó",
+      "status": "real_outline_candidate_water_unfinished_shore",
+      "osm_type": "relation",
+      "osm_id": 15601931,
+      "absolute_water_level_verified": false
+    },
+    {
+      "region": "Arena Fonte Nova",
+      "status": "real_outer_and_inner_reference",
+      "osm_type": "relation",
+      "osm_id": 3346613,
+      "architecture": "not_detailed"
+    }
+  ],
+  "corrections": [
+    {
+      "classification": "ERROR",
+      "issue": "Referência compartilhada não centralizada nos contratos de área",
+      "action": "Ambas as áreas apontam para o mesmo SSOT; nenhum deslocamento geométrico"
+    },
+    {
+      "classification": "ERROR",
+      "issue": "Campo da Pólvora sem binding explícito de local",
+      "action": "Polígono OSM 257336400 e location_id catalogados, guia amostrado sobre terreno candidato"
+    },
+    {
+      "classification": "ADAPT_LOCAL",
+      "issue": "Níveis de detalhe implícitos",
+      "action": "Propriedades nas coleções equivalentes existentes; nenhum reparent/renomeação"
+    }
+  ],
+  "pending": [
+    {
+      "classification": "NEEDS_REVIEW",
+      "issue": "Datum/escala física absolutos ainda não verificados",
+      "action": "Manter coordenadas e Z local existentes; não aplicar ajuste global"
+    },
+    {
+      "classification": "SOURCE_LIMITATION",
+      "issue": "Margem do Dique aberta, delta máximo terreno/água de 23.992286682128906 unidades",
+      "evidence": "docs/reports/blender/centro-expansion/dique_shore_height_b75.json"
+    },
+    {
+      "classification": "NEEDS_REVIEW",
+      "issue": "Triagem edifício/terreno por AABB",
+      "count": 118,
+      "action": "Revisar referência/visibilidade/footprint antes de mover edifícios"
+    },
+    {
+      "classification": "NEEDS_REVIEW",
+      "issue": "Transforms não uniformes/refletidos",
+      "count": 234,
+      "action": "Não aplicar escala em massa"
+    },
+    {
+      "classification": "NEEDS_REVIEW",
+      "issue": "Comparação de bindings e centros",
+      "count": 902,
+      "action": "Proxies, colisores e referências compartilham IDs; revisão não é prova de erro"
+    },
+    {
+      "classification": "SOURCE_LIMITATION",
+      "issue": "Vias finais da expansão, larguras ausentes, cruzamentos e acessos não aprovados",
+      "action": "Permanecem referência; replay de veículo não é teste físico"
+    }
+  ],
+  "aleph": {
+    "method": "GeoTIFF Float32 do provedor usado pelo commit pinado; OSM existente preservado",
+    "evidence": "docs/reports/aleph/centro-lapa-tororo-fontenova/source_summary.json",
+    "vertical_candidate_rms": 1.6279955763891554,
+    "old_terrarium_vertical_rms": 2.4004872,
+    "replaced_scene_dem": false,
+    "absolute_accuracy_verified": false
+  },
+  "validation_scope": "Conservação de objetos e reabertura, igualdade de fits, auditorias DEM/XY/topologia anteriores e triagem espacial. Sem npm/build/suíte unitária; sem física ou aprovação de navegação.",
+  "next_core_segment": "Praça Tomé de Souza e desembarque superior do Elevador → base do Elevador → Praça Cairu/Mercado Modelo: continuidade Z, pavimento/collision e ligações reais.",
+  "next_command_category": "topography_ssot_before_architectural_detail",
+  "production_ready": false
+}

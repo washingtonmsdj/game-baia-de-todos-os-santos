@@ -1,0 +1,390 @@
+{
+  "schema": "boas/lacerda-upper-completion-v1",
+  "parent_ssot": "world/geographic-reference.json",
+  "ssot_sha256": "1d9da0962d456cb38ed3df0da797208e499a8465f82e9836c14bb337df2385e7",
+  "source_ids": [
+    "source:lacerda-issue22-sucop-17",
+    "source:lacerda-issue22-sucop-23"
+  ],
+  "source_sha256": {
+    "17": "02d02b37b61b9a44ca931a00811e196e104322a6f0f89fc4bfb04f70d7783dd1",
+    "23": "8d8e57f67dc38ab097fce4d9a4c823866fc8db8cd8a0f56f71ff46b7b81efb5b"
+  },
+  "drawing_to_architecture": {
+    "origin_pdf": [
+      2932.68,
+      1085.08
+    ],
+    "origin_scene_local": [
+      5.5,
+      0.0
+    ],
+    "measurement_frame": "docs/reports/blender/lacerda-corridor/scene_b78.json",
+    "kind": "DOCUMENT_DERIVED_RELATIVE_ARCHITECTURE",
+    "ssot_registration_accepted": false,
+    "absolute_xy_confidence": "CANDIDATE_EXISTING_UPPER_ACCESS"
+  },
+  "pdf_units_per_m": 37.790954824344766,
+  "pillars": [
+    {
+      "id": "upper_front_pillar_1",
+      "drawing_id": "sucop-2023-17",
+      "cad_curve_id": 1751,
+      "trace_pdf": [
+        [
+          2953.56,
+          883.84
+        ],
+        [
+          2953.7999999999997,
+          880.96
+        ],
+        [
+          2932.68,
+          878.9200000000001
+        ],
+        [
+          2928.8399999999997,
+          916.36
+        ],
+        [
+          2950.08,
+          918.52
+        ],
+        [
+          2950.3199999999997,
+          915.88
+        ]
+      ],
+      "points_pdf": [
+        [
+          2953.7999999999997,
+          880.96
+        ],
+        [
+          2932.68,
+          878.9200000000001
+        ],
+        [
+          2928.8399999999997,
+          916.36
+        ],
+        [
+          2950.08,
+          918.52
+        ]
+      ],
+      "points_local": [
+        [
+          6.058863889472157,
+          5.401292477228088
+        ],
+        [
+          5.5,
+          5.455273648370284
+        ],
+        [
+          5.398388383732331,
+          4.464560389760548
+        ],
+        [
+          5.960427636212861,
+          4.407403855609987
+        ]
+      ],
+      "simplification": "SMALL_END_REBATES_OMITTED",
+      "accuracy": "DOCUMENT_RELATIVE_CONTOUR_NOT_AS_BUILT"
+    },
+    {
+      "id": "upper_front_pillar_2",
+      "drawing_id": "sucop-2023-17",
+      "cad_curve_id": 1758,
+      "trace_pdf": [
+        [
+          2940.72,
+          1008.0400000000001
+        ],
+        [
+          2940.96,
+          1005.0400000000001
+        ],
+        [
+          2919.96,
+          1002.88
+        ],
+        [
+          2916.0,
+          1040.44
+        ],
+        [
+          2937.24,
+          1042.48
+        ],
+        [
+          2937.48,
+          1039.96
+        ]
+      ],
+      "points_pdf": [
+        [
+          2940.96,
+          1005.0400000000001
+        ],
+        [
+          2919.96,
+          1002.88
+        ],
+        [
+          2916.0,
+          1040.44
+        ],
+        [
+          2937.24,
+          1042.48
+        ]
+      ],
+      "points_local": [
+        [
+          5.719100047577159,
+          2.1179671265791473
+        ],
+        [
+          5.163411521113364,
+          2.1751236607297115
+        ],
+        [
+          5.058624541837332,
+          1.1812350391116073
+        ],
+        [
+          5.620663794317851,
+          1.127253867969411
+        ]
+      ],
+      "simplification": "SMALL_END_REBATES_OMITTED",
+      "accuracy": "DOCUMENT_RELATIVE_CONTOUR_NOT_AS_BUILT"
+    },
+    {
+      "id": "upper_front_pillar_3",
+      "drawing_id": "sucop-2023-17",
+      "cad_curve_id": 1738,
+      "trace_pdf": [
+        [
+          2928.0,
+          1132.24
+        ],
+        [
+          2928.24,
+          1129.48
+        ],
+        [
+          2907.12,
+          1127.44
+        ],
+        [
+          2903.52,
+          1164.76
+        ],
+        [
+          2924.7599999999998,
+          1166.68
+        ],
+        [
+          2924.88,
+          1164.28
+        ]
+      ],
+      "points_pdf": [
+        [
+          2928.24,
+          1129.48
+        ],
+        [
+          2907.12,
+          1127.44
+        ],
+        [
+          2903.52,
+          1164.76
+        ],
+        [
+          2924.7599999999998,
+          1166.68
+        ]
+      ],
+      "points_local": [
+        [
+          5.382511568690511,
+          -1.1748843130948838
+        ],
+        [
+          4.823647679218354,
+          -1.1209031419526876
+        ],
+        [
+          4.72838678896742,
+          -2.1084410375540594
+        ],
+        [
+          5.2904260414479385,
+          -2.159246845687894
+        ]
+      ],
+      "simplification": "SMALL_END_REBATES_OMITTED",
+      "accuracy": "DOCUMENT_RELATIVE_CONTOUR_NOT_AS_BUILT"
+    },
+    {
+      "id": "upper_front_pillar_4",
+      "drawing_id": "sucop-2023-17",
+      "cad_curve_id": 1743,
+      "trace_pdf": [
+        [
+          2912.2799999999997,
+          1288.6
+        ],
+        [
+          2912.04,
+          1291.0
+        ],
+        [
+          2890.08,
+          1290.88
+        ],
+        [
+          2894.52,
+          1251.16
+        ],
+        [
+          2915.64,
+          1253.68
+        ],
+        [
+          2915.4,
+          1256.56
+        ]
+      ],
+      "points_pdf": [
+        [
+          2912.04,
+          1291.0
+        ],
+        [
+          2890.08,
+          1290.88
+        ],
+        [
+          2894.52,
+          1251.16
+        ],
+        [
+          2915.64,
+          1253.68
+        ]
+      ],
+      "points_local": [
+        [
+          4.953837562561302,
+          -5.44892292235356
+        ],
+        [
+          4.3727461320305885,
+          -5.445747559345199
+        ],
+        [
+          4.490234563340079,
+          -4.394702403576534
+        ],
+        [
+          5.049098452812236,
+          -4.461385026752189
+        ]
+      ],
+      "simplification": "SMALL_END_REBATES_OMITTED",
+      "accuracy": "DOCUMENT_RELATIVE_CONTOUR_NOT_AS_BUILT"
+    }
+  ],
+  "spans": [
+    {
+      "id": "upper_front_span_1",
+      "points_local": [
+        [
+          5.960427636212861,
+          4.407403855609987
+        ],
+        [
+          5.398388383732331,
+          4.464560389760548
+        ],
+        [
+          5.163411521113364,
+          2.1751236607297115
+        ],
+        [
+          5.719100047577159,
+          2.1179671265791473
+        ]
+      ],
+      "function": "ROLLER_CANDIDATE",
+      "source_note": "PORTA DE ROLO na planta17",
+      "clear_width_control": "DOCUMENT_VECTOR_ENDS_NOT_PRINTED_OPENING_COTA"
+    },
+    {
+      "id": "upper_front_span_2",
+      "points_local": [
+        [
+          5.620663794317851,
+          1.127253867969411
+        ],
+        [
+          5.058624541837332,
+          1.1812350391116073
+        ],
+        [
+          4.823647679218354,
+          -1.1209031419526876
+        ],
+        [
+          5.382511568690511,
+          -1.1748843130948838
+        ]
+      ],
+      "function": "MAIN_OPEN_ACCESS",
+      "source_note": "Vão entre apoios do salão na planta17",
+      "clear_width_control": "DOCUMENT_VECTOR_ENDS_NOT_PRINTED_OPENING_COTA"
+    },
+    {
+      "id": "upper_front_span_3",
+      "points_local": [
+        [
+          5.2904260414479385,
+          -2.159246845687894
+        ],
+        [
+          4.72838678896742,
+          -2.1084410375540594
+        ],
+        [
+          4.3727461320305885,
+          -5.445747559345199
+        ],
+        [
+          4.953837562561302,
+          -5.44892292235356
+        ]
+      ],
+      "function": "ROLLER_CANDIDATE",
+      "source_note": "PORTA DE ROLO na planta17",
+      "clear_width_control": "DOCUMENT_VECTOR_ENDS_NOT_PRINTED_OPENING_COTA"
+    }
+  ],
+  "levels": {
+    "floor": 70.12300872802734,
+    "ceiling": 73.87300872802734,
+    "roof": 74.12300872802734,
+    "opening_height_candidate": 2.69,
+    "opening_height_status": "INHERITED_APPROXIMATE_FROM_EXISTING_LEAF_NOT_DOCUMENTED"
+  },
+  "canopy_decision": "PRESERVE_SUPERSEDED_REFERENCE: marquise legada flutua 0,957m acima da cobertura atual e excede contorno; não inventar projeção substituta sem controle",
+  "absolute_registration_accepted": false,
+  "production_ready": false
+}

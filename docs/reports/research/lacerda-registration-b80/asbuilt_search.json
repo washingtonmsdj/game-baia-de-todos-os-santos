@@ -1,0 +1,49 @@
+{
+  "schema": "boas/targeted-document-search-v1",
+  "date": "2026-10-06",
+  "purpose": "Localizar desenhos executados de instalação e medição, não repetir pesquisa arquitetônica genérica",
+  "release_status": "DEV_REFERENCE_ONLY",
+  "current_installation_dimensions_verified": false,
+  "targeted_topics": [
+    "Otis Elevador Lacerda modernização desenhos montagem instalação soleira as-built",
+    "SUCOP Elevador Lacerda fiscalização medição instalação elevadores 2023 2025",
+    "SEMOB Elevador Lacerda projeto básico reforma revitalização quatro cabines",
+    "FMLF Elevador Lacerda levantamento executivo poço cabine",
+    "SEMOB 008/2023 151228/2023 013/2023 Elevador Lacerda anexos"
+  ],
+  "locators": [
+    {
+      "url": "https://www.escavador.com/diarios/5804834/DOMSSA/P/2023-10-24?page=34",
+      "provider": "Escavador, espelho secundário de publicação municipal",
+      "status": "PRIMARY_DOCUMENT_NOT_RECOVERED",
+      "candidate_contract": "SEMOB 008/2023",
+      "candidate_process": "151228/2023",
+      "candidate_inexigibility": "013/2023",
+      "target_annexes": ["Projeto básico", "Proposta comercial", "Desenhos de montagem", "Medições e desenhos executados"],
+      "dimension_evidence": null,
+      "reason": "Pista específica para localizar o processo da modernização; não comprova medidas ou execução"
+    },
+    {
+      "url": "https://www.escavador.com/diarios/5761663/DOMSSA/P/2023-07-05?page=13",
+      "status": "DIFFERENT_CONTRACT_MAINTENANCE",
+      "candidate_contract": "004/2023",
+      "candidate_process": "20952/2023",
+      "dimension_evidence": null,
+      "reason": "Não confundir manutenção com o processo de revitalização"
+    },
+    {
+      "url": "https://www.otisinvestors.com/news/news-details/2023/Otis-selected-to-modernize-Elevador-Lacerda/default.aspx",
+      "status": "PUBLIC_ANNOUNCEMENT_NOT_INSTALLATION_DRAWING",
+      "dimension_evidence": null,
+      "reason": "Fonte já investigada no baseline; não fornece W/D/H, soleira ou seção do poço"
+    }
+  ],
+  "rejected_sources": [
+    {"url": "https://dool.autopage.inf.br", "reason": "Diário estadual da Bahia, não o DOM municipal procurado"},
+    {"url": "https://www.biomapengenharia.com.br/servicos/leica-rtc360", "reason": "Página comercial sem nuvem de pontos ou levantamento fornecido; não comprova medidas"}
+  ],
+  "unknowns": ["cabine W/D/H", "abertura livre e posição da porta", "soleira", "gap cabine/estação", "seção interna do poço", "folgas laterais/superiores/inferiores"],
+  "outbound_requests_sent": false,
+  "raw_document_recovered": null,
+  "note": "Registro de descoberta; nenhum indicador secundário foi promovido a evidência arquitetônica independente. URLs não equivalem a arquivos brutos recuperados."
+}

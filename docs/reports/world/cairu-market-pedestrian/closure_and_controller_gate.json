@@ -1,0 +1,124 @@
+{
+  "protected": [
+    {
+      "file": "blender/salvador_lacerda_r30b76_fundacao_geografica.blend",
+      "sha256": "8312775096a6f0fd0de5114885ffe2403ad9e367f38a8b40556433ad2dd79a60",
+      "preserved": true
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+      "sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+      "preserved": true
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b78_encontro_saguao_passarela.blend",
+      "sha256": "b79ccf20e4bd1e30895348a742f528754a21ac7212f75b9792cf6794c5437ab0",
+      "preserved": true
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b79_contrato_colisao_slice.blend",
+      "sha256": "777d1748ddcf594cda267590172983743bb75cc11153e1db030f173ef7dde14f",
+      "preserved": true
+    },
+    {
+      "file": "blender/salvador_lacerda_r30b80_piso_e_embarque_superior.blend",
+      "sha256": "2dc973c3efc4710cf268b348d4892fc17df0c2ac2ecef0e2e45d0493c249e4c4",
+      "preserved": true
+    },
+    {
+      "file": "docs/reports/blender/lacerda-controller-b80/actual_states_b80.json",
+      "sha256": "a5058c6776de3e1840828cc4f3b5748bc785727e4d3ea4299694d8dae68acfe8",
+      "preserved": true
+    },
+    {
+      "file": "docs/reports/blender/lacerda-controller-b80/cabin_sweep_b80.json",
+      "sha256": "ce9fffdf8bff57e0af776bd494d8c46ea5d562f5e99614d76f2ae86a70f46705",
+      "preserved": true
+    },
+    {
+      "file": "docs/reports/blender/lacerda-controller-b80/character_sweep_b80.json",
+      "sha256": "560608ac605360572bc7bc3beeff781231d520d0fc2c1debd49d946d8488a9dc",
+      "preserved": true
+    },
+    {
+      "file": "docs/reports/blender/lacerda-controller-b80/character_sweep_ground_b80.json",
+      "sha256": "21604b9181410c30f28c99615b7f6869f94214b5f643b147bc654e505af17e34",
+      "preserved": true
+    },
+    {
+      "file": "docs/reports/blender/lacerda-controller-b80/comparison_b79_b80.json",
+      "sha256": "da070a247eaf301ed8880b4bd18ebcecd102ea555689dc7a3df50fd0f3ba1940",
+      "preserved": true
+    },
+    {
+      "file": "docs/reports/blender/lacerda-controller-b80/contract_proof_b80.json",
+      "sha256": "72c398312ae731d1836df839974be5a229a79a82d4058eb77364c14d5681d3e0",
+      "preserved": true
+    },
+    {
+      "file": "docs/reports/blender/lacerda-controller-b80/ground_following_b80.json",
+      "sha256": "60eeebb93ab491e95cdbdb408860da2243fb56fdcb783e0ce7f49a0ea8275d1c",
+      "preserved": true
+    },
+    {
+      "file": "docs/reports/blender/lacerda-controller-b80/provenance_gate_b80.json",
+      "sha256": "f03ba62c899487c9ce89cd210fd0fc699033842bf8a248fcd0491d55cd0aafdf",
+      "preserved": true
+    },
+    {
+      "file": "docs/reports/blender/lacerda-controller-b80/scene_b80.json",
+      "sha256": "6d7d44c13121ae96eb214ac36f2711ea3d2f517440f900e02663d6015a586cbe",
+      "preserved": true
+    },
+    {
+      "file": "docs/reports/blender/lacerda-controller-b80/triage_b80.json",
+      "sha256": "afcbf49ead1fdb84023b063f209c84f18f35b19304d94b1b0653a1bdc4829b1f",
+      "preserved": true
+    },
+    {
+      "file": "docs/reports/blender/lacerda-controller-b80/upper_investigation_b80.json",
+      "sha256": "8a950fdd4d03627846bbe8a1dbaab12393703fa1b006604d1894c85811d9f303",
+      "preserved": true
+    },
+    {
+      "file": "docs/reports/blender/lacerda-controller-b80/validation_b80.json",
+      "sha256": "07cf66f6bbb6ad8efcfaf75189c2bbd3ba44fc8b01e57a19cd080f2e26a125fe",
+      "preserved": true
+    },
+    {
+      "file": "docs/reports/blender/lacerda-controller-b80/walkability_candidate_b80.json",
+      "sha256": "0f91168737092928e08cdacb8a1278442233cca78b8a1d52b4057db558812f01",
+      "preserved": true
+    },
+    {
+      "file": "docs/LACERDA_CORRIDOR_B80.md",
+      "sha256": "dbf8f1c8b51a290311425a1774587079570f372c73855bdda116f8766fcabc48",
+      "preserved": true
+    },
+    {
+      "file": "world/areas/mvp-centro-lacerda/corridor-slice.json",
+      "sha256": "40a863b9f21daf343617c716233e26ed4e77b3739b9e5ae1a684272312b3f482",
+      "preserved": true
+    },
+    {
+      "file": "world/areas/mvp-centro-lacerda/slice-engine-contract-b80.json",
+      "sha256": "651541894a9be5f615c57e78042bc2d1672bb7f2486839b42abb3d6a58a1df53",
+      "preserved": true
+    },
+    {
+      "file": "world/areas/mvp-centro-lacerda/upper-boarding-evidence-b80.json",
+      "sha256": "d53af3903ae6d20e919752b1397f6e883408345f3d559afe2814e6f141ac386a",
+      "preserved": true
+    }
+  ],
+  "ssot_sha256": "1d9da0962d456cb38ed3df0da797208e499a8465f82e9836c14bb337df2385e7",
+  "upper_to_market_path": null,
+  "lower_to_market_path": null,
+  "unknown_traffic_blocks": true,
+  "unverified_collision_blocks": true,
+  "movement_enabled": false,
+  "engine_physics_verified": false,
+  "cabin_CCD_repeated": false,
+  "B81_created": false,
+  "scene_changed": false
+}

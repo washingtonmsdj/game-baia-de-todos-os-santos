@@ -1,0 +1,347 @@
+{
+  "solid_penetration_witnesses": [
+    {
+      "component": "FUNCIONAL | 3 piso",
+      "obstacle": "ESTAÇÃO INFERIOR | plataforma",
+      "classification": "ERROR",
+      "t_witness": 0.9984093463304686,
+      "floor_z": 7.505746054281921,
+      "evidence": "vertex strictly inside watertight convex solid by all oriented face halfspaces",
+      "minimum_interior_threshold": 0.0001,
+      "architectural_correction": "pending verified dimensions; do not resize to fit"
+    },
+    {
+      "component": "FUNCIONAL | 3 piso",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "ERROR",
+      "t_witness": 0.9258559548717974,
+      "floor_z": 12.055496687290045,
+      "evidence": "vertex strictly inside watertight convex solid by all oriented face halfspaces",
+      "minimum_interior_threshold": 0.0001,
+      "architectural_correction": "pending verified dimensions; do not resize to fit"
+    },
+    {
+      "component": "FUNCIONAL | 3 piso",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "ERROR",
+      "t_witness": 0.0002671061441592733,
+      "floor_z": 70.0982479045459,
+      "evidence": "vertex strictly inside watertight convex solid by all oriented face halfspaces",
+      "minimum_interior_threshold": 0.0001,
+      "architectural_correction": "pending verified dimensions; do not resize to fit"
+    },
+    {
+      "component": "FUNCIONAL | 3 teto",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "ERROR",
+      "t_witness": 0.9728667073751849,
+      "floor_z": 9.107499403354495,
+      "evidence": "vertex strictly inside watertight convex solid by all oriented face halfspaces",
+      "minimum_interior_threshold": 0.0001,
+      "architectural_correction": "pending verified dimensions; do not resize to fit"
+    },
+    {
+      "component": "FUNCIONAL | 3 teto",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "ERROR",
+      "t_witness": 0.04568724109685793,
+      "floor_z": 67.24999665677247,
+      "evidence": "vertex strictly inside watertight convex solid by all oriented face halfspaces",
+      "minimum_interior_threshold": 0.0001,
+      "architectural_correction": "pending verified dimensions; do not resize to fit"
+    },
+    {
+      "component": "FUNCIONAL | 3 lateral inferior -1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "ERROR",
+      "t_witness": 0.9287900823532903,
+      "floor_z": 11.871500486728515,
+      "evidence": "vertex strictly inside watertight convex solid by all oriented face halfspaces",
+      "minimum_interior_threshold": 0.0001,
+      "architectural_correction": "pending verified dimensions; do not resize to fit"
+    },
+    {
+      "component": "FUNCIONAL | 3 lateral inferior -1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "ERROR",
+      "t_witness": 0.001610616074963251,
+      "floor_z": 70.01399774014648,
+      "evidence": "vertex strictly inside watertight convex solid by all oriented face halfspaces",
+      "minimum_interior_threshold": 0.0001,
+      "architectural_correction": "pending verified dimensions; do not resize to fit"
+    },
+    {
+      "component": "FUNCIONAL | 3 lateral superior -1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "ERROR",
+      "t_witness": 0.9641757747520722,
+      "floor_z": 9.652499098178716,
+      "evidence": "vertex strictly inside watertight convex solid by all oriented face halfspaces",
+      "minimum_interior_threshold": 0.0001,
+      "architectural_correction": "pending verified dimensions; do not resize to fit"
+    },
+    {
+      "component": "FUNCIONAL | 3 lateral superior -1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "ERROR",
+      "t_witness": 0.036996308473745236,
+      "floor_z": 67.79499635159668,
+      "evidence": "vertex strictly inside watertight convex solid by all oriented face halfspaces",
+      "minimum_interior_threshold": 0.0001,
+      "architectural_correction": "pending verified dimensions; do not resize to fit"
+    },
+    {
+      "component": "FUNCIONAL | 3 montante janela -1 -1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "ERROR",
+      "t_witness": 0.939825171960907,
+      "floor_z": 11.17950105130371,
+      "evidence": "vertex strictly inside watertight convex solid by all oriented face halfspaces",
+      "minimum_interior_threshold": 0.0001,
+      "architectural_correction": "pending verified dimensions; do not resize to fit"
+    },
+    {
+      "component": "FUNCIONAL | 3 montante janela -1 -1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "ERROR",
+      "t_witness": 0.012645705682579934,
+      "floor_z": 69.32199830472167,
+      "evidence": "vertex strictly inside watertight convex solid by all oriented face halfspaces",
+      "minimum_interior_threshold": 0.0001,
+      "architectural_correction": "pending verified dimensions; do not resize to fit"
+    },
+    {
+      "component": "FUNCIONAL | 3 porta cabine -1 -1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "ERROR",
+      "t_witness": 0.9301136592395274,
+      "floor_z": 11.788500303623053,
+      "evidence": "vertex strictly inside watertight convex solid by all oriented face halfspaces",
+      "minimum_interior_threshold": 0.0001,
+      "architectural_correction": "pending verified dimensions; do not resize to fit"
+    },
+    {
+      "component": "FUNCIONAL | 3 porta cabine -1 -1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "ERROR",
+      "t_witness": 0.002934192961200417,
+      "floor_z": 69.93099755704101,
+      "evidence": "vertex strictly inside watertight convex solid by all oriented face halfspaces",
+      "minimum_interior_threshold": 0.0001,
+      "architectural_correction": "pending verified dimensions; do not resize to fit"
+    },
+    {
+      "component": "FUNCIONAL | 3 porta cabine -1 1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "ERROR",
+      "t_witness": 0.9301136592395274,
+      "floor_z": 11.788500303623053,
+      "evidence": "vertex strictly inside watertight convex solid by all oriented face halfspaces",
+      "minimum_interior_threshold": 0.0001,
+      "architectural_correction": "pending verified dimensions; do not resize to fit"
+    },
+    {
+      "component": "FUNCIONAL | 3 porta cabine -1 1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "ERROR",
+      "t_witness": 0.002934192961200417,
+      "floor_z": 69.93099755704101,
+      "evidence": "vertex strictly inside watertight convex solid by all oriented face halfspaces",
+      "minimum_interior_threshold": 0.0001,
+      "architectural_correction": "pending verified dimensions; do not resize to fit"
+    },
+    {
+      "component": "FUNCIONAL | 3 verga -1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "ERROR",
+      "t_witness": 0.9662647791080426,
+      "floor_z": 9.521499723789063,
+      "evidence": "vertex strictly inside watertight convex solid by all oriented face halfspaces",
+      "minimum_interior_threshold": 0.0001,
+      "architectural_correction": "pending verified dimensions; do not resize to fit"
+    },
+    {
+      "component": "FUNCIONAL | 3 verga -1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "ERROR",
+      "t_witness": 0.03908531282971567,
+      "floor_z": 67.66399697720703,
+      "evidence": "vertex strictly inside watertight convex solid by all oriented face halfspaces",
+      "minimum_interior_threshold": 0.0001,
+      "architectural_correction": "pending verified dimensions; do not resize to fit"
+    },
+    {
+      "component": "FUNCIONAL | 3 lateral inferior 1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "ERROR",
+      "t_witness": 0.9287900823532903,
+      "floor_z": 11.871500486728515,
+      "evidence": "vertex strictly inside watertight convex solid by all oriented face halfspaces",
+      "minimum_interior_threshold": 0.0001,
+      "architectural_correction": "pending verified dimensions; do not resize to fit"
+    },
+    {
+      "component": "FUNCIONAL | 3 lateral inferior 1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "ERROR",
+      "t_witness": 0.001610616074963251,
+      "floor_z": 70.01399774014648,
+      "evidence": "vertex strictly inside watertight convex solid by all oriented face halfspaces",
+      "minimum_interior_threshold": 0.0001,
+      "architectural_correction": "pending verified dimensions; do not resize to fit"
+    },
+    {
+      "component": "FUNCIONAL | 3 lateral superior 1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "ERROR",
+      "t_witness": 0.9641757747520722,
+      "floor_z": 9.652499098178716,
+      "evidence": "vertex strictly inside watertight convex solid by all oriented face halfspaces",
+      "minimum_interior_threshold": 0.0001,
+      "architectural_correction": "pending verified dimensions; do not resize to fit"
+    },
+    {
+      "component": "FUNCIONAL | 3 lateral superior 1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "ERROR",
+      "t_witness": 0.036996308473745236,
+      "floor_z": 67.79499635159668,
+      "evidence": "vertex strictly inside watertight convex solid by all oriented face halfspaces",
+      "minimum_interior_threshold": 0.0001,
+      "architectural_correction": "pending verified dimensions; do not resize to fit"
+    },
+    {
+      "component": "FUNCIONAL | 3 montante janela 1 -1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "ERROR",
+      "t_witness": 0.939825171960907,
+      "floor_z": 11.17950105130371,
+      "evidence": "vertex strictly inside watertight convex solid by all oriented face halfspaces",
+      "minimum_interior_threshold": 0.0001,
+      "architectural_correction": "pending verified dimensions; do not resize to fit"
+    },
+    {
+      "component": "FUNCIONAL | 3 montante janela 1 -1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "ERROR",
+      "t_witness": 0.012645705682579934,
+      "floor_z": 69.32199830472167,
+      "evidence": "vertex strictly inside watertight convex solid by all oriented face halfspaces",
+      "minimum_interior_threshold": 0.0001,
+      "architectural_correction": "pending verified dimensions; do not resize to fit"
+    },
+    {
+      "component": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 -1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "ERROR",
+      "t_witness": 0.9301710357318107,
+      "floor_z": 11.784902281162111,
+      "evidence": "vertex strictly inside watertight convex solid by all oriented face halfspaces",
+      "minimum_interior_threshold": 0.0001,
+      "architectural_correction": "pending verified dimensions; do not resize to fit"
+    },
+    {
+      "component": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 -1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "ERROR",
+      "t_witness": 0.0029915694534836646,
+      "floor_z": 69.92739953458008,
+      "evidence": "vertex strictly inside watertight convex solid by all oriented face halfspaces",
+      "minimum_interior_threshold": 0.0001,
+      "architectural_correction": "pending verified dimensions; do not resize to fit"
+    },
+    {
+      "component": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 1",
+      "obstacle": "ESTAÇÃO INFERIOR | cobertura",
+      "classification": "ERROR",
+      "t_witness": 0.9301710357318107,
+      "floor_z": 11.784902281162111,
+      "evidence": "vertex strictly inside watertight convex solid by all oriented face halfspaces",
+      "minimum_interior_threshold": 0.0001,
+      "architectural_correction": "pending verified dimensions; do not resize to fit"
+    },
+    {
+      "component": "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 1",
+      "obstacle": "ESTAÇÃO SUPERIOR | plataforma",
+      "classification": "ERROR",
+      "t_witness": 0.0029915694534836646,
+      "floor_z": 69.92739953458008,
+      "evidence": "vertex strictly inside watertight convex solid by all oriented face halfspaces",
+      "minimum_interior_threshold": 0.0001,
+      "architectural_correction": "pending verified dimensions; do not resize to fit"
+    }
+  ],
+  "continuous_surface_contacts": 54,
+  "other_contacts": "NEEDS_REVIEW; includes tangency/non-convex/source uncertainty",
+  "source_crossings": [
+    {
+      "osm_id": 395865976,
+      "coordinates": [
+        [
+          -57.93100311374292,
+          65.21665694145486
+        ],
+        [
+          -62.183034122921526,
+          68.74478599056602
+        ],
+        [
+          -56.465044792275876,
+          74.17029078979976
+        ],
+        [
+          -63.92069616867229,
+          82.14548881817609
+        ],
+        [
+          -70.1895895190537,
+          88.73427379410714
+        ]
+      ],
+      "nearest_route_vertex_to_source_vertex": 2.801846515853551,
+      "source_classification": "KEEP_REAL_REFERENCE",
+      "route_alignment": "NEEDS_REVIEW"
+    }
+  ],
+  "route_road_intersections": [
+    {
+      "segment": 84,
+      "road_osm_id": 46348179,
+      "name": "Avenida Lafayete Coutinho",
+      "point": [
+        -77.0,
+        82.46393890770503
+      ],
+      "traffic_permission": null,
+      "marked_crossing_match": null,
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "segment": 64,
+      "road_osm_id": 978525930,
+      "name": "Praça Visconde de Cayru",
+      "point": [
+        -72.0535294802038,
+        74.65352948020382
+      ],
+      "traffic_permission": null,
+      "marked_crossing_match": null,
+      "classification": "NEEDS_REVIEW"
+    },
+    {
+      "segment": 35,
+      "road_osm_id": 1004133497,
+      "name": "Rua da Conceição da Praia",
+      "point": [
+        -60.40405724503066,
+        63.004057245030666
+      ],
+      "traffic_permission": null,
+      "marked_crossing_match": null,
+      "classification": "NEEDS_REVIEW"
+    }
+  ],
+  "traffic_gate": "blocked until source crossing binding and runtime traffic permission verified",
+  "full_solid_containment_approved": false,
+  "physical_dimensions_verified": false
+}

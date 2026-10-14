@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "reopened": true,
+  "pid": 11304,
+  "revision": "R30B.83",
+  "historical_components_checked": 6296,
+  "unexpected_changes": [],
+  "authorized_mesh_changes": [
+    "SUPERIOR | posterior lateral",
+    "LAC R30B02 | Lambril marmore | SUPERIOR | posterior lateral",
+    "LAC R30B02 | Rodape escuro | SUPERIOR | posterior lateral",
+    "SUPERIOR | posterior lateral.001",
+    "LAC R30B02 | Lambril marmore | SUPERIOR | posterior lateral.001",
+    "LAC R30B02 | Rodape escuro | SUPERIOR | posterior lateral.001",
+    "SUPERIOR | posterior sobre passarela"
+  ],
+  "checks": [
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "gap": 1.430511474609375e-06,
+      "nonmanifold": 0,
+      "degenerate": 0,
+      "collider_error": 0.0
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "gap": 4.76837158203125e-07,
+      "nonmanifold": 0,
+      "degenerate": 0,
+      "collider_error": 0.0
+    }
+  ],
+  "closed_probes": 48,
+  "total_probes": 48,
+  "capsule_samples": 1947,
+  "capsule_blockers": [],
+  "capsule_scope": "Upper route against seven changed meshes only; full shaft and route remain independent blocked gates",
+  "proxy_objects_preserved": 70,
+  "ssot_preserved": true,
+  "production_ready": false
+}

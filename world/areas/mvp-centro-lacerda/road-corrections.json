@@ -17146,7 +17146,602 @@
       "evidence": "docs/reports/blender/misericordia_profile_r30b41.json",
       "width_preservation_evidence": "docs/reports/blender/road_width_preservation_b39_b41.json",
       "status": "verified_binding_only_gameplay_pending"
+    },
+    {
+      "correction_id": "coastal-transition-B58-B62",
+      "cycle": "2026-10-04-B62",
+      "classification": "ADAPT_LOCAL",
+      "source_after": {
+        "file": "blender/salvador_lacerda_r30b62_pavimento_costura_limpa.blend",
+        "revision": "R30B.62",
+        "sha256": "39b40bd1a18f02388be3e156ee8ec164532bc78db32cfd2ac1f24b44290dd17d",
+        "status": "validation_candidate",
+        "parent_file": "blender/salvador_lacerda_r30b61_pavimento_integrado.blend",
+        "evidence": "docs/reports/blender/coastal_cleanup_r30b62.json",
+        "notes": "Limpeza local da triangulação da costura; pavimento integrado e colisão igual; núcleo e cais preservados."
+      },
+      "scope": "costura da expansão, encosta e plataformas viárias candidatas; sem mudança no núcleo",
+      "source_xy_changed": false,
+      "real_width_invented": false,
+      "source_dem_modified": false,
+      "runtime_exported": false,
+      "status": "geometry_verified_gameplay_pending",
+      "evidence": "docs/reports/blender/coastal_transition_r30b62_check.json",
+      "source_reopened": true
+    },
+    {
+      "correction_id": "urban-edges-B63",
+      "cycle": "2026-10-04-R30B.63",
+      "classification": "ADAPT_LOCAL",
+      "source_after": {
+        "file": "blender/salvador_lacerda_r30b63_orla_bordas_canteiros.blend",
+        "revision": "R30B.63"
+      },
+      "scope": "Piso junto ao cais, bordas do pavimento e canteiros OSM candidatos.",
+      "evidence": "docs/reports/blender/urban_edges_r30b63.json",
+      "road_width_changed": false,
+      "source_dem_modified": false,
+      "runtime_exported": false,
+      "status": "local_geometry_corrected_fidelity_gameplay_pending",
+      "real_dimensions_verified": false
+    },
+    {
+      "correction_id": "coast-cut-and-volumes-B64",
+      "cycle": "2026-10-04-R30B.64",
+      "classification": "ERROR",
+      "source_after": {
+        "file": "blender/salvador_lacerda_r30b64_costa_volumes_corrigidos.blend",
+        "revision": "R30B.64"
+      },
+      "scope": "Solo/pedonal sobre água recortados; pistas preservadas; cais apoiado e volumes fechados.",
+      "evidence": "docs/reports/blender/coastal_volumes_r30b64.json",
+      "road_width_changed": false,
+      "source_dem_modified": false,
+      "runtime_exported": false,
+      "status": "local_geometry_corrected_fidelity_gameplay_pending",
+      "real_dimensions_verified": false
+    },
+    {
+      "correction_id": "coastal-floor-cleanup-B65",
+      "cycle": "2026-10-04-R30B.65",
+      "classification": "ERROR",
+      "source_after": {
+        "file": "blender/salvador_lacerda_r30b65_piso_orla_sem_residuos.blend",
+        "revision": "R30B.65"
+      },
+      "scope": "Resíduos do piso removidos; cais soldado; preservados terreno, pavimento e píeres.",
+      "evidence": "docs/reports/blender/coastal_floor_r30b65.json",
+      "road_width_changed": false,
+      "source_dem_modified": false,
+      "runtime_exported": false,
+      "status": "local_geometry_corrected_fidelity_gameplay_pending",
+      "real_dimensions_verified": false
+    },
+    {
+      "correction_id": "coastal-orientation-B66",
+      "cycle": "2026-10-04-B66",
+      "classification": "ERROR",
+      "source_after": {
+        "file": "blender/salvador_lacerda_r30b66_cais_normais_corrigidas.blend",
+        "revision": "R30B.66",
+        "sha256": "1c64173cc11b4c086084e55a6d0a6e399a1a67a1715babc160517221d45f0bf8"
+      },
+      "source_reopened": true,
+      "evidence": "docs/reports/blender/coastal_orientation_r30b66.json",
+      "quay_faces_reversed_seaward": 678,
+      "numeric_floor_faces_removed": 4,
+      "road_width_changed": false,
+      "source_dem_modified": false,
+      "runtime_exported": false,
+      "status": "local_geometry_corrected_fidelity_gameplay_pending",
+      "validation_evidence": "docs/reports/blender/coastal_floor_r30b66_validation.json",
+      "local_geometry_checks_passed": true
+    },
+    {
+      "correction_id": "waterfront-piers-water-domain-B67",
+      "cycle": "2026-10-04-B67",
+      "classification": "ERROR",
+      "subclassifications": {
+        "new_pier_xy": "KEEP_REAL_REFERENCE",
+        "new_pier_deck_z": "ADAPT_LOCAL",
+        "water_volume_and_foam": "ERROR",
+        "absolute_water_datum": "NEEDS_REVIEW",
+        "unknown_width_axes": "SOURCE_LIMITATION"
+      },
+      "source_after": {
+        "file": "blender/salvador_lacerda_r30b67_pieres_e_dominio_oceanico.blend",
+        "revision": "R30B.67",
+        "sha256": "e0fcda84e28adaf3161da7458195471511b00c2ef9e70fd42f6edc555188b412"
+      },
+      "source_reopened": true,
+      "scope": "Dois contornos reais ausentes de píeres; volume/espuma derivados da água atual, sem mudar nível marítimo ou piso",
+      "evidence": "docs/reports/blender/waterfront_piers_r30b67.json",
+      "validation_evidence": "docs/reports/blender/waterfront_piers_r30b67_validation.json",
+      "new_pier_osm_ids": [
+        609043799,
+        609043801
+      ],
+      "local_geometry_checks_passed": true,
+      "road_width_changed": false,
+      "source_dem_modified": false,
+      "runtime_exported": false,
+      "status": "local_geometry_corrected_fidelity_gameplay_pending",
+      "real_dimensions_verified": false
+    },
+    {
+      "cycle": "2026-10-04-B69",
+      "classification": "ERROR",
+      "scope": "Encontros terrestres dos píeres OSM 609043799/609043801",
+      "source_after": {
+        "file": "blender/salvador_lacerda_r30b69_encontros_sem_frestas.blend",
+        "revision": "R30B.69",
+        "sha256": "30d079046f029b559ffce28d1254bc65a6a3f57f0625245b809deb9c7ad7bfa2"
+      },
+      "source_reopened": true,
+      "evidence": [
+        "docs/reports/blender/pier_land_contacts_r30b69.json",
+        "docs/reports/blender/pier_land_contacts_r30b69_validation.json",
+        "docs/reports/blender/coastal_region_source_coverage_b69.json",
+        "docs/reports/blender/coastal_floor_fairing_b69_probe.json"
+      ],
+      "changes": "B68 criou preenchimentos mas deixou 45 apoios ausentes em 16000 sondagens. B69 recompôs os dois recortes por subtração XY e CDT local, sem mover costa/terrenos/decks.",
+      "areas_m2": [
+        4.07297420501709,
+        3.200932025909424
+      ],
+      "coverage_samples": 16000,
+      "remaining_sampled_gaps": 0,
+      "road_width_changed": false,
+      "source_dem_changed": false,
+      "runtime_exported": false,
+      "gameplay_approved": false,
+      "height_classification": "NEEDS_REVIEW"
+    },
+    {
+      "cycle": "2026-10-04-B70",
+      "classification": "ADAPT_LOCAL",
+      "binding_error_classification": "ERROR",
+      "scope": "Junção local HQ/piso/cais, mantendo XY/topologia e vias/passeios",
+      "source_before": {
+        "file": "blender/salvador_lacerda_r30b69_encontros_sem_frestas.blend",
+        "revision": "R30B.69",
+        "sha256": "30d079046f029b559ffce28d1254bc65a6a3f57f0625245b809deb9c7ad7bfa2",
+        "status": "validation_candidate",
+        "parent_file": "blender/salvador_lacerda_r30b68_encontros_terrestres_pieres.blend",
+        "evidence": "docs/reports/blender/pier_land_contacts_r30b69.json",
+        "notes": "Corrige frestas residuais por cortes em coordenadas locais; 16000 probes, sem lacunas terrestres amostradas. Terrenos, costa, mar e decks preservados; alturas e acessibilidade pendentes.",
+        "source_reopened": true,
+        "validation_evidence": "docs/reports/blender/pier_land_contacts_r30b69_validation.json",
+        "local_geometry_checks_passed": true,
+        "sampled_gap_coverage_passed": true
+      },
+      "source_after": {
+        "file": "blender/salvador_lacerda_r30b70_juncao_terreno_cais.blend",
+        "revision": "R30B.70",
+        "sha256": "2838e38a4347cd307d6e25eddf152fd38d7bde40747b4adb7c672a5e75093c64"
+      },
+      "source_reopened": true,
+      "evidence": [
+        "docs/reports/blender/coastal_junction_r30b70.json",
+        "docs/reports/blender/coastal_junction_r30b70_validation.json",
+        "docs/reports/blender/coastal_junction_b70_probe.json"
+      ],
+      "hq_changed_vertices": 3529,
+      "hq_max_z_change_m": 7.590040981769562,
+      "locked_road_walkable_vertices": 16240,
+      "locked_vertices_max_change_m": 0,
+      "floor_steep_triangles_before": 126,
+      "floor_steep_triangles_after": 2,
+      "floor_below_nominal_sea_before": 19,
+      "floor_below_nominal_sea_after": 0,
+      "boundary_bindings": 206,
+      "boundary_max_height_difference_m": 0,
+      "design_contact_band_m": 2,
+      "design_transition_limit_m": 30,
+      "real_transition_width_m": null,
+      "real_altimetry_verified": false,
+      "road_width_changed": false,
+      "source_dem_changed": false,
+      "runtime_exported": false,
+      "gameplay_approved": false
+    },
+    {
+      "cycle": "2026-10-04-B71",
+      "classification": "ADAPT_LOCAL",
+      "binding_error_classification": "ERROR",
+      "scope": "Encontro norte do piso/cais ao núcleo existente; sem alterar XY ou datum global",
+      "source_before": {
+        "file": "blender/salvador_lacerda_r30b70_juncao_terreno_cais.blend",
+        "revision": "R30B.70",
+        "sha256": "2838e38a4347cd307d6e25eddf152fd38d7bde40747b4adb7c672a5e75093c64",
+        "status": "validation_candidate",
+        "parent_file": "blender/salvador_lacerda_r30b69_encontros_sem_frestas.blend",
+        "evidence": "docs/reports/blender/coastal_junction_r30b70.json",
+        "notes": "Junção HQ/piso/cais recomposta por controles locais. Vias/XY/água/cais preservados; dois triângulos no extremo norte e datum real pendentes.",
+        "source_reopened": true,
+        "validation_evidence": "docs/reports/blender/coastal_junction_r30b70_validation.json",
+        "local_geometry_checks_passed": true
+      },
+      "source_after": {
+        "file": "blender/salvador_lacerda_r30b71_encontro_norte_cais.blend",
+        "revision": "R30B.71",
+        "sha256": "b851703b3e47571469f30bd5c32c1e0fe01fa7e476f2776976e7b222dd4ed989"
+      },
+      "source_reopened": true,
+      "evidence": [
+        "docs/reports/blender/north_junction_r30b71.json",
+        "docs/reports/blender/north_junction_r30b71_validation.json",
+        "docs/reports/blender/coastal_service_roads_b71_review.json"
+      ],
+      "control_xyz": [
+        -285.70343017578125,
+        39.40286636352539,
+        7.255668640136719
+      ],
+      "design_transition_radius_m": 12,
+      "real_transition_length_m": null,
+      "real_altimetry_verified": false,
+      "floor_steep_triangles_before": 2,
+      "floor_steep_triangles_after": 0,
+      "floor_max_grade": 0.6385466691880737,
+      "floor_p95_grade": 0.21817931422640874,
+      "quay_changed_vertices": 12,
+      "north_max_height_difference_m": 3.812274815828687e-07,
+      "road_width_changed": false,
+      "source_dem_changed": false,
+      "runtime_exported": false,
+      "gameplay_approved": false,
+      "floor_changed_vertices_above_1e_minus5_m": 380
+    },
+    {
+      "cycle": "2026-10-05-B72",
+      "classification": "ADAPT_LOCAL",
+      "scope": "Junção Manoel/Conceição e pavimento contínuo nos oito corredores OSM",
+      "source_before": {
+        "file": "blender/salvador_lacerda_r30b71_encontro_norte_cais.blend",
+        "revision": "R30B.71",
+        "sha256": "b851703b3e47571469f30bd5c32c1e0fe01fa7e476f2776976e7b222dd4ed989",
+        "status": "validation_candidate",
+        "parent_file": "blender/salvador_lacerda_r30b70_juncao_terreno_cais.blend",
+        "evidence": "docs/reports/blender/north_junction_r30b71.json",
+        "notes": "Encontro norte do piso/cais vinculado ao núcleo existente; XY/vias/núcleo/água preservados; altura absoluta não verificada.",
+        "source_reopened": true,
+        "validation_evidence": "docs/reports/blender/north_junction_r30b71_validation.json",
+        "local_geometry_checks_passed": true
+      },
+      "source_after": {
+        "file": "blender/salvador_lacerda_r30b72_costura_viaria_continua.blend",
+        "revision": "R30B.72",
+        "sha256": "bef607e739f3a84e78a5c6e71ef20bc704ed5536d715896beaa9da0ea856db78"
+      },
+      "source_reopened": true,
+      "evidence": [
+        "docs/reports/blender/city_seam_r30b72.json",
+        "docs/reports/blender/city_seam_r30b72_validation.json"
+      ],
+      "xy_changed": false,
+      "road_width_changed": false,
+      "source_dem_changed": false,
+      "geographic_fit_verified": false,
+      "runtime_exported": false,
+      "gameplay_approved": false
+    },
+    {
+      "cycle": "2026-10-05-B73",
+      "classification": "ADAPT_LOCAL",
+      "scope": "Continuidade local da tangente na costura da encosta; vias/calçadas bloqueadas",
+      "source_before": {
+        "file": "blender/salvador_lacerda_r30b72_costura_viaria_continua.blend",
+        "revision": "R30B.72",
+        "sha256": "bef607e739f3a84e78a5c6e71ef20bc704ed5536d715896beaa9da0ea856db78",
+        "status": "validation_candidate",
+        "parent_file": "blender/salvador_lacerda_r30b71_encontro_norte_cais.blend",
+        "evidence": "docs/reports/blender/city_seam_r30b72.json",
+        "notes": "Junção compartilhada Manoel/Conceição e pavimento de oito corredores nas três superfícies, mesmos IDs/XY e larguras candidatas; fidelidade global pendente."
+      },
+      "source_after": {
+        "file": "blender/salvador_lacerda_r30b73_tangente_encosta_costura.blend",
+        "revision": "R30B.73",
+        "sha256": "d49f9b35e00b292acdbd33028b58f8eaa52d71e9ba9fd232ba679190227e1f0b"
+      },
+      "source_reopened": true,
+      "evidence": [
+        "docs/reports/blender/terrain_tangent_r30b73.json",
+        "docs/reports/blender/terrain_tangent_r30b73_validation.json"
+      ],
+      "xy_changed": false,
+      "road_width_changed": false,
+      "source_dem_changed": false,
+      "geographic_fit_verified": false,
+      "runtime_exported": false,
+      "gameplay_approved": false
+    },
+    {
+      "cycle": "2026-10-05-B74",
+      "classification": "ADAPT_LOCAL",
+      "scope": "Terreno e referências candidatos sul/leste; núcleo/costa/píeres preservados",
+      "source_after": {
+        "file": "blender/salvador_lacerda_r30b74_expansao_lapa_tororo_fonte_nova.blend",
+        "sha256": "1b4c16b9831a38bff93e3fb9c03c87bdfaf3e48f5a00cf03e0945b7f6d9b220a",
+        "revision": "R30B.74"
+      },
+      "source_reopened": true,
+      "evidence": [
+        "docs/reports/blender/centro-expansion/scene_b74.json",
+        "docs/reports/blender/centro-expansion/validation_b74.json",
+        "world/areas/centro-lapa-tororo-fontenova/road-corrections.json"
+      ],
+      "source_dem_changed": false,
+      "global_z_scale_or_offset_applied": false,
+      "road_width_changed": false,
+      "geographic_fit_verified": false,
+      "runtime_exported": false,
+      "gameplay_approved": false
     }
   ],
-  "production_ready": false
+  "production_ready": false,
+  "waterfront_pending_checks": {
+    "bridge_osm_id": 1426173327,
+    "missing_support_samples_b64": 11,
+    "real_bridge_width_m": null,
+    "real_wall_thickness_m": null,
+    "real_foundation_depth_m": null,
+    "fidelity_review": "docs/WATERFRONT_FIDELITY_REVIEW.md",
+    "approved": false,
+    "absolute_water_datum_verified": false,
+    "water_level_m_candidate": 0.35,
+    "legacy_pier_freeboard_candidate_m": 6.9056648254394535,
+    "additional_bridge_osm_ids": [
+      1426173324
+    ],
+    "pier_axes_width_unknown": [
+      1321682676,
+      1321682677,
+      1321555661,
+      1321717133
+    ],
+    "breakwater_width_unknown": [
+      217677378
+    ],
+    "new_pier_connections": [
+      {
+        "osm_id": 609043799,
+        "deck_z_candidate_m": 2.9742279052734375,
+        "real_deck_height_m": null,
+        "foundation_verified": false,
+        "connection_approved": false
+      },
+      {
+        "osm_id": 609043801,
+        "deck_z_candidate_m": 4.5861053466796875,
+        "real_deck_height_m": null,
+        "foundation_verified": false,
+        "connection_approved": false
+      }
+    ],
+    "regional_modeling_review_b69": {
+      "status": "pending",
+      "source": {
+        "file": "blender/salvador_lacerda_r30b69_encontros_sem_frestas.blend",
+        "revision": "R30B.69",
+        "sha256": "30d079046f029b559ffce28d1254bc65a6a3f57f0625245b809deb9c7ad7bfa2"
+      },
+      "coastal_floor_steep_triangles_over_200percent": 126,
+      "floor_vertices_below_nominal_water_at_boundary": 19,
+      "smoothing_probe": "rejected_before_mutation_worsens_mesh",
+      "road_center_samples": {
+        "road_material_present": 614,
+        "ground_without_road_material": 6
+      },
+      "road_width_real": null,
+      "relative_height_and_road_connections_approved": false,
+      "original_aleph_files_available_at_registered_path": false,
+      "available_reference": "structural_reference.json e derivados versionados; captura OSM costeira 20261004 preservada",
+      "visual_capture": "artifacts/waterfront/b69-regiao-pendente.png",
+      "next_priorities": [
+        "Recuperar fonte Aleph original verificando hashes e disponibilidade; não substituir silenciosamente",
+        "Recompor junção de alturas B62/B63/cais com controles locais; não aplicar alisamento isolado nem fit Z global",
+        "Identificar vias interrompidas por OSM ID/nó e validar encontros/eixos/colisor",
+        "Tratar relevo local artificial preservando Cidade Alta/Baixa, vias e arquitetura",
+        "Conferir limite terra/água e níveis absolutos antes de elevar o mar ou aprovar acesso aos píeres"
+      ]
+    },
+    "new_pier_connections_b69": {
+      "status": "partial",
+      "sampled_land_gap_coverage": "passed",
+      "contacts": [
+        {
+          "osm_id": 609043799,
+          "deck_land_delta_m": 1.477365493774414,
+          "real_height_m": null,
+          "approved": false
+        },
+        {
+          "osm_id": 609043801,
+          "deck_land_delta_m": 0.04769134521484375,
+          "real_height_m": null,
+          "approved": false
+        }
+      ],
+      "evidence": "docs/reports/blender/pier_land_contacts_r30b69_validation.json"
+    },
+    "coastal_junction_b70": {
+      "status": "partial",
+      "source": {
+        "file": "blender/salvador_lacerda_r30b70_juncao_terreno_cais.blend",
+        "revision": "R30B.70",
+        "sha256": "2838e38a4347cd307d6e25eddf152fd38d7bde40747b4adb7c672a5e75093c64"
+      },
+      "remaining_steep_triangles": [
+        {
+          "triangle": 2561,
+          "indices": [
+            158,
+            157,
+            159
+          ],
+          "points": [
+            [
+              -285.76898193359375,
+              39.33372116088867,
+              9.053254127502441
+            ],
+            [
+              -286.7940979003906,
+              38.2529182434082,
+              9.00550365447998
+            ],
+            [
+              -285.70343017578125,
+              38.4073486328125,
+              7.2556610107421875
+            ]
+          ],
+          "boundary_flags": [
+            true,
+            true,
+            true
+          ],
+          "grade": 2.5948475621445546
+        },
+        {
+          "triangle": 2613,
+          "indices": [
+            158,
+            159,
+            1541
+          ],
+          "points": [
+            [
+              -285.76898193359375,
+              39.33372116088867,
+              9.053254127502441
+            ],
+            [
+              -285.70343017578125,
+              38.4073486328125,
+              7.2556610107421875
+            ],
+            [
+              -285.70343017578125,
+              39.402835845947266,
+              9.056307792663574
+            ]
+          ],
+          "boundary_flags": [
+            true,
+            true,
+            true
+          ],
+          "grade": 2.594879456055208
+        }
+      ],
+      "remaining_height_classification": "NEEDS_REVIEW",
+      "absolute_altimetry_verified": false,
+      "real_transition_width_m": null,
+      "approved": false,
+      "pending": [
+        "Dois triângulos no encontro norte do piso/cais/núcleo; alturas 7,2557 versus ~9,0563 requerem revisão",
+        "Altimetria absoluta cais/água e fonte Aleph original ausente no caminho registrado",
+        "Inclinações do terreno adjacente e travessia real de personagem/carro não aprovadas",
+        "Acabamento e conexões viárias do restante da região"
+      ],
+      "visual_evidence": "artifacts/waterfront/b70-juncao-cais.png"
+    },
+    "north_junction_b71": {
+      "status": "local_geometry_corrected_real_altimetry_pending",
+      "source": {
+        "file": "blender/salvador_lacerda_r30b71_encontro_norte_cais.blend",
+        "revision": "R30B.71",
+        "sha256": "b851703b3e47571469f30bd5c32c1e0fe01fa7e476f2776976e7b222dd4ed989"
+      },
+      "supersedes_local_corner_pending": "coastal_junction_b70",
+      "floor_remaining_above_200percent": 0,
+      "real_altimetry_verified": false,
+      "approved": false,
+      "pending": [
+        "Níveis reais cais/água e fonte original Aleph",
+        "Demais inclinações/encosta e acabamento regional",
+        "Inspeção das conexões viárias OSM; larguras reais null",
+        "Circulação personagem/carro/NPC não aprovada"
+      ]
+    },
+    "coastal_service_roads_b71": {
+      "private_osm_ids": [
+        1004133492,
+        1004133493,
+        1004133494
+      ],
+      "parking_aisle_osm_id": 1004133494,
+      "access_pending_osm_ids": [
+        778284292
+      ],
+      "real_width_m": null,
+      "bus_routes_approved": false,
+      "evidence": "docs/reports/blender/coastal_service_roads_b71_review.json"
+    },
+    "city_seam_b72": {
+      "status": "partial",
+      "pavement_continuity_eight_roads_checked": true,
+      "real_widths_verified": false,
+      "road_edges_need_modeling": true,
+      "reference_fit_status": "candidate",
+      "core_degenerate_triangles_pending": 94
+    },
+    "terrain_tangent_b73": {
+      "status": "partial",
+      "local_tangent_applied_verified": true,
+      "design_transition_width_m": 8,
+      "real_transition_width_m": null,
+      "real_altimetry_verified": false,
+      "changed_vertices": 2359,
+      "max_delta_z_m": 3.9890025563893374,
+      "scope": "Encosta junto à borda antiga; não valida toda a cidade"
+    }
+  },
+  "structural_triage": {
+    "cycle": "2026-10-06-B82-CENTRO",
+    "report": "docs/reports/world/centro-structural-triage/triage.json",
+    "pending_baseline": 714,
+    "counts_by_category": {
+      "XY_OFFSET": 0,
+      "TOPOLOGY": 0,
+      "ROAD_ALIGNMENT": 283,
+      "BUILDING_FOOTPRINT": 0,
+      "TERRAIN_INTERSECTION": 0,
+      "DUPLICATE": 0,
+      "LEGACY_PROXY": 117,
+      "HEIGHT_UNKNOWN": 55,
+      "EXPECTED_OVERLAP": 0,
+      "FALSE_POSITIVE": 0,
+      "NEEDS_REVIEW": 259
+    },
+    "categories_are_investigation_families": true,
+    "historical_statuses_changed": false,
+    "geometry_changed": false,
+    "next_cluster": "TOME_RUA_CHILE"
+  },
+  "chile_pedestrian_review": {
+    "cycle": "2026-10-06-B82-CHILE",
+    "report": "docs/CHILE_PEDESTRIAN_STRUCTURE_B82_2026-10-06.md",
+    "helper_alerts": 17,
+    "unique_ways": 10,
+    "classification_counts": {
+      "MISSING_BINDING": 7,
+      "SOURCE_NODE_PRESENT_SURFACE_VALID": 1,
+      "VALID_PARTIAL_HELPER": 6,
+      "NEEDS_REVIEW": 3
+    },
+    "issues_closed": 0,
+    "geometry_changed": false,
+    "way421206045_classification": "KEEP_GAMEPLAY_DOCUMENTED_B38_ADAPT_LOCAL",
+    "next_region": "PELOURINHO",
+    "sweeps": "docs/reports/world/chile-pedestrian-b82/sweeps.json",
+    "contact_diagnosis": "docs/reports/world/chile-pedestrian-b82/contact_diagnosis.json",
+    "CHILE_TO_TOME": "PARTIAL_NOT_GAMEPLAY_APPROVED",
+    "TOME_TO_PELOURINHO": "BLOCKED_CANDIDATE_COLLIDER_ENVELOPE",
+    "TOME_TO_BARROQUINHA": "TOPOLOGY_ONLY_PHYSICAL_CONNECTOR_PENDING",
+    "metadata_limits_unknown": 55,
+    "scene_status": "NO_SCENE_CHANGE"
+  }
 }

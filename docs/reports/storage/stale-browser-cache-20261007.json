@@ -1,0 +1,21 @@
+{
+  "files": [
+    {
+      "bytes": 75702,
+      "modified": "2026-10-05T01:28:34.2231381-03:00",
+      "file": "Default\\Cache\\Cache_Data\\f_00f65e"
+    },
+    {
+      "bytes": 1048576,
+      "modified": "2026-10-05T01:33:21.4736860-03:00",
+      "file": "Default\\Cache\\Cache_Data\\f_00f746"
+    }
+  ],
+  "free_before": 877064192,
+  "scope": "Somente corpos f_hex de cache Chrome anteriores a 48h; sem perfis, histórico, cookies, índices, cenas ou referências",
+  "schema": "boas/stale-browser-cache-cleanup-v1",
+  "cutoff": "2026-10-05T02:47:31.1199035-03:00",
+  "skipped": 0,
+  "free_after": 878956544,
+  "deleted_bytes": 1124278.0
+}

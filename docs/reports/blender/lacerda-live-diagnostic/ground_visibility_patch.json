@@ -1,0 +1,23 @@
+{
+  "pid": 11304,
+  "changes": [
+    {
+      "object": "MVP | terreno corrigido | colisão estática",
+      "hidden_before": false,
+      "hidden_after": false,
+      "historical_visible": true
+    },
+    {
+      "object": "B74 | TERRENO | Lapa Tororo Fonte Nova | candidato",
+      "hidden_before": false,
+      "hidden_after": false,
+      "historical_visible": true
+    }
+  ],
+  "geometry_changed": false,
+  "physics_changed": false,
+  "saved": false,
+  "new_revision": null,
+  "presentation_patch_only": true,
+  "active_scene": "SALVADOR | ESBOCO OFICIAL"
+}

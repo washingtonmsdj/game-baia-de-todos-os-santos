@@ -1,0 +1,18 @@
+[
+  {
+    "route": "upper",
+    "status": "continuous_surface_clear",
+    "penetrations": 0,
+    "unresolved": 0,
+    "unsupported": 0,
+    "step_violations": 0
+  },
+  {
+    "route": "lower",
+    "status": "blocked",
+    "penetrations": 9,
+    "unresolved": 0,
+    "unsupported": 0,
+    "step_violations": 0
+  }
+]

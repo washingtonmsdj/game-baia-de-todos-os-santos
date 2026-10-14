@@ -1,0 +1,186 @@
+{
+  "scene_changed": false,
+  "inventory": "docs/reports/blender/lacerda-proportions-b85/four_elevators_inventory.json",
+  "unique_named_cabin_components": 95,
+  "named_cabin_components": [
+    "CABINE 1 | volume jogável",
+    "CABINE 1 | piso",
+    "CABINE 1 | porta",
+    "CABINE 2 | volume jogável",
+    "CABINE 2 | piso",
+    "CABINE 2 | porta",
+    "CABINE 3 | volume jogável",
+    "CABINE 3 | piso",
+    "CABINE 3 | porta",
+    "CABINE 4 | volume jogável",
+    "CABINE 4 | piso",
+    "CABINE 4 | porta",
+    "CABINE R10 1 | lateral",
+    "CABINE R10 1 | corrimão",
+    "CABINE R10 1 | folha recolhida",
+    "CABINE R10 1 | lateral.001",
+    "CABINE R10 1 | corrimão.001",
+    "CABINE R10 1 | folha recolhida.001",
+    "CABINE R10 1 | fundo",
+    "CABINE R10 1 | teto",
+    "CABINE R10 1 | luminária",
+    "CABINE R10 1 | botoeira",
+    "CABINE R10 1 | botão",
+    "CABINE R10 1 | botão.001",
+    "NAV | soleira cabine 1",
+    "CABINE R10 2 | lateral",
+    "CABINE R10 2 | corrimão",
+    "CABINE R10 2 | folha recolhida",
+    "CABINE R10 2 | lateral.001",
+    "CABINE R10 2 | corrimão.001",
+    "CABINE R10 2 | folha recolhida.001",
+    "CABINE R10 2 | fundo",
+    "CABINE R10 2 | teto",
+    "CABINE R10 2 | luminária",
+    "CABINE R10 2 | botoeira",
+    "CABINE R10 2 | botão",
+    "CABINE R10 2 | botão.001",
+    "NAV | soleira cabine 2",
+    "CABINE R10 3 | lateral",
+    "CABINE R10 3 | corrimão",
+    "CABINE R10 3 | folha recolhida",
+    "CABINE R10 3 | lateral.001",
+    "CABINE R10 3 | corrimão.001",
+    "CABINE R10 3 | folha recolhida.001",
+    "CABINE R10 3 | fundo",
+    "CABINE R10 3 | teto",
+    "CABINE R10 3 | luminária",
+    "CABINE R10 3 | botoeira",
+    "CABINE R10 3 | botão",
+    "CABINE R10 3 | botão.001",
+    "NAV | soleira cabine 3",
+    "CABINE R10 4 | lateral",
+    "CABINE R10 4 | corrimão",
+    "CABINE R10 4 | folha recolhida",
+    "CABINE R10 4 | lateral.001",
+    "CABINE R10 4 | corrimão.001",
+    "CABINE R10 4 | folha recolhida.001",
+    "CABINE R10 4 | fundo",
+    "CABINE R10 4 | teto",
+    "CABINE R10 4 | luminária",
+    "CABINE R10 4 | botoeira",
+    "CABINE R10 4 | botão",
+    "CABINE R10 4 | botão.001",
+    "NAV | soleira cabine 4",
+    "R10 | cabine Lacerda",
+    "FUNCIONAL | 3 porta cabine -1 -1",
+    "FUNCIONAL | 3 porta cabine -1 1",
+    "FUNCIONAL | 3 porta cabine 1 -1",
+    "FUNCIONAL | 3 porta cabine 1 1",
+    "FUNCIONAL | 4 porta cabine -1 -1",
+    "FUNCIONAL | 4 porta cabine -1 1",
+    "FUNCIONAL | 4 porta cabine 1 -1",
+    "FUNCIONAL | 4 porta cabine 1 1",
+    "R27 | CABINES SUPERIORES",
+    "R27 | CABINES INFERIORES",
+    "B77 | REFERENCE | seção vertical cabine 3",
+    "B79 | COLLISION | FUNCIONAL | 3 porta cabine -1 -1",
+    "B79 | COLLISION | FUNCIONAL | 3 porta cabine -1 1",
+    "B79 | COLLISION | FUNCIONAL | 3 porta cabine 1 -1",
+    "B79 | COLLISION | FUNCIONAL | 3 porta cabine 1 1",
+    "B79 | COLLISION | FUNCIONAL | 4 porta cabine -1 -1",
+    "B79 | COLLISION | FUNCIONAL | 4 porta cabine 1 -1",
+    "B79 | COLLISION | LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 -1",
+    "B79 | COLLISION | LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 1",
+    "B79 | COLLISION | LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine 1 -1",
+    "B79 | COLLISION | LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine 1 1",
+    "B79 | TRIGGER | poço proibido sem cabine",
+    "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 -1",
+    "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine -1 1",
+    "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine 1 -1",
+    "LAC R30B02 | Vedacao | FUNCIONAL | 3 porta cabine 1 1",
+    "LAC R30B02 | Vedacao | FUNCIONAL | 4 porta cabine -1 -1",
+    "LAC R30B02 | Vedacao | FUNCIONAL | 4 porta cabine -1 1",
+    "LAC R30B02 | Vedacao | FUNCIONAL | 4 porta cabine 1 -1",
+    "LAC R30B02 | Vedacao | FUNCIONAL | 4 porta cabine 1 1"
+  ],
+  "functional_b82_cabin_count": 1,
+  "functional_count_evidence": "automation/blender/model_lacerda_gameplay_proxy_b82.py: único cabin_floor e conjunto de estados",
+  "required_equipment_count": 4,
+  "historical_equipment_count_certified": null,
+  "lower_tunnel_documented": true,
+  "lower_tunnel_scene_correspondence": "NEEDS_REVIEW",
+  "upper_hall_resized": false,
+  "bridge_resized": false,
+  "production_ready": false,
+  "legacy_cabin_floor_bounds": [
+    {
+      "object": "CABINE 1 | piso",
+      "bounds": [
+        [
+          -64.03854370117188,
+          -3.224996566772461,
+          11.00999927520752
+        ],
+        [
+          -61.58854675292969,
+          -1.754996418952942,
+          11.130000114440918
+        ]
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ]
+    },
+    {
+      "object": "CABINE 2 | piso",
+      "bounds": [
+        [
+          -64.0385513305664,
+          -1.5650042295455933,
+          11.00999927520752
+        ],
+        [
+          -61.58855056762695,
+          -0.09500420093536377,
+          11.130000114440918
+        ]
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ]
+    },
+    {
+      "object": "CABINE 3 | piso",
+      "bounds": [
+        [
+          -64.03854370117188,
+          0.09500324726104736,
+          70.01000213623047
+        ],
+        [
+          -61.58854675292969,
+          1.5650032758712769,
+          70.12999725341797
+        ]
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ]
+    },
+    {
+      "object": "CABINE 4 | piso",
+      "bounds": [
+        [
+          -64.03854370117188,
+          1.7549992799758911,
+          70.01000213623047
+        ],
+        [
+          -61.58854675292969,
+          3.22499942779541,
+          70.12999725341797
+        ]
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ]
+    }
+  ],
+  "legacy_tunnel_objects": []
+}

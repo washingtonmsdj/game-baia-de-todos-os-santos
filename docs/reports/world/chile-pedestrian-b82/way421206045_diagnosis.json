@@ -1,0 +1,37 @@
+{
+  "osm_way_id": 421206045,
+  "osm_node_id": "7520527645",
+  "cause": "DOCUMENTED_B38_ADAPT_LOCAL_TO_LOWER_PAVEMENT",
+  "classification": "KEEP_GAMEPLAY",
+  "script": "automation/blender/correct_conceicao_binding_r38.py",
+  "report": "docs/reports/blender/conceicao_binding_r30b38.json",
+  "binding": {
+    "osm_way_id": 421206045,
+    "osm_node_id": 7520527645,
+    "before": [
+      -148.4208526611328,
+      -150.15419006347656,
+      56.002235412597656
+    ],
+    "after": [
+      -150.03884887695312,
+      -150.0146484375,
+      19.810096740722656
+    ],
+    "visual_clearance_m": 0.18,
+    "source_reference_unchanged": true,
+    "reason": "Fit XY candidato atingia Montanha; binding local ao asfalto inferior da mesma via autoral por OSM ID e ordem dos nós. Referência OSM preservada."
+  },
+  "b82_point": [
+    -150.03884887695312,
+    -150.0146484375,
+    19.810096740722656
+  ],
+  "error_to_recorded_after": 0.0,
+  "xy_point_delta": 1.6240023459924662,
+  "z_delta": -36.192138671875,
+  "line_residual_not_point_delta": 1.1414288580167409,
+  "source_unchanged": true,
+  "new_scene_correction_allowed": false,
+  "reason": "Preservar adaptação local documentada. Não restaurar coordenada OSM apenas para reduzir residual: atingiria nível superior."
+}

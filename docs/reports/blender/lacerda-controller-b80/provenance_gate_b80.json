@@ -1,0 +1,49 @@
+{
+  "resources": [
+    {
+      "resource_id": "derived:upper-ground-b80",
+      "release_class": "REPLACE_BEFORE_RELEASE",
+      "blocked_as_expected": true
+    },
+    {
+      "resource_id": "source:upper-historical-document-b80",
+      "release_class": "DEV_REFERENCE_ONLY",
+      "blocked_as_expected": true
+    },
+    {
+      "resource_id": "source:aleph-dev-20261006T052006Z-b80-superior-frente",
+      "release_class": "DEV_REFERENCE_ONLY",
+      "blocked_as_expected": true
+    },
+    {
+      "resource_id": "source:aleph-dev-20261006T052140Z-b80-superior-retorno",
+      "release_class": "DEV_REFERENCE_ONLY",
+      "blocked_as_expected": true
+    },
+    {
+      "resource_id": "source:aleph-dev-20261006T052246Z-b80-superior-portais",
+      "release_class": "DEV_REFERENCE_ONLY",
+      "blocked_as_expected": true
+    },
+    {
+      "resource_id": "source:aleph-dev-20261006T052412Z-b80-entrada-alta-candidato",
+      "release_class": "DEV_REFERENCE_ONLY",
+      "blocked_as_expected": true
+    }
+  ],
+  "package_created": false,
+  "package_audited": false,
+  "scope": "Prova dirigida da rejeicao de recursos candidatos/temporarios, sem gerar/exportar pacote",
+  "syntax_checked": [
+    "automation/blender/validate_upper_ground_b80.py",
+    "automation/blender/export_slice_b80.py",
+    "automation/blender/investigate_upper_b80.py",
+    "automation/blender/reconcile_upper_ground_b80.py",
+    "tools/aleph/acquire_development_references.py",
+    "tools/world/audit_slice_volume_b79.py",
+    "tools/world/triage_slice_contacts_b79.py",
+    "tools/world/evaluate_slice_states_b79.py",
+    "tools/world/verify_slice_contract_b79.py",
+    "tools/world/derive_upper_ground_b80.py"
+  ]
+}

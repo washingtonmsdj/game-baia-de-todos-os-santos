@@ -1,0 +1,88 @@
+{
+  "schema": "boas/coastal-roads-b60-v1",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b59_encosta_transicao_continua.blend",
+    "revision": "R30B.59",
+    "sha256": "8fa5037fed7c41a3495e48ffab095813362ddfb3bc3a0e7c11330c91016bd003",
+    "status": "validation_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b58_costura_encosta_gameplay.blend",
+    "evidence": "docs/reports/blender/coastal_sculpt_r30b59.json",
+    "notes": "Remodelagem da encosta e costura, visual=colisão; núcleo e cais preservados; gate de circulação pendente."
+  },
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b60_plataformas_costeiras.blend",
+    "revision": "R30B.60",
+    "sha256": "7d505667494e74456b9dfea601f3ad702e0f05262e430f5cd60801589c0f9970"
+  },
+  "classification": "ADAPT_LOCAL",
+  "profiles": [
+    {
+      "osm_way_id": 154743329,
+      "width_m": 6.4,
+      "width_status": "ADAPT_GAMEPLAY_NOT_SURVEYED",
+      "samples": 25,
+      "profile_grade_feasible": true,
+      "endpoints_preserved": true
+    },
+    {
+      "osm_way_id": 456471269,
+      "width_m": 5.2,
+      "width_status": "ADAPT_GAMEPLAY_NOT_SURVEYED",
+      "samples": 17,
+      "profile_grade_feasible": true,
+      "endpoints_preserved": true
+    },
+    {
+      "osm_way_id": 978527848,
+      "width_m": 9.0,
+      "width_status": "ADAPT_GAMEPLAY_NOT_SURVEYED",
+      "samples": 48,
+      "profile_grade_feasible": true,
+      "endpoints_preserved": true
+    },
+    {
+      "osm_way_id": 1004133493,
+      "width_m": 3.8,
+      "width_status": "ADAPT_GAMEPLAY_NOT_SURVEYED",
+      "samples": 128,
+      "profile_grade_feasible": true,
+      "endpoints_preserved": true
+    },
+    {
+      "osm_way_id": 1004133494,
+      "width_m": 3.8,
+      "width_status": "ADAPT_GAMEPLAY_NOT_SURVEYED",
+      "samples": 34,
+      "profile_grade_feasible": true,
+      "endpoints_preserved": true
+    },
+    {
+      "osm_way_id": 1075624454,
+      "width_m": 9.0,
+      "width_status": "ADAPT_GAMEPLAY_NOT_SURVEYED",
+      "samples": 156,
+      "profile_grade_feasible": true,
+      "endpoints_preserved": true
+    }
+  ],
+  "road_surfaces": [
+    "B60 | ROAD VISUAL | 154743329 | run 0",
+    "B60 | ROAD VISUAL | 456471269 | run 0",
+    "B60 | ROAD VISUAL | 978527848 | run 0",
+    "B60 | ROAD VISUAL | 1004133493 | run 0",
+    "B60 | ROAD VISUAL | 1004133494 | run 0",
+    "B60 | ROAD VISUAL | 1075624454 | run 0",
+    "B60 | ROAD VISUAL | 1321544428 | run 0"
+  ],
+  "changed_vertices": 6343,
+  "max_z_change_m": 2.1032308621026417,
+  "visual_collision_identical": true,
+  "xy_width_core_unchanged": true,
+  "protected_changes": [],
+  "approved": false,
+  "pending": [
+    "Conferência após reabertura",
+    "Navegação atualizada e travessia na engine",
+    "Lacuna histórica até o cais"
+  ]
+}

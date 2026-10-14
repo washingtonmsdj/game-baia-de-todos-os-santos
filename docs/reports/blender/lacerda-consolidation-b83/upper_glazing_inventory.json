@@ -1,0 +1,5055 @@
+{
+  "file": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\blender\\salvador_lacerda_r30b83_encontro_superior_consolidado.blend",
+  "scene": "SALVADOR | ESBOCO OFICIAL",
+  "pid": 11304,
+  "objects": [
+    {
+      "name": "CALIBRADO | passarela piso 28.71 x 6.00m",
+      "bounds": [
+        [
+          -61.038551330566406,
+          -3.000001907348633,
+          69.10000610351562
+        ],
+        [
+          -5.500007629394531,
+          2.999999761581421,
+          70.0
+        ]
+      ],
+      "materials": [
+        "Lacerda calibrado | estrutura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "08 ELEVADOR E TERRENO | dimensoes calibradas"
+      ],
+      "properties": {
+        "dimensoes_status": "medida publicada",
+        "game_role": "walkable_surface",
+        "navigation_source": "Rendered structural floor"
+      }
+    },
+    {
+      "name": "CALIBRADO | passarela cobertura 28.71 x 6.00m",
+      "bounds": [
+        [
+          -61.038551330566406,
+          -3.000001907348633,
+          73.82499694824219
+        ],
+        [
+          -5.500007629394531,
+          2.999999761581421,
+          74.17500305175781
+        ]
+      ],
+      "materials": [
+        "Lacerda calibrado | marfim"
+      ],
+      "vertices": 8,
+      "collections": [
+        "08 ELEVADOR E TERRENO | dimensoes calibradas"
+      ],
+      "properties": {
+        "dimensoes_status": "medida publicada"
+      }
+    },
+    {
+      "name": "CALIBRADO | passarela viga lateral",
+      "bounds": [
+        [
+          -61.038551330566406,
+          -2.9999990463256836,
+          69.54999542236328
+        ],
+        [
+          -5.500007629394531,
+          -2.7199997901916504,
+          70.8499984741211
+        ]
+      ],
+      "materials": [
+        "Lacerda calibrado | estrutura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "08 ELEVADOR E TERRENO | dimensoes calibradas"
+      ],
+      "properties": {
+        "dimensoes_status": "medida publicada"
+      }
+    },
+    {
+      "name": "CALIBRADO | passarela faixa envidraçada",
+      "bounds": [
+        [
+          -22.595653533935547,
+          -52.432743072509766,
+          70.75
+        ],
+        [
+          20.436935424804688,
+          -38.873069763183594,
+          73.25
+        ]
+      ],
+      "materials": [
+        "Lacerda calibrado | esquadrias"
+      ],
+      "vertices": 8,
+      "collections": [
+        "08 ELEVADOR E TERRENO | dimensoes calibradas"
+      ],
+      "properties": {
+        "dimensoes_status": "medida publicada"
+      }
+    },
+    {
+      "name": "CALIBRADO | passarela viga lateral.001",
+      "bounds": [
+        [
+          -61.03854751586914,
+          2.7200002670288086,
+          69.54999542236328
+        ],
+        [
+          -5.500003814697266,
+          2.999999523162842,
+          70.8499984741211
+        ]
+      ],
+      "materials": [
+        "Lacerda calibrado | estrutura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "08 ELEVADOR E TERRENO | dimensoes calibradas"
+      ],
+      "properties": {
+        "dimensoes_status": "medida publicada"
+      }
+    },
+    {
+      "name": "CALIBRADO | passarela faixa envidraçada.001",
+      "bounds": [
+        [
+          -22.595653533935547,
+          -46.71274185180664,
+          70.75
+        ],
+        [
+          20.436935424804688,
+          -33.15306854248047,
+          73.25
+        ]
+      ],
+      "materials": [
+        "Lacerda calibrado | esquadrias"
+      ],
+      "vertices": 8,
+      "collections": [
+        "08 ELEVADOR E TERRENO | dimensoes calibradas"
+      ],
+      "properties": {
+        "dimensoes_status": "medida publicada"
+      }
+    },
+    {
+      "name": "CALIBRADO | montante passarela.016",
+      "bounds": [
+        [
+          -5.635412216186523,
+          -2.9500012397766113,
+          70.30000305175781
+        ],
+        [
+          -5.364582061767578,
+          -2.810000419616699,
+          73.69999694824219
+        ]
+      ],
+      "materials": [
+        "Lacerda calibrado | marfim"
+      ],
+      "vertices": 8,
+      "collections": [
+        "08 ELEVADOR E TERRENO | dimensoes calibradas"
+      ],
+      "properties": {
+        "dimensoes_status": "detalhe proporcional"
+      }
+    },
+    {
+      "name": "CALIBRADO | montante passarela.017",
+      "bounds": [
+        [
+          -5.635417938232422,
+          2.8099989891052246,
+          70.30000305175781
+        ],
+        [
+          -5.364585876464844,
+          2.9500012397766113,
+          73.69999694824219
+        ]
+      ],
+      "materials": [
+        "Lacerda calibrado | marfim"
+      ],
+      "vertices": 8,
+      "collections": [
+        "08 ELEVADOR E TERRENO | dimensoes calibradas"
+      ],
+      "properties": {
+        "dimensoes_status": "detalhe proporcional"
+      }
+    },
+    {
+      "name": "NAV | passarela superior",
+      "bounds": [
+        [
+          -60.55493927001953,
+          -2.7250008583068848,
+          70.04499816894531
+        ],
+        [
+          -5.983623504638672,
+          2.725001096725464,
+          70.11500549316406
+        ]
+      ],
+      "materials": [
+        "R10 | piso pedra"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "gameplay": "navegável; ligação estação superior-torre",
+        "game_role": "walkable_surface"
+      }
+    },
+    {
+      "name": "PASSARELA | montante interno.016",
+      "bounds": [
+        [
+          -5.616069793701172,
+          -2.779999256134033,
+          70.0
+        ],
+        [
+          -5.383932113647461,
+          -2.6599984169006348,
+          74.0
+        ]
+      ],
+      "materials": [
+        "Interior Lacerda | concreto"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {}
+    },
+    {
+      "name": "PASSARELA | montante interno.017",
+      "bounds": [
+        [
+          -5.616071701049805,
+          2.6600003242492676,
+          70.0
+        ],
+        [
+          -5.383934020996094,
+          2.780001401901245,
+          74.0
+        ]
+      ],
+      "materials": [
+        "Interior Lacerda | concreto"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {}
+    },
+    {
+      "name": "PASSARELA | peitoril interno",
+      "bounds": [
+        [
+          -61.03854751586914,
+          -2.830000400543213,
+          70.09500122070312
+        ],
+        [
+          -5.499996185302734,
+          -2.690000057220459,
+          71.34500122070312
+        ]
+      ],
+      "materials": [
+        "LAC R30B | marmore claro peitoris"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {}
+    },
+    {
+      "name": "PASSARELA | peitoril interno.001",
+      "bounds": [
+        [
+          -61.03855514526367,
+          2.68999981880188,
+          70.09500122070312
+        ],
+        [
+          -5.500003814697266,
+          2.8299994468688965,
+          71.34500122070312
+        ]
+      ],
+      "materials": [
+        "LAC R30B | marmore claro peitoris"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {}
+    },
+    {
+      "name": "SUPERIOR | piso saguão",
+      "bounds": [
+        [
+          -5.5,
+          -9.300000190734863,
+          69.79499816894531
+        ],
+        [
+          5.5,
+          9.300000190734863,
+          70.04499816894531
+        ]
+      ],
+      "materials": [
+        "R22 granito interior"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento",
+        "game_role": "walkable_surface",
+        "navigation_source": "Rendered structural floor"
+      }
+    },
+    {
+      "name": "SUPERIOR | cobertura saguão",
+      "bounds": [
+        [
+          -5.5,
+          -9.300000190734863,
+          74.9749984741211
+        ],
+        [
+          5.5,
+          9.300000190734863,
+          75.32500457763672
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "SUPERIOR | parede lateral saguão",
+      "bounds": [
+        [
+          -5.5,
+          -9.29999828338623,
+          70.0
+        ],
+        [
+          5.5,
+          -8.999999046325684,
+          75.0
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 32,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "game_role": "static_collision",
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento",
+        "classification": "ADAPT_LOCAL",
+        "revision_note": "Aberturas de varanda; dimensões adaptadas à implantação existente, sem levantamento cadastral."
+      }
+    },
+    {
+      "name": "SUPERIOR | parede lateral saguão.001",
+      "bounds": [
+        [
+          -5.5,
+          9.0,
+          70.0
+        ],
+        [
+          5.5,
+          9.299999237060547,
+          75.0
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 40,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "game_role": "static_collision",
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento",
+        "classification": "ADAPT_LOCAL",
+        "revision_note": "Aberturas de varanda; dimensões adaptadas à implantação existente, sem levantamento cadastral."
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | pilar térreo",
+      "bounds": [
+        [
+          5.299999237060547,
+          -9.60999870300293,
+          70.0
+        ],
+        [
+          5.7599992752075195,
+          -8.989997863769531,
+          75.0
+        ]
+      ],
+      "materials": [
+        "LAC R30B23 | pedra castanha pilares altos"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | pilar térreo.001",
+      "bounds": [
+        [
+          5.299999237060547,
+          -5.8899993896484375,
+          70.0
+        ],
+        [
+          5.7599992752075195,
+          -5.2699995040893555,
+          75.0
+        ]
+      ],
+      "materials": [
+        "LAC R30B23 | pedra castanha pilares altos"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | pilar térreo.002",
+      "bounds": [
+        [
+          5.3000006675720215,
+          -2.1699986457824707,
+          70.0
+        ],
+        [
+          5.760000705718994,
+          -1.5499985218048096,
+          75.0
+        ]
+      ],
+      "materials": [
+        "LAC R30B23 | pedra castanha pilares altos"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | pilar térreo.003",
+      "bounds": [
+        [
+          5.299998760223389,
+          1.5500023365020752,
+          70.0
+        ],
+        [
+          5.759998798370361,
+          2.1700022220611572,
+          75.0
+        ]
+      ],
+      "materials": [
+        "LAC R30B23 | pedra castanha pilares altos"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | pilar térreo.004",
+      "bounds": [
+        [
+          5.299999713897705,
+          5.270002365112305,
+          70.0
+        ],
+        [
+          5.759999752044678,
+          5.890002250671387,
+          75.0
+        ]
+      ],
+      "materials": [
+        "LAC R30B23 | pedra castanha pilares altos"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | pilar térreo.005",
+      "bounds": [
+        [
+          5.300000190734863,
+          8.990001678466797,
+          70.0
+        ],
+        [
+          5.760000228881836,
+          9.610002517700195,
+          75.0
+        ]
+      ],
+      "materials": [
+        "LAC R30B23 | pedra castanha pilares altos"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | persiana lateral",
+      "bounds": [
+        [
+          5.529996395111084,
+          -8.9399995803833,
+          70.0
+        ],
+        [
+          5.649996280670166,
+          -5.939999580383301,
+          73.69999694824219
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | lâmina persiana",
+      "bounds": [
+        [
+          5.6399993896484375,
+          -8.920000076293945,
+          70.17749786376953
+        ],
+        [
+          5.699999809265137,
+          -5.960000514984131,
+          70.22249603271484
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | lâmina persiana.001",
+      "bounds": [
+        [
+          5.6399993896484375,
+          -8.920000076293945,
+          70.3375015258789
+        ],
+        [
+          5.699999809265137,
+          -5.960000514984131,
+          70.38249969482422
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | lâmina persiana.002",
+      "bounds": [
+        [
+          5.6399993896484375,
+          -8.920000076293945,
+          70.49750518798828
+        ],
+        [
+          5.699999809265137,
+          -5.960000514984131,
+          70.5425033569336
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | lâmina persiana.003",
+      "bounds": [
+        [
+          5.6399993896484375,
+          -8.920000076293945,
+          70.65750122070312
+        ],
+        [
+          5.699999809265137,
+          -5.960000514984131,
+          70.70249938964844
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | lâmina persiana.004",
+      "bounds": [
+        [
+          5.6399993896484375,
+          -8.920000076293945,
+          70.81749725341797
+        ],
+        [
+          5.699999809265137,
+          -5.960000514984131,
+          70.86249542236328
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | lâmina persiana.005",
+      "bounds": [
+        [
+          5.6399993896484375,
+          -8.920000076293945,
+          70.97750091552734
+        ],
+        [
+          5.699999809265137,
+          -5.960000514984131,
+          71.02249908447266
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | lâmina persiana.006",
+      "bounds": [
+        [
+          5.6399993896484375,
+          -8.920000076293945,
+          71.13750457763672
+        ],
+        [
+          5.699999809265137,
+          -5.960000514984131,
+          71.18250274658203
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | lâmina persiana.007",
+      "bounds": [
+        [
+          5.6399993896484375,
+          -8.920000076293945,
+          71.29750061035156
+        ],
+        [
+          5.699999809265137,
+          -5.960000514984131,
+          71.34249877929688
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | lâmina persiana.008",
+      "bounds": [
+        [
+          5.6399993896484375,
+          -8.920000076293945,
+          71.4574966430664
+        ],
+        [
+          5.699999809265137,
+          -5.960000514984131,
+          71.50249481201172
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | lâmina persiana.009",
+      "bounds": [
+        [
+          5.6399993896484375,
+          -8.920000076293945,
+          71.61750030517578
+        ],
+        [
+          5.699999809265137,
+          -5.960000514984131,
+          71.6624984741211
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | lâmina persiana.010",
+      "bounds": [
+        [
+          5.6399993896484375,
+          -8.920000076293945,
+          71.77750396728516
+        ],
+        [
+          5.699999809265137,
+          -5.960000514984131,
+          71.82250213623047
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | lâmina persiana.011",
+      "bounds": [
+        [
+          5.6399993896484375,
+          -8.920000076293945,
+          71.9375
+        ],
+        [
+          5.699999809265137,
+          -5.960000514984131,
+          71.98249816894531
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | lâmina persiana.012",
+      "bounds": [
+        [
+          5.6399993896484375,
+          -8.920000076293945,
+          72.09749603271484
+        ],
+        [
+          5.699999809265137,
+          -5.960000514984131,
+          72.14249420166016
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | lâmina persiana.013",
+      "bounds": [
+        [
+          5.6399993896484375,
+          -8.920000076293945,
+          72.25749969482422
+        ],
+        [
+          5.699999809265137,
+          -5.960000514984131,
+          72.30249786376953
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | lâmina persiana.014",
+      "bounds": [
+        [
+          5.6399993896484375,
+          -8.920000076293945,
+          72.4175033569336
+        ],
+        [
+          5.699999809265137,
+          -5.960000514984131,
+          72.4625015258789
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | lâmina persiana.015",
+      "bounds": [
+        [
+          5.6399993896484375,
+          -8.920000076293945,
+          72.57749938964844
+        ],
+        [
+          5.699999809265137,
+          -5.960000514984131,
+          72.62249755859375
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | lâmina persiana.016",
+      "bounds": [
+        [
+          5.6399993896484375,
+          -8.920000076293945,
+          72.73749542236328
+        ],
+        [
+          5.699999809265137,
+          -5.960000514984131,
+          72.7824935913086
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | lâmina persiana.017",
+      "bounds": [
+        [
+          5.6399993896484375,
+          -8.920000076293945,
+          72.89749908447266
+        ],
+        [
+          5.699999809265137,
+          -5.960000514984131,
+          72.94249725341797
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | lâmina persiana.018",
+      "bounds": [
+        [
+          5.6399993896484375,
+          -8.920000076293945,
+          73.05750274658203
+        ],
+        [
+          5.699999809265137,
+          -5.960000514984131,
+          73.10250091552734
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | lâmina persiana.019",
+      "bounds": [
+        [
+          5.6399993896484375,
+          -8.920000076293945,
+          73.2175064086914
+        ],
+        [
+          5.699999809265137,
+          -5.960000514984131,
+          73.26250457763672
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | lâmina persiana.020",
+      "bounds": [
+        [
+          5.6399993896484375,
+          -8.920000076293945,
+          73.37750244140625
+        ],
+        [
+          5.699999809265137,
+          -5.960000514984131,
+          73.42250061035156
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | lâmina persiana.021",
+      "bounds": [
+        [
+          5.6399993896484375,
+          -8.920000076293945,
+          73.5374984741211
+        ],
+        [
+          5.699999809265137,
+          -5.960000514984131,
+          73.5824966430664
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | bandeira térreo",
+      "bounds": [
+        [
+          5.55999755859375,
+          -8.940000534057617,
+          73.79000091552734
+        ],
+        [
+          5.659997940063477,
+          -5.940000057220459,
+          74.51000213623047
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | grade bandeira",
+      "bounds": [
+        [
+          5.65000057220459,
+          -8.367499351501465,
+          73.81000518798828
+        ],
+        [
+          5.7300004959106445,
+          -8.312499046325684,
+          74.48999786376953
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | grade bandeira.001",
+      "bounds": [
+        [
+          5.649999618530273,
+          -7.917498588562012,
+          73.81000518798828
+        ],
+        [
+          5.729999542236328,
+          -7.8624982833862305,
+          74.48999786376953
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | grade bandeira.002",
+      "bounds": [
+        [
+          5.649998664855957,
+          -7.467498302459717,
+          73.81000518798828
+        ],
+        [
+          5.729998588562012,
+          -7.4124979972839355,
+          74.48999786376953
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | grade bandeira.003",
+      "bounds": [
+        [
+          5.650000095367432,
+          -7.0174970626831055,
+          73.81000518798828
+        ],
+        [
+          5.730000019073486,
+          -6.962496757507324,
+          74.48999786376953
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | grade bandeira.004",
+      "bounds": [
+        [
+          5.649999618530273,
+          -6.567497730255127,
+          73.81000518798828
+        ],
+        [
+          5.729999542236328,
+          -6.512497425079346,
+          74.48999786376953
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | folha aberta",
+      "bounds": [
+        [
+          4.224999904632568,
+          -5.194998741149902,
+          70.0
+        ],
+        [
+          5.474999904632568,
+          -5.114998817443848,
+          73.5
+        ]
+      ],
+      "materials": [
+        "LAC R30B21 | vidro bandeiras acesso"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | folha aberta.001",
+      "bounds": [
+        [
+          4.22499942779541,
+          -2.325000047683716,
+          70.0
+        ],
+        [
+          5.47499942779541,
+          -2.245000123977661,
+          73.5
+        ]
+      ],
+      "materials": [
+        "LAC R30B21 | vidro bandeiras acesso"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | bandeira térreo.001",
+      "bounds": [
+        [
+          5.55999755859375,
+          -5.219998359680176,
+          73.79000091552734
+        ],
+        [
+          5.659997940063477,
+          -2.2199981212615967,
+          74.51000213623047
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | grade bandeira.005",
+      "bounds": [
+        [
+          5.649999141693115,
+          -4.647498607635498,
+          73.81000518798828
+        ],
+        [
+          5.72999906539917,
+          -4.592498302459717,
+          74.48999786376953
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | grade bandeira.006",
+      "bounds": [
+        [
+          5.649998664855957,
+          -4.197498798370361,
+          73.81000518798828
+        ],
+        [
+          5.729998588562012,
+          -4.14249849319458,
+          74.48999786376953
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | grade bandeira.007",
+      "bounds": [
+        [
+          5.650000095367432,
+          -3.747497320175171,
+          73.81000518798828
+        ],
+        [
+          5.730000019073486,
+          -3.692497491836548,
+          74.48999786376953
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | grade bandeira.008",
+      "bounds": [
+        [
+          5.649999618530273,
+          -3.2974977493286133,
+          73.81000518798828
+        ],
+        [
+          5.729999542236328,
+          -3.2424979209899902,
+          74.48999786376953
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | grade bandeira.009",
+      "bounds": [
+        [
+          5.649999618530273,
+          -2.8474981784820557,
+          73.81000518798828
+        ],
+        [
+          5.729999542236328,
+          -2.7924983501434326,
+          74.48999786376953
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | folha aberta.002",
+      "bounds": [
+        [
+          4.22499942779541,
+          -1.4749994277954102,
+          70.0
+        ],
+        [
+          5.47499942779541,
+          -1.3949995040893555,
+          73.5
+        ]
+      ],
+      "materials": [
+        "LAC R30B21 | vidro bandeiras acesso"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | folha aberta.003",
+      "bounds": [
+        [
+          4.22499942779541,
+          1.3950018882751465,
+          70.0
+        ],
+        [
+          5.47499942779541,
+          1.4750018119812012,
+          73.5
+        ]
+      ],
+      "materials": [
+        "LAC R30B21 | vidro bandeiras acesso"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | bandeira térreo.002",
+      "bounds": [
+        [
+          5.55999755859375,
+          -1.499998927116394,
+          73.79000091552734
+        ],
+        [
+          5.659997940063477,
+          1.500001072883606,
+          74.51000213623047
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | grade bandeira.010",
+      "bounds": [
+        [
+          5.65000057220459,
+          -0.9274975657463074,
+          73.81000518798828
+        ],
+        [
+          5.7300004959106445,
+          -0.8724976181983948,
+          74.48999786376953
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | grade bandeira.011",
+      "bounds": [
+        [
+          5.650000095367432,
+          -0.47749778628349304,
+          73.81000518798828
+        ],
+        [
+          5.730000019073486,
+          -0.42249777913093567,
+          74.48999786376953
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | grade bandeira.012",
+      "bounds": [
+        [
+          5.649999618530273,
+          -0.027498211711645126,
+          73.81000518798828
+        ],
+        [
+          5.729999542236328,
+          0.02750178799033165,
+          74.48999786376953
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | grade bandeira.013",
+      "bounds": [
+        [
+          5.649999618530273,
+          0.42250147461891174,
+          73.81000518798828
+        ],
+        [
+          5.729999542236328,
+          0.4775014817714691,
+          74.48999786376953
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | grade bandeira.014",
+      "bounds": [
+        [
+          5.649999618530273,
+          0.8725010752677917,
+          73.81000518798828
+        ],
+        [
+          5.729999542236328,
+          0.9275010228157043,
+          74.48999786376953
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | folha aberta.004",
+      "bounds": [
+        [
+          4.224998950958252,
+          2.245002031326294,
+          70.0
+        ],
+        [
+          5.474998950958252,
+          2.3250019550323486,
+          73.5
+        ]
+      ],
+      "materials": [
+        "LAC R30B21 | vidro bandeiras acesso"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | folha aberta.005",
+      "bounds": [
+        [
+          4.224998950958252,
+          5.115001201629639,
+          70.0
+        ],
+        [
+          5.474998950958252,
+          5.195001125335693,
+          73.5
+        ]
+      ],
+      "materials": [
+        "LAC R30B21 | vidro bandeiras acesso"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | bandeira térreo.003",
+      "bounds": [
+        [
+          5.559998512268066,
+          2.220001220703125,
+          73.79000091552734
+        ],
+        [
+          5.659998893737793,
+          5.220001220703125,
+          74.51000213623047
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | grade bandeira.015",
+      "bounds": [
+        [
+          5.65000057220459,
+          2.792501926422119,
+          73.81000518798828
+        ],
+        [
+          5.7300004959106445,
+          2.847501754760742,
+          74.48999786376953
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | grade bandeira.016",
+      "bounds": [
+        [
+          5.650000095367432,
+          3.2425014972686768,
+          73.81000518798828
+        ],
+        [
+          5.730000019073486,
+          3.2975013256073,
+          74.48999786376953
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | grade bandeira.017",
+      "bounds": [
+        [
+          5.65000057220459,
+          3.692502021789551,
+          73.81000518798828
+        ],
+        [
+          5.7300004959106445,
+          3.747501850128174,
+          74.48999786376953
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | grade bandeira.018",
+      "bounds": [
+        [
+          5.650000095367432,
+          4.142500877380371,
+          73.81000518798828
+        ],
+        [
+          5.730000019073486,
+          4.197501182556152,
+          74.48999786376953
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | grade bandeira.019",
+      "bounds": [
+        [
+          5.650000095367432,
+          4.592501163482666,
+          73.81000518798828
+        ],
+        [
+          5.730000019073486,
+          4.647501468658447,
+          74.48999786376953
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | folha aberta.006",
+      "bounds": [
+        [
+          4.22499942779541,
+          5.965002059936523,
+          70.0
+        ],
+        [
+          5.47499942779541,
+          6.045001983642578,
+          73.5
+        ]
+      ],
+      "materials": [
+        "LAC R30B21 | vidro bandeiras acesso"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | folha aberta.007",
+      "bounds": [
+        [
+          4.224999904632568,
+          8.835000991821289,
+          70.0
+        ],
+        [
+          5.474999904632568,
+          8.915000915527344,
+          73.5
+        ]
+      ],
+      "materials": [
+        "LAC R30B21 | vidro bandeiras acesso"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | bandeira térreo.004",
+      "bounds": [
+        [
+          5.559997081756592,
+          5.940002918243408,
+          73.79000091552734
+        ],
+        [
+          5.659997463226318,
+          8.94000244140625,
+          74.51000213623047
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | grade bandeira.020",
+      "bounds": [
+        [
+          5.650000095367432,
+          6.512500762939453,
+          73.81000518798828
+        ],
+        [
+          5.730000019073486,
+          6.567501068115234,
+          74.48999786376953
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | grade bandeira.021",
+      "bounds": [
+        [
+          5.650000095367432,
+          6.96250057220459,
+          73.81000518798828
+        ],
+        [
+          5.730000019073486,
+          7.017500877380371,
+          74.48999786376953
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | grade bandeira.022",
+      "bounds": [
+        [
+          5.650001049041748,
+          7.412501811981201,
+          73.81000518798828
+        ],
+        [
+          5.730000972747803,
+          7.467502117156982,
+          74.48999786376953
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | grade bandeira.023",
+      "bounds": [
+        [
+          5.650001049041748,
+          7.86250114440918,
+          73.81000518798828
+        ],
+        [
+          5.730000972747803,
+          7.917501449584961,
+          74.48999786376953
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | grade bandeira.024",
+      "bounds": [
+        [
+          5.649999141693115,
+          8.312501907348633,
+          73.81000518798828
+        ],
+        [
+          5.72999906539917,
+          8.367502212524414,
+          74.48999786376953
+        ]
+      ],
+      "materials": [
+        "R22 esquadria escura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | marquise longa",
+      "bounds": [
+        [
+          5.094999313354492,
+          -10.299999237060547,
+          75.08000183105469
+        ],
+        [
+          7.244998931884766,
+          10.30000114440918,
+          75.41999816894531
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "SUPERIOR | posterior lateral",
+      "bounds": [
+        [
+          -5.500002384185791,
+          -9.299999237060547,
+          70.0
+        ],
+        [
+          -5.200002193450928,
+          -3.000001907348633,
+          75.0
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "boas_revision": "R30B.83",
+        "boas_reference_status": "partial",
+        "boas_provenance_ids": "[\"derived:lacerda-junction-b78\", \"derived:lacerda-consolidation-b83\"]",
+        "boas_b83_reason": "Reconciliar retorno/verga existentes com bordas da passarela; não certifica dimensão real ou poço"
+      }
+    },
+    {
+      "name": "SUPERIOR | posterior lateral.001",
+      "bounds": [
+        [
+          -5.500002384185791,
+          2.999999523162842,
+          70.0
+        ],
+        [
+          -5.200002193450928,
+          9.300000190734863,
+          75.0
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "boas_revision": "R30B.83",
+        "boas_reference_status": "partial",
+        "boas_provenance_ids": "[\"derived:lacerda-junction-b78\", \"derived:lacerda-consolidation-b83\"]",
+        "boas_b83_reason": "Reconciliar retorno/verga existentes com bordas da passarela; não certifica dimensão real ou poço"
+      }
+    },
+    {
+      "name": "SUPERIOR | posterior sobre passarela",
+      "bounds": [
+        [
+          -5.500003337860107,
+          -3.000001907348633,
+          73.5
+        ],
+        [
+          -5.200003147125244,
+          2.999999761581421,
+          75.0
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "boas_revision": "R30B.83",
+        "boas_reference_status": "partial",
+        "boas_provenance_ids": "[\"derived:lacerda-junction-b78\", \"derived:lacerda-consolidation-b83\"]",
+        "boas_b83_reason": "Reconciliar retorno/verga existentes com bordas da passarela; não certifica dimensão real ou poço"
+      }
+    },
+    {
+      "name": "NAV | saguão superior",
+      "bounds": [
+        [
+          -5.0,
+          -8.800000190734863,
+          70.04499816894531
+        ],
+        [
+          5.0,
+          8.800000190734863,
+          70.11500549316406
+        ]
+      ],
+      "materials": [
+        "R10 | piso pedra"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "gameplay": "navegável",
+        "game_role": "walkable_surface"
+      }
+    },
+    {
+      "name": "FACHADA SUPERIOR | corpo elevado",
+      "bounds": [
+        [
+          5.059999465942383,
+          -5.699998378753662,
+          75.19999694824219
+        ],
+        [
+          5.539999008178711,
+          5.700001239776611,
+          87.19999694824219
+        ]
+      ],
+      "materials": [
+        "LAC R30B23 | reboco bege fachada alta"
+      ],
+      "vertices": 61,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "partial",
+        "boas_location_id": "elevador-lacerda"
+      }
+    },
+    {
+      "name": "SUPERIOR | lateral corpo elevado",
+      "bounds": [
+        [
+          -5.499999523162842,
+          -5.824999809265137,
+          75.19999694824219
+        ],
+        [
+          5.500000476837158,
+          -5.574999809265137,
+          87.19999694824219
+        ]
+      ],
+      "materials": [
+        "LAC R30B23 | reboco bege fachada alta"
+      ],
+      "vertices": 62,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "reference_status": "partial"
+      }
+    },
+    {
+      "name": "SUPERIOR | lateral corpo elevado.001",
+      "bounds": [
+        [
+          -5.500000476837158,
+          5.575000762939453,
+          75.19999694824219
+        ],
+        [
+          5.499999523162842,
+          5.825000762939453,
+          87.19999694824219
+        ]
+      ],
+      "materials": [
+        "LAC R30B23 | reboco bege fachada alta"
+      ],
+      "vertices": 62,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "reference_status": "partial"
+      }
+    },
+    {
+      "name": "SUPERIOR | catraca",
+      "bounds": [
+        [
+          -0.5999993085861206,
+          -2.479999303817749,
+          70.0
+        ],
+        [
+          0.6000007390975952,
+          -2.3199994564056396,
+          71.10000610351562
+        ]
+      ],
+      "materials": [
+        "LAC R30B | inox escovado"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "SUPERIOR | braço catraca",
+      "bounds": [
+        [
+          -0.6249990463256836,
+          -2.429999351501465,
+          70.97000122070312
+        ],
+        [
+          0.1250009536743164,
+          -2.369999408721924,
+          71.02999877929688
+        ]
+      ],
+      "materials": [
+        "LAC R30B | inox escovado"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "SUPERIOR | catraca.001",
+      "bounds": [
+        [
+          -0.5999996662139893,
+          -0.8800004124641418,
+          70.0
+        ],
+        [
+          0.6000003814697266,
+          -0.7200004458427429,
+          71.10000610351562
+        ]
+      ],
+      "materials": [
+        "LAC R30B | inox escovado"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "SUPERIOR | braço catraca.001",
+      "bounds": [
+        [
+          -0.6249995231628418,
+          -0.8300004005432129,
+          70.97000122070312
+        ],
+        [
+          0.1250004768371582,
+          -0.7700004577636719,
+          71.02999877929688
+        ]
+      ],
+      "materials": [
+        "LAC R30B | inox escovado"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "SUPERIOR | catraca.002",
+      "bounds": [
+        [
+          -0.6000003814697266,
+          0.720001220703125,
+          70.0
+        ],
+        [
+          0.5999996662139893,
+          0.8800011873245239,
+          71.10000610351562
+        ]
+      ],
+      "materials": [
+        "LAC R30B | inox escovado"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "SUPERIOR | braço catraca.002",
+      "bounds": [
+        [
+          -0.6250001788139343,
+          0.7700012922286987,
+          70.97000122070312
+        ],
+        [
+          0.12499982118606567,
+          0.8300012350082397,
+          71.02999877929688
+        ]
+      ],
+      "materials": [
+        "LAC R30B | inox escovado"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "SUPERIOR | catraca.003",
+      "bounds": [
+        [
+          -0.6000006198883057,
+          2.320000171661377,
+          70.0
+        ],
+        [
+          0.5999994277954102,
+          2.4800000190734863,
+          71.10000610351562
+        ]
+      ],
+      "materials": [
+        "LAC R30B | inox escovado"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "SUPERIOR | braço catraca.003",
+      "bounds": [
+        [
+          -0.6250004172325134,
+          2.370000123977661,
+          70.97000122070312
+        ],
+        [
+          0.12499958276748657,
+          2.430000066757202,
+          71.02999877929688
+        ]
+      ],
+      "materials": [
+        "LAC R30B | inox escovado"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "SUPERIOR | guia de fila",
+      "bounds": [
+        [
+          -4.0,
+          -3.3399996757507324,
+          70.0
+        ],
+        [
+          0.0,
+          -3.2599997520446777,
+          71.10000610351562
+        ]
+      ],
+      "materials": [
+        "LAC R30B | inox escovado"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "SUPERIOR | guia de fila.001",
+      "bounds": [
+        [
+          -3.999999761581421,
+          3.2600011825561523,
+          70.0
+        ],
+        [
+          2.384185791015625e-07,
+          3.340001106262207,
+          71.10000610351562
+        ]
+      ],
+      "materials": [
+        "LAC R30B | inox escovado"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "SINALIZAÇÃO | painel estação superior",
+      "bounds": [
+        [
+          5.099997520446777,
+          -2.59999942779541,
+          75.35000610351562
+        ],
+        [
+          5.259997367858887,
+          2.6000003814697266,
+          76.25
+        ]
+      ],
+      "materials": [
+        "Interior Lacerda | portas"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {}
+    },
+    {
+      "name": "PASSARELA EXTERNA | vidro",
+      "bounds": [
+        [
+          -61.03855514526367,
+          -2.975001335144043,
+          71.22500610351562
+        ],
+        [
+          -5.500007629394531,
+          -2.8849987983703613,
+          73.875
+        ]
+      ],
+      "materials": [
+        "LAC R30B | vidro incolor transparente"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "game_role": "static_collision"
+      }
+    },
+    {
+      "name": "PASSARELA EXTERNA | caixilho.012",
+      "bounds": [
+        [
+          -5.5967254638671875,
+          -2.999999523162842,
+          71.1500015258789
+        ],
+        [
+          -5.403276443481445,
+          -2.8599987030029297,
+          73.95000457763672
+        ]
+      ],
+      "materials": [
+        "LAC R30B | esquadria clara acetinada"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "PASSARELA EXTERNA | travessa alta",
+      "bounds": [
+        [
+          -61.03855514526367,
+          -3.000002384185791,
+          73.8699951171875
+        ],
+        [
+          -5.500003814697266,
+          -2.8600006103515625,
+          74.02999877929688
+        ]
+      ],
+      "materials": [
+        "LAC R30B | esquadria clara acetinada"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "PASSARELA EXTERNA | travessa baixa",
+      "bounds": [
+        [
+          -61.03855514526367,
+          -3.000002384185791,
+          71.06000518798828
+        ],
+        [
+          -5.500003814697266,
+          -2.8600006103515625,
+          71.23999786376953
+        ]
+      ],
+      "materials": [
+        "LAC R30B | esquadria clara acetinada"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "PASSARELA EXTERNA | vidro.001",
+      "bounds": [
+        [
+          -61.038543701171875,
+          2.8849985599517822,
+          71.22500610351562
+        ],
+        [
+          -5.499996185302734,
+          2.9750006198883057,
+          73.875
+        ]
+      ],
+      "materials": [
+        "LAC R30B | vidro incolor transparente"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "game_role": "static_collision"
+      }
+    },
+    {
+      "name": "PASSARELA EXTERNA | caixilho.025",
+      "bounds": [
+        [
+          -5.5967254638671875,
+          2.8600003719329834,
+          71.1500015258789
+        ],
+        [
+          -5.403276443481445,
+          3.0000016689300537,
+          73.95000457763672
+        ]
+      ],
+      "materials": [
+        "LAC R30B | esquadria clara acetinada"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "PASSARELA EXTERNA | travessa alta.001",
+      "bounds": [
+        [
+          -61.038543701171875,
+          2.859999895095825,
+          73.8699951171875
+        ],
+        [
+          -5.499996185302734,
+          3.0,
+          74.02999877929688
+        ]
+      ],
+      "materials": [
+        "LAC R30B | esquadria clara acetinada"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "PASSARELA EXTERNA | travessa baixa.001",
+      "bounds": [
+        [
+          -61.038543701171875,
+          2.859999895095825,
+          71.06000518798828
+        ],
+        [
+          -5.499996185302734,
+          3.0,
+          71.23999786376953
+        ]
+      ],
+      "materials": [
+        "LAC R30B | esquadria clara acetinada"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "PASSARELA EXTERNA | viga inferior.007",
+      "bounds": [
+        [
+          -9.145263671875,
+          -3.1000027656555176,
+          68.75
+        ],
+        [
+          -8.797054290771484,
+          3.099998950958252,
+          69.94999694824219
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "properties": {
+        "reference_status": "Acabamentos por fotos; dimensões de aproximação, sem levantamento"
+      }
+    },
+    {
+      "name": "PASSARELA | cornija longitudinal",
+      "bounds": [
+        [
+          -61.03854751586914,
+          -3.205000400543213,
+          69.0999984741211
+        ],
+        [
+          -5.500002861022949,
+          -2.9549994468688965,
+          69.30000305175781
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "12 LACERDA | exterior fotografico"
+      ],
+      "properties": {
+        "referencia": "fotografias do usuário; detalhes proporcionais, sem levantamento"
+      }
+    },
+    {
+      "name": "PASSARELA | cornija longitudinal.001",
+      "bounds": [
+        [
+          -61.03854751586914,
+          -3.205000400543213,
+          69.54000091552734
+        ],
+        [
+          -5.500002861022949,
+          -2.9549994468688965,
+          69.76000213623047
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "12 LACERDA | exterior fotografico"
+      ],
+      "properties": {
+        "referencia": "fotografias do usuário; detalhes proporcionais, sem levantamento"
+      }
+    },
+    {
+      "name": "PASSARELA | cornija longitudinal.002",
+      "bounds": [
+        [
+          -61.03854751586914,
+          -3.205000400543213,
+          73.92500305175781
+        ],
+        [
+          -5.500002861022949,
+          -2.9549994468688965,
+          74.17500305175781
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "12 LACERDA | exterior fotografico"
+      ],
+      "properties": {
+        "referencia": "fotografias do usuário; detalhes proporcionais, sem levantamento"
+      }
+    },
+    {
+      "name": "PASSARELA | travessa intermediaria",
+      "bounds": [
+        [
+          -61.038551330566406,
+          -3.059999942779541,
+          71.56500244140625
+        ],
+        [
+          -5.500002384185791,
+          -2.9599976539611816,
+          71.63500213623047
+        ]
+      ],
+      "materials": [
+        "LAC R30B | esquadria clara acetinada"
+      ],
+      "vertices": 8,
+      "collections": [
+        "12 LACERDA | exterior fotografico"
+      ],
+      "properties": {
+        "referencia": "fotografias do usuário; detalhes proporcionais, sem levantamento"
+      }
+    },
+    {
+      "name": "PASSARELA | travessa intermediaria.001",
+      "bounds": [
+        [
+          -61.038551330566406,
+          -3.059999942779541,
+          72.71499633789062
+        ],
+        [
+          -5.500002384185791,
+          -2.9599976539611816,
+          72.78500366210938
+        ]
+      ],
+      "materials": [
+        "LAC R30B | esquadria clara acetinada"
+      ],
+      "vertices": 8,
+      "collections": [
+        "12 LACERDA | exterior fotografico"
+      ],
+      "properties": {
+        "referencia": "fotografias do usuário; detalhes proporcionais, sem levantamento"
+      }
+    },
+    {
+      "name": "PASSARELA | subdivisao janela.011",
+      "bounds": [
+        [
+          -7.8721418380737305,
+          -3.059999465942383,
+          71.19999694824219
+        ],
+        [
+          -7.756070613861084,
+          -2.960000514984131,
+          73.80000305175781
+        ]
+      ],
+      "materials": [
+        "LAC R30B | esquadria clara acetinada"
+      ],
+      "vertices": 8,
+      "collections": [
+        "12 LACERDA | exterior fotografico"
+      ],
+      "properties": {
+        "referencia": "fotografias do usuário; detalhes proporcionais, sem levantamento"
+      }
+    },
+    {
+      "name": "PASSARELA | cornija longitudinal.003",
+      "bounds": [
+        [
+          -61.03854751586914,
+          2.955000162124634,
+          69.0999984741211
+        ],
+        [
+          -5.500002861022949,
+          3.2050013542175293,
+          69.30000305175781
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "12 LACERDA | exterior fotografico"
+      ],
+      "properties": {
+        "referencia": "fotografias do usuário; detalhes proporcionais, sem levantamento"
+      }
+    },
+    {
+      "name": "PASSARELA | cornija longitudinal.004",
+      "bounds": [
+        [
+          -61.03854751586914,
+          2.955000162124634,
+          69.54000091552734
+        ],
+        [
+          -5.500002861022949,
+          3.2050013542175293,
+          69.76000213623047
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "12 LACERDA | exterior fotografico"
+      ],
+      "properties": {
+        "referencia": "fotografias do usuário; detalhes proporcionais, sem levantamento"
+      }
+    },
+    {
+      "name": "PASSARELA | cornija longitudinal.005",
+      "bounds": [
+        [
+          -61.03854751586914,
+          2.955000162124634,
+          73.92500305175781
+        ],
+        [
+          -5.500002861022949,
+          3.2050013542175293,
+          74.17500305175781
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "12 LACERDA | exterior fotografico"
+      ],
+      "properties": {
+        "referencia": "fotografias do usuário; detalhes proporcionais, sem levantamento"
+      }
+    },
+    {
+      "name": "PASSARELA | travessa intermediaria.002",
+      "bounds": [
+        [
+          -61.03854751586914,
+          2.960000514984131,
+          71.56500244140625
+        ],
+        [
+          -5.500002861022949,
+          3.0600008964538574,
+          71.63500213623047
+        ]
+      ],
+      "materials": [
+        "LAC R30B | esquadria clara acetinada"
+      ],
+      "vertices": 8,
+      "collections": [
+        "12 LACERDA | exterior fotografico"
+      ],
+      "properties": {
+        "referencia": "fotografias do usuário; detalhes proporcionais, sem levantamento"
+      }
+    },
+    {
+      "name": "PASSARELA | travessa intermediaria.003",
+      "bounds": [
+        [
+          -61.03854751586914,
+          2.960000514984131,
+          72.71499633789062
+        ],
+        [
+          -5.500002861022949,
+          3.0600008964538574,
+          72.78500366210938
+        ]
+      ],
+      "materials": [
+        "LAC R30B | esquadria clara acetinada"
+      ],
+      "vertices": 8,
+      "collections": [
+        "12 LACERDA | exterior fotografico"
+      ],
+      "properties": {
+        "referencia": "fotografias do usuário; detalhes proporcionais, sem levantamento"
+      }
+    },
+    {
+      "name": "PASSARELA | subdivisao janela.023",
+      "bounds": [
+        [
+          -7.8721418380737305,
+          2.9599995613098145,
+          71.19999694824219
+        ],
+        [
+          -7.756071090698242,
+          3.060000419616699,
+          73.80000305175781
+        ]
+      ],
+      "materials": [
+        "LAC R30B | esquadria clara acetinada"
+      ],
+      "vertices": 8,
+      "collections": [
+        "12 LACERDA | exterior fotografico"
+      ],
+      "properties": {
+        "referencia": "fotografias do usuário; detalhes proporcionais, sem levantamento"
+      }
+    },
+    {
+      "name": "PASSARELA | cobertura impermeabilizada",
+      "bounds": [
+        [
+          -61.03854751586914,
+          -2.925001621246338,
+          74.16999816894531
+        ],
+        [
+          -5.500002861022949,
+          2.9250006675720215,
+          74.29000091552734
+        ]
+      ],
+      "materials": [
+        "Lacerda exterior | cobertura"
+      ],
+      "vertices": 8,
+      "collections": [
+        "12 LACERDA | exterior fotografico"
+      ],
+      "properties": {
+        "referencia": "fotografias do usuário; detalhes proporcionais, sem levantamento"
+      }
+    },
+    {
+      "name": "PASSARELA R10 | rodapé",
+      "bounds": [
+        [
+          -60.54920196533203,
+          -2.675001621246338,
+          70.08000183105469
+        ],
+        [
+          -5.9778900146484375,
+          -2.5850014686584473,
+          70.33999633789062
+        ]
+      ],
+      "materials": [
+        "R10 | aço escovado"
+      ],
+      "vertices": 8,
+      "collections": [
+        "29 INTERIORES | Lacerda e Forte"
+      ],
+      "properties": {
+        "r11_aligned": true
+      }
+    },
+    {
+      "name": "PASSARELA R10 | corrimão",
+      "bounds": [
+        [
+          -60.54920196533203,
+          -2.6300008296966553,
+          71.09500122070312
+        ],
+        [
+          -5.9778900146484375,
+          -2.5700008869171143,
+          71.16500854492188
+        ]
+      ],
+      "materials": [
+        "R10 | aço escovado"
+      ],
+      "vertices": 8,
+      "collections": [
+        "29 INTERIORES | Lacerda e Forte"
+      ],
+      "properties": {
+        "r11_aligned": true
+      }
+    },
+    {
+      "name": "PASSARELA R10 | rodapé.001",
+      "bounds": [
+        [
+          -60.54920196533203,
+          2.585000514984131,
+          70.08000183105469
+        ],
+        [
+          -5.9778900146484375,
+          2.6750006675720215,
+          70.33999633789062
+        ]
+      ],
+      "materials": [
+        "R10 | aço escovado"
+      ],
+      "vertices": 8,
+      "collections": [
+        "29 INTERIORES | Lacerda e Forte"
+      ],
+      "properties": {
+        "r11_aligned": true
+      }
+    },
+    {
+      "name": "PASSARELA R10 | corrimão.001",
+      "bounds": [
+        [
+          -60.54920196533203,
+          2.569999933242798,
+          71.09500122070312
+        ],
+        [
+          -5.9778900146484375,
+          2.629999876022339,
+          71.16500854492188
+        ]
+      ],
+      "materials": [
+        "R10 | aço escovado"
+      ],
+      "vertices": 8,
+      "collections": [
+        "29 INTERIORES | Lacerda e Forte"
+      ],
+      "properties": {
+        "r11_aligned": true
+      }
+    },
+    {
+      "name": "PASSARELA R10 | luminária linear.008",
+      "bounds": [
+        [
+          -8.327890396118164,
+          -0.1899999976158142,
+          73.76000213623047
+        ],
+        [
+          -6.627890110015869,
+          0.1899999976158142,
+          73.84000396728516
+        ]
+      ],
+      "materials": [
+        "R10 | luz difusa"
+      ],
+      "vertices": 8,
+      "collections": [
+        "29 INTERIORES | Lacerda e Forte"
+      ],
+      "properties": {
+        "r11_aligned": true
+      }
+    },
+    {
+      "name": "B77 | COLLISION | SUPERIOR | piso saguão",
+      "bounds": [
+        [
+          -5.5,
+          -9.30000114440918,
+          70.04499816894531
+        ],
+        [
+          5.500000953674316,
+          9.30000114440918,
+          70.04499816894531
+        ]
+      ],
+      "materials": [],
+      "vertices": 4,
+      "collections": [
+        "33.3 RUNTIME | WALKABLE"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_WALKABLE_CANDIDATE",
+        "boas_provenance_ids": "[\"derived:lacerda-corridor-b77\"]",
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1",
+        "boas_production_ready": false,
+        "boas_generated_revision": "R30B.77",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "SUPERIOR | piso saguão",
+        "boas_source_blend": "blender/salvador_lacerda_r30b76_fundacao_geografica.blend",
+        "boas_source_sha256": "8312775096a6f0fd0de5114885ffe2403ad9e367f38a8b40556433ad2dd79a60"
+      }
+    },
+    {
+      "name": "B77 | COLLISION | NAV | passarela superior",
+      "bounds": [
+        [
+          -60.554935455322266,
+          -2.7250008583068848,
+          70.11500549316406
+        ],
+        [
+          -5.983620643615723,
+          2.7250027656555176,
+          70.11500549316406
+        ]
+      ],
+      "materials": [],
+      "vertices": 4,
+      "collections": [
+        "33.3 RUNTIME | WALKABLE"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_WALKABLE_CANDIDATE",
+        "boas_provenance_ids": "[\"derived:lacerda-corridor-b77\"]",
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1",
+        "boas_production_ready": false,
+        "boas_generated_revision": "R30B.77",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "NAV | passarela superior",
+        "boas_source_blend": "blender/salvador_lacerda_r30b76_fundacao_geografica.blend",
+        "boas_source_sha256": "8312775096a6f0fd0de5114885ffe2403ad9e367f38a8b40556433ad2dd79a60"
+      }
+    },
+    {
+      "name": "B80 | COLLISION | passarela piso visual",
+      "bounds": [
+        [
+          -60.55293655395508,
+          -2.7230067253112793,
+          70.12300872802734
+        ],
+        [
+          -5.985621929168701,
+          2.723010540008545,
+          70.12300872802734
+        ]
+      ],
+      "materials": [],
+      "vertices": 1320,
+      "collections": [
+        "33.3 RUNTIME | WALKABLE"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_WALKABLE_CANDIDATE",
+        "boas_derived_from_object": "LAC R30B | Passarela | piso paginado visual",
+        "boas_provenance_ids": "[\"derived:upper-ground-b80\"]",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1",
+        "boas_source_blend": "blender/salvador_lacerda_r30b79_contrato_colisao_slice.blend",
+        "boas_source_sha256": "777d1748ddcf594cda267590172983743bb75cc11153e1db030f173ef7dde14f"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | CALIBRADO | passarela cobertura 28.71 x 6.00m",
+      "bounds": [
+        [
+          -61.038551330566406,
+          -3.0000009536743164,
+          73.82499694824219
+        ],
+        [
+          -5.500005722045898,
+          3.0000014305114746,
+          74.17500305175781
+        ]
+      ],
+      "materials": [],
+      "vertices": 6,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "CALIBRADO | passarela cobertura 28.71 x 6.00m",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | CALIBRADO | passarela viga lateral",
+      "bounds": [
+        [
+          -61.03855514526367,
+          -2.9999985694885254,
+          69.54999542236328
+        ],
+        [
+          -5.500005722045898,
+          -2.719998836517334,
+          70.8499984741211
+        ]
+      ],
+      "materials": [],
+      "vertices": 8,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "CALIBRADO | passarela viga lateral",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | CALIBRADO | passarela viga lateral.001",
+      "bounds": [
+        [
+          -61.03854751586914,
+          2.719998598098755,
+          69.54999542236328
+        ],
+        [
+          -5.500000953674316,
+          2.999999523162842,
+          70.8499984741211
+        ]
+      ],
+      "materials": [],
+      "vertices": 8,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "CALIBRADO | passarela viga lateral.001",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | PASSARELA | montante interno.017",
+      "bounds": [
+        [
+          -5.616070747375488,
+          2.660001039505005,
+          70.0
+        ],
+        [
+          -5.383933067321777,
+          2.780001401901245,
+          74.0
+        ]
+      ],
+      "materials": [],
+      "vertices": 7,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "PASSARELA | montante interno.017",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | PASSARELA | peitoril interno",
+      "bounds": [
+        [
+          -61.038551330566406,
+          -2.8299999237060547,
+          70.09500122070312
+        ],
+        [
+          -5.517998218536377,
+          -2.6899971961975098,
+          71.34500122070312
+        ]
+      ],
+      "materials": [],
+      "vertices": 64,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "PASSARELA | peitoril interno",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | PASSARELA | peitoril interno.001",
+      "bounds": [
+        [
+          -61.02055358886719,
+          2.689998149871826,
+          70.09500122070312
+        ],
+        [
+          -5.518004894256592,
+          2.8300013542175293,
+          71.34500122070312
+        ]
+      ],
+      "materials": [],
+      "vertices": 32,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "PASSARELA | peitoril interno.001",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | FACHADA SUPERIOR | folha aberta.004",
+      "bounds": [
+        [
+          4.224998474121094,
+          2.245001792907715,
+          70.0
+        ],
+        [
+          5.474998474121094,
+          2.3250019550323486,
+          73.5
+        ]
+      ],
+      "materials": [],
+      "vertices": 8,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "FACHADA SUPERIOR | folha aberta.004",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | SUPERIOR | catraca.002",
+      "bounds": [
+        [
+          -0.600000262260437,
+          0.7200008034706116,
+          70.0
+        ],
+        [
+          0.6000000834465027,
+          0.8800011873245239,
+          71.10000610351562
+        ]
+      ],
+      "materials": [],
+      "vertices": 8,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "SUPERIOR | catraca.002",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | SUPERIOR | braço catraca.002",
+      "bounds": [
+        [
+          -0.6250003576278687,
+          0.7700015306472778,
+          70.97000122070312
+        ],
+        [
+          0.1250002384185791,
+          0.8300013542175293,
+          71.02999877929688
+        ]
+      ],
+      "materials": [],
+      "vertices": 8,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "SUPERIOR | braço catraca.002",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | SUPERIOR | catraca.003",
+      "bounds": [
+        [
+          -0.6000005602836609,
+          2.3199996948242188,
+          70.0
+        ],
+        [
+          0.5999993085861206,
+          2.4800000190734863,
+          71.10000610351562
+        ]
+      ],
+      "materials": [],
+      "vertices": 8,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "SUPERIOR | catraca.003",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | SUPERIOR | braço catraca.003",
+      "bounds": [
+        [
+          -0.625001072883606,
+          2.3700003623962402,
+          70.97000122070312
+        ],
+        [
+          0.12499970197677612,
+          2.429999828338623,
+          71.02999877929688
+        ]
+      ],
+      "materials": [],
+      "vertices": 8,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "SUPERIOR | braço catraca.003",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | SUPERIOR | guia de fila.001",
+      "bounds": [
+        [
+          -4.000000476837158,
+          3.260000705718994,
+          70.0
+        ],
+        [
+          3.5762786865234375e-07,
+          3.340001106262207,
+          71.10000610351562
+        ]
+      ],
+      "materials": [],
+      "vertices": 8,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "SUPERIOR | guia de fila.001",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | PASSARELA EXTERNA | vidro",
+      "bounds": [
+        [
+          -61.03855514526367,
+          -2.9750046730041504,
+          71.22500610351562
+        ],
+        [
+          -5.500003814697266,
+          -2.8849987983703613,
+          73.875
+        ]
+      ],
+      "materials": [],
+      "vertices": 8,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "PASSARELA EXTERNA | vidro",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | PASSARELA EXTERNA | travessa alta",
+      "bounds": [
+        [
+          -61.038551330566406,
+          -3.0000061988830566,
+          73.8699951171875
+        ],
+        [
+          -5.5,
+          -2.859999179840088,
+          74.02999877929688
+        ]
+      ],
+      "materials": [],
+      "vertices": 8,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "PASSARELA EXTERNA | travessa alta",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | PASSARELA EXTERNA | travessa baixa",
+      "bounds": [
+        [
+          -61.038551330566406,
+          -3.0000061988830566,
+          71.06000518798828
+        ],
+        [
+          -5.5,
+          -2.859999179840088,
+          71.23999786376953
+        ]
+      ],
+      "materials": [],
+      "vertices": 8,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "PASSARELA EXTERNA | travessa baixa",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | PASSARELA EXTERNA | vidro.001",
+      "bounds": [
+        [
+          -61.038543701171875,
+          2.884998083114624,
+          71.22500610351562
+        ],
+        [
+          -5.499995231628418,
+          2.975001335144043,
+          73.875
+        ]
+      ],
+      "materials": [],
+      "vertices": 8,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "PASSARELA EXTERNA | vidro.001",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | PASSARELA EXTERNA | travessa baixa.001",
+      "bounds": [
+        [
+          -61.03854751586914,
+          2.8600001335144043,
+          71.06000518798828
+        ],
+        [
+          -5.499995231628418,
+          2.999999523162842,
+          71.23999786376953
+        ]
+      ],
+      "materials": [],
+      "vertices": 8,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "PASSARELA EXTERNA | travessa baixa.001",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | PASSARELA | cornija longitudinal",
+      "bounds": [
+        [
+          -61.03854751586914,
+          -3.205000400543213,
+          69.0999984741211
+        ],
+        [
+          -5.518002510070801,
+          -2.9549965858459473,
+          69.30000305175781
+        ]
+      ],
+      "materials": [],
+      "vertices": 64,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "PASSARELA | cornija longitudinal",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | PASSARELA | cornija longitudinal.001",
+      "bounds": [
+        [
+          -61.03854751586914,
+          -3.205000400543213,
+          69.54000091552734
+        ],
+        [
+          -5.518002510070801,
+          -2.9549965858459473,
+          69.76000213623047
+        ]
+      ],
+      "materials": [],
+      "vertices": 64,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "PASSARELA | cornija longitudinal.001",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | PASSARELA | cornija longitudinal.002",
+      "bounds": [
+        [
+          -61.03854751586914,
+          -3.205000400543213,
+          73.92500305175781
+        ],
+        [
+          -5.518002510070801,
+          -2.9549965858459473,
+          74.1570053100586
+        ]
+      ],
+      "materials": [],
+      "vertices": 42,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "PASSARELA | cornija longitudinal.002",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | PASSARELA | travessa intermediaria",
+      "bounds": [
+        [
+          -61.038551330566406,
+          -3.059999942779541,
+          71.56500244140625
+        ],
+        [
+          -5.500002384185791,
+          -2.9599976539611816,
+          71.63500213623047
+        ]
+      ],
+      "materials": [],
+      "vertices": 8,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "PASSARELA | travessa intermediaria",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | PASSARELA | travessa intermediaria.001",
+      "bounds": [
+        [
+          -61.038551330566406,
+          -3.059999942779541,
+          72.71499633789062
+        ],
+        [
+          -5.500002384185791,
+          -2.9599976539611816,
+          72.78500366210938
+        ]
+      ],
+      "materials": [],
+      "vertices": 8,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "PASSARELA | travessa intermediaria.001",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | PASSARELA | travessa intermediaria.002",
+      "bounds": [
+        [
+          -61.03854751586914,
+          2.960000514984131,
+          71.56500244140625
+        ],
+        [
+          -5.500002861022949,
+          3.0600008964538574,
+          71.63500213623047
+        ]
+      ],
+      "materials": [],
+      "vertices": 8,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "PASSARELA | travessa intermediaria.002",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | PASSARELA R10 | rodapé",
+      "bounds": [
+        [
+          -60.5492057800293,
+          -2.675001621246338,
+          70.08000183105469
+        ],
+        [
+          -5.977888107299805,
+          -2.5850014686584473,
+          70.33999633789062
+        ]
+      ],
+      "materials": [],
+      "vertices": 8,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "PASSARELA R10 | rodapé",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | PASSARELA R10 | corrimão",
+      "bounds": [
+        [
+          -60.5492057800293,
+          -2.6300015449523926,
+          71.09500122070312
+        ],
+        [
+          -5.977889060974121,
+          -2.5700020790100098,
+          71.16500854492188
+        ]
+      ],
+      "materials": [],
+      "vertices": 8,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "PASSARELA R10 | corrimão",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | PASSARELA R10 | rodapé.001",
+      "bounds": [
+        [
+          -60.5492057800293,
+          2.5849967002868652,
+          70.08000183105469
+        ],
+        [
+          -5.9778900146484375,
+          2.674999237060547,
+          70.33999633789062
+        ]
+      ],
+      "materials": [],
+      "vertices": 8,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "PASSARELA R10 | rodapé.001",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | PASSARELA R10 | corrimão.001",
+      "bounds": [
+        [
+          -60.5492057800293,
+          2.5699992179870605,
+          71.09500122070312
+        ],
+        [
+          -5.977888107299805,
+          2.630000114440918,
+          71.16500854492188
+        ]
+      ],
+      "materials": [],
+      "vertices": 8,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "PASSARELA R10 | corrimão.001",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | LAC R30B02 | Friso losangos | PASSARELA EXTERNA | vidro.001",
+      "bounds": [
+        [
+          -38.712181091308594,
+          2.9799957275390625,
+          70.572265625
+        ],
+        [
+          -6.830082893371582,
+          3.0600028038024902,
+          71.08773803710938
+        ]
+      ],
+      "materials": [],
+      "vertices": 616,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "LAC R30B02 | Friso losangos | PASSARELA EXTERNA | vidro.001",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | LAC R30B08 | passarela | intradorso continuo",
+      "bounds": [
+        [
+          -61.0390510559082,
+          -2.864614963531494,
+          68.83000183105469
+        ],
+        [
+          -5.500053405761719,
+          2.8653903007507324,
+          69.1300048828125
+        ]
+      ],
+      "materials": [],
+      "vertices": 8,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "LAC R30B08 | passarela | intradorso continuo",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "B79 | COLLISION | LAC R30B08 | passarela | viga longitudinal inferior 1.26",
+      "bounds": [
+        [
+          -61.0390510559082,
+          -3.134614944458008,
+          68.44999694824219
+        ],
+        [
+          -5.500053405761719,
+          -2.834608554840088,
+          69.05000305175781
+        ]
+      ],
+      "materials": [],
+      "vertices": 8,
+      "collections": [
+        "COLLISION | Lacerda slice B79"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "LAC R30B08 | passarela | viga longitudinal inferior 1.26",
+        "boas_source_blend": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+        "boas_source_sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+        "boas_revision": "R30B.79",
+        "boas_provenance_ids": "[\"derived:lacerda-controller-b79\"]",
+        "boas_location_id": "elevador-lacerda",
+        "boas_production_ready": false,
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1"
+      }
+    },
+    {
+      "name": "LAC R30B | Passarela | chanfros das aberturas",
+      "bounds": [
+        [
+          -60.922481536865234,
+          -2.789614677429199,
+          73.5999984741211
+        ],
+        [
+          -5.616069793701172,
+          2.7803969383239746,
+          73.875
+        ]
+      ],
+      "materials": [
+        null
+      ],
+      "vertices": 192,
+      "collections": [
+        "HERO | Lacerda | detalhes R30B"
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_detail"
+      }
+    },
+    {
+      "name": "LAC R30B | Passarela | piso paginado visual",
+      "bounds": [
+        [
+          -60.55293655395508,
+          -2.7230067253112793,
+          70.12300872802734
+        ],
+        [
+          -5.985621929168701,
+          2.723010540008545,
+          70.12300872802734
+        ]
+      ],
+      "materials": [
+        "LAC R30B | granito cinza piso"
+      ],
+      "vertices": 1320,
+      "collections": [
+        "HERO | Lacerda | detalhes R30B"
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_detail",
+        "classification": "ADAPT_LOCAL",
+        "note": "Paginação artística; dimensões de placas não levantadas. Collider original preservado."
+      }
+    },
+    {
+      "name": "LAC R30B02 | Lambril marmore | SUPERIOR | posterior lateral",
+      "bounds": [
+        [
+          -5.194503307342529,
+          -9.297945022583008,
+          70.1814956665039
+        ],
+        [
+          -5.169502258300781,
+          -3.0020546913146973,
+          71.65850067138672
+        ]
+      ],
+      "materials": [
+        "LAC R30B | marmore claro peitoris"
+      ],
+      "vertices": 256,
+      "collections": [
+        "HERO | Lacerda | acabamentos R30B02"
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_detail",
+        "reference_status": "partial",
+        "boas_revision": "R30B.83",
+        "boas_reference_status": "partial",
+        "boas_provenance_ids": "[\"derived:lacerda-junction-b78\", \"derived:lacerda-consolidation-b83\"]",
+        "boas_b83_reason": "Reconciliar retorno/verga existentes com bordas da passarela; não certifica dimensão real ou poço"
+      }
+    },
+    {
+      "name": "LAC R30B02 | Rodape escuro | SUPERIOR | posterior lateral",
+      "bounds": [
+        [
+          -5.1995038986206055,
+          -9.299999237060547,
+          70.01000213623047
+        ],
+        [
+          -5.16450309753418,
+          -3.0,
+          70.18000030517578
+        ]
+      ],
+      "materials": [
+        "LAC R30B | sombra veneziana"
+      ],
+      "vertices": 8,
+      "collections": [
+        "HERO | Lacerda | acabamentos R30B02"
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_detail",
+        "reference_status": "partial",
+        "boas_revision": "R30B.83",
+        "boas_reference_status": "partial",
+        "boas_provenance_ids": "[\"derived:lacerda-junction-b78\", \"derived:lacerda-consolidation-b83\"]",
+        "boas_b83_reason": "Reconciliar retorno/verga existentes com bordas da passarela; não certifica dimensão real ou poço"
+      }
+    },
+    {
+      "name": "LAC R30B02 | Lambril marmore | SUPERIOR | posterior lateral.001",
+      "bounds": [
+        [
+          -5.1945037841796875,
+          3.002053737640381,
+          70.1814956665039
+        ],
+        [
+          -5.169501304626465,
+          9.29794692993164,
+          71.65850067138672
+        ]
+      ],
+      "materials": [
+        "LAC R30B | marmore claro peitoris"
+      ],
+      "vertices": 256,
+      "collections": [
+        "HERO | Lacerda | acabamentos R30B02"
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_detail",
+        "reference_status": "partial",
+        "boas_revision": "R30B.83",
+        "boas_reference_status": "partial",
+        "boas_provenance_ids": "[\"derived:lacerda-junction-b78\", \"derived:lacerda-consolidation-b83\"]",
+        "boas_b83_reason": "Reconciliar retorno/verga existentes com bordas da passarela; não certifica dimensão real ou poço"
+      }
+    },
+    {
+      "name": "LAC R30B02 | Rodape escuro | SUPERIOR | posterior lateral.001",
+      "bounds": [
+        [
+          -5.199502944946289,
+          2.999999761581421,
+          70.01000213623047
+        ],
+        [
+          -5.164501190185547,
+          9.300002098083496,
+          70.18000030517578
+        ]
+      ],
+      "materials": [
+        "LAC R30B | sombra veneziana"
+      ],
+      "vertices": 8,
+      "collections": [
+        "HERO | Lacerda | acabamentos R30B02"
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_detail",
+        "reference_status": "partial",
+        "boas_revision": "R30B.83",
+        "boas_reference_status": "partial",
+        "boas_provenance_ids": "[\"derived:lacerda-junction-b78\", \"derived:lacerda-consolidation-b83\"]",
+        "boas_b83_reason": "Reconciliar retorno/verga existentes com bordas da passarela; não certifica dimensão real ou poço"
+      }
+    },
+    {
+      "name": "LAC R30B02 | Friso losangos | PASSARELA EXTERNA | vidro",
+      "bounds": [
+        [
+          -61.063072204589844,
+          -3.0600032806396484,
+          70.572265625
+        ],
+        [
+          -5.475492000579834,
+          -2.979992389678955,
+          71.08773803710938
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 1312,
+      "collections": [
+        "HERO | Lacerda | acabamentos R30B02"
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_detail"
+      }
+    },
+    {
+      "name": "LAC R30B02 | Friso losangos | PASSARELA EXTERNA | vidro.001",
+      "bounds": [
+        [
+          -61.06305694580078,
+          2.9799957275390625,
+          70.572265625
+        ],
+        [
+          -5.4754838943481445,
+          3.0600085258483887,
+          71.08773803710938
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 1312,
+      "collections": [
+        "HERO | Lacerda | acabamentos R30B02"
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_detail"
+      }
+    },
+    {
+      "name": "LAC R30B03 | Cidade Alta | peitoril lateral 0 SUPERIOR | parede lateral saguão",
+      "bounds": [
+        [
+          -4.940000534057617,
+          -9.329998016357422,
+          71.25999450683594
+        ],
+        [
+          -1.7933330535888672,
+          -8.96999740600586,
+          71.36000061035156
+        ]
+      ],
+      "materials": [
+        "LAC R30B | marmore claro peitoris"
+      ],
+      "vertices": 8,
+      "collections": [
+        "HERO | Lacerda | fachadas e acessos R30B03"
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_architecture",
+        "reference_status": "partial"
+      }
+    },
+    {
+      "name": "LAC R30B03 | Cidade Alta | peitoril lateral 1 SUPERIOR | parede lateral saguão",
+      "bounds": [
+        [
+          -1.573333501815796,
+          -9.329998970031738,
+          71.25999450683594
+        ],
+        [
+          1.5733333826065063,
+          -8.969999313354492,
+          71.36000061035156
+        ]
+      ],
+      "materials": [
+        "LAC R30B | marmore claro peitoris"
+      ],
+      "vertices": 8,
+      "collections": [
+        "HERO | Lacerda | fachadas e acessos R30B03"
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_architecture",
+        "reference_status": "partial"
+      }
+    },
+    {
+      "name": "LAC R30B03 | Cidade Alta | peitoril lateral 2 SUPERIOR | parede lateral saguão",
+      "bounds": [
+        [
+          1.793333649635315,
+          -9.329998970031738,
+          71.25999450683594
+        ],
+        [
+          4.940000534057617,
+          -8.969999313354492,
+          71.36000061035156
+        ]
+      ],
+      "materials": [
+        "LAC R30B | marmore claro peitoris"
+      ],
+      "vertices": 8,
+      "collections": [
+        "HERO | Lacerda | fachadas e acessos R30B03"
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_architecture",
+        "reference_status": "partial"
+      }
+    },
+    {
+      "name": "LAC R30B03 | Cidade Alta | peitoril lateral 0 SUPERIOR | parede lateral saguão.001",
+      "bounds": [
+        [
+          -4.940001964569092,
+          8.970000267028809,
+          71.25999450683594
+        ],
+        [
+          -1.7933337688446045,
+          9.330000877380371,
+          71.36000061035156
+        ]
+      ],
+      "materials": [
+        "LAC R30B | marmore claro peitoris"
+      ],
+      "vertices": 8,
+      "collections": [
+        "HERO | Lacerda | fachadas e acessos R30B03"
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_architecture",
+        "reference_status": "partial"
+      }
+    },
+    {
+      "name": "LAC R30B03 | Cidade Alta | peitoril lateral 1 SUPERIOR | parede lateral saguão.001",
+      "bounds": [
+        [
+          -1.573333978652954,
+          8.969999313354492,
+          71.25999450683594
+        ],
+        [
+          1.5733332633972168,
+          9.329999923706055,
+          71.36000061035156
+        ]
+      ],
+      "materials": [
+        "LAC R30B | marmore claro peitoris"
+      ],
+      "vertices": 8,
+      "collections": [
+        "HERO | Lacerda | fachadas e acessos R30B03"
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_architecture",
+        "reference_status": "partial"
+      }
+    },
+    {
+      "name": "LAC R30B03 | Cidade Alta | peitoril lateral 2 SUPERIOR | parede lateral saguão.001",
+      "bounds": [
+        [
+          1.7933330535888672,
+          8.969999313354492,
+          71.25999450683594
+        ],
+        [
+          4.940000057220459,
+          9.329999923706055,
+          71.36000061035156
+        ]
+      ],
+      "materials": [
+        "LAC R30B | marmore claro peitoris"
+      ],
+      "vertices": 8,
+      "collections": [
+        "HERO | Lacerda | fachadas e acessos R30B03"
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_architecture",
+        "reference_status": "partial"
+      }
+    },
+    {
+      "name": "LAC R30B08 | apoio oposto | capitel sob passarela",
+      "bounds": [
+        [
+          -5.625002384185791,
+          -3.7249999046325684,
+          68.74000549316406
+        ],
+        [
+          5.500001907348633,
+          3.7250008583068848,
+          69.79499816894531
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "HERO | Lacerda | apoio oposto R30B08"
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_architecture",
+        "classification": "ERROR",
+        "reference_status": "partial",
+        "reference_note": "Fotografia fornecida pelo usuario: apoio largo oposto a torre; dimensoes ajustadas ao terreno existente.",
+        "r30b14_placement": "Lado livre da Ladeira, apoio sob a passarela, base Cidade Baixa.",
+        "r30b15_placement": "Implantação original do apoio, mantida; encosta recortada em torno dele.",
+        "boas_revision": "R30B.35",
+        "r35_alignment_control": "EDIFICIO | parede posterior alta / SUPERIOR | piso saguão",
+        "r35_correction_reason": "Apoio anterior inteiramente fora do intervalo do saguão. Face alinhada à parede superior e capitel sob a laje; terreno será refeito ao redor."
+      }
+    },
+    {
+      "name": "LAC R30B08 | passarela | intradorso continuo",
+      "bounds": [
+        [
+          -61.0390510559082,
+          -2.864614963531494,
+          68.83000183105469
+        ],
+        [
+          -5.500053405761719,
+          2.8653903007507324,
+          69.1300048828125
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "HERO | Lacerda | apoio oposto R30B08"
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_architecture",
+        "classification": "ADAPT_LOCAL",
+        "reference_status": "partial",
+        "reference_note": "Fotografia fornecida pelo usuario: apoio largo oposto a torre; dimensoes ajustadas ao terreno existente."
+      }
+    },
+    {
+      "name": "LAC R30B08 | passarela | viga longitudinal inferior 1.26",
+      "bounds": [
+        [
+          -61.0390510559082,
+          -3.134614944458008,
+          68.44999694824219
+        ],
+        [
+          -5.500053405761719,
+          -2.834608554840088,
+          69.05000305175781
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "HERO | Lacerda | apoio oposto R30B08"
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_architecture",
+        "classification": "ADAPT_LOCAL",
+        "reference_status": "partial",
+        "reference_note": "Fotografia fornecida pelo usuario: apoio largo oposto a torre; dimensoes ajustadas ao terreno existente."
+      }
+    },
+    {
+      "name": "LAC R30B08 | passarela | viga longitudinal inferior 7.23",
+      "bounds": [
+        [
+          -61.03905487060547,
+          2.83538556098938,
+          68.44999694824219
+        ],
+        [
+          -5.500052452087402,
+          3.13539457321167,
+          69.05000305175781
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "HERO | Lacerda | apoio oposto R30B08"
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_architecture",
+        "classification": "ADAPT_LOCAL",
+        "reference_status": "partial",
+        "reference_note": "Fotografia fornecida pelo usuario: apoio largo oposto a torre; dimensoes ajustadas ao terreno existente."
+      }
+    },
+    {
+      "name": "COLLISION R34 | Palácio | Laje superior",
+      "bounds": [
+        [
+          5.835610389709473,
+          -26.51280975341797,
+          69.84999084472656
+        ],
+        [
+          10.495824813842773,
+          -8.394366264343262,
+          69.98500061035156
+        ]
+      ],
+      "materials": [
+        "GAL R34 | argamassa e guarda-corpo claro"
+      ],
+      "vertices": 8,
+      "collections": [
+        "COLLISION | Galerias Cidade Alta R34"
+      ],
+      "properties": {
+        "boas_role": "static_collider",
+        "source_visual_object": "GAL R34 | Palácio | Laje de apoio da praça",
+        "boas_revision": "R30B.35",
+        "classification": "ADAPT_LOCAL",
+        "reference_status": "partial",
+        "r36_preservation": "Galeria existente restaurada da fonte B35; não deslocar para fechar lacuna. Ligação acrescentada em componentes separados."
+      }
+    },
+    {
+      "name": "COLLISION R34 | Prefeitura | Laje superior",
+      "bounds": [
+        [
+          2.1673712730407715,
+          9.466033935546875,
+          69.8499984741211
+        ],
+        [
+          8.40554141998291,
+          39.771942138671875,
+          69.98499298095703
+        ]
+      ],
+      "materials": [
+        "GAL R34 | argamassa e guarda-corpo claro"
+      ],
+      "vertices": 8,
+      "collections": [
+        "COLLISION | Galerias Cidade Alta R34"
+      ],
+      "properties": {
+        "boas_role": "static_collider",
+        "source_visual_object": "GAL R34 | Prefeitura | Laje de apoio da praça",
+        "boas_revision": "R30B.35"
+      }
+    },
+    {
+      "name": "COLLISION R35 | Laje do saguão superior",
+      "bounds": [
+        [
+          -5.500002861022949,
+          -9.300000190734863,
+          69.79499816894531
+        ],
+        [
+          5.500002384185791,
+          9.300003051757812,
+          70.04499816894531
+        ]
+      ],
+      "materials": [
+        "R22 granito interior"
+      ],
+      "vertices": 8,
+      "collections": [
+        "COLLISION | Galerias Cidade Alta R34"
+      ],
+      "properties": {
+        "boas_role": "static_collider",
+        "boas_location_id": "elevador-lacerda",
+        "boas_revision": "R30B.35",
+        "source_object": "SUPERIOR | piso saguão"
+      }
+    },
+    {
+      "name": "B83 | COLLISION | SUPERIOR | posterior lateral",
+      "bounds": [
+        [
+          -5.500002861022949,
+          -9.299999237060547,
+          70.0
+        ],
+        [
+          -5.200002670288086,
+          -3.0000014305114746,
+          75.0
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "COLLISION | Galerias Cidade Alta R34"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_derived_from_object": "SUPERIOR | posterior lateral",
+        "boas_production_ready": false,
+        "boas_location_id": "elevador-lacerda",
+        "boas_revision": "R30B.83",
+        "boas_provenance_ids": "[\"derived:lacerda-consolidation-b83\"]"
+      }
+    },
+    {
+      "name": "B83 | COLLISION | SUPERIOR | posterior lateral.001",
+      "bounds": [
+        [
+          -5.500002861022949,
+          2.999999523162842,
+          70.0
+        ],
+        [
+          -5.200002193450928,
+          9.30000114440918,
+          75.0
+        ]
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "vertices": 8,
+      "collections": [
+        "COLLISION | Galerias Cidade Alta R34"
+      ],
+      "properties": {
+        "boas_role": "COLLISION_STATIC_OBSTACLE_CANDIDATE",
+        "boas_derived_from_object": "SUPERIOR | posterior lateral.001",
+        "boas_production_ready": false,
+        "boas_location_id": "elevador-lacerda",
+        "boas_revision": "R30B.83",
+        "boas_provenance_ids": "[\"derived:lacerda-consolidation-b83\"]"
+      }
+    },
+    {
+      "name": "RIO R36 | Passeio superior curvo",
+      "bounds": [
+        [
+          4.739843845367432,
+          -51.45647430419922,
+          69.66999816894531
+        ],
+        [
+          11.459346771240234,
+          -39.86911392211914,
+          69.83000183105469
+        ]
+      ],
+      "materials": [
+        "PRACA R35 | paralelepípedos métricos"
+      ],
+      "vertices": 82,
+      "collections": [
+        "HERO | Terraços Rio Branco | fotografia R36"
+      ],
+      "properties": {
+        "boas_revision": "R30B.36",
+        "boas_location_candidate": "palacio-rio-branco",
+        "osm_way_id": "402383814",
+        "classification": "ADAPT_LOCAL",
+        "reference_status": "partial",
+        "dimensions_status": "candidate; proporções das fotos sem medição real",
+        "reference_media_ids": "[\"palacio-rio-branco-oblique_right-47b57baa4f1a\", \"palacio-rio-branco-right-5c2fa307341b\"]",
+        "boas_role": "visual_architecture"
+      }
+    },
+    {
+      "name": "COL R36 | Passeio superior curvo",
+      "bounds": [
+        [
+          4.739843845367432,
+          -51.45647430419922,
+          69.66999816894531
+        ],
+        [
+          11.459346771240234,
+          -39.86911392211914,
+          69.83000183105469
+        ]
+      ],
+      "materials": [
+        "RIO R34 | embasamento de pedra"
+      ],
+      "vertices": 82,
+      "collections": [
+        "COLLISION | Terraços Rio Branco R36"
+      ],
+      "properties": {
+        "boas_revision": "R30B.36",
+        "boas_role": "static_collider",
+        "boas_location_candidate": "palacio-rio-branco",
+        "classification": "ADAPT_LOCAL"
+      }
+    }
+  ],
+  "scene_changed": false
+}

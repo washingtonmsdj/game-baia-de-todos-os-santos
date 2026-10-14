@@ -1,0 +1,332 @@
+{
+  "dirty": true,
+  "file": "C:\\Users\\TONECOS\\Documents\\github\\game-baia-de-todos-os-santos\\blender\\salvador_lacerda_r30b86_saguao_superior_planta.blend",
+  "rows": [
+    {
+      "name": "NAV | passarela superior",
+      "bounds": [
+        [
+          -60.55493927001953,
+          -5.983623504638672
+        ],
+        [
+          -2.7250008583068848,
+          2.725001096725464
+        ],
+        [
+          70.04499816894531,
+          70.11500549316406
+        ]
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "materials": [
+        "R10 | piso pedra"
+      ],
+      "properties": {
+        "gameplay": "navegável; ligação estação superior-torre",
+        "game_role": "walkable_surface"
+      },
+      "visible": true
+    },
+    {
+      "name": "SUPERIOR | parede lateral saguão",
+      "bounds": [
+        [
+          -19.763916015625,
+          5.5
+        ],
+        [
+          -8.049543380737305,
+          -7.805495262145996
+        ],
+        [
+          70.0,
+          75.0
+        ]
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "properties": {
+        "game_role": "static_collision",
+        "reference_status": "partial",
+        "classification": "ADAPT_LOCAL",
+        "revision_note": "Aberturas de varanda; dimensões adaptadas à implantação existente, sem levantamento cadastral.",
+        "boas_generated_revision": "R30B.86",
+        "boas_provenance_ids": "[\"derived:lacerda-upper-layout-b86\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": "True",
+        "boas_production_ready": "False",
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ARCHITECTURAL_SSOT_REGISTRATION_AND_INSTALLED_ELEVATORS"
+      },
+      "visible": true
+    },
+    {
+      "name": "SUPERIOR | parede lateral saguão.001",
+      "bounds": [
+        [
+          -19.81081771850586,
+          5.5
+        ],
+        [
+          7.714621067047119,
+          7.938407897949219
+        ],
+        [
+          70.0,
+          75.0
+        ]
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "materials": [
+        "LAC R30B | reboco marfim fino"
+      ],
+      "properties": {
+        "game_role": "static_collision",
+        "reference_status": "partial",
+        "classification": "ADAPT_LOCAL",
+        "revision_note": "Aberturas de varanda; dimensões adaptadas à implantação existente, sem levantamento cadastral.",
+        "boas_generated_revision": "R30B.86",
+        "boas_provenance_ids": "[\"derived:lacerda-upper-layout-b86\"]",
+        "accuracy": "PROJECT_REFERENCE_DERIVED",
+        "replacement_required": "True",
+        "boas_production_ready": "False",
+        "boas_layout_domain": "STATION",
+        "boas_pending_gate": "ARCHITECTURAL_SSOT_REGISTRATION_AND_INSTALLED_ELEVATORS"
+      },
+      "visible": true
+    },
+    {
+      "name": "PASSARELA EXTERNA | vidro",
+      "bounds": [
+        [
+          -61.03855514526367,
+          -19.778305053710938
+        ],
+        [
+          -2.9750008583068848,
+          -2.8849990367889404
+        ],
+        [
+          71.22500610351562,
+          73.875
+        ]
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "materials": [
+        "LAC R30B | vidro incolor transparente"
+      ],
+      "properties": {
+        "game_role": "static_collision",
+        "boas_generated_revision": "R30B.86",
+        "boas_provenance_ids": "[\"derived:lacerda-upper-layout-b86\"]",
+        "reference_status": "partial",
+        "accuracy": "APPROXIMATE",
+        "replacement_required": "True",
+        "boas_production_ready": "False",
+        "boas_layout_domain": "BRIDGE",
+        "boas_pending_gate": "ARCHITECTURAL_SSOT_REGISTRATION_AND_INSTALLED_ELEVATORS"
+      },
+      "visible": true
+    },
+    {
+      "name": "PASSARELA EXTERNA | caixilho.012",
+      "bounds": [
+        [
+          -5.5967254638671875,
+          -5.403276443481445
+        ],
+        [
+          -2.999999523162842,
+          -2.8599987030029297
+        ],
+        [
+          71.1500015258789,
+          73.95000457763672
+        ]
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "materials": [
+        "LAC R30B | esquadria clara acetinada"
+      ],
+      "properties": {
+        "reference_status": "partial",
+        "boas_generated_revision": "R30B.86",
+        "boas_provenance_ids": "[\"derived:lacerda-upper-layout-b86\"]",
+        "accuracy": "APPROXIMATE",
+        "replacement_required": "True",
+        "boas_production_ready": "False",
+        "boas_layout_domain": "BRIDGE",
+        "boas_pending_gate": "ARCHITECTURAL_SSOT_REGISTRATION_AND_INSTALLED_ELEVATORS",
+        "boas_role": "SUPERSEDED_REFERENCE",
+        "boas_active_authoring": "False"
+      },
+      "visible": false
+    },
+    {
+      "name": "PASSARELA EXTERNA | vidro.001",
+      "bounds": [
+        [
+          -61.038543701171875,
+          -19.795761108398438
+        ],
+        [
+          2.8849995136260986,
+          2.9750006198883057
+        ],
+        [
+          71.22500610351562,
+          73.875
+        ]
+      ],
+      "collections": [
+        "11 ELEVADOR LACERDA | interior jogavel"
+      ],
+      "materials": [
+        "LAC R30B | vidro incolor transparente"
+      ],
+      "properties": {
+        "game_role": "static_collision",
+        "boas_generated_revision": "R30B.86",
+        "boas_provenance_ids": "[\"derived:lacerda-upper-layout-b86\"]",
+        "reference_status": "partial",
+        "accuracy": "APPROXIMATE",
+        "replacement_required": "True",
+        "boas_production_ready": "False",
+        "boas_layout_domain": "BRIDGE",
+        "boas_pending_gate": "ARCHITECTURAL_SSOT_REGISTRATION_AND_INSTALLED_ELEVATORS"
+      },
+      "visible": true
+    },
+    {
+      "name": "B77 | COLLISION | NAV | passarela superior",
+      "bounds": [
+        [
+          -60.554935455322266,
+          -5.983620643615723
+        ],
+        [
+          -2.7250008583068848,
+          2.7250027656555176
+        ],
+        [
+          70.11500549316406,
+          70.11500549316406
+        ]
+      ],
+      "collections": [
+        "33.3 RUNTIME | WALKABLE"
+      ],
+      "materials": [],
+      "properties": {
+        "boas_role": "COLLISION_WALKABLE_CANDIDATE",
+        "boas_provenance_ids": "[\"derived:lacerda-corridor-b77\"]",
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1",
+        "boas_production_ready": "False",
+        "boas_generated_revision": "R30B.77",
+        "boas_collision_profile_id": "lacerda-corridor-b77",
+        "boas_derived_from_object": "NAV | passarela superior",
+        "boas_source_blend": "blender/salvador_lacerda_r30b76_fundacao_geografica.blend",
+        "boas_source_sha256": "8312775096a6f0fd0de5114885ffe2403ad9e367f38a8b40556433ad2dd79a60"
+      },
+      "visible": false
+    },
+    {
+      "name": "B80 | COLLISION | passarela piso visual",
+      "bounds": [
+        [
+          -60.552940368652344,
+          -19.779056549072266
+        ],
+        [
+          -2.7230067253112793,
+          2.7230124473571777
+        ],
+        [
+          70.12300872802734,
+          70.12300872802734
+        ]
+      ],
+      "collections": [
+        "33.3 RUNTIME | WALKABLE"
+      ],
+      "materials": [],
+      "properties": {
+        "boas_role": "COLLISION_WALKABLE_CANDIDATE",
+        "boas_derived_from_object": "LAC R30B | Passarela | piso paginado visual",
+        "boas_provenance_ids": "[\"derived:lacerda-upper-layout-b86\"]",
+        "boas_production_ready": "False",
+        "boas_geographic_ssot_id": "salvador-geographic-reference-v1",
+        "boas_source_blend": "blender/salvador_lacerda_r30b79_contrato_colisao_slice.blend",
+        "boas_source_sha256": "777d1748ddcf594cda267590172983743bb75cc11153e1db030f173ef7dde14f",
+        "boas_generated_revision": "R30B.86",
+        "reference_status": "partial",
+        "accuracy": "APPROXIMATE",
+        "replacement_required": "True",
+        "boas_layout_domain": "BRIDGE",
+        "boas_pending_gate": "ARCHITECTURAL_SSOT_REGISTRATION_AND_INSTALLED_ELEVATORS"
+      },
+      "visible": false
+    },
+    {
+      "name": "LAC R30B | Passarela | piso paginado visual",
+      "bounds": [
+        [
+          -60.552940368652344,
+          -19.779056549072266
+        ],
+        [
+          -2.7230067253112793,
+          2.7230124473571777
+        ],
+        [
+          70.12300872802734,
+          70.12300872802734
+        ]
+      ],
+      "collections": [
+        "HERO | Lacerda | detalhes R30B"
+      ],
+      "materials": [
+        "LAC R30B | granito cinza piso"
+      ],
+      "properties": {
+        "boas_location_id": "elevador-lacerda",
+        "boas_role": "visual_detail",
+        "classification": "ADAPT_LOCAL",
+        "note": "Paginação artística; dimensões de placas não levantadas. Collider original preservado.",
+        "boas_generated_revision": "R30B.86",
+        "boas_provenance_ids": "[\"derived:lacerda-upper-layout-b86\"]",
+        "reference_status": "partial",
+        "accuracy": "APPROXIMATE",
+        "replacement_required": "True",
+        "boas_production_ready": "False",
+        "boas_layout_domain": "BRIDGE",
+        "boas_pending_gate": "ARCHITECTURAL_SSOT_REGISTRATION_AND_INSTALLED_ELEVATORS"
+      },
+      "visible": true
+    }
+  ],
+  "runtime_collections": [
+    "33 GAMEPLAY | RUNTIME PROXIES R30A5",
+    "33.1 RUNTIME | TERRAIN COLLISION",
+    "33.2 RUNTIME | ROAD DRIVEABLE",
+    "33.3 RUNTIME | WALKABLE",
+    "33.4 RUNTIME | CROSSINGS",
+    "33.5 RUNTIME | CURBS",
+    "33.6 RUNTIME | WATER",
+    "33.7 RUNTIME | NAV HINTS"
+  ]
+}

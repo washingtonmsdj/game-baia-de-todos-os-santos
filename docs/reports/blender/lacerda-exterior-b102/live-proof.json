@@ -1,0 +1,51 @@
+{
+  "status": "FOUR_LIFTS_LIVE_ROUND_TRIP_PASSED",
+  "file": "blender/salvador_lacerda_r30b102_corpo_encosta_quatro_elevadores.blend",
+  "scene": "SALVADOR | ESBOCO OFICIAL",
+  "pid": 8792,
+  "visible_session": true,
+  "real_elapsed_s": 55.9853878999711,
+  "viewport_updates": 360,
+  "events": [
+    "ALL_UPPER_OPEN_PORTAL_INTERLOCK_PASSED",
+    "ALL_LOWER_OPEN",
+    "ALL_UPPER_RETURNED"
+  ],
+  "equipment": [
+    {
+      "id": "lacerda-01",
+      "physics_steps": 2880,
+      "max_continuous_displacement_m": 0.05000000000000071,
+      "rider_offset_m": 0.015000000000000568,
+      "station": "upper",
+      "state": "OPEN"
+    },
+    {
+      "id": "lacerda-02",
+      "physics_steps": 2880,
+      "max_continuous_displacement_m": 0.05000000000000071,
+      "rider_offset_m": 0.015000000000000568,
+      "station": "upper",
+      "state": "OPEN"
+    },
+    {
+      "id": "lacerda-03",
+      "physics_steps": 2880,
+      "max_continuous_displacement_m": 0.05000000000000071,
+      "rider_offset_m": 0.015000000000000568,
+      "station": "upper",
+      "state": "OPEN"
+    },
+    {
+      "id": "lacerda-04",
+      "physics_steps": 2880,
+      "max_continuous_displacement_m": 0.05000000000000071,
+      "rider_offset_m": 0.015000000000000568,
+      "station": "upper",
+      "state": "OPEN"
+    }
+  ],
+  "historical_gate": "BLOCKED_EXTERNAL_EVIDENCE",
+  "pedestrian_route_status": "NOT_TESTED_BY_THIS_PROOF",
+  "production_ready": false
+}

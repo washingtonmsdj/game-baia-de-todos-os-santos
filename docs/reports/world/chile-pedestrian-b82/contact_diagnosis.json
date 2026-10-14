@@ -1,0 +1,61 @@
+{
+  "scene_changed": false,
+  "records": [
+    {
+      "route": "CHILE_SIDEWALK_OSM",
+      "stop_reason": "VISIBLE_SUPPORT_NOT_MATCHED",
+      "position": [
+        97.6273719924096,
+        47.57881324764682,
+        66.6766862602543
+      ],
+      "physical_capsule_support_z": 66.6766862602543,
+      "visual_capsule_support_z": 66.61657392515686,
+      "difference": 0.06011233509744329,
+      "visual_min_capsule_distance": 0.36432508298202165,
+      "classification": "NEEDS_REVIEW",
+      "scene_change_authorized": false
+    },
+    {
+      "route": "TOME_TOWARD_MISERICORDIA",
+      "stop_reason": "COLLISION_STEP_SLIDE_BLOCKED",
+      "position": [
+        99.76433270948118,
+        45.93996469847866,
+        65.73526658239813
+      ],
+      "physical_capsule_support_z": 65.73534094991889,
+      "visual_capsule_support_z": 65.736294196382,
+      "difference": -0.0009532464631121229,
+      "visual_min_capsule_distance": 0.314130430020456,
+      "classification": "NEEDS_REVIEW",
+      "scene_change_authorized": false,
+      "witness_triangle": [
+        [
+          99.71993255615234,
+          46.108970642089844,
+          65.67504119873047
+        ],
+        [
+          100.019287109375,
+          46.48639678955078,
+          66.79974365234375
+        ],
+        [
+          99.72093200683594,
+          46.489532470703125,
+          66.87598419189453
+        ]
+      ],
+      "witness_normal": [
+        0.0670098066329956,
+        -0.9511554837226868,
+        0.30135196447372437
+      ],
+      "source_collider": "R30A5 | COLLISION | terrain proxy",
+      "penetration": 0.027719218724891748,
+      "architectural_function": "Terrain proxy triangle; permanent curb/step identity not established"
+    }
+  ],
+  "conclusion": "Local support/clearance discrepancies; no independently proven architectural correction. Keep routes blocked."
+}

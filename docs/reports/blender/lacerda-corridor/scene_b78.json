@@ -1,0 +1,136 @@
+{
+  "revision": "R30B.78",
+  "source_before": {
+    "file": "blender/salvador_lacerda_r30b77b_portas_e_percurso.blend",
+    "revision": "R30B.77B",
+    "sha256": "2318f33cb65d72dc77efc13bc00d46db48188847d5dd405ff042495fda3927f8",
+    "status": "corridor_slice_candidate",
+    "parent_file": "blender/salvador_lacerda_r30b77_corredor_lacerda_cairu.blend",
+    "production_ready": false,
+    "source_reopened": true,
+    "evidence": "docs/reports/blender/lacerda-corridor/scene_b77.json",
+    "notes": "Corredor candidato com colisões separadas, recorte local do consolo e demonstração do elevador. Datum/física na engine/volume varrido completo pendentes.",
+    "validation_evidence": "docs/reports/blender/lacerda-corridor/validation_b77.json"
+  },
+  "baseline_frame": 31978,
+  "ssot_sha256": "1d9da0962d456cb38ed3df0da797208e499a8465f82e9836c14bb337df2385e7",
+  "changed_meshes": [
+    {
+      "object": "SUPERIOR | posterior lateral",
+      "side": 0,
+      "inner_before": -4.699999809265137,
+      "inner_after": -3.000001907348633,
+      "outer_unchanged": -9.299999237060547,
+      "mesh_before": "b12eb04b491b1ff4877855dc62dfc0ca9df93a8340e3d71e1239bfb1b9e00392",
+      "mesh_after": "931245c77be9ca0b535889b694bde2dbf0d0fdb8e326359833f1dc3a8328138e"
+    },
+    {
+      "object": "LAC R30B02 | Lambril marmore | SUPERIOR | posterior lateral",
+      "side": 0,
+      "inner_before": -4.699999809265137,
+      "inner_after": -3.000001907348633,
+      "outer_unchanged": -9.299999237060547,
+      "mesh_before": "b741983571767412f93f414980d22c02877d52eeed516d69ec3c787c4dcd4cac",
+      "mesh_after": "5dc82fde1bcd88daa5d0bfbe4520512a722028b1a70e833c7ee3e353b89f39cc"
+    },
+    {
+      "object": "LAC R30B02 | Rodape escuro | SUPERIOR | posterior lateral",
+      "side": 0,
+      "inner_before": -4.699999809265137,
+      "inner_after": -3.000001907348633,
+      "outer_unchanged": -9.299999237060547,
+      "mesh_before": "043cd5df2d2c831877b116df331b12c484ec18eab515619d258575c6300bb224",
+      "mesh_after": "0fd74ea740341993c003e8ea1435fe1692a8accdf53c616cbc2ce9a0c92892cf"
+    },
+    {
+      "object": "SUPERIOR | posterior lateral.001",
+      "side": 1,
+      "inner_before": 4.700000762939453,
+      "inner_after": 2.999999761581421,
+      "outer_unchanged": 9.300000190734863,
+      "mesh_before": "b12eb04b491b1ff4877855dc62dfc0ca9df93a8340e3d71e1239bfb1b9e00392",
+      "mesh_after": "fd581d997dbcf04c0f997313766085d227f4b67f4732f805bd610d90bf48da38"
+    },
+    {
+      "object": "LAC R30B02 | Lambril marmore | SUPERIOR | posterior lateral.001",
+      "side": 1,
+      "inner_before": 4.700000762939453,
+      "inner_after": 2.999999761581421,
+      "outer_unchanged": 9.300000190734863,
+      "mesh_before": "4bbddc668a366df73cc5c124e005ea8e5e8c10066d7319ccb25807e138f44a53",
+      "mesh_after": "5e21916063568ad744721b40967e67501802129169f20539a762570bff465538"
+    },
+    {
+      "object": "LAC R30B02 | Rodape escuro | SUPERIOR | posterior lateral.001",
+      "side": 1,
+      "inner_before": 4.700000762939453,
+      "inner_after": 2.999999761581421,
+      "outer_unchanged": 9.300000190734863,
+      "mesh_before": "97e9a0ec44928356ef75af10308210f2b13dc68cc3682aa7f58eff43c93d59e6",
+      "mesh_after": "282d2e97ab7eb1368a196a471c2adf2735bfd719db65a25d4c00c4edfd784318"
+    },
+    {
+      "object": "SUPERIOR | posterior sobre passarela",
+      "side": "lintel",
+      "edges_before": [
+        -4.799998760223389,
+        4.800001621246338
+      ],
+      "edges_after": [
+        -3.000001907348633,
+        2.999999761581421
+      ],
+      "mesh_before": "a4b7435050d892e5a7fe1810a4bd3e1322c1220155115ac01933c5a4a6de0324",
+      "mesh_after": "9852d7b2e39aaf6500ea2b65c9ae1415efa25757d3f555505a1cc1380e5800e9"
+    }
+  ],
+  "added_objects": [
+    "B78 | COLLISION | SUPERIOR | posterior lateral",
+    "B78 | COLLISION | SUPERIOR | posterior lateral.001"
+  ],
+  "measurement_frame": [
+    [
+      0.7292261719703674,
+      0.6842727661132812,
+      0.0,
+      -1.3869800567626953
+    ],
+    [
+      -0.6842727661132812,
+      0.7292261719703674,
+      0.0,
+      7.1221923828125
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "opening_before_design_units": 9.4,
+  "opening_after_design_units": 6.000001668930054,
+  "lateral_gap_before_design_units": 1.7,
+  "physical_dimensions_verified": false,
+  "classification": "ERROR",
+  "construction_detail_verified": false,
+  "hero_assets_relocated": false,
+  "terrain_changed": false,
+  "reference_media_ids": [
+    "elevador-lacerda-front-1e24e0731977",
+    "praca-tome-de-sousa-panorama-6ab5f847ddb9"
+  ],
+  "evidence_before": "docs/reports/blender/lacerda-corridor/junction_before_b78.json",
+  "source_after": {
+    "file": "blender/salvador_lacerda_r30b78_encontro_saguao_passarela.blend",
+    "revision": "R30B.78",
+    "sha256": "b79ccf20e4bd1e30895348a742f528754a21ac7212f75b9792cf6794c5437ab0"
+  },
+  "collider_transform_correction": "Auditoria detectou matriz em cache inválida nos proxies intermediários; malha final derivada deterministicamente em mundo, transform identity."
+}

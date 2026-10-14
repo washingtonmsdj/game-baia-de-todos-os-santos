@@ -1,0 +1,75 @@
+{
+  "sources": [
+    {
+      "id": "iphan-tombamento-1497-t-02",
+      "requested_url": "https://portal.iphan.gov.br/uploads/publicacao/pareceres_conselho_consultivo_patrimonio_cultural_vol2.pdf",
+      "retrieved_at": "2026-10-06T12:16:43.027700+00:00",
+      "evidence_class": "OFFICIAL_TEXT",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "scene_mutation_authorized": false,
+      "final_url": "https://www.gov.br/iphan/pt-br",
+      "content_type": "text/html; charset=utf-8",
+      "http_status": 200,
+      "status": "non_pdf_response",
+      "raw_file": "world-reference/mvp-centro-lacerda/research-20261006-issue22/iphan-tombamento-1497-t-02.html",
+      "sha256": "55ceb8a586186764dbd4a0438d6d6c252fe5f49a33c4c7e31cf6965854fdfe23",
+      "bytes": 871510
+    },
+    {
+      "id": "iphan-digital-archive",
+      "requested_url": "https://acervodigital.iphan.gov.br/",
+      "retrieved_at": "2026-10-06T12:16:43.313856+00:00",
+      "evidence_class": "OFFICIAL_ARCHIVE_INDEX",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "scene_mutation_authorized": false,
+      "final_url": "https://acervodigital.iphan.gov.br/xmlui/",
+      "content_type": "text/html;charset=utf-8",
+      "http_status": 200,
+      "status": "non_pdf_response",
+      "raw_file": "world-reference/mvp-centro-lacerda/research-20261006-issue22/iphan-digital-archive.html",
+      "sha256": "112221bc91d5e81fecf903a257a4cc1cd4010adae7e5c97759dacb3c1bd9152d",
+      "bytes": 19994
+    },
+    {
+      "id": "ufba-concreto-salvador-1919-1938",
+      "requested_url": "https://repositorio.ufba.br/bitstream/ri/24863/1/O%20concreto%20armado%20nas%20edifica%C3%A7%C3%B5es%20de%20Salvador%20no%20per%C3%ADodo%20entre%20guerras%20%281919-1938%29.pdf",
+      "retrieved_at": "2026-10-06T12:16:43.420610+00:00",
+      "evidence_class": "ACADEMIC_SECONDARY",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "scene_mutation_authorized": false,
+      "status": "unavailable",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "id": "sucop-concorrencia-24-2023",
+      "requested_url": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "retrieved_at": "2026-10-06T12:17:01.170219+00:00",
+      "evidence_class": "OFFICIAL_DOCUMENT",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "scene_mutation_authorized": false,
+      "final_url": "https://sucop.salvador.ba.gov.br/wp-content/uploads/2023/10/EDITAL-CONCORRENCIA-No-24-2023.pdf",
+      "content_type": "application/pdf",
+      "http_status": 200,
+      "status": "pdf_recovered",
+      "raw_file": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sucop-concorrencia-24-2023.pdf",
+      "sha256": "8116dddb885d394a21668d444dd5da7a2c27f8a60fc33f62efe772098279fef4",
+      "bytes": 1542692
+    },
+    {
+      "id": "sbqp-2025-restoration",
+      "requested_url": "https://eventos.antac.org.br/index.php/sbqp/article/download/8233/6115",
+      "retrieved_at": "2026-10-06T12:17:02.498192+00:00",
+      "evidence_class": "ACADEMIC_TECHNICAL_RECENT",
+      "release_status": "DEV_REFERENCE_ONLY",
+      "scene_mutation_authorized": false,
+      "final_url": "https://eventos.antac.org.br/index.php/sbqp/article/download/8233/6115",
+      "content_type": "application/pdf",
+      "http_status": 200,
+      "status": "pdf_recovered",
+      "raw_file": "world-reference/mvp-centro-lacerda/research-20261006-issue22/sbqp-2025-restoration.pdf",
+      "sha256": "2f13acf4f4a30afc672e24c014857cd8644aa5d5041aac8366f1ed26fd986f23",
+      "bytes": 1889758
+    }
+  ],
+  "geometry_changed": false
+}

@@ -1,0 +1,21 @@
+{
+  "cases": [
+    {
+      "slope": 0,
+      "base_z": 0.015000000000000013,
+      "distance_to_geometry": 0.31499999999999995
+    },
+    {
+      "slope": 0.25,
+      "base_z": 0.024694568017390783,
+      "distance_to_geometry": 0.31499999999999995
+    },
+    {
+      "slope": 0.55,
+      "base_z": 0.05950043463116983,
+      "distance_to_geometry": 0.31499999999999995
+    }
+  ],
+  "outside_finite_faces_has_no_support": true,
+  "scene_changed": false
+}

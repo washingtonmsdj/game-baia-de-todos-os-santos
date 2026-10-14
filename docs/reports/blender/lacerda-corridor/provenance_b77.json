@@ -1,0 +1,65 @@
+{
+  "schema": "boas/scene-provenance-audit-v1",
+  "objects": 6088,
+  "objects_without_binding": 6055,
+  "unknown_examples": [
+    "IMPLANTACAO OSM | ortogonal",
+    "CAM | praça e ribanceira corrigidas",
+    "CAM | mercado MCP",
+    "REVISÃO | aérea terreno contínuo",
+    "REVISÃO | rua Cidade Alta",
+    "INFERIOR R21 | passeio da entrada",
+    "INFERIOR R21 | rebaixo acessível",
+    "INFERIOR R21 | luminária",
+    "INFERIOR R21 | luminária.001",
+    "INFERIOR R21 | luminária.002",
+    "FACHADA INFERIOR R22 | identificação",
+    "OFICIAL | Terminal alto | apoio junto encosta",
+    "OFICIAL | Terminal alto | piso de entrada",
+    "OFICIAL | Entrada superior | parede lateral A",
+    "OFICIAL | Entrada superior | parede lateral B",
+    "OFICIAL | Entrada superior | fachada esquerda",
+    "OFICIAL | Entrada superior | fachada direita",
+    "OFICIAL | Entrada superior | lintel",
+    "OFICIAL | Entrada superior | cobertura",
+    "OFICIAL | Torre externa | parede frontal",
+    "OFICIAL | Torre externa | parede posterior",
+    "OFICIAL | Torre externa | lateral externa",
+    "OFICIAL | Torre externa | lateral acima da porta",
+    "OFICIAL | Torre externa | ombreira inferior A",
+    "OFICIAL | Torre externa | ombreira inferior B",
+    "OFICIAL | Torre | cabecote alargado piso",
+    "OFICIAL | Torre | cabecote cobertura",
+    "OFICIAL | Torre | volume tecnico sobre cabecote",
+    "OFICIAL | Passarela | piso continuo",
+    "OFICIAL | Passarela | cobertura"
+  ],
+  "invalid_resource_ids": [],
+  "materials": 258,
+  "images": [
+    {
+      "image": "R22 esquadria escura texture",
+      "project_file": null,
+      "external_file": true,
+      "sha256": null,
+      "resource_ids": []
+    },
+    {
+      "image": "R22 granito interior texture",
+      "project_file": null,
+      "external_file": true,
+      "sha256": null,
+      "resource_ids": []
+    },
+    {
+      "image": "R22 pedra base quente texture",
+      "project_file": null,
+      "external_file": true,
+      "sha256": null,
+      "resource_ids": []
+    }
+  ],
+  "inventory_file": "artifacts/lacerda-corridor/scene_provenance_b77.json",
+  "release_ready": false,
+  "note": "Binding não equivale a licença aprovada; referências temporárias não foram aplicadas como textura. Exportador deve emitir manifesto completo de objetos, materiais, imagens e arquivos antes de release."
+}

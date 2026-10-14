@@ -43,6 +43,7 @@ def main() -> int:
     parser.add_argument("--fit", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--allow-weak-fit", action="store_true")
+    parser.add_argument("--geographic-ssot", type=Path, help="Recusar fit/origem regional diferente do contrato compartilhado")
     args = parser.parse_args()
 
     structure = load_json(args.structure)
@@ -53,6 +54,12 @@ def main() -> int:
     quality = fit_report.get("quality")
     if not robust:
         raise SystemExit("georef_fit.json não contém robust_fit")
+    ssot=None
+    if args.geographic_ssot:
+        import sys
+        sys.path.insert(0,str(Path(__file__).resolve().parents[2]))
+        from tools.georef.world_reference import read_reference,require_shared_transform
+        ssot=read_reference(args.geographic_ssot);require_shared_transform(robust,ssot)
     if quality not in {"candidate", "strong_candidate"} and not args.allow_weak_fit:
         raise SystemExit(f"fit geográfico fraco/insuficiente: {quality}; use --allow-weak-fit apenas para diagnóstico")
 
@@ -96,6 +103,7 @@ def main() -> int:
             "Não promover correções automáticas enquanto o fit não estiver manualmente validado.",
         ],
     }
+    if ssot:payload['geographic_ssot_id']=ssot['ssot_id']
     write_json(args.output, payload)
     print(json.dumps({"features": len(transformed), "fit_quality": quality, **payload["fit_summary"]}, ensure_ascii=False, indent=2))
     return 0

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "scene_and_ssot_unchanged": true,
+  "controls_schema_checked": 17,
+  "accepted_registration_controls": 0,
+  "witnesses_preserved": 27,
+  "decomposition_verified": true,
+  "scene_modified": false,
+  "CCD_repeated": false,
+  "architectural_registration_approved": false,
+  "engine_physics_tested": false
+}

@@ -1,0 +1,8 @@
+{
+  "revision": "R30B.86",
+  "execution_enabled": false,
+  "expected_session_pid": 16912,
+  "reason": "Aplicação B86 concluída e preservada; autoria ativa B87. Não repetir a mutação da base B85.",
+  "scene_change_confirmed": true,
+  "production_ready": false
+}
